@@ -1,0 +1,131 @@
+/*======================================================================
+ * Containers
+======================================================================*/
+
+body {
+  font: 18px/1.5 sans-serif;
+  color: #333;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+}
+
+#header {
+  border-top: 3px solid #333;
+}
+
+#header .container {
+  padding: 2em 18px;
+  width: 924px;
+}
+
+#footer {
+  border-top: 3px solid #333;
+  padding: 1em;
+}
+
+/*======================================================================
+ * Typography
+======================================================================*/
+
+a {
+  text-decoration: none;
+  color: #09c;
+}
+
+h1 {
+  font: bold 1.5em/1.1 sans-serif;
+  color: #333;
+  margin: 0 0 .25em;
+}
+
+h2 {
+  font-weight: normal;
+  color: #666;
+  margin: 0;
+  font-size: 1em;
+}
+
+h3 {
+  font: bold 1em/1.5 sans-serif;
+}
+
+/*======================================================================
+ * Table
+======================================================================*/
+table {
+  width: 100%;
+}
+table tr {
+  border-top: 1px solid #ddd;
+}
+
+table td {
+  vertical-align: top;
+  padding: 0;
+}
+
+
+
+table td ul {
+  padding: 0 2em;
+  list-style: none;
+}
+
+table td ul li {
+  clear: both;
+}
+
+/*======================================================================
+ * td.section
+======================================================================*/
+
+table td.section {
+  width: 20%;
+  border-right: 1px solid #ddd;
+  padding-left: 1em;
+}
+
+/*======================================================================
+ * td.proprietary
+======================================================================*/
+
+td.prop {
+  width: 30%;
+  border-right: 1px solid #ddd;
+}
+td.prop ul li {
+  line-height: 32px;
+  margin: 0 0 1em;
+}
+td.prop .logo {
+  float: left;
+  margin-right: .75em;
+}
+td.prop .logo img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+
+/*======================================================================
+ * td.free
+======================================================================*/
+
+td.free li {
+  font: bold 30px/100px sans-serif;
+  margin: 0 0 1em;
+  padding-top: 16px;
+}
+td.free .logo {
+  float: left;
+  margin-right: .75em;
+}
+td.free .logo img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
