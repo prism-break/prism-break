@@ -32,6 +32,10 @@ body {
 
 a {
   text-decoration: none;
+  color: #06a;
+}
+a:hover {
+  text-decoration: none;
   color: #09c;
 }
 
@@ -63,14 +67,13 @@ table tr {
 }
 
 table td {
-  vertical-align: top;
   padding: 0;
 }
 
 
 
 table td ul {
-  padding: 0 2em;
+  padding: 0 1.5em;
   list-style: none;
 }
 
@@ -86,6 +89,7 @@ table td.section {
   width: 20%;
   border-right: 1px solid #ddd;
   padding-left: 1em;
+  vertical-align: top;
 }
 
 /*======================================================================
@@ -111,21 +115,48 @@ td.prop .logo img {
 }
 
 
+td.arrow {
+  padding: 0;
+  width: 5%;
+  vertical-align: middle;
+  font: 2em/1 sans-serif;
+  color: #999;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
 /*======================================================================
  * td.free
 ======================================================================*/
 
+td.free {
+  width: 45%;
+}
 td.free li {
-  font: bold 30px/100px sans-serif;
   margin: 0 0 1em;
-  padding-top: 16px;
+  height: 100px;
+  vertical-align: middle;
 }
 td.free .logo {
   float: left;
-  margin-right: .75em;
+  margin-right: 1em;
 }
 td.free .logo img {
   display: block;
   width: 100px;
   height: 100px;
 }
+ td.free li a.name {
+  vertical-align: bottom;
+ }
+td.free li a.name:hover .title {
+  text-decoration: underline;
+}
+   
+ td.free li .name .title {
+  font: bold 1.67em/1.5 sans-serif;
+  display: block;
+  padding-top: 12px;
+}
+ td.free li .name .desc {
+   color: #333;
+ }
