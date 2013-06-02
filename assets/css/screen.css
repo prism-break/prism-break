@@ -18,7 +18,7 @@ body {
 
 #header .container {
   padding: 2em 18px;
-  width: 924px;
+  width: 66%;
 }
 
 #footer {
@@ -40,9 +40,17 @@ a:hover {
 }
 
 h1 {
-  font: bold 1.5em/1.1 sans-serif;
-  color: #333;
+  font: 1em/1 sans-serif;
   margin: 0 0 .25em;
+
+  background: #333;
+  color: #eee;
+  display: inline-block;
+  padding: 18px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  right: 18px;
 }
 
 h2 {
@@ -50,6 +58,9 @@ h2 {
   color: #666;
   margin: 0;
   font-size: 1em;
+}
+h2 strong {
+  color: #333;
 }
 
 h3 {
