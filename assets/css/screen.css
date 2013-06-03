@@ -213,6 +213,7 @@ table td.section {
 td.prop {
   width: 27%;
   border-right: 1px solid #ddd;
+  vertical-align: top;
 }
 td.prop ul li {
   line-height: 32px;
