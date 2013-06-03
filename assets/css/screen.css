@@ -18,9 +18,74 @@ body {
   width: 55%;
 }
 
-#footer {
+/*======================================================================
+ * FSF
+======================================================================*/
+
+#fsf a, #footer a {
+  color: #0ae;
+}
+#fsf a:hover, #footer a:hover {
+  color: #0bf;
+  text-decoration: underline;
+}
+
+#fsf {
+  background: #eee;
+  background: #333;
   border-top: 3px solid #333;
-  padding: 1em;
+  padding: 2em 1em;
+  color: #eee;
+}
+#fsf h2 {
+  font: 1.5em/1.5 sans-serif;
+  color: #eee;
+  margin: 0 0 .667em;
+}
+#fsf h2 strong {
+  color: #fff;
+}
+#fsf blockquote {
+  background: #555;
+  padding: 2em;
+  margin: 0;
+
+}
+#fsf blockquote p {
+  margin: 0 0 1.5em;
+  color: #fff;
+  max-width: 60em;
+}
+#fsf blockquote a {
+  font-weight: bold;
+}
+#fsf blockquote cite {
+  font-style: normal;
+}
+
+/*======================================================================
+ * footer
+======================================================================*/
+
+#footer {
+  padding: .5em 0 .5em;
+  background: #333;
+  color: #eee;
+  border-top: 1px solid #777;
+}
+#footer ul {
+  list-style: none;
+  padding: 0;
+  height: 27px;
+}
+#footer ul li {
+  float: left;
+  border-right: 1px solid #777;
+  padding-right: 1em;
+  margin-left: 1em;
+}
+#footer ul li.last {
+  border: none;
 }
 
 /*======================================================================
