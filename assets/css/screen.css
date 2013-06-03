@@ -36,6 +36,14 @@ a:hover {
   color: #09c;
 }
 
+.fs {
+  background: #aaa;
+  font: 12px/1.5 sans-serif;
+  display: inline-block;
+  color: #fff;
+  padding: 0 .5em;
+}
+
 #eff {
   height: 54px;
   background: #333;
@@ -138,7 +146,7 @@ table td.section {
 ======================================================================*/
 
 td.prop {
-  width: 30%;
+  width: 27%;
   border-right: 1px solid #ddd;
 }
 td.prop ul li {
@@ -170,7 +178,7 @@ td.arrow {
 ======================================================================*/
 
 td.free {
-  width: 45%;
+  width: 48%;
 }
 td.free li {
   margin: 0 0 1em;
@@ -183,8 +191,8 @@ td.free .logo {
 }
 td.free .logo img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
  td.free li a.name {
   vertical-align: bottom;
@@ -194,9 +202,9 @@ td.free li a.name:hover .title {
 }
    
  td.free li .name .title {
-  font: bold 1.67em/1.5 sans-serif;
+  font: bold 1.5em/1.5 sans-serif;
   display: block;
-  padding-top: 12px;
+  padding-top: 7px;
 }
  td.free li .name .desc {
    color: #333;
