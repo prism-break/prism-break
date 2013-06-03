@@ -9,16 +9,13 @@ body {
   width: 100%;
 }
 
-.container {
-}
-
 #header {
   border-top: 3px solid #333;
 }
 
 #header .container {
   padding: 2em 18px;
-  width: 66%;
+  width: 55%;
 }
 
 #footer {
@@ -39,19 +36,52 @@ a:hover {
   color: #09c;
 }
 
-h1 {
-  font: 1em/1 sans-serif;
-  margin: 0 0 .25em;
-
+#eff {
+  height: 54px;
   background: #333;
-  color: #eee;
-  display: inline-block;
-  padding: 18px;
-  position: absolute;
-  text-transform: uppercase;
-  top: 0;
-  right: 18px;
+  float: left;
+  margin-right: 9px;
+  vertical-align: top;
 }
+
+#eff a {
+  display: block;
+  color: #eee;
+  padding: 0 18px 0 14px;
+}
+#eff a img {
+  display: block;
+  margin-top: 9px;
+  margin-right: .5em;
+  float: left;
+}
+#eff a .label {
+  display: block;
+  float: left;
+  font: 16px/54px sans-serif;
+}
+#eff a:hover .label {
+  color: #fff;
+}
+#top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+h1 {
+  width: 124px;
+  height: 54px;
+  font: 1em/3 sans-serif;
+  padding: 0 18px;
+  margin: 0 18px 0 0;
+  color: #eee;
+  background: #333;
+  text-transform: uppercase;
+  float: left;
+}
+
 
 h2 {
   font-weight: normal;
