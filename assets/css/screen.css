@@ -245,10 +245,11 @@ td.arrow {
 
 td.free {
   width: 48%;
+  vertical-align: top;
 }
 td.free li {
-  margin: 0 0 1em;
-  height: 100px;
+  margin: 0 0 1.5em;
+  height: 60px;
   vertical-align: middle;
 }
 td.free .logo {
@@ -257,8 +258,8 @@ td.free .logo {
 }
 td.free .logo img {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
  td.free li a.name {
   vertical-align: bottom;
@@ -268,9 +269,9 @@ td.free li a.name:hover .title {
 }
    
  td.free li .name .title {
-  font: bold 1.5em/1.5 sans-serif;
+  font: bold 1.25em/1.5 sans-serif;
   display: block;
-  padding-top: 7px;
+  padding-top: 2px;
 }
  td.free li .name .desc {
    color: #333;
