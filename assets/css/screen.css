@@ -207,6 +207,13 @@ table td ul {
 table td ul li {
   clear: both;
 }
+table td ul li:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
 
 /*======================================================================
  * td.section
@@ -262,8 +269,6 @@ td.free {
 }
 td.free li {
   margin: 0 0 1.5em;
-  height: 60px;
-  vertical-align: middle;
 }
 td.free .logo {
   float: left;
@@ -271,8 +276,8 @@ td.free .logo {
 }
 td.free .logo img {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
  td.free li a.name {
   vertical-align: bottom;
@@ -282,9 +287,8 @@ td.free li a.name:hover .title {
 }
    
  td.free li .name .title {
-  font: bold 1.25em/1.5 sans-serif;
+  font: bold 1.25em/1.25 sans-serif;
   display: block;
-  padding-top: 2px;
 }
  td.free li .name .desc {
    color: #333;
