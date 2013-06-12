@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM BREAK</title>
+    <title id="head-title">Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM BREAK</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/screen.css">
     <meta name="description" content="Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.">
     <meta name="author" content="Peng Zhong">
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
     <link rel="canonical" href="/">
   </head>
 
@@ -18,15 +19,26 @@
       <div id="eff">
         <a href="https://www.eff.org/action">
           <img src="assets/img/free/eff.png" alt="Electronic Frontier Foundation">
-          <span class="label">Action Center</span>
+          <span class=" label"><span class="i18n-action-center">Action Center</span></span>
         </a>
       </div>
-      <h1><strong>PRISM</strong> Break</h1>
+      <div id="brand">
+        <h1><strong>PRISM</strong> Break</h1>
+        <!--
+        <select id="lang-select">
+          <option id="lang-nl">Dutch</option>
+          <option id="lang-en" selected="selected">English</option>
+          <option id="lang-de">German</option>
+          <option id="lang-fr">French</option>
+          <option id="lang-pt">Portuguese</option>
+        </select>
+        -->
+      </div>
     </div>
 
     <div id="header">
       <div class="container">
-        <h2><strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.</h2>
+        <h2><span class="i18n-intro"><strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.</span></h2>
       </div>
     </div>
 
@@ -35,7 +47,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Operating system</h3>
+            <h3><span class="i18n-operating-system">Operating system</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -60,7 +72,9 @@
                 <a class="logo" href="https://www.gnu.org/distros/free-distros.html"><img src="assets/img/free/linux.png"></a>
                 <a class="name" href="https://www.gnu.org/distros/free-distros.html">
                   <span class="title">GNU/Linux</span>
-                  <span class="desc">Free, open source operating system.</span>
+                  <span class="desc">
+                    <span class="i18n-gnulinux-desc">Free, open source operating system.</span>
+                  </span>
                 </a>
               </li>
               <li>
@@ -68,7 +82,7 @@
                 <a class="name" href="http://www.debian.org/">
                   <span class="title">Debian</span>
                   <span class="desc">
-                    Popular ethical GNU/Linux distribution.
+                    <span class="i18n-debian-desc">Popular ethical GNU/Linux distribution.</span>
                   </span>
                 </a>
               </li>
@@ -77,14 +91,18 @@
                 <a class="logo" href="https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems"><img src="assets/img/free/bsd.png"></a>
                 <a class="name" href="https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems">
                   <span class="title">*BSD</span>
-                  <span class="desc">FreeBSD, OpenBSD, NetBSD, PC-BSD.</span>
+                  <span class="desc">
+                    <span class="i18n-bsd-desc">FreeBSD, OpenBSD, NetBSD, PC-BSD.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="https://tails.boum.org/"><img src="assets/img/free/tails.png"></a>
                 <a class="name" href="https://tails.boum.org/">
                   <span class="title">Tails</span>
-                  <span class="desc">Live CD/USB designed for privacy.</span>
+                  <span class="desc">
+                    <span class="i18n-tails-desc">Live CD/USB designed for privacy.</span>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -93,7 +111,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Web browser</h3>
+            <h3><span class="i18n-web-browser">Web browser</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -118,8 +136,9 @@
                 <a class="logo" href="http://www.gnu.org/software/gnuzilla/"><img src="assets/img/free/icecat.png"></a>
                 <a class="name" href="http://www.gnu.org/software/gnuzilla/">
                   <span class="title">GNUzilla IceCat</span>
-                  <span class="desc">GNU version of Firefox.
-                    <span class="fs">add-torbutton</span>
+                  <span class="desc">
+                    <span class="i18n-icecat-desc">GNU version of Firefox.</span>
+                    <span class="fs"><span class="i18n-add">add</span>-torbutton</span>
                   </span>
                 </a>
               </li>
@@ -128,9 +147,9 @@
                 <a class="name" href="http://www.mozilla.org/en-US/firefox/new/">
                   <span class="title">Mozilla Firefox</span>
                   <span class="desc">
-                    Open source web browser.
-                    <span class="fs">add-torbutton</span>
-                    <span class="fs">mostly free*</span>
+                    <span class="i18n-firefox-desc">Open source web browser.</span>
+                    <span class="fs"><span class="i18n-add">add</span>-torbutton</span>
+                    <span class="fs i18n-mostly-free">mostly free*</span>
                   </span>
                 </a>
               </li>
@@ -139,8 +158,8 @@
                 <a class="name" href="https://www.torproject.org/index.html.en">
                   <span class="title">Tor Browser Bundle</span>
                   <span class="desc">
-                    Encrypted, anonymous browsing.  
-                    <span class="fs">mostly free*</span>
+                    <span class="i18n-torbrowser-desc">Encrypted, anonymous browsing.</span>
+                    <span class="fs i18n-mostly-free">mostly free*</span>
                   </span>
                 </a>
               </li>
@@ -150,7 +169,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Web browser plugins</h3>
+            <h3><span class="i18n-web-browser-plugins">Web browser plugins</span></h3>
           </td>
           <td class="prop">
           </td>
@@ -161,7 +180,8 @@
                 <a class="logo" href="http://fixtracking.com/"><img src="assets/img/free/fixtracking.png"></a>
                 <a class="name" href="http://fixtracking.com/">
                   <span class="title">Fix Tracking!</span>
-                  <span class="desc">Guide to stop getting tracked online.
+                  <span class="desc">
+                    <span class="i18n-fixtracking-desc">Guide to stop getting tracked online.</span>
                   </span>
                 </a>
               </li>
@@ -170,8 +190,8 @@
                 <a class="name" href="https://www.torproject.org/index.html.en">
                   <span class="title">Torbutton</span>
                   <span class="desc">
-                    Tor plugin for IceCat and Firefox.
-                    <span class="fs">advanced</span>
+                    <span class="i18n-torbutton-desc">Tor plugin for IceCat and Firefox.</span>
+                    <span class="fs i18n-advanced">advanced</span>
                   </span>
                 </a>
               </li>
@@ -181,7 +201,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Web search</h3>
+            <h3><span class="i18n-web-search">Web search</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -206,35 +226,38 @@
                 <a class="logo" href="https://duckduckgo.com/"><img src="assets/img/free/duckduckgo.png"></a>
                 <a class="name" href="https://duckduckgo.com">
                   <span class="title">DuckDuckGo</span>
-                  <span class="desc">Anonymous, unlogged web searches. <span class="fs">partly proprietary*</span></span>
-                </a>
-              </li>
-              <li>
-                <a class="logo" href="http://startpage.com/"><img src="assets/img/free/startpage.png"></a>
-                <a class="name" href="https://startpage.com">
-                  <span class="title">Startpage</span>
-                  <span class="desc">Private, unlogged web searches. <span class="fs">proprietary*</span></span>
+                  <span class="desc">
+                    <span class="i18n-duckduckgo-desc">Anonymous, unlogged web searches.</span>
+                    <span class="fs i18n-partly-proprietary">partly proprietary*</span>
+                   </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://www.seeks-project.info/site/"><img src="assets/img/free/seeks.png"></a>
                 <a class="name" href="http://www.seeks-project.info/site/">
                   <span class="title">Seeks Project</span>
-                  <span class="desc">Open decentralized platform for collaborative search.</span>
+                  <span class="desc">
+                    <span class="i18n-seeksproject-desc">Open decentralized platform for collaborative search.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://startpage.com/"><img src="assets/img/free/startpage.png"></a>
                 <a class="name" href="https://startpage.com">
                   <span class="title">Startpage</span>
-                  <span class="desc">Private, unlogged web searches. <span class="fs">proprietary*</span></span>
+                  <span class="desc">
+                    <span class="i18n-startpage-desc">Private, unlogged web searches.</span>
+                    <span class="fs i18n-proprietary">proprietary*</span></span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://www.yacy.net/"><img src="assets/img/free/yacy.png"></a>
                 <a class="name" href="http://www.yacy.net/">
                   <span class="title">YaCy</span>
-                  <span class="desc">Decentralized web search.</span>
+                  <span class="desc">
+                    <span class="i18n-yacy-desc">Decentralized web search.</span>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -243,7 +266,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Online transactions</h3>
+            <h3><span class="i18n-online-transactions">Online transactions</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -264,7 +287,9 @@
                 <a class="logo" href="http://bitcoin.org/"><img src="assets/img/free/bitcoin.png"></a>
                 <a class="name" href="http://bitcoin.org/">
                   <span class="title">Bitcoin</span>
-                  <span class="desc">P2P digital currency with no central authority.</span>
+                  <span class="desc">
+                    <span class="i18n-bitcoin-desc">P2P digital currency with no central authority.</span>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -273,7 +298,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Email services</h3>
+            <h3><span class="i18n-email-services">Email services</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -299,7 +324,7 @@
                 <a class="name" href="https://bitmessage.org/">
                   <span class="title">Bitmessage</span>
                   <span class="desc">
-                    Encrypted, decentralized email server.
+                    <span class="i18n-bitmessage-desc">Encrypted, decentralized email server.</span>
                     <span class="fs">beta</span>
                   </span>
                 </a>
@@ -307,10 +332,10 @@
               <li>
                 <a class="logo" href="https://riseup.net/en"><img src="assets/img/free/riseup.png"></a>
                 <a class="name" href="https://riseup.net/en">
-                  <span class="title">Riseup</span>
+                  <span class="title">RiseUp</span>
                   <span class="desc">
-                    Secure and private email accounts.
-                    <span class="fs">invite-only</span>
+                    <span class="i18n-riseup-desc">Secure and private email accounts.</span>
+                    <span class="fs i18n-invite-only">invite-only</span>
                   </span>
                 </a>
               </li>
@@ -321,7 +346,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Email desktop clients</h3>
+            <h3><span class="i18n-email-clients">Email desktop clients</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -344,7 +369,7 @@
                 <a class="name" href="http://directory.fsf.org/wiki/Icedove">
                   <span class="title">Icedove</span>
                   <span class="desc">
-                    Free version of Mozilla Thunderbird.
+                    <span class="i18n-icedove-desc">Free version of Mozilla Thunderbird.</span>
                   </span>
                 </a>
               </li>
@@ -354,8 +379,8 @@
                 <a class="name" href="https://www.mozilla.org/en-US/thunderbird/">
                   <span class="title">Mozilla Thunderbird</span>
                   <span class="desc">
-                    Open source email application.
-                    <span class="fs">mostly free*</span>
+                    <span class="i18n-thunderbird-desc">Open source email application.</span>
+                    <span class="fs i18n-mostly-free">mostly free*</span>
                   </span>
                 </a>
               </li>
@@ -365,7 +390,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Email encryption</h3>
+            <h3><span class="i18n-email-encryption">Email encryption</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -378,28 +403,36 @@
                 <a class="logo" href="http://www.enigmail.org/"><img src="assets/img/free/enigmail.png"></a>
                 <a class="name" href="http://www.enigmail.org/">
                   <span class="title">Enigmail</span>
-                  <span class="desc">An OpenPGP plugin for Thunderbird/Icedove.</span>
+                  <span class="desc">
+                    <span class="i18n-enigmail-desc">An OpenPGP plugin for Thunderbird/Icedove.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://www.gnupg.org/"><img src="assets/img/free/gnupg.png"></a>
                 <a class="name" href="http://www.gnupg.org/">
                   <span class="title">GNU Privacy Guard</span>
-                  <span class="desc">Free OpenPGP implementation.</span>
+                  <span class="desc">
+                    <span class="i18n-gnuprivacyguard-desc">Free OpenPGP implementation.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://www.mailvelope.com/"><img src="assets/img/free/mailvelope.png"></a>
                 <a class="name" href="http://www.mailvelope.com/">
                   <span class="title">Mailvelope</span>
-                  <span class="desc">OpenPGP encryption for webmail.</span>
+                  <span class="desc">
+                    <span class="i18n-mailvelope-desc">OpenPGP encryption for webmail.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://webpg.org/"><img src="assets/img/free/webpg.png"></a>
                 <a class="name" href="http://webpg.org/">
                   <span class="title">WebPG</span>
-                  <span class="desc">GnuPG/PGP in your browser.</span>
+                  <span class="desc">
+                    <span class="i18n-webpg-desc">GnuPG/PGP in your browser.</span>
+                  </span>
                 </a>
               </li>
 
@@ -409,7 +442,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Maps</h3>
+            <h3><span class="i18n-maps">Maps</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -430,7 +463,9 @@
                 <a class="logo" href="http://www.openstreetmap.org/"><img src="assets/img/free/openstreetmap.png"></a>
                 <a class="name" href="http://www.openstreetmap.org/">
                   <span class="title">OpenStreetMap</span>
-                  <span class="desc">Free, collaborative world wide map.</span>
+                  <span class="desc">
+                    <span class="i18n-openstreetmap-desc">Free, collaborative world wide map.</span>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -439,7 +474,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Cloud storage</h3>
+            <h3><span class="i18n-cloud-storage">Cloud storage</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -468,21 +503,27 @@
                 <a class="logo" href="http://owncloud.org/"><img src="assets/img/free/owncloud.png"></a>
                 <a class="name" href="http://owncloud.org/">
                   <span class="title">ownCloud</span>
-                  <span class="desc">Cloud data in your control.</span>
+                  <span class="desc">
+                    <span class="i18n-owncloud-desc">Cloud data in your control.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://sparkleshare.org/"><img src="assets/img/free/sparkleshare.png"></a>
                 <a class="name" href="http://sparkleshare.org/">
                   <span class="title">Sparkleshare</span>
-                  <span class="desc">Self-hosted version control and file sync.</span>
+                  <span class="desc">
+                    <span class="i18n-sparkleshare-desc">Self-hosted version control and file sync.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="https://tahoe-lafs.org/trac/tahoe-lafs"><img src="assets/img/free/tahoe-lafs.png"></a>
                 <a class="name" href="https://tahoe-lafs.org/trac/tahoe-lafs">
                   <span class="title">Tahoe-LAFS</span>
-                  <span class="desc">Free and open cloud storage system.</span>
+                  <span class="desc">
+                    <span class="i18n-tahoelafs-desc">Free and open cloud storage system.</span>
+                  </span>
                 </a>
               </li>
 
@@ -492,7 +533,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Social networking</h3>
+            <h3><span class="i18n-social-networking">Social networking</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -523,21 +564,27 @@
               </a>
               <a class="name" href="https://joindiaspora.com/">
                 <span class="title">Diaspora*</span>
-                <span class="desc">Community-run, distributed social network.</span>
+                <span class="desc">
+                  <span class="i18n-diaspora-desc">Community-run, distributed social network.</span>
+                </span>
               </a>
             </li>
             <li>
               <a class="logo" href="http://friendica.com/"><img src="assets/img/free/friendica.png"></a>
               <a class="name" href="http://friendica.com/">
                 <span class="title">Friendica</span>
-                <span class="desc">Open source, free social web server.</span>
+                <span class="desc">
+                  <span class="i18n-friendica-desc">Open source, free social web server.</span>
+                </span>
               </a>
             </li>
             <li>
               <a class="logo" href="https://www.gnu.org/software/social/"><img src="assets/img/free/gnusocial.png"></a>
               <a class="name" href="https://www.gnu.org/software/social/">
                 <span class="title">GNU Social</span>
-                <span class="desc">Self-hosted, decentralized social network.</span>
+                <span class="desc">
+                  <span class="i18n-gnusocial-desc">Self-hosted, decentralized social network.</span>
+                </span>
               </a>
             </li>
             <li>
@@ -545,27 +592,29 @@
               <a class="name" href="http://movim.eu/">
                 <span class="title">Movim</span>
                 <span class="desc">
-                  Private, decentralized social network server.
+                  <span class="i18n-movim-desc">Private, decentralized social network server.</span>
                   <span class="fs">xmpp/jabber</span>
                 </span>
               </a>
             </li>
-
             <li>
               <a class="logo" href="http://pump.io/"><img src="assets/img/free/pumpio.png"></a>
               <a class="name" href="http://pump.io">
                 <span class="title">pump.io</span>
-                <span class="desc">Self-hosted social stream server.</span>
+                <span class="desc">
+                  <span class="i18n-pumpio-desc">Self-hosted social stream server.</span>
+                </span>
               </a>
-              <li>
-                <a class="logo" href="https://tent.io/"><img src="assets/img/free/tentio.png"></a>
-                <a class="name" href="https://tent.io/">
-                  <span class="title">Tent</span>
-                  <span class="desc">
-                    Free, autonomous social network protocol.
-                  </span>
-                </a>
-              </li>
+            </li>
+            <li>
+              <a class="logo" href="https://tent.io/"><img src="assets/img/free/tentio.png"></a>
+              <a class="name" href="https://tent.io/">
+                <span class="title">Tent</span>
+                <span class="desc">
+                  <span class="i18n-tent-desc">Free, autonomous social network protocol.</span>
+                </span>
+              </a>
+            </li>
 
             </ul>
           </td>
@@ -573,7 +622,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Instant messaging</h3>
+            <h3><span class="i18n-instant-messaging">Instant messaging</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -602,7 +651,9 @@
                 <a class="logo" href="https://crypto.cat/"><img src="assets/img/free/cryptocat.png"></a>
                 <a class="name" href="https://crypto.cat/">
                   <span class="title">Cryptocat</span>
-                  <span class="desc">Private, encrypted online conversations.</span>
+                  <span class="desc">
+                    <span class="i18n-cryptocat-desc">Private, encrypted online conversations.</span>
+                  </span>
                 </a>
               </li>
 
@@ -610,7 +661,9 @@
                 <a class="logo" href="http://www.cypherpunks.ca/otr/"><img src="assets/img/free/otr.png"></a>
                 <a class="name" href="http://www.cypherpunks.ca/otr/">
                   <span class="title">Off-the-Record Messaging (OTR)</span>
-                  <span class="desc">Install and enable in Pidgin for encrypted chat.</span>
+                  <span class="desc">
+                    <span class="i18n-otr-desc">Install and enable in Pidgin for encrypted chat.</span>
+                  </span>
                 </a>
               </li>
               <li>
@@ -618,7 +671,7 @@
                 <a class="name" href="http://www.pidgin.im/">
                   <span class="title">Pidgin</span>
                   <span class="desc">
-                    Open source chat program.
+                    <span class="i18n-pidgin-desc">Open source chat program.</span>
                     <span class="fs">xmpp/jabber</span>
                     <span class="fs">otr</span>
                   </span>
@@ -629,18 +682,17 @@
                 <a class="name" href="http://adium.im/">
                   <span class="title">Adium</span>
                   <span class="desc">
-                    Pidgin for OS X (remember to enable OTR).
+                    <span class="i18n-adium-desc">Pidgin for OS X (remember to enable OTR).</span>
                     <span class="fs">xmpp/jabber</span>
                   </span>
                 </a>
               </li>
-
               <li>
                 <a class="logo" href="http://retroshare.sourceforge.net/"><img src="assets/img/free/retroshare.png"></a>
                 <a class="name" href="http://retroshare.sourceforge.net/">
                   <span class="title">RetroShare</span>
                   <span class="desc">
-                    Free, secure, P2P communications platform.
+                    <span class="i18n-retroshare-desc">Free, secure, P2P communications platform.</span>
                   </span>
                 </a>
               </li>
@@ -650,7 +702,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Video conferencing/VOIP</h3>
+            <h3><span class="i18n-video-voip">Video conferencing/VOIP</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -680,7 +732,7 @@
                 <a class="name" href="https://jitsi.org/">
                   <span class="title">Jitsi</span>
                   <span class="desc">
-                    Encrypted text and video chat.
+                    <span class="i18n-jitsi-desc">Encrypted text and video chat.</span>
                     <span class="fs">xmpp/jabber</span>
                     <span class="fs">sip</span>
                   </span>
@@ -691,7 +743,7 @@
                 <a class="name" href="http://mumble.sourceforge.net/">
                   <span class="title">Mumble</span>
                   <span class="desc">
-                    Encrypted, low-latency voice chat.
+                    <span class="i18n-mumble-desc">Encrypted, low-latency voice chat.</span>
                   </span>
                 </a>
               </li>
@@ -703,7 +755,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Media publishing</h3>
+            <h3><span class="i18n-media-publishing">Media publishing</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -738,28 +790,36 @@
                 <a class="logo" href="http://mediagoblin.org/"><img src="assets/img/free/mediagoblin.png"></a>
                 <a class="name" href="http://mediagoblin.org/">
                   <span class="title">GNU MediaGoblin</span>
-                  <span class="desc">Decentralized media publishing platform.</span>
+                  <span class="desc">
+                    <span class="i18n-gnumediagoblin-desc">Decentralized media publishing platform.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://piwigo.org/"><img src="assets/img/free/piwigo.png"></a>
                 <a class="name" href="http://piwigo.org/">
                   <span class="title">Piwigo</span>
-                  <span class="desc">Free photo gallery platform.</span>
-                </a>
-              </li>
-              <li>
-                <a class="logo" href="http://www.zenphoto.org/"><img src="assets/img/free/zenphoto.png"></a>
-                <a class="name" href="http://www.zenphoto.org/">
-                  <span class="title">Zenphoto</span>
-                  <span class="desc">Free media website CMS.</span>
+                  <span class="desc">
+                    <span class="i18n-piwigo-desc">Free photo gallery platform.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://wordpress.org/"><img src="assets/img/free/wordpress.png"></a>
                 <a class="name" href="http://wordpress.org/">
                   <span class="title">WordPress</span>
-                  <span class="desc">Free website/blog CMS.</span>
+                  <span class="desc">
+                    <span class="i18n-wordpress-desc">Free website/blog CMS.</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a class="logo" href="http://www.zenphoto.org/"><img src="assets/img/free/zenphoto.png"></a>
+                <a class="name" href="http://www.zenphoto.org/">
+                  <span class="title">Zenphoto</span>
+                  <span class="desc">
+                    <span class="i18n-zenphoto-desc">Free media website CMS.</span>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -768,7 +828,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Document collaboration</h3>
+            <h3><span class="i18n-document-collaboration">Document collaboration</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -785,14 +845,18 @@
                 <a class="logo" href="http://ethercalc.org/"><img src="assets/img/free/ethercalc.png"></a>
                 <a class="name" href="http://ethercalc.org/">
                   <span class="title">Ethercalc</span>
-                  <span class="desc">Multi-user spreadsheet server.</span>
+                  <span class="desc">
+                    <span class="i18n-ethercalc-desc">Multi-user spreadsheet server.</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a class="logo" href="http://etherpad.org/"><img src="assets/img/free/etherpad.png"></a>
                 <a class="name" href="http://etherpad.org/">
                   <span class="title">Etherpad</span>
-                  <span class="desc">Open source, real-time collaborative documents.</span>
+                  <span class="desc">
+                    <span class="i18n-etherpad-desc">Open source, real-time collaborative documents.</span>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -801,7 +865,7 @@
 
         <tr>
           <td class="section" >
-            <h3>Web analytics</h3>
+            <h3><span class="i18n-web-analytics">Web analytics</span></h3>
           </td>
           <td class="prop">
             <ul>
@@ -818,7 +882,9 @@
                 <a class="logo" href="http://piwik.org/"><img src="assets/img/free/piwik.png"></a>
                 <a class="name" href="http://piwik.org/">
                   <span class="title">Piwik</span>
-                  <span class="desc">Open source, self-hosted web analytics.</span>
+                  <span class="desc">
+                    <span class="i18n-piwik-desc">Open source, self-hosted web analytics.</span>
+                  </span>
                 </a>
               </li>
             </ul>
@@ -852,7 +918,7 @@
                   <span class="title">CyanogenMod</span>
                   <span class="desc">
                     Aftermarket firmware for Android phones.
-                    <span class="fs">mostly free*</span>
+                    <span class="fs i18n-mostly-free">mostly free*</span>
                   </span>
                 </a>
               </li>
@@ -881,7 +947,7 @@
                   <span class="title">RedPhone</span>
                   <span class="desc">
                     Secure private calls for Android.
-                    <span class="fs">mostly free*</span>
+                    <span class="fs i18n-mostly-free">mostly free*</span>
                   </span>
                 </a>
               </li>
@@ -901,7 +967,7 @@
                   <span class="title">TextSecure</span>
                   <span class="desc">
                     Secure SMS/MMS communication for Android.
-                    <span class="fs">mostly free*</span>
+                    <span class="fs i18n-mostly-free">mostly free*</span>
                   </span>
                 </a>
               </li>
@@ -960,32 +1026,32 @@
 
         <tr>
           <td colspan="4" id="fsf" class="bottom">
-            <h2>*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.</h2>
+            <h2><span class="i18n-fsf-definition-title">*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.</span></h2>
             <blockquote>
-              <p>&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.  <a href="http://www.gnu.org/philosophy/free-sw.html">(more &hellip;)</a></p>
+              <p><span class="i18n-fsf-quote">&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.</span>  <a href="http://www.gnu.org/philosophy/free-sw.html">(<span class="i18n-more">more &hellip;</span>)</a></p>
 
-              <cite>&mdash;The <a href="http://www.fsf.org/">Free Software Foundation</a></cite>
+              <cite>&mdash;<span class="i18n-the">The</span> <a href="http://www.fsf.org/">Free Software Foundation</a></cite>
             </blockquote>
           </td>
         </tr>
 
         <tr>
           <td colspan="4" id="press" class="bottom">
-            <h2>Mentioned by the media.</h2>
+            <h2><span class="i18n-media-title">Mentioned by the media.</span></h2>
 
-            <h3>Dutch</h3>
+            <h3><span class="i18n-dutch">Dutch</span></h3>
             <ul>
               <li>
                 <span class="author">Pruyn, Rowald.</span>
                 <a class="title" href="http://www.zdnet.be/article/149845/website-wijst-hoe-je-van-spionage-prism-afkomt/">
                   &ldquo;Website wijst hoe je van spionage PRISM afkomt.&rdquo;
                 </a>
-                <span class="website">ZDNet.</span>
-                <span class="date">11 June 2013.</span>
+                <span class="website">ZDNet.be.</span>
+                <span class="date">2013-06-11.</span>
               </li>
             </ul>
 
-            <h3>English</h3>
+            <h3><span class="i18n-english">English</span></h3>
             <ul>
               <li>
                 <span class="author">/r/technology</span>
@@ -993,7 +1059,7 @@
                   &ldquo;How to opt out of PRISM, the NSA&rsquo;s global data surveillance program.&rdquo;
                 </a>
                 <span class="website">Reddit.</span>
-                <span class="date">10 June 2013.</span>
+                <span class="date">2013-06-10.</span>
               </li>
               <li>
                 <span class="author">Keiser, Max.</span>
@@ -1001,7 +1067,7 @@
                   &ldquo;Site of the day: prism-break.org.&rdquo;
                 </a>
                 <span class="website">Max Keiser Financial War Reports.</span>
-                <span class="date">11 June 2013.</span>
+                <span class="date">2013-06-11.</span>
               </li>
               <li>
                 <span class="author">Neagle, Colin.</span>
@@ -1009,7 +1075,7 @@
                   &ldquo;How to opt out of PRISM, the NSA&rsquo;s spying program.&rdquo;
                 </a>
                 <span class="website">Network World</span>
-                <span class="date">10 June 2013.</span>
+                <span class="date">2013-06-10.</span>
               </li>
               <li>
                 <span class="author">Walton, Zach.</span>
@@ -1017,19 +1083,28 @@
                   &ldquo; Don&rsquo;t Trust Tech Companies With Your Data? Use These Alternatives .&rdquo;
                 </a>
                 <span class="website">WebProNews</span>
-                <span class="date">10 June 2013.</span>
+                <span class="date">2013-06-10.</span>
               </li>
             </ul>
 
-            <h3>French</h3>
+            <h3><span class="i18n-french">French</span></h3>
             <ul>
+              <li>
+                <span class="author">Duvauchelle, Antoine</span>
+                <a class="title" href="http://www.zdnet.fr/actualites/prism-la-fronde-s-organise-en-europe-et-aux-etats-unis-39791319.htm">
+                  &ldquo; PRISM : la fronde s'organise en Europe et aux Etats-Unis&rdquo;
+                </a>
+                <span class="website">ZDNet.fr.</span>
+                <span class="date">2013-06-12.</span>
+              </li>
+
               <li>
                 <span class="author">Big Browser.</span>
                 <a class="title" href="http://bigbrowser.blog.lemonde.fr/2013/06/11/prism-comment-passer-entre-les-mailles-de-la-surveillance-dinternet/">
                   &ldquo;PRISM &mdash; Comment passer entre les mailles de la surveillance d&rsquo;Internet ?&rdquo;
                 </a>
                 <span class="website">Le Monde.</span>
-                <span class="date">11 June 2013.</span>
+                <span class="date">2013-06-11.</span>
               </li>
               <li>
                 <span class="author">L., Julien.</a>
@@ -1037,7 +1112,7 @@
                   &ldquo;PRISM : des logiciels et services alternatifs pour limiter la surveillance.&rdquo;
                 </a>
                 <span class="website">Numerama.</span>
-                <span class="date">11 June 2013.</span>
+                <span class="date">2013-06-11.</span>
               </li>
               <li>
                 <span class="author">Pelletier, Nicolas.</span>
@@ -1045,11 +1120,11 @@
                   &ldquo;Surveillance : comment contourner le programme Prism.&rdquo;
                 </a>
                 <span class="website">Rue89.</span>
-                <span class="date">11 June 2013.</span>
+                <span class="date">2013-06-11.</span>
               </li>
             </ul>
 
-            <h3>German</h3>
+            <h3><span class="i18n-german">German</span></h3>
             <ul>
               <li>
                 <span class="author">Fennen, Nicolas.</span>
@@ -1057,11 +1132,11 @@
                   &ldquo;PRISM-Break: Mit dieser Software der NSA-Spionage entgehen.&rdquo;
                 </a>
                 <span class="website">Netzpolitik.org.</span>
-                <span class="date">11 June 2013.</span>
+                <span class="date">2013-06-11.</span>
               </li>
             </ul>
 
-            <h3>Polish</h3>
+            <h3><span class="i18n-polish">Polish</span></h3>
             <ul>
               <li>
                 <span class="author">fabek.</span>
@@ -1069,7 +1144,7 @@
                   &ldquo;Nie daj się szpiegować - PRISM BREAK.&rdquo;
                 </a>
                 <span class="website">Wykop.pl.</span>
-                <span class="date">11 June 2013.</span>
+                <span class="date">2013-06-11.</span>
               </li>
             </ul>
           </td>
@@ -1080,15 +1155,39 @@
 
     <div id="footer" class="container">
       <ul>
-        <li>Updated 2013-06-12 by <a href="http://twitter.com/zcpeng">@zcpeng</a></li>
+        <li><span class="i18n-updated"><span class="i18n-updated">Updated</span> 2013-06-13 by <a href="http://twitter.com/zcpeng">@zcpeng</a></li>
         <li>Contribute on <a href="https://github.com/nylira/prism-break">GitHub</a></li>
-        <li>Donate bitcoin: 1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</li>
-        <li class="last">A <a href="http://nylira.com/">Nylira</a> project</li>
+        <li><span class="i18n-donate">Donate</span> bitcoin: 1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</li>
+        <li class="last">
+            A <a href="http://nylira.com/">Nylira</a> project
+        </li>
       </ul>
-      <p class="disclaimer">Disclaimer: This website supports the Electronic Frontier Foundation (EFF) and the Free Software Foundation (FSF), but is not officially endorsed by either.</p>
+      <p class="disclaimer"><span class=i18n-footer-disclaimer">Disclaimer: This website supports the Electronic Frontier Foundation (EFF) and the Free Software Foundation (FSF), but is not officially endorsed by either.</span></p>
     </div>
 
-    <!-- Piwik -->
+    <!-- the language switching script -->
+    <script type="text/javascript">
+    $("#lang-select").change(function() {
+      alert(option:selected);
+    });
+
+    $("#lang-nl").click(function() { getLang('nl');});
+    $("#lang-en").click(function() { getLang('en');});
+    $("#lang-de").click(function() { getLang('de');});
+    $("#lang-fr").click(function() { getLang('fr');});
+    $("#lang-pt").click(function() { getLang('pt');});
+
+    function getLang(abbr) {
+      var jsonUrl = "lang/" + abbr + ".json";
+      $.getJSON(jsonUrl, function(data) {
+        $.each(data, function(key, val) {
+          $('body').find("span." + key).html(val);
+        });
+      });
+    };
+    </script>
+
+    <!-- Piwik analytics. Does not record the last octet of visitor IPs -->
     <script type="text/javascript"> 
       var _paq = _paq || [];
       _paq.push(['trackPageView']);

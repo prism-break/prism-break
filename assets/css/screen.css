@@ -1,5 +1,5 @@
 /*======================================================================
- * Containers
+ * Initial
 ======================================================================*/
 
 body {
@@ -9,14 +9,119 @@ body {
   width: 100%;
 }
 
+
+/*======================================================================
+ * Typography
+======================================================================*/
+
+a {
+  text-decoration: none;
+  color: #06a;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #09c;
+}
+
+.fs {
+  background: #aaa;
+  font: 12px/1.5 sans-serif;
+  display: inline-block;
+  color: #fff;
+  padding: 0 .5em;
+}
+
+h2 {
+  font-weight: normal;
+  color: #666;
+  margin: 0;
+  font-size: 1em;
+}
+
+h2 strong {
+  color: #333;
+}
+
+h3 {
+  font: bold 1em/1.5 sans-serif;
+}
+
+
+/*======================================================================
+ * Top
+======================================================================*/
+
+#top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#eff {
+  height: 50px;
+  background: #333;
+  float: left;
+  margin-right: 4px;
+  vertical-align: top;
+}
+
+#eff a {
+  display: block;
+  color: #eee;
+  padding: 0 18px 0 14px;
+}
+
+#eff a img {
+  display: block;
+  margin-top: 7px;
+  margin-right: .5em;
+  float: left;
+}
+
+#eff a .label {
+  display: block;
+  float: left;
+  font: 16px/54px sans-serif;
+}
+
+#eff a:hover .label {
+  color: #fff;
+}
+
+#brand {
+  padding: 0 18px;
+  margin: 0 18px 0 0;
+  background: #333;
+  float: left;
+  height: 50px;
+  vertical-align: middle;
+}
+#brand h1 {
+  padding: 0;
+  margin: 0 .5em 0 0;
+  font: 1em/50px sans-serif;
+  color: #eee;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+}
+#brand input {
+}
+
+/*======================================================================
+ * Header
+======================================================================*/
+
 #header {
   border-top: 3px solid #333;
 }
 
 #header .container {
-  padding: 2em 18px;
+  padding: 3em 18px 2em;
   width: 55%;
 }
+
 
 /*======================================================================
  * FSF
@@ -110,92 +215,7 @@ p.disclaimer {
   padding: 0 1em;
 }
 
-/*======================================================================
- * Typography
-======================================================================*/
 
-a {
-  text-decoration: none;
-  color: #06a;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #09c;
-}
-
-.fs {
-  background: #aaa;
-  font: 12px/1.5 sans-serif;
-  display: inline-block;
-  color: #fff;
-  padding: 0 .5em;
-}
-
-#eff {
-  height: 54px;
-  background: #333;
-  float: left;
-  margin-right: 9px;
-  vertical-align: top;
-}
-
-#eff a {
-  display: block;
-  color: #eee;
-  padding: 0 18px 0 14px;
-}
-
-#eff a img {
-  display: block;
-  margin-top: 9px;
-  margin-right: .5em;
-  float: left;
-}
-
-#eff a .label {
-  display: block;
-  float: left;
-  font: 16px/54px sans-serif;
-}
-
-#eff a:hover .label {
-  color: #fff;
-}
-
-#top {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-h1 {
-  width: 132px;
-  height: 54px;
-  font: 1em/3 sans-serif;
-  padding: 0 18px;
-  margin: 0 18px 0 0;
-  color: #eee;
-  background: #333;
-  text-transform: uppercase;
-  text-align: center;
-  float: left;
-}
-
-h2 {
-  font-weight: normal;
-  color: #666;
-  margin: 0;
-  font-size: 1em;
-}
-
-h2 strong {
-  color: #333;
-}
-
-h3 {
-  font: bold 1em/1.5 sans-serif;
-}
 
 /*======================================================================
  * Table
