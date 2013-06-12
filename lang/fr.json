@@ -1,70 +1,70 @@
 {
-  "i18n-action-center": "Action Center",
+  "i18n-action-center": "FRENCH LANG",
 
   "i18n-intro": "<strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
 
 
 
-  "i18n-operating-system" : "Operating system",
-  "i18n-gnulinux-desc": "Free, open source operating system.",
-  "i18n-debian-desc": "Popular ethical GNU/Linux distribution.",
+  "i18n-operating-system" : "Système d'exploitation",
+  "i18n-gnulinux-desc": "Système d'exploitation libre et gratuit.",
+  "i18n-debian-desc": "Distribution GNU/Linux populaire et éthique.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
-  "i18n-tails-desc": "Live CD/USB designed for privacy.",
+  "i18n-tails-desc": "Live CD/USB conçu pour la vie privée.",
 
 
 
-  "i18n-web-browser": "Web browser",
-  "i18n-icecat-desc": "GNU version of Firefox.",
-  "i18n-firefox-desc": "Open source web browser.",
-  "i18n-torbrowser-desc": "Encrypted, anonymous browsing.",
+  "i18n-web-browser": "Navigateur web",
+  "i18n-icecat-desc": "Version GNU de Firefox.",
+  "i18n-firefox-desc": "Navigateur web open source.",
+  "i18n-torbrowser-desc": "Navigation chiffré et anonyme.",
 
 
 
-  "i18n-web-browser-plugins": "Web browser plugins",
-  "i18n-fixtracking-desc": "Guide to stop getting tracked online.",
-  "i18n-torbutton-desc": "Tor plugin for IceCat and Firefox.",
+  "i18n-web-browser-plugins": "Plugins pour navigateur web",
+  "i18n-fixtracking-desc": "Guide pour arrêter d'être traqué en ligne.",
+  "i18n-torbutton-desc": "Plugin Tor pour IceCat et Firefox.",
 
 
 
-  "i18n-web-search": "Web search",
+  "i18n-web-search": "Navigation web",
   "i18n-duckduckgo-desc": "Anonymous, unlogged web searches.",
   "i18n-startpage-desc": "Private, unlogged web searches.",
-  "i18n-seeksproject-desc": "Open decentralized platform for collaborative search.",
-  "i18n-yacy-desc": "Decentralized web search.",
+  "i18n-seeksproject-desc": "Plateforme ouverte décentralisée pour la recherche collaborative.",
+  "i18n-yacy-desc": "Navigation web acentrée.",
 
 
 
-  "i18n-online-transactions": "Online transactions",
-  "i18n-bitcoin-desc": "P2P digital currency with no central authority.",
+  "i18n-online-transactions": "Transactions en ligne",
+  "i18n-bitcoin-desc": "Monnaine numérique P2P sans autorité centrale.",
 
 
 
-  "i18n-email-services": "Email services",
+  "i18n-email-services": "Services de messagerie email",
   "i18n-bitmessage-desc": "Encrypted, decentralized email server.",
-  "i18n-riseup-desc": "Secure and private email accounts.",
+  "i18n-riseup-desc": "Comptes email sécurisée et privée.",
 
 
 
-  "i18n-email-clients": "Email desktop clients",
-  "i18n-icedove-desc": "Free version of Mozilla Thunderbird.",
-  "i18n-thunderbird-desc": "Open source email application.",
+  "i18n-email-clients": "Clients de bureau email",
+  "i18n-icedove-desc": "Version libre de Mozilla Thunderbird.",
+  "i18n-thunderbird-desc": "Application de messagerie email open-source.",
 
 
 
   "i18n-email-encryption": "Email encryption",
-  "i18n-enigmail-desc": "An OpenPGP plugin for Thunderbird/Icedove.",
-  "i18n-gnuprivacyguard-desc": "Free OpenPGP implementation.",
+  "i18n-enigmail-desc": "Un plugin OpenPGP pour Thunderbird/Icedove.",
+  "i18n-gnuprivacyguard-desc": "Implémentation libre de OpenPGP.",
   "i18n-mailvelope-desc": "OpenPGP encryption for webmail.",
-  "i18n-webpg-desc": "GnuPG/PGP in your browser.",
+  "i18n-webpg-desc": "GnuPG/PGP dans votre navigateur web.",
 
 
 
-  "i18n-maps": "Maps",
-  "i18n-openstreetmap-desc": "Free, collaborative world wide map.",
+  "i18n-maps": "Cartes",
+  "i18n-openstreetmap-desc": "Carte libre et collaborative du monde.",
 
 
 
-  "i18n-cloud-storage": "Cloud storage",
+  "i18n-cloud-storage": "Stockage cloud",
   "i18n-owncloud-desc": "Cloud data in your control.",
   "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
   "i18n-tahoelafs-desc": "Free and open cloud storage system.",
@@ -81,7 +81,7 @@
 
 
 
-  "i18n-instant-messaging": "Instant messaging",
+  "i18n-instant-messaging": "Messagerie instantanée",
   "i18n-cryptocat-desc": "Private, encrypted online conversations.",
   "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
   "i18n-pidgin-desc": "Open source chat program.",
@@ -99,8 +99,8 @@
 
   "i18n-media-publishing": "Media publishing",
   "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
-  "i18n-piwigo-desc": "Free photo gallery platform.",
-  "i18n-wordpress-desc": "Free website/blog CMS.",
+  "i18n-piwigo-desc": "Plateforme libre de galerie photo.",
+  "i18n-wordpress-desc": "CMS libre pour site web et blog.",
   "i18n-zenphoto-desc": "Free media website CMS.",
 
 
@@ -111,17 +111,17 @@
 
 
 
-  "i18n-web-analytics": "Web analytics",
+  "i18n-web-analytics": "Analyse web",
   "i18n-piwik-desc": "Open source, self-hosted web analytics.",
 
 
 
-  "i18n-add": "add",
-  "i18n-mostly-free": "mostly free*",
-  "i18n-advanced": "advanced",
-  "i18n-partly-proprietary": "partly proprietary*",
-  "i18n-proprietary": "proprietary*",
-  "i18n-invite-only": "invite-only",
+  "i18n-add": "ajouter",
+  "i18n-mostly-free": "presque libre*",
+  "i18n-advanced": "avancé",
+  "i18n-partly-proprietary": "partielement propriétaire*",
+  "i18n-proprietary": "propriétaire*",",
+  "i18n-invite-only": "seulement sur invitation",
 
 
 
@@ -140,7 +140,7 @@
   "i18n-polish": "Polish",
 
 
-  "i18n-updated": "Updated",
+  "i18n-updated": "Mis à jour",
   "i18n-donate": "Donate",
 
 
