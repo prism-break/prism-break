@@ -25,6 +25,7 @@ body {
 td.bottom a, #footer a {
   color: #0ae;
 }
+
 td.bottom a:hover, #footer a:hover {
   color: #0bf;
   text-decoration: underline;
@@ -39,7 +40,7 @@ td.bottom {
 }
 
 td#fsf.bottom {
-border-top: none;
+  border-top: none;
 }
 
 td.bottom h2 {
@@ -47,23 +48,27 @@ td.bottom h2 {
   color: #eee;
   margin: 0 0 .667em;
 }
+
 td.bottom h2 strong {
   color: #fff;
 }
+
 td.bottom blockquote {
   background: #555;
   padding: 2em;
   margin: 0;
-
 }
+
 td.bottom blockquote p {
   margin: 0 0 1.5em;
   color: #fff;
   max-width: 60em;
 }
+
 td.bottom blockquote a {
   font-weight: bold;
 }
+
 td.bottom blockquote cite {
   font-style: normal;
 }
@@ -82,17 +87,20 @@ td.bottom ul {
   color: #eee;
   border-top: 1px solid #777;
 }
+
 #footer ul {
   list-style: none;
   padding: 0;
   height: 27px;
 }
+
 #footer ul li {
   float: left;
   border-right: 1px solid #777;
   padding-right: 1em;
   margin-left: 1em;
 }
+
 #footer ul li.last {
   border: none;
 }
@@ -110,6 +118,7 @@ a {
   text-decoration: none;
   color: #06a;
 }
+
 a:hover {
   text-decoration: none;
   color: #09c;
@@ -136,29 +145,32 @@ a:hover {
   color: #eee;
   padding: 0 18px 0 14px;
 }
+
 #eff a img {
   display: block;
   margin-top: 9px;
   margin-right: .5em;
   float: left;
 }
+
 #eff a .label {
   display: block;
   float: left;
   font: 16px/54px sans-serif;
 }
+
 #eff a:hover .label {
   color: #fff;
 }
+
 #top {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-
 h1 {
-  width: 124px;
+  width: 132px;
   height: 54px;
   font: 1em/3 sans-serif;
   padding: 0 18px;
@@ -166,9 +178,9 @@ h1 {
   color: #eee;
   background: #333;
   text-transform: uppercase;
+  text-align: center;
   float: left;
 }
-
 
 h2 {
   font-weight: normal;
@@ -176,6 +188,7 @@ h2 {
   margin: 0;
   font-size: 1em;
 }
+
 h2 strong {
   color: #333;
 }
@@ -187,9 +200,11 @@ h3 {
 /*======================================================================
  * Table
 ======================================================================*/
+
 table {
   width: 100%;
 }
+
 table tr {
   border-top: 1px solid #ddd;
 }
@@ -197,8 +212,6 @@ table tr {
 table td {
   padding: 0;
 }
-
-
 
 table td ul {
   padding: 0 1.5em;
@@ -208,12 +221,13 @@ table td ul {
 table td ul li {
   clear: both;
 }
+
 table td ul li:after {
-   content: " "; /* Older browser do not support empty content */
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 /*======================================================================
@@ -236,20 +250,22 @@ td.prop {
   border-right: 1px solid #ddd;
   vertical-align: top;
 }
+
 td.prop ul li {
   line-height: 32px;
   margin: 0 0 1em;
 }
+
 td.prop .logo {
   float: left;
   margin-right: .75em;
 }
+
 td.prop .logo img {
   display: block;
   width: 32px;
   height: 32px;
 }
-
 
 td.arrow {
   padding: 0;
@@ -260,6 +276,7 @@ td.arrow {
   border-right: 1px solid #ddd;
   text-align: center;
 }
+
 /*======================================================================
  * td.free
 ======================================================================*/
@@ -268,29 +285,35 @@ td.free {
   width: 48%;
   vertical-align: top;
 }
+
 td.free li {
   margin: 0 0 1.5em;
 }
+
 td.free .logo {
   float: left;
   margin-right: 1em;
 }
+
 td.free .logo img {
   display: block;
   width: 50px;
   height: 50px;
 }
- td.free li a.name {
+
+td.free li a.name {
   vertical-align: bottom;
- }
+}
+
 td.free li a.name:hover .title {
   text-decoration: underline;
 }
-   
- td.free li .name .title {
+
+td.free li .name .title {
   font: bold 1.25em/1.25 sans-serif;
   display: block;
 }
- td.free li .name .desc {
-   color: #333;
- }
+
+td.free li .name .desc {
+  color: #333;
+}
