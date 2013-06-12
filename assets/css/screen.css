@@ -98,6 +98,7 @@ td.bottom ul {
 }
 
 p.disclaimer {
+  clear: both;
   padding: 0 1em;
 }
 
