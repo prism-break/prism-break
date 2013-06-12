@@ -1,149 +1,149 @@
 {
-  "i18n-action-center": "Action Center",
+  "i18n-action-center": "Centro de Acción",
 
-  "i18n-intro": "<strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
+  "i18n-intro": "<strong>No optes por PRISM, El programa de vigilancia de datos mundial de la NSA.</strong> Para de reportar tus actividades online al gobierno de los EEUU con estas alternativas libres y gratuitas al software privativo.",
 
 
 
-  "i18n-operating-system" : "Operating system",
-  "i18n-gnulinux-desc": "Free, open source operating system.",
-  "i18n-debian-desc": "Popular ethical GNU/Linux distribution.",
+  "i18n-operating-system" : "Sistemas operativos",
+  "i18n-gnulinux-desc": "Sistema operativo libre y abierto.",
+  "i18n-debian-desc": "Popular distribución de GNU/Linux famosa por su contrato social.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
-  "i18n-tails-desc": "Live CD/USB designed for privacy.",
+  "i18n-tails-desc": "Live CD/USB diseñado para asegurar la privacidad.",
 
 
 
-  "i18n-web-browser": "Web browser",
-  "i18n-icecat-desc": "GNU version of Firefox.",
-  "i18n-firefox-desc": "Open source web browser.",
-  "i18n-torbrowser-desc": "Encrypted, anonymous browsing.",
+  "i18n-web-browser": "Navegador Web",
+  "i18n-icecat-desc": "Versión GNU de Firefox.",
+  "i18n-firefox-desc": "Navegador web de fuente libre y abierta.",
+  "i18n-torbrowser-desc": "Navegación encriptada y anónima.",
 
 
 
-  "i18n-web-browser-plugins": "Web browser plugins",
-  "i18n-fixtracking-desc": "Guide to stop getting tracked online.",
-  "i18n-torbutton-desc": "Tor plugin for IceCat and Firefox.",
+  "i18n-web-browser-plugins": "Plugins para navegadores web",
+  "i18n-fixtracking-desc": "Guía para para de ser monitoreado online.",
+  "i18n-torbutton-desc": "Tor plugin para IceCat y Firefox.",
 
 
 
-  "i18n-web-search": "Web search",
-  "i18n-duckduckgo-desc": "Anonymous, unlogged web searches.",
-  "i18n-startpage-desc": "Private, unlogged web searches.",
-  "i18n-seeksproject-desc": "Open decentralized platform for collaborative search.",
-  "i18n-yacy-desc": "Decentralized web search.",
+  "i18n-web-search": "Búsquedas Web",
+  "i18n-duckduckgo-desc": "Búsquedas anónimas y sin iniciar sesión.",
+  "i18n-startpage-desc": "Búsquedas privadas sin iniciar sesión.",
+  "i18n-seeksproject-desc": "Plataforma abierta y descentralizada para búsquedas colaborativas.",
+  "i18n-yacy-desc": "Búsquedas web descentralizadas.",
 
 
 
-  "i18n-online-transactions": "Online transactions",
-  "i18n-bitcoin-desc": "P2P digital currency with no central authority.",
+  "i18n-online-transactions": "Transacciones Online",
+  "i18n-bitcoin-desc": "Moneda P2P digital sin autoridad centralizada.",
 
 
 
-  "i18n-email-services": "Email services",
-  "i18n-bitmessage-desc": "Encrypted, decentralized email server.",
-  "i18n-riseup-desc": "Secure and private email accounts.",
+  "i18n-email-services": "Servicios de Email",
+  "i18n-bitmessage-desc": "Servidor de email encriptado y descentralizado.",
+  "i18n-riseup-desc": "Cuentas de email seguras y privadas.",
 
 
 
-  "i18n-email-clients": "Email desktop clients",
-  "i18n-icedove-desc": "Free version of Mozilla Thunderbird.",
-  "i18n-thunderbird-desc": "Open source email application.",
+  "i18n-email-clients": "Clientes de email de escritorio",
+  "i18n-icedove-desc": "Versión libre de Mozilla Thunderbird.",
+  "i18n-thunderbird-desc": "Aplicación de email de fuente abierta.",
 
 
 
-  "i18n-email-encryption": "Email encryption",
-  "i18n-enigmail-desc": "An OpenPGP plugin for Thunderbird/Icedove.",
-  "i18n-gnuprivacyguard-desc": "Free OpenPGP implementation.",
-  "i18n-mailvelope-desc": "OpenPGP encryption for webmail.",
-  "i18n-webpg-desc": "GnuPG/PGP in your browser.",
+  "i18n-email-encryption": "Encriptación Email",
+  "i18n-enigmail-desc": "Un plugin OpenPGP para Thunderbird/Icedove.",
+  "i18n-gnuprivacyguard-desc": "Implementación libre y gratuita OpenPGP.",
+  "i18n-mailvelope-desc": "Encriptación OpenPGP para webmail.",
+  "i18n-webpg-desc": "GnuPG/PGP en tu navegador.",
 
 
 
-  "i18n-maps": "Maps",
-  "i18n-openstreetmap-desc": "Free, collaborative world wide map.",
+  "i18n-maps": "Mapas",
+  "i18n-openstreetmap-desc": "Mapa mundial colaborativo y libre.",
 
 
 
-  "i18n-cloud-storage": "Cloud storage",
-  "i18n-owncloud-desc": "Cloud data in your control.",
+  "i18n-cloud-storage": "Almacenamiento en la nube",
+  "i18n-owncloud-desc": "Datos en la nube bajo tu control.",
   "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
-  "i18n-tahoelafs-desc": "Free and open cloud storage system.",
+  "i18n-tahoelafs-desc": "Almacenamiento en la nube libre e abierto.",
 
 
 
-  "i18n-social-networking": "Social networking",
-  "i18n-diaspora-desc": "Community-run, distributed social network.",
-  "i18n-friendica-desc": "Open source, free social web server.",
-  "i18n-gnusocial-desc": "Self-hosted, decentralized social network.",
-  "i18n-movim-desc": "Private, decentralized social network server.",
-  "i18n-pumpio-desc": "Self-hosted social stream server.",
-  "i18n-tent-desc": "Free, autonomous social network protocol.",
+  "i18n-social-networking": "Redes sociales",
+  "i18n-diaspora-desc": "Red social distribuida conducida comunitariamente.",
+  "i18n-friendica-desc": "Servidor web social libre y gratuito.",
+  "i18n-gnusocial-desc": "Red social descentralizada e autohospedada.",
+  "i18n-movim-desc": "Servidor de red social descentralizado.",
+  "i18n-pumpio-desc": "Servidor stream social autohospedado.",
+  "i18n-tent-desc": "Protocolo de red autónomo social libre.",
 
 
 
-  "i18n-instant-messaging": "Instant messaging",
-  "i18n-cryptocat-desc": "Private, encrypted online conversations.",
-  "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
-  "i18n-pidgin-desc": "Open source chat program.",
-  "i18n-adium-desc": "Pidgin for OS X (remember to enable OTR).",
-  "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
+  "i18n-instant-messaging": "Mensajería instantánea",
+  "i18n-cryptocat-desc": "Conversaciones online privadas y encriptadas.",
+  "i18n-otr-desc": "Instalar y habilitar en Pidgin para encriptar el chat.",
+  "i18n-pidgin-desc": "Programa de chat de fuente abierta.",
+  "i18n-adium-desc": "Pidgin para OS X (recuerda de habilitar OTR).",
+  "i18n-retroshare-desc": "Plataforma de comunicaciones P2P libre y segura.",
 
 
 
 
-  "i18n-video-voip": "Video conferencing/VOIP",
-  "i18n-jitsi-desc": "Encrypted text and video chat.",
-  "i18n-mumble-desc": "Encrypted, low-latency voice chat.",
+  "i18n-video-voip": "Videoconferencia/VOIP",
+  "i18n-jitsi-desc": "Texto y video chat encriptado.",
+  "i18n-mumble-desc": "Low-latency chat de voz encriptado.",
 
 
 
   "i18n-media-publishing": "Media publishing",
-  "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
-  "i18n-piwigo-desc": "Free photo gallery platform.",
-  "i18n-wordpress-desc": "Free website/blog CMS.",
-  "i18n-zenphoto-desc": "Free media website CMS.",
+  "i18n-gnumediagoblin-desc": "Plataforma descentralizada de media publishing.",
+  "i18n-piwigo-desc": "Plataforma de álbumes de fotos libre y gratuito.",
+  "i18n-wordpress-desc": "Sitio web/blog CMS libre y gratuito.",
+  "i18n-zenphoto-desc": "Fotoblog CMS libre y gratuito.",
 
 
 
   "i18n-document-collaboration": "Document collaboration",
-  "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
+  "i18n-ethercalc-desc": "Servidor de hojas de cálculo multiusuario.",
   "i18n-etherpad-desc": "Open source, real-time collaborative documents.",
 
 
 
-  "i18n-web-analytics": "Web analytics",
-  "i18n-piwik-desc": "Open source, self-hosted web analytics.",
+  "i18n-web-analytics": "Analítica Web",
+  "i18n-piwik-desc": "Analítica web libre y gratuita autohospedada.",
 
 
 
-  "i18n-add": "add",
-  "i18n-mostly-free": "mostly free*",
-  "i18n-advanced": "advanced",
-  "i18n-partly-proprietary": "partly proprietary*",
-  "i18n-proprietary": "proprietary*",
-  "i18n-invite-only": "invite-only",
+  "i18n-add": "agregar",
+  "i18n-mostly-free": "casi libre*",
+  "i18n-advanced": "avanzado",
+  "i18n-partly-proprietary": "parcialmente privativo*",
+  "i18n-proprietary": "privativo*",",
+  "i18n-invite-only": "solo por invitación",
 
 
 
-  "i18n-fsf-definition-title": "*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.",
-  "i18n-fsf-quote": "&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.",
-  "i18n-more": "more &hellip;",
-  "i18n-the": "The",
+  "i18n-fsf-definition-title": "*Este sitio web usa la <strong>Free Software Foundation&rsquo;s</strong> definición de software libre y gratuito.",
+  "i18n-fsf-quote": "«Software libre» significa que el software respeta la libertad de los usuarios y la comunidad. En términos generales, los usuarios tienen la libertad de copiar, distribuir, estudiar, modificar y mejorar el software. Con estas libertades, los usuarios (tanto individualmente como en forma colectiva) controlan el programa y lo que hace.",
+  "i18n-more": "más &hellip;",
+  "i18n-the": "La",
 
 
 
-  "i18n-media-title": "Mentioned by the media.",
-  "i18n-dutch": "Dutch",
-  "i18n-english": "English",
-  "i18n-french": "French",
-  "i18n-german": "German",
-  "i18n-polish": "Polish",
+  "i18n-media-title": "Menciones en los medios.",
+  "i18n-dutch": "Holandés",
+  "i18n-english": "Inglés",
+  "i18n-french": "Francés",
+  "i18n-german": "Alemán",
+  "i18n-polish": "Polaco",
 
 
-  "i18n-updated": "Updated",
-  "i18n-donate": "Donate",
+  "i18n-updated": "Actualizado",
+  "i18n-donate": "Donar",
 
 
 
-  "i18n-footer-disclaimer": "Disclaimer: This website supports the Electronic Frontier Foundation (EFF) and the Free Software Foundation (FSF), but is not officially endorsed by either."
+  "i18n-footer-disclaimer": "Aclaración: Este sitio web soporta la Electronic Frontier Foundation (EFF) y la Free Software Foundation (FSF), pero no está oficialmente aprovado por ninguna de ellas."
 }
