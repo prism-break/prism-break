@@ -1,72 +1,72 @@
 {
-  "i18n-action-center": "Action Center",
+  "i18n-action-center": "Centre d'action",
 
-  "i18n-intro": "<strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
+  "i18n-intro": "<strong>Faites un pied de nez à PRISM, le programme de surveillance global des données de la NSA.</strong> Cesser de dévoiler votre vie privée au gouvernement américain avec ces alternatives libres aux logiciels propriétaires.",
 
 
 
-  "i18n-operating-system" : "Système d'exploitation",
+  "i18n-operating-system" : "Systèmes d'exploitation",
   "i18n-gnulinux-desc": "Système d'exploitation libre et gratuit.",
   "i18n-debian-desc": "Distribution GNU/Linux populaire et éthique.",
-  "i18n-fedora-desc": "Fast, stable, powerful GNU/Linux distribution.",
+  "i18n-fedora-desc": "Distribution GNU/Linux rapide et stable.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB conçu pour la vie privée.",
 
 
 
-  "i18n-web-browser": "Navigateur web",
-  "i18n-icecat-desc": "Version GNU de Firefox.",
-  "i18n-firefox-desc": "Navigateur web open source.",
-  "i18n-torbrowser-desc": "Navigation chiffré et anonyme.",
+  "i18n-web-browser": "Navigateurs web",
+  "i18n-icecat-desc": "Version GNU de Mozilla Firefox.",
+  "i18n-firefox-desc": "Navigateur web open-source.",
+  "i18n-torbrowser-desc": "Navigation chiffrée et anonyme.",
 
 
 
   "i18n-web-browser-plugins": "Plugins pour navigateur web",
-  "i18n-httpseverywhere-desc": "Encrypts your communications thousands of websites.",
+  "i18n-httpseverywhere-desc": "Navigation automatiquement chiffrée pour des milliers de site web.",
   "i18n-fixtracking-desc": "Guide pour arrêter d'être traqué en ligne.",
-  "i18n-torbutton-desc": "Plugin Tor pour IceCat et Firefox.",
+  "i18n-torbutton-desc": "Plugin Tor pour GNUzilla IceCat et Mozilla Firefox.",
 
 
 
-  "i18n-web-search": "Navigation web",
-  "i18n-duckduckgo-desc": "Anonymous, unlogged web searches.",
-  "i18n-startpage-desc": "Private, unlogged web searches.",
+  "i18n-web-search": "Moteurs de recherche",
+  "i18n-duckduckgo-desc": "Moteur de recherche anonyme, les requêtes ne sont pas enregistrées.",
+  "i18n-startpage-desc": "Moteur de recherche confidentiel, les requêtes ne sont pas enregistrées.",
   "i18n-seeksproject-desc": "Plateforme ouverte décentralisée pour la recherche collaborative.",
-  "i18n-yacy-desc": "Recherche web acentrée.",
+  "i18n-yacy-desc": "Moteur de recherche décentralisé.",
 
 
 
   "i18n-darknet": "Darknet",
-  "i18n-i2p-desc": "The invisible internet project.",
-  "i18n-nightweb-desc": "Anonymous I2P network for Android.",
+  "i18n-i2p-desc": "Réseau anonyme et sécurisé.",
+  "i18n-nightweb-desc": "Réseau anonyme et sécurisé pour Android.",
   "i18n-syndie-desc": "Distributed, anonymous forum software.",
 
 
 
   "i18n-online-transactions": "Transactions en ligne",
-  "i18n-bitcoin-desc": "Monnaine numérique P2P sans autorité centrale.",
+  "i18n-bitcoin-desc": "Monnaie numérique décentralisée et sécurisée.",
 
 
 
-  "i18n-email-services": "Services de messagerie email",
-  "i18n-bitmessage-desc": "Serveur email chiffré et décentralisé.",
-  "i18n-riseup-desc": "Comptes email sécurisée et privée.",
+  "i18n-email-services": "Services de messagerie web",
+  "i18n-bitmessage-desc": "Protocol de transport chiffré et décentralisé.",
+  "i18n-riseup-desc": "Courriels sécurisés et privés.",
 
 
 
-  "i18n-email-clients": "Clients de bureau email",
-  "i18n-clawsmail-desc": "Lightweight email application with GnuPG support.",
-  "i18n-evolution-desc": "Free email and calendar application.",
+  "i18n-email-clients": "Clients de messagerie",
+  "i18n-clawsmail-desc": "Application de messagerie légère avec support de GnuPG.",
+  "i18n-evolution-desc": "Application libre de messagerie et calendrier.",
   "i18n-icedove-desc": "Version libre de Mozilla Thunderbird.",
-  "i18n-kmail-desc": "KDE email client with GPG support.",
-  "i18n-thunderbird-desc": "Application de messagerie email open-source.",
+  "i18n-kmail-desc": "Application de messagerie de KDE avec support de GnuPG.",
+  "i18n-thunderbird-desc": "Application de messagerie open-source.",
 
 
 
-  "i18n-email-encryption": "Email encryption",
+  "i18n-email-encryption": "Chiffrement des courriels",
   "i18n-enigmail-desc": "Un plugin OpenPGP pour Thunderbird/Icedove.",
   "i18n-gnuprivacyguard-desc": "Implémentation libre de OpenPGP.",
-  "i18n-mailvelope-desc": "Cryptage OpenPGP pour webmail.",
+  "i18n-mailvelope-desc": "Chiffrement OpenPGP pour clients de messagerie web.",
   "i18n-webpg-desc": "GnuPG/PGP dans votre navigateur web.",
 
 
@@ -76,78 +76,78 @@
 
 
 
-  "i18n-cloud-storage": "Stockage cloud",
-  "i18n-gitannex-desc": "Synchronizes folders on each of your computers &amp; drives.",
-  "i18n-owncloud-desc": "Cloud data in your control.",
-  "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
-  "i18n-tahoelafs-desc": "Système de stockage cloud libre et gratuit.",
+  "i18n-cloud-storage": "Stockage dans les nuages (cloud)",
+  "i18n-gitannex-desc": "Système de gestion de fichiers distribué utilisant Git.",
+  "i18n-owncloud-desc": "Plateforme de services de stockage et d'applications diverses en nuage.",
+  "i18n-sparkleshare-desc": "Outil de travail collaboratif et de partage.",
+  "i18n-tahoelafs-desc": "Système de stockage dans les nuages libre et gratuit.",
 
 
 
   "i18n-social-networking": "Réseaux sociaux",
-  "i18n-diaspora-desc": "Community-run, distributed social network.",
-  "i18n-friendica-desc": "Open source, free social web server.",
-  "i18n-gnusocial-desc": "Self-hosted, decentralized social network.",
-  "i18n-movim-desc": "Private, decentralized social network server.",
-  "i18n-pumpio-desc": "Self-hosted social stream server.",
-  "i18n-salutatoi-desc": "Multi-frontend, multipurpose communication tool.",
+  "i18n-diaspora-desc": "Réseau social libre et décentralisé, à l'écoute de la communauté.",
+  "i18n-friendica-desc": "Réseau social open-source.",
+  "i18n-gnusocial-desc": "Réseau social libre et décentralisé.",
+  "i18n-movim-desc": "Réseau social libre privé et décentralisé.",
+  "i18n-pumpio-desc": "Réseau social libre et décentralisé.",
+  "i18n-salutatoi-desc": "Outil de communication multi-interfaces et multi-usages, libre et décentralisé.",
   "i18n-tent-desc": "Protocole libre et autonome pour réseau social.",
 
 
 
   "i18n-instant-messaging": "Messagerie instantanée",
-  "i18n-cryptocat-desc": "Private, encrypted online conversations.",
-  "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
-  "i18n-pidgin-desc": "Open source chat program.",
-  "i18n-adium-desc": "Pidgin for OS X (remember to enable OTR).",
-  "i18n-retroshare-desc": "Plateforme libre et sécurisée de communications en pair à pair.",
+  "i18n-cryptocat-desc": "Messagerie instantanée en ligne, privée et sécurisée.",
+  "i18n-otr-desc": "Plugin de chiffrement pour Pidgin.",
+  "i18n-pidgin-desc": "Messagerie instantanée open-source.",
+  "i18n-adium-desc": "Pidgin pour OS X (activer OTR).",
+  "i18n-retroshare-desc": "Plateforme libre, sécurisée et décentralisée de communications de pair à pair.",
 
 
 
 
-  "i18n-video-voip": "Video conferencing/VOIP",
-  "i18n-jitsi-desc": "Encrypted text and video chat.",
-  "i18n-mumble-desc": "Encrypted, low-latency voice chat.",
+  "i18n-video-voip": "Video conférence/VoIP",
+  "i18n-jitsi-desc": "Client libre, multi-protocoles de téléphonie, conférence audio et vidéo et de messagerie instantanée.",
+  "i18n-mumble-desc": "Logiciel libre de voix sur IP (VoIP).",
 
 
 
-  "i18n-media-publishing": "Media publishing",
-  "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
+  "i18n-media-publishing": "Publication de médias",
+  "i18n-gnumediagoblin-desc": "Plateforme libre décentralisée de galerie photo.",
   "i18n-piwigo-desc": "Plateforme libre de galerie photo.",
   "i18n-wordpress-desc": "CMS libre pour site web et blog.",
-  "i18n-zenphoto-desc": "Free media website CMS.",
+  "i18n-zenphoto-desc": "Plateforme libre de galerie photo.",
 
 
 
-  "i18n-document-collaboration": "Document collaboration",
-  "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
-  "i18n-etherpad-desc": "Open source, real-time collaborative documents.",
+  "i18n-document-collaboration": "Édition collaborative",
+  "i18n-ethercalc-desc": "Tableur en temps réel.",
+  "i18n-etherpad-desc": "Éditeur de texte en temps réel.",
 
 
 
-  "i18n-web-analytics": "Analyse web",
-  "i18n-piwik-desc": "Open source, self-hosted web analytics.",
+  "i18n-web-analytics": "Statistiques web",
+  "i18n-piwik-desc": "Projet libre et auto-hébergé.",
 
 
 
-  "i18n-csipsimple-desc": "Free, encrypted VOIP for Android.",
-  "i18n-cyanogenmod-desc": "Aftermarket firmware for Android phones.",
-  "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
-  "i18n-orbot-desc": "Tor proxy for Android.",
-  "i18n-redphone-desc": "Secure private calls for Android.",
-  "i18n-replicant-desc": "Fully free Android distribution.",
-  "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
+  "i18n-csipsimple-desc": "Passer des appels VoIP chiffrés.",
+  "i18n-cyanogenmod-desc": "Système Android modifié.",
+  "i18n-gibberbot-desc": "Messagerie instantanée privée et sécurisée.",
+  "i18n-orbot-desc": "Faire passer toutes les communications par Tor.",
+  "i18n-redphone-desc": "Passer des appels privés et sécurisés.",
+  "i18n-replicant-desc": "Système Android totalement libre.",
+  "i18n-textsecure-desc": "Communications SMS/MMS sécurisées.",
 
 
 
-  "i18n-chatsecure-desc": "IM chiffré pour iOS.",
-  "i18n-onionbrowser-desc": "Navigation sécurisée pour iOS.",
+  "i18n-chatsecure-desc": "Messagerie instantanée chiffrée.",
+  "i18n-onionbrowser-desc": "Navigation sécurisée.",
 
 
 
   "i18n-add": "ajouter",
   "i18n-mostly-free": "presque libre*",
-  "i18n-rec-non-free": "recommends non-free addons*",
+  "i18n-rec-non-free": "recommande plugins non-libres*",
   "i18n-advanced": "avancé",
   "i18n-partly-proprietary": "partiellement propriétaire*",
   "i18n-proprietary": "propriétaire*",
@@ -155,29 +155,29 @@
 
 
 
-  "i18n-fsf-definition-title": "*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.",
+  "i18n-fsf-definition-title": "*Ce site web utilise la définition du logiciel libre de la <strong>Free Software Foundation</strong>.",
   "i18n-fsf-quote": "&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.",
-  "i18n-more": "more &hellip;",
-  "i18n-the": "The",
+  "i18n-more": "plus d'infos &hellip;",
+  "i18n-the": "La",
 
 
 
-  "i18n-media-title": "Mentioné par les médias.",
-  "i18n-dutch": "Dutch",
+  "i18n-media-title": "Mentionné dans les médias.",
+  "i18n-dutch": "Néerlandais",
   "i18n-english": "Anglais",
   "i18n-french": "Français",
   "i18n-german": "Allemand",
   "i18n-polish": "Polonais",
-  "i18n-spanish": "Spanish",
+  "i18n-spanish": "Espagnol",
 
 
 
-  "i18n-updated": "Mis à jour",
+  "i18n-updated": "Mis à jour le",
   "i18n-by": "par",
-  "i18n-contribute-on": "Contribute on",
-  "i18n-donate": "Donate",
+  "i18n-contribute-on": "Contribuer sur",
+  "i18n-donate": "Faire un don",
 
 
 
-  "i18n-footer-disclaimer": "Disclaimer: This website supports the Electronic Frontier Foundation (EFF) and the Free Software Foundation (FSF), but is not officially endorsed by either."
+  "i18n-footer-disclaimer": "Note : ce site web supporte la Electronic Frontier Foundation (EFF) ainsi que la Free Software Foundation (FSF) mais n'est pas officiellement approuvé par celles-ci."
 }
