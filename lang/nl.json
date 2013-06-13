@@ -8,9 +8,9 @@
   "i18n-operating-system": "Besturingssysteem",
   "i18n-gnulinux-desc": "Vrij, open source besturingssysteem.",
   "i18n-debian-desc": "Populaire ethische GNU/Linux distributie.",
-  "i18n-fedora-desc": "Snelle, stabiele en krachtige GNU/Linux distributie",
+  "i18n-fedora-desc": "Snelle, stabiele en krachtige GNU/Linux distributie.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
-  "i18n-tails-desc": "Live CD/USB ontworpen voor privacy bescherming.",
+  "i18n-tails-desc": "Live CD/USB ontworpen voor privacybescherming.",
 
 
 
@@ -22,7 +22,7 @@
 
 
   "i18n-web-browser-plugins": "Webbrowser plugins",
-  "i18n-httpseverywhere-desc": "Versleuteld je comminucatie op duizenden websites.",
+  "i18n-httpseverywhere-desc": "Versleuteld je communicatie op duizenden websites.",
   "i18n-fixtracking-desc": "Handleiding om online tracking te stoppen.",
   "i18n-torbutton-desc": "Tor plugin voor IceCat en Firefox.",
 
@@ -30,7 +30,7 @@
 
   "i18n-web-search": "Zoekmachines",
   "i18n-duckduckgo-desc": "Anonieme, niet opgeslagen zoekopdrachten.",
-  "i18n-startpage-desc": "Eigen, niet opgeslagen zoekopdrachten.",
+  "i18n-startpage-desc": "Priv&eacute;, niet opgeslagen zoekopdrachten.",
   "i18n-seeksproject-desc": "Open decentraal platform voor gezamenlijk zoeken.",
   "i18n-yacy-desc": "Decentraal zoeken.",
 
@@ -56,9 +56,9 @@
 
   "i18n-email-clients": "Email software",
   "i18n-clawsmail-desc": "Lichtgewicht email applicatie met GnuPG ondersteuning.",
-  "i18n-evolution-desc": "Vrije Email en agenda applicaties.",
-  "i18n-icedove-desc": "Gratis versie van Mozilla Thunderbird.",
-  "i18n-kmail-desc": "KDE email client met GPG ondersteuning.",
+  "i18n-evolution-desc": "Vrije email en agenda applicatie met GPG ondersteuning.",
+  "i18n-icedove-desc": "Vrije versie van Mozilla Thunderbird.",
+  "i18n-kmail-desc": "KDE email applicatie met GPG ondersteuning.",
   "i18n-thunderbird-desc": "Open source email applicatie.",
 
 
@@ -90,7 +90,7 @@
   "i18n-gnusocial-desc": "Zelfgehost, decentraal sociaal netwerk.",
   "i18n-movim-desc": "Eigen, decentrale sociaal netwerk server.",
   "i18n-pumpio-desc": "Zelfgehost sociale stream server.",
-  "i18n-salutatoi-desc": "Multi-frontend, multipurpose communication tool.",
+  "i18n-salutatoi-desc": "Multi-frontend, multifunctionele communicatietool.",
   "i18n-tent-desc": "Vrije, autonome sociaal netwerk protocol.",
 
 
@@ -113,9 +113,9 @@
 
   "i18n-media-publishing": "Media publicatie",
   "i18n-gnumediagoblin-desc": "Decentraal media publicatie platform.",
-  "i18n-piwigo-desc": "Gratis fotogalerij platform.",
-  "i18n-wordpress-desc": "Gratis website/blog CMS.",
-  "i18n-zenphoto-desc": "Gratis media website CMS.",
+  "i18n-piwigo-desc": "Vrij fotogalerij platform.",
+  "i18n-wordpress-desc": "Vrije website/blog CMS.",
+  "i18n-zenphoto-desc": "Vrije media website CMS.",
 
 
 
@@ -130,12 +130,12 @@
 
 
 
-  "i18n-csipsimple-desc": "Gratis, versleuteld VOIP voor Android.",
+  "i18n-csipsimple-desc": "Gratis, versleutelde VOIP voor Android.",
   "i18n-cyanogenmod-desc": "Aftermarket firmware voor Android smartphones.",
   "i18n-gibberbot-desc": "Priv&eacute;, veilige OTR berichten voor Android.",
   "i18n-orbot-desc": "Tor proxy voor Android.",
   "i18n-redphone-desc": "Veilige priv&eacute;gesprekken voor Android.",
-  "i18n-replicant-desc": "Volledige vrije Android distributie.",
+  "i18n-replicant-desc": "Volledig vrije Android distributie.",
   "i18n-textsecure-desc": "Veilige SMS/MMS communicatie voor Android.",
 
 
@@ -149,35 +149,36 @@
   "i18n-mostly-free": "grotendeels vrij*",
   "i18n-rec-non-free": "aanbevolen, niet vrije plugins*",
   "i18n-advanced": "geavanceerd",
-  "i18n-partly-proprietary": "deels in eigendomsbezig*",
-  "i18n-proprietary": "in eigendomsbezig*",
+  "i18n-partly-proprietary": "deels in eigendomsbezit*",
+  "i18n-proprietary": "in eigendomsbezit*",
   "i18n-invite-only": "alleen op uitnodiging",
 
 
 
   "i18n-fsf-definition-title": "*Deze website gebruikt de <strong>Free Software Foundation&rsquo;s</strong> definitie van vrije software.",
-  "i18n-fsf-quote": "&ldquo;Vrije software&rdquo; is software die de vrijheid en gemeenschap van de gebruikers respecteert. Ruwweg betekent dit dat <strong>de gebruikers de vrijheid hebben om de software te gebruiken, kopi&euml;ren, verspreiden, ervan leren, veranderen en verbeteren</strong>. Deze vrijheden zorgen ervoor dat de gebruiker controle heeft over het programma en wat het voor hem doet.",
+  "i18n-fsf-quote": "&ldquo;Vrije software&rdquo; is software die de vrijheid en gemeenschap van de gebruiker respecteert. Ruwweg betekent dit <strong>dat de gebruiker de vrijheid heeft om de software te gebruiken, kopi&euml;ren, verspreiden, ervan leren, veranderen en verbeteren</strong>. Deze vrijheden zorgen ervoor dat de gebruiker controle heeft over het programma en wat het voor hem doet.",
   "i18n-more": "meer &hellip;",
   "i18n-the": "De",
 
 
 
   "i18n-media-title": "Vermeldingen in de media.",
+  "i18n-catalan": "Catalaans",
   "i18n-dutch": "Nederlands",
   "i18n-english": "Engels",
   "i18n-french": "Frans",
   "i18n-german": "Duits",
   "i18n-polish": "Pools",
-  "i18n-spanish": "Spanish",
+  "i18n-spanish": "Spaans",
 
 
 
-  "i18n-updated": "Geupdate",
+  "i18n-updated": "Bijgewerkt op",
   "i18n-by": "door",
   "i18n-contribute-on": "Help mee op",
   "i18n-donate": "Doneer",
 
 
 
-  "i18n-footer-disclaimer": "Disclaimer: deze website ondersteund de Electronic Frontier Foundation (EFF) en de Free Software Foundation (FSF), maar wordt niet officieel ondersteund door een van beide organisaties."
+  "i18n-footer-disclaimer": "Disclaimer: deze website ondersteunt de Electronic Frontier Foundation (EFF) en de Free Software Foundation (FSF), maar wordt niet officieel ondersteund door een van beide organisaties."
 }
