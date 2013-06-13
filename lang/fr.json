@@ -30,7 +30,7 @@
   "i18n-duckduckgo-desc": "Anonymous, unlogged web searches.",
   "i18n-startpage-desc": "Private, unlogged web searches.",
   "i18n-seeksproject-desc": "Plateforme ouverte décentralisée pour la recherche collaborative.",
-  "i18n-yacy-desc": "Navigation web acentrée.",
+  "i18n-yacy-desc": "Recherche web acentrée.",
 
 
 
@@ -40,7 +40,7 @@
 
 
   "i18n-email-services": "Services de messagerie email",
-  "i18n-bitmessage-desc": "Encrypted, decentralized email server.",
+  "i18n-bitmessage-desc": "Serveur email chiffré et décentralisé.",
   "i18n-riseup-desc": "Comptes email sécurisée et privée.",
 
 
@@ -54,7 +54,7 @@
   "i18n-email-encryption": "Email encryption",
   "i18n-enigmail-desc": "Un plugin OpenPGP pour Thunderbird/Icedove.",
   "i18n-gnuprivacyguard-desc": "Implémentation libre de OpenPGP.",
-  "i18n-mailvelope-desc": "OpenPGP encryption for webmail.",
+  "i18n-mailvelope-desc": "Cryptage OpenPGP pour webmail.",
   "i18n-webpg-desc": "GnuPG/PGP dans votre navigateur web.",
 
 
@@ -67,17 +67,17 @@
   "i18n-cloud-storage": "Stockage cloud",
   "i18n-owncloud-desc": "Cloud data in your control.",
   "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
-  "i18n-tahoelafs-desc": "Free and open cloud storage system.",
+  "i18n-tahoelafs-desc": "Système de stockage cloud libre et gratuit.",
 
 
 
-  "i18n-social-networking": "Social networking",
+  "i18n-social-networking": "Réseaux sociaux",
   "i18n-diaspora-desc": "Community-run, distributed social network.",
   "i18n-friendica-desc": "Open source, free social web server.",
   "i18n-gnusocial-desc": "Self-hosted, decentralized social network.",
   "i18n-movim-desc": "Private, decentralized social network server.",
   "i18n-pumpio-desc": "Self-hosted social stream server.",
-  "i18n-tent-desc": "Free, autonomous social network protocol.",
+  "i18n-tent-desc": "Protocole libre et autonome pour réseau social.",
 
 
 
@@ -86,7 +86,7 @@
   "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
   "i18n-pidgin-desc": "Open source chat program.",
   "i18n-adium-desc": "Pidgin for OS X (remember to enable OTR).",
-  "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
+  "i18n-retroshare-desc": "Plateforme libre et sécurisée de communications en pair à pair.",
 
 
 
@@ -126,15 +126,15 @@
 
 
 
-  "i18n-chatsecure-desc": "Encrypted IM for iOS.",
-  "i18n-onionbrowser-desc": "Secure browsing for iOS.",
+  "i18n-chatsecure-desc": "IM chiffré pour iOS.",
+  "i18n-onionbrowser-desc": "Navigation sécurisée pour iOS.",
 
 
 
   "i18n-add": "ajouter",
   "i18n-mostly-free": "presque libre*",
   "i18n-advanced": "avancé",
-  "i18n-partly-proprietary": "partielement propriétaire*",
+  "i18n-partly-proprietary": "partiellement propriétaire*",
   "i18n-proprietary": "propriétaire*",
   "i18n-invite-only": "seulement sur invitation",
 
@@ -147,17 +147,17 @@
 
 
 
-  "i18n-media-title": "Mentioned by the media.",
+  "i18n-media-title": "Mentioné par les médias.",
   "i18n-dutch": "Dutch",
-  "i18n-english": "English",
-  "i18n-french": "French",
-  "i18n-german": "German",
-  "i18n-polish": "Polish",
+  "i18n-english": "Anglais",
+  "i18n-french": "Français",
+  "i18n-german": "Allemand",
+  "i18n-polish": "Polonais",
 
 
 
   "i18n-updated": "Mis à jour",
-  "i18n-by": "by",
+  "i18n-by": "par",
   "i18n-contribute-on": "Contribute on",
   "i18n-donate": "Donate",
 
