@@ -1292,6 +1292,16 @@
         });
       });
     };
+
+    // set site language based on url segment
+    function setLangByUrl() {
+      var url = document.URL;
+      var id = url.substring(url.lastIndexOf('#') + 1);
+      getLang(id);
+    }
+    setLangByUrl();
+
+
     </script>
 
     <!-- Piwik analytics. Does not record the last octet of visitor IPs -->
