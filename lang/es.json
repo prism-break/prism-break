@@ -21,7 +21,7 @@
 
 
   "i18n-web-browser-plugins": "Plugins para navegadores web",
-  "i18n-httpseverywhere-desc": "Encrypts your communications thousands of websites.",
+  "i18n-httpseverywhere-desc": "Encripta tus comunicaciones en millones de sitios.",
   "i18n-fixtracking-desc": "Guía para para de ser monitoreado online.",
   "i18n-torbutton-desc": "Tor plugin para IceCat y Firefox.",
 
@@ -67,7 +67,7 @@
 
   "i18n-cloud-storage": "Almacenamiento en la nube",
   "i18n-owncloud-desc": "Datos en la nube bajo tu control.",
-  "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
+  "i18n-sparkleshare-desc": "Control de versiones autohospedado con sincronización de archivos",
   "i18n-tahoelafs-desc": "Almacenamiento en la nube libre e abierto.",
 
 
@@ -75,7 +75,7 @@
   "i18n-social-networking": "Redes sociales",
   "i18n-diaspora-desc": "Red social distribuida conducida comunitariamente.",
   "i18n-friendica-desc": "Servidor web social libre y gratuito.",
-  "i18n-gnusocial-desc": "Red social descentralizada e autohospedada.",
+  "i18n-gnusocial-desc": "Red social descentralizada y autohospedada.",
   "i18n-movim-desc": "Servidor de red social descentralizado.",
   "i18n-pumpio-desc": "Servidor stream social autohospedado.",
   "i18n-tent-desc": "Protocolo de red autónomo social libre.",
@@ -94,7 +94,7 @@
 
   "i18n-video-voip": "Videoconferencia/VOIP",
   "i18n-jitsi-desc": "Texto y video chat encriptado.",
-  "i18n-mumble-desc": "Low-latency chat de voz encriptado.",
+  "i18n-mumble-desc": "Chat de voz encriptado de baja latencia.",
 
 
 
@@ -106,9 +106,9 @@
 
 
 
-  "i18n-document-collaboration": "Document collaboration",
+  "i18n-document-collaboration": "Documentos colaborativos",
   "i18n-ethercalc-desc": "Servidor de hojas de cálculo multiusuario.",
-  "i18n-etherpad-desc": "Open source, real-time collaborative documents.",
+  "i18n-etherpad-desc": "Documentos colaborativos en tiempo real, de código abierto.",
 
 
 
@@ -117,28 +117,28 @@
 
 
 
-  "i18n-csipsimple-desc": "Free, encrypted VOIP for Android.",
-  "i18n-cyanogenmod-desc": "Aftermarket firmware for Android phones.",
-  "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
-  "i18n-orbot-desc": "Tor proxy for Android.",
-  "i18n-redphone-desc": "Secure private calls for Android.",
-  "i18n-replicant-desc": "Fully free Android distribution.",
-  "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
+  "i18n-csipsimple-desc": "VOIP encriptado y gratis para Android.",
+  "i18n-cyanogenmod-desc": "Firmware alternativo para teléfonos con Android",
+  "i18n-gibberbot-desc": "Mensajes privados mediante OTR para Android.",
+  "i18n-orbot-desc": "TOR para Android.",
+  "i18n-redphone-desc": "Llamadas seguras y privadas para Android.",
+  "i18n-replicant-desc": "Distribución de Android 100% libre.",
+  "i18n-textsecure-desc": "Comunicaciones seguras mediante SMS/MMS para Android.",
 
 
 
-  "i18n-chatsecure-desc": "Encrypted IM for iOS.",
-  "i18n-onionbrowser-desc": "Secure browsing for iOS.",
-
+  "i18n-chatsecure-desc": "IM encriptado para iOS.",
+  "i18n-onionbrowser-desc": "Navegación segura para iOS.",
+comunicación
 
 
   "i18n-add": "agregar",
-  "i18n-mostly-free": "casi libre*",
-  "i18n-rec-non-free": "recommends non-free addons*",
-  "i18n-advanced": "avanzado",
-  "i18n-partly-proprietary": "parcialmente privativo*",
-  "i18n-proprietary": "privativo*",
-  "i18n-invite-only": "solo por invitación",
+  "i18n-mostly-free": "Casi libre*",
+  "i18n-rec-non-free": "Recomienda addons que no son libres.*",
+  "i18n-advanced": "Avanzado",
+  "i18n-partly-proprietary": "Parcialmente privativo*",
+  "i18n-proprietary": "Privativo*",
+  "i18n-invite-only": "Solo por invitación",
 
 
 
@@ -160,10 +160,10 @@
 
   "i18n-updated": "Actualizado",
   "i18n-by": "by",
-  "i18n-contribute-on": "Contribute on",
+  "i18n-contribute-on": "Contribuir en",
   "i18n-donate": "Donar",
 
 
 
-  "i18n-footer-disclaimer": "Aclaración: Este sitio web soporta la Electronic Frontier Foundation (EFF) y la Free Software Foundation (FSF), pero no está oficialmente aprovado por ninguna de ellas."
+  "i18n-footer-disclaimer": "Aclaración: Este sitio web soporta la Electronic Frontier Foundation (EFF) y la Free Software Foundation (FSF), pero no está oficialmente aprobado por ninguna de ellas."
 }
