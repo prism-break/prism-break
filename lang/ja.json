@@ -1,0 +1,190 @@
+{
+  "i18n-action-center": "アクションセンター",
+
+  "i18n-intro": "<strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
+
+
+
+  "i18n-operating-system" : "オペレーティングシステム",
+  "i18n-gnulinux-desc": "自由で、オープンソースのオペレーティングシステム。",
+  "i18n-debian-desc": "人気のある倫理的なGNU/Linuxディストリビューション。",
+  "i18n-fedora-desc": "高速で安定したパワフルなGNU/Linuxディストリビューション。",
+  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-tails-desc": "プライバシーを念頭に設計されたLive CD/USB。",
+  "i18n-trisquel-desc": "FSF が推奨する、ユーザフレンドリなGNU/Linux ディストリビューション。",
+
+
+
+  "i18n-web-browser": "ウェブブラウザ",
+  "i18n-icecat-desc": "GNU バージョンの Firefox.",
+  "i18n-firefox-desc": "オープンソースのウェブブラウザ。",
+  "i18n-torbrowser-desc": "暗号化された、匿名のブラウジング。",
+
+
+
+  "i18n-web-browser-plugins": "ウェブブラウザ向けプラグイン",
+  "i18n-httpseverywhere-desc": "あなたの通信を何千ものウェブサイトで暗号化。",
+  "i18n-fixtracking-desc": "オンラインで追跡されるのを止めさせるためのガイド。",
+  "i18n-torbutton-desc": "IcecatやFirefox向けのTor プラグイン。",
+
+
+
+  "i18n-web-search": "ウェブ検索",
+  "i18n-duckduckgo-desc": "匿名の、ログが記録されないウェブ検索。",
+  "i18n-startpage-desc": "プライベートな、ログが記録されないウェブ検索。",
+  "i18n-seeksproject-desc": "オープンで分散化された協働検索のためのプラットフォーム。",
+  "i18n-yacy-desc": "分散化されたウェブ検索。",
+
+
+
+  "i18n-dns-provider": "DNS プロバイダ",
+  "i18n-opennic-desc": "完全な DNS 中立性。",
+
+
+
+  "i18n-darknet": "ダークネット",
+  "i18n-freenet-desc": "分散化された、検閲に対抗できるネットワーク。",
+  "i18n-i2p-desc": "不可視のインターネットプロジェクト。",
+  "i18n-nightweb-desc": "Android向けの匿名I2Pネットワーク。",
+  "i18n-syndie-desc": "分散型の、匿名掲示板ソフトウェア。",
+
+
+
+  "i18n-online-transactions": "オンライン取引",
+  "i18n-bitcoin-desc": "中央権力の無いP2P デジタル貨幣。",
+
+
+
+  "i18n-email-services": "電子メールサービス",
+  "i18n-bitmessage-desc": "暗号化され、分散化された電子メールサーバ。",
+  "i18n-riseup-desc": "セキュアでプライベートな電子メールアカウント。",
+
+
+
+  "i18n-email-clients": "電子メールデスクトップクライアント",
+  "i18n-clawsmail-desc": "GnuPGサポートを持つ計量の電子メールアプリケーション。",
+  "i18n-evolution-desc": "フリーの電子メールおよびカレンダーアプリケーション。",
+  "i18n-icedove-desc": "フリー・バージョンのMozilla Thunderbird。",
+  "i18n-kmail-desc": "GPGサポートを持つKDE 電子メールクライアント",
+  "i18n-thunderbird-desc": "オープンソースの電子メールアプリケーション。",
+
+
+
+  "i18n-email-encryption": "電子メールの暗号化",
+  "i18n-enigmail-desc": "Thunderbird/Icedove向けOpenPGP プラグイン。",
+  "i18n-gnuprivacyguard-desc": "フリーのOpenPGP実装。",
+  "i18n-mailvelope-desc": "ウェブメール向けのOpenPGP の暗号化。",
+  "i18n-webpg-desc": "GnuPG/PGP をあなたのブラウザ上で。",
+
+
+
+  "i18n-maps": "地図",
+  "i18n-openstreetmap-desc": "フリーで協働の世界地図。",
+
+
+
+  "i18n-cloud-storage": "クラウドストレージ",
+  "i18n-gitannex-desc": "それぞれのコンピュータやドライブ上のフォルダを同期。",
+  "i18n-owncloud-desc": "クラウドデータをあなたのコントロール下に。",
+  "i18n-sparkleshare-desc": "セルフホストのバージョンコントロールとファイルの同期。",
+  "i18n-tahoelafs-desc": "フリーでオープンなクラウドストレージシステム。",
+
+
+
+  "i18n-social-networking": "ソーシャルネットワーキング",
+  "i18n-diaspora-desc": "コミュニティによって運営されている、分散化ソーシャルネットワーク。",
+  "i18n-friendica-desc": "オープンソースでフリーなソーシャルウェブサーバ。",
+  "i18n-gnusocial-desc": "セルフホストで、分散化されたソーシャルネットワーク。",
+  "i18n-movim-desc": "プライベートで分散化されたソーシャルネットワークサーバ。",
+  "i18n-pumpio-desc": "セルフホストのソーシャルストリームサーバ。",
+  "i18n-salutatoi-desc": "マルチフロントエンドで多目的なコミュニケーションツール。",
+  "i18n-tent-desc": "フリーで自立的なソーシャルネットワークプロトコル。",
+
+
+
+  "i18n-instant-messaging": "Instant messaging",
+  "i18n-cryptocat-desc": "Private, encrypted online conversations.",
+  "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
+  "i18n-pidgin-desc": "Open source chat program.",
+  "i18n-adium-desc": "Pidgin for OS X (remember to enable OTR).",
+  "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
+
+
+
+
+  "i18n-video-voip": "Video conferencing/VoIP",
+  "i18n-jitsi-desc": "Encrypted text and video chat.",
+  "i18n-mumble-desc": "Encrypted, low-latency voice chat.",
+
+
+
+  "i18n-media-publishing": "Media publishing",
+  "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
+  "i18n-piwigo-desc": "Free photo gallery platform.",
+  "i18n-wordpress-desc": "Free website/blog CMS.",
+  "i18n-zenphoto-desc": "Free media website CMS.",
+
+
+
+  "i18n-document-collaboration": "Document collaboration",
+  "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
+  "i18n-etherpad-desc": "Open source, real-time collaborative documents.",
+
+
+
+  "i18n-web-analytics": "Web analytics",
+  "i18n-piwik-desc": "Open source, self-hosted web analytics.",
+
+
+
+  "i18n-csipsimple-desc": "Free, encrypted VoIP for Android.",
+  "i18n-cyanogenmod-desc": "Aftermarket firmware for Android devices.",
+  "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
+  "i18n-orbot-desc": "Tor proxy for Android.",
+  "i18n-redphone-desc": "Secure private calls for Android.",
+  "i18n-replicant-desc": "Fully free Android distribution.",
+  "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
+
+
+
+  "i18n-chatsecure-desc": "Encrypted IM for iOS.",
+  "i18n-onionbrowser-desc": "Secure browsing for iOS.",
+
+
+
+  "i18n-add": "add",
+  "i18n-mostly-free": "mostly free*",
+  "i18n-rec-non-free": "recommends non-free addons*",
+  "i18n-advanced": "advanced",
+  "i18n-partly-proprietary": "partly proprietary*",
+  "i18n-proprietary": "proprietary*",
+  "i18n-invite-only": "invite-only",
+
+
+
+  "i18n-fsf-definition-title": "*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.",
+  "i18n-fsf-quote": "&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.",
+  "i18n-more": "more &hellip;",
+  "i18n-the": "The",
+
+
+
+  "i18n-media-title": "メディアによる言及。",
+  "i18n-dutch": "オランダ語",
+  "i18n-english": "英語",
+  "i18n-french": "フランス語",
+  "i18n-german": "ドイツ語",
+  "i18n-polish": "ポーランド語",
+  "i18n-spanish": "スペイン語",
+
+
+
+  "i18n-updated": "更新",
+  "i18n-by": "by",
+  "i18n-contribute-on": "Contribute on",
+  "i18n-donate": "寄付",
+
+
+
+  "i18n-footer-disclaimer": "Disclaimer: This website supports the Electronic Frontier Foundation (EFF) and the Free Software Foundation (FSF), but is not officially endorsed by either."
+}
