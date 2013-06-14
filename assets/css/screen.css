@@ -7,6 +7,7 @@ body {
   color: #333;
   padding: 0;
   width: 100%;
+  direction: ltr;
 }
 
 
@@ -336,4 +337,33 @@ td.free li .name .title {
 
 td.free li .name .desc {
   color: #333;
+}
+
+/*======================================================================
+ * Right to left support
+======================================================================*/
+
+#rtl {
+  direction: rtl;
+}
+
+#rtl table td.section {
+  padding: 0 1em 0 0;
+}
+
+#rtl td.prop {
+  border-right: 1px solid #ddd;
+}
+
+#rtl td.arrow {
+  border-right: 1px solid #ddd;
+  -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#rtl td.free {
+  border-right: 1px solid #ddd;
 }
