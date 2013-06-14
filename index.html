@@ -25,11 +25,12 @@
       <div id="brand">
         <h1><strong>PRISM</strong> Break</h1>
         <select id="lang-select">
+          <option id="lang-el">ελληνικά</option>
           <option id="lang-en" selected="selected">English</option>
           <option id="lang-es">Español</option>
           <option id="lang-fr">Français</option>
-          <option id="lang-nl">Nederlands</option>
           <option id="lang-ja">日本語</option>
+          <option id="lang-nl">Nederlands</option>
         <!--
           <option id="lang-de">Allemand</option>
           <option id="lang-pt">Português</option>
@@ -1433,7 +1434,7 @@
     <!-- the language switching script -->
     <script type="text/javascript">
     // list of supported langs
-    var langs = ['de', 'es', 'en', 'fr', 'ja', 'nl', 'pt'];
+    var langs = ['de', 'es', 'en', 'fr', 'el', 'ja', 'nl', 'pt'];
     
     $("#lang-select").change(function() {
       $("select option:selected").each(function () {
