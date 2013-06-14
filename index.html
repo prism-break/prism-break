@@ -25,6 +25,7 @@
       <div id="brand">
         <h1><strong>PRISM</strong> Break</h1>
         <select id="lang-select">
+          <option id="lang-ar">العربية</option>			
           <option id="lang-el">ελληνικά</option>
           <option id="lang-en" selected="selected">English</option>
           <option id="lang-es">Español</option>
@@ -1434,7 +1435,7 @@
     <!-- the language switching script -->
     <script type="text/javascript">
     // list of supported langs
-    var langs = ['de', 'es', 'en', 'fr', 'el', 'ja', 'nl', 'pt'];
+    var langs = ['ar', 'de', 'es', 'en', 'fr', 'el', 'ja', 'nl', 'pt'];
     
     $("#lang-select").change(function() {
       $("select option:selected").each(function () {
@@ -1453,7 +1454,10 @@
     function getLang(abbr) {
       if(langs.indexOf(abbr) < 0)
         throw "Unsopported language";
-      
+      if(abbr == 'ar')
+        $('body').attr('id', 'rtl');
+      else
+        $("body").removeAttr('id');
       var jsonUrl = "lang/" + abbr + ".json";
       $.getJSON(jsonUrl, function(data) {
         $.each(data, function(key, val) {
