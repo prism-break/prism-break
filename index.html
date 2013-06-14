@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -10,7 +10,7 @@
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/" />
   </head>
 
   <body>
@@ -18,7 +18,7 @@
     <div id="top">
       <div id="eff">
         <a href="https://www.eff.org/action">
-          <img src="assets/img/free/eff.png" alt="Electronic Frontier Foundation">
+          <img src="assets/img/free/eff.png" alt="Electronic Frontier Foundation" />
           <span class=" label"><span class="i18n-action-center">Action Center</span></span>
         </a>
       </div>
@@ -70,7 +70,7 @@
           <td class="free">
             <ul>
               <li>
-                <a class="logo" href="https://www.gnu.org/distros/free-distros.html"><img src="assets/img/free/linux.png"></a>
+                <a class="logo" href="https://www.gnu.org/distros/free-distros.html"><img src="assets/img/free/linux.png" alt="" /></a>
                 <a class="name" href="https://www.gnu.org/distros/free-distros.html">
                   <span class="title">GNU/Linux</span>
                   <span class="desc">
@@ -97,7 +97,7 @@
                 </a>
               </li>
               <li>
-                <a class="logo" href="https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems"><img src="assets/img/free/bsd.png"></a>
+                <a class="logo" href="https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems"><img src="assets/img/free/bsd.png" alt="" /></a>
                 <a class="name" href="https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems">
                   <span class="title">*BSD</span>
                   <span class="desc">
@@ -142,7 +142,7 @@
           <td class="free">
             <ul>
               <li>
-                <a class="logo" href="http://www.gnu.org/software/gnuzilla/"><img src="assets/img/free/icecat.png"></a>
+                <a class="logo" href="http://www.gnu.org/software/gnuzilla/"><img src="assets/img/free/icecat.png" alt="" /></a>
                 <a class="name" href="http://www.gnu.org/software/gnuzilla/">
                   <span class="title">GNUzilla IceCat</span>
                   <span class="desc">
@@ -152,7 +152,7 @@
                 </a>
               </li>
               <li>
-                <a class="logo" href="http://www.mozilla.org/en-US/firefox/new/"><img src="assets/img/free/firefox.png"></a>
+                <a class="logo" href="http://www.mozilla.org/en-US/firefox/new/"><img src="assets/img/free/firefox.png" alt="" /></a>
                 <a class="name" href="http://www.mozilla.org/en-US/firefox/new/">
                   <span class="title">Mozilla Firefox</span>
                   <span class="desc">
@@ -185,7 +185,7 @@
           <td class="free">
             <ul>
               <li>
-                <a class="logo" href="https://www.eff.org/https-everywhere"><img src="assets/img/free/httpseverywhere.png"></a>
+                <a class="logo" href="https://www.eff.org/https-everywhere"><img src="assets/img/free/httpseverywhere.png" alt="" /></a>
                 <a class="name" href="https://www.eff.org/https-everywhere">
                   <span class="title">HTTPS Everywhere</span>
                   <span class="desc">
@@ -700,7 +700,7 @@
               </a>
             </li>
             <li>
-              <a class="logo" href="https://www.gnu.org/software/social/"><img src="assets/img/free/gnusocial.png"></a>
+              <a class="logo" href="https://www.gnu.org/software/social/"><img src="assets/img/free/gnusocial.png" alt="" /></a>
               <a class="name" href="https://www.gnu.org/software/social/">
                 <span class="title">GNU Social</span>
                 <span class="desc">
@@ -763,7 +763,7 @@
                 <div class="name">AOL Instant Messenger</div>
               </li>
               <li>
-                <div class="logo"><img src="assets/img/prop/google.png"></div>
+                <div class="logo"><img src="assets/img/prop/google.png" alt="" /></div>
                 <div class="name">Google Talk</div>
               </li>
               <li>
@@ -1055,7 +1055,7 @@
                 </a>
               </li>
               <li>
-                <a class="logo" href="https://guardianproject.info/apps/gibber/"><img src="assets/img/free/gibberbot.png"></a>
+                <a class="logo" href="https://guardianproject.info/apps/gibber/"><img src="assets/img/free/gibberbot.png" alt="" /></a>
                 <a class="name" href="https://guardianproject.info/apps/gibber/">
                   <span class="title">Gibberbot</span>
                   <span class="desc">
@@ -1404,33 +1404,27 @@
 
     <!-- the language switching script -->
     <script type="text/javascript">
+    // list of supported langs
+    var langs = ['de', 'es', 'en', 'fr', 'nl', 'pt'];
+    
     $("#lang-select").change(function() {
       $("select option:selected").each(function () {
-        switch($(this).attr('id')) {
-          case "lang-nl":
-            getLang('nl');
+        for(var i=0; i < langs.length; i++)
+        {
+          if( $(this).attr('id') == ('lang-'+langs[i]) )
+          {
+            getLang(langs[i]);
             break;
-          case "lang-en":
-            getLang('en');
-            break;
-          case "lang-es":
-            getLang('es');
-            break;
-          case "lang-de":
-            getLang('de');
-            break;
-          case "lang-fr":
-            getLang('fr');
-            break;
-          case "lang-pt":
-            getLang('pt');
-            break;
-        };
+          }
+        }
       });
     });
 
     // pulling in json language data
     function getLang(abbr) {
+      if(langs.indexOf(abbr) < 0)
+        throw "Unsopported language";
+      
       var jsonUrl = "lang/" + abbr + ".json";
       $.getJSON(jsonUrl, function(data) {
         $.each(data, function(key, val) {
@@ -1446,8 +1440,11 @@
       getLang(id);
     }
     setLangByUrl();
-
-
+    
+    if(navigator.langage != undefined && navigator.langage.length > 1 && langs.indexOf(navigator.langage) > -1)
+    {
+      getLang(navigator.langage);
+    }
     </script>
 
     <!-- Piwik analytics. Does not record the last octet of visitor IPs -->
