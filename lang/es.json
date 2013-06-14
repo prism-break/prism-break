@@ -8,10 +8,10 @@
   "i18n-operating-system" : "Sistemas operativos",
   "i18n-gnulinux-desc": "Sistema operativo libre y abierto.",
   "i18n-debian-desc": "Popular distribución de GNU/Linux famosa por su contrato social.",
-  "i18n-fedora-desc": "Fast, stable, powerful GNU/Linux distribution.",
+  "i18n-fedora-desc": "Distribución de GNU/Linux rápida, estable y potente.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB diseñado para asegurar la privacidad.",
-  "i18n-trisquel-desc": "FSF endorsed, user-friendly GNU/Linux distribution.",
+  "i18n-trisquel-desc": "Distribución de GNU/Linux amigable para el usuario, patrocinada por la FSF.",
 
 
 
@@ -37,16 +37,16 @@
 
 
 
-  "i18n-dns-provider": "DNS provider",
-  "i18n-opennic-desc": "Total DNS neutrality.",
+  "i18n-dns-provider": "Proveedor DNS",
+  "i18n-opennic-desc": "Proveedor DNS totalmente neutral.",
 
 
 
   "i18n-darknet": "Darknet",
-  "i18n-freenet-desc": "Decentralised censorship-resistant network.",
-  "i18n-i2p-desc": "The invisible internet project.",
-  "i18n-nightweb-desc": "Anonymous I2P network for Android.",
-  "i18n-syndie-desc": "Distributed, anonymous forum software.",
+  "i18n-freenet-desc": "Red descentralizada, resistente a la censura.",
+  "i18n-i2p-desc": "El proyecto para un Internet Invisible.",
+  "i18n-nightweb-desc": "Red anónima I2P para Android.",
+  "i18n-syndie-desc": "Software para foros distribuído y anónimo.",
 
 
 
@@ -61,18 +61,18 @@
 
 
 
-  "i18n-email-clients": "Clientes de email de escritorio",
-  "i18n-clawsmail-desc": "Lightweight email application with GnuPG support.",
-  "i18n-evolution-desc": "Free email and calendar application.",
-  "i18n-icedove-desc": "Free version of Mozilla Thunderbird.",
-  "i18n-kmail-desc": "KDE email client with GPG support.",
-  "i18n-thunderbird-desc": "Aplicación de email de fuente abierta.",
+  "i18n-email-clients": "Clientes de correo electrónico de escritorio",
+  "i18n-clawsmail-desc": "Cliente de correo electrónico ligero con soporte para GnuPG.",
+  "i18n-evolution-desc": "Aplicación de correo electrónico y calendario libre.",
+  "i18n-icedove-desc": "Versión libre de Mozilla Thunderbird.",
+  "i18n-kmail-desc": "Cliente de correo para KDE con soporte para GPG.",
+  "i18n-thunderbird-desc": "Aplicación de correo electrónico de fuente abierta.",
 
 
 
-  "i18n-email-encryption": "Encriptación Email",
+  "i18n-email-encryption": "Encriptación correo electrónico",
   "i18n-enigmail-desc": "Un plugin OpenPGP para Thunderbird/Icedove.",
-  "i18n-gnuprivacyguard-desc": "Implementación libre y gratuita OpenPGP.",
+  "i18n-gnuprivacyguard-desc": "Implementación libre y gratuita de OpenPGP.",
   "i18n-mailvelope-desc": "Encriptación OpenPGP para webmail.",
   "i18n-webpg-desc": "GnuPG/PGP en tu navegador.",
 
@@ -84,7 +84,7 @@
 
 
   "i18n-cloud-storage": "Almacenamiento en la nube",
-  "i18n-gitannex-desc": "Synchronizes folders on each of your computers &amp; drives.",
+  "i18n-gitannex-desc": "Sincroniza directorios en cada uno de tus ordenadores y discos.",
   "i18n-owncloud-desc": "Datos en la nube bajo tu control.",
   "i18n-sparkleshare-desc": "Control de versiones autohospedado con sincronización de archivos",
   "i18n-tahoelafs-desc": "Almacenamiento en la nube libre e abierto.",
@@ -118,7 +118,7 @@
 
 
 
-  "i18n-media-publishing": "Media publishing",
+  "i18n-media-publishing": "Publicación de medios",
   "i18n-gnumediagoblin-desc": "Plataforma descentralizada de media publishing.",
   "i18n-piwigo-desc": "Plataforma de álbumes de fotos libre y gratuito.",
   "i18n-wordpress-desc": "Sitio web/blog CMS libre y gratuito.",
@@ -162,7 +162,7 @@
 
 
 
-  "i18n-fsf-definition-title": "*Este sitio web usa la <strong>Free Software Foundation&rsquo;s</strong> definición de software libre y gratuito.",
+  "i18n-fsf-definition-title": "*Este sitio web usa la definición de software libre y abierto de la <strong>Free Software Foundation</strong>.",
   "i18n-fsf-quote": "«Software libre» significa que el software respeta la libertad de los usuarios y la comunidad. En términos generales, los usuarios tienen la libertad de copiar, distribuir, estudiar, modificar y mejorar el software. Con estas libertades, los usuarios (tanto individualmente como en forma colectiva) controlan el programa y lo que hace.",
   "i18n-more": "más &hellip;",
   "i18n-the": "La",
@@ -175,12 +175,12 @@
   "i18n-french": "Francés",
   "i18n-german": "Alemán",
   "i18n-polish": "Polaco",
-  "i18n-spanish": "Spanish",
+  "i18n-spanish": "Español",
 
 
 
   "i18n-updated": "Actualizado",
-  "i18n-by": "by",
+  "i18n-by": "por",
   "i18n-contribute-on": "Contribuir en",
   "i18n-donate": "Donar",
 
