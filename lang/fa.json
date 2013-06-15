@@ -83,109 +83,112 @@
 
 
 
-  "i18n-cloud-storage": "Cloud storage",
-  "i18n-gitannex-desc": "Synchronizes folders on each of your computers &amp; drives.",
-  "i18n-owncloud-desc": "Cloud data in your control.",
-  "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
-  "i18n-tahoelafs-desc": "Free and open cloud storage system.",
+  "i18n-cloud-storage": "ذخیره‌سازی آنلاین",
+  "i18n-gitannex-desc": "همزمان‌سازی فایل‌ها روی کامپیوترها و درایوها",
+  "i18n-owncloud-desc": "ذخیره‌سازی آنلاین تحت نظارت خود شخص",
+  "i18n-sparkleshare-desc": "کنترل ورژن و همزمان‌سازی فایل در سرور شخصی",
+  "i18n-tahoelafs-desc": "ذخیره‌سازی آنلاین متن‌باز و رایگان",
 
 
 
-  "i18n-social-networking": "Social networking",
-  "i18n-diaspora-desc": "Community-run, distributed social network.",
-  "i18n-friendica-desc": "Open source, free social web server.",
-  "i18n-gnusocial-desc": "Self-hosted, decentralized social network.",
-  "i18n-movim-desc": "Private, decentralized social network server.",
-  "i18n-pumpio-desc": "Self-hosted social stream server.",
-  "i18n-salutatoi-desc": "Multi-frontend, multipurpose communication tool.",
-  "i18n-tent-desc": "Free, autonomous social network protocol.",
+  "i18n-social-networking": "شبکه اجتماعی",
+  "i18n-diaspora-desc": "شبکه اجتماعی توزیع شده و تحت نظارت گروهی",
+  "i18n-friendica-desc": "سرور شبکه اجتماعی رایگان و متن‌باز",
+  "i18n-gnusocial-desc": "شبکه اجتماعی غیرمتمرکز روی سرور شخصی",
+  "i18n-movim-desc": "سرور شبکه اجتماعی غیرمتمرکز و شخصی",
+  "i18n-pumpio-desc": "سرور شبکه اجتماعی روی سرور شخصی",
+  "i18n-salutatoi-desc": "ابزار ارتباطی چندمنظوره با قالب‌های مختلف",
+  "i18n-tent-desc": "پروتکل شبکه اجتماعی آزاد و ناشناس",
 
 
 
-  "i18n-instant-messaging": "Instant messaging",
-  "i18n-cryptocat-desc": "Private, encrypted online conversations.",
-  "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
-  "i18n-pidgin-desc": "Open source chat program.",
-  "i18n-adium-desc": "Pidgin for OS X (remember to enable OTR).",
-  "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
+  "i18n-instant-messaging": "برنامه پیام رسان",
+  "i18n-cryptocat-desc": "مکالمه رایگان با حفظ حریم شخصی",
+  "i18n-otr-desc": "افزونه برای پیجین برای مکالمه رمزنگاری شده",
+  "i18n-pidgin-desc": "برنامه چت آزاد",
+  "i18n-adium-desc": "پیچین برای آی‌او‌اس",
+  "i18n-retroshare-desc": "سکوی ارتباطی دوطرفه، امن و رایگان",
 
 
 
 
-  "i18n-video-voip": "Video conferencing/VoIP",
-  "i18n-jitsi-desc": "Encrypted text and video chat.",
-  "i18n-mumble-desc": "Encrypted, low-latency voice chat.",
+  "i18n-video-voip": "ویدئو کنفرانس",
+  "i18n-jitsi-desc": "چت متنی و تصویری رمزنگاری شده",
+  "i18n-mumble-desc": "چت تصویری سریع رمزنگاری شده",
 
 
 
-  "i18n-media-publishing": "Media publishing",
-  "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
-  "i18n-piwigo-desc": "Free photo gallery platform.",
-  "i18n-wordpress-desc": "Free website/blog CMS.",
-  "i18n-zenphoto-desc": "Free media website CMS.",
+  "i18n-media-publishing": "انتشار فیلم و عکس",
+  "i18n-gnumediagoblin-desc": "سکوی انتشار غیرمتمرکز",
+  "i18n-piwigo-desc": "سکوی آلبوم عکس رایگان",
+  "i18n-wordpress-desc": "وبسایت و وبلاگ رایگان",
+  "i18n-zenphoto-desc": "وبسایت فیلم و عکس رایگان",
 
 
 
-  "i18n-document-collaboration": "Document collaboration",
-  "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
-  "i18n-etherpad-desc": "Open source, real-time collaborative documents.",
+  "i18n-document-collaboration": "نگارش مشارکتی اسناد",
+  "i18n-ethercalc-desc": "سرور چند کاربره اسناد",
+  "i18n-etherpad-desc": "نگارش مشارکتی اسناد همزمان و متن‌باز",
 
 
 
-  "i18n-web-analytics": "Web analytics",
-  "i18n-piwik-desc": "Open source, self-hosted web analytics.",
+  "i18n-web-analytics": "تحیل آمار بازدید سایت",
+  "i18n-piwik-desc": "تحیل آمار بازدید سایت متن‌یاز روی سرور شخصی",
 
 
 
-  "i18n-csipsimple-desc": "Free, encrypted VoIP for Android.",
-  "i18n-cyanogenmod-desc": "Aftermarket firmware for Android devices.",
-  "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
-  "i18n-orbot-desc": "Tor proxy for Android.",
-  "i18n-redphone-desc": "Secure private calls for Android.",
-  "i18n-replicant-desc": "Fully free Android distribution.",
-  "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
+  "i18n-csipsimple-desc": "تماس رایگان و رمزشده برای آندروید",
+  "i18n-cyanogenmod-desc": "سیستم اصلاح شده اندروید",
+  "i18n-gibberbot-desc": "اس‌ام‌اس امن با حفظ حریم شخصی",
+  "i18n-orbot-desc": "تور برای اندروید",
+  "i18n-redphone-desc": "تماس تلفنی امن برای آندروید",
+  "i18n-replicant-desc": "توزیع کاملا آزاد اندروید",
+  "i18n-textsecure-desc": "اس‌ام‌اس امن برای اندروید",
 
 
 
-  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
-  "i18n-chatsecure-desc": "Encrypted IM for iOS.",
-  "i18n-onionbrowser-desc": "Secure browsing for iOS.",
+  "i18n-ios-insecure-desc": "دستگاه‌های آی‌او‌اس برنامه‌های تعقیب آنلاین دارند",
+  "i18n-chatsecure-desc": "چت رمز شده برای آی‌او‌اس",
+  "i18n-onionbrowser-desc": "مرورگر امن برای آی‌او‌اس",
 
 
 
-  "i18n-add": "add",
-  "i18n-mostly-free": "mostly free*",
-  "i18n-rec-non-free": "recommends non-free addons*",
-  "i18n-advanced": "advanced",
-  "i18n-partly-proprietary": "partly proprietary*",
-  "i18n-proprietary": "proprietary*",
-  "i18n-invite-only": "invite-only",
+  "i18n-add": "اضافه کردن",
+  "i18n-mostly-free": "عموما آزاد و رایگان*",
+  "i18n-rec-non-free": "افزونه غیرآزاد پیشنهاد می‌کند*",
+  "i18n-advanced": "پیشرفته",
+  "i18n-partly-proprietary": "دارای بخش‌های مالکیت طلبانه*",
+  "i18n-proprietary": "مالکیت طلبانه*",
+  "i18n-invite-only": "فقط با دعوت‌نامه",
 
 
 
-  "i18n-fsf-definition-title": "*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.",
-  "i18n-fsf-quote": "&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.",
-  "i18n-more": "more &hellip;",
-  "i18n-the": "The",
+  "i18n-fsf-definition-title": "*این سایت از تعریف <strong>Free Software Foundation</strong> از برنامه آزاد استفاده می‌کند",
+  "i18n-fsf-quote": "برنامه آزاد برنامه‌ای است که آزادی کاربر و جامعه کاربری را محترم می‌شمرد. عموما <strong>کاربر آزاد است برنامه را در هر جا اجرا، کپی، توزیع، مطالعه، تغییر و بهبود ببخشد</strong>. با این آزادی‌ها، کاربران (هم فردی و هم جمعی) برنامه و آنچه برنامه برای آنها انجام می‌دهد را کنترل می‌کنند.",
 
 
 
-  "i18n-media-title": "Mentioned by the media.",
-  "i18n-dutch": "Dutch",
-  "i18n-english": "English",
-  "i18n-french": "French",
-  "i18n-german": "German",
-  "i18n-polish": "Polish",
-  "i18n-spanish": "Spanish",
+  "i18n-more": "بیشتر &hellip;",
+  "i18n-the": "",
 
 
 
-  "i18n-updated": "Updated",
-  "i18n-by": "by",
-  "i18n-contribute-on": "Contribute on",
-  "i18n-donate": "Donate",
+  "i18n-media-title": "در رسانه‌ها",
+  "i18n-dutch": "هلندی",
+  "i18n-english": "انگلیسی",
+  "i18n-french": "فرانسه",
+  "i18n-german": "آلمانی",
+  "i18n-polish": "لهستانى",
+  "i18n-spanish": "اسپانيايى",
 
 
 
-  "i18n-footer-disclaimer": "Disclaimer: This website supports the Electronic Frontier Foundation (EFF) and the Free Software Foundation (FSF), but is not officially endorsed by either."
+  "i18n-updated": "به روز رسانی شده",
+  "i18n-by": "توسط",
+  "i18n-contribute-on": "مشارکت کنید در",
+  "i18n-donate": "کمک مالی",
+
+
+
+  "i18n-footer-disclaimer": "توجه: این سایت از Electronic Frontier Foundation (EFF) و Free Software Foundation (FSF) پشتیبانی می‌کند اما به آنها وابسته نیست"
 }
