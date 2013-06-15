@@ -1,0 +1,190 @@
+{
+  "i18n-action-center": "Aksjonssenter",
+
+  "i18n-intro": "<strong>Bryt ut av PRISM, NSAs globale overvåkningsprogram.</strong> Stopp rapporteringen av aktivitetene dine på Internett til amerikansk militær etterretning med disse gratis alternativene til kommersiell programvare.",
+
+
+
+  "i18n-operating-system" : "Operativsystem",
+  "i18n-gnulinux-desc": "Gratis, fritt operativsystem med åpen kildekode.",
+  "i18n-debian-desc": "Populær, etisk GNU/Linux distribusjon.",
+  "i18n-fedora-desc": "Rask, stabil og kraftig GNU/Linux distribusjon.",
+  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-tails-desc": "Live CD/USB laget for personvern.",
+  "i18n-trisquel-desc": "FSF-godkjent, brukervennlig GNU/Linux distribusjon.",
+
+
+
+  "i18n-web-browser": "Nettleser",
+  "i18n-icecat-desc": "GNU versjon av Firefox.",
+  "i18n-firefox-desc": "Nettleser med åpen kode.",
+  "i18n-torbrowser-desc": "Kryptert, anonym nettsurfing.",
+
+
+
+  "i18n-web-browser-plugins": "Utvidelser til nettleser",
+  "i18n-httpseverywhere-desc": "Krypterer kontakten du har med tusenvis av nettsider.",
+  "i18n-fixtracking-desc": "Guide til å unngå sporing i nettleseren.",
+  "i18n-torbutton-desc": "Tor-utvidelse for IceCat og Firefox.",
+              
+
+
+  "i18n-web-search": "Søkemotor",
+  "i18n-duckduckgo-desc": "Anonyme nettsøk uten informasjonsfiltrering.",
+  "i18n-startpage-desc": "Private, uloggede nettsøk.",
+  "i18n-seeksproject-desc": "Åpen, desentralisert plattform for gruppesøk.",
+  "i18n-yacy-desc": "Desentralisert nettsøk.",
+
+
+
+  "i18n-dns-provider": "DNS-tjenester",
+  "i18n-opennic-desc": "Total DNS-nøytralitet.",
+
+
+
+  "i18n-darknet": "Darknet",
+  "i18n-freenet-desc": "Desentralisert, sensurresistent nettverk..",
+  "i18n-i2p-desc": "Et anonymisert og kryptert darknet.",
+  "i18n-nightweb-desc": "Anonymt I2P nettverk for Android.",
+  "i18n-syndie-desc": "Distribuert anonym forumprogramvare.",
+
+
+
+  "i18n-online-transactions": "Online transaksjoner",
+  "i18n-bitcoin-desc": "P2P digital valuta uten sentralbank-kontroll.",
+
+
+
+  "i18n-email-services": "E-posttjenester",
+  "i18n-bitmessage-desc": "Kryptert, desentralisert e-postserver.",
+  "i18n-riseup-desc": "Sikre og private e-postkontoer.",
+
+
+
+  "i18n-email-clients": "E-postklienter for skrivebord",
+  "i18n-clawsmail-desc": "Lett E-post applikasjon med GnuPG-støtte.",
+  "i18n-evolution-desc": "Gratis E-post og kalenderapplikasjon.",
+  "i18n-icedove-desc": "Gratisversjon av Mozilla Thunderbird.",
+  "i18n-kmail-desc": "KDE E-post klient med GPG-støtte.",
+  "i18n-thunderbird-desc": "E-post applikasjon med åpen kildekode.",
+
+
+
+  "i18n-email-encryption": "E-postkryptering",
+  "i18n-enigmail-desc": "En OpenPGP plugin for Thunderbird/Icedove.",
+  "i18n-gnuprivacyguard-desc": "Gratis OpenPGP kryptografiprogram.",
+  "i18n-mailvelope-desc": "OpenPGP kryptering for nettpost.",
+  "i18n-webpg-desc": "GnuPG/PGP i nettleseren din.",
+
+
+
+  "i18n-maps": "Maps",
+  "i18n-openstreetmap-desc": "Gratis, kollaborativt verdenskart.",
+
+
+
+  "i18n-cloud-storage": "Nettskyer",
+  "i18n-gitannex-desc": "Synkroniserer kataloger på alle dine datamaskiner &amp; disker.",
+  "i18n-owncloud-desc": "Skylagring under din kontroll.",
+  "i18n-sparkleshare-desc": "Lokal versjonskontroll og filsynkronisering.",
+  "i18n-tahoelafs-desc": "Fritt og åpen skylagring.",
+
+
+
+  "i18n-social-networking": "Sosialt nettverk",
+  "i18n-diaspora-desc": "ett ikke-kommersielt sosialt nettverk.",
+  "i18n-friendica-desc": "Gratis webserver med åpen kode.",
+  "i18n-gnusocial-desc": "Lokalt, desentralisert sosialt nettverk.",
+  "i18n-movim-desc": "Privat, desentralisert sosialt nettverksserver",
+  "i18n-pumpio-desc": "lokal, sosial strømningstjeneste.",
+  "i18n-salutatoi-desc": "Universalt kommunikasjonsverktøy.",
+  "i18n-tent-desc": "Gratis og anonym nettverksprotokoll.",
+
+
+
+  "i18n-instant-messaging": "Lynmeldinger",
+  "i18n-cryptocat-desc": "Private, krypterte online samtaler.",
+  "i18n-otr-desc": "Installer og start i Pidgin for kryptert chat.",
+  "i18n-pidgin-desc": "Lynmeldingsprogram med åpen kode.",
+  "i18n-adium-desc": "Pidgin for OS X (husk å aktiver OTR).",
+  "i18n-retroshare-desc": "Gratis og sikker P2P kommunikasjonsplattform.",
+
+
+
+
+  "i18n-video-voip": "Videkonferanse/VoIP",
+  "i18n-jitsi-desc": "Krypterte lynmeldinger og videokonferanse.",
+  "i18n-mumble-desc": "Gratis og kryptert VoIP.",
+
+
+
+  "i18n-media-publishing": "Publiseringssystem",
+  "i18n-gnumediagoblin-desc": "Desentralisert publiseringsplattform.",
+  "i18n-piwigo-desc": "Gratis fotogalleri.",
+  "i18n-wordpress-desc": Gratis hjemmeside/bloggCMS.",
+  "i18n-zenphoto-desc": "Gratis hjemmeside CMS.",
+
+
+
+  "i18n-document-collaboration": "Dokumentssamarbeid",
+  "i18n-ethercalc-desc": "Flerbruker regnearksserver.",
+  "i18n-etherpad-desc": "Åpen kildekode, sannstids samarbeids-dokumenter",
+
+
+
+  "i18n-web-analytics": "Nettrafikk analysering",
+  "i18n-piwik-desc": "Åpen kildekode, privathostet nettrafikk analysering.",
+
+
+
+  "i18n-csipsimple-desc": "Gratis, kryptert VoIP for Android.",
+  "i18n-cyanogenmod-desc": "Ettermarkeds firmware for Android apparater",
+  "i18n-gibberbot-desc": "Privat, sikker OTR-meldingsutveksling for Android",
+  "i18n-orbot-desc": "Tor proxy for Android.",
+  "i18n-redphone-desc": "Sikre private oppringninger for Android",
+  "i18n-replicant-desc": "Fullt gratis Android distribusjon",
+  "i18n-textsecure-desc": "Sikker  SMS/MMS kommunikasjon for Android.",
+
+
+
+  "i18n-chatsecure-desc": "Kryptert IM for iOS.",
+  "i18n-onionbrowser-desc": "Sikker surfing for iOS.",
+
+
+
+  "i18n-add": "add",
+  "i18n-mostly-free": "nesten gratis*",
+  "i18n-rec-non-free": "anbefaler ikke-frie programtillegg*",
+  "i18n-advanced": "avansert",
+  "i18n-partly-proprietary": "delvis innhavsrettig*",
+  "i18n-proprietary": "innhavsrett*",
+  "i18n-invite-only": "invitasjonsbasert",
+
+
+
+  "i18n-fsf-definition-title": "*Dette nettstedet benytter <strong>Free Software Foundation</strong> sin definisjon av fri programvare.",
+  "i18n-fsf-quote": "&ldquo;Fri programvare&rdquo; betyr programvare som respekterer brukerne sin frihet og samhold. Grovt sagt, <strong>brukerne har friheten til å kjøre, kopiere, distribuere, studere, endre og forbedre programvaren</strong>.  Med disse frihetene, har brukerne både individuelt og i gruppe, kontroll over programmet og hva det gjør for dem.",
+  "i18n-more": "mer &hellip;",
+  "i18n-the": "",
+
+
+
+  "i18n-media-title": "Omtalt av media",
+  "i18n-dutch": "Hollandsk",
+  "i18n-english": "Engelsk",
+  "i18n-french": "Fransk",
+  "i18n-german": "Tysk",
+  "i18n-polish": "Polsk",
+  "i18n-spanish": "Spansk",
+  "i18n-norwegian": "Norsk",
+
+
+  "i18n-updated": "Oppdatert",
+  "i18n-by": "av",
+  "i18n-contribute-on": "Bidrar til",
+  "i18n-donate": "Donere",
+
+
+
+  "i18n-footer-disclaimer": "Ansvarsfraskrivelse: Denne nettsiden støtter Electronic Frontier Foundation (EFF) og Free Software Foundation (FSF), men har ikke offisielt samarbeid men organisasjonene."
+}
