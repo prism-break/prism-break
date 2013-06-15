@@ -1,0 +1,188 @@
+{
+  "i18n-action-center": "Handlungszentrum",
+
+  "i18n-intro": "<strong>Sagen Sie NEIN zu PRISM, dem globalen Spionageprogramm der NSA.</strong> Stoppen Sie die Berichte Ihrer Onlineaktivit&auml;ten an die amerikanischen Regierung mit diesen freien Alternativen zu propriet&auml;rer Software.",
+
+
+
+  "i18n-operating-system" : "Betriebssystem",
+  "i18n-gnulinux-desc": "Freies, quelloffenes Betriebssystem.",
+  "i18n-debian-desc": "Popul&auml;re ethische GNU/Linux-Distribution.",
+  "i18n-fedora-desc": "Schnelle, stabile und m&auml;chtige GNU/Linux-Distribution.",
+  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Ihrer Privatsph&auml;re.",
+
+
+
+  "i18n-web-browser": "Webbrowser",
+  "i18n-icecat-desc": "GNU-Version von Firefox.",
+  "i18n-firefox-desc": "Quelloffener Webbrowser.",
+  "i18n-torbrowser-desc": "Verschl&uuml;sseltes, anonymes Surfen.",
+
+
+
+  "i18n-web-browser-plugins": "Webbrowser-Plugins",
+  "i18n-httpseverywhere-desc": "Verschl&uuml;sselt Ihre Kommunikation mit tausenden von Websites.",
+  "i18n-fixtracking-desc": "F&uuml;hrung zum verfolgungsfreien Onlinedasein.",
+  "i18n-torbutton-desc": "Tor-Plugin f&uuml;r IceCat und Firefox.",
+
+
+
+  "i18n-web-search": "Websuche",
+  "i18n-duckduckgo-desc": "Anonyme, aufzeichnungsfreie Websuchen.",
+  "i18n-startpage-desc": "Private, aufzeichnungsfreie Websuchen.",
+  "i18n-seeksproject-desc": "Offene dezentrale Plattform f&uuml;r kollaborative Suche.",
+  "i18n-yacy-desc": "Dezentralisierte Websuche.",
+
+
+
+  "i18n-dns-provider": "DNS-Provider",
+  "i18n-opennic-desc": "Totale DNS-Neutralit&auml;t.",
+
+
+
+  "i18n-darknet": "Darknet",
+  "i18n-i2p-desc": "Das Unsichtbares-Internet-Projekt.",
+  "i18n-nightweb-desc": "Anonymes I2P-Netzwerk f&uuml;r Android.",
+  "i18n-syndie-desc": "Verteilte, anonyme Forensoftware.",
+
+
+
+  "i18n-online-transactions": "Online-Transaktionen",
+  "i18n-bitcoin-desc": "P2P-basierte digitale W&auml;hrung ohne zentrale Autorit&auml;t.",
+
+
+
+  "i18n-email-services": "E-Mail-Dienste",
+  "i18n-bitmessage-desc": "Verschl&uuml;sselter, dezentralisierter Mailserver.",
+  "i18n-riseup-desc": "Sichere und private Mailaccounts.",
+
+
+
+  "i18n-email-clients": "E-Mail Desktop-Clients",
+  "i18n-clawsmail-desc": "Schlanke E-Mail-Anwendung mit GnuPG-Unterst&uuml;tzung.",
+  "i18n-evolution-desc": "Freie E-Mail- und Kalenderanwendung.",
+  "i18n-icedove-desc": "Freie Version von Mozilla Thunderbird.",
+  "i18n-kmail-desc": "KDE E-Mail-Client mit GPG-Unterst&uuml;tzung.",
+  "i18n-thunderbird-desc": "Quelloffene E-Mail-Anwendung.",
+
+
+
+  "i18n-email-encryption": "E-Mail-Verschl&uuml;sselung",
+  "i18n-enigmail-desc": "Ein OpenPGP-Plugin f&uuml;r Thunderbird/Icedove.",
+  "i18n-gnuprivacyguard-desc": "Freie OpenPGP-Implementierung.",
+  "i18n-mailvelope-desc": "OpenPGP-Verschl&uuml;sselung f&uuml;r Webmail.",
+  "i18n-webpg-desc": "GnuPG/PGP in Ihrem Browser.",
+
+
+
+  "i18n-maps": "Atlanten",
+  "i18n-openstreetmap-desc": "Freier, kollaborativer Weltatlas.",
+
+
+
+  "i18n-cloud-storage": "Cloudspeicherung",
+  "i18n-gitannex-desc": "Synchronisiert Ordner auf allen Laufwerken Ihres Computers.",
+  "i18n-owncloud-desc": "Cloud-Daten unter Ihrer Kontrolle.",
+  "i18n-sparkleshare-desc": "Selbst-gehostete Versionskontrolle und Dateisynchronisierung.",
+  "i18n-tahoelafs-desc": "Freies und offenes Cloud-Speichersystem.",
+
+
+
+  "i18n-social-networking": "Soziale Netzwerke",
+  "i18n-diaspora-desc": "Gemeinschaftsbetriebenes, verteiltes soziales Netzwerk.",
+  "i18n-friendica-desc": "Quelloffener, freier sozialer Webserver.",
+  "i18n-gnusocial-desc": "Selbst-gehostetes, dezentralisiertes soziales Netzwerk.",
+  "i18n-movim-desc": "Privater, dezentralisierter Sozialnetzwerk-Server.",
+  "i18n-pumpio-desc": "Selbst-gehosteter sozialer Streamserver.",
+  "i18n-salutatoi-desc": "Modulares Mehrzweck-Kommunikationswerkzeug.",
+  "i18n-tent-desc": "Freies, autonomes Sozialnetzwerk-Protokoll.",
+
+
+
+  "i18n-instant-messaging": "Sofortnachrichten",
+  "i18n-cryptocat-desc": "Private, verschl&uuml;sselte Online-Unterhaltungen.",
+  "i18n-otr-desc": "Pidgin-Plugin f&uuml;r verschl&uuml;sseltes Chatten.",
+  "i18n-pidgin-desc": "Quelloffenes Chatprogramm.",
+  "i18n-adium-desc": "Pidgin f&uuml;r OS X (dran denken, OTR zu aktivieren!).",
+  "i18n-retroshare-desc": "Freie, sichere, P2P-Kommunikationsplattform.",
+
+
+
+
+  "i18n-video-voip": "Videokonferenzen/VOIP",
+  "i18n-jitsi-desc": "Verschl&uuml;sselter Text- und Videochat.",
+  "i18n-mumble-desc": "Verschl&uuml;sselter Voicechat mit kurzer Latenzzeit.",
+
+
+
+  "i18n-media-publishing": "Medienver&ouml;ffentlichung",
+  "i18n-gnumediagoblin-desc": "Dezentralisierte Medienver&ouml;ffentlichungs-Plattform.",
+  "i18n-piwigo-desc": "Freie Fotogalerie-Plattform.",
+  "i18n-wordpress-desc": "Freies Website-/Blog-CMS.",
+  "i18n-zenphoto-desc": "Freies Medienwebsite-CMS.",
+
+
+
+  "i18n-document-collaboration": "Gemeinsames Arbeiten an Dokumenten",
+  "i18n-ethercalc-desc": "Mehrbenutzer-Tabellenkalkulationsserver.",
+  "i18n-etherpad-desc": "Quelloffenes, gemeinsames Arbeiten an Dokumenten in Echtzeit.",
+
+
+
+  "i18n-web-analytics": "Webanalysen",
+  "i18n-piwik-desc": "Quelloffene, selbstgehostete Webanalysen.",
+
+
+
+  "i18n-csipsimple-desc": "Freie, verschl&uuml;sselte VOIP f&uuml;r Android.",
+  "i18n-cyanogenmod-desc": "Firmware-Nachbesserung f&uuml;r Android-Telefone.",
+  "i18n-gibberbot-desc": "Privates, sicheres OTR-Messaging f&uuml;r Android.",
+  "i18n-orbot-desc": "Tor-Proxy f&uuml;r Android.",
+  "i18n-redphone-desc": "Sichere private Anrufe f&uuml;r Android.",
+  "i18n-replicant-desc": "V&ouml;llig freie Android-Distribution.",
+  "i18n-textsecure-desc": "Sichere SMS-/MMS-Kommunikation f&uuml;r Android.",
+
+
+
+  "i18n-chatsecure-desc": "Verschl&uuml;sselte Sofortnachrichten f&uuml;r iOS.",
+  "i18n-onionbrowser-desc": "Sicheres Surfen f&uuml;r iOS.",
+
+
+
+  "i18n-add": "plus",
+  "i18n-mostly-free": "gr&ouml;&szlig;tenteils frei*",
+  "i18n-rec-non-free": "empfiehlt nichtfreie Addons*",
+  "i18n-advanced": "fortgeschritten",
+  "i18n-partly-proprietary": "teilweise propriet&auml;r*",
+  "i18n-proprietary": "propriet&auml;r*",
+  "i18n-invite-only": "auf Einladungsbasis",
+
+
+
+  "i18n-fsf-definition-title": "*Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition freier Software.",
+  "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; hei&szlig;t Software, welche die Freiheit und Gemeinschaft der AnwenderInnen respektiert. Grob gesagt, <strong>haben die AnwenderInnen die Freiheit, die Software zu betreiben, kopieren, verteilen, untersuchen, ver&auml;ndern und zu verbessern</strong>. Mit diesen Freiheiten kontrollieren die AnwenderInnen (sowohl individuell als auch kollektiv) das Programm und was es f&uuml;r sie tut.",
+  "i18n-more": "mehr &hellip;",
+  "i18n-the": "Die",
+
+
+
+  "i18n-media-title": "Erw&auml;hnt in den Medien.",
+  "i18n-dutch": "Niederl&auml;ndisch",
+  "i18n-english": "Englisch",
+  "i18n-french": "Franz&ouml;sisch",
+  "i18n-german": "Deutsch",
+  "i18n-polish": "Polnisch",
+  "i18n-spanish": "Spanisch",
+
+
+
+  "i18n-updated": "Aktualisiert",
+  "i18n-by": "von",
+  "i18n-contribute-on": "Arbeite mit auf",
+  "i18n-donate": "Spende",
+
+
+
+  "i18n-footer-disclaimer": "Haftungsausschluss: Diese Website unterst&uuml;tzt die Electronic Frontier Foundation (EFF) und die Free Software Foundation (FSF), ist aber offiziell nicht durch diese gef&ouml;rdert."
+}
