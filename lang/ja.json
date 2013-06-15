@@ -1,31 +1,31 @@
 {
   "i18n-action-center": "アクションセンター",
 
-  "i18n-intro": "<strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
+  "i18n-intro": "<strong>PRISMをオプトアウトしましょう。PRISMは、NSA（アメリカ国家安全保障局）が行なっている世界的なデータ盗聴プログラムです。</strong> 以下に挙げるプロプライエタリ・ソフトウェアの自由な代替品を使うことで、あなたのオンラインにおける活動をソフトウェアがアメリカ政府へ報告するのを止めさせましょう。",
 
 
 
   "i18n-operating-system" : "オペレーティングシステム",
   "i18n-gnulinux-desc": "自由で、オープンソースのオペレーティングシステム。",
-  "i18n-debian-desc": "人気のある倫理的なGNU/Linuxディストリビューション。",
+  "i18n-debian-desc": "人気のある、ハッカー倫理にかなったGNU/Linuxディストリビューション。",
   "i18n-fedora-desc": "高速で安定したパワフルなGNU/Linuxディストリビューション。",
-  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-bsd-desc": "FreeBSD、OpenBSD、NetBSD、PC-BSD.",
   "i18n-tails-desc": "プライバシーを念頭に設計されたLive CD/USB。",
-  "i18n-trisquel-desc": "FSF が推奨する、ユーザフレンドリなGNU/Linux ディストリビューション。",
+  "i18n-trisquel-desc": "FSFが推奨する、ユーザフレンドリなGNU/Linuxディストリビューション。",
 
 
 
   "i18n-web-browser": "ウェブブラウザ",
-  "i18n-icecat-desc": "GNU バージョンの Firefox.",
+  "i18n-icecat-desc": "GNU版のFirefox.",
   "i18n-firefox-desc": "オープンソースのウェブブラウザ。",
-  "i18n-torbrowser-desc": "暗号化された、匿名のブラウジング。",
+  "i18n-torbrowser-desc": "暗号化された、匿名のブラウジングを実現。",
 
 
 
-  "i18n-web-browser-plugins": "ウェブブラウザ向けプラグイン",
-  "i18n-httpseverywhere-desc": "あなたの通信を何千ものウェブサイトで暗号化。",
-  "i18n-fixtracking-desc": "オンラインで追跡されるのを止めさせるためのガイド。",
-  "i18n-torbutton-desc": "IcecatやFirefox向けのTor プラグイン。",
+  "i18n-web-browser-plugins": "ウェブブラウザ用プラグイン",
+  "i18n-httpseverywhere-desc": "何千ものウェブサイトであなたの通信を暗号化。",
+  "i18n-fixtracking-desc": "オンラインで追跡されるのを止めさせるための手引き。",
+  "i18n-torbutton-desc": "IcecatやFirefox向けのTorプラグイン。",
 
 
 
@@ -38,20 +38,20 @@
 
 
   "i18n-dns-provider": "DNS プロバイダ",
-  "i18n-opennic-desc": "完全な DNS 中立性。",
+  "i18n-opennic-desc": "完全なDNS中立性を実現。",
 
 
 
   "i18n-darknet": "ダークネット",
   "i18n-freenet-desc": "分散化された、検閲に対抗できるネットワーク。",
-  "i18n-i2p-desc": "不可視のインターネットプロジェクト。",
+  "i18n-i2p-desc": "「不可視のインターネット」プロジェクト。",
   "i18n-nightweb-desc": "Android向けの匿名I2Pネットワーク。",
   "i18n-syndie-desc": "分散型の、匿名掲示板ソフトウェア。",
 
 
 
-  "i18n-online-transactions": "オンライン取引",
-  "i18n-bitcoin-desc": "中央権力の無いP2P デジタル貨幣。",
+  "i18n-online-transactions": "オンライン商取引",
+  "i18n-bitcoin-desc": "中央権力が存在しないP2Pデジタル通貨。",
 
 
 
@@ -62,110 +62,110 @@
 
 
   "i18n-email-clients": "電子メールデスクトップクライアント",
-  "i18n-clawsmail-desc": "GnuPGサポートを持つ計量の電子メールアプリケーション。",
-  "i18n-evolution-desc": "フリーの電子メールおよびカレンダーアプリケーション。",
-  "i18n-icedove-desc": "フリー・バージョンのMozilla Thunderbird。",
-  "i18n-kmail-desc": "GPGサポートを持つKDE 電子メールクライアント",
+  "i18n-clawsmail-desc": "GnuPGが使える軽量の電子メールアプリケーション。",
+  "i18n-evolution-desc": "自由な電子メールおよびカレンダーアプリケーション。",
+  "i18n-icedove-desc": "自由なバージョンのMozilla Thunderbird。",
+  "i18n-kmail-desc": "GPGが使えるKDE向け電子メールクライアント",
   "i18n-thunderbird-desc": "オープンソースの電子メールアプリケーション。",
 
 
 
   "i18n-email-encryption": "電子メールの暗号化",
-  "i18n-enigmail-desc": "Thunderbird/Icedove向けOpenPGP プラグイン。",
-  "i18n-gnuprivacyguard-desc": "フリーのOpenPGP実装。",
-  "i18n-mailvelope-desc": "ウェブメール向けのOpenPGP の暗号化。",
-  "i18n-webpg-desc": "GnuPG/PGP をあなたのブラウザ上で。",
+  "i18n-enigmail-desc": "Thunderbird/Icedove向けOpenPGPプラグイン。",
+  "i18n-gnuprivacyguard-desc": "自由なOpenPGP実装。",
+  "i18n-mailvelope-desc": "ウェブメール向けのOpenPGPによる暗号化。",
+  "i18n-webpg-desc": "GnuPG/PGPをブラウザ上で利用可能に。",
 
 
 
   "i18n-maps": "地図",
-  "i18n-openstreetmap-desc": "フリーで協働の世界地図。",
+  "i18n-openstreetmap-desc": "協働作業により作られている自由な世界地図。",
 
 
 
   "i18n-cloud-storage": "クラウドストレージ",
-  "i18n-gitannex-desc": "それぞれのコンピュータやドライブ上のフォルダを同期。",
+  "i18n-gitannex-desc": "コンピュータやドライブ上のフォルダを同期。",
   "i18n-owncloud-desc": "クラウドデータをあなたのコントロール下に。",
-  "i18n-sparkleshare-desc": "セルフホストのバージョンコントロールとファイルの同期。",
-  "i18n-tahoelafs-desc": "フリーでオープンなクラウドストレージシステム。",
+  "i18n-sparkleshare-desc": "セルフホストの、バージョンコントロールとファイルの同期。",
+  "i18n-tahoelafs-desc": "自由でオープンなクラウドストレージシステム。",
 
 
 
   "i18n-social-networking": "ソーシャルネットワーキング",
-  "i18n-diaspora-desc": "コミュニティによって運営されている、分散化ソーシャルネットワーク。",
-  "i18n-friendica-desc": "オープンソースでフリーなソーシャルウェブサーバ。",
+  "i18n-diaspora-desc": "コミュニティによって運営されている、分散型のソーシャルネットワーク。",
+  "i18n-friendica-desc": "オープンソースで自由なソーシャルウェブサーバ。",
   "i18n-gnusocial-desc": "セルフホストで、分散化されたソーシャルネットワーク。",
   "i18n-movim-desc": "プライベートで分散化されたソーシャルネットワークサーバ。",
   "i18n-pumpio-desc": "セルフホストのソーシャルストリームサーバ。",
   "i18n-salutatoi-desc": "マルチフロントエンドで多目的なコミュニケーションツール。",
-  "i18n-tent-desc": "フリーで自立的なソーシャルネットワークプロトコル。",
+  "i18n-tent-desc": "フリーで自律的なソーシャルネットワークプロトコル。",
 
 
 
-  "i18n-instant-messaging": "Instant messaging",
-  "i18n-cryptocat-desc": "Private, encrypted online conversations.",
-  "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
-  "i18n-pidgin-desc": "Open source chat program.",
-  "i18n-adium-desc": "Pidgin for OS X (remember to enable OTR).",
-  "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
+  "i18n-instant-messaging": "インスタントメッセージング",
+  "i18n-cryptocat-desc": "プライベートで、暗号化されたオンラインの会話を実現。",
+  "i18n-otr-desc": "Pidginにインストールし有効化することにより、暗号化されたチャットを実現。",
+  "i18n-pidgin-desc": "オープンソースのチャットプログラム。",
+  "i18n-adium-desc": "OS X向けPidgin（OTRを有効化するのをお忘れなく）。",
+  "i18n-retroshare-desc": "自由でセキュアなP2Pコミュニケーションプラットフォーム。",
 
 
 
 
-  "i18n-video-voip": "Video conferencing/VoIP",
-  "i18n-jitsi-desc": "Encrypted text and video chat.",
-  "i18n-mumble-desc": "Encrypted, low-latency voice chat.",
+  "i18n-video-voip": "ビデオカンファレンス/VoIP",
+  "i18n-jitsi-desc": "暗号化されたテキストおよびビデオチャット。",
+  "i18n-mumble-desc": "暗号化された低レイテンシのボイスチャット。",
 
 
 
-  "i18n-media-publishing": "Media publishing",
-  "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
-  "i18n-piwigo-desc": "Free photo gallery platform.",
-  "i18n-wordpress-desc": "Free website/blog CMS.",
-  "i18n-zenphoto-desc": "Free media website CMS.",
+  "i18n-media-publishing": "メディアパブリッシング",
+  "i18n-gnumediagoblin-desc": "分散化されたメディアパブリッシングプラットフォーム。",
+  "i18n-piwigo-desc": "自由な写真ギャラリープラットフォーム。",
+  "i18n-wordpress-desc": "自由なウェブサイト/ブログCMS。",
+  "i18n-zenphoto-desc": "自由なメディアウェブサイトCMS。",
 
 
 
-  "i18n-document-collaboration": "Document collaboration",
-  "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
-  "i18n-etherpad-desc": "Open source, real-time collaborative documents.",
+  "i18n-document-collaboration": "文書作成コラボレーション",
+  "i18n-ethercalc-desc": "マルチユーザのスプレッドシートサーバ。",
+  "i18n-etherpad-desc": "オープンソースで、リアルタイムの協働文書作成。",
 
 
 
-  "i18n-web-analytics": "Web analytics",
-  "i18n-piwik-desc": "Open source, self-hosted web analytics.",
+  "i18n-web-analytics": "ウェブ解析",
+  "i18n-piwik-desc": "オープンソースで、セルフホストのウェブアナリティクス。",
 
 
 
-  "i18n-csipsimple-desc": "Free, encrypted VoIP for Android.",
-  "i18n-cyanogenmod-desc": "Aftermarket firmware for Android devices.",
-  "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
-  "i18n-orbot-desc": "Tor proxy for Android.",
-  "i18n-redphone-desc": "Secure private calls for Android.",
-  "i18n-replicant-desc": "Fully free Android distribution.",
-  "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
+  "i18n-csipsimple-desc": "Android向けの自由な暗号化VoIP。",
+  "i18n-cyanogenmod-desc": "Androidデバイス向けの、アフターマーケット・ファームウェア。",
+  "i18n-gibberbot-desc": "Android向けの、プライベートでセキュアなOTRメッセージング。",
+  "i18n-orbot-desc": "Android用のTorプロキシ。",
+  "i18n-redphone-desc": "Android向けに、セキュアでプライベートな通話を実現。",
+  "i18n-replicant-desc": "完全に自由なAndroidディストリビューション。",
+  "i18n-textsecure-desc": "Android向けのセキュアなSMS/MMSコミュニケーション。",
 
 
 
-  "i18n-chatsecure-desc": "Encrypted IM for iOS.",
-  "i18n-onionbrowser-desc": "Secure browsing for iOS.",
+  "i18n-chatsecure-desc": "iOS用の暗号化されたIM。",
+  "i18n-onionbrowser-desc": "iOSでセキュアなブラウジングを実現。",
 
 
 
-  "i18n-add": "add",
-  "i18n-mostly-free": "mostly free*",
-  "i18n-rec-non-free": "recommends non-free addons*",
-  "i18n-advanced": "advanced",
-  "i18n-partly-proprietary": "partly proprietary*",
-  "i18n-proprietary": "proprietary*",
-  "i18n-invite-only": "invite-only",
+  "i18n-add": "追加",
+  "i18n-mostly-free": "大部分フリー*",
+  "i18n-rec-non-free": "非フリーなアドオンを推奨*",
+  "i18n-advanced": "高度",
+  "i18n-partly-proprietary": "一部プロプライエタリ*",
+  "i18n-proprietary": "プロプライエタリ*",
+  "i18n-invite-only": "招待者のみ",
 
 
 
-  "i18n-fsf-definition-title": "*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.",
-  "i18n-fsf-quote": "&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.",
-  "i18n-more": "more &hellip;",
-  "i18n-the": "The",
+  "i18n-fsf-definition-title": "*本ウェブサイトは、<strong>Free Software Foundation（自由ソフトウェア財団）</strong>による「自由なソフトウェア」の定義を採用しています。",
+  "i18n-fsf-quote": "自由なソフトウェア（フリーソフトウェア）とは、ユーザの自由とコミュニティを尊重するソフトウェアを意味します。大まかに言えば、<strong>ソフトウェアを実行し、コピーし、配布し、研究し、改変し、改良する自由がユーザにある</strong>ということです。これらの自由によって、ユーザ（個人としても集団としても）は、プログラムとそれが彼らのために行うことをコントロールすることができます。",
+  "i18n-more": "更に詳しくは &hellip;",
+  "i18n-the": " ",
 
 
 
@@ -179,12 +179,12 @@
 
 
 
-  "i18n-updated": "更新",
+  "i18n-updated": "更新日",
   "i18n-by": "by",
-  "i18n-contribute-on": "Contribute on",
-  "i18n-donate": "寄付",
+  "i18n-contribute-on": "改善等は",
+  "i18n-donate": "寄付は",
 
 
 
-  "i18n-footer-disclaimer": "Disclaimer: This website supports the Electronic Frontier Foundation (EFF) and the Free Software Foundation (FSF), but is not officially endorsed by either."
+  "i18n-footer-disclaimer": "おことわり： 本ウェブサイトは電子フロンティア財団（EFF）と自由ソフトウェア財団（FSF）を支持していますが、両団体から公式に推奨されたものではありません。"
 }
