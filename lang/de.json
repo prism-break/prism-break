@@ -11,6 +11,7 @@
   "i18n-fedora-desc": "Schnelle, stabile und m&auml;chtige GNU/Linux-Distribution.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Ihrer Privatsph&auml;re.",
+  "i18n-trisquel-desc": "Von der FSF unterst&uuml;tzte, anwenderfreundliche GNU/Linux-Distribution.",
 
 
 
@@ -38,10 +39,12 @@
 
   "i18n-dns-provider": "DNS-Provider",
   "i18n-opennic-desc": "Totale DNS-Neutralit&auml;t.",
+  "i18n-namecoin-desc": "Verteiltes DNS basierend auf Bitcoin-Technologie.",
 
 
 
   "i18n-darknet": "Darknet",
+  "i18n-freenet-desc": "Dezentralisiertes zensurresistentes Netzwerk.",
   "i18n-i2p-desc": "Das Unsichtbares-Internet-Projekt.",
   "i18n-nightweb-desc": "Anonymes I2P-Netzwerk f&uuml;r Android.",
   "i18n-syndie-desc": "Verteilte, anonyme Forensoftware.",
@@ -120,7 +123,7 @@
   "i18n-gnumediagoblin-desc": "Dezentralisierte Medienver&ouml;ffentlichungs-Plattform.",
   "i18n-piwigo-desc": "Freie Fotogalerie-Plattform.",
   "i18n-wordpress-desc": "Freies Website-/Blog-CMS.",
-  "i18n-zenphoto-desc": "Freies Medienwebsite-CMS.",
+  "i18n-zenphoto-desc": "Freies CMS f&uuml;r Medienwebsites.",
 
 
 
@@ -145,12 +148,13 @@
 
 
 
+  "i18n-ios-insecure-desc": "iOS-Ger&auml;te enthalten hardwareseitige Verfolgung.",
   "i18n-chatsecure-desc": "Verschl&uuml;sselte Sofortnachrichten f&uuml;r iOS.",
   "i18n-onionbrowser-desc": "Sicheres Surfen f&uuml;r iOS.",
 
 
 
-  "i18n-add": "plus",
+  "i18n-add": "f&uuml;ge hinzu",
   "i18n-mostly-free": "gr&ouml;&szlig;tenteils frei*",
   "i18n-rec-non-free": "empfiehlt nichtfreie Addons*",
   "i18n-advanced": "fortgeschritten",
@@ -179,10 +183,10 @@
 
   "i18n-updated": "Aktualisiert",
   "i18n-by": "von",
-  "i18n-contribute-on": "Arbeite mit auf",
+  "i18n-contribute-on": "Mach mit auf",
   "i18n-donate": "Spende",
 
 
 
-  "i18n-footer-disclaimer": "Haftungsausschluss: Diese Website unterst&uuml;tzt die Electronic Frontier Foundation (EFF) und die Free Software Foundation (FSF), ist aber offiziell nicht durch diese gef&ouml;rdert."
+  "i18n-footer-disclaimer": "Haftungsausschluss: Diese Website unterst&uuml;tzt die Electronic Frontier Foundation (EFF) und die Free Software Foundation (FSF), ist aber offiziell nicht durch diese unterst&uuml;tzt."
 }
