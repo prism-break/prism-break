@@ -1,0 +1,190 @@
+{
+  "i18n-action-center": "Поддержка",
+
+  "i18n-intro": "<strong>Откажитесь от ПРИЗМЫ, NSA&ndash;глобальные данные наблюдения программы.</strong> Остановите слежку за вашей деятельностью в Интернете к американскому правительству с помощью этого бесплатного альтернативного патентованного программного обеспечения.",
+
+
+
+  "i18n-operating-system" : "Операционные системы",
+  "i18n-gnulinux-desc": "Свободная, операционная система с открытым исходным кодом.",
+  "i18n-debian-desc": "Универсальная Операционная Система.",
+  "i18n-fedora-desc": "Быстрый, стабильный, мощный GNU/Linux дистрибутив.",
+  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-tails-desc": "Live CD/USB разработан для анонимности.",
+  "i18n-trisquel-desc": "Одобренный FSF, удобный GNU/Linux дистрибутив.",
+
+
+
+  "i18n-web-browser": "Вэб браузер",
+  "i18n-icecat-desc": "GNU версия Firefox.",
+  "i18n-firefox-desc": "Браузер с открытым исходным кодом.",
+  "i18n-torbrowser-desc": "Encrypted, anonymous browsing.",
+
+
+
+  "i18n-web-browser-plugins": "Плагины для браузера",
+  "i18n-httpseverywhere-desc": "Шифрование трафика",
+  "i18n-fixtracking-desc": "Руководство по блокировке отслеживающих скриптов.",
+  "i18n-torbutton-desc": "Tor плагин для IceCat и Firefox.",
+
+
+
+  "i18n-web-search": "Вэб поиск",
+  "i18n-duckduckgo-desc": "Анонимный и приватный вэб поиск.",
+  "i18n-startpage-desc": "Приватный вэб поиск.",
+  "i18n-seeksproject-desc": "Открытая децентрализованная платформа для совместного поиска.",
+  "i18n-yacy-desc": "Децентрализованный вэб поиск.",
+
+
+
+  "i18n-dns-provider": "DNS провайдер",
+  "i18n-opennic-desc": "Альтернативный DNS провайдер.",
+  "i18n-namecoin-desc": "Распределенная DNS основаная на технологии Bitcoin.",
+
+
+
+  "i18n-darknet": "Darknet",
+  "i18n-i2p-desc": "Проект невидимый интернет.",
+  "i18n-nightweb-desc": "Анонимная сеть I2P для Android.",
+  "i18n-syndie-desc": "Анонимный, распределенный форум.",
+
+
+
+  "i18n-online-transactions": "Платёжные системы",
+  "i18n-bitcoin-desc": "Пиринговая электронная платёжная система.",
+
+
+
+  "i18n-email-services": "Услуги электронной почты",
+  "i18n-bitmessage-desc": "Encrypted, decentralized email server.",
+  "i18n-riseup-desc": "Безопасная и конфиденциальная почта.",
+
+
+
+  "i18n-email-clients": "Почтовые клиенты",
+  "i18n-clawsmail-desc": "Легкий клиент электронной почты с поддержкой GnuPG.",
+  "i18n-evolution-desc": "Бесплатный клиент электронной почты.",
+  "i18n-icedove-desc": "Бесплатная версия почтового клиента Mozilla Thunderbird.",
+  "i18n-kmail-desc": "KDE клиент электронной почты с поддержкой GPG.",
+  "i18n-thunderbird-desc": "Клиент с открытым исходным кодом.",
+
+
+
+  "i18n-email-encryption": "Шифрование электронной почты",
+  "i18n-enigmail-desc": "OpenPGP плагин для Thunderbird / Icedove",
+  "i18n-gnuprivacyguard-desc": "Свободная реализация OpenPGP.",
+  "i18n-mailvelope-desc": "OpenPGP шифрование для веб-почты.",
+  "i18n-webpg-desc": "GnuPG / PGP шифрование в браузере.",
+
+
+
+  "i18n-maps": "Карты",
+  "i18n-openstreetmap-desc": "Бесплатные карты всего мира.",
+
+
+
+  "i18n-cloud-storage": "Облачные хранилища",
+  "i18n-gitannex-desc": "Синхронизация папок и дисков на компьютере.",
+  "i18n-owncloud-desc": "Облако данных под вашим контролем.",
+  "i18n-sparkleshare-desc": "Контроль версий и синхронизация файлов.",
+  "i18n-tahoelafs-desc": "Свободныая и открытая облачная система хранеия.",
+
+
+
+  "i18n-social-networking": "Социальные сети",
+  "i18n-diaspora-desc": "Распределенная социальная сеть.",
+  "i18n-friendica-desc": "Бесплатный вэб сервер социальной сети с ткрытым исходным кодом.",
+  "i18n-gnusocial-desc": "Резидентная, децентрализованная социальная сеть.",
+  "i18n-movim-desc": "Вэб сервер приватной, децентрализованной социальной сети.",
+  "i18n-pumpio-desc": "Резидентный, социальный потоковый сервер",
+  "i18n-salutatoi-desc": "Многофункциональный инструмент общения.",
+  "i18n-tent-desc": "Бесплатный, автономный протокол социальной сети.",
+
+
+
+  "i18n-instant-messaging": "Мгновенный обмен сообщениями",
+  "i18n-cryptocat-desc": "Приватные, зашифрованные беседы онлайн.",
+  "i18n-otr-desc": "Зашифрованный чат для Pidgin.",
+  "i18n-pidgin-desc": " Модульный клиент мгновенного обмена сообщениями.",
+  "i18n-adium-desc": "Pidgin для OS X (не забудьте включить OTR).",
+  "i18n-retroshare-desc": "Бесплатная, безопастная, P2P коммуникационная платформа.",
+
+
+
+
+  "i18n-video-voip": "Видеоконференции / VoIP",
+  "i18n-jitsi-desc": "Зашифрованная передача сообщений и видео-чат.",
+  "i18n-mumble-desc": "Зашифрованный голосовой чат с низкой задержкой.",
+
+
+
+  "i18n-media-publishing": "Публикация информации",
+  "i18n-gnumediagoblin-desc": "Децентрализованная платформа для публикации.",
+  "i18n-piwigo-desc": "Бесплатная платформа для публикации фото.",
+  "i18n-wordpress-desc": "Бесплатный сайт/блог CMS.",
+  "i18n-zenphoto-desc": "Бесплатный сайт CMS.",
+
+
+
+  "i18n-document-collaboration": "Совместная работа с документами",
+  "i18n-ethercalc-desc": "Многопользовательская работа с таблицами.",
+  "i18n-etherpad-desc": "Открытый исходный код, работа с документами в реальном времени.",
+
+
+
+  "i18n-web-analytics": "Веб-аналитика",
+  "i18n-piwik-desc": "Открытый исходный код, резидентной веб-аналитики.",
+
+
+
+  "i18n-csipsimple-desc": "Бесплатный, шифрование VOIP для Android.",
+  "i18n-cyanogenmod-desc": "Aftermarket прошивки для Android телефонов.",
+  "i18n-gibberbot-desc": "Приватный и безопастный  обмен сообщениями OTR для Android.",
+  "i18n-orbot-desc": "Tor прокси для Android.",
+  "i18n-redphone-desc": "Безопасные и приватные звонки для Android.",
+  "i18n-replicant-desc": "Полностью бесплатный Android дистрибутив.",
+  "i18n-textsecure-desc": "Безопасные SMS / MMS для Android.",
+
+
+
+  "i18n-chatsecure-desc": "Зашифрованные IM для IOS.",
+  "i18n-onionbrowser-desc": "Безопасный просмотр для IOS.",
+
+
+
+  "i18n-add": "add",
+  "i18n-mostly-free": "в основном бесплатно*",
+  "i18n-rec-non-free": "рекомендуемые несвободные аддоны*",
+  "i18n-advanced": "дополнительные",
+  "i18n-partly-proprietary": "частично несвободные*",
+  "i18n-proprietary": "проприетарный*",
+  "i18n-invite-only": "по приглашению",
+
+
+
+  "i18n-fsf-definition-title": "*Этот сайт использует <strong>Free Software Foundation&rsquo;s</strong> определение свободного программного обеспечения.",
+  "i18n-fsf-quote": "&ldquo;Бесплатное программное обеспечение&rdquo; средства программного обеспечения, которое уважает пользователей&raquo; свобода и сообщество. Грубо говоря, <strong>пользователи имеют свободно запускать, копировать, распространять, изучать, изменять и улучшать программное обеспечение</strong>. С этих свобод, пользователи (как индивидуально, так и коллективно), управления программой и что она делает для них.",
+  "i18n-more": "подробнее &hellip;",
+  "i18n-the": "The",
+
+
+
+  "i18n-media-title": "Mentioned by the media.",
+  "i18n-dutch": "Dutch",
+  "i18n-english": "English",
+  "i18n-french": "French",
+  "i18n-german": "German",
+  "i18n-polish": "Polish",
+  "i18n-spanish": "Spanish",
+
+
+
+  "i18n-updated": "Обновлено",
+  "i18n-by": "by",
+  "i18n-contribute-on": "Contribute on",
+  "i18n-donate": "Пожертвовать",
+
+
+
+  "i18n-footer-disclaimer": "Отказ от ответственности: Этот веб-сайт поддерживает Electronic Frontier Foundation (EFF) и Фонд свободного программного обеспечения (FSF), но официально не одобрены."
+}
