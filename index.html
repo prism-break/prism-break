@@ -30,16 +30,13 @@
           <option id="lang-el">ελληνικά</option>
           <option id="lang-en" selected="selected">English</option>
           <option id="lang-es">Español</option>
+          <option id="lang-fa">فارسی</option>
           <option id="lang-fr">Français</option>
           <option id="lang-ja">日本語</option>
           <option id="lang-nl">Nederlands</option>
           <option id="lang-no">Norsk</option>
           <option id="lang-pt">Português</option>
           <option id="lang-ru">Русский</option>
-        <!--
-          <option id="lang-de">Allemand</option>
-          <option id="lang-pt">Português</option>
-        -->
         </select>
       </div>
     </div>
@@ -1527,7 +1524,7 @@
     <!-- the language switching script -->
     <script type="text/javascript">
     // list of supported langs
-    var langs = ['ar', 'de', 'es', 'en', 'fr', 'el', 'ja', 'nl', 'no', 'pt', 'ru'];
+    var langs = ['ar', 'de', 'es', 'en', 'fa', 'fr', 'el', 'ja', 'nl', 'no', 'pt', 'ru'];
     
     $("#lang-select").change(function() {
       $("select option:selected").each(function () {
@@ -1546,7 +1543,7 @@
     function getLang(abbr) {
       if(langs.indexOf(abbr) < 0)
         throw "Unsopported language";
-      if(abbr == 'ar')
+      if(abbr == 'ar' || abbr == 'fa')
         $('body').attr('id', 'rtl');
       else
         $("body").removeAttr('id');
