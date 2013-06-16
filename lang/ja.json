@@ -1,15 +1,15 @@
 {
   "i18n-action-center": "アクションセンター",
 
-  "i18n-intro": "<strong>PRISMをオプトアウトしましょう。PRISMは、NSA（アメリカ国家安全保障局）が行なっている世界的なデータ盗聴プログラムです。</strong> 以下に挙げるプロプライエタリ・ソフトウェアの自由な代替品を使うことで、あなたのオンラインにおける活動をソフトウェアがアメリカ政府へ報告するのを止めさせましょう。",
+  "i18n-intro": "<strong>PRISMをオプトアウトしましょう。PRISMは、NSA（アメリカ国家安全保障局）が行なっている世界的なデータ盗聴プログラムです。</strong> 以下に挙げるプロプライエタリ・ソフトウェアの自由な代替品を使うことで、あなたのオンラインでの活動を、ソフトウェアがアメリカ政府へ報告するのを止めさせましょう。",
 
 
 
   "i18n-operating-system" : "オペレーティングシステム",
   "i18n-gnulinux-desc": "自由で、オープンソースのオペレーティングシステム。",
   "i18n-debian-desc": "人気のある、ハッカー倫理にかなったGNU/Linuxディストリビューション。",
-  "i18n-fedora-desc": "高速で安定したパワフルなGNU/Linuxディストリビューション。",
-  "i18n-bsd-desc": "FreeBSD、OpenBSD、NetBSD、PC-BSD.",
+  "i18n-fedora-desc": "高速で安定した、パワフルなGNU/Linuxディストリビューション。",
+  "i18n-bsd-desc": "FreeBSD、OpenBSD、NetBSD、PC-BSD。",
   "i18n-tails-desc": "プライバシーを念頭に設計されたLive CD/USB。",
   "i18n-trisquel-desc": "FSFが推奨する、ユーザフレンドリなGNU/Linuxディストリビューション。",
 
@@ -39,7 +39,7 @@
 
   "i18n-dns-provider": "DNS プロバイダ",
   "i18n-opennic-desc": "完全なDNS中立性を実現。",
-  "i18n-namecoin-desc": "Distributed DNS based on Bitcoin technology.",
+  "i18n-namecoin-desc": "Bitcoinの技術をベースにした分散型のDNS。",
 
 
 
@@ -53,8 +53,8 @@
 
   "i18n-online-transactions": "オンライン商取引",
   "i18n-bitcoin-desc": "中央権力が存在しないP2Pデジタル通貨。",
-  "i18n-cryptocoins-title": "Alternative cryptocurrencies.",
-  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
+  "i18n-cryptocoins-title": "Alternative cryptocurrencies",
+  "i18n-cryptocoins-desc": "非伝統的な暗号化デジタル通貨の一覧。",
 
 
 
@@ -116,7 +116,7 @@
 
   "i18n-video-voip": "ビデオカンファレンス/VoIP",
   "i18n-jitsi-desc": "暗号化されたテキストおよびビデオチャット。",
-  "i18n-linphone-desc": "Encrypted voice and video client.",
+  "i18n-linphone-desc": "暗号化されたボイスおよびビデオクライアント。",
   "i18n-mumble-desc": "暗号化された低レイテンシのボイスチャット。",
 
 
@@ -131,7 +131,7 @@
 
   "i18n-document-collaboration": "文書作成コラボレーション",
   "i18n-ethercalc-desc": "マルチユーザのスプレッドシートサーバ。",
-  "i18n-etherpad-desc": "オープンソースで、リアルタイムの協働文書作成。",
+  "i18n-etherpad-desc": "オープンソースで、リアルタイムの協働文書作成を実現。",
 
 
 
@@ -150,7 +150,7 @@
 
 
 
-  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
+  "i18n-ios-insecure-desc": "iOSデバイスにはハードウェア追跡機能が内蔵されています。",
   "i18n-chatsecure-desc": "iOS用の暗号化されたIM。",
   "i18n-onionbrowser-desc": "iOSでセキュアなブラウジングを実現。",
 
@@ -169,11 +169,12 @@
   "i18n-fsf-definition-title": "*本ウェブサイトは、<strong>Free Software Foundation（自由ソフトウェア財団）</strong>による「自由なソフトウェア」の定義を採用しています。",
   "i18n-fsf-quote": "自由なソフトウェア（フリーソフトウェア）とは、ユーザの自由とコミュニティを尊重するソフトウェアを意味します。大まかに言えば、<strong>ソフトウェアを実行し、コピーし、配布し、研究し、改変し、改良する自由がユーザにある</strong>ということです。これらの自由によって、ユーザ（個人としても集団としても）は、プログラムとそれが彼らのために行うことをコントロールすることができます。",
   "i18n-more": "更に詳しくは &hellip;",
-  "i18n-the": " ",
+  "i18n-the": "The",
 
 
 
   "i18n-media-title": "メディアによる言及。",
+  "i18n-catalan": "カタルーニャ語",
   "i18n-dutch": "オランダ語",
   "i18n-english": "英語",
   "i18n-french": "フランス語",
@@ -190,5 +191,5 @@
 
 
 
-  "i18n-footer-disclaimer": "おことわり： 本ウェブサイトは電子フロンティア財団（EFF）と自由ソフトウェア財団（FSF）を支持していますが、両団体から公式に推奨されたものではありません。"
+  "i18n-footer-disclaimer": "おことわり： 本ウェブサイトは電子フロンティア財団（EFF）と自由ソフトウェア財団（FSF）を支持していますが、両団体から公式に推奨されているわけではありません。"
 }
