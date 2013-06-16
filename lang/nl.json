@@ -39,6 +39,7 @@
 
   "i18n-dns-provider": "DNS provider",
   "i18n-opennic-desc": "Totale DNS neutraliteit.",
+  "i18n-namecoin-desc": "Distributed DNS based on Bitcoin technology.",
 
 
 
@@ -52,6 +53,8 @@
 
   "i18n-online-transactions": "Online transacties",
   "i18n-bitcoin-desc": "P2P digitale munteenheid zonder centrale autoriteit.",
+  "i18n-cryptocoins-title": "Alternative cryptocurrencies.",
+  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
 
 
 
@@ -111,9 +114,9 @@
 
 
 
-
   "i18n-video-voip": "Video gesprekken/VOIP",
   "i18n-jitsi-desc": "Versleutelde text en video chat.",
+  "i18n-linphone-desc": "Encrypted voice and video client.",
   "i18n-mumble-desc": "Versleutelde voice chat met lage vertraging.",
 
 
@@ -147,6 +150,7 @@
 
 
 
+  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
   "i18n-chatsecure-desc": "Versleuteld IM voor iOS.",
   "i18n-onionbrowser-desc": "Versleuteld surfen voor iOS.",
 

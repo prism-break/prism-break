@@ -1,0 +1,189 @@
+{
+  "i18n-action-center": "Κέντρο ενεργειών",
+
+  "i18n-intro": "<strong>Εναλλακτικές για την παράκαμψη του PRISM, του προγράμματος παγκόσμιας παρακολούθησης δεδομένων της NSA.</strong> Σταματήστε την αναφορά στην Αμερικάνικη κυβέρνηση δραστηριότητας στο διαδίκτυο με αυτά τα δωρεάν εναλλακτικά λογισμικά.",
+
+
+
+  "i18n-operating-system" : "Λειτουργικό Σύστημα",
+  "i18n-gnulinux-desc": "Ελεύθερα, ανοιχτού κώδικα Λειτουργικά Συστήματα.",
+  "i18n-debian-desc": "Δημοφιλής \"ηθική\" διανομή GNU/Linux.",
+  "i18n-fedora-desc": "Γρήγορη, σταθερή, ισχυρή διανομή GNU/Linux.",
+  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-tails-desc": "Live CD/USB σχεδιασμένο για προστασία προσωπικών δεδομένων.",
+
+
+
+  "i18n-web-browser": "Web browser",
+  "i18n-icecat-desc": "GNU έκδοση του Firefox.",
+  "i18n-firefox-desc": "Web browser ανοιχτού.",
+  "i18n-torbrowser-desc": "Κρυπτογραφημένη, ανώνυμη περιήγηση.",
+
+
+
+  "i18n-web-browser-plugins": "Πρόσθετα του Web browser",
+  "i18n-httpseverywhere-desc": "Κρυπτογραφεί τις επικοινωνίες με τις ιστοσελίδες.",
+  "i18n-fixtracking-desc": "Οδηγός για να σταματήσετε την παρακολούθηση στο διαδίκτυο.",
+  "i18n-torbutton-desc": "Πρόσθετο Tor  για IceCat και Firefox.",
+
+
+
+  "i18n-web-search": "Αναζήτηση Web",
+  "i18n-duckduckgo-desc": "Ανώνυμες, χωρίς καταγραφή αναζητήσεις.",
+  "i18n-startpage-desc": "Ιδιωτικές, χωρίς καταγραφή αναζητήσεις.",
+  "i18n-seeksproject-desc": "Ανοιχτές αποκεντρωμένες πλατφόρμες συνεργατικής αναζήτησης.",
+  "i18n-yacy-desc": "Αποκεντρωμένες αναζητήσεις.",
+
+
+
+  "i18n-dns-provider": "DNS provider",
+  "i18n-opennic-desc": "Total DNS neutrality.",
+  "i18n-namecoin-desc": "Distributed DNS based on Bitcoin technology.",
+
+
+
+  "i18n-darknet": "Darknet",
+  "i18n-freenet-desc": "Decentralised censorship-resistant network.",
+  "i18n-i2p-desc": "The invisible internet project.",
+  "i18n-nightweb-desc": "Anonymous I2P network for Android.",
+  "i18n-syndie-desc": "Distributed, anonymous forum software.",
+
+
+
+  "i18n-online-transactions": "Ηλεκτρονικές συναλλαγές",
+  "i18n-bitcoin-desc": "P2P ψηφιακό νόμισμα χωρίς κεντρική αρχή.",
+  "i18n-cryptocoins-title": "Alternative cryptocurrencies.",
+  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
+
+
+
+  "i18n-email-services": "Υπηρεσίες Email",
+  "i18n-bitmessage-desc": "Κρυπτογραφημένος, αποκεντρωμένος email server.",
+  "i18n-riseup-desc": "Ασφαλής και ιδιωτικοί λογαριασμοί email.",
+
+
+
+  "i18n-email-clients": "Προγράμματα Email",
+  "i18n-evolution-desc": "Ελεύθερο πρόγραμμα email και ημερολογίου.",
+  "i18n-icedove-desc": "Ελεύθερη έκδοση του Mozilla Thunderbird.",
+  "i18n-thunderbird-desc": "Εφαρμογή email ανοιχτού λογισμικού.",
+
+
+
+  "i18n-email-encryption": "Κρυπτογράφηση Email",
+  "i18n-enigmail-desc": "Πρόσθετο OpenPGP για Thunderbird/Icedove.",
+  "i18n-gnuprivacyguard-desc": "Ελεύθερη υλοποίηση OpenPGP.",
+  "i18n-mailvelope-desc": "Κρυπτογράφιση OpenPGP για webmail.",
+  "i18n-webpg-desc": "GnuPG/PGP στον browser σας.",
+
+
+
+  "i18n-maps": "Χάρτες",
+  "i18n-openstreetmap-desc": "Ελεύθεροι, συνεργατικοί παγκόσμιοι χάρτες.",
+
+
+
+  "i18n-cloud-storage": "Αποθήκευση στο Cloud",
+  "i18n-gitannex-desc": "Συγχρονισμός φακέλων σε κάθε υπολογιστή και δίσκο σας.",
+  "i18n-owncloud-desc": "Δεδομένα Cloud κάτω από τον έλεγχό σας.",
+  "i18n-sparkleshare-desc": "Αυτοφιλοξενούμενο σύστημα εκδόσεων και συγχρονισμού αρχείων.",
+  "i18n-tahoelafs-desc": "Ελεύθερο και ανοιχτού κώδικα σύστημα αποθήκευσης στο cloud.",
+
+
+
+  "i18n-social-networking": "Κοινονικά δίκτυα",
+  "i18n-diaspora-desc": "Διανεμημένο κοινωνικό δίκτυο που συντηρείται από την κοινότητα.",
+  "i18n-friendica-desc": "Ανοιχτού κώδικα, ελεύθερος κοινωνικός web server.",
+  "i18n-gnusocial-desc": "Αυτοφιλοξενούμενο, Διανεμημένο κοινωνικό δίκτυο.",
+  "i18n-movim-desc": "Ιδιωτικός, αποκεντρωμένος server κοινωνικού δικτύου.",
+  "i18n-pumpio-desc": "Αυτοφιλοξενούμενο, server κοινωνικού stream.",
+  "i18n-tent-desc": "Ελεύθερο, αυτόνομο πρωτόκολλο κοινωνικού δικτύου.",
+
+
+
+  "i18n-instant-messaging": "Άμεσα μηνύματα",
+  "i18n-cryptocat-desc": "Ιδιωτικές, κρυπτογραφημένες διαδικτυακές συνομιλίες.",
+  "i18n-otr-desc": "Εγκαταστείστε και ενεργοποιήστε κρυπτογραφημένη επικοινωνία στο Pidgin.",
+  "i18n-pidgin-desc": "Πρόγραμμα συνωμιλιών ανοιχτού κώδικα.",
+  "i18n-adium-desc": "Pidgin για OS X (θυμηθείτε να ενεργοποιήσετε το OTR).",
+  "i18n-retroshare-desc": "Ελεύθερη, ασφαλής, πλατφόρμα επικοινωνιών P2P.",
+
+
+
+  "i18n-video-voip": "Συνεδριάσεις Video/VOIP",
+  "i18n-jitsi-desc": "Κρυπτογραφημένες συνομιλίες με κείμενο και video.",
+  "i18n-linphone-desc": "Encrypted voice and video client.",
+  "i18n-mumble-desc": "Κρυπτογραφημένες, χαμηλής καθυστέρησης συνομιλίες με ήχο.",
+
+
+
+  "i18n-media-publishing": "Εκδόσεις πολυμέσων",
+  "i18n-gnumediagoblin-desc": "Αποκετρωμένη πλατφόρμα έκδοσης πολυμέσων.",
+  "i18n-piwigo-desc": "Ελεύθερη πλατφόρμα για φωτογραφίες.",
+  "i18n-wordpress-desc": "Ελεύθερο website/blog CMS.",
+  "i18n-zenphoto-desc": "Ελεύθερο media website CMS.",
+
+
+
+  "i18n-document-collaboration": "Συνεργατικά έγγραφα",
+  "i18n-ethercalc-desc": "Πολυχρηστικός, server λογιστικών φύλλων.",
+  "i18n-etherpad-desc": "Ανοιχτού κώδικα, συνεργατικά έγγραφα πραγματικού χρόνου.",
+
+
+
+  "i18n-web-analytics": "Στατιστικά Web",
+  "i18n-piwik-desc": "Ανοιχτού κώδικα, αυτοφιλοξενούμενα Στατιστικά Web.",
+
+
+
+  "i18n-csipsimple-desc": "Ελεύθερο, κρυπογραφημένο VOIP για Android.",
+  "i18n-cyanogenmod-desc": "Εναλλακτικό firmware για τηλέφωνα Android.",
+  "i18n-gibberbot-desc": "Ιδιωτικά, ασφαλή μηνύματα OTR για Android.",
+  "i18n-orbot-desc": "Tor proxy για Android.",
+  "i18n-redphone-desc": "Ασφαλή ιδιωτικά τηλεφωνήματα για Android.",
+  "i18n-replicant-desc": "Ελεύθερη διανομή Android.",
+  "i18n-textsecure-desc": "Ασφαλείς SMS/MMS επικοινωνίες για Android.",
+
+
+
+  "i18n-chatsecure-desc": "Κτυπτογραφημένο IM για iOS.",
+  "i18n-onionbrowser-desc": "Ασφαλή περιήγηση για iOS.",
+
+
+
+  "i18n-add": "προσθήκη",
+  "i18n-mostly-free": "σχεδόν ελεύθερο*",
+  "i18n-rec-non-free": "προτείνει μη ελεύθερα πρόσθετα*",
+  "i18n-advanced": "προχωρημένα",
+  "i18n-partly-proprietary": "μερικώς ιδιόκτητο*",
+  "i18n-proprietary": "ιδιόκτητο*",
+  "i18n-invite-only": "Με πρόσκληση μόνο",
+
+
+
+  "i18n-fsf-definition-title": "*Αυτό ο τόπος χρησιμοποιεί τον ορισμό του <strong>Free Software Foundation&rsquo;s</strong> για το ελεύθερο λογισμικό.",
+  "i18n-fsf-quote": "&ldquo;Free software&rdquo; σημαίνει λογισμικό που σέβεται τους την ελευθερία των χρηστών και της κοινότητας. Δηλαδή, <strong>οι χρήστες έχουν την ελευθερία να εκτελέσουν, αντιγράψουν, διανέμουν, μελετήσουν, αλλάξουν και βελτιώσουν το λογισμικό</strong>. Με αυτές τις ελευθερίες, οι χρήστες μπορούν (είτε ιδιωτικά είτε συλλεκτικά) να έχουν τον έλεγχο του προγράμματος και το τι κάνει για αυτούς.",
+  "i18n-more": "περισσόρα &hellip;",
+  "i18n-the": "Το",
+
+
+
+  "i18n-media-title": "Αναφορές στα Μέσα Μαζικής Ενημέρωσης.",
+  "i18n-dutch": "Ολανδικά",
+  "i18n-english": "Αγγλικά",
+  "i18n-french": "Γαλλικά",
+  "i18n-german": "Γερμανικά",
+  "i18n-polish": "Πολωνικά",
+  "i18n-spanish": "Ισπανικά",
+
+
+
+  "i18n-updated": "Ενημερωμένο",
+  "i18n-by": "από",
+  "i18n-contribute-on": "Συνεισφέρετε στο",
+  "i18n-donate": "Δωρίστε",
+
+
+
+  "i18n-footer-disclaimer": "Αποποίηση: Αυτός ο τόπος υποστηρίζει το Electronic Frontier Foundation (EFF) και το Free Software Foundation (FSF), αλλά δεν έχει την επίσημη υποστήριξη κάποιου από τα δύο."
+}
