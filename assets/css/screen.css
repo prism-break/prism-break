@@ -107,8 +107,6 @@ h3 {
   text-align: center;
   display: inline-block;
 }
-#brand input {
-}
 
 /*======================================================================
  * Header
@@ -355,6 +353,12 @@ td.free li .name .desc {
   border-right: 1px solid #ddd;
 }
 
+#rtl td.prop .logo {
+  float: right;
+  margin-right: 0;
+  margin-left: .75em;
+}
+
 #rtl td.arrow {
   border-right: 1px solid #ddd;
   -webkit-transform: rotate(180deg);
@@ -366,6 +370,11 @@ td.free li .name .desc {
 
 #rtl td.free {
   border-right: 1px solid #ddd;
+}
+#rtl td.free .logo {
+  float: right;
+  margin-right: 0;
+  margin-left: 1em;
 }
 
 #rtl #top {
@@ -385,9 +394,11 @@ td.free li .name .desc {
 #rtl #eff a {
   display: block;
   color: #eee;
-  padding: 0 18px 0 14px;
+  padding: 0 14px 0 18px;
 }
+
 #rtl #eff a img {
+  margin-right: 0;
   margin-left: .5em;
   float: right;
 }
@@ -396,4 +407,8 @@ td.free li .name .desc {
 }
 #rtl #brand {
   margin: 0 0 0 9px;
+}
+
+#rtl #brand h1 {
+  margin: 0 0 0 .5em;
 }
