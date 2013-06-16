@@ -11,7 +11,7 @@
   "i18n-fedora-desc": "Distribution GNU/Linux rapide, stable et puissante",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB conçu pour la vie privée.",
-  "i18n-trisquel-desc": "FSF endorsed, user-friendly GNU/Linux distribution.",
+  "i18n-trisquel-desc": "Distribution GNU/Linux conviviale et approuvée par la FSF.",
 
 
 
@@ -39,11 +39,12 @@
 
   "i18n-dns-provider": "Fournisseur DNS",
   "i18n-opennic-desc": "Neutralité DNS totale.",
+  "i18n-namecoin-desc": "Distributed DNS based on Bitcoin technology.",
 
 
 
   "i18n-darknet": "Darknet",
-  "i18n-freenet-desc": "Decentralised censorship-resistant network.",
+  "i18n-freenet-desc": "Réseau décentralisé résistant à la censure.",
   "i18n-i2p-desc": "Le projet internet invisible.",
   "i18n-nightweb-desc": "Réseau I2P anonyme pour Android.",
   "i18n-syndie-desc": "Logiciel de forum anonyme et distribué.",
@@ -52,6 +53,8 @@
 
   "i18n-online-transactions": "Transactions en ligne",
   "i18n-bitcoin-desc": "Monnaie numérique P2P sans autorité centrale.",
+  "i18n-cryptocoins-title": "Alternative cryptocurrencies.",
+  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
 
 
 
@@ -111,9 +114,9 @@
 
 
 
-
   "i18n-video-voip": "Vidéo conférence/VoIP",
   "i18n-jitsi-desc": "Chiffrement des discussions texte et vidéo .",
+  "i18n-linphone-desc": "Encrypted voice and video client.",
   "i18n-mumble-desc": "Discussion vocale chiffrée età faible latence .",
 
 
@@ -147,6 +150,7 @@
 
 
 
+  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
   "i18n-chatsecure-desc": "IM chiffré pour iOS.",
   "i18n-onionbrowser-desc": "Navigation sécurisée pour iOS.",
 

@@ -39,6 +39,7 @@
 
   "i18n-dns-provider": "DNS プロバイダ",
   "i18n-opennic-desc": "完全なDNS中立性を実現。",
+  "i18n-namecoin-desc": "Distributed DNS based on Bitcoin technology.",
 
 
 
@@ -52,6 +53,8 @@
 
   "i18n-online-transactions": "オンライン商取引",
   "i18n-bitcoin-desc": "中央権力が存在しないP2Pデジタル通貨。",
+  "i18n-cryptocoins-title": "Alternative cryptocurrencies.",
+  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
 
 
 
@@ -111,9 +114,9 @@
 
 
 
-
   "i18n-video-voip": "ビデオカンファレンス/VoIP",
   "i18n-jitsi-desc": "暗号化されたテキストおよびビデオチャット。",
+  "i18n-linphone-desc": "Encrypted voice and video client.",
   "i18n-mumble-desc": "暗号化された低レイテンシのボイスチャット。",
 
 
@@ -147,6 +150,7 @@
 
 
 
+  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
   "i18n-chatsecure-desc": "iOS用の暗号化されたIM。",
   "i18n-onionbrowser-desc": "iOSでセキュアなブラウジングを実現。",
 

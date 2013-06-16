@@ -7,6 +7,7 @@ body {
   color: #333;
   padding: 0;
   width: 100%;
+  direction: ltr;
 }
 
 
@@ -62,7 +63,7 @@ h3 {
   height: 50px;
   background: #333;
   float: left;
-  margin-right: 4px;
+  margin-right: 9px;
   vertical-align: top;
 }
 
@@ -105,8 +106,6 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
-}
-#brand input {
 }
 
 /*======================================================================
@@ -336,4 +335,80 @@ td.free li .name .title {
 
 td.free li .name .desc {
   color: #333;
+}
+
+/*======================================================================
+ * Right to left support
+======================================================================*/
+
+#rtl {
+  direction: rtl;
+}
+
+#rtl table td.section {
+  padding: 0 1em 0 0;
+}
+
+#rtl td.prop {
+  border-right: 1px solid #ddd;
+}
+
+#rtl td.prop .logo {
+  float: right;
+  margin-right: 0;
+  margin-left: .75em;
+}
+
+#rtl td.arrow {
+  border-right: 1px solid #ddd;
+  -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+#rtl td.free {
+  border-right: 1px solid #ddd;
+}
+#rtl td.free .logo {
+  float: right;
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+#rtl #top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#rtl #eff,
+#rtl #brand {
+  float: left;
+}
+
+#rtl #eff {
+  margin: 0 0 0 18px;
+}
+#rtl #eff a {
+  display: block;
+  color: #eee;
+  padding: 0 14px 0 18px;
+}
+
+#rtl #eff a img {
+  margin-right: 0;
+  margin-left: .5em;
+  float: right;
+}
+#rtl #eff a .label {
+  float: right;
+}
+#rtl #brand {
+  margin: 0 0 0 9px;
+}
+
+#rtl #brand h1 {
+  margin: 0 0 0 .5em;
 }
