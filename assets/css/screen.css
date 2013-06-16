@@ -63,7 +63,7 @@ h3 {
   height: 50px;
   background: #333;
   float: left;
-  margin-right: 4px;
+  margin-right: 9px;
   vertical-align: top;
 }
 
@@ -366,4 +366,34 @@ td.free li .name .desc {
 
 #rtl td.free {
   border-right: 1px solid #ddd;
+}
+
+#rtl #top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#rtl #eff,
+#rtl #brand {
+  float: left;
+}
+
+#rtl #eff {
+  margin: 0 0 0 18px;
+}
+#rtl #eff a {
+  display: block;
+  color: #eee;
+  padding: 0 18px 0 14px;
+}
+#rtl #eff a img {
+  margin-left: .5em;
+  float: right;
+}
+#rtl #eff a .label {
+  float: right;
+}
+#rtl #brand {
+  margin: 0 0 0 9px;
 }
