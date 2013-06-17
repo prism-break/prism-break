@@ -1630,6 +1630,11 @@
       var url = document.URL;
       var id = url.substring(url.lastIndexOf('#') + 1);
       getLang(id);
+
+      var rightOption = "lang-" + id;
+      $("#lang-select option").filter(function(){
+        return this.id == rightOption;
+      }).prop('selected', true);
     }
     setLangByUrl();
     
