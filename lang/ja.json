@@ -1,13 +1,13 @@
 {
   "i18n-action-center": "アクションセンター",
 
-  "i18n-intro": "<strong>PRISMをオプトアウトしましょう。PRISMは、NSA（アメリカ国家安全保障局）が行なっている世界的なデータ盗聴プログラムです。</strong> 以下に挙げるプロプライエタリ・ソフトウェアの自由な代替品を使うことで、あなたのオンラインでの活動を、ソフトウェアがアメリカ政府へ報告するのを止めさせましょう。",
+  "i18n-intro": "<strong>PRISMをオプトアウトしましょう。PRISMは、NSA（アメリカ国家安全保障局）が行なっている世界的なデータ盗聴プログラムです。</strong> 以下に挙げるプロプライエタリ・ソフトウェアの自由な代替品を使うことで、ソフトウェアが、あなたのオンラインでの活動をアメリカ政府に報告するのを止めさせましょう。",
 
 
 
   "i18n-operating-system" : "オペレーティングシステム",
   "i18n-gnulinux-desc": "自由で、オープンソースのオペレーティングシステム。",
-  "i18n-debian-desc": "人気のある、ハッカー倫理にかなったGNU/Linuxディストリビューション。",
+  "i18n-debian-desc": "人気の高い、ハッカー倫理にかなったGNU/Linuxディストリビューション。",
   "i18n-fedora-desc": "高速で安定した、パワフルなGNU/Linuxディストリビューション。",
   "i18n-bsd-desc": "FreeBSD、OpenBSD、NetBSD、PC-BSD。",
   "i18n-tails-desc": "プライバシーを念頭に設計されたLive CD/USB。",
@@ -30,16 +30,16 @@
 
 
   "i18n-web-search": "ウェブ検索",
-  "i18n-duckduckgo-desc": "匿名の、ログが記録されないウェブ検索。",
+  "i18n-duckduckgo-desc": "匿名で、ログが記録されないウェブ検索。",
   "i18n-startpage-desc": "プライベートな、ログが記録されないウェブ検索。",
-  "i18n-seeksproject-desc": "オープンで分散化された協働検索のためのプラットフォーム。",
+  "i18n-seeksproject-desc": "オープンで分散化された、協働検索のためのプラットフォーム。",
   "i18n-yacy-desc": "分散化されたウェブ検索。",
 
 
 
   "i18n-dns-provider": "DNS プロバイダ",
   "i18n-opennic-desc": "完全なDNS中立性を実現。",
-  "i18n-namecoin-desc": "Bitcoinの技術をベースにした分散型のDNS。",
+  "i18n-namecoin-desc": "Bitcoinの技術をベースにした、分散型のDNS。",
 
 
 
@@ -98,7 +98,7 @@
   "i18n-diaspora-desc": "コミュニティによって運営されている、分散型のソーシャルネットワーク。",
   "i18n-friendica-desc": "オープンソースで自由なソーシャルウェブサーバ。",
   "i18n-gnusocial-desc": "セルフホストで、分散化されたソーシャルネットワーク。",
-  "i18n-lorea-desc": "Distributed and federated social nodes.",
+  "i18n-lorea-desc": "分散型で、連合型のソーシャルノード。",
   "i18n-movim-desc": "プライベートで分散化されたソーシャルネットワークサーバ。",
   "i18n-pumpio-desc": "セルフホストのソーシャルストリームサーバ。",
   "i18n-salutatoi-desc": "マルチフロントエンドで多目的なコミュニケーションツール。",
@@ -146,8 +146,8 @@
 
 
   
-  "i18n-android-app-store": "Android App Store",
-  "i18n-fdroid-desc": "Free and open source apps for Android.",
+  "i18n-android-app-store": "Android アプリストア",
+  "i18n-fdroid-desc": "自由で、オープンソースなAndroid向けアプリ群。",
 
 
 
@@ -159,7 +159,7 @@
 
 
 
-  "i18n-ios-insecure-desc": "iOSデバイスにはハードウェア追跡機能が内蔵されています。",
+  "i18n-ios-insecure-desc": "iOSデバイスには、ハードウェア追跡機能が内蔵されています。",
   "i18n-chatsecure-desc": "iOS用の暗号化されたIM。",
   "i18n-onionbrowser-desc": "iOSでセキュアなブラウジングを実現。",
 
