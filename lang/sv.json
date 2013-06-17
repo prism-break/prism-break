@@ -1,0 +1,204 @@
+{
+  "i18n-action-center": "Åtgärdscenter",
+
+  "i18n-intro": "<strong>Bryt bort från PRISM, NSAs globala övervakningsprogram.</strong> Sluta rapportera dina online-aktiviteter till den amerikanska regeringen med dessa gratis alternativ till proprietär programvara.",
+
+
+
+  "i18n-operating-system" : "Operativsystem",
+  "i18n-gnulinux-desc": "Gratis, fritt operativsystem med öppen källkod.",
+  "i18n-debian-desc": "Populära etiska GNU/Linux distribution.",
+  "i18n-fedora-desc": "Snabb, stabil, kraftfull GNU/Linux distribution.",
+  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-tails-desc": "Live CD/USB avsedd för sekretess.",
+  "i18n-trisquel-desc": "FSF-godkänd, användarvänlig GNU/Linux distribution.",
+
+
+
+  "i18n-web-browser": "Webbläsare",
+  "i18n-icecat-desc": "GNU versionen av Firefox.",
+  "i18n-firefox-desc": "Webbläsare med öppen källkod.",
+  "i18n-torbrowser-desc": "Krypterade, anonym surfning.",
+
+
+
+  "i18n-web-browser-plugins": "Tillägg för Webbläsar",
+  "i18n-httpseverywhere-desc": "Krypterar dina trafik till tusentals webbplatser.",
+  "i18n-fixtracking-desc": "Guide för att undgå bli spårad på nätet.",
+  "i18n-torbutton-desc": "Tor tillägg för IceCat och Firefox.",
+
+
+
+  "i18n-web-search": "Sökmotor",
+  "i18n-duckduckgo-desc": "Anonyma webbsökningar utan loggfiler.",
+  "i18n-startpage-desc": "Privat, webbsökningar utan loggfiler.",
+  "i18n-seeksproject-desc": "Öppna decentraliserad för grupp sökningar.",
+  "i18n-yacy-desc": "Decentraliserad webbsökning.",
+
+
+
+  "i18n-dns-provider": "DNS-Tjänster",
+  "i18n-opennic-desc": "Total DNS neutralitet.",
+  "i18n-namecoin-desc": "Distribuerad DNS, baserade på Bitcoin teknologi.",
+
+
+
+  "i18n-darknet": "Darknet",
+  "i18n-freenet-desc": "Decentraliserad censur-resistent nätverk.",
+  "i18n-i2p-desc": "Det osynliga Internet Projektet.",
+  "i18n-nightweb-desc": "Anonymt I2P nätverk för Android.",
+  "i18n-syndie-desc": "Distribuerad, anonym forums-mjukvara.",
+
+
+
+  "i18n-online-transactions": "Online-transaktioner",
+  "i18n-bitcoin-desc": "P2P digital valuta utan någon central myndighet.",
+  "i18n-cryptocoins-title": "Alternativa krypterade valutor.",
+  "i18n-cryptocoins-desc": "Lista på alternativa krypterade valutor.",
+
+
+
+  "i18n-email-services": "Mejl tjänster",
+  "i18n-bitmessage-desc": "Krypterad, decentraliserad mejl server",
+  "i18n-riseup-desc": "Säker och privat mejl konto.",
+
+
+
+  "i18n-email-clients": "Mejl klienter",
+  "i18n-clawsmail-desc": "Lätt e-post klient med GnuPG stöd.",
+  "i18n-evolution-desc": "Gratis e-post och kalender klient.",
+  "i18n-icedove-desc": "Gratisversion av Mozilla Thunderbird.",
+  "i18n-kmail-desc": "KDE mejl klient med GPG stöd.",
+  "i18n-thunderbird-desc": "Mejl klient med öppen källkod.",
+
+
+
+  "i18n-email-encryption": "Mejl kryptering",
+  "i18n-enigmail-desc": "Ett OpenPGP tillägg för Thunderbird.",
+  "i18n-gnuprivacyguard-desc": "Gratis OpenPGP implementering.",
+  "i18n-mailvelope-desc": "OpenPGP kryptering för webb baserad mejl.",
+  "i18n-webpg-desc": "GnuPG/PGP i din webbläsare.",
+
+
+
+  "i18n-maps": "Kartor",
+  "i18n-openstreetmap-desc": "Fri, kollaborativ världskarta.",
+
+
+
+  "i18n-cloud-storage": "Molntjänster",
+  "i18n-gitannex-desc": "Synkronisera mappar på alla dina datorer och hårddiskar.",
+  "i18n-owncloud-desc": "Molnlagring i din kontroll.",
+  "i18n-sparkleshare-desc": "Lokal versions kontroll och filsynkronisering",
+  "i18n-tahoelafs-desc": "Fritt och öppet molnlagringssystem.",
+
+
+
+  "i18n-social-networking": "Socialt nätverk",
+  "i18n-diaspora-desc": "Icke kommersiellt socialt nätverk",
+  "i18n-friendica-desc": "Gratis webbserver med öppen källkod",
+  "i18n-gnusocial-desc": "Lokalt, decentraliserat socialt nätverk",
+  "i18n-lorea-desc": "Sociala nätverks noder.",
+  "i18n-movim-desc": "Privat socialt nätverk.",
+  "i18n-pumpio-desc": "Lokal social streaming server.",
+  "i18n-salutatoi-desc": "Mångsidigt kommunikationsverktyg.",
+  "i18n-tent-desc": "Gratis och anonymt nätverksprotokoll.",
+
+
+
+  "i18n-instant-messaging": "Chattjänster",
+  "i18n-cryptocat-desc": "Privat och krypterad chatt.",
+  "i18n-otr-desc": "Installations och start med Pidgin för krypterad chatt.",
+  "i18n-pidgin-desc": "Chattprogramm med öppen källkod.",
+  "i18n-adium-desc": "Pidgin för OS X (Kom ihåg att aktivera OTR).",
+  "i18n-retroshare-desc": "Gratis och säker P2P kommunikations plattform.",
+
+
+
+  "i18n-video-voip": "Videokonferens/VOIP",
+  "i18n-jitsi-desc": "Krypterad chatt och video-klient.",
+  "i18n-linphone-desc": "Krypterad röst och video-klient.",
+  "i18n-mumble-desc": "Krypterad röstchatt",
+
+
+
+  "i18n-media-publishing": "Publiceringssystem",
+  "i18n-gnumediagoblin-desc": "Publicerings plattform.",
+  "i18n-piwigo-desc": "Gratis fotogalleri.",
+  "i18n-wordpress-desc": "Gratis hemsida/blogg CMS.",
+  "i18n-zenphoto-desc": "Gratis hemsida CMS.",
+
+
+
+  "i18n-document-collaboration": "Dokumentsamarbete",
+  "i18n-ethercalc-desc": "Flera-användare kalkylblads server.",
+  "i18n-etherpad-desc": "Dokument samarbete i realtid, öppen källkod.",
+
+
+
+  "i18n-web-analytics": "Webbanalys",
+  "i18n-piwik-desc": "Lokal webbanalys, öppen källkod.",
+
+
+
+  "i18n-cyanogenmod-desc": "Firmware för Android-enheter.",
+  "i18n-replicant-desc": "Helt gratis Android distribution.",
+
+
+
+  "i18n-android-app-store": "Android App Store",
+  "i18n-fdroid-desc": "Fri och öppen källkod apps för Android.",
+
+
+  
+  "i18n-csipsimple-desc": "Fri, krypterad VoIP för Android.",
+  "i18n-gibberbot-desc": "Privat, säker OTR meddelandehantering för Android.",
+  "i18n-orbot-desc": "Tor proxy för Android.",
+  "i18n-redphone-desc": "Säkra privata samtal för Android.",
+  "i18n-textsecure-desc": "Säker SMS/MMS kommunikation för Android.",
+
+
+
+  "i18n-ios-insecure-desc": "iOS enheter innehåller hårdvara spårning.",
+  "i18n-chatsecure-desc": "Kryptera direktmeddelanden för iOS.",
+  "i18n-onionbrowser-desc": "Säker surfning för iOS.",
+
+
+
+  "i18n-add": "lägg till",
+  "i18n-mostly-free": "mestadels gratis*",
+  "i18n-rec-non-free": "rekommenderar icke-fria tillägg*",
+  "i18n-advanced": "avancerad",
+  "i18n-partly-proprietary": "delvis proprietär*",
+  "i18n-proprietary": "proprietär*",
+  "i18n-invite-only": "endast-via-inbjudan",
+
+
+
+  "i18n-fsf-definition-title": "*Denna webbplats använder <strong>Free Software Foundation&rsquo;s</strong> definitionen av fri programvara.",
+  "i18n-fsf-quote": "&ldquo;Fri programvara&rdquo; betyder programvara som respekterar användarens&rsquo; frihet och gemenskap. MAO, <strong> användarna har frihet att köra, kopiera, distribuera, studera, ändra och förbättra programvaran</strong>. Med dessa friheter, kan användarna (både individuellt och kollektivt) styra programmet och vad det gör för dem.",
+  "i18n-more": "mera &hellip;",
+  "i18n-the": "",
+
+
+
+  "i18n-media-title": "Nämnd i media.",
+  "i18n-catalan": "Katalanska",
+  "i18n-dutch": "Nederländska",
+  "i18n-english": "Engelska",
+  "i18n-french": "Franska",
+  "i18n-german": "Tyska",
+  "i18n-polish": "Polska",
+  "i18n-spanish": "Spanska",
+
+
+
+  "i18n-updated": "Uppdaterad",
+  "i18n-by": "av",
+  "i18n-contribute-on": "Bidra på",
+  "i18n-donate": "Donera",
+
+
+
+  "i18n-footer-disclaimer": "Ansvarsfriskrivning: Denna webbplats stödjer Electronic Frontier Foundation (EFF) och Free Software Foundation (FSF), men är inte officiellt stödd av ovan nämnda."
+}
