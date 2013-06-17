@@ -1,0 +1,204 @@
+{
+  "i18n-action-center": "Toimintakeskus",
+
+  "i18n-intro": "<strong>Vaihtoehto PRISM:lle - NSA:n eli Yhdysvaltain kansallisen turvallisuusviraston kansainväliselle tietojenurkintaohjelmalle.</strong> Sinun ei tarvitse jakaa tietoja verkkotoiminnastasi Yhdysvaltain hallitukselle. Se onnistuu näillä ilmaisilla ohjelmistoilla.",
+
+
+
+  "i18n-operating-system" : "Käyttöjärjestelmä",
+  "i18n-gnulinux-desc": "Ilmainen, avoimen lähdekoodin käyttöjärjestelmä.",
+  "i18n-debian-desc": "Erittäin suosittu ja eettinen GNU/Linux-jakelu.",
+  "i18n-fedora-desc": "Vakaa, nopea ja tehokas GNU/Linux-jakelu.",
+  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-tails-desc": "CD-levyltä tai USB-tikulta suoritettava ja yksityisyyttä arvostava käyttöjärjestelmä.",
+  "i18n-trisquel-desc": "FSF-järjestön hyväksymä ja käyttäjäystävällinen GNU/Linux-jakelu.",
+
+
+
+  "i18n-web-browser": "Verkkoselain",
+  "i18n-icecat-desc": "Firefoxin GNU-versio.",
+  "i18n-firefox-desc": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
+  "i18n-torbrowser-desc": "Salattu ja jälkiäjättämätön verkkoselaus..",
+
+
+
+  "i18n-web-browser-plugins": "Selaimen lisäosat",
+  "i18n-httpseverywhere-desc": "Salaa tuhansien verkkosivujen tietoliikenteen.",
+  "i18n-fixtracking-desc": "Opas verkkourkinnan pysäyttämiseen.",
+  "i18n-torbutton-desc": "Tor-lisäosa IceCat- ja Firefox-selaimille.",
+
+
+
+  "i18n-web-search": "Hakukone",
+  "i18n-duckduckgo-desc": "Hakukone, jonka käyttö ei yksilöi käyttäjää tai jätä jälkiä tästä.",
+  "i18n-startpage-desc": "Yksityisyyttä arvostava hakukone, joka ei kerää tietoja.",
+  "i18n-seeksproject-desc": "Avoin yhteisön luoma hakukone, jonka palvelimet sijaitsevat eri puolilla maailmaa.",
+  "i18n-yacy-desc": "Hakukone, jonka palvelimet sijaitsevat eri puolilla maailmaa.",
+
+
+
+  "i18n-dns-provider": "DNS-palveluntarjoaja",
+  "i18n-opennic-desc": "Täydellinen DNS-puolueettomuus.",
+  "i18n-namecoin-desc": "Hajautettu DNS-järjestelmä, joka perustuu Bitcoin-teknologiaan.",
+
+
+
+  "i18n-darknet": "Darknet",
+  "i18n-freenet-desc": "Hajautettu ja sensuurinestolla varustettu verkko.",
+  "i18n-i2p-desc": "Huomaamatta Internet-projekti.",
+  "i18n-nightweb-desc": "Käyttäjääyksilöimätön I2P-verkkosovellus Androidille.",
+  "i18n-syndie-desc": "Hajautettu, yksityisyyttä arvostava keskustelupalstaohjelmisto.",
+
+
+
+  "i18n-online-transactions": "Verkkorahaliikenne",
+  "i18n-bitcoin-desc": "P2P-pohjainen sähköinen rahaliikenne hajautettuna ympäri maailmaa.",
+  "i18n-cryptocoins-title": "Vaihtoehtoisia sähköisiä valuuttoja",
+  "i18n-cryptocoins-desc": "Luettelo kaikista salatuista sähköisistä valuutoista.",
+
+
+
+  "i18n-email-services": "Sähköposti",
+  "i18n-bitmessage-desc": "Salattu ja ympäri maailmaa hajautettu sähköpostipalvelin.",
+  "i18n-riseup-desc": "Turvalliset ja tietoturvalliset sähköpostitilit.",
+
+
+
+  "i18n-email-clients": "Sähköpostiohjelmat",
+  "i18n-clawsmail-desc": "Kevyt sähköpostisovellus GnuPG-tuella.",
+  "i18n-evolution-desc": "Ilmainen sähköposti- ja kalenterisovellus.",
+  "i18n-icedove-desc": "Vapaa versio Mozilla Thunderbirdistä.",
+  "i18n-kmail-desc": "KDE-sähköpostiohjelmalla GPG-tuella.",
+  "i18n-thunderbird-desc": "Avoimen lähdekoodin sähköpostisovellus.",
+
+
+
+  "i18n-email-encryption": "Sähköpostin salaus",
+  "i18n-enigmail-desc": "OpenPGP-lisäosa Thunderbirdille ja Icedovelle.",
+  "i18n-gnuprivacyguard-desc": "Vapaa OpenPGP-toteutus.",
+  "i18n-mailvelope-desc": "OpenPGP-salaus verkkoselaimella käytettävälle sähköpostille.",
+  "i18n-webpg-desc": "GnuPG/PGP selaimeen.",
+
+
+
+  "i18n-maps": "Kartat",
+  "i18n-openstreetmap-desc": "Ilmainen ja yhteisöllinen maailmanlaajuinen kartta. Tarkat kartat myös Suomesta.",
+
+
+
+  "i18n-cloud-storage": "Pilvipalvelu",
+  "i18n-gitannex-desc": "Synkronoi tiedostot ja kansiot tietokoneiden ja verkkolevyjen välillä.",
+  "i18n-owncloud-desc": "Pilvidata tiukasti omassa hallinnassasi.",
+  "i18n-sparkleshare-desc": "Omalta tietokoneelta suoritettava versionhallinta ja tiedostonsynkronointi.",
+  "i18n-tahoelafs-desc": "Ilmainen ja avoin pilvipalvelu.",
+
+
+
+  "i18n-social-networking": "Sosiaalinen viestintä",
+  "i18n-diaspora-desc": "Yhteisön kehittämä sosiaalinen verkosto.",
+  "i18n-friendica-desc": "Avoimen lähdekoodin ilmainen sosiaalinen palvelin.",
+  "i18n-gnusocial-desc": "Omalta tietokoneelta suoritettava, hajautettu sosiaalinen verkosto.",
+  "i18n-lorea-desc": "Hajautettuja ja monikerroksisia sosiaalisia keräytymiä.",
+  "i18n-movim-desc": "Yksityinen, ympäri maailmaa ylläpidettävä sosiaalinen verkosto.",
+  "i18n-pumpio-desc": "Self-hosted social stream server.",
+  "i18n-salutatoi-desc": "Monille laitteille suunniteltu monikäyttöinen viestintäväline.",
+  "i18n-tent-desc": "Ilmainen ja tunnisteeton sosiaalinen yhteyskäytäntö.",
+
+
+
+  "i18n-instant-messaging": "Pikaviestit",
+  "i18n-cryptocat-desc": "Yksityinen ja salattu verkkokeskustelu.",
+  "i18n-otr-desc": "Salaa keskustelusi asentamalla tämä Pidginiin.",
+  "i18n-pidgin-desc": "Avoimen lähdekoodin pikaviestisovellus.",
+  "i18n-adium-desc": "Pidgin Mac OS X -käyttöjärjestelmälle (muista asentaa OTR, katso ylempää).",
+  "i18n-retroshare-desc": "Ilmainen ja turvallinen P2P-keskustelualusta.",
+
+
+
+  "i18n-video-voip": "Video- ja äänipuhelut",
+  "i18n-jitsi-desc": "Salatut viesti- ja videokeskustelut.",
+  "i18n-linphone-desc": "Salatut ääni- ja videokeskustelut.",
+  "i18n-mumble-desc": "Salatut, pieniviiveiset äänipuhelut.",
+
+
+
+  "i18n-media-publishing": "Median jako",
+  "i18n-gnumediagoblin-desc": "Hajautettu medianjakopalvelin.",
+  "i18n-piwigo-desc": "Ilmainen kuvagalleria-alusta.",
+  "i18n-wordpress-desc": "Ilmainen verkkosivun ja blogin julkaisujärjestelmä.",
+  "i18n-zenphoto-desc": "Ilmainen median julkaisujärjestelmä.",
+
+
+
+  "i18n-document-collaboration": "Asiakirjayhteistyö",
+  "i18n-ethercalc-desc": "Monta käyttäjää tukeva taulukkolaskenta-verkkosovellus.",
+  "i18n-etherpad-desc": "Avoimen lähdekoodin reaaliaikaiset yhteistyöasiakirjat.",
+
+
+
+  "i18n-web-analytics": "Verkkotilastot",
+  "i18n-piwik-desc": "Avoimen lähdekoodin omalta tietokoneelta suoritettavat verkkotilastot.",
+
+
+
+  "i18n-cyanogenmod-desc": "Jälkikäteen Android-laitteisiin asennettava käyttöjärjestelmä",
+  "i18n-replicant-desc": "Täysin ilmainen Android-jakelu.",
+
+
+
+  "i18n-android-app-store": "Android-sovelluskauppa",
+  "i18n-fdroid-desc": "Ilmaiset avoimen lähdekoodin sovellukset Androidille.",
+
+
+  
+  "i18n-csipsimple-desc": "Ilmaiset ja salatut äänipuhelut Androidille.",
+  "i18n-gibberbot-desc": "Yksityinen keskustelusovellus Androidille, jonka keskusteluja ei tallenneta palvelimille.",
+  "i18n-orbot-desc": "Tor-välityspalvelin Androidille.",
+  "i18n-redphone-desc": "Turvalliset yksityispuhelut Androidille.",
+  "i18n-textsecure-desc": "Tietoturvalliset teksti- ja multimediaviestit Androidille.",
+
+
+
+  "i18n-ios-insecure-desc": "iOS-laitteet tallentavat kaiken laitteen toiminnan.",
+  "i18n-chatsecure-desc": "Salattu pikaviestintä iOS:lle.",
+  "i18n-onionbrowser-desc": "Yksityinen verkkoselain iOS:lle.",
+
+
+
+  "i18n-add": "lisää",
+  "i18n-mostly-free": "pääosin ilmainen*",
+  "i18n-rec-non-free": "suosittaa suljettuja lisäosia*",
+  "i18n-advanced": "edistyneille",
+  "i18n-partly-proprietary": "osittain patentoitu*",
+  "i18n-proprietary": "patentoitu*",
+  "i18n-invite-only": "rekisteröityminen vain kutsulla",
+
+
+
+  "i18n-fsf-definition-title": "*Tämä verkkosivusto käyttää <strong>Free Software Foundationin</strong> määrittämää avointa ohjelmistoa.",
+  "i18n-fsf-quote": "&ldquo;Avoin ohjelmisto&rdquo; tarkoittaa ohjelmistoa, joka kunnioittaa käyttäjänsä vapautta ja yhteisöllisyyttä. <strong>Käyttäjällä tulisi olla oikeus käyttää, kopioida, jakaa, opiskella, vaihtaa ja kehittää ohjelmistoa.</strong>. Näiden oikeuksien mukaan käyttäjällä (sekä yksilöinä että yhteisönä) tulisi olla valta päättää, mikä ohjelma on ja mitä se merkitsee käyttäjälle.",
+  "i18n-more": "lisätietoja &hellip;",
+  "i18n-the": "",
+
+
+
+  "i18n-media-title": "Mainintoja mediassa",
+  "i18n-catalan": "Katalaani",
+  "i18n-dutch": "Hollanti",
+  "i18n-english": "Enganti",
+  "i18n-french": "Ranska",
+  "i18n-german": "Saksa",
+  "i18n-polish": "Puola",
+  "i18n-spanish": "Espanja",
+
+
+
+  "i18n-updated": "Päivittänyt viimeksi",
+  "i18n-by": "käyttäjä",
+  "i18n-contribute-on": "Osallistu palvelussa",
+  "i18n-donate": "Tee lahjoitus",
+
+
+
+  "i18n-footer-disclaimer": "Vastuunvapautus: Tämä verkkosivusto tukee Electronic Frontier Foundation (EFF) ja Free Software Foundation (FSF) -järjestöjen toimintaa, mutta ei ole myöskään niiden virallisesti hyväksymä."
+}
