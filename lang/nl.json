@@ -39,7 +39,7 @@
 
   "i18n-dns-provider": "DNS provider",
   "i18n-opennic-desc": "Totale DNS neutraliteit.",
-  "i18n-namecoin-desc": "Distributed DNS based on Bitcoin technology.",
+  "i18n-namecoin-desc": "Gedistribueerde DNS gebaseerd op de technologie van Bitcoin.",
 
 
 
@@ -53,8 +53,8 @@
 
   "i18n-online-transactions": "Online transacties",
   "i18n-bitcoin-desc": "P2P digitale munteenheid zonder centrale autoriteit.",
-  "i18n-cryptocoins-title": "Alternative cryptocurrencies.",
-  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
+  "i18n-cryptocoins-title": "Alternatieve versleutelde valuta",
+  "i18n-cryptocoins-desc": "Lijst met alternatieve versleutelde online munteenheden.",
 
 
 
@@ -98,11 +98,11 @@
   "i18n-diaspora-desc": "Gedistribueerd sociaal netwerk van de gemeenschap.",
   "i18n-friendica-desc": "Open source, vrije sociale webserver.",
   "i18n-gnusocial-desc": "Zelfgehost, decentraal sociaal netwerk.",
-  "i18n-lorea-desc": "Distributed and federated social nodes.",
-  "i18n-movim-desc": "Eigen, decentrale sociaal netwerk server.",
+  "i18n-lorea-desc": "Verspreide en samenwerkende sociale netwerken.",
+  "i18n-movim-desc": "Eigen, decentraal sociaal netwerk server.",
   "i18n-pumpio-desc": "Zelfgehost sociale stream server.",
   "i18n-salutatoi-desc": "Multi-frontend, multifunctionele communicatietool.",
-  "i18n-tent-desc": "Vrije, autonome sociaal netwerk protocol.",
+  "i18n-tent-desc": "Vrij, autonoom sociaal netwerk protocol.",
 
 
 
@@ -116,9 +116,9 @@
 
 
   "i18n-video-voip": "Video gesprekken/VOIP",
-  "i18n-jitsi-desc": "Versleutelde text en video chat.",
-  "i18n-linphone-desc": "Encrypted voice and video client.",
-  "i18n-mumble-desc": "Versleutelde voice chat met lage vertraging.",
+  "i18n-jitsi-desc": "Versleutelde communicatie met beeld en geluid.",
+  "i18n-linphone-desc": "Versleutelde communicatie met beeld en geluid.",
+  "i18n-mumble-desc": "Versleutelde spraak communicatie met lage vertraging.",
 
 
 
@@ -147,7 +147,7 @@
 
 
   "i18n-android-app-store": "Android App Store",
-  "i18n-fdroid-desc": "Free and open source apps for Android.",
+  "i18n-fdroid-desc": "Vrije en gratis apps voor Android.",
 
 
 
@@ -155,13 +155,13 @@
   "i18n-gibberbot-desc": "Priv&eacute;, veilige OTR berichten voor Android.",
   "i18n-orbot-desc": "Tor proxy voor Android.",
   "i18n-redphone-desc": "Veilige priv&eacute;gesprekken voor Android.",
-  "i18n-surespot-desc": "Free, open-source, end-to-end encrypted messaging.",
+  "i18n-surespot-desc": "Gratis opensource chatclient met volledige versleuteling.",
   "i18n-textsecure-desc": "Veilige SMS/MMS communicatie voor Android.",
-  "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
+  "i18n-xabber-desc": "OTR-versleutelde chatclient voor Android.",
 
 
 
-  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
+  "i18n-ios-insecure-desc": "iOS-apparaten bevatten hardware tracking.",
   "i18n-chatsecure-desc": "Versleuteld IM voor iOS.",
   "i18n-onionbrowser-desc": "Versleuteld surfen voor iOS.",
 
@@ -174,8 +174,9 @@
   "i18n-partly-proprietary": "deels in eigendomsbezit*",
   "i18n-proprietary": "in eigendomsbezit*",
   "i18n-invite-only": "alleen op uitnodiging",
-  "i18n-newbies-choice": "newbie's choice",
-  "i18n-editors-choice": "editor's choice",
+  "i18n-usa-hosted": "gehost in de vs",
+  "i18n-newbies-choice": "aanrader voor beginners",
+  "i18n-editors-choice": "keuze van de redacteur",
 
 
 
@@ -192,10 +193,10 @@
   "i18n-english": "Engels",
   "i18n-french": "Frans",
   "i18n-german": "Duits",
-  "i18n-italian": "Italian",
+  "i18n-italian": "Italiaans",
   "i18n-polish": "Pools",
   "i18n-spanish": "Spaans",
-  "i18n-chinese-traditional": "Chinese (Traditional)",
+  "i18n-chinese-traditional": "Chinees (traditioneel)",
 
 
 
