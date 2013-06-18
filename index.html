@@ -1605,6 +1605,7 @@
           if( $(this).attr('id') == ('lang-'+langs[i]) )
           {
             getLang(langs[i]);
+            window.location.hash = langs[i];
             break;
           }
         }
@@ -1614,7 +1615,7 @@
     // pulling in json language data
     function getLang(abbr) {
       if(langs.indexOf(abbr) < 0)
-        throw "Unsopported language";
+        throw "Unsupported language";
       if(abbr == 'ar' || abbr == 'fa')
         $('body').attr('id', 'rtl');
       else
