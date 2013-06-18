@@ -89,7 +89,7 @@
   "i18n-cloud-storage": "Cloud storage",
   "i18n-gitannex-desc": "Sincronizza le cartelle su tutti i tuoi computer.",
   "i18n-owncloud-desc": "Piattaforma cloud storage libera e privata.",
-  "i18n-sparkleshare-desc": "Sistema indipendente di sincronizzazione file e controllo versione.",
+  "i18n-sparkleshare-desc": "Sistema self-hosted di sincronizzazione file e controllo versione.",
   "i18n-tahoelafs-desc": "Sistema di cloud storage libero e open source.",
 
 
@@ -97,10 +97,10 @@
   "i18n-social-networking": "Social network",
   "i18n-diaspora-desc": "Social network distribuito e comunitario.",
   "i18n-friendica-desc": "Web server sociale libero, open source e distribuito.",
-  "i18n-gnusocial-desc": "Social network indipendente e decentralizzato.",
+  "i18n-gnusocial-desc": "Social network self-hosted e decentralizzato.",
   "i18n-lorea-desc": "Nodi sociali distribuiti e federati.",
   "i18n-movim-desc": "Server per social network privato e decentralizzato.",
-  "i18n-pumpio-desc": "Server di streaming sociale indipendente.",
+  "i18n-pumpio-desc": "Server di streaming sociale self-hosted.",
   "i18n-salutatoi-desc": "Strumento di comunicazione multi-frontend e multipurpose.",
   "i18n-tent-desc": "Protocollo per social network libero e autonomo.",
 
@@ -137,7 +137,7 @@
 
 
   "i18n-web-analytics": "Analisi web",
-  "i18n-piwik-desc": "Analisi web indipendente e open source.",
+  "i18n-piwik-desc": "Analisi web self-hosted e open source.",
 
 
 
@@ -155,9 +155,9 @@
   "i18n-gibberbot-desc": "Messaggistica OTR privata e protetta per Android.",
   "i18n-orbot-desc": "Sevizio proxy Tor per Android.",
   "i18n-redphone-desc": "Chiamate protette e private per Android.",
-  "i18n-surespot-desc": "Free, open-source, end-to-end encrypted messaging.",
+  "i18n-surespot-desc": "Messaggistica end-to-end cifrata, libera e open source.",
   "i18n-textsecure-desc": "Comunicazioni SMS/MMS protette per Android.",
-  "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
+  "i18n-xabber-desc": "Messaggistica istantanea con cifratura OTR per Android.",
 
 
 
@@ -174,8 +174,8 @@
   "i18n-partly-proprietary": "parzialmente proprietario*",
   "i18n-proprietary": "proprietario*",
   "i18n-invite-only": "solo su invito",
-  "i18n-newbies-choice": "newbie's choice",
-  "i18n-editors-choice": "editor's choice",
+  "i18n-newbies-choice": "ideale per iniziare",
+  "i18n-editors-choice": "consigliato",
 
 
 
@@ -192,14 +192,14 @@
   "i18n-english": "Inglese",
   "i18n-french": "Francese",
   "i18n-german": "Tedesco",
-  "i18n-italian": "Italian",
+  "i18n-italian": "Italiano",
   "i18n-polish": "Polacco",
   "i18n-spanish": "Spagnolo",
-  "i18n-chinese-traditional": "Chinese (Traditional)",
+  "i18n-chinese-traditional": "Cinese (Tradizionale)",
 
 
 
-  "i18n-updated": "Aggiornato",
+  "i18n-updated": "Aggiornato il",
   "i18n-by": "da",
   "i18n-contribute-on": "Contribuisci",
   "i18n-donate": "Dona",
