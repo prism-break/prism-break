@@ -110,7 +110,7 @@
   "i18n-cryptocat-desc": "Private, encrypted online conversations.",
   "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
   "i18n-pidgin-desc": "Open source chat program.",
-  "i18n-adium-desc": "Pidgin for OS X (remember to enable OTR).",
+  "i18n-adium-desc": "Multi-protocol chat client for OS X (remember to enable OTR).",
   "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
 
 
@@ -155,7 +155,9 @@
   "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
   "i18n-orbot-desc": "Tor proxy for Android.",
   "i18n-redphone-desc": "Secure private calls for Android.",
+  "i18n-surespot-desc": "Free, open-source, end-to-end encrypted messaging.",
   "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
+  "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
 
 
 
@@ -203,5 +205,5 @@
 
 
 
-  "i18n-footer-disclaimer": "Disclaimer: This website supports the Electronic Frontier Foundation (EFF) and the Free Software Foundation (FSF), but is not officially endorsed by either."
+  "i18n-footer-disclaimer": "Disclaimer: This website is not officially endorsed by the Electronic Frontier Foundation."
 }
