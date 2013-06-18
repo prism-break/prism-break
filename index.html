@@ -8,8 +8,9 @@
     <meta name="description" content="Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software." />
     <meta name="author" content="Peng Zhong" />
 
-    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
     <script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.color-2.1.2.min.js"></script>
     <link rel="canonical" href="/" />
   </head>
 
@@ -1623,7 +1624,10 @@
       var jsonUrl = "lang/" + abbr + ".json";
       $.getJSON(jsonUrl, function(data) {
         $.each(data, function(key, val) {
-          $('body').find("span." + key).html(val);
+          i18nSpans = $('body').find("span." + key)
+          i18nSpans.html(val);
+          i18nSpans.stop().css("background-color", "#FFFF9C")
+.animate({ backgroundColor: "transparent"}, 1500);;
         });
       });
     };
@@ -1646,6 +1650,13 @@
     {
       getLang(navigator.langage);
     }
+
+    $.fn.animateHighlight = function(highlightColor, duration) {
+      var highlightBg = highlightColor || "#FFFF9C";
+      var animateMs = duration || 1500;
+      var originalBg = "#FFFFFF";
+      this.stop().css("background-color", highlightBg).animate({backgroundColor: originalBg}, animateMs);
+    };
     </script>
 
     <!-- Piwik analytics. Does not record the last octet of visitor IPs -->
