@@ -33,6 +33,7 @@
           <option id="lang-fa">فارسی</option>
           <option id="lang-fi">Suomi</option>
           <option id="lang-fr">Français</option>
+          <option id="lang-it">Italiano</option>
           <option id="lang-ja">日本語</option>
           <option id="lang-nl">Nederlands</option>
           <option id="lang-no">Norsk</option>
@@ -1594,7 +1595,7 @@
     <!-- the language switching script -->
     <script type="text/javascript">
     // list of supported langs
-    var langs = ['ar', 'de', 'es', 'en', 'fa', 'fi', 'fr', 'el', 'ja', 'nl', 'no', 'pt', 'ru'];
+    var langs = ['ar', 'de', 'es', 'en', 'fa', 'fi', 'fr', 'el', 'it', 'ja', 'nl', 'no', 'pt', 'ru'];
     
     $("#lang-select").change(function() {
       $("select option:selected").each(function () {
@@ -1631,6 +1632,7 @@
       var id = url.substring(url.lastIndexOf('#') + 1);
       getLang(id);
 
+      // update #lang-select based on url segment
       var rightOption = "lang-" + id;
       $("#lang-select option").filter(function(){
         return this.id == rightOption;
