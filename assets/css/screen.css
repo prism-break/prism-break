@@ -26,12 +26,16 @@ a:hover {
 }
 
 .fs {
-  background: #aaa;
+  background: #999;
   font: 12px/1.5 sans-serif;
   display: inline-block;
   color: #fff;
   padding: 0 .5em;
 }
+.fs.newbie {
+  background: #4a0;
+}
+
 
 h2 {
   font-weight: normal;
