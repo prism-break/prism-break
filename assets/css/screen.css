@@ -373,7 +373,3 @@ td.free li .name .desc {
 #rtl #brand h1 {
   margin: 0 0 0 1em;
 }
-#rtl #brand h1,
-#rtl #brand select {
-  float: right;
-}
