@@ -3,7 +3,7 @@
 ======================================================================*/
 
 body {
-  font: 18px/1.5  sans-serif;
+  font: 18px/1.5  Helvetica Neue, Arial, Helvetica, sans-serif;
   color: #333;
   padding: 0;
   width: 100%;
@@ -27,7 +27,7 @@ a:hover {
 
 .fs {
   background: #999;
-  font: 12px/1.5 sans-serif;
+  font-size: 12px;
   display: inline-block;
   color: #fff;
   padding: 0 .5em;
@@ -49,7 +49,8 @@ h2 strong {
 }
 
 h3 {
-  font: bold 1em/1.5 sans-serif;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 
@@ -65,20 +66,19 @@ h3 {
 
 #brand {
   padding: 0 18px;
-  margin: 0 18px 0 0;
   margin: 0;
   background: #333;
   float: left;
   height: 50px;
-  vertical-align: text-top;
 }
 #brand h1 {
-  float: left;
   padding: 0;
   margin: 0 1em 0 0;
-  font: 1em/50px sans-serif;
+  font-size: 1em;
+  line-height: 50px;
   text-transform: uppercase;
   text-align: center;
+  display: inline-block;
 }
 
 #brand h1 a {color: #eee;}
@@ -90,10 +90,7 @@ h3 {
 #brand h1 a:hover .lightning {color: #fff;}
 
 #brand select {
-  display: block;
-  float: left;
-  margin: 12px 0 0;
-  padding: 0;
+  margin: 0;
 }
 
 
@@ -133,7 +130,7 @@ td.bottom {
 }
 
 td.bottom h2 {
-  font: 1.5em/1.5 sans-serif;
+  font-size: 1.5em;
   color: #eee;
   margin: 0 0 .667em;
 }
@@ -279,7 +276,8 @@ td.arrow {
   padding: 0;
   width: 5%;
   vertical-align: middle;
-  font: 2em/1 sans-serif;
+  font-size: 2em;
+  line-height: 1;
   color: #999;
   border-right: 1px solid #ddd;
   text-align: center;
@@ -318,7 +316,9 @@ td.free li a.name:hover .title {
 }
 
 td.free li .name .title {
-  font: bold 1.25em/1.25 sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 1.25em;
   display: block;
 }
 
