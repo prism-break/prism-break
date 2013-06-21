@@ -1,0 +1,72 @@
+/* Wide screen? Nice table'ish layout. Small screen? Plain lists, sir! */
+
+@media (min-width: 800px) {
+
+    section.comparisons {
+        display: table;
+        border-top: 1px solid #ccc;
+        width: 100%;
+    }
+
+    section.comparisons > *,
+    section.comparisons ul,
+    section.comparisons li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+    }
+
+    section.comparisons > * {
+        display: table-cell;
+        padding: 5px 10px;
+    }
+
+    section.comparisons > * {
+        border-left: 1px solid #ccc;
+    }
+
+    section.comparisons > *:first-child {
+        border-left: none;
+    }
+
+    section.comparisons > p.prop {
+        display: none;
+    }
+
+    section.comparisons > p.free {
+        font-size: 0px;
+        color: #fff;
+        vertical-align: middle;
+    }
+
+    section.comparisons > p.free:after {
+        content: "\2192 ";
+        font-size: 24px;
+        color: #000;
+    }
+
+    section.comparisons ul.icon-list li {
+        display: block;
+        min-height: 50px;
+        margin-left: 60px;
+    }
+
+    section.comparisons ul.icon-list.free li a small {
+        display: block;
+        color: #222;
+    }
+
+    section.comparisons ul.icon-list.free li a small b {
+        background: #090;
+        padding: 0 5px;
+        color: #fff;
+    }
+
+}
+
+@media (max-width: 799px) {
+    section.comparisons {
+        padding: 0 20px;
+    }
+}
