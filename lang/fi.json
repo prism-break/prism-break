@@ -1,6 +1,4 @@
 {
-  "i18n-action-center": "Toimintakeskus",
-
   "i18n-intro": "<strong>Vaihtoehto PRISM:lle - NSA:n eli Yhdysvaltain kansallisen turvallisuusviraston kansainväliselle tietojenurkintaohjelmalle.</strong> Sinun ei tarvitse jakaa tietoja verkkotoiminnastasi Yhdysvaltain hallitukselle. Se onnistuu näillä ilmaisilla ohjelmistoilla.",
 
 
@@ -183,6 +181,15 @@
 
   "i18n-fsf-definition-title": "*Tämä verkkosivusto käyttää <strong>Free Software Foundationin</strong> määrittämää avointa ohjelmistoa.",
   "i18n-fsf-quote": "&ldquo;Avoin ohjelmisto&rdquo; tarkoittaa ohjelmistoa, joka kunnioittaa käyttäjänsä vapautta ja yhteisöllisyyttä. <strong>Käyttäjällä tulisi olla oikeus käyttää, kopioida, jakaa, opiskella, vaihtaa ja kehittää ohjelmistoa.</strong>. Näiden oikeuksien mukaan käyttäjällä (sekä yksilöinä että yhteisönä) tulisi olla valta päättää, mikä ohjelma on ja mitä se merkitsee käyttäjälle.",
+ 
+
+
+  "i18n-eff-title": "Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.",
+  "i18n-eff-quote-1": "<strong>MASSIVE SURVEILLANCE EXPOSED</strong>",
+  "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
+
+
+
   "i18n-more": "lisätietoja &hellip;",
   "i18n-the": "",
 
@@ -204,9 +211,5 @@
   "i18n-updated": "Päivittänyt viimeksi",
   "i18n-by": "käyttäjä",
   "i18n-contribute-on": "Osallistu palvelussa",
-  "i18n-donate": "Tee lahjoitus",
-
-
-
-  "i18n-footer-disclaimer": "Vastuunvapautus: Tämä verkkosivusto tukee Electronic Frontier Foundation (EFF) ja Free Software Foundation (FSF) -järjestöjen toimintaa, mutta ei ole myöskään niiden virallisesti hyväksymä."
+  "i18n-donate": "Tee lahjoitus"
 }

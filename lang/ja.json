@@ -1,6 +1,4 @@
 {
-  "i18n-action-center": "アクションセンター",
-
   "i18n-intro": "<strong>PRISMを断固拒否しましょう。</strong>PRISMとは、NSA（アメリカ国家安全保障局）の世界規模のデータ監視プログラムです。以下に挙げる（商業的な）プロプライエタリ・ソフトウェアを使わないで、替わりのフリーソフトウェアを使ってください。オンライン上のあなたの行動がアメリカ政府に報告されるのを止めましょう。",
 
 
@@ -183,6 +181,15 @@
 
   "i18n-fsf-definition-title": "*本ウェブサイトは、<strong>Free Software Foundation（自由ソフトウェア財団）</strong>による「自由なソフトウェア」の定義を採用しています。",
   "i18n-fsf-quote": "自由なソフトウェア（フリーソフトウェア）とは、ユーザの自由とコミュニティを尊重するソフトウェアを意味します。大まかに言えば、<strong>ソフトウェアを実行し、コピーし、配布し、研究し、改変し、改良する自由がユーザにある</strong>ということです。これらの自由によって、ユーザ（個人としても集団としても）は、プログラムとそれが彼らのために行うことをコントロールすることができます。",
+ 
+
+
+  "i18n-eff-title": "Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.",
+  "i18n-eff-quote-1": "<strong>MASSIVE SURVEILLANCE EXPOSED</strong>",
+  "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
+
+
+
   "i18n-more": "更に詳しくは &hellip;",
   "i18n-the": "The",
 
@@ -204,9 +211,5 @@
   "i18n-updated": "更新日",
   "i18n-by": "by",
   "i18n-contribute-on": "改善等は",
-  "i18n-donate": "寄付は",
-
-
-
-  "i18n-footer-disclaimer": "おことわり： 本ウェブサイトは電子フロンティア財団（EFF）と自由ソフトウェア財団（FSF）を支持していますが、両団体から公式に推奨されているわけではありません。"
+  "i18n-donate": "寄付は"
 }

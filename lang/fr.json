@@ -1,6 +1,4 @@
 {
-  "i18n-action-center": "Centre d'action",
-
   "i18n-intro": "<strong>Refusez PRISM, le programme de surveillance globale des données de la NSA.</strong> Arrêtez de déclarer vos activités en ligne au gouvernement américain avec ces alternatives libres aux logiciels propriétaires.",
 
 
@@ -182,6 +180,15 @@
 
   "i18n-fsf-definition-title": "*Ce site web utilise la définition de logiciel libre de la <strong>Free Software Foundation</strong>.",
   "i18n-fsf-quote": "L'expression &ldquo; logiciel libre &rdquo; veut dire que le logiciel respecte la liberté de l'utilisateur et de la communauté. En gros, <strong>les utilisateurs ont la liberté d'exécuter, de copier, de distribuer, d'étudier, de modifier et d'améliorer le logiciel</strong>. Avec ces libertés, les utilisateurs (à la fois individuellement et collectivement) contrôlent le programme et ce qu'il fait pour eux.",
+ 
+
+
+  "i18n-eff-title": "Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.",
+  "i18n-eff-quote-1": "<strong>MASSIVE SURVEILLANCE EXPOSED</strong>",
+  "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
+
+
+
   "i18n-more": "plus &hellip;",
   "i18n-the": "La",
 
@@ -203,9 +210,5 @@
   "i18n-updated": "Mis à jour",
   "i18n-by": "par",
   "i18n-contribute-on": "Contribuer sur",
-  "i18n-donate": "Faire un don",
-
-
-
-  "i18n-footer-disclaimer": "Avertissement: Ce site web supporte la Electronic Frontier Foundation (EFF) et la Free Software Foundation (FSF), mais n'est officiellement soutenu par aucun d'eux."
+  "i18n-donate": "Faire un don"
 }
