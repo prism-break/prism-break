@@ -1,6 +1,4 @@
 {
-  "i18n-action-center": "Action Center",
-
   "i18n-intro": "<strong>Opt out voor PRISM, het wereldwijde datatoezichtsprogramma van de NSA.</strong> Stop met het doorgeven van online activiteiten aan de Amerikaanse overheid met deze gratis alternatieven voor gesloten software.",
 
 
@@ -183,7 +181,16 @@
 
 
   "i18n-fsf-definition-title": "*Deze website gebruikt de <strong>Free Software Foundation&rsquo;s</strong> definitie van vrije software.",
-  "i18n-fsf-quote": "&ldquo;Vrije software&rdquo; is software die de vrijheid en gemeenschap van de gebruiker respecteert. Ruwweg betekent dit <strong>dat de gebruiker de vrijheid heeft om de software te gebruiken, kopi&euml;ren, verspreiden, ervan leren, veranderen en verbeteren</strong>. Deze vrijheden zorgen ervoor dat de gebruiker controle heeft over het programma en wat het voor hem doet.",
+  "i18n-fsf-quote": "&ldquo;Vrije software&rdquo; is software die de vrijheid en gemeenschap van de gebruiker respecteert. Ruwweg betekent dit <strong>dat de gebruiker de vrijheid heeft om de software te gebruiken, kopi&euml;ren, verspreiden, ervan leren, veranderen en verbeteren</strong>. Deze vrijheden zorgen ervoor dat de gebruiker controle heeft over het programma en wat het voor hem doet.", 
+
+
+
+  "i18n-eff-title": "Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.",
+  "i18n-eff-quote-1": "<strong>MASSIVE SURVEILLANCE EXPOSED</strong>",
+  "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
+
+
+
   "i18n-more": "meer &hellip;",
   "i18n-the": "De",
 
@@ -205,9 +212,5 @@
   "i18n-updated": "Bijgewerkt op",
   "i18n-by": "door",
   "i18n-contribute-on": "Help mee op",
-  "i18n-donate": "Doneer",
-
-
-
-  "i18n-footer-disclaimer": "Disclaimer: deze website ondersteunt de Electronic Frontier Foundation (EFF) en de Free Software Foundation (FSF), maar wordt niet officieel ondersteund door een van beide organisaties."
+  "i18n-donate": "Doneer"
 }

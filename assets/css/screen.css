@@ -63,37 +63,6 @@ h3 {
   right: 0;
 }
 
-#eff {
-  height: 50px;
-  background: #333;
-  float: left;
-  margin-right: 9px;
-  vertical-align: top;
-}
-
-#eff a {
-  display: block;
-  color: #eee;
-  padding: 0 18px 0 14px;
-}
-
-#eff a img {
-  display: block;
-  margin-top: 7px;
-  margin-right: .5em;
-  float: left;
-}
-
-#eff a .label {
-  display: block;
-  float: left;
-  font: 16px/54px sans-serif;
-}
-
-#eff a:hover .label {
-  color: #fff;
-}
-
 #brand {
   padding: 0 18px;
   margin: 0 18px 0 0;
@@ -145,10 +114,6 @@ td.bottom {
   border-top: 1px solid #666;
   padding: 2em 1em;
   color: #eee;
-}
-
-td#fsf.bottom {
-  border-top: none;
 }
 
 td.bottom h2 {
