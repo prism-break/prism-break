@@ -66,20 +66,36 @@ h3 {
 #brand {
   padding: 0 18px;
   margin: 0 18px 0 0;
+  margin: 0;
   background: #333;
   float: left;
   height: 50px;
-  vertical-align: middle;
+  vertical-align: text-top;
 }
 #brand h1 {
+  float: left;
   padding: 0;
-  margin: 0 .5em 0 0;
+  margin: 0 1em 0 0;
   font: 1em/50px sans-serif;
-  color: #eee;
   text-transform: uppercase;
   text-align: center;
-  display: inline-block;
 }
+
+#brand h1 a {color: #eee;}
+#brand h1 a strong {color: #e22;}
+#brand h1 a .lightning {color: #666;}
+
+#brand h1 a:hover,
+#brand h1 a:hover strong,
+#brand h1 a:hover .lightning {color: #fff;}
+
+#brand select {
+  display: block;
+  float: left;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
 
 /*======================================================================
  * Header
