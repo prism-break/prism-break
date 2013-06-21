@@ -365,39 +365,15 @@ td.free li .name .desc {
   margin-right: 0;
   margin-left: 1em;
 }
-
 #rtl #top {
   position: absolute;
   top: 0;
   left: 0;
 }
-
-#rtl #eff,
-#rtl #brand {
-  float: left;
-}
-
-#rtl #eff {
-  margin: 0 0 0 18px;
-}
-#rtl #eff a {
-  display: block;
-  color: #eee;
-  padding: 0 14px 0 18px;
-}
-
-#rtl #eff a img {
-  margin-right: 0;
-  margin-left: .5em;
-  float: right;
-}
-#rtl #eff a .label {
-  float: right;
-}
-#rtl #brand {
-  margin: 0 0 0 9px;
-}
-
 #rtl #brand h1 {
-  margin: 0 0 0 .5em;
+  margin: 0 0 0 1em;
+}
+#rtl #brand h1,
+#rtl #brand select {
+  float: right;
 }
