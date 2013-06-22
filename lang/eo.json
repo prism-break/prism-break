@@ -1,0 +1,216 @@
+{
+  "i18n-action-center": "Agocentro",
+
+  "i18n-intro": "<strong>Malelektu PRISM-on, la NSA-a tutmonda programo por vigli datumoj.</strong> Ĉesu reporti viajn enretajn aktivecojn al la Usonan registaron kun ĉi tiuj alternativoj al malliberaj programoj.",
+
+
+
+  "i18n-operating-system" : "Mastruma sistemo",
+  "i18n-gnulinux-desc": "Libera, malfermitkoda mastruma sistemo",
+  "i18n-debian-desc": "Populara, etika distribuo GNU/Linux.",
+  "i18n-fedora-desc": "Rapida, stabila, potenca distribuo GNU/Linux.",
+  "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
+  "i18n-tails-desc": "Viva KD/USB pensita por privateco.",
+  "i18n-trisquel-desc": "Distribuo GNU/Linux apogita per la FSF, amikema kun la uzanto.",
+
+
+
+  "i18n-web-browser": "Retumilo",
+  "i18n-icecat-desc": "Versio de Firefox (Fajrovulpo) per GNU.",
+  "i18n-firefox-title": "Firefox (Fajrovulpo)",
+  "i18n-firefox-desc": "Retumilo malfermitkoda.",
+  "i18n-torbrowser-desc": "Ĉifrita, sennoma foliumado.",
+
+
+
+  "i18n-web-browser-plugins": "Komplementoj por retumilo",
+  "i18n-httpseverywhere-desc": "Ĉifras viajn komunikadojn en milaj retejoj.",
+  "i18n-fixtracking-title": "Fiksi sekvado!",
+  "i18n-fixtracking-desc": "Gvido por halti esti sekvita enrete.",
+  "i18n-torbutton-desc": "Komplemento de Tor por IceCat kaj Firefox.",
+
+
+
+  "i18n-web-search": "TTT-serĉo",
+  "i18n-duckduckgo-desc": "Sennomaj, neregistritaj TTT-serĉoj.",
+  "i18n-startpage-desc": "Privataj, neregistritaj TTT-serĉoj.",
+  "i18n-seeksproject-desc": "Malfermita, malcentra platformo por kunlabora serĉo.",
+  "i18n-yacy-desc": "Malcentra TTT-serĉo.",
+
+
+
+  "i18n-dns-provider": "DNS-provizanto",
+  "i18n-opennic-desc": "Tuta DNS-neŭtraleco.",
+  "i18n-namecoin-desc": "Disa DNS bazita en la teknologio de Bitcoin.",
+
+
+
+  "i18n-darknet": "Darknet (Malluma reto)",
+  "i18n-freenet-desc": "Malcentra reto rezistema al la cenzuro.",
+  "i18n-i2p-desc": "La projekto por nevidebla interreto.",
+  "i18n-nightweb-desc": "Sennoma reto I2P por Android.",
+  "i18n-syndie-desc": "Disa, sennoma programo por forumoj.",
+
+
+
+  "i18n-online-transactions": "Enretaj transakcioj",
+  "i18n-bitcoin-desc": "Diĝita samtavola monero sen centra aŭtoritato.",
+  "i18n-cryptocoins-title": "Alternativaj ĉifromoneroj",
+  "i18n-cryptocoins-desc": "Listo de alternativaj diĝitaj ĉifromoneroj.",
+
+
+
+  "i18n-email-services": "Retpoŝtaj servoj",
+  "i18n-bitmessage-desc": "Ĉifrita, malcentra retpoŝta servilo.",
+  "i18n-riseup-desc": "Sekuraj kaj privataj retpoŝtaj kontoj.",
+
+
+
+  "i18n-email-clients": "Retpoŝtaj klientoj",
+  "i18n-clawsmail-desc": "Malpeza programo por retpoŝtoj kun subteno por GPG.",
+  "i18n-evolution-desc": "Libera programo por retpoŝtoj kaj kalendaroj kun subteno por GPG.",
+  "i18n-icedove-desc": "Libera versio de Mozilla Thunderbird (Tondrobirdo).",
+  "i18n-kmail-desc": "Retpoŝta kliento por KDE kun subteno por GPG.",
+  "i18n-thunderbird-title": "Thunderbird (Tondrobirdo)",
+  "i18n-thunderbird-desc": "Retpoŝta programo malfermitkoda.",
+
+
+
+  "i18n-email-encryption": "Retpoŝta ĉifro",
+  "i18n-enigmail-desc": "Komplemento OpenPGP por Thunderbird/Icedove.",
+  "i18n-gnuprivacyguard-desc": "Libera implemento de OpenPGP",
+  "i18n-mailvelope-desc": "Ĉifro OpenPGP por enretaj retpoŝtoj.",
+  "i18n-webpg-desc": "GnuPG/PGP ĉe via retumilo.",
+
+
+
+  "i18n-maps": "Mapoj",
+  "i18n-openstreetmap-desc": "Libera, kunlabora tutmonda mapo.",
+
+
+
+  "i18n-cloud-storage": "Nuba stoko",
+  "i18n-gitannex-desc": "Sinkronigi dosierujoj en viaj komputiloj kaj diskoj.",
+  "i18n-owncloud-desc": "Nubaj datumoj je via kontrolo.",
+  "i18n-seafile-desk": "Memgastita dosiersinkronigo kaj kunlaboro por teamoj.",
+  "i18n-sparkleshare-desc": "Memgastiga versiokontrolo kaj dosiersinkronigo.",
+  "i18n-tahoelafs-desc": "Libera kaj malfermita sistemo por nuba stoko.",
+
+
+
+  "i18n-social-networking": "Socia reto",
+  "i18n-buddycloud-desc": "Malfermitkoda, federa socia reto.",
+  "i18n-diaspora-desc": "Disa socia reto subtenita per la komunumo.",
+  "i18n-friendica-desc": "Libera, malfermitkoda retservilo socia kiu respektas privatecon.",
+  "i18n-gnusocial-desc": "Memgastiga, malcentra socia reto.",
+  "i18n-lorea-desc": "Disaj kaj federaj sociaj nodoj.",
+  "i18n-movim-desc": "Privata, malcentra socia retservilo.",
+  "i18n-pumpio-desc": "Memgastiga servilo por sociaj fluoj.",
+  "i18n-salutatoi-desc": "Multfasada, multintenca komunikilo.",
+  "i18n-tent-desc": "Libera, aŭtonoma protokolo por sociaj retoj.",
+
+
+
+  "i18n-instant-messaging": "Tujmesaĝado",
+  "i18n-cryptocat-desc": "Privataj, ĉifritaj enretaj konversacioj.",
+  "i18n-otr-desc": "Instali kaj ebligi en Pidgin por ĉifrita retbabilado.",
+  "i18n-pidgin-desc": "Malfermitkoda rogramo por retbabili",
+  "i18n-adium-desc": "Multprotokola kliento por retbabili en OS X (memoru ebligi OTR).",
+  "i18n-retroshare-desc": "Libera, sekura, samtavola platformo por komunikoj.",
+
+
+
+  "i18n-video-voip": "Vidkonferenco/Voĉo sur IP",
+  "i18n-jitsi-desc": "Ĉifrita retbabilado per teksto kaj video.",
+  "i18n-linphone-desc": "Kliento por ĉifrita voĉo kaj video.",
+  "i18n-mumble-desc": "Voĉretbabilado ĉifrita kun mallonga respondtempo.",
+
+
+
+  "i18n-media-publishing": "Aŭdvidea publikigo",
+  "i18n-gnumediagoblin-desc": "Malcentra platformo por aŭdvidea publikigo.",
+  "i18n-piwigo-desc": "Libera fotogaleria platformo.",
+  "i18n-wordpress-desc": "Libera enhavadministrilo por retejoj kaj retotaglibroj/blogoj.",
+  "i18n-zenphoto-desc": "Libera aŭdvidea enhavadministrilo por retejoj.",
+
+
+
+  "i18n-document-collaboration": "Kunlaboraj dokumentoj",
+  "i18n-ethercalc-desc": "Multuzanta servilo por kalkultabeloj.",
+  "i18n-etherpad-desc": "Malfermitkoda, kunlaboraj dokumentoj en reala tempo.",
+
+
+
+  "i18n-web-analytics": "Retanalitikoj",
+  "i18n-piwik-desc": "Malfermitkoda, memgastiga retanalitikoj.",
+
+
+
+  "i18n-cyanogenmod-desc": "Postaĉeta firmprogramaro por Android-aj aparatoj.",
+  "i18n-replicant-desc": "Tute libera distribuo Android.",
+
+
+
+  "i18n-android-app-store": "Android-a aplikaĵmerkato",
+  "i18n-fdroid-desc": "Liberaj kaj malfermitkodaj aplikaĵoj por Android.",
+
+
+  
+  "i18n-csipsimple-desc": "Libera, ĉifrita voĉo sur IP por Android.",
+  "i18n-gibberbot-desc": "Privata, sekura mesaĝado neregistrita por Android.",
+  "i18n-orbot-desc": "Prokurilo Tor por Android.",
+  "i18n-redphone-desc": "Sekuraj privataj alvokoj por Android.",
+  "i18n-surespot-desc": "Libera, malfermitkoda, ĉifrita mesaĝado de ekstremo al ekstremo.",
+  "i18n-textsecure-desc": "Sekura komunikado per tekstmesaĵoj kaj aŭdvidmesaĵoj por Android.",
+  "i18n-xabber-desc": "Neregistrita, ĉifrita tujmesaĝado por Android.",
+
+
+
+  "i18n-ios-insecure-title": "iOS estas malsekura.",
+  "i18n-ios-insecure-desc": "Aparatoj iOS enhavas aparatara spurado.",
+  "i18n-chatsecure-desc": "Ĉifrita tujmesaĝado por iOS.",
+  "i18n-onionbrowser-desc": "Sekura retfoliumado por iOS.",
+
+
+
+  "i18n-add": "aldoni",
+  "i18n-mostly-free": "plejparte libera*",
+  "i18n-rec-non-free": "rekomendas malliberaj komplementoj*",
+  "i18n-advanced": "altnivela",
+  "i18n-partly-proprietary": "parte mallibera*",
+  "i18n-proprietary": "mallibera*",
+  "i18n-invite-only": "nur per invito",
+  "i18n-newbies-choice": "elekto por komencantoj",
+  "i18n-editors-choice": "elekto de la redaktisto",
+
+
+
+  "i18n-fsf-definition-title": "*Ĉi tia reteĵo uzas la difinon de libera programaro de la <strong>Free Software Foundation</strong>.",
+  "i18n-fsf-quote": "&ldquo;Libera programaro&rdquo; signifas programaron kiel respektas uzantaj liberecon kaj komunumojn. Proksimume, <strong>la uzantoj havas la liberecon por ruli, kopii, disdoni, studi, ŝanĝi kaj plibonigi la programaron</strong>. Kun tiaj liberecoj, la uzantoj (individue kaj kolektive) kontrolas la programon kaj kio ĝi faras por ili.",
+  "i18n-more": "pli &hellip;",
+  "i18n-the": "La",
+
+
+
+  "i18n-media-title": "Menciita per la amaskomunikiloj.",
+  "i18n-catalan": "Kataluna",
+  "i18n-dutch": "Nederlanda",
+  "i18n-english": "Angla",
+  "i18n-french": "Franca",
+  "i18n-italian": "Itala",
+  "i18n-german": "Germana",
+  "i18n-polish": "Pola",
+  "i18n-spanish": "Hispana",
+  "i18n-chinese-traditional": "Ĉina (Tradicia)",
+
+
+
+  "i18n-updated": "Ĝisdatigita",
+  "i18n-by": "per",
+  "i18n-contribute-on": "Kontribui ĉe",
+  "i18n-donate": "Donaci",
+
+
+
+  "i18n-footer-disclaimer": "Malgarantio: Ĉi tia reteĵo ne estas oficiale apogita per la Electronic Frontier Foundation."
+}
