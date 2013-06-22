@@ -23,7 +23,7 @@
   "i18n-web-browser-plugins": "Dodaci za internet pregledače",
   "i18n-httpseverywhere-desc": "Шифрујте комуникацију између хиљада сајтова.",
   "i18n-fixtracking-desc": "Упутство како да престанете бити праћени.",
-  "i18n-torbutton-desc": "Тор додатак за ИцеЦат и Фајерфокс.",
+  "i18n-torbutton-desc": "Тор додатак за АјсКет и Фајерфокс.",
 
 
 
@@ -36,179 +36,179 @@
 
 
   "i18n-dns-provider": "ДНС провајдери",
-  "i18n-opennic-desc": "Potpuna DNS neutralnost.",
-  "i18n-namecoin-desc": "Distribuirani DNS baziran na Bitcoin tehnologiji.",
+  "i18n-opennic-desc": "Потпуна ДНС неутралност.",
+  "i18n-namecoin-desc": "Дистрибуирани ДНС базиран на Битцоин технологији.",
 
 
 
-  "i18n-darknet": "Darknet",
-  "i18n-freenet-desc": "Decentralozovana mreža za otpor cenzuri.",
-  "i18n-i2p-desc": "Ne vidljivi internet projekat.",
-  "i18n-nightweb-desc": "Anonimna I2P mreža za Android.",
-  "i18n-syndie-desc": "Distribuirani i anoniman forum softver.",
+  "i18n-darknet": "Даркнет",
+  "i18n-freenet-desc": "Децентралозована мрежа за отпор цензури.",
+  "i18n-i2p-desc": "Не видљиви интернет пројекат.",
+  "i18n-nightweb-desc": "Анонимна И2П мрежа за Андроид.",
+  "i18n-syndie-desc": "Дистрибуирани и анониман форум софтвер.",
 
 
 
-  "i18n-online-transactions": "Internet prepiske",
-  "i18n-bitcoin-desc": "P2P digitalna valuta bez centralne vlasti.",
-  "i18n-cryptocoins-title": "Alternativna šifrovana valuta.",
-  "i18n-cryptocoins-desc": "Lista alternativnih šifrovanih digitalnih valuta.",
+  "i18n-online-transactions": "Интернет преписке",
+  "i18n-bitcoin-desc": "П2П дигитална валута без централне власти.",
+  "i18n-cryptocoins-title": "Алтернативна шифрована валута.",
+  "i18n-cryptocoins-desc": "Листа алтернативних шифрованих дигиталних валута.",
 
 
 
-  "i18n-email-services": "Email servisi",
-  "i18n-bitmessage-desc": "Šifrovani, decentralizovan email server.",
-  "i18n-riseup-desc": "Sigurni i privatni email nalozi.",
+  "i18n-email-services": "Листа алтернативних шифрованих дигиталних валута",
+  "i18n-bitmessage-desc": "Шифровани, децентрализован емаил сервер.",
+  "i18n-riseup-desc": "Сигурни и приватни емаил налози.",
 
 
 
-  "i18n-email-clients": "Email desktop klijenti",
-  "i18n-clawsmail-desc": "Lagana email pratforma sa GPG podrškom.",
-  "i18n-evolution-desc": "Besplatna email i kalendar aplikacija sa GPG podrškom.",
-  "i18n-icedove-desc": "Besplatna verzija Mozilinog Tanderbirda.",
-  "i18n-kmail-desc": "KDE email Klijent sa GPG podrškom.",
-  "i18n-thunderbird-desc": "Email aplikacija otvorenog koda.",
+  "i18n-email-clients": "Емаил десктоп клијенти",
+  "i18n-clawsmail-desc": "Лагана емаил пратформа са ГПГ подршком.",
+  "i18n-evolution-desc": "Бесплатна емаил и календар апликација са ГПГ подршком.",
+  "i18n-icedove-desc": "Бесплатна верзија Мозилиног Тандербирда.",
+  "i18n-kmail-desc": "КДЕ емаил Клијент са ГПГ подршком.",
+  "i18n-thunderbird-desc": "Емаил апликација отвореног кода.",
 
 
 
-  "i18n-email-encryption": "Email šifrovanje",
-  "i18n-enigmail-desc": "OpenPGP dodatak za Tanderbird/Icedove.",
-  "i18n-gnuprivacyguard-desc": "Besplatna OpenPGP implementacija.",
-  "i18n-mailvelope-desc": "OpenPGP šifrovanje za webmail.",
-  "i18n-webpg-desc": "GnuPG/PGP u pregledaču.",
+  "i18n-email-encryption": "Емаил шифровање",
+  "i18n-enigmail-desc": "ОпенПГП додатак за Тандербирд/Ајсдав.",
+  "i18n-gnuprivacyguard-desc": "Бесплатна ОпенПГП имплементација.",
+  "i18n-mailvelope-desc": "ОпенПГП шифровање за вебмаил.",
+  "i18n-webpg-desc": "ГнуПГ/ПГП у прегледачу.",
 
 
 
-  "i18n-maps": "Mape",
-  "i18n-openstreetmap-desc": "Besplatne mape širom sveta.",
+  "i18n-maps": "Мапе",
+  "i18n-openstreetmap-desc": "Бесплатне мапе широм света.",
 
 
 
-  "i18n-cloud-storage": "Oblak skladišta",
-  "i18n-gitannex-desc": "Sinhronizovani folder na vašem računaru ili disku.",
-  "i18n-owncloud-desc": "Oblak skladište pod vašom kontrolom.",
-  "i18n-sparkleshare-desc": "Lično hostovana verzija oblak skladišta.",
-  "i18n-tahoelafs-desc": "Besplatano i otvoreno oblak skladište.",
+  "i18n-cloud-storage": "Облак складишта",
+  "i18n-gitannex-desc": "Синхронизовани фолдер на вашем рачунару или диску.",
+  "i18n-owncloud-desc": "Облак складиште под вашом контролом.",
+  "i18n-sparkleshare-desc": "Лично хостована верзија облак складишта.",
+  "i18n-tahoelafs-desc": "Бесплатано и отворено облак складиште.",
 
 
 
-  "i18n-social-networking": "Društvene mreže",
-  "i18n-buddycloud-desc": "Društvena mreža otvorenog koda.",
-  "i18n-diaspora-desc": "Distribuirana društvena mreža.",
-  "i18n-friendica-desc": "Distribuirana, društvena mreža koja poštuje našu privatnost.",
-  "i18n-gnusocial-desc": "Lično hostovana i decentralizovana društvena mreža.",
-  "i18n-lorea-desc": "Distribuirani društveni nod.",
-  "i18n-movim-desc": "Privatni, decentralizovani server za društvene mreže.",
-  "i18n-pumpio-desc": "Lično hostovan steam server.",
-  "i18n-salutatoi-desc": "Višenamenski komunikacioni alat.",
-  "i18n-tent-desc": "Besplatan i anoniman protokol za društvene mreže.",
+  "i18n-social-networking": "Друштвене мреже",
+  "i18n-buddycloud-desc": "Друштвена мрежа отвореног кода.",
+  "i18n-diaspora-desc": "Дистрибуирана друштвена мрежа.",
+  "i18n-friendica-desc": "Дистрибуирана, друштвена мрежа која поштује нашу приватност.",
+  "i18n-gnusocial-desc": "Лично хостована и децентрализована друштвена мрежа.",
+  "i18n-lorea-desc": "Дистрибуирани друштвени нод.",
+  "i18n-movim-desc": "Приватни, децентрализовани сервер за друштвене мреже.",
+  "i18n-pumpio-desc": "Лично хостован стеам сервер.",
+  "i18n-salutatoi-desc": "Вишенаменски комуникациони алат.",
+  "i18n-tent-desc": "Бесплатан и анониман протокол за друштвене мреже.",
 
 
 
-  "i18n-instant-messaging": "Dopisivanje",
-  "i18n-cryptocat-desc": "Privatno i šifrovano dopisivanje.",
-  "i18n-otr-desc": "Instalirati i omogućiti u programu Pidgin.",
-  "i18n-pidgin-desc": "Program otvorenog koda za dopisivanje.",
-  "i18n-adium-desc": "Više protokolni klijent za dopisivanje na OS X-u (omogućiti OTR).",
-  "i18n-retroshare-desc": "Besplana i sigurna P2P komunikaciona platforma.",
+  "i18n-instant-messaging": "Дописивање",
+  "i18n-cryptocat-desc": "Приватно и шифровано дописивање.",
+  "i18n-otr-desc": "Инсталирати и омогућити у програму Пидгин.",
+  "i18n-pidgin-desc": "Програм отвореног кода за дописивање.",
+  "i18n-adium-desc": "Више протоколни клијент за дописивање на ОС X-у (омогућити ОТР).",
+  "i18n-retroshare-desc": "Бесплана и сигурна П2П комуникациона платформа.",
 
 
 
-  "i18n-video-voip": "Video konferencije/VoIP",
-  "i18n-jitsi-desc": "Šifrovano dipisivanje i razgovori.",
-  "i18n-linphone-desc": "Šifrovani klijent za razgovore i video pozive.",
-  "i18n-mumble-desc": "Šifrovani razgovori niske latencije.",
+  "i18n-video-voip": "Видео конференције/ВоИП",
+  "i18n-jitsi-desc": "Шифровано диписивање и разговори.",
+  "i18n-linphone-desc": "Шифровани клијент за разговоре и видео позиве.",
+  "i18n-mumble-desc": "Шифровани разговори ниске латенције.",
 
 
 
-  "i18n-media-publishing": "Objavljivanje medija",
-  "i18n-gnumediagoblin-desc": "Decentralizovana platforma za objavljivanje medija.",
-  "i18n-piwigo-desc": "Besplatna platforma za internet galerije.",
-  "i18n-wordpress-desc": "Besplatan CMS za sajt/blog.",
-  "i18n-zenphoto-desc": "Besplatan CMS za objavljivanje medija.",
+  "i18n-media-publishing": "Објављивање медија",
+  "i18n-gnumediagoblin-desc": "Децентрализована платформа за објављивање медија.",
+  "i18n-piwigo-desc": "Бесплатна платформа за интернет галерије.",
+  "i18n-wordpress-desc": "Бесплатан ЦМС за сајт/блог.",
+  "i18n-zenphoto-desc": "Бесплатан ЦМС за објављивање медија.",
 
 
 
-  "i18n-document-collaboration": "Koolaboracija",
-  "i18n-ethercalc-desc": "Više korisnički kalkulacioni server.",
-  "i18n-etherpad-desc": "Koolaboracija dokumentima u realnom vremenu.",
+  "i18n-document-collaboration": "Коолаборација",
+  "i18n-ethercalc-desc": "Више кориснички калкулациони сервер.",
+  "i18n-etherpad-desc": "Коолаборација документима у реалном времену.",
 
 
 
-  "i18n-web-analytics": "Internet analize",
-  "i18n-piwik-desc": "Otvorenog koda, lično hostovana platforma za internet analizu.",
+  "i18n-web-analytics": "Интернет анализе",
+  "i18n-piwik-desc": "Отвореног кода, лично хостована платформа за интернет анализу.",
 
 
 
-  "i18n-cyanogenmod-desc": "Aftermarket firmware for Android devices.",
-  "i18n-replicant-desc": "Potkuno besplatna Android platforma.",
+  "i18n-cyanogenmod-desc": "Андроди РОМ-ови који незахтевају логовање на Гоогле налог.",
+  "i18n-replicant-desc": "Поткуно бесплатна Андроид платформа.",
 
 
 
-  "i18n-android-app-store": "Android prodavnice",
-  "i18n-fdroid-desc": "Besplatna Android prodavnica otvorenog koda.",
+  "i18n-android-app-store": "Андроид продавнице",
+  "i18n-fdroid-desc": "Бесплатна Андроид продавница отвореног кода.",
 
 
   
-  "i18n-csipsimple-desc": "Besplatan i šifrovan VoIP za Android.",
-  "i18n-gibberbot-desc": "Privatano i sigurno OTR dopisivanje za Android.",
-  "i18n-orbot-desc": "Tor proxy za Android.",
-  "i18n-redphone-desc": "Sigurni i privatni pozivi za Android.",
-  "i18n-surespot-desc": "Besplatno end-to-end šigrovano dopisivanje.",
-  "i18n-textsecure-desc": "Sigurne SMS/MMS komunikacije za Android.",
-  "i18n-xabber-desc": "OTR-šifrovano dopisivanje za Android.",
+  "i18n-csipsimple-desc": "Бесплатан и шифрован ВоИП за Андроид.",
+  "i18n-gibberbot-desc": "Приватано и сигурно ОТР дописивање за Андроид.",
+  "i18n-orbot-desc": "Тор прокси за Андроид.",
+  "i18n-redphone-desc": "Сигурни и приватни позиви за Андроид.",
+  "i18n-surespot-desc": "Бесплатно енд-то-енд шигровано дописивање.",
+  "i18n-textsecure-desc": "Сигурне СМС/ММС комуникације за Андроид.",
+  "i18n-xabber-desc": "ОТР-шифровано дописивање за Андроид.",
 
 
 
-  "i18n-ios-insecure-desc": "iOS imaju konstantno praćenje hardvera.",
-  "i18n-chatsecure-desc": "Šifrujte dopisivanje za iOS.",
-  "i18n-onionbrowser-desc": "Sigurno pretraživanje za iOS.",
+  "i18n-ios-insecure-desc": "иОС имају константно праћење хардвера.",
+  "i18n-chatsecure-desc": "Шифрујте дописивање у иОС-у.",
+  "i18n-onionbrowser-desc": "Сигурно претраживање за иОС.",
 
 
 
-  "i18n-add": "dodaj",
-  "i18n-mostly-free": "najčešće besplatni*",
-  "i18n-rec-non-free": "preporučeni dodaci*",
-  "i18n-advanced": "napredno",
-  "i18n-partly-proprietary": "delimično vlaskički*",
-  "i18n-proprietary": "vlasnički*",
-  "i18n-invite-only": "samo po pozivu",
-  "i18n-newbies-choice": "po odluci navajlija",
-  "i18n-editors-choice": "po odluci urednika",
+  "i18n-add": "додај",
+  "i18n-mostly-free": "најчешће бесплатни*",
+  "i18n-rec-non-free": "препоручени додаци*",
+  "i18n-advanced": "напредно",
+  "i18n-partly-proprietary": "делимично власнички*",
+  "i18n-proprietary": "власнички*",
+  "i18n-invite-only": "само по позиву",
+  "i18n-newbies-choice": "по одлуци новајлија",
+  "i18n-editors-choice": "по одлуци уредника",
 
 
 
-  "i18n-fsf-definition-title": "*Ovaj sajt koristi <strong>ESF-ov</strong> definicija slobodnog softvera.",
-  "i18n-fsf-quote": "&ldquo;Besplatan softver&rdquo; znači softver koji poštuje korisnikovu&rsquo; slobodu i komunikativnost. Grubo, <strong>korisnici imaju slodobu da pokreću, kopiraju, distribuiraju, proučavaju, menjaju i unapređuju softver</strong>.",
+  "i18n-fsf-definition-title": "*Овај сајт користи <strong>ЕСФ-ов</strong> дефиниција слободног софтвера.",
+  "i18n-fsf-quote": "&ldquo;Бесплатан софтвер&rdquo; значи софтвер који поштује корисникову слободу и комуникативност. Грубо, <strong>корисници имају слодобу да покрећу, копирају, дистрибуирају, проучавају, мењају и унапређују софтвер</strong>.",
    
 
 
-  "i18n-eff-title": "Kreni u akciju protiv PRISM-e u centru akcije <strong>EFF</strong>-a.",
-  "i18n-eff-quote-1": "<strong>MASOVNI NADZOR OTKRIVEN</strong>",
-  "i18n-eff-quote-2": "Nedavni izvori Gardijana i Vašinkton Posta potvržuju tajni program za špijunažu telefona i Internet aktivnosti.",
+  "i18n-eff-title": "Крени у акцију против ПРИСМ-е у центру акције <strong>ЕФФ</strong>-а.",
+  "i18n-eff-quote-1": "<strong>МАСОВНИ НАДЗОР ОТКРИВЕН</strong>",
+  "i18n-eff-quote-2": "Недавни извори Гардијана и Вашинктон Поста потвржују тајни програм за шпијунажу телефона и Интернет активности.",
 
 
 
-  "i18n-more": "opširnije &hellip;",
+  "i18n-more": "опширније &hellip;",
   "i18n-the": "",
 
 
 
-  "i18n-media-title": "Spomenuti u medijima.",
-  "i18n-catalan": "Katalonski",
-  "i18n-dutch": "Holandski",
-  "i18n-english": "Engleski",
-  "i18n-french": "Francuski",
-  "i18n-italian": "Italijanski",
-  "i18n-german": "Nemački",
-  "i18n-polish": "Poljski",
-  "i18n-spanish": "Španski",
-  "i18n-chinese-traditional": "Kineski (Tradicionalni)",
+  "i18n-media-title": "Споменути у медијима.",
+  "i18n-catalan": "Каталонски",
+  "i18n-dutch": "Холандски",
+  "i18n-english": "Енглески",
+  "i18n-french": "Француски",
+  "i18n-italian": "Италијански",
+  "i18n-german": "Немачки",
+  "i18n-polish": "Пољски",
+  "i18n-spanish": "Шпански",
+  "i18n-chinese-traditional": "Кинески (Традиционални)",
 
 
 
-  "i18n-updated": "Osvežen",
-  "i18n-by": "od strane",
-  "i18n-contribute-on": "Doprineli",
-  "i18n-donate": "Doniraj"
+  "i18n-updated": "Освежен",
+  "i18n-by": "од стране",
+  "i18n-contribute-on": "Допринели",
+  "i18n-donate": "Донирај"
 }
