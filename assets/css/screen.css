@@ -53,6 +53,15 @@ h3 {
   font-size: 1em;
 }
 
+h3 > a {
+  color: #000;
+}
+
+h3 > a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
 
 /*======================================================================
  * Top
