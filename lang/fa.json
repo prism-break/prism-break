@@ -49,6 +49,8 @@
 
   "i18n-online-transactions": "پرداخت پول آنلاین",
   "i18n-bitcoin-desc": "پول دیجیتال بدون مرکز کنترل",
+  "i18n-cryptocoins-title": "پول‌های الکترونیکی دیگر",
+  "i18n-cryptocoins-desc": "لیست پول‌های الکترونیکی دیگر",
 
 
 
@@ -83,7 +85,7 @@
   "i18n-cloud-storage": "ذخیره‌سازی آنلاین",
   "i18n-gitannex-desc": "همزمان‌سازی فایل‌ها روی کامپیوترها و درایوها",
   "i18n-owncloud-desc": "ذخیره‌سازی آنلاین تحت نظارت خود شخص",
-  "i18n-seafile-desc": "Self or cloud hosted version control and file sync.",
+  "i18n-seafile-desc": "کنترل ورژن و همزمان‌سازی فایل ابری یا در سرور شخصی",
   "i18n-sparkleshare-desc": "کنترل ورژن و همزمان‌سازی فایل در سرور شخصی",
   "i18n-tahoelafs-desc": "ذخیره‌سازی آنلاین متن‌باز و رایگان",
 
@@ -179,11 +181,9 @@
   "i18n-fsf-quote": "برنامه آزاد برنامه‌ای است که آزادی کاربر و جامعه کاربری را محترم می‌شمرد. عموما <strong>کاربر آزاد است برنامه را در هر جا اجرا، کپی، توزیع، مطالعه، تغییر و بهبود ببخشد</strong>. با این آزادی‌ها، کاربران (هم فردی و هم جمعی) برنامه و آنچه برنامه برای آنها انجام می‌دهد را کنترل می‌کنند.",
  
 
-
-  "i18n-eff-title": "Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.",
-  "i18n-eff-quote-1": "<strong>MASSIVE SURVEILLANCE EXPOSED</strong>",
-  "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
-
+  "i18n-eff-title": "شما هم می‌توانید در مرکز مشارکت <strong>Electronic Frontier Foundation</strong> کاری بر علیه پریسم انجام دهید.",
+  "i18n-eff-quote-1": "<strong>برنامه نظارت گسترده‌ای آشکار شده است</strong>",
+  "i18n-eff-quote-2": "گزارش‌های اخیر توسط روزنامه گاردین و واشنگتن پست، برنامه مخفیانه جاسوس بر روی اطلاعات تلفن و فعالیت‌های اینترنتی را تایید کرد. هم‌اکنون زمان یک حرکت کامل بر علیه برنامه‌های جاسوس آمریکا و پایان بخشیدن به نظارت‌های بی‌قید و شرط است.",
 
 
   "i18n-more": "بیشتر &hellip;",
