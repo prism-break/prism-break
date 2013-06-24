@@ -213,5 +213,85 @@
   "i18n-updated": "Aktualisiert",
   "i18n-by": "von",
   "i18n-contribute-on": "Mach mit auf",
-  "i18n-donate": "Spende"
+  "i18n-donate": "Spende",
+  "i18n-contribute": "Contribute",
+
+
+
+  "i18n-operating-system-note": "<span class='p'>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</span><span class='p'>This leaves us with two free alternatives: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> and <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux has a much larger community to help you with the transition. It's recommends that you begin your explorations by looking for a <a href=\"http://distrowatch.com/\">GNU/Linux distribution</a> that suits your needs.</span> <span class='p'>Why not Ubuntu? Ubuntu is a poor choice because it contains <a href=\"https://www.gnu.org/philosophy/ubuntu-spyware.html\">spyware</a>.</span> <span class='p'>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">More info</a>.</span>",
+
+
+
+  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href=\"https://en.wikipedia.org/wiki/CyanogenMod#Licensing\">Wikipedia</a></span><span class='p'><strong>F-Droid</strong> is a free alternative to the Google Play app store.</span>",
+
+
+
+  "i18n-ios-note": "<span class='p'>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">impossible to verify</a> whether if an iOS app was compiled from the original source.</span>",
+
+
+
+  "i18n-web-browser-note": "<span class='p'>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</span> <span class='p'>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</span> <span class='p'>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
+
+
+
+  "i18n-web-browser-addons-note": "<span class='p'>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</span> <span class='p'>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</span> <span class='p'>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</span>",
+
+
+
+  "i18n-web-search-note": "<span class='p'><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</span><span class='p'><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</span><span class='p'>Pick your poison.</span>",
+
+
+
+  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> is hosted in the USA, in case that matters.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span>",
+
+
+
+  "i18n-email-clients-note": "<span class='p'>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
+
+
+
+  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</span><span class='p'>&mdash; <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a>",
+
+
+
+  "i18n-social-networking-note": "<span class='p'>--</span>",
+
+
+
+  "i18n-instant-messaging-note": "<span class='p'>Be sure to look at <strong>Cryptocat</strong> in the Web browser add-ons section as well.</span></span>",
+
+
+
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</span><span class='p'><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a> is an upcoming, promising browser to browser communications API.",
+
+
+
+  "i18n-online-transactions-note": "<span class='p'>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</span><span class='p'>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</span>",
+
+
+
+  "i18n-media-publishing-note": "<span class='p'><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</span>",
+
+
+
+  "i18n-document-collaboration-note": "<span class='p'>--</span>",
+
+
+
+  "i18n-maps-note": "<span class='p'>--</span>",
+
+
+
+  "i18n-cloud-storage-note": "<span class='p'>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</span><span class='p'>Why not SpiderOak? SpiderOak is proprietary software.</span><span class='p'>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</span>",
+
+
+
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+
+
+
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span>",
+
+
+  "i18n-darknet-note": "<span class='p'>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</span><span class='p'>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">Wikipedia</a></span>"
 }

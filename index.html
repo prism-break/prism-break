@@ -157,7 +157,7 @@
         </tr>
 
         <tr>
-          <td class="section" >
+          <td class="section">
             <h3 id="android"><a href="#android">Android OS</a></h3>
           </td>
           <td class="prop">
@@ -403,7 +403,7 @@
             </ul>
           </td>
           <td class="note">
-            <span class="i18n-web-browser-plugins-note">
+            <span class="i18n-web-browser-addons-note">
               <p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p>
               <p>Why not Adblock Plus? Adblock Plus shows "acceptable ads" by default, and uses more memory than <strong>Adblock Edge</strong>.</p>
               <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>
@@ -785,7 +785,9 @@
             </ul>
           </td>
           <td class="note">
-            <span class="i18n-xxx-note"><p>--</p></span>
+            <span class="i18n-social-networking-note">
+              <p>--</p>
+            </span>
           </td>
         </tr>
 
@@ -880,7 +882,6 @@
                   </span>
                 </span>
               </li>
-
               <li>
                 <a class="logo" href="http://www.xabber.com/"><img src="assets/img/free/xabber.png" alt="" /></a>
                 <a class="name" href="http://www.xabber.com/">
@@ -956,7 +957,6 @@
                   <span class="fs">SIP</span>
                 </span>
               </li>
-
               <li>
                 <a class="logo" href="http://mumble.sourceforge.net/"><img src="assets/img/free/mumble.png" alt="" /></a>
                 <a class="name" href="http://mumble.sourceforge.net/">
@@ -988,11 +988,10 @@
                   <span class="fs"><span class="i18n-mostly-free">mostly free*</span></span>
                 </span>
               </li>
-
             </ul>
           </td>
           <td class="note">
-            <span class="i18n-video-void-note">
+            <span class="i18n-video-voip-note">
               <p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p>
               <p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p>
               <p><a href="http://www.webrtc.org/">WebRTC</a> is an upcoming, promising browser to browser communications API.
@@ -1042,9 +1041,9 @@
             </ul>
           </td>
           <td class="note">
-            <span class="i18n-xxx-note">
-              <p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network. It may be the TCP/IP of money.</p>
-              </p>
+            <span class="i18n-online-transactions-note">
+              <p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p>
+              <p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>
             </span>
           </td>
         </tr>
@@ -1172,7 +1171,7 @@
           </td>
           <td class="note">
             <span class="i18n-document-collaboration-note">
-              <p></p>
+              <p>--</p>
             </span>
           </td>
         </tr>
@@ -1207,7 +1206,9 @@
             </ul>
           </td>
           <td class="note">
-            <span class="i18n-maps-note"><p></p></span>
+            <span class="i18n-maps-note">
+              <p>--</p>
+            </span>
           </td>
         </tr>
 
@@ -1856,12 +1857,6 @@ if(navigator.langage != undefined && navigator.langage.length > 1 && langs.index
   getLang(navigator.langage);
 }
 
-$.fn.animateHighlight = function(highlightColor, duration) {
-  var highlightBg = highlightColor || "#FFFF9C";
-  var animateMs = duration || 1500;
-  var originalBg = "#FFFFFF";
-  this.stop().css("background-color", highlightBg).animate({backgroundColor: originalBg}, animateMs);
-};
     </script>
 
     <!-- Public Piwik analytics: prism-break.org/analytics. Does not record the last octet of visitor IPs -->
