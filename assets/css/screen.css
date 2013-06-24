@@ -289,12 +289,15 @@ td.note {
   vertical-align: top;
   padding: 1em 1.5em 1em 1em;
 }
-td.note p {
+td.note p,
+td.note span.p {
+  display: block;
   margin: 0 0 1em;
   font-size: 14px;
   max-width: 40em;
 }
-td.note p a:hover {
+td.note p a:hover,
+td.note span.p a:hover {
   text-decoration: underline;
 }
 
