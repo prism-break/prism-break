@@ -3,13 +3,12 @@
 ======================================================================*/
 
 body {
-  font: 18px/1.5  Helvetica Neue, Arial, Helvetica, sans-serif;
+  font: 16px/1.5  Helvetica Neue, Arial, Helvetica, sans-serif;
   color: #333;
   padding: 0;
   width: 100%;
   direction: ltr;
 }
-
 
 /*======================================================================
  * Typography
@@ -64,21 +63,29 @@ h3 > a:hover {
 
 
 /*======================================================================
- * Top
+ * Header
 ======================================================================*/
 
-#top {
-  position: absolute;
-  top: 0;
-  right: 0;
+#header-site {
+  height: 3em;
+  border-bottom: 1px solid #ddd;
+  border-top: 3px solid #333;
+}
+#header-site ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-#brand {
-  padding: 0 18px;
-  margin: 0;
-  background: #333;
+#header-site ul li {
   float: left;
-  height: 50px;
+  padding: 0 18px;
+  line-height: 3em;
+}
+
+#header-site ul li#brand {
+  border-right: 1px solid #ddd;
+  margin: 0;
 }
 #brand h1 {
   padding: 0;
@@ -90,32 +97,186 @@ h3 > a:hover {
   display: inline-block;
 }
 
-#brand h1 a {color: #eee;}
+#brand h1 a {color: #333;}
 #brand h1 a strong {color: #e22;}
 #brand h1 a .lightning {color: #666;}
 
 #brand h1 a:hover,
 #brand h1 a:hover strong,
-#brand h1 a:hover .lightning {color: #fff;}
+#brand h1 a:hover .lightning {color: #e22;}
 
 #brand select {
   margin: 0;
 }
 
 
+#header-site ul li#contribute {
+  float: right;
+  font-weight: bold;
+  border-left: 1px solid #ddd;
+}
 /*======================================================================
- * Header
+ * Introduction
 ======================================================================*/
 
-#header {
-  border-top: 3px solid #333;
+#introduction .container {
+  padding: 3em 18px;
 }
 
-#header .container {
-  padding: 3em 18px 2em;
-  width: 55%;
+#introduction h2 {
+  max-width: 45em;
 }
 
+
+/*======================================================================
+ * Table
+======================================================================*/
+
+table {
+  width: 100%;
+}
+
+table tr {
+  border-top: 1px solid #ddd;
+}
+
+/*======================================================================
+ * th
+======================================================================*/
+
+table th {
+  background: #eee;
+}
+table th {
+  border-right: 1px solid #ddd;
+  padding: 0 1em;
+  line-height: 2em;
+  color: #666;
+  text-align: left;
+}
+table th.comment {
+  border-right: none;
+}
+table td {
+  padding: .25em 0 0;
+}
+
+/*======================================================================
+ * td
+======================================================================*/
+
+table td ul {
+  padding: 0 1.5em;
+  list-style: none;
+}
+
+table td ul li {
+  clear: both;
+}
+
+table td ul li:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+
+/*======================================================================
+ * td.section
+======================================================================*/
+
+table td.section {
+  width: 15%;
+  border-right: 1px solid #ddd;
+  padding-left: 1em;
+  vertical-align: top;
+}
+
+/*======================================================================
+ * td.proprietary
+======================================================================*/
+
+td.prop {
+  width: 20%;
+  border-right: 1px solid #ddd;
+  vertical-align: top;
+}
+
+td.prop ul li {
+  line-height: 32px;
+  margin: 0 0 1em;
+}
+
+td.prop .logo {
+  float: left;
+  margin-right: .75em;
+}
+
+td.prop .logo img {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+/*======================================================================
+ * td.free
+======================================================================*/
+
+td.free {
+  width: 45%;
+  vertical-align: top;
+  border-right: 1px solid #ddd;
+}
+
+td.free li {
+  margin: 0 0 1.5em;
+}
+
+td.free .logo {
+  float: left;
+  margin-right: 1em;
+}
+
+td.free .logo img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+td.free li a.name {
+  vertical-align: bottom;
+}
+
+td.free li a.name:hover .title {
+  text-decoration: underline;
+}
+
+td.free li .name .title {
+  font-weight: bold;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  display: block;
+}
+
+td.free li .name .desc {
+  color: #333;
+}
+
+
+/*======================================================================
+ * td.comment
+======================================================================*/
+
+td.comment {
+  width: 20%;
+  vertical-align: top;
+  padding: 1em;
+}
+td.comment p {
+  margin: 0 0 1em;
+}
 
 /*======================================================================
  * FSF
@@ -206,135 +367,6 @@ p.disclaimer {
 }
 
 
-
-/*======================================================================
- * Table
-======================================================================*/
-
-table {
-  width: 100%;
-}
-
-table tr {
-  border-top: 1px solid #ddd;
-}
-
-table td {
-  padding: 0;
-}
-
-table td ul {
-  padding: 0 1.5em;
-  list-style: none;
-}
-
-table td ul li {
-  clear: both;
-}
-
-table td ul li:after {
-  content: " "; /* Older browser do not support empty content */
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
-}
-
-/*======================================================================
- * td.section
-======================================================================*/
-
-table td.section {
-  width: 20%;
-  border-right: 1px solid #ddd;
-  padding-left: 1em;
-  vertical-align: top;
-}
-
-/*======================================================================
- * td.proprietary
-======================================================================*/
-
-td.prop {
-  width: 25%;
-  border-right: 1px solid #ddd;
-  vertical-align: top;
-}
-
-td.prop ul li {
-  line-height: 32px;
-  margin: 0 0 1em;
-}
-
-td.prop .logo {
-  float: left;
-  margin-right: .75em;
-}
-
-td.prop .logo img {
-  display: block;
-  width: 32px;
-  height: 32px;
-}
-
-/*======================================================================
- * td.arrow
-======================================================================*/
-
-td.arrow {
-  padding: 0;
-  width: 5%;
-  vertical-align: middle;
-  font-size: 2em;
-  line-height: 1;
-  color: #999;
-  border-right: 1px solid #ddd;
-  text-align: center;
-}
-
-/*======================================================================
- * td.free
-======================================================================*/
-
-td.free {
-  width: 50%;
-  vertical-align: top;
-}
-
-td.free li {
-  margin: 0 0 1.5em;
-}
-
-td.free .logo {
-  float: left;
-  margin-right: 1em;
-}
-
-td.free .logo img {
-  display: block;
-  width: 50px;
-  height: 50px;
-}
-
-td.free li a.name {
-  vertical-align: bottom;
-}
-
-td.free li a.name:hover .title {
-  text-decoration: underline;
-}
-
-td.free li .name .title {
-  font-weight: bold;
-  font-size: 1.25em;
-  line-height: 1.25em;
-  display: block;
-}
-
-td.free li .name .desc {
-  color: #333;
-}
-
 /*======================================================================
  * Right to left support
 ======================================================================*/
@@ -355,15 +387,6 @@ td.free li .name .desc {
   float: right;
   margin-right: 0;
   margin-left: .75em;
-}
-
-#rtl td.arrow {
-  border-right: 1px solid #ddd;
-  -webkit-transform: rotate(180deg);
-     -moz-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-       -o-transform: rotate(180deg);
-          transform: rotate(180deg);
 }
 
 #rtl td.free {
