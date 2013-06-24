@@ -3,10 +3,11 @@
 
 
 
-  "i18n-operating-system" : "Betriebssystem",
+  "i18n-operating-system": "Betriebssystem",
   "i18n-gnulinux-desc": "Freies, quelloffenes Betriebssystem.",
   "i18n-debian-desc": "Popul&auml;re ethische GNU/Linux-Distribution.",
   "i18n-fedora-desc": "Schnelle, stabile und m&auml;chtige GNU/Linux-Distribution.",
+  "i18n-linuxmint-desc": "Komfortable und einfach zu benutzende GNU/Linux-Distribution.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Ihrer Privatsph&auml;re.",
   "i18n-trisquel-desc": "Von der FSF unterst&uuml;tzte, anwenderfreundliche GNU/Linux-Distribution.",
@@ -21,10 +22,10 @@
 
 
   "i18n-web-browser-plugins": "Webbrowser-Plugins",
-  "i18n-adblockedge-desc": "Block advertisements on the web.",
-  "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
+  "i18n-adblockedge-desc": "Blockiert Werbeanzeigen im Web.",
+  "i18n-disconnect-desc": "Hindert dritte Seiten daran, dich zu verfolgen.",
   "i18n-httpseverywhere-desc": "Verschl&uuml;sselt Ihre Kommunikation mit tausenden von Websites.",
-  "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
+  "i18n-noscript-desc": "Aktiviere JavaScript, Java und Flash nur f&uuml;r Seiten, denen du vertraust.",
   "i18n-torbutton-desc": "Tor-Plugin f&uuml;r IceCat und Firefox.",
 
 
@@ -53,12 +54,13 @@
 
   "i18n-online-transactions": "Online-Transaktionen",
   "i18n-bitcoin-desc": "P2P-basierte digitale W&auml;hrung ohne zentrale Autorit&auml;t.",
-  "i18n-cryptocoins-title": "Alternative cryptocurrencies.",
-  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
+  "i18n-cryptocoins-title": "Alternative Kryptow&auml;hrungen.",
+  "i18n-cryptocoins-desc": "Liste der alternativen verschl&uuml;sselten digitalen W&auml;hrungen.",
 
 
 
   "i18n-email-services": "E-Mail-Dienste",
+  "i18n-autistici-desc": "Eine ganze Reihe von kostenfreien, privatsph&auml;rebewussten Diensten.",
   "i18n-bitmessage-desc": "Verschl&uuml;sselter, dezentralisierter Mailserver.",
   "i18n-riseup-desc": "Sichere und private Mailaccounts.",
 
@@ -89,18 +91,18 @@
   "i18n-cloud-storage": "Cloudspeicherung",
   "i18n-gitannex-desc": "Synchronisiert Ordner auf allen Laufwerken Ihres Computers.",
   "i18n-owncloud-desc": "Cloud-Daten unter Ihrer Kontrolle.",
-  "i18n-seafile-desc": "Self or cloud hosted version control and file sync.",
+  "i18n-seafile-desc": "Selbst-gehostete oder Cloud-gehostete Versionsverwaltung und Datensynchronisation.",
   "i18n-sparkleshare-desc": "Selbst-gehostete Versionskontrolle und Dateisynchronisierung.",
   "i18n-tahoelafs-desc": "Freies und offenes Cloud-Speichersystem.",
 
 
 
   "i18n-social-networking": "Soziale Netzwerke",
-  "i18n-buddycloud-desc": "Open source, federated social network.",
+  "i18n-buddycloud-desc": "Quelloffenes, vereinigtes soziales Netzwerk.",
   "i18n-diaspora-desc": "Gemeinschaftsbetriebenes, verteiltes soziales Netzwerk.",
   "i18n-friendica-desc": "Quelloffener, freier sozialer Webserver.",
   "i18n-gnusocial-desc": "Selbst-gehostetes, dezentralisiertes soziales Netzwerk.",
-  "i18n-lorea-desc": "Distributed and federated social nodes.",
+  "i18n-lorea-desc": "Verteilte und vereinigte soziale Knoten.",
   "i18n-movim-desc": "Privater, dezentralisierter Sozialnetzwerk-Server.",
   "i18n-pumpio-desc": "Selbst-gehosteter sozialer Streamserver.",
   "i18n-salutatoi-desc": "Modulares Mehrzweck-Kommunikationswerkzeug.",
@@ -119,7 +121,7 @@
 
   "i18n-video-voip": "Videokonferenzen/VOIP",
   "i18n-jitsi-desc": "Verschl&uuml;sselter Text- und Videochat.",
-  "i18n-linphone-desc": "Encrypted voice and video client.",
+  "i18n-linphone-desc": "Verschl&uuml;sselter Audio- und Videochat.",
   "i18n-mumble-desc": "Verschl&uuml;sselter Voicechat mit kurzer Latenzzeit.",
 
 
@@ -149,7 +151,7 @@
 
 
   "i18n-android-app-store": "Android App Store",
-  "i18n-fdroid-desc": "Free and open source apps for Android.",
+  "i18n-fdroid-desc": "Freie und quelloffene Apps f&uuml;r Android.",
 
 
 
@@ -157,9 +159,9 @@
   "i18n-gibberbot-desc": "Privates, sicheres OTR-Messaging f&uuml;r Android.",
   "i18n-orbot-desc": "Tor-Proxy f&uuml;r Android.",
   "i18n-redphone-desc": "Sichere private Anrufe f&uuml;r Android.",
-  "i18n-surespot-desc": "Free, open-source, end-to-end encrypted messaging.",
+  "i18n-surespot-desc": "Freier, quelloffer, End-to-End-verschl&uuml;sselter Nachrichtenversand.",
   "i18n-textsecure-desc": "Sichere SMS-/MMS-Kommunikation f&uuml;r Android.",
-  "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
+  "i18n-xabber-desc": "OTR-verschl&uuml;sselter Nachrichtenversand f&uumlr Android.",
 
 
 
@@ -178,6 +180,7 @@
   "i18n-invite-only": "auf Einladungsbasis",
   "i18n-newbies-choice": "newbie's choice",
   "i18n-editors-choice": "editor's choice",
+  "i18n-nocodecs": "empfiehlt Edition ohne Codecs*",
 
 
 
@@ -197,7 +200,7 @@
 
 
 
-  "i18n-media-title": "Erw&auml;hnt in den Medien.",
+  "i18n-media-title": "Erw&auml;hnungen in den Medien:",
   "i18n-catalan": "Catalan",
   "i18n-dutch": "Niederl&auml;ndisch",
   "i18n-english": "Englisch",
@@ -214,7 +217,7 @@
   "i18n-by": "von",
   "i18n-contribute-on": "Mach mit auf",
   "i18n-donate": "Spende",
-  "i18n-contribute": "Contribute",
+  "i18n-contribute": "Mitarbeiten",
 
 
 
