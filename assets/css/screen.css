@@ -78,13 +78,16 @@ h3 > a:hover {
 }
 
 #header-site ul li {
-  float: left;
+  float: right;
   padding: 0 18px;
   line-height: 3em;
+  border-left: 1px solid #ddd;
 }
 
 #header-site ul li#brand {
+  float: left;
   border-right: 1px solid #ddd;
+  border-left: none;
   margin: 0;
 }
 #brand h1 {
@@ -111,9 +114,7 @@ h3 > a:hover {
 
 
 #header-site ul li#contribute {
-  float: right;
   font-weight: bold;
-  border-left: 1px solid #ddd;
 }
 /*======================================================================
  * Introduction
