@@ -238,10 +238,13 @@ td.free li {
 }
 
 td.free li.best  {
-  border: 1px solid #ddd;
-  padding: 1em;
+  border-bottom: 1px solid #efefef;
+  padding-top: .5em;
+  padding-bottom: 1.5em;
 }
 td.free li.best:last-of-type  {
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 td.free li.best .name .title {
