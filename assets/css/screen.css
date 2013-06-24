@@ -3,7 +3,7 @@
 ======================================================================*/
 
 body {
-  font: 16px/1.5  Helvetica Neue, Arial, Helvetica, sans-serif;
+  font: 16px/1.5 Arial, sans-serif;
   color: #333;
   padding: 0;
   width: 100%;
@@ -82,13 +82,10 @@ h3 > a:hover {
   float: right;
   padding: 0 18px;
   line-height: 3em;
-  border-left: 1px solid #ddd;
 }
 
 #header-site ul li#brand {
   float: left;
-  border-right: 1px solid #ddd;
-  border-left: none;
   margin: 0;
 }
 #brand h1 {
@@ -151,15 +148,11 @@ table th {
   background: #eee;
 }
 table th {
-  border-right: 1px solid #ddd;
   padding: 0 1em;
   line-height: 2em;
   color: #666;
   text-align: left;
   font-weight: normal;
-}
-table th.note {
-  border-right: none;
 }
 table td {
   padding: .25em 0 0;
@@ -289,7 +282,7 @@ td.free li .desc {
 td.note {
   width: 25%;
   vertical-align: top;
-  padding: 1em;
+  padding: 1em 1.5em 1em 1em;
 }
 td.note p {
   margin: 0 0 1em;
