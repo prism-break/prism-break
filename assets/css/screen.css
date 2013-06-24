@@ -266,16 +266,20 @@ td.free li .name .desc {
 
 
 /*======================================================================
- * td.comment
+ * td.note
 ======================================================================*/
 
-td.comment {
+td.note {
   width: 20%;
   vertical-align: top;
   padding: 1em;
 }
-td.comment p {
+td.note p {
   margin: 0 0 1em;
+  font-size: 14px;
+}
+td.note p a:hover {
+  text-decoration: underline;
 }
 
 /*======================================================================
