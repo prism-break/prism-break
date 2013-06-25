@@ -4,10 +4,10 @@
 
 
   "i18n-operating-system" : "Operativsystem",
-  "i18n-debian-desc": "Populära etiska GNU/Linux distribution.",
+  "i18n-debian-desc": "Populär etisk GNU/Linux distribution.",
   "i18n-fedora-desc": "Snabb, stabil, kraftfull GNU/Linux distribution.",
-  "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
-  "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
+  "i18n-linuxmint-desc": "Komfortabel och enkel att använda GNU/Linux distribution.",
+  "i18n-liberte-desc": "Live CD/USB designad som kommunikationshjälpmedel i en hostil miljö.",
   "i18n-tails-desc": "Live CD/USB avsedd för sekretess.",
   "i18n-trisquel-desc": "FSF-godkänd, användarvänlig GNU/Linux distribution.",
 
@@ -16,35 +16,35 @@
   "i18n-web-browser": "Webbläsare",
   "i18n-icecat-desc": "GNU versionen av Firefox.",
   "i18n-firefox-desc": "Webbläsare med öppen källkod.",
-  "i18n-torbrowser-desc": "Krypterade, anonym surfning.",
+  "i18n-torbrowser-desc": "Krypterad, anonym surfning.",
 
 
 
-  "i18n-web-browser-plugins": "Tillägg för Webbläsar",
-  "i18n-adblockedge-desc": "Block advertisements on the web.",
-  "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
-  "i18n-httpseverywhere-desc": "Krypterar dina trafik till tusentals webbplatser.",
-  "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
+  "i18n-web-browser-plugins": "Tillägg för Webbläsare",
+  "i18n-adblockedge-desc": "Blockera annonser på webben.",
+  "i18n-disconnect-desc": "Stoppa tredjepartssajter från att spåra dig.",
+  "i18n-httpseverywhere-desc": "Krypterar din trafik till tusentals webbplatser.",
+  "i18n-noscript-desc": "Aktivera bara JavaScript, Java, och Flash för sajter du litar på.",
   "i18n-torbutton-desc": "Tor tillägg för IceCat och Firefox.",
 
 
 
   "i18n-web-search": "Sökmotor",
   "i18n-duckduckgo-desc": "Anonyma webbsökningar utan loggfiler.",
-  "i18n-startpage-desc": "Privat, webbsökningar utan loggfiler.",
-  "i18n-seeksproject-desc": "Öppna decentraliserad för grupp sökningar.",
+  "i18n-startpage-desc": "Privata webbsökningar utan loggfiler.",
+  "i18n-seeksproject-desc": "Öppen decentraliserad plattform för gruppsökningar.",
   "i18n-yacy-desc": "Decentraliserad webbsökning.",
 
 
 
   "i18n-dns-provider": "DNS-Tjänster",
   "i18n-opennic-desc": "Total DNS neutralitet.",
-  "i18n-namecoin-desc": "Distribuerad DNS, baserade på Bitcoin teknologi.",
+  "i18n-namecoin-desc": "Distribuerad DNS, baserad på Bitcoin teknologi.",
 
 
 
   "i18n-darknet": "Darknet",
-  "i18n-freenet-desc": "Decentraliserad censur-resistent nätverk.",
+  "i18n-freenet-desc": "Decentraliserat censur-resistent nätverk.",
   "i18n-i2p-desc": "Det osynliga Internet Projektet.",
   "i18n-nightweb-desc": "Anonymt I2P nätverk för Android.",
   "i18n-syndie-desc": "Distribuerad, anonym forums-mjukvara.",
@@ -58,13 +58,13 @@
 
 
 
-  "i18n-email-services": "Mejl tjänster",
+  "i18n-email-services": "Mejl-tjänster",
   "i18n-bitmessage-desc": "Krypterad, decentraliserad mejl server",
-  "i18n-riseup-desc": "Säker och privat mejl konto.",
+  "i18n-riseup-desc": "Säkert och privat mejl konto.",
 
 
 
-  "i18n-email-clients": "Mejl klienter",
+  "i18n-email-clients": "Mejl-klienter",
   "i18n-clawsmail-desc": "Lätt e-post klient med GnuPG stöd.",
   "i18n-evolution-desc": "Gratis e-post och kalender klient.",
   "i18n-icedove-desc": "Gratisversion av Mozilla Thunderbird.",
@@ -73,7 +73,7 @@
 
 
 
-  "i18n-email-encryption": "Mejl kryptering",
+  "i18n-email-encryption": "Mejl-kryptering",
   "i18n-enigmail-desc": "Ett OpenPGP tillägg för Thunderbird.",
   "i18n-gnuprivacyguard-desc": "Gratis OpenPGP implementering.",
   "i18n-mailvelope-desc": "OpenPGP kryptering för webb baserad mejl.",
@@ -89,14 +89,14 @@
   "i18n-cloud-storage": "Molntjänster",
   "i18n-gitannex-desc": "Synkronisera mappar på alla dina datorer och hårddiskar.",
   "i18n-owncloud-desc": "Molnlagring i din kontroll.",
-  "i18n-seafile-desc": "Self or cloud hosted version control and file sync.",
+  "i18n-seafile-desc": "Själv- eller molnlagrad version kontroll och filsynkronisering.",
   "i18n-sparkleshare-desc": "Lokal versions kontroll och filsynkronisering",
   "i18n-tahoelafs-desc": "Fritt och öppet molnlagringssystem.",
 
 
 
   "i18n-social-networking": "Socialt nätverk",
-  "i18n-buddycloud-desc": "Open source, federated social network.",
+  "i18n-buddycloud-desc": "Federerat socialt nätverk med öppen källkod.",
   "i18n-diaspora-desc": "Icke kommersiellt socialt nätverk",
   "i18n-friendica-desc": "Gratis webbserver med öppen källkod",
   "i18n-gnusocial-desc": "Lokalt, decentraliserat socialt nätverk",
@@ -110,7 +110,7 @@
 
   "i18n-instant-messaging": "Chattjänster",
   "i18n-cryptocat-desc": "Privat och krypterad chatt.",
-  "i18n-otr-desc": "Installations och start med Pidgin för krypterad chatt.",
+  "i18n-otr-desc": "Installera och aktivera i Pidgin för krypterad chatt.",
   "i18n-pidgin-desc": "Chattprogramm med öppen källkod.",
   "i18n-adium-desc": "Pidgin för OS X (Kom ihåg att aktivera OTR).",
   "i18n-retroshare-desc": "Gratis och säker P2P kommunikations plattform.",
@@ -125,7 +125,7 @@
 
 
   "i18n-media-publishing": "Publiceringssystem",
-  "i18n-gnumediagoblin-desc": "Publicerings plattform.",
+  "i18n-gnumediagoblin-desc": "Publiceringsplattform.",
   "i18n-piwigo-desc": "Gratis fotogalleri.",
   "i18n-wordpress-desc": "Gratis hemsida/blogg CMS.",
   "i18n-zenphoto-desc": "Gratis hemsida CMS.",
@@ -133,8 +133,8 @@
 
 
   "i18n-document-collaboration": "Dokumentsamarbete",
-  "i18n-ethercalc-desc": "Flera-användare kalkylblads server.",
-  "i18n-etherpad-desc": "Dokument samarbete i realtid, öppen källkod.",
+  "i18n-ethercalc-desc": "Kalkylblads-server för flera användare.",
+  "i18n-etherpad-desc": "Dokumentsamarbete i realtid, öppen källkod.",
 
 
 
@@ -149,7 +149,7 @@
 
 
   "i18n-android-app-store": "Android App Store",
-  "i18n-fdroid-desc": "Fri och öppen källkod apps för Android.",
+  "i18n-fdroid-desc": "Fri appbutik med öppen källkod för Android.",
 
 
   
@@ -161,7 +161,7 @@
 
 
 
-  "i18n-ios-insecure-desc": "iOS enheter innehåller hårdvara spårning.",
+  "i18n-ios-insecure-desc": "iOS enheter innehåller hårdvaruspårning.",
   "i18n-chatsecure-desc": "Kryptera direktmeddelanden för iOS.",
   "i18n-onionbrowser-desc": "Säker surfning för iOS.",
 
@@ -177,13 +177,13 @@
 
 
 
-  "i18n-fsf-definition-title": "*Denna webbplats använder <strong>Free Software Foundation&rsquo;s</strong> definitionen av fri programvara.",
+  "i18n-fsf-definition-title": "*Denna webbplats använder <strong>Free Software Foundation&rsquo;s</strong> definition av fri programvara.",
   "i18n-fsf-quote": "&ldquo;Fri programvara&rdquo; betyder programvara som respekterar användarens&rsquo; frihet och gemenskap. MAO, <strong> användarna har frihet att köra, kopiera, distribuera, studera, ändra och förbättra programvaran</strong>. Med dessa friheter, kan användarna (både individuellt och kollektivt) styra programmet och vad det gör för dem.",
    
 
 
-  "i18n-eff-title": "Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.",
-  "i18n-eff-quote-1": "<strong>MASSIVE SURVEILLANCE EXPOSED</strong>",
+  "i18n-eff-title": "Ta till handling mot PRISM på <strong>Electronic Frontier Foundation</strong> handlingscenter.",
+  "i18n-eff-quote-1": "<strong>MASSIV ÖVERVAKNING AVSLÖJAD</strong>",
   "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
 
 
@@ -208,11 +208,11 @@
   "i18n-by": "av",
   "i18n-contribute-on": "Bidra på",
   "i18n-donate": "Donera",
-  "i18n-contribute": "Contribute",
+  "i18n-contribute": "Bidra",
 
 
 
-  "i18n-operating-system-note": "<span class='p'>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</span><span class='p'>This leaves us with two free alternatives: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> and <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux has a much larger community to help you with the transition. It's recommended that you begin your explorations by looking for a <a href=\"http://distrowatch.com/\">GNU/Linux distribution</a> that suits your needs.</span> <span class='p'>Why not Ubuntu? Ubuntu is a poor choice because it contains <a href=\"https://www.gnu.org/philosophy/ubuntu-spyware.html\">spyware</a>.</span> <span class='p'>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">More info</a>.</span>",
+  "i18n-operating-system-note": "<span class='p'>Apple, Google, och Microsoft är delar av PRISM. Deras proprietära operativsystem kan inte litas på att skydda din personliga information från NSA.</span><span class='p'>Detta lämnar oss med två alternativ: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> och <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux har ett mycket störrecommunity att hjälpa dig med övergången. Det är rekommenderat att du börjar dina utforskningar genom att kolla efter en <a href=\"http://distrowatch.com/\">GNU/Linux distribution</a> som passar dina behov.</span> <span class='p'>Varför inte Ubuntu? Ubuntu är ett dåligt val eftersom det innehåller <a href=\"https://www.gnu.org/philosophy/ubuntu-spyware.html\">spyware</a>.</span> <span class='p'>Notera: PRISM Break rekommenderar icke-codec versionen av <strong>Linux Mint</strong>, eftersom de andra versionerna är nedtyngda av mjukvarupatent. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mer info</a>.</span>",
 
 
 
@@ -276,7 +276,7 @@
 
 
 
-  "i18n-cloud-storage-note": "<span class='p'>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</span><span class='p'>Why not SpiderOak? SpiderOak is proprietary software.</span><span class='p'>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</span>",
+  "i18n-cloud-storage-note": "<span class='p'>Varför inte MEGA? Medan MEGA är gratis som i öl, så är mjukvaran stängd kod..</span><span class='p'>Why not SpiderOak? SpiderOak is proprietary software.</span><span class='p'>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</span>",
 
 
 
