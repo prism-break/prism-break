@@ -62,7 +62,7 @@
   "i18n-email-services": "Email services",
   "i18n-bitmessage-desc": "Encrypted, decentralized email server.",
   "i18n-riseup-desc": "Secure and private email accounts.",
-
+  "i18n-tormail-desc": "Tor Mail is a free anonymous email service provider.",
 
 
   "i18n-email-clients": "Email desktop clients",
@@ -153,7 +153,7 @@
   "i18n-fdroid-desc": "Free and open source apps for Android.",
 
 
-  
+
   "i18n-csipsimple-desc": "Free, encrypted VoIP for Android.",
   "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
   "i18n-orbot-desc": "Tor proxy for Android.",
@@ -177,6 +177,7 @@
   "i18n-partly-proprietary": "partly proprietary*",
   "i18n-proprietary": "proprietary*",
   "i18n-invite-only": "invite-only",
+  "i18n-tor-users-only": "Tor users only",
   "i18n-newbies-choice": "newbie's choice",
   "i18n-editors-choice": "editor's choice",
   "i18n-nocodecs": "recommends the nocodecs edition*",
@@ -244,7 +245,7 @@
 
 
 
-  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> is hosted in the USA, in case that matters.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span>",
+  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> is hosted in the USA, in case that matters.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span><span class='p'><strong>Tor Mail</strong>: Read quietly the introduction page.</span>",
 
 
 
