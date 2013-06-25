@@ -61,6 +61,7 @@
   "i18n-email-services": "Servicios de Correo Electrónico",
   "i18n-bitmessage-desc": "Servidor de email cifrado y descentralizado.",
   "i18n-riseup-desc": "Cuentas de correo seguras y privadas.",
+  "i18n-tormail-desc": "Tor Mail es un servicio que provee correo libre y anónimo.",
 
 
 
@@ -176,6 +177,7 @@
   "i18n-partly-proprietary": "Parcialmente privativo*",
   "i18n-proprietary": "Privativo*",
   "i18n-invite-only": "Solo por invitación",
+  "i18n-tor-users-only": "Hay que ser usuario de Tor para poder usarlo.",
   "i18n-newbies-choice": "recomendado para novatos",
   "i18n-editors-choice": "recomendación del autor",
 
@@ -214,7 +216,7 @@
   "i18n-by": "por",
   "i18n-contribute-on": "Contribuir en",
   "i18n-donate": "Donar",
-  "i18n-contribute": "Contribute",
+  "i18n-contribute": "Contribuir",
 
 
 
@@ -242,7 +244,7 @@
 
 
 
-  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> is hosted in the USA, in case that matters.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span>",
+  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> is hosted in the USA, in case that matters.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span><span class='p'><strong>Tor Mail</strong>: Leer tranquilamente la página de introducción.</span>",
 
 
 
