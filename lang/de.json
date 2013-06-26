@@ -5,10 +5,10 @@
 
   "i18n-operating-system": "Betriebssystem",
   "i18n-gnulinux-desc": "Freies, quelloffenes Betriebssystem.",
-  "i18n-debian-desc": "Populäre ethische GNU/Linux-Distribution.",
+  "i18n-debian-desc": "Populäre, ethische GNU/Linux-Distribution.",
   "i18n-fedora-desc": "Schnelle, stabile und mächtige GNU/Linux-Distribution.",
   "i18n-linuxmint-desc": "Komfortable und einfach zu benutzende GNU/Linux-Distribution.",
-  "i18n-liberte-desc": "Live CD/USB entwickelt als Kommunikations-Hilfe in feindlichen Umgebungen.",
+  "i18n-liberte-desc": "Live CD/USB, entwickelt als Kommunikations-Hilfe in feindlichen Umgebungen.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
   "i18n-trisquel-desc": "Von der FSF unterstützte, anwenderfreundliche GNU/Linux-Distribution.",
@@ -26,7 +26,7 @@
   "i18n-adblockedge-desc": "Blockiert Werbeanzeigen im Web.",
   "i18n-disconnect-desc": "Hindert Drittseiten daran, Dich zu verfolgen.",
   "i18n-httpseverywhere-desc": "Verschlüsselt Deine Kommunikation mit tausenden von Websites.",
-  "i18n-noscript-desc": "Aktiviere JavaScript, Java und Flash nur für Seiten, denen Du vertraust.",
+  "i18n-noscript-desc": "Aktiviert JavaScript, Java und Flash nur für Seiten, denen Du vertraust.",
 
 
 
@@ -40,13 +40,13 @@
 
   "i18n-dns-provider": "DNS-Provider",
   "i18n-opennic-desc": "Totale DNS-Neutralität.",
-  "i18n-namecoin-desc": "Verteiltes DNS basierend auf Bitcoin-Technologie.",
+  "i18n-namecoin-desc": "Verteiltes DNS basierend auf der Bitcoin-Technologie.",
 
 
 
   "i18n-darknet": "Darknet",
-  "i18n-freenet-desc": "Dezentralisiertes zensurresistentes Netzwerk.",
-  "i18n-i2p-desc": "Das Unsichtbares-Internet-Projekt.",
+  "i18n-freenet-desc": "Dezentralisiertes, zensurresistentes Netzwerk.",
+  "i18n-i2p-desc": "Das Unsichtbare-Internet-Projekt.",
   "i18n-nightweb-desc": "Anonymes I2P-Netzwerk für Android.",
   "i18n-syndie-desc": "Verteilte, anonyme Forensoftware.",
 
@@ -63,7 +63,7 @@
   "i18n-autistici-desc": "Eine ganze Reihe von kostenfreien, privatsphärebewussten Diensten.",
   "i18n-bitmessage-desc": "Verschlüsselter, dezentralisierter Mailserver.",
   "i18n-riseup-desc": "Sichere und private Mailaccounts.",
-  "i18n-tormail-desc": "Tor Mail ist ein freier und anonymer E-Mail Provider.",
+  "i18n-tormail-desc": "Tor Mail ist ein freier und anonymer E-Mail-Provider.",
 
 
 
@@ -115,8 +115,8 @@
   "i18n-cryptocat-desc": "Private, verschlüsselte Online-Unterhaltungen.",
   "i18n-otr-desc": "Pidgin-Plugin für verschlüsseltes Chatten.",
   "i18n-pidgin-desc": "Quelloffenes Chatprogramm.",
-  "i18n-adium-desc": "Pidgin für OS X (dran denken, OTR zu aktivieren!).",
-  "i18n-retroshare-desc": "Freie, sichere, P2P-Kommunikationsplattform.",
+  "i18n-adium-desc": "Pidgin für OS X (Denke daran, OTR zu aktivieren!).",
+  "i18n-retroshare-desc": "Freie, sichere P2P-Kommunikationsplattform.",
 
 
 
@@ -160,7 +160,7 @@
   "i18n-csipsimple-desc": "Freie, verschlüsselte VOIP für Android.",
   "i18n-gibberbot-desc": "Privates, sicheres OTR-Messaging für Android.",
   "i18n-orbot-desc": "Tor-Proxy für Android.",
-  "i18n-redphone-desc": "Sichere private Anrufe für Android.",
+  "i18n-redphone-desc": "Sichere, private Anrufe für Android.",
   "i18n-surespot-desc": "Freier, quelloffer, End-to-End-verschlüsselter Nachrichtenversand.",
   "i18n-textsecure-desc": "Sichere SMS-/MMS-Kommunikation für Android.",
   "i18n-xabber-desc": "OTR-verschlüsselter Nachrichtenversand f&uumlr Android.",
@@ -187,13 +187,13 @@
 
 
 
-  "i18n-fsf-definition-title": "*Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition freier Software.",
+  "i18n-fsf-definition-title": "*Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
   "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; heißt Software, welche die Freiheit und Gemeinschaft der AnwenderInnen respektiert. Grob gesagt, <strong>haben die AnwenderInnen die Freiheit, die Software zu betreiben, kopieren, verteilen, untersuchen, verändern und zu verbessern</strong>. Mit diesen Freiheiten kontrollieren die AnwenderInnen (sowohl individuell als auch kollektiv) das Programm und was es für sie tut.",
 
 
   "i18n-eff-title": "Trete in Aktion gegen PRISM im <strong>Electronic Frontier Foundation</strong> Action Center.",
   "i18n-eff-quote-1": "<strong>MASSIVE ÜBERWACHUNG ENTLARVT</strong>",
-  "i18n-eff-quote-2": "Kürzliche Berichte von <em>by the Guardian</em> und <em>the Washington Post</em> bestätigen geheime Spionageprogramme auf Telefon- und Internetverkehr. Es ist an der Zeit mit dem amerikanischen Spionageprogramm abzurechnen—und die verfassungswidrige Überwachung zu beenden.",
+  "i18n-eff-quote-2": "Kürzliche Berichte des <em>Guardian</em> und der <em>Washington Post</em> bestätigen geheime Spionageprogramme auf Telefon- und Internetverkehr. Es ist an der Zeit mit dem amerikanischen Spionageprogramm abzurechnen — und die verfassungswidrige Überwachung zu beenden.",
 
 
 
@@ -223,7 +223,7 @@
 
 
 
-  "i18n-operating-system-note": "<span class='p'>Apple, Google und Microsoft sind ein Teil von PRISM. Ihren proprietären Betriebssystemen kann, hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA, nicht vertraut werden.</span><span class='p'>Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</span> <span class='p'>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich mit der Suchen nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution</a><sup>[ENG]</sup>, die Euren Anforderungen entspricht.</span> <span class='p'>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks\">standardmäßig Daten an Dritte sendet.</a><sup>[ENG]</sup></span> <span class='p'>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, weil die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu.</a><sup>[ENG]</sup></span>",
+  "i18n-operating-system-note": "<span class='p'>Apple, Google und Microsoft sind ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</span><span class='p'>Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</span> <span class='p'>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution</a><sup>[ENG]</sup>, die Euren Anforderungen entspricht.</span> <span class='p'>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks\">standardmäßig Daten an Dritte sendet.</a><sup>[ENG]</sup></span> <span class='p'>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu.</a><sup>[ENG]</sup></span>",
 
 
 
@@ -231,19 +231,19 @@
 
 
 
-  "i18n-ios-note": "<span class='p'>iOS ist unsicher, und leider stehen nicht nicht einmal viele frei Verschlüsselungs-Apps für iOS zur Verfügung. Es ist außerdem <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">unmöglich sicherzustellen</a><sup>[ENG]</sup> das eine iOS-App mit dem Original-Code kompiliert wurde.</span>",
+  "i18n-ios-note": "<span class='p'>iOS ist unsicher — und leider stehen nicht nicht einmal viele freie Verschlüsselungs-Apps für iOS zur Verfügung. Es ist außerdem <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">unmöglich sicherzustellen</a><sup>[ENG]</sup>, ob eine iOS-App mit dem Original-Code kompiliert wurde.</span>",
 
 
 
-  "i18n-web-browser-note": "<span class='p'>Benutze eine Kombination aus <strong>Tor Browser</strong> und einem freien Browser Deiner Wahl um im Web zu surfen.</span> <span class='p'>Versuche einen <strong>Tor Browser</strong> so oft wie möglich zu nutzen. Mit Tor zu surfen ist langsamer, aber deutlich sicherer.</span> <span class='p'>Anmerkung: <strong>Mozilla Firefox</strong> ist, technisch gesehen, keine vollständig freie Software, da Mozilla unfreie Add-Ons auf ihrer Seite empfiehlt.</span>",
+  "i18n-web-browser-note": "<span class='p'>Benutze eine Kombination aus dem <strong>Tor Browser</strong> und einem freien Browser Deiner Wahl um im Web zu surfen.</span> <span class='p'>Versuche den <strong>Tor Browser</strong> so oft wie möglich zu nutzen. Mit Tor zu surfen ist langsamer, aber deutlich sicherer.</span> <span class='p'>Anmerkung: <strong>Mozilla Firefox</strong> ist eigentlich keine vollständig freie Software, da Mozilla unfreie Add-Ons auf ihrer Seite empfiehlt.</span>",
 
 
 
-  "i18n-web-browser-addons-note": "<span class='p'>Beschütze Deine Privatsphäre, in dem du Adblock Edge, Disconnect, HTTPS Everywhere, und NoScript in Deinem Browser installierst.</span> <span class='p'>Warum nicht Adblock Plus?<br>Adblock Plus zeigt &ldquo;akzeptierte Anzeigen&rdquo; standardmäßig an, und benutzt mehr Speicher als <strong>Adblock Edge</strong>.</span> <span class='p'>Warum nicht Ghostery?<br>Ghostery ist ein proprietäres Add-On. Benutze stattdessen <strong>Disconnect</strong>.</span>",
+  "i18n-web-browser-addons-note": "<span class='p'>Beschütze Deine Privatsphäre, in dem Du Adblock Edge, Disconnect, HTTPS Everywhere, und NoScript in Deinem Browser installierst.</span> <span class='p'>Warum nicht Adblock Plus?<br>Adblock Plus zeigt &ldquo;unaufdringliche Werbung&rdquo; standardmäßig an und benutzt mehr Speicher als <strong>Adblock Edge</strong>.</span> <span class='p'>Warum nicht Ghostery?<br>Ghostery ist ein proprietäres Add-On. Benutze stattdessen <strong>Disconnect</strong>.</span>",
 
 
 
-  "i18n-web-search-note": "<span class='p'><strong>Startpage</strong> ist proprietär, wird gehostet in USA/Niederlande, und versorgt dich mit anonymisierten Google Suchergebnissen (inklusive Bilder).</span><span class='p'><strong>DuckDuckGo</strong> ist teilweise proprietär, wird gehostet in USA, und versorgt dich mit anonymisierten Suchergebnissen von verschiedenen Anbietern.</span><span class='p'>Wähle das kleiner Übel.</span>",
+  "i18n-web-search-note": "<span class='p'><strong>Startpage</strong> ist proprietär, wird gehostet in den USA/Niederlanden und versorgt Dich mit anonymisierten Google-Suchergebnissen (inklusive Bildern).</span><span class='p'><strong>DuckDuckGo</strong> ist teilweise proprietär, wird gehostet in den USA und versorgt Dich mit anonymisierten Suchergebnissen von verschiedenen Anbietern.</span><span class='p'>Wähle das kleinere Übel.</span>",
 
 
 
@@ -251,11 +251,11 @@
 
 
 
-  "i18n-email-clients-note": "<span class='p'>Anmerkung: <strong>Mozilla Thunderbird</strong> ist, technisch gesehen, keine vollständig freie Software, da Mozilla unfreie Add-Ons auf ihrer Seite empfiehlt.</span>",
+  "i18n-email-clients-note": "<span class='p'>Anmerkung: <strong>Mozilla Thunderbird</strong> ist eigentlich keine vollständig freie Software, da Mozilla unfreie Add-Ons auf ihrer Seite empfiehlt.</span>",
 
 
 
-  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a><br><span class='p'>PGP wird häufig genutzt zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen um die Sicherheit von E-Mailkommunikation zu erhöhen.</span>",
+  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a><br><span class='p'>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</span>",
 
 
 
@@ -267,7 +267,7 @@
 
 
 
-  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben die mit Skype gemacht werden.</span><span class='p'><strong>Mumble</strong> ein quelloffener Sprachchat in der Art von Ventrilo und TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a><sup>[ENG]</sup> ist eine kommende, vielverprechende Browser-zu-Browser Kommunikations-API.",
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</span><span class='p'><strong>Mumble</strong> ein quelloffener Sprachchat in der Art von Ventrilo und TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a><sup>[ENG]</sup> ist eine bald kommende, vielversprechende Browser-zu-Browser Kommunikations-API.",
 
 
 
@@ -275,7 +275,7 @@
 
 
 
-  "i18n-media-publishing-note": "<span class='p'>Es ist wichtig <strong>selbst zu hosten</strong>. Deinen Blog auf wordpress.com zu hosten, ist nicht besser für Deine Daten, als bei Blogger oder Tumblr.</span>",
+  "i18n-media-publishing-note": "<span class='p'>Es ist wichtig <strong>selbst zu hosten</strong>. Deinen Blog auf wordpress.com zu hosten ist nicht besser für Deine Daten, als es bei Blogger oder Tumblr zu tun.</span>",
 
 
 
@@ -287,15 +287,15 @@
 
 
 
-  "i18n-cloud-storage-note": "<span class='p'>Warum nicht MEGA?<br>Während MEGA frei ist, wie in \"Freibier\", enthält es proprietären Code.</span><span class='p'>Warum nicht SpiderOak?<br>SpiderOak ist eine proprietäre Software.</span><span class='p'>Warum nicht Tarsnap?<br>Tarsnap ist teilweise proprietär und hostet Deine Daten auf Amazon Web Services.</span>",
+  "i18n-cloud-storage-note": "<span class='p'>Warum nicht MEGA?<br>Während MEGA \"frei\" ist wie \"Freibier\", enthält es proprietären Code.</span><span class='p'>Warum nicht SpiderOak?<br>SpiderOak ist eine proprietäre Software.</span><span class='p'>Warum nicht Tarsnap?<br>Tarsnap ist teilweise proprietär und hostet Deine Daten auf Amazon Web Services.</span>",
 
 
 
-  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass es das letzte Viertel der Besucher IP anonymisiert (255.255.255.???). Aufrufbar unter <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass es das letzte Viertel der Besucher-IP anonymisiert (255.255.255.???). Aufrufbar unter <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google Public DNS speichert permanent Deine ISP und Standort Information für Analysen. Außerdem wird Deine IP Adresse für 24 Stunden gespeichert.</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS speichert permanent Deine ISP und Standort-Information für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</span>",
 
 
   "i18n-darknet-note": "<span class='p'>&ldquo;Darknet (engl. für „Dunkles Netz“) beschreibt in der Informatik ein Peer-to-Peer-Netzwerk, dessen Teilnehmer ihre Verbindungen untereinander manuell herstellen.</span><span class='p'>Im Ergebnis bietet ein Darknet ein höheres Maß an Sicherheit, da einem Angreifer der Zugriff auf das Netzwerk nicht ohne weiteres möglich ist – oder er im Idealfall gar nichts von der Existenz des Netzwerks weiß.&ldquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Darknet\">Wikipedia</a></span>"
