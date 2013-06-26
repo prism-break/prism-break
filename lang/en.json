@@ -230,7 +230,7 @@
 
 
 
-  "i18n-web-browser-note": "<span class='p'>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</span> <span class='p'>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</span> <span class='p'>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
+  "i18n-web-browser-note": "<span class='p'>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be a bit slower, but it's far more secure.</span><span class='p'>Note that using <strong>Tor Browser</strong> to log into PayPal or a banking website may trip the website&rsquo;s fraud protection software.</span><span class='p'>Users of <strong>Tor Browser</strong> should also be aware that logging into HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</span><span class='p'>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
 
 
 
