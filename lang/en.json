@@ -8,7 +8,7 @@
   "i18n-fedora-desc": "Fast, stable, powerful GNU/Linux distribution.",
   "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
   "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
-  "i18n-tails-desc": "Live CD/USB designed for privacy.",
+  "i18n-tails-desc": "Live CD/USB aimed at preserving your privacy and anonymity.",
   "i18n-trisquel-desc": "FSF endorsed, user-friendly GNU/Linux distribution.",
 
 
@@ -23,7 +23,7 @@
   "i18n-web-browser-plugins": "Web browser plugins",
   "i18n-adblockedge-desc": "Block advertisements on the web.",
   "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
-  "i18n-httpseverywhere-desc": "Encrypts your communications thousands of websites.",
+  "i18n-httpseverywhere-desc": "Encrypts your communications from thousands of websites.",
   "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
 
 
@@ -73,7 +73,7 @@
 
 
   "i18n-email-encryption": "Email encryption",
-  "i18n-enigmail-desc": "An OpenPGP plugin for Thunderbird/Icedove.",
+  "i18n-enigmail-desc": "An OpenPGP add-on for Thunderbird/Icedove.",
   "i18n-gnuprivacyguard-desc": "Free OpenPGP implementation.",
   "i18n-mailvelope-desc": "OpenPGP encryption for webmail.",
   "i18n-webpg-desc": "GnuPG/PGP in your browser.",
@@ -88,7 +88,7 @@
   "i18n-cloud-storage": "Cloud storage",
   "i18n-gitannex-desc": "Synchronize folders on your computers and drives.",
   "i18n-owncloud-desc": "Cloud data in your control.",
-  "i18n-seafile-desc": "Self or cloud hosted version control and file sync.",
+  "i18n-seafile-desc": "Self-hosted file sync and collaboration for teams.",
   "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
   "i18n-tahoelafs-desc": "Free and open cloud storage system.",
 
@@ -109,7 +109,7 @@
 
   "i18n-instant-messaging": "Instant messaging",
   "i18n-cryptocat-desc": "Private, encrypted online conversations.",
-  "i18n-otr-desc": "Install and enable in Pidgin for encrypted chat.",
+  "i18n-otr-desc": "Install and enable this plugin in Pidgin for encrypted chat.",
   "i18n-pidgin-desc": "Open source chat program.",
   "i18n-adium-desc": "Free, multiprotocol chat client for OS X.",
   "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
@@ -133,7 +133,7 @@
 
   "i18n-document-collaboration": "Document collaboration",
   "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
-  "i18n-etherpad-desc": "Open source, real-time collaborative documents.",
+  "i18n-etherpad-desc": "Self-hosted, real-time collaborative documents.",
 
 
 
@@ -148,7 +148,7 @@
 
 
   "i18n-android-app-store": "Android App Store",
-  "i18n-fdroid-desc": "Free and open source apps for Android.",
+  "i18n-fdroid-desc": "Free and open source app store for Android.",
 
 
 
@@ -219,7 +219,7 @@
 
 
 
-  "i18n-operating-system-note": "<span class='p'>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</span><span class='p'>This leaves us with two free alternatives: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> and <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux has a much larger community to help you with the transition. It's recommended that you begin your explorations by looking for a <a href=\"http://distrowatch.com/\">GNU/Linux distribution</a> that suits your needs.</span> <span class='p'>Why not Ubuntu? Ubuntu is a poor choice because it contains <a href=\"https://www.gnu.org/philosophy/ubuntu-spyware.html\">spyware</a>.</span> <span class='p'>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">More info</a>.</span>",
+  "i18n-operating-system-note": "<span class='p'>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</span><span class='p'>This leaves us with two free alternatives: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> and <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux has a much larger community to help you with the transition. It's recommended that you begin your explorations by looking for a <a href=\"http://distrowatch.com/\">GNU/Linux distribution</a> that suits your needs.</span><span class='p'>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</span><span class='p'>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">More info</a>.</span>",
 
 
 
@@ -227,7 +227,7 @@
 
 
 
-  "i18n-ios-note": "<span class='p'>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">impossible to verify</a> whether an iOS app was compiled from the original source.</span>",
+  "i18n-ios-note": "<span class='p'>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">impossible to verify</a> whether if an iOS app was compiled from the original source.</span>",
 
 
 
@@ -235,7 +235,7 @@
 
 
 
-  "i18n-web-browser-addons-note": "<span class='p'>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</span> <span class='p'>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</span> <span class='p'>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</span>",
+  "i18n-web-browser-addons-note": "<span class='p'>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</span><span class='p'><strong>Cryptocat</strong> and <strong>Mailvelope</strong> are browser addons for IM and email encryption, respectively. At this time, it may be more secure to use external software for more proven encryption.</span> <span class='p'>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</span> <span class='p'>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</span>",
 
 
 
@@ -243,11 +243,11 @@
 
 
 
-  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> is hosted in the USA, in case that matters.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span><span class='p'><strong>Tor Mail</strong>: Read quietly the introduction page.</span>",
+  "i18n-email-services-note": "<span class='p'><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</span><span class='p'><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span><span class='p'>The only way to have full control over your email is to run your own mail server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</span><span class='p'>While not complete yet, the <a href=\"https://www.freedomboxfoundation.org/\">FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</span>",
 
 
 
-  "i18n-email-clients-note": "<span class='p'>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
+  "i18n-email-clients-note": "<span class='p'><a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</span><span class='p'>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
 
 
 
@@ -255,11 +255,11 @@
 
 
 
-  "i18n-social-networking-note": "<span class='p'>--</span>",
+  "i18n-social-networking-note": "<span class='p'><strong><a href=\"https://identi.ca/\">identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</span>",
 
 
 
-  "i18n-instant-messaging-note": "<span class='p'>Be sure to look at <strong>Cryptocat</strong> in the Web browser add-ons section as well.</span></span>",
+  "i18n-instant-messaging-note": "<span class='p'><strong>Cryptocat</strong> in the Web browser add-ons section may be of interest as well.</span>",
 
 
 
@@ -271,7 +271,7 @@
 
 
 
-  "i18n-media-publishing-note": "<span class='p'><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</span>",
+  "i18n-media-publishing-note": "<span class='p'><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</span>",
 
 
 
@@ -283,7 +283,7 @@
 
 
 
-  "i18n-cloud-storage-note": "<span class='p'>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</span><span class='p'>Why not SpiderOak? SpiderOak is proprietary software.</span><span class='p'>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</span>",
+  "i18n-cloud-storage-note": "<span class='p'>Why not MEGA? While MEGA is free as in beer, the software is proprietary.</span><span class='p'>Why not SpiderOak? SpiderOak is proprietary software.</span><span class='p'>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</span>",
 
 
 
@@ -291,8 +291,12 @@
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> does not log anything.</span>",
 
 
-  "i18n-darknet-note": "<span class='p'>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</span><span class='p'>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">Wikipedia</a></span>"
+  "i18n-darknet-note": "<span class='p'>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</span><span class='p'>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">Wikipedia</a></span>",
+
+
+
+  "i18n-warning": "Warning: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
 }
