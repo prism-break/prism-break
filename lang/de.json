@@ -3,9 +3,9 @@
 
 
 
-  "i18n-proprietary": "Proprietary",
-  "i18n-free-alternative": "Free alternative",
-  "i18n-notes": "Notes",
+  "i18n-proprietary": "Proprietär",
+  "i18n-free-alternative": "Freie Alternative",
+  "i18n-notes": "Anmerkungen",
 
 
 
@@ -14,7 +14,7 @@
   "i18n-debian-desc": "Populäre, ethische GNU/Linux-Distribution.",
   "i18n-fedora-desc": "Schnelle, stabile und mächtige GNU/Linux-Distribution.",
   "i18n-linuxmint-desc": "Komfortable und einfach zu benutzende GNU/Linux-Distribution.",
-  "i18n-liberte-desc": "Live CD/USB, entwickelt als Kommunikations-Hilfe in feindlichen Umgebungen.",
+  "i18n-liberte-desc": "Live CD/USB, entwickelt als Kommunikationshilfe in feindlichen Umgebungen.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
   "i18n-trisquel-desc": "Von der FSF unterstützte, anwenderfreundliche GNU/Linux-Distribution.",
@@ -143,7 +143,7 @@
 
 
   "i18n-document-collaboration": "Gemeinsames Arbeiten an Dokumenten",
-  "i18n-ethercalc-desc": "Tabellenkalkulationsserver für Mehrbenutzer.",
+  "i18n-ethercalc-desc": "Tabellenkalkulationsserver für mehrere Benutzer.",
   "i18n-etherpad-desc": "Quelloffenes, gemeinsames Arbeiten an Dokumenten in Echtzeit.",
 
 
@@ -172,7 +172,7 @@
   "i18n-xabber-desc": "OTR-verschlüsselter Nachrichtenversand f&uumlr Android.",
 
 
-
+  "i18n-ios-insecure-title": "iOS ist unsicher",
   "i18n-ios-insecure-desc": "iOS-Geräte enthalten hardwareseitige Verfolgung.",
   "i18n-chatsecure-desc": "Verschlüsselte Sofortnachrichten für iOS.",
   "i18n-onionbrowser-desc": "Sicheres Surfen für iOS.",
@@ -184,7 +184,6 @@
   "i18n-rec-non-free": "empfiehlt unfreie Addons*",
   "i18n-advanced": "fortgeschritten",
   "i18n-partly-proprietary": "teilweise proprietär*",
-  "i18n-proprietary": "proprietär*",
   "i18n-invite-only": "auf Einladungsbasis",
   "i18n-newbies-choice": "für Einsteiger",
   "i18n-editors-choice": "Redaktionsempfehlung",
@@ -210,13 +209,14 @@
 
   "i18n-media-title": "Erwähnungen in den Medien:",
   "i18n-catalan": "Katalanisch",
-  "i18n-dutch": "Niederländisch",
+  "i18n-german": "Deutsch",
   "i18n-english": "Englisch",
   "i18n-french": "Französisch",
-  "i18n-german": "Deutsch",
-  "i18n-italian": "Italienisch",
-  "i18n-polish": "Polnisch",
   "i18n-spanish": "Spanisch",
+  "i18n-italian": "Italienisch",
+  "i18n-dutch": "Niederländisch",
+  "i18n-polish": "Polnisch",
+  "i18n-russian": "Russisch",
   "i18n-chinese-traditional": "Chinesisch (Traditionell)",
 
 
