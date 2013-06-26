@@ -61,7 +61,7 @@
   "i18n-online-transactions": "Online-Transaktionen",
   "i18n-bitcoin-desc": "P2P-basierte digitale Währung ohne zentrale Autorität.",
   "i18n-cryptocoins-title": "Alternative Kryptowährungen.",
-  "i18n-cryptocoins-desc": "Liste der alternativen verschlüsselten digitalen Währungen.",
+  "i18n-cryptocoins-desc": "Liste der alternativen, verschlüsselten digitalen Währungen.",
 
 
 
@@ -121,7 +121,7 @@
   "i18n-cryptocat-desc": "Private, verschlüsselte Online-Unterhaltungen.",
   "i18n-otr-desc": "Pidgin-Plugin für verschlüsseltes Chatten.",
   "i18n-pidgin-desc": "Quelloffenes Chatprogramm.",
-  "i18n-adium-desc": "Pidgin für OS X (Denke daran, OTR zu aktivieren!).",
+  "i18n-adium-desc": "Pidgin für OS X. (Denke daran, OTR zu aktivieren!)",
   "i18n-retroshare-desc": "Freie, sichere P2P-Kommunikationsplattform.",
 
 
@@ -143,7 +143,7 @@
 
 
   "i18n-document-collaboration": "Gemeinsames Arbeiten an Dokumenten",
-  "i18n-ethercalc-desc": "Mehrbenutzer-Tabellenkalkulationsserver.",
+  "i18n-ethercalc-desc": "Tabellenkalkulationsserver für Mehrbenutzer.",
   "i18n-etherpad-desc": "Quelloffenes, gemeinsames Arbeiten an Dokumenten in Echtzeit.",
 
 
@@ -186,8 +186,8 @@
   "i18n-partly-proprietary": "teilweise proprietär*",
   "i18n-proprietary": "proprietär*",
   "i18n-invite-only": "auf Einladungsbasis",
-  "i18n-newbies-choice": "newbie's choice",
-  "i18n-editors-choice": "editor's choice",
+  "i18n-newbies-choice": "für Einsteiger",
+  "i18n-editors-choice": "Redaktionsempfehlung",
   "i18n-nocodecs": "empfiehlt Edition ohne Codecs*",
   "i18n-tor-users-only": "nur für Tor-Nutzer",
 
@@ -273,7 +273,7 @@
 
 
 
-  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</span><span class='p'><strong>Mumble</strong> ein quelloffener Sprachchat in der Art von Ventrilo und TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a><sup>[ENG]</sup> ist eine bald kommende, vielversprechende Browser-zu-Browser Kommunikations-API.",
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</span><span class='p'><strong>Mumble</strong> ein quelloffener Sprachchat in der Art von Ventrilo und TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a><sup>[ENG]</sup> ist eine bald erscheinende, vielversprechende Browser-zu-Browser Kommunikations-API.",
 
 
 
@@ -297,17 +297,17 @@
 
 
 
-  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass es das letzte Viertel der Besucher-IP anonymisiert (255.255.255.???). Aufrufbar unter <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass das letzte Viertel der Besucher-IP anonymisiert wird (255.255.255.???). Aufrufbar unter <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google Public DNS speichert permanent Deine ISP und Standort-Information für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS speichert permanent Deine Internetprovider- und Standort-Informationen für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</span>",
 
 
   "i18n-darknet-note": "<span class='p'>&ldquo;Darknet (engl. für „Dunkles Netz“) beschreibt in der Informatik ein Peer-to-Peer-Netzwerk, dessen Teilnehmer ihre Verbindungen untereinander manuell herstellen.</span><span class='p'>Im Ergebnis bietet ein Darknet ein höheres Maß an Sicherheit, da einem Angreifer der Zugriff auf das Netzwerk nicht ohne weiteres möglich ist – oder er im Idealfall gar nichts von der Existenz des Netzwerks weiß.&ldquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Darknet\">Wikipedia</a></span>",
 
 
 
-  "i18n-disclaimer": "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
+  "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust."
 
 }
