@@ -267,11 +267,11 @@
 
 
 
-  "i18n-online-transactions-note": "<span class='p'>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</span><span class='p'>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</span>",
+  "i18n-online-transactions-note": "<span class='p'><strong>Bitcoin</strong> 数据库链是去中心化的，比特币网络中所有交易都是公开的。</span><span class='p'>&ldquo;这是 TCP/IP 网络里面的钱&rdquo; &mdash;Paul Buchheit</span>",
 
 
 
-  "i18n-media-publishing-note": "<span class='p'><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</span>",
+  "i18n-media-publishing-note": "<span class='p'><strong>可以自行架设</strong>是很重要的。把你的博客架设在 WordPress.com 数据的安全性没有比放在 Blogger 或者 Tumblr好。</span>",
 
 
 
@@ -283,20 +283,20 @@
 
 
 
-  "i18n-cloud-storage-note": "<span class='p'>Why not MEGA? While MEGA is free as in beer, the software is proprietary.</span><span class='p'>Why not SpiderOak? SpiderOak is proprietary software.</span><span class='p'>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</span>",
+  "i18n-cloud-storage-note": "<span class='p'>为什么不用MEGA? 虽然MEGA也是免费的，但软件是专有的。</span><span class='p'>为什么不用SpiderOak? SpiderOak是专有软件</span><span class='p'>为什么不用Tarsnap? Tarsnap部分是专有的并且把你的数据放在Amazon Web Services.</span>",
 
 
 
-  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> 分析也用于本站。它被设置为隐藏最后八位(255.255.255.???)访问者IP。点这里检查实时数据<a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> does not log anything.</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google公共DNS 持久性地记录你的运营商ISP和位置信息用于分析。你的IP地址也被存放24小时。</span><span class='p'><strong>OpenNIC</strong>并不记录任何东西</span>",
 
 
-  "i18n-darknet-note": "<span class='p'>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</span><span class='p'>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">Wikipedia</a></span>",
+  "i18n-darknet-note": "<span class='p'>“地下网络是一个匿名的网络，链接只会在可信节点之间建立。</span><span class='p'>地下网络不同于其他分布式P2P网络，分享是匿名的，因此用户可以交流而少点害怕政府或企业的干扰”</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">维基百科</a></span>",
 
 
 
-  "i18n-warning": "Warning: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
+  "i18n-warning": "警告: 使用这个网站的推荐项目并不百分百保证你的通信能够方法监控状态。请在信任这些软件处理敏感信息之前自行做研究。"
 }
