@@ -1,0 +1,302 @@
+{
+  "i18n-intro": "<strong>退出 PRISM，美国国家安全局 NSA 的全球数据监视项目。</strong> 选用下面这些免费软件代替那些专有软件，能停止把你的上网行为报告给美国政府。",
+
+
+
+  "i18n-operating-system" : "操作系统",
+  "i18n-debian-desc": "流行的正派的 GNU/Linux 发行版",
+  "i18n-fedora-desc": "快捷、稳定、强大的 GNU/Linux 发行版",
+  "i18n-linuxmint-desc": "令人舒适和易于使用的 GNU/Linux 发行版",
+  "i18n-liberte-desc": "Live CD/USB 设计的用于敌对环境的通信辅助系统",
+  "i18n-tails-desc": "Live CD/USB 设计的致力于保护你的隐私和匿名性的系统",
+  "i18n-trisquel-desc": "FSF（自由软件基金会）认可的，对用户友好的 GNU/Linux 发行版",
+
+
+
+  "i18n-web-browser": "Web浏览器",
+  "i18n-icecat-desc": "GNU 版本的 Firefox",
+  "i18n-firefox-desc": "开源的web浏览器",
+  "i18n-torbrowser-desc": "以加密、匿名的方式浏览",
+
+
+
+  "i18n-web-browser-plugins": "Web浏览器插件",
+  "i18n-adblockedge-desc": "封锁web上面的广告。",
+  "i18n-disconnect-desc": "阻止第三方网站跟踪你",
+  "i18n-httpseverywhere-desc": "能为你和数千个网站间的通信加密",
+  "i18n-noscript-desc": "只启用你信任的网站上面的 JavaScript、Java 和 Flash 内容",
+
+
+
+  "i18n-web-search": "Web搜索",
+  "i18n-duckduckgo-desc": "匿名、无记录的web搜索",
+  "i18n-startpage-desc": "私密、无记录的web搜索",
+  "i18n-seeksproject-desc": "开放的去中心化的协作搜索平台",
+  "i18n-yacy-desc": "其中心化的web搜索",
+
+
+
+  "i18n-dns-provider": "DNS提供商",
+  "i18n-opennic-desc": "完全保持DNS中立（不受干预）",
+  "i18n-namecoin-desc": "分布式DNS基于 Bitcoin 技术",
+
+
+
+  "i18n-darknet": "地下网络",
+  "i18n-freenet-desc": "去中心化的抗审查网络",
+  "i18n-i2p-desc": "隐形因特网计划",
+  "i18n-nightweb-desc": "匿名I2P网络用于Android",
+  "i18n-syndie-desc": "分布式匿名讨论区软件",
+
+
+
+  "i18n-online-transactions": "在线交易",
+  "i18n-bitcoin-desc": "没有中央机构的P2P数字货币",
+  "i18n-cryptocoins-title": "另外的加密货币",
+  "i18n-cryptocoins-desc": "其他加密数字货币的列表",
+
+
+
+  "i18n-email-services": "Email服务",
+  "i18n-bitmessage-desc": "加密、去中心化的email服务器",
+  "i18n-riseup-desc": "安全私密的email账户",
+  "i18n-tormail-desc": "Tor Mail 是一个免费的匿名邮件提供商",
+
+
+  "i18n-email-clients": "Email桌面客户端",
+  "i18n-clawsmail-desc": "支持GPG的轻量email应用",
+  "i18n-evolution-desc": "支持GPG的免费邮件和日历应用",
+  "i18n-icedove-desc": "免费版本的 Mozilla Thunderbird.",
+  "i18n-kmail-desc": "支持GPG的 KDE 邮件客户端",
+  "i18n-thunderbird-desc": "开源email应用",
+
+
+
+  "i18n-email-encryption": "Email加密",
+  "i18n-enigmail-desc": "一个 OpenPGP 插件用于 Thunderbird/Icedove.",
+  "i18n-gnuprivacyguard-desc": "免费的 OpenPGP 实现",
+  "i18n-mailvelope-desc": "OpenPGP 加密用于 webmail",
+  "i18n-webpg-desc": "浏览器中的 GnuPG/PGP",
+
+
+
+  "i18n-maps": "地图",
+  "i18n-openstreetmap-desc": "自由、世界性的协作地图",
+
+
+
+  "i18n-cloud-storage": "云存储",
+  "i18n-gitannex-desc": "在你的电脑和驱动器之间同步文件夹",
+  "i18n-owncloud-desc": "你能掌控的云端数据",
+  "i18n-seafile-desc": "自行架设用于团队协作和文件同步",
+  "i18n-sparkleshare-desc": "自行架设的版本控制和文件同步",
+  "i18n-tahoelafs-desc": "自由和开放的云存储系统",
+
+
+
+  "i18n-social-networking": "社交网络",
+  "i18n-buddycloud-desc": "开源的联合社交网络",
+  "i18n-diaspora-desc": "社区运作的分布式社交网络",
+  "i18n-friendica-desc": "尊重隐私的分布式联合社交网络",
+  "i18n-gnusocial-desc": "自行架设的去中心化社交网络",
+  "i18n-lorea-desc": "分布式联合社交网络",
+  "i18n-movim-desc": "私密、去中心化的社交网络服务器",
+  "i18n-pumpio-desc": "自行假设的社交信息流服务器",
+  "i18n-salutatoi-desc": "多前端多用途的通信工具",
+  "i18n-tent-desc": "自由自主的社交网络协议",
+
+
+
+  "i18n-instant-messaging": "即时通讯",
+  "i18n-cryptocat-desc": "私密加密的在线对话",
+  "i18n-otr-desc": "安装并启用这个插件来加密在Pidgin中的聊天",
+  "i18n-pidgin-desc": "开源聊天程序",
+  "i18n-adium-desc": "用于OS X的免费的多协议的聊天软件",
+  "i18n-retroshare-desc": "免费安全的 P2P 交流平台",
+
+
+
+  "i18n-video-voip": "视频会议/VoIP网络电话",
+  "i18n-jitsi-desc": "加密的文本语音聊天",
+  "i18n-linphone-desc": "加密的音视频客户端",
+  "i18n-mumble-desc": "加密的低延迟的语音聊天",
+
+
+
+  "i18n-media-publishing": "媒体发布",
+  "i18n-gnumediagoblin-desc": "去中心化的媒体发布平台",
+  "i18n-piwigo-desc": "自行架设的照片库平台",
+  "i18n-wordpress-desc": "自行架设的网站发布平台",
+  "i18n-zenphoto-desc": "自行架设的媒体管理系统",
+
+
+
+  "i18n-document-collaboration": "文档协作",
+  "i18n-ethercalc-desc": "多用户表格服务器",
+  "i18n-etherpad-desc": "自行架设的实时协作文档服务",
+
+
+
+  "i18n-web-analytics": "Web分析",
+  "i18n-piwik-desc": "开放源代码、自行架设的web分析服务",
+
+
+
+  "i18n-cyanogenmod-desc": "Android 设备的售后固件",
+  "i18n-replicant-desc": "完全免费的Android发行版",
+
+
+
+  "i18n-android-app-store": "Android应用商店",
+  "i18n-fdroid-desc": "自由开源的Android应用商店",
+
+
+
+  "i18n-csipsimple-desc": "免费、加密的VoIP用于Android.",
+  "i18n-gibberbot-desc": "私密安全的OTR信息用于Android.",
+  "i18n-orbot-desc": "Tor代理用于Android.",
+  "i18n-redphone-desc": "安全私密的电话呼叫用于Android.",
+  "i18n-surespot-desc": "免费、开源、端到端的加密短信",
+  "i18n-textsecure-desc": "安全的 SMS/MMS 通信用于Android.",
+  "i18n-xabber-desc": "OTR加密的即时通讯用于Android.",
+
+
+  "i18n-ios-insecure-title": "iOS是不安全的",
+  "i18n-ios-insecure-desc": "iOS设备包含硬件跟踪器",
+  "i18n-chatsecure-desc": "加密的IM用于iOS",
+  "i18n-onionbrowser-desc": "安全浏览器用于iOS",
+
+
+
+  "i18n-add": "添加",
+  "i18n-mostly-free": "大部分免费*",
+  "i18n-rec-non-free": "推荐的非免费插件*",
+  "i18n-advanced": "高级",
+  "i18n-partly-proprietary": "部分专有的*",
+  "i18n-proprietary": "专有的*",
+  "i18n-invite-only": "仅限邀请的",
+  "i18n-tor-users-only": "仅限Tor用户",
+  "i18n-newbies-choice": "新手的选择",
+  "i18n-editors-choice": "编辑推荐",
+
+
+  "i18n-fsf-definition-title": "*本网站使用 <strong>自由软件基金会</strong> 的自由软件定义",
+  "i18n-fsf-quote": "“自由软件”意味着软件尊重用户的自由和社区。粗略地说，<strong>用户有运行、拷贝、分发、学习、修改和改善软件的自由。</strong>有了这些自由，用户（包括单独的和协作的）可以控制程序和程序为他们做的事情。",
+
+
+
+  "i18n-eff-title": "采取行动来反对PRISM项目，到<strong>电子前哨基金会</strong>行动中心",
+  "i18n-eff-quote-1": "<strong>大量监控已暴露</strong>",
+  "i18n-eff-quote-2": "最近卫报和华盛顿邮报的报道确认了电话记录和互联网活动监视程序的秘密。是时候做一个完整核算美国的秘密监视程序，并且终止违宪的监控。",
+
+
+
+  "i18n-more": "更多 &hellip;",
+  "i18n-the": "",
+
+
+
+  "i18n-media-title": "媒体引用",
+  "i18n-catalan": "Catalan",
+  "i18n-dutch": "Dutch",
+  "i18n-english": "English",
+  "i18n-french": "French",
+  "i18n-italian": "Italian",
+  "i18n-german": "German",
+  "i18n-polish": "Polish",
+  "i18n-spanish": "Spanish",
+  "i18n-chinese-traditional": "繁体中文",
+  "i18n-chinese-simplified": "简体中文",
+  "i18n-russian": "russian",
+
+
+
+  "i18n-updated": "更新于",
+  "i18n-by": "由",
+  "i18n-contribute-on": "来做贡献",
+  "i18n-donate": "捐赠",
+  "i18n-contribute": "贡献",
+
+
+
+  "i18n-operating-system-note": "<span class='p'>Apple、Google和Microsoft是PRISM项目的一部分。他们专有的操作系统不能被信任来保护你的个人信息不被泄露给美国国家安全局NSA。</span><span class='p'>这留给我们两个免费替代品: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> 和 <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux 有一个更大的社区来帮助你的转换过程。推荐你 It's recommended that you begin your explorations by looking for a <a href=\"http://distrowatch.com/\">GNU/Linux distribution</a> that suits your needs.</span><span class='p'>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</span><span class='p'>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">More info</a>.</span>",
+
+
+
+  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href=\"https://en.wikipedia.org/wiki/CyanogenMod#Licensing\">Wikipedia</a></span><span class='p'><strong>F-Droid</strong> is a free alternative to the Google Play app store.</span>",
+
+
+
+  "i18n-ios-note": "<span class='p'>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">impossible to verify</a> whether if an iOS app was compiled from the original source.</span>",
+
+
+
+  "i18n-web-browser-note": "<span class='p'>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</span> <span class='p'>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</span> <span class='p'>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
+
+
+
+  "i18n-web-browser-addons-note": "<span class='p'>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</span><span class='p'><strong>Cryptocat</strong> and <strong>Mailvelope</strong> are browser addons for IM and email encryption, respectively. At this time, it may be more secure to use external software for more proven encryption.</span> <span class='p'>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</span> <span class='p'>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</span>",
+
+
+
+  "i18n-web-search-note": "<span class='p'><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</span><span class='p'><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</span><span class='p'>Pick your poison.</span>",
+
+
+
+  "i18n-email-services-note": "<span class='p'><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</span><span class='p'><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span><span class='p'>The only way to have full control over your email is to run your own mail server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</span><span class='p'>While not complete yet, the <a href=\"https://www.freedomboxfoundation.org/\">FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</span>",
+
+
+
+  "i18n-email-clients-note": "<span class='p'><a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</span><span class='p'>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
+
+
+
+  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</span><span class='p'>&mdash; <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a>",
+
+
+
+  "i18n-social-networking-note": "<span class='p'><strong><a href=\"https://identi.ca/\">identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</span>",
+
+
+
+  "i18n-instant-messaging-note": "<span class='p'><strong>Cryptocat</strong> in the Web browser add-ons section may be of interest as well.</span>",
+
+
+
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</span><span class='p'><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a> is an upcoming, promising browser to browser communications API.",
+
+
+
+  "i18n-online-transactions-note": "<span class='p'>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</span><span class='p'>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</span>",
+
+
+
+  "i18n-media-publishing-note": "<span class='p'><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</span>",
+
+
+
+  "i18n-document-collaboration-note": "<span class='p'>--</span>",
+
+
+
+  "i18n-maps-note": "<span class='p'>--</span>",
+
+
+
+  "i18n-cloud-storage-note": "<span class='p'>Why not MEGA? While MEGA is free as in beer, the software is proprietary.</span><span class='p'>Why not SpiderOak? SpiderOak is proprietary software.</span><span class='p'>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</span>",
+
+
+
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+
+
+
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> does not log anything.</span>",
+
+
+  "i18n-darknet-note": "<span class='p'>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</span><span class='p'>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">Wikipedia</a></span>",
+
+
+
+  "i18n-warning": "Warning: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
+}
