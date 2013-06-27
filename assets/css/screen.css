@@ -411,6 +411,11 @@ p.disclaimer {
 #rtl #header-site ul li#brand {float: right;}
 #rtl #header-site ul li#brand h1 {margin: 0 0 0 1em;}
 
+#rtl th {
+  text-align: right;
+  border-right: 1px solid #ddd;
+  border-left: none;
+}
 #rtl td.prop,
 #rtl td.free,
 #rtl td.note {
