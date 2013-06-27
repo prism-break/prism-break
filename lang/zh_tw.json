@@ -3,13 +3,9 @@
   "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
   "i18n-intro": "<strong>退出 PRISM， NSA 的全球性資訊監督程式。</strong> 利用這些專有軟件的免費替代品,來停止把你的上網行為呈報給美國政府。",
 
-
-
   "i18n-proprietary": "Proprietary",
   "i18n-free-alternative": "Free alternative",
   "i18n-notes": "Notes",
-
-
 
   "i18n-operating-system" : "作業系統",
   "i18n-debian-desc": "流行地、遵守開源倫理的 GNU/Linux 發行版。",
@@ -19,14 +15,10 @@
   "i18n-tails-desc": "基于隱私、匿名而設計的 Live 作業系統。",
   "i18n-trisquel-desc": "由自由軟體基金會背書，利於使用者操作的 GNU/Linux 發行版。",
 
-
-
   "i18n-web-browser": "瀏覽器",
   "i18n-icecat-desc": "由 GNU 團隊維護的 Firefox 版本。",
   "i18n-firefox-desc": "一個開放原始碼的瀏覽器。",
   "i18n-torbrowser-desc": "加密且匿名地瀏覽網路。",
-
-
 
   "i18n-web-browser-plugins": "瀏覽器外掛",
   "i18n-adblockedge-desc": "Block advertisements on the web.",
@@ -34,21 +26,15 @@
   "i18n-httpseverywhere-desc": "在支援的網站中，強制使用 HTTPS 的方式進行加密瀏覽。",
   "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
 
-
-
-  "i18n-web-search": "網路搜尋",  
-  "i18n-duckduckgo-desc": "匿名, 不留記錄的網路搜尋。",  
-  "i18n-startpage-desc": "秘密的, 不留記錄的網路搜尋。",  
-  "i18n-seeksproject-desc": "開放的, 分散式的協同搜尋平台。",  
+  "i18n-web-search": "網路搜尋",
+  "i18n-duckduckgo-desc": "匿名, 不留記錄的網路搜尋。",
+  "i18n-startpage-desc": "秘密的, 不留記錄的網路搜尋。",
+  "i18n-seeksproject-desc": "開放的, 分散式的協同搜尋平台。",
   "i18n-yacy-desc": "分散式的搜尋平台。",
-
-
 
   "i18n-dns-provider": "DNS 服務供應商",
   "i18n-opennic-desc": "完全保持中立的 DNS 服務供應者 (避免任何機關干預任何站台的域名設定)。",
   "i18n-namecoin-desc": "基于 Bitcoin 技術的分散式 DNS 服務。",
-
-
 
   "i18n-darknet": "Darknet",
   "i18n-freenet-desc": "去中心化、防審查網路。",
@@ -56,20 +42,14 @@
   "i18n-nightweb-desc": "Android 版匿名 I2P 網路。",
   "i18n-syndie-desc": "分散化匿名討論區軟體。",
 
-
-
   "i18n-online-transactions": "線上金流服務",
   "i18n-bitcoin-desc": "無中央控管機制的 P2P 數位貨幣。",
   "i18n-cryptocoins-title": "另一個加密貨幣選擇。",
   "i18n-cryptocoins-desc": "其他加密數位貨幣清單。",
 
-
-
   "i18n-email-services": "郵件服務",
   "i18n-bitmessage-desc": "加密、分散式的郵件伺服器。",
   "i18n-riseup-desc": "提供安全及私密的郵件帳號服務。",
-
-
 
   "i18n-email-clients": "桌面郵件用戶端",
   "i18n-clawsmail-desc": "輕量級郵件程式。支援 GnuPG 加密。",
@@ -78,29 +58,21 @@
   "i18n-kmail-desc": "KDE 桌面裡的郵件程式。支援 GPG 加密。",
   "i18n-thunderbird-desc": "開放原始碼的郵件程式。",
 
-
-
   "i18n-email-encryption": "電子郵件加密",
   "i18n-enigmail-desc": "Thunderbird 和 Icedove 的 OpenPGP 外掛。",
   "i18n-gnuprivacyguard-desc": "自由的 OpenPGP 工具。",
   "i18n-mailvelope-desc": "讓網頁郵件透過 OpenPGP 加密。",
   "i18n-webpg-desc": "在瀏覽器中支援 GnuPG/PGP 加密。",
 
-
-
   "i18n-maps": "地圖",
   "i18n-openstreetmap-desc": "可共同編修的自由世界地圖。",
 
-
-
-  "i18n-cloud-storage": "雲端儲存空間",  
+  "i18n-cloud-storage": "雲端儲存空間",
   "i18n-gitannex-desc": "在多台電腦間同步檔案。",
-  "i18n-owncloud-desc": "由你做主的雲端資料空間。",  
+  "i18n-owncloud-desc": "由你做主的雲端資料空間。",
   "i18n-seafile-desc": "Self or cloud hosted version control and file sync.",
   "i18n-sparkleshare-desc": "自己架的檔案同步與版本控制系統。",
   "i18n-tahoelafs-desc": "自由開放的雲端儲存空間。",
-
-
 
   "i18n-social-networking": "社群網路",
   "i18n-buddycloud-desc": "Open source, federated social network.",
@@ -113,8 +85,6 @@
   "i18n-salutatoi-desc": "多種前端的多功能通訊工具。",
   "i18n-tent-desc": "自由、自主的社群網路協定。",
 
-
-
   "i18n-instant-messaging": "即時通訊",
   "i18n-cryptocat-desc": "私有的加密線上對話。",
   "i18n-otr-desc": "安裝並開啟 Pidgin 的加密聊天功能。",
@@ -122,14 +92,10 @@
   "i18n-adium-desc": "OS X 上的 Pidgin（記得開啟 OTR 功能）。",
   "i18n-retroshare-desc": "自由、安全的 P2P 通訊平台。",
 
-
-
   "i18n-video-voip": "視訊會議/VoIP",
   "i18n-jitsi-desc": "加密的文字以及視訊聊天。",
   "i18n-linphone-desc": "加密的影音軟體。",
   "i18n-mumble-desc": "加密並且低延遲的語音通訊。",
-
-
 
   "i18n-media-publishing": "發佈媒體",
   "i18n-gnumediagoblin-desc": "去中心化的媒體發佈平台。",
@@ -137,30 +103,20 @@
   "i18n-wordpress-desc": "開放原始碼的網站、部落格內容管理系統。",
   "i18n-zenphoto-desc": "開放且免費的媒體網站 CMS。",
 
-
-
   "i18n-document-collaboration": "文件協作",
   "i18n-ethercalc-desc": "多人試算表伺服器。",
   "i18n-etherpad-desc": "開放源碼、即時協作文書軟體。",
 
-
-
   "i18n-web-analytics": "網站訪客狀態分析",
   "i18n-piwik-desc": "開放原始碼、可自行架設的網站分析工具。",
-
-
 
   "i18n-cyanogenmod-desc": "售後自行改裝的Android系統。",
   "i18n-replicant-desc": "完全符合自由軟體精神的Android系統。",
 
-
-
-  "i18n-android-app-store": "Android 應用程式市集",  
+  "i18n-android-app-store": "Android 應用程式市集",
   "i18n-fdroid-desc": "自由與開放原碼的 Android 應用程式。",
 
-
-  
-  "i18n-csipsimple-desc": "自由, 加密的 Android VoIP 軟體。",  
+  "i18n-csipsimple-desc": "自由, 加密的 Android VoIP 軟體。",
   "i18n-gibberbot-desc": "私密且安全的 Android 通訊軟體(使用 OTR 協定)。",
   "i18n-orbot-desc": "Android 上的 Tor 匿名網路代理伺服器。",
   "i18n-redphone-desc": "Android 上的防竊聽電話軟體。",
@@ -168,19 +124,13 @@
   "i18n-textsecure-desc": "Android 上的加密簡訊。",
   "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
 
-
-
   "i18n-ios-insecure-desc": "iOS 裝置會被追蹤。",
   "i18n-chatsecure-desc": "給iOS用的加密即時通訊軟體。",
   "i18n-onionbrowser-desc": "iOS的安全瀏覽。",
 
-
-
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
-
-
 
   "i18n-add": "增加",
   "i18n-mostly-free": "大部分為自由軟體*",
@@ -193,23 +143,15 @@
   "i18n-editors-choice": "editor's choice",
   "i18n-approval-required": "approval required",
 
-
-
   "i18n-fsf-definition-title": "*本網站使用<strong>自由軟體基金會&rsquo;s</strong>對自由軟體（free software）的定義。",
   "i18n-fsf-quote": "&ldquo;自由軟體（free software）&rdquo; 的意思是尊重使用者&rsquo; 自由和社群。概略來說，<strong>使用者擁有執行、複製、分享、研究、更動和改善軟體的自由</strong>。有了這些自由，這些使用者（包含個人和團體）得以控制該程式及其功能。",
-   
-
 
   "i18n-eff-title": "Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.",
   "i18n-eff-quote-1": "<strong>MASSIVE SURVEILLANCE EXPOSED</strong>",
   "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
 
-
-
   "i18n-more": "更多 &hellip;",
   "i18n-the": "這",
-
-
 
   "i18n-media-title": "此文於下列媒體中被提及。",
   "i18n-catalan": "加泰隆尼亞文",
@@ -222,97 +164,52 @@
   "i18n-spanish": "西班牙文",
   "i18n-chinese-traditional": "繁體中文",
 
-
-
   "i18n-updated": "更新",
   "i18n-by": "由",
   "i18n-contribute-on": "合作於",
   "i18n-donate": "捐款",
   "i18n-contribute": "Contribute",
 
-
-
   "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p><p>This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux has a much larger community to help you with the transition. It's recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p> <p>Why not Ubuntu? Ubuntu is a poor choice because it contains <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</p> <p>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>",
-
-
 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
 
-
-
   "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</p>",
-
-
 
   "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</p> <p>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</p> <p>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
 
-
-
   "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p> <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
-
-
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
 
-
-
   "i18n-email-services-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
-
-
 
   "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
 
-
-
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
-
-
 
   "i18n-social-networking-note": "<p>--</p>",
 
-
-
   "i18n-instant-messaging-note": "<p>Be sure to look at <strong>Cryptocat</strong> in the Web browser add-ons section as well.</p></p>",
-
-
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p><p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
 
-
-
   "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
-
-
 
   "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</p>",
 
-
-
   "i18n-document-collaboration-note": "<p>--</p>",
-
-
 
   "i18n-maps-note": "<p>--</p>",
 
-
-
   "i18n-cloud-storage-note": "<p>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
-
-
 
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
-
-
   "i18n-dns-provider-note": "<p>Google公共DNS 持久性地记录你的运营商ISP和位置信息用于分析。你的IP地址也被存放24小时。</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
-
-
 
   "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
 
-
-
   "i18n-disclaimer": "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
-
 
 }

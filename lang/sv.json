@@ -3,13 +3,9 @@
   "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
   "i18n-intro": "<strong>Bryt bort från PRISM, NSAs globala övervakningsprogram.</strong> Sluta rapportera dina online-aktiviteter till den amerikanska regeringen med dessa gratis alternativ till proprietär programvara.",
 
-
-
   "i18n-proprietary": "Proprietary",
   "i18n-free-alternative": "Free alternative",
   "i18n-notes": "Notes",
-
-
 
   "i18n-operating-system" : "Operativsystem",
   "i18n-debian-desc": "Populär etisk GNU/Linux distribution.",
@@ -19,14 +15,10 @@
   "i18n-tails-desc": "Live CD/USB avsedd för sekretess.",
   "i18n-trisquel-desc": "FSF-godkänd, användarvänlig GNU/Linux distribution.",
 
-
-
   "i18n-web-browser": "Webbläsare",
   "i18n-icecat-desc": "GNU versionen av Firefox.",
   "i18n-firefox-desc": "Webbläsare med öppen källkod.",
   "i18n-torbrowser-desc": "Krypterad, anonym surfning.",
-
-
 
   "i18n-web-browser-plugins": "Tillägg för Webbläsare",
   "i18n-adblockedge-desc": "Blockera annonser på webben.",
@@ -34,21 +26,15 @@
   "i18n-httpseverywhere-desc": "Krypterar din trafik till tusentals webbplatser.",
   "i18n-noscript-desc": "Aktivera bara JavaScript, Java, och Flash för sajter du litar på.",
 
-
-
   "i18n-web-search": "Sökmotor",
   "i18n-duckduckgo-desc": "Anonyma webbsökningar utan loggfiler.",
   "i18n-startpage-desc": "Privata webbsökningar utan loggfiler.",
   "i18n-seeksproject-desc": "Öppen decentraliserad plattform för gruppsökningar.",
   "i18n-yacy-desc": "Decentraliserad webbsökning.",
 
-
-
   "i18n-dns-provider": "DNS-Tjänster",
   "i18n-opennic-desc": "Total DNS neutralitet.",
   "i18n-namecoin-desc": "Distribuerad DNS, baserad på Bitcoin teknologi.",
-
-
 
   "i18n-darknet": "Darknet",
   "i18n-freenet-desc": "Decentraliserat censur-resistent nätverk.",
@@ -56,20 +42,14 @@
   "i18n-nightweb-desc": "Anonymt I2P nätverk för Android.",
   "i18n-syndie-desc": "Distribuerad, anonym forums-mjukvara.",
 
-
-
   "i18n-online-transactions": "Online-transaktioner",
   "i18n-bitcoin-desc": "P2P digital valuta utan någon central myndighet.",
   "i18n-cryptocoins-title": "Alternativa krypterade valutor.",
   "i18n-cryptocoins-desc": "Lista på alternativa krypterade valutor.",
 
-
-
   "i18n-email-services": "Mejl-tjänster",
   "i18n-bitmessage-desc": "Krypterad, decentraliserad mejl server",
   "i18n-riseup-desc": "Säkert och privat mejl konto.",
-
-
 
   "i18n-email-clients": "Mejl-klienter",
   "i18n-clawsmail-desc": "Lätt e-post klient med GnuPG stöd.",
@@ -78,20 +58,14 @@
   "i18n-kmail-desc": "KDE mejl klient med GPG stöd.",
   "i18n-thunderbird-desc": "Mejl klient med öppen källkod.",
 
-
-
   "i18n-email-encryption": "Mejl-kryptering",
   "i18n-enigmail-desc": "Ett OpenPGP tillägg för Thunderbird.",
   "i18n-gnuprivacyguard-desc": "Gratis OpenPGP implementering.",
   "i18n-mailvelope-desc": "OpenPGP kryptering för webb baserad mejl.",
   "i18n-webpg-desc": "GnuPG/PGP i din webbläsare.",
 
-
-
   "i18n-maps": "Kartor",
   "i18n-openstreetmap-desc": "Fri, kollaborativ världskarta.",
-
-
 
   "i18n-cloud-storage": "Molntjänster",
   "i18n-gitannex-desc": "Synkronisera mappar på alla dina datorer och hårddiskar.",
@@ -99,8 +73,6 @@
   "i18n-seafile-desc": "Själv- eller molnlagrad version kontroll och filsynkronisering.",
   "i18n-sparkleshare-desc": "Lokal versions kontroll och filsynkronisering",
   "i18n-tahoelafs-desc": "Fritt och öppet molnlagringssystem.",
-
-
 
   "i18n-social-networking": "Socialt nätverk",
   "i18n-buddycloud-desc": "Federerat socialt nätverk med öppen källkod.",
@@ -113,8 +85,6 @@
   "i18n-salutatoi-desc": "Mångsidigt kommunikationsverktyg.",
   "i18n-tent-desc": "Gratis och anonymt nätverksprotokoll.",
 
-
-
   "i18n-instant-messaging": "Chattjänster",
   "i18n-cryptocat-desc": "Privat och krypterad chatt.",
   "i18n-otr-desc": "Installera och aktivera i Pidgin för krypterad chatt.",
@@ -122,14 +92,10 @@
   "i18n-adium-desc": "Pidgin för OS X (Kom ihåg att aktivera OTR).",
   "i18n-retroshare-desc": "Gratis och säker P2P kommunikations plattform.",
 
-
-
   "i18n-video-voip": "Videokonferens/VOIP",
   "i18n-jitsi-desc": "Krypterad chatt och video-klient.",
   "i18n-linphone-desc": "Krypterad röst och video-klient.",
   "i18n-mumble-desc": "Krypterad röstchatt",
-
-
 
   "i18n-media-publishing": "Publiceringssystem",
   "i18n-gnumediagoblin-desc": "Publiceringsplattform.",
@@ -137,49 +103,33 @@
   "i18n-wordpress-desc": "Gratis hemsida/blogg CMS.",
   "i18n-zenphoto-desc": "Gratis hemsida CMS.",
 
-
-
   "i18n-document-collaboration": "Dokumentsamarbete",
   "i18n-ethercalc-desc": "Kalkylblads-server för flera användare.",
   "i18n-etherpad-desc": "Dokumentsamarbete i realtid, öppen källkod.",
 
-
-
   "i18n-web-analytics": "Webbanalys",
   "i18n-piwik-desc": "Lokal webbanalys, öppen källkod.",
-
-
 
   "i18n-cyanogenmod-desc": "Firmware för Android-enheter.",
   "i18n-replicant-desc": "Helt gratis Android distribution.",
 
-
-
   "i18n-android-app-store": "Android App Store",
   "i18n-fdroid-desc": "Fri appbutik med öppen källkod för Android.",
 
-
-  
   "i18n-csipsimple-desc": "Fri, krypterad VoIP för Android.",
   "i18n-gibberbot-desc": "Privat, säker OTR meddelandehantering för Android.",
   "i18n-orbot-desc": "Tor proxy för Android.",
   "i18n-redphone-desc": "Säkra privata samtal för Android.",
   "i18n-textsecure-desc": "Säker SMS/MMS kommunikation för Android.",
 
-
-
   "i18n-ios-insecure-title": "iOS is unsecure",
   "i18n-ios-insecure-desc": "iOS enheter innehåller hårdvaruspårning.",
   "i18n-chatsecure-desc": "Kryptera direktmeddelanden för iOS.",
   "i18n-onionbrowser-desc": "Säker surfning för iOS.",
 
-
-
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
-
-
 
   "i18n-add": "lägg till",
   "i18n-mostly-free": "mestadels gratis*",
@@ -190,23 +140,15 @@
   "i18n-invite-only": "endast-via-inbjudan",
   "i18n-approval-required": "approval required",
 
-
-
   "i18n-fsf-definition-title": "*Denna webbplats använder <strong>Free Software Foundation&rsquo;s</strong> definition av fri programvara.",
   "i18n-fsf-quote": "&ldquo;Fri programvara&rdquo; betyder programvara som respekterar användarens&rsquo; frihet och gemenskap. MAO, <strong> användarna har frihet att köra, kopiera, distribuera, studera, ändra och förbättra programvaran</strong>. Med dessa friheter, kan användarna (både individuellt och kollektivt) styra programmet och vad det gör för dem.",
-   
-
 
   "i18n-eff-title": "Ta till handling mot PRISM på <strong>Electronic Frontier Foundation</strong> handlingscenter.",
   "i18n-eff-quote-1": "<strong>MASSIV ÖVERVAKNING AVSLÖJAD</strong>",
   "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
 
-
-
   "i18n-more": "mera &hellip;",
   "i18n-the": "",
-
-
 
   "i18n-media-title": "Nämnd i media.",
   "i18n-catalan": "Katalanska",
@@ -217,96 +159,51 @@
   "i18n-polish": "Polska",
   "i18n-spanish": "Spanska",
 
-
-
   "i18n-updated": "Uppdaterad",
   "i18n-by": "av",
   "i18n-contribute-on": "Bidra på",
   "i18n-donate": "Donera",
   "i18n-contribute": "Bidra",
 
-
-
   "i18n-operating-system-note": "<p>Apple, Google, och Microsoft är delar av PRISM. Deras proprietära operativsystem kan inte litas på att skydda din personliga information från NSA.</p><p>Detta lämnar oss med två alternativ: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> och <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux har ett mycket störrecommunity att hjälpa dig med övergången. Det är rekommenderat att du börjar dina utforskningar genom att kolla efter en <a href='http://distrowatch.com/'>GNU/Linux distribution</a> som passar dina behov.</p> <p>Varför inte Ubuntu? Ubuntu är ett dåligt val eftersom det innehåller <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</p> <p>Notera: PRISM Break rekommenderar icke-codec versionen av <strong>Linux Mint</strong>, eftersom de andra versionerna är nedtyngda av mjukvarupatent. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Mer info</a>.</p>",
-
-
 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
 
-
-
   "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</p>",
-
-
 
   "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</p> <p>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</p> <p>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
 
-
-
   "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p> <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
-
-
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
 
-
-
   "i18n-email-services-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
-
-
 
   "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
 
-
-
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
-
-
 
   "i18n-social-networking-note": "<p>--</p>",
 
-
-
   "i18n-instant-messaging-note": "<p>Be sure to look at <strong>Cryptocat</strong> in the Web browser add-ons section as well.</p></p>",
-
-
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p><p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
 
-
-
   "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
-
-
 
   "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</p>",
 
-
-
   "i18n-document-collaboration-note": "<p>--</p>",
-
-
 
   "i18n-maps-note": "<p>--</p>",
 
-
-
   "i18n-cloud-storage-note": "<p>Varför inte MEGA? Medan MEGA är gratis som i öl, så är mjukvaran stängd kod..</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
-
-
 
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
-
-
   "i18n-dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
-
 
   "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
 
-
-
   "i18n-disclaimer": "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
-
-
 }
