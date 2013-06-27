@@ -405,37 +405,27 @@ p.disclaimer {
  * Right to left support
 ======================================================================*/
 
-#rtl {
-  direction: rtl;
-}
+#rtl {direction: rtl;}
 
-#rtl table td.section {
-  padding: 0 1em 0 0;
-}
+#rtl #header-site ul li {float: left;}
+#rtl #header-site ul li#brand {float: right;}
+#rtl #header-site ul li#brand h1 {margin: 0 0 0 1em;}
 
-#rtl td.prop {
+#rtl td.prop,
+#rtl td.free,
+#rtl td.note {
   border-right: 1px solid #ddd;
+  border-left: none;
 }
 
-#rtl td.prop .logo {
+#rtl td .logo {
   float: right;
   margin-right: 0;
-  margin-left: .75em;
 }
 
-#rtl td.free {
-  border-right: 1px solid #ddd;
-}
-#rtl td.free .logo {
+#rtl td.prop .logo {margin-left: .75em;}
+#rtl td.free .logo {margin-left: 1em;}
+
+#rtl footer ul li {
   float: right;
-  margin-right: 0;
-  margin-left: 1em;
-}
-#rtl #top {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-#rtl #brand h1 {
-  margin: 0 0 0 1em;
 }
