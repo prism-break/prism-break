@@ -1,6 +1,6 @@
 {
-  "i18n-title": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break",
-  "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
+  "i18n-title": "Sag NEIN zu PRISM, dem globalen Spionageprogramm der NSA. - PRISM Break",
+  "i18n-meta-description": "Sag NEIN zu PRISM, dem globalen Spionageprogramm der NSA. Stopp die Verfolgung Deiner Onlineaktivitäten durch die amerikanische Regierung mit diesen freien Alternativen zu proprietärer Software.",
   "i18n-intro": "<strong>Sag <em>NEIN</em> zu PRISM, dem globalen Spionageprogramm der NSA.</strong><br>Stopp die Verfolgung Deiner Onlineaktivitäten durch die amerikanische Regierung mit diesen freien Alternativen zu proprietärer Software.",
 
   "i18n-proprietary": "Proprietär",
@@ -127,7 +127,7 @@
   "i18n-redphone-desc": "Sichere, private Anrufe für Android.",
   "i18n-surespot-desc": "Freier, quelloffer, End-to-End-verschlüsselter Nachrichtenversand.",
   "i18n-textsecure-desc": "Sichere SMS-/MMS-Kommunikation für Android.",
-  "i18n-xabber-desc": "OTR-verschlüsselter Nachrichtenversand f&uumlr Android.",
+  "i18n-xabber-desc": "OTR-verschlüsselter Nachrichtenversand für Android.",
 
   "i18n-ios-insecure-title": "iOS ist unsicher",
   "i18n-ios-insecure-desc": "iOS-Geräte enthalten hardwareseitige Verfolgung.",
@@ -136,7 +136,6 @@
 
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "Eine dezentralisierte Alternative zum Internet.",
-  "i18n-meshnet-note": "<p>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</p><p>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</p><p>&mdash;<a href='https://de.wikipedia.org/wiki/Vermaschtes_Netz'>Wikipedia</a></p>",
 
   "i18n-add": "füge hinzu",
   "i18n-mostly-free": "größtenteils frei*",
@@ -148,10 +147,10 @@
   "i18n-editors-choice": "Redaktionsempfehlung",
   "i18n-nocodecs": "empfiehlt Edition ohne Codecs*",
   "i18n-tor-users-only": "nur für Tor-Nutzer",
-  "i18n-approval-required": "approval required",
+  "i18n-approval-required": "nur auf Anfrage",
 
   "i18n-fsf-definition-title": "*Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
-  "i18n-fsf-quote": "&ldquo;Freie Software ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
+  "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
 
   "i18n-eff-title": "Trete in Aktion gegen PRISM im <strong>Electronic Frontier Foundation</strong> Action Center.",
   "i18n-eff-quote-1": "<strong>MASSIVE ÜBERWACHUNG ENTLARVT</strong>",
@@ -178,29 +177,29 @@
   "i18n-donate": "Spende",
   "i18n-contribute": "Mithelfen",
 
-  "i18n-operating-system-note": "<p>Apple, Google und Microsoft sind ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</p><p>Damit bleiben uns zwei freie Alternativen: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> und <strong><a href='https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme'>BSD</a></strong>.</p> <p>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href='http://distrowatch.com/'>GNU/Linux-Distribution</a><sup>[ENG]</sup>, die Euren Anforderungen entspricht.</p> <p>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>standardmäßig Daten an Dritte sendet.</a><sup>[ENG]</sup></p> <p>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Mehr dazu.</a><sup>[ENG]</sup></p>",
+  "i18n-operating-system-note": "<p>Apple, Google und Microsoft sind ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</p><p>Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</p> <p>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution</a><sup>[ENG]</sup>, die Euren Anforderungen entspricht.</p> <p>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks\">standardmäßig Daten an Dritte sendet.</a><sup>[ENG]</sup></p> <p>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu.</a><sup>[ENG]</sup></p>",
 
-  "i18n-android-note": "<p><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href='https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse'>Mehr dazu</a></p><p><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</p>",
+  "i18n-android-note": "<p><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href=\"https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse\">Mehr dazu</a></p><p><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</p>",
 
-  "i18n-ios-note": "<p>iOS ist unsicher — und leider stehen nicht nicht einmal viele freie Verschlüsselungs-Apps für iOS zur Verfügung. Es ist außerdem <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>unmöglich sicherzustellen</a><sup>[ENG]</sup>, ob eine iOS-App mit dem Original-Code kompiliert wurde.</p>",
+  "i18n-ios-note": "<p>iOS ist unsicher — und leider stehen nicht nicht einmal viele freie Verschlüsselungs-Apps für iOS zur Verfügung. Es ist außerdem <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">unmöglich sicherzustellen</a><sup>[ENG]</sup>, ob eine iOS-App mit dem Original-Code kompiliert wurde.</p>",
 
   "i18n-web-browser-note": "<p>Benutze eine Kombination aus dem <strong>Tor Browser</strong> und einem freien Browser Deiner Wahl um im Web zu surfen.</p> <p>Versuche den <strong>Tor Browser</strong> so oft wie möglich zu nutzen. Mit Tor zu surfen ist langsamer, aber deutlich sicherer.</p> <p>Anmerkung: <strong>Mozilla Firefox</strong> ist eigentlich keine vollständig freie Software, da Mozilla unfreie Add-Ons auf ihrer Seite empfiehlt.</p>",
 
-  "i18n-web-browser-addons-note": "<p>Beschütze Deine Privatsphäre, in dem Du Adblock Edge, Disconnect, HTTPS Everywhere, und NoScript in Deinem Browser installierst.</p> <p>Warum nicht Adblock Plus?<br>Adblock Plus zeigt &ldquo;unaufdringliche Werbung&rdquo; standardmäßig an und benutzt mehr Speicher als <strong>Adblock Edge</strong>.</p> <p>Warum nicht Ghostery?<br>Ghostery ist ein proprietäres Add-On. Benutze stattdessen <strong>Disconnect</strong>.</p>",
+  "i18n-web-browser-addons-note": "<p>Schütze Deine Privatsphäre, in dem Du Adblock Edge, Disconnect, HTTPS Everywhere, und NoScript für Deinen Browser installierst.</p> <p>Warum nicht Adblock Plus?<br>Adblock Plus zeigt &ldquo;unaufdringliche Werbung&rdquo; standardmäßig an und benutzt mehr Speicher als <strong>Adblock Edge</strong>.</p> <p>Warum nicht Ghostery?<br>Ghostery ist ein proprietäres Add-On. Benutze stattdessen <strong>Disconnect</strong>.</p>",
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> ist proprietär, wird in den USA/Niederlanden gehostet und versorgt Dich mit anonymisierten Google-Suchergebnissen (inklusive Bildern).</p><p><strong>DuckDuckGo</strong> ist teilweise proprietär, wird in den USA gehostet und versorgt Dich mit anonymisierten Suchergebnissen von verschiedenen Anbietern.</p><p>Wähle das kleinere Übel.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> wird in den USA gehostet.</p><p>Warum nicht Hushmail?<br><a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;Gefährdung Deiner Privatsphäre&rdquo;</a>.<sup>[ENG]</sup></p>",
+  "i18n-email-services-note": "<p><strong>Riseup</strong> wird in den USA gehostet.</p><p>Warum nicht Hushmail?<br>Lese hierzu: <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;Gefährdung Deiner Privatsphäre&rdquo;</a>.<sup>[ENG]</sup></p>",
 
   "i18n-email-clients-note": "<p>Anmerkung: <strong>Mozilla Thunderbird</strong> ist eigentlich keine vollständig freie Software, da Mozilla unfreie Add-Ons auf ihrer Seite empfiehlt.</p>",
 
-  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a><br><p>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</p>",
+  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a><br><p>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</p>",
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>Werfe auch einen Blick auf <strong>Cryptocat</strong> in der <a href='#browser-addons'>Browser-Addon Sektion</a>.</p></p>",
+  "i18n-instant-messaging-note": "<p>Werfe auch einen Blick auf <strong>Cryptocat</strong> in der <a href=\"#browser-addons\">Browser-Addon Sektion</a>.</p></p>",
 
-  "i18n-video-voip-note": "<p><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</p><p><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a><sup>[ENG]</sup> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
+  "i18n-video-voip-note": "<p><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</p><p><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</p><p><a href=\"http://www.webrtc.org/\">WebRTC</a><sup>[ENG]</sup> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
   "i18n-online-transactions-note": "<p>Die <strong>Bitcoin</strong> Blockkette ist ein dezentralisiertes, öffentliches Konto für alle Transaktionen im Bitcoin-Netzwerk.</p><p>&ldquo;Es könnte das TCP/IP des Geldes sein.&rdquo; &mdash; Paul Buchheit</p>",
 
@@ -210,13 +209,15 @@
 
   "i18n-maps-note": "<p>--</p>",
 
-  "i18n-cloud-storage-note": "<p>Warum nicht MEGA?<br>Während MEGA 'frei' wie 'Freibier' ist, enthält es proprietären Code.</p><p>Warum nicht SpiderOak?<br>SpiderOak ist eine proprietäre Software.</p><p>Warum nicht Tarsnap?<br>Tarsnap ist teilweise proprietär und hostet Deine Daten auf Amazon Web Services.</p>",
+  "i18n-cloud-storage-note": "<p>Warum nicht MEGA?<br>Während MEGA \"frei\" wie \"Freibier\" ist, enthält es proprietären Code.</p><p>Warum nicht SpiderOak?<br>SpiderOak ist eine proprietäre Software.</p><p>Warum nicht Tarsnap?<br>Tarsnap ist teilweise proprietär und hostet Deine Daten auf Amazon Web Services.</p>",
 
-  "i18n-web-analytics-note": "<p><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass das letzte Viertel der Besucher-IP anonymisiert wird (255.255.255.???). Aufrufbar unter <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<p><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass das letzte Viertel der Besucher-IP anonymisiert wird (255.255.255.???). Aufrufbar unter <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
 
-  "i18n-dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
+  "i18n-dns-provider-note": "<p>Google Public DNS speichert Deine Internetprovider- und Standort-Informationen permanent für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</p>",
 
-  "i18n-darknet-note": "<p>&ldquo;Darknet (engl. für „Dunkles Netz“) beschreibt in der Informatik ein Peer-to-Peer-Netzwerk, dessen Teilnehmer ihre Verbindungen untereinander manuell herstellen.</p><p>Im Ergebnis bietet ein Darknet ein höheres Maß an Sicherheit, da einem Angreifer der Zugriff auf das Netzwerk nicht ohne weiteres möglich ist – oder er im Idealfall gar nichts von der Existenz des Netzwerks weiß.&ldquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/Darknet'>Wikipedia</a></p>",
+  "i18n-darknet-note": "<p>&ldquo;Darknet (engl. für „Dunkles Netz“) beschreibt in der Informatik ein Peer-to-Peer-Netzwerk, dessen Teilnehmer ihre Verbindungen untereinander manuell herstellen.</p><p>Im Ergebnis bietet ein Darknet ein höheres Maß an Sicherheit, da einem Angreifer der Zugriff auf das Netzwerk nicht ohne weiteres möglich ist – oder er im Idealfall gar nichts von der Existenz des Netzwerks weiß.&ldquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Darknet\">Wikipedia</a></p>",
+
+  "i18n-meshnet-note": "<p>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</p><p>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Vermaschtes_Netz\">Wikipedia</a></p>",
 
   "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust."
 }
