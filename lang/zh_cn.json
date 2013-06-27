@@ -227,15 +227,15 @@
 
 
 
-  "i18n-operating-system-note": "<span class='p'>Apple、Google和Microsoft是PRISM项目的一部分。他们专有的操作系统不能被信任来保护你的个人信息不被泄露给美国国家安全局NSA。</span><span class='p'>这留给我们两个免费替代品: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> 和 <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux 有一个更大的社区来帮助你的转换过程。推荐你 It's recommended that you begin your explorations by looking for a <a href=\"http://distrowatch.com/\">GNU/Linux distribution</a> that suits your needs.</span><span class='p'>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</span><span class='p'>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">More info</a>.</span>",
+  "i18n-operating-system-note": "<span class='p'>Apple、Google和Microsoft是PRISM项目的一部分。他们专有的操作系统不能被信任来保护你的个人信息不被泄露给美国国家安全局NSA。</span><span class='p'>这留给我们两个免费替代品: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> 和 <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</span> <span class='p'>GNU/Linux 有一个更大的社区来帮助你的转换过程。推荐你 It's recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</span><span class='p'>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</span><span class='p'>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</span>",
 
 
 
-  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href=\"https://en.wikipedia.org/wiki/CyanogenMod#Licensing\">Wikipedia</a></span><span class='p'><strong>F-Droid</strong> is a free alternative to the Google Play app store.</span>",
+  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></span><span class='p'><strong>F-Droid</strong> is a free alternative to the Google Play app store.</span>",
 
 
 
-  "i18n-ios-note": "<span class='p'>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">impossible to verify</a> whether if an iOS app was compiled from the original source.</span>",
+  "i18n-ios-note": "<span class='p'>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether if an iOS app was compiled from the original source.</span>",
 
 
 
@@ -251,19 +251,19 @@
 
 
 
-  "i18n-email-services-note": "<span class='p'><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</span><span class='p'><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span><span class='p'>The only way to have full control over your email is to run your own mail server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</span><span class='p'>While not complete yet, the <a href=\"https://www.freedomboxfoundation.org/\">FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</span>",
+  "i18n-email-services-note": "<span class='p'><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</span><span class='p'><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</span><span class='p'>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</span><span class='p'>The only way to have full control over your email is to run your own mail server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</span><span class='p'>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</span>",
 
 
 
-  "i18n-email-clients-note": "<span class='p'><a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</span><span class='p'>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
+  "i18n-email-clients-note": "<span class='p'><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</span><span class='p'>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</span>",
 
 
 
-  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</span><span class='p'>&mdash; <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a>",
+  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</span><span class='p'>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 
 
 
-  "i18n-social-networking-note": "<span class='p'><strong><a href=\"https://identi.ca/\">identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</span>",
+  "i18n-social-networking-note": "<span class='p'><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</span>",
 
 
 
@@ -271,7 +271,7 @@
 
 
 
-  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</span><span class='p'><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a> is an upcoming, promising browser to browser communications API.",
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</span><span class='p'><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</span><span class='p'><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
 
 
 
@@ -295,7 +295,7 @@
 
 
 
-  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> 分析也用于本站。它被设置为隐藏最后八位(255.255.255.???)访问者IP。点这里检查实时数据<a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> 分析也用于本站。它被设置为隐藏最后八位(255.255.255.???)访问者IP。点这里检查实时数据<a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
 
 
@@ -303,7 +303,7 @@
 
 
 
-  "i18n-darknet-note": "<span class='p'>“地下网络是一个匿名的网络，链接只会在可信节点之间建立。</span><span class='p'>地下网络不同于其他分布式P2P网络，分享是匿名的，因此用户可以交流而少点害怕政府或企业的干扰”</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">维基百科</a></span>",
+  "i18n-darknet-note": "<span class='p'>“地下网络是一个匿名的网络，链接只会在可信节点之间建立。</span><span class='p'>地下网络不同于其他分布式P2P网络，分享是匿名的，因此用户可以交流而少点害怕政府或企业的干扰”</span><span class='p'>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>维基百科</a></span>",
 
 
 

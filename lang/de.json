@@ -181,7 +181,7 @@
 
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "Eine dezentralisierte Alternative zum Internet.",
-  "i18n-meshnet-note": "<span class='p'>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</span><span class='p'>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</span><span class='p'>&mdash;<a href=\"https://de.wikipedia.org/wiki/Vermaschtes_Netz\">Wikipedia</a></span>",
+  "i18n-meshnet-note": "<span class='p'>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</span><span class='p'>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</span><span class='p'>&mdash;<a href='https://de.wikipedia.org/wiki/Vermaschtes_Netz'>Wikipedia</a></span>",
 
 
 
@@ -236,15 +236,15 @@
 
 
 
-  "i18n-operating-system-note": "<span class='p'>Apple, Google und Microsoft sind ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</span><span class='p'>Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</span> <span class='p'>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution</a><sup>[ENG]</sup>, die Euren Anforderungen entspricht.</span> <span class='p'>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks\">standardmäßig Daten an Dritte sendet.</a><sup>[ENG]</sup></span> <span class='p'>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu.</a><sup>[ENG]</sup></span>",
+  "i18n-operating-system-note": "<span class='p'>Apple, Google und Microsoft sind ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</span><span class='p'>Damit bleiben uns zwei freie Alternativen: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> und <strong><a href='https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme'>BSD</a></strong>.</span> <span class='p'>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href='http://distrowatch.com/'>GNU/Linux-Distribution</a><sup>[ENG]</sup>, die Euren Anforderungen entspricht.</span> <span class='p'>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>standardmäßig Daten an Dritte sendet.</a><sup>[ENG]</sup></span> <span class='p'>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Mehr dazu.</a><sup>[ENG]</sup></span>",
 
 
 
-  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href=\"https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse\">Mehr dazu</a></span><span class='p'><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</span>",
+  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href='https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse'>Mehr dazu</a></span><span class='p'><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</span>",
 
 
 
-  "i18n-ios-note": "<span class='p'>iOS ist unsicher — und leider stehen nicht nicht einmal viele freie Verschlüsselungs-Apps für iOS zur Verfügung. Es ist außerdem <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">unmöglich sicherzustellen</a><sup>[ENG]</sup>, ob eine iOS-App mit dem Original-Code kompiliert wurde.</span>",
+  "i18n-ios-note": "<span class='p'>iOS ist unsicher — und leider stehen nicht nicht einmal viele freie Verschlüsselungs-Apps für iOS zur Verfügung. Es ist außerdem <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>unmöglich sicherzustellen</a><sup>[ENG]</sup>, ob eine iOS-App mit dem Original-Code kompiliert wurde.</span>",
 
 
 
@@ -260,7 +260,7 @@
 
 
 
-  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> wird in den USA gehostet.</span><span class='p'>Warum nicht Hushmail?<br><a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;Gefährdung Deiner Privatsphäre&rdquo;</a>.<sup>[ENG]</sup></span>",
+  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> wird in den USA gehostet.</span><span class='p'>Warum nicht Hushmail?<br><a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;Gefährdung Deiner Privatsphäre&rdquo;</a>.<sup>[ENG]</sup></span>",
 
 
 
@@ -268,7 +268,7 @@
 
 
 
-  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a><br><span class='p'>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</span>",
+  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</span><span class='p'>&mdash; <a href='https://de.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a><br><span class='p'>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</span>",
 
 
 
@@ -276,11 +276,11 @@
 
 
 
-  "i18n-instant-messaging-note": "<span class='p'>Werfe auch einen Blick auf <strong>Cryptocat</strong> in der <a href=\"#browser-addons\">Browser-Addon Sektion</a>.</span></span>",
+  "i18n-instant-messaging-note": "<span class='p'>Werfe auch einen Blick auf <strong>Cryptocat</strong> in der <a href='#browser-addons'>Browser-Addon Sektion</a>.</span></span>",
 
 
 
-  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</span><span class='p'><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a><sup>[ENG]</sup> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</span><span class='p'><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</span><span class='p'><a href='http://www.webrtc.org/'>WebRTC</a><sup>[ENG]</sup> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
 
 
@@ -300,18 +300,18 @@
 
 
 
-  "i18n-cloud-storage-note": "<span class='p'>Warum nicht MEGA?<br>Während MEGA \"frei\" wie \"Freibier\" ist, enthält es proprietären Code.</span><span class='p'>Warum nicht SpiderOak?<br>SpiderOak ist eine proprietäre Software.</span><span class='p'>Warum nicht Tarsnap?<br>Tarsnap ist teilweise proprietär und hostet Deine Daten auf Amazon Web Services.</span>",
+  "i18n-cloud-storage-note": "<span class='p'>Warum nicht MEGA?<br>Während MEGA 'frei' wie 'Freibier' ist, enthält es proprietären Code.</span><span class='p'>Warum nicht SpiderOak?<br>SpiderOak ist eine proprietäre Software.</span><span class='p'>Warum nicht Tarsnap?<br>Tarsnap ist teilweise proprietär und hostet Deine Daten auf Amazon Web Services.</span>",
 
 
 
-  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass das letzte Viertel der Besucher-IP anonymisiert wird (255.255.255.???). Aufrufbar unter <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass das letzte Viertel der Besucher-IP anonymisiert wird (255.255.255.???). Aufrufbar unter <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
 
 
   "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</span>",
 
 
-  "i18n-darknet-note": "<span class='p'>&ldquo;Darknet (engl. für „Dunkles Netz“) beschreibt in der Informatik ein Peer-to-Peer-Netzwerk, dessen Teilnehmer ihre Verbindungen untereinander manuell herstellen.</span><span class='p'>Im Ergebnis bietet ein Darknet ein höheres Maß an Sicherheit, da einem Angreifer der Zugriff auf das Netzwerk nicht ohne weiteres möglich ist – oder er im Idealfall gar nichts von der Existenz des Netzwerks weiß.&ldquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Darknet\">Wikipedia</a></span>",
+  "i18n-darknet-note": "<span class='p'>&ldquo;Darknet (engl. für „Dunkles Netz“) beschreibt in der Informatik ein Peer-to-Peer-Netzwerk, dessen Teilnehmer ihre Verbindungen untereinander manuell herstellen.</span><span class='p'>Im Ergebnis bietet ein Darknet ein höheres Maß an Sicherheit, da einem Angreifer der Zugriff auf das Netzwerk nicht ohne weiteres möglich ist – oder er im Idealfall gar nichts von der Existenz des Netzwerks weiß.&ldquo;</span><span class='p'>&mdash; <a href='https://de.wikipedia.org/wiki/Darknet'>Wikipedia</a></span>",
 
 
 
