@@ -175,7 +175,7 @@
 
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
-  "i18n-meshnet-note": "<span class='p'>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</span><span class='p'>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Mesh_networking\">Wikipedia</a></span>",
+  "i18n-meshnet-note": "<span class='p'>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</span><span class='p'>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</span><span class='p'>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></span>",
 
 
 
@@ -225,15 +225,15 @@
 
 
 
-  "i18n-operating-system-note": "<span class='p'>Apple, Google, och Microsoft är delar av PRISM. Deras proprietära operativsystem kan inte litas på att skydda din personliga information från NSA.</span><span class='p'>Detta lämnar oss med två alternativ: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> och <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux har ett mycket störrecommunity att hjälpa dig med övergången. Det är rekommenderat att du börjar dina utforskningar genom att kolla efter en <a href=\"http://distrowatch.com/\">GNU/Linux distribution</a> som passar dina behov.</span> <span class='p'>Varför inte Ubuntu? Ubuntu är ett dåligt val eftersom det innehåller <a href=\"https://www.gnu.org/philosophy/ubuntu-spyware.html\">spyware</a>.</span> <span class='p'>Notera: PRISM Break rekommenderar icke-codec versionen av <strong>Linux Mint</strong>, eftersom de andra versionerna är nedtyngda av mjukvarupatent. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mer info</a>.</span>",
+  "i18n-operating-system-note": "<span class='p'>Apple, Google, och Microsoft är delar av PRISM. Deras proprietära operativsystem kan inte litas på att skydda din personliga information från NSA.</span><span class='p'>Detta lämnar oss med två alternativ: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> och <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</span> <span class='p'>GNU/Linux har ett mycket störrecommunity att hjälpa dig med övergången. Det är rekommenderat att du börjar dina utforskningar genom att kolla efter en <a href='http://distrowatch.com/'>GNU/Linux distribution</a> som passar dina behov.</span> <span class='p'>Varför inte Ubuntu? Ubuntu är ett dåligt val eftersom det innehåller <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</span> <span class='p'>Notera: PRISM Break rekommenderar icke-codec versionen av <strong>Linux Mint</strong>, eftersom de andra versionerna är nedtyngda av mjukvarupatent. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Mer info</a>.</span>",
 
 
 
-  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href=\"https://en.wikipedia.org/wiki/CyanogenMod#Licensing\">Wikipedia</a></span><span class='p'><strong>F-Droid</strong> is a free alternative to the Google Play app store.</span>",
+  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></span><span class='p'><strong>F-Droid</strong> is a free alternative to the Google Play app store.</span>",
 
 
 
-  "i18n-ios-note": "<span class='p'>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">impossible to verify</a> whether an iOS app was compiled from the original source.</span>",
+  "i18n-ios-note": "<span class='p'>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</span>",
 
 
 
@@ -249,7 +249,7 @@
 
 
 
-  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> is hosted in the USA, in case that matters.</span><span class='p'>Why not Hushmail? See <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromises to email privacy&rdquo;</a>.</span>",
+  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> is hosted in the USA, in case that matters.</span><span class='p'>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</span>",
 
 
 
@@ -257,7 +257,7 @@
 
 
 
-  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</span><span class='p'>&mdash; <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a>",
+  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</span><span class='p'>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 
 
 
@@ -269,7 +269,7 @@
 
 
 
-  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</span><span class='p'><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a> is an upcoming, promising browser to browser communications API.",
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</span><span class='p'><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</span><span class='p'><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
 
 
 
@@ -293,14 +293,14 @@
 
 
 
-  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
 
 
   "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</span>",
 
 
-  "i18n-darknet-note": "<span class='p'>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</span><span class='p'>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">Wikipedia</a></span>",
+  "i18n-darknet-note": "<span class='p'>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</span><span class='p'>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</span><span class='p'>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></span>",
 
 
 

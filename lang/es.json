@@ -177,7 +177,7 @@
 
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
-  "i18n-meshnet-note": "<span class='p'>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</span><span class='p'>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Mesh_networking\">Wikipedia</a></span>",
+  "i18n-meshnet-note": "<span class='p'>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</span><span class='p'>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</span><span class='p'>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></span>",
 
 
 
@@ -233,15 +233,15 @@
 
 
 
-  "i18n-operating-system-note": "<span class='p'>Apple, Google, y Microsoft son parte de PRISM. Sus sistemas operativos privativos no pueden ganantizar que resguarden tu información personal de la NSA.</span><span class='p'>Esto nos deja con dos alternativas libres: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> y <strong><a href=\"https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems\">BSD</a></strong>.</span> <span class='p'>GNU/Linux tiene una comunidad mucho más amplia para ayudarte con la transición. Es recomendable que comiences tu exploración buscando una <a href=\"http://distrowatch.com/\">distribución de GNU/Linux</a> que se adapte a tus necesidades.</span> <span class='p'>¿Por qué no Ubuntu? Ubuntu es una mala elección porque contiene <a href=\"https://www.gnu.org/philosophy/ubuntu-spyware.html\">spyware</a>.</span> <span class='p'>Nota: PRISM Break recomienda la versión sin códecs de <strong>Linux Mint</strong>, ya que las otras ediciones están cubiertas por patentes de software. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Más información</a>.</span>",
+  "i18n-operating-system-note": "<span class='p'>Apple, Google, y Microsoft son parte de PRISM. Sus sistemas operativos privativos no pueden ganantizar que resguarden tu información personal de la NSA.</span><span class='p'>Esto nos deja con dos alternativas libres: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> y <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</span> <span class='p'>GNU/Linux tiene una comunidad mucho más amplia para ayudarte con la transición. Es recomendable que comiences tu exploración buscando una <a href='http://distrowatch.com/'>distribución de GNU/Linux</a> que se adapte a tus necesidades.</span> <span class='p'>¿Por qué no Ubuntu? Ubuntu es una mala elección porque contiene <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</span> <span class='p'>Nota: PRISM Break recomienda la versión sin códecs de <strong>Linux Mint</strong>, ya que las otras ediciones están cubiertas por patentes de software. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Más información</a>.</span>",
 
 
 
-  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> indica en su licencia: &ldquo;CyanogenMod sí incluye cierto código específico para hardware, que también está siendo convertido poco a poco en código abierto de todos modos.&rdquo; &mdash;<a href=\"http://es.wikipedia.org/wiki/CyanogenMod#Controversia_sobre_la_licencia\">Wikipedia</a></span><span class='p'><strong>F-Droid</strong> es una alternativa libre a la tienda de aplicaciones Google Play.</span>",
+  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> indica en su licencia: &ldquo;CyanogenMod sí incluye cierto código específico para hardware, que también está siendo convertido poco a poco en código abierto de todos modos.&rdquo; &mdash;<a href='http://es.wikipedia.org/wiki/CyanogenMod#Controversia_sobre_la_licencia'>Wikipedia</a></span><span class='p'><strong>F-Droid</strong> es una alternativa libre a la tienda de aplicaciones Google Play.</span>",
 
 
 
-  "i18n-ios-note": "<span class='p'>iOS es inseguro, y desafortunadamente tampoco hay muchas aplicaciones de cifrado gratuitas para iOS. Además es <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">imposible verificar</a> si una aplicación en iOS fue compilada de su fuente original.</span>",
+  "i18n-ios-note": "<span class='p'>iOS es inseguro, y desafortunadamente tampoco hay muchas aplicaciones de cifrado gratuitas para iOS. Además es <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>imposible verificar</a> si una aplicación en iOS fue compilada de su fuente original.</span>",
 
 
 
@@ -257,7 +257,7 @@
 
 
 
-  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> está hospedado en los Estados Unidos, por si las dudas.</span><span class='p'>¿Por qué no Hushmail? Revisa este artículo en inglés sobre los <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;compromisos a la privacidad de los correos&rdquo;</a>.</span><span class='p'><strong>Tor Mail</strong>: Lee tranquilamente la página de introducción.</span>",
+  "i18n-email-services-note": "<span class='p'><strong>Riseup</strong> está hospedado en los Estados Unidos, por si las dudas.</span><span class='p'>¿Por qué no Hushmail? Revisa este artículo en inglés sobre los <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromisos a la privacidad de los correos&rdquo;</a>.</span><span class='p'><strong>Tor Mail</strong>: Lee tranquilamente la página de introducción.</span>",
 
 
 
@@ -265,7 +265,7 @@
 
 
 
-  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) es un programa computacional de cifrado y descifrado que provee privacidad y autenticación criptográficas para comunicación de datos. PGP suele usarse para firmar, cifrar y desencriptar textos, correos electrónicos, archivos, directorios y particiones completas de disco para incrementar la seguridad de las comunicaciones por correo electrónico.&rdquo;</span><span class='p'>&mdash; <a href=\"https://es.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a>",
+  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) es un programa computacional de cifrado y descifrado que provee privacidad y autenticación criptográficas para comunicación de datos. PGP suele usarse para firmar, cifrar y desencriptar textos, correos electrónicos, archivos, directorios y particiones completas de disco para incrementar la seguridad de las comunicaciones por correo electrónico.&rdquo;</span><span class='p'>&mdash; <a href='https://es.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 
 
 
@@ -277,7 +277,7 @@
 
 
 
-  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> es un reemplazo directo y cifrado para casi todas las tareas para las que se usa Skype.</span><span class='p'><strong>Mumble</strong> es un cliente de chat de voz al estilo de Ventrilo y TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a> es una API prometedora, que a futuro proveerá comunicaciones de navegador a navegador.",
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> es un reemplazo directo y cifrado para casi todas las tareas para las que se usa Skype.</span><span class='p'><strong>Mumble</strong> es un cliente de chat de voz al estilo de Ventrilo y TeamSpeak.</span><span class='p'><a href='http://www.webrtc.org/'>WebRTC</a> es una API prometedora, que a futuro proveerá comunicaciones de navegador a navegador.",
 
 
 
@@ -297,18 +297,18 @@
 
 
 
-  "i18n-cloud-storage-note": "<span class='p'>¿Por qué no MEGA? Aunque MEGA es gratuito como en \"cerveza gratis\", el software es de código privativo.</span><span class='p'>¿Por qué no SpiderOak? SpiderOak es software privativo.</span><span class='p'>¿Por qué no Tarsnap? Tarsnap es parcialmente privativo y hospeda tus datos en los servicios de Amazon Web Services.</span>",
+  "i18n-cloud-storage-note": "<span class='p'>¿Por qué no MEGA? Aunque MEGA es gratuito como en 'cerveza gratis', el software es de código privativo.</span><span class='p'>¿Por qué no SpiderOak? SpiderOak es software privativo.</span><span class='p'>¿Por qué no Tarsnap? Tarsnap es parcialmente privativo y hospeda tus datos en los servicios de Amazon Web Services.</span>",
 
 
 
-  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Analytics potencia este sitio. Está configurado para anonimizar el último octeto (255.255.255.???) de las IPs de los visitantes. Revisa los datos en vivo aquí: <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Analytics potencia este sitio. Está configurado para anonimizar el último octeto (255.255.255.???) de las IPs de los visitantes. Revisa los datos en vivo aquí: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
 
 
   "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</span>",
 
 
-  "i18n-darknet-note": "<span class='p'>&ldquo;Una \"darknet\" (o red oscura) es una red anónima donde las conexiones se realizan solamente entre pares de confianza.</span><span class='p'>Las darknets son distintas de otras redes P2P distribuidas ya que el compartir es anónimo, y por lo tanto los usuarios pueden comunicarse con poco miedo de interfencia gubernamental o corporativa.&ldquo;</span><span class='p'>&mdash;<a href=\"https://es.wikipedia.org/wiki/Darknet\">Wikipedia</a></span>"
+  "i18n-darknet-note": "<span class='p'>&ldquo;Una 'darknet' (o red oscura) es una red anónima donde las conexiones se realizan solamente entre pares de confianza.</span><span class='p'>Las darknets son distintas de otras redes P2P distribuidas ya que el compartir es anónimo, y por lo tanto los usuarios pueden comunicarse con poco miedo de interfencia gubernamental o corporativa.&ldquo;</span><span class='p'>&mdash;<a href='https://es.wikipedia.org/wiki/Darknet'>Wikipedia</a></span>"
 ,
 
 
