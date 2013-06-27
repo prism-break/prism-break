@@ -1886,75 +1886,74 @@
     <!-- the language switching script -->
     <script type="text/javascript">
       // list of supported langs
-    var langs = ['ar', 'de', 'el', 'eo', 'en', 'es', 'fa', 'fi', 'fr', 'hi', 'io', 'it', 'ja', 'nl', 'no', 'pl', 'pt', 'ru', 'sr', 'sr_cr', 'sv', 'zh_cn', 'zh_tw'];
+      var langs = ['ar', 'de', 'el', 'eo', 'en', 'es', 'fa', 'fi', 'fr', 'hi', 'io', 'it', 'ja', 'nl', 'no', 'pl', 'pt', 'ru', 'sr', 'sr_cr', 'sv', 'zh_cn', 'zh_tw'];
 
-    $("#lang-select").change(function() {
-      $("select option:selected").each(function () {
-        for(var i=0; i < langs.length; i++)
-      {
-        if( $(this).attr('id') == ('lang-'+langs[i]) )
-      {
-        getLang(langs[i]);
-        window.location.hash = langs[i];
-        break;
-      }
-      }
+      $("#lang-select").change(function() {
+        $("select option:selected").each(function () {
+          for(var i=0; i < langs.length; i++)
+        {
+          if( $(this).attr('id') == ('lang-'+langs[i]) )
+        {
+          getLang(langs[i]);
+          window.location.hash = langs[i];
+          break;
+        }
+        }
+        });
       });
-    });
 
-// pulling in json language data
-function getLang(abbr) {
-  if(langs.indexOf(abbr) < 0)
-    throw "Unsupported language";
-  if(abbr == 'ar' || abbr == 'fa')
-    $('body').attr('id', 'rtl');
-  else
-    $("body").removeAttr('id');
-  var jsonUrl = "lang/" + abbr + ".json";
-  $.getJSON(jsonUrl, function(data) {
-    $.each(data, function(key, val) {
-      i18nSpans = $('body').find("span." + key)
-      i18nSpans.html(val);
-    i18nSpans.stop().css("background-color", "#FFFF9C")
-      .animate({ backgroundColor: "transparent"}, 1500);;
-    });
-  });
-};
+      // pulling in json language data
+      function getLang(abbr) {
+        if(langs.indexOf(abbr) < 0)
+          throw "Unsupported language";
+        if(abbr == 'ar' || abbr == 'fa')
+          $('body').attr('id', 'rtl');
+        else
+          $("body").removeAttr('id');
+        var jsonUrl = "lang/" + abbr + ".json";
+        $.getJSON(jsonUrl, function(data) {
+          $.each(data, function(key, val) {
+            i18nSpans = $('body').find("." + key)
+            i18nSpans.html(val);
+          i18nSpans.stop().css("background-color", "#FFFF9C")
+            .animate({ backgroundColor: "transparent"}, 1500);;
+          });
+        });
+      };
 
-// set site language based on url segment
-function setLangByUrl() {
-  var url = document.URL;
-  var id = url.substring(url.lastIndexOf('#') + 1);
-  getLang(id);
+      // set site language based on url segment
+      function setLangByUrl() {
+        var url = document.URL;
+        var id = url.substring(url.lastIndexOf('#') + 1);
+        getLang(id);
 
-  // update #lang-select based on url segment
-  var rightOption = "lang-" + id;
-  $("#lang-select option").filter(function(){
-    return this.id == rightOption;
-  }).prop('selected', true);
-}
-setLangByUrl();
+        // update #lang-select based on url segment
+        var rightOption = "lang-" + id;
+        $("#lang-select option").filter(function(){
+          return this.id == rightOption;
+        }).prop('selected', true);
+      }
+      setLangByUrl();
 
-if(navigator.langage != undefined && navigator.langage.length > 1 && langs.indexOf(navigator.langage) > -1)
-{
-  getLang(navigator.langage);
-}
+      if(navigator.langage != undefined && navigator.langage.length > 1 && langs.indexOf(navigator.langage) > -1)
+      {
+        getLang(navigator.langage);
+      }
 
-    </script>
+      </script>
 
-    <!-- Public Piwik analytics: prism-break.org/analytics. Does not record the last octet of visitor IPs -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://prism-break.org/analytics//";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 1]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-
+      <!-- Public Piwik analytics: prism-break.org/analytics. Does not record the last octet of visitor IPs -->
+      <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u=(("https:" == document.location.protocol) ? "https" : "http") + "://prism-break.org/analytics//";
+          _paq.push(['setTrackerUrl', u+'piwik.php']);
+          _paq.push(['setSiteId', 1]);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+          g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
     </script>
     <noscript><p><img src="http://prism-break.org/analytics/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
     <!-- End Piwik Code -->
