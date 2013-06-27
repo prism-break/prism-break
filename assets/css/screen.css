@@ -25,12 +25,24 @@ a:hover {
 }
 
 .fs {
-  background: #999;
+  border: 1px solid #ddd;
   font-size: 12px;
+  line-height: 16px;
   display: inline-block;
-  color: #fff;
-  padding: 0 .5em;
+  padding: 0 .4em;
   font-weight: normal;
+  vertical-align: text-bottom;
+}
+
+.fs.icon {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+.fs.icon img {
+  width: 18px;
+  height: 18px;
+  vertical-align: bottom;
 }
 .fs.newbie {
   background: #4a0;
