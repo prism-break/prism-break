@@ -166,9 +166,16 @@
 
 
 
+  "i18n-ios-insecure-title": "iOS is unsecure",
   "i18n-ios-insecure-desc": "iOS enheter innehåller hårdvaruspårning.",
   "i18n-chatsecure-desc": "Kryptera direktmeddelanden för iOS.",
   "i18n-onionbrowser-desc": "Säker surfning för iOS.",
+
+
+
+  "i18n-meshnet": "Meshnet",
+  "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
+  "i18n-meshnet-note": "<span class='p'>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</span><span class='p'>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Mesh_networking\">Wikipedia</a></span>",
 
 
 
