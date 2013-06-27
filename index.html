@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title id="head-title">Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break</title>
+    <title class="i18n-title">Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break</title>
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/screen.css" />
-    <meta name="description" content="Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software." />
+    <meta name="description" class="i18n-meta-description" content="Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software." />
     <meta name="author" content="Peng Zhong" />
 
     <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
@@ -1913,8 +1913,12 @@
         var jsonUrl = "lang/" + abbr + ".json";
         $.getJSON(jsonUrl, function(data) {
           $.each(data, function(key, val) {
-            i18nSpans = $('body').find("." + key)
-            i18nSpans.html(val);
+            // upon reaching meta description, change the content instead of just the inner html
+            if(key == 'i18n-meta-description')
+              $('.i18n-meta-description').attr("content", val);
+            else
+              i18nSpans = $('html').find("." + key)
+              i18nSpans.html(val);
           i18nSpans.stop().css("background-color", "#FFFF9C")
             .animate({ backgroundColor: "transparent"}, 1500);;
           });
