@@ -301,7 +301,8 @@
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</span>",
+
 
 
   "i18n-darknet-note": "<span class='p'>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</span><span class='p'>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">Wikipedia</a></span>",
