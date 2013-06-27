@@ -9,7 +9,7 @@
 
 
 
-  "i18n-operating-system": "Betriebssystem",
+  "i18n-operating-system": "Betriebssysteme",
   "i18n-gnulinux-desc": "Freies, quelloffenes Betriebssystem.",
   "i18n-debian-desc": "Populäre, ethische GNU/Linux-Distribution.",
   "i18n-fedora-desc": "Schnelle, stabile und mächtige GNU/Linux-Distribution.",
@@ -39,14 +39,14 @@
   "i18n-web-search": "Websuche",
   "i18n-duckduckgo-desc": "Anonyme, aufzeichnungsfreie Websuchen.",
   "i18n-startpage-desc": "Private, aufzeichnungsfreie Websuchen.",
-  "i18n-seeksproject-desc": "Offene dezentrale Plattform für kollaborative Suche.",
+  "i18n-seeksproject-desc": "Offene, dezentrale Plattform für kollaborative Suche.",
   "i18n-yacy-desc": "Dezentralisierte Websuche.",
 
 
 
   "i18n-dns-provider": "DNS-Provider",
   "i18n-opennic-desc": "Totale DNS-Neutralität.",
-  "i18n-namecoin-desc": "Verteiltes DNS basierend auf der Bitcoin-Technologie.",
+  "i18n-namecoin-desc": "Verteiltes DNS, basierend auf der Bitcoin-Technologie.",
 
 
 
@@ -193,12 +193,12 @@
 
 
   "i18n-fsf-definition-title": "*Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
-  "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; heißt Software, welche die Freiheit und Gemeinschaft der AnwenderInnen respektiert. Grob gesagt, <strong>haben die AnwenderInnen die Freiheit, die Software zu betreiben, kopieren, verteilen, untersuchen, verändern und zu verbessern</strong>. Mit diesen Freiheiten kontrollieren die AnwenderInnen (sowohl individuell als auch kollektiv) das Programm und was es für sie tut.",
+  "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; heißt Software, welche die Freiheit und Gemeinschaft der AnwenderInnen respektiert. Grob gesagt <strong>haben die AnwenderInnen die Freiheit, die Software zu betreiben, zu kopieren, zu verteilen, zu untersuchen, zu verändern und zu verbessern</strong>. Mit diesen Freiheiten kontrollieren die AnwenderInnen (sowohl individuell als auch kollektiv) das Computerprogramm und was es für sie tut.",
 
 
   "i18n-eff-title": "Trete in Aktion gegen PRISM im <strong>Electronic Frontier Foundation</strong> Action Center.",
   "i18n-eff-quote-1": "<strong>MASSIVE ÜBERWACHUNG ENTLARVT</strong>",
-  "i18n-eff-quote-2": "Kürzliche Berichte des <em>Guardian</em> und der <em>Washington Post</em> bestätigen geheime Spionageprogramme auf Telefon- und Internetverkehr. Es ist an der Zeit mit dem amerikanischen Spionageprogramm abzurechnen — und die verfassungswidrige Überwachung zu beenden.",
+  "i18n-eff-quote-2": "Kürzliche Berichte des <em>Guardian</em> und der <em>Washington Post</em> bestätigen geheime Spionageprogramme im Telefon- und Internetverkehr. Es ist an der Zeit mit dem amerikanischen Spionageprogramm abzurechnen — und die verfassungswidrige Überwachung zu beenden.",
 
 
 
@@ -249,7 +249,7 @@
 
 
 
-  "i18n-web-search-note": "<span class='p'><strong>Startpage</strong> ist proprietär, wird gehostet in den USA/Niederlanden und versorgt Dich mit anonymisierten Google-Suchergebnissen (inklusive Bildern).</span><span class='p'><strong>DuckDuckGo</strong> ist teilweise proprietär, wird gehostet in den USA und versorgt Dich mit anonymisierten Suchergebnissen von verschiedenen Anbietern.</span><span class='p'>Wähle das kleinere Übel.</span>",
+  "i18n-web-search-note": "<span class='p'><strong>Startpage</strong> ist proprietär, wird in den USA/Niederlanden gehostet und versorgt Dich mit anonymisierten Google-Suchergebnissen (inklusive Bildern).</span><span class='p'><strong>DuckDuckGo</strong> ist teilweise proprietär, wird in den USA gehostet und versorgt Dich mit anonymisierten Suchergebnissen von verschiedenen Anbietern.</span><span class='p'>Wähle das kleinere Übel.</span>",
 
 
 
@@ -273,11 +273,11 @@
 
 
 
-  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</span><span class='p'><strong>Mumble</strong> ein quelloffener Sprachchat in der Art von Ventrilo und TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a><sup>[ENG]</sup> ist eine bald erscheinende, vielversprechende Browser-zu-Browser Kommunikations-API.",
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</span><span class='p'><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</span><span class='p'><a href=\"http://www.webrtc.org/\">WebRTC</a><sup>[ENG]</sup> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
 
 
-  "i18n-online-transactions-note": "<span class='p'>Die <strong>Bitcoin</strong> Blockkette ist ein dezentralisiertes, öffentliches Konto für alle Transaktionen im Bitcoin-Netzwerk.</span><span class='p'>&ldquo;Es könnte das TCP/IP des Geldes sein.&rdquo; &mdash;Paul Buchheit</span>",
+  "i18n-online-transactions-note": "<span class='p'>Die <strong>Bitcoin</strong> Blockkette ist ein dezentralisiertes, öffentliches Konto für alle Transaktionen im Bitcoin-Netzwerk.</span><span class='p'>&ldquo;Es könnte das TCP/IP des Geldes sein.&rdquo; &mdash; Paul Buchheit</span>",
 
 
 
@@ -293,7 +293,7 @@
 
 
 
-  "i18n-cloud-storage-note": "<span class='p'>Warum nicht MEGA?<br>Während MEGA \"frei\" ist wie \"Freibier\", enthält es proprietären Code.</span><span class='p'>Warum nicht SpiderOak?<br>SpiderOak ist eine proprietäre Software.</span><span class='p'>Warum nicht Tarsnap?<br>Tarsnap ist teilweise proprietär und hostet Deine Daten auf Amazon Web Services.</span>",
+  "i18n-cloud-storage-note": "<span class='p'>Warum nicht MEGA?<br>Während MEGA \"frei\" wie \"Freibier\" ist, enthält es proprietären Code.</span><span class='p'>Warum nicht SpiderOak?<br>SpiderOak ist eine proprietäre Software.</span><span class='p'>Warum nicht Tarsnap?<br>Tarsnap ist teilweise proprietär und hostet Deine Daten auf Amazon Web Services.</span>",
 
 
 
@@ -301,7 +301,7 @@
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google Public DNS speichert permanent Deine Internetprovider- und Standort-Informationen für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS speichert Deine Internetprovider- und Standort-Informationen permanent für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</span>",
 
 
   "i18n-darknet-note": "<span class='p'>&ldquo;Darknet (engl. für „Dunkles Netz“) beschreibt in der Informatik ein Peer-to-Peer-Netzwerk, dessen Teilnehmer ihre Verbindungen untereinander manuell herstellen.</span><span class='p'>Im Ergebnis bietet ein Darknet ein höheres Maß an Sicherheit, da einem Angreifer der Zugriff auf das Netzwerk nicht ohne weiteres möglich ist – oder er im Idealfall gar nichts von der Existenz des Netzwerks weiß.&ldquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Darknet\">Wikipedia</a></span>",
