@@ -305,7 +305,7 @@
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google Public DNS registra permanentemente tu ISP e información de localización para análisis. Tu dirección IP también es almacenada por 24 horas.</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</span>",
 
 
   "i18n-darknet-note": "<span class='p'>&ldquo;Una \"darknet\" (o red oscura) es una red anónima donde las conexiones se realizan solamente entre pares de confianza.</span><span class='p'>Las darknets son distintas de otras redes P2P distribuidas ya que el compartir es anónimo, y por lo tanto los usuarios pueden comunicarse con poco miedo de interfencia gubernamental o corporativa.&ldquo;</span><span class='p'>&mdash;<a href=\"https://es.wikipedia.org/wiki/Darknet\">Wikipedia</a></span>"

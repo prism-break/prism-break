@@ -299,7 +299,8 @@
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google公共DNS 持久性地记录你的运营商ISP和位置信息用于分析。你的IP地址也被存放24小时。</span><span class='p'><strong>OpenNIC</strong>并不记录任何东西</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google公共DNS 持久性地记录你的运营商ISP和位置信息用于分析。你的IP地址也被存放24小时。</span><span class='p'><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</span>",
+
 
 
   "i18n-darknet-note": "<span class='p'>“地下网络是一个匿名的网络，链接只会在可信节点之间建立。</span><span class='p'>地下网络不同于其他分布式P2P网络，分享是匿名的，因此用户可以交流而少点害怕政府或企业的干扰”</span><span class='p'>&mdash;<a href=\"https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29\">维基百科</a></span>",
