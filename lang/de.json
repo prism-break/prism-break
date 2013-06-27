@@ -181,7 +181,7 @@
 
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "Eine dezentralisierte Alternative zum Internet.",
-  "i18n-meshnet-note": "<span class='p'>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</span><span class='p'>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</span><span class='p'>&mdash;<a href=\"https://de.wikipedia.org/wiki/Vermaschtes_Netz\">Wikipedia</a></span>",
+  "i18n-meshnet-note": "<span class='p'>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</span><span class='p'>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Vermaschtes_Netz\">Wikipedia</a></span>",
 
 
 
@@ -195,12 +195,12 @@
   "i18n-editors-choice": "Redaktionsempfehlung",
   "i18n-nocodecs": "empfiehlt Edition ohne Codecs*",
   "i18n-tor-users-only": "nur für Tor-Nutzer",
-  "i18n-approval-required": "approval required",
+  "i18n-approval-required": "nur auf Antrag",
 
 
 
   "i18n-fsf-definition-title": "*Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
-  "i18n-fsf-quote": "&ldquo;Freie Software ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
+  "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
 
 
   "i18n-eff-title": "Trete in Aktion gegen PRISM im <strong>Electronic Frontier Foundation</strong> Action Center.",
@@ -252,7 +252,7 @@
 
 
 
-  "i18n-web-browser-addons-note": "<span class='p'>Beschütze Deine Privatsphäre, in dem Du Adblock Edge, Disconnect, HTTPS Everywhere, und NoScript in Deinem Browser installierst.</span> <span class='p'>Warum nicht Adblock Plus?<br>Adblock Plus zeigt &ldquo;unaufdringliche Werbung&rdquo; standardmäßig an und benutzt mehr Speicher als <strong>Adblock Edge</strong>.</span> <span class='p'>Warum nicht Ghostery?<br>Ghostery ist ein proprietäres Add-On. Benutze stattdessen <strong>Disconnect</strong>.</span>",
+  "i18n-web-browser-addons-note": "<span class='p'>Schütze Deine Privatsphäre, in dem Du Adblock Edge, Disconnect, HTTPS Everywhere, und NoScript für Deinen Browser installierst.</span> <span class='p'>Warum nicht Adblock Plus?<br>Adblock Plus zeigt &ldquo;unaufdringliche Werbung&rdquo; standardmäßig an und benutzt mehr Speicher als <strong>Adblock Edge</strong>.</span> <span class='p'>Warum nicht Ghostery?<br>Ghostery ist ein proprietäres Add-On. Benutze stattdessen <strong>Disconnect</strong>.</span>",
 
 
 
@@ -308,7 +308,7 @@
 
 
 
-  "i18n-dns-provider-note": "<span class='p'>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</span><span class='p'><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</span>",
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS speichert Deine Internetprovider- und Standort-Informationen permanent für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</span>",
 
 
   "i18n-darknet-note": "<span class='p'>&ldquo;Darknet (engl. für „Dunkles Netz“) beschreibt in der Informatik ein Peer-to-Peer-Netzwerk, dessen Teilnehmer ihre Verbindungen untereinander manuell herstellen.</span><span class='p'>Im Ergebnis bietet ein Darknet ein höheres Maß an Sicherheit, da einem Angreifer der Zugriff auf das Netzwerk nicht ohne weiteres möglich ist – oder er im Idealfall gar nichts von der Existenz des Netzwerks weiß.&ldquo;</span><span class='p'>&mdash; <a href=\"https://de.wikipedia.org/wiki/Darknet\">Wikipedia</a></span>",
