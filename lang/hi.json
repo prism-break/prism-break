@@ -1,17 +1,17 @@
 {
-  "i18n-title": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break",
-  "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
+  "i18n-title": "राष्ट्रीय सुरक्षा एजेंसी (एनएसए) के वैश्विक डाटा निगरानी कार्यक्रम प्रिज्म से बचे - PRISM Break",
+  "i18n-meta-description": "राष्ट्रीय सुरक्षा एजेंसी (एनएसए) के वैश्विक डाटा निगरानी कार्यक्रम प्रिज्म से बचे। प्रोपरायटरी साॅफ्टवेयर के स्थान पर वैकल्पिक मुक्त साॅफ्टवेयर का उपयोग कर अमेरिकी सरकार के लिए अपनी ऑनलाइन गतिविधियों की रिपोर्टिंग करना बंद करे।",
   "i18n-intro": "<strong>राष्ट्रीय सुरक्षा एजेंसी (एनएसए) के वैश्विक डाटा निगरानी कार्यक्रम प्रिज्म से बचे।</strong> प्रोपरायटरी साॅफ्टवेयर के स्थान पर वैकल्पिक मुक्त साॅफ्टवेयर का उपयोग कर अमेरिकी सरकार के लिए अपनी ऑनलाइन गतिविधियों की रिपोर्टिंग करना बंद करे।",
 
-  "i18n-proprietary": "Proprietary",
-  "i18n-free-alternative": "Free alternative",
-  "i18n-notes": "Notes",
+  "i18n-proprietary": "प्रोपरायटरी",
+  "i18n-free-alternative": "मुक्त विकल्प ",
+  "i18n-notes": "टीका",
 
   "i18n-operating-system" : "आपरेटिंग सिस्टम",
   "i18n-debian-desc": "लोकप्रिय एथिकल जीएनयु/लिनक्स वितरण.",
   "i18n-fedora-desc": "द्रुत, स्थिर, शक्तिशाली जीएनयु/लिनक्स वितरण.",
-  "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
-  "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
+  "i18n-linuxmint-desc": "सुविधापूर्ण एवं उपयोग में आसान जीएनयु/लिनक्स वितरण.",
+  "i18n-liberte-desc": "प्रतिकूल परिस्थितियों में संचार सहायक के रूप में अभिकल्पित लाइव सीडी/यूएसबी.",
   "i18n-tails-desc": "गोपनीयता लक्ष्यित लाइव सीडी/यूएसबी.",
   "i18n-trisquel-desc": "एफ.एस.एफ. समर्थित, उपयोक्ता मैत्रीपूर्ण जीएनयु/लिनक्स वितरण.",
 
@@ -20,9 +20,9 @@
   "i18n-firefox-desc": "ओपन सोर्स वेब ब्राउजर.",
   "i18n-torbrowser-desc": "एन्क्रिप्टेड, बेनाम ब्राउज़िंग.",
 
-  "i18n-web-browser-plugins": "Web browser plugins",
-  "i18n-adblockedge-desc": "Block advertisements on the web.",
-  "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
+  "i18n-web-browser-plugins": "वेब ब्राउजर प्लगिन",
+  "i18n-adblockedge-desc": "वेब विज्ञापन अवरोधी.",
+  "i18n-disconnect-desc": "अन्य पक्ष की साईट द्वारा लक्ष्यानुसारण रोके.",
   "i18n-httpseverywhere-desc": "हजारों वेबसाईटो के लिये आपके संचार को एन्क्रिप्ट करे.",
   "i18n-torbutton-desc": "आईसकेट एवं फ़ायरफ़ॉक्स के लिए टोर प्लगिन.",
 
@@ -128,8 +128,8 @@
   "i18n-chatsecure-desc": "कूटबद्घ आईआेएस त्वरीत संदेशन.",
   "i18n-onionbrowser-desc": "आईआेएस सुरक्षित ब्राउज़िंग.",
 
-  "i18n-meshnet": "Meshnet",
-  "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
+  "i18n-meshnet": "मेशनेट",
+  "i18n-meshnet-project-desc": "इंटरनेट का एक विकेन्द्रित विकल्प.",
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
 
   "i18n-add": "जोड़े",
