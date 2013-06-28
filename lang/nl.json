@@ -1,11 +1,11 @@
 {
-  "i18n-title": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break",
-  "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
+  "i18n-title": "Opt out voor PRISM, het wereldwijde datatoezichtsprogramma van de NSA - PRISM Break",
+  "i18n-meta-description": "Opt out of PRISM, het wereldwijde datatoezichtsprogramma van de NSA. Stop met het doorgeven van online activiteiten aan de Amerikaanse overheid met deze gratis alternatieven voor gesloten software.",
   "i18n-intro": "<strong>Opt out voor PRISM, het wereldwijde datatoezichtsprogramma van de NSA.</strong> Stop met het doorgeven van online activiteiten aan de Amerikaanse overheid met deze gratis alternatieven voor gesloten software.",
 
-  "i18n-proprietary": "Proprietary",
-  "i18n-free-alternative": "Free alternative",
-  "i18n-notes": "Notes",
+  "i18n-proprietary": "Gesloten",
+  "i18n-free-alternative": "Vrij alternative",
+  "i18n-notes": "Opmerkingen",
 
   "i18n-operating-system": "Besturingssysteem",
   "i18n-debian-desc": "Populaire ethische GNU/Linux distributie.",
@@ -129,7 +129,7 @@
   "i18n-onionbrowser-desc": "Versleuteld surfen voor iOS.",
 
   "i18n-meshnet": "Meshnet",
-  "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
+  "i18n-meshnet-project-desc": "Een gedecentraliseerd alternatief voor het internet.",
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
 
   "i18n-add": "toevoegen",
@@ -142,7 +142,7 @@
   "i18n-usa-hosted": "gehost in de vs",
   "i18n-newbies-choice": "aanrader voor beginners",
   "i18n-editors-choice": "keuze van de redacteur",
-  "i18n-approval-required": "approval required",
+  "i18n-approval-required": "goedkeuring benodigd",
 
   "i18n-fsf-definition-title": "*Deze website gebruikt de <strong>Free Software Foundation&rsquo;s</strong> definitie van vrije software.",
   "i18n-fsf-quote": "&ldquo;Vrije software&rdquo; is software die de vrijheid en gemeenschap van de gebruiker respecteert. Ruwweg betekent dit <strong>dat de gebruiker de vrijheid heeft om de software te gebruiken, kopi&euml;ren, verspreiden, ervan leren, veranderen en verbeteren</strong>. Deze vrijheden zorgen ervoor dat de gebruiker controle heeft over het programma en wat het voor hem doet.",
@@ -169,9 +169,9 @@
   "i18n-by": "door",
   "i18n-contribute-on": "Help mee op",
   "i18n-donate": "Doneer",
-  "i18n-contribute": "Contribute",
+  "i18n-contribute": "Help mee",
 
-  "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p><p>This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux has a much larger community to help you with the transition. It's recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p> <p>Why not Ubuntu? Ubuntu is a poor choice because it contains <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</p> <p>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>",
+  "i18n-operating-system-note": "<p>Apple, Google, en Microsoft zijn onderdeel van PRISM. Hun gesloten besturingssystemen kunnen niet vertrouwd worden om jouw persoonlijke informatie veilig te stellen van de NSA.</p><p>Er blijven twee vrije alternatieven over: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> en <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux heeft een veel grotere gemeenschap om je te helpen met overstappen. Het wordt aangeraden om te beginnen met zoeken naar een <a href='http://distrowatch.com/'>GNU/Linux distributie</a> die bij jou past.</p> <p>Waarom niet Ubuntu? Ubuntu is een slechte keus omdat het <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a> bevat.</p> <p>Opmerking: PRISM Break raadt de versie van<strong>Linux Mint</strong> zonder codecs aan, de andere uitgaves zitten vol met software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Meer informatie</a>.</p>",
 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
 
