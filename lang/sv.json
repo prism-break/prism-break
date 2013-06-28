@@ -1,11 +1,11 @@
 {
-  "i18n-title": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break",
-  "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
-  "i18n-intro": "<strong>Bryt bort från PRISM, NSAs globala övervakningsprogram.</strong> Sluta rapportera dina online-aktiviteter till den amerikanska regeringen med dessa gratis alternativ till proprietär programvara.",
+  "i18n-title": "Bryt ut från PRISM, NSAs globala övervakningsprogram - PRISM Break",
+  "i18n-meta-description": "Bryt ut från PRISM, NSAs globala övervakningsprogram. Sluta rapportera dina online-aktiviteter till den amerikanska regeringen med dessa gratis alternativ till proprietär programvara.",
+  "i18n-intro": "<strong>Bryt ut från PRISM, NSAs globala övervakningsprogram.</strong> Sluta rapportera dina online-aktiviteter till den amerikanska regeringen med dessa gratis alternativ till proprietär programvara.",
 
-  "i18n-proprietary": "Proprietary",
-  "i18n-free-alternative": "Free alternative",
-  "i18n-notes": "Notes",
+  "i18n-proprietary": "Proprietär",
+  "i18n-free-alternative": "Gratis alternativ",
+  "i18n-notes": "Noteringar",
 
   "i18n-operating-system" : "Operativsystem",
   "i18n-debian-desc": "Populär etisk GNU/Linux distribution.",
@@ -128,8 +128,8 @@
   "i18n-onionbrowser-desc": "Säker surfning för iOS.",
 
   "i18n-meshnet": "Meshnet",
-  "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
-  "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
+  "i18n-meshnet-project-desc": "Ett decentraliserat alternativ till internet.",
+  "i18n-meshnet-note": "<p>Ett meshnet är ett decentraliserat peer-till-peer nätverk, med användarkontrollerade fysiska länkar som normalt är trådlösa.</p><p>&ldquo;Mesh nätverk (topologi) är en typ av nätverk där varje nod inte bara måste fånga och sprida sin egen data, men också agera relä åt andra noder, det vill säga den måste samarbeta för att sprida datan i nätverket.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
 
   "i18n-add": "lägg till",
   "i18n-mostly-free": "mestadels gratis*",
@@ -138,14 +138,14 @@
   "i18n-partly-proprietary": "delvis proprietär*",
   "i18n-proprietary": "proprietär*",
   "i18n-invite-only": "endast-via-inbjudan",
-  "i18n-approval-required": "approval required",
+  "i18n-approval-required": "godkännande krävs",
 
   "i18n-fsf-definition-title": "*Denna webbplats använder <strong>Free Software Foundation&rsquo;s</strong> definition av fri programvara.",
   "i18n-fsf-quote": "&ldquo;Fri programvara&rdquo; betyder programvara som respekterar användarens&rsquo; frihet och gemenskap. MAO, <strong> användarna har frihet att köra, kopiera, distribuera, studera, ändra och förbättra programvaran</strong>. Med dessa friheter, kan användarna (både individuellt och kollektivt) styra programmet och vad det gör för dem.",
 
   "i18n-eff-title": "Ta till handling mot PRISM på <strong>Electronic Frontier Foundation</strong> handlingscenter.",
   "i18n-eff-quote-1": "<strong>MASSIV ÖVERVAKNING AVSLÖJAD</strong>",
-  "i18n-eff-quote-2": "Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It's time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.",
+  "i18n-eff-quote-2": "Nyliga rapporter av Guardian och Washington Post bekräftar hemliga spionprogram på telefondata och Internet aktivitet. Det är dags för ett fullt utlägg av Amerikas hemliga spionprogram-och ett slut på okonstitionell övervakning.",
 
   "i18n-more": "mera &hellip;",
   "i18n-the": "",
@@ -167,43 +167,43 @@
 
   "i18n-operating-system-note": "<p>Apple, Google, och Microsoft är delar av PRISM. Deras proprietära operativsystem kan inte litas på att skydda din personliga information från NSA.</p><p>Detta lämnar oss med två alternativ: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> och <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux har ett mycket störrecommunity att hjälpa dig med övergången. Det är rekommenderat att du börjar dina utforskningar genom att kolla efter en <a href='http://distrowatch.com/'>GNU/Linux distribution</a> som passar dina behov.</p> <p>Varför inte Ubuntu? Ubuntu är ett dåligt val eftersom det innehåller <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</p> <p>Notera: PRISM Break rekommenderar icke-codec versionen av <strong>Linux Mint</strong>, eftersom de andra versionerna är nedtyngda av mjukvarupatent. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Mer info</a>.</p>",
 
-  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
+  "i18n-android-note": "<p><strong>CyanogenMod</strong> licens: &ldquo;CyanogenMod inkluderar fortfarande viss hårdvaruspecifik kod, som också långsamt blir open-sourcad ändå.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> är ett gratis alternativ till Google Play app butiken.</p>",
 
-  "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</p>",
+  "i18n-ios-note": "<p>iOS är osäker, och tyvärr finns det inte många gratis krypteringsappar tillgängliga för iOS heller. Det är också <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>omöjligt att verifiera</a> om en iOS app kompilerats från originalkällan.</p>",
 
-  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</p> <p>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</p> <p>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-web-browser-note": "<p>Använd en kombination av <strong>Tor Browser</strong> och en valfri gratis webbläsare för att surfa på webben.</p> <p>Testa att använda <strong>Tor Browser</strong> så ofta som möjligt. Att surfa är långsammare med Tor, men mycket mer säkert.</p> <p>Notera: <strong>Mozilla Firefox</strong> är tekniskt sett inte helt gratis mjukvara, eftersom Mozilla rekommenderar icke-gratis tillägg på deras webbsida.</p>",
 
-  "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p> <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
+  "i18n-web-browser-addons-note": "<p>Skydda din integritet och hindra webbsidor från att spåra dig genom att installera Adblock Edge, Disconnect, HTTPS Everywhere, och NoScript i din webbläsare.</p> <p>Varför inte Adblock Plus? Adblock Plus visar &ldquo;acceptabla annonser&rdquo; som standard, och använder mer arbetsminne än <strong>Adblock Edge</strong>.</p> <p>Varfär inte Ghostery? Ghostery är en proprietär plugin. Använd <strong>Disconnect</strong> istället.</p>",
 
-  "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
+  "i18n-web-search-note": "<p><strong>Startpage</strong> är proprietär, hostad i USA/Nederländerna, och ger dig anonymiserade Google sökresultat (inklusive bilder).</p><p><strong>DuckDuckGo</strong> är delvis proprietär, hostad i USA, och ger dig anonymiserade Bing sökresultat.</p><p> Välj ditt gift.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
+  "i18n-email-services-note": "<p><strong>Riseup</strong> är hostad i USA, om det nu spelar någon roll.</p><p>Varfär inte Hushmail? Se <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;kompromisser till email integritet&rdquo;</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> är tekniskt sett inte helt gratis mjukvara eftersom Mozilla rekommenderar icke-gratis tillägg på deras webbsida..</p>",
 
-  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
+  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) är ett data krypterings- och dekrypterings-program som tillhandahåller kryptografisk integritet och autentikation för data kommunikation.  PGP används ofta för att signera, kryptera, och dekryptera texter, email, filer, arkiv, och hela hårddiskar för att öka säkerheten vid email kommunikation.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>Be sure to look at <strong>Cryptocat</strong> in the Web browser add-ons section as well.</p></p>",
+  "i18n-instant-messaging-note": "<p>Kolla in <strong>Cryptocat</strong> i webbläsartillägg sektionen också.</p></p>",
 
-  "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p><p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
+  "i18n-video-voip-note": "<p><strong>Jitsi</strong> är en drop-in krypterad ersättare för nästan alla ändamål som Skype används för.</p><p><strong>Mumble</strong> är en open source röstchatt klient i samma stil som Ventrilo och TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> är ett uppkommande, lovande webbläsare-till-webbläsare kommunikations API.",
 
-  "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
+  "i18n-online-transactions-note": "<p><strong>Bitcoin</strong> blockkedjan är en decentraliserad publik huvudbok av alla transaktioner i Bitcoinnätverket.</p><p>&ldquo;Det kan vara pengarnas TCP/IP.&rdquo; &mdash;Paul Buchheit</p>",
 
-  "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</p>",
+  "i18n-media-publishing-note": "<p><strong>Själv-hostad</strong> är viktigt. Att hosta din blogg på Wordpress.com är inget bättre för din datasäkerhet än Blogger eller Tumblr.</p>",
 
   "i18n-document-collaboration-note": "<p>--</p>",
 
   "i18n-maps-note": "<p>--</p>",
 
-  "i18n-cloud-storage-note": "<p>Varför inte MEGA? Medan MEGA är gratis som i öl, så är mjukvaran stängd kod..</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
+  "i18n-cloud-storage-note": "<p>Varför inte MEGA? Medan MEGA är gratis som i öl, så är mjukvaran stängd kod.</p><p>Varför inte SpiderOak? SpiderOak är proprietär mjukvara.</p><p>Varför inte Tarsnap? Tarsnap är delvis proprietär och lagrar din data på Amazon Web Services.</p>",
 
-  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analys körs på denna sida. Det är uppsatt till att anonymisera de sista siffrora (255.255.255.???) av besökares IP. Kolla in live-datan här: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
-  "i18n-dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
+  "i18n-dns-provider-note": "<p>Google Public DNS loggar din ISP och platsinformation permanent för analys. Din IP adress lagras också i 24 timmar.</p><p><strong>OpenNIC</strong> har inte adopterat en officiell policy om loggning/integritet/anonymisering. Mer information <a href='http://wiki.opennicproject.org/Tier2'>här</a>.</p>",
 
-  "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
+  "i18n-darknet-note": "<p>&ldquo;Ett darknet är ett anonymiserade nätverk där anslutningar är gjorda enbart mellan pålitliga kamrater.</p><p>Darknets är distinkta från andra distribuerade P2P nätverk eftersom delning är anonym, och därför kan användare med lite rädsla för statliga eller korporativa hinder.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
 
-  "i18n-disclaimer": "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
+  "i18n-disclaimer": "Disclaimer: Att använda de rekommenderade projekten på denna sida kommer inte garantera att 100% av din kommunikation blir skyddad mot övervakningsstater. Var vänlig gör din egen research innan du litar på dessa mjukvaror med känslig information."
 }
