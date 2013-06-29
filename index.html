@@ -643,7 +643,7 @@
         </tr>
 
         <tr>
-          <td class="section" >
+          <td class="section">
             <h3 id="email-encryption"><a href="#email-encryption"><span class="i18n-email-encryption">Email encryption</span></a></h3>
           </td>
           <td class="prop">
@@ -670,14 +670,12 @@
                   <span class="i18n-gnuprivacyguard-desc">Free OpenPGP implementation.</span>
                 </span>
               </li>
-
             </ul>
           </td>
           <td class="note">
             <span class="i18n-email-encryption-note">
               <p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p>
-              <p>&mdash; <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">Wikipedia</a>
-
+              <p>&mdash; <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">Wikipedia</a></p>
             </span>
           </td>
         </tr>
@@ -1016,13 +1014,13 @@
             <span class="i18n-video-voip-note">
               <p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p>
               <p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p>
-              <p><a href="http://www.webrtc.org/">WebRTC</a> is an upcoming, promising browser to browser communications API.
+              <p><a href="http://www.webrtc.org/">WebRTC</a> is an upcoming, promising browser to browser communications API.</p>
             </span>
           </td>
         </tr>
 
         <tr>
-          <td class="section" >
+          <td class="section">
             <h3 id="online-transactions"><a href="#online-transactions"><span class="i18n-online-transactions">Online transactions</span></a></h3>
           </td>
           <td class="prop">
@@ -1071,7 +1069,7 @@
         </tr>
 
         <tr>
-          <td class="section" >
+          <td class="section">
             <h3 id="media-publishing"><a href="#media-publishing"><span class="i18n-media-publishing">Media publishing</span></a></h3>
           </td>
           <td class="prop">
@@ -1158,7 +1156,7 @@
         </tr>
 
         <tr>
-          <td class="section" >
+          <td class="section">
             <h3 id="document-collaboration"><a href="#document-collaboration"><span class="i18n-document-collaboration">Document collaboration</span></a></h3>
           </td>
           <td class="prop">
@@ -1208,7 +1206,7 @@
         </tr>
 
         <tr>
-          <td class="section" >
+          <td class="section">
             <h3 id="maps"><a href="#maps"><span class="i18n-maps">Maps</span></a></h3>
           </td>
           <td class="prop">
@@ -1326,7 +1324,7 @@
         </tr>
 
         <tr>
-          <td class="section" >
+          <td class="section">
             <h3 id="web-analytics"><a href="#web-analytics"><span class="i18n-web-analytics">Web analytics</span></a></h3>
           </td>
           <td class="prop">
@@ -1900,12 +1898,12 @@
         $("select option:selected").each(function () {
           for(var i=0; i < langs.length; i++)
         {
-          if( $(this).attr('id') == ('lang-'+langs[i]) )
-        {
-          getLang(langs[i]);
-          window.location.hash = langs[i];
-          break;
-        }
+	          if( $(this).attr('id') == ('lang-'+langs[i]) )
+	        {
+	          getLang(langs[i]);
+	          window.location.hash = langs[i];
+	          break;
+	        }
         }
         });
       });
@@ -1925,10 +1923,10 @@
             if(key == 'i18n-meta-description')
               $('.i18n-meta-description').attr("content", val);
             else
-              i18nSpans = $('html').find("." + key)
+              i18nSpans = $('html').find("." + key);
               i18nSpans.html(val);
-          i18nSpans.stop().css("background-color", "#FFFF9C")
-            .animate({ backgroundColor: "transparent"}, 1500);;
+              i18nSpans.stop().css("background-color", "#FFFF9C")
+            .animate({ backgroundColor: "transparent"}, 1500);
           });
         });
       };
