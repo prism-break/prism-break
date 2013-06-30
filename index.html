@@ -86,19 +86,20 @@
     </div>
 
     <div id="content" class="container">
-      <table>
-        <tr>
+      <div id="table">
+        <section>
           <th class="section"></th>
           <th class="prop"><span class="i18n-proprietary">Proprietary</span></th>
           <th class="free"><span class="i18n-free-alternative">Free alternative</span></th>
           <th class="note"><span class="i18n-notes">Notes</span></th>
-        </tr>
+        </section>
 
-        <tr>
-          <td class="section">
+
             <h3 id="operating-system"><a href="#operating-system"><span class="i18n-operating-system">Operating system</span></a></h3>
-          </td>
-          <td class="prop">
+
+
+        <section id="operating-system">
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple-osx.png" alt="" /></div>
@@ -113,8 +114,8 @@
                 <div class="name">Microsoft Windows</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://trisquel.info/"><img src="assets/img/free/trisquel.png" alt="" /></a>
@@ -172,8 +173,8 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-operating-system-note">
               <p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p>
               <p>This leaves us with two free alternatives: <strong><a href="https://www.gnu.org/distros/free-distros.html">GNU/Linux</a></strong> and <strong><a href="https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems">BSD</a></strong>.
@@ -181,14 +182,14 @@
               <p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href="https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks">Amazon ads and data leaks</a> by default.</p>
               <p><strong>Linux Mint</strong> is probably the easiest-to-use distribution for people migrating from Microsft Windows. We recommend the no-codecs edition, as the others are encumbered with software patents. <a href="https://github.com/nylira/prism-break/issues/126#issuecomment-19898104">More info</a>.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="android"><a href="#android">Android</a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/android.png" alt="" /></div>
@@ -199,8 +200,8 @@
                 <div class="name">Google Play</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.cyanogenmod.org/"><img src="assets/img/free/cyanogenmod.png" alt="" /></a>
@@ -233,28 +234,28 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-android-note">
               <p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href="https://en.wikipedia.org/wiki/CyanogenMod#Licensing">Wikipedia</a></p>
               <p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="ios"><a href="#ios">iOS</a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/ios.png" alt="" /></div>
                 <div class="name">Apple iOS</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="https://en.wikipedia.org/wiki/IPhone#Secret_tracking"><img src="assets/img/free/prohibition.png" alt="" /></a>
@@ -266,20 +267,20 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-ios-note">
               <p>iOS is insecure, and unfortunately there aren&lsquo;t a lot of free encryption apps available for iOS either. It&lsquo;s also <a href="http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r">impossible to verify</a> whether if an iOS app was compiled from the original source.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="web-browser"><a href="#web-browser"><span class="i18n-web-browser">Web browser</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple-safari.png" alt="" /></div>
@@ -294,8 +295,8 @@
                 <div class="name">Microsoft Internet Explorer</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="https://www.torproject.org/index.html.en"><img src="assets/img/free/tor.png" alt="" /></a>
@@ -348,24 +349,24 @@
               </li>
 
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-web-browser-note">
               <p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be a bit slower, but it's far more secure.</p>
               <p>Note that using <strong>Tor Browser</strong> to log into PayPal or a banking website may trip the website's fraud protection software.</p>
               <p>Users of <strong>Tor Browser</strong> should also be aware that logging into HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p>
               <p>While the <strong>Firefox</strong> source code from the Mozilla project is free software, they distribute and recommend non-free software as plug-ins and addons.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="browser-addons"><a href="#browser-addons"><span class="i18n-web-browser-plugins">Web browser add-ons</span></a></h3>
-          </td>
-          <td class="prop">
-          </td>
-          <td class="free">
+          </div>
+          <div class="prop">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="https://www.eff.org/https-everywhere"><img src="assets/img/free/httpseverywhere.png" alt="" /></a>
@@ -431,22 +432,22 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-web-browser-addons-note">
               <p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p>
               <p><strong>Cryptocat</strong> and <strong>Mailvelope</strong> are browser addons for IM and email encryption, respectively. At this time, it may be more secure to use external software for more proven encryption.</p>
               <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p>
               <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="web-search"><a href="#web-search"><span class="i18n-web-search">Web search</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google.png" alt="" /></div>
@@ -461,8 +462,8 @@
                 <div class="name">Yahoo! Search</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://startpage.com/"><img src="assets/img/free/startpage.png" alt="" /></a>
@@ -501,21 +502,21 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-web-search-note">
               <p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p>
               <p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with search results from <a href="http://help.dukgo.com/customer/portal/articles/216399-sources">these sources</a>.</p>
               <p>Pick your poison.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="email-services"><a href="#email-services"><span class="i18n-email-services">Email services</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google-mail.png" alt="" /></div>
@@ -534,8 +535,8 @@
                 <div class="name">Yahoo! Mail</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.autistici.org/en/index.html"><img src="assets/img/free/autistici.png" alt="" /></a>
@@ -587,8 +588,8 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-email-services-note">
               <p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p>
               <p><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</p>
@@ -597,14 +598,14 @@
               <p>The only way to have full control over your email is to run your own mail server (e.g. with <strong>Kolab</strong>). This is not for everyone though, as it requires considerable time investment and technical knowledge.</p>
               <p>While not complete yet, the <a href="https://www.freedomboxfoundation.org/">FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="email-clients"><a href="#email-clients"><span class="i18n-email-clients">Email desktop clients</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple.png" alt="" /></div>
@@ -619,8 +620,8 @@
                 <div class="name">Novell Groupwise</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="https://www.mozilla.org/en-US/thunderbird/"><img src="assets/img/free/thunderbird.png" alt="" /></a>
@@ -668,24 +669,24 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-email-clients-note">
               <p><a href="http://www.enigmail.net/documentation/quickstart.php">Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p>
               <p>While the <strong>Thunderbird</strong> source code from the Mozilla project is free software, they distribute and recommend non-free software as plug-ins and addons.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="email-encryption"><a href="#email-encryption"><span class="i18n-email-encryption">Email encryption</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.enigmail.org/"><img src="assets/img/free/enigmail.png" alt="" /></a>
@@ -706,20 +707,20 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-email-encryption-note">
               <p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p>
               <p>&mdash; <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">Wikipedia</a></p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section" >
             <h3 id="social-networking"><a href="#social-networking"><span class="i18n-social-networking">Social networking</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google-plus.png" alt="" /></div>
@@ -738,8 +739,8 @@
                 <div class="name">Twitter</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://pump.io/"><img src="assets/img/free/pumpio.png" alt="" /></a>
@@ -836,19 +837,19 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-social-networking-note">
               <p><strong><a href="https://identi.ca/">identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="instant-messaging"><a href="#instant-messaging"><span class="i18n-instant-messaging">Instant messaging</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/aim.png" alt="" /></div>
@@ -867,8 +868,8 @@
                 <div class="name">Yahoo! Messenger</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.pidgin.im/"><img src="assets/img/free/pidgin.png" alt="" /></a>
@@ -957,17 +958,17 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-instant-messaging-note"><p><strong>Cryptocat</strong> in the Web browser add-ons section may be of interest as well.</p></span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section" >
             <h3 id="video-voip"><a href="#video-voip"><span class="i18n-video-voip">Video conferencing &amp; VoIP</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/facetime.png" alt="" /></div>
@@ -986,8 +987,8 @@
                 <div class="name">Skype</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="https://jitsi.org/"><img src="assets/img/free/jitsi.png" alt="" /></a>
@@ -1042,21 +1043,21 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-video-voip-note">
               <p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p>
               <p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p>
               <p><a href="http://www.webrtc.org/">WebRTC</a> is an upcoming, promising browser to browser communications API.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="online-transactions"><a href="#online-transactions"><span class="i18n-online-transactions">Online transactions</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/paypal.png" alt="" /></div>
@@ -1067,8 +1068,8 @@
                 <div class="name">Google Wallet</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://bitcoin.org/"><img src="assets/img/free/bitcoin.png" alt="" /></a>
@@ -1092,20 +1093,20 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-online-transactions-note">
               <p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p>
               <p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="media-publishing"><a href="#media-publishing"><span class="i18n-media-publishing">Media publishing</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/flickr.png" alt="" /></div>
@@ -1130,8 +1131,8 @@
                 <div class="name">YouTube</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://noblogs.org"><img src="assets/img/free/noblogs.png" alt="noblogs" /></a>
@@ -1180,19 +1181,19 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-media-publishing-note">
               <p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="document-collaboration"><a href="#document-collaboration"><span class="i18n-document-collaboration">Document collaboration</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google-drive.png" alt="" /></div>
@@ -1207,8 +1208,8 @@
                 <div class="name">Zoho Office Suite</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://etherpad.org/"><img src="assets/img/free/etherpad.png" alt="" /></a>
@@ -1230,19 +1231,19 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-document-collaboration-note">
               <p>--</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="maps"><a href="#maps"><span class="i18n-maps">Maps</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple.png" alt="" /></div>
@@ -1253,8 +1254,8 @@
                 <div class="name">Google Maps</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.openstreetmap.org/"><img src="assets/img/free/openstreetmap.png" alt="" /></a>
@@ -1266,19 +1267,19 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-maps-note">
               <p>--</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section" >
             <h3 id="cloud-storage"><a href="#cloud-storage"><span class="i18n-cloud-storage">Cloud storage</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple-icloud.png" alt="" /></div>
@@ -1297,8 +1298,8 @@
                 <div class="name">Microsoft SkyDrive</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://git-annex.branchable.com/assistant/"><img src="assets/img/free/git-annex.png" alt="" /></a>
@@ -1346,29 +1347,29 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-cloud-storage-note">
               <p>Why not MEGA? While MEGA is free as in beer, the software is proprietary.</p>
               <p>Why not SpiderOak? SpiderOak is proprietary software.</p>
               <p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="web-analytics"><a href="#web-analytics"><span class="i18n-web-analytics">Web analytics</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google.png" alt="" /></div>
                 <div class="name">Google Analytics</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://piwik.org/"><img src="assets/img/free/piwik.png" alt="" /></a>
@@ -1380,28 +1381,28 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-web-analytics-note">
               <p><strong>Piwik</strong> analytics powers this site. It&lsquo;s set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href="http://prism-break.org/analytics">prism-break.org/analytics</a>.
             </p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section" >
             <h3 id="dns-provider"><a href="#dns-provider"><span class="i18n-dns-provider">DNS provider</span></a></h3>
-          </td>
-          <td class="prop">
+          </div>
+          <div class="prop">
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google.png" alt=""></div>
                 <div class="name">Google Public DNS</div>
               </li>
             </ul>
-          </td>
-          <td class="free">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.opennicproject.org/"><img src="assets/img/free/opennic.png" alt="" /></a>
@@ -1422,22 +1423,22 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-dns-provider-note">
               <p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p>
               <p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="darknet"><a href="#darknet"><span class="i18n-darknet">Darknet</span></a></h3>
-          </td>
-          <td class="prop">
-          </td>
-          <td class="free">
+          </div>
+          <div class="prop">
+          </div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.i2p2.de/"><img src="assets/img/free/i2p.png" alt="" /></a>
@@ -1476,22 +1477,22 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-darknet-note">
               <p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p>
               <p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p>
               <p>&mdash;<a href="https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29">Wikipedia</a></p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td class="section">
             <h3 id="meshnet"><a href="#meshnet"><span class="i18n-meshnet">Meshnet</span></a></h3>
-          </td>
-          <td class="prop"></td>
-          <td class="free">
+          </div>
+          <div class="prop"></div>
+          <div class="free">
             <ul>
               <li class="best">
                 <a class="logo" href="https://projectmeshnet.org/"><img src="assets/img/free/projectmeshnet.png" alt="" /></a>
@@ -1503,27 +1504,27 @@
                 </span>
               </li>
             </ul>
-          </td>
-          <td class="note">
+          </div>
+          <div class="note">
             <span class="i18n-meshnet-note">
               <p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p>
               <p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p>
               <p>&mdash;<a href="https://en.wikipedia.org/wiki/Mesh_networking">Wikipedia</a>
             </p>
             </span>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td colspan="4" class="bottom blockquote">
             <h2><span class="i18n-fsf-definition-title">*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.</span></h2>
             <blockquote>
               <p><span class="i18n-fsf-quote">&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.</span>  <a href="http://www.gnu.org/philosophy/free-sw.html">(<span class="i18n-more">more &hellip;</span>)</a></p>
               <cite>&mdash;<span class="i18n-the">The</span> <a href="https://www.fsf.org/">Free Software Foundation</a></cite>
             </blockquote>
-          </td>
-        </tr>
-        <tr>
+          </div>
+        </section>
+        <section>
           <td colspan="4" class="bottom blockquote">
             <h2><span class="i18n-eff-title">Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.</span></h2>
             <blockquote>
@@ -1531,10 +1532,10 @@
               <p><span class="i18n-eff-quote-2">Recent reports by the Guardian and the Washington Post confirm secret spying programs on phone records and Internet activity. It&lsquo;s time for a full accounting of America's secret spying programs—and an end to unconstitutional surveillance.</span> <a href="https://www.eff.org/action">(<span class="i18n-more">more &hellip;</span>)</a></p>
               <cite>&mdash;<span class="i18n-the">The</span> <a href="https://www.eff.org/">Electronic Frontier Foundation</a></cite>
             </blockquote>
-          </td>
-        </tr>
+          </div>
+        </section>
 
-        <tr>
+        <section>
           <td colspan="4" id="press" class="bottom">
             <h2><span class="i18n-media-title">Mentioned by the media.</span></h2>
             <h3><span class="i18n-catalan">Catalan</span></h3>
@@ -1928,8 +1929,8 @@
                 <span class="date">2013-06-17.</span>
               </li>
             </ul>
-          </td>
-        </tr>
+          </div>
+        </section>
       </table>
 
     </div><!--content-->
