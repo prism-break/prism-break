@@ -1,10 +1,10 @@
 {
-  "i18n-title": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break",
+  "i18n-title": "Opt out of PRISM, le programme global de surveillance des données de NSA&rsquo;s - PRISM Break",
   "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
   "i18n-intro": "<strong>Refusez PRISM, le programme de surveillance globale des données de la NSA.</strong> Arrêtez de déclarer vos activités en ligne au gouvernement américain avec ces alternatives libres aux logiciels propriétaires.",
 
-  "i18n-proprietary": "Proprietary",
-  "i18n-free-alternative": "Free alternative",
+  "i18n-proprietary": "Proprietaire",
+  "i18n-free-alternative": "Alternative libre",
   "i18n-notes": "Notes",
 
   "i18n-operating-system" : "Système d'exploitation",
@@ -129,7 +129,7 @@
   "i18n-onionbrowser-desc": "Navigation sécurisée pour iOS.",
 
   "i18n-meshnet": "Meshnet",
-  "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
+  "i18n-meshnet-project-desc": "Une alternative decentralisée à internet.",
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
 
   "i18n-add": "ajouter",
@@ -162,17 +162,17 @@
   "i18n-italian": "Italiens",
   "i18n-polish": "Polonais",
   "i18n-spanish": "Espagnols",
-  "i18n-chinese-traditional": "Chinois (Traditionnel)",
+  "i18n-chinese-traditional": "Chinois (traditionnel)",
 
   "i18n-updated": "Mis à jour",
   "i18n-by": "par",
   "i18n-contribute-on": "Contribuer sur",
   "i18n-donate": "Faire un don",
-  "i18n-contribute": "Contribute",
+  "i18n-contribute": "Contribuer",
 
-  "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p><p>This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux has a much larger community to help you with the transition. It's recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p> <p>Why not Ubuntu? Ubuntu is a poor choice because it contains <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</p> <p>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>",
+  "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are a part of PRISM. Leurs systèmes d'exploitation propriétaires ne sont pas surs pour protéger vos informations personnelles de la NSA.</p><p>Cela nous laisse avec 2 alternatives libres : <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> et <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux a une  communauté bien plus grosse pour aider à la transition. Il est recommandé que vous commenciez vos explorations avec une <a href='http://distrowatch.com/'>distribution GNU/Linux</a> qui convient à vos besoins.</p> <p>Pourquoi pas Ubuntu ? Ubuntu est un mauvais choix parce qu'il contient des <a href='https://www.gnu.org/philosophy/ubuntu-spyware.fr.html'>spywares</a>.</p> <p>Note : PRISM Break recommande la version sans codecs de <strong>Linux Mint</strong>, car les autres éditions sont sujets à des problèmes de brevets logiciels. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Plus d'informations</a>.</p>",
 
-  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
+  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> est une alternative libre au marché d'applications Google Play.</p>",
 
   "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</p>",
 
@@ -184,7 +184,7 @@
 
   "i18n-email-services-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-email-clients-note": "<p>Note : <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 
@@ -202,7 +202,7 @@
 
   "i18n-maps-note": "<p>--</p>",
 
-  "i18n-cloud-storage-note": "<p>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
+  "i18n-cloud-storage-note": "<p>Pourquoi pas MEGA ? While MEGA is free as in beer, the software is proprietary code.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Pourquoi pas Tarsnap ? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
 
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
@@ -210,6 +210,6 @@
 
   "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
 
-  "i18n-disclaimer": "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
+  "i18n-disclaimer": "Disclaimer : Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
 
 }
