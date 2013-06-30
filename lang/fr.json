@@ -1,5 +1,5 @@
 {
-  "i18n-title": "Opt out of PRISM, le programme global de surveillance des données de NSA&rsquo;s - PRISM Break",
+  "i18n-title": "Refuser PRISM, le programme global de surveillance des données de NSA&rsquo;s - PRISM Break",
   "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
   "i18n-intro": "<strong>Refusez PRISM, le programme de surveillance globale des données de la NSA.</strong> Arrêtez de déclarer vos activités en ligne au gouvernement américain avec ces alternatives libres aux logiciels propriétaires.",
 
@@ -177,33 +177,33 @@
 
   "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</p>",
 
-  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</p> <p>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</p> <p>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-web-browser-note": "<p>Utilisez une combinaison de <strong>Tor Browser</strong> et d'un navigateur web libre de votre choix pour surfer sur le Web.</p> <p>Essayez d'utiliser <strong>Tor Browser</strong> autant que possible. Browsing is slower with Tor, but far more secure.</p> <p>Note: <strong>Mozilla Firefox</strong> n'est techniquement pas totalement un logiciel libre, car Mozilla recommande des plugins non libres sur leur site web.</p>",
 
-  "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p> <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
+  "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p> <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery ? Ghostery is a proprietary plugin. À la place utilisez <strong>Disconnect</strong>.</p>",
 
-  "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
+  "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Choisissez votre poison.</p>",
 
   "i18n-email-services-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Note : <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-email-clients-note": "<p>Note : <strong>Mozilla Thunderbird</strong> n'est techniquement pas totalement un logiciel libre, car Mozilla recommande des plugins non libres sur leur site web.</p>",
 
-  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
+  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://fr.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipédia</a>",
 
   "i18n-social-networking-note": "<p>--</p>",
 
   "i18n-instant-messaging-note": "<p>Be sure to look at <strong>Cryptocat</strong> in the Web browser add-ons section as well.</p></p>",
 
-  "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p><p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
+  "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p><p><strong>Mumble</strong> est un client de chat audio open source dans le même style que Ventrilo et TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
 
   "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
 
-  "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</p>",
+  "i18n-media-publishing-note": "<p>L'<strong>auto-hébergement</strong> est important. Héberger votre blog sur Wordpress.com n'est pas mieux pour la sécurité de vos données que Blogger ou Tumblr.</p>",
 
   "i18n-document-collaboration-note": "<p>--</p>",
 
   "i18n-maps-note": "<p>--</p>",
 
-  "i18n-cloud-storage-note": "<p>Pourquoi pas MEGA ? While MEGA is free as in beer, the software is proprietary code.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Pourquoi pas Tarsnap ? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
+  "i18n-cloud-storage-note": "<p>Pourquoi pas MEGA ? While MEGA is free as in beer, the software is proprietary code.</p><p>Pourquoi pas SpiderOak ? SpiderOak est un logiciel propriétaire.</p><p>Pourquoi pas Tarsnap ? Tarsnap est partiellement proprietaire et héberge vos données sur Amazon Web Services.</p>",
 
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
