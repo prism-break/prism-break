@@ -55,10 +55,11 @@ h3 > a:hover{color:#000;text-decoration:underline}
 #header-site ul li a.plain{color:#333}
 #header-site ul li a.plain:hover{color:#09c}
 #header-site ul li#brand{padding:0}
-#brand h1{width:240px;margin:0 .1em 0 0;font-size:1.25em;line-height:48px;text-transform:uppercase;text-align:center;display:inline-block;font-weight:normal}
+#brand h1{padding:0 16px;margin:0 .1em 0 0;font-size:1.25em;line-height:48px;text-transform:uppercase;text-align:center;display:inline-block;font-weight:normal}
 #brand h1 a{color:#333}
 #brand h1 a .lightning{color:#999}
 #brand h1 a:hover,#brand h1 a:hover .lightning{color:#09c}
+#page-switch{display:none}
 #page-switch .switch{border:1px solid #ddd;height:30px;margin:8px 0}
 #page-switch .switch a.switch-button{line-height:30px;display:block;padding:0 .5em;float:left;width:90px;text-align:center}
 #page-switch .switch a.switch-button.default{border-right:1px solid #ddd}
