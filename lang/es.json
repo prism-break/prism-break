@@ -61,7 +61,7 @@
   "i18n-kmail-desc": "Cliente de correo para KDE con soporte para GPG.",
   "i18n-thunderbird-desc": "Aplicación de correo electrónico de código abierto.",
 
-  "i18n-email-encryption": "Cifrado de correo Electrónico",
+  "i18n-email-encryption": "Cifrado de Correo Electrónico",
   "i18n-enigmail-desc": "Un agregado de OpenPGP para Thunderbird/Icedove.",
   "i18n-gnuprivacyguard-desc": "Implementación libre y gratuita de OpenPGP.",
   "i18n-mailvelope-desc": "Cifrado OpenPGP para webmail.",
@@ -131,9 +131,9 @@
   "i18n-chatsecure-desc": "IM cifrado para iOS.",
   "i18n-onionbrowser-desc": "Navegación segura para iOS.",
 
-  "i18n-meshnet": "Meshnet",
+  "i18n-meshnet": "Meshnet (Red en Malla)",
   "i18n-meshnet-project-desc": "Una alternativa descentralizada a la internet.",
-  "i18n-meshnet-note": "<span class='p'>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</span><span class='p'>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</span><span class='p'>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></span>",
+  "i18n-meshnet-note": "<span class='p'>Una meshnet es una red descentralizada de par a par, con enlaces físicos controlados por usuarios, usualmente inalámbricos.</span><span class='p'>&ldquo;Las redes en malla (como topología) son un tipo de red donde cada nodo no solamente debe capturar y diseminar su propia información, sino también serviro como relevo para otros nodos, es decir, debe colaborar para propagar la información en la red.&ldquo;</span><span class='p'>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia (en inglés)</a></span>",
 
   "i18n-add": "agregar",
   "i18n-mostly-free": "Casi libre*",
@@ -193,7 +193,7 @@
 
   "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) es un programa computacional de cifrado y descifrado que provee privacidad y autenticación criptográficas para comunicación de datos. PGP suele usarse para firmar, cifrar y desencriptar textos, correos electrónicos, archivos, directorios y particiones completas de disco para incrementar la seguridad de las comunicaciones por correo electrónico.&rdquo;</span><span class='p'>&mdash; <a href='https://es.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 
-   "i18n-social-networking-note": "<span class='p'><strong><a href=\"https://identi.ca/\">identi.ca</a></strong> es una popular red social similar a Twitter, para la comunidad de software libre y abierto. El sitio se convertirá a la plataforma de software <strong>pump.io</strong> en breve.</span>",
+  "i18n-social-networking-note": "<span class='p'><strong><a href=\"https://identi.ca/\">identi.ca</a></strong> es una popular red social similar a Twitter, para la comunidad de software libre y abierto. El sitio se convertirá a la plataforma de software <strong>pump.io</strong> en breve.</span>",
 
   "i18n-instant-messaging-note": "<span class='p'>Asegúrate de revisar también <strong>Cryptocat</strong> en la sección de agregados para navegador web.</span></span>",
 
