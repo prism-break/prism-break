@@ -102,7 +102,7 @@ body p.intro{font:1.25em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;padding
 body section{width:100%;zoom:1;}
 body section:before,body section:after{content:"";display:table}
 body section:after{clear:both}
-body section header h2{border-top:1px solid #333;font-size:1.25em;font-weight:normal}
+body section header h2{border-top:1px solid #ddd;font-size:1.25em;font-weight:normal}
 body section h3{border-top:1px solid #ddd;display:block;width:100%}
 body section div.prop,body section div.free{float:left;height:auto;}
 body section div.prop ul,body section div.free ul{border-bottom:none;}
