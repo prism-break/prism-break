@@ -1,0 +1,77 @@
+x = 16px
+sm = 13px
+
+df()
+  s x
+  lh 1.5
+  ff sans
+  c txt
+
+anchor()
+  c link
+  td none
+  &:hover, &:focus
+    c hover
+
+strong
+  fw bold
+
+a
+  anchor()
+
+h2
+  s x*1
+  lh 2
+  ff sans
+  c #fff
+  p 0 x*.5
+  bg #333
+
+h3
+  lh 2
+  ff sans
+  c txt
+  bb 1px solid #ddd
+  bg #f3f3f3
+  p 0 x*.5
+
+
+h3 > a
+  color: #000
+
+h3 > a:hover
+  color: #000
+  text-decoration: underline
+
+p.intro
+  font-weight: normal
+  color: #666
+  margin: 0
+  p 1em
+  max-width: 45em
+
+  strong
+    color: #333
+    font-weight bold
+
+.fs
+  border: 1px solid #ddd
+  font-size: 12px
+  line-height: 16px
+  display: inline-block
+  padding: 0 .4em
+  font-weight: normal
+  vertical-align: text-bottom
+
+.fs.icon
+  padding: 0
+  background: transparent
+  border: none
+
+.fs.icon img
+  width: 18px
+  height: 18px
+  vertical-align: bottom
+
+.fs.newbie
+  background: #4a0
