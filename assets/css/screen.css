@@ -483,7 +483,11 @@ footer {
 }
 @media (min-width: 481px) {
   body section div.free ul li h4 {
+    line-height: 1.5em;
     display: block;
+  }
+  body section div.free ul li p {
+    line-height: 1.5em;
   }
 }
 @media (min-width: 768px) {
