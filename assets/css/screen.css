@@ -299,12 +299,33 @@ h1#brand a:hover .lightning {
 #menu {
   display: none;
 }
-#languages {
+#header-site ul.nav {
   float: right;
   height: 48px;
+}
+#header-site ul.nav li {
+  float: left;
+}
+#header-site ul.nav li#donate,
+#header-site ul.nav li#contribute {
+  display: none;
+}
+#header-site ul.nav li#donate a,
+#header-site ul.nav li#contribute a {
+  display: block;
+  line-height: 3em;
+  padding: 0 1em;
+  color: #333;
+}
+#header-site ul.nav li#donate a:hover,
+#header-site ul.nav li#contribute a:hover {
+  color: #0467ae;
+  text-decoration: underline;
+}
+#header-site ul.nav li#language {
   padding: 12px;
 }
-select {
+#header-site ul.nav li#language select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -490,8 +511,9 @@ footer {
   }
 }
 @media (min-width: 768px) {
-  body {
-    background: #fff;
+  body #header-site ul.nav li#donate,
+  body #header-site ul.nav li#contribute {
+    display: block;
   }
   body p.intro {
     font: 1.25em/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
