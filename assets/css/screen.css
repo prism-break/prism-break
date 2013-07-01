@@ -531,6 +531,17 @@ footer {
   body section div.prop {
     width: 33%;
   }
+  body section div.prop .logo {
+    margin-right: 0.75em;
+  }
+  body section div.prop .logo img {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+  body section div.prop .name {
+    line-height: 32px;
+  }
   body section div.free {
     width: 67%;
     border-left: 1px solid #ddd;
@@ -574,10 +585,10 @@ footer {
     border-bottom: none;
   }
   body section div.prop {
-    width: 20%;
+    width: 25%;
   }
   body section div.free {
-    width: 45%;
+    width: 40%;
     border-left: 1px solid #ddd;
   }
   body section div.notes {

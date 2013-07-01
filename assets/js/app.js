@@ -1,4 +1,5 @@
-var jPM = $.jPanelMenu();
+var jPM = $.jPanelMenu({
+});
 jPM.on();
 
 // smooth scrolling to href#
