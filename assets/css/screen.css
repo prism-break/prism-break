@@ -491,9 +491,33 @@ section ul li:after {
   text-decoration: underline;
 }
 footer {
-  padding: 1em;
+  padding: 1em 0;
   background: #333;
   color: #eee;
+}
+footer ul {
+  display: none;
+  margin-bottom: 0.5em;
+  zoom: 1;
+}
+footer ul:before,
+footer ul:after {
+  content: "";
+  display: table;
+}
+footer ul:after {
+  clear: both;
+}
+footer ul li {
+  float: left;
+  border-right: 1px solid #666;
+  padding: 0 1em;
+}
+footer ul li.last {
+  border-right: none;
+}
+footer p {
+  padding: 0 1em;
 }
 @media (max-width: 480px) {
   body {
@@ -580,6 +604,9 @@ footer {
   body #jPanelMenu-menu ul li a:hover {
     color: #fff;
     background: #444;
+  }
+  body footer ul {
+    display: block;
   }
 }
 @media (min-width: 980px) {
