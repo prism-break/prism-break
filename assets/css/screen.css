@@ -481,9 +481,9 @@ footer {
     background: #fff;
   }
 }
-@media (max-width: 767px) {
-  body {
-    background: #fff;
+@media (min-width: 481px) {
+  body section div.free ul li h4 {
+    display: block;
   }
 }
 @media (min-width: 768px) {
