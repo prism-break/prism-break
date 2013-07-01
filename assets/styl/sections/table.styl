@@ -1,48 +1,65 @@
+/* PROPRIETARY */
+
+.prop ul
+  p .5em 0 .75em
+  bb 1px solid #ddd
+
 .prop ul li
-  line-height 32px
-  margin 0 0 1em
+  p .25em .75em
 
 .prop .logo
   float left
-  margin-right .75em
+  margin-right .5em
 
 .prop .logo img
   display block
-  width 32px
-  height 32px
+  width 16px
+  height 16px
 
-.free li
-  border-top 1px solid #ddd
+.prop .name
+  lh x
+
+
+/* FREE */
+
+.free ul li
+  border-bottom 1px solid #ddd
   list-style none
   clearfix()
+  line-height 1.25
 
-.free .logo
-  float left
-  margin-right 1em
+  a
+    d block
+    p .75em
+    clearfix()
+    &:hover
+      h4
+        td underline
+        c hover
 
-.free .logo img
-  display block
-  width 50px
-  height 50px
+  img
+    display block
+    float left
+    width 50px
+    height 50px
+    margin-right 1em
 
-.free li a.name:hover .title
-  text-decoration underline
+  h4, p
+    display inline
 
-.free li .name .title
-  font-weight bold
-  display block
+  h4
+    font-weight bold
 
-.free li .desc span
-  font-size 85%
+  p.desc
+    c txt
 
-.note p,
-.note span.p
-  display block
-  margin 0 0 1em
-  font-size 14px
-  max-width 40em
-  max-width 50em
 
-.note p a:hover,
-.note span.p a:hover
-  text-decoration underline
+/* NOTES */
+
+.notes div
+  p .75em 1em 0
+  p
+    margin 0 0 1em
+    max-width 50em
+    a:hover
+      td underline

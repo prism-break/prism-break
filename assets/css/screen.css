@@ -139,6 +139,9 @@ audio:not([controls]),
 [hidden] {
   display: none;
 }
+strong {
+  font-weight: bold;
+}
 a {
   color: #006ebd;
   text-decoration: none;
@@ -148,20 +151,19 @@ a:focus {
   color: #0467ae;
 }
 h2 {
-  font-size: 20px;
-  line-height: 3;
-  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: #333;
-  border-top: 3px solid #333;
-  padding: 0 8px;
-}
-h3 {
   font-size: 16px;
   line-height: 2;
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: #666;
-  border-top: 1px solid #ddd;
-  background: #eee;
+  color: #fff;
+  padding: 0 8px;
+  background: #333;
+}
+h3 {
+  line-height: 2;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  background: #f3f3f3;
   padding: 0 8px;
 }
 h3 > a {
@@ -279,8 +281,8 @@ body {
 h1#brand {
   padding: 0 16px;
   display: inline-block;
-  font-size: 1.25em;
-  line-height: 48px;
+  font-size: 1em;
+  line-height: 3em;
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
@@ -354,37 +356,17 @@ h1#brand a:hover .lightning {
   margin: 0;
   vertical-align: middle;
 }
-.bottom a,
-#footer a {
-  color: #0ae;
-}
-.bottom a:hover,
-#footer a:hover {
-  color: #0bf;
-  text-decoration: underline;
-}
-.bottom {
-  background: #333;
-  border-top: 1px solid #666;
-  padding: 2em 1em;
-  color: #eee;
-}
 .bottom h2 {
   font-size: 1.5em;
-  color: #eee;
   margin: 0 0 0.667em;
 }
-.bottom h2 strong {
-  color: #fff;
-}
 .bottom blockquote {
-  background: #555;
+  background: #eee;
   padding: 2em;
   margin: 0;
 }
 .bottom blockquote p {
   margin: 0 0 1.5em;
-  color: #fff;
   max-width: 60em;
 }
 .bottom blockquote a {
@@ -394,6 +376,9 @@ h1#brand a:hover .lightning {
   font-style: normal;
 }
 .bottom ul {
+  padding-left: 2em;
+}
+.bottom ul li {
   list-style: square;
 }
 footer {
@@ -447,7 +432,7 @@ p.disclaimer {
   font: 1.5em/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 section {
-  padding: 1.5em 0;
+  padding: 1em 0;
 }
 section ul li {
   zoom: 1;
@@ -460,61 +445,81 @@ section ul li:after {
 section ul li:after {
   clear: both;
 }
+.prop ul {
+  padding: 0.5em 0 0.75em;
+  border-bottom: 1px solid #ddd;
+}
 .prop ul li {
-  line-height: 32px;
-  margin: 0 0 1em;
+  padding: 0.25em 0.75em;
 }
 .prop .logo {
   float: left;
-  margin-right: 0.75em;
+  margin-right: 0.5em;
 }
 .prop .logo img {
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 16px;
+  height: 16px;
 }
-.free li {
-  border-top: 1px solid #ddd;
+.prop .name {
+  line-height: 16px;
+}
+.free ul li {
+  border-bottom: 1px solid #ddd;
   list-style: none;
   zoom: 1;
+  line-height: 1.25;
 }
-.free li:before,
-.free li:after {
+.free ul li:before,
+.free ul li:after {
   content: "";
   display: table;
 }
-.free li:after {
+.free ul li:after {
   clear: both;
 }
-.free .logo {
-  float: left;
-  margin-right: 1em;
-}
-.free .logo img {
+.free ul li a {
   display: block;
+  padding: 0.75em;
+  zoom: 1;
+}
+.free ul li a:before,
+.free ul li a:after {
+  content: "";
+  display: table;
+}
+.free ul li a:after {
+  clear: both;
+}
+.free ul li a:hover h4 {
+  text-decoration: underline;
+  color: #0467ae;
+}
+.free ul li img {
+  display: block;
+  float: left;
   width: 50px;
   height: 50px;
+  margin-right: 1em;
 }
-.free li a.name:hover .title {
-  text-decoration: underline;
+.free ul li h4,
+.free ul li p {
+  display: inline;
 }
-.free li .name .title {
+.free ul li h4 {
   font-weight: bold;
-  display: block;
 }
-.free li .desc span {
-  font-size: 85%;
+.free ul li p.desc {
+  color: #333;
 }
-.note p,
-.note span.p {
-  display: block;
+.notes div {
+  padding: 0.75em 1em 0;
+}
+.notes div p {
   margin: 0 0 1em;
-  font-size: 14px;
-  max-width: 40em;
   max-width: 50em;
 }
-.note p a:hover,
-.note span.p a:hover {
+.notes div p a:hover {
   text-decoration: underline;
 }
 @media (min-width: 1200px) {
@@ -524,7 +529,7 @@ section ul li:after {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   body {
-    background: #f00;
+    background: #fff;
   }
 }
 @media (max-width: 767px) {
