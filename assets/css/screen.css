@@ -16,7 +16,7 @@ audio:not([controls]),[hidden]{display:none}
 strong{font-weight:bold}
 a{color:#006ebd;text-decoration:none;}
 a:hover,a:focus{color:#0467ae}
-h2{font-size:16px;line-height:2;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;font-weight:bold;padding:0 8px;border-top:3px solid #333}
+h2{font-size:16px;line-height:2;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;font-weight:bold;padding:0 8px;border-top:1px solid #333;border-bottom:1px solid #ddd}
 h3{line-height:2;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;border-bottom:1px solid #ddd;background:#f3f3f3;padding:0 8px}
 h3 > a{color:#000}
 h3 > a:hover{color:#000;text-decoration:underline}
@@ -61,6 +61,7 @@ section{padding:1em 0}
 section ul li{zoom:1}
 section ul li:before,section ul li:after{content:"";display:table}
 section ul li:after{clear:both}
+.prop.empty{display:none}
 .prop ul{padding:.5em 0 .75em;border-bottom:1px solid #ddd}
 .prop ul li{padding:.25em .75em}
 .prop .logo{float:left;margin-right:.5em}
@@ -84,7 +85,7 @@ section ul li:after{clear:both}
 .bottom blockquote p{margin:0 0 1em;max-width:60em}
 .bottom blockquote a{font-weight:bold}
 .bottom blockquote cite{font-style:normal}
-.bottom ul{padding:1em 1em .5em}
+.bottom ul{padding:1em 1em .5em;border-bottom:1px solid #ddd}
 .bottom ul li{margin:0 0 .5em}
 .bottom ul li a:hover{text-decoration:underline}
 footer{padding:1em 0;background:#333;color:#eee;}
@@ -102,30 +103,32 @@ body p.intro{font:1.25em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;padding
 body section{width:100%;zoom:1;}
 body section:before,body section:after{content:"";display:table}
 body section:after{clear:both}
-body section header h2{border-top:1px solid #ddd;font-size:1.25em;font-weight:normal}
-body section h3{border-top:1px solid #ddd;display:block;width:100%}
+body section header h2{font-size:1.25em;font-weight:normal}
+body section h3{display:block;width:100%}
 body section div.prop,body section div.free{float:left;height:auto;}
 body section div.prop ul,body section div.free ul{border-bottom:none;}
 body section div.prop ul li:last-of-type,body section div.free ul li:last-of-type{border-bottom:none}
 body section div.prop{width:33%;}
+body section div.prop.empty{display:block}
 body section div.prop .logo{margin-right:.75em;}
 body section div.prop .logo img{display:block;width:32px;height:32px}
 body section div.prop .name{line-height:32px}
 body section div.free{width:67%;border-left:1px solid #ddd}
-body section div.notes{clear:both}
+body section div.notes{clear:both;}
+body section div.notes h3{border-top:1px solid #ddd}
 body #jPanelMenu-menu ul li a{color:#eee;display:block;padding:0 .75em;font:14px/2 'Helvetica Neue',Arial,Helvetica,sans-serif;border-top:1px solid #444;border-bottom:1px solid #222;}
 body #jPanelMenu-menu ul li a:hover{color:#fff;background:#444}
 body footer ul{display:block}
 }@media (min-width: 980px){body section{width:100%;zoom:1;}
 body section:before,body section:after{content:"";display:table}
 body section:after{clear:both}
-body section h3{border-top:1px solid #ddd;display:block;width:100%}
 body section div.prop,body section div.free,body section div.notes{float:left;height:auto;}
 body section div.prop ul,body section div.free ul,body section div.notes ul{border-bottom:none;}
 body section div.prop ul li:last-of-type,body section div.free ul li:last-of-type,body section div.notes ul li:last-of-type{border-bottom:none}
 body section div.prop{width:25%}
 body section div.free{width:40%;border-left:1px solid #ddd}
 body section div.notes{clear:none;width:35%;border-left:1px solid #ddd;}
+body section div.notes h3{border-top:none}
 body section div.notes p{font:14px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif}
 }@media (min-width: 1200px){body section div.notes p{font:16px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif !important}
 }#rtl{direction:rtl}
