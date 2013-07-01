@@ -173,17 +173,6 @@ h3 > a:hover {
   color: #000;
   text-decoration: underline;
 }
-p.intro {
-  font-weight: normal;
-  color: #666;
-  margin: 0;
-  padding: 1em;
-  max-width: 45em;
-}
-p.intro strong {
-  color: #333;
-  font-weight: bold;
-}
 .fs {
   border: 1px solid #ddd;
   font-size: 12px;
@@ -331,34 +320,6 @@ select {
   background: #fff;
   border: 1px solid #ddd;
 }
-.bottom blockquote {
-  padding: 1em 1em 0;
-  margin: 0;
-}
-.bottom blockquote p {
-  margin: 0 0 1em;
-  max-width: 60em;
-}
-.bottom blockquote a {
-  font-weight: bold;
-}
-.bottom blockquote cite {
-  font-style: normal;
-}
-.bottom ul {
-  padding: 1em 1em 0.5em;
-}
-.bottom ul li {
-  margin: 0 0 0.5em;
-}
-.bottom ul li a:hover {
-  text-decoration: underline;
-}
-footer {
-  padding: 1em;
-  background: #333;
-  color: #eee;
-}
 #container {
   width: 100%;
   padding: 3em 0 0;
@@ -384,6 +345,17 @@ footer {
 }
 #container .body h3 {
   font: 1.5em/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+p.intro {
+  font-weight: normal;
+  color: #666;
+  margin: 0;
+  padding: 1em;
+  max-width: 45em;
+}
+p.intro strong {
+  color: #333;
+  font-weight: bold;
 }
 section {
   padding: 1em 0;
@@ -476,6 +448,34 @@ section ul li:after {
 .notes div p a:hover {
   text-decoration: underline;
 }
+.bottom blockquote {
+  padding: 1em 1em 0;
+  margin: 0;
+}
+.bottom blockquote p {
+  margin: 0 0 1em;
+  max-width: 60em;
+}
+.bottom blockquote a {
+  font-weight: bold;
+}
+.bottom blockquote cite {
+  font-style: normal;
+}
+.bottom ul {
+  padding: 1em 1em 0.5em;
+}
+.bottom ul li {
+  margin: 0 0 0.5em;
+}
+.bottom ul li a:hover {
+  text-decoration: underline;
+}
+footer {
+  padding: 1em;
+  background: #333;
+  color: #eee;
+}
 @media (max-width: 480px) {
   body {
     background: #fff;
@@ -489,6 +489,14 @@ section ul li:after {
 @media (min-width: 768px) {
   body {
     background: #fff;
+  }
+  body p.intro {
+    font: 1.25em/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding-top: 1.5em;
+  }
+  body strong {
+    color: #333;
+    font-weight: bold;
   }
   body section {
     width: 100%;
