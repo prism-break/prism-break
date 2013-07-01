@@ -1,0 +1,81 @@
+serif = Georgia, 'serif'
+mono = Consolas, 'Lucida Console', Monaco, Courier New, monospace
+sans = 'Helvetica Neue', Arial, Helvetica, sans-serif
+lucida = 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif 
+
+span.amp
+  font-family Baskerville,Palatino,"Book Antiqua",serif
+  font-style italic
+
+.error::-webkit-input-placeholder
+  color rgb(255,0,0)
+
+.error:-moz-placeholder
+  color rgb(255,0,0)
+
+*:rselection
+  bg #ffffe0
+
+*::-moz-selection
+  bg #ffffe0
+
+*::-webkit-selection
+  bg #ffffe0
+
+button()
+  d inline-block
+  b 1px solid b40
+  br 3px
+  cursor pointer
+  p 0 .7em
+  df()
+  lh m*2px - 3px
+  ts b50 0 0 5px
+  background linear-gradient(top, m70 0%, m55 100%)
+  bs inset w10 0 0 3px, w8 0 1px 0
+  c txt
+  &:hover, &:focus
+    background linear-gradient(top, m75 0%, m65 100%)
+  &:active
+    background linear-gradient(top, m50 0%, m65 100%)
+  &.disabled
+    cursor default
+    opacity .75
+    &:hover
+      background linear-gradient(top, m80 0%, m60 100%)
+  &[disabled]:active, &[disabled]:hover
+    background #EEEEEE
+
+ir()
+  display block
+  text-indent -999em
+  overflow hidden
+  background-repeat no-repeat
+  text-align left
+  direction ltr
+
+invisible()
+  visibility hidden
+
+hidden()
+  display none
+  invisible()
+
+visuallyhidden()
+  position absolute
+  clip rect(0 0 0 0)
+  overflow hidden
+  margin -1px
+  padding 0
+  height 1px
+  width 1px
+  border 0
+
+visuallyhiddenfocusable()
+  &:active, &:focus
+    position static
+    clip auto
+    overflow visible
+    height auto
+    margin 0
+    width auto

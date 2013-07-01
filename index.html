@@ -23,16 +23,14 @@
   <body>
 
     <header id="header-site">
-      <ul id="header">
-        <li id="brand">
-          <h1>
-            <a href="http://prism-break.org" rel="self">
-              <strong>PRISM</strong>
-              <span class="lightning">&#9889;</span>
-              Break
-            </a>
-          </h1>
-        </li>
+      <h1 id="brand">
+        <a href="http://prism-break.org" rel="self">
+          <strong>PRISM</strong>
+          <span class="lightning">&#9889;</span>
+          Break
+        </a>
+      </h1>
+      <ul class="nav">
         <li id="page-switch">
           <div class="switch">
             <a class="default switch-button active" href="http://prism-break.org">Simple</a>
@@ -81,25 +79,18 @@
 
     <div id="introduction">
       <div class="container">
-        <h2><span class="i18n-intro"><strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.</span></h2>
+        <p class="intro"><span class="i18n-intro"><strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.</span></p>
       </div>
     </div>
 
     <div id="content" class="container">
       <div id="table">
-        <section>
-          <th class="section"></th>
-          <th class="prop"><span class="i18n-proprietary">Proprietary</span></th>
-          <th class="free"><span class="i18n-free-alternative">Free alternative</span></th>
-          <th class="note"><span class="i18n-notes">Notes</span></th>
-        </section>
-
-
-            <h3 id="operating-system"><a href="#operating-system"><span class="i18n-operating-system">Operating system</span></a></h3>
-
-
         <section id="operating-system">
+          <header>
+            <h2><span class="i18n-operating-system">Operating system</span></h2>
+          </header>
           <div class="prop">
+            <h3 class="prop"><span class="i18n-proprietary">Proprietary</span></h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple-osx.png" alt="" /></div>
@@ -116,6 +107,7 @@
             </ul>
           </div>
           <div class="free">
+            <h3 class="free"><span class="i18n-free-alternative">Free alternative</span></h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://trisquel.info/"><img src="assets/img/free/trisquel.png" alt="" /></a>
@@ -162,7 +154,6 @@
                   <span class="i18n-liberte-desc">Live CD/USB designed as a communication aid in hostile environments.</span>
                 </span>
               </li>
-
               <li>
                 <a class="logo" href="https://tails.boum.org/"><img src="assets/img/free/tails.png" alt="" /></a>
                 <a class="name" href="https://tails.boum.org/">
@@ -175,6 +166,7 @@
             </ul>
           </div>
           <div class="note">
+            <h3 class="note"><span class="i18n-notes">Notes</span></h3>
             <span class="i18n-operating-system-note">
               <p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p>
               <p>This leaves us with two free alternatives: <strong><a href="https://www.gnu.org/distros/free-distros.html">GNU/Linux</a></strong> and <strong><a href="https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems">BSD</a></strong>.
@@ -185,11 +177,12 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="android"><a href="#android">Android</a></h3>
-          </div>
+        <section id="android">
+          <header>
+            <h2>Android</h2>
+          </header>
           <div class="prop">
+            <h3 class="prop"><span class="i18n-proprietary">Proprietary</span></h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/android.png" alt="" /></div>
@@ -202,6 +195,7 @@
             </ul>
           </div>
           <div class="free">
+            <h3 class="free"><span class="i18n-free-alternative">Free alternative</span></h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.cyanogenmod.org/"><img src="assets/img/free/cyanogenmod.png" alt="" /></a>
@@ -236,6 +230,7 @@
             </ul>
           </div>
           <div class="note">
+            <h3 class="notes"><span class="i18n-notes">Notes</span></h3>
             <span class="i18n-android-note">
               <p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href="https://en.wikipedia.org/wiki/CyanogenMod#Licensing">Wikipedia</a></p>
               <p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>
@@ -243,10 +238,10 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="ios"><a href="#ios">iOS</a></h3>
-          </div>
+        <section id="ios">
+          <header>
+            <h2 id="ios">iOS</h2>
+          </header>
           <div class="prop">
             <ul>
               <li>
