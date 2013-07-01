@@ -367,11 +367,10 @@ h1#brand a:hover .lightning {
   font: 1.5em/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 p.intro {
-  font-weight: normal;
   color: #666;
-  margin: 0;
   padding: 1em;
   max-width: 45em;
+  margin: 0;
 }
 p.intro strong {
   color: #333;
@@ -518,10 +517,6 @@ footer {
   body p.intro {
     font: 1.25em/1.5 'Helvetica Neue', Arial, Helvetica, sans-serif;
     padding-top: 1.5em;
-  }
-  body strong {
-    color: #333;
-    font-weight: bold;
   }
   body section {
     width: 100%;
