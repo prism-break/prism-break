@@ -12,7 +12,7 @@ Bear in mind that the site is being constantly updated, so you may want to check
 
 Please do not edit the `screen.css` file directly, but instead edit the `.stylus` files found in `assets/styl/`. To compile the Stylus code into CSS, you'll need to run this terminal command from the project root:
 
-    stylus -w assets/styl/screen.styl -o assets/css -u ~/local/node/lib/node_modules/nib
+    stylus -w -c assets/styl/screen.styl -o assets/css -u ~/local/node/lib/node_modules/nib
 
 If you don't have the [Stylus](http://learnboost.github.io/stylus/) package just install it (along with the [nib](http://visionmedia.github.io/nib/)) extension `npm`:
 
