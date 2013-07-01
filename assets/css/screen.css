@@ -206,51 +206,6 @@ p.intro strong {
 .fs.newbie {
   background: #4a0;
 }
-input {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-form ul.fields {
-  width: 480px;
-}
-form ul.fields li.field {
-  border-top: 1px solid #eee;
-  zoom: 1;
-  padding: 1em 0;
-}
-form ul.fields li.field:before,
-form ul.fields li.field:after {
-  content: "";
-  display: table;
-}
-form ul.fields li.field:after {
-  clear: both;
-}
-form ul.fields li.field label {
-  width: 160px;
-  float: left;
-  -webkit-box-sizing: ;
-  -moz-box-sizing: ;
-  box-sizing: ;
-  line-height: 2em;
-}
-form ul.fields li.field input {
-  width: 320px;
-  float: left;
-  -webkit-box-sizing: ;
-  -moz-box-sizing: ;
-  box-sizing: ;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  color: #333;
-  line-height: 24px;
-  padding: 4px 4.8px;
-}
 body {
   font-size: 16px;
   line-height: 1.5;
@@ -263,7 +218,6 @@ body {
 #header-site {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   padding: 0;
   height: 3em;
@@ -276,10 +230,8 @@ body {
   background: linear-gradient(top, #fff 0, #f0f0f0 100%);
   -webkit-box-shadow: rgba(0,0,0,0.07) 0 0 3em;
   box-shadow: rgba(0,0,0,0.07) 0 0 3em;
-  text-align: center;
 }
 h1#brand {
-  padding: 0 16px;
   display: inline-block;
   font-size: 1em;
   line-height: 3em;
@@ -287,8 +239,6 @@ h1#brand {
   text-align: center;
   display: inline-block;
   font-weight: normal;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
 }
 h1#brand a {
   color: #333;
@@ -298,29 +248,6 @@ h1#brand a .lightning {
 }
 h1#brand a:hover,
 h1#brand a:hover .lightning {
-  color: #09c;
-}
-#header-site ul.nav {
-  display: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-#header-site ul.nav li {
-  float: right;
-  padding: 0 16px;
-  line-height: 3em;
-  border-right: 1px solid #ddd;
-}
-#header-site ul.nav li.right {
-  float: right;
-  border-left: 1px solid #ddd;
-  border-right: none;
-}
-#header-site ul.nav li a.plain {
-  color: #333;
-}
-#header-site ul.nav li a.plain:hover {
   color: #09c;
 }
 #page-switch .switch {
@@ -352,9 +279,51 @@ h1#brand a:hover .lightning {
   color: #09c;
   background: #f5f5f5;
 }
-#header-site ul li#lang select {
+#header-site .menu-trigger {
+  text-align: center;
+  font: 1.25em/48px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  margin: 0 16px;
+  float: left;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+#jPanelMenu-menu {
+  background: #333;
+  width: 240px;
+  display: none;
+}
+#jPanelMenu-menu ul li a {
+  color: #eee;
+  display: block;
+  padding: 0 0.75em;
+  font: 14px/1.45 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+#jPanelMenu-menu ul li a:hover {
+  color: #fff;
+  background: #444;
+}
+#menu {
+  display: none;
+}
+#languages {
+  float: right;
+  height: 48px;
+  padding: 12px;
+}
+select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font: 16px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  height: 24px;
+  color: #333;
   margin: 0;
-  vertical-align: middle;
+  padding: 0;
+  outline: none;
+  width: 100px;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 .bottom blockquote {
   padding: 1em 1em 0;
@@ -376,8 +345,11 @@ h1#brand a:hover .lightning {
 .bottom ul li {
   margin: 0 0 0.5em;
 }
+.bottom ul li a:hover {
+  text-decoration: underline;
+}
 footer {
-  padding: 0.5em 1em 0.5em;
+  padding: 1em;
   background: #333;
   color: #eee;
 }

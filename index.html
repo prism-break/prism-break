@@ -8,9 +8,6 @@
     <meta name="keywords" class="i18n-meta-keywords" content="PRISM, NSA, free software" />
     <meta name="author" content="Peng Zhong" />
 
-    <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
-    <script type="text/javascript" src="assets/js/jquery-1.10.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.color-2.1.2.min.js"></script>
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png" />
@@ -18,11 +15,13 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png" />
     <link rel="shortcut icon" href="assets/ico/favicon.png" />
     <link rel="icon" href="assets/ico/favicon.png" />
+
   </head>
 
   <body>
 
     <header id="header-site">
+      <div class="menu-trigger">&#9776;</div>
       <h1 id="brand">
         <a href="http://prism-break.org" rel="self">
           <strong>PRISM</strong>
@@ -30,52 +29,36 @@
           Break
         </a>
       </h1>
-      <ul class="nav">
-        <li id="page-switch">
-          <div class="switch">
-            <a class="default switch-button active" href="http://prism-break.org">Simple</a>
-            <a class="fsf switch-button inactive" href="http://prism-break.org/libre.html">100% Libre</a>
-          </div>
-        </li>
-        <li id="lang">
-          <select id="lang-select">
-            <option id="lang-ar">العربية</option>
-            <option id="lang-de">Deutsch</option>
-            <option id="lang-el">ελληνικά</option>
-            <option id="lang-eo">Esperanto</option>
-            <option id="lang-en" selected="selected">English</option>
-            <option id="lang-es">Español</option>
-            <option id="lang-fa">فارسی</option>
-            <option id="lang-fi">Suomi</option>
-            <option id="lang-hi">हिन्दी</option>
-            <option id="lang-fr">Français</option>
-            <option id="lang-io">Ido</option>
-            <option id="lang-it">Italiano</option>
-            <option id="lang-ja">日本語</option>
-            <option id="lang-nl">Nederlands</option>
-            <option id="lang-no">Norsk</option>
-            <option id="lang-pl">Polski</option>
-            <option id="lang-pt">Português</option>
-            <option id="lang-ru">Русский</option>
-            <option id="lang-sr">srpski</option>
-            <option id="lang-sr_cr">српски</option>
-            <option id="lang-sv">Svenska</option>
-            <option id="lang-zh_cn">中文</option>
-            <option id="lang-zh_tw">繁體中文</option>
-          </select>
-        </li>
-        <li id="contribute" class="right block">
-          <a class="plain" href="https://github.com/nylira/prism-break">
-            <span class="i18n-contribute">Contribute</span>
-          </a>
-        </li>
-        <li id="donate" class="right block">
-          <a class="plain" href="https://blockchain.info/address/1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw">
-            <span class="i18n-donate">Donate</span> BTC
-          </a>
-        </li>
-      </ul>
+      <div id="languages">
+      <select id="lang-select">
+        <option id="lang-ar">العربية</option>
+        <option id="lang-de">Deutsch</option>
+        <option id="lang-el">ελληνικά</option>
+        <option id="lang-eo">Esperanto</option>
+        <option id="lang-en" selected="selected">English</option>
+        <option id="lang-es">Español</option>
+        <option id="lang-fa">فارسی</option>
+        <option id="lang-fi">Suomi</option>
+        <option id="lang-hi">हिन्दी</option>
+        <option id="lang-fr">Français</option>
+        <option id="lang-io">Ido</option>
+        <option id="lang-it">Italiano</option>
+        <option id="lang-ja">日本語</option>
+        <option id="lang-nl">Nederlands</option>
+        <option id="lang-no">Norsk</option>
+        <option id="lang-pl">Polski</option>
+        <option id="lang-pt">Português</option>
+        <option id="lang-ru">Русский</option>
+        <option id="lang-sr">srpski</option>
+        <option id="lang-sr_cr">српски</option>
+        <option id="lang-sv">Svenska</option>
+        <option id="lang-zh_cn">中文</option>
+        <option id="lang-zh_tw">繁體中文</option>
+      </select>
+    </div>
     </header>
+
+
 
     <div id="container">
       <p class="intro"><span class="i18n-intro"><strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.</span></p>
@@ -887,7 +870,6 @@
                 <p class="desc">
                   <span class="i18n-redphone-desc">Secure private calls for Android.</span>
                   <span class="fs icon"><img src="assets/img/prop/android.png" alt="Android"/></span>
-                  <span class="fs"><span class="i18n-mostly-free">mostly free*</span></span>
                 </p>
               </a></li>
             </ul>
@@ -1729,84 +1711,67 @@
       <p class="disclaimer"><span class="i18n-disclaimer">Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive communication.</span></p> 
     </footer>
 
-    <!-- the language switching script -->
-    <script type="text/javascript">
-      // list of supported langs
-      var langs = ['ar', 'de', 'el', 'eo', 'en', 'es', 'fa', 'fi', 'fr', 'hi', 'io', 'it', 'ja', 'nl', 'no', 'pl', 'pt', 'ru', 'sr', 'sr_cr', 'sv', 'zh_cn', 'zh_tw'];
+    <!-- slide in menu -->
+    <div id="menu">
+      <ul>
+        <li><a href="#operating-system" class="i18n-operating-system">Operating system</a></li>
+        <li><a href="#android">Android</a></li>
+        <li><a href="#ios">iOS</a></li>
+        <li><a href="#web-browser" class="i18n-web-browser">Web browser</a></li>
+        <li><a href="#browser-addons" class="i18n-web-browser-plugins">Web browser add-ons</a></li>
+        <li><a href="#web-search" class="i18n-web-search">Web search</a></li>
+        <li><a href="#email-services" class="i18n-email-services">Email services</a></li>
+        <li><a href="#email-clients" class="i18n-email-clients">Email desktop clients</a></li>
+        <li><a href="#email-encryption" class="i18n-email-encryption">Email encryption</a></li>
+        <li><a href="#social-networking" class="i18n-social-networking">Social networking</a></li>
+        <li><a href="#instant-messaging" class="i18n-instant-messaging">Instant messaging</a></li>
+        <li><a href="#video-voip" class="i18n-video-voip">Video conferencing &amp; VoIP</a></li>
+        <li><a href="#online-transactions" class="i18n-online-transactions">Online transactions</a></li>
+        <li><a href="#media-publishing" class="i18n-media-publishing">Media publishing</a></li>
+        <li><a href="#document-collaboration" class="i18n-document-collaboration">Document collaboration</a></li>
+        <li><a href="#maps" class="i18n-maps">Maps</a></li>
+        <li><a href="#cloud-storage" class="i18n-cloud-storage">Cloud storage</a></li>
+        <li><a href="#web-analytics" class="i18n-web-analytics">Web analytics</a></li>
+        <li><a href="#dns-provider" class="i18n-dns-provider"></a></li>
+        <li><a href="#darknet" class="i18n-darknet">Darknet</a></li>
+        <li><a href="#meshnet" class="i18n-meshnet">Meshnet</a></li>
+        <!--
+        <li id="page-switch">
+          <div class="switch">
+            <a class="default switch-button active" href="http://prism-break.org">Simple</a>
+            <a class="fsf switch-button inactive" href="http://prism-break.org/libre.html">100% Libre</a>
+          </div>
+        </li>
+        -->
+        <li id="contribute" class="right block">
+          <a class="plain" href="https://github.com/nylira/prism-break">
+            <span class="i18n-contribute">Contribute</span>
+          </a>
+        </li>
+        <li id="donate" class="right block">
+          <a class="plain" href="https://blockchain.info/address/1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw">
+            <span class="i18n-donate">Donate</span> BTC
+          </a>
+        </li>
+      </ul>
+    </div>
 
-      $("#lang-select").change(function() {
-        $("select option:selected").each(function () {
-          for(var i=0; i < langs.length; i++)
-        {
-	          if( $(this).attr('id') == ('lang-'+langs[i]) )
-	        {
-	          getLang(langs[i]);
-	          window.location.hash = langs[i];
-	          break;
-	        }
-        }
-        });
-      });
-
-      // pulling in json language data
-      function getLang(abbr) {
-        if(langs.indexOf(abbr) < 0)
-          throw "Unsupported language";
-        if(abbr == 'ar' || abbr == 'fa')
-          $('body').attr('id', 'rtl');
-        else
-          $("body").removeAttr('id');
-        var jsonUrl = "lang/" + abbr + ".json";
-        $.getJSON(jsonUrl, function(data) {
-          $.each(data, function(key, val) {
-            // upon reaching meta description, change the content instead of just the inner html
-            if(key == 'i18n-meta-description')
-              $('.i18n-meta-description').attr("content", val);
-            else
-              i18nSpans = $('html').find("." + key);
-              i18nSpans.html(val);
-              i18nSpans.stop().css("background-color", "#FFFF9C")
-            .animate({ backgroundColor: "transparent"}, 1500);
-          });
-        });
-      };
-
-      // set site language based on url segment
-      function setLangByUrl() {
-        var url = document.URL;
-        var id = url.substring(url.lastIndexOf('#') + 1);
-        getLang(id);
-
-        // update #lang-select based on url segment
-        var rightOption = "lang-" + id;
-        $("#lang-select option").filter(function(){
-          return this.id == rightOption;
-        }).prop('selected', true);
-      }
-      setLangByUrl();
-
-      if(navigator.langage != undefined && navigator.langage.length > 1 && langs.indexOf(navigator.langage) > -1)
-      {
-        getLang(navigator.langage);
-      }
-
-      </script>
-
-      <!-- Public Piwik analytics: prism-break.org/analytics. Does not record the last octet of visitor IPs -->
-      <script type="text/javascript">
-        var _paq = _paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-          var u=(("https:" == document.location.protocol) ? "https" : "http") + "://prism-break.org/analytics//";
-          _paq.push(['setTrackerUrl', u+'piwik.php']);
-          _paq.push(['setSiteId', 1]);
-          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-          g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-        })();
+    <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]-->
+    <script src="assets/js/jquery-1.10.1.min.js"></script>
+    <script src="assets/js/jquery.jpanelmenu.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+      var _paq = _paq || [];
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://prism-break.org/analytics//";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 1]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
     </script>
     <noscript><p><img src="http://prism-break.org/analytics/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
-
   </body>
 </html>
