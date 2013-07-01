@@ -77,20 +77,14 @@
       </ul>
     </header>
 
-    <div id="introduction">
-      <div class="container">
-        <p class="intro"><span class="i18n-intro"><strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.</span></p>
-      </div>
-    </div>
-
-    <div id="content" class="container">
+    <div id="container">
+      <p class="intro"><span class="i18n-intro"><strong>Opt out of PRISM, the NSA&rsquo;s global data surveillance program.</strong> Stop reporting your online activities to the American government with these free alternatives to proprietary software.</span></p>
       <div id="table">
         <section id="operating-system">
           <header>
-            <h2><span class="i18n-operating-system">Operating system</span></h2>
+            <h2 class="i18n-operating-system">Operating system</h2>
           </header>
-          <div class="prop">
-            <h3 class="prop"><span class="i18n-proprietary">Proprietary</span></h3>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple-osx.png" alt="" /></div>
@@ -106,8 +100,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
-            <h3 class="free"><span class="i18n-free-alternative">Free alternative</span></h3>
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://trisquel.info/"><img src="assets/img/free/trisquel.png" alt="" /></a>
@@ -165,8 +158,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
-            <h3 class="note"><span class="i18n-notes">Notes</span></h3>
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-operating-system-note">
               <p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p>
               <p>This leaves us with two free alternatives: <strong><a href="https://www.gnu.org/distros/free-distros.html">GNU/Linux</a></strong> and <strong><a href="https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems">BSD</a></strong>.
@@ -181,8 +173,7 @@
           <header>
             <h2>Android</h2>
           </header>
-          <div class="prop">
-            <h3 class="prop"><span class="i18n-proprietary">Proprietary</span></h3>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/android.png" alt="" /></div>
@@ -194,8 +185,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
-            <h3 class="free"><span class="i18n-free-alternative">Free alternative</span></h3>
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.cyanogenmod.org/"><img src="assets/img/free/cyanogenmod.png" alt="" /></a>
@@ -229,8 +219,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
-            <h3 class="notes"><span class="i18n-notes">Notes</span></h3>
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-android-note">
               <p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href="https://en.wikipedia.org/wiki/CyanogenMod#Licensing">Wikipedia</a></p>
               <p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>
@@ -240,9 +229,9 @@
 
         <section id="ios">
           <header>
-            <h2 id="ios">iOS</h2>
+            <h2>iOS</h2>
           </header>
-          <div class="prop">
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/ios.png" alt="" /></div>
@@ -250,7 +239,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="https://en.wikipedia.org/wiki/IPhone#Secret_tracking"><img src="assets/img/free/prohibition.png" alt="" /></a>
@@ -263,7 +252,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-ios-note">
               <p>iOS is insecure, and unfortunately there aren&lsquo;t a lot of free encryption apps available for iOS either. It&lsquo;s also <a href="http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r">impossible to verify</a> whether if an iOS app was compiled from the original source.</p>
             </span>
@@ -271,11 +260,11 @@
         </section>
 
 
-        <section>
-          <td class="section">
-            <h3 id="web-browser"><a href="#web-browser"><span class="i18n-web-browser">Web browser</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="web-browser">
+          <header>
+            <h2 class="i18n-web-browser">Web browser</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple-safari.png" alt="" /></div>
@@ -291,7 +280,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="https://www.torproject.org/index.html.en"><img src="assets/img/free/tor.png" alt="" /></a>
@@ -342,10 +331,9 @@
                   <span class="fs">$0.99</span>
                 </span>
               </li>
-
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-web-browser-note">
               <p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be a bit slower, but it's far more secure.</p>
               <p>Note that using <strong>Tor Browser</strong> to log into PayPal or a banking website may trip the website's fraud protection software.</p>
@@ -355,13 +343,12 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="browser-addons"><a href="#browser-addons"><span class="i18n-web-browser-plugins">Web browser add-ons</span></a></h3>
-          </div>
-          <div class="prop">
-          </div>
-          <div class="free">
+        <section id="browser-addons">
+          <header>
+            <h2 class="i18n-web-browser-plugins">Web browser add-ons</h2>
+          </header>
+          <div class="prop"></div>
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="https://www.eff.org/https-everywhere"><img src="assets/img/free/httpseverywhere.png" alt="" /></a>
@@ -428,7 +415,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-web-browser-addons-note">
               <p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p>
               <p><strong>Cryptocat</strong> and <strong>Mailvelope</strong> are browser addons for IM and email encryption, respectively. At this time, it may be more secure to use external software for more proven encryption.</p>
@@ -438,11 +425,11 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="web-search"><a href="#web-search"><span class="i18n-web-search">Web search</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="web-search">
+          <header>
+            <h2 class="i18n-web-search">Web search</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google.png" alt="" /></div>
@@ -458,7 +445,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://startpage.com/"><img src="assets/img/free/startpage.png" alt="" /></a>
@@ -498,7 +485,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-web-search-note">
               <p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p>
               <p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with search results from <a href="http://help.dukgo.com/customer/portal/articles/216399-sources">these sources</a>.</p>
@@ -507,11 +494,11 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="email-services"><a href="#email-services"><span class="i18n-email-services">Email services</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="email-services">
+          <header>
+            <h2 class="i18n-email-services">Email services</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google-mail.png" alt="" /></div>
@@ -531,7 +518,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.autistici.org/en/index.html"><img src="assets/img/free/autistici.png" alt="" /></a>
@@ -584,7 +571,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-email-services-note">
               <p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p>
               <p><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</p>
@@ -596,11 +583,11 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="email-clients"><a href="#email-clients"><span class="i18n-email-clients">Email desktop clients</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="email-clients">
+          <header>
+            <h2 class="i18n-email-clients">Email desktop clients</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple.png" alt="" /></div>
@@ -616,7 +603,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="https://www.mozilla.org/en-US/thunderbird/"><img src="assets/img/free/thunderbird.png" alt="" /></a>
@@ -665,7 +652,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-email-clients-note">
               <p><a href="http://www.enigmail.net/documentation/quickstart.php">Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p>
               <p>While the <strong>Thunderbird</strong> source code from the Mozilla project is free software, they distribute and recommend non-free software as plug-ins and addons.</p>
@@ -673,15 +660,12 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="email-encryption"><a href="#email-encryption"><span class="i18n-email-encryption">Email encryption</span></a></h3>
-          </div>
-          <div class="prop">
-            <ul>
-            </ul>
-          </div>
-          <div class="free">
+        <section id="email-encryption">
+          <header>
+            <h2 class="i18n-email-encryption">Email encryption</h2>
+          </header>
+          <div class="prop"></div>
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.enigmail.org/"><img src="assets/img/free/enigmail.png" alt="" /></a>
@@ -703,7 +687,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-email-encryption-note">
               <p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p>
               <p>&mdash; <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">Wikipedia</a></p>
@@ -711,11 +695,11 @@
           </div>
         </section>
 
-        <section>
-          <td class="section" >
-            <h3 id="social-networking"><a href="#social-networking"><span class="i18n-social-networking">Social networking</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="social-networking">
+          <header>
+            <h2 class="i18n-social-networking">Social networking</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google-plus.png" alt="" /></div>
@@ -735,7 +719,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://pump.io/"><img src="assets/img/free/pumpio.png" alt="" /></a>
@@ -833,18 +817,18 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-social-networking-note">
               <p><strong><a href="https://identi.ca/">identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>
             </span>
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="instant-messaging"><a href="#instant-messaging"><span class="i18n-instant-messaging">Instant messaging</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="instant-messaging">
+          <header>
+            <h2 class="i18n-instant-messaging">Instant messaging</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/aim.png" alt="" /></div>
@@ -864,7 +848,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.pidgin.im/"><img src="assets/img/free/pidgin.png" alt="" /></a>
@@ -954,16 +938,16 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-instant-messaging-note"><p><strong>Cryptocat</strong> in the Web browser add-ons section may be of interest as well.</p></span>
           </div>
         </section>
 
-        <section>
-          <td class="section" >
-            <h3 id="video-voip"><a href="#video-voip"><span class="i18n-video-voip">Video conferencing &amp; VoIP</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="video-voip">
+          <header >
+            <h2 class="i18n-video-voip">Video conferencing &amp; VoIP</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/facetime.png" alt="" /></div>
@@ -983,7 +967,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="https://jitsi.org/"><img src="assets/img/free/jitsi.png" alt="" /></a>
@@ -1039,7 +1023,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-video-voip-note">
               <p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p>
               <p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p>
@@ -1048,11 +1032,11 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="online-transactions"><a href="#online-transactions"><span class="i18n-online-transactions">Online transactions</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="online-transactions">
+          <header>
+            <h2 class="i18n-online-transactions">Online transactions</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/paypal.png" alt="" /></div>
@@ -1064,7 +1048,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://bitcoin.org/"><img src="assets/img/free/bitcoin.png" alt="" /></a>
@@ -1089,7 +1073,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-online-transactions-note">
               <p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p>
               <p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>
@@ -1097,11 +1081,11 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="media-publishing"><a href="#media-publishing"><span class="i18n-media-publishing">Media publishing</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="media-publishing">
+          <header>
+            <h2 class="i18n-media-publishing">Media publishing</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/flickr.png" alt="" /></div>
@@ -1127,7 +1111,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://noblogs.org"><img src="assets/img/free/noblogs.png" alt="noblogs" /></a>
@@ -1177,18 +1161,18 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-media-publishing-note">
               <p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p>
             </span>
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="document-collaboration"><a href="#document-collaboration"><span class="i18n-document-collaboration">Document collaboration</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="document-collaboration">
+          <header>
+            <h2 class="i18n-document-collaboration">Document collaboration</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google-drive.png" alt="" /></div>
@@ -1204,7 +1188,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://etherpad.org/"><img src="assets/img/free/etherpad.png" alt="" /></a>
@@ -1227,18 +1211,18 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-document-collaboration-note">
               <p>--</p>
             </span>
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="maps"><a href="#maps"><span class="i18n-maps">Maps</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="maps">
+          <header>
+            <h2 class="i18n-maps">Maps</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple.png" alt="" /></div>
@@ -1250,7 +1234,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.openstreetmap.org/"><img src="assets/img/free/openstreetmap.png" alt="" /></a>
@@ -1263,18 +1247,18 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-maps-note">
               <p>--</p>
             </span>
           </div>
         </section>
 
-        <section>
-          <td class="section" >
-            <h3 id="cloud-storage"><a href="#cloud-storage"><span class="i18n-cloud-storage">Cloud storage</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="cloud-storage">
+          <header >
+            <h2 class="i18n-cloud-storage">Cloud storage</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/apple-icloud.png" alt="" /></div>
@@ -1294,7 +1278,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://git-annex.branchable.com/assistant/"><img src="assets/img/free/git-annex.png" alt="" /></a>
@@ -1343,7 +1327,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-cloud-storage-note">
               <p>Why not MEGA? While MEGA is free as in beer, the software is proprietary.</p>
               <p>Why not SpiderOak? SpiderOak is proprietary software.</p>
@@ -1352,11 +1336,11 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="web-analytics"><a href="#web-analytics"><span class="i18n-web-analytics">Web analytics</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="web-analytics">
+          <header>
+            <h2 class="i18n-web-analytics">Web analytics</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google.png" alt="" /></div>
@@ -1364,7 +1348,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://piwik.org/"><img src="assets/img/free/piwik.png" alt="" /></a>
@@ -1377,7 +1361,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-web-analytics-note">
               <p><strong>Piwik</strong> analytics powers this site. It&lsquo;s set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href="http://prism-break.org/analytics">prism-break.org/analytics</a>.
             </p>
@@ -1385,11 +1369,11 @@
           </div>
         </section>
 
-        <section>
-          <td class="section" >
-            <h3 id="dns-provider"><a href="#dns-provider"><span class="i18n-dns-provider">DNS provider</span></a></h3>
-          </div>
-          <div class="prop">
+        <section id="dns-provider">
+          <header >
+            <h2 class="i18n-dns-provider">DNS provider</h2>
+          </header>
+          <div class="prop"><h3 class="prop i18n-proprietary">Proprietary</h3>
             <ul>
               <li>
                 <div class="logo"><img src="assets/img/prop/google.png" alt=""></div>
@@ -1397,7 +1381,7 @@
               </li>
             </ul>
           </div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.opennicproject.org/"><img src="assets/img/free/opennic.png" alt="" /></a>
@@ -1419,7 +1403,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-dns-provider-note">
               <p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p>
               <p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>
@@ -1427,13 +1411,12 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="darknet"><a href="#darknet"><span class="i18n-darknet">Darknet</span></a></h3>
-          </div>
-          <div class="prop">
-          </div>
-          <div class="free">
+        <section id="darknet">
+          <header>
+            <h2 class="i18n-darknet">Darknet</h2>
+          </header>
+          <div class="prop"></div>
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="http://www.i2p2.de/"><img src="assets/img/free/i2p.png" alt="" /></a>
@@ -1473,7 +1456,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-darknet-note">
               <p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p>
               <p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p>
@@ -1482,12 +1465,12 @@
           </div>
         </section>
 
-        <section>
-          <td class="section">
-            <h3 id="meshnet"><a href="#meshnet"><span class="i18n-meshnet">Meshnet</span></a></h3>
-          </div>
+        <section id="meshnet">
+          <header>
+            <h2 class="i18n-meshnet">Meshnet</h2>
+          </header>
           <div class="prop"></div>
-          <div class="free">
+          <div class="free"><h3 class="i18n-free-alternative">Free alternatives</h3>
             <ul>
               <li class="best">
                 <a class="logo" href="https://projectmeshnet.org/"><img src="assets/img/free/projectmeshnet.png" alt="" /></a>
@@ -1500,7 +1483,7 @@
               </li>
             </ul>
           </div>
-          <div class="note">
+          <div class="note"><h3 class="i18n-notes">Notes</h3>
             <span class="i18n-meshnet-note">
               <p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p>
               <p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p>
@@ -1929,22 +1912,6 @@
     </div><!--content-->
 
     <footer class="container">
-      <ul>
-        <li>
-          <span class="i18n-updated">Updated</span>
-          2013-06-30
-          <span class="i18n-by">by</span>
-          <a href="http://twitter.com/zcpeng">@zcpeng</a>
-        </li>
-        <li>
-          <span class="i18n-contribute-on">Contribute on</span>
-          <a href="https://github.com/nylira/prism-break">GitHub</a>
-        </li>
-        <li><span class="i18n-donate">Donate</span> bitcoin: 1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</li>
-        <li class="last">
-          A <a href="http://nylira.com/">Nylira</a> project
-        </li>
-      </ul>
       <p class="disclaimer"><span class="i18n-disclaimer">Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive communication.</span></p> 
     </footer>
 

@@ -16,18 +16,22 @@ a
   anchor()
 
 h2
-  s x*1.5
+  s x*1.25
   lh 3
   ff sans
   c txt
   bt 3px solid txt
+  p 0 x*.5
 
 h3
   s x
   lh 2
   ff sans
-  c txt
+  c dim
   bt 1px solid #ddd
+  bg bg2
+  p 0 x*.5
+
 
 h3 > a
   color: #000
@@ -36,20 +40,17 @@ h3 > a:hover
   color: #000
   text-decoration: underline
 
-#introduction 
-  .container
-    padding: 3em 18px
+p.intro
+  font-weight: normal
+  color: #666
+  margin: 0
+  p 1em
+  max-width: 45em
 
-  p.intro
-    font-weight: normal
-    color: #666
-    margin: 0
-    max-width: 45em
-    font-size: 1.25em
+  strong
+    color: #333
+    font-weight bold
 
-    strong
-      color: #333
-      font-weight bold
 .fs
   border: 1px solid #ddd
   font-size: 12px
