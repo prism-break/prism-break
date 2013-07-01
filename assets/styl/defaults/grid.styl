@@ -1,0 +1,19 @@
+columns = 12
+
+canvas = 960px
+cw =   canvas / columns * 1px
+gutter =  cw / 8
+gut =  gutter/2
+
+span()
+  width cw * arguments
+
+cnt(arguments = 12)
+  span arguments
+  m 0 auto
+  clearfix()
+
+col() 
+  span arguments
+  float left
+  box-sizing()

@@ -1,7 +1,21 @@
-@import _normalize
-@import _type
-@import _header
-@import _intro
-@import _table
-@import _footer
+@import nib
+@import defaults
+@import 'mixins/index'
+@import sections
+
+@media (min-width: 1200px)
+  @import 'media/1200'
+
+@media (min-width: 980px)
+  @import 'media/980'
+ 
+@media (min-width: 768px) and (max-width: 979px)
+  @import 'media/979'
+ 
+@media (max-width: 767px)
+  @import 'media/767'
+ 
+@media (max-width: 480px)
+  @import 'media/480'
+
 @import _rtl
