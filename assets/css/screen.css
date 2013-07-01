@@ -16,7 +16,7 @@ audio:not([controls]),[hidden]{display:none}
 strong{font-weight:bold}
 a{color:#006ebd;text-decoration:none;}
 a:hover,a:focus{color:#0467ae}
-h2{font-size:16px;line-height:2;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#fff;padding:0 8px;background:#333}
+h2{font-size:16px;line-height:2;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;font-weight:bold;padding:0 8px;border-top:3px solid #333}
 h3{line-height:2;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;border-bottom:1px solid #ddd;background:#f3f3f3;padding:0 8px}
 h3 > a{color:#000}
 h3 > a:hover{color:#000;text-decoration:underline}
