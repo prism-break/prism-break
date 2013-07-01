@@ -285,7 +285,6 @@ h1#brand a:hover .lightning {
 #jPanelMenu-menu {
   background: #333;
   width: 240px;
-  display: none;
 }
 #jPanelMenu-menu ul li a {
   color: #eee;
@@ -552,6 +551,18 @@ footer {
   }
   body section div.notes {
     clear: both;
+  }
+  body #jPanelMenu-menu ul li a {
+    color: #eee;
+    display: block;
+    padding: 0 0.75em;
+    font: 14px/2 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #222;
+  }
+  body #jPanelMenu-menu ul li a:hover {
+    color: #fff;
+    background: #444;
   }
 }
 @media (min-width: 980px) {
