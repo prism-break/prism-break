@@ -356,17 +356,12 @@ h1#brand a:hover .lightning {
   margin: 0;
   vertical-align: middle;
 }
-.bottom h2 {
-  font-size: 1.5em;
-  margin: 0 0 0.667em;
-}
 .bottom blockquote {
-  background: #eee;
-  padding: 2em;
+  padding: 1em 1em 0;
   margin: 0;
 }
 .bottom blockquote p {
-  margin: 0 0 1.5em;
+  margin: 0 0 1em;
   max-width: 60em;
 }
 .bottom blockquote a {
@@ -376,34 +371,15 @@ h1#brand a:hover .lightning {
   font-style: normal;
 }
 .bottom ul {
-  padding-left: 2em;
+  padding: 1em 1em 0.5em;
 }
 .bottom ul li {
-  list-style: square;
+  margin: 0 0 0.5em;
 }
 footer {
-  padding: 0.5em 0 0.5em;
+  padding: 0.5em 1em 0.5em;
   background: #333;
   color: #eee;
-  border-top: 1px solid #777;
-}
-footer ul {
-  list-style: none;
-  padding: 0;
-  height: 27px;
-}
-footer ul li {
-  float: left;
-  border-right: 1px solid #777;
-  padding-right: 1em;
-  margin-left: 1em;
-}
-footer ul li.last {
-  border: none;
-}
-p.disclaimer {
-  clear: both;
-  padding: 0 1em;
 }
 #container {
   width: 100%;
