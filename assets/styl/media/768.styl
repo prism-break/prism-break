@@ -12,12 +12,10 @@ body
     clearfix()
     header
       h2
-        bt 1px solid bc
         font-size 1.25em
         font-weight normal
 
     h3
-      bt 1px solid bc
       display block
       w 100%
 
@@ -30,6 +28,8 @@ body
           bb none
     div.prop
       w 33%
+      &.empty
+        d block
       .logo
         mr .75em
         img
@@ -46,6 +46,9 @@ body
 
     div.notes
       clear both
+      h3
+        bt 1px solid #ddd
+
 
   #jPanelMenu-menu
     ul
