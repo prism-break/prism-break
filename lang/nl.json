@@ -4,13 +4,13 @@
   "i18n-intro": "<strong>Opt out voor PRISM, het wereldwijde datatoezichtsprogramma van de NSA.</strong> Stop met het doorgeven van online activiteiten aan de Amerikaanse overheid met deze gratis alternatieven voor gesloten software.",
 
   "i18n-proprietary": "Gesloten",
-  "i18n-free-alternative": "Vrij alternative",
+  "i18n-free-alternative": "Vrije alternatieven",
   "i18n-notes": "Opmerkingen",
 
   "i18n-operating-system": "Besturingssysteem",
   "i18n-debian-desc": "Populaire ethische GNU/Linux distributie.",
   "i18n-fedora-desc": "Snelle, stabiele en krachtige GNU/Linux distributie.",
-  "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
+  "i18n-linuxmint-desc": "Comfortabele en gemakkelijk te gebruiken GNU/Linux distributie.",
   "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
   "i18n-tails-desc": "Live CD/USB ontworpen voor privacybescherming.",
   "i18n-trisquel-desc": "FSF goedgekeurde, gebruiksvriendelijke GNU/Linux distributie.",
@@ -21,10 +21,10 @@
   "i18n-torbrowser-desc": "Versleuteld, anoniem surfen.",
 
   "i18n-web-browser-plugins": "Webbrowser plugins",
-  "i18n-adblockedge-desc": "Block advertisements on the web.",
+  "i18n-adblockedge-desc": "Blokker advertenties op het web.",
   "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
   "i18n-httpseverywhere-desc": "Versleuteld je communicatie op duizenden websites.",
-  "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
+  "i18n-noscript-desc": "Schakel JavaScript, Java, en Flash alleen in voor sites die je vertrouwd.",
 
   "i18n-web-search": "Zoekmachines",
   "i18n-duckduckgo-desc": "Anonieme, niet opgeslagen zoekopdrachten.",
@@ -140,7 +140,7 @@
   "i18n-partly-proprietary": "deels in eigendomsbezit*",
   "i18n-proprietary": "in eigendomsbezit*",
   "i18n-invite-only": "alleen op uitnodiging",
-  "i18n-usa-hosted": "gehost in de vs",
+  "i18n-usa-hosted": "gehost in de VS",
   "i18n-newbies-choice": "aanrader voor beginners",
   "i18n-editors-choice": "keuze van de redacteur",
   "i18n-approval-required": "goedkeuring benodigd",
@@ -176,17 +176,17 @@
 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
 
-  "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</p>",
+  "i18n-ios-note": "<p>iOS is onveilig, en helaas zijn er ook weinig vrije versleutel apps beschikbaar voor iOS. Het is ook <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>onmogelijk om te verifieren</a> of een iOS app gecompileerd is van de originele broncode.</p>",
 
   "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</p> <p>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</p> <p>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
 
   "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p> <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
 
-  "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
+  "i18n-web-search-note": "<p><strong>Startpage</strong> is gesloten, gehost in de VS/Nederland, en levert je geanonimiseerde Google zoekresultaten (inclusief afbeeldingen).</p><p><strong>DuckDuckGo</strong> is gedeeltelijk gesloten, gehost in de VS, en levert je geanonimiseerde Bing zoekresultaten.</p><p>Kies je vergif.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
+  "i18n-email-services-note": "<p><strong>Riseup</strong> is gehost in de VS, in het geval dat uitmaakt.</p><p>Waarom geen Hushmail? Zie <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-email-clients-note": "<p>Opmerking: <strong>Mozilla Thunderbird</strong> is technisch gezien niet volledig vrije software, omdat Mozilla niet-vrije add-ons aanbeveelt op haar website.</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 
@@ -198,13 +198,13 @@
 
   "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
 
-  "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</p>",
+  "i18n-media-publishing-note": "<p><strong>Zelf-gehost</strong> is belangrijk. Hosten van je blog op Wordpress.com is niet beter voor je dat veiligheid dan op Blogger of Tumblr.</p>",
 
   "i18n-document-collaboration-note": "<p>--</p>",
 
   "i18n-maps-note": "<p>--</p>",
 
-  "i18n-cloud-storage-note": "<p>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
+  "i18n-cloud-storage-note": "<p>Waarom geen MEGA? Terwijl er aan MEGA geen kosten zijn verbioden, is de software gesloten code.</p><p>Waarom geen SpiderOak? SpiderOak is gesloten software.</p><p>Waarom geen Tarsnap? Tarsnap is gedeeltelijk gesloten en host je data op Amazon Web Services.</p>",
 
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
