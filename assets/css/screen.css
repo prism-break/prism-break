@@ -24,7 +24,7 @@ h3 > a:hover{color:#000;text-decoration:underline}
 .fs.icon{padding:0;background:transparent;border:none}
 .fs.icon img{width:18px;height:18px;vertical-align:bottom}
 .fs.newbie{background:#4a0}
-body{font-size:16px;line-height:1.5;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;background:#fff;overflow-y:scroll;direction:ltr}
+body{font-size:16px;line-height:1.5;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;background:#fff;direction:ltr}
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 #header-site{position:fixed;top:0;width:100%;padding:0;height:3em;border-bottom:1px solid #ddd;background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f0f0f0));background:-webkit-linear-gradient(top, #fff 0, #f0f0f0 100%);background:-moz-linear-gradient(top, #fff 0, #f0f0f0 100%);background:-o-linear-gradient(top, #fff 0, #f0f0f0 100%);background:-ms-linear-gradient(top, #fff 0, #f0f0f0 100%);background:linear-gradient(top, #fff 0, #f0f0f0 100%);-webkit-box-shadow:rgba(0,0,0,0.07) 0 0 3em;box-shadow:rgba(0,0,0,0.07) 0 0 3em}
 h1#brand{display:inline-block;font-size:1em;line-height:3em;text-transform:uppercase;text-align:center;display:inline-block;font-weight:normal;}
