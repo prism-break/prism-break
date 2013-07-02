@@ -1,10 +1,36 @@
-#header-site .menu-trigger
-  ta center
-  f 1.25em/48px sans
-  m 0 x
-  float left
-  border-radius 3px
-  cursor pointer
+#header-site 
+  .menu-trigger
+    ta center
+    float left
+    cursor pointer
+    m x*.5
+    .border
+      d block
+      b 1px solid #ddd
+      w 32px
+      h 32px
+      border-radius 3px
+      box-shadow 1px solid #f00 0 0 2px 2px
+      .btn
+        d block
+        w 30px
+        h 30px
+        b 1px solid #fff
+        f 1.25em/28px sans
+        border-radius 2px
+        c #666
+    &:hover
+      .border
+        background linear-gradient(top, #fff, m245 100%)
+        .btn
+          c hover
+    &:active
+      .border
+        background linear-gradient(top, m200, m220 100%)
+        .btn
+          c light
+          border-color m180
+
 
 #jPanelMenu-menu
   background #333
