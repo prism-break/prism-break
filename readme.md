@@ -14,9 +14,9 @@ Please do not edit the `screen.css` file directly, but instead edit the `.stylus
 
     stylus -w assets/styl/screen.styl -o assets/css -u ~/local/node/lib/node_modules/nib
 
-If you don't have the [Stylus](http://learnboost.github.io/stylus/) package, either learn about it [here](http://learnboost.github.io/stylus/) or just install it with `npm`:
+If you don't have the [Stylus](http://learnboost.github.io/stylus/) package just install it (along with the [nib](http://visionmedia.github.io/nib/) extension `npm`:
 
-    npm install stylus
+    npm install -g stylus nib
 
 ## License
 
