@@ -80,7 +80,7 @@ section ul li:after{clear:both}
 .free ul li a:before,.free ul li a:after{content:"";display:table}
 .free ul li a:after{clear:both}
 .free ul li a:hover h4{text-decoration:underline;color:#0467ae}
-.free ul li img{display:block;float:left;width:50px;height:50px;margin-right:1em}
+.free ul li img.logo{display:block;float:left;width:50px;height:50px;margin-right:1em}
 .free ul li h4,.free ul li p{display:inline}
 .free ul li h4{font-weight:bold}
 .free ul li p.desc{color:#333}
@@ -136,13 +136,9 @@ body section div.notes{clear:none;width:35%;border-left:1px solid #ddd;}
 body section div.notes h3{border-top:none}
 body section div.notes p{font:14px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif}
 }@media (min-width: 1200px){body section div.notes p{font:16px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif !important}
-}#rtl{direction:rtl}
-#rtl #header-site ul li{float:left}
-#rtl #header-site ul li#brand{float:right}
-#rtl #header-site ul li#brand h1{margin:0 0 0 1em}
-#rtl th{text-align:right;border-right:1px solid #ddd;border-left:none}
-#rtl td.prop,#rtl td.free,#rtl td.note{border-right:1px solid #ddd;border-left:none}
-#rtl td .logo{float:right;margin-right:0}
-#rtl td.prop .logo{margin-left:.75em}
-#rtl td.free .logo{margin-left:1em}
-#rtl footer ul li{float:right}
+}#rtl{direction:rtl;}
+#rtl #header-site h1#brand{padding:0 1em}
+#rtl #header-site ul.nav{float:left;}
+#rtl #header-site ul.nav li{float:right}
+#rtl #container section img.logo{float:right;margin-right:0;margin-left:.5em}
+#rtl #container section .free img.logo{margin-left:1em}
