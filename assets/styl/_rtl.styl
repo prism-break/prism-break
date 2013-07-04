@@ -1,36 +1,20 @@
 #rtl
   direction: rtl
 
-#rtl #header-site ul li
-  float: left
+  #header-site
+    h1#brand
+      padding 0 1em
+    ul.nav
+      float left
+      li
+        float right
 
-#rtl #header-site ul li#brand
-  float: right
-
-#rtl #header-site ul li#brand h1
-  margin: 0 0 0 1em
-
-#rtl th
-  text-align: right
-  border-right: 1px solid #ddd
-  border-left: none
-
-#rtl td.prop,
-#rtl td.free,
-#rtl td.note
-  border-right: 1px solid #ddd
-  border-left: none
-
-#rtl td .logo
-  float: right
-  margin-right: 0
-
-#rtl td.prop .logo
-  margin-left: .75em
-
-#rtl td.free .logo
-  margin-left: 1em
-
-#rtl footer ul li
-  float: right
-
+  #container
+    section
+      img.logo
+        float right
+        mr 0
+        ml .5em
+      .free
+        img.logo
+          ml 1em
