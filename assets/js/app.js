@@ -19,7 +19,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 });
 
 // list of supported langs
-var langs = ['ar', 'de', 'el', 'eo', 'en', 'es', 'fa', 'fi', 'fr', 'hi', 'io', 'it', 'ja', 'nl', 'no', 'pl', 'pt', 'ru', 'sr', 'sr_cr', 'sv', 'zh_cn', 'zh_tw'];
+var langs = ['ar', 'de', 'el', 'eo', 'en', 'es', 'fa', 'fi', 'fr', 'hi', 'io', 'it', 'ja', 'nl', 'no', 'pl', 'pt', 'ru', 'sr', 'sr_cr', 'sv', 'zh_cn', 'zh_tw', 'he'];
 
 $("#lang-select").change(function() {
 
@@ -40,7 +40,7 @@ $("#lang-select").change(function() {
 function getLang(abbr) {
   if(langs.indexOf(abbr) < 0)
     throw "Unsupported language";
-  if(abbr == 'ar' || abbr == 'fa')
+  if(abbr == 'ar' || abbr == 'fa' || abbr == 'he')
     $('body').attr('id', 'rtl');
   else
     $("body").removeAttr('id');
