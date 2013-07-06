@@ -30,6 +30,6 @@ If you don't have the [Stylus](http://learnboost.github.io/stylus/) package just
 
 All the code and text in this project are licensed under a GNU General Public License v3.
 
-nib is created by TJ Holowaychuk and licensed under the MIT license.
+jQuery v1.10.1, jPanelMenu, HTML5 Shiv v3.6.2pre, stylus, and nib are licensed under the MIT license.
 
 Logos and images are trademarked by their respective companies.
