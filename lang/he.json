@@ -14,6 +14,7 @@
   "i18n-liberte-desc": "תקליטור אתחול/USB שעוצב כעזר תקשורת באזורים עוינים.",
   "i18n-tails-desc": "תקליטור אתחול/USB מיועד לשמירת הפרטיות והאנונימיות שלך.",
   "i18n-trisquel-desc": "הפצת GNU/לינוקס ידידותית למשתמש הנתמכת ע&ldquo;י המוסד לתוכנה חופשית.",
+  "i18n-whonix-desc": "מערכת הפעלה אוכפת-Tor המרוכזת כל אנונימיות, פרטיות ובטחון. מציעה תמונות VM מוכנות לשימוש.",
 
   "i18n-web-browser": "דפדפן אינטרנט",
   "i18n-icecat-desc": "גרסת GNU של פיירפוקס.",
@@ -25,6 +26,7 @@
   "i18n-disconnect-desc": "מנע מאתרי צד-שלישי את היכולת לעקוב אחריך.",
   "i18n-httpseverywhere-desc": "הצפן את התקשורת שלך מאלפי אתרים.",
   "i18n-noscript-desc": "אפשר הרצה של קוד Javascript,Java ו-Flash רק לאתרים מוסמכים.",
+  "i18n-requestpolicy-desc": "שלטו באילו בקשות חוצות שרת(cross-site) מורשות ע&ldquo;י השרתים אותם אתם מבקרים.",
 
   "i18n-web-search": "חיפוש ברשת",
   "i18n-duckduckgo-desc": "חיפושי רשת אנונימיים וללא רישום החיפושים.",
@@ -41,6 +43,7 @@
   "i18n-i2p-desc": "פרויקט האינטרנט הבלתי נראה.",
   "i18n-nightweb-desc": "אינטרנט בלתי נראה אנונימי למכשירי אנדרואיד.",
   "i18n-syndie-desc": "תוכנת פורום אנונימית ומבוזרת.",
+  "i18n-tor-hidden-services-desc": "רשת ה-Tor מאפשר גישה לאתרי *.onion",
 
   "i18n-online-transactions": "עסקאות מקוונות",
   "i18n-bitcoin-desc": "מטבע דיגיטלי המבוסס על תקשורת P2P ללא סמכות מרכזית.",
@@ -48,6 +51,7 @@
   "i18n-cryptocoins-desc": "רשימה של חלופות מסחר דיגיטלי מוצפן.",
 
   "i18n-email-services": "שירותי דואר אלקטרוני",
+  "i18n-autistici-desc": "טווח רחב של שירותים חופשיים ומודעי-פרטיות.",
   "i18n-bitmessage-desc": "שרת אי-מייל מבוזר ומוצפן.",
   "i18n-riseup-desc": "חשבונות אי-מייל פרטיים ומאובטחים.",
   "i18n-tormail-desc": "Tor מייל הוא ספק שירות אי-מייל חופשי ואנונימי.",
@@ -60,9 +64,11 @@
   "i18n-icedove-desc": "גרסה חופשית של Thunderbird מבית Mozilla.",
   "i18n-kmail-desc": "תוכנת לקוח של אי-מייל KDE עם תמיכת GPG.",
   "i18n-thunderbird-desc": "יישום אי-מייל בקוד פתוח.",
+  "i18n-kontact-desc": "חבילת ניהול מידע אישי עם תמיכת GPG.",
 
   "i18n-email-encryption": "הצפנת אי-מייל",
   "i18n-enigmail-desc": "תוסף OpenPGP עבור Thunderbird ו-Icedove.",
+  "i18n-torbirdy-desc": "צור את התחברויות ה-Thunderbird או Icedove שלך דרך Tor.",
   "i18n-gnuprivacyguard-desc": "יישום OpenPGP חופשית.",
   "i18n-mailvelope-desc": "הצפנת OpenPGP עבור מייל בממשק רשת.",
   "i18n-webpg-desc": "GnuPG/PGP בדפדפן.",
@@ -101,6 +107,7 @@
   "i18n-mumble-desc": "צ'אט קול מוצפן בטמירות נמוכה.",
 
   "i18n-media-publishing": "הפצת מדיה",
+  "i18n-noblogs-desc": "פלטפורמת הפצת בלוגים המבוססת על WordPress, ע&ldquo;י autistici.org.",  
   "i18n-gnumediagoblin-desc": "פלטפורמת הפצת מדיה מבוזרת.",
   "i18n-piwigo-desc": "גלריית תמונות באחסון עצמאי.",
   "i18n-wordpress-desc": "פלטפורמת הפצת אתרים באחסון עצמאי.",
@@ -146,6 +153,7 @@
   "i18n-newbies-choice": "בחירת המתחילים",
   "i18n-editors-choice": "בחירת העורך",
   "i18n-approval-required": "נדרש אישור",
+  "i18n-experimental": "נסיוני",
 
   "i18n-fsf-definition-title": "*אתר זה משתמש בהגדרה של <strong>המוסד לתוכנה חופשית</strong> עבור תוכנה חופשית.",
   "i18n-fsf-quote": "&ldquo;תוכנה חופשית&rdquo; משמע תוכנה שמכבדת את חופש והקהילתיות של המשתמשים. בקירוב, <strong>למשתמשים החופש להריץ, להעתיק, לשתף, ללמוד, לשנות ולשפר את התוכנה</strong>. עם החופש הזה, המשתמשים (גם באופן פרטי וגם באופן קולקטיבי) שולטים בתוכנה ובמה שהיא מבצעת עבורם.",
@@ -166,6 +174,7 @@
   "i18n-german": "גרמנית",
   "i18n-polish": "פולנית",
   "i18n-spanish": "ספרדית",
+  "i18n-swedish": "שוודית",
   "i18n-chinese-traditional": "סינית (מסורתית)",
   "i18n-russian": "רוסית",
   "i18n-hebrew": "עברית",
