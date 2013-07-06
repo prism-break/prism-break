@@ -7,7 +7,7 @@
   "i18n-free-alternative": "Free alternative",
   "i18n-notes": "Notes",
 
-  "i18n-operating-system" : "Operating system",
+  "i18n-operating-system": "Operating system",
   "i18n-debian-desc": "Popular ethical GNU/Linux distribution.",
   "i18n-fedora-desc": "Fast, stable, powerful GNU/Linux distribution.",
   "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
@@ -26,6 +26,7 @@
   "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
   "i18n-httpseverywhere-desc": "Encrypts your communications from thousands of websites.",
   "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
+  "i18n-requestpolicy-desc": "Control which cross-site requests are allowed by sites you visit.",
 
   "i18n-web-search": "Web search",
   "i18n-duckduckgo-desc": "Anonymous, unlogged web searches.",
@@ -51,6 +52,7 @@
   "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
 
   "i18n-email-services": "Email services",
+  "i18n-autistici-desc": "A full range of free, privacy-aware services.",
   "i18n-bitmessage-desc": "Encrypted, decentralized email server.",
   "i18n-riseup-desc": "Secure and private email accounts.",
   "i18n-tormail-desc": "Tor Mail is a free anonymous email service provider.",
@@ -105,6 +107,7 @@
 
   "i18n-media-publishing": "Media publishing",
   "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
+  "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.",
   "i18n-piwigo-desc": "Self-hosted photo gallery platform.",
   "i18n-wordpress-desc": "Self-hosted website publishing platform.",
   "i18n-zenphoto-desc": "Self-hosted media management system.",
@@ -115,6 +118,8 @@
 
   "i18n-web-analytics": "Web analytics",
   "i18n-piwik-desc": "Open source, self-hosted web analytics.",
+
+  "i18n-android": "Android",
 
   "i18n-cyanogenmod-desc": "Aftermarket firmware for Android devices.",
   "i18n-replicant-desc": "Fully free Android distribution.",
@@ -130,6 +135,7 @@
   "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
   "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
 
+  "i18n-ios": "iOS",
   "i18n-ios-insecure-title": "iOS is insecure",
   "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
   "i18n-chatsecure-desc": "Encrypted IM for iOS.",
@@ -172,6 +178,7 @@
   "i18n-spanish": "Spanish",
   "i18n-chinese-traditional": "Chinese (Traditional)",
   "i18n-russian": "Russian",
+  "i18n-swedish": "Swedish",
 
   "i18n-updated": "Updated",
   "i18n-by": "by",
