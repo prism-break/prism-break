@@ -29,3 +29,5 @@ If you don't have the [Stylus](http://learnboost.github.io/stylus/) package just
 ## GNU General Public License v3
 
 All the code and content in this project is licensed under the GNU GPLv3 except for the trademarked images and logos.
+
+Normalize.css is copyright (c) Nicolas Gallagher and Jonathan Neal.
