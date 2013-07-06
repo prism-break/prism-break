@@ -1,6 +1,6 @@
-# http://prism-break.org
+# https://prism-break.org
 
-Feel free to contribute to or use the code as you like.
+Contributors are welcome.
 
 ## Translations
 
@@ -26,8 +26,6 @@ If you don't have the [Stylus](http://learnboost.github.io/stylus/) package just
 
     npm install -g stylus nib
 
-## License
+## GNU General Public License v3
 
-No Copyright
-
-http://creativecommons.org/publicdomain/zero/1.0/
+All the code and content in this project is licensed under the GNU GPLv4 except for the trademarked images and logos.
