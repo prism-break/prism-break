@@ -26,8 +26,10 @@ If you don't have the [Stylus](http://learnboost.github.io/stylus/) package just
 
     npm install -g stylus nib
 
-## GNU General Public License v3
+## License
 
-All the code and content in this project is licensed under the GNU GPLv3 except for the trademarked images and logos.
+All the code and text in this project are licensed under a GNU General Public License v3.
 
-Normalize.css is copyright (c) Nicolas Gallagher and Jonathan Neal.
+nib is created by TJ Holowaychuk and licensed under the MIT license.
+
+Logos and images are trademarked by their respective companies.

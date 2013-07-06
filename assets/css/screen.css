@@ -100,7 +100,7 @@ footer ul:before,footer ul:after{content:"";display:table}
 footer ul:after{clear:both}
 footer ul li{float:left;border-right:1px solid #666;padding:0 1em;}
 footer ul li.last{border-right:none}
-footer p{padding:0 1em}
+footer p{padding:0 1em 1em}
 @media (min-width: 481px){body section div.free ul li h4{line-height:1.5em;display:block}
 body section div.free ul li p{line-height:1.5em}
 }@media (min-width: 768px){body #header-site ul.nav li#donate,body #header-site ul.nav li#contribute{display:block}
