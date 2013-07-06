@@ -28,4 +28,4 @@ If you don't have the [Stylus](http://learnboost.github.io/stylus/) package just
 
 ## GNU General Public License v3
 
-All the code and content in this project is licensed under the GNU GPLv4 except for the trademarked images and logos.
+All the code and content in this project is licensed under the GNU GPLv3 except for the trademarked images and logos.
