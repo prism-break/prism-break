@@ -225,6 +225,8 @@
   "i18n-dns-provider-note": "<p>Google Public DNS logt je ISP en locatie informatie voor analyse. Je IP adres wordt ook opgeslagen voor 24 uur.</p><p><strong>OpenNIC</strong> heeft geen officiele policy aangaande log query privacy / anonimisatie. Meer informatie <a href='http://wiki.opennicproject.org/Tier2'>hier</a>.</p>",
 
   "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
-
+ 
+  "i18n-site-license": "<p>PRISM Break&rsquo;s code en tekst zijn uitgebracht onder een <a href='http://www.gnu.org/licenses/gpl.html'>GNU GPL v3 licentie</a>.</p><p>jQuery v1.10.1, jPanelMenu, HTML5 Shiv v3.6.2pre, stylus, en nib zijn uitgebracht onder de MIT licentie.</p><p>Logo's en afbeeldingen zijn eigendom van de respectievelijke bedrijven.</p>", 
+ 
   "i18n-disclaimer": "Disclaimer: Het gebruik van de aangerade software op deze site garandeerd niet dat 100% van je communicatie beveiligd is tegen datatoezichtsprogramma's. Doe je eigen onderzoek voordat je deze software vertrouwd met gevoelige informatie."
 }
