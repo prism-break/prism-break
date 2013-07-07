@@ -1,7 +1,7 @@
 {
-  "i18n-title": "צאו מהתוכנית PRISM, התוכנית השגחת המידע העולמית של ה-NSA - פריצת PRISM",
-  "i18n-meta-description": "צאו מהתוכנית PRISM, התוכנית השגת המידע העולמית של ה-NSA. הפסיקו לדווח על פעילותכם המקוונת לממשלה האמריקאית עם החלופות החופשיות האלו לתוכנה קניינית.",
-  "i18n-intro": "<strong>צאו מהתוכנית PRISM, התוכנית השגחת המידע העולמית של ה-NSA.</strong> הפסיקו לדווח על פעילותכם המקוונת לממשלה האמריקאית עם החלופות החופשיות האלו לתוכנה קניינית.",
+  "i18n-title": "צאו מתוכנית PRISM, תוכנית השגחת המידע העולמית של ה־NSA - פריצת PRISM",
+  "i18n-meta-description": "צאו מהתוכנית PRISM, תוכנית השגחת המידע העולמית של ה־NSA. הפסיקו לדווח על פעילותכם המקוונת לממשלה האמריקאית עם החלופות החופשיות האלו לתוכנה קניינית.",
+  "i18n-intro": "<strong>צאו מהתוכנית PRISM, התוכנית השגחת המידע העולמית של ה־NSA.</strong> הפסיקו לדווח על פעילותכם המקוונת לממשלה האמריקאית עם החלופות החופשיות האלו לתוכנה קניינית.",
 
   "i18n-proprietary": "קנייני",
   "i18n-free-alternative": "חלופות חופשיות",
@@ -12,9 +12,9 @@
   "i18n-fedora-desc": "הפצת GNU/לינוקס מהירה, אמידה וחזקה.",
   "i18n-linuxmint-desc": "הפצת GNU/לינוקס נוחה וקלה לשימוש.",
   "i18n-liberte-desc": "תקליטור אתחול/USB שעוצב כעזר תקשורת באזורים עוינים.",
-  "i18n-tails-desc": "תקליטור אתחול/USB מיועד לשמירת הפרטיות והאנונימיות שלך.",
-  "i18n-trisquel-desc": "הפצת GNU/לינוקס ידידותית למשתמש הנתמכת ע&ldquo;י המוסד לתוכנה חופשית.",
-  "i18n-whonix-desc": "מערכת הפעלה אוכפת-Tor המרוכזת כל אנונימיות, פרטיות ובטחון. מציעה תמונות VM מוכנות לשימוש.",
+  "i18n-tails-desc": "תקליטור אתחול/USB המיועד לשמירת הפרטיות והאנונימיות שלך.",
+  "i18n-trisquel-desc": "הפצת GNU/לינוקס ידידותית למשתמש הנתמכת ע״י המוסד לתוכנה חופשית.",
+  "i18n-whonix-desc": "מערכת הפעלה אוכפת־Tor המרוכזת כל אנונימיות, פרטיות ובטחון. מציעה תמונות VM מוכנות לשימוש.",
 
   "i18n-web-browser": "דפדפן אינטרנט",
   "i18n-icecat-desc": "גרסת GNU של פיירפוקס.",
@@ -23,10 +23,10 @@
 
   "i18n-web-browser-plugins": "תוספים לדפדפן אינטרנט",
   "i18n-adblockedge-desc": "חסימת פרסומות ברשת.",
-  "i18n-disconnect-desc": "מנע מאתרי צד-שלישי את היכולת לעקוב אחריך.",
+  "i18n-disconnect-desc": "מנע מאתרי צד־שלישי את היכולת לעקוב אחריך.",
   "i18n-httpseverywhere-desc": "הצפן את התקשורת שלך מאלפי אתרים.",
-  "i18n-noscript-desc": "אפשר הרצה של קוד Javascript,Java ו-Flash רק לאתרים מוסמכים.",
-  "i18n-requestpolicy-desc": "שלטו באילו בקשות חוצות שרת(cross-site) מורשות ע&ldquo;י השרתים אותם אתם מבקרים.",
+  "i18n-noscript-desc": "אפשר הרצה של קוד Javascript, Java ו־Flash רק לאתרים מוסמכים.",
+  "i18n-requestpolicy-desc": "שלוט באילו בקשות חוצות שרת (cross-site) מורשות ע״י השרתים בהם אתה מבקר.",
 
   "i18n-web-search": "חיפוש ברשת",
   "i18n-duckduckgo-desc": "חיפושי רשת אנונימיים וללא רישום החיפושים.",
@@ -36,41 +36,41 @@
 
   "i18n-dns-provider": "ספק DNS",
   "i18n-opennic-desc": "ניטרליות DNS מוחלטת.",
-  "i18n-namecoin-desc": "DNS מבוזר המבוסס על טכנולוגיית bitcoin.",
+  "i18n-namecoin-desc": "DNS מבוזר המבוסס על טכנולוגיית Bitcoin.",
 
   "i18n-darknet": "דארקנט",
   "i18n-freenet-desc": "רשת מבוזרת עמידה מצנזורה.",
   "i18n-i2p-desc": "פרויקט האינטרנט הבלתי נראה.",
   "i18n-nightweb-desc": "אינטרנט בלתי נראה אנונימי למכשירי אנדרואיד.",
   "i18n-syndie-desc": "תוכנת פורום אנונימית ומבוזרת.",
-  "i18n-tor-hidden-services-desc": "רשת ה-Tor מאפשר גישה לאתרי *.onion",
+  "i18n-tor-hidden-services-desc": "רשת ה־Tor מאפשרת גישה לאתרי &#8206;*.onion.",
 
   "i18n-online-transactions": "עסקאות מקוונות",
   "i18n-bitcoin-desc": "מטבע דיגיטלי המבוסס על תקשורת P2P ללא סמכות מרכזית.",
-  "i18n-cryptocoins-title": "מסחר מוצפן חלופי",
+  "i18n-cryptocoins-title": "מסחר מוצפן חלופי.",
   "i18n-cryptocoins-desc": "רשימה של חלופות מסחר דיגיטלי מוצפן.",
 
   "i18n-email-services": "שירותי דואר אלקטרוני",
-  "i18n-autistici-desc": "טווח רחב של שירותים חופשיים ומודעי-פרטיות.",
-  "i18n-bitmessage-desc": "שרת אי-מייל מבוזר ומוצפן.",
-  "i18n-riseup-desc": "חשבונות אי-מייל פרטיים ומאובטחים.",
-  "i18n-tormail-desc": "Tor מייל הוא ספק שירות אי-מייל חופשי ואנונימי.",
-  "i18n-kolab-desc": "תוכנה קיבוצית לאי-מייל, לוחות שנה, ספרי כתובות וסנכרון למכשירי פלאפון.",
-  "i18n-mykolabcom-desc": "משתמשי Kolab מאובטחים המאוחסנים בשווייצריה",
+  "i18n-autistici-desc": "טווח רחב של שירותים חופשיים ומודעי־פרטיות.",
+  "i18n-bitmessage-desc": "שרת אימייל מבוזר ומוצפן.",
+  "i18n-riseup-desc": "חשבונות אימייל פרטיים ומאובטחים.",
+  "i18n-tormail-desc": "Tor מייל הוא ספק שירות אימייל חופשי ואנונימי.",
+  "i18n-kolab-desc": "תוכנה קיבוצית לאימייל, לוחות שנה, ספרי כתובות וסנכרון למכשירי טלפון נייד.",
+  "i18n-mykolabcom-desc": "חשבונות משתמשי Kolab מאובטחים המאוחסנים בשוייץ.",
 
-  "i18n-email-clients": "תוכנת לקוח לשירותי אי-מייל למחשבים אישיים",
-  "i18n-clawsmail-desc": "יישום אי-מייל קליל עם תמיכת GPG.",
-  "i18n-evolution-desc": "יישום אי-מייל ולוח שנה חופשי עם תמיכת GPG.",
+  "i18n-email-clients": "תוכנת לקוח לשירותי אימייל למחשבים אישיים",
+  "i18n-clawsmail-desc": "יישום אימייל קליל עם תמיכת GPG.",
+  "i18n-evolution-desc": "יישום אימייל ולוח שנה חופשי עם תמיכת GPG.",
   "i18n-icedove-desc": "גרסה חופשית של Thunderbird מבית Mozilla.",
-  "i18n-kmail-desc": "תוכנת לקוח של אי-מייל KDE עם תמיכת GPG.",
-  "i18n-thunderbird-desc": "יישום אי-מייל בקוד פתוח.",
+  "i18n-kmail-desc": "תוכנת לקוח של אימייל KDE עם תמיכת GPG.",
+  "i18n-thunderbird-desc": "יישום אימייל בקוד פתוח.",
   "i18n-kontact-desc": "חבילת ניהול מידע אישי עם תמיכת GPG.",
 
-  "i18n-email-encryption": "הצפנת אי-מייל",
-  "i18n-enigmail-desc": "תוסף OpenPGP עבור Thunderbird ו-Icedove.",
-  "i18n-torbirdy-desc": "צור את התחברויות ה-Thunderbird או Icedove שלך דרך Tor.",
-  "i18n-gnuprivacyguard-desc": "יישום OpenPGP חופשית.",
-  "i18n-mailvelope-desc": "הצפנת OpenPGP עבור מייל בממשק רשת.",
+  "i18n-email-encryption": "הצפנת אימייל",
+  "i18n-enigmail-desc": "תוסף OpenPGP עבור Thunderbird ו־Icedove.",
+  "i18n-torbirdy-desc": "צור את התחברויות ה־Thunderbird או ה־Icedove שלך דרך Tor.",
+  "i18n-gnuprivacyguard-desc": "יישום OpenPGP חופשי.",
+  "i18n-mailvelope-desc": "הצפנת OpenPGP עבור אימייל בממשק רשת.",
   "i18n-webpg-desc": "GnuPG/PGP בדפדפן.",
 
   "i18n-maps": "מפות",
@@ -81,7 +81,7 @@
   "i18n-owncloud-desc": "מידע ענן בשליטתך.",
   "i18n-seafile-desc": "סנכרון ושיתוף קבצים באחסון עצמאי עבור צוותים.",
   "i18n-sparkleshare-desc": "שליטה בגרסאות וסנכרון קבצים באחסון עצמאי.",
-  "i18n-tahoelafs-desc": "מערכת חופשית ופתוחה אחסון בענן .",
+  "i18n-tahoelafs-desc": "מערכת חופשית ופתוחה אחסון בענן.",
 
   "i18n-social-networking": "רשת חברתית",
   "i18n-buddycloud-desc": "רשת חברתית ריבונית מבוססת קוד פתוח.",
@@ -94,20 +94,20 @@
   "i18n-salutatoi-desc": "כלי תקשורת רב תכליתי רב ממשקי.",
   "i18n-tent-desc": "פרוטוקול תקשורות חברתי חופשי ועצמאי.",
 
-  "i18n-instant-messaging": "תקשורת מסרים מיידים",
-  "i18n-cryptocat-desc": "שיחות מוצפנות,פרטיות ומקוונות בדפדפן.",
-  "i18n-otr-desc": "התקן/י ואפשר/י את התוסף ב-Pidgin עבור צ'אט מאובטח.",
-  "i18n-pidgin-desc": "תוכנת צ'אט בקוד פתוח.",
-  "i18n-adium-desc": "לקוח צ'אט חופשי רב-פרוטוקולים עבור מערכת הפעלה OS X.",
+  "i18n-instant-messaging": "תקשורת מסרים מיידיים",
+  "i18n-cryptocat-desc": "שיחות מוצפנות, פרטיות ומקוונות בדפדפן.",
+  "i18n-otr-desc": "התקן ואפשר את התוסף ב־Pidgin עבור צ׳אט מאובטח.",
+  "i18n-pidgin-desc": "תוכנת צ׳אט בקוד פתוח.",
+  "i18n-adium-desc": "לקוח צ׳אט חופשי רב־פרוטוקולים עבור מערכת הפעלה OS X.",
   "i18n-retroshare-desc": "פלטפורמת תקשורת P2P חופשית ובטוחה.",
 
-  "i18n-video-voip": "ועידת ווידאו/VoIP",
-  "i18n-jitsi-desc": "צ'אט טקסט ווידאו מוצפן.",
-  "i18n-linphone-desc": "תוכנת לקוח עבור ווידאו וקול מוצפנים.",
-  "i18n-mumble-desc": "צ'אט קול מוצפן בטמירות נמוכה.",
+  "i18n-video-voip": "ועידת וידאו/VoIP",
+  "i18n-jitsi-desc": "צ׳אט טקסט וידאו מוצפן.",
+  "i18n-linphone-desc": "תוכנת לקוח עבור וידאו וקול מוצפנים.",
+  "i18n-mumble-desc": "צ׳אט קול מוצפן בטמירות נמוכה.",
 
   "i18n-media-publishing": "הפצת מדיה",
-  "i18n-noblogs-desc": "פלטפורמת הפצת בלוגים המבוססת על WordPress, ע&ldquo;י autistici.org.",  
+  "i18n-noblogs-desc": "פלטפורמת הפצת בלוגים המבוססת על WordPress, ע״י autistici.org.",  
   "i18n-gnumediagoblin-desc": "פלטפורמת הפצת מדיה מבוזרת.",
   "i18n-piwigo-desc": "גלריית תמונות באחסון עצמאי.",
   "i18n-wordpress-desc": "פלטפורמת הפצת אתרים באחסון עצמאי.",
@@ -120,7 +120,7 @@
   "i18n-web-analytics": "ניתוח נתוני רשת",
   "i18n-piwik-desc": "ניתוח נתוני רשת באחסון עצמאי ובקוד פתוח.",
 
-  "i18n-cyanogenmod-desc": "קשחה של מכשירי אנדרואיד לאחר קנייה.",
+  "i18n-cyanogenmod-desc": "קושחה של מכשירי אנדרואיד לאחר קנייה.",
   "i18n-replicant-desc": "הפצת אנדרואיד חופשית לחלוטין.",
 
   "i18n-android-app-store": "חנות אפליקציות עבור אנדרואיד",
@@ -135,13 +135,13 @@
   "i18n-xabber-desc": "שליחת מסרים מיידית עבור אנדרואיד בהצפנת OTR.",
 
   "i18n-ios-insecure-title": "iOS אינו בטוח",
-  "i18n-ios-insecure-desc": "מכשירי iOS מכילים מעקב מובנה תוכנה.",
+  "i18n-ios-insecure-desc": "מכשירי iOS מכילים מעקב מובנה בחומרה.",
   "i18n-chatsecure-desc": "מסרים מיידים מוצפנים עבור iOS.",
-  "i18n-onionbrowser-desc": "גלישה בטוח עבור iOS.",
+  "i18n-onionbrowser-desc": "גלישה בטוחה עבור iOS.",
 
   "i18n-meshnet": "רשת אריג",
   "i18n-meshnet-project-desc": "אלטרנטיבה מבוזרת לאינטרנט.",
-  "i18n-meshnet-note": "<p>רשת אריג היא רשת P2P מבוזרת, עם קשרים פיזיים מנוהלי משתמש , בדרך כלל הקשרים הם אל-חוטיים.</p><p>&ldquo;רשת אריג הוא סוג של טופולוגיית רשת שבה כל צומת משמש הן כמקור מידע, והן כממסר עבור הודעות המועברות בין שכניו. רשת אריג נשענת על מוכנות כל צומת להעביר הודעות עבור צמתים אחרים כדי לקיים את קישוריות הרשת.&rdquo;</p><p>&mdash;<a href='https://he.wikipedia.org/wiki/%D7%A8%D7%A9%D7%AA_%D7%90%D7%A8%D7%99%D7%92'>ויקיפדיה</a></p>",
+  "i18n-meshnet-note": "<p>רשת אריג היא רשת P2P מבוזרת, עם קשרים פיזיים מנוהלי משתמש, בדרך כלל הקשרים הם אל־חוטיים.</p><p>&ldquo;רשת אריג הוא סוג של טופולוגיית רשת שבה כל צומת משמש הן כמקור מידע, והן כממסר עבור הודעות המועברות בין שכניו. רשת אריג נשענת על מוכנות כל צומת להעביר הודעות עבור צמתים אחרים כדי לקיים את קישוריות הרשת.&rdquo;</p><p>&mdash;<a href='https://he.wikipedia.org/wiki/%D7%A8%D7%A9%D7%AA_%D7%90%D7%A8%D7%99%D7%92'>ויקיפדיה</a></p>",
 
   "i18n-add": "הוסף",
   "i18n-mostly-free": "חופשי ברובו*",
@@ -160,12 +160,12 @@
 
   "i18n-eff-title": "קחו חלק במאבק נגד PRISM במרכז הפעולה של<strong>קרן החזית האלקטרונית</strong>",
   "i18n-eff-quote-1": "<strong>מעקב עצום נחשף!</strong>",
-  "i18n-eff-quote-2": "דיווחים אחרונים ע&ldquo;י עיתון &ldquo;The Guardian&rdquo; והעיתון &ldquo;The Washington Post&rdquo;  מאשרים קיומן של תוכניות ריגול על רשומות טלפון ופעילות אינטרנט. זה הזמן להשגת מתאר מלא של תוכניות הריגול הסודיות של אמריקה— וסוף לפיקוח הלא חוקתי.",
+  "i18n-eff-quote-2": "דיווחים אחרונים ע״י עיתון &ldquo;The Guardian&rdquo; והעיתון &ldquo;The Washington Post&rdquo;  מאשרים קיומן של תוכניות ריגול על רשומות טלפון ופעילות אינטרנט. זה הזמן להשגת מתאר מלא של תוכניות הריגול הסודיות של אמריקה— וסוף לפיקוח הלא חוקתי.",
 
-  "i18n-more": "עוד &hellip;",
+  "i18n-more": "עוד&hellip;",
   "i18n-the": "ה",
 
-  "i18n-media-title": "אזכורים ע&ldquo;י התקשורת.",
+  "i18n-media-title": "אזכורים ע״י התקשורת.",
   "i18n-catalan": "קטלאנית",
   "i18n-dutch": "הולנדית",
   "i18n-english": "אנגלית",
@@ -181,35 +181,35 @@
 
   "i18n-updated": "עודכן",
   "i18n-by": "על ידי",
-  "i18n-contribute-on": "תרומת עזרה ב-",
+  "i18n-contribute-on": "תרומת עזרה ב־",
   "i18n-donate": "תרומה",
   "i18n-contribute": "תרומת עזרה",
 
-  "i18n-operating-system-note": "<p>אפל, גוגל ומיקרוסופט הם חלק מ-PRISM. לא ניתן לסמוך על מערכות ההפעלה המסחריות שלהן שישמרו על המידע האישי שלך מה-NSA.</p><p>זה משאיר לנו שתי אלטרנטיבות חופשיות:<strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> ו-<a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p><p>ל-GNU/Linux יש קהילה הרבה יותר גדולה היוכלה לתת תמיכה במעבר. מומלץ שתתחיל/י את חיפושך במציאת <a href='http://distrowatch.com/'>הפצת GNU/Linux</a> שמתאימה לצרכיך.</p><p>הפצת Ubuntu של חברת Canonical לא מומלצת ע&rdquo;י פריצת PRISM מכיוון שהיא מכילה <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>פרסומת של Amazon ודליפות מידע</a> כברירת מחדל.</p><p><strong>Linux Mint</strong> היא כנראה ההפצה הכי קלה לשימוש עבור אנשים שמהגרים ממערכת הפעלה Windows של Microsoft. אנו ממליצים את הגרסה ללא קידודים (codecs), מכיוון שהאחרות מסובכות עם פטנטי תוכנה. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>למידע נוסף</a> (באנגלית).</p>",
+  "i18n-operating-system-note": "<p>אפל, גוגל ומיקרוסופט הם חלק מ־PRISM. לא ניתן לסמוך על מערכות ההפעלה המסחריות שלהן שישמרו על המידע האישי שלך מה־NSA.</p><p>זה משאיר לנו שתי אלטרנטיבות חופשיות:<strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> ו־<a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p><p>ל־GNU/Linux יש קהילה הרבה יותר גדולה היוכלה לתת תמיכה במעבר. מומלץ שתתחיל את חיפושך במציאת <a href='http://distrowatch.com/'>הפצת GNU/Linux</a> שמתאימה לצרכיך.</p><p>הפצת Ubuntu של חברת Canonical לא מומלצת ע״י פריצת PRISM מכיוון שהיא מכילה <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>פרסומת של Amazon ודליפות מידע</a> כברירת מחדל.</p><p><strong>Linux Mint</strong> היא כנראה ההפצה הכי קלה לשימוש עבור אנשים שמהגרים ממערכת הפעלה Windows של Microsoft. אנו ממליצים את הגרסה ללא קידודים (codecs), מכיוון שהאחרות מסובכות עם פטנטי תוכנה. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>למידע נוסף</a> (באנגלית).</p>",
 
-  "i18n-android-note": "<p>רישיון <strong>CyanogenMod</strong>: &ldquo;CyanogenMod עדיין מכיל קוד תלוי חומרה, שלאט הופך לקוד פתוח בכל מקרה.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>ויקיפדיה</a> (באנגלית)</p><p><strong>F-Droid</strong> היא אלטרנטיבה לחנות האפליקציות Play של גוגל.</p>",
+  "i18n-android-note": "<p>רישיון <strong>CyanogenMod</strong>&#8206;: &ldquo;CyanogenMod עדיין מכיל קוד תלוי חומרה, שלאט הופך לקוד פתוח בכל מקרה.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>ויקיפדיה</a> (באנגלית)</p><p><strong>F-Droid</strong> היא אלטרנטיבה לחנות האפליקציות Play של גוגל.</p>",
 
   "i18n-ios-note": "<p>iOS  אינה בטוחה, ולרע המזל אין הרבה אפליקציות הצפנה חופשיות זמינות עבור iOS. בנוסף, זה <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>בלתי אפשרי לוודא</a> האם אפליקציית iOS קומפלה מקוד המקור האמתי.</p>",
 
-  "i18n-web-browser-note": "<p>השתמשו בשילוב של <strong>דפדפן Tor</strong> ודפדפן חופשי אחר לגלישה באינטרנט. נסו לא להשתמש ב-Tor כל הזמן. גלישה באינטרנט בעזרתו היא אטית, אבל הרבה יותר מאובטחת.</p><p>יש לשים לב ששימוש ב-<strong>דפדפן Tor</strong> עבור התחברות ל-PayPal או אתר של בנק עלול להפעיל את אמצעי הגנה מהונאה דיגיטלית.</p><p>כדאי שמשתמשים של <strong>דפדפן Tor</strong> ידעו שהתחברות לאתרי HTTP (במקום HTTPS) עלול לגרום לכך שההרשות שלהם יתפסו על ידי צומת יציאה זדונית.</p>",
+  "i18n-web-browser-note": "<p>השתמשו בשילוב של <strong>דפדפן Tor</strong> ודפדפן חופשי אחר לגלישה באינטרנט. נסו להשתמש ב־Tor כל הזמן. גלישה באינטרנט בעזרתו היא אטית, אבל הרבה יותר מאובטחת.</p><p>יש לשים לב ששימוש ב־<strong>דפדפן Tor</strong> עבור התחברות ל־PayPal או אתר של בנק עלול להפעיל את אמצעי ההגנה מהונאה דיגיטלית.</p><p>כדאי שמשתמשים של <strong>דפדפן Tor</strong> ידעו שהתחברות לאתרי HTTP (במקום HTTPS) עלולה לגרום לכך שההרשאות שלהם יתפסו על ידי צומת יציאה זדוני.</p>",
 
-  "i18n-web-browser-addons-note": "<p>הגן/י על פרטיותך ומנע מאתרים לעקוב אחריך ע&ldquo;י התקנת Adblock Edge, Disconnect, HTTPS Everywhere, ו-NoScript בדפדפן שלך.</p><p>למה לא Adblock Plus? Adblock Plus מראה &ldquo;פרסומות סבירות&rdquo; כברירת מחדל, ומשתמש בהרבה יותר זכרון מ-<strong>Adblock Edge</strong>.</p> <p>למה לא Ghostery? Ghostery הוא תוסף קנייני. השתמש/י ב-<strong>Disconnect</strong> במקום.</p>",
+  "i18n-web-browser-addons-note": "<p>הגן על פרטיותך ומנע מאתרים לעקוב אחריך ע״י התקנת Adblock Edge, Disconnect, HTTPS Everywhere, ו־NoScript בדפדפן שלך.</p><p>למה לא Adblock Plus&#8206;? Adblock Plus מראה &ldquo;פרסומות סבירות&rdquo; כברירת מחדל, ומשתמש בהרבה יותר זכרון מ־<strong>Adblock Edge</strong>.</p> <p>למה לא Ghostery&#8206;? Ghostery הוא תוסף קנייני. השתמש/י ב־<strong>Disconnect</strong> במקום.</p>",
 
-  "i18n-web-search-note": "<p><strong>DuckDuckGo</strong> הוא קנייני חלקית, מאוחסן ברחבי העולם, ומספק תוצאות חיפוש מ-<a href='http://help.dukgo.com/customer/portal/articles/216399-sources'>המקורות הללו</a>.</p><p><strong>Startpage</strong> הוא קנייני, מאוחסן בארה&ldquo;ב/הולנד, ומספק תוצאות חיפוש של גוגל בצורה אנונימית (כולל תמונות).</p>",
+  "i18n-web-search-note": "<p><strong>DuckDuckGo</strong> הוא קנייני חלקית, מאוחסן ברחבי העולם, ומספק תוצאות חיפוש מ־<a href='http://help.dukgo.com/customer/portal/articles/216399-sources'>המקורות הללו</a>.</p><p><strong>Startpage</strong> הוא קנייני, מאוחסן בארה״ב/הולנד, ומספק תוצאות חיפוש של גוגל בצורה אנונימית (כולל תמונות).</p>",
 
-  "i18n-email-services-note": "<p><strong>Bitmessage</strong> היא אלטרנטיבה לאי-מייל, אבל היא לא מוכנה לשימוש יום-יומי. השימוש על אחריותכם.</p><p><strong>MyKolab</strong> מאוחסנת בשווייצריה ונהנית מחוקי הגנת הפרטיות החזקים השוויצרים. היא תוכנה חופשית ומאפשרת לייצא את המידע.</p><p><strong>Riseup</strong> מאוחסנת בארה&ldquo;ב. היא גם מתחילה להציע שירותי VPN, צ'אט ו-<strong>etherpad</strong>.</p><p>למה לא Hushmail? ראה <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;סיכון לפרטיות הדואר האלקטרוני&rdquo;</a>.</p><p>הדרך היחידה להיות בשליטה מלאה על האימייל שלך היא להריץ שרת מייל משלך. זוהי לא אפשרות שמתאימה לכולם, מכיוון שהיא דורשת כמות זמן נכבדת וידע טכני.</p><p>אף על פי שהוא אינו הושלם, ה-<a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> הוא פרויקט שמטרתו ליצור פתרון מוצר שלם עבור תקשורת מאובטחת.</p>",
+  "i18n-email-services-note": "<p><strong>Bitmessage</strong> היא אלטרנטיבה לאימייל, אבל היא לא מוכנה לשימוש יום־יומי. השימוש על אחריותכם.</p><p><strong>MyKolab</strong> מאוחסנת בשוייץ ונהנית מחוקי הגנת הפרטיות החזקים של שוייץ. היא תוכנה חופשית ומאפשרת לייצא את המידע.</p><p><strong>Riseup</strong> מאוחסנת בארה״ב. היא גם מתחילה להציע שירותי VPN, צ'אט ו־<strong>etherpad</strong>.</p><p>למה לא Hushmail? ראה <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;סיכון לפרטיות הדואר האלקטרוני&rdquo;</a>.</p><p>הדרך היחידה להיות בשליטה מלאה על האימייל שלך היא להריץ שרת מייל משלך. זוהי לא אפשרות שמתאימה לכולם, מכיוון שהיא דורשת כמות זמן נכבדת וידע טכני.</p><p>אף על פי שהוא אינו הושלם, ה־<a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> הוא פרויקט שמטרתו ליצור פתרון מוצר שלם עבור תקשורת מאובטחת.</p>",
 
-  "i18n-email-clients-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>להלן מדריך</a> להצפנת אי-מייל תחת <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong> ו-<strong>Enigmail</strong>.</p>",
+  "i18n-email-clients-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>להלן מדריך</a> להצפנת אימייל תחת <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong> ו־<strong>Enigmail</strong>.</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (מאנגלית: &lsquo;פרטיות טובה למדי&rsquo;) הוא מיזם לפיתוח חבילת תוכנה אשר יזם פיל צימרמן בשנת 1991, המאפשר ביצוע הצפנה של מסרים בצורה קלה ופשוטה.&rdquo;</p><p>&mdash; <a href='https://he.wikipedia.org/wiki/PGP'>ויקיפדיה</a>",
 
-  "i18n-social-networking-note": "<p>עבור אלו ללא שרת משלהם, <strong>RetroShare</strong> היא הדרך הקלה ביותר להקים רשת חברתית מוצפנת.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> מרכז רשת חברתי דומה לטוויטר עבור קהילת התכנה החופשית ופתוחת הקוד. האתר יעבור לפלטפורמת ב-<strong>pump.io</strong> מתישהו השבוע.</p>",
+  "i18n-social-networking-note": "<p>עבור אלו ללא שרת משלהם, <strong>RetroShare</strong> היא הדרך הקלה ביותר להקים רשת חברתית מוצפנת.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> מרכז רשת חברתי דומה לטוויטר עבור קהילת התכנה החופשית ופתוחת הקוד. האתר יעבור לפלטפורמת ב־<strong>pump.io</strong> מתישהו השבוע.</p>",
 
-  "i18n-instant-messaging-note": "<p>מסרי &ldquo;לא לציטוט&ldquo;, ידוע כ-OTR, הוא פרוטוקול הצפנה המספק הצפנה חזקה עבור שיחות מסרים מידיים. OTR משתמש בשילוב של האלגוריתם מפתח סימטרי של AES, פרוטוקול החלפת המפתח של דיפי-הלמן ופונקציית האש SHA-1. בנוסף להזדהות והצפנה, OTR מספק סודיות לעתיד והצפנה ניתנת לשינוי(עבור הכחשת תוכן מסרים).</p><p>המוטיבציה העיקרית מאוחרי הפרוטוקול היא הספקת התכחשות עבור משתתפי השיחה תוך כדי השארת השיחה חשאית, כמו שיחה פרטית בחיים האמתיים או במציאת מקור לידיעה עיתונאית ללא לציטוט.</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>ויקיפדיה</a>(באנגלית)</p>",
+  "i18n-instant-messaging-note": "<p>מסרי &ldquo;לא לציטוט&rdquo;, ידוע כ־OTR, הוא פרוטוקול הצפנה המספק הצפנה חזקה עבור שיחות מסרים מידיים. OTR משתמש בשילוב של אלגוריתם המפתח הסימטרי AES, פרוטוקול החלפת המפתח של דיפי־הלמן ופונקציית האש SHA-1. בנוסף להזדהות והצפנה, OTR מספק סודיות לעתיד והצפנה ניתנת לשינוי (עבור הכחשת תוכן מסרים).</p><p>המוטיבציה העיקרית מאוחרי הפרוטוקול היא הספקת התכחשות עבור משתתפי השיחה תוך כדי השארת השיחה חשאית, כמו שיחה פרטית בחיים האמתיים או במציאת מקור לידיעה עיתונאית ללא לציטוט.</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>ויקיפדיה</a>(באנגלית)</p>",
 
-  "i18n-video-voip-note": "<p><strong>Jitsi</strong> הוא תחליף מידי לכמעט כל המטלות ש-Skype משמש.</p><p><strong>Mumble</strong> היא תוכנת לקוח פתוחת מקור עבור צ'אט קולי בסגנון של Ventrilo ו-TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> הוא API חדש ומבטיח עבור תקשורות בין דפדפנים.</p>",
+  "i18n-video-voip-note": "<p><strong>Jitsi</strong> הוא תחליף מידי לכמעט כל המטלות ש־Skype משמש עבורן.</p><p><strong>Mumble</strong> היא תוכנת לקוח פתוחת מקור עבור צ׳אט קולי בסגנון של Ventrilo ו־TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> הוא API חדש ומבטיח עבור תקשורות בין דפדפנים.</p>",
 
-  "i18n-online-transactions-note": "<p><strong>הביטקוין</strong>היא שרשרת בלוקי מידע המשמשת כספר חשבונות מבוזר וציבורי ברשת הביטקוין.<p>&ldquo;זה יכול להיות ה-TCP/IP של כסף.&rdquo; &mdash;Paul Buchheit</p>",
+  "i18n-online-transactions-note": "<p><strong>הביטקוין</strong>היא שרשרת בלוקי מידע המשמשת כספר חשבונות מבוזר וציבורי ברשת הביטקוין.<p>&ldquo;זה יכול להיות ה־TCP/IP של כסף.&rdquo; &mdash;Paul Buchheit</p>",
 
   "i18n-media-publishing-note": "<p><strong>מאוחסן עצמאית</strong> היא תכונה חשובה. אחסון הבלוג שלך על WordPress.com הוא לא פתרון טוב יותר מאחסון המידע שלך על Blogger או Tumblr.</p>",
 
@@ -217,13 +217,13 @@
 
   "i18n-maps-note": "<p>--</p>",
 
-  "i18n-cloud-storage-note": "<p>למה לא MEGA? אף על פי ש-MEGA היא חינמית, התכנה היא קניינית.</p><p>למה לא SpiderOak? SpiderOak היא תוגנה קניינית.</p><p>למה לא Tarsnap? Tarsnap היא קניינית בחלקה ומאחסנת את המידע שלך על שירותי האחסון אמזון.</p>",
+  "i18n-cloud-storage-note": "<p>למה לא MEGA? אף על פי ש־MEGA היא חינמית, התכנה היא קניינית.</p><p>למה לא SpiderOak&#8206;? SpiderOak היא תוגנה קניינית.</p><p>למה לא Tarsnap&#8206;? Tarsnap היא קניינית בחלקה ומאחסנת את המידע שלך על שירותי האחסון של אמזון.</p>",
 
-  "i18n-web-analytics-note": "<p>האבחון של <strong>Piwik</strong> הוא מה הכוח מאוחרי אתר זה. הוא מוגדר כל שהוא הופך את האוקטט האחרון לאנונימי (255.255.255.???) עבור ה-IP של מבקרים. ניתן לראות את המידע בזמן אמת בלינק הבא: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.</p>",
+  "i18n-web-analytics-note": "<p>האבחון של <strong>Piwik</strong> מופעל באתר זה. הוא מוגדר כך שהוא הופך את האוקטט האחרון לאנונימי (255.255.255.???) עבור ה־IP של מבקרים. ניתן לראות את המידע בזמן אמת בלינק הבא: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.</p>",
 
-  "i18n-dns-provider-note": "<p>ה-DNS הציבורי של גוגל מקליט באופן לצמיתות מידע על ספק האינטרנט(ISP) ומיקומך עבור ניתוח. כמו כן, כתובת ה-IP שלך מאוחסנת למשך 24 שעות.</p><p><strong>OpenNIC</strong> לא אימצו אף מדיניות לגבי הפרטיות או האנונימיות בהקשר לשאילות הקלטת מידע. למידע נוסף <a href='http://wiki.opennicproject.org/Tier2'>לחץ כאן</a>.</p>",
+  "i18n-dns-provider-note": "<p>ה־DNS הציבורי של גוגל מקליט לצמיתות מידע על ספק האינטרנט (ISP) ומיקומך לצורך ניתוח. כמו כן, כתובת ה־IP שלך מאוחסנת למשך 24 שעות.</p><p><strong>OpenNIC</strong> לא אימצו אף מדיניות לגבי הפרטיות או האנונימיות בהקשר לשאילות הקלטת מידע. למידע נוסף <a href='http://wiki.opennicproject.org/Tier2'>לחץ כאן</a>.</p>",
 
-  "i18n-darknet-note": "<p>&ldquo;דארקנט (באנגלית: darknet) הוא מונח מתחום תקשורת מחשבים המתייחס לכל רשת עמית לעמית (P2P) לשיתוף קבצים, אשר בה הקישורים נעשים אך ורק בין עמיתים נאמנים (מכונים לעתים &lsquo;חברים&lsquo;) על ידי שימוש בפרוטוקולי תקשורת נתונים ופורטים לא תקניים. רשתות דארקנט שונות מרשתות עמית לעמית מוכרות, בכך שהן אנונימיות: כתובות IP של המשתמשים אינן נחשפות ולכן המשתמשים ברשתות אלה חוששים פחות מהתערבות או מעקב ממשלתי או תעשייתי.&ldquo;</p><p>&mdash;<a href='https://he.wikipedia.org/wiki/%D7%93%D7%90%D7%A8%D7%A7%D7%A0%D7%98'>Wikipedia</a></p>",
+  "i18n-darknet-note": "<p>&ldquo;דארקנט (באנגלית: darknet) הוא מונח מתחום תקשורת מחשבים המתייחס לכל רשת עמית לעמית (P2P) לשיתוף קבצים, אשר בה הקישורים נעשים אך ורק בין עמיתים נאמנים (מכונים לעתים &lsquo;חברים&rsquo;) על ידי שימוש בפרוטוקולי תקשורת נתונים ופורטים לא תקניים. רשתות דארקנט שונות מרשתות עמית לעמית מוכרות, בכך שהן אנונימיות: כתובות IP של המשתמשים אינן נחשפות ולכן המשתמשים ברשתות אלה חוששים פחות מהתערבות או מעקב ממשלתי או תעשייתי.&rdquo;</p><p>&mdash;<a href='https://he.wikipedia.org/wiki/%D7%93%D7%90%D7%A8%D7%A7%D7%A0%D7%98'>Wikipedia</a></p>",
 
-  "i18n-disclaimer": "הצהרת וויתור: שימוש בפרויקטים המומלצים באתר זה לא מבטיח 100% הגנה על התקשורת שלכם מפני מדינות השגחה. בבקשה עשו מחקר משלכם לפני נתינת ביטחונכם בתכנות אלו אם ניהול מידע רגיש."
+  "i18n-disclaimer": "הצהרת וויתור: שימוש בפרויקטים המומלצים באתר זה לא מבטיח 100% הגנה על התקשורת שלך מפני מדינות השגחה. בבקשה עשה מחקר משלך לפני נתינת ביטחונך בתכנות אלו עם ניהול מידע רגיש."
 }
