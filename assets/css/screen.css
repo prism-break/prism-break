@@ -104,7 +104,7 @@ p.intro strong{color:#333;font-weight:bold}
 #footer p{padding:0 1em 1em}
 @media (min-width: 481px){body .section div.free ul li h4{line-height:1.5em;display:block}
 body .section div.free ul li p{line-height:1.5em}
-}@media (min-width: 768px){body #header-site ul.nav li#donate,body #header-site ul.nav li#contribute{display:block}
+}@media (min-width: 768px){body #header ul.nav li#donate,body #header ul.nav li#contribute{display:block}
 body p.intro{font:1.25em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;padding-top:1.5em}
 body .section{width:100%;zoom:1;}
 body .section:before,body .section:after{content:"";display:table}
