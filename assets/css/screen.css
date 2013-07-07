@@ -87,6 +87,7 @@ p.intro strong{color:#333;font-weight:bold}
 .notes div{padding:.75em 1em 0;}
 .notes div p{margin:0 0 1em;max-width:50em;}
 .notes div p a:hover{text-decoration:underline}
+.section.bottom{padding-bottom:0}
 .bottom blockquote{padding:1em 1em 0;margin:0}
 .bottom blockquote p{margin:0 0 1em;max-width:60em}
 .bottom blockquote a{font-weight:bold}
@@ -94,13 +95,13 @@ p.intro strong{color:#333;font-weight:bold}
 .bottom ul{padding:1em 1em .5em;border-bottom:1px solid #ddd}
 .bottom ul li{margin:0 0 .5em}
 .bottom ul li a:hover{text-decoration:underline}
-footer{padding:1em 0;background:#333;color:#eee;}
-footer ul{display:none;margin-bottom:.5em;zoom:1;}
-footer ul:before,footer ul:after{content:"";display:table}
-footer ul:after{clear:both}
-footer ul li{float:left;border-right:1px solid #666;padding:0 1em;}
-footer ul li.last{border-right:none}
-footer p{padding:0 1em 1em}
+#footer{padding:1em 0;background:#333;color:#eee;}
+#footer ul{display:none;margin-bottom:.5em;zoom:1;}
+#footer ul:before,#footer ul:after{content:"";display:table}
+#footer ul:after{clear:both}
+#footer ul li{float:left;border-right:1px solid #666;padding:0 1em;}
+#footer ul li.last{border-right:none}
+#footer p{padding:0 1em 1em}
 @media (min-width: 481px){body .section div.free ul li h4{line-height:1.5em;display:block}
 body .section div.free ul li p{line-height:1.5em}
 }@media (min-width: 768px){body #header-site ul.nav li#donate,body #header-site ul.nav li#contribute{display:block}
