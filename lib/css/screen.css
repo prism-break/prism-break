@@ -96,7 +96,7 @@ p.intro strong{color:#333;font-weight:bold}
 .bottom ul li{margin:0 0 .5em}
 .bottom ul li a:hover{text-decoration:underline}
 #footer{padding:1em 0;background:#333;color:#eee;}
-#footer ul{display:none;margin-bottom:.5em;zoom:1;}
+#footer ul{margin-bottom:.5em;zoom:1;}
 #footer ul:before,#footer ul:after{content:"";display:table}
 #footer ul:after{clear:both}
 #footer ul li{float:left;border-right:1px solid #666;padding:0 1em;}
@@ -124,7 +124,6 @@ body .section div.notes{clear:both;}
 body .section div.notes h3{border-top:1px solid #ddd}
 body #jPanelMenu-menu ul li a{color:#eee;display:block;padding:0 .75em;font:14px/2 'Helvetica Neue',Arial,Helvetica,sans-serif;border-top:1px solid #444;border-bottom:1px solid #222;}
 body #jPanelMenu-menu ul li a:hover{color:#fff;background:#444}
-body footer ul{display:block}
 }@media (min-width: 980px){body .section{width:100%;zoom:1;}
 body .section:before,body .section:after{content:"";display:table}
 body .section:after{clear:both}
