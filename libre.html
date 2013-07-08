@@ -35,6 +35,13 @@
             <span class='i18n-contribute'>Contribute</span>
           </a>
         </li>
+        <li id='page-switch'>
+          <div class='switch'>
+            <a class='default switch-button active' href='http://prism-break.org'>Simple</a>
+            <a class='fsf switch-button inactive' href='http://prism-break.org/libre.html'>100% Libre</a>
+          </div>
+        </li>
+
         <li id='language'>
           <select id='lang-select'>
             <option id='lang-ar'>العربية</option>
@@ -102,13 +109,6 @@
                   <span class='i18n-icecat-desc'>GNU version of Firefox.</span>
                 </p>
             </a></li>
-            <li><a href='http://www.mozilla.org/en-US/firefox/new/'>
-                <img class='logo' src='lib/img/free/firefox.png' alt='' />
-                <h4>Mozilla Firefox</h4>
-                <p class='desc'>
-                  <span class='i18n-firefox-desc'>Open source web browser.</span>
-                </p>
-            </a></li>
             <li><a href='https://www.torproject.org/docs/android'>
                 <img class='logo' src='lib/img/free/orbot.png' alt='' />
                 <h4>Orbot</h4>
@@ -124,7 +124,7 @@
             <p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be a bit slower, but it's far more secure.</p>
             <p>Note that using <strong>Tor Browser</strong> to log into PayPal or a banking website may trip the website's fraud protection software.</p>
             <p>Users of <strong>Tor Browser</strong> should also be aware that logging into HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p>
-            <!--<p>FSF Note: While the <strong>Firefox</strong> source code from the Mozilla project is free software, they distribute and recommend non-free software as plug-ins and addons.</p>-->
+            <p>FSF Note: While the <strong>Firefox</strong> source code from the Mozilla project is free software, they distribute and recommend non-free software as plug-ins and addons.</p>
           </div>
         </div>
       </div>
@@ -855,13 +855,6 @@
         </div>
         <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
           <ul>
-            <li class='best'>
-              <a href='https://www.mozilla.org/en-US/thunderbird/'><img class='logo' src='lib/img/free/thunderbird.png' alt='' />
-                <h4>Mozilla Thunderbird</h4>
-                <p class='desc'>
-                  <span class='i18n-thunderbird-desc'>Open source email application.</span>
-                </p>
-            </a></li>
             <li>
               <a href='http://www.claws-mail.org/'><img class='logo' src='lib/img/free/clawsmail.png' alt='' />
                 <h4>Claws Mail</h4>
@@ -895,7 +888,7 @@
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-email-clients-note'>
             <p><a href='http://www.enigmail.net/documentation/quickstart.php'>Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p>
-            <!--<p>FSF Note: While the <strong>Thunderbird</strong> source code from the Mozilla project is free software, they distribute and recommend non-free software as plug-ins and addons.</p>-->
+            <p>FSF Note: While the <strong>Thunderbird</strong> source code from the Mozilla project is free software, they distribute and recommend non-free software as plug-ins and addons.</p>
           </div>
         </div>
       </div>
@@ -1148,13 +1141,6 @@
         </div>
         <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
           <ul>
-            <li class='best'><a href='http://www.cyanogenmod.org/'>
-                <img class='logo' src='lib/img/free/cyanogenmod.png' alt='' />
-                <h4>CyanogenMod</h4>
-                <p class='desc'>
-                  <span class='i18n-cyanogenmod-desc'>Aftermarket firmware for Android devices.</span>
-                </p>
-            </a></li>
             <li><a href='http://replicant.us/'>
                 <img class='logo' src='lib/img/free/replicant.png' alt='' />
                 <h4>Replicant</h4>
@@ -1173,7 +1159,6 @@
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-android-note'>
-            <p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p>
             <p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>
           </div>
         </div>
@@ -1227,13 +1212,6 @@
         </div>
         <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
           <ul>
-            <li class='best'><a href='http://www.linuxmint.com/'>
-                <img class='logo' src='lib/img/free/linuxmint.png' alt='' />
-                <h4>Linux Mint</h4>
-                <p class='desc'>
-                  <span class='i18n-linuxmint-desc'>Comfortable and easy to use GNU/Linux distribution.</span>
-                </p>
-            </a></li>
             <li><a href='http://www.debian.org/'>
                 <img class='logo' src='lib/img/free/debian.png' alt='' />
                 <h4>Debian</h4>
@@ -1284,7 +1262,6 @@
             <p>This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p>
             <p>GNU/Linux has a much larger community to help you with the transition. It&rsquo;s recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p>
             <p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</p>
-            <p><strong>Linux Mint</strong> is probably the easiest-to-use distribution for people migrating from Microsft Windows. We recommend the no-codecs edition, as the others are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>
           </div>
         </div>
       </div>
