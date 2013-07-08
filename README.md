@@ -16,15 +16,17 @@ You may find that a particular string of text, e.g. `"i18n-whonix-desc"`, does n
 
     "i18n-whonix-desc": "Your fantastic translation here.",
 
-## CSS editing
+## CSS & JS editing
 
-Please do not edit the `screen.css` file directly, but instead edit the `.stylus` files found in `assets/styl/`. To compile the Stylus code into CSS, you'll need to run this terminal command from the project root:
+Please edit the files in the `src` directory, not `lib`. This project relies on Grunt for CSS and JS concatenation and minification. 
 
-    stylus -w -c assets/styl/screen.styl -o assets/css -u ~/local/node/lib/node_modules/nib
+    # Install Grunt
 
-If you don't have the [Stylus](http://learnboost.github.io/stylus/) package just install it (along with the [nib](http://visionmedia.github.io/nib/)) extension `npm`:
+    npm install -g grunt-cli
 
-    npm install -g stylus nib
+    # Watch for changes
+
+    grunt watch
 
 ## License
 
