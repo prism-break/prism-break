@@ -87,6 +87,10 @@ p.intro strong{color:#333;font-weight:bold}
 .notes div{padding:.75em 1em 0;}
 .notes div p{margin:0 0 1em;max-width:50em;}
 .notes div p a:hover{text-decoration:underline}
+.section#privacy{margin:0 auto;width:100%;padding:0 0 1em;}
+.section#privacy .content{padding:1em;}
+.section#privacy .content p{margin:0 0 1.5em;max-width:50em}
+.section#privacy .content iframe{width:100%;background:#eee;font:1em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;border:1px solid #ddd;padding:1em}
 .section.bottom{padding-bottom:0}
 .bottom blockquote{padding:1em 1em 0;margin:0}
 .bottom blockquote p{margin:0 0 1em;max-width:60em}
