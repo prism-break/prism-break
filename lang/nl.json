@@ -1,9 +1,9 @@
 {
   "i18n-title": "Opt out voor PRISM, het wereldwijde datatoezichtsprogramma van de NSA - PRISM Break",
-  "i18n-meta-description": "Opt out of PRISM, het wereldwijde datatoezichtsprogramma van de NSA. Stop met het doorgeven van online activiteiten aan de Amerikaanse overheid met deze gratis alternatieven voor gesloten software.",
+  "i18n-meta-description": "Opt out voor PRISM, het wereldwijde datatoezichtsprogramma van de NSA. Stop met het doorgeven van online activiteiten aan de Amerikaanse overheid met deze gratis alternatieven voor gesloten software.",
   "i18n-intro": "<strong>Opt out voor PRISM, het wereldwijde datatoezichtsprogramma van de NSA.</strong> Stop met het doorgeven van online activiteiten aan de Amerikaanse overheid met deze gratis alternatieven voor gesloten software.",
 
-  "i18n-proprietary": "Gesloten",
+  "i18n-proprietary": "In eigendomsbezit",
   "i18n-free-alternative": "Vrije alternatieven",
   "i18n-notes": "Opmerkingen",
 
@@ -19,7 +19,7 @@
   "i18n-web-browser": "Webbrowser",
   "i18n-icecat-desc": "GNU versie van Firefox.",
   "i18n-firefox-desc": "Open source webbrowser.",
-  "i18n-torbrowser-desc": "Versleutelt, anoniem surfen.",
+  "i18n-torbrowser-desc": "Versleuteld, anoniem surfen.",
 
   "i18n-web-browser-plugins": "Webbrowser plugins",
   "i18n-adblockedge-desc": "Blokkeer advertenties op het web.",
@@ -150,12 +150,12 @@
   "i18n-rec-non-free": "aanbevolen, niet vrije plugins*",
   "i18n-advanced": "geavanceerd",
   "i18n-partly-proprietary": "deels in eigendomsbezit*",
-  "i18n-proprietary": "in eigendomsbezit*",
   "i18n-invite-only": "alleen op uitnodiging",
-  "i18n-usa-hosted": "gehost in de VS",
+  "i18n-tor-users-only": "alleen voor Tor gebruikers",
   "i18n-newbies-choice": "aanrader voor beginners",
   "i18n-editors-choice": "keuze van de redacteur",
   "i18n-approval-required": "goedkeuring benodigd",
+  "i18n-experimental": "experimenteel",
 
   "i18n-fsf-definition-title": "*Deze website gebruikt de <strong>Free Software Foundation&rsquo;s</strong> definitie van vrije software.",
   "i18n-fsf-quote": "&ldquo;Vrije software&rdquo; is software die de vrijheid en gemeenschap van de gebruiker respecteert. Ruwweg betekent dit <strong>dat de gebruiker de vrijheid heeft om de software te gebruiken, kopi&euml;ren, verspreiden, ervan leren, veranderen en verbeteren</strong>. Deze vrijheden zorgen ervoor dat de gebruiker controle heeft over het programma en wat het voor hem doet.",
@@ -188,6 +188,8 @@
 
   "i18n-operating-system-note": "<p>Apple, Google, en Microsoft zijn onderdeel van PRISM. Hun gesloten besturingssystemen kunnen niet vertrouwd worden om jouw persoonlijke informatie veilig te stellen van de NSA.</p><p>Er blijven twee vrije alternatieven over: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> en <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux heeft een veel grotere gemeenschap om je te helpen met overstappen. Het wordt aangeraden om te beginnen met zoeken naar een <a href='http://distrowatch.com/'>GNU/Linux distributie</a> die bij jou past.</p> <p>Waarom niet Ubuntu? Ubuntu is een slechte keus omdat het <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a> bevat.</p> <p>Opmerking: PRISM Break raadt de versie van<strong>Linux Mint</strong> zonder codecs aan, de andere uitgaves zitten vol met software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Meer informatie</a>.</p>",
 
+  "i18n-live-cd-notes": "--",
+
   "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
 
   "i18n-ios-note": "<p>iOS is onveilig, en helaas zijn er ook weinig vrije versleutel apps beschikbaar voor iOS. Het is ook <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>onmogelijk om te verifieren</a> of een iOS app gecompileerd is van de originele broncode.</p>",
@@ -206,7 +208,7 @@
 
   "i18n-social-networking-note": "<p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>",
 
-  "i18n-instant-messaging-note": "<p>Be sure to look at <strong>Cryptocat</strong> in the Web browser add-ons section as well.</p></p>",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.</p><p>The primary motivation behind the protocol was providing deniability for the conversation participants while keeping conversations confidential, like a private conversation in real life, or off the record in journalism sourcing.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p>",
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> is een versleutelde vervanger voor bijna alle taken waarvoor Skype gebruikt kan worden.</p><p><strong>Mumble</strong> is een open source spraak chat client net zoals Ventrilo en TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is een nieuwe, veelbelovende browser naar browser communicatie API.",
 
@@ -229,4 +231,8 @@
   "i18n-site-license": "<p>PRISM Break&rsquo;s code en tekst zijn uitgebracht onder een <a href='http://www.gnu.org/licenses/gpl.html'>GNU GPL v3 licentie</a>.</p><p>jQuery v1.10.1, jPanelMenu, HTML5 Shiv v3.6.2pre, stylus, en nib zijn uitgebracht onder de MIT licentie.</p><p>Logo's en afbeeldingen zijn eigendom van de respectievelijke bedrijven.</p>", 
  
   "i18n-disclaimer": "Disclaimer: Het gebruik van de aangerade software op deze site garandeerd niet dat 100% van je communicatie beveiligd is tegen datatoezichtsprogramma's. Doe je eigen onderzoek voordat je deze software vertrouwd met gevoelige informatie."
+  
+  "i18n-privacy-policy": "Privacy Policy"
+
+  "i18n-privacy-policy-content": "<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to completely ignore your computer.</p>"
 }
