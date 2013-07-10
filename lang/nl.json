@@ -8,12 +8,16 @@
   "i18n-notes": "Opmerkingen",
 
   "i18n-operating-system": "Besturingssysteem",
+  "i18n-archlinux-desc": "Lichtgewicht and flexibele GNU/Linux distributie.",
   "i18n-debian-desc": "Populaire ethische GNU/Linux distributie.",
   "i18n-fedora-desc": "Snelle, stabiele en krachtige GNU/Linux distributie.",
   "i18n-linuxmint-desc": "Comfortabele en gemakkelijk te gebruiken GNU/Linux distributie.",
+  "i18n-trisquel-desc": "FSF goedgekeurde, gebruiksvriendelijke GNU/Linux distributie.",
+  "i18n-qubes-desc": "Fedora/Xen-gebaseerd besturingssysteem ontworpen om sterke beveiliging te leveren met behulp van isolatie.",
+  
+  "i18n-live-cd-title": "Live CDs &amp; VM images",
   "i18n-liberte-desc": "Live CD/USB ontworpen als communicatie hulpmiddel in onveilige omgevingen.",
   "i18n-tails-desc": "Live CD/USB ontworpen voor privacybescherming.",
-  "i18n-trisquel-desc": "FSF goedgekeurde, gebruiksvriendelijke GNU/Linux distributie.",
   "i18n-whonix-desc": "OS gericht op anonimiteit, privacy en veiligheid. Gebruikt standaard Tor. Bied kant en klare VM images aan.",
 
   "i18n-web-browser": "Webbrowser",
@@ -69,7 +73,9 @@
   "i18n-email-encryption": "E-mail versleuteling",
   "i18n-enigmail-desc": "Een OpenPGP plugin voor Thunderbird/Icedove.",
   "i18n-gnuprivacyguard-desc": "Vrije OpenPGP implementatie.",
+  "i18n-gpgmail-desc": "OpenPGP plugin voor OS X Mail.app.",
   "i18n-mailvelope-desc": "OpenPGP versleuteling voor webmail.",
+  "i18n-openpgpjs-desc": "OpenPGP bibliotheek geimplementeerd in JavaScript.",
   "i18n-webpg-desc": "GnuPG/PGP in je webbrowser.",
 
   "i18n-maps": "Kaarten",
@@ -117,8 +123,9 @@
   "i18n-etherpad-desc": "Open source, real-time samenwerken aan documenten.",
 
   "i18n-web-analytics": "Webstatistieken",
-  "i18n-piwik-desc": "Open source, zelfgehoste website statistieken.",
-
+  "i18n-piwik-desc": "Open source, zelfgehoste webstatistieken.",
+  "i18n-owa-desc": "Alternatieve open source webstatistieken.", 
+  
   "i18n-android": "Android",
 
   "i18n-cyanogenmod-desc": "Aftermarket firmware voor Android smartphones.",
@@ -230,9 +237,9 @@
  
   "i18n-site-license": "<p>PRISM Break&rsquo;s code en tekst zijn uitgebracht onder een <a href='http://www.gnu.org/licenses/gpl.html'>GNU GPL v3 licentie</a>.</p><p>jQuery v1.10.1, jPanelMenu, HTML5 Shiv v3.6.2pre, stylus, en nib zijn uitgebracht onder de MIT licentie.</p><p>Logo's en afbeeldingen zijn eigendom van de respectievelijke bedrijven.</p>", 
  
-  "i18n-disclaimer": "Disclaimer: Het gebruik van de aangerade software op deze site garandeerd niet dat 100% van je communicatie beveiligd is tegen datatoezichtsprogramma's. Doe je eigen onderzoek voordat je deze software vertrouwd met gevoelige informatie."
+  "i18n-disclaimer": "Disclaimer: Het gebruik van de aangerade software op deze site garandeerd niet dat 100% van je communicatie beveiligd is tegen datatoezichtsprogramma's. Doe je eigen onderzoek voordat je deze software vertrouwd met gevoelige informatie.",
   
-  "i18n-privacy-policy": "Privacy Policy"
+  "i18n-privacy-policy": "Privacy Policy",
 
   "i18n-privacy-policy-content": "<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to completely ignore your computer.</p>"
 }
