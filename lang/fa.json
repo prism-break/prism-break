@@ -61,24 +61,24 @@
 
   "i18n-email-encryption": "رمزنگاری ایمیل",
   "i18n-enigmail-desc": "افزونه پی‌جی‌پی برای تاندربرد و آیس‌داو",
-  "i18n-gnuprivacyguard-desc": "برنامه پی‌جی‌پی آزاد و رایگان",
+  "i18n-gnuprivacyguard-desc": "برنامه پی‌جی‌پی آزاد",
   "i18n-mailvelope-desc": "پی‌جی‌پی برای ایمیل",
   "i18n-webpg-desc": "پی‌جی‌پی داخل مرورگر وب",
 
   "i18n-maps": "نقشه",
-  "i18n-openstreetmap-desc": "نقشه رایگان و مشارکتی جهان",
+  "i18n-openstreetmap-desc": "نقشه آزاد و مشارکتی جهان",
 
   "i18n-cloud-storage": "ذخیره‌سازی آنلاین",
   "i18n-gitannex-desc": "همزمان‌سازی فایل‌ها روی کامپیوترها و درایوها",
   "i18n-owncloud-desc": "ذخیره‌سازی آنلاین تحت نظارت خود شخص",
   "i18n-seafile-desc": "کنترل ورژن و همزمان‌سازی فایل ابری یا در سرور شخصی",
   "i18n-sparkleshare-desc": "کنترل ورژن و همزمان‌سازی فایل در سرور شخصی",
-  "i18n-tahoelafs-desc": "ذخیره‌سازی آنلاین متن‌باز و رایگان",
+  "i18n-tahoelafs-desc": "ذخیره‌سازی آنلاین متن‌باز و آزاد",
 
   "i18n-social-networking": "شبکه اجتماعی",
   "i18n-buddycloud-desc": "شبکه اجتماعی غیرمتمرکز و متن باز",
   "i18n-diaspora-desc": "شبکه اجتماعی توزیع شده و تحت نظارت گروهی",
-  "i18n-friendica-desc": "سرور شبکه اجتماعی رایگان و متن‌باز",
+  "i18n-friendica-desc": "سرور شبکه اجتماعی آزاد و متن‌باز",
   "i18n-gnusocial-desc": "شبکه اجتماعی غیرمتمرکز روی سرور شخصی",
   "i18n-lorea-desc": "شبکه اجتماعی غیرمتمرکز",
   "i18n-movim-desc": "سرور شبکه اجتماعی غیرمتمرکز و شخصی",
@@ -87,11 +87,11 @@
   "i18n-tent-desc": "پروتکل شبکه اجتماعی آزاد و ناشناس",
 
   "i18n-instant-messaging": "برنامه پیام رسان",
-  "i18n-cryptocat-desc": "مکالمه رایگان با حفظ حریم شخصی",
+  "i18n-cryptocat-desc": "مکالمه آزاد با حفظ حریم شخصی",
   "i18n-otr-desc": "افزونه برای پیجین برای مکالمه رمزنگاری شده",
   "i18n-pidgin-desc": "برنامه چت آزاد",
   "i18n-adium-desc": "پیچین برای آی‌او‌اس",
-  "i18n-retroshare-desc": "سکوی ارتباطی دوطرفه، امن و رایگان",
+  "i18n-retroshare-desc": "سکوی ارتباطی دوطرفه، امن و آزاد",
 
   "i18n-video-voip": "ویدئو کنفرانس",
   "i18n-jitsi-desc": "چت متنی و تصویری رمزنگاری شده",
@@ -100,9 +100,9 @@
 
   "i18n-media-publishing": "انتشار فیلم و عکس",
   "i18n-gnumediagoblin-desc": "سکوی انتشار غیرمتمرکز",
-  "i18n-piwigo-desc": "سکوی آلبوم عکس رایگان",
-  "i18n-wordpress-desc": "وبسایت و وبلاگ رایگان",
-  "i18n-zenphoto-desc": "وبسایت فیلم و عکس رایگان",
+  "i18n-piwigo-desc": "سکوی آلبوم عکس آزاد",
+  "i18n-wordpress-desc": "وبسایت و وبلاگ آزاد",
+  "i18n-zenphoto-desc": "وبسایت فیلم و عکس آزاد",
 
   "i18n-document-collaboration": "نگارش مشارکتی اسناد",
   "i18n-ethercalc-desc": "سرور چند کاربره اسناد",
@@ -117,7 +117,7 @@
   "i18n-android-app-store": "اپ استور اندروید",
   "i18n-fdroid-desc": "اپ های آزاد و متن باز برای اندروید",
 
-  "i18n-csipsimple-desc": "تماس رایگان و رمزشده برای آندروید",
+  "i18n-csipsimple-desc": "تماس  آزاد و رمزشده برای آندروید",
   "i18n-gibberbot-desc": "اس‌ام‌اس امن با حفظ حریم شخصی",
   "i18n-orbot-desc": "تور برای اندروید",
   "i18n-redphone-desc": "تماس تلفنی امن برای آندروید",
@@ -134,7 +134,7 @@
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
 
   "i18n-add": "نصب کنید",
-  "i18n-mostly-free": "عموما آزاد و رایگان*",
+  "i18n-mostly-free": "عموما آزاد*",
   "i18n-rec-non-free": "افزونه غیرآزاد پیشنهاد می‌کند*",
   "i18n-advanced": "پیشرفته",
   "i18n-partly-proprietary": "دارای بخش‌های مالکیت طلبانه*",
