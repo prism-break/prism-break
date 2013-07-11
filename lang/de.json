@@ -16,6 +16,8 @@
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
   "i18n-trisquel-desc": "Von der FSF unterstützte, anwenderfreundliche GNU/Linux-Distribution.",
+  "i18n-midnightbsd-desc": "Eine FreeBSD-Distribution mit dem Ziel, eine einfach zu bedienende Desktopumgebung mit grafischer Portsverwaltung anzubieten.",
+  "i18n-openbsd-desc": "Ein sicheres Betriebssystem auf BSD-Basis.",
 
   "i18n-web-browser": "Webbrowser",
   "i18n-icecat-desc": "GNU-Version von Firefox.",
@@ -175,11 +177,11 @@
 
   "i18n-updated": "Aktualisiert",
   "i18n-by": "von",
-  "i18n-contribute-on": "Mach mit auf",
+  "i18n-contribute-on": "Mach' mit auf",
   "i18n-donate": "Spende",
   "i18n-contribute": "Mithelfen",
 
-  "i18n-operating-system-note": "<p>Apple, Google und Microsoft sind ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</p><p>Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</p> <p>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution</a><sup>[ENG]</sup>, die Euren Anforderungen entspricht.</p> <p>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks\">standardmäßig Daten an Dritte sendet.</a><sup>[ENG]</sup></p> <p>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu.</a><sup>[ENG]</sup></p>",
+  "i18n-operating-system-note": "<p>Apple, Google und Microsoft sind mutmaßlich ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</p><p>Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</p> <p>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution</a><sup>[ENG]</sup>, die Euren Anforderungen entspricht.</p> <p>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks\">standardmäßig Daten an Dritte sendet.</a><sup>[ENG]</sup></p> <p>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu.</a><sup>[ENG]</sup></p>",
 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href=\"https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse\">Mehr dazu</a></p><p><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</p>",
 
