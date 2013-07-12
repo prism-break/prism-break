@@ -7,8 +7,8 @@ Contributors are welcome.
 * **In almost all cases, only free software is allowed to be featured on PRISM Break.** The only exception is when free software offers no viable alternative to proprietary software. "Web search" is the only category with this exception currently.
 * **Before suggesting software, please first search this repository to see if your request has already been made.** If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
 * **Pull requests are heavily prioritized over issues.** I will respond to them quicker and they will get an answer faster.
-* **Software thumbnails are 256 color, non-transparent PNGs.** The `/lib/img/free-100` directory is deprecated. A 50x50 png in the `free` directory is good.
-* **If you have the time, please include translation stubs in all of the language JSON files.** You'll save us a lot of time, and make translators happy. If you're adding the project Whonix for example, add this line to every single JSON file in /lang/ "i18n-whonix-desc"
+* **Software thumbnails should be 256-color, non-transparent PNGs.** The `lib/img/free-100` directory is deprecated. A 50x50 png in the `free` directory is good.
+* **If you have the time, please include translation stubs in all of the language JSON files.** You'll save us a lot of time, and make translators happy. If you're adding the project Whonix for example, add the following line to every single JSON file in `lang/`: 
 
     "i18n-whonix-desc": "Tor-enforcing OS focused on anonymity, privacy and security. Offers ready-to-use VM images.",
 
