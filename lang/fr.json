@@ -190,7 +190,7 @@
 
   "i18n-ios-note": "<p>iOS n'est pas sécurisé et il n'existe malheureusement pas beaucoup d'applications de chiffrement disponibles pour iOS. Il est également <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible de vérifier</a> qu'une application iOS a été compilée depuis le code source original.</p>",
 
-  "i18n-web-browser-note": "<p>Utilisez une combinaison de <strong>Tor Browser</strong> et d'un navigateur web libre de votre choix pour surfer sur le Web.</p> <p>Essayez d'utiliser <strong>Tor Browser</strong> autant que possible. La navigation est plus lente avec Tor, mais est beaucoup plus sécurisée.</p> <p>Note&nbsp;: <strong>Mozilla Firefox</strong> n'est techniquement pas totalement un logiciel libre, car Mozilla recommande des plugins non libres sur leur site web.</p>",
+  "i18n-web-browser-note": "<p>Utilisez une combinaison de <strong>Tor Browser</strong> et d'un navigateur web libre de votre choix pour surfer sur le Web.</p> <p>Essayez d'utiliser Tor autant que possible, la navigation est plus lente mais est nettement plus sécurisée.</p> <p>Notez qu'utiliser Tor pour se connecter à Paypal ou un site de banque en ligne peut perturber la protection anti-fraude du site.</p><p>Les utilisqteurs de Tor doivent aussi faire attention à naviguer en HTTPS, leur communication en HTTP pourraient être intercepter par un noeud de sortie malveillant.</p>",
 
   "i18n-web-browser-addons-note": "<p>Préservez votre vie privée et stoppez les sites web qui vous traquent en installant Adblock Edge, Disconnect, HTTPS Everywhere et NoScript dans votre navigateur.</p> <p>Pourquoi pas Adblock Plus&nbsp;? Adblock Plus présente des &laquo;&nbsp;publicités acceptables&nbsp;&raquo; par défaut et utilise plus de mémoire que <strong>Adblock Edge</strong>.</p> <p>Pourquoi pas Ghostery&nbsp;? Ghostery est une extension propriétaire. Utilisez plutôt <strong>Disconnect</strong>.</p>",
 
@@ -198,7 +198,7 @@
 
   "i18n-email-services-note": "<p><strong>Riseup</strong> est hébergé aux Etats-Unis, au cas où vous y portez une attention.</p><p>Pourquoi pas Hushmail&nbsp;? Consultez <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&laquo;&nbsp;les compromis sur le caractère privée des emails&nbsp;&raquo;</a (en anglais).</p>",
 
-  "i18n-email-clients-note": "<p>Note&nbsp;: <strong>Mozilla Thunderbird</strong> n'est techniquement pas totalement un logiciel libre, car Mozilla recommande des plugins non libres sur leur site web.</p>",
+  "i18n-email-clients-note": "<p>Voici <a href="http://www.enigmail.net/documentation/quickstart-ch1.php">un guide</a> pour chiffrer vos courriels avec Thunderbird, GNU Privacy Guard (GPG) et Enigmail.</p>",
 
   "i18n-email-encryption-note": "<p>&laquo;&nbsp;Pretty Good Privacy (PGP)&nbsp;&raquo; est un logiciel de chiffrement et déchiffrement cryptographique qui permet d'authentifier les communications électroniques. PGP est souvent utilisé pour signer et (dé)chiffrer des textes, des e-mails, des fichiers voire d'entières partitions de support de stockage afin d'améliorer la sécurité.&nbsp;&raquo;</p><p>&mdash; <a href='https://fr.wikipedia.org/wiki/Pretty_Good_Privacy'>La Wikipédia</a>",
 
