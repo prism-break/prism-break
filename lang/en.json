@@ -7,41 +7,126 @@
   "i18n-free-alternative": "Free alternative",
   "i18n-notes": "Notes",
 
-  "i18n-operating-system": "Operating system",
-  "i18n-archlinux-desc": "Lightweight and flexible GNU/Linux distribution.",
-  "i18n-debian-desc": "Popular ethical GNU/Linux distribution.",
-  "i18n-fedora-desc": "Fast, stable, powerful GNU/Linux distribution.",
-  "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
-  "i18n-trisquel-desc": "FSF endorsed, user-friendly GNU/Linux distribution.",
-  "i18n-qubes-desc": "Fedora/Xen-based OS designed to provide strong security through isolation.",
-  "i18n-openbsd-desc": "A secure BSD operating system.",
-
-  "i18n-live-cd-title": "Live CDs &amp; VM images",
-  "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
-  "i18n-tails-desc": "Live CD/USB aimed at preserving your privacy and anonymity.",
-  "i18n-whonix-desc": "Tor-enforcing OS focused on anonymity, privacy and security. Offers ready-to-use VM images.",
-
   "i18n-web-browser": "Web browser",
-  "i18n-icecat-desc": "GNU version of Firefox.",
-  "i18n-firefox-desc": "Open source web browser.",
   "i18n-torbrowser-desc": "Encrypted, anonymous browsing.",
+  "i18n-firefox-desc": "Open source web browser.",
+  "i18n-icecat-desc": "GNU version of Firefox.",
+  "i18n-orbot-desc": "Tor proxy for Android.",
+  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be a bit slower, but it's far more secure.</p><p>Note that using <strong>Tor Browser</strong> to log into PayPal or a banking website may trip the website&rsquo;s fraud protection software.</p><p>Users of <strong>Tor Browser</strong> should also be aware that logging into HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p>",
 
-  "i18n-web-browser-plugins": "Web browser plugins",
+  "i18n-web-browser-plugins": "Web browser add-ons",
+  "i18n-httpseverywhere-desc": "Encrypts your communications from thousands of websites.",
   "i18n-adblockedge-desc": "Block advertisements on the web.",
   "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
-  "i18n-httpseverywhere-desc": "Encrypts your communications from thousands of websites.",
   "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
   "i18n-requestpolicy-desc": "Control which cross-site requests are allowed by sites you visit.",
+  "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, and HTTPS Everywhere in your browser.</p><p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
 
   "i18n-web-search": "Web search",
   "i18n-duckduckgo-desc": "Anonymous, unlogged web searches.",
-  "i18n-startpage-desc": "Private, unlogged web searches.",
   "i18n-seeksproject-desc": "Open decentralized platform for collaborative search.",
+  "i18n-startpage-desc": "Private, unlogged web searches.",
   "i18n-yacy-desc": "Decentralized web search.",
+  "i18n-web-search-note": "<p><strong>DuckDuckGo</strong> is partly proprietary, hosted around the world, and provides you with search results from <a href='http://help.dukgo.com/customer/portal/articles/216399-sources'>these sources</a>.</p><p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymous Google search results (including images).</p>",
+
+  "i18n-maps": "Maps",
+  "i18n-openstreetmap-desc": "Free, collaborative world wide map.",
+  "i18n-maps-note": "<p>&ldquo;If you spend time contributing to OpenStreetMap you are helping a good cause, and building a geographic database of the world which is free and open for all and forever.&rdquo;</p><p>&mdash; <a href='http://wiki.openstreetmap.org/wiki/Google_Map_Maker'>OpenStreetMap Wiki</a></p>",
+
+  "i18n-instant-messaging": "Instant messaging",
+  "i18n-pidgin-desc": "Open source chat program.",
+  "i18n-otr-desc": "Install and enable this plugin in Pidgin for encrypted chat.",
+  "i18n-adium-desc": "Free, multiprotocol chat client for OS X.",
+  "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
+  "i18n-surespot-desc": "Free, open-source, end-to-end encrypted messaging.",
+  "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
+  "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
+  "i18n-chatsecure-desc": "Encrypted IM for iOS.",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.</p><p>The primary motivation behind the protocol was providing deniability for the conversation participants while keeping conversations confidential, like a private conversation in real life, or off the record in journalism sourcing.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p>",
+
+  "i18n-video-voip": "Video conferencing/VoIP",
+  "i18n-jitsi-desc": "Encrypted text and video chat.",
+  "i18n-linphone-desc": "Encrypted voice and video client.",
+  "i18n-mumble-desc": "Encrypted, low-latency voice chat.",
+  "i18n-redphone-desc": "Secure private calls for Android.",
+  "i18n-csipsimple-desc": "Free, encrypted VoIP for Android.",
+  "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for. Please not that that Jitsi may <a href='https://github.com/nylira/prism-break/issues/291'>request non-secure information during encrypted chat</a> if you paste a link into it.</p><p>Also, if <strong>Jitsi</strong> is set up to use Tor, it may <a href='https://trac.jitsi.org/ticket/1060'>leak DNS information</a> by not using Tor for DNS resolution.</p><p><strong>Mumble</strong> is an open source voice chat client in the style of Ventrilo and TeamSpeak.</p><p>CSIPSimple and Linphone currently have <a href='http://blog.azimuthsecurity.com/2013/06/attacking-crypto-phones-weaknesses-in.html'>unresolved security weaknesses</a>.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
+
+  "i18n-social-networking": "Social networking",
+  "i18n-pumpio-desc": "Self-hosted social stream server.",
+  "i18n-buddycloud-desc": "Open source, federated social network.",
+  "i18n-diaspora-desc": "Community-run, distributed social network.",
+  "i18n-friendica-desc": "Privacy respecting, distributed, federated social network.",
+  "i18n-gnusocial-desc": "Self-hosted, decentralized social network.",
+  "i18n-lorea-desc": "Distributed and federated social nodes.",
+  "i18n-movim-desc": "Private, decentralized social network server.",
+  "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
+  "i18n-salutatoi-desc": "Multi-frontend, multipurpose communication tool.",
+  "i18n-tent-desc": "Free, autonomous social network protocol.",
+  "i18n-social-networking-note": "<p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>",
+
+  "i18n-cloud-storage": "Cloud storage",
+  "i18n-gitannex-desc": "Synchronize folders on your computers and drives.",
+  "i18n-cozycloud-desc": "A personal PaaS you can host, hack and delete",
+  "i18n-owncloud-desc": "Cloud data in your control.",
+  "i18n-seafile-desc": "Self-hosted file sync and collaboration for teams.",
+  "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
+  "i18n-tahoelafs-desc": "Free and open cloud storage system.",
+  "i18n-cloud-storage-note": "<p>Why not BitTorrent Sync? While the BitTorrent protocol is free, BitTorrent Sync is currently proprietary software.</p><p>Why not MEGA? While MEGA is free as in beer, the software is proprietary.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
+
+  "i18n-document-collaboration": "Document collaboration",
+  "i18n-etherpad-desc": "Self-hosted, real-time collaborative documents.",
+  "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
+  "i18n-document-collaboration-note": "<p>--</p>",
+
+  "i18n-media-publishing": "Media publishing",
+  "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.",
+  "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
+  "i18n-piwigo-desc": "Self-hosted photo gallery platform.",
+  "i18n-wordpress-desc": "Self-hosted website publishing platform.",
+  "i18n-zenphoto-desc": "Self-hosted media management system.",
+  "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.",
+
+  "i18n-email-services": "Email services",
+  "i18n-autistici-desc": "A full range of free, privacy-aware services.",
+  "i18n-bitmessage-desc": "Encrypted, decentralized email server.",
+  "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
+  "i18n-mykolabcom-desc": "Secure Kolab accounts hosted in Switzerland.",
+  "i18n-riseup-desc": "Secure and private email accounts.",
+  "i18n-email-services-note": "<p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the strong Swiss privacy laws. It is run with free software and lets you export all your data.</p><p><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p><p>The only way to have full control over your email is to run your own mail server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>",
+
+  "i18n-email-clients": "Email desktop clients",
+  "i18n-thunderbird-desc": "Open source email application.",
+  "i18n-clawsmail-desc": "Lightweight email application with GPG support.",
+  "i18n-evolution-desc": "Free email and calendar application with GPG support.",
+  "i18n-icedove-desc": "Free version of Mozilla Thunderbird.",
+  "i18n-kontact-desc": "KDE email client with GPG support.",
+  "i18n-email-clients-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p>",
+
+  "i18n-email-encryption": "Email encryption",
+  "i18n-enigmail-desc": "An OpenPGP add-on for Thunderbird/Icedove.",
+  "i18n-torbirdy-desc": "Make your Thunderbird/Icedove connections through Tor.",
+  "i18n-gnuprivacyguard-desc": "OpenPGP and S/MIME implementation for numerous frontends.",
+  "i18n-gpgmail-desc": "OpenPGP add-on for OS X Mail.app.",
+  "i18n-mailvelope-desc": "OpenPGP browser add-on for webmail.",
+  "i18n-openpgpjs-desc": "OpenPGP library implemented in JavaScript.",
+  "i18n-webpg-desc": "GnuPG/GPG (gpg, gnupg) in your browser.",
+  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></p><p><a href='https://en.wikipedia.org/wiki/S/MIME'>S/MIME</a> is an another email encryption scheme that may be of interest. It&rsquo;s supported by default in many email clients (Thunderbird, Outlook, iOS Mail) and <a href='https://github.com/nylira/prism-break/issues/171'>arguably</a> easier to use than PGP.</p>",
+
+  "i18n-online-transactions": "Online transactions",
+  "i18n-bitcoin-desc": "P2P digital currency with no central authority.",
+  "i18n-cryptocoins-title": "Alternative cryptocurrencies",
+  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
+  "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
+
+  "i18n-web-analytics": "Web analytics",
+  "i18n-piwik-desc": "Open source, self-hosted web analytics.",
+  "i18n-owa-desc": "Alternative open source web analytics.",
+  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
   "i18n-dns-provider": "DNS provider",
-  "i18n-opennic-desc": "Total DNS neutrality.",
   "i18n-namecoin-desc": "Distributed DNS based on Bitcoin technology.",
+  "i18n-dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
 
   "i18n-darknet": "Darknet",
   "i18n-freenet-desc": "Decentralized censorship-resistant network.",
@@ -50,109 +135,38 @@
   "i18n-syndie-desc": "Distributed, anonymous forum software.",
   "i18n-tor-hidden-services-title": "Tor Hidden Services",
   "i18n-tor-hidden-services-desc": "The Tor network offers access to *.onion websites.",
-
-  "i18n-online-transactions": "Online transactions",
-  "i18n-bitcoin-desc": "P2P digital currency with no central authority.",
-  "i18n-cryptocoins-title": "Alternative cryptocurrencies",
-  "i18n-cryptocoins-desc": "List of alternative encrypted digital currencies.",
-
-  "i18n-email-services": "Email services",
-  "i18n-autistici-desc": "A full range of free, privacy-aware services.",
-  "i18n-bitmessage-desc": "Encrypted, decentralized email server.",
-  "i18n-riseup-desc": "Secure and private email accounts.",
-  "i18n-tormail-desc": "Tor Mail is a free anonymous email service provider.",
-  "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
-  "i18n-mykolabcom-desc": "Secure Kolab accounts hosted in Switzerland.",
-
-  "i18n-email-clients": "Email desktop clients",
-  "i18n-clawsmail-desc": "Lightweight email application with GPG support.",
-  "i18n-evolution-desc": "Free email and calendar application with GPG support.",
-  "i18n-icedove-desc": "Free version of Mozilla Thunderbird.",
-  "i18n-kontact-desc": "KDE email client with GPG support.",
-  "i18n-thunderbird-desc": "Open source email application.",
-
-  "i18n-email-encryption": "Email encryption",
-  "i18n-enigmail-desc": "An OpenPGP add-on for Thunderbird/Icedove.",
-  "i18n-gnuprivacyguard-desc": "OpenPGP and S/MIME implementation for numerous frontends.",
-  "i18n-gpgmail-desc": "OpenPGP add-on for OS X Mail.app.",
-  "i18n-mailvelope-desc": "OpenPGP browser add-on for webmail.",
-  "i18n-openpgpjs-desc": "OpenPGP library implemented in JavaScript.",
-  "i18n-webpg-desc": "GnuPG/GPG (gpg, gnupg) in your browser.",
-
-  "i18n-maps": "Maps",
-  "i18n-openstreetmap-desc": "Free, collaborative world wide map.",
-
-  "i18n-cloud-storage": "Cloud storage",
-  "i18n-gitannex-desc": "Synchronize folders on your computers and drives.",
-  "i18n-owncloud-desc": "Cloud data in your control.",
-  "i18n-cozycloud-desc": "A personal PaaS you can host, hack and delete",
-  "i18n-seafile-desc": "Self-hosted file sync and collaboration for teams.",
-  "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
-  "i18n-tahoelafs-desc": "Free and open cloud storage system.",
-
-  "i18n-social-networking": "Social networking",
-  "i18n-buddycloud-desc": "Open source, federated social network.",
-  "i18n-diaspora-desc": "Community-run, distributed social network.",
-  "i18n-friendica-desc": "Privacy respecting, distributed, federated social network.",
-  "i18n-gnusocial-desc": "Self-hosted, decentralized social network.",
-  "i18n-lorea-desc": "Distributed and federated social nodes.",
-  "i18n-movim-desc": "Private, decentralized social network server.",
-  "i18n-pumpio-desc": "Self-hosted social stream server.",
-  "i18n-salutatoi-desc": "Multi-frontend, multipurpose communication tool.",
-  "i18n-tent-desc": "Free, autonomous social network protocol.",
-
-  "i18n-instant-messaging": "Instant messaging",
-  "i18n-cryptocat-desc": "Private, encrypted online conversations in the browser.",
-  "i18n-otr-desc": "Install and enable this plugin in Pidgin for encrypted chat.",
-  "i18n-pidgin-desc": "Open source chat program.",
-  "i18n-adium-desc": "Free, multiprotocol chat client for OS X.",
-  "i18n-retroshare-desc": "Free, secure, P2P communications platform.",
-
-  "i18n-video-voip": "Video conferencing/VoIP",
-  "i18n-jitsi-desc": "Encrypted text and video chat.",
-  "i18n-linphone-desc": "Encrypted voice and video client.",
-  "i18n-mumble-desc": "Encrypted, low-latency voice chat.",
-
-  "i18n-media-publishing": "Media publishing",
-  "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
-  "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.",
-  "i18n-piwigo-desc": "Self-hosted photo gallery platform.",
-  "i18n-wordpress-desc": "Self-hosted website publishing platform.",
-  "i18n-zenphoto-desc": "Self-hosted media management system.",
-
-  "i18n-document-collaboration": "Document collaboration",
-  "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
-  "i18n-etherpad-desc": "Self-hosted, real-time collaborative documents.",
-
-  "i18n-web-analytics": "Web analytics",
-  "i18n-piwik-desc": "Open source, self-hosted web analytics.",
-  "i18n-owa-desc": "Alternative open source web analytics.",
-
-  "i18n-android": "Android",
-
-  "i18n-cyanogenmod-desc": "Aftermarket firmware for Android devices.",
-  "i18n-replicant-desc": "Fully free Android distribution.",
-
-  "i18n-android-app-store": "Android App Store",
-  "i18n-fdroid-desc": "Free and open source app store for Android.",
-
-  "i18n-csipsimple-desc": "Free, encrypted VoIP for Android.",
-  "i18n-gibberbot-desc": "Private, secure OTR messaging for Android.",
-  "i18n-orbot-desc": "Tor proxy for Android.",
-  "i18n-redphone-desc": "Secure private calls for Android.",
-  "i18n-surespot-desc": "Free, open-source, end-to-end encrypted messaging.",
-  "i18n-textsecure-desc": "Secure SMS/MMS communication for Android.",
-  "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
-
-  "i18n-ios": "iOS",
-  "i18n-ios-insecure-title": "iOS is insecure",
-  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
-  "i18n-chatsecure-desc": "Encrypted IM for iOS.",
-  "i18n-onionbrowser-desc": "Secure browsing for iOS.",
+  "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
 
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
+
+  "i18n-android": "Android",
+  "i18n-cyanogenmod-desc": "Aftermarket firmware for Android devices.",
+  "i18n-replicant-desc": "Fully free Android distribution.",
+  "i18n-fdroid-desc": "Free and open source app store for Android.",
+  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
+
+  "i18n-ios": "iOS",
+  "i18n-ios-insecure-title": "iOS is insecure",
+  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
+  "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> if an iOS app was compiled from the original source.</p>",
+
+  "i18n-operating-system": "Operating system",
+  "i18n-archlinux-desc": "Lightweight and flexible GNU/Linux distribution.",
+  "i18n-debian-desc": "Popular ethical GNU/Linux distribution.",
+  "i18n-fedora-desc": "Fast, stable, powerful GNU/Linux distribution.",
+  "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
+  "i18n-trisquel-desc": "FSF endorsed, user-friendly GNU/Linux distribution.",
+  "i18n-qubes-desc": "Fedora/Xen-based OS designed to provide strong security through isolation.",
+  "i18n-openbsd-desc": "A secure BSD operating system.",
+  "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p><p>This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p><p>GNU/Linux has a much larger community to help you with the transition. It&rsquo;s recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p><p><strong>Linux Mint</strong> is probably the easiest-to-use distribution for people migrating from Microsft Windows. We recommend the no-codecs edition, as the others are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p><p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</p>",
+
+  "i18n-live-cd-title": "Live CDs &amp; VM images",
+  "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
+  "i18n-tails-desc": "Live CD/USB aimed at preserving your privacy and anonymity.",
+  "i18n-whonix-desc": "Tor-enforcing OS focused on anonymity, privacy and security. Offers ready-to-use VM images.",
+  "i18n-live-cd-notes": "--",
 
   "i18n-xmpp-server-title": "XMPP Server",
   "i18n-ejabberd-desc": "XMPP server written in Erlang/OTP for GNU/Linux and OS X.",
@@ -167,13 +181,8 @@
   "i18n-kamailio-desc": "Open source VoIP/SIP server.",
   "i18n-sip-server-notes": "<p>&ldquo;The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>",
 
-  "i18n-add": "add",
-  "i18n-mostly-free": "mostly free*",
-  "i18n-rec-non-free": "recommends non-free addons*",
   "i18n-advanced": "advanced",
-  "i18n-partly-proprietary": "partly proprietary*",
   "i18n-invite-only": "invitation required",
-  "i18n-tor-users-only": "Tor users only",
   "i18n-newbies-choice": "newbie&rsquo;s choice",
   "i18n-editors-choice": "editor&rsquo;s choice",
   "i18n-approval-required": "approval required",
@@ -205,55 +214,13 @@
 
   "i18n-updated": "Updated",
   "i18n-by": "by",
-  "i18n-contribute-on": "Contribute on",
   "i18n-donate": "Donate",
   "i18n-contribute": "Contribute",
-
-  "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p><p>This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p><p>GNU/Linux has a much larger community to help you with the transition. It&rsquo;s recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p><p><strong>Linux Mint</strong> is probably the easiest-to-use distribution for people migrating from Microsft Windows. We recommend the no-codecs edition, as the others are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p><p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</p>",
-
-  "i18n-live-cd-notes": "--",
-
-  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
-
-  "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> if an iOS app was compiled from the original source.</p>",
-
-  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be a bit slower, but it's far more secure.</p><p>Note that using <strong>Tor Browser</strong> to log into PayPal or a banking website may trip the website&rsquo;s fraud protection software.</p><p>Users of <strong>Tor Browser</strong> should also be aware that logging into HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p>",
-
-  "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, and HTTPS Everywhere in your browser.</p><p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
-
-  "i18n-web-search-note": "<p><strong>DuckDuckGo</strong> is partly proprietary, hosted around the world, and provides you with search results from <a href='http://help.dukgo.com/customer/portal/articles/216399-sources'>these sources</a>.</p><p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymous Google search results (including images).</p>",
-
-  "i18n-email-services-note": "<p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the strong Swiss privacy laws. It is run with free software and lets you export all your data.</p><p><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p><p>The only way to have full control over your email is to run your own mail server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>",
-
-  "i18n-email-clients-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p>",
-
-  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></p><p><a href='https://en.wikipedia.org/wiki/S/MIME'>S/MIME</a> is an another email encryption scheme that may be of interest. It&rsquo;s supported by default in many email clients (Thunderbird, Outlook, iOS Mail) and <a href='https://github.com/nylira/prism-break/issues/171'>arguably</a> easier to use than PGP.</p>",
-
-  "i18n-social-networking-note": "<p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>",
-
-  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.</p><p>The primary motivation behind the protocol was providing deniability for the conversation participants while keeping conversations confidential, like a private conversation in real life, or off the record in journalism sourcing.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p>",
-
-  "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for. Please not that that Jitsi may <a href='https://github.com/nylira/prism-break/issues/291'>request non-secure information during encrypted chat</a> if you paste a link into it.</p><p>Also, if <strong>Jitsi</strong> is set up to use Tor, it may <a href='https://trac.jitsi.org/ticket/1060'>leak DNS information</a> by not using Tor for DNS resolution.</p><p><strong>Mumble</strong> is an open source voice chat client in the style of Ventrilo and TeamSpeak.</p><p>CSIPSimple and Linphone currently have <a href='http://blog.azimuthsecurity.com/2013/06/attacking-crypto-phones-weaknesses-in.html'>unresolved security weaknesses</a>.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
-
-  "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
-
-  "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.",
-
-  "i18n-document-collaboration-note": "<p>--</p>",
-
-  "i18n-maps-note": "<p>&ldquo;If you spend time contributing to OpenStreetMap you are helping a good cause, and building a geographic database of the world which is free and open for all and forever.&rdquo;</p><p>&mdash; <a href='http://wiki.openstreetmap.org/wiki/Google_Map_Maker'>OpenStreetMap Wiki</a></p>",
-
-  "i18n-cloud-storage-note": "<p>Why not BitTorrent Sync? While the BitTorrent protocol is free, BitTorrent Sync is currently proprietary software.</p><p>Why not MEGA? While MEGA is free as in beer, the software is proprietary.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
-
-  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
-
-  "i18n-dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
-
-  "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
 
   "i18n-site-license": "<p>PRISM Break&rsquo;s code and text are licensed under a <a href='http://www.gnu.org/licenses/gpl.html'>GNU GPL v3 license</a>.</p><p>jQuery v1.10.1, jPanelMenu, HTML5 Shiv v3.6.2pre, stylus, and nib are licensed under the MIT license.</p><p>Logos and images are trademarked by their respective companies.</p>",
 
   "i18n-disclaimer": "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information.",
+
   "i18n-privacy-policy": "Privacy Policy",
   "i18n-privacy-policy-content":"<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to completely ignore your computer.</p>"
 }
