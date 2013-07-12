@@ -5,6 +5,7 @@ Contributors are welcome.
 ## App inclusion guidelines
 
 * **In almost all cases, only free software is allowed to be featured on PRISM Break.** The only exception is when free software offers no viable alternative to proprietary software. "Web search" is the only category with this exception currently.
+* **Quality over quantity.** PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
 * **Before suggesting software, please first search this repository to see if your request has already been made.** If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
 * **Pull requests are heavily prioritized over issues.** I will respond to them quicker and they will get an answer faster.
 * **Software thumbnails should be 256-color, non-transparent PNGs.** The `lib/img/free-100` directory is deprecated. A 50x50 png in the `free` directory is good.
