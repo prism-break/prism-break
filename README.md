@@ -10,7 +10,8 @@ Contributors are welcome.
 * **Software thumbnails should be 256-color, non-transparent PNGs.** The `lib/img/free-100` directory is deprecated. A 50x50 png in the `free` directory is good.
 * **If you have the time, please include translation stubs in all of the language JSON files.** You'll save us a lot of time, and make translators happy. If you're adding the project Whonix for example, add the following line to every single JSON file in `lang/`: 
 
-    "i18n-whonix-desc": "Tor-enforcing OS focused on anonymity, privacy and security. Offers ready-to-use VM images.",
+
+    `"i18n-whonix-desc": "Tor-enforcing OS focused on anonymity, privacy and security. Offers ready-to-use VM images.",`
 
 ## Localizations
 
