@@ -18,6 +18,10 @@
   "i18n-trisquel-desc": "Von der FSF unterstützte, anwenderfreundliche GNU/Linux-Distribution.",
   "i18n-midnightbsd-desc": "Eine FreeBSD-Distribution mit dem Ziel, eine einfach zu bedienende Desktopumgebung mit grafischer Portsverwaltung anzubieten.",
   "i18n-openbsd-desc": "Ein sicheres Betriebssystem auf BSD-Basis.",
+  "i18n-archlinux-desc": "Schlanke und flexible GNU/Linux-Distribution.",
+  "i18n-qubes-desc": "Ein Fedora/Xen-basierendes Betriebssystem, das starke Sicherheit durch Isolation bietet.", 
+  "i18n-whonix-desc": "Ein Betriebssystem, das auf TOR, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM Images.", 
+  "i18n-live-cd-title": "Live CDs &amp; VM Images",
 
   "i18n-web-browser": "Webbrowser",
   "i18n-icecat-desc": "GNU-Version von Firefox.",
@@ -67,10 +71,14 @@
   "i18n-thunderbird-desc": "Quelloffene E-Mail-Anwendung.",
 
   "i18n-email-encryption": "E-Mail-Verschlüsselung",
-  "i18n-enigmail-desc": "Ein OpenPGP-Plugin für Thunderbird/Icedove.",
+  "i18n-enigmail-desc": "Ein OpenPGP-Add-on für Thunderbird/Icedove.",
   "i18n-gnuprivacyguard-desc": "Freie OpenPGP-Implementierung.",
   "i18n-mailvelope-desc": "OpenPGP-Verschlüsselung für Webmail.",
   "i18n-webpg-desc": "GnuPG/PGP in Deinem Browser.",
+  "i18n-torbirdy-desc": "Verbinde Dich mit Thunderbird/Icedove durch TOR.",
+  "i18n-experimental": "experimentell",
+  "i18n-gpgmail-desc": "OpenPGP-Add-on für die OS X Mail-App.",
+  "i18n-openpgpjs-desc": "OpenPGP-Bibliothek in JavaScript.",
 
   "i18n-maps": "Atlanten",
   "i18n-openstreetmap-desc": "Freier, kollaborativer Weltatlas.",
@@ -141,7 +149,7 @@
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "Eine dezentralisierte Alternative zum Internet.",
   
-  "i18n-xmpp-server-title": "XMPP Server",
+  "i18n-xmpp-server-title": "XMPP-Server",
   "i18n-ejabberd-desc": "In Erlang/OTP geschriebener XMPP-Server für GNU/Linux und OS X.",
   "i18n-openfire-desc": "Plattformübergreifender, in Java geschriebener XMPP-Server.",
   "i18n-prosody-desc": "Flexibler und leichter, in Lua geschriebener XMPP-Server.",
@@ -236,5 +244,14 @@
 
   "i18n-meshnet-note": "<p>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</p><p>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Vermaschtes_Netz\">Wikipedia</a></p>",
 
-  "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust."
+  "i18n-requestpolicy-desc": "Kontrolliere Website-übergreifende Anfragen von Seiten, die Du besuchtst.",
+  "i18n-ajaxplorer-desc": "Verwandelt jeden Server in eine File-Sharing-Plattform.",
+  "i18n-cozycloud-desc": "Eigener PaaS, den Du hosten, hacken und löschen kannst.",
+
+  "i18n-owa-desc": "Alternative, quelloffene Webanalysen.",
+  "i18n-tor-hidden-services-desc": "Das TOR-Netzwerk bietet Zugriff auf *.onion-Websites.",
+
+  "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust.",
+
+  "i18n-site-license": "<p>Der PRISM Break-Quellcode und -Inhalt stehen unter der <a href='https://www.gnu.org/licenses/gpl-3.0.de.html'>GNU GPL v3 Lizenz</a>.</p><p>jQuery v1.10.1, jPanelMenu, stylus und nib stehen unter der MIT-Lizenz.</p><p>Die Logos und Bilder sind eingetragene Markenzeichen ihrer entsprechenden Firmen.</p>"
 }
