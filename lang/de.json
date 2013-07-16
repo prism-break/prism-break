@@ -20,7 +20,7 @@
   "i18n-openbsd-desc": "Ein sicheres Betriebssystem auf BSD-Basis.",
   "i18n-archlinux-desc": "Schlanke und flexible GNU/Linux-Distribution.",
   "i18n-qubes-desc": "Ein Fedora/Xen-basierendes Betriebssystem, das starke Sicherheit durch Isolation bietet.", 
-  "i18n-whonix-desc": "Ein Betriebssystem, das auf TOR, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM Images.", 
+  "i18n-whonix-desc": "Ein Betriebssystem, das auf Tor, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM Images.", 
   "i18n-live-cd-title": "Live CDs &amp; VM Images",
 
   "i18n-web-browser": "Webbrowser",
@@ -75,7 +75,7 @@
   "i18n-gnuprivacyguard-desc": "Freie OpenPGP-Implementierung.",
   "i18n-mailvelope-desc": "OpenPGP-Verschlüsselung für Webmail.",
   "i18n-webpg-desc": "GnuPG/PGP in Deinem Browser.",
-  "i18n-torbirdy-desc": "Verbinde Dich mit Thunderbird/Icedove durch TOR.",
+  "i18n-torbirdy-desc": "Verbinde Dich mit Thunderbird/Icedove durch Tor.",
   "i18n-experimental": "experimentell",
   "i18n-gpgmail-desc": "OpenPGP-Add-on für die OS X Mail-App.",
   "i18n-openpgpjs-desc": "OpenPGP-Bibliothek in JavaScript.",
@@ -174,7 +174,7 @@
   "i18n-tor-users-only": "nur für Tor-Nutzer",
   "i18n-approval-required": "nur auf Anfrage",
 
-  "i18n-fsf-definition-title": "*Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
+  "i18n-fsf-definition-title": "* Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
   "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
 
   "i18n-eff-title": "Trete in Aktion gegen PRISM im <strong>Electronic Frontier Foundation</strong> Action Center.",
@@ -224,7 +224,7 @@
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>Werfe auch einen Blick auf <strong>Cryptocat</strong> in der <a href=\"#browser-addons\">Browser-Addon Sektion</a>.</p></p>",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit).&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a>",
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</p><p><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</p><p><a href=\"http://www.webrtc.org/\">WebRTC (engl.)</a> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
@@ -251,7 +251,7 @@
   "i18n-cozycloud-desc": "Eigener PaaS, den Du hosten, hacken und löschen kannst.",
 
   "i18n-owa-desc": "Alternative, quelloffene Webanalysen.",
-  "i18n-tor-hidden-services-desc": "Das TOR-Netzwerk bietet Zugriff auf *.onion-Websites.",
+  "i18n-tor-hidden-services-desc": "Das Tor-Netzwerk bietet Zugriff auf *.onion-Websites.",
 
   "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust.",
 
