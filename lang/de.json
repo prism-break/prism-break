@@ -33,6 +33,7 @@
   "i18n-disconnect-desc": "Hindert Drittseiten daran, Dich zu verfolgen.",
   "i18n-httpseverywhere-desc": "Verschlüsselt Deine Kommunikation mit tausenden von Websites.",
   "i18n-noscript-desc": "Aktiviert JavaScript, Java und Flash nur für Seiten, denen Du vertraust.",
+  "i18n-requestpolicy-desc": "Kontrolliere Website-übergreifende Anfragen von Seiten, die Du besuchtst.",
 
   "i18n-web-search": "Websuche",
   "i18n-duckduckgo-desc": "Anonyme, aufzeichnungsfreie Websuchen.",
@@ -108,7 +109,7 @@
   "i18n-adium-desc": "Pidgin für OS X. (Denke daran, OTR zu aktivieren!)",
   "i18n-retroshare-desc": "Freie, sichere P2P-Kommunikationsplattform.",
 
-  "i18n-video-voip": "Videokonferenzen/VOIP",
+  "i18n-video-voip": "Videokonferenzen/VoIP",
   "i18n-jitsi-desc": "Verschlüsselter Text- und Videochat.",
   "i18n-linphone-desc": "Verschlüsselter Audio- und Videochat.",
   "i18n-mumble-desc": "Verschlüsselter Voicechat mit kurzer Latenzzeit.",
@@ -133,7 +134,7 @@
   "i18n-android-app-store": "Android App Store",
   "i18n-fdroid-desc": "Freie und quelloffene Apps für Android.",
 
-  "i18n-csipsimple-desc": "Freie, verschlüsselte VOIP für Android.",
+  "i18n-csipsimple-desc": "Freie, verschlüsselte VoIP für Android.",
   "i18n-gibberbot-desc": "Privates, sicheres OTR-Messaging für Android.",
   "i18n-orbot-desc": "Tor-Proxy für Android.",
   "i18n-redphone-desc": "Sichere, private Anrufe für Android.",
@@ -157,7 +158,7 @@
   "i18n-xmpp-server-notes": "<p>&ldquo;Das Extensible Messaging and Presence Protocol (XMPP; „erweiterbares Nachrichten- und Anwesenheitsprotokoll“) (früher Jabber, englisch [ˈdʒæbə(ɹ)]: „(daher-)plappern“) ist ein von der IETF als RFC 6120–6122 sowie 3922, 3923 veröffentlichter Internetstandard für XML-Routing. XMPP folgt dem XML-Standard und wird primär für Instant Messaging eingesetzt.</p><p> XMPP und seine Erweiterungen unterstützen Funktionen zur Nachrichtenübermittlung, Konferenzen mit mehreren Benutzern, Anzeigen des Online-Status, Dateiübertragungen, Versendung von Zertifikaten und viele weitere Dienste.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>",
 
   "i18n-sip-server-title": "SIP-Server",
-  "i18n-asterisk-desc": "PBX Implementation mit VoIP/SIP-Unterstützung.",
+  "i18n-asterisk-desc": "PBX-Implementation mit VoIP/SIP-Unterstützung.",
   "i18n-freeswitch-desc": "Plattformübergreifende Soft-Switch-Software mit VoIP/SIP-Unterstützung.",
   "i18n-kamailio-desc": "Quelloffener VoIP/SIP-Server.",
   "i18n-sip-server-notes": "<p>&ldquo;Das Session Initiation Protocol (SIP) ist ein Netzprotokoll zum Aufbau, zur Steuerung und zum Abbau einer Kommunikationssitzung zwischen zwei und mehr Teilnehmern. Das Protokoll wird u. a. im RFC 3261 spezifiziert. In der IP-Telefonie ist das SIP ein häufig angewandtes Protokoll.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>",
@@ -208,7 +209,9 @@
 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href=\"https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse\">Mehr dazu</a></p><p><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</p>",
 
-  "i18n-ios-note": "<p>iOS ist unsicher — und leider stehen nicht nicht einmal viele freie Verschlüsselungs-Apps für iOS zur Verfügung. Es ist außerdem <a href=\"http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r\">unmöglich sicherzustellen (engl.)</a>, ob eine iOS-App mit dem Original-Code kompiliert wurde.</p>",
+  "i18n-ios-note": "<p>iOS ist ein proprietäres Betriebssystem, dessen Quellcode nicht die Prüfung durch Dritte ermöglicht. Du solltest weder Deine Kommunikation, noch Deine Daten einem Closed-Source-Gerät übertragen.</p>",
+  "i18n-ios-no-alt-title": "Keine Alternative vorhanden",
+  "i18n-ios-no-alt-desc": "Wechsel den Hersteller &mdash; Es gibt keine freien Alternativen zu iOS.",
 
   "i18n-web-browser-note": "<p>Benutze eine Kombination aus dem <strong>Tor Browser</strong> und einem freien Browser Deiner Wahl um im Web zu surfen.</p> <p>Versuche den <strong>Tor Browser</strong> so oft wie möglich zu nutzen. Mit Tor zu surfen ist langsamer, aber deutlich sicherer.</p> <p>Anmerkung: <strong>Mozilla Firefox</strong> ist eigentlich keine vollständig freie Software, da Mozilla unfreie Add-Ons auf ihrer Seite empfiehlt.</p>",
 
@@ -218,13 +221,13 @@
 
   "i18n-email-services-note": "<p><strong>Riseup</strong> wird in den USA gehostet.</p><p>Warum nicht Hushmail?<br>Lese hierzu: <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;Gefährdung Deiner Privatsphäre&rdquo; (engl.)</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Anmerkung: <strong>Mozilla Thunderbird</strong> ist eigentlich keine vollständig freie Software, da Mozilla unfreie Add-Ons auf ihrer Seite empfiehlt.</p>",
+  "i18n-email-clients-note": "<a href='http://www.thunderbird-mail.de/wiki/Enigmail#Enigmail_installieren'>Diese Anleitung</a> hilft Dir, Deine Mail mit <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GnuPG)</strong> und <strong>Enigmail</strong> zu verschlüsseln.",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a><br><p>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</p>",
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit).&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a>",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a>",
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</p><p><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</p><p><a href=\"http://www.webrtc.org/\">WebRTC (engl.)</a> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
@@ -246,7 +249,6 @@
 
   "i18n-meshnet-note": "<p>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</p><p>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Vermaschtes_Netz\">Wikipedia</a></p>",
 
-  "i18n-requestpolicy-desc": "Kontrolliere Website-übergreifende Anfragen von Seiten, die Du besuchtst.",
   "i18n-ajaxplorer-desc": "Verwandelt jeden Server in eine File-Sharing-Plattform.",
   "i18n-cozycloud-desc": "Eigener PaaS, den Du hosten, hacken und löschen kannst.",
 
@@ -255,7 +257,7 @@
 
   "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust.",
 
- "i18n-privacy-policy": "Datenschutzrichtlinie (englisch)",
+  "i18n-privacy-policy": "Datenschutzrichtlinie (englisch)",
 
   "i18n-site-license": "<p>Der Quellcode und Inhalt von PRISM Break steht unter der <a href='https://www.gnu.org/licenses/gpl-3.0.de.html'>GNU GPL v3 Lizenz</a>.</p><p>jQuery v1.10.1, jPanelMenu, stylus und nib stehen unter der MIT-Lizenz.</p><p>Die Logos und Bilder sind eingetragene Markenzeichen ihrer entsprechenden Firmen.</p>"
 }
