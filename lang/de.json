@@ -108,6 +108,8 @@
   "i18n-pidgin-desc": "Quelloffenes Chatprogramm.",
   "i18n-adium-desc": "Pidgin für OS X. (Denke daran, OTR zu aktivieren!)",
   "i18n-retroshare-desc": "Freie, sichere P2P-Kommunikationsplattform.",
+   "i18n-jappix-desc": "Freie Plattform für ein soziales Netzwerk mit Sofortnachrichten und umfangreichen Funktionen.",
+   "i18n-torchat-desc": "Anonymer, dezentralisierter P2P-Chat, auf den versteckten Diensten von Tor basierend.",
 
   "i18n-video-voip": "Videokonferenzen/VoIP",
   "i18n-jitsi-desc": "Verschlüsselter Text- und Videochat.",
@@ -155,8 +157,10 @@
   "i18n-openfire-desc": "Plattformübergreifender, in Java geschriebener XMPP-Server.",
   "i18n-prosody-desc": "Flexibler und leichter, in Lua geschriebener XMPP-Server.",
   "i18n-tigase-desc": "Plattformübergreifender, in Java geschriebener XMPP-Server.",
-  "i18n-xmpp-server-notes": "<p>&ldquo;Das Extensible Messaging and Presence Protocol (XMPP; „erweiterbares Nachrichten- und Anwesenheitsprotokoll“) (früher Jabber, englisch [ˈdʒæbə(ɹ)]: „(daher-)plappern“) ist ein von der IETF als RFC 6120–6122 sowie 3922, 3923 veröffentlichter Internetstandard für XML-Routing. XMPP folgt dem XML-Standard und wird primär für Instant Messaging eingesetzt.</p><p> XMPP und seine Erweiterungen unterstützen Funktionen zur Nachrichtenübermittlung, Konferenzen mit mehreren Benutzern, Anzeigen des Online-Status, Dateiübertragungen, Versendung von Zertifikaten und viele weitere Dienste.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>",
+  "i18n-prosody-desc": "Auf Prosody basierender XMPP-Server mit umfangreichen Management- und Microblogging-Funktionen.",
 
+  "i18n-xmpp-server-notes": "<p>&ldquo;Das Extensible Messaging and Presence Protocol (XMPP; „erweiterbares Nachrichten- und Anwesenheitsprotokoll“) (früher Jabber, englisch [ˈdʒæbə(ɹ)]: „(daher-)plappern“) ist ein von der IETF als RFC 6120–6122 sowie 3922, 3923 veröffentlichter Internetstandard für XML-Routing. XMPP folgt dem XML-Standard und wird primär für Instant Messaging eingesetzt.</p><p> XMPP und seine Erweiterungen unterstützen Funktionen zur Nachrichtenübermittlung, Konferenzen mit mehreren Benutzern, Anzeigen des Online-Status, Dateiübertragungen, Versendung von Zertifikaten und viele weitere Dienste.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>",
+     
   "i18n-sip-server-title": "SIP-Server",
   "i18n-asterisk-desc": "PBX-Implementation mit VoIP/SIP-Unterstützung.",
   "i18n-freeswitch-desc": "Plattformübergreifende Soft-Switch-Software mit VoIP/SIP-Unterstützung.",
