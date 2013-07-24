@@ -45,6 +45,7 @@
   "i18n-xabber-desc": "OTR-encrypted instant messaging for Android.",
   "i18n-chatsecure-desc": "Encrypted IM for iOS.",
   "i18n-weechat-desc": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
+  "i18n-bitlbee-desc": "IRC instant messaging gateway that supports a bunch of protocols.",
   "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.</p><p>The primary motivation behind the protocol was providing deniability for the conversation participants while keeping conversations confidential, like a private conversation in real life, or off the record in journalism sourcing.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p><strong>TorChat</strong> is not related to nor sponsored by the official <a href='https://www.torproject.org/'>Tor Project</a>.</p>",
 
   "i18n-video-voip": "Video conferencing/VoIP",
