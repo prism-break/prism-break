@@ -8,11 +8,11 @@
   "i18n-notes": "Notes",
 
   "i18n-web-browser": "Web browser",
-  "i18n-torbrowser-desc": "Encrypted, anonymous browsing.",
-  "i18n-firefox-desc": "Open source web browser.",
-  "i18n-icecat-desc": "GNU version of Firefox.",
-  "i18n-orbot-desc": "Tor proxy for Android.",
-  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be a bit slower, but it's far more secure.</p><p>Note that using <strong>Tor Browser</strong> to log into PayPal or a banking website may trip the website&rsquo;s fraud protection software.</p><p>Users of <strong>Tor Browser</strong> should also be aware that logging into HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p>",
+  "i18n-torbrowser-desc": "Encrypted, anonymous web browsing powered by the Tor network.",
+  "i18n-firefox-desc": "Fast, flexible and secure web browser with a vibrant add-on ecosystem."
+  "i18n-icecat-desc": "GNU version of Firefox with a large list of libre add-ons and extra privacy features.",
+  "i18n-orbot-desc": "The features and funtionality of Tor for Android.",
+  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be slower, but it will offer you far better anonymity.</p><p>Note that signing in to PayPal or a banking website across the Tor network may trip the site's fraud protection software. Users should also be aware that signing in to HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p><p><strong>Mozilla Firefox</strong> uses Google search by default. Google search should be replaced by more <a href="#web-search">private alternatives</a>.</p><p>Why are Chromium, SRWare Iron, et al. not recommended on PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>More info here.</a></p>",
 
   "i18n-web-browser-plugins": "Web browser add-ons",
   "i18n-httpseverywhere-desc": "Encrypts your communications from thousands of websites.",
