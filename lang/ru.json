@@ -42,6 +42,8 @@
   "i18n-textsecure-desc": "Безопасные SMS / MMS для Android.",
   "i18n-xabber-desc": "Мгновенные сообщения на основе OTR для Android.",
   "i18n-chatsecure-desc": "IM-клиент с поддержкой шифрования для iOS.",
+  "i18n-weechat-desc": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
+  "i18n-bitlbee-desc": "IRC instant messaging gateway that supports a bunch of protocols.",
   "i18n-instant-messaging-note": "<p>Так же не забудьте посмотреть на <strong>Cryptocat</strong> в секции аддонов для веб-браузера. </p></p>",
 
   "i18n-video-voip": "Видеоконференции и VoIP",
@@ -88,6 +90,10 @@
 
   "i18n-zenphoto-desc": "Система управления контентом.",
   "i18n-media-publishing-note": "<p><strong>Хостинг на своем сервере</strong> важен. Доверять свой блог Wordpress.com не чем не лучше для безопасности ваших данных, чем Blogger или Tumblr. </p>",
+
+  "i18n-vpn-clients": "VPN clients",
+  "i18n-openvpn-desc": "Free software VPN client.",
+  "i18n-vpn-clients-notes": "--",
 
   "i18n-email-services": "Электронная почта",
   "i18n-autistici-desc": "Полный спектр свободных, уважающих приватность, сервисов. ",
