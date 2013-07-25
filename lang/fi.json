@@ -48,6 +48,10 @@
   "i18n-cryptocoins-title": "Vaihtoehtoisia sähköisiä valuuttoja",
   "i18n-cryptocoins-desc": "Luettelo kaikista salatuista sähköisistä valuutoista.",
 
+  "i18n-vpn-clients": "VPN clients",
+  "i18n-openvpn-desc": "Free software VPN client.",
+  "i18n-vpn-clients-notes": "--",
+
   "i18n-email-services": "Sähköposti",
   "i18n-bitmessage-desc": "Salattu ja ympäri maailmaa hajautettu sähköpostipalvelin.",
   "i18n-riseup-desc": "Turvalliset ja tietoturvalliset sähköpostitilit.",
@@ -93,6 +97,8 @@
   "i18n-pidgin-desc": "Avoimen lähdekoodin pikaviestisovellus.",
   "i18n-adium-desc": "Pidgin Mac OS X -käyttöjärjestelmälle (muista asentaa OTR, katso ylempää).",
   "i18n-retroshare-desc": "Ilmainen ja turvallinen P2P-keskustelualusta.",
+  "i18n-weechat-desc": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
+  "i18n-bitlbee-desc": "IRC instant messaging gateway that supports a bunch of protocols.",
 
   "i18n-video-voip": "Video- ja äänipuhelut",
   "i18n-jitsi-desc": "Salatut viesti- ja videokeskustelut.",
