@@ -87,9 +87,8 @@ p.intro strong{color:#333;font-weight:bold}
 .free ul li h5,.free ul li p{display:inline}
 .free ul li h5{font-weight:bold;padding-right:4px}
 .free ul li p.desc{color:#333}
-.free ul li.plugin{border-left:16px solid #eee;font-size:80%;}
-.free ul li.plugin img.logo{width:32px;height:32px;margin-left:4px}
-.free ul li.plugin h5{font-weight:normal}
+.free ul li.plugin{border-left:12px solid #eee;font-size:80%;}
+.free ul li.plugin img.logo{width:25px;height:25px;margin-left:16px}
 .notes div{padding:.75em 1em 0;}
 .notes div p{margin:0 0 1em;max-width:50em;}
 .notes div p a:hover{text-decoration:underline}
@@ -120,6 +119,7 @@ p.intro strong{color:#333;font-weight:bold}
 #rtl #container .section .free img.logo{margin-left:1em}
 @media (min-width: 481px){body .section div.free ul li h5{line-height:1.5em;display:block}
 body .section div.free ul li p{line-height:1.5em}
+body .section div.free ul li.plugin h5{display:inline}
 }@media (min-width: 768px){body #header ul.nav li#donate,body #header ul.nav li#contribute{display:block}
 body p.intro{font:1.25em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;padding-top:1.5em}
 body .section{width:100%;zoom:1;}
