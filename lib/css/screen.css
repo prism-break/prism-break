@@ -80,10 +80,13 @@ p.intro strong{color:#333;font-weight:bold}
 .free ul li a:before,.free ul li a:after{content:"";display:table}
 .free ul li a:after{clear:both}
 .free ul li a:hover h4{text-decoration:underline;color:#0467ae}
-.free ul li img.logo{display:block;float:left;width:50px;height:50px;margin-right:1em}
+.free ul li img.logo{display:block;float:left;width:50px;height:50px;margin-right:16px}
 .free ul li h4,.free ul li p{display:inline}
 .free ul li h4{font-weight:bold}
 .free ul li p.desc{color:#333}
+.free ul li.plugin{border-left:16px solid #eee;font-size:80%;}
+.free ul li.plugin img.logo{width:32px;height:32px;margin-left:4px}
+.free ul li.plugin h4{font-weight:normal}
 .notes div{padding:.75em 1em 0;}
 .notes div p{margin:0 0 1em;max-width:50em;}
 .notes div p a:hover{text-decoration:underline}
