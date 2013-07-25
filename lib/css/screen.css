@@ -20,6 +20,9 @@ h2{font-size:16px;line-height:2;font-family:'Helvetica Neue',Arial,Helvetica,san
 h3{line-height:2;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#333;border-bottom:1px solid #ddd;background:#f3f3f3;padding:0 8px}
 h3 > a{color:#000}
 h3 > a:hover{color:#000;text-decoration:underline}
+h4,.h4{display:block;background:#333;color:#fff;line-height:31px;font-weight:normal;padding:0 1em;border-top:1px solid #333;}
+h4.h4-android,.h4.h4-android{background:#9c0}
+h4.h4-ios,.h4.h4-ios{background:#666}
 .fs{border:1px solid #ddd;font-size:12px;line-height:16px;display:inline-block;padding:0 .4em;font-weight:normal;vertical-align:text-bottom}
 .fs.icon{padding:0;background:transparent;border:none}
 .fs.icon img{width:18px;height:18px;vertical-align:bottom}
@@ -79,14 +82,14 @@ p.intro strong{color:#333;font-weight:bold}
 .free ul li a{display:block;padding:.75em;zoom:1;}
 .free ul li a:before,.free ul li a:after{content:"";display:table}
 .free ul li a:after{clear:both}
-.free ul li a:hover h4{text-decoration:underline;color:#0467ae}
+.free ul li a:hover h5{text-decoration:underline;color:#0467ae}
 .free ul li img.logo{display:block;float:left;width:50px;height:50px;margin-right:16px}
-.free ul li h4,.free ul li p{display:inline}
-.free ul li h4{font-weight:bold}
+.free ul li h5,.free ul li p{display:inline}
+.free ul li h5{font-weight:bold;padding-right:4px}
 .free ul li p.desc{color:#333}
 .free ul li.plugin{border-left:16px solid #eee;font-size:80%;}
 .free ul li.plugin img.logo{width:32px;height:32px;margin-left:4px}
-.free ul li.plugin h4{font-weight:normal}
+.free ul li.plugin h5{font-weight:normal}
 .notes div{padding:.75em 1em 0;}
 .notes div p{margin:0 0 1em;max-width:50em;}
 .notes div p a:hover{text-decoration:underline}
@@ -115,7 +118,7 @@ p.intro strong{color:#333;font-weight:bold}
 #rtl #header ul.nav li{float:right}
 #rtl #container .section img.logo{float:right;margin-right:0;margin-left:.5em}
 #rtl #container .section .free img.logo{margin-left:1em}
-@media (min-width: 481px){body .section div.free ul li h4{line-height:1.5em;display:block}
+@media (min-width: 481px){body .section div.free ul li h5{line-height:1.5em;display:block}
 body .section div.free ul li p{line-height:1.5em}
 }@media (min-width: 768px){body #header ul.nav li#donate,body #header ul.nav li#contribute{display:block}
 body p.intro{font:1.25em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;padding-top:1.5em}
