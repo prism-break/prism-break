@@ -133,6 +133,12 @@
   "i18n-textsecure-desc": "安全的 SMS/MMS 通信用于Android.",
   "i18n-xabber-desc": "OTR加密的即时通讯用于Android.",
 
+  "i18n-meshnet": "Meshnet",
+  "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
+  "i18n-freifunk-desc": "A non-commercial open grassroots initiative to support free radio networks in Germany.",
+  "i18n-librevpn-desc": "A free network that runs over other networks.",
+  "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
+
   "i18n-ios-insecure-title": "iOS是不安全的",
   "i18n-ios-insecure-desc": "iOS设备包含硬件跟踪器",
   "i18n-chatsecure-desc": "加密的IM用于iOS",
