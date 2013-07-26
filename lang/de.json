@@ -17,13 +17,15 @@
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
   "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
   "i18n-trisquel-desc": "Von der Free Software Foundation unterstützte, anwenderfreundliche GNU/Linux-Distribution.",
-  "i18n-midnightbsd-desc": "Eine FreeBSD-Distribution mit dem Ziel, eine einfach zu bedienende Desktopumgebung mit grafischer Portsverwaltung anzubieten.",
+  "i18n-midnightbsd-desc": "Eine FreeBSD-Distribution mit dem Ziel, eine einfach zu bedienende Desktopumgebung mit grafischer Portverwaltung anzubieten.",
   "i18n-openbsd-desc": "Ein sicheres Betriebssystem auf BSD-Basis.",
   "i18n-archlinux-desc": "Schlanke und flexible GNU/Linux-Distribution.",
-  "i18n-gnewsense-desc": "GNU/Linux-Distribution mit 100% freier Software. Von der Free Software Foundation empfohlen.",
+  "i18n-gnewsense-desc": "GNU/Linux-Distribution mit 100% freier Software.",
   "i18n-qubes-desc": "Ein Fedora/Xen-basierendes Betriebssystem, das starke Sicherheit durch Isolation bietet.", 
   "i18n-whonix-desc": "Ein Betriebssystem, das auf Tor, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM Images.",
   "i18n-freebsd-desc": "Ein freies Betriebssystem, das direkt von der Berkeley Software Distribution abstammt.",
+  "i18n-parabola-desc": "Freie, schlanke und flexible GNU/Linux-Distribution, die auf Arch Linux aufbaut.",
+  "i18n-opensuse-desc": "Multifunktionale, stabile und einfach zu bedienende GNU/Linux-Distribution.",
   "i18n-live-cd-title": "Live CDs &amp; VM Images",
 
   "i18n-web-browser": "Webbrowser",
@@ -64,6 +66,7 @@
   "i18n-vpn-clients-notes": "--",
 
   "i18n-email-services": "E-Mail-Dienste",
+  "i18n-services": "DIENSTE",
   "i18n-autistici-desc": "Eine ganze Reihe von kostenfreien, privatsphärebewussten Diensten.",
   "i18n-bitmessage-desc": "Verschlüsselter, dezentralisierter Mailserver.",
   "i18n-riseup-desc": "Sichere und private Mailaccounts.",
@@ -183,7 +186,7 @@
   "i18n-add": "füge hinzu",
   "i18n-mostly-free": "größtenteils frei*",
   "i18n-rec-non-free": "empfiehlt unfreie Addons*",
-  "i18n-advanced": "fortgeschritten",
+  "i18n-advanced": "für Fortgeschrittene",
   "i18n-partly-proprietary": "teilweise proprietär*",
   "i18n-invite-only": "auf Einladungsbasis",
   "i18n-newbies-choice": "für Einsteiger",
@@ -191,6 +194,7 @@
   "i18n-nocodecs": "empfiehlt Edition ohne Codecs*",
   "i18n-tor-users-only": "nur für Tor-Nutzer",
   "i18n-approval-required": "nur auf Anfrage",
+  "i18n-fsf-endorsed": "von der FSF empfohlen",
 
   "i18n-fsf-definition-title": "* Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
   "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
@@ -244,7 +248,7 @@
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a></p><p>Zu beachten ist ebenfalls, dass <strong>Pidgin</strong> die Passwörter der IM Accounts in <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>plain text</a> speichert. Dies kann man verhindern, wenn man (1) die Passwörter garnicht speichert, (2) das Dateisystem mit Software wie <a href='http://www.truecrypt.org/'>TrueCrypt</a> verschlüsselt, oder (3) das Pidgin Passwort sicher mit dem Debian Paket <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> speichert.</p><p><strong>Pidgin in Kombination mit OTR und dbus aktiviert hat einen lokalen Sicherheits-Bug.</strong> Für weiter Informationen und Workarounds siehe die <a href='https://developer.pidgin.im/ticket/14830'>upstream Bug Meldung</a>.</p><p><strong>TorChat</strong> steht in keinem Zusammenhang mit <a href='https://www.torproject.org/'>Tor Project</a> und wird auch nicht von diesem gefördert.</p>",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a></p><p>Eine Anleitung, wie Du Pidgin mit OTR installierst, <a href=\"http://www.spiegel.de/fotostrecke/pidgin-jabber-und-otr-so-chatten-sie-verschluesselt-fotostrecke-99491.html'>findest Du hier.</a></p><p>Es ist ebenfalls zu beachten, dass <strong>Pidgin</strong> die Passwörter der IM-Konten <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>unverschlüsselt</a> speichert. Dies kann man verhindern, indem man (1) die Passwörter garnicht speichert, (2) das Dateisystem mit Software wie z.B. <a href='http://www.truecrypt.org/'>TrueCrypt</a> verschlüsselt, oder (3) das Pidgin Passwort sicher mit dem Debian-Paket <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> speichert.</p><p><strong>Pidgin in Kombination mit aktiviertem OTR und dbus hat einen lokalen Sicherheits-Bug.</strong> Für weitere Informationen und Workarounds siehe die <a href='https://developer.pidgin.im/ticket/14830'>upstream Bug-Meldung</a>.</p><p><strong>TorChat</strong> steht in keinem Zusammenhang mit <a href='https://www.torproject.org/'>Tor Project</a> und wird auch nicht von diesem gefördert.</p>",
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</p><p><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</p><p><a href=\"http://www.webrtc.org/\">WebRTC (engl.)</a> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
