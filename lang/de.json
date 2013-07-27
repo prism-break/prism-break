@@ -74,11 +74,11 @@
   "i18n-kolab-desc": "Groupware Server für E-Mail, Kalender, Kontakte und Synchronisierung mit mobilen Geräten.",
   "i18n-mykolabcom-desc": "Sichere Kolab-Accounts aus der Schweiz.",
 
-  "i18n-email-client": "E-Mail Client",
+  "i18n-email-client": "E-Mail-Client",
   "i18n-clawsmail-desc": "Schlanke E-Mail-Anwendung mit GnuPG-Unterstützung.",
   "i18n-evolution-desc": "Freie E-Mail- und Kalenderanwendung.",
   "i18n-icedove-desc": "Freie Version von Mozilla Thunderbird.",
-  "i18n-kontact-desc": "KDE Client für E-Mail mit GnuPG-Unterstützung, Kalender, Adressbücher und mehr.",
+  "i18n-kontact-desc": "KDE-Client für E-Mail mit GnuPG-Unterstützung, Kalender, Adressbücher und mehr.",
   "i18n-sylpheed-desc": "Schlanker und benutzerfreundlicher E-Mail-Client.",
   "i18n-thunderbird-desc": "Quelloffene E-Mail-Anwendung für Windows, Mac OS X und Linux.",
   "i18n-k9mail-desc": "Quelloffene E-Mail-App für Android mit GnuPG-Unterstützung.",
@@ -196,6 +196,13 @@
   "i18n-tor-users-only": "nur für Tor-Nutzer",
   "i18n-approval-required": "nur auf Anfrage",
   "i18n-fsf-endorsed": "von der FSF empfohlen",
+  "h4 i18n-services": "Dienste",
+  "h4 i18n-software": "Software",
+  "i18n-most-stable": "sehr stabil",
+  "i18n-most-popular": "sehr beliebt",
+  "i18n-most-advanced": "mit den fortschrittlichsten Features",
+  "i18n-most-paranoid": "für Paranoiker",
+  "i18n-show-all": "alles anzeigen",
 
   "i18n-fsf-definition-title": "* Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
   "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
@@ -249,7 +256,7 @@
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a></p><p>Eine Anleitung, wie Du Pidgin mit OTR installierst, <a href='http://www.spiegel.de/fotostrecke/pidgin-jabber-und-otr-so-chatten-sie-verschluesselt-fotostrecke-99491.html'>findest Du hier.</a></p><p>Es ist ebenfalls zu beachten, dass <strong>Pidgin</strong> die Passwörter der IM-Konten <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>unverschlüsselt</a> speichert. Dies kann man verhindern, indem man (1) die Passwörter garnicht speichert, (2) das Dateisystem mit Software wie z.B. <a href='http://www.truecrypt.org/'>TrueCrypt</a> verschlüsselt, oder (3) das Pidgin Passwort sicher mit dem Debian-Paket <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> speichert.</p><p><strong>Pidgin in Kombination mit aktiviertem OTR und dbus hat einen Sicherheits-Bug, der von einem bösartigem Programm auf deinem eigenem Rechner ausgenutzt werden kann.</strong> Für weitere Informationen und Workarounds siehe die <a href='https://developer.pidgin.im/ticket/14830'>upstream Bug-Meldung</a>.</p><p><strong>TorChat</strong> steht in keinem Zusammenhang mit <a href='https://www.torproject.org/'>Tor Project</a> und wird auch nicht von diesem gefördert.</p>",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a></p><p>Eine Anleitung, wie Du <strong>Pidgin</strong> mit OTR installierst, <a href='http://www.spiegel.de/fotostrecke/pidgin-jabber-und-otr-so-chatten-sie-verschluesselt-fotostrecke-99491.html'>findest Du hier.</a></p><p>Es ist ebenfalls zu beachten, dass Pidgin die Passwörter der IM-Konten <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>unverschlüsselt</a> speichert. Dies kann man verhindern, indem man (1) die Passwörter garnicht speichert, (2) das Dateisystem mit Software wie z.B. <a href='http://www.truecrypt.org/'>TrueCrypt</a> verschlüsselt, oder (3) das Pidgin Passwort sicher mit dem Debian-Paket <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> speichert.</p><p><strong>Pidgin in Kombination mit aktiviertem OTR und dbus hat einen Sicherheits-Bug, der von einem bösartigen Programm auf Deinem eigenen Rechner ausgenutzt werden könnte.</strong> Für weitere Informationen und Workarounds siehe die <a href='https://developer.pidgin.im/ticket/14830'>upstream Bug-Meldung</a>.</p><p><strong>TorChat</strong> steht in keinem Zusammenhang mit <a href='https://www.torproject.org/'>Tor Project</a> und wird auch nicht von diesem gefördert.</p>",
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</p><p><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</p><p><a href=\"http://www.webrtc.org/\">WebRTC (engl.)</a> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
