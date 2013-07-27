@@ -48,16 +48,16 @@
   "i18n-cryptocoins-title": "Alternativa krypterade valutor.",
   "i18n-cryptocoins-desc": "Lista på alternativa krypterade valutor.",
 
-  "i18n-vpn-clients": "VPN clients",
+  "i18n-vpn-client": "VPN client",
   "i18n-openvpn-desc": "Free software VPN client.",
-  "i18n-vpn-clients-notes": "--",
+  "i18n-vpn-client-notes": "--",
 
-  "i18n-email-services": "Mejl-tjänster",
+  "i18n-email-service": "Mejl-tjänster",
   "i18n-bitmessage-desc": "Krypterad, decentraliserad mejl server",
   "i18n-riseup-desc": "Säkert och privat mejl konto.",
   "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
 
-  "i18n-email-clients": "Mejl-klienter",
+  "i18n-email-client": "Mejl-klienter",
   "i18n-clawsmail-desc": "Lätt e-post klient med GnuPG stöd.",
   "i18n-evolution-desc": "Gratis e-post och kalender klient.",
   "i18n-icedove-desc": "Gratisversion av Mozilla Thunderbird.",
@@ -188,9 +188,9 @@
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> är proprietär, hostad i USA/Nederländerna, och ger dig anonymiserade Google sökresultat (inklusive bilder).</p><p><strong>DuckDuckGo</strong> är delvis proprietär, hostad i USA, och ger dig anonymiserade Bing sökresultat.</p><p> Välj ditt gift.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> är hostad i USA, om det nu spelar någon roll.</p><p>Varfär inte Hushmail? Se <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;kompromisser till email integritet&rdquo;</a>.</p>",
+  "i18n-email-service-note": "<p><strong>Riseup</strong> är hostad i USA, om det nu spelar någon roll.</p><p>Varfär inte Hushmail? Se <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;kompromisser till email integritet&rdquo;</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> är tekniskt sett inte helt gratis mjukvara eftersom Mozilla rekommenderar icke-gratis tillägg på deras webbsida..</p>",
+  "i18n-email-client-note": "<p>Note: <strong>Mozilla Thunderbird</strong> är tekniskt sett inte helt gratis mjukvara eftersom Mozilla rekommenderar icke-gratis tillägg på deras webbsida..</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) är ett data krypterings- och dekrypterings-program som tillhandahåller kryptografisk integritet och autentikation för data kommunikation.  PGP används ofta för att signera, kryptera, och dekryptera texter, email, filer, arkiv, och hela hårddiskar för att öka säkerheten vid email kommunikation.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 

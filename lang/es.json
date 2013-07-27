@@ -49,18 +49,18 @@
   "i18n-cryptocoins-title": "Cripto-monedas Alternativas",
   "i18n-cryptocoins-desc": "Lista de monedas criptográficas digitales alternativas.",
 
-  "i18n-vpn-clients": "VPN clients",
+  "i18n-vpn-client": "VPN client",
   "i18n-openvpn-desc": "Free software VPN client.",
-  "i18n-vpn-clients-notes": "--",
+  "i18n-vpn-client-notes": "--",
 
-  "i18n-email-services": "Servicios de Correo Electrónico",
+  "i18n-email-service": "Servicios de Correo Electrónico",
   "i18n-bitmessage-desc": "Servidor de email cifrado y descentralizado.",
   "i18n-riseup-desc": "Cuentas de correo seguras y privadas.",
   "i18n-tormail-desc": "Tor Mail es un servicio que provee correo libre y anónimo.",
   "i18n-kolab-desc": "Servidor grupal para correo, calendarios, direcciones y sincronización con teléfonos móviles.",
   "i18n-mykolabcom-desc": "Cuentas Kolab seguras hospedadas en Suiza.",
 
-  "i18n-email-clients": "Clientes de Correo Electrónico de Escritorio",
+  "i18n-email-client": "Clientes de Correo Electrónico de Escritorio",
   "i18n-clawsmail-desc": "Cliente de correo electrónico ligero con soporte para GnuPG.",
   "i18n-evolution-desc": "Aplicación de correo electrónico y calendario libre.",
   "i18n-icedove-desc": "Versión libre de Mozilla Thunderbird.",
@@ -198,9 +198,9 @@
 
   "i18n-web-search-note": "<span class='p'><strong>Startpage</strong> es privativo, hospedado en los Estados Unidos y Holanda, y provee resultados anonimizados de Google (incluyendo imágenes).</span><span class='p'><strong>DuckDuckGo</strong> es parcialmente privativo, hospedado en los Estados Unidos, y provee resultados anonimizados de Bing.</span><span class='p'>¡Elige tu veneno!</span>",
 
-   "i18n-email-services-note": "<span class='p'><strong>Bitmessage</strong> es una alternativa prometedora al correo electrónico, pero aún no está lista para su uso diario. Úsala bajo tu propio riesgo.</span><span class='p'><strong>Riseup</strong> está hospedado en los Estados Unidos. También comienza a ofrecer servicios de VPN, chat, y <strong>Etherpad</strong>.</span><span class='p'>¿Por qué no Hushmail? Revisa este artículo en inglés sobre los <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromisos a la privacidad de los correos&rdquo;</a>.</span><span class='p'>La única forma de tener pleno control sobre tu correo es correr tu propio servidor de correo. Esto no es posible para todos, sin embargo, ya que requiere una considerable inversión de tiempo y conocimiento técnico.</span><span class='p'>Aunque aún no está completo, el proyecto <a href=\"https://www.freedomboxfoundation.org/\">FreedomBox</a> busca crear una solución de fácil arranque para comunicaciones cifradas.</span>",
+   "i18n-email-service-note": "<span class='p'><strong>Bitmessage</strong> es una alternativa prometedora al correo electrónico, pero aún no está lista para su uso diario. Úsala bajo tu propio riesgo.</span><span class='p'><strong>Riseup</strong> está hospedado en los Estados Unidos. También comienza a ofrecer servicios de VPN, chat, y <strong>Etherpad</strong>.</span><span class='p'>¿Por qué no Hushmail? Revisa este artículo en inglés sobre los <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromisos a la privacidad de los correos&rdquo;</a>.</span><span class='p'>La única forma de tener pleno control sobre tu correo es correr tu propio servidor de correo. Esto no es posible para todos, sin embargo, ya que requiere una considerable inversión de tiempo y conocimiento técnico.</span><span class='p'>Aunque aún no está completo, el proyecto <a href=\"https://www.freedomboxfoundation.org/\">FreedomBox</a> busca crear una solución de fácil arranque para comunicaciones cifradas.</span>",
 
-  "i18n-email-clients-note": "<span class='p'><a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">Aquí hay una guía en inglés</a> para cifrar tus correos con <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, y <strong>Enigmail</strong>.<span class='p'>Note: <strong>Mozilla Thunderbird</strong> técnicamente no es completamente software libre, ya que Mozilla recomienda agregados no libres en su página web.</span>",
+  "i18n-email-client-note": "<span class='p'><a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">Aquí hay una guía en inglés</a> para cifrar tus correos con <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, y <strong>Enigmail</strong>.<span class='p'>Note: <strong>Mozilla Thunderbird</strong> técnicamente no es completamente software libre, ya que Mozilla recomienda agregados no libres en su página web.</span>",
 
   "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) es un programa computacional de cifrado y descifrado que provee privacidad y autenticación criptográficas para comunicación de datos. PGP suele usarse para firmar, cifrar y desencriptar textos, correos electrónicos, archivos, directorios y particiones completas de disco para incrementar la seguridad de las comunicaciones por correo electrónico.&rdquo;</span><span class='p'>&mdash; <a href='https://es.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 

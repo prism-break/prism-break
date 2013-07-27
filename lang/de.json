@@ -61,11 +61,11 @@
   "i18n-cryptocoins-title": "Alternative Kryptowährungen.",
   "i18n-cryptocoins-desc": "Liste der alternativen, verschlüsselten digitalen Währungen.",
 
-  "i18n-vpn": "VPN-Clients",
+  "i18n-vpn-client": "VPN-Client",
   "i18n-openvpn-desc": "Freier VPN-Client",
-  "i18n-vpn-clients-note": "<p>Die verschlüsselte VPN-Technologie (Virtual Private Network) kann von jedermann verwendet werden, um mit Hilfe von Proxy-Servern die digitale Vertraulichkeit herzustellen und seine Identität zu schützen.</p><p>Mehr dazu auf <a href=\"https://de.wikipedia.org/wiki/Virtual_Private_Network\">Wikipedia</a>.</p>",
+  "i18n-vpn-client-note": "<p>Die verschlüsselte VPN-Technologie (Virtual Private Network) kann von jedermann verwendet werden, um mit Hilfe von Proxy-Servern die digitale Vertraulichkeit herzustellen und seine Identität zu schützen.</p><p>Mehr dazu auf <a href=\"https://de.wikipedia.org/wiki/Virtual_Private_Network\">Wikipedia</a>.</p>",
 
-  "i18n-email-services": "E-Mail-Dienste",
+  "i18n-email-service": "E-Mail-Dienste",
   "i18n-services": "DIENSTE",
   "i18n-autistici-desc": "Eine ganze Reihe von kostenfreien, privatsphärebewussten Diensten.",
   "i18n-bitmessage-desc": "Verschlüsselter, dezentralisierter Mailserver.",
@@ -74,7 +74,7 @@
   "i18n-kolab-desc": "Groupware Server für E-Mail, Kalender, Kontakte und Synchronisierung mit mobilen Geräten.",
   "i18n-mykolabcom-desc": "Sichere Kolab-Accounts aus der Schweiz.",
 
-  "i18n-email-clients": "E-Mail Desktop-Clients",
+  "i18n-email-client": "E-Mail Client",
   "i18n-clawsmail-desc": "Schlanke E-Mail-Anwendung mit GnuPG-Unterstützung.",
   "i18n-evolution-desc": "Freie E-Mail- und Kalenderanwendung.",
   "i18n-icedove-desc": "Freie Version von Mozilla Thunderbird.",
@@ -241,9 +241,9 @@
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> ist proprietär, wird in den USA/Niederlanden gehostet und versorgt Dich mit anonymisierten Google-Suchergebnissen (inklusive Bildern).</p><p><strong>DuckDuckGo</strong> ist teilweise proprietär, wird in den USA gehostet und versorgt Dich mit anonymisierten Suchergebnissen von verschiedenen Anbietern.</p><p>Wähle das kleinere Übel.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> wird in den USA gehostet.</p><p>Warum nicht Hushmail?<br>Lese hierzu: <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;Gefährdung Deiner Privatsphäre&rdquo; (engl.)</a>.</p>",
+  "i18n-email-service-note": "<p><strong>Riseup</strong> wird in den USA gehostet.</p><p>Warum nicht Hushmail?<br>Lese hierzu: <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;Gefährdung Deiner Privatsphäre&rdquo; (engl.)</a>.</p>",
 
-  "i18n-email-clients-note": "<p><a href='http://www.thunderbird-mail.de/wiki/Enigmail'>Diese</a> und <a href='http://www.spiegel.de/fotostrecke/openpgp-so-verschluesseln-sie-ihre-e-mails-fotostrecke-98718.html'>diese Anleitung</a> helfen Dir, unter Windows Deine Mail mit <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GnuPG)</strong> und <strong>Enigmail</strong> zu verschlüsseln.</p><p>Anleitungen, wie man GnuPG bzw. GPG unter <a href='http://wiki.ubuntuusers.de/GnuPG'>Ubuntu</a> und <a href='http://www.verbraucher-sicher-online.de/anleitung/e-mails-verschluesseln-in-apple-mail-unter-mac-os-x'>OS X</a> nutzt, sind auch verfügbar.</p>",
+  "i18n-email-client-note": "<p><a href='http://www.thunderbird-mail.de/wiki/Enigmail'>Diese</a> und <a href='http://www.spiegel.de/fotostrecke/openpgp-so-verschluesseln-sie-ihre-e-mails-fotostrecke-98718.html'>diese Anleitung</a> helfen Dir, unter Windows Deine Mail mit <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GnuPG)</strong> und <strong>Enigmail</strong> zu verschlüsseln.</p><p>Anleitungen, wie man GnuPG bzw. GPG unter <a href='http://wiki.ubuntuusers.de/GnuPG'>Ubuntu</a> und <a href='http://www.verbraucher-sicher-online.de/anleitung/e-mails-verschluesseln-in-apple-mail-unter-mac-os-x'>OS X</a> nutzt, sind auch verfügbar.</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a><br><p>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</p>",
 
