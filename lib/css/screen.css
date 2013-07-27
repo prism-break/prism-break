@@ -55,8 +55,9 @@ h1#brand a:hover,h1#brand a:hover .lightning{color:#09c}
 #header ul.nav{float:right;height:48px;}
 #header ul.nav li{float:left;}
 #header ul.nav li#donate,#header ul.nav li#contribute{display:none;}
-#header ul.nav li#donate a,#header ul.nav li#contribute a{display:block;line-height:3em;padding:0 1em;color:#333;}
-#header ul.nav li#donate a:hover,#header ul.nav li#contribute a:hover{color:#0467ae;text-decoration:underline}
+#header ul.nav li#donate .plain,#header ul.nav li#contribute .plain{display:block;line-height:3em;padding:0 1em;color:#333;}
+#header ul.nav li#donate .plain.long,#header ul.nav li#contribute .plain.long{display:none}
+#header ul.nav li#donate a.plain:hover,#header ul.nav li#contribute a.plain:hover{color:#0467ae;text-decoration:underline}
 #header ul.nav li#language{padding:12px;}
 #header ul.nav li#language select{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;font:16px 'Helvetica Neue',Arial,Helvetica,sans-serif;height:24px;color:#333;margin:0;padding:0;outline:none;width:100px;background:#fff;border:1px solid #ddd}
 #container{width:100%;padding:3em 0 0;}
@@ -141,7 +142,9 @@ body .section div.notes{clear:both;}
 body .section div.notes h3{border-top:1px solid #ddd}
 body #jPanelMenu-menu ul li a{color:#eee;display:block;padding:0 .75em;font:14px/2 'Helvetica Neue',Arial,Helvetica,sans-serif;border-top:1px solid #444;border-bottom:1px solid #222;}
 body #jPanelMenu-menu ul li a:hover{color:#fff;background:#444}
-}@media (min-width: 980px){body .section{width:100%;zoom:1;}
+}@media (min-width: 980px){body #header ul.nav li#donate .plain.short{display:none}
+body #header ul.nav li#donate .plain.long{display:block}
+body .section{width:100%;zoom:1;}
 body .section:before,body .section:after{content:"";display:table}
 body .section:after{clear:both}
 body .section div.prop,body .section div.free,body .section div.notes{float:left;height:auto;}
