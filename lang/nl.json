@@ -56,11 +56,11 @@
   "i18n-cryptocoins-title": "Alternatieve versleutelde valuta",
   "i18n-cryptocoins-desc": "Lijst met alternatieve versleutelde online munteenheden.",
 
-  "i18n-vpn-clients": "VPN clients",
+  "i18n-vpn-client": "VPN client",
   "i18n-openvpn-desc": "Free software VPN client.",
-  "i18n-vpn-clients-notes": "--",
+  "i18n-vpn-client-notes": "--",
 
-  "i18n-email-services": "Email diensten",
+  "i18n-email-service": "Email diensten",
   "i18n-autistici-desc": "Een volledige verzameling van vrije, privacy-respecterende services.",
   "i18n-bitmessage-desc": "Versleutelde, decentrale e-mail server.",
   "i18n-riseup-desc": "Veilige en eigen e-mail accounts.",
@@ -68,7 +68,7 @@
   "i18n-kolab-desc": "Groupware server voor email, kalenders, adresboeken en synchronisatie naar mobiele telefoons.",
   "i18n-mykolabcom-desc": "Kolab accounts gehost in Zwitzerland.",
 
-  "i18n-email-clients": "E-mail software",
+  "i18n-email-client": "E-mail software",
   "i18n-clawsmail-desc": "Lichtgewicht e-mail applicatie met GnuPG ondersteuning.",
   "i18n-evolution-desc": "Vrije e-mail en agenda applicatie met GPG ondersteuning.",
   "i18n-icedove-desc": "Vrije versie van Mozilla Thunderbird.",
@@ -217,9 +217,9 @@
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> is gesloten, gehost in de VS/Nederland, en levert je geanonimiseerde Google zoekresultaten (inclusief afbeeldingen).</p><p><strong>DuckDuckGo</strong> is gedeeltelijk gesloten, gehost in de VS, en levert je geanonimiseerde Bing zoekresultaten.</p><p>Kies je vergif.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> is gehost in de VS, in het geval dat uitmaakt.</p><p>Waarom geen Hushmail? Zie <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
+  "i18n-email-service-note": "<p><strong>Riseup</strong> is gehost in de VS, in het geval dat uitmaakt.</p><p>Waarom geen Hushmail? Zie <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Opmerking: <strong>Mozilla Thunderbird</strong> is technisch gezien niet volledig vrije software, omdat Mozilla niet-vrije add-ons aanbeveelt op haar website.</p>",
+  "i18n-email-client-note": "<p>Opmerking: <strong>Mozilla Thunderbird</strong> is technisch gezien niet volledig vrije software, omdat Mozilla niet-vrije add-ons aanbeveelt op haar website.</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (lett: aardig goede privacy) wordt meestal afgekort tot PGP en is één van de veel gebruikte vercijferingsmethodes op internet. De standaard die aan PGP ontsproten is wordt thans OpenPGP genoemd en er zijn tegenwoordig vele programma's, zowel commercieel als open source, die deze standaard implementeren en ook grotendeels onderling compatibel zijn.&rdquo;</p><p>&mdash; <a href='https://nl.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 

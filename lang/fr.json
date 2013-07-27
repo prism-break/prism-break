@@ -55,16 +55,16 @@
   "i18n-cryptocoins-title": "Monnaies cryptographiques alternatives.",
   "i18n-cryptocoins-desc": "Liste des monnaies numériques alternatives chiffrées.",
 
-  "i18n-vpn-clients": "VPN clients",
+  "i18n-vpn-client": "VPN client",
   "i18n-openvpn-desc": "Free software VPN client.",
-  "i18n-vpn-clients-notes": "--",
+  "i18n-vpn-client-notes": "--",
 
-  "i18n-email-services": "Services de messagerie",
+  "i18n-email-service": "Services de messagerie",
   "i18n-bitmessage-desc": "Serveur de messagerie chiffré et décentralisé.",
   "i18n-riseup-desc": "Comptes de messagerie sécurisée et privée.",
   "i18n-kolab-desc": "Serveur groupware (logiciel de groupe de travail) pour les emails, calendriers et carnets d'adresses incluant la possibilité de synchroniser les données vers des téléphones portables.",
 
-  "i18n-email-clients": "Clients e-mail de bureau",
+  "i18n-email-client": "Clients e-mail de bureau",
   "i18n-clawsmail-desc": "Application de messagerie légère avec le support de GnuPG.",
   "i18n-evolution-desc": "Application libre de messagerie et de calendrier.",
   "i18n-icedove-desc": "Version libre de Mozilla Thunderbird.",
@@ -206,9 +206,9 @@
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> est propriétaire, hébergé aux Etats-Unis et Pays-Bas, et vous fournit des résultats de recherches anonymes de Google Search (et Google Images).</p><p><strong>DuckDuckGo</strong> est partiellement propriétaire, hébergé aux Etats-Unis, et fournit des résultats de recherche anonymes de Bing Search.</p><p>Choisissez votre poison.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> est hébergé aux Etats-Unis, au cas où vous y portez une attention.</p><p>Pourquoi pas Hushmail&nbsp;? Consultez <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&laquo;&nbsp;les compromis sur le caractère privée des emails&nbsp;&raquo;</a (en anglais).</p>",
+  "i18n-email-service-note": "<p><strong>Riseup</strong> est hébergé aux Etats-Unis, au cas où vous y portez une attention.</p><p>Pourquoi pas Hushmail&nbsp;? Consultez <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&laquo;&nbsp;les compromis sur le caractère privée des emails&nbsp;&raquo;</a (en anglais).</p>",
 
-  "i18n-email-clients-note": "<p>Voici <a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">un guide</a> pour chiffrer vos courriels avec Thunderbird, GNU Privacy Guard (GPG) et Enigmail.</p>",
+  "i18n-email-client-note": "<p>Voici <a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">un guide</a> pour chiffrer vos courriels avec Thunderbird, GNU Privacy Guard (GPG) et Enigmail.</p>",
 
   "i18n-email-encryption-note": "<p>&laquo;&nbsp;Pretty Good Privacy (PGP)&nbsp;&raquo; est un logiciel de chiffrement et déchiffrement cryptographique qui permet d'authentifier les communications électroniques. PGP est souvent utilisé pour signer et (dé)chiffrer des textes, des e-mails, des fichiers voire d'entières partitions de support de stockage afin d'améliorer la sécurité.&nbsp;&raquo;</p><p>&mdash; <a href='https://fr.wikipedia.org/wiki/Pretty_Good_Privacy'>La Wikipédia</a>",
 

@@ -48,16 +48,16 @@
   "i18n-cryptocoins-title": "另一個加密貨幣選擇。",
   "i18n-cryptocoins-desc": "其他加密數位貨幣清單。",
 
-  "i18n-vpn-clients": "VPN clients",
+  "i18n-vpn-client": "VPN client",
   "i18n-openvpn-desc": "Free software VPN client.",
-  "i18n-vpn-clients-notes": "--",
+  "i18n-vpn-client-notes": "--",
 
-  "i18n-email-services": "郵件服務",
+  "i18n-email-service": "郵件服務",
   "i18n-bitmessage-desc": "加密、分散式的郵件伺服器。",
   "i18n-riseup-desc": "提供安全及私密的郵件帳號服務。",
   "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
 
-  "i18n-email-clients": "桌面郵件用戶端",
+  "i18n-email-client": "桌面郵件用戶端",
   "i18n-clawsmail-desc": "輕量級郵件程式。支援 GnuPG 加密。",
   "i18n-evolution-desc": "自由的郵件與行事曆程式。",
   "i18n-icedove-desc": "完全自由版本的 Mozilla Thunderbird。",
@@ -193,9 +193,9 @@
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
+  "i18n-email-service-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-email-client-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 

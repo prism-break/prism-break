@@ -48,16 +48,16 @@
   "i18n-cryptocoins-title": "वैकल्पिक कूटमुद्रा",
   "i18n-cryptocoins-desc": "वैकल्पिक कूट डिजिटल मुद्रा की सूची.",
 
-  "i18n-vpn-clients": "VPN clients",
+  "i18n-vpn-client": "VPN client",
   "i18n-openvpn-desc": "Free software VPN client.",
-  "i18n-vpn-clients-notes": "--",
+  "i18n-vpn-client-notes": "--",
 
-  "i18n-email-services": "ईमेल सेवाएँ",
+  "i18n-email-service": "ईमेल सेवाएँ",
   "i18n-bitmessage-desc": "कूटबद्घ, विकेन्द्रित ईमेल सर्वर.",
   "i18n-riseup-desc": "सुरक्षित एवं गुप्त ईमेल खाता.",
   "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
 
-  "i18n-email-clients": "ईमेल डेस्कटॉप क्लाइंट",
+  "i18n-email-client": "ईमेल डेस्कटॉप क्लाइंट",
   "i18n-clawsmail-desc": "लाईटवेट जीपीजी समर्थित ईमेल अनुप्रयोग.",
   "i18n-evolution-desc": "जीपीजी समर्थित मुक्त ईमेल एवं केलेन्ड़र अनुप्रयोग.",
   "i18n-icedove-desc": "मोज़िला थंडरबर्ड का मुक्त संस्करण.",
@@ -193,9 +193,9 @@
 
   "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
 
-  "i18n-email-services-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
+  "i18n-email-service-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
 
-  "i18n-email-clients-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-email-client-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 

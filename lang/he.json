@@ -51,11 +51,11 @@
   "i18n-cryptocoins-title": "מסחר מוצפן חלופי.",
   "i18n-cryptocoins-desc": "רשימה של חלופות מסחר דיגיטלי מוצפן.",
 
-  "i18n-vpn-clients": "VPN clients",
+  "i18n-vpn-client": "VPN client",
   "i18n-openvpn-desc": "Free software VPN client.",
-  "i18n-vpn-clients-notes": "--",
+  "i18n-vpn-client-notes": "--",
 
-  "i18n-email-services": "שירותי דואר אלקטרוני",
+  "i18n-email-service": "שירותי דואר אלקטרוני",
   "i18n-autistici-desc": "טווח רחב של שירותים חופשיים ומודעי־פרטיות.",
   "i18n-bitmessage-desc": "שרת אימייל מבוזר ומוצפן.",
   "i18n-riseup-desc": "חשבונות אימייל פרטיים ומאובטחים.",
@@ -63,7 +63,7 @@
   "i18n-kolab-desc": "תוכנה קיבוצית לאימייל, לוחות שנה, ספרי כתובות וסנכרון למכשירי טלפון נייד.",
   "i18n-mykolabcom-desc": "חשבונות משתמשי Kolab מאובטחים המאוחסנים בשוייץ.",
 
-  "i18n-email-clients": "תוכנת לקוח לשירותי אימייל למחשבים אישיים",
+  "i18n-email-client": "תוכנת לקוח לשירותי אימייל למחשבים אישיים",
   "i18n-clawsmail-desc": "יישום אימייל קליל עם תמיכת GPG.",
   "i18n-evolution-desc": "יישום אימייל ולוח שנה חופשי עם תמיכת GPG.",
   "i18n-icedove-desc": "גרסה חופשית של Thunderbird מבית Mozilla.",
@@ -207,9 +207,9 @@
 
   "i18n-web-search-note": "<p><strong>DuckDuckGo</strong> הוא קנייני חלקית, מאוחסן ברחבי העולם, ומספק תוצאות חיפוש מ־<a href='http://help.dukgo.com/customer/portal/articles/216399-sources'>המקורות הללו</a>.</p><p><strong>Startpage</strong> הוא קנייני, מאוחסן בארה״ב/הולנד, ומספק תוצאות חיפוש של גוגל בצורה אנונימית (כולל תמונות).</p>",
 
-  "i18n-email-services-note": "<p><strong>Bitmessage</strong> היא אלטרנטיבה לאימייל, אבל היא לא מוכנה לשימוש יום־יומי. השימוש על אחריותכם.</p><p><strong>MyKolab</strong> מאוחסנת בשוייץ ונהנית מחוקי הגנת הפרטיות החזקים של שוייץ. היא תוכנה חופשית ומאפשרת לייצא את המידע.</p><p><strong>Riseup</strong> מאוחסנת בארה״ב. היא גם מתחילה להציע שירותי VPN, צ'אט ו־<strong>etherpad</strong>.</p><p>למה לא Hushmail? ראה <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;סיכון לפרטיות הדואר האלקטרוני&rdquo;</a>.</p><p>הדרך היחידה להיות בשליטה מלאה על האימייל שלך היא להריץ שרת מייל משלך. זוהי לא אפשרות שמתאימה לכולם, מכיוון שהיא דורשת כמות זמן נכבדת וידע טכני.</p><p>אף על פי שהוא אינו הושלם, ה־<a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> הוא פרויקט שמטרתו ליצור פתרון מוצר שלם עבור תקשורת מאובטחת.</p>",
+  "i18n-email-service-note": "<p><strong>Bitmessage</strong> היא אלטרנטיבה לאימייל, אבל היא לא מוכנה לשימוש יום־יומי. השימוש על אחריותכם.</p><p><strong>MyKolab</strong> מאוחסנת בשוייץ ונהנית מחוקי הגנת הפרטיות החזקים של שוייץ. היא תוכנה חופשית ומאפשרת לייצא את המידע.</p><p><strong>Riseup</strong> מאוחסנת בארה״ב. היא גם מתחילה להציע שירותי VPN, צ'אט ו־<strong>etherpad</strong>.</p><p>למה לא Hushmail? ראה <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;סיכון לפרטיות הדואר האלקטרוני&rdquo;</a>.</p><p>הדרך היחידה להיות בשליטה מלאה על האימייל שלך היא להריץ שרת מייל משלך. זוהי לא אפשרות שמתאימה לכולם, מכיוון שהיא דורשת כמות זמן נכבדת וידע טכני.</p><p>אף על פי שהוא אינו הושלם, ה־<a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> הוא פרויקט שמטרתו ליצור פתרון מוצר שלם עבור תקשורת מאובטחת.</p>",
 
-  "i18n-email-clients-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>להלן מדריך</a> להצפנת אימייל תחת <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong> ו־<strong>Enigmail</strong>.</p>",
+  "i18n-email-client-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>להלן מדריך</a> להצפנת אימייל תחת <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong> ו־<strong>Enigmail</strong>.</p>",
 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (מאנגלית: &lsquo;פרטיות טובה למדי&rsquo;) הוא מיזם לפיתוח חבילת תוכנה אשר יזם פיל צימרמן בשנת 1991, המאפשר ביצוע הצפנה של מסרים בצורה קלה ופשוטה.&rdquo;</p><p>&mdash; <a href='https://he.wikipedia.org/wiki/PGP'>ויקיפדיה</a>",
 
