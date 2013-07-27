@@ -58,14 +58,16 @@
 
     &#donate, &#contribute
       display none
-      a
+      .plain
         d block
         lh 3em
         p 0 1em
         c txt
-        &:hover
-          c hover
-          td underline
+        &.long
+          d none
+      a.plain:hover
+        c hover
+        td underline
 
     &#language
       p 12px
