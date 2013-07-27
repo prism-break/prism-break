@@ -12,7 +12,7 @@
   "i18n-firefox-desc": "Fast, flexible and secure web browser with a vibrant add-on ecosystem."
   "i18n-icecat-desc": "GNU version of Firefox with a large list of libre add-ons and extra privacy features.",
   "i18n-orbot-desc": "The features and funtionality of Tor for Android.",
-  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be slower, but it will offer you far better anonymity.</p><p>Note that signing in to PayPal or a banking website across the Tor network may trip the site's fraud protection software. Users should also be aware that signing in to HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p><p><strong>Mozilla Firefox</strong> uses Google search by default. Google search should be replaced by more <a href="#web-search">private alternatives</a>.</p><p>Why are Chromium, SRWare Iron, et al. not recommended on PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>More info here.</a></p>",
++  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for as many things as possible. Browsing the web may be slower, but it will offer you far better anonymity.</p><p>Do not, however, use Tor without understanding it. <a href='https://www.torproject.org/docs/faq.html.en'>Read up</a> a bit first. Note that signing in to PayPal or a banking website across the Tor network may trip the site's fraud protection software. Users should also be aware that signing in to HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p><p><strong>Mozilla Firefox</strong> uses Google search by default. Google search should be replaced by more <a href="#web-search">private alternatives</a>.</p><p>Why are Chromium, SRWare Iron, et al. not recommended on PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>More info here.</a></p>",
 
   "i18n-web-browser-plugins": "Web browser add-ons",
   "i18n-httpseverywhere-desc": "Encrypts your communications from thousands of websites by enforcing HTTPS everywhere.",
@@ -110,6 +110,7 @@
   "i18n-evolution-desc": "Free email and calendar application with GPG support.",
   "i18n-icedove-desc": "Free version of Mozilla Thunderbird.",
   "i18n-kontact-desc": "KDE email client with GPG support.",
+  "i18n-sylpheed-desc": "Lightweight and user-friendly e-mail client.",
   "i18n-email-clients-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p><p><a href='https://en.wikipedia.org/wiki/Icedove'>Find out more</a> about the differences between <strong>Mozilla Thunderbird</strong> and <strong>Icedove</strong>.",
 
   "i18n-email-encryption": "Email encryption",
@@ -120,6 +121,7 @@
   "i18n-mailvelope-desc": "OpenPGP browser add-on for webmail.",
   "i18n-openpgpjs-desc": "OpenPGP library implemented in JavaScript.",
   "i18n-webpg-desc": "GnuPG/GPG (gpg, gnupg) in your browser.",
+  "i18n-apg-desc": "OpenPGP implementation for Android.",
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></p><p>PRISM Break does not recommended S/MIME email encryption because of its reliance on third-party certificates from central authorities. Read more <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>here</a>.</p>",
 
   "i18n-online-transactions": "Online transactions",
@@ -162,12 +164,15 @@
   "i18n-ios-insecure-title": "iOS is insecure",
   "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.",
   "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> if an iOS app was compiled from the original source.</p>",
+  "i18n-ios-no-alt-desc": "Replace the phone&mdash;iOS has no free alternative.",
 
   "i18n-operating-system": "Operating system",
   "i18n-debian-desc": "Popular ethical GNU/Linux distribution.",
   "i18n-fedora-desc": "Fast, stable, powerful GNU/Linux distribution.",
   "i18n-gentoo-desc": "GNU/Linux distribution about choice, control and security.",
+  "i18n-gnewsense-desc": "Fully free software GNU/Linux distribution based on Debian."
   "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
+  "i18n-opensuse-desc": "Stable, easy-to-use multi-purpose GNU/Linux distribution.",
   "i18n-parabola-desc": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.",
   "i18n-trisquel-desc": "FSF endorsed, user-friendly GNU/Linux distribution.",
   "i18n-qubes-desc": "Fedora/Xen-based OS designed to provide strong security through isolation.",
@@ -186,6 +191,7 @@
   "i18n-openfire-desc": "Cross-platform XMPP server written in Java.",
   "i18n-prosody-desc": "Flexible lightweight XMPP server written in Lua.",
   "i18n-tigase-desc": "Cross-platform XMPP server written in Java.",
+  "i18n-metronome-desc": "XMPP Server based on Prosody, with advanced management/microblogging features.",
   "i18n-xmpp-server-notes": " <p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>",
 
   "i18n-sip-server-title": "SIP Server",

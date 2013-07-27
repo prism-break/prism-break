@@ -121,9 +121,10 @@
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-web-browser-note'>
-            <p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for everything. Browsing the web may be slower, but it will offer you far better anonymity.</p>
-            <p>Note that signing in to PayPal or a banking website across the Tor network may trip the site's fraud protection software. Users should also be aware that signing in to HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p>
+            <p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for as many things as possible. Browsing the web may be slower, but it will offer you far better anonymity.</p>
+            <p>Do not, however, use Tor without understanding it. <a href="https://www.torproject.org/docs/faq.html.en">Read up</a> a bit first. Note that signing in to PayPal or a banking website across the Tor network may trip the site's fraud protection software. Users should also be aware that signing in to HTTP (instead of HTTPS) websites may result in your credentials being captured by a malicious exit node.</p>
             <p><strong>Mozilla Firefox</strong> uses Google search by default. Google search should be replaced by more <a href="#web-search">private alternatives</a>.</p>
+            <p><a href='http://www.geticeweasel.org/'>Iceweasel</a> is a de-branded Firefox alternative for Debian based distributions.</p>
             <p>Why are Chromium, SRWare Iron, et al. not recommended on PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>More info here.</a></p>
           </div>
         </div>
@@ -419,7 +420,7 @@
             <p>The primary motivation behind the protocol was providing deniability for the conversation participants while keeping conversations confidential, like a private conversation in real life, or off the record in journalism sourcing.&rdquo;</p>
             <p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p>
             <p>Note that <strong>Pidgin</strong> stores your IM account passwords in <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>plain text</a>. You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like <a href='http://www.truecrypt.org/'>TrueCrypt</a>, or (3) storing your Pidgin password securely with the Debian package <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a>.</p>
-            <p><strong>Pidgin with OTR and dbus enabled has a local security bug.</strong> See the <a href='https://developer.pidgin.im/ticket/14830'>upstream bug report</a> for more information and possible workarounds.</p>
+            <p><strong>Pidgin with OTR and dbus enabled has a security bug that can be exploited by malicious programs on your PC.</strong> See the <a href='https://developer.pidgin.im/ticket/14830'>upstream bug report</a> for more information and possible workarounds.</p>
             <p><strong>TorChat</strong> is not related to nor sponsored by the official <a href='https://www.torproject.org/'>Tor Project</a>.</p>
           </div>
         </div>
@@ -966,6 +967,13 @@
                   <span class='i18n-kontact-desc'>Personal Information Management Suite with GPG support.</span>
                 </p>
             </a></li>
+            <li>
+              <a href='http://sylpheed.sraoss.jp/en/'><img class='logo' src='lib/img/free/sylpheed.png' alt='' />
+                <h5>Sylpheed</h5>
+                <p class='desc'>
+                  <span class='i18n-sylpheed-desc'>Lightweight and user-friendly e-mail client.</span>
+                </p>
+            </a></li>
             <li><span class='h4 h4-android'>Android</span></li>
             <li>
               <a href='https://code.google.com/p/k9mail/'><img class='logo' src='lib/img/free/k9mail.png' alt='' />
@@ -1479,6 +1487,7 @@
             <p class="hideable hide">Both <strong>Fedora</strong> and <strong>openSUSE</strong> are community editions that serve as the stable basis for enterprise ready GNU/Linux distributions with commercial support. Companies all over the world trust Red Hat Inc. and SUSE Linux GmbH because of their transparency throughout the whole development process.</p>
             <p class="hideable hide"><strong>Parabola</strong> GNU/Linux is effectively 99% <a href='https://www.archlinux.org/'>Arch Linux</a> with a de-blobbed kernel and a meta-package that blocks unfree licenses. Both of these features can be installed under Arch.</p>
             <p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default. GNU/Linux distributions based on Ubuntu are also currently not recommended due to <a href='https://github.com/nylira/prism-break/issues/334'>several other reasons.</a></p>
+            <p>This also means that you should not use an old version of gNewSense, since the gNewSense 2 series was based on Ubuntu. gNewSense 3 is based on debian.</p>
           </div>
         </div>
       </div>
@@ -1561,7 +1570,7 @@
                 <img class='logo' src='lib/img/free/metronome.png' alt='' />
                 <h5>Metronome IM</h5>
                 <p class='desc'>
-                  <span class='i18n-prosody-desc'>XMPP Server based on Prosody, with advanced management/microblogging features.</span>
+                  <span class='i18n-metronome-desc'>XMPP Server based on Prosody, with advanced management/microblogging features.</span>
                   <span class='fs'>ISC and MIT/X11</span>
                 </p>
             </a></li>
@@ -1725,6 +1734,14 @@
             </a>
             <span class='website'>PC-WELT.</span>
             <span class='date'>2013-06-12.</span>
+          </li>
+          <li>
+            <span class='author'>Vetter, Udo.</span>
+            <a class="title" href="http://www.lawblog.de/index.php/archives/2013/07/26/eine-ausrede-weniger/">
+              &ldquo;Eine Ausrede weniger.&rdquo;
+            </a>
+            <span class="website">law blog.</span>
+            <span class="date">2013-07-26.</span>
           </li>
           <li>
             <span class='author'>Walter, Martin.</span>
