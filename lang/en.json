@@ -82,7 +82,7 @@
   "i18n-document-collaboration": "Document collaboration",
   "i18n-etherpad-desc": "Self-hosted, real-time collaborative documents.",
   "i18n-ethercalc-desc": "Multi-user spreadsheet server.",
-  "i18n-document-collaboration-note": "<p>--</p>",
+  "i18n-document-collaboration-note": "<p><p>",
 
   "i18n-media-publishing": "Media publishing",
   "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.",
@@ -204,7 +204,7 @@
 
   "i18n-show-all": "show all",
 
-  "h4 i18n-services": "Services",
+  "h4 i18n-service": "Service",
   "h4 i18n-software": "Software",
 
   "i18n-advanced": "advanced",
