@@ -1,19 +1,19 @@
 {
-  "i18n-title": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break",
-  "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
+  "i18n-title": "PRISM Break - از پریسم، برنامه‌ی جمع‌آوری اطّلاعات آژانس امنیت ملّی امریکا بیرون بیاید",
+  "i18n-meta-description": "از پریسم، برنامه‌ی جمع‌آوری اطّلاعات آژانس امنیت ملّی امریکا بیرون بیایید. با این جایگزین‌های آزاد به جای نرم‌افزارهای انجصاری، به گزارش دادن فعّالیت‌های برخط خود به دولت امریکا پایان دهید.",
   "i18n-intro": "<strong>از دست پروژه 'پریسم' یعنی برنامه نظارت جهانی آژانس امنیت ملی آریکا راحت شوید!</strong> با استفاده از این جایگزین‌های آزاد برای برنامه‌های مالکیت طلبانه، مانع گزارش فعالیت‌های آنلاین خود به دولت آمریکا (و دولت‌های دیگر) شوید.",
 
-  "i18n-proprietary": "Proprietary",
-  "i18n-free-alternative": "Free alternative",
-  "i18n-notes": "Notes",
+  "i18n-proprietary": "انحصاری",
+  "i18n-free-alternative": "جایگزین آزاد",
+  "i18n-notes": "یادداشت",
 
   "i18n-operating-system" : "سیستم عامل",
   "i18n-debian-desc": "توزیع محبوب گنو/لینوکس با اصول قاطع",
   "i18n-fedora-desc": "توزیع قدرتمند، سریع و پایدار گنو/لینوکس",
-  "i18n-gentoo-desc": "Distribution about choice, control and security.",
-  "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
-  "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
-  "i18n-tails-desc": "دیسک زنده/فلش برای حریم شخصی بهتر",
+  "i18n-gentoo-desc": "توزیعی برپایه‌ی انتخاب، کنترل و امنیت",
+  "i18n-linuxmint-desc": "توزیع گنو/لینوکس راحت و آسان",
+  "i18n-liberte-desc": "دیسک/فلش زنده به عنوان دستیار ارتباطی در محیط‌های ناامن",
+  "i18n-tails-desc": "دیسک/فلش زنده برای حریم شخصی بهتر",
   "i18n-trisquel-desc": "توزیع کاربر محور و مورد حمایت اف‌اس‌اف",
 
   "i18n-web-browser": "مرورگر وب",
@@ -22,10 +22,10 @@
   "i18n-torbrowser-desc": "مرور رمز شده و ناشناس وب",
 
   "i18n-web-browser-plugins": "افزونه مرورگرها",
-  "i18n-adblockedge-desc": "Block advertisements on the web.",
-  "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
+  "i18n-adblockedge-desc": "بلوکه کردن تبلیغ‌ها در وب",
+  "i18n-disconnect-desc": "بازداشتن وبگاه‌های شخص ثالث از ردیابی شما",
   "i18n-httpseverywhere-desc": "ارتباط شما را با هزاران سایت رمز می‌کند",
-  "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
+  "i18n-noscript-desc": "جاوااسکریپت، جاوا و فلش را تنها برای وبگاه‌های مورد اطمینان فعّال می‌کند",
 
   "i18n-web-search": "جستجوی اینترنتی",
   "i18n-duckduckgo-desc": "جستجوی ناشناس و بدون ذخیره",
@@ -33,9 +33,9 @@
   "i18n-seeksproject-desc": "سکوی غیرمتمرکز متن‌باز برای مشارکت گروهی",
   "i18n-yacy-desc": "جستجوی غیرمتمرکز وب",
 
-  "i18n-dns-provider": "DNS فراهم کننده",
+  "i18n-dns-provider": "فراهم کننده سرویس نام دامنه",
   "i18n-opennic-desc": "با بی‌طرفی کامل",
-  "i18n-namecoin-desc": "DNS توزیع شده بر اساس پروتکل بیت‌کوین",
+  "i18n-namecoin-desc": "سرویس نام دامنه، توزیع شده بر اساس پروتکل بیت‌کوین",
 
   "i18n-darknet": "دارک‌نت",
   "i18n-freenet-desc": "شبکه غیرمتمرکز و ضد سانسور",
@@ -48,21 +48,21 @@
   "i18n-cryptocoins-title": "پول‌های الکترونیکی دیگر",
   "i18n-cryptocoins-desc": "لیست پول‌های الکترونیکی دیگر",
 
-  "i18n-vpn-client": "VPN client",
-  "i18n-openvpn-desc": "Free software VPN client.",
+  "i18n-vpn-client": "کلاینت VPN",
+  "i18n-openvpn-desc": "کلاینت نرم‌افزار آزادی VPN",
   "i18n-vpn-client-note": "--",
 
   "i18n-email-service": "سرویس ایمیل",
   "i18n-bitmessage-desc": "سرور ایمیل غیرمتمرکز و رمزشده",
   "i18n-riseup-desc": "حساب ایمیل شخصی و امن",
-  "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
+  "i18n-kolab-desc": "‫سرویس دهنده‌ی Groupware برای ای‌میل، تقویم، کتاب نشانی و هم‌گام سازی با گوشی‌های تلفن همراه",
 
-  "i18n-email-client": "برنامه ایمیل",
+  "i18n-email-client": "برنامه ای‌میل",
   "i18n-clawsmail-desc": "برنامه ایمیل سبک با پشتیبانی از پی‌جی‌پی",
   "i18n-evolution-desc": "برنامه آزاد ایمیل و تقویم",
   "i18n-icedove-desc": "ورژن آزاد برنامه تاندربرد",
   "i18n-kontact-desc": "برنامه ایمیل KDE با پشتیبانی از پی‌جی‌پی",
-  "i18n-sylpheed-desc": "Lightweight and user-friendly e-mail client.",
+  "i18n-sylpheed-desc": "کلاینت ای‌میل سبک و کاربرپسند",
   "i18n-thunderbird-desc": "برنامه متن‌باز ایمیل",
 
   "i18n-email-encryption": "رمزنگاری ایمیل",
@@ -98,8 +98,8 @@
   "i18n-pidgin-desc": "برنامه چت آزاد",
   "i18n-adium-desc": "پیچین برای آی‌او‌اس",
   "i18n-retroshare-desc": "سکوی ارتباطی دوطرفه، امن و آزاد",
-  "i18n-weechat-desc": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
-  "i18n-bitlbee-desc": "IRC instant messaging gateway that supports a bunch of protocols.",
+  "i18n-weechat-desc": "کلاینت گپ توسعه‌پذیر و قابل شخصی‌سازی برای IRC و XMPP/Jabber",
+  "i18n-bitlbee-desc": "پیام‌رسان فوری IRC که از دسته‌ای از پروتکل‌ها پشتیبانی می‌کند",
 
   "i18n-video-voip": "ویدئو کنفرانس",
   "i18n-jitsi-desc": "چت متنی و تصویری رمزنگاری شده",
@@ -137,10 +137,10 @@
   "i18n-chatsecure-desc": "چت رمز شده برای آی‌او‌اس",
   "i18n-onionbrowser-desc": "مرورگر امن برای آی‌او‌اس",
 
-  "i18n-meshnet": "Meshnet",
+  "i18n-meshnet": "شبکه‌ی مش",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
   "i18n-freifunk-desc": "A non-commercial open grassroots initiative to support free radio networks around the world.",
-  "i18n-librevpn-desc": "A free network that runs over other networks.",
+  "i18n-librevpn-desc": "شبکه‌ای آزاد که روی دیگر شبکه‌ها اجرا می‌شود",
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
 
   "i18n-add": "نصب کنید",
@@ -152,12 +152,12 @@
   "i18n-invite-only": "فقط با دعوت‌نامه",
   "i18n-newbies-choice": "مناسب برای تازه‌کاران",
   "i18n-editors-choice": "انتخاب نویسنده",
-  "i18n-approval-required": "approval required",
+  "i18n-approval-required": "نیاز به تأییدیه",
 
-  "i18n-fsf-definition-title": "*این سایت از تعریف <strong>Free Software Foundation</strong> از برنامه آزاد استفاده می‌کند",
+  "i18n-fsf-definition-title": "*این سایت از تعریف <strong>بنیاد نرم‌افزار آزاد</strong> از برنامه آزاد استفاده می‌کند",
   "i18n-fsf-quote": "برنامه آزاد برنامه‌ای است که آزادی کاربر و جامعه کاربری را محترم می‌شمرد. عموما <strong>کاربر آزاد است برنامه را در هر جا اجرا، کپی، توزیع، مطالعه، تغییر و بهبود ببخشد</strong>. با این آزادی‌ها، کاربران (هم فردی و هم جمعی) برنامه و آنچه برنامه برای آنها انجام می‌دهد را کنترل می‌کنند.",
 
-  "i18n-eff-title": "شما هم می‌توانید در مرکز مشارکت <strong>Electronic Frontier Foundation</strong> کاری بر علیه پریسم انجام دهید.",
+  "i18n-eff-title": "شما هم می‌توانید در مرکز مشارکت <strong>EFF</strong> کاری بر علیه پریسم انجام دهید.",
   "i18n-eff-quote-1": "<strong>برنامه نظارت گسترده‌ای آشکار شده است</strong>",
   "i18n-eff-quote-2": "گزارش‌های اخیر توسط روزنامه گاردین و واشنگتن پست، برنامه مخفیانه جاسوس بر روی اطلاعات تلفن و فعالیت‌های اینترنتی را تایید کرد. هم‌اکنون زمان یک حرکت کامل بر علیه برنامه‌های جاسوس آمریکا و پایان بخشیدن به نظارت‌های بی‌قید و شرط است.",
 
@@ -179,25 +179,25 @@
   "i18n-by": "توسط",
   "i18n-contribute-on": "مشارکت کنید در",
   "i18n-donate": "کمک مالی",
-  "i18n-contribute": "Contribute",
+  "i18n-contribute": "مشارکت",
 
-  "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p><p>This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux has a much larger community to help you with the transition. It's recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p> <p>Why not Ubuntu? Ubuntu is a poor choice because it contains <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</p> <p>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>",
+  "i18n-operating-system-note": "<p>اپل، گوگل و مایکروسافت اعضای پریسم هستند. سیستم‌های عامل انحصاری آن‌ها نمی‌تواند اطّلاعات شخصی شما را از NSA محفوظ بدارد.</p><p>این ما را با دو جایگزین آزاد مواجه می‌کند: <strong><a href='https://www.gnu.org/distros/free-distros.html'>گنو/لینوکس</a></strong> و <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>بی‌اس‌دی</a></strong>.</p> <p>گنو/لینوکس جامعه‌ی بزرگ‌تری برای کمک به مهاجرت شما دارد. توصیه می‌شود کاوش خود را با گشتن به دنبال یک <a href='http://distrowatch.com/'>توزیع گنو/لینوکس</a> که مناسب نیازهاییتان باشد آغاز کنید.</p> <p>چرا اوبونتو نه؟ اوبونتو انتخاب جندان مطمينی نیست، زیرا که برخی معتقدند در گذشته حاوی <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>جاسوس‌افزار</a> بود.</p> <p>توجّه: PRISM Break نسخه‌ی بدون رمزگشای <strong>لینوکس مینت</strong> را توصیه می‌کند، چرا که نسخه‌های دیگر آن شامل برنامه‌هایی با پتنت‌های نرم‌افزاری هستند. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>اطّلاعات بیش‌تر</a>.</p>",
 
-  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
+  "i18n-android-note": "<p><strong>CyanogenMod</strong> پروانه: &ldquo;CyanogenMod هنوز شامل کدهای مخصوص سخت‌افزاری است که به کندی در حال بازمتن شدن هستند.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>ویکی‌پدیا</a></p><p><strong>F-Droid</strong> جایگزینی آزاد برای فروشگاه اپلیکیشن گوگل پلی است</p>",
 
-  "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</p>",
+  "i18n-ios-note": "<p>iOS ناامن است و متأسّفانه برنامه‌های آزاد رمزگذاری چندانی هم برای آن موجود نیست. هم‌چنین تشخیص این که یک اپلیکیشن iOS از منبع اصلی کامپایل شده است یا نه <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>غیرممکن است</a>.</p>",
 
-  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</p> <p>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</p> <p>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-web-browser-note": "<p>از ترکیب <strong>مرورگر تور</strong> و یک مرورگر وب آزاد به انتخاب خودتان برای وب‌گردی استفاده کنید.</p> <p>سعی کنید تا جای ممکن از <strong>مرورگر تور</strong> استفاده کنید. مرور با تور ممکن است کمی کندتر باشد، ولی بسیار امن‌تر است.</p> <p>توجّه: <strong>فایرفاکس موزیلا</strong> تکنیکالی به طور کامل نرم‌افزار آزاد نیست، زیرا که موزیلا افزونه‌های غیرآزاد را در وبگاهش توصیه می‌کند.</p>",
 
-  "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p> <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
+  "i18n-web-browser-addons-note": "<p>با نصب Adblock Edge، Disconnect، HTTPS Everywhere و NoScript در مرورگرتان از محرمانگی خود محافظت کنید و ویگاه‌ها را از ردیابی خود منع کنید.</p> <p>چرا Adblock Plus نه؟ Adblock Plus &ldquo;تبلیغات قابل قبول&rdquo; را به صورت پیش‌فرض نمایش می‌دهد و حافظه‌ای بیش‌تر از <strong>Adblock Edge</strong> مصرف می‌کند.</p> <p>چرا گوستری نه؟ گوستری یک پلاگین انحصاری است. به جای آن از <strong>Disconnect</strong> استفاده کنید.</p>",
 
-  "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
+  "i18n-web-search-note": "<p><strong>Startpage</strong> انحصاری است، در امریکا/هلند میزبانی می‌شود و نتایح گوگل را به صورت محرمانه برای شما فراهم می‌کند (شامل تصاویر).</p><p>قسمت‌هایی از <strong>داک‌داک‌گو</strong> انحصاری هستند، در امریکا میزبانی می‌شود و نتایج بینگ را هم به صورت محرمانه برای شما فراهم می‌کند.</p><p>زهر خود را انتخاب کنید.</p>",
 
-  "i18n-email-service-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
+  "i18n-email-service-note": "<p><strong>رایزآپ</strong> در امریکا میزبانی می‌شود، البته مهم نیست.</p><p>چرا هاش‌میل نه؟ <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a> را ببینید.</p>",
 
-  "i18n-email-client-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-email-client-note": "<p>Note: <strong>تاندربرد موزیلا</strong> تکنیکالی به طور کامل نرم‌افزار آزاد نیست، زیرا که موزیلا افزونه‌های غیرآزاد را در وبگاهش توصیه می‌کند.</p>",
 
-  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
+  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) یک برنامه‌ی رایانه‌ای رمزگذاری و رمزگشایی اطّلاعات است که محرمانگی رمزی و صحّت داده‌های تبادلی را فراهم می‌کند. PGP اغلب برای امضا کردن، رمزگذاری و رمزگشایی متون، ای‌میل‌ها، پرونده‌ها، شاخه‌ها و پارتیشن‌های کامل دیشک برای افزایش امنیت ارتباطات ای‌میلی به کار می‌رود.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>ویکی‌پدیا</a>",
 
   "i18n-social-networking-note": "<p>--</p>",
 
