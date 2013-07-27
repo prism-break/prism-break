@@ -200,14 +200,16 @@
   "i18n-kamailio-desc": "Open source VoIP/SIP server.",
   "i18n-sip-server-notes": "<p>&ldquo;The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>",
 
+  "i18n-show-all": "show all",
+
+  "h4 i18n-services": "Services",
+  "h4 i18n-software": "Software",
+
   "i18n-advanced": "advanced",
   "i18n-experimental": "experimental",
   "i18n-fsf-endorsed": "FSF endorsed",
-
   "i18n-invite-only": "invitation required",
   "i18n-approval-required": "approval required",
-  "h4 i18n-services": "Services",
-  "h4 i18n-software": "Software",
 
   "i18n-newbies-choice": "easiest to use",
   "i18n-editors-choice": "editor&rsquo;s choice",
