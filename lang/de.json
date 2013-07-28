@@ -13,9 +13,9 @@
   "i18n-fedora-desc": "Schnelle, stabile und mächtige GNU/Linux-Distribution.",
   "i18n-gentoo-desc": "Distribution mit den Schwerpunkten Entscheidungsfreiheit, Kontrolle und Sicherheit.",
   "i18n-linuxmint-desc": "Komfortable und einfach zu benutzende GNU/Linux-Distribution.",
-  "i18n-liberte-desc": "Live CD/USB, entwickelt als Kommunikationshilfe in feindlichen Umgebungen.",
+  "i18n-liberte-desc": "Live-CD/USB, entwickelt als Kommunikationshilfe in feindlichen Umgebungen.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
-  "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
+  "i18n-tails-desc": "Live-CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
   "i18n-trisquel-desc": "Von der Free Software Foundation unterstützte, anwenderfreundliche GNU/Linux-Distribution.",
   "i18n-midnightbsd-desc": "Eine FreeBSD-Distribution mit dem Ziel, eine einfach zu bedienende Desktopumgebung mit grafischer Portverwaltung anzubieten.",
   "i18n-openbsd-desc": "Ein sicheres Betriebssystem auf BSD-Basis.",
@@ -26,7 +26,7 @@
   "i18n-freebsd-desc": "Ein freies Betriebssystem, das direkt von der Berkeley Software Distribution abstammt.",
   "i18n-parabola-desc": "Freie, schlanke und flexible GNU/Linux-Distribution, die auf Arch Linux aufbaut.",
   "i18n-opensuse-desc": "Multifunktionale, stabile und einfach zu bedienende GNU/Linux-Distribution.",
-  "i18n-live-cd-title": "Live CDs &amp; VM Images",
+  "i18n-live-cd-title": "Live-CDs &amp; VM-mages",
 
   "i18n-web-browser": "Webbrowser",
   "i18n-icecat-desc": "GNU-Version von Firefox.",
@@ -204,7 +204,7 @@
   "i18n-most-popular": "sehr beliebt",
   "i18n-most-advanced": "mit den fortschrittlichsten Features",
   "i18n-most-paranoid": "für Paranoiker",
-  "i18n-show-all": "alles anzeigen",
+  "i18n-show-all": "alle anzeigen",
   "i18n-usa-hosted": "US-Betreiber",
 
   "i18n-fsf-definition-title": "* Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
@@ -237,7 +237,7 @@
   "i18n-donate": "Spende",
   "i18n-contribute": "Mithelfen",
 
-  "i18n-operating-system-note": "<p>Apple, Google und Microsoft sind mutmaßlich ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</p><p>Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</p> <p>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution (engl.)</a>, die Euren Anforderungen entspricht.</p> <p>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks\">standardmäßig Daten an Dritte sendet. (engl.)</p> <p>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu. (engl.)</a></p>",
+  "i18n-operating-system-note": "<p>Apple, Google und Microsoft sind mutmaßlich ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden. Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</p> <p>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution (engl.)</a>, die Euren Anforderungen entspricht.</p> <p>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"http://www.heise.de/open/meldung/EFF-kritisiert-Amazon-Suche-in-Ubuntu-12-10-1739296.html\">standardmäßig Daten an Dritte sendet.</a></p> <p>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu. (engl.)</a></p>",
 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href=\"https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse\">Mehr dazu</a></p><p><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</p>",
 
@@ -259,7 +259,7 @@
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a></p><p>Eine Anleitung, wie Du <strong>Pidgin</strong> mit OTR installierst, <a href='http://www.spiegel.de/fotostrecke/pidgin-jabber-und-otr-so-chatten-sie-verschluesselt-fotostrecke-99491.html'>findest Du hier.</a></p><p>Es ist ebenfalls zu beachten, dass Pidgin die Passwörter der IM-Konten <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>unverschlüsselt</a> speichert. Dies kann man verhindern, indem man (1) die Passwörter garnicht speichert, (2) das Dateisystem mit Software wie z.B. <a href='http://www.truecrypt.org/'>TrueCrypt</a> verschlüsselt, oder (3) das Pidgin Passwort sicher mit dem Debian-Paket <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> speichert.</p><p><strong>Pidgin in Kombination mit aktiviertem OTR und dbus hat einen Sicherheits-Bug, der von einem bösartigen Programm auf Deinem eigenen Rechner ausgenutzt werden könnte.</strong> Für weitere Informationen und Workarounds siehe die <a href='https://developer.pidgin.im/ticket/14830'>upstream Bug-Meldung</a>.</p><p><strong>TorChat</strong> steht in keinem Zusammenhang mit <a href='https://www.torproject.org/'>Tor Project</a> und wird auch nicht von diesem gefördert.</p>",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a></p><p>Eine Anleitung, wie Du <strong>Pidgin</strong> mit OTR installierst, <a href='http://www.spiegel.de/fotostrecke/pidgin-jabber-und-otr-so-chatten-sie-verschluesselt-fotostrecke-99491.html'>findest Du hier.</a></p><p>Es ist ebenfalls zu beachten, dass Pidgin die Passwörter der IM-Konten <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>unverschlüsselt</a> speichert. Dies kann man verhindern, indem man (1) die Passwörter garnicht speichert, (2) das Dateisystem mit Software wie z.B. <a href='http://www.truecrypt.org/'>TrueCrypt</a> verschlüsselt, oder (3) das Pidgin Passwort sicher mit dem Debian-Paket <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> speichert.</p><p><strong>Pidgin in Kombination mit aktiviertem OTR und dbus hat einen Sicherheits-Bug, der von einem möglichen Schadprogramm auf Deinem Rechner ausgenutzt werden könnte.</strong> Für weitere Informationen und Workarounds siehe die <a href='https://developer.pidgin.im/ticket/14830'>upstream Bug-Meldung</a>.</p><p><strong>TorChat</strong> steht in keinem Zusammenhang mit <a href='https://www.torproject.org/'>Tor Project</a> und wird auch nicht von diesem gefördert.</p>",
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</p><p><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</p><p><a href=\"http://www.webrtc.org/\">WebRTC (engl.)</a> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
