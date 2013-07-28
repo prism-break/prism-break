@@ -13,20 +13,20 @@
   "i18n-fedora-desc": "Schnelle, stabile und mächtige GNU/Linux-Distribution.",
   "i18n-gentoo-desc": "Distribution mit den Schwerpunkten Entscheidungsfreiheit, Kontrolle und Sicherheit.",
   "i18n-linuxmint-desc": "Komfortable und einfach zu benutzende GNU/Linux-Distribution.",
-  "i18n-liberte-desc": "Live CD/USB, entwickelt als Kommunikationshilfe in feindlichen Umgebungen.",
+  "i18n-liberte-desc": "Live-CD/USB, entwickelt als Kommunikationshilfe in feindlichen Umgebungen.",
   "i18n-bsd-desc": "FreeBSD, OpenBSD, NetBSD, PC-BSD.",
-  "i18n-tails-desc": "Live CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
+  "i18n-tails-desc": "Live-CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
   "i18n-trisquel-desc": "Von der Free Software Foundation unterstützte, anwenderfreundliche GNU/Linux-Distribution.",
   "i18n-midnightbsd-desc": "Eine FreeBSD-Distribution mit dem Ziel, eine einfach zu bedienende Desktopumgebung mit grafischer Portverwaltung anzubieten.",
   "i18n-openbsd-desc": "Ein sicheres Betriebssystem auf BSD-Basis.",
   "i18n-archlinux-desc": "Schlanke und flexible GNU/Linux-Distribution.",
   "i18n-gnewsense-desc": "GNU/Linux-Distribution mit 100% freier Software.",
   "i18n-qubes-desc": "Ein Fedora/Xen-basierendes Betriebssystem, das starke Sicherheit durch Isolation bietet.", 
-  "i18n-whonix-desc": "Ein Betriebssystem, das auf Tor, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM Images.",
+  "i18n-whonix-desc": "Ein Betriebssystem, das auf Tor, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM-Images.",
   "i18n-freebsd-desc": "Ein freies Betriebssystem, das direkt von der Berkeley Software Distribution abstammt.",
   "i18n-parabola-desc": "Freie, schlanke und flexible GNU/Linux-Distribution, die auf Arch Linux aufbaut.",
   "i18n-opensuse-desc": "Multifunktionale, stabile und einfach zu bedienende GNU/Linux-Distribution.",
-  "i18n-live-cd-title": "Live CDs &amp; VM Images",
+  "i18n-live-cd-title": "Live-CDs &amp; VM-Images",
 
   "i18n-web-browser": "Webbrowser",
   "i18n-icecat-desc": "GNU-Version von Firefox.",
@@ -63,7 +63,7 @@
 
   "i18n-vpn-client": "VPN-Client",
   "i18n-openvpn-desc": "Freier VPN-Client",
-  "i18n-vpn-client-note": "<p>Die verschlüsselte VPN-Technologie (Virtual Private Network) kann von jedermann verwendet werden, um mit Hilfe von Proxy-Servern die digitale Vertraulichkeit herzustellen und seine Identität zu schützen.</p><p>Mehr dazu auf <a href=\"https://de.wikipedia.org/wiki/Virtual_Private_Network\">Wikipedia</a>.</p>",
+  "i18n-vpn-client-note": "Ein <strong>VPN</strong> (Virtual Private Network) bildet ein nach außen abgeschirmtes Netzwerk über fremde oder nicht vertrauenswürdige Netze.</p><p>Mehr dazu auf <a href=\"https://de.wikipedia.org/wiki/Virtual_Private_Network\">Wikipedia</a>.</p>",
 
   "i18n-email-service": "E-Mail-Dienste",
   "i18n-services": "DIENSTE",
@@ -96,7 +96,7 @@
   "i18n-apg-desc": "OpenPGP-App für Android.",
 
   "i18n-maps": "Kartendienste",
-  "i18n-openstreetmap-desc": "Freier, kollaborativer Kartendienst.",
+  "i18n-openstreetmap-desc": "Freier und gemeinschaftlicher Kartendienst.",
 
   "i18n-cloud-storage": "Cloudspeicherung",
   "i18n-gitannex-desc": "Synchronisiert Ordner auf allen Laufwerken Deines Computers.",
@@ -176,7 +176,7 @@
   "i18n-openfire-desc": "Plattformübergreifender, in Java geschriebener XMPP-Server.",
   "i18n-prosody-desc": "Flexibler und leichter, in Lua geschriebener XMPP-Server.",
   "i18n-tigase-desc": "Plattformübergreifender, in Java geschriebener XMPP-Server.",
-  "i18n-prosody-desc": "Auf Prosody basierender XMPP-Server mit umfangreichen Management- und Microblogging-Funktionen.",
+  "i18n-metronome-desc": "Auf Prosody basierender XMPP-Server mit umfangreichen Management- und Microblogging-Funktionen.",
 
   "i18n-xmpp-server-notes": "<p>&ldquo;Das Extensible Messaging and Presence Protocol (XMPP; „erweiterbares Nachrichten- und Anwesenheitsprotokoll“) (früher Jabber, englisch [ˈdʒæbə(ɹ)]: „(daher-)plappern“) ist ein von der IETF als RFC 6120–6122 sowie 3922, 3923 veröffentlichter Internetstandard für XML-Routing. XMPP folgt dem XML-Standard und wird primär für Instant Messaging eingesetzt.</p><p> XMPP und seine Erweiterungen unterstützen Funktionen zur Nachrichtenübermittlung, Konferenzen mit mehreren Benutzern, Anzeigen des Online-Status, Dateiübertragungen, Versendung von Zertifikaten und viele weitere Dienste.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>",
      
@@ -204,7 +204,7 @@
   "i18n-most-popular": "sehr beliebt",
   "i18n-most-advanced": "mit den fortschrittlichsten Features",
   "i18n-most-paranoid": "für Paranoiker",
-  "i18n-show-all": "alles anzeigen",
+  "i18n-show-all": "alle anzeigen",
   "i18n-usa-hosted": "US-Betreiber",
 
   "i18n-fsf-definition-title": "* Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
@@ -237,7 +237,9 @@
   "i18n-donate": "Spende",
   "i18n-contribute": "Mithelfen",
 
-  "i18n-operating-system-note": "<p>Apple, Google und Microsoft sind mutmaßlich ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden.</p><p>Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</p> <p>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/\">GNU/Linux-Distribution (engl.)</a>, die Euren Anforderungen entspricht.</p> <p>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks\">standardmäßig Daten an Dritte sendet. (engl.)</p> <p>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu. (engl.)</a></p>",
+  "i18n-operating-system-note": "<p>Apple, Google und Microsoft sind mutmaßlich ein Teil von PRISM. Ihren proprietären Betriebssystemen kann hinsichtlich der Absicherung Eurer persönlichen Daten vor der NSA nicht vertraut werden. Damit bleiben uns zwei freie Alternativen: <strong><a href=\"https://www.gnu.org/distros/free-distros.de.html\">GNU/Linux</a></strong> und <strong><a href=\"https://de.wikipedia.org/wiki/Vergleich_der_BSD-Betriebssysteme\">BSD</a></strong>.</p><p class='hideable'>GNU/Linux hat eine viel größere Gemeinschaft, um Euch beim Wechsel zu helfen. Es empfiehlt sich die Suche nach einer geeigneten <a href=\"http://distrowatch.com/index.php?language=DE\">GNU/Linux-Distribution</a>, die Euren Anforderungen entspricht.</p><p class='hideable'><strong>Debian</strong> hat eine lange Tradition in Sachen freier Software. Die Entwickler müssen einen Sozialvertrag unterschreiben und sich zum ethischen Manifest bekennen. Strikte Aufnahmeregelungen sorgen dafür, dass nur zertifizierte und  quelloffene Software in die main repositories aufgenommen wird.</p><p><strong>Gentoo</strong> bezeichnet sich selbst als eine Meta-Distribution. Der Quellcode wird auf dem Rechner des Anwenders kompiliert, was eine beinahe unendliche Anpassung und Rückverfolgbarkeit der Programmlogik ermöglicht.</p><p><strong>Linux Mint</strong> Debian Edition (LMDE) ist wahrscheinlich die anwenderfreundlichste Distribution für diejenigen, die von Microsoft Windows wechseln wollen.</p><p class='hideable'><strong>Fedora</strong> und <strong>openSUSE</strong> sind Community-Editionen, die als stabile Basis für GNU/Linux-Distributionen mit Geschäftssupport dienen. Weltweit vertrauen Unternehmen der Red Hat Inc. und der SUSE Linux GmbH, da sie durch den ganzen Entwicklungsprozess hinweg Transparenz bieten.</p><p class='hideable'><strong>Parabola</strong> GNU/Linux ist quasi ein 99%iges <a href='https://www.archlinux.org/'>Arch Linux</a> mit einem de-blobbed Kernel und einem Metapaket, welches unfreie Lizenzen blockt. Beides dieser Features kann unter Arch installiert werden.</p><p>Warum nicht Ubuntu?<br>Ubuntu ist eine schlechte Wahl, weil es <a href=\"http://www.heise.de/open/meldung/EFF-kritisiert-Amazon-Suche-in-Ubuntu-12-10-1739296.html\">standardmäßig Daten an Dritte sendet.</a></p><p>Hinweis: PRISM Break empfiehlt die codec-freie Edition von <strong>Linux Mint</strong>, da die anderen Editionen mit Softwarepatenten belastet sind. <a href=\"https://github.com/nylira/prism-break/issues/126#issuecomment-19898104\">Mehr dazu. (engl.)</a></p><p class='hideable'>Bitte beachte, dass <strong>gNewSense 2.3</strong> drei Jahre alt ist und auf Ubuntu basiert. Du solltest stattdessen gNewSense 3.0 (auf Debian basierend) benutzen.</p>",
+
+ "i18n-live-cd-notes": "<p>Eine Live-Distribution wie <strong>Tails</strong> oder <strong>Liberté Linux</strong> sind der schnellste und einfachste Weg zu einem sicheren Betriebssystem. Alles was Du tun musst, ist eine bootfähige CD oder ein bootfähiges USB-Laufwerk mit den bereitgestellten Images zu bespielen und schon kannst Du loslegen. Alle nötigen Einstellungen sind schon vorgegeben.</p><p>Ein VM-Image (Image für virtuelle Maschinen) wie <strong>Whonix</strong> wurde entwickelt, um es in einer Virtualisierungsumgebung wie <a href='https://www.virtualbox.org/'>VirtualBox</a> zu betreiben. VirtualBox kann unter Windows, Linux, OS X, FreeBSD und Solaris installiert werden. Solltest Du an Windows oder OS X gebunden seimn, kannst Du VirtualBox installieren und damit Whonix nutzen, um Deinen Schutz und Deine Privatsphäre zu erhöhen.</p>",
 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href=\"https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse\">Mehr dazu</a></p><p><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</p>",
 
@@ -259,7 +261,7 @@
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a></p><p>Eine Anleitung, wie Du <strong>Pidgin</strong> mit OTR installierst, <a href='http://www.spiegel.de/fotostrecke/pidgin-jabber-und-otr-so-chatten-sie-verschluesselt-fotostrecke-99491.html'>findest Du hier.</a></p><p>Es ist ebenfalls zu beachten, dass Pidgin die Passwörter der IM-Konten <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>unverschlüsselt</a> speichert. Dies kann man verhindern, indem man (1) die Passwörter garnicht speichert, (2) das Dateisystem mit Software wie z.B. <a href='http://www.truecrypt.org/'>TrueCrypt</a> verschlüsselt, oder (3) das Pidgin Passwort sicher mit dem Debian-Paket <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> speichert.</p><p><strong>Pidgin in Kombination mit aktiviertem OTR und dbus hat einen Sicherheits-Bug, der von einem bösartigen Programm auf Deinem eigenen Rechner ausgenutzt werden könnte.</strong> Für weitere Informationen und Workarounds siehe die <a href='https://developer.pidgin.im/ticket/14830'>upstream Bug-Meldung</a>.</p><p><strong>TorChat</strong> steht in keinem Zusammenhang mit <a href='https://www.torproject.org/'>Tor Project</a> und wird auch nicht von diesem gefördert.</p>",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging (zu deutsch: inoffizielle; vertrauliche, nicht für die Öffentlichkeit bestimmte Nachrichtenvermittlung) ist ein Protokoll zur Nachrichten-Verschlüsselung von Instant Messaging. Im Gegensatz zur Übertragung der verschlüsselten Nachrichten mittels GPG, PGP (oder in seltenen Fällen auch mittels X.509-Zertifikat) kann man beim Off-the-Record Messaging später nicht mehr feststellen, ob ein bestimmter Schlüssel von einer bestimmten Person genutzt wurde (deniability; Prinzip der Abstreitbarkeit). Dadurch lässt sich nach Beenden der Unterhaltung von niemandem (auch keinem der beiden Kommunikationspartner) beweisen, dass einer der Kommunikationspartner eine bestimmte Aussage gemacht hat.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Off-the-Record_Messaging\">Wikipedia</a></p><p>Eine Anleitung, wie Du <strong>Pidgin</strong> mit OTR installierst, <a href='http://www.spiegel.de/fotostrecke/pidgin-jabber-und-otr-so-chatten-sie-verschluesselt-fotostrecke-99491.html'>findest Du hier.</a></p><p>Es ist ebenfalls zu beachten, dass Pidgin die Passwörter der IM-Konten <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>unverschlüsselt</a> speichert. Dies kann man verhindern, indem man (1) die Passwörter garnicht speichert, (2) das Dateisystem mit Software wie z.B. <a href='http://www.truecrypt.org/'>TrueCrypt</a> verschlüsselt oder (3) das Pidgin-Passwort sicher mit dem Debian-Paket <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> speichert.</p><p><strong>Pidgin in Kombination mit aktiviertem OTR und dbus hat einen Sicherheits-Bug, der von einem möglichen Schadprogramm auf Deinem Rechner ausgenutzt werden könnte.</strong> Für weitere Informationen und Workarounds siehe die <a href='https://developer.pidgin.im/ticket/14830'>upstream Bug-Meldung</a>.</p><p><strong>TorChat</strong> steht in keinem Zusammenhang mit <a href='https://www.torproject.org/'>Tor Project</a> und wird auch nicht von diesem gefördert.</p>",
 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> ist eine verschlüsselte Alternative für fast alle Aufgaben, die mit Skype gemacht werden.</p><p><strong>Mumble</strong> ein quelloffener Sprachchat, ähnlich wie Ventrilo oder TeamSpeak.</p><p><a href=\"http://www.webrtc.org/\">WebRTC (engl.)</a> ist eine vielversprechende Browser-zu-Browser Kommunikations-API, die bald veröffentlicht wird.",
 
