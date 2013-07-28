@@ -66,8 +66,8 @@ h1#brand a:hover,h1#brand a:hover .lightning{color:#09c}
 #container .body h1{font:3em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif}
 #container .body h2{font:2em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif}
 #container .body h3{font:1.5em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif}
-p.intro{padding:1em;max-width:45em;margin:0;}
-p.intro strong{color:#333;font-weight:bold;display:block}
+p.intro{padding:1em;max-width:50em;margin:0;}
+p.intro strong{color:#333;font-weight:bold}
 .section{padding:1em 0}
 .section ul li{zoom:1}
 .section ul li:before,.section ul li:after{content:"";display:table}
