@@ -67,7 +67,7 @@
 
   "i18n-email-service": "Email service",
   "i18n-autistici-desc": "A full range of free, privacy-aware services.",
-  "i18n-bitmessage-desc": "Encrypted, decentralized P2P messaging service based on Bitcoin technology."
+  "i18n-bitmessage-desc": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
   "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
   "i18n-mykolabcom-desc": "Secure and private Kolab accounts hosted in Switzerland.",
   "i18n-posteo-desc": "Encrypted and anonymous email, calendar, and contacts service for &euro;1 per month.",
@@ -172,14 +172,14 @@
   "i18n-namecoin-desc": "Distributed DNS based on Bitcoin technology.",
   "i18n-dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
 
-  "i18n-darknet": "Darknet",
+  "i18n-anon-networks": "Anonymizing network",
   "i18n-freenet-desc": "Decentralized censorship-resistant network.",
   "i18n-i2p-desc": "The invisible internet project.",
   "i18n-nightweb-desc": "Anonymous I2P network for Android and desktop.",
   "i18n-syndie-desc": "Distributed, anonymous forum software.",
   "i18n-tor-hidden-services-title": "Tor Hidden Services",
   "i18n-tor-hidden-services-desc": "The Tor network offers access to *.onion websites.",
-  "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
+  "i18n-anon-network-note": "<p>--</p>",
 
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
