@@ -54,10 +54,10 @@ h1#brand a:hover,h1#brand a:hover .lightning{color:#09c}
 #menu{display:none}
 #header ul.nav{float:right;height:48px;}
 #header ul.nav li{float:left;}
-#header ul.nav li#donate,#header ul.nav li#contribute{display:none;}
-#header ul.nav li#donate .plain,#header ul.nav li#contribute .plain{display:block;line-height:3em;padding:0 1em;color:#333;}
-#header ul.nav li#donate .plain.long,#header ul.nav li#contribute .plain.long{display:none}
-#header ul.nav li#donate a.plain:hover,#header ul.nav li#contribute a.plain:hover{color:#0467ae;text-decoration:underline}
+#header ul.nav li.links{display:none;}
+#header ul.nav li.links .plain{display:block;line-height:3em;padding:0 1em;color:#333;}
+#header ul.nav li.links .plain.long{display:none}
+#header ul.nav li.links a.plain:hover{color:#0467ae;text-decoration:underline}
 #header ul.nav li#language{padding:12px;}
 #header ul.nav li#language select{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:block;font:16px 'Helvetica Neue',Arial,Helvetica,sans-serif;height:24px;color:#333;margin:0;padding:0;outline:none;width:100px;background:#fff;border:1px solid #ddd}
 #container{width:100%;padding:3em 0 0;}
@@ -94,11 +94,12 @@ p.intro strong{color:#333;font-weight:bold}
 .notes div{padding:.75em 1em 0;}
 .notes div p{margin:0 0 1em;max-width:50em;}
 .notes div p a:hover{text-decoration:underline}
-.section#privacy{margin:0 auto;width:100%;padding:0 0 1em;}
-.section#privacy .content{padding:1em;}
-.section#privacy .content p{margin:0 0 1.5em;max-width:50em}
-.section#privacy .content iframe{width:100%;background:#eee;font:1em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;border:1px solid #ddd;padding:1em}
-.section.bottom{padding-bottom:0}
+body.no-menu #header h1#brand{padding-left:1em}
+body.no-menu .section{margin:0 auto;width:100%;padding:0 0 1em;}
+body.no-menu .section.bottom{padding:0}
+body.no-menu .section .content{padding:1em;}
+body.no-menu .section .content p{margin:0 0 1.5em;max-width:50em}
+body.no-menu .section .content iframe{width:100%;background:#eee;font:1em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;border:1px solid #ddd;padding:1em}
 .bottom blockquote{padding:1em 1em 0;margin:0}
 .bottom blockquote p{margin:0 0 1em;max-width:60em}
 .bottom blockquote a{font-weight:bold}
@@ -122,7 +123,7 @@ p.intro strong{color:#333;font-weight:bold}
 @media (min-width: 481px){body .section div.free ul li h5{line-height:1.5em;display:block}
 body .section div.free ul li p{line-height:1.5em}
 body .section div.free ul li.plugin h5{display:inline}
-}@media (min-width: 768px){body #header ul.nav li#donate,body #header ul.nav li#contribute{display:block}
+}@media (min-width: 768px){body #header ul.nav li.links{display:block}
 body p.intro{font:1.25em/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif;padding-top:1.5em}
 body .section{width:100%;zoom:1;}
 body .section:before,body .section:after{content:"";display:table}
