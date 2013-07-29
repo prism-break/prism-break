@@ -63,7 +63,7 @@
 
   "i18n-maps": "Kaarten",
   "i18n-openstreetmap-desc": "Vrije wereldkaart.",
-  "i18n-marble-desc": "Vrije, virtuele wereldbol en wereldatlas.",
+  "i18n-marble-desc": "Vrije virtuele wereldbol en wereldatlas.",
   "i18n-maps-note": "<p>&ldquo;Als je meewerkt aan het OpenStreetMap help je mee om een geografische database van de wereld te bouwen welke vrij en open voor iedereen is en voor altijd.&rdquo;</p><p>&mdash; <a href='http://wiki.openstreetmap.org/wiki/Google_Map_Maker'>OpenStreetMap Wiki</a></p>",
 
   "i18n-email-service": "Email diensten",
@@ -128,7 +128,7 @@
   "i18n-movim-desc": "Eigen, decentraal sociaal netwerk server.",
   "i18n-retroshare-desc": "Vrij en veilig P2P communicatieplatform.",
   "i18n-salutatoi-desc": "Multi-frontend, multifunctionele communicatietool.",
-  "i18n-tent-desc": "Vrij, autonoom sociaal netwerk protocol."
+  "i18n-tent-desc": "Vrij, autonoom sociaal netwerk protocol.",
   "i18n-social-networking-note": "<p>If you have system administration knowledge, please strongly consider running an instance of <strong>pump.io</strong> (or something else) for your friends, family, or favorite community. Many of them would be willing and grateful to escape Facebook if you provide them a way out.</p><p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>",
 
   "i18n-cloud-storage": "Online opslag",
@@ -156,6 +156,9 @@
   
   "i18n-vpn-client": "VPN client",
   "i18n-openvpn-desc": "Vrije software VPN client.",
+  "i18n-libreswan-desc": "Free software VPN client (3rd generation) derived from Openswan.",
+  "i18n-openswan-desc": "Free software VPN client derived from FreeS/WAN.",
+  "i18n-strongswan-desc": "Free software VPN client derived from FreeS/WAN.",
   "i18n-vpn-client-note": "--",
 
   "i18n-online-transactions": "Online transacties",
