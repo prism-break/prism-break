@@ -51,6 +51,7 @@
   "i18n-namecoin-desc": "Verteiltes DNS, basierend auf der Bitcoin-Technologie.",
 
   "i18n-darknet": "Darknet",
+  "i18n-anon-network": "Anonymisierendes Netzwerk",
   "i18n-freenet-desc": "Dezentralisiertes, zensurresistentes Netzwerk.",
   "i18n-i2p-desc": "Das Unsichtbare-Internet-Projekt.",
   "i18n-nightweb-desc": "Anonymes I2P-Netzwerk für Android.",
@@ -62,21 +63,21 @@
   "i18n-cryptocoins-desc": "Liste der alternativen, verschlüsselten digitalen Währungen.",
 
   "i18n-digital-distribution": "Digitale Vertriebsplattform",
-  "i18n-desurium-desc": "Freier opensource client für die digitale Vertriebsplattform desura.",
-  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> ist nur der client. Du wirst dennoch von dem proprietären <a href='http://www.desura.com'>desura Service</a> abhängen, bzw. diesem vertrauen müssen.</p>",
+  "i18n-desurium-desc": "Freier, quelloffener Client für die digitale Vertriebsplattform desura.",
+  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> ist nur der Client. Du wirst dennoch von dem proprietären Dienst <a href='http://www.desura.com'>desura</a> abhängig sein, bzw. diesem vertrauen müssen.</p>",
 
   "i18n-vpn-client": "VPN-Client",
   "i18n-openvpn-desc": "Freier VPN-Client",
   "i18n-vpn-client-note": "<p>Ein <strong>VPN</strong> (Virtual Private Network) bildet ein nach außen abgeschirmtes Netzwerk über fremde oder nicht vertrauenswürdige Netze.</p><p>Mehr dazu auf <a href=\"https://de.wikipedia.org/wiki/Virtual_Private_Network\">Wikipedia</a>.</p>",
-  "i18n-strongswan-desc": "Freier VPN-Client, entstanden aus FreeS/WAN",
-  "i18n-openswan-desc": "Freier VPN-Client, entstanden aus FreeS/WAN",
-  "i18n-libreswan-desc": "Freier VPN-Client dritter Generation, entstanden aus Openswan",
+  "i18n-strongswan-desc": "Freier VPN-Client, entstanden aus FreeS/WAN.",
+  "i18n-openswan-desc": "Freier VPN-Client, entstanden aus FreeS/WAN.",
+  "i18n-libreswan-desc": "Freier VPN-Client dritter Generation, entstanden aus Openswan.",
 
   "i18n-email-service": "E-Mail-Dienste",
   "i18n-services": "DIENSTE",
   "i18n-autistici-desc": "Eine ganze Reihe von kostenfreien, privatsphärebewussten Diensten.",
   "i18n-bitmessage-desc": "Verschlüsselter, dezentralisierter Mailserver.",
-  "i18n-riseup-desc": "Sichere und private Mailaccounts.",
+  "i18n-riseup-desc": "Sichere und private Mailkonten.",
   "i18n-tormail-desc": "Tor Mail ist ein freier und anonymer E-Mail-Provider.",
   "i18n-kolab-desc": "Groupware Server für E-Mail, Kalender, Kontakte und Synchronisierung mit mobilen Geräten.",
   "i18n-mykolabcom-desc": "Sichere Kolab-Konten aus der Schweiz.",
@@ -130,8 +131,8 @@
   "i18n-pidgin-desc": "Quelloffenes Chatprogramm.",
   "i18n-adium-desc": "Pidgin für OS X. (Denke daran, OTR zu aktivieren!)",
   "i18n-retroshare-desc": "Freie, sichere P2P-Kommunikationsplattform.",
-   "i18n-jappix-desc": "Freie Plattform für ein soziales Netzwerk mit Sofortnachrichten und umfangreichen Funktionen.",
-   "i18n-torchat-desc": "Anonymer, dezentralisierter P2P-Chat, auf den versteckten Diensten von Tor basierend.",
+  "i18n-jappix-desc": "Freie Plattform für ein soziales Netzwerk mit Sofortnachrichten und umfangreichen Funktionen.",
+  "i18n-torchat-desc": "Anonymer, dezentralisierter P2P-Chat, auf den versteckten Diensten von Tor basierend.",
   "i18n-weechat-desc": "Erweiterbarer und anpassbarer Chat-Client für IRC und XMPP/Jabber.",
   "i18n-bitlbee-desc": "Chat-Client, der IRC, XMPP/Jabber und viele andere Protokolle unterstützt.",
 
@@ -214,8 +215,9 @@
   "i18n-most-paranoid": "für Paranoiker",
   "i18n-show-all": "alle anzeigen",
   "i18n-usa-hosted": "US-Betreiber",
+  "i18n-media": "Medienresonanz",
 
-  "i18n-fsf-definition-title": "* Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
+  "i18n-fsf-definition-title": "Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
   "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
 
   "i18n-eff-title": "Trete in Aktion gegen PRISM im <strong>Electronic Frontier Foundation</strong> Action Center.",
@@ -300,6 +302,6 @@
   "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust.",
 
   "i18n-privacy-policy": "Datenschutzrichtlinie (englisch)",
-
+  "i18n-license": "Lizenz",
   "i18n-site-license": "<p>Der Quellcode und Inhalt von PRISM Break steht unter der <a href='https://www.gnu.org/licenses/gpl-3.0.de.html'>GNU GPL v3 Lizenz</a>.</p><p>jQuery v1.10.1, jPanelMenu, stylus und nib stehen unter der MIT-Lizenz.</p><p>Die Logos und Bilder sind eingetragene Markenzeichen ihrer entsprechenden Firmen.</p>"
 }
