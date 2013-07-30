@@ -42,6 +42,7 @@
 
   "i18n-web-search": "Websuche",
   "i18n-duckduckgo-desc": "Anonyme, aufzeichnungsfreie Websuchen.",
+  "i18n-metager-desc": "Meta-Suchmaschine, die Deine Suchanfrage an verschiedene Suchanbieter weiterleitet.",
   "i18n-startpage-desc": "Private, aufzeichnungsfreie Websuchen.",
   "i18n-seeksproject-desc": "Offene, dezentrale Plattform für kollaborative Suche.",
   "i18n-yacy-desc": "Dezentralisierte Websuche.",
@@ -261,7 +262,7 @@
 
   "i18n-web-browser-addons-note": "<p>Schütze Deine Privatsphäre, in dem Du Adblock Edge, Disconnect, HTTPS Everywhere, und NoScript für Deinen Browser installierst.</p> <p>Warum nicht Adblock Plus?<br>Adblock Plus zeigt &ldquo;unaufdringliche Werbung&rdquo; standardmäßig an.</p> <p>Warum nicht Ghostery?<br>Ghostery ist ein proprietäres Add-On. Benutze stattdessen <strong>Disconnect</strong>.</p>",
 
-  "i18n-web-search-note": "<p><strong>Startpage</strong> ist proprietär, wird in den USA/Niederlanden gehostet und versorgt Dich mit anonymisierten Google-Suchergebnissen (inklusive Bildern).</p><p><strong>DuckDuckGo</strong> ist teilweise proprietär, wird in den USA gehostet und versorgt Dich mit anonymisierten Suchergebnissen von verschiedenen Anbietern.</p><p>Wähle das kleinere Übel.</p>",
+  "i18n-web-search-note": "<p><strong>DuckDuckGo</strong> ist ein weltweit gehosteter Software-as-a-Service (SaaS), der Dir anonyme Suchresultate von <a href='http://help.dukgo.com/customer/portal/articles/216399-sources'>diesen Quellen</a> generiert. Die quelloffenen Bestandteile von DDG sind <a href='https://github.com/duckduckgo'>hier verfügbar</a>.</p><p><strong>MetaGer</strong> ist ein SaaS, den der deutschen Verein <a href='http://www.suma-ev.de'>SUMA e.V.</a> betreibt. Er bietet Dir anonyme Meta-Suchresultate.</p><p><strong>Startpage</strong> ist ein SaaS, der in den USA und den Niederlanden betrieben wird. Er stellt Dir anonyme Google- und Bildsuchergebnisse durch einen freien Proxy bereit.</p><p><a href='https://www.ixquick.com/'>Ixquick</a> (von der selben Firma, die Startpage bereitstellt) ist eine Meta-Suchmaschine, die zusammengefasste Ergebnisse von fast 100 Quellen - außer Google - liefert.</p><p><strong>YaCy</strong> ist ein vielversprechendes Projekt, das volldezentralisierte P2P-Suchen bietet. Je mehr Anwender es nutzen, desto besser werden die Suchresultate.</p>",
 
   "i18n-email-service-note": "<p><strong>Riseup</strong> wird in den USA gehostet.</p><p>Warum nicht Hushmail?<br>Lese hierzu: <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;Gefährdung Deiner Privatsphäre&rdquo; (engl.)</a>.</p>",
 
