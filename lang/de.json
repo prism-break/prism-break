@@ -77,7 +77,7 @@
   "i18n-services": "DIENSTE",
   "i18n-autistici-desc": "Eine ganze Reihe von kostenfreien, privatsphärebewussten Diensten.",
   "i18n-bitmessage-desc": "Verschlüsselter, dezentralisierter Mailserver.",
-  "i18n-riseup-desc": "Sichere und private Mailaccounts.",
+  "i18n-riseup-desc": "Sichere und private Mailkonten.",
   "i18n-tormail-desc": "Tor Mail ist ein freier und anonymer E-Mail-Provider.",
   "i18n-kolab-desc": "Groupware Server für E-Mail, Kalender, Kontakte und Synchronisierung mit mobilen Geräten.",
   "i18n-mykolabcom-desc": "Sichere Kolab-Konten aus der Schweiz.",
@@ -217,7 +217,7 @@
   "i18n-usa-hosted": "US-Betreiber",
   "i18n-media": "Medienresonanz",
 
-  "i18n-fsf-definition-title": "* Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
+  "i18n-fsf-definition-title": "Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
   "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
 
   "i18n-eff-title": "Trete in Aktion gegen PRISM im <strong>Electronic Frontier Foundation</strong> Action Center.",
@@ -302,6 +302,6 @@
   "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust.",
 
   "i18n-privacy-policy": "Datenschutzrichtlinie (englisch)",
-
+  "i18n-license": "Lizenz",
   "i18n-site-license": "<p>Der Quellcode und Inhalt von PRISM Break steht unter der <a href='https://www.gnu.org/licenses/gpl-3.0.de.html'>GNU GPL v3 Lizenz</a>.</p><p>jQuery v1.10.1, jPanelMenu, stylus und nib stehen unter der MIT-Lizenz.</p><p>Die Logos und Bilder sind eingetragene Markenzeichen ihrer entsprechenden Firmen.</p>"
 }
