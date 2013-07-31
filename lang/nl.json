@@ -1,24 +1,24 @@
 {
   "i18n-title": "Opt out voor wereldwijde datatoezichtsprogramma&rsquo;s  als PRISM en Tempora - PRISM Break",
-  "i18n-meta-description": "Opt out voor wereldwijde datatoezichtsprogramma's zoals NSA&rsquo;s PRISM en GCHQ&rsquo;s Tempora. Stop met het doorgeven van online activiteiten aan overheden met deze gratis alternatieven voor gesloten software.",
-  "i18n-intro": "<strong>Opt out voor wereldwijde datatoezichtsprogramma's zoals NSA&rsquo;s <a href='https://nl.wikipedia.org/wiki/PRISM'>PRISM</a> en GCHQ&rsquo;s <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop met het doorgeven van online activiteiten aan overheden met deze gratis alternatieven voor gesloten software.",
+  "i18n-meta-description": "Opt out voor wereldwijde datatoezichtsprogramma's zoals PRISM, X-Keyscore en Tempora. Stop met het doorgeven van online activiteiten aan overheden met deze gratis alternatieven voor gesloten software.",
+  "i18n-intro": "<strong>Opt out voor wereldwijde datatoezichtsprogramma's zoals <a href='https://nl.wikipedia.org/wiki/PRISM'>PRISM</a>, <a href='https://en.wikipedia.org/wiki/X-Keyscore'>X-Keyscore</a> en <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop met het doorgeven van online activiteiten aan overheden met deze gratis alternatieven voor gesloten software.",
 
-  "i18n-proprietary": "In eigendomsbezit",
+"i18n-proprietary": "In eigendomsbezit",
   "i18n-free-alternative": "Vrije alternatieven",
   "i18n-notes": "Opmerkingen",
 
   "i18n-operating-system": "Besturingssysteem",
   "i18n-debian-desc": "Populaire ethische GNU/Linux distributie.",
   "i18n-fedora-desc": "Snelle, stabiele en krachtige GNU/Linux distributie.",
-  "i18n-gentoo-desc": "GNU/Linux distribution about choice, control and security.",
-  "i18n-gnewsense-desc": "Fully free software GNU/Linux distribution based on Debian.",
+  "i18n-gentoo-desc": "GNU/Linux distributie over keuze, controle en veiligheid.",
+  "i18n-gnewsense-desc": "Volledig vrije GNU/Linux distributie gebaseerd op Debian.",
   "i18n-linuxmint-desc": "Comfortabele en gemakkelijk te gebruiken GNU/Linux distributie.",
-  "i18n-opensuse-desc": "Stable, easy-to-use multi-purpose GNU/Linux distribution.",
+  "i18n-opensuse-desc": "Stabiele, makkelijk te gebruiken GNU/Linux distributie.",
   "i18n-parabola-desc": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.",
   "i18n-trisquel-desc": "FSF goedgekeurde, gebruiksvriendelijke GNU/Linux distributie.",
   "i18n-qubes-desc": "Fedora/Xen-gebaseerd besturingssysteem ontworpen om sterke beveiliging te leveren met behulp van isolatie.",
-  "i18n-openbsd-desc": "A secure BSD operating system.",
-  "i18n-freebsd-desc": "A free BSD-derived operating system.",
+  "i18n-openbsd-desc": "Een veilig BSD besturingssysteem.",
+  "i18n-freebsd-desc": "Een vrij BSD-afgeleid besturingssysteem.",
   "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are allegedly a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA. This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p><p class='hideable'>GNU/Linux has a much larger community to help you with the transition. It&rsquo;s recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p><p><strong>Debian</strong> has a long tradition of software freedom. Contributers have to sign a social contract and adhere to the ethical manifesto. Strict inclusion guidelines make sure that only certified open source software gets packaged in the main repositories.</p><p><strong>Gentoo</strong> describes itself as a meta-distribution. The source code is compiled to binary applications on the user's machine allowing near-unlimited adaptability and complete retraceability of the program logic.</p><p><strong>Linux Mint</strong> Debian Edition (LMDE) is probably the easiest-to-use distribution for people migrating from Microsoft Windows.</p><p class='hideable'>Both <strong>Fedora</strong> and <strong>openSUSE</strong> are community editions that serve as the stable basis for enterprise ready GNU/Linux distributions with commercial support. Companies all over the world trust Red Hat Inc. and SUSE Linux GmbH because of their transparency throughout the whole development process.</p><p class='hideable'><strong>Parabola</strong> GNU/Linux is effectively 99% <a href='https://www.archlinux.org/'>Arch Linux</a> with a <a href='https://en.wikipedia.org/wiki/Binary_blob'>de-blobbed</a> kernel and a meta-package that blocks unfree licenses. Both of these features can be installed under Arch.</p><p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default. GNU/Linux distributions based on Ubuntu are also currently not recommended due to <a href='https://github.com/nylira/prism-break/issues/334'>several other reasons.</a></p><p class='hideable'>Note that <strong>gNewSense</strong> 2.3 is three years old and based on Ubuntu. You should use gNewSense 3.0 (based on Debian) instead.</p>",
 
   "i18n-live-cd-title": "Live CDs &amp; VM images",
@@ -40,7 +40,7 @@
   "i18n-ios-no-alt-desc": "Vervang de telefoon&mdash;iOS heeft geen vrije alternatief.",
 
   "i18n-web-browser": "Webbrowser",
-  "i18n-torbrowser-desc": "Versleuteld, anoniem surfen ober het Tor netwerk.",
+  "i18n-torbrowser-desc": "Versleuteld, anoniem surfen over het Tor netwerk.",
   "i18n-firefox-desc": "Snelle, flexibele en veilige webbrowser met een groot scala aan plugins.",
   "i18n-icecat-desc": "GNU versie van Firefox met een grote hoeveelheid vrije plugins en extra privacy functies.",
   "i18n-orbot-desc": "Tor proxy voor Android.",
@@ -56,6 +56,7 @@
 
   "i18n-web-search": "Zoekmachines",
   "i18n-duckduckgo-desc": "Anonieme, niet opgeslagen zoekopdrachten.",
+  "i18n-metager-desc": "Meta zoekmachine die je zoekopdracht via proxies doorstuurt naar meerdere zoekmachines.",
   "i18n-seeksproject-desc": "Open decentraal platform voor gezamenlijk zoeken.",
   "i18n-startpage-desc": "Priv&eacute;, niet opgeslagen zoekopdrachten.",
   "i18n-yacy-desc": "Decentraal zoeken.",
@@ -155,6 +156,12 @@
   "i18n-zenphoto-desc": "Vrije media website CMS.",
   "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.",
 
+  "i18n-online-transactions": "Online transacties",
+  "i18n-bitcoin-desc": "P2P digitale munteenheid zonder centrale autoriteit.",
+  "i18n-cryptocoins-title": "Alternatieve versleutelde valuta",
+  "i18n-cryptocoins-desc": "Lijst met alternatieve versleutelde online munteenheden.",
+  "i18n-online-transactions-note": "<p>Leer meer over <strong>Bitcoin</strong> en start met je eerste gratis portemonnee op <a href='https://www.weusecoins.com/en/'>We Use Coins</a>.</p>",
+
   "i18n-digital-distribution": "Digitale distributie",
   "i18n-desurium-desc": "Vrije open source client voor de Desura distributie service.",
   "i18n-digital-distribution-note": "<p><strong>Desurium</strong> is alleen de client. Je moet nog steeds vertrouwen op en gebruik maken van de in eigendomsbezit zijnde <a href='http://www.desura.com'>desura service</a>.</p>",
@@ -165,12 +172,6 @@
   "i18n-openswan-desc": "Vrije software VPN client afgeleid van FreeS/WAN.",
   "i18n-strongswan-desc": "Vrije software VPN client afgeleid van FreeS/WAN.",
   "i18n-vpn-client-note": "--",
-
-  "i18n-online-transactions": "Online transacties",
-  "i18n-bitcoin-desc": "P2P digitale munteenheid zonder centrale autoriteit.",
-  "i18n-cryptocoins-title": "Alternatieve versleutelde valuta",
-  "i18n-cryptocoins-desc": "Lijst met alternatieve versleutelde online munteenheden.",
-  "i18n-online-transactions-note": "<p>Leer meer over <strong>Bitcoin</strong> en start met je eerste gratis portemonnee op <a href='https://www.weusecoins.com/en/'>We Use Coins</a>.</p>",
 
   "i18n-web-analytics": "Webstatistieken",
   "i18n-piwik-desc": "Open source, zelfgehoste webstatistieken.",
@@ -214,6 +215,7 @@
 
   "i18n-service": "Service",
   "i18n-software": "Software",
+  "i18n-p2p-software": "Peer-to-peer software",
 
   "i18n-advanced": "geavanceerd",
   "i18n-experimental": "experimenteel",
@@ -227,7 +229,7 @@
   "i18n-most-stable": "meest stabiel",
   "i18n-most-popular": "meest populair",
   "i18n-most-advanced": "meest geavanceerde functies",
-  "i18n-most-paranoid": "most paranoide",
+  "i18n-most-paranoid": "meest paranoïde",
 
   "i18n-fsf-definition-title": "*Deze website gebruikt de <strong>Free Software Foundation&rsquo;s</strong> definitie van vrije software.",
   "i18n-fsf-quote": "&ldquo;Vrije software&rdquo; is software die de vrijheid en gemeenschap van de gebruiker respecteert. Ruwweg betekent dit <strong>dat de gebruiker de vrijheid heeft om de software te gebruiken, kopi&euml;ren, verspreiden, ervan leren, veranderen en verbeteren</strong>. Deze vrijheden zorgen ervoor dat de gebruiker controle heeft over het programma en wat het voor hem doet.",
