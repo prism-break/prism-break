@@ -12,10 +12,11 @@
   "i18n-fedora-desc": "Vakaa, nopea ja tehokas GNU/Linux-jakelu.",
   "i18n-gentoo-desc": "Distribution about choice, control and security.",
   "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
+  "i18n-trisquel-desc": "FSF-järjestön hyväksymä ja käyttäjäystävällinen GNU/Linux-jakelu.",
+  
   "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
   "i18n-tails-desc": "CD-levyltä tai USB-tikulta suoritettava ja yksityisyyttä arvostava käyttöjärjestelmä.",
-  "i18n-trisquel-desc": "FSF-järjestön hyväksymä ja käyttäjäystävällinen GNU/Linux-jakelu.",
-
+  
   "i18n-web-browser": "Verkkoselain",
   "i18n-icecat-desc": "Firefoxin GNU-versio.",
   "i18n-firefox-desc": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
@@ -68,7 +69,8 @@
   "i18n-kontact-desc": "KDE-sähköpostiohjelmalla GPG-tuella.",
   "i18n-sylpheed-desc": "Lightweight and user-friendly e-mail client.",
   "i18n-thunderbird-desc": "Avoimen lähdekoodin sähköpostisovellus.",
-
+  "i18n-email-client-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p><p><a href='https://en.wikipedia.org/wiki/Icedove'>Find out more</a> about the differences between <strong>Mozilla Thunderbird</strong> and <strong>Icedove</strong>.",
+  
   "i18n-email-encryption": "Sähköpostin salaus",
   "i18n-enigmail-desc": "OpenPGP-lisäosa Thunderbirdille ja Icedovelle.",
   "i18n-gnuprivacyguard-desc": "Vapaa OpenPGP-toteutus.",
