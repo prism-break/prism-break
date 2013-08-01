@@ -1,24 +1,24 @@
 {
   "i18n-title": "Opt out voor wereldwijde datatoezichtsprogramma&rsquo;s  als PRISM en Tempora - PRISM Break",
-  "i18n-meta-description": "Opt out voor wereldwijde datatoezichtsprogramma's zoals NSA&rsquo;s PRISM en GCHQ&rsquo;s Tempora. Stop met het doorgeven van online activiteiten aan overheden met deze gratis alternatieven voor gesloten software.",
-  "i18n-intro": "<strong>Opt out voor wereldwijde datatoezichtsprogramma's zoals NSA&rsquo;s <a href='https://nl.wikipedia.org/wiki/PRISM'>PRISM</a> en GCHQ&rsquo;s <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop met het doorgeven van online activiteiten aan overheden met deze gratis alternatieven voor gesloten software.",
+  "i18n-meta-description": "Opt out voor wereldwijde datatoezichtsprogramma's zoals PRISM, XKeyscore en Tempora. Stop datatoezichtsprogramma's van overheden door je communicatie te versleutelen en een einde te maken aan je afhankelijkheid van eigendomsmatige diensten.",
+  "i18n-intro": "<strong>Opt out voor wereldwijde datatoezichtsprogramma's zoals <a href='https://nl.wikipedia.org/wiki/PRISM'>PRISM</a>, <a href='https://nl.wikipedia.org/wiki/XKeyscore'>XKeyscore</a> en <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop datatoezichtsprogramma's van overheden door je communicatie te versleutelen en een einde te maken aan je afhankelijkheid van eigendomsmatige diensten.",
 
-  "i18n-proprietary": "In eigendomsbezit",
+"i18n-proprietary": "In eigendomsbezit",
   "i18n-free-alternative": "Vrije alternatieven",
   "i18n-notes": "Opmerkingen",
 
   "i18n-operating-system": "Besturingssysteem",
   "i18n-debian-desc": "Populaire ethische GNU/Linux distributie.",
   "i18n-fedora-desc": "Snelle, stabiele en krachtige GNU/Linux distributie.",
-  "i18n-gentoo-desc": "GNU/Linux distribution about choice, control and security.",
-  "i18n-gnewsense-desc": "Fully free software GNU/Linux distribution based on Debian.",
+  "i18n-gentoo-desc": "GNU/Linux distributie over keuze, controle en veiligheid.",
+  "i18n-gnewsense-desc": "Volledig vrije GNU/Linux distributie gebaseerd op Debian.",
   "i18n-linuxmint-desc": "Comfortabele en gemakkelijk te gebruiken GNU/Linux distributie.",
-  "i18n-opensuse-desc": "Stable, easy-to-use multi-purpose GNU/Linux distribution.",
-  "i18n-parabola-desc": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.",
+  "i18n-opensuse-desc": "Stabiele, makkelijk te gebruiken GNU/Linux distributie.",
+  "i18n-parabola-desc": "Vrije, lichtgewicht en flexibele GNU/Linux distributie gebaseerd op Arch Linux.",
   "i18n-trisquel-desc": "FSF goedgekeurde, gebruiksvriendelijke GNU/Linux distributie.",
   "i18n-qubes-desc": "Fedora/Xen-gebaseerd besturingssysteem ontworpen om sterke beveiliging te leveren met behulp van isolatie.",
-  "i18n-openbsd-desc": "A secure BSD operating system.",
-  "i18n-freebsd-desc": "A free BSD-derived operating system.",
+  "i18n-openbsd-desc": "Een veilig BSD besturingssysteem.",
+  "i18n-freebsd-desc": "Een vrij BSD-afgeleid besturingssysteem.",
   "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are allegedly a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA. This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p><p class='hideable'>GNU/Linux has a much larger community to help you with the transition. It&rsquo;s recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p><p><strong>Debian</strong> has a long tradition of software freedom. Contributers have to sign a social contract and adhere to the ethical manifesto. Strict inclusion guidelines make sure that only certified open source software gets packaged in the main repositories.</p><p><strong>Gentoo</strong> describes itself as a meta-distribution. The source code is compiled to binary applications on the user's machine allowing near-unlimited adaptability and complete retraceability of the program logic.</p><p><strong>Linux Mint</strong> Debian Edition (LMDE) is probably the easiest-to-use distribution for people migrating from Microsoft Windows.</p><p class='hideable'>Both <strong>Fedora</strong> and <strong>openSUSE</strong> are community editions that serve as the stable basis for enterprise ready GNU/Linux distributions with commercial support. Companies all over the world trust Red Hat Inc. and SUSE Linux GmbH because of their transparency throughout the whole development process.</p><p class='hideable'><strong>Parabola</strong> GNU/Linux is effectively 99% <a href='https://www.archlinux.org/'>Arch Linux</a> with a <a href='https://en.wikipedia.org/wiki/Binary_blob'>de-blobbed</a> kernel and a meta-package that blocks unfree licenses. Both of these features can be installed under Arch.</p><p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default. GNU/Linux distributions based on Ubuntu are also currently not recommended due to <a href='https://github.com/nylira/prism-break/issues/334'>several other reasons.</a></p><p class='hideable'>Note that <strong>gNewSense</strong> 2.3 is three years old and based on Ubuntu. You should use gNewSense 3.0 (based on Debian) instead.</p>",
 
   "i18n-live-cd-title": "Live CDs &amp; VM images",
@@ -31,7 +31,7 @@
   "i18n-cyanogenmod-desc": "Aftermarket firmware voor Android smartphones.",
   "i18n-replicant-desc": "Volledig vrije Android distributie.",
   "i18n-fdroid-desc": "Vrij and open source alternatief voor de Google Play app store voor Android.",
-  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p>If <strong>Replicant</strong> supports your <a href='http://replicant.us/supported-phones/'>Android device</a>, you should definitely use it instead of Cyanogenmod, as Replicant is fully free and runs without relying on proprietary system code.</p>",
+  "i18n-android-note": "<p><strong>CyanogenMod</strong> licentie: &ldquo;CyanogenMod bevat nog steeds hardware-specifieke code, welke langzaam wordt uitgebracht als open source.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p>Als <strong>Replicant</strong> je <a href='http://replicant.us/supported-phones/'>Android apparaat</a> ondersteund, moet je dit gebruiken in plaats van Cyanogenmod, sinds Replicant volledig vrij is en niet afhankelijk van eigendomsmatige software.</p>",
 
   "i18n-ios": "iOS",
   "i18n-ios-insecure-title": "iOS is niet veilig",
@@ -40,7 +40,7 @@
   "i18n-ios-no-alt-desc": "Vervang de telefoon&mdash;iOS heeft geen vrije alternatief.",
 
   "i18n-web-browser": "Webbrowser",
-  "i18n-torbrowser-desc": "Versleuteld, anoniem surfen ober het Tor netwerk.",
+  "i18n-torbrowser-desc": "Versleuteld, anoniem surfen over het Tor netwerk.",
   "i18n-firefox-desc": "Snelle, flexibele en veilige webbrowser met een groot scala aan plugins.",
   "i18n-icecat-desc": "GNU versie van Firefox met een grote hoeveelheid vrije plugins en extra privacy functies.",
   "i18n-orbot-desc": "Tor proxy voor Android.",
@@ -52,15 +52,16 @@
   "i18n-disconnect-desc": "Visualiseer en blokkeer onzichtbare tracking van je zoek- en surfgeschiedenis.",
   "i18n-noscript-desc": "Schakel JavaScript, Java, en Flash alleen in voor sites die je vertrouwd.",
   "i18n-requestpolicy-desc": "Regel welke cross-site aanvragen van de sites die je bezoekt worden toegestaan.",
-  "i18n-web-browser-addons-note": "<p>Safeguard your browsing habits and stop advertising companies from tracking you by installing <strong>Adblock Edge</strong>, <strong>Disconnect</strong>, and <strong>HTTPS Everywhere</strong> in <strong>Mozilla Firefox</strong>, <strong>GNUzilla IceCat</strong>, or Debian&rsquo;s IceWeasel.</p><p>Why is Adblock Plus not recommended? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, which works against the purpose of the add-on. Either disable acceptable ads or use the <strong>Adblock Edge</strong> fork instead.</p><p><a href='https://www.ghostery.com/'>Ghostery</a> is an alternative anti-tracker add-on to <strong>Disconnect</strong>. While the code is available, the license is currently proprietary.</p>",
+  "i18n-web-browser-addons-note": "<p>Bescherm je browse gewoontes en stop advertentiebedrijven met het volgen van jou door <strong>Adblock Edge</strong>, <strong>Disconnect</strong>, en <strong>HTTPS Everywhere</strong> in <strong>Mozilla Firefox</strong>, <strong>GNUzilla IceCat</strong>, of Debian&rsquo;s IceWeasel te installeren.</p><p>Waarom is Adblock Plus niet aangeraden? Adblock Plus laat standaard &ldquo;acceptabele advertenties&rdquo; zien, wat tegen het nut van de plugin in werkt. Schakel acceptabele advertenties uit of gebruik in plaats van de <strong>Adblock Edge</strong> fork.</p><p><a href='https://www.ghostery.com/'>Ghostery</a> is een alternatieve anti-tracker plugin voor <strong>Disconnect</strong>. De code is beschikbaar, maar de licentie is op dit moment nog eigendomsmatig.</p>",
 
   "i18n-web-search": "Zoekmachines",
   "i18n-duckduckgo-desc": "Anonieme, niet opgeslagen zoekopdrachten.",
+  "i18n-metager-desc": "Meta zoekmachine die je zoekopdracht via proxies doorstuurt naar meerdere zoekmachines.",
   "i18n-seeksproject-desc": "Open decentraal platform voor gezamenlijk zoeken.",
   "i18n-startpage-desc": "Priv&eacute;, niet opgeslagen zoekopdrachten.",
   "i18n-yacy-desc": "Decentraal zoeken.",
-  "i18n-web-search-note": "<p><strong>DuckDuckGo</strong> is gedeeltelijk gesloten, gehost in de VS, en levert je geanonimiseerde zoekresultaten uit <a href='http://help.dukgo.com/customer/portal/articles/216399-sources'>deze bronnen</a>.</p><p><strong>Startpage</strong>.</p><p><strong>Startpage</strong> is gesloten, gehost in de VS/Nederland, en levert je geanonimiseerde Google zoekresultaten (inclusief afbeeldingen).</p>",
-
+  "i18n-web-search-note": "<p><strong>DuckDuckGo</strong> is a software-as-a-service (SaaS) hosted around the world that provides you with anonymous search results from <a href='http://help.dukgo.com/customer/portal/articles/216399-sources'>these sources</a>. DDG open source components are <a href='https://github.com/duckduckgo'>available here</a>.</p><p><strong>MetaGer</strong> is a SaaS by the German non-profit <a href='http://www.suma-ev.de/en/index.html'>SUMA e.V.</a> that provides you with anonymous meta search results.</p><p><strong>Startpage</strong> is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy.</p><p><a href='https://www.ixquick.com/'>Ixquick</a> (run by the same company as Startpage) is a meta search engine that returns combined results from nearly 100 sources - excluding Google.</p><p><strong>YaCy</strong> is a promising project that offers fully decentralized peer-to-peer search. The more people who start using it, the better the results will become.</p>",
+  
   "i18n-maps": "Kaarten",
   "i18n-openstreetmap-desc": "Vrije wereldkaart.",
   "i18n-marble-desc": "Vrije virtuele wereldbol en wereldatlas.",
@@ -73,8 +74,8 @@
   "i18n-mykolabcom-desc": "Kolab accounts gehost in Zwitzerland.",
   "i18n-posteo-desc": "Versleutelde en anonieme e-mail, kalender en adresboek service voor &euro;1 per maand.",
   "i18n-riseup-desc": "Veilige communicatiemiddelen voor activisten.",
-  "i18n-email-service-note": "<p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the strong Swiss privacy laws. It is run with free software and lets you export all your data.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p><p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p>The only way to have full control over your email is to run your own mail server (e.g. with <strong>Kolab</strong>). This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>",
-
+  "i18n-email-service-note": "<p><strong>Important:</strong> switching from Gmail to one of the recommended services is only the first step to a secure email account. You&rsquo;re still sending plain text messages. You and your contacts need to encrypt your messages with <a href='#email-encryption'>PGP</a>. Scroll down to find an <a href='#email-client'>email client</a> that supports PGP.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the strong Swiss privacy laws. It is run with free software and lets you export all your data.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p><p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p>The only way to have full control over your email is to run your own mail server (e.g. with <strong>Kolab</strong>). This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>",
+  
   "i18n-email-client": "E-mail applicaties",
   "i18n-thunderbird-desc": "Open source e-mail applicatie.",
   "i18n-clawsmail-desc": "Lichtgewicht e-mail applicatie met GnuPG ondersteuning.",
@@ -94,7 +95,7 @@
   "i18n-openpgpjs-desc": "OpenPGP bibliotheek geimplementeerd in JavaScript.",
   "i18n-webpg-desc": "GnuPG/PGP in je webbrowser.",
   "i18n-apg-desc": "OpenPGP implementatie voor Android.",
-  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (lett: aardig goede privacy) wordt meestal afgekort tot PGP en is één van de veel gebruikte vercijferingsmethodes op internet. De standaard die aan PGP ontsproten is wordt thans OpenPGP genoemd en er zijn tegenwoordig vele programma's, zowel commercieel als open source, die deze standaard implementeren en ook grotendeels onderling compatibel zijn.&rdquo;</p><p>&mdash; <a href='https://nl.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
+  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (lett: aardig goede privacy) wordt meestal afgekort tot PGP en is één van de veel gebruikte vercijferingsmethodes op internet. De standaard die aan PGP ontsproten is wordt thans OpenPGP genoemd en er zijn tegenwoordig vele programma's, zowel commercieel als open source, die deze standaard implementeren en ook grotendeels onderling compatibel zijn.&rdquo;</p><p>&mdash; <a href='https://nl.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></p><p>PRISM Break raadt S/MIME e-mail encryptie niet aan  omdat het afhankelijk is van third-party certificaten van centrale autioriteiten. Lees meer <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>hier</a>.</p>",
   
   "i18n-instant-messaging": "Instant messaging",
   "i18n-pidgin-desc": "Open source chatprogramma.",
@@ -117,8 +118,8 @@
   "i18n-mumble-desc": "Versleutelde spraak communicatie met lage vertraging.",
   "i18n-redphone-desc": "Veilige priv&eacute;gesprekken voor Android.",
   "i18n-csipsimple-desc": "Vrije, versleutelde VoIP voor Android.",
-  "i18n-video-voip-note": "<p><strong>Jitsi</strong> is een versleutelde vervanger voor bijna alle taken waarvoor Skype gebruikt kan worden.</p><p><strong>Mumble</strong> is een open source spraak chat client net zoals Ventrilo en TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is een nieuwe, veelbelovende browser naar browser communicatie API.",
-
+  "i18n-video-voip-note": "<p><strong>Jitsi</strong> is een versleutelde vervanger voor bijna alle taken waarvoor Skype gebruikt kan worden.</p><p>Let erop dat Jitsi <a href='https://github.com/nylira/prism-break/issues/291'>niet-veilige informatie zou kunnen opvragen tijdens versleutelde chat</a> als je er een link in plakt. Ook als je Jitsi configureert om Tor te gebruiken, zou het <a href='https://trac.jitsi.org/ticket/1060'>DNS informatie kunnen lekken</a> door niet gebruik te maken van Tor voor DNS resolution.</p><p>Linphone, een alternatief voor <strong>Jitsi</strong>, heeft momenteel <a href='http://blog.azimuthsecurity.com/2013/06/attacking-crypto-phones-weaknesses-in.html'>onopgeloste kwetsbaarheden</a>.</p>",
+  
   "i18n-social-networking": "Sociale netwerken",
   "i18n-pumpio-desc": "Zelfgehost sociale stream server.",
   "i18n-buddycloud-desc": "Open source, federaal sociaal netwerk.",
@@ -130,7 +131,7 @@
   "i18n-retroshare-desc": "Vrij en veilig P2P communicatieplatform.",
   "i18n-salutatoi-desc": "Multi-frontend, multifunctionele communicatietool.",
   "i18n-tent-desc": "Vrij, autonoom sociaal netwerk protocol.",
-  "i18n-social-networking-note": "<p>If you have system administration knowledge, please strongly consider running an instance of <strong>pump.io</strong> (or something else) for your friends, family, or favorite community. Many of them would be willing and grateful to escape Facebook if you provide them a way out.</p><p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>",
+  "i18n-social-networking-note": "<p>Als je ervaring hebt met systeemadministratie, denk er dan over na om een installatie van <strong>pump.io</strong> (of iets anders) te draaien voor je vrienden, familie of je favoriete gemeenschap. Veel zullen Facebook willen ontsnappen en je dankbaar zijn als je ze een alternatief geeft.</p><p>Voor degene zonder eigen server, <strong>RetroShare</strong> is de makkelijkste manier om je eigen versleutelde sociale netwerk te beginnen.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is een populaire Twitter-achtige sociale netwerk hub voor de vrije en open source software gemeenschap. De website wordt ergens deze week omgezet naar het <strong>pump.io</strong> software platform.</p>",
 
   "i18n-cloud-storage": "Online opslag",
   "i18n-gitannex-desc": " Synchroniseert mappen op al je computers &amp; harddisks.",
@@ -155,6 +156,12 @@
   "i18n-zenphoto-desc": "Vrije media website CMS.",
   "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.",
 
+  "i18n-online-transactions": "Online transacties",
+  "i18n-bitcoin-desc": "P2P digitale munteenheid zonder centrale autoriteit.",
+  "i18n-cryptocoins-title": "Alternatieve versleutelde valuta",
+  "i18n-cryptocoins-desc": "Lijst met alternatieve versleutelde online munteenheden.",
+  "i18n-online-transactions-note": "<p>Leer meer over <strong>Bitcoin</strong> en start met je eerste gratis portemonnee op <a href='https://www.weusecoins.com/en/'>We Use Coins</a>.</p>",
+
   "i18n-digital-distribution": "Digitale distributie",
   "i18n-desurium-desc": "Vrije open source client voor de Desura distributie service.",
   "i18n-digital-distribution-note": "<p><strong>Desurium</strong> is alleen de client. Je moet nog steeds vertrouwen op en gebruik maken van de in eigendomsbezit zijnde <a href='http://www.desura.com'>desura service</a>.</p>",
@@ -166,12 +173,6 @@
   "i18n-strongswan-desc": "Vrije software VPN client afgeleid van FreeS/WAN.",
   "i18n-vpn-client-note": "--",
 
-  "i18n-online-transactions": "Online transacties",
-  "i18n-bitcoin-desc": "P2P digitale munteenheid zonder centrale autoriteit.",
-  "i18n-cryptocoins-title": "Alternatieve versleutelde valuta",
-  "i18n-cryptocoins-desc": "Lijst met alternatieve versleutelde online munteenheden.",
-  "i18n-online-transactions-note": "<p>Leer meer over <strong>Bitcoin</strong> en start met je eerste gratis portemonnee op <a href='https://www.weusecoins.com/en/'>We Use Coins</a>.</p>",
-
   "i18n-web-analytics": "Webstatistieken",
   "i18n-piwik-desc": "Open source, zelfgehoste webstatistieken.",
   "i18n-owa-desc": "Alternatieve open source webstatistieken.", 
@@ -179,7 +180,7 @@
 
   "i18n-dns-provider": "DNS provider",
   "i18n-namecoin-desc": "Gedistribueerde DNS gebaseerd op de technologie van Bitcoin.",
-  "i18n-dns-provider-note": "<p>Google Public DNS logt je ISP en locatie informatie permanent voor analyse. Je IP adres wordt ook opgeslagen voor 24 uur.</p><p><strong>OpenNIC</strong> heeft geen officiele policy aangaande log query privacy / anonimisatie. Meer informatie <a href='http://wiki.opennicproject.org/Tier2'>hier</a>.</p>",
+  "i18n-dns-provider-note": "<p>Google Public DNS logt je ISP en locatie informatie permanent voor analyse. Je IP adres wordt ook opgeslagen voor 24 uur.</p><p><strong>OpenNIC</strong> heeft geen officiële policy aangaande log query privacy / anonimisatie. Meer informatie <a href='http://wiki.opennicproject.org/Tier2'>hier</a>.</p>",
 
   "i18n-anon-networks": "Anonymizing network",
   "i18n-freenet-desc": "Decentraal censuur-bestendig netwerk.",
@@ -214,6 +215,7 @@
 
   "i18n-service": "Service",
   "i18n-software": "Software",
+  "i18n-p2p-software": "Peer-to-peer software",
 
   "i18n-advanced": "geavanceerd",
   "i18n-experimental": "experimenteel",
@@ -227,7 +229,7 @@
   "i18n-most-stable": "meest stabiel",
   "i18n-most-popular": "meest populair",
   "i18n-most-advanced": "meest geavanceerde functies",
-  "i18n-most-paranoid": "most paranoide",
+  "i18n-most-paranoid": "meest paranoïde",
 
   "i18n-fsf-definition-title": "*Deze website gebruikt de <strong>Free Software Foundation&rsquo;s</strong> definitie van vrije software.",
   "i18n-fsf-quote": "&ldquo;Vrije software&rdquo; is software die de vrijheid en gemeenschap van de gebruiker respecteert. Ruwweg betekent dit <strong>dat de gebruiker de vrijheid heeft om de software te gebruiken, kopi&euml;ren, verspreiden, ervan leren, veranderen en verbeteren</strong>. Deze vrijheden zorgen ervoor dat de gebruiker controle heeft over het programma en wat het voor hem doet.",
