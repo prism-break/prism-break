@@ -31,7 +31,7 @@
   "i18n-cyanogenmod-desc": "Aftermarket firmware voor Android smartphones.",
   "i18n-replicant-desc": "Volledig vrije Android distributie.",
   "i18n-fdroid-desc": "Vrij and open source alternatief voor de Google Play app store voor Android.",
-  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p>If <strong>Replicant</strong> supports your <a href='http://replicant.us/supported-phones/'>Android device</a>, you should definitely use it instead of Cyanogenmod, as Replicant is fully free and runs without relying on proprietary system code.</p>",
+  "i18n-android-note": "<p><strong>CyanogenMod</strong> licentie: &ldquo;CyanogenMod bevat nog steeds hardware-specifieke code, welke langzaam wordt uitgebracht als open source.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p>Als <strong>Replicant</strong> je <a href='http://replicant.us/supported-phones/'>Android apparaat</a> ondersteund, moet je dit gebruiken in plaats van Cyanogenmod, sinds Replicant volledig vrij is en niet afhankelijk van eigendomsmatige software.</p>",
 
   "i18n-ios": "iOS",
   "i18n-ios-insecure-title": "iOS is niet veilig",
@@ -52,7 +52,7 @@
   "i18n-disconnect-desc": "Visualiseer en blokkeer onzichtbare tracking van je zoek- en surfgeschiedenis.",
   "i18n-noscript-desc": "Schakel JavaScript, Java, en Flash alleen in voor sites die je vertrouwd.",
   "i18n-requestpolicy-desc": "Regel welke cross-site aanvragen van de sites die je bezoekt worden toegestaan.",
-  "i18n-web-browser-addons-note": "<p>Safeguard your browsing habits and stop advertising companies from tracking you by installing <strong>Adblock Edge</strong>, <strong>Disconnect</strong>, and <strong>HTTPS Everywhere</strong> in <strong>Mozilla Firefox</strong>, <strong>GNUzilla IceCat</strong>, or Debian&rsquo;s IceWeasel.</p><p>Why is Adblock Plus not recommended? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, which works against the purpose of the add-on. Either disable acceptable ads or use the <strong>Adblock Edge</strong> fork instead.</p><p><a href='https://www.ghostery.com/'>Ghostery</a> is an alternative anti-tracker add-on to <strong>Disconnect</strong>. While the code is available, the license is currently proprietary.</p>",
+  "i18n-web-browser-addons-note": "<p>Bescherm je browse gewoontes en stop advertentiebedrijven met het volgen van jou door <strong>Adblock Edge</strong>, <strong>Disconnect</strong>, en <strong>HTTPS Everywhere</strong> in <strong>Mozilla Firefox</strong>, <strong>GNUzilla IceCat</strong>, of Debian&rsquo;s IceWeasel te installeren.</p><p>Waarom is Adblock Plus niet aangeraden? Adblock Plus laat standaard &ldquo;acceptabele advertenties&rdquo; zien, wat tegen het nut van de plugin in werkt. Schakel acceptabele advertenties uit of gebruik in plaats van de <strong>Adblock Edge</strong> fork.</p><p><a href='https://www.ghostery.com/'>Ghostery</a> is een alternatieve anti-tracker plugin voor <strong>Disconnect</strong>. De code is beschikbaar, maar de licentie is op dit moment nog eigendomsmatig.</p>",
 
   "i18n-web-search": "Zoekmachines",
   "i18n-duckduckgo-desc": "Anonieme, niet opgeslagen zoekopdrachten.",
@@ -131,7 +131,7 @@
   "i18n-retroshare-desc": "Vrij en veilig P2P communicatieplatform.",
   "i18n-salutatoi-desc": "Multi-frontend, multifunctionele communicatietool.",
   "i18n-tent-desc": "Vrij, autonoom sociaal netwerk protocol.",
-  "i18n-social-networking-note": "<p>If you have system administration knowledge, please strongly consider running an instance of <strong>pump.io</strong> (or something else) for your friends, family, or favorite community. Many of them would be willing and grateful to escape Facebook if you provide them a way out.</p><p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>",
+  "i18n-social-networking-note": "<p>Als je ervaring hebt met systeemadministratie, denk er dan over na om een installatie van <strong>pump.io</strong> (of iets anders) te draaien voor je vrienden, familie of je favoriete gemeenschap. Veel zullen Facebook willen ontsnappen en je dankbaar zijn als je ze een alternatief geeft.</p><p>Voor degene zonder eigen server, <strong>RetroShare</strong> is de makkelijkste manier om je eigen versleutelde sociale netwerk te beginnen.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is een populaire Twitter-achtige sociale netwerk hub voor de vrije en open source software gemeenschap. De website wordt ergens deze week omgezet naar het <strong>pump.io</strong> software platform.</p>",
 
   "i18n-cloud-storage": "Online opslag",
   "i18n-gitannex-desc": " Synchroniseert mappen op al je computers &amp; harddisks.",
