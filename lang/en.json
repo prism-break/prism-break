@@ -94,6 +94,7 @@
   "i18n-mailvelope-desc": "OpenPGP Firefox/IceCat add-on for webmail.",
   "i18n-openpgpjs-desc": "OpenPGP library implemented in JavaScript.",
   "i18n-webpg-desc": "GnuPG/GPG (gpg, gnupg) in your browser.",
+  "i18n-enigmagpg-desc": "GnuPG/GPG Send encrypted data through internet web applications.",
   "i18n-apg-desc": "OpenPGP implementation for Android.",
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></p><p>PRISM Break does not recommended S/MIME email encryption because of its reliance on third-party certificates from central authorities. Read more <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>here</a>.</p>",
 
