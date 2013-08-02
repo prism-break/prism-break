@@ -141,14 +141,16 @@
   "i18n-dns-provider": "DNS провайдер",
   "i18n-namecoin-desc": "Распределенная DNS, созданная на основе технологии Bitcoin.",
   "i18n-dns-provider-note": "<p>Google Public DNS перманентно логирует вашего информацию о вашем провайдере и местоложение для аналитики. Так же ваш IP адрес хранится 24 часа.</p>",
-
-  "i18n-darknet": "Даркнет",
+  
+  
+  "i18n-anon-networks": "Anonymizing network",
   "i18n-freenet-desc": "Децентрализованная сеть, устойчивая к цензуре.",
   "i18n-i2p-desc": "Проект невидимого интернета.",
   "i18n-nightweb-desc": "Анонимная сеть I2P для Android.",
   "i18n-syndie-desc": "Программное обеспечение для анонимных распределенных форумов.",
   "i18n-tor-hidden-services-title": "Tor Hidden Services",
   "i18n-tor-hidden-services-desc": "Сеть Tor обеспечивает доступ к *.onion веб-сайтам.",
+  "i18n-gnunet-desc": "GNUnet is a fully free P2P network.",
   "i18n-darknet-note": "<p>&ldquo;Darknet - анонимная сеть, где соединения осуществляются только между доверенными пирами.</p><p>Darknet отличается от других распределенных P2P сетей тем, что обмен анонимен и поэтому пользователи могут общаться не опасаясь правительственные или корпоративные вмешательства.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Википедия</a></p>",
 
   "i18n-meshnet": "Meshnet",
