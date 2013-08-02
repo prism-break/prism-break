@@ -43,6 +43,7 @@
   "i18n-textsecure-desc": "Безопасные SMS / MMS для Android.",
   "i18n-xabber-desc": "Мгновенные сообщения на основе OTR для Android.",
   "i18n-chatsecure-desc": "IM-клиент с поддержкой шифрования для iOS.",
+  "i18n-hexchat-desc": "Cross-platform IRC client.",
   "i18n-weechat-desc": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
   "i18n-bitlbee-desc": "IRC instant messaging gateway that supports a bunch of protocols.",
   "i18n-instant-messaging-note": "<p>Так же не забудьте посмотреть на <strong>Cryptocat</strong> в секции аддонов для веб-браузера. </p></p>",
@@ -156,12 +157,15 @@
   "i18n-meshnet": "Meshnet",
   "i18n-meshnet-project-desc": "Децентрализованная альтернатива интернету.",
   "i18n-freifunk-desc": "A non-commercial open grassroots initiative to support free radio networks around the world.",
+  "i18n-byzantium-desc": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
   "i18n-librevpn-desc": "A free network that runs over other networks.",
   "i18n-meshnet-note": "<p>Meshnet - децентрализованная P2P сеть, где пользователи контролируют физические соединениями, которые обычно беспроводные.</p><p>&ldquo;Ячеистая сеть (англ. Mesh networking) — тип сетевой топологии, где каждая нода должна не только собирать и распространять свои собственные данные, но так же обеспечивать ретрансляцию для других нод, т.е. она должна сотрудничать для распространения данных в сети.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Википедия</a></p>",
 
   "i18n-android": "Android",
   "i18n-cyanogenmod-desc": "Прошивка для телефонов на базе Android.",
   "i18n-replicant-desc": "Полностью свободный дистрибутив Android.",
+  "i18n-firefoxos-desc": "Firefox OS is a free open-source operating system for Android-compatible smartphones and tablet computers.",
+
   "i18n-fdroid-desc": "Свободные приложения с открытым исходным кодом для Android.",
   "i18n-android-note": "<p>Цитата из лицензии <strong>CyanogenMod</strong>: &ldquo;CyanogenMod до сих пор включает в себя различный аппаратно-зависимый код, который медленно перелицензируется в открытый исходный код.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Википедия</a></p><p><strong>F-Droid</strong> свободная альтернатива магазину приложений Google Play.</p>",
 
