@@ -17,7 +17,7 @@ $('a[href*=#]:not([href=#])').click(function() {
     }
 });
 
-var langs = ['ar', 'de', 'el', 'eo', 'en', 'es', 'fa', 'fi', 'fr', 'hi', 'io', 'it', 'ja', 'nl', 'no', 'pl', 'pt', 'ru', 'sr', 'sr_cr', 'sv', 'zh_cn', 'zh_tw', 'he'];
+var langs = ['ar', 'ca', 'de', 'el', 'eo', 'en', 'es', 'fa', 'fi', 'fr', 'hi', 'io', 'it', 'ja', 'nl', 'no', 'pl', 'pt', 'ru', 'sr', 'sr_cr', 'sv', 'zh_cn', 'zh_tw', 'he'];
 
 // the actual html replacing function
 function updateWithJSON(abbr) {
@@ -41,7 +41,6 @@ function updateWithJSON(abbr) {
 
   // hack to hide hideable again
   setTimeout('$(".hideable").hide()', 1000);
-  console.log('hideable should be hidden')
 };
 
 // set language based on <select>
