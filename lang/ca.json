@@ -1,0 +1,236 @@
+{
+  "i18n-title": "Decideix sortir de PRISM, el programa mundial de vigilància de dades de la NSA - PRISM Break",
+  "i18n-meta-description": "Decideix sortir de PRISM, el programa mundial de vigilància de dades de la NSA. Deixa d'informar de les teves activitats a la xarxa al govern dels Estats Units amb aquestes alternatives lliures al software privatiu.",
+  "i18n-intro": "<strong>Decideix sortir de PISM, el programa mundial de vigilància de dades de la NSA.</strong> Deixa d'informar de les teves activitats a la xarxa al govern dels Estats Units amb aquestes alternatives lliures al software privatiu.",
+
+  "i18n-proprietary": "Privatiu",
+  "i18n-free-alternative": "Alternativa lliure",
+  "i18n-notes": "Notes",
+
+  "i18n-operating-system" : "Sistemes Operatius",
+  "i18n-debian-desc": "Popular distribució de GNU/Linux famosa pel seu contracte social.",
+  "i18n-fedora-desc": "Distribució de GNU/Linux ràpida, estable i potent.",
+  "i18n-gentoo-desc": "Distribució amb èmfasi en la tria, el control i la seguretat.",
+  "i18n-linuxmint-desc": "Distribució de GNU/Linux còmoda i fàcil d'utilitzar.",
+  "i18n-parabola-desc": "Distribució de GNU/Linux-lliure que ofereix la llibertat del software a més de tot el poder als usuaris.",
+  "i18n-trisquel-desc": "Distribució de GNU/Linux amigable per l'usuari, patrocinada per la FSF.",
+  "i18n-liberte-desc": "CD/USB en viu dissenyat com a ajuda per comunicar-se en ambients hostils.",
+  "i18n-tails-desc": "CD/USB en viu dissenyat per assegurar la privacitat.",
+
+  "i18n-web-browser": "Navegador Web",
+  "i18n-icecat-desc": "Versió GNU de Firefox.",
+  "i18n-firefox-desc": "Navegador web de codi lliure i obert.",
+  "i18n-torbrowser-desc": "Navegació xifrada i anònima.",
+
+  "i18n-web-browser-plugins": "Afegits per a Navegadors Web",
+  "i18n-adblockedge-desc": "Bloqueja anuncis a la xarxa.",
+  "i18n-disconnect-desc": "Atura els llocs web de tercers que et vigilen.",
+  "i18n-httpseverywhere-desc": "Xifra les teves comunicacions a milions de llocs web.",
+  "i18n-noscript-desc": "Activa JavaScript, Java i Flash només pels llocs en què confies.",
+
+  "i18n-web-search": "Cerques Web",
+  "i18n-duckduckgo-desc": "Cerques anònimes i sense iniciar sessió.",
+  "i18n-startpage-desc": "Cerques anònimes i sense iniciar sessió.",
+  "i18n-seeksproject-desc": "Plataforma oberta i descentralitzada per cerques col·laboratives.",
+  "i18n-yacy-desc": "Cerques web descentralitzades.",
+
+  "i18n-dns-provider": "Proveïdorss DNS",
+  "i18n-opennic-desc": "Proveïdor DNS totalment neutral.",
+  "i18n-namecoin-desc": "DNS distribuït basat en tecnologia de Bitcoin.",
+
+  "i18n-darknet": "Darknet (Xarxa fosca)",
+  "i18n-freenet-desc": "Xarxa descentralitzada, resistent a la censura.",
+  "i18n-i2p-desc": "El projecte per a una Internet Invisible.",
+  "i18n-nightweb-desc": "Xarxa anònima I2P per a Android.",
+  "i18n-syndie-desc": "Programari per a fòrums distribuït i anònimo.",
+
+  "i18n-online-transactions": "Transaccions en Línia",
+  "i18n-bitcoin-desc": "Moneda P2P digital sense autoritat centralitzada.",
+  "i18n-cryptocoins-title": "Cripto-monedes Alternatives",
+  "i18n-cryptocoins-desc": "Llista de monedes criptogràfiques digitals alternatives.",
+
+  "i18n-digital-distribution": "Distribució digital",
+  "i18n-desurium-desc": "Client de codi lliure pel servei de distribució Desura.",
+  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> és només el client. Hauràs de confiar/dependre del <a href='http://www.desura.com'>servei propietari desura</a>.</p>",
+
+  "i18n-vpn-client": "Client VPN",
+  "i18n-openvpn-desc": "Client VPN de codi lliure.",
+  "i18n-vpn-client-note": "--",
+
+  "i18n-email-service": "Serveis de Correu Electrònic",
+  "i18n-bitmessage-desc": "Servidor de correu xifrat i descentralitzat.",
+  "i18n-riseup-desc": "Bústies de correu segures i privades.",
+  "i18n-tormail-desc": "Tor Mail és un servei que proveeix de correu lliure i anònim.",
+  "i18n-kolab-desc": "Servidor per treball en grup de correu, calendaris, llibretes d'adreces i sincronització amb telèfons mòbils.",
+  "i18n-mykolabcom-desc": "Comptes Kolab segures allotjades a Suïssa.",
+
+  "i18n-email-client": "Clients de Correu Electrònic d'Escriptori",
+  "i18n-clawsmail-desc": "Client de correu electrònic lleuger amb suport per a GnuPG.",
+  "i18n-evolution-desc": "Aplicació de correu electrònico i calendari lliure.",
+  "i18n-icedove-desc": "Versió lliure de Mozilla Thunderbird.",
+  "i18n-kontact-desc": "Client de correu per a KDE amb suport per a GPG.",
+  "i18n-sylpheed-desc": "Client de correu lleuger i amigable.",
+  "i18n-thunderbird-desc": "Client de correu de codi obert.",
+
+  "i18n-email-encryption": "Xifrat de Correu Electrònic.",
+  "i18n-enigmail-desc": "Connector d'OpenPGP per a Thunderbird/Icedove.",
+  "i18n-gnuprivacyguard-desc": "Implementació lliure i gratuïta d'OpenPGP.",
+  "i18n-mailvelope-desc": "Xifrat OpenPGP per webmail.",
+  "i18n-webpg-desc": "GnuPG/PGP al teu navegador.",
+
+  "i18n-maps": "Mapes",
+  "i18n-openstreetmap-desc": "Mapa mundial col·laboratiu i lliure.",
+  "i18n-marble-desc": "Globus i atlas mundial virtual lliure.",
+
+  "i18n-cloud-storage": "Emmagatzematge al núvol.",
+  "i18n-gitannex-desc": "Sincronitza directoris a cada un dels teus equips i discos.",
+  "i18n-owncloud-desc": "Dades al núvol sota el teu control.",
+  "i18n-seafile-desc": "Control de versions i sincronització d'arxius, auto-allotjat o al núvol.",
+  "i18n-sparkleshare-desc": "Control de versions auto-allotjat amb sincronització d'arxius.",
+  "i18n-tahoelafs-desc": "Emmagatzematge al núvol lliure i obert.",
+
+  "i18n-social-networking": "Xarxes socials",
+  "i18n-buddycloud-desc": "Xarxa social federada de codi obert.",
+  "i18n-diaspora-desc": "Xarxa social distribuïda gestionada comunitariament.",
+  "i18n-friendica-desc": "Servidor web social lliure i gratuït.",
+  "i18n-gnusocial-desc": "Xarxa social descentralitzada i per allotjament propi.",
+  "i18n-lorea-desc": "Nodes socials distribuïts i federat.",
+  "i18n-movim-desc": "Servidor de xarxa social descentralitzat.",
+  "i18n-pumpio-desc": "Servidor de fluxes socials per allotjament propi.",
+  "i18n-salutatoi-desc": "Eines de comunicació multipropòsit amb diverses interfícies.",
+  "i18n-tent-desc": "Protocol de xarxa social autònom i lliure.",
+
+  "i18n-instant-messaging": "Missatgeria Instantània",
+  "i18n-cryptocat-desc": "Converses en línia privades i xifrades.",
+  "i18n-otr-desc": "Connector per Pidgin per xifrar les converses.",
+  "i18n-pidgin-desc": "Programa de xat de codi obert.",
+  "i18n-adium-desc": "Pidgin per a OS X (recorda habilitar OTR).",
+  "i18n-retroshare-desc": "Plataforma de comunicacions P2P, lliure i segura.",
+  "i18n-weechat-desc": "Client de xat extensible i personalitzable per IRC i XMPP/Jabber.",
+  "i18n-bitlbee-desc": "Pasarel·la IRC amb suport per una gran varietat de protocols.",
+
+  "i18n-video-voip": "Videoconferència / VoIP (Veu sobre IP)",
+  "i18n-jitsi-desc": "Xat xifrat de text, àudio i vídeo.",
+  "i18n-linphone-desc": "Telefonia IP (VoIP) xifrada, amb suport per a àudio i vídeo.",
+  "i18n-mumble-desc": "Xat de veu xifrat de baixa latència.",
+
+  "i18n-media-publishing": "Publicació de Mèdia",
+  "i18n-gnumediagoblin-desc": "Plataforma descentralitzada de publicació de mèdia.",
+  "i18n-piwigo-desc": "Plataforma per allotjament propi per a àlbums fotogràfics.",
+  "i18n-wordpress-desc": "Motor web/blog CMS lliure i gratuït.",
+  "i18n-zenphoto-desc": "Fotoblog CMS lliure i gratuït.",
+
+  "i18n-document-collaboration": "Documents Col·laboratius",
+  "i18n-ethercalc-desc": "Servidor de fulls de càlcul multiusuari.",
+  "i18n-etherpad-desc": "Documents col·laboratius en temps real, de codi obert.",
+
+  "i18n-web-analytics": "Anàlisi Web",
+  "i18n-piwik-desc": "Anàlisi web, lliure i gratuït per allotjament propi.",
+
+  "i18n-cyanogenmod-desc": "Firmware Alternatiu per Telèfons amb Android",
+  "i18n-replicant-desc": "Distribución de Android 100% libre.",
+
+  "i18n-android-app-store": "Android App Store",
+  "i18n-fdroid-desc": "Aplicacions lliures i de codi obert per a Android.",
+
+  "i18n-csipsimple-desc": "VoIP xifrada i gratuïta per a Android.",
+  "i18n-gibberbot-desc": "Missatges privats mitjançant OTR per a Android.",
+  "i18n-orbot-desc": "TOR per a Android.",
+  "i18n-redphone-desc": "Trucades segures i privades per a Android.",
+  "i18n-surespot-desc": "Missatgeria xifrada, punt-a-punt, lliure i de codi obert.",
+  "i18n-textsecure-desc": "Comunicacions segures mitjançant SMS/MMS per a Android.",
+  "i18n-xabber-desc": "Missatgeria instantània xifrada amb OTR per a Android.",
+
+  "i18n-ios-insecure-desc": "Els dispositius amb iOS contenen monitorització per hardware.",
+  "i18n-chatsecure-desc": "Missatgeria instantània xifrada per a iOS.",
+  "i18n-onionbrowser-desc": "Navegació segura per a iOS.",
+
+  "i18n-meshnet": "Meshnet (Xarxa mallada)",
+  "i18n-meshnet-project-desc": "Una alternativa descentralitzada a internet.",
+  "i18n-freifunk-desc": "Iniciativa no comercial i de base per donar suport a xarxes lliures sense fils arreu del món.",
+  "i18n-librevpn-desc": "Una xarxa lliure que funciona sobre altres xarxes.",
+  "i18n-meshnet-note": "<span class='p'>Una xarxa mesh és una xarxa descentralitzada d'igual a igual, amb enllaços físics controlats pels usuaris, normalment sense fils.</span><span class='p'>&ldquo;Les xarxes mesh (com a topologia) són un tipus de xarxa on cada node no només ha de capturar i dissemniar la seva propia informació, sino també servir com a pont per a altres nodes, és a dir, ha de col·laborar per propagar la informació a la xarxa.&ldquo;</span><span class='p'>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia (en anglès)</a></span>",
+
+  "i18n-add": "afegir",
+  "i18n-mostly-free": "Gairebé lliure*",
+  "i18n-rec-non-free": "Recomana components que no són lliures*",
+  "i18n-advanced": "Avançat",
+  "i18n-partly-proprietary": "Parcialment privatiu*",
+  "i18n-proprietary": "Privatiu*",
+  "i18n-invite-only": "Només per invitació",
+  "i18n-tor-users-only": "Has de ser usuari de Tor per a poder-ho utilitzar.",
+  "i18n-newbies-choice": "recomanat per a principiants",
+  "i18n-editors-choice": "recomanació de l'autor",
+  "i18n-approval-required": "aprovació necessària",
+
+  "i18n-fsf-definition-title": "* Aquest lloc web utilitza la definició de programari lliure de la <strong>Free Software Foundation</strong>.",
+  "i18n-fsf-quote": "«Software lliure» significa que el software respecta la llibertat dels usuaris i la comunitat. En termes generals, els usuaris tenen la llibertat de copiar, distribuir, estudiar, modificar i millorar el software. Amb aquestes llibertats els usuaris (tant individualment com en forma col·lectiva) controlen el programa i el que fa.",
+
+  "i18n-eff-title": "Prén mesures contra PRISM al centre d'acció de l'<strong>Electronic Frontier Foundation</strong>.",
+  "i18n-eff-quote-1": "<strong>VIGILÀNCIA MASSIVA EXPOSADA</strong>",
+  "i18n-eff-quote-2": "Informes del <em>The Guardian<em> i del <em>The Washington Post<em> confirmen programes secrets d'espionatge en registres telefònics i activitat d'Internet. És moment d'una explicació'completa dels programes secrets d'espionatge dels Estats Units d'Amèrica i una finalització de la vigilància anticonstitucional.",
+
+  "i18n-more": "més &hellip;",
+  "i18n-the": "La",
+
+  "i18n-media-title": "Cites als mitjans.",
+  "i18n-catalan": "Català",
+  "i18n-dutch": "Holandès",
+  "i18n-english": "Anglès",
+  "i18n-french": "Francès",
+  "i18n-german": "Alemany",
+  "i18n-italian": "Italià",
+  "i18n-polish": "Polac",
+  "i18n-spanish": "Espanyol",
+  "i18n-chinese-traditional": "Xinès (Tradicional)",
+  "i18n-russian": "Rus",
+
+  "i18n-updated": "Actualitzat",
+  "i18n-by": "per",
+  "i18n-contribute-on": "Contribuïr en",
+  "i18n-donate": "Donar",
+  "i18n-contribute": "Contribuïr",
+
+  "i18n-operating-system-note": "<span class='p'>Apple, Google, y Microsoft son parte de PRISM. Sus sistemas operativos privativos no pueden ganantizar que resguarden tu información personal de la NSA.</span><span class='p'>Esto nos deja con dos alternativas libres: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> y <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</span> <span class='p'>GNU/Linux tiene una comunidad mucho más amplia para ayudarte con la transición. Es recomendable que comiences tu exploración buscando una <a href='http://distrowatch.com/'>distribución de GNU/Linux</a> que se adapte a tus necesidades.</span> <span class='p'>¿Por qué no Ubuntu? Ubuntu es una mala elección porque contiene <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</span> <span class='p'><strong>Linux Mint</strong> es probablemente la distribución más fácil de usar para la gente que migra de Microsoft Windows. Recomendamos la versión sin códecs de <strong>Linux Mint</strong>, ya que las otras ediciones están cubiertas por patentes de software. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Más información</a>.</span>",
+
+  "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> indica en su licencia: &ldquo;CyanogenMod sí incluye cierto código específico para hardware, que también está siendo convertido poco a poco en código abierto de todos modos.&rdquo; &mdash;<a href='http://es.wikipedia.org/wiki/CyanogenMod#Controversia_sobre_la_licencia'>Wikipedia</a></span><span class='p'><strong>F-Droid</strong> es una alternativa libre a la tienda de aplicaciones Google Play.</span>",
+
+  "i18n-ios-note": "<span class='p'>iOS es inseguro, y desafortunadamente tampoco hay muchas aplicaciones de cifrado gratuitas para iOS. Además es <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>imposible verificar</a> si una aplicación en iOS fue compilada de su fuente original.</span>",
+
+  "i18n-web-browser-note": "<span class='p'>Usa una combinación de <strong>Tor Browser</strong> y un navegador web libre de tu elección para navegar por la red.</span> <span class='p'>Intenta usar <strong>Tor Browser</strong> tan a menudo como sea posible. La navegación es más lenta con Tor, pero mucho más segura.</span> <span class='p'>Nota: <strong>Mozilla Firefox</strong> técnicamente no es completamente software libre, ya que Mozilla recomienda agregados no libres en su página web.</span>",
+
+  "i18n-web-browser-addons-note": "<span class='p'>Protege tu privacidad y evita que las páginas web te rastreen instalando Adblock Edge, Disconnect, HTTPS Everywhere, y NoScript en tu navegador.</span> <span class='p'>¿Por qué no Adblock Plus? Adblock Plus muestra &ldquo;anuncios aceptables&rdquo; por defecto, y usa más memoria que <strong>Adblock Edge</strong>.</span> <span class='p'>¿Por qué no Ghostery? Ghostery es un agregado privativo. Usa <strong>Disconnect</strong> en su lugar.</span>",
+
+  "i18n-web-search-note": "<span class='p'><strong>Startpage</strong> es privativo, hospedado en los Estados Unidos y Holanda, y provee resultados anonimizados de Google (incluyendo imágenes).</span><span class='p'><strong>DuckDuckGo</strong> es parcialmente privativo, hospedado en los Estados Unidos, y provee resultados anonimizados de Bing.</span><span class='p'>¡Elige tu veneno!</span>",
+
+   "i18n-email-service-note": "<span class='p'><strong>Bitmessage</strong> es una alternativa prometedora al correo electrónico, pero aún no está lista para su uso diario. Úsala bajo tu propio riesgo.</span><span class='p'><strong>Riseup</strong> está hospedado en los Estados Unidos. También comienza a ofrecer servicios de VPN, chat, y <strong>Etherpad</strong>.</span><span class='p'>¿Por qué no Hushmail? Revisa este artículo en inglés sobre los <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromisos a la privacidad de los correos&rdquo;</a>.</span><span class='p'>La única forma de tener pleno control sobre tu correo es correr tu propio servidor de correo. Esto no es posible para todos, sin embargo, ya que requiere una considerable inversión de tiempo y conocimiento técnico.</span><span class='p'>Aunque aún no está completo, el proyecto <a href=\"https://www.freedomboxfoundation.org/\">FreedomBox</a> busca crear una solución de fácil arranque para comunicaciones cifradas.</span>",
+
+  "i18n-email-client-note": "<span class='p'><a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">Aquí hay una guía en inglés</a> para cifrar tus correos con <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, y <strong>Enigmail</strong>.<span class='p'>Note: <strong>Mozilla Thunderbird</strong> técnicamente no es completamente software libre, ya que Mozilla recomienda agregados no libres en su página web.</span>",
+
+  "i18n-email-encryption-note": "<span class='p'>&ldquo;Pretty Good Privacy (PGP) es un programa computacional de cifrado y descifrado que provee privacidad y autenticación criptográficas para comunicación de datos. PGP suele usarse para firmar, cifrar y desencriptar textos, correos electrónicos, archivos, directorios y particiones completas de disco para incrementar la seguridad de las comunicaciones por correo electrónico.&rdquo;</span><span class='p'>&mdash; <a href='https://es.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
+
+  "i18n-social-networking-note": "<span class='p'><strong><a href=\"https://identi.ca/\">identi.ca</a></strong> es una popular red social similar a Twitter, para la comunidad de software libre y abierto. El sitio se convertirá a la plataforma de software <strong>pump.io</strong> en breve.</span>",
+
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.</p><p>The primary motivation behind the protocol was providing deniability for the conversation participants while keeping conversations confidential, like a private conversation in real life, or off the record in journalism sourcing.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p>Note that <strong>Pidgin</strong> stores your IM account passwords in <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>plain text</a>. You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like <a href='http://www.truecrypt.org/'>TrueCrypt</a>, or (3) storing your Pidgin password securely with the Debian package <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a>.</p><p><strong>Pidgin with OTR and dbus enabled has a local security bug.</strong> See the <a href='https://developer.pidgin.im/ticket/14830'>upstream bug report</a> for more information and possible workarounds.</p><p><strong>TorChat</strong> is not related to nor sponsored by the official <a href='https://www.torproject.org/'>Tor Project</a>.</p>",
+
+  "i18n-video-voip-note": "<span class='p'><strong>Jitsi</strong> es un reemplazo directo y cifrado para casi todas las tareas para las que se usa Skype.</span><span class='p'><strong>Mumble</strong> es un cliente de chat de voz al estilo de Ventrilo y TeamSpeak.</span><span class='p'><a href='http://www.webrtc.org/'>WebRTC</a> es una API prometedora, que a futuro proveerá comunicaciones de navegador a navegador.",
+
+  "i18n-online-transactions-note": "<span class='p'>La cadena de bloques de <strong>Bitcoin</strong> es un libro de contabilidad descentralizado y público de todas las transacciones de la red Bitcoin.</span><span class='p'>&ldquo;Puede ser el TCP/IP del dinero.&rdquo; &mdash;Paul Buchheit</span>",
+
+  "i18n-media-publishing-note": "<span class='p'><strong>El autohospedaje</strong> es importante. Hospedar tu blog en Wordpress.com no da mayor seguridad a tus datos que Blogger or Tumblr.</span>",
+
+  "i18n-document-collaboration-note": "<span class='p'>--</span>",
+
+  "i18n-maps-note": "<span class='p'>--</span>",
+
+  "i18n-cloud-storage-note": "<span class='p'>¿Por qué no MEGA? Aunque MEGA es gratuito como en 'cerveza gratis', el software es de código privativo.</span><span class='p'>¿Por qué no SpiderOak? SpiderOak es software privativo.</span><span class='p'>¿Por qué no Tarsnap? Tarsnap es parcialmente privativo y hospeda tus datos en los servicios de Amazon Web Services.</span>",
+
+  "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Analytics potencia este sitio. Está configurado para anonimizar el último octeto (255.255.255.???) de las IPs de los visitantes. Revisa los datos en vivo aquí: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
+
+  "i18n-dns-provider-note": "<span class='p'>Google Public DNS registra permanentemente tu ISP e información de localización para su análisis. Tu dirección IP también es guardada por 24 horas.</span><span class='p'><strong>OpenNIC</strong> no tiene registros.</span>.</span>",
+
+  "i18n-darknet-note": "<span class='p'>&ldquo;Una 'darknet' (o red oscura) es una red anónima donde las conexiones se realizan solamente entre pares de confianza.</span><span class='p'>Las darknets son distintas de otras redes P2P distribuidas ya que el compartir es anónimo, y por lo tanto los usuarios pueden comunicarse con poco miedo de interfencia gubernamental o corporativa.&ldquo;</span><span class='p'>&mdash;<a href='https://es.wikipedia.org/wiki/Darknet'>Wikipedia</a></span>"
+,
+
+  "i18n-disclaimer": "Exención de responsabilidad: Usar los proyectos recomendados en este sitio no garantiza que el 100% de tus comunicaciones estén protegidas contra estados de vigilancia. Por favor investiga por tu cuenta antes de confiar a estos programas tu información sensible."
+}
