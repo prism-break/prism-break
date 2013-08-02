@@ -17,7 +17,7 @@ Contributors are welcome.
 
 For anyone who's interested in working on localizing this site, please look into the `lang/` directory of this repository. There are some sample translation JSON files there. To start, just make a copy of the en.json file and start filling it out.
 
-**Please note:** The canonical version of the site text is contained in index.html. The strings contained in the `xx.json` files may be out of date, as they need to be updated manually (and I don't have unlimited amounts of free time). Please refer to the text contained in index.html when developing your translations to ensure your translation file is up-to-date.
+**Please note:** The canonical version of the site text is contained in `./index.html` and `./lang/en.json`. The strings contained in the `xx.json` files may be out of date, as they need to be updated manually by volunteer translators. Please refer to the text contained in `./lang/en.json` when developing your translations to ensure your translation file is 100% up-to-date.
 
 Bear in mind that the site is being constantly updated, so you may want to check back every so often.
 
