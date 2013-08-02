@@ -8,7 +8,7 @@ module.exports = (grunt) ->
         separator: ';'
       lib:
         src: ['src/**/*.js']
-        dest: 'lib/js/<%= pkg.name %>.js'
+        dest: 'lib/js/app.js'
       vendor:
         src: ['vendor/**/*.js']
         dest: 'lib/js/vendor.js'
@@ -18,7 +18,7 @@ module.exports = (grunt) ->
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       lib:
         files:
-          'lib/js/<%= pkg.name %>.min.js': ['<%= concat.lib.dest %>']
+          'lib/js/app.min.js': ['<%= concat.lib.dest %>']
           'lib/js/vendor.min.js': ['<%= concat.vendor.dest %>']
 
     stylus:
