@@ -160,7 +160,10 @@
   "i18n-byzantium-desc": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
   "i18n-librevpn-desc": "Una red libre que corre sobre otras redes",
   "i18n-meshnet-note": "<span class='p'>Una meshnet es una red descentralizada de par a par, con enlaces físicos controlados por usuarios, usualmente inalámbricos.</span><span class='p'>&ldquo;Las redes en malla (como topología) son un tipo de red donde cada nodo no solamente debe capturar y diseminar su propia información, sino también serviro como relevo para otros nodos, es decir, debe colaborar para propagar la información en la red.&ldquo;</span><span class='p'>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia (en inglés)</a></span>",
-
+  
+  "i18n-anon-networks": "Anonymizing network",
+  "i18n-gnunet-desc": "GNUnet is a fully free P2P network.",
+  
   "i18n-add": "agregar",
   "i18n-mostly-free": "Casi libre*",
   "i18n-rec-non-free": "Recomienda addons que no son libres*",
