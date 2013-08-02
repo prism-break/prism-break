@@ -27,6 +27,7 @@
   "i18n-android": "Android",
   "i18n-cyanogenmod-desc": "Aftermarket firmware for Android devices.",
   "i18n-replicant-desc": "Fully free Android distribution.",
+  "i18n-firefoxos-desc": "Firefox OS is a free open-source operating system for Android-compatible smartphones and tablet computers.",
   "i18n-fdroid-desc": "Free and open source alternative to the Google Play app store for Android.",
   "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being free anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p>If <strong>Replicant</strong> supports your <a href='http://replicant.us/supported-phones/'>Android device</a>, you should definitely use it instead of Cyanogenmod, as Replicant is fully free and runs without relying on proprietary system code.</p>",
 
@@ -126,6 +127,7 @@
   "i18n-pidgin-desc": "برنامه چت آزاد",
   "i18n-adium-desc": "پیچین برای آی‌او‌اس",
   "i18n-retroshare-desc": "سکوی ارتباطی دوطرفه، امن و آزاد",
+  "i18n-hexchat-desc": "Cross-platform IRC client.",
   "i18n-weechat-desc": "کلاینت گپ توسعه‌پذیر و قابل شخصی‌سازی برای IRC و XMPP/Jabber",
   "i18n-bitlbee-desc": "پیام‌رسان فوری IRC که از دسته‌ای از پروتکل‌ها پشتیبانی می‌کند",
 
@@ -168,6 +170,7 @@
   "i18n-meshnet": "شبکه‌ی مش",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
   "i18n-freifunk-desc": "A non-commercial open grassroots initiative to support free radio networks around the world.",
+  "i18n-byzantium-desc": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
   "i18n-librevpn-desc": "شبکه‌ای آزاد که روی دیگر شبکه‌ها اجرا می‌شود",
   "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
   
