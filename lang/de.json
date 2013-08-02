@@ -200,6 +200,11 @@
   "i18n-kamailio-desc": "Quelloffener VoIP/SIP-Server.",
   "i18n-sip-server-notes": "<p>&ldquo;Das Session Initiation Protocol (SIP) ist ein Netzprotokoll zum Aufbau, zur Steuerung und zum Abbau einer Kommunikationssitzung zwischen zwei und mehr Teilnehmern. Das Protokoll wird u. a. im RFC 3261 spezifiziert. In der IP-Telefonie ist das SIP ein häufig angewandtes Protokoll.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>",
 
+  "i18n-self-hosting-title": "Self-hosting solutions",
+  "i18n-freedombox-desc": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.",
+  "i18n-arkos-desc": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.",
+  "i18n-self-hosting-notes": "--",
+
   "i18n-add": "füge hinzu",
   "i18n-mostly-free": "größtenteils frei*",
   "i18n-rec-non-free": "empfiehlt unfreie Addons*",
