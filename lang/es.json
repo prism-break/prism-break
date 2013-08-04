@@ -34,11 +34,10 @@
   "i18n-fdroid-desc": "Aplicaciones libres y de código abierto para Android.", 
   "i18n-android-note": "<span class='p'><strong>CyanogenMod</strong> indica en su licencia: &ldquo;CyanogenMod sí incluye cierto código específico para hardware, que también está siendo convertido poco a poco en código abierto de todos modos.&rdquo; &mdash;<a href='http://es.wikipedia.org/wiki/CyanogenMod#Controversia_sobre_la_licencia'>Wikipedia</a></span><span class='p'><strong>F-Droid</strong> es una alternativa libre a la tienda de aplicaciones Google Play.</span>", 
 
-  "i18n-ios": "iOS", 
-  "i18n-ios-insecure-title": "iOS is insecure", 
-  "i18n-ios-insecure-desc": "Los dispositivos con iOS contienen monitoreo de hardware.", 
-  "i18n-ios-note": "<span class='p'>iOS es inseguro, y desafortunadamente tampoco hay muchas aplicaciones de cifrado gratuitas para iOS. Además es <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>imposible verificar</a> si una aplicación en iOS fue compilada de su fuente original.</span>", 
-  "i18n-ios-no-alt-desc": "Replace the phone&mdash;iOS has no free alternative.", 
+  "i18n-mobile-os": "iOS &amp; WP",
+  "i18n-mobile-os-no-alt-title": "No alternative",
+  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.",
+  "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>", 
 
   "i18n-web-browser": "Navegador Web", 
   "i18n-torbrowser-desc": "Navegación cifrada y anónima.", 
