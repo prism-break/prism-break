@@ -140,9 +140,14 @@
   "i18n-textsecure-desc": "Sigurne SMS/MMS komunikacije za Android.",
   "i18n-xabber-desc": "OTR-šifrovano dopisivanje za Android.",
 
-  "i18n-ios-insecure-desc": "iOS imaju konstantno praćenje hardvera.",
   "i18n-chatsecure-desc": "Šifrujte dopisivanje u iOS-u.",
   "i18n-onionbrowser-desc": "Sigurno pretraživanje za iOS.",
+
+  "i18n-mobile-os": "iOS &amp; WP",
+  "i18n-mobile-os-no-alt-title": "No alternative",
+  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.",
+  "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>",
+
 
   "i18n-anon-networks": "Anonymizing network",
   "i18n-gnunet-desc": "GNUnet is a fully free P2P network.",

@@ -140,8 +140,11 @@
   "i18n-textsecure-desc": "Сигурне СМС/ММС комуникације за Андроид.",
   "i18n-xabber-desc": "ОТР-шифровано дописивање за Андроид.",
 
-  "i18n-ios-insecure-title": "iOS is unsecure",
-  "i18n-ios-insecure-desc": "иОС имају константно праћење хардвера.",
+  "i18n-mobile-os": "iOS &amp; WP",
+  "i18n-mobile-os-no-alt-title": "No alternative",
+  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.",
+  "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>",
+
   "i18n-chatsecure-desc": "Шифрујте дописивање у иОС-у.",
   "i18n-onionbrowser-desc": "Сигурно претраживање за иОС.",
 

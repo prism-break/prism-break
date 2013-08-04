@@ -34,11 +34,10 @@
   "i18n-fdroid-desc": "Et alternativ til Google Play med kun fri programvare.", 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> distribueres med proprietær maskinvare-spesifikk programvare for å sikre at den mobile enheten kan operere som normalt. Disse programmene forsøker friprogbevegelsen stadig å erstatte med frie versjoner.</p>", 
 
-  "i18n-ios": "iOS", 
-  "i18n-ios-insecure-title": "iOS is unsecure", 
-  "i18n-ios-insecure-desc": "iOS devices contain hardware tracking.", 
-  "i18n-ios-note": "<p>iOS er proprietært. Det finnes ingen frie systemer til iPhone.</p>", 
-  "i18n-ios-no-alt-desc": "Erstatt dritten! Det finnes ingen frie alternativer til iPhone.", 
+  "i18n-mobile-os": "iOS &amp; WP",
+  "i18n-mobile-os-no-alt-title": "No alternative",
+  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.",
+  "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>",
 
   "i18n-web-browser": "Nettleser", 
   "i18n-torbrowser-desc": "Kryptert, anonym nettsurfing.", 
