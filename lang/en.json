@@ -71,7 +71,7 @@
   "i18n-autistici-desc": "A full range of free, privacy-aware services.",
   "i18n-bitmessage-desc": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
   "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
-  "i18n-mykolabcom-desc": "Secure and private Kolab accounts hosted in Switzerland.",
+  "i18n-mykolabcom-desc": "Secure, private Kolab accounts hosted in Switzerland for 10 CHF per month.",
   "i18n-posteo-desc": "Encrypted and anonymous email, calendar, and contacts service for &euro;1 per month.",
   "i18n-riseup-desc": "Secure communication tools for people working on liberatory social change.",
   "i18n-email-service-note": "<p><strong>Important:</strong> switching from Gmail to one of the recommended services is only the first step to a secure email account. You&rsquo;re still sending plain text messages. You and your contacts need to encrypt your messages with <a href='#email-encryption'>PGP</a>. Scroll down to find an <a href='#email-client'>email client</a> that supports PGP.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the strong Swiss privacy laws. It is run with free software and lets you export all your data.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p><p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p>The only way to have full control over your email is to run your own mail server (e.g. with <strong>Kolab</strong>). This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>",
@@ -232,6 +232,7 @@
   "i18n-invite-only": "invitation required",
   "i18n-approval-required": "approval required",
   "i18n-usa-hosted": "USA hosted",
+  "i18n-paid-service": "paid service",
 
   "i18n-newbies-choice": "easiest to use",
   "i18n-editors-choice": "editor&rsquo;s choice",
