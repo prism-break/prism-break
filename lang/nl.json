@@ -67,11 +67,11 @@
   "i18n-marble-desc": "Vrije virtuele wereldbol en wereldatlas.", 
   "i18n-maps-note": "<p>&ldquo;Als je meewerkt aan het OpenStreetMap help je mee om een geografische database van de wereld te bouwen welke vrij en open voor iedereen is en voor altijd.&rdquo;</p><p>&mdash; <a href='http://wiki.openstreetmap.org/wiki/Google_Map_Maker'>OpenStreetMap Wiki</a></p>", 
 
-  "i18n-email-service": "Email diensten", 
+  "i18n-email-service": "E-mail diensten", 
   "i18n-autistici-desc": "Een volledige verzameling van vrije, privacy-respecterende services.", 
   "i18n-bitmessage-desc": "Versleutelde, decentrale P2P berichten service gebaseerd op de Bitcoin technologie.", 
   "i18n-kolab-desc": "Groupware server voor email, kalenders, adresboeken en synchronisatie naar mobiele telefoons.", 
-  "i18n-mykolabcom-desc": "Kolab accounts gehost in Zwitzerland.", 
+  "i18n-mykolabcom-desc": "Kolab accounts gehost in Zwitzerland voor 10 CHF per maand.", 
   "i18n-posteo-desc": "Versleutelde en anonieme e-mail, kalender en adresboek service voor &euro;1 per maand.", 
   "i18n-riseup-desc": "Veilige communicatiemiddelen voor activisten.", 
   "i18n-email-service-note": "<p><strong>Important:</strong> switching from Gmail to one of the recommended services is only the first step to a secure email account. You&rsquo;re still sending plain text messages. You and your contacts need to encrypt your messages with <a href='#email-encryption'>PGP</a>. Scroll down to find an <a href='#email-client'>email client</a> that supports PGP.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the strong Swiss privacy laws. It is run with free software and lets you export all your data.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p><p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p>The only way to have full control over your email is to run your own mail server (e.g. with <strong>Kolab</strong>). This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>", 
@@ -91,7 +91,7 @@
   "i18n-torbirdy-desc": "Plugin die Thunderbird/Icedove verbinding laat maken over Tor.", 
   "i18n-gnuprivacyguard-desc": "Vrije OpenPGP implementatie.", 
   "i18n-gpgmail-desc": "OpenPGP plugin voor Apple OS X Mail.", 
-  "i18n-mailvelope-desc": "OpenPGP Firefox/IceCat plugin voor webmail.", 
+  "i18n-mailvelope-desc": "OpenPGP Firefox/IceCat plugin voor webmaial.", 
   "i18n-openpgpjs-desc": "OpenPGP bibliotheek geimplementeerd in JavaScript.", 
   "i18n-webpg-desc": "GnuPG/PGP in je webbrowser.", 
   "i18n-apg-desc": "OpenPGP implementatie voor Android.", 
@@ -232,7 +232,8 @@
   "i18n-invite-only": "alleen op uitnodiging", 
   "i18n-approval-required": "goedkeuring benodigd", 
   "i18n-usa-hosted": "gehost in de VS", 
-
+  "i18n-paid-service": "betaalde dienst", 
+ 
   "i18n-newbies-choice": "aanrader voor beginners", 
   "i18n-editors-choice": "keuze van de redacteur", 
   "i18n-most-stable": "meest stabiel", 
