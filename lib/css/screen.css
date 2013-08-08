@@ -94,6 +94,8 @@ p.intro strong{color:#333;font-weight:bold}
 .notes div{padding:.75em 1em 0;}
 .notes div p{margin:0 0 1em;max-width:50em;}
 .notes div p a:hover{text-decoration:underline}
+.notes div blockquote{background:#f6f6f6;padding:.5em .75em;margin-bottom:1em;}
+.notes div blockquote p:last-of-type{margin-bottom:.5em}
 body.no-menu #header h1#brand{padding-left:1em}
 body.no-menu .section{margin:0 auto;width:100%;padding:0 0 1em;}
 body.no-menu .section.bottom{padding:0}
@@ -153,6 +155,6 @@ body .section div.prop{width:23%}
 body .section div.free{width:40%;border-left:1px solid #ddd}
 body .section div.notes{clear:none;width:37%;border-left:1px solid #ddd;}
 body .section div.notes h3{border-top:none}
-body .section div.notes p{font:14px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif}
+body .section div.notes p,body .section div.notes cite{font:14px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif}
 }@media (min-width: 1200px){body section div.notes p{font:16px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif !important}
 }
