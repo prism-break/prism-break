@@ -103,7 +103,7 @@
   "i18n-otr-desc": "À installer et activer dans Pidgin pour chiffrer la messagerie instantanée.", 
   "i18n-adium-desc": "Pidgin pour OS X (pensez à activer OTR).", 
   "i18n-bitlbee-desc": "Passerelle IRC de messagerie instantanée qui prend en charge un tas de protocoles.", 
-  "i18n-jappix-desc": "Application web de messagerie instantannée qui propose des services avencés de réseaux sociaux.", 
+  "i18n-jappix-desc": "Application web de messagerie instantanée qui propose des services avancés de réseaux sociaux.", 
   "i18n-torchat-desc": "Chat P2P anonyme et décentralisé basé sur Tor Hidden Services.", 
   "i18n-hexchat-desc": "Cross-platform IRC client.", 
   "i18n-weechat-desc": "Client de chat extensible et customisable pour IRC et XMPP/Jabber.", 
@@ -192,13 +192,13 @@
   "i18n-syndie-desc": "Logiciel de forum anonyme et distribué.", 
   "i18n-tor-hidden-services-title": "Services Tor cachés", 
   "i18n-tor-hidden-services-desc": "Le réseau Tor permet l'accès aux sites en <tt>.onion</tt>.", 
-  "i18n-gnunet-desc": "GNUnet et un réseau P2P entiérement Libre.", 
+  "i18n-gnunet-desc": "GNUnet et un réseau P2P entièrement Libre.", 
   "i18n-anon-network-note": "<p>--</p>", 
 
   "i18n-meshnet": "Meshnet", 
   "i18n-meshnet-project-desc": "Une alternative décentralisée à Internet.", 
   "i18n-freifunk-desc": "Initiative non commerciale et donc la base est ouverte pour supporter les réseaux sans fils gratuit dans le monde.", 
-  "i18n-byzantium-desc": "Byzantium est une distributon Live GNU/Linux qui propose une solution facile à utilisée de réseau maillé.", 
+  "i18n-byzantium-desc": "Byzantium est une distribution Live GNU/Linux qui propose une solution facile à utilisée de réseau maillé.", 
   "i18n-librevpn-desc": "Un réseau libre qui fonctionne sur les autres réseaux.", 
   "i18n-meshnet-note": "<p>Un réseau maillé est un réseau pair-à-pair décentralisé, avec des liens physiques contrôlés par l'utilisateur qui sont habituellement sans fil.</p><p>&laquo;&nbsp;Le réseau maillé (topologie) est un type de réseau dans lequel chaque nœud doit non seulement capturer et diffuser sa propre information, mais aussi servir de relai pour les autres nœuds, à savoir, collaborer à la propagation de l'information dans le réseau.&nbsp;&raquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Mesh_networking'>La Wikipédia</a> (en anglais)</p>", 
 
@@ -217,8 +217,8 @@
   "i18n-sip-server-notes": "<p>&ldquo;Session Initiation Protocol (SIP) est un protocole standard ouvert de gestion de sessions souvent utilisé dans les télécommunications multimédia (son, image, etc.) Il est depuis 2007 le plus courant pour la téléphonie par internet (la VoIP).&rdquo;</p><p>&mdash; <a href='https://fr.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>", 
 
   "i18n-self-hosting-title": "Solutions d'auto-hébergement", 
-  "i18n-freedombox-desc": "FreedomBox intégre la protection de la vie privée sur un simple server plug pour que chacun puisse conserver sa vie privée.", 
-  "i18n-arkos-desc": "arkOS est un ensemble de logiciels léger fait pour un Raspberry Pi qui permet d'auto-hebergé, de manière sécurisée, son site web, ses mails, ses fichiers, etc.", 
+  "i18n-freedombox-desc": "FreedomBox intègre la protection de la vie privée sur un simple server plug pour que chacun puisse conserver sa vie privée.", 
+  "i18n-arkos-desc": "arkOS est un ensemble de logiciels léger fait pour un Raspberry Pi qui permet d'auto-heberger, de manière sécurisée, son site web, ses mails, ses fichiers, etc.", 
   "i18n-self-hosting-notes": "--", 
 
   "i18n-show-all": "Montrer tout", 
@@ -269,12 +269,12 @@
   "i18n-by": "par", 
   "i18n-donate": "Faire un don", 
   "i18n-contribute": "Contribuer", 
-  "i18n-license": "License", 
+  "i18n-license": "Licence", 
 
   "i18n-disclaimer": "Avertissement&nbsp;: l'utilisation des projets et logiciels recommandés sur ce site ne garantit pas que la totalité de vos communications seront à l'abri de la surveillance par les États. Vous devez effectuer vos propres enquêtes avant de délivrer des informations sensibles à ces logiciels.", 
 
   "i18n-privacy-policy": "Privacy Policy", 
-  "i18n-privacy-policy-content": "<p>PRISM Break utilise Piwik analytics pour évaluer le traffic sur ce site. Piwik enregistre la localisation géographique approximative du visiteur, leur navigateur, leur système d'exploitation, et leurs clicks sur la page. Ceci nous aide à évaluer et à améliorer nos contenus.</p><p>Piwik protége la vie privée des visiteurs en anonmysant leurs adresses IP. Ainsi nous ne stockerons aucune donnée à caractère personnel à votre sujet, même si le site va enregistrer que quelqu'un à visiter  notre site. Vous pouvez consulter <strong><a href='http://prism-break.org/analytics'>les données analytics anonymisées ici.</a></strong></p><p>De plus, Piwik respecte le paramètre &ldquo;Do Not Track&rdquo; proposé par certains navigateurs. Si vous avez indiqué cette préfèrece, Piwik ignorera votre visite.</p><p>Si vous n&rsquo;utilisez pas &ldquo;Do Not Track&rdquo; et souhaitez ne pas être traqué, veuillez décocher la case analytics ci-dessous. Le système déposera un cookie &ldquo;piwik_ignore&rdquo;, qui indiquera à Piwik d'ignorer votre ordinateur.</p>",
+  "i18n-privacy-policy-content": "<p>PRISM Break utilise Piwik analytics pour évaluer le trafic sur ce site. Piwik enregistre la localisation géographique approximative du visiteur, leur navigateur, leur système d'exploitation, et leurs clicks sur la page. Ceci nous aide à évaluer et à améliorer nos contenus.</p><p>Piwik protège la vie privée des visiteurs en anonmysant leurs adresses IP. Ainsi nous ne stockerons aucune donnée à caractère personnel à votre sujet, même si le site va enregistrer que quelqu'un à visiter  notre site. Vous pouvez consulter <strong><a href='http://prism-break.org/analytics'>les données analytics anonymisées ici.</a></strong></p><p>De plus, Piwik respecte le paramètre &ldquo;Do Not Track&rdquo; proposé par certains navigateurs. Si vous avez indiqué cette préfèrece, Piwik ignorera votre visite.</p><p>Si vous n&rsquo;utilisez pas &ldquo;Do Not Track&rdquo; et souhaitez ne pas être traqué, veuillez décocher la case analytics ci-dessous. Le système déposera un cookie &ldquo;piwik_ignore&rdquo;, qui indiquera à Piwik d'ignorer votre ordinateur.</p>",
 
   "i18n-donate-title": "Soutenez le projet PRISM Break en donnant des Bitcoins.",
   "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> a été lancé le 10 juin 2013 à la suite des révélation d'Edward Snowden sur la surveillance de masse mise en place par la NSA. Depuis son lancement, prés de 750 000 visiteurs concernés par les questions de vie privée ont visité ce site plus d'un million de fois depuis toute la planéte.</p><p>Bien que la première version de prism-break.org a été mise en place et lancée en seulement 2 jours, maintenir et améliorer le site ces deux dernier mois m'a pris presque tout mon temps. Au 3 Aout 2013, j'ai édité le site 1 208 fois et passé des heures à étudier de prés les solutions en matière de vie privée. J'ai fait cet effort afin que PRISM Break vous offre les meilleures méthodes pour combattre la surveillance gouvernementale.</p><p>Avec autant de personnes visitant prism-break.org, j'aimerais pouvoir consacrer toute mon attention à m'occuper des éventuels bugs de sécurité, améliorer la liiste de projets et rendre les contenus plus accessibles pour les utilisateurs. Cependant&mdash;comme tout le monde&mdash; je dois aussi payer mon loyer et acheter à manger, et ce projet ne génère pas d'argent. C'est en cela que vous pouvez aider.</p><p>Si vous souhaitez soutenir PRISM Break, vous pouvez donner des Bitcoins pour financer nos dévelopements futurs. Je me permet de vous suggérer de donner au moins 0.05 BTC, mais tout montant sera apprécié. Si vous donnez 0.50 BTC ou plus et que vous laissez un nom, je vous ajouterais sur cette page dans la liste des sponsors de PRISM Break.</p><p>L'adresse de donation est:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>Je vous remercie de votre soutien.</p><p>Peng Zhong<br />Dévelopeur de PRISM Break</p><p>P.S. Les dévelopeurs des superbes projets listés sur <a href='https://prism-break.org'>PRISM Break</a> seraient aussi ravies de votre soutien. Si vous appréciez utiliser leurs applications, vous devriez sérieusement penser à leur envoyer de l'argent pour financer leur dévelopement.</p>"
