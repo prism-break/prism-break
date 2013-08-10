@@ -34,9 +34,9 @@
   "i18n-fdroid-desc": "اپ های آزاد و متن باز برای اندروید", 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> پروانه: &ldquo;CyanogenMod هنوز شامل کدهای مخصوص سخت‌افزاری است که به کندی در حال بازمتن شدن هستند.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>ویکی‌پدیا</a></p><p><strong>F-Droid</strong> جایگزینی آزاد برای فروشگاه اپلیکیشن گوگل پلی است</p>", 
 
-  "i18n-mobile-os": "iOS &amp; WP",
-  "i18n-mobile-os-no-alt-title": "No alternative",
-  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.",
+  "i18n-mobile-os": "iOS &amp; WP", 
+  "i18n-mobile-os-no-alt-title": "No alternative", 
+  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.", 
   "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>", 
 
   "i18n-web-browser": "مرورگر وب", 
@@ -69,10 +69,8 @@
 
   "i18n-email-service": "سرویس ایمیل", 
   "i18n-autistici-desc": "A full range of free, privacy-aware services.", 
-  "i18n-bitmessage-desc": "سرور ایمیل غیرمتمرکز و رمزشده", 
   "i18n-kolab-desc": "‫سرویس دهنده‌ی Groupware برای ای‌میل، تقویم، کتاب نشانی و هم‌گام سازی با گوشی‌های تلفن همراه", 
   "i18n-mykolabcom-desc": "Secure and private Kolab accounts hosted in Switzerland.", 
-  "i18n-posteo-desc": "Encrypted and anonymous email, calendar, and contacts service for &euro;1 per month.", 
   "i18n-riseup-desc": "حساب ایمیل شخصی و امن", 
   "i18n-email-service-note": "<p><strong>رایزآپ</strong> در امریکا میزبانی می‌شود، البته مهم نیست.</p><p>چرا هاش‌میل نه؟ <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a> را ببینید.</p>", 
 
@@ -92,7 +90,6 @@
   "i18n-gnuprivacyguard-desc": "برنامه پی‌جی‌پی آزاد", 
   "i18n-gpgmail-desc": "OpenPGP add-on for Apple OS X Mail.", 
   "i18n-mailvelope-desc": "پی‌جی‌پی برای ایمیل", 
-  "i18n-openpgpjs-desc": "OpenPGP library implemented in JavaScript.", 
   "i18n-webpg-desc": "پی‌جی‌پی داخل مرورگر وب", 
   "i18n-apg-desc": "OpenPGP implementation for Android.", 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) یک برنامه‌ی رایانه‌ای رمزگذاری و رمزگشایی اطّلاعات است که محرمانگی رمزی و صحّت داده‌های تبادلی را فراهم می‌کند. PGP اغلب برای امضا کردن، رمزگذاری و رمزگشایی متون، ای‌میل‌ها، پرونده‌ها، شاخه‌ها و پارتیشن‌های کامل دیشک برای افزایش امنیت ارتباطات ای‌میلی به کار می‌رود.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>ویکی‌پدیا</a>", 
@@ -100,6 +97,7 @@
   "i18n-instant-messaging": "برنامه پیام رسان", 
   "i18n-pidgin-desc": "برنامه چت آزاد", 
   "i18n-otr-desc": "افزونه برای پیجین برای مکالمه رمزنگاری شده", 
+  "i18n-gajim-desc": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.", 
   "i18n-adium-desc": "پیچین برای آی‌او‌اس", 
   "i18n-bitlbee-desc": "پیام‌رسان فوری IRC که از دسته‌ای از پروتکل‌ها پشتیبانی می‌کند", 
   "i18n-jappix-desc": "Instant messaging web application with advanced social networking features.", 
@@ -232,6 +230,7 @@
   "i18n-invite-only": "فقط با دعوت‌نامه", 
   "i18n-approval-required": "نیاز به تأییدیه", 
   "i18n-usa-hosted": "USA hosted", 
+  "i18n-paid-service": "paid service", 
 
   "i18n-newbies-choice": "مناسب برای تازه‌کاران", 
   "i18n-editors-choice": "انتخاب نویسنده", 
@@ -273,9 +272,8 @@
   "i18n-disclaimer": "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information.", 
 
   "i18n-privacy-policy": "Privacy Policy", 
-  "i18n-privacy-policy-content": "<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to}completely ignore your computer.</p>",
+  "i18n-privacy-policy-content": "<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to}completely ignore your computer.</p>", 
 
-  "i18n-donate-title": "Support the PRISM Break project by donating Bitcoin.",
-  "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> launched on June 10th, 2013 on the heels of Edward Snowden's revelations about NSA mass surveillance. Since launch, nearly 750,000 privacy-conscious visitors have viewed the site over one million times around the world.</p><p>While the first version of prism-break.org took only two days to build and launch, maintaining and improving the site over the past two months has taken up much of my time. As of August 3rd, 2013, I've pushed 1,208 edits to the site and spent hundreds of hours poring over privacy resources. I've made this effort in order to ensure that PRISM Break offers you the best methods to combat government surveillance.</p><p>With so many people visiting prism-break.org, I would love to devote my full attention to fixing possible security bugs, improving the projects list and making the content more user-friendly. However&mdash;like anyone else&mdash;I still need to pay my rent and buy food, and this project doesn't generate any income. This is where you can help.</p><p>If you would like to support PRISM Break, please consider donating Bitcoin to fund future development. I suggest at least 0.05 BTC, but any amount is appreciated. If you donate 0.50 BTC or more and leave a name, I will add you to this page as a PRISM Break sponsor.</p><p>Donate address:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>I appreciate your support.</p><p>Peng Zhong<br />PRISM Break developer</p><p>P.S. The developers of the fine projects listed on <a href='https://prism-break.org'>PRISM Break</a> would also be grateful for your support. If you enjoy using their app, seriously consider throwing some money their way to fund development.</p>"
-
+  "i18n-donate-title": "Support the PRISM Break project by donating Bitcoin.", 
+  "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> launched on June 10th, 2013 on the heels of Edward Snowden's revelations about NSA mass surveillance. Since launch, nearly 750,000 privacy-conscious visitors have viewed the site over one million times around the world.</p><p>While the first version of prism-break.org took only two days to build and launch, maintaining and improving the site over the past two months has taken up much of my time. As of August 3rd, 2013, I've pushed 1,208 edits to the site and spent hundreds of hours poring over privacy resources. I've made this effort in order to ensure that PRISM Break offers you the best methods to combat government surveillance.</p><p>With so many people visiting prism-break.org, I would love to devote my full attention to fixing possible security bugs, improving the projects list and making the content more user-friendly. However&mdash;like anyone else&mdash;I still need to pay my rent and buy food, and this project doesn't generate any income. This is where you can help.</p><p>If you would like to support PRISM Break, please consider donating Bitcoin to fund future development. I suggest at least 0.05 BTC, but any amount is appreciated. If you donate 0.50 BTC or more and leave a name, I will add you to this page as a PRISM Break sponsor.</p><p>Donate address:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>I appreciate your support.</p><p>Peng Zhong<br />PRISM Break developer</p><p>P.S. The developers of the fine projects listed on <a href='https://prism-break.org'>PRISM Break</a> would also be grateful for your support. If you enjoy using their app, seriously consider throwing some mo}ey their way to fund development.</p>"
 }
