@@ -199,15 +199,15 @@
   "i18n-librevpn-desc": "A free network that runs over other networks.", 
   "i18n-meshnet-note": "<p>רשת אריג היא רשת P2P מבוזרת, עם קשרים פיזיים מנוהלי משתמש, בדרך כלל הקשרים הם אל־חוטיים.</p><p>&ldquo;רשת אריג הוא סוג של טופולוגיית רשת שבה כל צומת משמש הן כמקור מידע, והן כממסר עבור הודעות המועברות בין שכניו. רשת אריג נשענת על מוכנות כל צומת להעביר הודעות עבור צמתים אחרים כדי לקיים את קישוריות הרשת.&rdquo;</p><p>&mdash;<a href='https://he.wikipedia.org/wiki/%D7%A8%D7%A9%D7%AA_%D7%90%D7%A8%D7%99%D7%92'>ויקיפדיה</a></p>", 
 
-  "i18n-xmpp-server-title": "XMPP Server", 
+  "i18n-xmpp-server-title": "XMPP server software", 
   "i18n-ejabberd-desc": "XMPP server written in Erlang/OTP for GNU/Linux and OS X.", 
   "i18n-openfire-desc": "Cross-platform XMPP server written in Java.", 
   "i18n-prosody-desc": "Flexible lightweight XMPP server written in Lua.", 
   "i18n-tigase-desc": "Cross-platform XMPP server written in Java.", 
-  "i18n-metronome-desc": "XMPP Server based on Prosody, with advanced management/microblogging features.", 
+  "i18n-metronome-desc": "XMPP server software based on Prosody, with advanced management/microblogging features.", 
   "i18n-xmpp-server-notes": " <p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>", 
 
-  "i18n-sip-server-title": "SIP Server", 
+  "i18n-sip-server-title": "SIP server software", 
   "i18n-asterisk-desc": "PBX implementation with VoIP/SIP support.", 
   "i18n-freeswitch-desc": "Cross-platform soft switch software with VoIP/SIP support.", 
   "i18n-kamailio-desc": "Open source VoIP/SIP server.", 
