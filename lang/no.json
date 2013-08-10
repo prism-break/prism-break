@@ -199,6 +199,12 @@
   "i18n-librevpn-desc": "Fritt nettverk som kjører over andre nettverk.", 
   "i18n-meshnet-note": "<p>Et meshnet er et desentralisert P2P-nettverk med brukerkontrollerte fysiske lenker.</p>", 
 
+  "i18n-server-os-title": "Server operating system",
+  "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
+  "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+  "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+  "i18n-server-os-notes": "--",
+
   "i18n-xmpp-server-title": "XMPP-tjener", 
   "i18n-ejabberd-desc": "XMPP-tjener for GNU/Linux og OS X.", 
   "i18n-openfire-desc": "XMPP tjener.", 

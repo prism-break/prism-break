@@ -199,6 +199,12 @@
   "i18n-librevpn-desc": "A free network that runs over other networks.", 
   "i18n-meshnet-note": "<p>Ett meshnet är ett decentraliserat peer-till-peer nätverk, med användarkontrollerade fysiska länkar som normalt är trådlösa.</p><p>&ldquo;Mesh nätverk (topologi) är en typ av nätverk där varje nod inte bara måste fånga och sprida sin egen data, men också agera relä åt andra noder, det vill säga den måste samarbeta för att sprida datan i nätverket.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>", 
 
+  "i18n-server-os-title": "Server operating system",
+  "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
+  "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+  "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+  "i18n-server-os-notes": "--",
+
   "i18n-xmpp-server-title": "XMPP server software", 
   "i18n-ejabberd-desc": "XMPP server written in Erlang/OTP for GNU/Linux and OS X.", 
   "i18n-openfire-desc": "Cross-platform XMPP server written in Java.", 

@@ -199,6 +199,12 @@
   "i18n-librevpn-desc": "Un réseau libre qui fonctionne sur les autres réseaux.", 
   "i18n-meshnet-note": "<p>Un réseau maillé est un réseau pair-à-pair décentralisé, avec des liens physiques contrôlés par l'utilisateur qui sont habituellement sans fil.</p><p>&laquo;&nbsp;Le réseau maillé (topologie) est un type de réseau dans lequel chaque nœud doit non seulement capturer et diffuser sa propre information, mais aussi servir de relai pour les autres nœuds, à savoir, collaborer à la propagation de l'information dans le réseau.&nbsp;&raquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Mesh_networking'>La Wikipédia</a> (en anglais)</p>", 
 
+  "i18n-server-os-title": "Server operating system",
+  "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
+  "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+  "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+  "i18n-server-os-notes": "--",
+
   "i18n-xmpp-server-title": "Serveur XMPP", 
   "i18n-ejabberd-desc": "Serveur XMPP écrit en Erlang/OTP pour GNU/Linux et OS X.", 
   "i18n-openfire-desc": "Serveur XMPP multi-plateforme écrit en Java.", 
