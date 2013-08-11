@@ -72,6 +72,7 @@
   "i18n-bitmessage-desc": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
   "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
   "i18n-mykolabcom-desc": "Secure, private Kolab accounts hosted in Switzerland for 10 CHF per month.",
+  "i18n-retroshare-desc": "Secure P2P communications platform offering IM, forums, VoIP, file sharing, and more.",
   "i18n-riseup-desc": "Secure communication tools for people working on liberatory social change.",
   "i18n-email-service-note": "<p>Here are some email providers that try do things right and run email for you. Please decide for yourself whether you trust them with your data.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the <a href='https://MyKolab.com/privacy'>strong Swiss privacy laws</a>. It is run exclusively with free software and using the service supports the development of <strong>Kolab</strong>. Also, it lets you export all your data at any time.</p><p><strong>Bitmessage</strong> is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collusions.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p><p>If you decide to <a href='#server-os'>run your own server</a>, <strong>Kolab</strong> is a worth looking into for mail management. It integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p>",
 
@@ -129,7 +130,6 @@
   "i18n-gnusocial-desc": "Self-hosted, decentralized social network.",
   "i18n-lorea-desc": "Distributed and federated social nodes.",
   "i18n-movim-desc": "Private, decentralized social network server.",
-  "i18n-retroshare-desc": "Secure multi-platform P2P messaging, forums, VoIP, file sharing, and more.",
   "i18n-salutatoi-desc": "Multi-frontend, multipurpose communication tool.",
   "i18n-tent-desc": "Protocol for realtime decentralized communication and personal data storage.",
   "i18n-protocol": "Protocol",
@@ -230,6 +230,7 @@
 
   "i18n-service": "Service",
   "i18n-software": "Software",
+  "i18n-server-software": "Server software",
   "i18n-p2p-software": "Peer to peer software",
 
   "i18n-advanced": "advanced",
