@@ -44,7 +44,7 @@
   "i18n-firefox-desc": "Browser internet open source.", 
   "i18n-icecat-desc": "Versione GNU di Firefox.", 
   "i18n-orbot-desc": "Sevizio proxy Tor per Android.", 
-  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for as many things as possible. Browsing the web may be slower, but it will offer you far better anonymity. Make sure to <a href='https://www.torproject.org/docs/faq.html.en'>learn the basics of Tor</a> before using it.</p><p>Note: Signing in to PayPal or a banking website across the Tor network may trip the site's fraud protection software. Users should also be aware that signing into non-HTTPS websites may result in your credentials being captured by a malicious exit node.</p><p><strong>Mozilla Firefox</strong> uses Google search by default. Google search should be replaced by a more <a href='#web-search'>private alternative</a>.</p><p><a href='http://www.geticeweasel.org/'>Iceweasel</a> is a de-branded Mozilla Firefox alternative for Debian based distributions.</p><p>Why are Chromium, SRWare Iron, et al. not recommended on PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>More info here.</a></p>", 
+  "i18n-web-browser-note": "<p>Combina l'utilizzo di <strong>Tor Browser</strong> ed un altro browser per navigare. Cerca di utilizzare Tor il più possibile. Navigherai più lentamente, ma sarai molto più anonimo. Assicurati di <a href='https://www.torproject.org/docs/faq.html.en'>conoscere le basi di Tor</a> prima di utilizzarlo.</p><p>Note: Signing in to PayPal or a banking website across the Tor network may trip the site's fraud protection software. Users should also be aware that signing into non-HTTPS websites may result in your credentials being captured by a malicious exit node.</p><p><strong>Mozilla Firefox</strong> uses Google search by default. Google search should be replaced by a more <a href='#web-search'>private alternative</a>.</p><p><a href='http://www.geticeweasel.org/'>Iceweasel</a> is a de-branded Mozilla Firefox alternative for Debian based distributions.</p><p>Why are Chromium, SRWare Iron, et al. not recommended on PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>More info here.</a></p>", 
 
   "i18n-web-browser-plugins": "Componenti aggiuntivi per browser internet", 
   "i18n-httpseverywhere-desc": "Cripta le tue comunicazioni con molti importanti siti internet.", 
@@ -60,7 +60,7 @@
   "i18n-seeksproject-desc": "Piattaforma aperta e decentralizzata per ricerche collaborative.", 
   "i18n-startpage-desc": "Ricerche private e non registrate.", 
   "i18n-yacy-desc": "Ricerca decentralizzata.", 
-  "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>", 
+  "i18n-web-search-note": "<p><strong>Startpage</strong> è proprietario, con Hosting in USA/Olanda, ed offre ricerche anonime tramite Google (immagini incluse).</p><p><strong>DuckDuckGo</strong> è parzialmente proprietario, basato negli USA, ed offre ricerche anonime tramite Bing.</p><p>Pick your poison.</p>", 
 
   "i18n-maps": "Mappe", 
   "i18n-openstreetmap-desc": "Mappa mondiale collaborativa e libera.", 
