@@ -218,7 +218,7 @@
   "i18n-metronome-desc": "XMPP server software based on Prosody, with advanced management/microblogging features.",
   "i18n-xmpp-server-notes": "<blockquote><p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></cite></footer></blockquote>",
 
-  "i18n-sip-server-title": "SIP server software",
+  "i18n-sip-server-title": "SIP server",
   "i18n-asterisk-desc": "PBX implementation with VoIP/SIP support.",
   "i18n-freeswitch-desc": "Cross-platform soft switch software with VoIP/SIP support.",
   "i18n-kamailio-desc": "Open source VoIP/SIP server.",
