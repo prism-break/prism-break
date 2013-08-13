@@ -69,6 +69,7 @@
 
   "i18n-email-service": "Services de messagerie", 
   "i18n-autistici-desc": "Un panel complet de services gratuits et soucieux de la vie privée.", 
+  "i18n-bitmessage-desc": "Le service de messagerie P2P décentralisé et chiffré basé sur la technologie Bitcoin.", 
   "i18n-kolab-desc": "Serveur groupware (logiciel de groupe de travail) pour les mails, calendriers et carnets d'adresses incluant la possibilité de synchroniser les données vers des téléphones portables.", 
   "i18n-mykolabcom-desc": "Comptes Kolab privées et sécurisé basés en Suisse.", 
   "i18n-riseup-desc": "Comptes de messagerie sécurisée et privée.", 
@@ -149,8 +150,8 @@
   "i18n-document-collaboration-note": "<p>--</p>", 
 
   "i18n-media-publishing": "Publication média", 
-  "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting",
-  "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.",
+  "i18n-mediacrush-desc": "Média d'hébergement privé et rapide (image, audio, vidéo)",
+  "i18n-mediacrush-self-desc": "Vous pouvez également exécuter des instances auto-hébergés de MediaCrush.",
   "i18n-noblogs-desc": "Plateforme de publication de blog basé sur WordPress, par autistici.org.", 
   "i18n-gnumediagoblin-desc": "Plate-forme décentralisée de publication média.", 
   "i18n-piwigo-desc": "Plate-forme libre de galerie photo.", 
@@ -201,10 +202,10 @@
   "i18n-librevpn-desc": "Un réseau libre qui fonctionne sur les autres réseaux.", 
   "i18n-meshnet-note": "<p>Un réseau maillé est un réseau pair-à-pair décentralisé, avec des liens physiques contrôlés par l'utilisateur qui sont habituellement sans fil.</p><p>&laquo;&nbsp;Le réseau maillé (topologie) est un type de réseau dans lequel chaque nœud doit non seulement capturer et diffuser sa propre information, mais aussi servir de relai pour les autres nœuds, à savoir, collaborer à la propagation de l'information dans le réseau.&nbsp;&raquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Mesh_networking'>La Wikipédia</a> (en anglais)</p>", 
 
-  "i18n-server-os-title": "Server operating system",
-  "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
-  "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
-  "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+  "i18n-server-os-title": "Système d'exploitation pour Serveur",
+  "i18n-centos-desc": "Plate-forme informatique entreprise avec 100% des binaires compatible avec RHEL.",
+  "i18n-smeserver-desc": "Distribution simple basée sur CentOS avec messagerie préconfiguré, partage de fichiers, serveur web, et plus encore.",
+  "i18n-yunohost-desc": "Distribution personnelle basée sur Debian avec messagerie préconfiguré, messagerie instantanée, et serveur web.",
   "i18n-server-os-notes": "--",
 
   "i18n-xmpp-server-title": "Serveur XMPP", 
@@ -230,6 +231,7 @@
 
   "i18n-service": "Service", 
   "i18n-software": "Logiciel", 
+  "i18n-server-software": "Logiciel pour Serveur",
   "i18n-p2p-software": "Logiciel peer to peer", 
 
   "i18n-advanced": "Avancé", 
