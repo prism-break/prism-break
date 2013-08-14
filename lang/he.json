@@ -98,7 +98,7 @@
   "i18n-instant-messaging": "תקשורת מסרים מיידיים", 
   "i18n-pidgin-desc": "תוכנת צ׳אט בקוד פתוח.", 
   "i18n-otr-desc": "התקן ואפשר את התוסף ב־Pidgin עבור צ׳אט מאובטח.", 
-  "i18n-gajim-desc": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.", 
+  "i18n-gajim-desc": "תוכנת צ׳אט קלה ומהירה עבור GNU/Linux ו- Windows&mdash;תמיכה ב-OTR בעזרת תוסף.", 
   "i18n-adium-desc": "לקוח צ׳אט חופשי רב־פרוטוקולים עבור מערכת הפעלה OS X.", 
   "i18n-bitlbee-desc": "תוכנת gateway עבור צ׳אט IRC התומך במספר פרוטוקולים.", 
   "i18n-jappix-desc": "אפליקציית צ׳אט דפדפן עם תכונות רשת חברתית מתקדמות.", 
@@ -150,8 +150,8 @@
   "i18n-document-collaboration-note": "<p>--</p>", 
 
   "i18n-media-publishing": "הפצת מדיה", 
-  "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting",
-  "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.",
+  "i18n-mediacrush-desc": "אחסון מדיה (תמונות, קבצי שמע, קבצי וידאו) בעדיפות על פרטיות",
+  "i18n-mediacrush-self-desc": "אתה יכול גם להריץ מופעי MediaCrush באחסון עצמאי.",
   "i18n-noblogs-desc": "פלטפורמת הפצת בלוגים המבוססת על WordPress, ע״י autistici.org.", 
   "i18n-gnumediagoblin-desc": "פלטפורמת הפצת מדיה מבוזרת.", 
   "i18n-piwigo-desc": "גלריית תמונות באחסון עצמאי.", 
@@ -192,7 +192,7 @@
   "i18n-syndie-desc": "תוכנת פורום אנונימית ומבוזרת.", 
   "i18n-tor-hidden-services-title": "השירותים הנסתרים של Tor", 
   "i18n-tor-hidden-services-desc": "רשת ה־Tor מאפשרת גישה לאתרי &#8206;*.onion.", 
-  "i18n-gnunet-desc": "GNUnet is a fully free P2P network.", 
+  "i18n-gnunet-desc": "GNUnet היא רשת P2P חופשית לגמרי.", 
   "i18n-anon-network-note": "<p>--</p>", 
 
   "i18n-meshnet": "רשת אריג", 
@@ -202,19 +202,18 @@
   "i18n-librevpn-desc": "רשת חופשית שרצה מעל רשתות אחרות.", 
   "i18n-meshnet-note": "<p>רשת אריג היא רשת P2P מבוזרת, עם קשרים פיזיים מנוהלי משתמש, בדרך כלל הקשרים הם אל־חוטיים.</p><p>&ldquo;רשת אריג הוא סוג של טופולוגיית רשת שבה כל צומת משמש הן כמקור מידע, והן כממסר עבור הודעות המועברות בין שכניו. רשת אריג נשענת על מוכנות כל צומת להעביר הודעות עבור צמתים אחרים כדי לקיים את קישוריות הרשת.&rdquo;</p><p>&mdash;<a href='https://he.wikipedia.org/wiki/%D7%A8%D7%A9%D7%AA_%D7%90%D7%A8%D7%99%D7%92'>ויקיפדיה</a></p>", 
   
-  "i18n-server-os-title": "Server operating system",
-  "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
-  "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+  "i18n-server-os-title": "מערכות הפעלה לשרתים",
+  "i18n-centos-desc": "פלטפורמת מחשוב ברמת תאגיד עם 100% תאימות בינארית עם RHEL.",
+  "i18n-smeserver-desc": "הפצה פשוטה המבוססת על CentOS המוגרת מראש עם מייל, שיתוף קבצים, שרת web ועוד.",
   "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
   "i18n-server-os-notes": "--",
 
-<<<<<<< HEAD
   "i18n-xmpp-server-title": "שרת תוכנת XMPP", 
   "i18n-ejabberd-desc": "שרת XMPP שנכתב ב-Erlang/OTP עבור GNU/Linux ו-OS X.", 
   "i18n-openfire-desc": "שרת XMPP חוצה פלפורמות שנכתב בשפת ג׳אווה.", 
   "i18n-prosody-desc": "שרת XMPP גמיש וקל שנכתב בשפת Lua.", 
   "i18n-tigase-desc": "שרת XMPP חוצה פלטפורמות שנכתב בשפת ג׳אווה.", 
-  "i18n-metronome-desc": "XMPP server software based on Prosody, with advanced management/microblogging features.",  
+  "i18n-metronome-desc": "תוכנת שרת XMPP מבוססת Prosody, עם יכולות ניהול מתקדמות/מיקרובלוגין.",  
   "i18n-xmpp-server-notes": " <p>&ldquo;פרוטוקול מסרים ונוכחות ניתן להרחבה (XMPP)&#8206; הוא פוטוקול תקשורת עבור תוכנת תיכון מיועדת לניהול מסרים המבוסס על XML (שפת מארק-אפ ניתנת להרחבה). הפרוטוקול כונה בהתחלה ג׳אבר, ופותח ע״י הקהילה הפתוחת מקור של ג׳אבר ב-1999 עבור מסרים מידיים, כמעט במזן אמיתי, מידע נוכחות וניהול רשימת כתובות. הפרוטוקול, שעוצב להיות ניתן להרחבה, שימש גם למערכות הפצה ורישום, איתות עבור תקשורת קול מעל IP, וידאו,שליחת קבצים, משחקים, אפליקציות Internet of Things&#8206; כמו smart grid&#8206;, ושירותי רשתות חברתיות</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/XMPP'>ויקיפדיה (המאמר באנגלית)</a></p>", 
 
   "i18n-sip-server-title": "שרת SIP", 
@@ -223,28 +222,9 @@
   "i18n-kamailio-desc": "שרת VoIP/SIP פתוח מקור.", 
   "i18n-sip-server-notes": "<p>&ldquo;Session Initiation Protocol (בראשי תיבות: SIP#8206;) הוא פרוטוקול איתות (Signaling Protocol#8206;) המשמש בעיקר לשליטה וניהול של שיחות זמן-אמת ברשתות IP כדוגמת טלפוניה מבוססת IP ומסרים מיידיים.&rdquo;</p><p>&mdash; <a href='https://he.wikipedia.org/wiki/Session_Initiation_Protocol'>ויקיפדיה</a></p>", 
 
-  "i18n-hardware-software": "Hardware &amp; software setup", 
+  "i18n-hardware-software": "ארגון חומרה ותוכנה", 
   "i18n-freedombox-desc": "FreedomBox משלב הגנה על הפרטיות ב&ldquo;שרת תקע&rdquo; קטן כך שכולם יכולים להשיג פרטיות.", 
   "i18n-arkos-desc": "arkOS היא חבילת תוכנות קלה שרצה על Raspberry Pi בכדי לאחסן בבטחון את האתרים, האי-מייל, הקבצים והדברים האחרים שלך", 
-=======
-
-  "i18n-xmpp-server-title": "XMPP server software", 
-  "i18n-ejabberd-desc": "XMPP server written in Erlang/OTP for GNU/Linux and OS X.", 
-  "i18n-openfire-desc": "Cross-platform XMPP server written in Java.", 
-  "i18n-prosody-desc": "Flexible lightweight XMPP server written in Lua.", 
-  "i18n-tigase-desc": "Cross-platform XMPP server written in Java.", 
-  "i18n-metronome-desc": "XMPP server software based on Prosody, with advanced management/microblogging features.", 
-  "i18n-xmpp-server-notes": " <p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>", 
-
-  "i18n-sip-server-title": "SIP server", 
-  "i18n-asterisk-desc": "PBX implementation with VoIP/SIP support.", 
-  "i18n-freeswitch-desc": "Cross-platform soft switch software with VoIP/SIP support.", 
-  "i18n-kamailio-desc": "Open source VoIP/SIP server.", 
-  "i18n-sip-server-notes": "<p>&ldquo;The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>", 
-
-  "i18n-freedombox-desc": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.", 
-  "i18n-arkos-desc": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.", 
->>>>>>> 73b9e63940e9c09ec67d0acbb5c239028260b83d
   "i18n-self-hosting-notes": "--", 
 
   "i18n-show-all": "הצג הכל", 
@@ -259,7 +239,7 @@
   "i18n-invite-only": "בהזמנה בלבד", 
   "i18n-approval-required": "נדרש אישור", 
   "i18n-usa-hosted": "מאוחסן בארה״ב",
-  "i18n-paid-service": "paid service", 
+  "i18n-paid-service": "שירות בתשלום", 
 
   "i18n-newbies-choice": "בחירת המתחילים", 
   "i18n-editors-choice": "בחירת העורך", 
