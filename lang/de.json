@@ -35,9 +35,9 @@
   "i18n-android-note": "<p><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href=\"https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse\">Mehr dazu</a></p><p><strong>F-Droid</strong> ist eine freie Alternative zum Google Play App-Store.</p>", 
 
   "i18n-mobile-os": "iOS &amp; WP",
-  "i18n-mobile-os-no-alt-title": "No alternative",
-  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.",
-  "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>",
+  "i18n-mobile-os-no-alt-title": "Keine Alternative",
+  "i18n-mobile-os-no-alt-desc": "Ersetze das Gerät, diese Betriebssysteme haben keine freien Alternativen.",
+  "i18n-mobile-os-note": "<p>iOS und WP sind propertiäre Betriebssysteme, deren Quellcode nicht zur Bearbeitung Dritter verfügbar ist. Du solltest weder Deine Verbindungen noch Deine Daten einer Black Box anvertrauen.</p>",
 
   "i18n-web-browser": "Webbrowser", 
   "i18n-torbrowser-desc": "Verschlüsseltes, anonymes Surfen.", 
@@ -65,14 +65,12 @@
   "i18n-maps": "Kartendienste", 
   "i18n-openstreetmap-desc": "Freier und gemeinschaftlicher Kartendienst.", 
   "i18n-marble-desc": "Freier, virtueller Globus und Welt-Atlas.", 
-  "i18n-maps-note": "<p>--</p>", 
+  "i18n-maps-note": "<blockquote><p>&ldquo;Falls Du Zeit verbringst, um OpenStreetMap zu verbessern, hilfst Du einer guten Sache und erstellst eine geografische Datenbank der Welt, welche frei und offen für alle und für immer ist.&rdquo;</p><footer>&mdash; <cite><a href='http://wiki.openstreetmap.org/wiki/Google_Map_Maker'>OpenStreetMap Wiki</a></cite></footer></blockquote>",
 
   "i18n-email-service": "E-Mail-Dienste", 
   "i18n-autistici-desc": "Eine ganze Reihe von kostenfreien, privatsphärebewussten Diensten.", 
-  "i18n-bitmessage-desc": "Verschlüsselter, dezentralisierter Mailserver.", 
   "i18n-kolab-desc": "Groupware Server für E-Mail, Kalender, Kontakte und Synchronisierung mit mobilen Geräten.", 
   "i18n-mykolabcom-desc": "Sichere Kolab-Konten aus der Schweiz.", 
-  "i18n-posteo-desc": "Verschlüsselter und anonymer E-Mail-, Kalender- und Adressbuch-Dienst. Für 1€ pro Monat.", 
   "i18n-riseup-desc": "Sichere und private Mailkonten.", 
   "i18n-email-service-note": "<p><strong>Riseup</strong> wird in den USA gehostet.</p><p>Warum nicht Hushmail?<br>Lese hierzu: <a href=\"https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy\">&ldquo;Gefährdung Deiner Privatsphäre&rdquo; (engl.)</a>.</p>", 
 
@@ -92,7 +90,6 @@
   "i18n-gnuprivacyguard-desc": "Freie OpenPGP-Implementierung.", 
   "i18n-gpgmail-desc": "OpenPGP-Add-on für die OS X Mail-App.", 
   "i18n-mailvelope-desc": "OpenPGP-Verschlüsselung für Webmail.", 
-  "i18n-openpgpjs-desc": "In JavaScript geschriebene OpenPGP-Bibliothek.", 
   "i18n-webpg-desc": "GnuPG/PGP in Deinem Browser.", 
   "i18n-apg-desc": "OpenPGP-App für Android.", 
   "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a><br><p>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</p>", 
@@ -100,6 +97,7 @@
   "i18n-instant-messaging": "Sofortnachrichten", 
   "i18n-pidgin-desc": "Quelloffenes Chatprogramm.", 
   "i18n-otr-desc": "Pidgin-Plugin für verschlüsseltes Chatten.", 
+  "i18n-gajim-desc": "Leichter und schneller IM-Client für GNU/Linux und Windows&mdash;OTR-Unterstützung durch eine Erweiterung.",
   "i18n-adium-desc": "Pidgin für OS X. (Denke daran, OTR zu aktivieren!)", 
   "i18n-bitlbee-desc": "Chat-Client, der IRC, XMPP/Jabber und viele andere Protokolle unterstützt.", 
   "i18n-jappix-desc": "Freie Plattform für ein soziales Netzwerk mit Sofortnachrichten und umfangreichen Funktionen.", 
@@ -133,7 +131,9 @@
   "i18n-salutatoi-desc": "Modulares Mehrzweck-Kommunikationswerkzeug.", 
   "i18n-tent-desc": "Ein Protokoll für dezentralisierte Echtzeitkommunikation und persönliche Datenspeicherung.", 
   "i18n-protocol": "PROTOKOLL", 
-  "i18n-social-networking-note": "<p>--</p>", 
+  "i18n-social-networking-note": "<p>Solltest Du über Systemadministration Bescheid wissen, entscheide Dich unbedingt, eine Instanz von <strong>pump.io</strong> (oder etwas Ähnlichem) für Deine Freunde, Familie oder Lieblingsgemeinschaft zu starten. Viele von ihnen würden gerne Facebook verlassen, falls Du ihnen dazu einen Weg zeigst.</p><p>Für die unter Euch ohne einen eigenen Server ist <strong>RetroShare</strong> der einfachste Weg, ein eigenes verschlüsseltes soziales Netzwerk zu starten.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> ist ein populäres soziales Netzwerk ähnlich Twitter für die freie und quelloffene Software-Gemeinschaft. Diese Seite zieht im Laufe der Woche zu der <strong>pump.io</strong> Softwareplattform um.</p>",
+
+
 
   "i18n-cloud-storage": "Cloudspeicherung", 
   "i18n-gitannex-desc": "Synchronisiert Ordner auf allen Laufwerken Deines Computers.", 
@@ -151,6 +151,8 @@
   "i18n-document-collaboration-note": "<p>--</p>", 
 
   "i18n-media-publishing": "Medienveröffentlichung", 
+  "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting",
+  "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.",
   "i18n-noblogs-desc": "Auf WordPress basierende Plattform durch autistici.org.", 
   "i18n-gnumediagoblin-desc": "Dezentralisierte Medienveröffentlichungs-Plattform.", 
   "i18n-piwigo-desc": "Freie Fotogalerie-Plattform.", 
@@ -184,7 +186,7 @@
   "i18n-namecoin-desc": "Verteiltes DNS, basierend auf der Bitcoin-Technologie.", 
   "i18n-dns-provider-note": "<p>Google Public DNS speichert Deine Internetprovider- und Standort-Informationen permanent für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</p>", 
 
-  "i18n-anon-networks": "Anonymizing network", 
+  "i18n-anon-networks": "Anonymisierungsnetzwerke",
   "i18n-freenet-desc": "Dezentralisiertes, zensurresistentes Netzwerk.", 
   "i18n-i2p-desc": "Das Unsichtbare-Internet-Projekt.", 
   "i18n-nightweb-desc": "Anonymes I2P-Netzwerk für Android.", 
@@ -201,6 +203,12 @@
   "i18n-librevpn-desc": "Ein freies Netzwerk, das über andere Netzinfrastrukturen läuft.", 
   "i18n-meshnet-note": "<p>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</p><p>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Vermaschtes_Netz\">Wikipedia</a></p>", 
 
+  "i18n-server-os-title": "Server operating system",
+  "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
+  "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+  "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+  "i18n-server-os-notes": "--",
+
   "i18n-xmpp-server-title": "XMPP-Server", 
   "i18n-ejabberd-desc": "In Erlang/OTP geschriebener XMPP-Server für GNU/Linux und OS X.", 
   "i18n-openfire-desc": "Plattformübergreifender, in Java geschriebener XMPP-Server.", 
@@ -215,7 +223,7 @@
   "i18n-kamailio-desc": "Quelloffener VoIP/SIP-Server.", 
   "i18n-sip-server-notes": "<p>&ldquo;Das Session Initiation Protocol (SIP) ist ein Netzprotokoll zum Aufbau, zur Steuerung und zum Abbau einer Kommunikationssitzung zwischen zwei und mehr Teilnehmern. Das Protokoll wird u. a. im RFC 3261 spezifiziert. In der IP-Telefonie ist das SIP ein häufig angewandtes Protokoll.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>", 
 
-  "i18n-self-hosting-title": "Self-hosting Lösungen", 
+  "i18n-hardware-software": "Hardware &amp; Software Kombinationen",
   "i18n-freedombox-desc": "FreedomBox integriert Datenschutz auf einem günstigen Plug-Server.", 
   "i18n-arkos-desc": "arkOS ist ein schlanker Software-Stack für den Raspberry Pi, auf dem Du Deine Websites, E-Mails, Daten, etc. sicher selbst hosten kannst.", 
   "i18n-self-hosting-notes": "--", 
@@ -224,7 +232,7 @@
 
   "i18n-service": "Dienste", 
   "i18n-software": "Software", 
-  "i18n-p2p-software": "Peer to peer software", 
+  "i18n-p2p-software": "Peer-zu-Peer-Software",
 
   "i18n-advanced": "für Fortgeschrittene", 
   "i18n-experimental": "experimentell", 
@@ -232,6 +240,7 @@
   "i18n-invite-only": "auf Einladungsbasis", 
   "i18n-approval-required": "nur auf Anfrage", 
   "i18n-usa-hosted": "US-Betreiber", 
+  "i18n-paid-service": "bezahlter Dienst", 
 
   "i18n-newbies-choice": "für Einsteiger", 
   "i18n-editors-choice": "Redaktionsempfehlung", 
@@ -272,10 +281,9 @@
 
   "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust.", 
 
-  "i18n-privacy-policy": "Datenschutzrichtlinie (englisch)", 
-  "i18n-privacy-policy-content": "<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to}completely ignore your computer.</p>",
-
-  "i18n-donate-title": "Support the PRISM Break project by donating Bitcoin.",
-  "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> launched on June 10th, 2013 on the heels of Edward Snowden's revelations about NSA mass surveillance. Since launch, nearly 750,000 privacy-conscious visitors have viewed the site over one million times around the world.</p><p>While the first version of prism-break.org took only two days to build and launch, maintaining and improving the site over the past two months has taken up much of my time. As of August 3rd, 2013, I've pushed 1,208 edits to the site and spent hundreds of hours poring over privacy resources. I've made this effort in order to ensure that PRISM Break offers you the best methods to combat government surveillance.</p><p>With so many people visiting prism-break.org, I would love to devote my full attention to fixing possible security bugs, improving the projects list and making the content more user-friendly. However&mdash;like anyone else&mdash;I still need to pay my rent and buy food, and this project doesn't generate any income. This is where you can help.</p><p>If you would like to support PRISM Break, please consider donating Bitcoin to fund future development. I suggest at least 0.05 BTC, but any amount is appreciated. If you donate 0.50 BTC or more and leave a name, I will add you to this page as a PRISM Break sponsor.</p><p>Donate address:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>I appreciate your support.</p><p>Peng Zhong<br />PRISM Break developer</p><p>P.S. The developers of the fine projects listed on <a href='https://prism-break.org'>PRISM Break</a> would also be grateful for your support. If you enjoy using their app, seriously consider throwing some money their way to fund development.</p>"
-
-}
+  "i18n-privacy-policy": "Datenschutzrichtlinie", 
+  "i18n-privacy-policy-content": "<p>PRISM Break benutzt Piwik analytics um den Verkehr auf dieser Seite zu verfolgen. Piwik nimmt die ungefähre geografische Lage, den Browser und das Betriebssystem der Besucher sowie deren Klicks auf der Seite auf. Dies hilft uns den Wert unseres Inhalts zu beurteilen und zu verbessern.</p><p>Piwik sichert die Privatsphäre durch Anonymisierung der IP-Adressen der Nutzer. Das bedeutet, das wir keine persöhnlich indentifizierbare Informationen über Dich speichern, obwohl Dein Besuch einen Eintrag erstellt, dass unsere Seite von jemandem besucht wurde. Du möchtest vielleicht <strong><a href='http://prism-break.org/analytics'>die anonymisierten Analysen hier einsehen.</a></strong></p><p>Piwik wird ebenso die Nicht-verfolgen-Einstellung, eingestellt in manchen Browsern, respektieren, also falls Du diese Einstellung vorgenommen hast, wird Piwik Deinen Besuch ignorieren.</p><p>Falls Du Nicht-verfolgen nicht benutzt, aber trotzdem nicht verfolgt werden möchtest, trage Dich bitte aus den Statistiken durch das Abwählen der Box weiter unten aus. Das System wird ein Cookie setzen, welches Piwik vermittelt, Deinen Computer komplett zu ignorieren.</p>", 
+ 
+  "i18n-donate-title": "Unterstütze das PRISM Break-Projekt durch eine Bitcoin-Spende.", 
+  "i18n-donate-content": "<p><a href='https://prism-break.org/'>PRISM Break</a> gestartet 10. Juni 2013 auf den Fußstapfen von Edward Snowden's Enthüllungen über die massive Kontrolle durch die NSA. Seit dem Start haben fast 750.000 Privatsphärebewusste Personen diese Seite über eine Million mal in jedem Teil der Welt besucht.</p><p>Während die erste Version voin prism-break.org nur zwei Tage zum Erstellen und Starten gebraucht hat, hat die Wartung und Verbesserung dieser Seite die letzten Zwei Monate viel meiner Zeit beansprucht. Seit dem 3. August 2013 habe ich bereits 1208 Bearbeitungen zu der Seite hinzugefügt und hunderte Stunden grübelnd über Hilfsmittel für die Privatsphäre verbracht. Ich habe diese Anstrengung gemacht, um zu garantieren, dass PRISM Break die besten Methoden zum Bekämpfen der Überwachung durch die Regierung.</p><p>Durch so viele Leute, die prism-break.org bereits besucht haben, möchte ich meine volle Aufmerksamkeit konzentrieren, um Sicherheitslücken zu schließen, die Projektliste zu verbessern und den Inhalt benutzerfreundlicher zu gestalten. Trotzdem&mdash;wie jeder andere auch&mdash; muss ich trotzdem meine Miete bezahlen und Essen kaufen, und dieses Projekt erzeugt kein Einkommen. Das ist, wo Du helfen kannst.</p><p>Falls Du PRISM Break unterstützen möchtest, entschiede dich zu einer Spende auf Bitcoin, um zukünftige Entwicklungen zu ermöglichen. Ich schlage vor, mindestens 0.05 BTC zu spenden, aber jeder Betrag wird geschätzt. Solltest Du 0.50 BTC spenden und einen Namen hinterlassen, werde ich dich als Sponsor von PRISM Break auf dieser Seite hinzufügen.</p><p>Spendenadresse:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>Ich schätze Deine Unterstützung.</p><p>Peng Zhong<br />PRISM Break-Entwickler</p><p>P.S. Die Entwickler der ausgezeichneten Projekte in der Liste auf <a href='https://prism-break.org'>PRISM Break</a> wären ebenfalls über eine Spende erfreut. Falls Du es gemocht hast, deren Anwendung zu benutzen, entscheide dich, etwas Geld zu spenden, um die Entwicklung zu unterstützen.</p>"
+} 
