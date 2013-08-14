@@ -1,31 +1,31 @@
 ﻿{
-  "i18n-title": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program - PRISM Break",
-  "i18n-meta-description": "Opt out of PRISM, the NSA&rsquo;s global data surveillance program. Stop reporting your online activities to the American government with these free alternatives to proprietary software.",
-  "i18n-intro": "<strong>Izvan PRISM, NSA-inog globalnog programa za nadzor.</strong> Prekini izveštavati Američku vladu o svojim internet aktivnostima uz pomoć besplatnih, otvorenih alternativa.",
+  "i18n-title": "Rešite se PRISM-a, NSA-ovog globalnog programa za nadzor podataka - PRISM Break",
+  "i18n-meta-description": "Rešite se PRISM-a, NSA-ovog globalnog programa za nadzor podataka. Prekinite izveštavati o vašim internet aktivnostima vladi SAD-a sa ovim besplatnim alternativama vlasničkog softvera.",
+  "i18n-intro": "<strong>Rešite se PRISM-a, NSA-ovog globalnog programa za nadzor podataka.</strong> Prekinite izveštavati  o vašim internet aktivnostima vladi SAD-a sa ovim besplatnim alternativama vlasničkog softvera.",
 
-  "i18n-proprietary": "Proprietary",
-  "i18n-free-alternative": "Free alternative",
-  "i18n-notes": "Notes",
+  "i18n-proprietary": "Vlasnički softver,"
+  "i18n-free-alternative": "Beslatne alternative",
+  "i18n-notes": "Beleške",
 
   "i18n-operating-system" : "Operativni sistem",
   "i18n-debian-desc": "Popularne GNU/Linux distribucije.",
   "i18n-fedora-desc": "Brz, stabilan i moćan GNU/Linux.",
-  "i18n-gentoo-desc": "Distribution about choice, control and security.",
-  "i18n-linuxmint-desc": "Comfortable and easy to use GNU/Linux distribution.",
-  "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
-  "i18n-tails-desc": "Žive CD/USB distribucije dizajnirane da štite privatnost.",
-  "i18n-trisquel-desc": "FSF podržane, za korisnike prilagođene GNU/Linux distribucije.",
+  "i18n-gentoo-desc": "Distribucija fokusirana na izbor, kontrolu i sigurnost.",
+  "i18n-linuxmint-desc": "Udobna i laka za korišćenje GNU/Linux distribucija.",
+  "i18n-liberte-desc": "Live CD/USB distribucija dizajnirana za pomoć pri komunikaciji u neprijateljskom okruženju.",
+  "i18n-tails-desc": "Live CD/USB distribucije dizajnirane da štite privatnost.",
+  "i18n-trisquel-desc": "FSF podržane i za korisnike prilagođene GNU/Linux distribucije.",
 
   "i18n-web-browser": "Internet pregledači",
-  "i18n-icecat-desc": "GNU verzija Fajerfoxa.",
+  "i18n-icecat-desc": "GNU verzija Firefox-a.",
   "i18n-firefox-desc": "Internet pregledač otvorenog koda.",
-  "i18n-torbrowser-desc": "Šifrovano anonimno pregledanje.",
+  "i18n-torbrowser-desc": "Šifrovano anonimno pretraživanje.",
 
-  "i18n-web-browser-plugins": "Dodaci za internet pregledače",
-  "i18n-adblockedge-desc": "Block advertisements on the web.",
-  "i18n-disconnect-desc": "Stop third-party sites from tracking you.",
+  "i18n-web-browser-plugins": "Dodaci za internet pretraživače",
+  "i18n-adblockedge-desc": "Blokiraj reklame na internetu.",
+  "i18n-disconnect-desc": "Zaustavi stranice koje ne posećuješ da te prate.",
   "i18n-httpseverywhere-desc": "Šifrujte komunikaciju između hiljada sajtova.",
-  "i18n-noscript-desc": "Only enable JavaScript, Java, and Flash for sites you trust.",
+  "i18n-noscript-desc": "Uključi JavaScript, Java i Flash samo na web stranicama kojima veruješ.",
 
   "i18n-web-search": "Internet pretraživači",
   "i18n-duckduckgo-desc": "Poptpuno anonimno pretraživanje.",
@@ -39,62 +39,62 @@
 
   "i18n-darknet": "Darknet",
   "i18n-freenet-desc": "Decentralozovana mreža za otpor cenzuri.",
-  "i18n-i2p-desc": "Ne vidljivi internet projekat.",
+  "i18n-i2p-desc": "Nevidljivi internet projekat.",
   "i18n-nightweb-desc": "Anonimna I2P mreža za Android.",
-  "i18n-syndie-desc": "Distribuirani i anoniman forum softver.",
+  "i18n-syndie-desc": "Distribuiran i anoniman forum softver.",
 
   "i18n-online-transactions": "Internet prepiske",
   "i18n-bitcoin-desc": "P2P digitalna valuta bez centralne vlasti.",
   "i18n-cryptocoins-title": "Alternativna šifrovana valuta.",
   "i18n-cryptocoins-desc": "Lista alternativnih šifrovanih digitalnih valuta.",
 
-  "i18n-digital-distribution": "Digital distribution",
-  "i18n-desurium-desc": "Free open source client for the Desura distribution service.",
-  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> is only the client. You will still have to trust/depend on the proprietary <a href='http://www.desura.com'>desura service</a>.</p>",
+  "i18n-digital-distribution": "Digitalna distribucija",
+  "i18n-desurium-desc": "Beslatan klijent otvorenog koda za Desura distribucijski servis.",
+  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> je samo klijent. I dalje morate da verujete i zavisite o vlasničkom <a href='http://www.desura.com'>desura servisu</a>.</p>",
 
-  "i18n-vpn-client": "VPN client",
-  "i18n-openvpn-desc": "Free software VPN client.",
+  "i18n-vpn-client": "VPN klijent",
+  "i18n-openvpn-desc": "Besplatan VPN kliejnt.",
   "i18n-vpn-client-note": "--",
 
   "i18n-email-service": "Email servisi",
   "i18n-bitmessage-desc": "Šifrovani, decentralizovan email server.",
   "i18n-riseup-desc": "Sigurni i privatni email nalozi.",
-  "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.",
+  "i18n-kolab-desc": "Groupware server za email, kalendar, imenik i sinhronizaciju sa mobilnim uređajima.",
 
   "i18n-email-client": "Email desktop klijenti",
   "i18n-clawsmail-desc": "Lagana email pratforma sa GPG podrškom.",
   "i18n-evolution-desc": "Besplatna email i kalendar aplikacija sa GPG podrškom.",
   "i18n-icedove-desc": "Besplatna verzija Mozilinog Tanderbirda.",
   "i18n-kontact-desc": "KDE email Klijent sa GPG podrškom.",
-  "i18n-sylpheed-desc": "Lightweight and user-friendly e-mail client.",
+  "i18n-sylpheed-desc": "Email klijent lak i razumljiv za korisnike.",
   "i18n-thunderbird-desc": "Email aplikacija otvorenog koda.",
 
   "i18n-email-encryption": "Email šifrovanje",
-  "i18n-enigmail-desc": "OpenPGP dodatak za Tanderbird/Icedove.",
+  "i18n-enigmail-desc": "OpenPGP dodatak za Thunderbird/Icedove.",
   "i18n-gnuprivacyguard-desc": "Besplatna OpenPGP implementacija.",
   "i18n-mailvelope-desc": "OpenPGP šifrovanje za webmail.",
   "i18n-webpg-desc": "GnuPG/PGP u pregledaču.",
 
   "i18n-maps": "Mape",
   "i18n-openstreetmap-desc": "Besplatne mape širom sveta.",
-  "i18n-marble-desc": "Free virtual globe and world atlas.",
+  "i18n-marble-desc": "Besplatan virtualni atlas.",
 
-  "i18n-cloud-storage": "Oblak skladišta",
+  "i18n-cloud-storage": "Cloud servisi",
   "i18n-gitannex-desc": "Sinhronizovani folder na vašem računaru ili disku.",
-  "i18n-owncloud-desc": "Oblak skladište pod vašom kontrolom.",
-  "i18n-sparkleshare-desc": "Lično hostovana verzija oblak skladišta.",
-  "i18n-tahoelafs-desc": "Besplatano i otvoreno oblak skladište.",
+  "i18n-owncloud-desc": "Cloud servis pod vašom kontrolom.",
+  "i18n-sparkleshare-desc": "Lično hostovana verzija cloud servisa.",
+  "i18n-tahoelafs-desc": "Besplatan i otvoren cloud servis.",
 
   "i18n-social-networking": "Društvene mreže",
   "i18n-buddycloud-desc": "Društvena mreža otvorenog koda.",
   "i18n-diaspora-desc": "Distribuirana društvena mreža.",
-  "i18n-friendica-desc": "Distribuirana, društvena mreža koja poštuje našu privatnost.",
+  "i18n-friendica-desc": "Distribuirana društvena mreža koja poštuje našu privatnost.",
   "i18n-gnusocial-desc": "Lično hostovana i decentralizovana društvena mreža.",
   "i18n-lorea-desc": "Distribuirani društveni nod.",
-  "i18n-movim-desc": "Privatni, decentralizovani server za društvene mreže.",
+  "i18n-movim-desc": "Privatni decentralizovani server za društvene mreže.",
   "i18n-pumpio-desc": "Lično hostovan steam server.",
   "i18n-salutatoi-desc": "Višenamenski komunikacioni alat.",
-  "i18n-tent-desc": "Protocol for realtime decentralized communication and personal data storage.",
+  "i18n-tent-desc": "Protokol za komunikaciju i lično skladištenje podataka u realnom vremenu.",
   "i18n-protocol": "Protocol",
 
   "i18n-instant-messaging": "Dopisivanje",
@@ -103,9 +103,9 @@
   "i18n-pidgin-desc": "Program otvorenog koda za dopisivanje.",
   "i18n-adium-desc": "Više protokolni klijent za dopisivanje na OS X-u (omogućiti OTR).",
   "i18n-retroshare-desc": "Besplana i sigurna P2P komunikaciona platforma.",
-  "i18n-hexchat-desc": "Cross-platform IRC client.",
-  "i18n-weechat-desc": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
-  "i18n-bitlbee-desc": "IRC instant messaging gateway that supports a bunch of protocols.",
+  "i18n-hexchat-desc": "Višeplatformski IRC client.",
+  "i18n-weechat-desc": "Proširiv i prilagodljiv čet klijent za IRC i XMPP/Jabber.",
+  "i18n-bitlbee-desc": "IRC instant messaging gateway koji podržava gomilu protokola.",
 
   "i18n-video-voip": "Video konferencije/VoIP",
   "i18n-jitsi-desc": "Šifrovano dipisivanje i razgovori.",
@@ -113,21 +113,23 @@
   "i18n-mumble-desc": "Šifrovani razgovori niske latencije.",
 
   "i18n-media-publishing": "Objavljivanje medija",
+  "i18n-mediacrush-desc": "Hosting za slike, audio i video fokusiran na sigurnost",
+  "i18n-mediacrush-self-desc": "Možete i da sami hostujete MediaCrush instance.",
   "i18n-gnumediagoblin-desc": "Decentralizovana platforma za objavljivanje medija.",
   "i18n-piwigo-desc": "Besplatna platforma za internet galerije.",
   "i18n-wordpress-desc": "Besplatan CMS za sajt/blog.",
   "i18n-zenphoto-desc": "Besplatan CMS za objavljivanje medija.",
 
-  "i18n-document-collaboration": "Koolaboracija",
-  "i18n-ethercalc-desc": "Više korisnički kalkulacioni server.",
+  "i18n-document-collaboration": "Kolaboracija",
+  "i18n-ethercalc-desc": "Višekorisnički kalkulacioni server.",
   "i18n-etherpad-desc": "Koolaboracija dokumentima u realnom vremenu.",
 
   "i18n-web-analytics": "Internet analize",
   "i18n-piwik-desc": "Otvorenog koda, lično hostovana platforma za internet analizu.",
 
-  "i18n-cyanogenmod-desc": "Andorid ROM-ovi koji nezahtevaju logovanje na Google nalog.",
+  "i18n-cyanogenmod-desc": "Andorid ROM-ovi koji ne zahtevaju logovanje na Google nalog.",
   "i18n-replicant-desc": "Potkuno besplatna Android platforma.",
-  "i18n-firefoxos-desc": "Firefox OS is a free open-source operating system for Android-compatible smartphones and tablet computers.",
+  "i18n-firefoxos-desc": "Firefox OS je besplatan operativni sistem otvorenog koda za smartfone kompatibilne sa Android-om i tablet računarima.",
 
   "i18n-android-app-store": "Android prodavnice",
   "i18n-fdroid-desc": "Besplatna Android prodavnica otvorenog koda.",
@@ -136,51 +138,71 @@
   "i18n-gibberbot-desc": "Privatano i sigurno OTR dopisivanje za Android.",
   "i18n-orbot-desc": "Tor proxy za Android.",
   "i18n-redphone-desc": "Sigurni i privatni pozivi za Android.",
-  "i18n-surespot-desc": "Besplatno end-to-end šigrovano dopisivanje.",
+  "i18n-surespot-desc": "Besplatno end-to-end širovano dopisivanje.",
   "i18n-textsecure-desc": "Sigurne SMS/MMS komunikacije za Android.",
   "i18n-xabber-desc": "OTR-šifrovano dopisivanje za Android.",
 
   "i18n-chatsecure-desc": "Šifrujte dopisivanje u iOS-u.",
   "i18n-onionbrowser-desc": "Sigurno pretraživanje za iOS.",
 
-  "i18n-mobile-os": "iOS &amp; WP",
-  "i18n-mobile-os-no-alt-title": "No alternative",
-  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.",
-  "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>",
+  "i18n-mobile-os": "iOS i WP",
+  "i18n-mobile-os-no-alt-title": "Nema alternativa",
+  "i18n-mobile-os-no-alt-desc": "Zamenite uređaje&mdash;ovi operativni sistemi nemaju besplatnih alternativa.",
+  "i18n-mobile-os-note": "<p>iOS i WP su vlasnički operativni sistemi čiji izvorni kod nije dostupan za reviziju od strane treće osobe. Ne trebate im verovati niti pri komunikaciji niti pri skladištenju podataka uređaju koji je zatvoren kao crna kutija.</p>",
 
 
-  "i18n-anon-networks": "Anonymizing network",
-  "i18n-gnunet-desc": "GNUnet is a fully free P2P network.",
+  "i18n-anon-networks": "Anonimizirana mreža",
+  "i18n-gnunet-desc": "GNUnet je potpuno besplatna P2P mreža.",
   
   "i18n-meshnet": "Meshnet",
-  "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
-  "i18n-freifunk-desc": "A non-commercial open grassroots initiative to support free radio networks around the world.",
-  "i18n-byzantium-desc": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
-  "i18n-librevpn-desc": "A free network that runs over other networks.",
-  "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
+  "i18n-meshnet-project-desc": "Decentralizovana alternativa internetu.",
+  "i18n-freifunk-desc": "Nekomercijalna otvorena alternativa za podržavanje besplatnih radio mreža u celom svetu.",
+  "i18n-byzantium-desc": "Byzantium je živa Linux distribucija koja pruža lak za korišćenje mesh networking.",
+  "i18n-librevpn-desc": "Besplatna mreža koja radi preko drugih mreža.",
+  "i18n-meshnet-note": "<p>Meshnet je decentralizovana P2P mreža, sa korisnički konitronisanim fizičkim linkovima koji su obično wireless.</p><p>&ldquo;Mesh networking (topologija) je tip networking-a gde svaki čvor mora ne samo snimati i prosleđivati svoje podatke, nego i da služi kao relej za druge čvorove. To znači da mora sarađivati pri prenošenju podataka u mreži.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
 
-  "i18n-self-hosting-title": "Self-hosting solutions",
-  "i18n-freedombox-desc": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.",
-  "i18n-arkos-desc": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.",
+  "i18n-server-os-title": "Serverski operativni sistem,
+  "i18n-centos-desc": "Enterprise klasa računarske platforme sa stopostotnom binarnom kompatibilnosti sa RHEL-om.",
+  "i18n-smeserver-desc": "Jednostavna distribucija bazirana na CentOS sa prethodno konfigurisanim email serverom, deljenjem datoteka, web serverom i još mnogo toga.",
+  "i18n-yunohost-desc": "Personalna distribucija bazirana na Debian-u sa prethodno konfigurisanim email, IM i web serverom.",
+  "i18n-server-os-notes": "--",
+
+  "i18n-xmpp-server-title": "XMPP serverski softver",
+  "i18n-ejabberd-desc": "XMPP server napisan u Erlang/OTP za GNU/Linux i OS X.",
+  "i18n-openfire-desc": "Višeplatformski XMPP server napisan u Java programskom jeziku.",
+  "i18n-prosody-desc": "Fleksibilan i lagan XMPP server napisan u Lua programskom jeziku.",
+  "i18n-tigase-desc": "Višeplatformski XMPP server napisan u Java programskom jeziku.",
+  "i18n-metronome-desc": "XMPP serverski softver baziran na Prosody, sa naprednim mogućnostima za menadžment i mikrobloging.",
+  "i18n-xmpp-server-notes": "<blockquote><p>&ldquo;Proširiv Extensible Messaging and Presence Protocol (XMPP) je komunikacijski protokol za posrednike orijentisane na porukama baziran na XML-u (Extensible Markup Language). Protokol se u početku zvaoJabber, a razvijala ga je Jabber zajednica otvorenog koda u 1999. za instantno slanje poruka, informacija o prisusnosti i održavanje lista kontakata. Dizajniran da bude proširiv, Protokol je bio korišćen i za sisteme za objavljivanje i subskripciju, signalizaciju za VoIP, video, transfer podataka, igranje igara, Internet of Things aplikacije kao što su pametna mreža i socijalne mreže.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></cite></footer></blockquote>",
+
+  "i18n-sip-server-title": "SIP serverski softver",
+  "i18n-asterisk-desc": "PBX implementacija sa podrškom za VoIP/SIP.",
+  "i18n-freeswitch-desc": "Višeplatformski soft switch softver sa VoIP/SIP podrškom.",
+  "i18n-kamailio-desc": "VoIP/SIP server sa otvorenim kodom.",
+  "i18n-sip-server-notes": "<blockquote><p>&ldquo;Protokol inicijalizacije sesije (Session Initiation Protocol - SIP) je signalizirajući komunikacijski protokol koji je u velikoj upotrebi za kontrolisanje multimedijalne komunikacijske sesije kao što su glasovni i video pozivi preko internet protokol (IP) mreža.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></cite></footer></blockquote>",
+
+  "i18n-hardware-software": "Podešavanje hardvera i softvera",
+  "i18n-freedombox-desc": "FreedomBox integriše zaštitu privatnosti na cheap plug serveru tako da svi mogu da imaju privatnost.",
+  "i18n-arkos-desc": "arkOS je lagan softver koji radi na Raspberry Pi uređajima da sigurno hostujete sami svoju web stranicu, email, datoteke i još mnogo toga.",
   "i18n-self-hosting-notes": "--",
 
   "i18n-add": "dodaj",
   "i18n-mostly-free": "najčešće besplatni*",
   "i18n-rec-non-free": "preporučeni dodaci*",
   "i18n-advanced": "napredno",
-  "i18n-partly-proprietary": "delimično vlaskički*",
+  "i18n-partly-proprietary": "delimično vlasnički*",
   "i18n-proprietary": "vlasnički*",
   "i18n-invite-only": "samo po pozivu",
   "i18n-newbies-choice": "po odluci navajlija",
   "i18n-editors-choice": "po odluci urednika",
-  "i18n-approval-required": "approval required",
+  "i18n-approval-required": "čeka odobrenje",
 
-  "i18n-fsf-definition-title": "*Ovaj sajt koristi <strong>ESF-ov</strong> definicija slobodnog softvera.",
-  "i18n-fsf-quote": "&ldquo;Besplatan softver&rdquo; znači softver koji poštuje korisnikovu slobodu i komunikativnost. Grubo, <strong>korisnici imaju slodobu da pokreću, kopiraju, distribuiraju, proučavaju, menjaju i unapređuju softver</strong>.",
+  "i18n-fsf-definition-title": "*Ovaj sajt koristi <strong>ESF-ovu</strong> definiciju slobodnog softvera.",
+  "i18n-fsf-quote": "&ldquo;Besplatan softver&rdquo; znači softver koji poštuje korisnikovu slobodu i komunikativnost. <strong>Korisnici imaju slobodu da pokreću, kopiraju, distribuiraju, proučavaju, menjaju i unapređuju softver</strong>.",
 
-  "i18n-eff-title": "Kreni u akciju protiv PRISM-e u centru akcije <strong>EFF</strong>-a.",
+  "i18n-eff-title": "Kreni u akciju protiv PRISM-e u centru akcije <strong>EFF-a</strong>.",
   "i18n-eff-quote-1": "<strong>MASOVNI NADZOR OTKRIVEN</strong>",
-  "i18n-eff-quote-2": "Nedavni izvori Gardijana i Vašinkton Posta potvržuju tajni program za špijunažu telefona i Internet aktivnosti.",
+  "i18n-eff-quote-2": "Nedavni izvori Gardijana i Vašington Posta potvrđuju tajni program za špijunažu telefona i internet aktivnosti.",
 
   "i18n-more": "opširnije &hellip;",
   "i18n-the": "",
@@ -200,51 +222,51 @@
   "i18n-by": "od strane",
   "i18n-contribute-on": "Doprineli",
   "i18n-donate": "Doniraj",
-  "i18n-contribute": "Contribute",
+  "i18n-contribute": "Učestvuj",
 
-  "i18n-operating-system-note": "<p>Apple, Google, and Microsoft are a part of PRISM. Their proprietary operating systems cannot be trusted to safeguard your personal information from the NSA.</p><p>This leaves us with two free alternatives: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> and <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux has a much larger community to help you with the transition. It's recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p> <p>Why not Ubuntu? Ubuntu is a poor choice because it contains <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</p> <p>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>",
+  "i18n-operating-system-note": "<p>Apple, Google i Microsoft su deo PRISM programa. Ne može se verovati njihovim vlasničkim operativnim sistema da sigurno čuvaju Vaše lične podatke protiv NSA.</p><p>Ovo nam ostavlja dve alternative: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> i <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux ima mnogo veću zajednicu koja Vam može pomoći prilikom prelaska. Preporučeno je da počnete Vaše istraživanje tražećći <a href='http://distrowatch.com/'>GNU/Linux distribuciju</a> koja odgovara Vašim potrebama.</p> <p>Zašto ne Ubuntu? Ubuntu je loš izbor zato što sadrži <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware</a>.</p> <p>Beleška: PRISM Break preporučuje <strong>Linux Mint</strong> izdanje bez kodeka, dok su druga izdanja opterećena softverskim patentima. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Više informacija</a>.</p>",
 
-  "i18n-android-note": "<p><strong>CyanogenMod</strong> licensing: &ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> is a free alternative to the Google Play app store.</p>",
+  "i18n-android-note": "<p><strong>CyanogenMod</strong> licenciranje: &ldquo;CyanogenMod i dalje uključuje razne kodove koji zavise od hardvera, čemu se takođe postepeno otkriva otvoreni kod.&rdquo; &mdash;<a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></p><p><strong>F-Droid</strong> je besplatna alternativa Google Play prodavnici aplikacija.</p>",
 
-  "i18n-ios-note": "<p>iOS is insecure, and unfortunately there aren't a lot of free encryption apps available for iOS either. It's also <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>impossible to verify</a> whether an iOS app was compiled from the original source.</p>",
+  "i18n-ios-note": "<p>iOS je nesiguran i nažalost nema puno besplatnih enkripcijskih aplikacija za iOS. <a href='http://www.reddit.com/r/privacy/comments/1gnytj/privacy_technology_review_encrypted_imvoipphonesms/cambx4r'>Nemoguće je identifikovati</a> da li je iOS aplikacija kompajlirana od strane originalnog izvora.</p>",
 
-  "i18n-web-browser-note": "<p>Use a combination of <strong>Tor Browser</strong> and a free web browser of your choice to the surf the web.</p> <p>Try to use <strong>Tor Browser</strong> as often as possible. Browsing is slower with Tor, but far more secure.</p> <p>Note: <strong>Mozilla Firefox</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-web-browser-note": "<p>Koristite kombinaciju <strong>Tor pretraživača</strong> i besplatnog pretraživača po Vašem izboru za surfovanje internetom.</p> <p>Pokušajte koristiti <strong>Tor pretraživač</strong> što češće je moguće. Pretraživanje sa Tor pretraživačem jeste sporije, ali je i mnogo sigurnije.</p> <p>Note: <strong>Mozilla Firefox</strong> tehnički nije kompletno besplatan softver uzimajući u obzir da Mozilla preporučuje dodatke koji nisu besplatni na njihovoj web stranici.</p>",
 
-  "i18n-web-browser-addons-note": "<p>Safeguard your privacy and stop websites from tracking you by installing Adblock Edge, Disconnect, HTTPS Everywhere, and NoScript in your browser.</p> <p>Why not Adblock Plus? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, and uses more memory than <strong>Adblock Edge</strong>.</p> <p>Why not Ghostery? Ghostery is a proprietary plugin. Use <strong>Disconnect</strong> instead.</p>",
+  "i18n-web-browser-addons-note": "<p>Zaštitite Vašu privatnost i sprečite web stranicama da vas prate koristeći Adblock Edge, Disconnect, HTTPS Everywhere i NoScript u Vašem pretraživaču.</p> <p>Zašto ne Adblock Plus? Adblock Plus prikazuje &ldquo;prihvatljive reklame&rdquo; i koristi više memorije nego <strong>Adblock Edge</strong>.</p> <p>Zašto ne Ghostery? Ghostery je vlasnički dodatak. Koristite <strong>Disconnect</strong> umesto njega.</p>",
 
-  "i18n-web-search-note": "<p><strong>Startpage</strong> is proprietary, hosted in the USA/Netherlands, and provides you with anonymized Google search results (including images).</p><p><strong>DuckDuckGo</strong> is partly proprietary, hosted in the USA, and provides you with anonymized Bing search results.</p><p>Pick your poison.</p>",
+  "i18n-web-search-note": "<p><strong>Startpage</strong> je vlasnički servis hostovan u SAD-u/Holandiji koji pruža anonimizirane Google rezultate pretrage (uključujući i slike).</p><p><strong>DuckDuckGo</strong> je delomično vlasnički servis hostovan u SAD-u koji Vam pruža anonimizirane Bing rezultate pretrage.</p><p>Izaberite svoj otrov.</p>",
 
-  "i18n-email-service-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>",
+  "i18n-email-service-note": "<p><strong>Riseup</strong> je hostovan u SAD-u, za slučaj da to smatrate bitnim.</p><p>Zašto ne Hushmail? Pogledajte <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;kompromise email privatnosti&rdquo;</a>.</p>",
 
-  "i18n-email-client-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>",
+  "i18n-email-client-note": "<p>Note: <strong>Mozilla Thunderbird</strong> tehnički nije potpuno besplatan softver , uzimajući u obzir da Mozilla preporučuje dodatke koji nisu besplatni na njihovoj web stranici.</p>",
 
-  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
+  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) je program sa enkripciju i dekripciju koji pruža kriptografsku privatnost i autentičnost za komunikaciju podacima. PGP se često koristi za potpisivanje, enkripciju i dekripciju tekstova, email-a, datoteka, direktorija i celih particija diska da bi se povećala sigurnost email komunikacije.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a>",
 
   "i18n-social-networking-note": "<p>--</p>",
 
-  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.</p><p>The primary motivation behind the protocol was providing deniability for the conversation participants while keeping conversations confidential, like a private conversation in real life, or off the record in journalism sourcing.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p>Note that <strong>Pidgin</strong> stores your IM account passwords in <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>plain text</a>. You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like <a href='http://www.truecrypt.org/'>TrueCrypt</a>, or (3) storing your Pidgin password securely with the Debian package <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a>.</p><p><strong>Pidgin with OTR and dbus enabled has a local security bug.</strong> See the <a href='https://developer.pidgin.im/ticket/14830'>upstream bug report</a> for more information and possible workarounds.</p><p><strong>TorChat</strong> is not related to nor sponsored by the official <a href='https://www.torproject.org/'>Tor Project</a>.</p>",
+  "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging, često nazivan OTR, je kriptografski protokol koji pruža jaku enkripciju za instant messaging razgovore. OTR koristi kombinaciju AES algoritma sa simetričnim ključem, Diffie–Hellman razmenu ključa i SHA-1 hash funkciju. Kao dodatak autentičnosti i enkripciji, OTR pruža i perfect forward tajnovitost and malleable enkripciju.</p><p>Primarna motivacija koja se krije iza ovog protokola je pružanje poverljivih razgovora, kao razgovori u pravom životu i nepoznati izvori u novinarstvu.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p>Imajte u obziru da <strong>Pidgin</strong> čuva šifre za Vaše korisničke račune <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>bez enkripcije</a>. Ovo možete zaobići tako što ne čuvate šifre unutar Pidgin-a, enkriptujete Vaš operativni sistem sa softverom kao što je <a href='http://www.truecrypt.org/'>TrueCrypt</a> ili čuvate Vaše Pidgin šifre sigurno sa Debian <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a> paketom.</p><p><strong>Pidgin sa omogućenim OTR-om i dbus-om ima lokali sigurnosti bug.</strong> Pogledajte <a href='https://developer.pidgin.im/ticket/14830'>upstream bug izveštaj</a> za više informacija i moguće rešenje.</p><p><strong>TorChat</strong> nije povezan niti podržan od strane službenog <a href='https://www.torproject.org/'>Tor projekta</a>.</p>",
 
-  "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p><p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.",
+  "i18n-video-voip-note": "<p><strong>Jitsi</strong> je zamena za praktički sve mogućnosti za koje se koristi Skype.</p><p><strong>Mumble</strong> je chat klijent otvorenog koda u stilu Ventrilo i TeamSpeak-a.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> je obećavajući API za komunikaciju između pretraživača.",
 
-  "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
+  "i18n-online-transactions-note": "<p><strong>Bitcoin</strong> je decentralizovana javna knjiga svih transakcija u Bitcoin mreži.</p><p>&ldquo;Može se smatrati kao TCP/IP novca.&rdquo; &mdash;Paul Buchheit</p>",
 
-  "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</p>",
+  "i18n-media-publishing-note": "<p><strong>Lično hostovanje</strong> je važno. Hostovanje Vašeg bloga na Wordpress.com nije ništa bolje za sigurnost Vaših podataka od Blogger-a ili Tumblr-a.</p>",
 
   "i18n-document-collaboration-note": "<p>--</p>",
 
   "i18n-maps-note": "<p>--</p>",
 
-  "i18n-cloud-storage-note": "<p>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
+  "i18n-cloud-storage-note": "<p>Zašto ne MEGA? Iako je MEGA besplatan softver, i dalje je vlasnički.</p><p>Zašto ne SpiderOak? SpiderOak je vlasnički softver.</p><p>Zašto ne Tarsnap? Tarsnap je delomično vlasnički softver koji se hostuje na Amazon web servisu.</p>",
 
-  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analitika pokreće ovu web stranicu. Podešena je da anonimizira zadnji oktet (255.255.255.???) IP adrese posetioca. Pregledajte podatke uživo ovde: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
-  "i18n-dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
+  "i18n-dns-provider-note": "<p>Google-ov javni DNS trajno čuva informaciju o Vašem ISP-u i lokaciji za analizu. Vaša IP adresa se čuva 24 sata.</p><p><strong>OpenNIC</strong> nema službenu polisu koja se tiče privatnosti/anonimizacije. Više informacija <a href='http://wiki.opennicproject.org/Tier2'>ovde</a>.</p>",
 
-  "i18n-darknet-note": "<p>&ldquo;A darknet is an anonymizing network where connections are made only between trusted peers.</p><p>Darknets are distinct from other distributed P2P networks as sharing is anonymous, and therefore users can communicate with little fear of governmental or corporate interference.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
+  "i18n-darknet-note": "<p>&ldquo;Darknet je anonimizirajuća mreža gde se konekcija ostvaruje samo između proverenih peer-ova.</p><p>Darknet-i se ističu od drugih distribuiranih P2P mreža pošto je deljenje anonimno, pa korisnici mogu komunicirati sa manjim strahom od mešanja vlade ili korporacija.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
 
-  "i18n-disclaimer": "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information.",
+  "i18n-disclaimer": "Odricanje odgovornosti: Korišćenje preporučenih projekata na ovoj web stranici ne garantuje stopostotnu sigurnost da Vaša komunikacija neće biti sigurna protiv zemalja koje obavljaju nadzor. Molimo Vas da obavite vlastita istraživanja pre poveravanja poverenih informacija ovim softverima.",
 
-  "i18n-donate-title": "Support the PRISM Break project by donating Bitcoin.",
-  "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> launched on June 10th, 2013 on the heels of Edward Snowden's revelations about NSA mass surveillance. Since launch, nearly 750,000 privacy-conscious visitors have viewed the site over one million times around the world.</p><p>While the first version of prism-break.org took only two days to build and launch, maintaining and improving the site over the past two months has taken up much of my time. As of August 3rd, 2013, I've pushed 1,208 edits to the site and spent hundreds of hours poring over privacy resources. I've made this effort in order to ensure that PRISM Break offers you the best methods to combat government surveillance.</p><p>With so many people visiting prism-break.org, I would love to devote my full attention to fixing possible security bugs, improving the projects list and making the content more user-friendly. However&mdash;like anyone else&mdash;I still need to pay my rent and buy food, and this project doesn't generate any income. This is where you can help.</p><p>If you would like to support PRISM Break, please consider donating Bitcoin to fund future development. I suggest at least 0.05 BTC, but any amount is appreciated. If you donate 0.50 BTC or more and leave a name, I will add you to this page as a PRISM Break sponsor.</p><p>Donate address:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>I appreciate your support.</p><p>Peng Zhong<br />PRISM Break developer</p><p>P.S. The developers of the fine projects listed on <a href='https://prism-break.org'>PRISM Break</a> would also be grateful for your support. If you enjoy using their app, seriously consider throwing some money their way to fund development.</p>"
+  "i18n-donate-title": "Podržite PRISM Break projekat preko Bitcoin donacija.",
+  "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> je pokrenut 10.6.2013. nakon otkrivanja informacija o NSA-ovoj špijunaži od strane Edward-a Snowden-a. Od pokretanja projekta, blizu 750,000 posetitelja zabrinutih za privatnost su pregledali ovu web stranicu preko milion puta širom sveta.</p><p>Dok nam je za prvu verziju prism-break.org stranice bilo potrebno samo dva dana da je sagradimo i objavimo, održavanje i poboljšanje u zadnja dva meseca nam je oduzelo dosta vremena. Do 3.8.2013. je urađeno 1.208 editovanja stranice i potrošeno je preko stotinu sati traženjem resursa za privatnost. Uložili smo ovaj trud da se pobrinemo da PRISM Break nudi isključivo najbolje metode za borbu protiv vladinog nadzora.</p><p>Sa ovoliko ljudi koji posećuju prism-break.org, voleli bismo da pružimo punu pažnju rešavanju mogućnih sigurnosnih propusta, poboljšavanju liste projekata i približavanju sadržava običnim korisnicima. Međutim, &mdash;kao i svaki drugi&mdash;, i dalje moramo da platimo stanarinu i hranu, a ovaj projekat ne generiše nikakvu zaradu. Ovo je aspekat u kojem vi možete da pomognete.</p><p>Ako želite da podržite PRISM Break, molimo razmotrite Bitcoin donacije da biste finansirali budući razvoj projekta. Preporučujem bar 0,05 BTC kao donaciju, ali svaka količina se ceni. Ako donirate 0.50 BTC ili više i ostavite Vaše ime, dodaćemo Vas na ovu stranicu kao PRISM Break sponzora.</p><p>Adresa za donacije:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>Cenimo vašu podršku.</p><p>Peng Zhong<br />PRISM Break developer</p><p>P.S. Developeri projekta čiji se spisak nalazi na <a href='https://prism-break.org'>PRISM Break stranici</a> bi takođe bili zahvalni na Vašoj podršci. Ako uživate koristeći njihove proizvode, obavezno razmislite o tome da im date nešto novca da bi podržali dalji razvoj.</p>"
 
 }

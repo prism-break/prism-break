@@ -289,7 +289,7 @@
                 <img class='logo' src='lib/img/free/replicant.png' alt='' />
                 <h5>Replicant</h5>
                 <p class='desc'>
-                  <span class='i18n-replicant-desc'>Fully free Android distribution.</span>
+                  <span class='i18n-replicant-desc'>Fully free Android distribution based on CyanogenMod.</span>
                   <span class='fs i18n-fsf-endorsed'>FSF endorsed</span>
                 </p>
             </a></li>
@@ -297,7 +297,7 @@
                 <img class='logo' src='lib/img/free/firefox.png' alt='' />
                 <h5>Firefox OS</h5>
                 <p class='desc'>
-                  <span class='i18n-firefoxos-desc'>Firefox OS is a free open-source operating system for Android-compatible smartphones and tablet computers.</span>
+                  <span class='i18n-firefoxos-desc'>Free and open source operating system for Android-compatible devices.</span>
                 </p>
             </a></li>
             <li><a href='https://f-droid.org'>
@@ -377,6 +377,7 @@
         </div>
         <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
           <ul>
+            <li><span class='h4 i18n-ip-hidden'>IP hidden</span>
             <li><a href='https://www.torproject.org/index.html.en'>
                 <img class='logo' src='lib/img/free/tor.png' alt='' />
                 <h5>Tor Browser Bundle</h5>
@@ -384,6 +385,15 @@
                   <span class='i18n-torbrowser-desc'>Encrypted, anonymous web browsing powered by the Tor network.</span>
                 </p>
             </a></li>
+            <li><a href='https://anonymous-proxy-servers.net/index.html'>
+                <img class='logo' src='lib/img/free/jondonym.png' alt='' />
+                <h5>JonDonym</h5>
+                <p class='desc'>
+                  <span class='i18n-jondonym-desc'>Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.</span>
+                  <span class='i18n-jondonym-desc'></span>
+                </p>
+            </a></li>
+            <li><span class='h4 i18n-ip-exposed'>IP exposed</span>
             <li><a href='https://www.mozilla.org/en-US/firefox/new/'>
                 <img class='logo' src='lib/img/free/firefox.png' alt='' />
                 <h5>Mozilla Firefox</h5>
@@ -411,10 +421,9 @@
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-web-browser-note'>
-            <p>Use a combination of <strong>Tor Browser</strong> and another free browser to surf the web. Try to use Tor for as many things as possible. Browsing the web may be slower, but it will offer you far better anonymity. Make sure to <a href='https://www.torproject.org/docs/faq.html.en'>learn the basics of Tor</a> before using it.</p>
-            <p>Note: Signing in to PayPal or a banking website across the Tor network may trip the site's fraud protection software. Users should also be aware that signing into non-HTTPS websites may result in your credentials being captured by a malicious exit node.</p>
-            <p><strong>Mozilla Firefox</strong> uses Google search by default. Google search should be replaced by a more <a href='#web-search'>private alternative</a>.</p>
-            <p><a href='http://www.geticeweasel.org/'>Iceweasel</a> is a de-branded Mozilla Firefox alternative for Debian based distributions.</p>
+            <p>Try to use <strong>Tor Browser Bundle</strong> (TBB) for all of your web surfing. It will offer you far better anonymity than any other browser. Make sure to <a href='https://www.torproject.org/docs/faq.html.en'>learn the basics of Tor</a> before using it. If the site you want to visit will not work in the TBB, try Firefox or IceCat, but realize these browsers do not anonymize your IP by default.</p>
+            <p>TBB notes: Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor. Signing into HTTP websites can result in your ID being captured by a Tor exit node.</p>
+            <p><strong>Firefox</strong> notes: This browser uses Google search by default: replace it with a more <a href='#web-search'>private alternative</a>. Another debranded alternative to Firefox is <a href='http://www.geticeweasel.org/'>Iceweasel</a>, a browser for Debian-based distributions.</p>
             <p>Why are Chromium, SRWare Iron, et al. not recommended on PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>More info here.</a></p>
           </div>
         </div>
@@ -425,6 +434,7 @@
         <div class='prop empty'>&nbsp;</div>
         <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
           <ul>
+            <li><span class='h4 i18n-privacy-security'>Privacy &amp; security</li>
             <li>
               <a href='https://addons.mozilla.org/en-us/firefox/addon/adblock-edge/'><img class='logo' src='lib/img/free/adblockedge.png' alt='' />
                 <h5>Adblock Edge</h5>
@@ -462,11 +472,31 @@
                   <span class='fs i18n-advanced'>advanced</span>
                 </p>
             </a></li>
+            <li><span class='h4 i18n-instant-messaging'>Instant messaging</li>
+            <li>
+              <a href='https://crypto.cat/'><img class='logo' src='lib/img/free/cryptocat.png' alt='' />
+                <h5>CryptoCat</h5>
+                <p class='desc'>
+                  <span class='i18n-cryptocat-desc'>Private and encrypted instant messaging within the web browser.</span>
+                  <span class='fs'>OTR</span>
+                </p>
+            </a></li>
+            <li><span class='h4 i18n-email-encryption'>Email encryption</li>
+            <li>
+              <a href='http://www.mailvelope.com/'><img class='logo' src='lib/img/free/mailvelope.png' alt='' />
+                <h5>Mailvelope</h5>
+                <p class='desc'>
+                  <span class='i18n-mailvelope-desc'>OpenPGP email encryption tool for major webmail services.</span>
+                  <span class='fs'>PGP</span>
+                  <span class='fs'>beta</span>
+                </p>
+            </a></li>
           </ul>
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-web-browser-addons-note'>
-            <p>Safeguard your browsing habits and stop advertising companies from tracking you by installing <strong>Adblock Edge</strong>, <strong>Disconnect</strong>, and <strong>HTTPS Everywhere</strong> in <strong>Mozilla Firefox</strong>, <strong>GNUzilla IceCat</strong>, or Debian&rsquo;s IceWeasel.</p>
+            <p>Installing your own add-ons into the Tor Browser is not recommended, as they may bypass Tor or otherwise harm your anonymity and privacy. Check the EFF's <a href='https://panopticlick.eff.org/'>Panopticlick</a> to see how trackable your browser configuration is by third parties.</p>
+            <p>If you're using a Firefox-based browser, you can safeguard your browsing habits and stop advertising companies from tracking you by installing <strong>Adblock Edge</strong>, <strong>Disconnect</strong>, and <strong>HTTPS Everywhere</strong>.</p>
             <p>Install <strong>NoScript</strong> and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript. NoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered <a href='https://www.torproject.org/docs/faq.html.en#CanIBlockJS'>especially bad for your anonymity</a> if you're using NoScript with Tor.</p>
             <p>Why is Adblock Plus not recommended? Adblock Plus shows &ldquo;acceptable ads&rdquo; by default, which works against the purpose of the add-on. Either disable acceptable ads or use the <strong>Adblock Edge</strong> fork instead.</p>
             <p><a href='https://www.ghostery.com/'>Ghostery</a> is an alternative anti-tracker add-on to <strong>Disconnect</strong>. While the code is available, the license is currently proprietary.</p>
@@ -628,7 +658,7 @@
               <a href='http://www.autistici.org/en/index.html'><img class='logo' src='lib/img/free/autistici.png' alt='' />
                 <h5>Autistici/Inventati</h5>
                 <p class='desc'>
-                  <span class='i18n-autistici-desc'>A full range of free, privacy-aware services.</span>
+                  <span class='i18n-autistici-desc'>A full range of privacy-aware services including hosting, VPNs, email, IM, and more.</span>
                   <span class='fs'><span class='i18n-approval-required'>approval required</span></span>
                 </p>
             </a></li>
@@ -649,7 +679,24 @@
                   <span class='fs'><span class='i18n-usa-hosted'>USA hosted</span></span>
                 </p>
             </a></li>
-            <li><span class='h4 i18n-software'>Software</span></li>
+            <li><span class='h4 i18n-p2p-software'>Peer to peer software</span></li>
+            <li>
+              <a href='https://bitmessage.org/'><img class='logo' src='lib/img/free/bitmessage.png' alt='' />
+                <h5>Bitmessage</h5>
+                <p class='desc'>
+                  <span class='i18n-bitmessage-desc'>Encrypted, decentralized P2P messaging service based on Bitcoin technology.</span>
+                  <span class='fs'>beta</span>
+                </p>
+            </a></li>
+            <li>
+              <a href='http://retroshare.sourceforge.net/'><img class='logo' src='lib/img/free/retroshare.png' alt='' />
+                <h5>RetroShare</h5>
+                <p class='desc'>
+                  <span class='i18n-retroshare-desc'>Secure P2P communications platform offering IM, forums, VoIP, file sharing, and more.</span>
+                  <span class='fs'>PGP</span>
+                </p>
+            </a></li>
+            <li><span class='h4 i18n-server-software'>Server software</span></li>
             <li>
               <a href='https://kolab.org'><img class='logo' src='lib/img/free/kolab.png' alt='' />
                 <h5>Kolab</h5>
@@ -657,15 +704,16 @@
                   <span class='i18n-kolab-desc'>Groupware solution for email, files, calendars, address books and synchronization to mobile devices.</span>
                 </p>
             </a></li>
+
           </ul>
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-email-service-note'>
-            <p><strong>Important:</strong> switching from Gmail to one of the recommended services is only the first step to a secure email account. You&rsquo;re still sending plain text messages. You and your contacts need to encrypt your messages with <a href='#email-encryption'>PGP</a>. Scroll down to find an <a href='#email-client'>email client</a> that supports PGP.</p>
-            <p>The only way to have full control over your email and personal data is to run your own mail server (e.g. with <strong>Kolab</strong>). This is not for everyone though, as it requires considerable time investment and technical knowledge. There are some providers that try do things right and run servers for you. Please decide for yourself whether you trust them with your data.</p>
-            <p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the <a href="https://MyKolab.com/privacy">strong Swiss privacy laws</a>. It is run exclusively with free software and using the service supports the development of <strong>Kolab</strong>. Also, it lets you export all your data at any time.</p>
+            <p>Here are some email providers that try do things right and run email for you. Please decide for yourself whether you trust them with your data.</p>
+            <p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the <a href='https://MyKolab.com/privacy'>strong Swiss privacy laws</a>. It is run exclusively with free software and using the service supports the development of <strong>Kolab</strong>. Also, it lets you export all your data at any time.</p>
+            <p><strong>Bitmessage</strong> is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.</p>
             <p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p>
-            <p>If you decide to host your own server, then <strong>Kolab</strong> is a good choice. It integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p>
+            <p>If you decide to <a href='#server-os'>run your own server</a>, <strong>Kolab</strong> is a worth looking into for mail management. It integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p>
           </div>
         </div>
       </div>
@@ -768,6 +816,8 @@
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-email-client-note'>
+            <p>Switching from a proprietary service like Gmail to one of the more transparently-run email services on PRISM Break is the first step to a secure email account.</p>
+            <p>The second step is getting you and your contacts to encrypt your plain text messages with <a href='#email-encryption'>PGP encryption</a>. This section contains free email clients that support PGP.</p>
             <p><a href='https://securityinabox.org/en/thunderbird_main'>Here is a guide</a> by Security In A Box to encrypting your email with <strong>Mozilla Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p>
             <p><a href='https://en.wikipedia.org/wiki/Icedove'>Find out more</a> about the differences between <strong>Mozilla Thunderbird</strong> and <strong>Icedove</strong>.
           </div>
@@ -791,14 +841,6 @@
                 <h5>GPGMail</h5>
                 <p class='desc'>
                   <span class='i18n-gpgmail-desc'>OpenPGP add-on for Apple OS X Mail.</span>
-                </p>
-            </a></li>
-            <li>
-              <a href='http://www.mailvelope.com/'><img class='logo' src='lib/img/free/mailvelope.png' alt='' />
-                <h5>Mailvelope</h5>
-                <p class='desc'>
-                  <span class='i18n-mailvelope-desc'>OpenPGP Firefox/IceCat add-on for webmail.</span>
-                  <span class='fs'>beta</span>
                 </p>
             </a></li>
             <li>
@@ -1015,7 +1057,7 @@
               <a href='https://jitsi.org/'><img class='logo' src='lib/img/free/jitsi.png' alt='' />
                 <h5>Jitsi</h5>
                 <p class='desc'>
-                  <span class='i18n-jitsi-desc'>Encrypted text and video chat.</span>
+                  <span class='i18n-jitsi-desc'>Encrypted text, voice, and  video messaging for multiple platforms.</span>
                   <span class='fs'>XMPP</span>
                   <span class='fs'>SIP</span>
                 </p>
@@ -1038,9 +1080,9 @@
             <li><span class='h4 h4-android'>Android</span></li>
             <li>
               <a href='https://code.google.com/p/csipsimple/'><img class='logo' src='lib/img/free/csipsimple.png' alt='' />
-                <h5>CSIPSimple</h5>
+                <h5>CSipSimple</h5>
                 <p class='desc'>
-                  <span class='i18n-csipsimple-desc'>Free, encrypted VoIP for Android.</span>
+                  <span class='i18n-csipsimple-desc'>End-to-end encrypted VoIP calls for Android devices.</span>
                   <span class='fs'>SIP</span>
                 </p>
             </a></li>
@@ -1048,16 +1090,16 @@
               <a href='https://whispersystems.org/#encrypted_voice'><img class='logo' src='lib/img/free/redphone.png' alt='' />
                 <h5>RedPhone</h5>
                 <p class='desc'>
-                  <span class='i18n-redphone-desc'>Secure private calls for Android.</span>
+                  <span class='i18n-redphone-desc'>End-to-end encrypted calls for Android devices.</span>
                 </p>
             </a></li>
           </ul>
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-video-voip-note'>
-            <p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p>
-            <p>Please note that that Jitsi may <a href='https://github.com/nylira/prism-break/issues/291'>request non-secure information during encrypted chat</a> if you paste a link into it. Also, if Jitsi is set up to use Tor, it may <a href='https://trac.jitsi.org/ticket/1060'>leak DNS information</a> by not using Tor for DNS resolution.</p>
-            <p>Linphone, an alternative to <strong>Jitsi</strong>, currently has <a href='http://blog.azimuthsecurity.com/2013/06/attacking-crypto-phones-weaknesses-in.html'>unresolved security weaknesses</a>.</p>
+            <p>Get a free SIP account for <strong>Jitsi</strong> and/or <strong>CSipSimple</strong> with The Guardian Project's <a href='#sip-server'>Ostel</a> service.</p>
+            <p><strong>Jitsi</strong> notes: Jitsi may <a href='https://github.com/nylira/prism-break/issues/291'>request non-secure information during encrypted chat</a> if you paste a link into it. Also, if Jitsi is set up to use Tor, it may <a href='https://trac.jitsi.org/ticket/1060'>leak DNS information</a> by not using Tor for DNS resolution.</p>
+            <p>Linphone, an alternative video conferencing and VoIP option, currently has <a href='http://blog.azimuthsecurity.com/2013/06/attacking-crypto-phones-weaknesses-in.html'>unresolved security weaknesses</a>.</p>
           </div>
         </div>
       </div>
@@ -1149,14 +1191,6 @@
                   <span class='fs'>XMPP</span>
                 </p>
             </a></li>
-            <li><span class='h4 i18n-p2p-software'>Peer to peer software</span></li>
-            <li>
-              <a href='http://retroshare.sourceforge.net/'><img class='logo' src='lib/img/free/retroshare.png' alt='' />
-                <h5>RetroShare</h5>
-                <p class='desc'>
-                  <span class='i18n-retroshare-desc'>Free, secure, P2P communications platform.</span>
-                </p>
-            </a></li>
             <li><span class='h4 i18n-protocol'>Protocol</span></li>
             <li>
               <a href='https://tent.io/'><img class='logo' src='lib/img/free/tentio.png' alt='' />
@@ -1170,8 +1204,8 @@
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-social-networking-note'>
             <p>If you have system administration knowledge, please strongly consider running an instance of <strong>pump.io</strong> (or something else) for your friends, family, or favorite community. Many of them would be willing and grateful to escape Facebook if you provide them a way out.</p>
-            <p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p>
-            <p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community built on <strong>pump.io</strong>.</p>
+            <p>For those of you without your own server, <a href="#email-service"><strong>RetroShare</strong></a> is the easiest way to start your own encrypted social network.</p>
+            <p><a href='https://identi.ca/'>identi.ca</a> is a popular Twitter-like social networking hub for the free and open source software community built on <strong>pump.io</strong>.</p>
           </div>
         </div>
       </div>
@@ -1310,6 +1344,7 @@
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-document-collaboration-note'>
+            <p>The <strong>etherpad</strong> project maintains a list of <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites that run etherpad services</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p>
             <p><a href='#email-service'><strong>Riseup</strong></a> also offers email, VPN, and chat services.</p>
           </div>
         </div>
@@ -1357,7 +1392,24 @@
                   <span class='i18n-noblogs-desc'>Blog publishing platform based on WordPress, by autistici.org.</span>
                 </p>
             </a></li>
+            <li>
+              <a href='https://mediacru.sh'><img class='logo' src='lib/img/free/mediacrush.png' alt='MediaCrush' />
+                <h5>MediaCrush</h5>
+                <p class='desc'>
+                  <span class='i18n-mediacrush-desc'>Privacy-first fast media (image, video, audio) hosting.</span>
+                  <span class='fs'><span class='i18n-usa-hosted'>USA hosted</span></span>
+                </p>
+              </a>
+            </li>
             <li><span class='h4 i18n-software'>Software</span></li>
+            <li>
+              <a href='https://github.com/MediaCrush/MediaCrush'><img class='logo' src='lib/img/free/mediacrush.png' alt='MediaCrush' />
+                <h5>MediaCrush</h5>
+                <p class='desc'>
+                  <span class='i18n-mediacrush-self-desc'>You can also run self-hosted instances of MediaCrush.</span>
+                </p>
+              </a>
+            </li>
             <li>
               <a href='http://mediagoblin.org/'><img class='logo' src='lib/img/free/mediagoblin.png' alt='' />
                 <h5>GNU MediaGoblin</h5>
@@ -1393,6 +1445,7 @@
           <div class='i18n-media-publishing-note'>
             <p>Self-hosting your media is important for privacy and security. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p>
             <p>Warning: Using avatars in <strong>WordPress</strong> will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.
+            <p>Warning: MediaCrush includes <strong>Google Analytics</strong> and <strong>Google Adsense</strong> if you do not have Do Not Track enabled.</p>
           </div>
         </div>
       </div>
@@ -1701,9 +1754,78 @@
         </div>
       </div>
 
-
+      <div class='section' id='server-os'>
+        <h2 class='i18n-server-os-title'>Server operating system</h2>
+        <div class='prop'>
+          <ul>
+            <li>
+              <img class='logo' src='lib/img/prop/apple-osx.png' alt='' />
+              <div class='name'>Apple OS X Server</div>
+            </li>
+            <li>
+              <img class='logo' src='lib/img/prop/ms-windows.png' alt='' />
+              <div class='name'>Microsoft Windows Server</div>
+            </li>
+          </ul>
+        </div>
+        <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
+          <ul>
+            <li><span class='h4 h4-gnulinux'>GNU/Linux</span></li>
+            <li><a href='https://www.centos.org/'>
+                <img class='logo' src='lib/img/free/centos.png' alt='' />
+                <h5>CentOS</h5>
+                <p class='desc'>
+                  <span class='i18n-centos-desc'>Enterprise class computing platform with 100% binary compatbility with RHEL.</span>
+                </p>
+            </a></li>
+            <li><a href='http://www.debian.org/'>
+                <img class='logo' src='lib/img/free/debian.png' alt='' />
+                <h5>Debian</h5>
+                <p class='desc'>
+                  <span class='i18n-debian-desc'>Strictly free, ethical GNU/Linux distribution.</span>
+                </p>
+            </a></li>
+            <li><a href='http://wiki.contribs.org/Main_Page'>
+                <img class='logo' src='lib/img/free/smeserver.png' alt='' />
+                <h5>SME Server</h5>
+                <p class='desc'>
+                  <span class='i18n-smeserver-desc'>Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.</span>
+                </p>
+            </a></li>
+            <li><a href='http://yunohost.org/'>
+                <img class='logo' src='lib/img/free/yunohost.png' alt='' />
+                <h5>Yunohost</h5>
+                <p class='desc'>
+                  <span class='i18n-yunohost-desc'>Personal distribution based on Debian with preconfigured mail, IM, and web server.</span>
+                </p>
+            </a></li>
+            <li><span class='h4 h4-bsd'>BSD</span></li>
+            <li><a href='http://www.freebsd.org/'>
+                <img class='logo' src='lib/img/free/freebsd.png' alt='' />
+                <h5>FreeBSD</h5>
+                <p class='desc'>
+                  <span class='i18n-freebsd-desc'>A free BSD-derived operating system.</span>
+                </p>
+            </a></li>
+            <li><a href='http://www.openbsd.org/'>
+                <img class='logo' src='lib/img/free/openbsd.png' alt='' />
+                <h5>OpenBSD</h5>
+                <p class='desc'>
+                  <span class='i18n-openbsd-desc'>A secure BSD operating system.</span>
+                  <span class='fs i18n-most-paranoid'>most paranoid</span>
+                </p>
+            </a></li>
+          </ul>
+        </div>
+        <div class='notes'><h3 class='i18n-notes'>Notes</h3>
+          <div class='i18n-server-os-notes'>
+            <p>The only way to have full control over your personal data is to run your own server. This is not for everyone though, as it requires considerable time investment and technical knowledge. </p>
+          </div>
+        </div>
+      </div>
+ 
       <div class='section' id='xmpp-server'>
-        <h2 class='i18n-xmpp-server-title'>XMPP Server</h2>
+        <h2 class='i18n-xmpp-server-title'>XMPP server software</h2>
         <div class='prop'>&nbsp;</div>
         <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
           <ul>
@@ -1743,7 +1865,7 @@
                 <img class='logo' src='lib/img/free/metronome.png' alt='' />
                 <h5>Metronome IM</h5>
                 <p class='desc'>
-                  <span class='i18n-metronome-desc'>XMPP Server based on Prosody, with advanced management/microblogging features.</span>
+                  <span class='i18n-metronome-desc'>XMPP server software based on Prosody, with advanced management/microblogging features.</span>
                   <span class='fs'>ISC and MIT/X11</span>
                 </p>
             </a></li>
@@ -1757,10 +1879,20 @@
         </div>
       </div>
       <div class='section' id='sip-server'>
-        <h2 class='i18n-sip-server-title'>SIP Server</h2>
+        <h2 class='i18n-sip-server-title'>SIP server</h2>
         <div class='prop'>&nbsp;</div>
         <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
           <ul>
+            <li><span class='h4 i18n-service'>Service</span></li>
+            <li><a href='https://ostel.co/'>
+                <img class='logo' src='lib/img/free/ostel.png' alt='' />
+                <h5>Ostel</h5>
+                <p class='desc'>
+                  <span class='i18n-ostel-desc'>Secure SIP accounts by the Guardian Project for use with CSipSimple, Jitsi, et al.</span>
+                  <span class='fs'>SIP</span>
+                </p>
+            </a></li>
+            <li><span class='h4 i18n-software'>Software</span></li>
             <li><a href='http://www.asterisk.org/'>
                 <img class='logo' src='lib/img/free/asterisk.png' alt='' />
                 <h5>Asterisk</h5>
@@ -1795,7 +1927,7 @@
         </div>
       </div>
       <div class='section' id='self-hosting'>
-        <h2 class='i18n-self-hosting-title'>Self-hosting solutions</h2>
+        <h2 class='i18n-self-hosting-title'>Hardware &amp; software setup</h2>
         <div class='prop'>&nbsp;</div>
         <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
           <ul>
@@ -1894,9 +2026,10 @@
         <li><a href='#dns-provider' class='i18n-dns-provider'>DNS provider</a></li>
         <li><a href='#anon-network' class='i18n-anon-network'>Anonymizing network</a></li>
         <li><a href='#meshnet' class='i18n-meshnet'>Meshnet</a></li>
-        <li><a href='#xmpp-server' class='i18n-xmpp-server'>XMPP Server</a></li>
-        <li><a href='#sip-server' class='i18n-sip-server'>SIP Server</a></li>
-        <li><a href='#self-hosting' class='i18n-self-hosting-server'>Self-hosting solutions</a></li>
+        <li><a href='#server-os' class='i18n-server-os'>Server operating system</li>
+        <li><a href='#xmpp-server' class='i18n-xmpp-server'>XMPP server software</a></li>
+        <li><a href='#sip-server' class='i18n-sip-server'>SIP server</a></li>
+        <li><a href='#hardware-software' class='i18n-hardware-software'>Hardware &amp; software setup</a></li>
         <!--
         <li id='page-switch'>
           <div class='switch'>

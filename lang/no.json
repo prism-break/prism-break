@@ -34,10 +34,10 @@
   "i18n-fdroid-desc": "Et alternativ til Google Play med kun fri programvare.", 
   "i18n-android-note": "<p><strong>CyanogenMod</strong> distribueres med proprietær maskinvare-spesifikk programvare for å sikre at den mobile enheten kan operere som normalt. Disse programmene forsøker friprogbevegelsen stadig å erstatte med frie versjoner.</p>", 
 
-  "i18n-mobile-os": "iOS &amp; WP",
-  "i18n-mobile-os-no-alt-title": "No alternative",
-  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.",
-  "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>",
+  "i18n-mobile-os": "iOS &amp; WP", 
+  "i18n-mobile-os-no-alt-title": "No alternative", 
+  "i18n-mobile-os-no-alt-desc": "Replace the device&mdash;these operating systems have no free alternatives.", 
+  "i18n-mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>", 
 
   "i18n-web-browser": "Nettleser", 
   "i18n-torbrowser-desc": "Kryptert, anonym nettsurfing.", 
@@ -69,10 +69,8 @@
 
   "i18n-email-service": "E-posttjeneste", 
   "i18n-autistici-desc": "En rekke frie og personvernsinnstilte tjenester.", 
-  "i18n-bitmessage-desc": "Kryptert og desentralisert e-posttjener.", 
   "i18n-kolab-desc": "Kollaborasjonstjener for e-post, adressebøker og synkronisering til mobile enheter.", 
   "i18n-mykolabcom-desc": "Sikre Kolabskonti.", 
-  "i18n-posteo-desc": "Encrypted and anonymous email, calendar, and contacts service for &euro;1 per month.", 
   "i18n-riseup-desc": "Sikre og private e-postkonti.", 
   "i18n-email-service-note": "<p>Den beste måten å garantere personvern og sikkerhet på er å kjøre din egen e-posttjener.</p><p><strong>Bitmessage</strong> er et lovende kryptert alternativ til e-post. Det er dog ikke erklært stabilt til daglig bruk ennå.<p><p><strong>MyKolab</strong> kjører på fri programvare og lar deg eksportere alt. Det kjører i Sveits, og drar nytte av de sterke personvernslovene der nede.<p><strong>Riseup</strong> tilbyr VPN, lynmeldinger og etherpad.</p><p>FreedomBox er ikke ferdig ennå, men har et edelt mål. Det skal nemlig gjøre kål på sentraliserte tjenere som aggregerer informasjon om alt og alle, til fordel for personlig lagring av alt, på en så enkel måte at selv bestemor kan gjøre det.</p>", 
 
@@ -92,7 +90,6 @@
   "i18n-gnuprivacyguard-desc": "Fritt OpenPGP-kryptografiprogram.", 
   "i18n-gpgmail-desc": "OpenPGP-tillegg for OS X Mail.", 
   "i18n-mailvelope-desc": "OpenPGP-kryptering for nettpost.", 
-  "i18n-openpgpjs-desc": "OpenPGP-bibliotek i JavaScript.", 
   "i18n-webpg-desc": "GPG/PGP i nettleseren din.", 
   "i18n-apg-desc": "OpenPGP-implementasjon for Android.", 
   "i18n-email-encryption-note": "<p>Bruk Pretty Good Privacy (PGP)! PGP er en måte å kryptere og autentisere ting. Den kan brukes til enhver fil, men brukes som oftest til e-post.</p>", 
@@ -100,6 +97,7 @@
   "i18n-instant-messaging": "Lynmeldinger", 
   "i18n-pidgin-desc": "Fritt lynmeldingsprogram.", 
   "i18n-otr-desc": "Installer og start i Pidgin for kryptert chat.", 
+  "i18n-gajim-desc": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.", 
   "i18n-adium-desc": "Pidgin for OS X (husk å aktivere OTR).", 
   "i18n-bitlbee-desc": "IRC gateway for ymse lynmeldingsprotokoller.", 
   "i18n-jappix-desc": "Instant messaging web application with advanced social networking features.", 
@@ -151,6 +149,8 @@
   "i18n-document-collaboration-note": "<p>--</p>", 
 
   "i18n-media-publishing": "Publiseringssystem", 
+  "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting",
+  "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.",
   "i18n-noblogs-desc": "Bloggpublisering basert på WordPresspwigo", 
   "i18n-gnumediagoblin-desc": "Desentralisert publiseringsplattform.", 
   "i18n-piwigo-desc": "Fritt fotogalleri.", 
@@ -201,6 +201,12 @@
   "i18n-librevpn-desc": "Fritt nettverk som kjører over andre nettverk.", 
   "i18n-meshnet-note": "<p>Et meshnet er et desentralisert P2P-nettverk med brukerkontrollerte fysiske lenker.</p>", 
 
+  "i18n-server-os-title": "Server operating system",
+  "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
+  "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+  "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+  "i18n-server-os-notes": "--",
+
   "i18n-xmpp-server-title": "XMPP-tjener", 
   "i18n-ejabberd-desc": "XMPP-tjener for GNU/Linux og OS X.", 
   "i18n-openfire-desc": "XMPP tjener.", 
@@ -215,7 +221,7 @@
   "i18n-kamailio-desc": "Fri VoIP/SIP-tjener.", 
   "i18n-sip-server-notes": "<p>&ldquo;The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>", 
 
-  "i18n-self-hosting-title": "Self-hosting solutions", 
+  "i18n-hardware-software": "Hardware &amp; software setup", 
   "i18n-freedombox-desc": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.", 
   "i18n-arkos-desc": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.", 
   "i18n-self-hosting-notes": "--", 
@@ -232,6 +238,7 @@
   "i18n-invite-only": "invitasjonsbasert", 
   "i18n-approval-required": "godkjennelse nødvendig", 
   "i18n-usa-hosted": "USA hosted", 
+  "i18n-paid-service": "paid service", 
 
   "i18n-newbies-choice": "anbefalt for nybegynnere", 
   "i18n-editors-choice": "anbefalt av PRISM break", 
@@ -273,9 +280,8 @@
   "i18n-disclaimer": "Ansvarsfraskrivelse: Å benytte de anbefalte prosjektene på denne sida vil ikke alene garantere at 100% av din kommunikasjon er beskyttet mot overvåkning. Vennligst foreta ei granskning av programvaren før du velger å stole på dem med din sensitive informasjon.", 
 
   "i18n-privacy-policy": "Privacy Policy", 
-  "i18n-privacy-policy-content": "<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to}completely ignore your computer.</p>",
+  "i18n-privacy-policy-content": "<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to}completely ignore your computer.</p>", 
 
-  "i18n-donate-title": "Support the PRISM Break project by donating Bitcoin.",
-  "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> launched on June 10th, 2013 on the heels of Edward Snowden's revelations about NSA mass surveillance. Since launch, nearly 750,000 privacy-conscious visitors have viewed the site over one million times around the world.</p><p>While the first version of prism-break.org took only two days to build and launch, maintaining and improving the site over the past two months has taken up much of my time. As of August 3rd, 2013, I've pushed 1,208 edits to the site and spent hundreds of hours poring over privacy resources. I've made this effort in order to ensure that PRISM Break offers you the best methods to combat government surveillance.</p><p>With so many people visiting prism-break.org, I would love to devote my full attention to fixing possible security bugs, improving the projects list and making the content more user-friendly. However&mdash;like anyone else&mdash;I still need to pay my rent and buy food, and this project doesn't generate any income. This is where you can help.</p><p>If you would like to support PRISM Break, please consider donating Bitcoin to fund future development. I suggest at least 0.05 BTC, but any amount is appreciated. If you donate 0.50 BTC or more and leave a name, I will add you to this page as a PRISM Break sponsor.</p><p>Donate address:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>I appreciate your support.</p><p>Peng Zhong<br />PRISM Break developer</p><p>P.S. The developers of the fine projects listed on <a href='https://prism-break.org'>PRISM Break</a> would also be grateful for your support. If you enjoy using their app, seriously consider throwing some money their way to fund development.</p>"
-
+  "i18n-donate-title": "Support the PRISM Break project by donating Bitcoin.", 
+  "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> launched on June 10th, 2013 on the heels of Edward Snowden's revelations about NSA mass surveillance. Since launch, nearly 750,000 privacy-conscious visitors have viewed the site over one million times around the world.</p><p>While the first version of prism-break.org took only two days to build and launch, maintaining and improving the site over the past two months has taken up much of my time. As of August 3rd, 2013, I've pushed 1,208 edits to the site and spent hundreds of hours poring over privacy resources. I've made this effort in order to ensure that PRISM Break offers you the best methods to combat government surveillance.</p><p>With so many people visiting prism-break.org, I would love to devote my full attention to fixing possible security bugs, improving the projects list and making the content more user-friendly. However&mdash;like anyone else&mdash;I still need to pay my rent and buy food, and this project doesn't generate any income. This is where you can help.</p><p>If you would like to support PRISM Break, please consider donating Bitcoin to fund future development. I suggest at least 0.05 BTC, but any amount is appreciated. If you donate 0.50 BTC or more and leave a name, I will add you to this page as a PRISM Break sponsor.</p><p>Donate address:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>I appreciate your support.</p><p>Peng Zhong<br />PRISM Break developer</p><p>P.S. The developers of the fine projects listed on <a href='https://prism-break.org'>PRISM Break</a> would also be grateful for your support. If you enjoy using their app, seriously consider throwing some mo}ey their way to fund development.</p>"
 }
