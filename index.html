@@ -464,7 +464,9 @@
                   <span class='fs i18n-advanced'>advanced</span>
                 </p>
             </a></li>
-            <li><span class='h4 i18n-instant-messaging'>Instant messaging</li>
+            <li>
+              <span class='h4 i18n-instant-messaging'>Instant messaging</span>
+            </li>
             <li>
               <a href='https://crypto.cat/'><img class='logo' src='lib/img/free/cryptocat.png' alt='' />
                 <h5>CryptoCat</h5>
@@ -896,7 +898,14 @@
             </li>
           </ul>
         </div>
-        <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
+        <div class='free'>
+          <h3>
+            <span class='i18n-free-alternative'>Free alternatives
+            <label class='toggler'>
+              <input type="checkbox" class='toggle-section'>
+              <span class="i18n-show-all">show all</span>
+            </label>
+          </h3>
           <ul>
             <li>
               <a href='https://www.pidgin.im/'><img class='logo' src='lib/img/free/pidgin.png' alt='' />
@@ -914,7 +923,7 @@
                   <span class='i18n-otr-desc'>Install and enable this plugin in Pidgin for encrypted chat.</span>
                 </p>
             </a></li>
-            <li>
+            <li class='hideable'>
               <a href='https://adium.im/'><img class='logo' src='lib/img/free/adium.png' alt='' />
                 <h5>Adium</h5>
                 <p class='desc'>
@@ -923,7 +932,7 @@
                   <span class='fs'>OTR</span>
                 </p>
             </a></li>
-            <li>
+            <li class='hideable'>
               <a href='http://gajim.org/'><img class='logo' src='lib/img/free/gajim.png' alt='' />
                 <h5>Gajim</h5>
                 <p class='desc'>
@@ -940,8 +949,8 @@
                   <span class='i18n-torchat-desc'>Anonymous, decentralized P2P chat built on Tor Hidden Services.</span>
                 </p>
             </a></li>
-            <li><span class='h4 i18n-irc'>IRC</span></li>
-            <li>
+            <li class='hideable'><span class='h4 i18n-irc'>IRC</span></li>
+            <li class='hideable'>
               <a href='http://www.bitlbee.org/'><img class='logo' src='lib/img/free/bitlbee.png' alt='' />
                 <h5>BitlBee</h5>
                 <p class='desc'>
@@ -950,14 +959,15 @@
                   <span class='fs'>OTR</span>
                 </p>
             </a></li>
-            <li>
+            <li class='hideable'>
               <a href='http://hexchat.github.io/'><img class='logo' src='lib/img/free/hexchat.png' alt='' />
                 <h5>HexChat</h5>
                 <p class='desc'>
                   <span class='i18n-hexchat-desc'>Cross-platform IRC client.</span>
                 </p>
             </a></li>
-            <li>
+            <li class='hideable'>
+              <a href='http://hexchat.github.io/'><img class='logo' src='lib/img/free/hexchat.png' alt='' />
               <a href='http://www.weechat.org/'><img class='logo' src='lib/img/free/weechat.png' alt='' />
                 <h5>WeeChat</h5>
                 <p class='desc'>
