@@ -1135,7 +1135,14 @@
             </li>
           </ul>
         </div>
-        <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
+        <div class='free'>
+          <h3>
+            <span class='i18n-free-alternative'>Free alternatives</span>
+            <label class='toggler'>
+              <input type="checkbox" class='toggle-section'>
+              <span class="i18n-show-all">show all</span>
+            </label>
+          </h3>
           <ul>
             <li><span class='h4 i18n-software'>Software</span></li>
             <li>
@@ -1161,7 +1168,7 @@
                   <span class='i18n-friendica-desc'>Privacy respecting, distributed, federated social network.</span>
                 </p>
             </a></li>
-            <li>
+            <li class='hideable'>
               <a href='https://www.gnu.org/software/social/'><img class='logo' src='lib/img/free/gnusocial.png' alt='' />
                 <h5>GNU Social</h5>
                 <p class='desc'>
@@ -1169,7 +1176,7 @@
                   <span class='fs i18n-fsf-endorsed'>FSF endorsed</span>
                 </p>
             </a></li>
-            <li>
+            <li class='hideable'>
               <a href='https://lorea.org/'><img class='logo' src='lib/img/free/lorea.png' alt='' />
                 <h5>Lorea</h5>
                 <p class='desc'>
@@ -1192,7 +1199,7 @@
                   <span class='fs i18n-fsf-endorsed'>FSF endorsed</span>
                 </p>
             </a></li>
-            <li>
+            <li class='hideable'>
               <a href='http://sat.goffi.org/'><img class='logo' src='lib/img/free/salutatoi.png' alt='' />
                 <h5>Salut à Toi</h5>
                 <p class='desc'>
