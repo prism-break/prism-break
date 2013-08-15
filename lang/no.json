@@ -181,6 +181,9 @@
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics kjører på denne sida. Den anonymiserer den siste oktetten av din IP for ditt personverns skyld.</p>", 
 
   "i18n-dns-provider": "DNS-tjenester", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "Distribuert DNS for .bit TLD, basert på Bitcoin.", 
   "i18n-dns-provider-note": "<p>Google Public DNS lagrer din ISP og stedsinformasjon for analyse permanent, pluss IP-adressen din i 24 timer.</p><p><strong>OpenNIC</strong> har ikke bestemt seg for en offisiell policy for loganonymisering ennå.</p>", 
 

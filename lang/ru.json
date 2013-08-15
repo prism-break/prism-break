@@ -181,6 +181,9 @@
   "i18n-web-analytics-note": "<p>Аналитика <strong>Piwik</strong> работает на этом сайте. Он настроен на скрытие последнего октета (255.255.???.???) IP посетителя. Вы можете посмотреть данные в реальном времени здесь: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a> и так же просмотрите нашу <a href='https://prism-break.org/privacy.html'>политику конфиденциальности</a>. ", 
 
   "i18n-dns-provider": "DNS провайдер", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "Распределенная DNS, созданная на основе технологии Bitcoin.", 
   "i18n-dns-provider-note": "<p>Google Public DNS перманентно логирует вашего информацию о вашем провайдере и местоложение для аналитики. Так же ваш IP адрес хранится 24 часа.</p>", 
 

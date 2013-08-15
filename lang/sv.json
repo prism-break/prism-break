@@ -181,6 +181,9 @@
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analys körs på denna sida. Det är uppsatt till att anonymisera de sista siffrora (255.255.255.???) av besökares IP. Kolla in live-datan här: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.", 
 
   "i18n-dns-provider": "DNS-Tjänster", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "Distribuerad DNS, baserad på Bitcoin teknologi.", 
   "i18n-dns-provider-note": "<p>Google Public DNS loggar din ISP och platsinformation permanent för analys. Din IP adress lagras också i 24 timmar.</p><p><strong>OpenNIC</strong> har inte adopterat en officiell policy om loggning/integritet/anonymisering. Mer information <a href='http://wiki.opennicproject.org/Tier2'>här</a>.</p>", 
 

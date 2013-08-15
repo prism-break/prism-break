@@ -181,6 +181,9 @@
   "i18n-web-analytics-note": "<p>האבחון של <strong>Piwik</strong> מופעל באתר זה. הוא מוגדר כך שהוא הופך את האוקטט האחרון לאנונימי (255.255.255.???) עבור ה־IP של מבקרים. ניתן לראות את המידע בזמן אמת בלינק הבא: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.</p>", 
 
   "i18n-dns-provider": "ספק DNS", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "DNS מבוזר המבוסס על טכנולוגיית Bitcoin.", 
   "i18n-dns-provider-note": "<p>ה־DNS הציבורי של גוגל מקליט לצמיתות מידע על ספק האינטרנט (ISP) ומיקומך לצורך ניתוח. כמו כן, כתובת ה־IP שלך מאוחסנת למשך 24 שעות.</p><p><strong>OpenNIC</strong> לא אימצו אף מדיניות לגבי הפרטיות או האנונימיות בהקשר לשאילות הקלטת מידע. למידע נוסף <a href='http://wiki.opennicproject.org/Tier2'>לחץ כאן</a>.</p>", 
 

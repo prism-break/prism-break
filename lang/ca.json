@@ -181,6 +181,9 @@
   "i18n-web-analytics-note": "<span class='p'><strong>Piwik</strong> Analytics potencia este sitio. Está configurado para anonimizar el último octeto (255.255.255.???) de las IPs de los visitantes. Revisa los datos en vivo aquí: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.", 
 
   "i18n-dns-provider": "Proveïdorss DNS", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "DNS distribuït basat en tecnologia de Bitcoin.", 
   "i18n-dns-provider-note": "<span class='p'>Google Public DNS registra permanentemente tu ISP e información de localización para su análisis. Tu dirección IP también es guardada por 24 horas.</span><span class='p'><strong>OpenNIC</strong> no tiene registros.</span>.</span>", 
 
