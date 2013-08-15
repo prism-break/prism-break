@@ -34,8 +34,11 @@
   "i18n-yacy-desc": "Decentralizovana internet pretraga.",
 
   "i18n-dns-provider": "DNS provajderi",
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
   "i18n-opennic-desc": "Potpuna DNS neutralnost.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "Distribuirani DNS baziran na Bitcoin tehnologiji.",
+  "i18n-dns-provider-note": "<p>Google-ov javni DNS trajno čuva informaciju o Vašem ISP-u i lokaciji za analizu. Vaša IP adresa se čuva 24 sata.</p><p><strong>OpenNIC</strong> nema službenu polisu koja se tiče privatnosti/anonimizacije. Više informacija <a href='http://wiki.opennicproject.org/Tier2'>ovde</a>.</p>",
 
   "i18n-darknet": "Darknet",
   "i18n-freenet-desc": "Decentralozovana mreža za otpor cenzuri.",
@@ -259,8 +262,6 @@
   "i18n-cloud-storage-note": "<p>Zašto ne MEGA? Iako je MEGA besplatan softver, i dalje je vlasnički.</p><p>Zašto ne SpiderOak? SpiderOak je vlasnički softver.</p><p>Zašto ne Tarsnap? Tarsnap je delomično vlasnički softver koji se hostuje na Amazon web servisu.</p>",
 
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analitika pokreće ovu web stranicu. Podešena je da anonimizira zadnji oktet (255.255.255.???) IP adrese posetioca. Pregledajte podatke uživo ovde: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
-
-  "i18n-dns-provider-note": "<p>Google-ov javni DNS trajno čuva informaciju o Vašem ISP-u i lokaciji za analizu. Vaša IP adresa se čuva 24 sata.</p><p><strong>OpenNIC</strong> nema službenu polisu koja se tiče privatnosti/anonimizacije. Više informacija <a href='http://wiki.opennicproject.org/Tier2'>ovde</a>.</p>",
 
   "i18n-darknet-note": "<p>&ldquo;Darknet je anonimizirajuća mreža gde se konekcija ostvaruje samo između proverenih peer-ova.</p><p>Darknet-i se ističu od drugih distribuiranih P2P mreža pošto je deljenje anonimno, pa korisnici mogu komunicirati sa manjim strahom od mešanja vlade ili korporacija.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Darknet_%28file_sharing%29'>Wikipedia</a></p>",
 

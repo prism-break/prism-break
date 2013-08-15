@@ -182,6 +182,9 @@
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> assure les statistiques web de ce site. Il est configuré pour rendre anonyme le dernier octet (255.255.255.???) de l'IP des visiteurs. Vous pouvez consulter les données en temps-réel&nbsp;: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.", 
 
   "i18n-dns-provider": "Fournisseur DNS", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "DNS distribué basé sur la technologie Bitcoin.", 
   "i18n-dns-provider-note": "<p>Google Public DNS enregistre en permanence le nom de votre FAI et des informations géographiques à des fins d'analyse. Votre adresse IP est par ailleurs enregistrée pour 24 heures.</p><p><strong>OpenNIC</strong> n'a pas adopté de politique officiel concernant la rétention des enregistrements et leur consultation. Plus d'information <a href='http://wiki.opennicproject.org/Tier2'>ici</a>.</p>", 
 

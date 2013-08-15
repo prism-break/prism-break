@@ -181,6 +181,9 @@
   "i18n-web-analytics-note": "<p>System analiz<strong>Piwik</strong> analizuje moce strony. Jest skonfigurowany, aby sprawdza&#263; tylko ostatni&#261; tr&oacute;jk&#281; liter w IP (255.255.255.???). <a href='http://prism-break.org/analytics'>Sprawd&#378; jak to wygl&#261;da</a>.", 
 
   "i18n-dns-provider": "Dostawca DNS", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "DNS na bazie technologii BitCoin.", 
   "i18n-dns-provider-note": "<p>Google Public DNS permanentnie loguje informacje o Twoim dostawcy internetu dla analiz. Twoje IP jest te&#380; przechowywane (przez 24h, ale to zawsze co&#347;).</p><p><strong>OpenNIC</strong> nie przygotowa&#322; jeszcze dok&#322;adnej polityki prywatno&#347;ci. <a href='http://wiki.opennicproject.org/Tier2'>Wi&#281;cej tutaj</a>.</p>", 
 

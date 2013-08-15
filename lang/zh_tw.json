@@ -181,6 +181,9 @@
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.", 
 
   "i18n-dns-provider": "DNS 服務供應商", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "基于 Bitcoin 技術的分散式 DNS 服務。", 
   "i18n-dns-provider-note": "<p>Google公共DNS 持久性地记录你的运营商ISP和位置信息用于分析。你的IP地址也被存放24小时。</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>", 
 

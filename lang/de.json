@@ -183,6 +183,9 @@
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass das letzte Viertel der Besucher-IP anonymisiert wird (255.255.255.???). Aufrufbar unter <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.", 
 
   "i18n-dns-provider": "DNS-Provider", 
+  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
+  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
   "i18n-namecoin-desc": "Verteiltes DNS, basierend auf der Bitcoin-Technologie.", 
   "i18n-dns-provider-note": "<p>Google Public DNS speichert Deine Internetprovider- und Standort-Informationen permanent für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</p>", 
 
