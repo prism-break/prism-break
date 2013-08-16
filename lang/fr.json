@@ -146,6 +146,7 @@
   "i18n-cloud-storage-note": "<p>Pourquoi pas MEGA&nbsp;? MEGA est certes gratuit, mais le logiciel est propriétaire.</p><p>Pourquoi pas SpiderOak&nbsp;? SpiderOak est lui-aussi un logiciel propriétaire.</p><p>Pourquoi pas Tarsnap&nbsp;? Tarsnap est partiellement propriétaire et héberge vos données sur Amazon Web Services.</p>", 
 
   "i18n-document-collaboration": "Collaboration sur les documents", 
+  "i18n-riseup-etherpad-desc": "Un service de pad collaboratif hébergé par Riseup.",
   "i18n-etherpad-desc": "Collaboration sur les documents en temps réel et open-source.", 
   "i18n-ethercalc-desc": "Serveur multi-utilisateurs de tableur.", 
   "i18n-document-collaboration-note": "<p>--</p>", 
@@ -183,13 +184,13 @@
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> assure les statistiques web de ce site. Il est configuré pour rendre anonyme le dernier octet (255.255.255.???) de l'IP des visiteurs. Vous pouvez consulter les données en temps-réel&nbsp;: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.", 
 
   "i18n-dns-provider": "Fournisseur DNS", 
-  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
-  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
-  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
+  "i18n-cloudns-desc": "Un service DNS avec DNSCrypt, DNSSec et Namecoin supporté",
+  "i18n-opennic-desc": "Fournisseur DNS Ouvert, démocratique et anti-censure",
+  "i18n-dnscrypt-desc": "Un outil pour sécuriser les communications entre un client et un résolveur DNS.",
   "i18n-namecoin-desc": "DNS distribué basé sur la technologie Bitcoin.", 
   "i18n-dns-provider-note": "<p>Google Public DNS enregistre en permanence le nom de votre FAI et des informations géographiques à des fins d'analyse. Votre adresse IP est par ailleurs enregistrée pour 24 heures.</p><p><strong>OpenNIC</strong> n'a pas adopté de politique officiel concernant la rétention des enregistrements et leur consultation. Plus d'information <a href='http://wiki.opennicproject.org/Tier2'>ici</a>.</p>", 
 
-  "i18n-anon-networks": "Anonymizing network", 
+  "i18n-anon-networks": "Réseau Anonymiseur", 
   "i18n-freenet-desc": "Réseau décentralisé résistant à la censure.", 
   "i18n-i2p-desc": "Le projet internet invisible.", 
   "i18n-nightweb-desc": "Réseau I2P anonyme pour Android.", 
@@ -202,7 +203,7 @@
   "i18n-meshnet": "Meshnet", 
   "i18n-meshnet-project-desc": "Une alternative décentralisée à Internet.", 
   "i18n-freifunk-desc": "Initiative non commerciale et donc la base est ouverte pour supporter les réseaux sans fils gratuit dans le monde.", 
-  "i18n-guifi-desc": "Open, free and neutral wireless network for everyone.",
+  "i18n-guifi-desc": "Réseaux wifi ouvert, libre et neutre pour tout le monde.",
   "i18n-byzantium-desc": "Byzantium est une distribution Live GNU/Linux qui propose une solution facile à utilisée de réseau maillé.", 
   "i18n-librevpn-desc": "Un réseau libre qui fonctionne sur les autres réseaux.", 
   "i18n-meshnet-note": "<p>Un réseau maillé est un réseau pair-à-pair décentralisé, avec des liens physiques contrôlés par l'utilisateur qui sont habituellement sans fil.</p><p>&laquo;&nbsp;Le réseau maillé (topologie) est un type de réseau dans lequel chaque nœud doit non seulement capturer et diffuser sa propre information, mais aussi servir de relai pour les autres nœuds, à savoir, collaborer à la propagation de l'information dans le réseau.&nbsp;&raquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Mesh_networking'>La Wikipédia</a> (en anglais)</p>", 
@@ -237,7 +238,7 @@
   "i18n-service": "Service", 
   "i18n-software": "Logiciel", 
   "i18n-server-software": "Logiciel pour Serveur",
-  "i18n-p2p-software": "Logiciel peer to peer", 
+  "i18n-p2p-software": "Logiciel pair-à-pair", 
 
   "i18n-advanced": "Avancé", 
   "i18n-experimental": "Expérimental", 
@@ -286,7 +287,7 @@
 
   "i18n-disclaimer": "Avertissement&nbsp;: l'utilisation des projets et logiciels recommandés sur ce site ne garantit pas que la totalité de vos communications seront à l'abri de la surveillance par les États. Vous devez effectuer vos propres enquêtes avant de délivrer des informations sensibles à ces logiciels.", 
 
-  "i18n-privacy-policy": "Privacy Policy", 
+  "i18n-privacy-policy": "Politique de confidentialité", 
   "i18n-privacy-policy-content": "<p>PRISM Break utilise Piwik analytics pour évaluer le trafic sur ce site. Piwik enregistre la localisation géographique approximative du visiteur, leur navigateur, leur système d'exploitation, et leurs clicks sur la page. Ceci nous aide à évaluer et à améliorer nos contenus.</p><p>Piwik protège la vie privée des visiteurs en anonmysant leurs adresses IP. Ainsi nous ne stockerons aucune donnée à caractère personnel à votre sujet, même si le site va enregistrer que quelqu'un à visiter  notre site. Vous pouvez consulter <strong><a href='http://prism-break.org/analytics'>les données analytics anonymisées ici.</a></strong></p><p>De plus, Piwik respecte le paramètre &ldquo;Do Not Track&rdquo; proposé par certains navigateurs. Si vous avez indiqué cette préfèrece, Piwik ignorera votre visite.</p><p>Si vous n&rsquo;utilisez pas &ldquo;Do Not Track&rdquo; et souhaitez ne pas être traqué, veuillez décocher la case analytics ci-dessous. Le système déposera un cookie &ldquo;piwik_ignore&rdquo;, qui indiquera à Piwik d'ignorer votre ordinateur.</p>", 
 
   "i18n-donate-title": "Soutenez le projet PRISM Break en donnant des Bitcoins.", 
