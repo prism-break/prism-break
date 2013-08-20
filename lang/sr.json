@@ -160,6 +160,7 @@
   "i18n-gnunet-desc": "GNUnet je potpuno besplatna P2P mreža.",
   
   "i18n-meshnet": "Meshnet",
+  "i18n-commotion-desc": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.", 
   "i18n-meshnet-project-desc": "Decentralizovana alternativa internetu.",
   "i18n-freifunk-desc": "Nekomercijalna otvorena alternativa za podržavanje besplatnih radio mreža u celom svetu.",
   "i18n-guifi-desc": "Open, free and neutral wireless network for everyone.",
@@ -167,7 +168,7 @@
   "i18n-librevpn-desc": "Besplatna mreža koja radi preko drugih mreža.",
   "i18n-meshnet-note": "<p>Meshnet je decentralizovana P2P mreža, sa korisnički konitronisanim fizičkim linkovima koji su obično wireless.</p><p>&ldquo;Mesh networking (topologija) je tip networking-a gde svaki čvor mora ne samo snimati i prosleđivati svoje podatke, nego i da služi kao relej za druge čvorove. To znači da mora sarađivati pri prenošenju podataka u mreži.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
 
-  "i18n-server-os-title": "Serverski operativni sistem,
+  "i18n-server-os-title": "Serverski operativni sistem",
   "i18n-centos-desc": "Enterprise klasa računarske platforme sa stopostotnom binarnom kompatibilnosti sa RHEL-om.",
   "i18n-smeserver-desc": "Jednostavna distribucija bazirana na CentOS sa prethodno konfigurisanim email serverom, deljenjem datoteka, web serverom i još mnogo toga.",
   "i18n-yunohost-desc": "Personalna distribucija bazirana na Debian-u sa prethodno konfigurisanim email, IM i web serverom.",
