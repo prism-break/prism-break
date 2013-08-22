@@ -265,7 +265,9 @@
 
   "i18n-maps-note": "<p>--</p>",
 
-  "i18n-cloud-storage-note": "<p>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>",
+  "i18n-alfresco-desc": "Document management and collaboration.",
+
+  "i18n-cloud-storage-note": "<p>BitTorrent Sync, MEGA, SpiderOak, and Tarsnap are services that are built on either partially or fully proprietary software. They will not be recommended on PRISM Break until they open source the entirety of their codebase.</p><p> With closed source software, you need to have 100% trust in the vendor because there's nothing except for their morality in the way of them leaking your personal information. Even if you can vouch for their integrity, proprietary software invariably has more uncaught security bugs and exploits because there are fewer eyes examining the source code.</p><p>An open source document management solution like Alfresco allows you to setup a server that stores documents around which your team needs to collaborate. The focus is on the life-cycle of the documents in  an organization, rather than on simple distribution and synchronization.</p><p>Another alternative to cloud storage is local backup with external hard drives and USB flash drives. This method is reliably more secure than storing data on a network, but comes at a convenience cost.</p>",
 
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
