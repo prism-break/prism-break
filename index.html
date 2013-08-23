@@ -644,10 +644,6 @@
               <div class='name'>Google Gmail</div>
             </li>
             <li>
-              <img class='logo' src='lib/img/prop/ms-exchange.png' alt='' />
-              <div class='name'>Microsoft Exchange</div>
-            </li>
-            <li>
               <img class='logo' src='lib/img/prop/ms-outlook.png' alt='' />
               <div class='name'>Microsoft Outlook.com</div>
             </li>
@@ -702,32 +698,16 @@
                   <span class='fs'>PGP</span>
                 </p>
             </a></li>
-            <li><span class='h4 i18n-server-software'>Server software</span></li>
-            <li>
-              <a href='https://kolab.org'><img class='logo' src='lib/img/free/kolab.png' alt='' />
-                <h5>Kolab</h5>
-                <p class='desc'>
-                  <span class='i18n-kolab-desc'>Groupware solution for email, files, calendars, address books and synchronization to mobile devices.</span>
-                </p>
-            </a></li>
-            <li>
-              <a href='https://community.zarafa.com/'><img class='logo' src='lib/img/free/zarafa.png' alt='' />
-                <h5>Zarafa Collaboration Platform</h5>
-                <p class='desc'>
-                  <span class='i18n-zarafa-desc'>Groupware solution providing an open source and MAPI-compatible alternative to Microsoft Exchange.</span>
-                </p>
-            </a></li>
-
           </ul>
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
           <div class='i18n-email-service-note'>
-            <p>Here are some email providers that try do things right and run email for you. Please decide for yourself whether you trust them with your data.</p>
+            <p>Here are some transparently run, privacy-oriented email providers that you can use in place of Gmail or Hotmail. Please decide for yourself whether if you trust them with your data. If you have the technical aptitude, consider <a href='#mail-server'>running your own mail server</a>.</p>
             <p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the <a href='https://MyKolab.com/privacy'>strong Swiss privacy laws</a>. It is run exclusively with free software and using the service supports the development of <strong>Kolab</strong>. Also, it lets you export all your data at any time.</p>
             <p><strong>Bitmessage</strong> is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.</p>
+            <p><strong>RetroShare</strong> is simple way to run your own peer to peer messaging network without need of a central server. Please note however that its encryption has not been thoroughly audited by security professionals.</p>
             <p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p>
-            <p>If you decide to <a href='#server-os'>run your own server</a>, <strong>Kolab</strong> is a worth looking into for mail management. It integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p>
-            <p><strong>Zarafa Collaboration Platform</strong> runs on most major Linux distributions and provides mail, calandering, contacts and tasks. Synchronization for mobile devices (ActiveSync) is available using <a href="http://z-push.sourceforge.net/">Z-Push</a>. Both a fully open source edition and a free &ndash; but not fully open source &ndash; community edition are available for download.</p>
+            <p>For more discussion about safe email providers, please see <a href='https://github.com/nylira/prism-break/issues/461'>issue #461</a>.
           </div>
         </div>
       </div>
@@ -740,17 +720,9 @@
               <img class='logo' src='lib/img/prop/apple.png' alt='' />
               <div class='name'>Apple OS X Mail</div>
             </li>
-            <li>
-              <img class='logo' src='lib/img/prop/lotus-notes.png' alt='' />              <div class='name'>IBM Notes</div>
-            </li>
-            <li>
               <img class='logo' src='lib/img/prop/ms-outlook.png' alt='' />
               <div class='name'>Microsoft Office Outlook</div>
             </li>
-            <li>
-              <img class='logo' src='lib/img/prop/groupwise.png' alt='' />              <div class='name'>Novell Groupwise</div>
-            </li>
-          </ul>
         </div>
         <div class='free'>
           <h3>
@@ -1995,6 +1967,100 @@
         </div>
       </div>
 
+      <div class='section' id='mail-server'>
+        <h2 class='i18n-mail-server'>Mail server</h2>
+        <div class='prop'>
+          <ul>
+            <li>
+              <img class='logo' src='lib/img/prop/google.png' alt='' />
+              <div class='name'>Google Apps</div>
+            </li>
+            <li>
+              <img class='logo' src='lib/img/prop/lotus-notes.png' alt='' />              <div class='name'>IBM Notes</div>
+            </li>
+            <li>
+              <img class='logo' src='lib/img/prop/ms-exchange.png' alt='' />
+              <div class='name'>Microsoft Exchange</div>
+            </li>
+            <li>
+              <img class='logo' src='lib/img/prop/groupwise.png' alt='' />              <div class='name'>Novell GroupWise</div>
+            </li>
+          </ul>
+          </ul>
+        </div>
+        <div class='free'><h3 class='i18n-free-alternative'>Free alternatives</h3>
+          <ul>
+            <li><span class='h4 i18n-mail-server'>Mail server</span></li>
+            <li>
+              <a href='http://www.iredmail.org/'><img class='logo' src='lib/img/free/iredmail.png' alt='' />
+                <h5>iRedMail</h5>
+                <p class='desc'>
+                  <span class='i18n-iredmail-desc'>Install and configure mail server packages automatically in GNU/Linux and BSD.</span>
+                  <span class='fs'>GPLv2</span>
+                </p>
+            </a></li>
+            <li><a href='http://indimail.sourceforge.net/'>
+                <img class='logo' src='lib/img/free/indimail.png' alt='' />
+                <h5>IndiMail</h5>
+                <p class='desc'>
+                  <span class='i18n-indimail-desc'>Highly scalable and configurable messaging platform based on the MTA qmail.</span>
+                  <span class='fs'>GPLv3</span>
+                </p>
+            </a></li>
+            <li><span class='h4 i18n-groupware-server'>Groupware server</span>
+            <li>
+              <a href='https://kolab.org'><img class='logo' src='lib/img/free/kolab.png' alt='' />
+                <h5>Kolab</h5>
+                <p class='desc'>
+                  <span class='i18n-kolab-desc'>Groupware solution for email, files, calendars, address books and mobile sync.</span>
+                  <span class='fs i18n-various-foss-licenses'>Various FOSS licenses</span>
+                </p>
+            </a></li>
+            <li>
+              <a href='https://community.zarafa.com/'><img class='logo' src='lib/img/free/zarafa.png' alt='' />
+                <h5>Zarafa Collaboration Platform</h5>
+                <p class='desc'>
+                  <span class='i18n-zarafa-desc'>Groupware solution providing MAPI-compatible alternative to Microsoft Exchange.</span>
+                  <span class='fs'>AGPL</span>
+                </p>
+            </a></li>
+            <li>
+              <a href='http://www.zimbra.com/community/'><img class='logo' src='lib/img/free/zimbra.png' alt='' />
+                <h5>Zimbra Collaboration Server (OSE)</h5>
+                <p class='desc'>
+                  <span class='i18n-zimbra-desc'>Groupware solution offering email, calendar, address book and collaboration.</span>
+                  <span class='fs'>ZPL</span>
+                </p>
+            </a></li>
+            <li><span class='h4 i18n-mail-transfer-agent'>Mail transfer agent (MTA)</span></li>
+            <li><a href='http://indimail.sourceforge.net/'>
+                <img class='logo' src='lib/img/free/exim.png' alt='' />
+                <h5>Exim</h5>
+                <p class='desc'>
+                  <span class='i18n-exim-desc'>MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.</span>
+                  <span class='fs'>GPL</span>
+                </p>
+            </a></li>
+            <li><a href='http://www.postfix.org/'>
+                <img class='logo' src='lib/img/free/postfix.png' alt='' />
+                <h5>Postfix</h5>
+                <p class='desc'>
+                  <span class='i18n-postfix-desc'>Easy-to-setup MTA used by approximately 23% of all mail servers.</span>
+                  <span class='fs'>IBM Public License</span>
+                </p>
+            </a></li>
+          </ul>
+        </div>
+        <div class='notes'><h3 class='i18n-notes'>Notes</h3>
+          <div class='i18n-mail-server-notes'>
+            <blockquote><p>Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.</p>
+            <footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>Wikipedia</a></cite></footer></blockquote>
+            <p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p>
+            <p><strong>Zarafa Collaboration Platform</strong> runs on most major GNU/Linux distributions and provides mail, calendering, contacts and tasks. Synchronization for mobile devices (ActiveSync) is available using <a href='http://z-push.sourceforge.net/'>Z-Push</a>.</p>
+          </div>
+        </div>
+      </div>
+
       <div class='section' id='xmpp-server'>
         <h2 class='i18n-xmpp-server-title'>XMPP server</h2>
         <div class='prop'>&nbsp;</div>
@@ -2202,6 +2268,7 @@
         <li><a href='#meshnet' class='i18n-meshnet'>Meshnet</a></li>
         <li><a href='#server-os' class='i18n-server-os'>Server operating system</li>
         <li><a href='#hdd-ssd-encryption' class='i18n-hdd-ssd-encryption'>HDD &amp; SSD encryption</a></li>
+        <li><a href='#mail-server' class='i18n-mail-server'>Mail server</a></li>
         <li><a href='#xmpp-server' class='i18n-xmpp-server'>XMPP server</a></li>
         <li><a href='#sip-server' class='i18n-sip-server'>SIP server</a></li>
         <li><a href='#hardware-software' class='i18n-hardware-software'>Hardware &amp; software setup</a></li>

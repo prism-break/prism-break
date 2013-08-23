@@ -69,10 +69,8 @@
 
   "i18n-email-service": "Us&#322;ugi e-mail", 
   "i18n-autistici-desc": "A full range of free, privacy-aware services.", 
-  "i18n-kolab-desc": "Groupware server for email, calendars, adress books and synchronization to mobile phones.", 
   "i18n-mykolabcom-desc": "Secure and private Kolab accounts hosted in Switzerland.", 
   "i18n-riseup-desc": "Bezpieczne i w pe&#322;ni prywatne konta e-mail.", 
-  "i18n-zarafa-desc": "Groupware solution providing an open source and MAPI-compatible alternative to Microsoft Exchange.", 
   "i18n-email-service-note": "<p><strong>Riseup</strong> jest hostowany w USA, je&#347;li ma to znaczenie.</p><p>Dlaczego nie Hushmail? Zobacz <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;kompromisy w prywatno&#347;ci internetowej&rdquo;</a>.</p>", 
 
   "i18n-email-client": "Klienty e-mail", 
@@ -213,6 +211,18 @@
   "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
   "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
   "i18n-server-os-notes": "--",
+
+  "i18n-mail-server": "Mail server",
+  "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
+  "i18n-indimail-desc": "Highly scalable and configurable messaging platform based on the MTA qmail.",
+  "i18n-groupware-server": "Groupware server",
+  "i18n-kolab-desc'>Groupware solution for email, files, calendars, address books and mobile sync.",
+  "i18n-zarafa-desc": "Groupware solution providing MAPI-compatible alternative to Microsoft Exchange.",
+  "i18n-zimbra-desc": "Groupware solution offering email, calendar, address book and collaboration.",
+  "i18n-mail-transfer-agent": "Mail transfer agent (MTA)",
+  "i18n-exim-desc": "MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.",
+  "i18n-postfix-desc": "Easy-to-setup MTA used by approximately 23% of all mail servers.",
+  "i18n-mail-server-notes": "<blockquote><p>Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>Wikipedia</a></cite></footer></blockquote><p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p><p><strong>Zarafa Collaboration Platform</strong> runs on most major GNU/Linux distributions and provides mail, calendering, contacts and tasks. Synchronization for mobile devices (ActiveSync) is available using <a href='http://z-push.sourceforge.net/'>Z-Push</a>.</p>",
 
   "i18n-xmpp-server-title": "XMPP server", 
   "i18n-dukgoxmpp-desc": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.",
