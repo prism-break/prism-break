@@ -19,6 +19,14 @@ For anyone who's interested in working on localizing this site, please look into
 
 **Please note:** The canonical version of the site text is contained in `./index.html` and `./lang/en.json`. The strings contained in the `xx.json` files may be out of date, as they need to be updated manually by volunteer translators. Please refer to the text contained in `./lang/en.json` when developing your translations to ensure your translation file is 100% up-to-date.
 
+**Test to make sure your [JSON validates](http://jsonformatter.curiousconcept.com/).** A common mistake when editing JSON is putting unescaped quotation marks in a string. Make sure to escape them with either a backslash or HTML entities
+
+    "i18n-web-browser-note": "If you want to have quotes in this note, make sure to add them \"like this\" or you will break JSON.",
+
+    "i18n-web-browser-note": "If you want to have pretty curly quotes in this note, make sure to add them &ldquo;like this&rdquo; or you will break JSON.",
+
+    "i18n-web-browser-note": "You should never do anything "like this" or you will break the entire JSON file.",
+
 Bear in mind that the site is being constantly updated, so you may want to check back every so often.
 
 ### Adding your own JSON stubs
