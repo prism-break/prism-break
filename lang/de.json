@@ -40,11 +40,19 @@
   "i18n-mobile-os-note": "<p>iOS und WP sind propertiäre Betriebssysteme, deren Quellcode nicht zur Bearbeitung Dritter verfügbar ist. Du solltest weder Deine Verbindungen noch Deine Daten einem Gerät anvertrauen, wessen Code nicht offen ist.</p>",
 
   "i18n-web-browser": "Webbrowser", 
+<<<<<<< HEAD
   "i18n-torbrowser-desc": "Verschlüsseltes, anonymes Surfen, unterstützt durch das Tor-Netzwerk.", 
  "i18n-jondonym-desc": "Privates surfen mit dem JonDo IP Anonymisierurngsservice und einem JonDoFox Profil für Firefox.",
   "i18n-firefox-desc": "Schneller, flexibler und sicherer Browser mit einem lebhaften Add-On Ökosystem.", 
   "i18n-orbot-desc": "Die Features und Funktionalitäten für Android.", 
   "i18n-web-browser-note": "<p>Versuche so oft wie möglich mit dem <strong>Tor Browser Bundle (TBB)</strong> zu surfen. Es bietet weit mehr Anonymität als andere Browser. Bitte mache dich auch mit den <a href='https://www.torproject.org/docs/faq.html.en'>Grundlagen von Tor</a> vertraut, bevor du es benutzt. Falls die Webseiten, die du bsuchen möchtest über Tor nicht funktionieren, versuche es mit einem anderen freien Browser, aber sei dir bewusst, dass diese deine IP-Addresse nicht standardmäßig anonymisieren.</p><p><strong>TBB-Notizen: </strong> Über Tor in Webseiten einzuloggen, die deine reale Identität kennen, ist widersinnig und könnte zudem als Betrugsversuch gewertet werden. Versichere dich, dass HTTPS/SSL für Logins benutzt werden. Sich über unverschlüsseltes HTTP einzuloggen, macht deine privaten Daten für den Tor-Endknoten sichtbar.</p><p><strong>Firefox-Notizen:</strong> Dieser Browser benutzt standardmäßig die Google-Suche. Ersetze es mit einer <a href='#web-search'>Privatsphäre-respektierenden Alternative</a>. Eine Alternative zu Firefox selbst ist <a href='http://www.geticeweasel.org/'>Iceweasel</a>, ein Browser für Debian-basierte Linux-Distributions.</p><p>Warum Chromium, SRWare Iron, et al. nicht auf PRISM Break empfohlen werden, <a href='https://github.com/nylira/prism-break/issues/169'>erfährst du hier</a>.", 
+=======
+  "i18n-torbrowser-desc": "Verschlüsseltes, anonymes Surfen.", 
+  "i18n-firefox-desc": "Quelloffener Webbrowser.", 
+  "i18n-icecat-desc": "GNU-Version von Firefox.", 
+  "i18n-orbot-desc": "Tor-Proxy für Android.", 
+  "i18n-web-browser-note": "<p>Versuche so oft wie möglich mit dem <strong>Tor Browser Bundle (TBB)</strong> zu surfen. Es bietet weit mehr Anonymität als andere Browser. Bitte mache dich auch mit den <a href='https://www.torproject.org/docs/faq.html.en'>Grundlagen von Tor</a> vertraut, bevor du es benutzt. Falls die Webseiten, die du bsuchen möchtest über Tor nicht funktionieren, versuche es mit einem anderen freien Browser, aber sei dir bewusst, dass diese deine IP-Adresse nicht standardmäßig anonymisieren.</p><p><strong>TBB-Notizen: </strong> Über Tor in Webseiten einzuloggen, die deine reale Identität kennen, ist widersinnig und könnte zudem als Betrugsversuch gewertet werden. Versichere dich, dass HTTPS/SSL für Logins benutzt werden. Sich über unverschlüsseltes HTTP einzuloggen, macht deine privaten Daten für den Tor-Endknoten sichtbar.</p><p><strong>Firefox-Notizen:</strong> Dieser Browser benutzt standardmäßig die Google-Suche. Ersetze es mit einer <a href='#web-search'>Privatsphäre-respektierenden Alternative</a>. Eine Alternative zu Firefox selbst ist <a href='http://www.geticeweasel.org/'>Iceweasel</a>, ein Browser für Debian-basierte Linux-Distributions.</p><p>Warum Chromium, SRWare Iron, et al. nicht auf PRISM Break empfohlen werden, <a href='https://github.com/nylira/prism-break/issues/169'>erfährst du hier</a>.", 
+>>>>>>> Cathryne-lang_DE
 
   "i18n-web-browser-plugins": "Webbrowser-Plugins", 
   "i18n-httpseverywhere-desc": "Verschlüsselt Deine Kommunikation durch das Verwenden von HTTPS überall.", 
@@ -184,9 +192,9 @@
   "i18n-web-analytics-note": "<p><strong>Piwik</strong> Webanalyse wird von dieser Seite verwendet. Es ist so eingestellt, dass das letzte Viertel der Besucher-IP anonymisiert wird (255.255.255.???). Aufrufbar unter <a href=\"http://prism-break.org/analytics\">prism-break.org/analytics</a>.", 
 
   "i18n-dns-provider": "DNS-Provider", 
-  "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
-  "i18n-opennic-desc": "Open, democratic, and anti-censorship DNS provider.",
-  "i18n-dnscrypt-desc": "A tool to secure communications between a client and a DNS resolver.",
+  "i18n-cloudns-desc": "DNS-hosting-Dienst mit Unterstützung für DNSCrypt, DNSSec und Namecoin.",
+  "i18n-opennic-desc": "Offener, demokratischer und unzensierter DNS-Anbieter.",
+  "i18n-dnscrypt-desc": "Sichere Kommunikation wischen Klient und DNS-Resolver.",
   "i18n-namecoin-desc": "Verteiltes DNS, basierend auf der Bitcoin-Technologie.", 
   "i18n-dns-provider-note": "<p>Google Public DNS speichert Deine Internetprovider- und Standort-Informationen permanent für Analysen. Außerdem wird Deine IP-Adresse für 24 Stunden gespeichert.</p>", 
 
@@ -200,19 +208,19 @@
   "i18n-gnunet-desc": "GNUnet ist ein 100% freies P2P-Netzwerk.", 
   "i18n-anon-network-note": "<p>--</p>", 
 
-  "i18n-meshnet": "Meshnet", 
-  "i18n-commotion-desc": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.", 
+  "i18n-meshnet": "Mesh-Netzwerk", 
+  "i18n-commotion-desc": "Benutzt Smartphones, Computer und WLAN-Router um ein dezentrales Mesh-Netzwerk aufzuspannen.", 
   "i18n-meshnet-project-desc": "Eine dezentralisierte Alternative zum Internet.", 
   "i18n-freifunk-desc": "Freifunk.net hat zum Ziel, freie, unabhängige und nichtkommerzielle Computer-Funknetze zu etablieren.", 
-  "i18n-guifi-desc": "Open, free and neutral wireless network for everyone.",
+  "i18n-guifi-desc": "Quelloffenes, freies und neutrales Funknetzwerk für alle.",
   "i18n-byzantium-desc": "Byzantium ist eine Live-Linux-Distribution, die einfach zu bedienendes Mesh-Networking ermöglicht.", 
   "i18n-librevpn-desc": "Ein freies Netzwerk, das über andere Netzinfrastrukturen läuft.", 
   "i18n-meshnet-note": "<p>&ldquo;In einem vermaschten Netz (engl. Mesh) ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden. Die Informationen werden von Knoten zu Knoten weitergereicht, bis sie das Ziel erreichen.</p><p>Vermaschte Netze sind im Regelfall selbstheilend und dadurch sehr zuverlässig: Wenn ein Knoten oder eine Verbindung blockiert ist oder ausfällt, kann sich das Netz darum herum neu stricken.&ldquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Vermaschtes_Netz\">Wikipedia</a></p>", 
 
-  "i18n-server-os-title": "Server operating system",
-  "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
-  "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
-  "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+  "i18n-server-os-title": "Server-Betriebssystem",
+  "i18n-centos-desc": "Computerplatform für Unternehmen mit 100%iger Binärkompatbilität mit RHEL.",
+  "i18n-smeserver-desc": "Einfache Distro, basierend auf CentOS mit vorkonfiguriertem E-Mail, Dateitausch, Webserver und mehr.",
+  "i18n-yunohost-desc": "Persönliche Debian-basierte Distro mit vorkonfiguriertem E-Mail, IM und Webserver.",
   "i18n-server-os-notes": "--",
 
   "i18n-hdd-ssd-encryption": "HDD &amp; SSD encryption",
@@ -221,18 +229,18 @@
   "i18n-geli-desc": "Disk encryption subsystem included in the FreeBSD operating system.",
   "i18n-hdd-ssd-encryption-note": "de<p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p> <p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p> <blockquote> <p>Although TrueCrypt looks like free software, concerns over its licence prevent its inclusion in Debian. Truecrypt is also developed in a closed fashion, so while the source code is freely available, it may receive less review than might a comparable openly developed project.</p> <p>For the above reasons, Tails developers do not recommend TrueCrypt.</p> <footer>&mdash; <cite><a href='https://tails.boum.org/doc/encryption_and_privacy/truecrypt/'>Tails</a></cite></footer> </blockquote>",
 
-  "i18n-mail-server": "Mail server",
-  "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
-  "i18n-indimail-desc": "Highly scalable and configurable messaging platform based on the MTA qmail.",
-  "i18n-groupware-server": "Groupware server",
-  "i18n-kolab-desc": "Groupware Server für E-Mail, Kalender, Kontakte und Synchronisierung mit mobilen Geräten.", 
+  "i18n-mail-server": "E-Mail-Server",
+  "i18n-iredmail-desc": "E-Mail-Serverpakete automatisch in GNU/Linux und BSD installieren und konfigurieren.",
+  "i18n-indimail-desc": "Eine sehr skalier- und konfigurierbare Nachrichtenplattform, basierend auf MTA-Mail.",
+  "i18n-groupware-server": "Groupware-Server",
+  "i18n-kolab-desc": "Groupware-Server für E-Mail, Kalender, Kontakte und Synchronisierung mit mobilen Geräten.", 
   "i18n-mail-transfer-agent": "Mail transfer agent (MTA)",
-  "i18n-exim-desc": "MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.",
-  "i18n-postfix-desc": "Easy-to-setup MTA used by approximately 23% of all mail servers.",
+  "i18n-exim-desc": "MTA, der auf etwa 43% aller E-Mail-Server benutzt wird&mdash;Standard auf Debian GNU/Linux.",
+  "i18n-postfix-desc": "Einfach einzurichtender MTA, der von etwa 23% aller E-Mail-Server benutzt wird.",
   "i18n-mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p><blockquote><p><strong>What is an MTA?</strong></p><p>&ldquo;Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>Wikipedia</a></cite></footer></blockquote>",
 
   "i18n-xmpp-server-title": "XMPP-Server", 
-  "i18n-dukgoxmpp-desc": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.",
+  "i18n-dukgoxmpp-desc": "Von der DuckDuckGo Community betriebener privater XMPP-Dienst&mdash;Anleitung vorhanden.",
   "i18n-ejabberd-desc": "In Erlang/OTP geschriebener XMPP-Server für GNU/Linux und OS X.", 
   "i18n-openfire-desc": "Plattformübergreifender, in Java geschriebener XMPP-Server.", 
   "i18n-prosody-desc": "Flexibler und leichter, in Lua geschriebener XMPP-Server.", 
@@ -305,7 +313,7 @@
   "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust.", 
 
   "i18n-privacy-policy": "Datenschutzrichtlinie", 
-  "i18n-privacy-policy-content": "<p>PRISM Break benutzt Piwik analytics um den Verkehr auf dieser Seite zu verfolgen. Piwik nimmt die ungefähre geografische Lage, den Browser und das Betriebssystem der Besucher sowie deren Klicks auf der Seite auf. Dies hilft uns den Wert unseres Inhalts zu beurteilen und zu verbessern.</p><p>Piwik sichert die Privatsphäre durch Anonymisierung der IP-Adressen der Nutzer. Das bedeutet, das wir keine persöhnlich indentifizierbare Informationen über Dich speichern, obwohl Dein Besuch einen Eintrag erstellt, dass unsere Seite von jemandem besucht wurde. Du möchtest vielleicht <strong><a href='http://prism-break.org/analytics'>die anonymisierten Analysen hier einsehen.</a></strong></p><p>Piwik wird ebenso die Nicht-verfolgen-Einstellung, eingestellt in manchen Browsern, respektieren, also falls Du diese Einstellung vorgenommen hast, wird Piwik Deinen Besuch ignorieren.</p><p>Falls Du Nicht-verfolgen nicht benutzt, aber trotzdem nicht verfolgt werden möchtest, trage Dich bitte aus den Statistiken durch das Abwählen der Box weiter unten aus. Das System wird ein Cookie setzen, welches Piwik vermittelt, Deinen Computer komplett zu ignorieren.</p>", 
+  "i18n-privacy-policy-content": "<p>PRISM Break benutzt Piwik analytics um den Verkehr auf dieser Seite zu verfolgen. Piwik nimmt die ungefähre geografische Lage, den Browser und das Betriebssystem der Besucher sowie deren Klicks auf der Seite auf. Dies hilft uns den Wert unseres Inhalts zu beurteilen und zu verbessern.</p><p>Piwik sichert die Privatsphäre durch Anonymisierung der IP-Adressen der Nutzer. Das bedeutet, das wir keine persönlich indentifizierbare Informationen über Dich speichern, obwohl Dein Besuch einen Eintrag erstellt, dass unsere Seite von jemandem besucht wurde. Du möchtest vielleicht <strong><a href='http://prism-break.org/analytics'>die anonymisierten Analysen hier einsehen.</a></strong></p><p>Piwik wird ebenso die Nicht-verfolgen-Einstellung, eingestellt in manchen Browsern, respektieren, also falls Du diese Einstellung vorgenommen hast, wird Piwik Deinen Besuch ignorieren.</p><p>Falls Du Nicht-verfolgen nicht benutzt, aber trotzdem nicht verfolgt werden möchtest, trage Dich bitte aus den Statistiken durch das Abwählen der Box weiter unten aus. Das System wird ein Cookie setzen, welches Piwik vermittelt, Deinen Computer komplett zu ignorieren.</p>", 
  
   "i18n-donate-title": "Unterstütze das PRISM Break-Projekt durch eine Bitcoin-Spende.", 
   "i18n-donate-content": "<p><a href='https://prism-break.org/'>PRISM Break</a> gestartet 10. Juni 2013 auf den Fußstapfen von Edward Snowden's Enthüllungen über die massive Kontrolle durch die NSA. Seit dem Start haben fast 750.000 Privatsphärebewusste Personen diese Seite über eine Million mal in jedem Teil der Welt besucht.</p><p>Während die erste Version voin prism-break.org nur zwei Tage zum Erstellen und Starten gebraucht hat, hat die Wartung und Verbesserung dieser Seite die letzten Zwei Monate viel meiner Zeit beansprucht. Seit dem 3. August 2013 habe ich bereits 1208 Bearbeitungen zu der Seite hinzugefügt und hunderte Stunden grübelnd über Hilfsmittel für die Privatsphäre verbracht. Ich habe diese Anstrengung gemacht, um zu garantieren, dass PRISM Break die besten Methoden zum Bekämpfen der Überwachung durch die Regierung.</p><p>Durch so viele Leute, die prism-break.org bereits besucht haben, möchte ich meine volle Aufmerksamkeit konzentrieren, um Sicherheitslücken zu schließen, die Projektliste zu verbessern und den Inhalt benutzerfreundlicher zu gestalten. Trotzdem&mdash;wie jeder andere auch&mdash; muss ich trotzdem meine Miete bezahlen und Essen kaufen, und dieses Projekt erzeugt kein Einkommen. Das ist, wo Du helfen kannst.</p><p>Falls Du PRISM Break unterstützen möchtest, entschiede dich zu einer Spende auf Bitcoin, um zukünftige Entwicklungen zu ermöglichen. Ich schlage vor, mindestens 0.05 BTC zu spenden, aber jeder Betrag wird geschätzt. Solltest Du 0.50 BTC spenden und einen Namen hinterlassen, werde ich dich als Sponsor von PRISM Break auf dieser Seite hinzufügen.</p><p>Spendenadresse:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>Ich schätze Deine Unterstützung.</p><p>Peng Zhong<br />PRISM Break-Entwickler</p><p>P.S. Die Entwickler der ausgezeichneten Projekte in der Liste auf <a href='https://prism-break.org'>PRISM Break</a> wären ebenfalls über eine Spende erfreut. Falls Du es gemocht hast, deren Anwendung zu benutzen, entscheide dich, etwas Geld zu spenden, um die Entwicklung zu unterstützen.</p>"
