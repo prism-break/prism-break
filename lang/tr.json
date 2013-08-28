@@ -199,11 +199,14 @@
   "i18n-anon-network-note": "<p>--</p>",
 
   "i18n-meshnet": "Meshnet",
+  "i18n-commotion-desc": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
   "i18n-freifunk-desc": "A non-commercial open grassroots initiative to support free radio networks around the world.",
+  "i18n-guifi-desc": "Open, free and neutral wireless network for everyone.",
+  "i18n-guifi-desc": "Open, free and neutral wireless network for everyone.",
   "i18n-byzantium-desc": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
   "i18n-librevpn-desc": "A free network that runs over other networks.",
-  "i18n-meshnet-note": "<p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&ldquo;</p><p>&mdash;<a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></p>",
+  "i18n-meshnet-note": "<blockquote><p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></cite></footer></blockquote>",
 
   "i18n-server-os-title": "Sunucu işletim sistemi",
   "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
@@ -212,12 +215,12 @@
   "i18n-server-os-notes": "<p>The only way to have full control over your personal data is to run your own server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</p>",
 
   "i18n-hdd-ssd-encryption": "HDD &amp; SSD şifreleme",
-  "i18n-dmcrypt-desc": "Transparent disk encryption subsystem included in the GNU/Linux kernel.",
-  "i18n-luks-desc": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.",
-  "i18n-geli-desc": "Disk encryption subsystem included in the FreeBSD operating system.",
+  "i18n-dmcrypt-desc": "GNU/Linux kerneline dahil şeffaf disk şifreleme altyapısı.",
+  "i18n-luks-desc": "LUKS dm-crypt üzerinde kullanım kolaylığı ve rahatlık sağlayan bir katmandır.",
+  "i18n-geli-desc": "FreeBSD işletim sistemine dahil disk şifreleme altyapısı.",
   "i18n-hdd-ssd-encryption-note": "<p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p> <p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p> <blockquote> <p>Although TrueCrypt looks like free software, concerns over its licence prevent its inclusion in Debian. Truecrypt is also developed in a closed fashion, so while the source code is freely available, it may receive less review than might a comparable openly developed project.</p> <p>For the above reasons, Tails developers do not recommend TrueCrypt.</p> <footer>&mdash; <cite><a href='https://tails.boum.org/doc/encryption_and_privacy/truecrypt/'>Tails</a></cite></footer> </blockquote>",
 
-  "i18n-mail-server": "Mail server",
+  "i18n-mail-server": "Mail sunucusu",
   "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
   "i18n-indimail-desc": "Highly scalable and configurable messaging platform based on the MTA qmail.",
   "i18n-groupware-server": "Groupware server",
@@ -241,7 +244,7 @@
   "i18n-kamailio-desc": "Açık kaynaklı VoIP/SIP sunucusu.",
   "i18n-sip-server-notes": "<p>&ldquo;The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>",
 
-  "i18n-self-hosting-title": "Bireysel hosting çözümleri",
+  "i18n-hardware-software": "Donanım &amp; yazılım düzeni",
   "i18n-freedombox-desc": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.",
   "i18n-arkos-desc": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.",
   "i18n-self-hosting-notes": "--",
@@ -250,7 +253,11 @@
 
   "i18n-service": "Servis",
   "i18n-software": "Yazılım",
+  "i18n-server-software": "Sunucu yazılımı",
   "i18n-p2p-software": "Peer-To-Peer yazılımı",
+  "i18n-privacy-security": "Gizlilik",
+  "i18n-ip-exposed": "IP meydanda",
+  "i18n-ip-hidden": "IP gizli",
 
   "i18n-advanced": "gelişmiş",
   "i18n-experimental": "deneysel",
@@ -267,8 +274,8 @@
   "i18n-most-advanced": "en gelişmiş özellikler",
   "i18n-most-paranoid": "en paranoyak",
 
-  "i18n-fsf-definition-title": "*This website uses the <strong>Free Software Foundation&rsquo;s</strong> definition of free software.",
-  "i18n-fsf-quote": "&ldquo;Free software&rdquo; means software that respects users&rsquo; freedom and community. Roughly, <strong>the users have the freedom to run, copy, distribute, study, change and improve the software</strong>. With these freedoms, the users (both individually and collectively) control the program and what it does for them.",
+  "i18n-fsf-definition-title": "*Bu site <strong>Free Software Foundation</strong> tarafından yapılan özgür yazılım tanımını kullanır.",
+  "i18n-fsf-quote": "&ldquo;Özgür yazılım&rdquo; kullanıcılar&rsquo;ın özgürlüğüne ve topluluğuna saygı duyan yazılım demektir. Kabaca, <strong>kullanıcıların yazılımı çalıştırma, kopyalama, dağıtma, üzerinde çalışma, değiştirme ve geliştirme özgürlüğü olur</strong>. Bu özgürlüklerle, kullanıcılar (hem bireysel hem topluluk olarak) programı ve onlar için ne yaptığını kontrol edebilir.",
 
   "i18n-eff-title": "Take action against PRISM at the <strong>Electronic Frontier Foundation</strong> Action Center.",
   "i18n-eff-quote-1": "<strong>MASSIVE SURVEILLANCE EXPOSED</strong>",
@@ -296,12 +303,13 @@
   "i18n-donate": "Bağış yap",
   "i18n-contribute": "Katkıda bulun",
   "i18n-license": "Lisans",
+  "i18n-changelog": "Değişim kaydı",
 
-  "i18n-disclaimer": "Feragatname: Bu sitede tavsiye edilen projeleri kullanmak gözetleme devletlerine karşı iletişiminize %100 bir koruma sağlamaz. Lütfen buradaki yazılımlara hassas verilerinizle güvenmeden önce kendi araştırmanızı yapın.",
+  "i18n-disclaimer": "Uyarı: Bu sitede tavsiye edilen projeleri kullanmak gözetleme devletlerine karşı iletişiminize %100 bir koruma sağlamaz. Lütfen buradaki yazılımlara hassas verilerinizle güvenmeden önce kendi araştırmanızı yapın.",
 
   "i18n-privacy-policy": "Gizlilik Politikası",
   "i18n-privacy-policy-content":"<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the &ldquo;Do Not Track&rdquo; setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using &ldquo;Do Not Track&rdquo; and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a &ldquo;piwik_ignore&rdquo; cookie, which tells Piwik to completely ignore your computer.</p>",
 
-  "i18n-donate-title": "Support the PRISM Break project by donating Bitcoin.",
+  "i18n-donate-title": "PRISM Break projesini Bitcoin bağışlayarak destekleyin.",
   "i18n-donate-content content": "<p><a href='https://prism-break.org/'>PRISM Break</a> launched on June 10th, 2013 on the heels of Edward Snowden's revelations about NSA mass surveillance. Since launch, nearly 750,000 privacy-conscious visitors have viewed the site over one million times around the world.</p><p>While the first version of prism-break.org took only two days to build and launch, maintaining and improving the site over the past two months has taken up much of my time. As of August 3rd, 2013, I've pushed 1,208 edits to the site and spent hundreds of hours poring over privacy resources. I've made this effort in order to ensure that PRISM Break offers you the best methods to combat government surveillance.</p><p>With so many people visiting prism-break.org, I would love to devote my full attention to fixing possible security bugs, improving the projects list and making the content more user-friendly. However&mdash;like anyone else&mdash;I still need to pay my rent and buy food, and this project doesn't generate any income. This is where you can help.</p><p>If you would like to support PRISM Break, please consider donating Bitcoin to fund future development. I suggest at least 0.05 BTC, but any amount is appreciated. If you donate 0.50 BTC or more and leave a name, I will add you to this page as a PRISM Break sponsor.</p><p>Donate address:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>I appreciate your support.</p><p>Peng Zhong<br />PRISM Break developer</p><p>P.S. The developers of the fine projects listed on <a href='https://prism-break.org'>PRISM Break</a> would also be grateful for your support. If you enjoy using their app, seriously consider throwing some money their way to fund development.</p>"
 }
