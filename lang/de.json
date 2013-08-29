@@ -23,8 +23,9 @@
 
   "i18n-live-cd-title": "Live-CDs &amp; VM-Images", 
   "i18n-liberte-desc": "Live-CD/USB, entwickelt als Kommunikationshilfe in feindlichen Umgebungen.", 
-  "i18n-tails-desc": "Live-CD/USB, entwickelt zum Schutz Deiner Privatsphäre und Anonymität.", 
-  "i18n-whonix-desc": "Ein Betriebssystem, das auf Anonymität, Privatsphäre und Sicherheit setzt und auf Debian und Tor aufbaut. Es bietet anwendungsbereite VM-Images.", 
+  "i18n-tails-desc": "Live-CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
+  "i18n-jondolive-desc": "Linux-Umgebung mit vorkonfigurierter Software für anonymes Surfen und mehr.",
+  "i18n-whonix-desc": "Ein Betriebssystem, das auf Tor, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM-Images.", 
   "i18n-live-cd-notes": "<p>Eine Live-Distribution wie <strong>Tails</strong> oder <strong>Liberté Linux</strong> sind der schnellste und einfachste Weg zu einem sicheren Betriebssystem. Alles was Du tun musst, ist eine bootfähige CD oder ein bootfähiges USB-Laufwerk mit den bereitgestellten Images zu bespielen und schon kannst Du loslegen. Alle nötigen Einstellungen sind schon vorgegeben.</p><p>Ein VM-Image (Image für virtuelle Maschinen) wie <strong>Whonix</strong> wurde entwickelt, um es in einer Virtualisierungsumgebung wie <a href='https://www.virtualbox.org/'>VirtualBox</a> zu betreiben. VirtualBox kann unter Windows, Linux, OS X, FreeBSD und Solaris installiert werden. Solltest Du an Windows oder OS X gebunden sein, kannst Du VirtualBox installieren und damit Whonix nutzen, um Deinen Schutz und Deine Privatsphäre zu erhöhen.</p>", 
 
   "i18n-android": "Android", 
