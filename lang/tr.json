@@ -43,7 +43,6 @@
   "i18n-torbrowser-desc": "Tor ağı üzerinden çalışan şifreli, anonim web tarayıcısı",
   "i18n-jondonym-desc": "JonDo IP anonimleştirme servisi ve JonDoFox Firefox profili ile gizli web gezintisi.",
   "i18n-firefox-desc": "Hızlı, esnek ve güvenli web tarayıcısı, canlı bir eklenti ekosistemi de vardır.",
-  "i18n-icecat-desc": "Bolca özgür eklenti ve gizlilik özelliği bulunan Firefox tarayıcısının GNU versiyonu.",
   "i18n-orbot-desc": "Android için Tor fonksyonelitesi ve özellikleri.",
   "i18n-web-browser-note": "<p>Bütün web gezintilerinizi <strong>Tor Browser Bundle</strong> üzerinden yapmaya çalışın. Başka herhangi bir tarayıcıdan çok daha iyi anonimlik sağlayacaktır. Kullanmadan önce <a href='https://www.torproject.org/docs/faq.html.en'>Tor temel bilgilerini öğrendiğinizden</a> emin olun. Eğer ziyaret etmek istediğiniz site TBB ile çalışmazsa, yerine Firefox kullanın, fakat bu diğer tarayıcıların IP adresinizi varsayılan olarak anonimleştirmediğini unutmayın.</p><p>TBB Notları: Gerçek kimliğinizi barındıran sitelere TBB ile giriş yapmak amaca zarar vericidir, ve sitenin dolandırıcılık yazılımına haber verebilir. Tor üzerinden giriş yapmadan önce HTTPS kullanıldığından emin olun. Yalnızca HTTP kullanan siteler kimliğinizin bir Tor çıkış noktası tarafından çalınmasına neden olabilir.</p><p><strong>Firefox</strong> notları: Bu tarayıcı varsayılan olarak Google arama motorunu kullanır: bunu daha <a href='#web-search'>gizliliğe önem veren bir alternatifle</a> değiştirin. Bir diğer markasızlaştırılmış tarayıcı da <a href='http://www.geticeweasel.org/'>Iceweasel</a>dır, Debian-tabanlı dağıtımlar için bir tarayıcıdır.</p><p>Neden Chromium, SRWare Iron vb. PRISM BREAK de tavsiye edilmez? <a href='https://github.com/nylira/prism-break/issues/169'>Daha fazla bilgi burada.</a></p>",
 
@@ -78,7 +77,7 @@
   "i18n-riseup-desc": "Özgürleştirici sosyal değişim için çalışan insanlara odaklı güvenli iletişim araçları.",
   "i18n-email-service-note": "<p>Burada şeffaf olarak çalıştırılan, kişisel gizlilik odaklı Gmail veya Hotmail alternatifi email servisleri bulabilirsiniz. Lütfen onlara kendi verilerinizi korumakta güvendiğinize kendiniz karar verin. Eğer teknik beceriye sahipseniz, <a href='#mail-server'>kendi posta sunucunuzu çalıştırma fikrini</a> göz önünde bulundurun.</p><p><strong>MyKolab</strong> İsviçre sunucularında barınır ve dolayısıyla <a href='https://MyKolab.com/privacy'>sağlam İsviçre gizlilik yasalarından</a> faydalanır. ",
 
-  "i18n-email-client": "Email client",
+  "i18n-email-client": "Email uygulaması",
   "i18n-thunderbird-desc": "Birçok platform destekleyen, Enigmail eklentisiyle posta şifreleme sağlayan email uygulaması.",
   "i18n-clawsmail-desc": "Halihazirda PGP destekli hızlı, hafif email uygulaması",
   "i18n-evolution-desc": "GNOME masaüstü için PGP destekli email, adres defteri, takvim uygulaması.",
@@ -86,16 +85,16 @@
   "i18n-kontact-desc": "GPG destekli KDE masaüstü için email, adres defteri, takvim ve dahası.",
   "i18n-sylpheed-desc": "Hafif ve kullanıcı dostu PGP destekli email uygulaması.",
   "i18n-k9mail-desc": "Android için GPG destekli açık kaynaklı email uygulaması.",
-  "i18n-email-client-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p><p><a href='https://en.wikipedia.org/wiki/Icedove'>Find out more</a> about the differences between <strong>Mozilla Thunderbird</strong> and <strong>Icedove</strong>.",
-
+  "i18n-email-client-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Burada</a> emaillerinizi <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong> ve <strong>Enigmail</strong> ile şifrelemek için bir rehber bulabilirsiniz.</p><p><strong>Mozilla Thunderbird</strong> ve <strong>Icedove</strong> arasındaki fark hakkında <a href='https://en.wikipedia.org/wiki/Icedove'>daha fazla bilgi sahibi olun</a>.",
+  
   "i18n-email-encryption": "Email şifreleme",
   "i18n-enigmail-desc": "Thunderbird/Icedove için bir OpenPGP eklentisi.",
   "i18n-torbirdy-desc": "Thunderbird/Icedove uygulamalarının Tor bağlantısı kurmasını sağlayan eklenti.",
   "i18n-gnuprivacyguard-desc": "OpenPGP implementation for numerous frontends, including Thunderbird/Icedove.",
   "i18n-gpgmail-desc": "Apple OS X Mail için OpenPGP eklentisi.",
   "i18n-apg-desc": "Android için OpenPGP uygulaması.",
-  "i18n-email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></p><p>PRISM Break does not recommended S/MIME email encryption because of its reliance on third-party certificates from central authorities. Read more <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>here</a>.</p>",
-
+  "i18n-email-encryption-note": "<blockquote><p>&ldquo;Pretty Good Privacy (PGP) veri iletişimi için kriptografik gizlilik ve teyit sağlayan bir veri şifreleme ve şifre çözme yazılımıdır. PGP genellikle email iletişimini daha güvenli kılmak adına metinleri, emailleri, dosyaları, klasörleri ve bütün disk partisyonlarını imzalamak, şifrelemek ve şifreyi çözmek için kullanılır.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></cite></footer></blockquote><p>PRISM Break eposta şifrelemek için S/MIME standardını önermez çünkü bu standard merkezi otoritelerden gelen üçüncü-şahıs sertifikalara bağımlıdır. <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>Buradan</a> daha fazlasını okuyabilirsiniz.</p><p><strong>APG</strong> üç yıldır güncellenmemiştir. Gözatmaya değer deneysel PGP projeleri arasında <a href='https://github.com/dschuermann/openpgp-keychain'>OpenPGP Keychain</a> (bir APG çatalı) ve the Guardian Project imzalı <a href='https://dev.guardianproject.info/projects/gpgandroid/wiki'>GnuPG for Android</a> sayılabilir.</p>",
+  
   "i18n-instant-messaging": "Anlık mesajlaşma (IM)",
   "i18n-pidgin-desc": "Özgür evrensel anlık mesajlaşma uygulaması.",
   "i18n-otr-desc": "Pidgin'de şifreli mesajlaşmak için bu eklentiyi kurun ve etkinleştirin.",
@@ -150,12 +149,15 @@
   "i18n-document-collaboration-note": "<p><p>",
 
   "i18n-media-publishing": "Medya yayını",
+  "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting",
+  "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.",
   "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.",
   "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
   "i18n-piwigo-desc": "Self-hosted photo gallery platform.",
   "i18n-wordpress-desc": "Self-hosted website publishing platform.",
   "i18n-zenphoto-desc": "Self-hosted media management system.",
   "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.",
+
 
   "i18n-online-transactions": "Online alım-satım",
   "i18n-bitcoin-desc": "Merkezi otoritesi olmayan P2P dijital para birimi.",
@@ -231,6 +233,7 @@
   "i18n-mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p><blockquote><p><strong>What is an MTA?</strong></p><p>&ldquo;Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>Wikipedia</a></cite></footer></blockquote>",
 
   "i18n-xmpp-server-title": "XMPP Sunucusu",
+  "i18n-dukgoxmpp-desc": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.",
   "i18n-ejabberd-desc": "XMPP server written in Erlang/OTP for GNU/Linux and OS X.",
   "i18n-openfire-desc": "Cross-platform XMPP server written in Java.",
   "i18n-prosody-desc": "Flexible lightweight XMPP server written in Lua.",
@@ -239,6 +242,7 @@
   "i18n-xmpp-server-notes": " <p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>",
 
   "i18n-sip-server-title": "SIP Sunucusu",
+  "i18n-ostel-desc": "Secure SIP accounts by the Guardian Project for use with CSipSimple, Jitsi, et al.",
   "i18n-asterisk-desc": "PBX implementation with VoIP/SIP support.",
   "i18n-freeswitch-desc": "Cross-platform soft switch software with VoIP/SIP support.",
   "i18n-kamailio-desc": "Açık kaynaklı VoIP/SIP sunucusu.",
