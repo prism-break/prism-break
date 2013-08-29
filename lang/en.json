@@ -24,6 +24,7 @@
   "i18n-live-cd-title": "Live CDs &amp; VM images",
   "i18n-liberte-desc": "Live CD/USB designed as a communication aid in hostile environments.",
   "i18n-tails-desc": "Live CD/USB aimed at preserving your privacy and anonymity.",
+  "i18n-jondolive-desc": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.",
   "i18n-whonix-desc": "VM-friendly OS based on Debian and Tor focused on anonymity, privacy and security.",
   "i18n-live-cd-notes": "<p>A live distribution like <strong>Tails</strong> or <strong>Liberté Linux</strong> is the fastest and easiest way to a secure operating system. All you have to do is create a bootable CD or USB drive with the files provided and you&rsquo;re set. Everything else will be preconfigured for you.</p><p>A virtual machine (VM) image like <strong>Whonix</strong> is designed to be run inside of a virtualization package like <a href='https://www.virtualbox.org/'>VirtualBox</a>. VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.</p>",
 
