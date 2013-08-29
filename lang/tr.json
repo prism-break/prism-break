@@ -149,13 +149,13 @@
   "i18n-document-collaboration-note": "<p><p>",
 
   "i18n-media-publishing": "Medya yayını",
-  "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting",
-  "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.",
-  "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.",
-  "i18n-gnumediagoblin-desc": "Decentralized media publishing platform.",
-  "i18n-piwigo-desc": "Self-hosted photo gallery platform.",
-  "i18n-wordpress-desc": "Self-hosted website publishing platform.",
-  "i18n-zenphoto-desc": "Self-hosted media management system.",
+  "i18n-mediacrush-desc": "Gizlilik-önde hızlı medya (görsel, ses, video) hosting",
+  "i18n-mediacrush-self-desc": "Aynı zamanda MediaCrushı bireysel olarak host edebilirsiniz.",
+  "i18n-noblogs-desc": "Wordpress tabanlı blog yayınlama platformu, autistici.org tarafından.",
+  "i18n-gnumediagoblin-desc": "Merkezsiz medya yayıncılığı platformu.",
+  "i18n-piwigo-desc": "Bireysel host edilen fotoğraf galerisi platformu.",
+  "i18n-wordpress-desc": "Bireysel host edilen websitesi yayın platformu",
+  "i18n-zenphoto-desc": "Bireysel host edilen medya yönetim platformu",
   "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.",
 
 
@@ -167,7 +167,7 @@
 
   "i18n-digital-distribution": "Dijital dağıtım",
   "i18n-desurium-desc": "Free open source client for the Desura distribution service.",
-  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> is only the client. You will still have to trust/depend on the proprietary <a href='http://www.desura.com'>desura service</a>.</p>",
+  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> yalnızca uygulamadır. Halen tescilli <a href='http://www.desura.com'>desura servisine</a> güvenmek/bağımlı olmak zorundasınızdır.</p>",
 
   "i18n-vpn-client": "VPN istemcisi",
   "i18n-autisticivpn-desc": "Autistici/Inventati tarafından sağlanan güvenli kişisel VPN servisi",
@@ -181,7 +181,7 @@
   "i18n-web-analytics": "Web analitiği",
   "i18n-piwik-desc": "Açık kaynaklı, şahsi sunucuda çalışan web analitiği.",
   "i18n-owa-desc": "Alternatif açık kaynaklı web analitiği.",
-  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last octet (255.255.255.???) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analitiği bu sitede kullanılmaktadır. Ziyaretçi IPlerinin son üç bitini (255.xxx.xxx.xxx) anonimleştirmek üzere ayarlanmıştır. Canlı verilere burda ulaşabilirsiniz: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
 
   "i18n-dns-provider": "DNS sağlayıcı",
   "i18n-cloudns-desc": "DNSCrypt, DNSSec, ve Namecoin destekli DNS hosting sağlayıcısı.",
