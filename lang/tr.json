@@ -186,7 +186,7 @@
   "i18n-opennic-desc": "Açık, demokratik ve sansür-karşıtı DNS sağlayıcısı.",
   "i18n-dnscrypt-desc": "Bir kullanıcı ve DNS servisi arasındaki bağlantıyı şifreleyen bir araç",
   "i18n-namecoin-desc": ".bit alan adı için merkezsiz Bitcoin teknolojisi tabanlı DNS.",
-  "i18n-dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your IP address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>",
+  "i18n-dns-provider-note": "<p>Google Halka Açık DNS servisi kalıcı olarak konum ve ISS bilgilerinizi analiz için kaydeder. IP adresiniz de 24 saat boyunca saklanır.</p><p><strong>OpenNIC</strong> kayıt sorgu gizliliği/anonimleştirilmesine dair resmi bir ilke belirlemiş değil. Daha fazla bilgi <a href='http://wiki.opennicproject.org/Tier2'>burada</a>.</p>",
 
   "i18n-anon-networks": "Anonimleştirme ağları",
   "i18n-freenet-desc": "Gayri-merkezi sansüre dayanıklı ağ.",
@@ -212,13 +212,13 @@
   "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
   "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
   "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
-  "i18n-server-os-notes": "<p>The only way to have full control over your personal data is to run your own server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</p>",
+  "i18n-server-os-notes": "<p>Kişisel verilerinizin üstünde tamamen kontrole sahip olmanın tek yolu kendi sunucunuzu çalıştırmaktır. Yalnız bu herkes için uygun olmayabilir, zira dikkate değer miktarda zaman yatırımı ve teknik bilgi gerektirir.</p>",
 
   "i18n-hdd-ssd-encryption": "HDD &amp; SSD şifreleme",
   "i18n-dmcrypt-desc": "GNU/Linux kerneline dahil şeffaf disk şifreleme altyapısı.",
   "i18n-luks-desc": "LUKS dm-crypt üzerinde kullanım kolaylığı ve rahatlık sağlayan bir katmandır.",
   "i18n-geli-desc": "FreeBSD işletim sistemine dahil disk şifreleme altyapısı.",
-  "i18n-hdd-ssd-encryption-note": "<p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p> <p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p> <blockquote> <p>Although TrueCrypt looks like free software, concerns over its licence prevent its inclusion in Debian. Truecrypt is also developed in a closed fashion, so while the source code is freely available, it may receive less review than might a comparable openly developed project.</p> <p>For the above reasons, Tails developers do not recommend TrueCrypt.</p> <footer>&mdash; <cite><a href='https://tails.boum.org/doc/encryption_and_privacy/truecrypt/'>Tails</a></cite></footer> </blockquote>",
+  "i18n-hdd-ssd-encryption-note": "<p>Gentoo GNU/Linux <strong>dm-crypt</strong> ve <strong>LUKS</strong> için <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>kullanım rehberi barındırır.</a>.</p> <p>Arch GNU/Linux <strong>dm-crypt</strong> ve <strong>LUKS</strong> için <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>kullanım rehberi barındırır.</a> Bu aynı zamanda Parabola GNU/Linux için de kullanılabilir.</p><blockquote><p>Her ne kadar TrueCrypt özgür yazılım gibi dursa da, lisansı hakkındaki endişeler Debian'a dahil olmasını engellemektedir. Truecrypt aynı zamanda kapalı bir geliştirme modeli kullanır, yani bu kaynak açık olduğu halde eşdeğer bir açık geliştirme modeli izleyen projeye göre daha az incelemeye tabii olduğu anlamına gelir.</p> <p>Yukarıdaki nedenlerden ötürü Tails geliştiricileri TrueCrypt kullanımını önermez.</p> <footer>&mdash; <cite><a href='https://tails.boum.org/doc/encryption_and_privacy/truecrypt/'>Tails</a></cite></footer> </blockquote>",
 
   "i18n-mail-server": "Mail sunucusu",
   "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
