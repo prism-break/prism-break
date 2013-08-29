@@ -141,8 +141,8 @@
   "i18n-seafile-desc": "Self-hosted file sync and collaboration for teams.",
   "i18n-sparkleshare-desc": "Self-hosted version control and file sync.",
   "i18n-tahoelafs-desc": "Free and open cloud storage system.",
-  "i18n-cloud-storage-note": "<p>BitTorrent Sync, MEGA, SpiderOak, and Tarsnap are services that are built on either partially or fully proprietary software. They will not be recommended on PRISM Break until they open source the entirety of their codebase.</p><p> With closed source software, you need to have 100% trust in the vendor because there's nothing except for their morality in the way of them leaking your personal information. Even if you can vouch for their integrity, proprietary software invariably has more uncaught security bugs and exploits because there are fewer eyes examining the source code.</p>",
-
+  "i18n-cloud-storage-note": "<p>Tarsnap anonim ödeme seçeneğinin eksikliği ve <a href='https://github.com/nylira/prism-break/issues/555#issuecomment-23216365'>uygulamasındaki katı tescilin</a> bu servisin kapandığı takdirde değiştirmeyi zorlaştırdığından o PRISM Break tarafından tavsiye edilmez. </p> <p> BitTorrent Sync, MEGA ve SpiderOak kısmi ya da tamamen tescilli yazılım üzerine inşa edilmiş servislerdir. Kodtabanlarının tamamını açık kaynaklı hale getirinceye kadar PRISM Break üzerinde tavsiye edilmeyeceklerdir.</p><p>Kapalı kaynaklı yazılımda, tedarikçiye %100 güven duyuyor olmalısınız çünkü ahlakları dışında kişisel bilgilerinizi sızdırmak için önlerinde başka engel yoktur. Dürüstlüklerinden şüpheniz olmasa bile, tescilli yazılımlar istisnasız daha fazla sayıda güvenlik açığı içerir çünkü kaynak kodunu inceleyen daha az göz vardır.</p><p>Bulut depolamaya bir diğer alternatif is harici diskler ve USB belleklerdir. Bu yöntemin güvenilirliği ağ üzerinde veri depolamaya göre istikrarlı olarak daha yüksektir, fakat kolaylık açısından masraflıdır.</p>",
+  
   "i18n-document-collaboration": "Belge işbirliği",
   "i18n-etherpad-desc": "Bireysel sunucuda, anlık belge işbirliği.",
   "i18n-ethercalc-desc": "Çok kullanıcılı hesap tablosu uygulaması.",
