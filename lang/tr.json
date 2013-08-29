@@ -103,7 +103,7 @@
   "i18n-jappix-desc": "Ileri düzey sosyal ağ özellikli anlık mesajlaşma web aplikasyonu.",
   "i18n-torchat-desc": "Tor Saklı Sunucuları üzerine kurulu anonim, merkezsiz P2P sohbet.",
   "i18n-hexchat-desc": "Çoklu-platform IRC uygulaması.",
-  "i18n-weechat-desc": "IRC ve XMPP/Jabber için kişiselleştirilebilir CLI sohbet uygulaması.",
+  "i18n-weechat-desc": "IRC ve XMPP/Jabber için kişiselleştirilebilir CLI(Command Line Interface) sohbet uygulaması.",
   "i18n-gibberbot-desc": "Android için gizli ve güvenli OTR mesajlaşma.",
   "i18n-surespot-desc": "Android için özgür, açık kaynaklı, uçtan uca şifreli mesajlaşma.",
   "i18n-textsecure-desc": "Android için güvenli SMS/MMS iletişimi.",
@@ -145,7 +145,7 @@
   "i18n-document-collaboration": "Belge işbirliği",
   "i18n-etherpad-desc": "Bireysel sunucuda, anlık belge işbirliği.",
   "i18n-ethercalc-desc": "Çok kullanıcılı hesap tablosu uygulaması.",
-  "i18n-document-collaboration-note": "<p><p>",
+  "i18n-document-collaboration-note": "<p><strong>Etherpad</strong> projesi  <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>etherpad çalıştıran siteler listesi</a> barındırıyor. Lütfen bu servisler arasından yalnızca SSL kullananları seçin, ve onlara verinizle güvenmeden önce geçmişlerini araştırın.</p><p><a href='#email-service'><strong>Riseup</strong></a> aynı zamanda email, XMPP, ve sohbet servisleri sunmaktadır ve herbiri <a href='#meshnet'>Tor Saklı Sunucu</a> adreslerinden erişilebilir. Bu adreslerin listesi <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>burada mevcuttur</a>.</p>",
 
   "i18n-media-publishing": "Medya yayını",
   "i18n-mediacrush-desc": "Gizlilik-önde hızlı medya (görsel, ses, video) hosting",
