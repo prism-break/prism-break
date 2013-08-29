@@ -206,8 +206,8 @@
   "i18n-guifi-desc": "Open, free and neutral wireless network for everyone.",
   "i18n-byzantium-desc": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
   "i18n-librevpn-desc": "A free network that runs over other networks.",
-  "i18n-meshnet-note": "<blockquote><p>A meshnet is a decentralized peer-to-peer network, with user-controlled physical links that are usually wireless.</p><p>&ldquo;Mesh networking (topology) is a type of networking where each node must not only capture and disseminate its own data, but also serve as a relay for other nodes, that is, it must collaborate to propagate the data in the network.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></cite></footer></blockquote>",
-
+  "i18n-meshnet-note": "<blockquote><p>Bir meshnet merkezi olmayan kullanıcılar tarafından kontrol edilen, genellikle kablosuz fiziksel ağlardan oluşan peer-to-peer ağlara verilen isimdir.</p><p>&ldquo;Mesh networking (topoloji) her bağlantı noktasının yalnızca kendi verisini yakalayıp dağıttığı değil, aynı zamanda başka noktalara bir ayna görevi gördüğü, yani verinin ağda yayılmasında katkı yaptığı bir tür ağ modelidir. &rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Mesh_networking'>Wikipedia</a></cite></footer></blockquote>",
+  
   "i18n-server-os-title": "Sunucu işletim sistemi",
   "i18n-centos-desc": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
   "i18n-smeserver-desc": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
