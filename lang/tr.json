@@ -237,15 +237,15 @@
   "i18n-prosody-desc": "Flexible lightweight XMPP server written in Lua.",
   "i18n-tigase-desc": "Cross-platform XMPP server written in Java.",
   "i18n-metronome-desc": "XMPP Server based on Prosody, with advanced management/microblogging features.",
-  "i18n-xmpp-server-notes": "<blockquote><p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) mesaj odakli XML (Extensible Markup Language) tabanlı bir iletişim protokolüdür. Protokole aslen Jabber ismi verilmekteydi ve 1999 yılında Jabber açık kaynak topluluğu tarafında neredeyse-gerçek zamanlı anlık mesajlaşma (IM), varlık bilgisi ve kontakt listesi yönetimi için geliştirildi. Genişletilebilir olarak geliştirildiğinden, protokol aynı zamanda yayın-abonelik sistemleri, VoIP için sinyalleme, video, dosya transferi, oyun, akıllı ızgara gibi Şeylerin Interneti uygulamaları ve sosyal ağ servisleri için de kullanılmıştır. &rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></cite></footer></blockquote>",
+  "i18n-xmpp-server-notes": "<blockquote><p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) mesaj odakli XML (Extensible Markup Language) tabanlı bir iletişim protokolüdür. Protokole aslen Jabber ismi verilmekteydi ve 1999 yılında Jabber açık kaynak topluluğu tarafından neredeyse-gerçek zamanlı anlık mesajlaşma (IM), varlık bilgisi ve kontakt listesi yönetimi için geliştirildi. Genişletilebilir olarak geliştirildiğinden, protokol aynı zamanda yayın-abonelik sistemleri, VoIP için sinyalleme, video, dosya transferi, oyun, akıllı ızgara gibi Şeylerin Interneti uygulamaları ve sosyal ağ servisleri için de kullanılmıştır. &rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></cite></footer></blockquote>",
  
   "i18n-sip-server-title": "SIP Sunucusu",
   "i18n-ostel-desc": "The Guardian Project tarafından sunulan Jitsi, CSipSimple vb. için güvenli SIP hesapları.",
   "i18n-asterisk-desc": "VoIP/SIP destekli PBX uygulaması.",
   "i18n-freeswitch-desc": "Çoklu-platform VoIP/SIP destekli yumuşak switch yazılımı.",
   "i18n-kamailio-desc": "Açık kaynaklı VoIP/SIP sunucusu.",
-  "i18n-sip-server-notes": "<p>&ldquo;The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>",
-
+  "i18n-sip-server-notes": "<blockquote><p>&ldquo;The Session Initiation Protocol (SIP) bir sinya iletişim protokolüdür, Internet Protokolü (IP) ağları üzerinden yapılan ses ve video gibi multimedia iletişim seanslarını kontrol için yaygın olarak kullanılır.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></cite></footer></blockquote><p>Asipto tarafından yazılan, bir saaten kısa bir sürede kendi Skype-benzeri <strong>Kamailio</strong> ile SIP sunucunuzu nasıl kuracağınızı ve çalıştıracağınızı anlatan bir <a href='http://kb.asipto.com/kamailio:skype-like-service-in-less-than-one-hour'>rehberi burada bulabilirsiniz</a></p>",
+  
   "i18n-hardware-software": "Donanım &amp; yazılım düzeni",
   "i18n-freedombox-desc": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.",
   "i18n-arkos-desc": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.",
