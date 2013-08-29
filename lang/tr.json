@@ -237,8 +237,8 @@
   "i18n-prosody-desc": "Flexible lightweight XMPP server written in Lua.",
   "i18n-tigase-desc": "Cross-platform XMPP server written in Java.",
   "i18n-metronome-desc": "XMPP Server based on Prosody, with advanced management/microblogging features.",
-  "i18n-xmpp-server-notes": " <p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>",
-
+  "i18n-xmpp-server-notes": "<blockquote><p>&ldquo;Extensible Messaging and Presence Protocol (XMPP) mesaj odakli XML (Extensible Markup Language) tabanlı bir iletişim protokolüdür. Protokole aslen Jabber ismi verilmekteydi ve 1999 yılında Jabber açık kaynak topluluğu tarafında neredeyse-gerçek zamanlı anlık mesajlaşma (IM), varlık bilgisi ve kontakt listesi yönetimi için geliştirildi. Genişletilebilir olarak geliştirildiğinden, protokol aynı zamanda yayın-abonelik sistemleri, VoIP için sinyalleme, video, dosya transferi, oyun, akıllı ızgara gibi Şeylerin Interneti uygulamaları ve sosyal ağ servisleri için de kullanılmıştır. &rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/XMPP'>Wikipedia</a></cite></footer></blockquote>",
+ 
   "i18n-sip-server-title": "SIP Sunucusu",
   "i18n-ostel-desc": "The Guardian Project tarafından sunulan Jitsi, CSipSimple vb. için güvenli SIP hesapları.",
   "i18n-asterisk-desc": "VoIP/SIP destekli PBX uygulaması.",
