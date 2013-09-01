@@ -44,7 +44,7 @@
   "i18n-firefox-desc": "Браузер с открытым исходным кодом.", 
   "i18n-icecat-desc": "Версия Firefox от проекта GNU.", 
   "i18n-orbot-desc": "Tor прокси для Android.", 
-  "i18n-onionbrowser-desc": "Surf the web through the Tor network with this open source browser for iOS devices."
+  "i18n-onionbrowser-desc": "Surf the web through the Tor network with this open source browser for iOS devices.",
   "i18n-web-browser-note": "<p>Используйте комбинацию <strong>Tor Browser</strong> и свободных веб-браузеров на свой выбор для просмотра паутины.Старайтесь использовать Tor для всего. Просмотр веб-страниц медленнее с использованием Tor, но намного безопаснее.</p><p>Примечание: Использование <strong>Tor Browser</strong> для аутентификации PayPal или на каком-либо банковском сайте может вызвать срабатывание программного обеспечения защиты от мошенничества у сайта.</p><p>Пользователи <strong>Tor Browser</strong> должны так же остерегаться того, что аутентификации на HTTP (вместо HTTPS) веб-сайтах может привести к утечки ваших учетных данных недобросовестной конечной ноде.</p><p>Примечание: <strong>Mozilla Firefox</strong> использует поиск Google по умолчанию. Поиск Google должен быть заменен более приватными альтернативами.</p><p>Почему Chromium, SRWare Iron и другие не рекомендуются PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>Подробнее здесь</a>.</p>", 
 
   "i18n-web-browser-plugins": "Аддоны для браузера", 
