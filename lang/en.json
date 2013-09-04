@@ -177,12 +177,12 @@
   "i18n-libreswan-desc": "Free software VPN client (3rd generation) derived from Openswan.",
   "i18n-openswan-desc": "Free software VPN client derived from FreeS/WAN.",
   "i18n-strongswan-desc": "Free software VPN client derived from FreeS/WAN.",
-  "i18n-vpn-client-note": "--",
+  "i18n-vpn-client-note": "<p>Encrypted virtual private network (VPN) technology can be used by ordinary Internet users to connect to proxy servers for the purpose of protecting one&rsquo;s identity and online footprint.</p><p>More on <a href='https://en.wikipedia.org/wiki/Virtual_Private_Network#Security_mechanisms'>Wikipedia</a>.</p>",
 
   "i18n-web-analytics": "Web analytics",
   "i18n-piwik-desc": "Open source, self-hosted web analytics.",
   "i18n-owa-desc": "Alternative open source web analytics.",
-  "i18n-web-analytics-note": "<p><strong>Piwik</strong> analytics powers this site. It's set up to anonymize the last three bits (255.xxx.xxx.xxx) of visitor IPs. Check out the live data here: <a href='http://prism-break.org/analytics'>prism-break.org/analytics</a>.",
+  "i18n-web-analytics-note": "<p>--</p>.",
 
   "i18n-dns-provider": "DNS provider",
   "i18n-cloudns-desc": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
