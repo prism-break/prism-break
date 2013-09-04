@@ -223,6 +223,7 @@
   "i18n-dmcrypt-desc": "Ein Sub-System des GNU/Linux-Kernels, das transparente Laufwerksverschlüsselung bereitstellt.",
   "i18n-luks-desc": "Ein bequem und einfach zu bedienende Erweiterung von dmcrypt",
   "i18n-geli-desc": "Ein Sub-System zur Festplattenverschlüsselungs unter FreeBSD.",
+  "i18n-encfs-desc": "Dateibasiertes Verschlüsselungstool für Linux, Mac OS und Windows. Boxcryptor Classic basiert auf EncFS",
   "i18n-hdd-ssd-encryption-note": "de<p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p> <p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p> <blockquote> <p>Obwohl TrueCrypt nach freier Software aussieht, verhindern Lizenzbedenken die Aufnahme in Debian. Truecrypt wird auf eine geschlossene Art und Weise entwickelt. Auch wenn der Quellcode selbst offen liegt, erfährt er möglicherweise weniger unabhängige Überprüfungen als vergleichbare Software, deren Entwicklungsprozess auch öffentlich abläuft.</p> <p>Aus diesen Gründen wird TrueCrypt nicht von den Tails-Entwicklern empfohlen.</p> <footer>&mdash; <cite><a href='https://tails.boum.org/doc/encryption_and_privacy/truecrypt/'>Tails</a></cite></footer> </blockquote>",
 =======
   "i18n-hdd-ssd-encryption": "HDD &amp; SSD Verschlüsselung",
