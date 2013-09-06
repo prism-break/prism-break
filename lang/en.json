@@ -121,6 +121,7 @@
   "i18n-mumble-desc": "Encrypted, low-latency multi-user voice chat.",
   "i18n-redphone-desc": "End-to-end encrypted calls for Android devices.",
   "i18n-csipsimple-desc": "End-to-end encrypted VoIP calls for Android devices.",
+  "i18n-yoursecondphone-desc": "Encrypted and Anonymous video, voice, and text chat right in the browser. No account.",
   "i18n-video-voip-note": "<p>Get a free SIP account for <strong>Jitsi</strong> and/or <strong>CSipSimple</strong> with The Guardian Project&rsquo;s <a href='#sip-server'>Ostel</a> service.</p><p><p><strong>Jitsi</strong> warnings: Jitsi may <a href='https://github.com/nylira/prism-break/issues/291'>request non-secure information during encrypted chat</a> if you paste a link into it. Also, if Jitsi is set up to use Tor, it may <a href='https://trac.jitsi.org/ticket/1060'>leak DNS information</a> by not using Tor for DNS resolution. Lastly, Jitsi records chat history in unencrypted form.</p><p>Linphone, an alternative video conferencing and VoIP option, currently has <a href='http://blog.azimuthsecurity.com/2013/06/attacking-crypto-phones-weaknesses-in.html'>unresolved security weaknesses</a>.</p>",
 
   "i18n-social-networking": "Social networking",
