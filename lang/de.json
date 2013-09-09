@@ -147,9 +147,10 @@
   "i18n-cloud-storage-note": "<p>BitTorrent Sync, MEGA, SpiderOak und Tarsnap sind Services, die total oder teilweise auf propertiäre Software aufbauen. Sie werden nicht auf PRISM Break vorgeschlagen, bis sie den kompletten Quellcode freigeben.</p><p>Mit Software, die nicht quelloffen ist, musst Du zu 100% dem Anbieter vertrauen, weil es nichts außer Moral gibt, das sie hindert, deine persöhnlichen Daten zu verraten. Selbst wenn Du für deren Rechtschaffenheit bürgen kannst, hat propertiäre Software mehr ungefundene Sicherheitslücken und Exploits, weil es weniger Menschen gibt, die den Quellcode durchsuchen.</p><p>Eine weitere Alternative zu Cloudspeicherung ist ein lokales Backup mit externen Festplatten und USB-Sticks. Diese Methode ist viel zuverlässiger als Daten in einem Netzwerk zu speichern und kostet nur wenig.</p>",
 
   "i18n-document-collaboration": "Gemeinsames Arbeiten an Dokumenten", 
-  "i18n-etherpad-desc": "Quelloffenes, gemeinsames Arbeiten an Dokumenten in Echtzeit.", 
-  "i18n-ethercalc-desc": "Tabellenkalkulationsserver für mehrere Benutzer.", 
-  "i18n-document-collaboration-note": "<p>Das <strong>etherpad</strong> Projekt enthält eine Liste von <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>Seiten, die etherpad anbieten (Englisch)</a>. Bitte wähle nur die Anbieter, die SSL unterstützen und untersuch den Hintergrund der Seite, bevor Du ihr Deine Daten anvertraust.</p><p><a href='#email-service'><strong>Riseup</strong></a> bietet ebenfalls E-Mail, VPN, und Chat-Services.</p>",
+  "i18n-riseup-etherpad-desc": "Ein von RiseUp gehosteter Etherpad-Dienst",
+  "i18n-etherpad-desc": "Quelloffenes, gemeinsames Arbeiten an Textdokumenten in Echtzeit.", 
+  "i18n-ethercalc-desc": "Tabellenkalkulation für mehrere Benutzer.", 
+  "i18n-document-collaboration-note": "<p>Das <strong>Etherpad</strong>-Projekt enthält eine Liste von <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>Seiten, die Etherpad anbieten (Englisch)</a>. Bitte wähle nur die Anbieter, die SSL unterstützen und untersuche den Hintergrund der Seite, bevor Du ihr Deine Daten anvertraust.</p><p><a href='#email-service'><strong>Riseup</strong></a> bietet ebenfalls E-Mail, VPN, und Chat-Services.</p>",
 
   "i18n-media-publishing": "Medienveröffentlichung", 
   "i18n-mediacrush-desc": "Privatsphäreorientiertes, schnelles Medien (Bilder, Audio, Video) Hosting.",
