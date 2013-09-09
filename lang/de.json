@@ -246,6 +246,7 @@
   "i18n-xmpp-server-notes": "<p>&ldquo;Das Extensible Messaging and Presence Protocol (XMPP; „erweiterbares Nachrichten- und Anwesenheitsprotokoll“) (früher Jabber, englisch [ˈdʒæbə(ɹ)]: „(daher-)plappern“) ist ein von der IETF als RFC 6120–6122 sowie 3922, 3923 veröffentlichter Internetstandard für XML-Routing. XMPP folgt dem XML-Standard und wird primär für Instant Messaging eingesetzt.</p><p> XMPP und seine Erweiterungen unterstützen Funktionen zur Nachrichtenübermittlung, Konferenzen mit mehreren Benutzern, Anzeigen des Online-Status, Dateiübertragungen, Versendung von Zertifikaten und viele weitere Dienste.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>", 
 
   "i18n-sip-server-title": "SIP-Server", 
+  "i18n-ostel-desc": "Sichere SIP-Accounts, die zusammen mit CSipSimple, Jitsi etc. verwendet werden können",
   "i18n-asterisk-desc": "PBX-Implementation mit VoIP/SIP-Unterstützung.", 
   "i18n-freeswitch-desc": "Plattformübergreifende Soft-Switch-Software mit VoIP/SIP-Unterstützung.", 
   "i18n-kamailio-desc": "Quelloffener VoIP/SIP-Server.", 
