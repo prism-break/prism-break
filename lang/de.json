@@ -253,7 +253,7 @@
   "i18n-asterisk-desc": "PBX-Implementation mit VoIP/SIP-Unterstützung.", 
   "i18n-freeswitch-desc": "Plattformübergreifende Soft-Switch-Software mit VoIP/SIP-Unterstützung.", 
   "i18n-kamailio-desc": "Quelloffener VoIP/SIP-Server.", 
-  "i18n-sip-server-notes": "<p>&ldquo;Das Session Initiation Protocol (SIP) ist ein Netzprotokoll zum Aufbau, zur Steuerung und zum Abbau einer Kommunikationssitzung zwischen zwei und mehr Teilnehmern. Das Protokoll wird u. a. im RFC 3261 spezifiziert. In der IP-Telefonie ist das SIP ein häufig angewandtes Protokoll.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>", 
+  "i18n-sip-server-notes": "<blockquote><p>Das Session Initiation Protocol (SIP) ist ein Netzprotokoll zum Aufbau, zur Steuerung und zum Abbau einer Kommunikationssitzung zwischen zwei und mehr Teilnehmern.</p><p><footer>&mdash; <cite><a href='https://de.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></cite></footer></blockquote></p>", 
 
   "i18n-hardware-software": "Hardware &amp; Software Kombinationen",
   "i18n-freedombox-desc": "FreedomBox integriert Datenschutz auf einem günstigen Plug-Server.", 
