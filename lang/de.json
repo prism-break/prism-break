@@ -221,13 +221,14 @@
   "i18n-server-os-notes": "<p>Der einzige Weg, die totale Kontrolle über deine persönliche Daten zu haben, ist, einen eigenen Server laufen zu lassen. Das ist allerdings nicht für jeden möglich, da viel Zeit investiert werden muss und das technische Wissen benötigt wird.</p>",
 
   "i18n-file-encryption": "HDD- &amp; SSD-Verschlüsselung",
+  "i18n-truecrypt-desc": "Real-time disk and partition encryption software for multiple platforms.",
   "i18n-dmcrypt-desc": "Ein Sub-System des GNU/Linux-Kernels, das transparente Laufwerksverschlüsselung bereitstellt.",
   "i18n-luks-desc": "Ein bequem und einfach zu bedienende Erweiterung von dmcrypt",
   "i18n-diskcryptor-desc": "High performance partition encryption software for Windows.",
   "i18n-encfs-desc": "File based encryption tool with support for Linux, Mac OS and Windows.",
   "i18n-geli-desc": "Ein Sub-System zur Festplattenverschlüsselungs unter FreeBSD.",
   "i18n-encfs-desc": "Dateibasiertes Verschlüsselungstool für Linux, Mac OS und Windows. Boxcryptor Classic basiert auf EncFS",
-  "i18n-file-encryption-note": "de<p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p> <p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p> <blockquote> <p>Obwohl TrueCrypt nach freier Software aussieht, verhindern Lizenzbedenken die Aufnahme in Debian. Truecrypt wird auf eine geschlossene Art und Weise entwickelt. Auch wenn der Quellcode selbst offen liegt, erfährt er möglicherweise weniger unabhängige Überprüfungen als vergleichbare Software, deren Entwicklungsprozess auch öffentlich abläuft.</p> <p>Aus diesen Gründen wird TrueCrypt nicht von den Tails-Entwicklern empfohlen.</p> <footer>&mdash; <cite><a href='https://tails.boum.org/doc/encryption_and_privacy/truecrypt/'>Tails</a></cite></footer> </blockquote>",
+  "i18n-file-encryption-note": "<p>While <strong>TrueCrypt</strong> is open source, it is developed in a closed fashion and may receive less review than a comparably openly deveoped project. That said, it is still probably the best option for file encryption on Windows and OS X.</p><p>If you&rsquo;re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>",
 
   "i18n-mail-server": "E-Mail-Server",
   "i18n-iredmail-desc": "E-Mail-Serverpakete automatisch in GNU/Linux und BSD installieren und konfigurieren.",
