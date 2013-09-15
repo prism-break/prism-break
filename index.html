@@ -219,7 +219,7 @@
             <p class='hideable'>GNU/Linux has a much larger community to help you with the transition. It&rsquo;s recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p>
             <p><strong>Debian</strong> has a long tradition of software freedom. Contributers have to sign a social contract and adhere to the ethical manifesto. Strict inclusion guidelines make sure that only certified open source software gets packaged in the main repositories.</p>
             <p><strong>Gentoo</strong> describes itself as a meta-distribution. The source code is compiled to binary applications on the user's machine allowing near-unlimited adaptability and complete retraceability of the program logic.</p>
-            <p><strong>Linux Mint</strong> Debian Edition (LMDE) is probably the easiest-to-use distribution for people migrating from Microsoft Windows. However, note that LMDE <a href='http://community.linuxmint.com/idea/view/2144'>does not</a> support <a href='#hdd-ssd-encryption'>full disk encryption</a>.</p>
+            <p><strong>Linux Mint</strong> Debian Edition (LMDE) is probably the easiest-to-use distribution for people migrating from Microsoft Windows. However, note that LMDE <a href='http://community.linuxmint.com/idea/view/2144'>does not</a> support <a href='#file-encryption'>full disk encryption</a>.</p>
             <p>Both <strong>Fedora</strong> and <strong>openSUSE</strong> are community editions that serve as the stable basis for enterprise ready GNU/Linux distributions with commercial support. Companies all over the world trust Red Hat Inc. and SUSE Linux GmbH because of their transparency throughout the whole development process.</p>
             <p class='hideable'><strong>Parabola</strong> GNU/Linux is effectively 99% <a href='https://www.archlinux.org/'>Arch Linux</a> with a <a href='https://en.wikipedia.org/wiki/Binary_blob'>de-blobbed</a> kernel and a meta-package that blocks unfree licenses. Both of these features can be installed under Arch.</p>
             <p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default. GNU/Linux distributions based on Ubuntu are also currently not recommended due to <a href='https://github.com/nylira/prism-break/issues/334'>several other reasons.</a></p>
@@ -1947,8 +1947,8 @@
         </div>
       </div>
 
-      <div class='section' id='hdd-ssd-encryption'>
-        <h2 class='i18n-hdd-ssd-encryption'>HDD &amp; SSD encryption</h2>
+      <div class='section' id='file-encryption'>
+        <h2 class='i18n-file-encryption'>File encryption</h2>
         <div class='prop'><h3 class='prop i18n-proprietary'>Proprietary</h3>
           <ul>
             <li>
@@ -1975,6 +1975,13 @@
             <span class='i18n-free-alternative'>Free alternatives</span>
           </h3>
           <ul>
+            <li><a href='http://diskcryptor.net/wiki/Main_Page/en'>
+                <img class='logo' src='lib/img/free/diskcryptor.png' alt='' />
+                <h5>DiskCryptor</h5>
+                <p class='desc'>
+                  <span class='i18n-diskcryptor-desc'>High performance partition encryption software for Windows.</span>
+                </p>
+            </a></li>
             <li><a href='https://en.wikipedia.org/wiki/Dm-crypt'>
                 <img class='logo' src='lib/img/free/dmcrypt.png' alt='' />
                 <h5>dm-crypt</h5>
@@ -1982,18 +1989,11 @@
                   <span class='i18n-dmcrypt-desc'>Transparent disk encryption subsystem included in the GNU/Linux kernel.</span>
                 </p>
             </a></li>
-            <li><a href='https://en.wikipedia.org/wiki/LUKS'>
+            <li class="plugin"><a href='https://en.wikipedia.org/wiki/LUKS'>
                 <img class='logo' src='lib/img/free/luks.png' alt='' />
                 <h5>Linux Unified Key Setup</h5>
                 <p class='desc'>
                   <span class='i18n-luks-desc'>LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.</span>
-                </p>
-            </a></li>
-            <li><a href='http://diskcryptor.net/wiki/Main_Page/en'>
-                <img class='logo' src='lib/img/free/diskcryptor.png' alt='' />
-                <h5>DiskCryptor</h5>
-                <p class='desc'>
-                  <span class='i18n-diskcryptor-desc'>High performance partition encryption software for Windows.</span>
                 </p>
             </a></li>
             <li><a href='http://www.arg0.net/encfs'>
@@ -2014,7 +2014,7 @@
           </ul>
         </div>
         <div class='notes'><h3 class='i18n-notes'>Notes</h3>
-          <div class='i18n-hdd-ssd-encryption-note'>
+          <div class='i18n-file-encryption-note'>
             <p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p>
             <p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>
             <blockquote>
@@ -2311,7 +2311,7 @@
         <li><a href='#anon-network' class='i18n-anon-network'>Anonymizing network</a></li>
         <li><a href='#meshnet' class='i18n-meshnet'>Meshnet</a></li>
         <li><a href='#server-os' class='i18n-server-os'>Server operating system</a></li>
-        <li><a href='#hdd-ssd-encryption' class='i18n-hdd-ssd-encryption'>HDD &amp; SSD encryption</a></li>
+        <li><a href='#file-encryption' class='i18n-file-encryption'>File encryption</a></li>
         <li><a href='#mail-server' class='i18n-mail-server'>Mail server</a></li>
         <li><a href='#xmpp-server' class='i18n-xmpp-server'>XMPP server</a></li>
         <li><a href='#sip-server' class='i18n-sip-server'>SIP server</a></li>
