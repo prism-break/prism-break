@@ -69,7 +69,7 @@
   "i18n-maps": "Kartendienste", 
   "i18n-openstreetmap-desc": "Freier und gemeinschaftlicher Kartendienst.", 
   "i18n-marble-desc": "Freier, virtueller Globus und Welt-Atlas.", 
-  "i18n-osmand-desc": "OsmAnd (OSM Automated Navigation Directions) ist eine Karten- und Navigationsapp auf Basis der <a href='http://www.openstreetmap.de/'>OpenStreetMap</a>-Data.", 
+  "i18n-osmand-desc": "OsmAnd (OSM Automated Navigation Directions) ist eine Karten- und Navigationsapp auf Basis der OpenStreetMap-Daten.", 
   "i18n-maps-note": "<blockquote><p>&ldquo;Falls Du Zeit verbringst, um OpenStreetMap zu verbessern, hilfst Du einer guten Sache und erstellst eine geografische Datenbank der Welt, welche frei und offen für alle und für immer ist.&rdquo;</p><footer>&mdash; <cite><a href='http://wiki.openstreetmap.org/wiki/Google_Map_Maker'>OpenStreetMap Wiki</a></cite></footer></blockquote>",
 
   "i18n-email-service": "E-Mail-Dienste", 
@@ -238,7 +238,7 @@
   "i18n-mail-transfer-agent": "Mail transfer agent (MTA)",
   "i18n-exim-desc": "MTA, der auf etwa 43% aller E-Mail-Server benutzt wird&mdash;Standard auf Debian GNU/Linux.",
   "i18n-postfix-desc": "Einfach einzurichtender MTA, der von etwa 23% aller E-Mail-Server benutzt wird.",
-  "i18n-mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p><blockquote><p><strong>What is an MTA?</strong></p><p>&ldquo;Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>Wikipedia</a></cite></footer></blockquote>",
+  "i18n-mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> beinhaltet den Webmail-Client<a href='http://roundcube.net/'>Roundcube</a>, bietet allerdings auch Desktop-Clients an. Neuere Versionen bieten zudem Dateisynchronisierung an, sodass eine komplette Lösung für persönliches Informationsmanagement entsteht.</p><blockquote><p><strong>Was ist ein MTA?</strong></p><p>&ldquo;Ein Mail Transfer Agent oder Message Transport Agent (MTA) ist die Software eines Mailservers, die E-Mails entgegennimmt und sendet.</p><p>Der MTA des Adressaten arbeitet mit dem Mail Delivery Agent des Mailservers zusammen, der die E-Mails in den passenden Postfächern abliefert.&rdquo;</p><footer>&mdash; <cite><a href='https://de.wikipedia.org/wiki/Mail_Transfer_Agent'>Wikipedia</a></cite></footer></blockquote>",
 
   "i18n-xmpp-server-title": "XMPP-Server", 
   "i18n-dukgoxmpp-desc": "Von der DuckDuckGo Community betriebener privater XMPP-Dienst&mdash;Anleitung vorhanden.",
@@ -247,14 +247,14 @@
   "i18n-prosody-desc": "Flexibler und leichter, in Lua geschriebener XMPP-Server.", 
   "i18n-tigase-desc": "Plattformübergreifender, in Java geschriebener XMPP-Server.", 
   "i18n-metronome-desc": "Auf Prosody basierender XMPP-Server mit umfangreichen Management- und Microblogging-Funktionen.", 
-  "i18n-xmpp-server-notes": "<p>&ldquo;Das Extensible Messaging and Presence Protocol (XMPP; „erweiterbares Nachrichten- und Anwesenheitsprotokoll“) (früher Jabber, englisch [ˈdʒæbə(ɹ)]: „(daher-)plappern“) ist ein von der IETF als RFC 6120–6122 sowie 3922, 3923 veröffentlichter Internetstandard für XML-Routing. XMPP folgt dem XML-Standard und wird primär für Instant Messaging eingesetzt.</p><p> XMPP und seine Erweiterungen unterstützen Funktionen zur Nachrichtenübermittlung, Konferenzen mit mehreren Benutzern, Anzeigen des Online-Status, Dateiübertragungen, Versendung von Zertifikaten und viele weitere Dienste.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/XMPP'>Wikipedia</a></p>", 
+  "i18n-xmpp-server-notes": "<blockquote><p>Das Extensible Messaging and Presence Protocol (XMPP; &ldquo;erweiterbares Nachrichten- und Anwesenheitsprotokoll&rdquo;; früher Jabber) ist ein [...] Internetstandard für XML-Routing [...] und wird primär für Instant Messaging eingesetzt.</p><p> XMPP und seine Erweiterungen unterstützen Funktionen zur Nachrichtenübermittlung, Konferenzen mit mehreren Benutzern, Anzeigen des Online-Status, Dateiübertragungen, Versendung von Zertifikaten und viele weitere Dienste.&rdquo;</p><p>&mdash; <cite><a href='https://de.wikipedia.org/wiki/XMPP'>Wikipedia</a></cite></footer></blockquote></p>", 
 
   "i18n-sip-server-title": "SIP-Server", 
   "i18n-ostel-desc": "Sichere SIP-Accounts, die zusammen mit CSipSimple, Jitsi etc. verwendet werden können",
   "i18n-asterisk-desc": "PBX-Implementation mit VoIP/SIP-Unterstützung.", 
   "i18n-freeswitch-desc": "Plattformübergreifende Soft-Switch-Software mit VoIP/SIP-Unterstützung.", 
   "i18n-kamailio-desc": "Quelloffener VoIP/SIP-Server.", 
-  "i18n-sip-server-notes": "<p>&ldquo;Das Session Initiation Protocol (SIP) ist ein Netzprotokoll zum Aufbau, zur Steuerung und zum Abbau einer Kommunikationssitzung zwischen zwei und mehr Teilnehmern. Das Protokoll wird u. a. im RFC 3261 spezifiziert. In der IP-Telefonie ist das SIP ein häufig angewandtes Protokoll.&rdquo;</p><p>&mdash; <a href='https://de.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>", 
+  "i18n-sip-server-notes": "<blockquote><p>Das Session Initiation Protocol (SIP) ist ein Netzprotokoll zum Aufbau, zur Steuerung und zum Abbau einer Kommunikationssitzung zwischen zwei und mehr Teilnehmern.</p><p><footer>&mdash; <cite><a href='https://de.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></cite></footer></blockquote></p>", 
 
   "i18n-hardware-software": "Hardware &amp; Software Kombinationen",
   "i18n-freedombox-desc": "FreedomBox integriert Datenschutz auf einem günstigen Plug-Server.", 
