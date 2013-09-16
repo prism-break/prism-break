@@ -219,18 +219,14 @@
   "i18n-yunohost-desc": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
   "i18n-server-os-notes": "<p>The only way to have full control over your personal data is to run your own server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</p>",
 
-  "i18n-hdd-ssd-encryption": "HDD &amp; SSD encryption",
+  "i18n-file-encryption": "File encryption",
+  "i18n-truecrypt-desc": "Real-time disk and partition encryption software for multiple platforms.",
   "i18n-dmcrypt-desc": "Transparent disk encryption subsystem included in the GNU/Linux kernel.",
   "i18n-luks-desc": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.",
   "i18n-diskcryptor-desc": "High performance partition encryption software for Windows.",
   "i18n-encfs-desc": "File based encryption tool with support for Linux, Mac OS and Windows.",
   "i18n-geli-desc": "Disk encryption subsystem included in the FreeBSD operating system.",
-  "i18n-hdd-ssd-encryption-note": "<p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p> <p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p> <blockquote> <p>Although TrueCrypt looks like free software, concerns over its licence prevent its inclusion in Debian. Truecrypt is also developed in a closed fashion, so while the source code is freely available, it may receive less review than might a comparable openly developed project.</p> <p>For the above reasons, Tails developers do not recommend TrueCrypt.</p> <footer>&mdash; <cite><a href='https://tails.boum.org/doc/encryption_and_privacy/truecrypt/'>Tails</a></cite></footer> </blockquote>",
-
-  "i18n-hdd-ssd-encryption": "HDD &amp; SSD encryption",
-  "i18n-dmcrypt-desc": "Transparent disk encryption subsystem included in the GNU/Linux kernel.",
-  "i18n-luks-desc": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.",
-  "i18n-hdd-ssd-note":"<p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p><blockquote><p>Although TrueCrypt looks like free software, concerns over its licence prevent its inclusion in Debian. Truecrypt is also developed in a closed fashion, so while the source code is freely available, it may receive less review than might a comparable openly developed project.</p><p>For the above reasons, Tails developers do not recommend TrueCrypt.</p><footer>&mdash; <cite><a href='https://tails.boum.org/doc/encryption_and_privacy/truecrypt/'>Tails</a></cite></footer>",
+  "i18n-file-encryption-note": "<p>While <strong>TrueCrypt</strong> is open source, it is developed in a closed fashion and may receive less review than a comparably openly deveoped project. That said, it is still probably the best option for file encryption on Windows and OS X.</p><p>If you&rsquo;re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>",
 
   "i18n-mail-server": "Mail server",
   "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
