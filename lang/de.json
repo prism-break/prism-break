@@ -220,13 +220,12 @@
   "i18n-server-os-notes": "<p>Der einzige Weg, die totale Kontrolle über deine persönliche Daten zu haben, ist, einen eigenen Server laufen zu lassen. Das ist allerdings nicht für jeden möglich, da viel Zeit investiert werden muss und das technische Wissen benötigt wird.</p>", 
 
   "i18n-file-encryption": "HDD- &amp; SSD-Verschlüsselung", 
-  "i18n-truecrypt-desc": "Real-time disk and partition encryption software for multiple platforms.", 
-  "i18n-dmcrypt-desc": "Ein Sub-System des GNU/Linux-Kernels, das transparente Laufwerksverschlüsselung bereitstellt.", 
+  "i18n-truecrypt-desc": "Vollständige oder teilweise Verschlüsselung von Festplatten, Partitionen und wechseldatenträgern unter Windows und Mac OS X.",    "i18n-dmcrypt-desc": "Ein Sub-System des GNU/Linux-Kernels, das transparente Laufwerksverschlüsselung bereitstellt.", 
   "i18n-luks-desc": "Ein bequem und einfach zu bedienende Erweiterung von dmcrypt", 
-  "i18n-diskcryptor-desc": "High performance partition encryption software for Windows.", 
+  "i18n-diskcryptor-desc": "Sehr leistungshähige Software zur Partitionsverschlüsseung für Windows.", 
   "i18n-encfs-desc": "Dateibasiertes Verschlüsselungstool für Linux, Mac OS und Windows. Boxcryptor Classic basiert auf EncFS", 
   "i18n-geli-desc": "Ein Sub-System zur Festplattenverschlüsselungs unter FreeBSD.", 
-  "i18n-file-encryption-note": "<p>While <strong>TrueCrypt</strong> is open source, it is developed in a closed fashion and may receive less review than a comparably openly deveoped project. That said, it is still probably the best option for file encryption on Windows and OS X.</p><p>If you&rsquo;re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>", 
+  "i18n-file-encryption-note": "<p>Der Quellcode von <strong>TrueCrypt</strong> liegt zwar offen vor, wird allerdings in einer geschlossenen Art und Weise weiterentwickelt. Darum erfährt TrueCrypt möglicherweise weniger Überprüfung als ähnliche Projekte, die offen entwickelt werden. Trotzdem ist es zur Zeit vermutlich die beste Option zur Festplattenverschlüsselung unter Windows und Mac OS X.</p><p>Wenn du GNU/Linux benutzt, wird <strong>dm-crypt</strong> mit <strong>LUKS</strong> zur Verschlüsselung empfohlen.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>bietet eine Anleitung (auf Englisch)</a> dafür an, </p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>ebenso</a>. Letztere kann auch für Parabola GNU/Linux herangezogen werden.</p>",  
 
   "i18n-mail-server": "E-Mail-Server", 
   "i18n-iredmail-desc": "E-Mail-Serverpakete automatisch in GNU/Linux und BSD installieren und konfigurieren.", 
