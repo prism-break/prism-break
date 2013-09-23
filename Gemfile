@@ -30,6 +30,9 @@ gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
 # Version management
 gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 
+# Image and file attachments
+gem "paperclip"
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

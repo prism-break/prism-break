@@ -1,0 +1,29 @@
+h1 Listing softwares
+
+table
+  tr
+    th Title
+    th Description
+    th Url
+    th Source url
+    th Privacy url
+    th Tos url
+    th
+    th
+    th
+
+  - @softwares.each do |software|
+    tr
+      td = software.title
+      td = software.description
+      td = software.url
+      td = software.source_url
+      td = software.privacy_url
+      td = software.tos_url
+      td = link_to 'Show', software
+      td = link_to 'Edit', edit_software_path(software)
+      td = link_to 'Destroy', software, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Software', new_software_path

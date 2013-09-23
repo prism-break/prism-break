@@ -1,0 +1,27 @@
+= form_for @software do |f|
+  - if @software.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@software.errors.count, "error")} prohibited this software from being saved:"
+      ul
+        - @software.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :title
+    = f.text_field :title
+  .field
+    = f.label :description
+    = f.text_field :description
+  .field
+    = f.label :url
+    = f.text_field :url
+  .field
+    = f.label :source_url
+    = f.text_field :source_url
+  .field
+    = f.label :privacy_url
+    = f.text_field :privacy_url
+  .field
+    = f.label :tos_url
+    = f.text_field :tos_url
+  .actions = f.submit 'Save'

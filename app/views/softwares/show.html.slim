@@ -1,0 +1,24 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @software.title
+p
+  strong Description:
+  = @software.description
+p
+  strong Url:
+  = @software.url
+p
+  strong Source url:
+  = @software.source_url
+p
+  strong Privacy url:
+  = @software.privacy_url
+p
+  strong Tos url:
+  = @software.tos_url
+
+= link_to 'Edit', edit_software_path(@software)
+'|
+= link_to 'Back', softwares_path

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyString
+  url: MyString
+  source_url: MyString
+  privacy_url: MyString
+  tos_url: MyString
+
+two:
+  title: MyString
+  description: MyString
+  url: MyString
+  source_url: MyString
+  privacy_url: MyString
+  tos_url: MyString
