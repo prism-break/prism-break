@@ -11,7 +11,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130923081902) do
+ActiveRecord::Schema.define(version: 20130923084329) do
+
+  create_table "software_translations", force: true do |t|
+    t.integer  "software_id", null: false
+    t.string   "locale",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+    t.string   "url"
+    t.string   "source_url"
+    t.string   "privacy_url"
+    t.string   "tos_url"
+  end
+
+  add_index "software_translations", ["locale"], name: "index_software_translations_on_locale", using: :btree
+  add_index "software_translations", ["software_id"], name: "index_software_translations_on_software_id", using: :btree
+
+  create_table "softwares", force: true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "url"
+    t.string   "source_url"
+    t.string   "privacy_url"
+    t.string   "tos_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "versions", force: true do |t|
     t.string   "item_type",  null: false

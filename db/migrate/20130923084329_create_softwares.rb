@@ -16,4 +16,5 @@ class CreateSoftwares < ActiveRecord::Migration
   def down
     drop_table :softwares
     Software.drop_translation_table!
+  end
 end
