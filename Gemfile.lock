@@ -1,3 +1,36 @@
+GIT
+  remote: git://github.com/airblade/paper_trail.git
+  revision: f95c61c467054dc334dc6b36d499c4f04d8b88bc
+  branch: master
+  specs:
+    paper_trail (3.0.0.beta1)
+      activerecord (>= 3.0, < 5.0)
+
+GIT
+  remote: git://github.com/lucasmazza/ruby-stylus.git
+  revision: c256535c48555f14c8ae5a32c2e106112aef7879
+  specs:
+    stylus (1.0.0.beta)
+      execjs
+      stylus-source
+
+GIT
+  remote: git://github.com/svenfuchs/globalize3.git
+  revision: 82b3b36308677745b261bd147dda00ed4560a25d
+  branch: rails4
+  specs:
+    globalize3 (0.3.0)
+      activemodel (>= 4.0.0)
+      activerecord (>= 4.0.0)
+      paper_trail (~> 3.0.0.beta)
+
+GIT
+  remote: git://github.com/svenfuchs/routing-filter.git
+  revision: d6378d0dedf10106501974216f36908182211cc1
+  specs:
+    routing-filter (0.4.0.pre)
+      actionpack
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,6 +79,15 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.0)
+    livescript (2.2.0)
+      execjs
+      livescript-source
+    livescript-rails (1.1.0)
+      execjs
+      livescript
+      railties
+      tilt
+    livescript-source (1.0.1)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -71,16 +113,20 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.1.0)
+    rb-readline (0.4.2)
     rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.2.10)
-    sass-rails (4.0.0)
-      railties (>= 4.0.0.beta, < 5.0)
-      sass (>= 3.1.10)
-      sprockets-rails (~> 2.0.0)
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
+    slim (2.0.1)
+      temple (~> 0.6.6)
+      tilt (>= 1.3.3, < 2.1)
+    slim-rails (2.0.1)
+      actionpack (>= 3.0, < 4.1)
+      activesupport (>= 3.0, < 4.1)
+      railties (>= 3.0, < 4.1)
+      slim (~> 2.0)
     sprockets (2.10.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -90,6 +136,8 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+    stylus-source (0.34.1)
+    temple (0.6.6)
     thor (0.18.1)
     thread_safe (0.1.3)
       atomic
@@ -108,12 +156,17 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coffee-rails (~> 4.0.0)
+  globalize3!
   jbuilder (~> 1.2)
   jquery-rails
+  livescript-rails
   mysql2
+  paper_trail!
   rails (= 4.0.0)
-  sass-rails (~> 4.0.0)
+  rb-readline (~> 0.4.2)
+  routing-filter!
   sdoc
+  slim-rails
+  stylus!
   turbolinks
   uglifier (>= 1.3.0)
