@@ -2,36 +2,23 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-
-# rails console fix
-gem 'rb-readline', '~> 0.4.2' 
-
-# HTML template language
-gem 'slim-rails'
+gem 'rb-readline', '~> 0.4.2'
+gem 'routing-filter', github: 'svenfuchs/routing-filter'
+gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
+gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
-# Use Stylus for stylesheets
 gem 'stylus', :github => 'lucasmazza/ruby-stylus'
+gem 'livescript-rails'
+gem 'slim-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
-# Use LiveScript for .js.ls assets and views
-gem 'livescript-rails'
-
-# Better routing
-gem 'routing-filter', :github => 'svenfuchs/routing-filter'
-
-# I18n
-gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
-
-# Version management
-gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
-
 # Image and file attachments
-gem "paperclip"
+# gem 'paperclip'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby

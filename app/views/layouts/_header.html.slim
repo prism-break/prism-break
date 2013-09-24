@@ -1,5 +1,23 @@
-ul
-  li= link_to "PRISM Break", root_url
-  li.en= link_to 'English', :locale => 'en'
-  li.de= link_to 'German', :locale => 'de'
-  li.ja= link_to 'Japanese', :locale => 'ja'
+#header
+  .menu-trigger
+    span.border
+      span.btn &#9776;
+  h1#brand
+    = link_to root_url do
+      strong PRISM
+      span.lightning &#9889;
+      | Break
+  ul.nav
+    li.links
+      a.plain href='./media/'
+        span.i18n-media Media
+    li.links 
+      a.plain href='./donate/'
+        span.i18n-donate Donate
+        |  Bitcoin
+    li.links 
+      a.plain href='https://github.com/nylira/prism-break '
+        span.i18n-contribute Contribute
+    li.links= link_to 'English', { locale: 'en' }, class: 'plain'
+    li.links= link_to 'Deutsch', { locale: 'de' }, class: 'plain'
+    li.links= link_to 'Japanese', { locale: 'ja' }, class: 'plain'

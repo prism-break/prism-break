@@ -1,0 +1,86 @@
+#header
+  .menu-trigger
+    ta center
+    float left
+    cursor pointer
+    m x*.5
+    .border
+      d block
+      b 1px solid #ddd
+      w 32px
+      h 32px
+      border-radius 3px
+      box-shadow 1px solid #f00 0 0 2px 2px
+      .btn
+        d block
+        w 30px
+        h 30px
+        b 1px solid #fff
+        f 1.25em/28px sans
+        border-radius 2px
+        c #666
+    &:hover
+      .border
+        background linear-gradient(top, #fff, m245 100%)
+        .btn
+          c hover
+    &:active
+      .border
+        background linear-gradient(top, m200, m220 100%)
+        .btn
+          c light
+          border-color m180
+
+
+#jPanelMenu-menu
+  background #333
+  width 240px
+
+  ul
+    li
+      a
+        color #eee
+        display block
+        padding 0 .75em
+        font 14px/1.45 sans
+        &:hover
+          c #fff
+          bg #444
+
+#menu
+  display none
+
+#header ul.nav
+  float right
+  height 48px
+  li
+    float left
+
+    &.links
+      display none
+      .plain
+        d block
+        lh 3em
+        p 0 1em
+        c txt
+        &.long
+          d none
+      a.plain:hover
+        c hover
+        td underline
+
+    &#language
+      p 12px
+
+      select
+        box-sizing border-box
+        d block
+        f 16px sans
+        h 24px
+        c txt
+        m 0
+        p 0
+        outline none
+        w 100px
+        bg #fff
+        b 1px solid bc
