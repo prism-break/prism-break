@@ -23,6 +23,10 @@ gem 'paperclip'
 gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
 gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 
+# for tags and translated tags
+# I18n guide here: http://danielpuglisi.com/articles/2013/09/setup-acts_as_taggable_on-with-globalize3
+gem 'acts-as-taggable-on'
+
 # for authentication
 gem 'devise'
 
