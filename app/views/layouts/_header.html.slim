@@ -22,5 +22,5 @@
       li.links= link_to 'English', { locale: 'en' }, class: 'plain'
       li.links= link_to 'Deutsch', { locale: 'de' }, class: 'plain'
       li.links= link_to 'Japanese', { locale: 'ja' }, class: 'plain'
-    li.links
+    li#language
       = select_tag 'language_select', options_for_select(languages, I18n.locale.to_s), selected: params[:locale]
