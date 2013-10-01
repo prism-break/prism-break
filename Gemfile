@@ -6,6 +6,7 @@ gem 'rb-readline', '~> 0.4.2'
 gem 'routing-filter', github: 'svenfuchs/routing-filter'
 gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
 gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
+gem 'jquery-turbolinks' # fixes "jquery only reloads on refresh"
 
 # Use mysql as the database for Active Record
 gem 'mysql2'
@@ -13,6 +14,7 @@ gem 'mysql2'
 gem 'stylus', :github => 'lucasmazza/ruby-stylus'
 gem 'livescript-rails'
 gem 'slim-rails'
+
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

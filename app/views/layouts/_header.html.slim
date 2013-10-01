@@ -5,12 +5,12 @@
   h1#brand
     = link_to root_url do
       strong PRISM
-      span.lightning &#9889;
+      span.lightning  &#9889; 
       | Break
   ul.nav
     li.links
       a.plain href='./media/'
-        span.i18n-media Media
+        span.i18n-media= t 'media'
     li.links 
       a.plain href='./donate/'
         span.i18n-donate Donate
@@ -18,6 +18,9 @@
     li.links 
       a.plain href='https://github.com/nylira/prism-break '
         span.i18n-contribute Contribute
-    li.links= link_to 'English', { locale: 'en' }, class: 'plain'
-    li.links= link_to 'Deutsch', { locale: 'de' }, class: 'plain'
-    li.links= link_to 'Japanese', { locale: 'ja' }, class: 'plain'
+    /
+      li.links= link_to 'English', { locale: 'en' }, class: 'plain'
+      li.links= link_to 'Deutsch', { locale: 'de' }, class: 'plain'
+      li.links= link_to 'Japanese', { locale: 'ja' }, class: 'plain'
+    li.links
+      = select_tag 'language_select', options_for_select(languages, I18n.locale.to_s), selected: params[:locale]
