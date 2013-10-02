@@ -4,23 +4,21 @@ table
   tr
     th Title
     th Description
-    th Url
-    th Source url
-    th Privacy url
-    th Tos url
+    th Source
+    th Privacy
+    th ToS
     th
     th
     th
 
   - @softwares.each do |software|
     tr
-      td = software.title
+      td = link_to software.title, software
       td = software.description
-      td = software.url
       td = software.source_url
       td = software.privacy_url
       td = software.tos_url
-      td = link_to 'Show', software
+      td = link_to 'Visit site', software.url
       td = link_to 'Edit', edit_software_path(software)
       td = link_to 'Destroy', software, :confirm => 'Are you sure?', :method => :delete
 
