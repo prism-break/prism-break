@@ -1,16 +1,24 @@
 .field
-  bb 1px solid #ddd
-  p 1em
+  p 0 1em .5em
+  clearfix()
 
   label
     d block
-    m 0 0 .5em
+    p 0 1em
     fw bold
-  input
-    d block
-    w 100%
+    float left
+    w 33%
+    ta right
+    lh 2em
+  input, textarea
+    float left
+    w 67%
 
-input
+input, textarea
+  d block
   b 1px solid bc
   p .5em .25em
   f 1em/1.5 sans-serif
+
+textarea
+  height 6em
