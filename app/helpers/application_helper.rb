@@ -8,4 +8,8 @@ module ApplicationHelper
     ]
   end
 
+  def locales
+    I18n.available_locales.sort
+  end
+
 end

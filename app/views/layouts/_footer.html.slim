@@ -1,18 +1,18 @@
 #footer.container
   ul.languages
-    - I18n.available_locales.each do |locale|
+    - locales.each do |locale|
       li= link_to locale, locale: locale
-  p.disclaimer 
-    span.i18n-disclaimer Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive communication.
+  p.disclaimer= t 'disclaimer'
   ul
     li 
-      span.i18n-updated Updated
-      span.i18n-by by
+      | #{t 'updated'} #{t 'by'} 
       a href='https://twitter.com/zcpeng' @zcpeng
     li
-      a.i18n-changelog href='https://github.com/nylira/prism-break/commits/master' Changelog
+      a href='https://github.com/nylira/prism-break/commits/master'
+        = t 'changelog'
     li
-      a.i18n-license href='https://github.com/nylira/prism-break/blob/master/LICENSE.md' License
+      a href='https://github.com/nylira/prism-break/blob/master/LICENSE.md'
+        = t 'license'
     li.last
       | A 
       a href='http://nylira.com/' Nylira project
