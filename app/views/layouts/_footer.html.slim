@@ -1,8 +1,6 @@
 #footer.container
-  ul.languages
-    - locales.each do |locale|
-      li= link_to locale, locale: locale
-    = locale_name_pairs
+  = render 'partials/language_list'
+
   p.disclaimer= t 'disclaimer'
   ul
     li 

@@ -1,0 +1,7 @@
+ul.locales
+  - languages.each do |locale|
+    - if locale.last.to_sym == I18n.locale
+      li style="background: #999"
+        = link_to locale.first, locale: locale.last.to_sym
+    - else
+      li= link_to locale.first, locale: locale.last.to_sym
