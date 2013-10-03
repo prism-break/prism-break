@@ -9,17 +9,9 @@
       | Break
   ul.nav
     li.links
-      a.plain href='./media/'
-        span.i18n-media= t 'media'
+      a.plain href='./media/'= t 'media'
     li.links 
-      a.plain href='./donate/'
-        span.i18n-donate Donate
-        |  Bitcoin
+      a.plain href='./donate/' #{t 'donate'} Bitcoin
     li.links 
-      a.plain href='https://github.com/nylira/prism-break '
-        span.i18n-contribute Contribute
-    /
-      li.links= link_to 'English', { locale: 'en' }, class: 'plain'
-      li.links= link_to 'Deutsch', { locale: 'de' }, class: 'plain'
-      li.links= link_to 'Japanese', { locale: 'ja' }, class: 'plain'
+      a.plain href='https://github.com/nylira/prism-break '= t 'contribute'
     li#language= render 'partials/language_select'
