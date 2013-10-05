@@ -11,8 +11,7 @@
   "i18n-debian-desc": "Distribution GNU/Linux populaire et éthique.", 
   "i18n-fedora-desc": "Distribution GNU/Linux rapide, stable et puissante.", 
   "i18n-gentoo-desc": "Distribution GNU/Linux offrant choix, contrôle et sécurité.", 
-  "i18n-gnewsense-desc": "Distribution GNU/Linux entièrement libre basé sur Debian.", 
-  "i18n-xubuntu-desc": "Distribution GNU/Linux simple d'usage, adaptée aux novices et légère.", 
+  "i18n-gnewsense-desc": "Distribution GNU/Linux entièrement libre basé sur Debian.",  
   "i18n-linuxmint-desc": "Distribution GNU/Linux simple d'usage et adaptée aux novices.", 
   "i18n-opensuse-desc": "Distribution GNU/Linux stable, simple d'utilisation et polyvalente.", 
   "i18n-parabola-desc": "Distribution GNU/Linux libre, légère et flexible basée sur Arch Linux.", 
@@ -230,8 +229,8 @@
   "i18n-file-encryption-note": "<p>While <strong>TrueCrypt</strong> is open source, it is developed in a closed fashion and may receive less review than a comparably openly deveoped project. That said, it is still probably the best option for file encryption on Windows and OS X.</p><p>If you&rsquo;re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>", 
 
   "i18n-mail-server": "Mail server", 
-  "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.", 
-  "i18n-indimail-desc": "Highly scalable and configurable messaging platform based on the MTA qmail.", 
+  "i18n-iredmail-desc": "Installer et configurer les packages de serveur de messagerie automatiquement sous GNU/Linux et BSD.", 
+  "i18n-indimail-desc": "Plate-forme de messagerie hautement évolutive et configurable basé sur le qmail MTA.", 
   "i18n-groupware-server": "Groupware server", 
   "i18n-kolab-desc": "Serveur groupware (logiciel de groupe de travail) pour les mails, calendriers et carnets d'adresses incluant la possibilité de synchroniser les données vers des téléphones portables.", 
   "i18n-mail-transfer-agent": "Mail transfer agent (MTA)", 
@@ -284,7 +283,7 @@
   "i18n-most-stable": "Stable", 
   "i18n-most-cutting-edge": "most cutting edge", 
   "i18n-most-advanced": "Fonctionnalités les plus avancées", 
-  "i18n-most-paranoid": "Paranoïde", 
+  "i18n-most-paranoid": "pour les paranoïaques", 
   "i18n-friendly-defaults": "friendly defaults", 
 
   "i18n-fsf-definition-title": "* Ce site web utilise la définition de logiciel libre de la <strong>Free Software Foundation</strong>.", 
@@ -309,7 +308,7 @@
   "i18n-portuguese": "Portugais", 
   "i18n-russian": "Russe", 
   "i18n-swedish": "Suédois", 
-  "i18n-chinese-simplified": "Chinese (Simplified)", 
+  "i18n-chinese-simplified": "Chinois (Simplifié)", 
 
   "i18n-updated": "Mis à jour", 
   "i18n-by": "par", 
