@@ -6,11 +6,17 @@ table
     th
     th
 
-  - @categories.each do |category|
+  - @categories.roots.each do |category|
     tr
       td = link_to category.title, category
       td = link_to 'Edit', edit_category_path(category)
       td = link_to 'Destroy', category, :confirm => 'Are you sure?', :method => :delete
+      - if category.children.count > 0
+        - category.children.each do |kitten|
+          td
+            = link_to "#{kitten.title}", kitten
+            | &nbsp;&nbsp;
+
 
 br
 

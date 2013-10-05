@@ -61,6 +61,9 @@ GEM
     arel (4.0.0)
     atomic (1.1.14)
     builder (3.1.4)
+    closure_tree (4.2.7)
+      activerecord (>= 3.0.0)
+      with_advisory_lock (>= 0.0.9)
     coffee-rails (4.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0.beta, < 5.0)
@@ -154,11 +157,14 @@ GEM
     uglifier (2.2.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    with_advisory_lock (0.0.10)
+      activerecord (>= 3.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  closure_tree
   globalize3!
   jbuilder (~> 1.2)
   jquery-rails
