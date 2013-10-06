@@ -2,7 +2,7 @@
   .menu-trigger
     span.border
       span.btn &#9776;
-  h1#brand
+  #brand
     = link_to root_url do
       strong PRISM
       span.lightning  &#9889; 
@@ -11,7 +11,7 @@
     li.links
       = link_to 'Software', softwares_path, class: 'plain'
     li.links
-      a.plain href='./media/'= t 'media'
+      = link_to t('media'), media_path, class: 'plain'
     li.links 
       a.plain href='./donate/' #{t 'donate'} Bitcoin
     li.links 

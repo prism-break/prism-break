@@ -2,6 +2,12 @@ p#notice = notice
 
 h1= @category.title
 
+ul
+  - @category.softwares.each do |software|
+    li.card
+      .title= link_to software.title, software
+      .desc= software.description
+
 - if @category.children.count > 0
   ul
     - @category.children.each do |kitten|

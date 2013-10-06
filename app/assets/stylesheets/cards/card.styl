@@ -4,14 +4,9 @@
   clearfix()
   line-height 1.25
 
-  a
-    d block
-    p .75em
-    clearfix()
-    &:hover
-      h5
-        td underline
-        c hover
+  d block
+  p .75em
+  clearfix()
 
   img.logo
     d block
@@ -20,14 +15,17 @@
     h 50px
     mr x
 
-  h5, p
+  .title, p
     display inline
+    &:hover
+      td underline
+      c hover
 
-  h5
+  .title
     font-weight bold
     pr x * 0.25
 
-  p.desc
+  .desc
     c txt
 
   &.plugin

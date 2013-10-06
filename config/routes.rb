@@ -1,4 +1,7 @@
 PrismBreak::Application.routes.draw do
+  get 'media', to: 'pages#media'
+
+
   resources :categories
 
   resources :softwares
