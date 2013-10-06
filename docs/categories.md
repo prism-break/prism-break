@@ -1,6 +1,6 @@
 PRISM Break
 
-# Browse PC
+# PC
   Operating System
   Anonymous Browsers: TBB, JondoFox, Add-ons
   Anonymous Networks: Tor, JonDo, Freenet, i2p
@@ -10,7 +10,7 @@ PRISM Break
   Email Encryption
   Message Encryption: Instant, Voice
 
-# Browse Mobile
+# Mobile
   Operating System    
   Anonymous Browsers
   Anonymous Networks: Orbot, VPN
@@ -20,7 +20,7 @@ PRISM Break
   FOSS App Store
   Message Encryption: Instant, Text, Voice
 
-# Browse Services
+# Services
   Anonymous Email Accounts
   Anonymous Search Service
   Anonymous Publishing: Document Collaboration, CMS
@@ -28,14 +28,15 @@ PRISM Break
   Anonymous Messaging Accounts
   Anonymous Social Networking Accounts
   Collaborative World Map
+  DNS Service 
 
-# Browse Server
+# Server
   Operating System 
   Analytics
   Anonymous Networks: Meshnet, Syndie, etc.
-  DNS Provider 
-  Email Server
   Cloud Storage Server
+  DNS Software 
+  Email Server
   Hardware & Software Setup
   Publishing Server: Document Collaboration, CMS
   SIP Server

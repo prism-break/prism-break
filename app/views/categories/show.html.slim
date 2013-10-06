@@ -1,8 +1,11 @@
 p#notice = notice
 
-p
-  strong Title:
-  = @category.title
+h1= @category.title
+
+- if @category.children.count > 0
+  ul
+    - @category.children.each do |kitten|
+      li= link_to "#{kitten.title}", kitten
 
 = link_to 'Edit', edit_category_path(@category)
 '|

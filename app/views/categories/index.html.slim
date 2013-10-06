@@ -1,21 +1,15 @@
 h1 Listing categories
 
-table
-  tr
-    th Title
-    th
-    th
-
+ul.categories
   - @categories.roots.each do |category|
-    tr
-      td = link_to category.title, category
-      td = link_to 'Edit', edit_category_path(category)
-      td = link_to 'Destroy', category, :confirm => 'Are you sure?', :method => :delete
+    li.category
+      .title= link_to category.title, category
+      = link_to '[edit]', edit_category_path(category)
+      = link_to '[x]', category, :confirm => 'Are you sure?', :method => :delete
       - if category.children.count > 0
-        - category.children.each do |kitten|
-          td
-            = link_to "#{kitten.title}", kitten
-            | &nbsp;&nbsp;
+        ul.subcategories
+          - category.children.each do |kitten|
+            li.subcategory= link_to "#{kitten.title}", kitten
 
 
 br
