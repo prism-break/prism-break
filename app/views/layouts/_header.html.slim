@@ -9,6 +9,8 @@
       | Break
   ul.nav
     li.links
+      = link_to 'Software', softwares_path, class: 'plain'
+    li.links
       a.plain href='./media/'= t 'media'
     li.links 
       a.plain href='./donate/' #{t 'donate'} Bitcoin
