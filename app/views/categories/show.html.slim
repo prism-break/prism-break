@@ -1,6 +1,12 @@
 p#notice = notice
 
-h1= @category.title
+h1
+  = link_to 'All', root_path
+  - if @category.parent != nil
+    |  > 
+    = link_to @category.parent.title, @category.parent
+  |  > 
+  = @category.title
 
 ul
   - @category.softwares.each do |software|
