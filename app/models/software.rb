@@ -8,4 +8,8 @@ class Software < ActiveRecord::Base
   # translations and edit history
   translates :title, :description, :url, :source_url, :privacy_url, :tos_url, :versioning => true
   has_paper_trail
+
+  # associations
+  has_many :categorizations
+  has_many :categories, through: :categorizations
 end

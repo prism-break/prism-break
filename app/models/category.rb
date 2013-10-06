@@ -10,5 +10,6 @@ class Category < ActiveRecord::Base
   acts_as_tree
 
   # associations
-  has_many :softwares
+  has_many :categorizations
+  has_many :softwares, through: :categorizations
 end
