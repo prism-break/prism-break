@@ -3,13 +3,21 @@ h1 Listing categories
 ul.categories
   - @categories.roots.each do |category|
     li.category
-      .title= link_to category.title, category
-      = link_to '[edit]', edit_category_path(category)
-      = link_to '[x]', category, :confirm => 'Are you sure?', :method => :delete
+      .title
+        = link_to category.title, category
+        | &nbsp;&nbsp;
+        = link_to '[edit]', edit_category_path(category)
+        |  
+        = link_to '[x]', category, :confirm => 'Are you sure?', :method => :delete
       - if category.children.count > 0
         ul.subcategories
           - category.children.each do |kitten|
-            li.subcategory= link_to "#{kitten.title}", kitten
+            li.subcategory
+              = link_to "#{kitten.title}", kitten
+              | &nbsp;&nbsp;
+              = link_to '[edit]', edit_category_path(kitten)
+              |  
+              = link_to '[x]', kitten, :confirm => 'Are you sure?', :method => :delete
 
 
 br
