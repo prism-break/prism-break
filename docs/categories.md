@@ -35,7 +35,7 @@ PRISM Break
   Analytics
   Anonymous Networks: Meshnet, Syndie, etc.
   Cloud Storage Server
-  DNS Software 
+  DNS Server 
   Email Server
   Hardware & Software Setup
   Publishing Server: Document Collaboration, CMS
