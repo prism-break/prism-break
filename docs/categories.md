@@ -13,7 +13,7 @@ PRISM Break
 # Browse Mobile
   Operating System    
   Anonymous Browsers
-  Anonymous Networks: Tor, JonDo, i2p
+  Anonymous Networks: Orbot, VPN
   Cryptocurrencies
   Disk Encryption
   Email Encryption
@@ -24,20 +24,22 @@ PRISM Break
   Anonymous Email Accounts
   Anonymous Search Service
   Anonymous Publishing: Document Collaboration, CMS
-  Anonymous File Storage
+  Anonymous Cloud Storage
   Anonymous Messaging Accounts
   Anonymous Social Networking Accounts
   Collaborative World Map
 
 # Browse Server
   Operating System 
-  Anonymous Networks: VPN, Meshnet, Tor, Syndie, etc.
   Analytics
-  Disk Encryption
+  Anonymous Networks: Meshnet, Syndie, etc.
   DNS Provider 
-  Email
-  File Storage
-  Hardware & Software
-  Encrypted Messaging: XMPP, SIP
-  Publishing: Document Collaboration, CMS
-  Social Networking
+  Email Server
+  Cloud Storage Server
+  Hardware & Software Setup
+  Publishing Server: Document Collaboration, CMS
+  SIP Server
+  Social Network Server
+  Tor Relay
+  VPN Server
+  XMPP Server
