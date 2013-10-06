@@ -1,57 +1,43 @@
-# Browse Services
-  Social Networking
-  Email
-  Instant messaging (XMPP)
-  VoIP (SIP)
-  Cloud Storage   
-  Document Collaboration
-  Media Publishing
-  VPN
-  Maps    
-  Web Search    
+PRISM Break
+
+# Browse PC
+  Operating System
+  Anonymous Browsers: TBB, JondoFox, Add-ons
+  Anonymous Networks: Tor, JonDo, Freenet, i2p
+  Anonymous Search
+  Cryptocurrencies
+  Disk Encryption
+  Email Encryption
+  Message Encryption: Instant, Voice
 
 # Browse Mobile
   Operating System    
-  Web Browsers
-  Email Client
-  Email Replacement
-  Text Messaging
-  Instant Messaging
-  File Encryption   
-  VoIP
-  Online Transactions   
-  Digital Distribution    
-  Anonymizing Network   
+  Anonymous Browsers
+  Anonymous Networks: Tor, JonDo, i2p
+  Cryptocurrencies
+  Disk Encryption
+  Email Encryption
+  FOSS App Store
+  Message Encryption: Instant, Text, Voice
 
-# Browse PC
-  Operating System    
-    GNU/inux
-    BSD
-    Live CD/USB
-    Virtual Machine
-  Web Browsers
-    Add-ons  
-  Email Client
-  Email Replacement
-  Instant messaging
-  File Encryption
-  VoIP
-  Online Transactions   
-  Digital Distribution    
-  Anonymizing Network   
-  Web Search    
+# Browse Services
+  Anonymous Email Accounts
+  Anonymous Search Service
+  Anonymous Publishing: Document Collaboration, CMS
+  Anonymous File Storage
+  Anonymous Messaging Accounts
+  Anonymous Social Networking Accounts
+  Collaborative World Map
 
 # Browse Server
-  Operating System    
-  Web Analytics   
-  DNS Provider    
-  Meshnet   
-  Hardware & Software Setup   
-  Social Network Server
-  Email Server
-  XMPP Server
-  SIP Server
-  Cloud Storage Server
-  Document Collaboration Server
-  Media Publishing Server
-  VPN Server
+  Operating System 
+  Anonymous Networks: VPN, Meshnet, Tor, Syndie, etc.
+  Analytics
+  Disk Encryption
+  DNS Provider 
+  Email
+  File Storage
+  Hardware & Software
+  Encrypted Messaging: XMPP, SIP
+  Publishing: Document Collaboration, CMS
+  Social Networking
