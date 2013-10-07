@@ -9,6 +9,7 @@ ul.categories
         = link_to '[edit]', edit_category_path(category)
         |  
         = link_to '[x]', category, :confirm => 'Are you sure?', :method => :delete
+    /
       - if category.children.count > 0
         ul.subcategories
           - category.children.each do |kitten|

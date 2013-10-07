@@ -8,16 +8,29 @@ h1
   |  > 
   = @category.title
 
-ul
-  - @category.softwares.each do |software|
-    li.card
-      .title= link_to software.title, software
-      .desc= software.description
-
-- if @category.children.count > 0
+/ show software in subcategories
+- if @category.softwares
   ul
-    - @category.children.each do |kitten|
-      li= link_to "#{kitten.title}", kitten
+    - @category.softwares.each do |software|
+      li.card
+        .title= link_to software.title, software
+        .desc= software.description
+
+/ show subcategories in parent categories
+- if @category.children != nil
+  ul
+    - @category.children.each do |subcategory|
+      h1= link_to "#{subcategory.title}", subcategory
+      ul
+        - subcategory.softwares.each do |software|
+          li.card
+            .title= link_to software.title, software
+            .desc= software.description
+            .category
+              - software.categories.each do |category|
+                = category.title
+
+
 
 = link_to 'Edit', edit_category_path(@category)
 '|
