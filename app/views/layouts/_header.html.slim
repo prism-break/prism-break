@@ -2,5 +2,10 @@
   .menu-trigger
     span.border
       span.btn &#9776;
+  #brand
+    = link_to root_url do
+      strong PRISM
+      span.lightning  &#9889; 
+      | Break 
   ul.nav
     li#language= render 'partials/language_select'
