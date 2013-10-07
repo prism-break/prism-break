@@ -26,8 +26,11 @@
     = f.text_field :tos_url
   .field
     = f.label :category
-    - Category.all.each do |category|
-      .checkbox
-        = check_box_tag :category_ids, category.id, @software.categories.include?(category), :name => 'software[category_ids][]', :id => "category_check_#{category.id}"
-        = label_tag "category_check_#{category.id}", category.title
+    - Category.roots.each do |category|
+      h2= category.title
+      ul
+        - category.children.each do |subcategory|
+          li.checkbox
+            = check_box_tag :category_ids, subcategory.id, @software.categories.include?(subcategory), :name => 'software[category_ids][]', :id => "category_check_#{subcategory.id}"
+            = label_tag "category_check_#{subcategory.id}", subcategory.title
   .actions = f.submit 'Save'
