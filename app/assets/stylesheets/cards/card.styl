@@ -1,20 +1,35 @@
 .card
   border-top 1px solid #ddd
   list-style none
-  clearfix()
   d block
-  p .75em
+  w 320px
   clearfix()
+  relative()
 
   a
     &.btn-rectangle
     &.btn-square
       d block
-      fl left
+
     &.btn-rectangle
-      w 280px
+      p .75em
+      clearfix()
+      &:hover
+        bg m245
+
     &.btn-square
-      w 40px
+      lhh 2em
+      ta center
+      b 1px solid txt
+      p 0 .5em
+      s 75%
+      c #333
+      absolute()
+      right 12px
+      top 24px
+      bg #fff
+      &:hover
+        bg m245
 
   .image
     d block
@@ -22,14 +37,13 @@
     w 50px
     h 50px
     bg #ddd
-    mr x
+    mr x*0.75
 
   .title
     display inline
     c #333
 
   .title
-    font-weight bold
     pr x * 0.25
 
   .desc
