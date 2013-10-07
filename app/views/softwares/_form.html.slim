@@ -8,31 +8,28 @@
 
   .field
     = f.label :title, 'Software Title*'
-    = f.text_field :title, placeholder: 'e.g. Fakeblock'
+    = f.text_field :title
   .field
     = f.label :description, 'Software Description*'
-    = f.text_area :description, placeholder: 'Describe the software project. Markdown is available.'
+    = f.text_area :description
   .field
-    = f.label :url, 'Software Website*'
-    = f.text_field :url, placeholder: 'e.g. https://project.org/'
+    = f.label :url, 'Software URL*'
+    = f.url_field :url
+  .field
+    = f.label :source_url, 'Source Code URL'
+    = f.url_field :source_url
+  .field
+    = f.label :privacy_url, 'Privacy Policy URL'
+    = f.url_field :privacy_url
+  .field
+    = f.label :tos_url, 'Terms of Service URL'
+    = f.url_field :tos_url
 
   .field
-    = f.label :source_url, 'Source Code'
-    = f.text_field :source_url, placeholder: 'e.g. https://git.project.org/'
-
-  .field
-    = f.label :privacy_url, 'Privacy Policy'
-    = f.text_field :privacy_url, placeholder: 'e.g. https://project.org/privacy'
-  .field
-    = f.label :tos_url, 'Terms of Service'
-    = f.text_field :tos_url, placeholder: 'e.g. https://project.org/terms'
-
-  .field
-    = f.label :category, 'Software Category*'
-    p You may select multiple categories.
+    = f.label :category, 'Software Categories*'
     - Category.roots.each do |category|
       h2= category.title
-      ul
+      ul.checkboxes
         - category.children.each do |subcategory|
           li.checkbox
             = check_box_tag :category_ids, subcategory.id, @software.categories.include?(subcategory), :name => 'software[category_ids][]', :id => "category_check_#{subcategory.id}"

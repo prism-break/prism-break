@@ -1,33 +1,35 @@
 .field
-  p 0 1em .5em
+  p 0 .5em 0
   clearfix()
-  w 320px
 
   label
     d block
+    fw bold
 
 input[type=text],
 input[type=password],
+input[type=url],
+input[type=number],
+input[type=email],
 textarea
   d block
   b 1px solid bc
-  p .5em .25em
+  p .5em .4em
   f 1em/1.5 sans-serif
   w 100%
 
 textarea
   height 9em
 
+.checkboxes
+  m 0 0 1em
 .checkbox
   input
-    d inline-block
     m 0 .5em
-    vertical-align middle
   label
-    w auto
+    f 1em/2 sans
     p 0
     d inline
     float none
     ta left
-    df()
     fw normal
