@@ -1,25 +1,26 @@
 p#notice = notice
 
 
-h1= @software.title
-p
-  strong Description:
-  = @software.description
-p
-  strong Website:
-  = @software.url
-p
-  strong Source Code:
-  = @software.source_url
-p
-  strong Privacy Policy:
-  = @software.privacy_url
-p
-  strong Terms of Service:
-  = @software.tos_url
+= render 'softwares/card', software: @software
 
+h2 Description 
+= @software.description
+
+h2 Details
 p
-  strong Category:
+  strong Website 
+  = link_to @software.url, @software.url
+p
+  strong Source Code 
+  = link_to @software.source_url, @software.source_url
+p
+  strong Privacy Policy 
+  = link_to @software.privacy_url, @software.privacy_url
+p
+  strong Terms of Service  
+  = link_to @software.tos_url, @software.tos_url
+
+h2 Category
 ul
   - @software.categories.each do |cat|
     li
@@ -30,6 +31,4 @@ ul
 
 br
 
-= link_to 'Edit', edit_software_path(@software)
-'|
-= link_to 'Back', categories_path
+= link_to 'Edit Software', edit_software_path(@software)
