@@ -1,11 +1,12 @@
 p#notice = notice
 
 h1
-  = link_to 'All', root_path
   - if @category.parent != nil
-    |  &rsaquo; 
     = link_to @category.parent.title, @category.parent
-  |  &rsaquo; 
+    |  &rsaquo; 
+  - else
+    = link_to 'All', root_path
+    |  &rsaquo; 
   = @category.title
 
 - @category.softwares.each do |software|
