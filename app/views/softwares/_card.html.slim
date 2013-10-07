@@ -1,0 +1,6 @@
+.card
+  = link_to software, class: 'btn-rectangle' do 
+    img.image src='#' width='50' height='50'
+    .title= software.title
+    .category= @category.leaves & software.categories
+  = link_to 'Website', software.url, class: 'btn-square'

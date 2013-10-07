@@ -3,35 +3,18 @@ p#notice = notice
 h1
   = link_to 'All', root_path
   - if @category.parent != nil
-    |  > 
+    |  &rsaquo; 
     = link_to @category.parent.title, @category.parent
-  |  > 
+  |  &rsaquo; 
   = @category.title
 
-/ show software in subcategories
-- if @category.softwares
-  ul
-    - @category.softwares.each do |software|
-      li.card
-        .title= link_to software.title, software
-        .desc= software.description
+- @category.softwares.each do |software|
+  = render 'softwares/card', software: software
 
-/ show subcategories in parent categories
-- if @category.children != nil
-  ul
-    - @category.children.each do |subcategory|
-      h1= link_to "#{subcategory.title}", subcategory
-      ul
-        - subcategory.softwares.each do |software|
-          li.card
-            .title= link_to software.title, software
-            .desc= software.description
-            .category
-              - software.categories.each do |category|
-                = category.title
+- @category.children.each do |subcategory|
+  h1= link_to "#{subcategory.title}", subcategory
 
+  - subcategory.softwares.each do |software|
+    = render 'softwares/card', software: software
 
-
-= link_to 'Edit', edit_category_path(@category)
-'|
-= link_to 'Back', categories_path
+= link_to 'Edit Category', edit_category_path(@category)

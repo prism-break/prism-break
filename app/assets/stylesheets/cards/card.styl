@@ -1,25 +1,32 @@
 .card
-  border-bottom 1px solid #ddd
+  border-top 1px solid #ddd
   list-style none
   clearfix()
-  line-height 1.25
-
   d block
   p .75em
   clearfix()
 
-  img.logo
+  a
+    &.btn-rectangle
+    &.btn-square
+      d block
+      fl left
+    &.btn-rectangle
+      w 280px
+    &.btn-square
+      w 40px
+
+  .image
     d block
     float left
     w 50px
     h 50px
+    bg #ddd
     mr x
 
-  .title, p
+  .title
     display inline
-    &:hover
-      td underline
-      c hover
+    c #333
 
   .title
     font-weight bold
@@ -27,6 +34,9 @@
 
   .desc
     c txt
+  .category
+    f 75%/1.5 sans
+    c dim
 
   &.plugin
     bl x * 0.75 solid #eee
