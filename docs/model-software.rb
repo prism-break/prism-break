@@ -21,6 +21,12 @@ tos_url: string
 # Tag groups
 
 status: recommended, quarantined, rejected
+# Recommended (Green) - no currently known issues
+# Vulnerable (Yellow) - otherwise recommended software that contain major security vulnerabilities
+# Pending (White) - suggested software that have not been reviewed.
+# Declined (Black) - software that doesn't meet the quality standards of PRISM Break.
+# Rejected (Red) - software with licensing issues, privacy issues, or known links to surveillance (e.g. PRISM)
+
 category: operating system, web browser, antivirus, etc.
 type: service, client software, server software, p2p software
 licenses: GPL, MIT, BSD, etc.
