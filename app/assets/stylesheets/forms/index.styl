@@ -1,29 +1,30 @@
 .field
   p 0 1em .5em
   clearfix()
+  w 320px
 
   label
     d block
-    p 0 1em
     fw bold
-    float left
-    w 33%
-    ta right
     lh 2em
-  input, textarea
-    float left
-    w 67%
 
-input, textarea
+input[type=text],
+input[type=password],
+textarea
   d block
   b 1px solid bc
   p .5em .25em
   f 1em/1.5 sans-serif
+  w 100%
 
 textarea
   height 6em
 
 .checkbox
+  input
+    d inline-block
+    m 0 .5em
+    vertical-align middle
   label
     w auto
     p 0
