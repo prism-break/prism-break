@@ -15,6 +15,7 @@ class SoftwaresController < ApplicationController
   # GET /softwares/new
   def new
     @software = Software.new
+    @categories = Category.all
   end
 
   # GET /softwares/1/edit
@@ -40,6 +41,7 @@ class SoftwaresController < ApplicationController
   # PATCH/PUT /softwares/1
   # PATCH/PUT /softwares/1.json
   def update
+    @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     respond_to do |format|
       if @software.update(software_params)
         format.html { redirect_to @software, notice: 'Software was successfully updated.' }
@@ -69,6 +71,6 @@ class SoftwaresController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def software_params
-      params.require(:software).permit(:title, :description, :url, :source_url, :privacy_url, :tos_url)
+      params.require(:software).permit(:title, :description, :url, :source_url, :privacy_url, :tos_url, :category_ids)
     end
 end

@@ -24,4 +24,10 @@
   .field
     = f.label :tos_url
     = f.text_field :tos_url
+  .field
+    = f.label :category
+    - Category.all.each do |category|
+      .checkbox
+        = check_box_tag :category_ids, category.id, @software.categories.include?(category), :name => 'software[category_ids][]', :id => "category_check_#{category.id}"
+        = label_tag "category_check_#{category.id}", category.title
   .actions = f.submit 'Save'

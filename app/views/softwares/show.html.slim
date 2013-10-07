@@ -1,24 +1,35 @@
 p#notice = notice
 
-p
-  strong Title:
-  = @software.title
+
+h1= @software.title
 p
   strong Description:
   = @software.description
 p
-  strong Url:
+  strong Website:
   = @software.url
 p
-  strong Source url:
+  strong Source Code:
   = @software.source_url
 p
-  strong Privacy url:
+  strong Privacy Policy:
   = @software.privacy_url
 p
-  strong Tos url:
+  strong Terms of Service:
   = @software.tos_url
+
+p
+  strong Category:
+ul
+  - @software.categories.each do |cat|
+    li
+      - if cat.parent != nil
+        = link_to cat.parent.title, cat.parent
+        |  > 
+      = link_to cat.title, cat
+
+br
 
 = link_to 'Edit', edit_software_path(@software)
 '|
-= link_to 'Back', softwares_path
+= link_to 'Back', categories_path
