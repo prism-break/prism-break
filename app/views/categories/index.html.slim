@@ -1,26 +1,11 @@
-h1 Listing categories
+p.intro.i18n-intro=raw t 'intro'
 
-ul.categories
-  - @categories.roots.each do |category|
-    li.category
-      .title
-        = link_to category.title, category
-        | &nbsp;&nbsp;
-        = link_to '[edit]', edit_category_path(category)
-        |  
-        = link_to '[x]', category, :confirm => 'Are you sure?', :method => :delete
-    /
-      - if category.children.count > 0
-        ul.subcategories
-          - category.children.each do |kitten|
-            li.subcategory
-              = link_to "#{kitten.title}", kitten
-              | &nbsp;&nbsp;
-              = link_to '[edit]', edit_category_path(kitten)
-              |  
-              = link_to '[x]', kitten, :confirm => 'Are you sure?', :method => :delete
-
+- @categories.roots.each do |category|
+  h1
+    .title
+      | Browse &#9889; 
+      strong= link_to category.title, category
+      |  &rsaquo;
 
 br
-
 = link_to 'New Category', new_category_path

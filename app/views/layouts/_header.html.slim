@@ -10,10 +10,4 @@
   ul.nav
     li.links
       = link_to 'Software', softwares_path, class: 'plain'
-    li.links
-      = link_to t('media'), media_path, class: 'plain'
-    li.links 
-      a.plain href='./donate/' #{t 'donate'} Bitcoin
-    li.links 
-      a.plain href='https://github.com/nylira/prism-break '= t 'contribute'
     li#language= render 'partials/language_select'

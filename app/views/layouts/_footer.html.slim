@@ -1,6 +1,5 @@
 #footer.container
 
-  = render 'partials/language_list'
 
   p.disclaimer= t 'disclaimer'
 
@@ -9,11 +8,17 @@
       | #{t 'updated'} #{t 'by'} 
       a href='https://twitter.com/zcpeng' @zcpeng
     li
+      = link_to t('media'), media_path, class: 'plain'
+    li
       a href='https://github.com/nylira/prism-break/commits/master'
         = t 'changelog'
     li
       a href='https://github.com/nylira/prism-break/blob/master/LICENSE.md'
         = t 'license'
+    li 
+      a href='https://github.com/nylira/prism-break '= t 'contribute'
+    li 
+      a href='./donate/' #{t 'donate'} Bitcoin
     li.last
       | A 
       a href='http://nylira.com/' Nylira
