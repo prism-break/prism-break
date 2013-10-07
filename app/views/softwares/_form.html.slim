@@ -7,25 +7,29 @@
           li = message
 
   .field
-    = f.label :title, 'Software Title'
-    = f.text_field :title
+    = f.label :title, 'Software Title*'
+    = f.text_field :title, placeholder: 'e.g. Fakeblock'
   .field
-    = f.label :description, 'Software Description'
-    = f.text_area :description
+    = f.label :description, 'Software Description*'
+    = f.text_area :description, placeholder: 'Describe the software project. Markdown is available.'
   .field
-    = f.label :url, 'Software URL'
-    = f.text_field :url
+    = f.label :url, 'Software Website*'
+    = f.text_field :url, placeholder: 'e.g. https://project.org/'
+
   .field
-    = f.label :source_url, 'Source Code URL'
-    = f.text_field :source_url
+    = f.label :source_url, 'Source Code'
+    = f.text_field :source_url, placeholder: 'e.g. https://git.project.org/'
+
   .field
-    = f.label :privacy_url, 'Privacy Policy URL'
-    = f.text_field :privacy_url
+    = f.label :privacy_url, 'Privacy Policy'
+    = f.text_field :privacy_url, placeholder: 'e.g. https://project.org/privacy'
   .field
-    = f.label :tos_url, 'Terms of Service URL'
-    = f.text_field :tos_url
+    = f.label :tos_url, 'Terms of Service'
+    = f.text_field :tos_url, placeholder: 'e.g. https://project.org/terms'
+
   .field
-    = f.label :category, 'Software Category'
+    = f.label :category, 'Software Category*'
+    p You may select multiple categories.
     - Category.roots.each do |category|
       h2= category.title
       ul
