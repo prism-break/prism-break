@@ -13,7 +13,7 @@ h1
   = render 'softwares/card', software: software
 
 - @category.children.each do |subcategory|
-  h1= link_to "#{subcategory.title}", subcategory
+  h1= link_to "#{subcategory.title}", subcategory, class: 'block'
 
   - subcategory.softwares.each do |software|
     = render 'softwares/card', software: software

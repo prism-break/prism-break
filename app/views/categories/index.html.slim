@@ -3,9 +3,10 @@ p.intro.i18n-intro=raw t 'intro'
 - @categories.roots.each do |category|
   h1
     .title
-      | Browse &#9889; 
-      strong= link_to category.title, category
-      |  &rsaquo;
+      = link_to category, class: 'block' do
+        | Browse 
+        strong= category.title
+        |  &rsaquo;
 
 br
 = link_to 'New Category', new_category_path
