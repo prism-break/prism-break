@@ -3,7 +3,7 @@
 
 .card
   = link_to software, class: 'btn-rectangle' do 
-    img.image src='#' width='50' height='50'
+    = image_tag software.logo.url(:medium), class: 'image'
     .title= software.title
     .category= category_title
 

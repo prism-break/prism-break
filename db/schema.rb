@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131006143312) do
+ActiveRecord::Schema.define(version: 20131008152210) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -76,6 +76,10 @@ ActiveRecord::Schema.define(version: 20131006143312) do
     t.string   "tos_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "logo_file_name"
+    t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
   end
 
   create_table "versions", force: true do |t|
