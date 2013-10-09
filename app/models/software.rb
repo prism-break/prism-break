@@ -1,22 +1,11 @@
 class Software < ActiveRecord::Base
-  # validations
-  validates :title, presence: true
-  validates :description, presence: true
-  validates :url, presence: true
-  validates :source_url, presence: true
-
-  validates_format_of :url, :source_url, :privacy_url, :tos_url,
-    :with => URI::regexp(%w(http https)),
-    :message => "requires 'https://' or 'http://'",
-    :allow_blank => :true
+  # associations
+  has_many :categorizations
+  has_many :categories, through: :categorizations
 
   # translations and edit history
   translates :title, :description, :url, :source_url, :privacy_url, :tos_url, :versioning => true
   has_paper_trail
-
-  # associations
-  has_many :categorizations
-  has_many :categories, through: :categorizations
   
   # paperclip
   has_attached_file :logo,
@@ -29,4 +18,19 @@ class Software < ActiveRecord::Base
       :small => "40x40>"
     },
     :default_url => "/images/:style/missing.png"
+
+  # validations
+  validates :title, presence: true
+  validates :description, presence: true
+  validates :url, presence: true
+  validates :source_url, presence: true
+
+  validates_format_of :url, :source_url, :privacy_url, :tos_url,
+    :with => URI::regexp(%w(http https)),
+    :message => "requires 'https://' or 'http://'",
+    :allow_blank => :true
+
+  validates_attachment :logo, :presence => true,
+    :size => { :in => 0..40.kilobytes }
+
 end
