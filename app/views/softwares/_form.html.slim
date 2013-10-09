@@ -13,8 +13,9 @@
     = f.label :description, 'Software Description*'
     = f.text_area :description
   .field
+    = image_tag @software.logo.url(:medium), class: 'software-logo'
     = f.label :logo, 'Software Logo*'
-    p Square image up to 1024px &times; 1024px in size.
+    p.desc Square image up to 1024px &times; 1024px in size.
     = f.file_field :logo
   .field
     = f.label :url, 'Software URL*'
