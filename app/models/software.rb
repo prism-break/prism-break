@@ -20,17 +20,17 @@ class Software < ActiveRecord::Base
     :default_url => "/images/:style/missing.png"
 
   # validations
-  validates :title, presence: true
-  validates :description, presence: true
-  validates :url, presence: true
-  validates :source_url, presence: true
+  validates :title, presence: true, uniqueness: true
+  validates :description, presence: true, uniqueness: true
+  validates :url, presence: true, uniqueness: true
+  validates :source_url, presence: true, uniqueness: true
 
   validates_format_of :url, :source_url, :privacy_url, :tos_url,
     :with => URI::regexp(%w(http https)),
     :message => "requires 'https://' or 'http://'",
     :allow_blank => :true
 
-  validates_attachment :logo, :presence => true,
+  validates_attachment :logo,
     :size => { :in => 0..40.kilobytes }
 
 end

@@ -1,26 +1,7 @@
-h1 Listing softwares
+h1 All Software
 
-table
-  tr
-    th Title
-    th Description
-    th Source
-    th Privacy
-    th ToS
-    th
-    th
-    th
-
-  - @softwares.each do |software|
-    tr
-      td = link_to software.title, software
-      td = software.description
-      td = software.source_url
-      td = software.privacy_url
-      td = software.tos_url
-      td = link_to 'Visit site', software.url
-      td = link_to 'Edit', edit_software_path(software)
-      td = link_to 'Destroy', software, :confirm => 'Are you sure?', :method => :delete
+- @softwares.each do |software|
+  = render 'softwares/card', software: software
 
 br
 

@@ -26,6 +26,7 @@ class SoftwaresController < ApplicationController
   # POST /softwares.json
   def create
     @software = Software.new(software_params)
+    @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
 
     respond_to do |format|
       if @software.save

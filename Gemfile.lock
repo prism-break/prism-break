@@ -31,6 +31,16 @@ GIT
     routing-filter (0.4.0.pre)
       actionpack
 
+GIT
+  remote: git://github.com/thoughtbot/paperclip.git
+  revision: 1d8982325fb43ee654b9476b34213a37429d7e22
+  specs:
+    paperclip (3.5.1)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.0)
+      mime-types
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -105,12 +115,6 @@ GEM
     minitest (4.7.5)
     multi_json (1.8.1)
     mysql2 (0.3.13)
-    paperclip (3.4.2)
-      activemodel (>= 3.0.0)
-      activerecord (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      cocaine (~> 0.5.0)
-      mime-types
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -182,7 +186,7 @@ DEPENDENCIES
   livescript-rails
   mysql2
   paper_trail!
-  paperclip (= 3.4.2)
+  paperclip!
   rails (= 4.0.0)
   rb-readline (~> 0.4.2)
   routing-filter!

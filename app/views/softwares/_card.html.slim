@@ -1,5 +1,6 @@
-- subcategories = software.categories.first.root.leaves
-- category_title = (subcategories & software.categories).first.title
+- if software.categories.first != nil
+  - subcategories = software.categories.first.root.leaves
+  - category_title = (subcategories & software.categories).first.title
 
 .card
   = link_to software, class: 'btn-rectangle' do 
