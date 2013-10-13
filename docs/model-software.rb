@@ -20,6 +20,9 @@ tos_url: string
 
 # Tag groups
 
+category: operating system, web browser, antivirus, etc.
+
+TODO:
 status: recommended, quarantined, rejected
 # Recommended (Green) - no currently known issues
 # Vulnerable (Yellow) - otherwise recommended software that contain major security vulnerabilities
@@ -27,12 +30,11 @@ status: recommended, quarantined, rejected
 # Declined (Black) - software that doesn't meet the quality standards of PRISM Break.
 # Rejected (Red) - software with licensing issues, privacy issues, or known links to surveillance (e.g. PRISM)
 
-category: operating system, web browser, antivirus, etc.
-type: service, client software, server software, p2p software
 licenses: GPL, MIT, BSD, etc.
-platforms: web, windows, linux, osx, ios, android, bsd
 localizations: english, deutsch, japanese
-protocols supported: xmpp, sip, pgp, otr
+protocols_supported: xmpp, sip, pgp, otr
+type: service, client software, server software, p2p software
+platforms: web, windows, linux, osx, ios, android, bsd
 
 # http://www.evanmiller.org/how-not-to-sort-by-average-rating.html
 # User reviews

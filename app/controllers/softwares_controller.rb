@@ -4,7 +4,7 @@ class SoftwaresController < ApplicationController
   # GET /softwares
   # GET /softwares.json
   def index
-    @softwares = Software.all
+    @softwares = Software.find(:all, :order => 'title')
   end
 
   # GET /softwares/1
