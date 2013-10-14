@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'rb-readline', '~> 0.4.2'
 gem 'routing-filter', github: 'svenfuchs/routing-filter'
-gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
+gem 'globalize', github: 'globalize/globalize'
 gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 gem 'jquery-turbolinks' # fixes "jquery only reloads on refresh"
 gem 'closure_tree' # for tree based categories

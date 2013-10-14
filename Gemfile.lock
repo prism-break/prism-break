@@ -1,10 +1,19 @@
 GIT
   remote: git://github.com/airblade/paper_trail.git
-  revision: 41d1b5cd65d7789a9e69e42ae058e71c4747a81d
+  revision: 617c203a897f934f9f4b7964bddeedfa63863eae
   branch: master
   specs:
     paper_trail (3.0.0.beta1)
       activerecord (>= 3.0, < 5.0)
+
+GIT
+  remote: git://github.com/globalize/globalize.git
+  revision: 7eff89d273362e15d0e1cd55602c5d997e61946d
+  specs:
+    globalize (4.0.0.alpha.1)
+      activemodel (>= 4.0.0)
+      activerecord (>= 4.0.0)
+      paper_trail (~> 3.0.0.beta)
 
 GIT
   remote: git://github.com/lucasmazza/ruby-stylus.git
@@ -13,16 +22,6 @@ GIT
     stylus (1.0.0.beta)
       execjs
       stylus-source
-
-GIT
-  remote: git://github.com/svenfuchs/globalize3.git
-  revision: ecce4a41458f717a779e068d43cfd08170bac1eb
-  branch: rails4
-  specs:
-    globalize3 (0.3.0)
-      activemodel (>= 4.0.0)
-      activerecord (>= 4.0.0)
-      paper_trail (~> 3.0.0.beta)
 
 GIT
   remote: git://github.com/svenfuchs/routing-filter.git
@@ -73,7 +72,7 @@ GEM
     builder (3.1.4)
     climate_control (0.0.3)
       activesupport (>= 3.0)
-    closure_tree (4.2.8)
+    closure_tree (4.2.9)
       activerecord (>= 3.0.0)
       with_advisory_lock (>= 0.0.9)
     cocaine (0.5.2)
@@ -179,7 +178,7 @@ PLATFORMS
 
 DEPENDENCIES
   closure_tree
-  globalize3!
+  globalize!
   jbuilder (~> 1.2)
   jquery-rails
   jquery-turbolinks

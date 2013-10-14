@@ -5,28 +5,20 @@ p#notice = notice
 h2 Description 
 = @software.description
 
-h2 Details
-p
-  strong Website 
-  = link_to @software.url, @software.url
-p
-  strong Source Code 
-  = link_to @software.source_url, @software.source_url
-p
-  strong Privacy Policy 
-  = link_to @software.privacy_url, @software.privacy_url
-p
-  strong Terms of Service  
-  = link_to @software.tos_url, @software.tos_url
+h1= link_to 'Source Code []', @software.source_url, class: 'block'
 
-h2 Category
-ul
+- if @software.privacy_url != ""
+  h1= link_to 'Privacy Policy []', @software.privacy_url, class: 'block'
+
+- if @software.tos_url != ""
+  h1= link_to  'Terms of Service []', @software.tos_url, class: 'block'
+
+h1
   - @software.categories.each do |cat|
-    li
-      - if cat.parent != nil
-        = link_to cat.parent.title, cat.parent
-        |  > 
-      = link_to cat.title, cat
+    - if cat.parent != nil
+      = link_to cat.parent.title, cat.parent
+      |  > 
+    = link_to cat.title, cat
 
 br
 
