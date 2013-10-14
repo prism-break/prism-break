@@ -1,0 +1,6 @@
+.card
+  = link_to protocol, class: 'btn-rectangle' do 
+    = image_tag '#', class: 'software-logo'
+    .title= protocol.title
+    .category Protocol
+  = link_to 'Wikipedia', protocol.url, class: 'btn-square'
