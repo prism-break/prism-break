@@ -7,4 +7,9 @@ class Protocol < ActiveRecord::Base
   validates :title, presence: true, uniqueness: true
   validates :description, presence: true, uniqueness: true
   validates :url, presence: true, uniqueness: true
+  validates_format_of :url,
+    :with => URI::regexp(%w(http https)),
+    :message => "requires 'https://' or 'http://'",
+    :allow_blank => :true
+
 end
