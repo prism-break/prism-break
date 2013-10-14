@@ -98,11 +98,6 @@ function setLangByHash() {
 }
 setLangByHash();
 
-if(navigator.language != undefined && navigator.language.length > 1 && langs.indexOf(navigator.language) > -1)
-{
-  updateWithJSON(navigator.language);
-}
-
 // hide hideable by default
 $(".hideable").hide();
 
