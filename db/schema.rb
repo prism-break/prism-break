@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131014025849) do
+ActiveRecord::Schema.define(version: 20131014092947) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -50,6 +50,19 @@ ActiveRecord::Schema.define(version: 20131014025849) do
 
   add_index "category_translations", ["category_id"], name: "index_category_translations_on_category_id", using: :btree
   add_index "category_translations", ["locale"], name: "index_category_translations_on_locale", using: :btree
+
+  create_table "protocol_translations", force: true do |t|
+    t.integer  "protocol_id", null: false
+    t.string   "locale",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+    t.string   "url"
+  end
+
+  add_index "protocol_translations", ["locale"], name: "index_protocol_translations_on_locale", using: :btree
+  add_index "protocol_translations", ["protocol_id"], name: "index_protocol_translations_on_protocol_id", using: :btree
 
   create_table "protocols", force: true do |t|
     t.string   "title"
