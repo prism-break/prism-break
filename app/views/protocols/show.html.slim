@@ -1,14 +1,10 @@
 p#notice = notice
 
-p
-  strong Title:
-  = @protocol.title
-p
-  strong Description:
-  = @protocol.description
-p
-  strong Url:
-  = @protocol.url
+= render 'protocols/card', protocol: @protocol
+
+= link_to 'More Info', @protocol.url, class: 'btn-square'
+
+= filter_markdown(@protocol.description)
 
 = link_to 'Edit', edit_protocol_path(@protocol)
 '|
