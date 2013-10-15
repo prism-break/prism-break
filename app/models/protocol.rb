@@ -1,4 +1,8 @@
 class Protocol < ActiveRecord::Base
+  # associations
+  has_many :protocol_softwares
+  has_many :softwares, through: :protocol_softwares
+
   # localization
   translates :title, :description, :url, :versioning => true
   has_paper_trail

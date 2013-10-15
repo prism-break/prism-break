@@ -2,6 +2,8 @@ class Software < ActiveRecord::Base
   # associations
   has_many :categorizations
   has_many :categories, through: :categorizations
+  has_many :protocol_softwares
+  has_many :protocols, through: :protocol_softwares
 
   # translations and edit history
   translates :title, :description, :url, :source_url, :privacy_url, :tos_url, :versioning => true

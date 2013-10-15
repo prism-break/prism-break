@@ -31,6 +31,14 @@
     = f.url_field :tos_url
 
   .field
+    = f.label :protocol, 'Supported Protocols'
+    ul.checkboxes
+      - Protocol.all.each do |protocol|
+        li.checkbox
+          = check_box_tag :protocol_ids, protocol.id, @software.protocols.include?(protocol), :name => 'software[protocol_ids][]', :id => "protocol_check_#{protocol.id}"
+          = label_tag "protocol_check_#{protocol.id}", protocol.title
+
+  .field
     = f.label :category, 'Software Categories*'
     - Category.roots.each do |category|
       h2= category.title
