@@ -13,13 +13,20 @@ h1= link_to 'Source Code []', @software.source_url, class: 'block'
 - if @software.tos_url != ""
   h1= link_to  'Terms of Service []', @software.tos_url, class: 'block'
 
-h2 Protocol Support
-ul
-  - @software.protocols.each do |protocol|
-    li= link_to protocol.title, protocol
-  
-h1
-  - @software.categories.each do |cat|
+- if @software.protocols.count > 0
+  h2 Protocol Support
+  ul
+    - @software.protocols.each do |protocol|
+      li= link_to protocol.title, protocol
+
+- if @software.licenses.count > 0
+  h2 License
+  ul
+    - @software.licenses.each do |license|
+      li= link_to license.title, license
+
+- @software.categories.each do |cat|
+  h1
     - if cat.parent != nil
       = link_to cat.parent.title, cat.parent
       |  > 
