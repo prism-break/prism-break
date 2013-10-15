@@ -1,0 +1,6 @@
+.card
+  = link_to license, class: 'btn-rectangle' do 
+    = image_tag '#', class: 'software-logo'
+    .title= license.title
+    .category License
+  = link_to 'Wikipedia', license.url, class: 'btn-square'

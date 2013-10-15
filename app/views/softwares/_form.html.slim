@@ -39,6 +39,14 @@
           = label_tag "protocol_check_#{protocol.id}", protocol.title
 
   .field
+    = f.label :license, 'Licenses'
+    ul.checkboxes
+      - License.all.each do |license|
+        li.checkbox
+          = check_box_tag :license_ids, license.id, @software.licenses.include?(license), :name => 'software[license_ids][]', :id => "license_check_#{license.id}"
+          = label_tag "license_check_#{license.id}", license.title
+
+  .field
     = f.label :category, 'Software Categories*'
     - Category.roots.each do |category|
       h2= category.title

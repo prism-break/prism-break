@@ -4,7 +4,7 @@ class LicensesController < ApplicationController
   # GET /licenses
   # GET /licenses.json
   def index
-    @licenses = License.all
+    @licenses = License.find(:all, :order => 'title')
   end
 
   # GET /licenses/1

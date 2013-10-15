@@ -1,15 +1,16 @@
 p#notice = notice
 
-p
-  strong Title:
-  = @license.title
-p
-  strong Description:
-  = @license.description
-p
-  strong Url:
-  = @license.url
+= render 'licenses/card', license: @license
+
+= filter_markdown(@license.description)
 
 = link_to 'Edit', edit_license_path(@license)
 '|
 = link_to 'Back', licenses_path
+
+- if @license.softwares.count > 0
+  h2 Supported Software
+  - @license.softwares.each do |software|
+    = render 'softwares/card', software: software
+- else
+  h2 No Supported Software
