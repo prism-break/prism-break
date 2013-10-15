@@ -7,3 +7,10 @@ p#notice = notice
 = link_to 'Edit', edit_protocol_path(@protocol)
 '|
 = link_to 'Back', protocols_path
+
+- if @protocol.softwares.count > 0
+  h2 Supported Software
+  - @protocol.softwares.each do |software|
+    = render 'softwares/card', software: software
+- else
+  h2 No Supported Software
