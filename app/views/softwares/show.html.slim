@@ -16,7 +16,7 @@ ul
     li= link_to  'Terms of Service (external)', @software.tos_url, class: 'block'
 
 - if @software.protocols.count > 0
-  h2 Protocol Support
+  h2 Protocol 
   ul
     - @software.protocols.each do |protocol|
       li= link_to protocol.title, protocol
@@ -26,6 +26,13 @@ ul
   ul
     - @software.licenses.each do |license|
       li= link_to license.title, license
+
+- if @software.operating_systems.count > 0
+  h2 Operating System
+  ul
+    - @software.operating_systems.each do |operating_system|
+      li= link_to operating_system.title, operating_system
+
 
 h2 Category
 ul
