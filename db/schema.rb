@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131015113708) do
+ActiveRecord::Schema.define(version: 20131015123643) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -75,6 +75,37 @@ ActiveRecord::Schema.define(version: 20131015113708) do
   add_index "license_translations", ["locale"], name: "index_license_translations_on_locale", using: :btree
 
   create_table "licenses", force: true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "operating_system_softwares", force: true do |t|
+    t.integer  "operating_system_id"
+    t.integer  "software_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "operating_system_softwares", ["operating_system_id"], name: "index_operating_system_softwares_on_operating_system_id", using: :btree
+  add_index "operating_system_softwares", ["software_id"], name: "index_operating_system_softwares_on_software_id", using: :btree
+
+  create_table "operating_system_translations", force: true do |t|
+    t.integer  "operating_system_id", null: false
+    t.string   "locale",              null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+    t.string   "url"
+  end
+
+  add_index "operating_system_translations", ["locale"], name: "index_operating_system_translations_on_locale", using: :btree
+  add_index "operating_system_translations", ["operating_system_id"], name: "index_operating_system_translations_on_operating_system_id", using: :btree
+
+  create_table "operating_systems", force: true do |t|
     t.string   "title"
     t.text     "description"
     t.string   "url"

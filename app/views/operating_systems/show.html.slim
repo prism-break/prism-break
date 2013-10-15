@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @operating_system.title
+p
+  strong Description:
+  = @operating_system.description
+p
+  strong Url:
+  = @operating_system.url
+
+= link_to 'Edit', edit_operating_system_path(@operating_system)
+'|
+= link_to 'Back', operating_systems_path
