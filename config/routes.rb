@@ -1,4 +1,6 @@
 PrismBreak::Application.routes.draw do
+  resources :licenses
+
   resources :protocols
 
   get 'media', to: 'pages#media'

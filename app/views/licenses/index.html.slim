@@ -1,0 +1,23 @@
+h1 Listing licenses
+
+table
+  tr
+    th Title
+    th Description
+    th Url
+    th
+    th
+    th
+
+  - @licenses.each do |license|
+    tr
+      td = license.title
+      td = license.description
+      td = license.url
+      td = link_to 'Show', license
+      td = link_to 'Edit', edit_license_path(license)
+      td = link_to 'Destroy', license, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New License', new_license_path
