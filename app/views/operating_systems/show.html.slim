@@ -1,15 +1,16 @@
 p#notice = notice
 
-p
-  strong Title:
-  = @operating_system.title
-p
-  strong Description:
-  = @operating_system.description
-p
-  strong Url:
-  = @operating_system.url
+= render 'operating_systems/card', operating_system: @operating_system
+
+= filter_markdown(@operating_system.description)
 
 = link_to 'Edit', edit_operating_system_path(@operating_system)
 '|
 = link_to 'Back', operating_systems_path
+
+- if @operating_system.softwares.count > 0
+  h2 Supported Software
+  - @operating_system.softwares.each do |software|
+    = render 'softwares/card', software: software
+- else
+  h2 No Supported Software

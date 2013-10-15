@@ -4,7 +4,7 @@ class OperatingSystemsController < ApplicationController
   # GET /operating_systems
   # GET /operating_systems.json
   def index
-    @operating_systems = OperatingSystem.all
+    @operating_systems = OperatingSystem.find(:all, :order => 'title')
   end
 
   # GET /operating_systems/1

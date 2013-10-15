@@ -1,23 +1,6 @@
-h1 Listing operating_systems
+h1 Operating Systems
 
-table
-  tr
-    th Title
-    th Description
-    th Url
-    th
-    th
-    th
+- @operating_systems.each do |operating_system|
+  = render 'operating_systems/card', operating_system: operating_system
 
-  - @operating_systems.each do |operating_system|
-    tr
-      td = operating_system.title
-      td = operating_system.description
-      td = operating_system.url
-      td = link_to 'Show', operating_system
-      td = link_to 'Edit', edit_operating_system_path(operating_system)
-      td = link_to 'Destroy', operating_system, :confirm => 'Are you sure?', :method => :delete
-
-br
-
-= link_to 'New Operating system', new_operating_system_path
+= link_to 'New Operating System', new_operating_system_path
