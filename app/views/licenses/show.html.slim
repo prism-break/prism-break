@@ -1,5 +1,7 @@
 p#notice = notice
 
+h1= link_to 'All Licenses', licenses_path
+
 = render 'licenses/card', license: @license
 
 = filter_markdown(@license.description)
@@ -14,3 +16,4 @@ p#notice = notice
     = render 'softwares/card', software: software
 - else
   h2 No Supported Software
+

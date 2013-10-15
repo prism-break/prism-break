@@ -21,6 +21,9 @@ tos_url: string
 # Tag groups
 
 category: operating system, web browser, antivirus, etc.
+licenses: GPL, MIT, BSD, etc.
+protocols: xmpp, sip, pgp, otr
+os: web, windows, linux, osx, ios, android, bsd
 
 TODO:
 status: recommended, quarantined, rejected
@@ -30,11 +33,11 @@ status: recommended, quarantined, rejected
 # Declined (Black) - software that doesn't meet the quality standards of PRISM Break.
 # Rejected (Red) - software with licensing issues, privacy issues, or known links to surveillance (e.g. PRISM)
 
-licenses: GPL, MIT, BSD, etc.
+# could fit in the description
 localizations: english, deutsch, japanese
-protocols_supported: xmpp, sip, pgp, otr
+
+# redundant with categorizations
 type: service, client software, server software, p2p software
-platforms: web, windows, linux, osx, ios, android, bsd
 
 # http://www.evanmiller.org/how-not-to-sort-by-average-rating.html
 # User reviews

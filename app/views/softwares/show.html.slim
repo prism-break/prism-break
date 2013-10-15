@@ -5,13 +5,15 @@ p#notice = notice
 h2 Description 
 = @software.description
 
-h1= link_to 'Source Code []', @software.source_url, class: 'block'
 
-- if @software.privacy_url != ""
-  h1= link_to 'Privacy Policy []', @software.privacy_url, class: 'block'
+h2 Details
+ul
+  li= link_to 'Source Code (external)', @software.source_url, class: 'block'
+  - if @software.privacy_url != ""
+    li= link_to 'Privacy Policy (external)', @software.privacy_url, class: 'block'
 
-- if @software.tos_url != ""
-  h1= link_to  'Terms of Service []', @software.tos_url, class: 'block'
+  - if @software.tos_url != ""
+    li= link_to  'Terms of Service (external)', @software.tos_url, class: 'block'
 
 - if @software.protocols.count > 0
   h2 Protocol Support
@@ -25,12 +27,14 @@ h1= link_to 'Source Code []', @software.source_url, class: 'block'
     - @software.licenses.each do |license|
       li= link_to license.title, license
 
-- @software.categories.each do |cat|
-  h1
-    - if cat.parent != nil
-      = link_to cat.parent.title, cat.parent
-      |  > 
-    = link_to cat.title, cat
+h2 Category
+ul
+  - @software.categories.each do |cat|
+    li
+      - if cat.parent != nil
+        = link_to cat.parent.title, cat.parent
+        |  > 
+      = link_to cat.title, cat
 
 br
 
