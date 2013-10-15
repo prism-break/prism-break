@@ -4,7 +4,7 @@ class ProtocolsController < ApplicationController
   # GET /protocols
   # GET /protocols.json
   def index
-    @protocols = Protocol.all
+    @protocols = Protocol.find(:all, :order => 'title')
   end
 
   # GET /protocols/1
