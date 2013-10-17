@@ -46,3 +46,9 @@ ul
 br
 
 = link_to 'Edit Software', edit_software_path(@software)
+
+h2 Versions
+ul
+  - @software.versions.each do |v|
+    li= v.reify
+
