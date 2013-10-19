@@ -7,18 +7,30 @@
     .border
       d block
       b 1px solid #ddd
-      w 32px
       h 32px
       border-radius 3px
       box-shadow 1px solid #f00 0 0 2px 2px
       .btn
         d block
-        w 30px
         h 30px
         b 1px solid #fff
-        f 1.25em/28px sans
+        p 0 7px
         border-radius 2px
         c #666
+        clearfix()
+        .icon
+          f 1em/28px sans
+          d block
+          float left
+
+        .label
+          d block
+          pl 5px
+          float left
+          f bold 13px/28px sans
+          tt uppercase
+          d none
+
     &:hover
       .border
         background linear-gradient(top, #fff, m245 100%)
