@@ -38,5 +38,8 @@ class Software < ActiveRecord::Base
 
   validates_attachment :logo,
     :size => { :in => 0..40.kilobytes }
+  validates_attachment_content_type :logo,
+    :content_type => /^image\/(jpg|jpeg|pjpeg|png|x-png|gif)$/,
+    :message => 'file type is not allowed (only jpeg/png/gif images)'
 
 end
