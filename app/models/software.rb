@@ -42,4 +42,6 @@ class Software < ActiveRecord::Base
     :content_type => /^image\/(jpg|jpeg|pjpeg|png|x-png|gif)$/,
     :message => 'file type is not allowed (only jpeg/png/gif images)'
 
+  attr_accessor :delete_logo
+  before_validation { logo.clear if delete_logo == '1' }
 end

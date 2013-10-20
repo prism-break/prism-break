@@ -12,11 +12,17 @@
   .field
     = f.label :description, 'Software Description*'
     = f.text_area :description
+
   .field
     = image_tag @software.logo.url(:medium), class: 'software-logo'
     = f.label :logo, 'Software Logo*'
     p.desc Square image up to 1024px &times; 1024px in size.
     = f.file_field :logo
+    - if @software.logo.exists?
+      .checkbox
+        = f.check_box :delete_logo
+        = f.label :delete_logo, 'Destroy Logo'
+
   .field
     = f.label :url, 'Software URL*'
     = f.url_field :url
