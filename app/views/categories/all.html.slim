@@ -3,12 +3,11 @@ p#notice = notice
 - @category.softwares.each do |software|
   = render 'softwares/card', software: software
 
-
-- if @category.parent == nil
-  = link_to "#{t('all')} &rsaquo;".html_safe, category_all_path, class: 'bar'
-
 - @category.children.each do |subcategory|
-  = link_to "#{subcategory.title} &rsaquo;".html_safe, subcategory, class: 'bar'
+  .pipe= subcategory.title
+
+  - subcategory.softwares.each do |software|
+    = render 'softwares/card', software: software
 
 br
 = link_to 'Edit Category', edit_category_path(@category)

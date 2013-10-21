@@ -7,6 +7,13 @@ class CategoriesController < ApplicationController
     @categories = Category.all
   end
 
+  # GET /categories/1/all
+  def all
+    @category = Category.find(params[:id])
+    @parent_path = @category
+    @page_title = "#{@category.title} &rsaquo; #{t('all')}".html_safe
+  end
+
   # GET /categories/1
   # GET /categories/1.json
   def show

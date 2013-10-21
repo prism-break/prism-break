@@ -8,6 +8,7 @@ PrismBreak::Application.routes.draw do
   get 'media', to: 'pages#media'
 
   resources :categories
+  match 'categories/:id/all' => 'categories#all', as: :category_all, via: :get
 
   resources :softwares
 
