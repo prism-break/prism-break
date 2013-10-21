@@ -1,20 +1,28 @@
 #header
-  a.menu_toggle
-    span.border
-      span.btn &#9776;
-  /
-    #brand
-      = link_to root_url do
-        strong PRISM
-        span.lightning  &#9889; 
-        | Break 
-  ul.nav
-    li#language= render 'partials/language_select'
+  
+  a.btn_corner.left
+    span.btn &lsaquo;
+
+  #page_title
+    - if @page_title == 'home'
+      strong PRISM
+      span.lightning  &#9889; 
+      | Break 
+    - else
+      Other Title
+
+  a.menu_toggle.btn_corner.right
+    span.btn &#9776;
 
 #header_menu
   ul
-    li= link_to 'All Software', softwares_path
-    li= link_to 'Categories', categories_path
+    li= link_to 'Home', root_path
+    li= link_to 'Software', softwares_path
     li= link_to 'Licenses', licenses_path
     li= link_to 'Protocols', protocols_path
+    li= link_to t('media'), media_path
+    li.small= link_to t('changelog'), 'https://github.com/nylira/prism-break/commits/master'
+    li.small= link_to t('license'), 'https://github.com/nylira/prism-break/blob/master/LICENSE.md'
+    li.small= link_to t('contribute'), 'https://github.com/nylira/prism-break '
+    li.small=link_to "#{t 'donate'} Bitcoin", './donate/'
 

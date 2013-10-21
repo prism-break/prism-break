@@ -3,84 +3,54 @@
   top 0
   w 320px
   padding 0;
-  height 3em
+  height 44px
   border-bottom 1px solid #ddd
-  background linear-gradient(top, m255, m240 100%)
-  box-shadow b7 0 0 3em
+  bg #fff
+  box-shadow b10 0 0 1.5em
+  z-index 100
 
-  .menu_toggle
+  .btn_corner
     ta center
-    float left
     cursor pointer
-    m x*.5
-    .border
-      d block
-      b 1px solid #ddd
-      w 32px
-      h 32px
-      border-radius 3px
-      box-shadow 1px solid #f00 0 0 2px 2px
-      .btn
-        d block
-        w 30px
-        h 30px
-        b 1px solid #fff
-        f 1.25em/28px sans
-        border-radius 2px
-        c #666
-    &:hover
-      .border
-        background linear-gradient(top, #fff, m245 100%)
-        .btn
-          c hover
-    &:active
-      .border
-        background linear-gradient(top, m200, m220 100%)
-        .btn
-          c light
-          border-color m180
+    w 44px
+    h 43px
 
-  ul.nav
-    float right
-    height 48px
-    li
+    &.left
       float left
+      br 1px dashed #ddd
+      w 32px
+      .btn
+        f 1.75em/40px serif
+        c #666
 
-      &.links
-        display block
-        .plain
-          d block
-          lh 3em
-          p 0 1em
-          c txt
-          &.long
-            d none
-        a.plain:hover
-          c hover
-          td underline
+    &.right
+      float right
+      bl 1px solid #ddd
+      .btn
+        f 1.25em/44px sans
+        c #666
 
-      &#language
-        p 12px
+    .btn
+      d block
+      h 43px
 
-        select
-          box-sizing border-box
-          d block
-          f 16px sans
-          h 24px
-          c txt
-          m 0
-          p 0
-          outline none
-          w 100px
-          bg #fff
-          b 1px solid bc
+    &:hover
+      .btn
+        bg #eee
+        c hover
 
-#brand
-  d inline-block
+    &:active
+      .btn
+        bg #ddd
+        c light
+
+#page_title
+  fl left
+  w 320px - 88px
+  p 0 .75em
   font-size 1em
-  line-height 3em
+  line-height 44px
   text-transform uppercase
-  text-align center
   font-weight normal
 
   a
