@@ -10,7 +10,11 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.json
   def show
-    @parent_path = root_path
+    if @category.parent_id != nil
+      @parent_path = @category.parent
+    else
+      @parent_path = root_path
+    end
     @page_title = @category.title
   end
 
