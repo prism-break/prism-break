@@ -1,11 +1,20 @@
 #header
-  = link_to softwares_path, class: 'menu-trigger' do
+  a.menu_toggle
     span.border
       span.btn &#9776;
-  #brand
-    = link_to root_url do
-      strong PRISM
-      span.lightning  &#9889; 
-      | Break 
+  /
+    #brand
+      = link_to root_url do
+        strong PRISM
+        span.lightning  &#9889; 
+        | Break 
   ul.nav
     li#language= render 'partials/language_select'
+
+#header_menu
+  ul
+    li= link_to 'All Software', softwares_path
+    li= link_to 'Categories', categories_path
+    li= link_to 'Licenses', licenses_path
+    li= link_to 'Protocols', protocols_path
+

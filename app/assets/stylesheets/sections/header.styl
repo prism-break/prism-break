@@ -8,6 +8,73 @@
   background linear-gradient(top, m255, m240 100%)
   box-shadow b7 0 0 3em
 
+  .menu_toggle
+    ta center
+    float left
+    cursor pointer
+    m x*.5
+    .border
+      d block
+      b 1px solid #ddd
+      w 32px
+      h 32px
+      border-radius 3px
+      box-shadow 1px solid #f00 0 0 2px 2px
+      .btn
+        d block
+        w 30px
+        h 30px
+        b 1px solid #fff
+        f 1.25em/28px sans
+        border-radius 2px
+        c #666
+    &:hover
+      .border
+        background linear-gradient(top, #fff, m245 100%)
+        .btn
+          c hover
+    &:active
+      .border
+        background linear-gradient(top, m200, m220 100%)
+        .btn
+          c light
+          border-color m180
+
+  ul.nav
+    float right
+    height 48px
+    li
+      float left
+
+      &.links
+        display block
+        .plain
+          d block
+          lh 3em
+          p 0 1em
+          c txt
+          &.long
+            d none
+        a.plain:hover
+          c hover
+          td underline
+
+      &#language
+        p 12px
+
+        select
+          box-sizing border-box
+          d block
+          f 16px sans
+          h 24px
+          c txt
+          m 0
+          p 0
+          outline none
+          w 100px
+          bg #fff
+          b 1px solid bc
+
 #brand
   d inline-block
   font-size 1em
@@ -25,33 +92,3 @@
     &:hover,
     &:hover .lightning
       color #09c
-
-#page-switch
-  .switch
-    border 1px solid #ddd
-    height 30px
-    margin 8px 0
-
-    a.switch-button
-      line-height 30px
-      display block
-      padding 0 .5em
-      float left
-      width 90px
-      text-align center
-
-      &.default
-        border-right 1px solid #ddd
-
-      &.active
-        color #333
-        background #fff
-        cursor default
-
-      &.inactive
-        background #eee
-        color #999
-
-#page-switch .switch a.switch-button.inactive:hover
-  color #09c
-  background #f5f5f5

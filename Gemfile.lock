@@ -1,14 +1,14 @@
 GIT
   remote: git://github.com/airblade/paper_trail.git
-  revision: 617c203a897f934f9f4b7964bddeedfa63863eae
+  revision: 79b1d94835de263111ff2a85add702dcfb293090
   branch: master
   specs:
-    paper_trail (3.0.0.beta1)
+    paper_trail (3.0.0.beta2)
       activerecord (>= 3.0, < 5.0)
 
 GIT
   remote: git://github.com/globalize/globalize.git
-  revision: 7eff89d273362e15d0e1cd55602c5d997e61946d
+  revision: 80a80cf9a1b4a4fde87eb361bccd4b0aa0f8fee2
   specs:
     globalize (4.0.0.alpha.1)
       activemodel (>= 4.0.0)
@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: git://github.com/lucasmazza/ruby-stylus.git
-  revision: c256535c48555f14c8ae5a32c2e106112aef7879
+  revision: e3543792d9b6a6551612a4ed1957a09bf9e9dbd2
   specs:
     stylus (1.0.0.beta)
       execjs
@@ -77,9 +77,9 @@ GEM
       with_advisory_lock (>= 0.0.9)
     cocaine (0.5.2)
       climate_control (>= 0.0.3, < 1.0)
-    coffee-rails (4.0.0)
+    coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
-      railties (>= 4.0.0.beta, < 5.0)
+      railties (>= 4.0.0, < 5.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -97,7 +97,7 @@ GEM
     jquery-turbolinks (2.0.1)
       railties (>= 3.1.0)
       turbolinks
-    json (1.8.0)
+    json (1.8.1)
     livescript (2.2.0)
       execjs
       livescript-source
@@ -112,7 +112,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.25)
     minitest (4.7.5)
-    multi_json (1.8.1)
+    multi_json (1.8.2)
     mysql2 (0.3.13)
     polyglot (0.3.3)
     rack (1.5.2)
@@ -152,11 +152,11 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.0.0)
+    sprockets-rails (2.0.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
-    stylus-source (0.34.1)
+    stylus-source (0.38.0)
     temple (0.6.7)
     thor (0.18.1)
     thread_safe (0.1.3)
