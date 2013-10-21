@@ -1,7 +1,5 @@
 p#notice = notice
 
-h1= link_to 'All Licenses', licenses_path
-
 = render 'licenses/card', license: @license
 
 = filter_markdown(@license.description)

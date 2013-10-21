@@ -4,12 +4,19 @@ class SoftwaresController < ApplicationController
   # GET /softwares
   # GET /softwares.json
   def index
+    @parent_path = root_path
+    @page_title = t 'all-software'
     @softwares = Software.find(:all, :order => 'title')
   end
 
   # GET /softwares/1
   # GET /softwares/1.json
   def show
+    if @software.categories.first != nil
+      @subcategories = @software.categories.first.root.leaves
+      @category = (@subcategories & @software.categories).first
+    end
+    @parent_path = @category
   end
 
   # GET /softwares/new

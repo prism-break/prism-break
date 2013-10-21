@@ -1,19 +1,10 @@
 p#notice = notice
 
-h1
-  - if @category.parent != nil
-    = link_to @category.parent.title, @category.parent
-    |  &rsaquo; 
-  - else
-    = link_to 'All', root_path
-    |  &rsaquo; 
-  = @category.title
-
 - @category.softwares.each do |software|
   = render 'softwares/card', software: software
 
 - @category.children.each do |subcategory|
-  h1= link_to "#{subcategory.title}", subcategory, class: 'block'
+  = link_to "#{subcategory.title}", subcategory, class: 'bar'
 
   - subcategory.softwares.each do |software|
     = render 'softwares/card', software: software

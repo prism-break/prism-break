@@ -5,8 +5,6 @@ p#notice = notice
 = filter_markdown(@protocol.description)
 
 = link_to 'Edit', edit_protocol_path(@protocol)
-'|
-= link_to 'Back', protocols_path
 
 - if @protocol.softwares.count > 0
   h2 Supported Software

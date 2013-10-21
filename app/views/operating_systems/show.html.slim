@@ -5,8 +5,6 @@ p#notice = notice
 = filter_markdown(@operating_system.description)
 
 = link_to 'Edit', edit_operating_system_path(@operating_system)
-'|
-= link_to 'Back', operating_systems_path
 
 - if @operating_system.softwares.count > 0
   h2 Supported Software

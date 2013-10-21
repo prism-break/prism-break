@@ -4,12 +4,15 @@ class ProtocolsController < ApplicationController
   # GET /protocols
   # GET /protocols.json
   def index
+    @parent_path = root_path
+    @page_title = t 'protocol-support'
     @protocols = Protocol.find(:all, :order => 'title')
   end
 
   # GET /protocols/1
   # GET /protocols/1.json
   def show
+    @parent_path = protocols_path
   end
 
   # GET /protocols/new
