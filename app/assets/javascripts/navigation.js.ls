@@ -1,7 +1,4 @@
-$( ->
+$ ->
 
-  $(".menu_toggle").click( ->
+  $('.menu_toggle').click ->
     $('#header_menu').slide-toggle!
-    )
-
-)
