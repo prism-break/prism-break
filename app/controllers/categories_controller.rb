@@ -10,11 +10,7 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.json
   def show
-    if @category.parent_id != nil
-      @parent_path = @category.parent
-    else
-      @parent_path = root_path
-    end
+    @parent_path = parent_path
     @page_title = @category.title
   end
 
@@ -77,4 +73,13 @@ class CategoriesController < ApplicationController
     def category_params
       params.require(:category).permit(:title)
     end
+
+    def parent_path
+      if @category.parent_id != nil
+        @category.parent
+      else
+        root_path
+      end
+    end
+
 end

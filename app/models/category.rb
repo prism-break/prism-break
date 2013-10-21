@@ -12,4 +12,5 @@ class Category < ActiveRecord::Base
   # associations
   has_many :categorizations
   has_many :softwares, through: :categorizations
+
 end
