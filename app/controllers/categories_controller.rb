@@ -10,6 +10,8 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.json
   def show
+    @parent_path = root_path
+    @page_title = @category.title
   end
 
   # GET /categories/new

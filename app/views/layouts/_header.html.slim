@@ -1,15 +1,17 @@
 #header
   
-  a.btn_corner.left
-    span.btn &lsaquo;
+  - if @parent_path != nil
+    = link_to @parent_path, class: 'btn_corner left' do
+      span.btn &lsaquo;
 
   #page_title
     - if @page_title == 'home'
-      strong PRISM
-      span.lightning  &#9889; 
-      | Break 
+      #brand
+        strong PRISM
+        span.lightning  &#9889; 
+        | Break 
     - else
-      Other Title
+       = @page_title
 
   a.menu_toggle.btn_corner.right
     span.btn &#9776;
