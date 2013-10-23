@@ -18,8 +18,8 @@ class Software < ActiveRecord::Base
     :styles => {
       :large_2x => "1024x1024",
       :large => "512x512",
-      :medium_2x => "120x120>",
-      :medium => "60x60>",
+      :medium_2x => "100x100>",
+      :medium => "50x50>",
       :small_2x => "80x80>",
       :small => "40x40>"
     },
