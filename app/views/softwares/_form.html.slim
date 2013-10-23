@@ -30,7 +30,7 @@
     = f.label :source_url, 'Source Code URL*'
     = f.url_field :source_url
   .field
-    = f.label :license_url, 'License URL*'
+    = f.label :license_url, 'License File URL*'
     = f.url_field :license_url
   .field
     = f.label :privacy_url, 'Privacy Policy URL'
@@ -39,6 +39,13 @@
     = f.label :tos_url, 'Terms of Service URL'
     = f.url_field :tos_url
     
+  .field
+    = f.label :license, 'Specific Licenses'
+    ul.checkboxes
+      - License.all.each do |license|
+        li.checkbox
+          = check_box_tag :license_ids, license.id, @software.licenses.include?(license), :name => 'software[license_ids][]', :id => "license_check_#{license.id}"
+          = label_tag "license_check_#{license.id}", license.title
 
   .field
     = f.label :protocol, 'Supported Protocols'

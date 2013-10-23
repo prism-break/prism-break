@@ -1,5 +1,5 @@
 class SoftwaresController < ApplicationController
-  before_action :set_software, only: [:show, :edit, :update, :destroy]
+  before_action :set_software, only: [:show, :edit, :update, :destroy, :history]
 
   # GET /softwares
   # GET /softwares.json
@@ -78,7 +78,6 @@ class SoftwaresController < ApplicationController
   end
 
   def history
-    @software = Software.find(params[:id])
   end
 
   private
