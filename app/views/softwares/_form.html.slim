@@ -16,7 +16,7 @@
   .field
     = image_tag @software.logo.url(:medium), class: 'software-logo'
     = f.label :logo, 'Software Logo*'
-    p.desc Square image up to 1024px &times; 1024px in size.
+    p.desc Square image up to 240px &times; 240px in dimensions and 50 KB in size.
     = f.file_field :logo
     - if @software.logo.exists?
       .checkbox
@@ -47,14 +47,6 @@
         li.checkbox
           = check_box_tag :protocol_ids, protocol.id, @software.protocols.include?(protocol), :name => 'software[protocol_ids][]', :id => "protocol_check_#{protocol.id}"
           = label_tag "protocol_check_#{protocol.id}", protocol.title
-
-  .field
-    = f.label :license, 'Licenses'
-    ul.checkboxes
-      - License.all.each do |license|
-        li.checkbox
-          = check_box_tag :license_ids, license.id, @software.licenses.include?(license), :name => 'software[license_ids][]', :id => "license_check_#{license.id}"
-          = label_tag "license_check_#{license.id}", license.title
 
   .field
     = f.label :operating_system, 'Supported OS'

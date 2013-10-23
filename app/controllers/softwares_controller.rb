@@ -27,6 +27,8 @@ class SoftwaresController < ApplicationController
 
   # GET /softwares/1/edit
   def edit
+    @parent_path = @software
+    @page_title = t 'all-software'
   end
 
   # POST /softwares

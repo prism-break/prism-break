@@ -25,9 +25,13 @@ class Software < ActiveRecord::Base
       :small_2x => "80x80>",
       :small => "40x40>",
       :tiny_2x => "48x48>",
-      :tiny => "24x24>"
+      :tiny => "24x24>",
     },
-    :default_url => "/images/:style/missing.png"
+    :default_style => :legacy,
+    :default_url => "/images/:style/missing.png",
+    :convert_options => {
+      :all => "-strip -alpha set"
+    }
 
   # validations
   validates :title, presence: true, uniqueness: true
@@ -36,17 +40,29 @@ class Software < ActiveRecord::Base
   validates :source_url, presence: true, uniqueness: true
   validates :license_url, presence:true, uniqueness: true
 
+  # url validation
   validates_format_of :url, :source_url, :privacy_url, :tos_url,
     :with => URI::regexp(%w(http https)),
     :message => "requires 'https://' or 'http://'",
     :allow_blank => :true
 
+  # attachment validations
   validates_attachment :logo,
     :size => { :in => 1..50.kilobytes }
   validates_attachment_content_type :logo,
-    :content_type => /^image\/(jpg|jpeg|pjpeg|png|x-png|gif|svg)$/,
-    :message => 'file type is not allowed (only jpeg/png/gif/svg images)'
+    :content_type => /^image\/(png|x-png|svg|svg+xml)$/,
+    :message => 'should only be png or svg'
+  validate :attachment_is_square, :unless => "errors.any?"
 
+  # attachment deletion
   attr_accessor :delete_logo
   before_validation { logo.clear if delete_logo == '1' }
+
+  def attachment_is_square
+    dimensions = Paperclip::Geometry.from_file(logo.queued_for_write[:original].path)
+    if dimensions.width != dimensions.height
+      errors.add(:logo,'width and height should be equal')
+    end
+  end
+
 end
