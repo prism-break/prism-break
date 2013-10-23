@@ -7,15 +7,15 @@
           li = message
 
   .field
-    = f.label :title, 'Software Title*'
+    = f.label :title, "#{t('noun.Title')}*"
     = f.text_field :title
   .field
-    = f.label :description, 'Software Description*'
+    = f.label :description, "#{t('noun.Description')}*"
     = f.text_area :description
 
   .field
-    = image_tag @software.logo.url(:medium), class: 'software-logo'
-    = f.label :logo, 'Software Logo*'
+    = image_tag @software.logo.url(:legacy), class: 'software-logo'
+    = f.label :logo, "#{t('noun.Logo')}"
     p.desc Square image up to 240px &times; 240px in dimensions and 50 KB in size.
     = f.file_field :logo
     - if @software.logo.exists?
@@ -24,47 +24,50 @@
         = f.label :delete_logo, 'Destroy Logo'
 
   .field
-    = f.label :url, 'Software URL*'
+    = f.label :url, "#{t('v.softwares.form.url')}*"
     = f.url_field :url
   .field
-    = f.label :source_url, 'Source Code URL*'
+    = f.label :source_url, "#{t('v.softwares.form.source-url')}*"
     = f.url_field :source_url
   .field
-    = f.label :license_url, 'License File URL*'
+    = f.label :license_url, "#{t('v.softwares.form.license-url')}*"
     = f.url_field :license_url
   .field
-    = f.label :privacy_url, 'Privacy Policy URL'
+    = f.label :privacy_url, "#{t('v.softwares.form.privacy-url')}"
     = f.url_field :privacy_url
   .field
-    = f.label :tos_url, 'Terms of Service URL'
+    = f.label :tos_url, "#{t('v.softwares.form.tos-url')}"
     = f.url_field :tos_url
     
   .field
-    = f.label :license, 'Specific Licenses'
+    = f.label :license, t('v.licenses.plural')
     ul.checkboxes
       - License.all.each do |license|
         li.checkbox
           = check_box_tag :license_ids, license.id, @software.licenses.include?(license), :name => 'software[license_ids][]', :id => "license_check_#{license.id}"
           = label_tag "license_check_#{license.id}", license.title
+      li= link_to t('v.licenses.new'), new_license_path
 
   .field
-    = f.label :protocol, 'Supported Protocols'
+    = f.label :protocol, t('v.protocols.plural')
     ul.checkboxes
       - Protocol.all.each do |protocol|
         li.checkbox
           = check_box_tag :protocol_ids, protocol.id, @software.protocols.include?(protocol), :name => 'software[protocol_ids][]', :id => "protocol_check_#{protocol.id}"
           = label_tag "protocol_check_#{protocol.id}", protocol.title
+      li= link_to t('v.protocols.new'), new_protocol_path
 
   .field
-    = f.label :operating_system, 'Supported OS'
+    = f.label :operating_system, t('v.operating-systems.plural')
     ul.checkboxes
       - OperatingSystem.all.each do |operating_system|
         li.checkbox
           = check_box_tag :operating_system_ids, operating_system.id, @software.operating_systems.include?(operating_system), :name => 'software[operating_system_ids][]', :id => "operating_system_check_#{operating_system.id}"
           = label_tag "operating_system_check_#{operating_system.id}", operating_system.title
+      li= link_to t('v.operating-systems.new'), new_operating_system_path
 
   .field
-    = f.label :category, 'Software Categories*'
+    = f.label :category, "#{t('v.categories.plural')}*"
     - Category.roots.each do |category|
       h2= category.title
       ul.checkboxes
@@ -72,4 +75,6 @@
           li.checkbox
             = check_box_tag :category_ids, subcategory.id, @software.categories.include?(subcategory), :name => 'software[category_ids][]', :id => "category_check_#{subcategory.id}"
             = label_tag "category_check_#{subcategory.id}", subcategory.title
-  .actions = f.submit 'Save'
+    = link_to t('v.categories.new'), new_category_path
+
+  .actions = f.submit t('verb.Save')

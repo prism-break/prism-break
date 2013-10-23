@@ -2,15 +2,86 @@ en:
   i18n:
     language:
       name: English
-  all: 'All'
-  all-software: "All Software"
-  edit-software: "Edit Software"
-  operating-systems: "Operating Systems"
-  protocol-support: "Protocol Support"
-  software-licenses: "Software Licenses"
-  title: "Opt out of global data surveillance programs like PRISM, XKeyscore, and Tempora - PRISM Break"
-  meta-description: "Opt out of global data surveillance programs like  PRISM, XKeyscore and Tempora. Stop governments from spying on you by encrypting your communications and ending your reliance on proprietary services."
-  intro: "<strong>Opt out of global data surveillance programs like <a href='https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29'>PRISM</a>, <a href='https://en.wikipedia.org/wiki/XKeyscore'>XKeyscore</a> and <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop governments from spying on you by encrypting your communications and ending your reliance on proprietary services."
+
+  v:
+
+    layouts:
+      head:
+        title: Opt out of global data surveillance programs like PRISM, XKeyscore, and Tempora - PRISM Break
+        meta-description: Opt out of global data surveillance programs like  PRISM, XKeyscore and Tempora. Stop governments from spying on you by encrypting your communications and ending your reliance on proprietary services.
+        meta-keywords: PRISM, XKeyscore, NSA, free software, GHCQ, Tempora, surveillance'
+
+    pages:
+      index:
+        intro: <strong>Opt out of global data surveillance programs like <a href='https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29'>PRISM</a>, <a href='https://en.wikipedia.org/wiki/XKeyscore'>XKeyscore</a> and <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop governments from spying on you by encrypting your communications and ending your reliance on proprietary services.
+      media:
+        page_title: 'Media Mentions'
+
+    categories:
+      singular: Category
+      plural: Categories
+      all: All Categories
+      edit: Edit Category
+      new: New Category
+    licenses:
+      singular: License
+      plural: Licenses
+      all: All Licenses
+      edit: Edit License
+      new: New License
+    operating-systems:
+      singular: Operating System
+      plural: Operating Systems
+      all: All Operating Systems
+      edit: Edit Operating System
+      new: New Operating System
+    protocols:
+      singular: Protocol
+      plural: Protocols
+      all: All Protocols
+      edit: Edit Protocol
+      new: New Protocol
+    softwares:
+      singular: Software
+      plural: Software
+      all: All Software
+      edit: Edit Software
+      new: New Software
+      form:
+        url: Software URL
+        source-url: Source Code URL
+        license-url: License File URL
+        privacy-url: Privacy Policy URL
+        tos-url: Terms of Service URL
+
+
+  noun:
+    All: All
+    Media: Media
+    Changelog: Changelog
+    License: License
+    Contribute: Contribute
+    Donate: Donate
+
+    Title: Title
+    Description: Description
+    Logo: Logo
+
+    Wikipedia: Wikipedia
+    Wikipedia-URL: Wikipedia URL
+
+  verb:
+    Browse: Browse
+    Edit: Edit
+    Save: Save
+
+  heading:
+    supported-software: Supported Software
+    no-supported-software: No Supported Software
+
+  error:
+    error-explanation: "%{errors} errors prohibited this %{model} from being saved:"
+
   proprietary: "Proprietary"
   free-alternative: "Free alternative"
   notes: "Notes"
@@ -278,10 +349,6 @@ en:
   chinese-simplified: "Chinese (Simplified)"
   updated: "Updated"
   by: "by"
-  donate: "Donate"
-  contribute: "Contribute"
-  license: "License"
-  changelog: "Changelog"
   disclaimer: "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
   privacy-policy: "Privacy policy"
   privacy-policy-content: "<p>PRISM Break uses Piwik analytics to monitor traffic on this site. Piwik records the general geographical vicinity of visitors, their browser and operating system, and their clicks on the page. This helps us gauge and improve the value of our content.</p><p>Piwik preserves privacy by anonymizing visitors&rsquo; IP addresses. This means that we will not store any personally identifiable information about you, even though your visit produces a record that our site was visited by someone. You may view <strong><a href='http://prism-break.org/analytics'>the anonymized analytics here.</a></strong></p><p>Piwik will also respect the “Do Not Track” setting offered by some browsers, so if you have this preference set, Piwik will ignore your visit.</p><p>If you&rsquo;re not using “Do Not Track” and prefer to be unrecorded, please opt out of analytics by unchecking the box below. The system will set a “piwik_ignore” cookie, which tells Piwik to completely ignore your computer.</p>"

@@ -6,7 +6,7 @@ class PagesController < ApplicationController
 
   def media
     @parent_path = root_path
-    @page_title = 'Media Mentions'
+    @page_title = t 'v.pages.media.page_title'
   end
 
   def donate

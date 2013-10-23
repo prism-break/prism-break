@@ -19,13 +19,13 @@
 #header_menu
   ul
     li= link_to 'Home', root_path
-    li= link_to t('all-software'), softwares_path
-    li= link_to t('operating-systems'), operating_systems_path
-    li= link_to t('protocol-support'), protocols_path
-    li= link_to t('software-licenses'), licenses_path
-    li= link_to t('media'), media_path
-    li.small= link_to t('changelog'), 'https://github.com/nylira/prism-break/commits/master'
-    li.small= link_to t('license'), 'https://github.com/nylira/prism-break/blob/master/LICENSE.md'
-    li.small= link_to t('contribute'), 'https://github.com/nylira/prism-break '
-    li.small=link_to "#{t 'donate'} Bitcoin", './donate/'
-
+    li= link_to t('v.softwares.all'), softwares_path
+    li= link_to t('v.categories.all'), categories_path
+    li= link_to t('v.operating-systems.all'), operating_systems_path
+    li= link_to t('v.protocols.all'), protocols_path
+    li= link_to t('v.licenses.all'), licenses_path
+    li= link_to t('noun.Media'), media_path
+    li.small= link_to t('noun.Changelog'), 'https://github.com/nylira/prism-break/commits/master'
+    li.small= link_to t('noun.License'), 'https://github.com/nylira/prism-break/blob/master/LICENSE.md'
+    li.small= link_to t('noun.Contribute'), 'https://github.com/nylira/prism-break '
+    li.small=link_to "#{t 'noun.Donate'} Bitcoin", './donate/'

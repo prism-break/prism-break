@@ -4,14 +4,11 @@ p#notice = notice
 
 = filter_markdown(@license.description)
 
-= link_to 'Edit', edit_license_path(@license)
-'|
-= link_to 'Back', licenses_path
+= link_to t('v.licenses.edit'), edit_license_path(@license)
 
 - if @license.softwares.count > 0
-  h2 Supported Software
+  .pipe= t 'heading.supported-software'
   - @license.softwares.each do |software|
     = render 'softwares/card', software: software
 - else
-  h2 No Supported Software
-
+  .pipe= t 'heading.no-supported-software'

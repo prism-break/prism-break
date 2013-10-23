@@ -1,18 +1,22 @@
 = form_for @operating_system do |f|
+
   - if @operating_system.errors.any?
     #error_explanation
-      h2 = "#{pluralize(@operating_system.errors.count, "error")} prohibited this operating_system from being saved:"
+      h2= t 'error.error-explanation',
+        errors: @operating_system.errors.count,
+        model: t('v.operating-systems.singular')
+
       ul
         - @operating_system.errors.full_messages.each do |message|
-          li = message
+          li= message
 
   .field
-    = f.label :title
+    = f.label :title, t('noun.Title')
     = f.text_field :title
   .field
-    = f.label :description
+    = f.label :description, t('noun.Description')
     = f.text_area :description
   .field
-    = f.label :url
+    = f.label :url, t('noun.Wikipedia-URL')
     = f.text_field :url
-  .actions = f.submit 'Save'
+  .actions = f.submit t('verb.Save')

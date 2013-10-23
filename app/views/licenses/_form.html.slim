@@ -1,18 +1,21 @@
 = form_for @license do |f|
   - if @license.errors.any?
     #error_explanation
-      h2 = "#{pluralize(@license.errors.count, "error")} prohibited this license from being saved:"
+      h2= t 'error.error-explanation',
+        errors: @license.errors.count,
+        model: t('v.operating-systems.singular')
+
       ul
         - @license.errors.full_messages.each do |message|
-          li = message
+          li= message
 
   .field
-    = f.label :title
+    = f.label :title, t('noun.Title')
     = f.text_field :title
   .field
-    = f.label :description
+    = f.label :description, t('noun.Description')
     = f.text_area :description
   .field
-    = f.label :url
+    = f.label :url, t('noun.Wikipedia-URL')
     = f.text_field :url
-  .actions = f.submit 'Save'
+  .actions = f.submit t('verb.Save')

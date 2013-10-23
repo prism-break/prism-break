@@ -5,7 +5,7 @@ class OperatingSystemsController < ApplicationController
   # GET /operating_systems.json
   def index
     @parent_path = root_path
-    @page_title = t 'operating-systems'
+    @page_title = t 'v.operating-systems.all'
     @operating_systems = OperatingSystem.find(:all, :order => 'title')
   end
 
@@ -17,11 +17,15 @@ class OperatingSystemsController < ApplicationController
 
   # GET /operating_systems/new
   def new
+    @parent_path = operating_systems_path
+    @page_title = t 'v.operating-systems.new'
     @operating_system = OperatingSystem.new
   end
 
   # GET /operating_systems/1/edit
   def edit
+    @parent_path = @operating_system
+    @page_title = t 'v.operating-systems.edit'
   end
 
   # POST /operating_systems

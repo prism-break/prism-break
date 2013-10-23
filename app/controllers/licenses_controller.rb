@@ -5,7 +5,7 @@ class LicensesController < ApplicationController
   # GET /licenses.json
   def index
     @parent_path = root_path
-    @page_title = t 'software-licenses'
+    @page_title = t 'v.licenses.all'
     @licenses = License.find(:all, :order => 'title')
   end
 
@@ -17,11 +17,15 @@ class LicensesController < ApplicationController
 
   # GET /licenses/new
   def new
+    @parent_path = licenses_path
+    @page_title = t 'v.licenses.new'
     @license = License.new
   end
 
   # GET /licenses/1/edit
   def edit
+    @parent_path = @license
+    @page_title = t 'v.licenses.edit'
   end
 
   # POST /licenses

@@ -5,7 +5,7 @@ class SoftwaresController < ApplicationController
   # GET /softwares.json
   def index
     @parent_path = root_path
-    @page_title = t 'all-software'
+    @page_title = t 'v.softwares.all'
     @softwares = Software.find(:all, :order => 'title')
   end
 
@@ -21,6 +21,8 @@ class SoftwaresController < ApplicationController
 
   # GET /softwares/new
   def new
+    @parent_path = softwares_path
+    @page_title = t 'v.softwares.new'
     @software = Software.new
     @categories = Category.all
   end
@@ -28,7 +30,7 @@ class SoftwaresController < ApplicationController
   # GET /softwares/1/edit
   def edit
     @parent_path = @software
-    @page_title = t 'all-software'
+    @page_title = t 'v.softwares.edit'
   end
 
   # POST /softwares

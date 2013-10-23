@@ -1,10 +1,9 @@
 - @categories.roots.each do |category|
-  h1
-    .title
-      strong= link_to category, class: 'block' do
-        | Browse 
-        strong= category.title
-        |  &rsaquo;
+  = link_to category, class: 'bar' do
+    = t 'verbs.browse'
+    '
+    strong= category.title
+    '
+    | &rsaquo;
 
-br
-= link_to 'New Category', new_category_path
+= link_to t('v.categories.new'), new_category_path

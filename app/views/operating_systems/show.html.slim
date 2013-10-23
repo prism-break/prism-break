@@ -4,11 +4,12 @@ p#notice = notice
 
 = filter_markdown(@operating_system.description)
 
-= link_to 'Edit', edit_operating_system_path(@operating_system)
+= link_to t('v.operating-systems.edit'),
+  edit_operating_system_path(@operating_system)
 
 - if @operating_system.softwares.count > 0
-  h2 Supported Software
+  .pipe= t 'heading.supported-software'
   - @operating_system.softwares.each do |software|
     = render 'softwares/card', software: software
 - else
-  h2 No Supported Software
+  .pipe= t 'heading.no-supported-software'

@@ -4,6 +4,8 @@ class CategoriesController < ApplicationController
   # GET /categories
   # GET /categories.json
   def index
+    @parent_path = root_path
+    @page_title = t 'v.categories.all'
     @categories = Category.all
   end
 
@@ -11,7 +13,7 @@ class CategoriesController < ApplicationController
   def all
     @category = Category.find(params[:id])
     @parent_path = @category
-    @page_title = "#{@category.title} &rsaquo; #{t('all')}".html_safe
+    @page_title = "#{@category.title} &rsaquo; #{t('noun.All')}".html_safe
   end
 
   # GET /categories/1
@@ -23,11 +25,15 @@ class CategoriesController < ApplicationController
 
   # GET /categories/new
   def new
+    @parent_path = categories_path
+    @page_title = t 'v.categories.new'
     @category = Category.new
   end
 
   # GET /categories/1/edit
   def edit
+    @parent_path = categories_path
+    @page_title = t 'v.categories.edit'
   end
 
   # POST /categories
