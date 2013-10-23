@@ -2,52 +2,56 @@ p#notice = notice
 
 = render 'softwares/card', software: @software
 
-h2 Description 
+.pipe Description 
 = @software.description
 
-h2 Details
-ul
-  li= link_to 'Source Code (external)', @software.source_url, class: 'block'
-  - if @software.privacy_url != ""
-    li= link_to 'Privacy Policy (external)', @software.privacy_url, class: 'block'
-
-  - if @software.tos_url != ""
-    li= link_to  'Terms of Service (external)', @software.tos_url, class: 'block'
+.pipe Information
 
 - if @software.protocols.count > 0
-  h2 Protocol 
-  ul
-    - @software.protocols.each do |protocol|
-      li= link_to protocol.title, protocol
+  .data
+    strong Protocol Support
+    ul.comma-delimited
+      - @software.protocols.each do |protocol|
+        li= link_to protocol.title, protocol
 
 - if @software.licenses.count > 0
-  h2 License
-  ul
-    - @software.licenses.each do |license|
-      li= link_to license.title, license
+  .data
+    strong Software License
+    ul.comma-delimited
+      - @software.licenses.each do |license|
+        li= link_to license.title, license
 
 - if @software.operating_systems.count > 0
-  h2 Operating System
+  .data
+    strong Operating System
+    ul.comma-delimited
+      - @software.operating_systems.each do |operating_system|
+        li= link_to operating_system.title, operating_system
+
+.data
+  strong Category
+  ul.comma-delimited
+    - @software.categories.each do |cat|
+      li
+        - if cat.parent != nil
+          = link_to cat.parent.title, cat.parent
+          |  > 
+        = link_to cat.title, cat
+.data
+  strong Versions
+  ul.comma-delimited
+    li= link_to  'Older Versions', software_history_path, class: 'block'
+    li= link_to 'Edit Software', edit_software_path(@software)
+
+.section
+  .pipe External Links
   ul
-    - @software.operating_systems.each do |operating_system|
-      li= link_to operating_system.title, operating_system
+    li= link_to 'Source Code &rsaquo;'.html_safe, @software.source_url, class: 'block'
+    li= link_to 'Software License &rsaquo;'.html_safe, @software.license_url, class: 'block'
+    - if @software.privacy_url != ""
+      li= link_to 'Privacy Policy &rsaquo;'.html_safe, @software.privacy_url, class: 'block'
 
+    - if @software.tos_url != ""
+      li= link_to  'Terms of Service &rsaquo;'.html_safe, @software.tos_url, class: 'block'
 
-h2 Category
-ul
-  - @software.categories.each do |cat|
-    li
-      - if cat.parent != nil
-        = link_to cat.parent.title, cat.parent
-        |  > 
-      = link_to cat.title, cat
-
-br
-
-= link_to 'Edit Software', edit_software_path(@software)
-
-h2 Versions
-ul
-  - @software.versions.each do |v|
-    li= v.reify
 

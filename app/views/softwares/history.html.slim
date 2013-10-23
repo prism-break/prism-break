@@ -1,0 +1,10 @@
+p#notice = notice
+
+= render 'softwares/card', software: @software
+
+h2 Versions
+ul
+  - @software.versions.each do |v|
+    li= v.reify
+
+= link_to 'Edit Software', edit_software_path(@software)

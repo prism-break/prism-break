@@ -11,6 +11,7 @@ PrismBreak::Application.routes.draw do
   match 'categories/:id/all' => 'categories#all', as: :category_all, via: :get
 
   resources :softwares
+  match 'softwares/:id/history' => 'softwares#history', as: :software_history, via: :get
 
   filter :locale
 
