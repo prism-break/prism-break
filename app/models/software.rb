@@ -27,8 +27,8 @@ class Software < ActiveRecord::Base
       :'tiny@2x' =>   ["48x48>",   :png],
       :tiny =>        ["24x24>",   :png]
     },
-    :path => ":rails_root/public/system/:attachment/:id/:basename_:style.:extension",
-    :url => "/system/:attachment/:id/:basename_:style.:extension",
+    :path => ":rails_root/public/system/:class/:attachment/:id/:basename_:style.:extension",
+    :url => "/system/:class/:attachment/:id/:basename_:style.:extension",
     :default_url => "/images/:style/missing.png"
 
   # validations
