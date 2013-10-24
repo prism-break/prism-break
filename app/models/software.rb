@@ -16,13 +16,20 @@ class Software < ActiveRecord::Base
   # paperclip
   has_attached_file :logo,
     :styles => {
-      :large => "120x120",
-      :medium => "60x60",
-      :legacy => "50x50>",
-      :small => "40x40>",
-      :tiny => "24x24>",
+      :'large@2x' =>  ["240x240>", :png],
+      :large =>       ["120x120>", :png],
+      :'medium@2x' => ["120x120>", :png],
+      :medium =>      ["60x60>",   :png],
+      :'legacy@2x' => ["100x100>", :png],
+      :legacy =>      ["50x50>",   :png],
+      :'small@2x' =>  ["80x80>",   :png],
+      :small =>       ["40x40>",   :png],
+      :'tiny@2x' =>   ["48x48>",   :png],
+      :tiny =>        ["24x24>",   :png]
     },
-    :default_url => "/images/:style/missing.png",
+    :path => ":rails_root/public/system/:attachment/:id/:basename_:style.:extension",
+    :url => "/system/:attachment/:id/:basename_:style.:extension",
+    :default_url => "/images/:style/missing.png"
 
   # validations
   validates :title, presence: true, uniqueness: true
@@ -39,9 +46,9 @@ class Software < ActiveRecord::Base
 
   # attachment validations
   validates_attachment :logo,
-    :size => { :in => 1..50.kilobytes }
+    :size => { :in => 1..100.kilobytes }
   validates_attachment_content_type :logo,
-    :content_type => /^image\/(png|x-png|svg|svg+xml)$/,
+    :content_type => /^image\/(png|x-png|svg|svg\+xml)$/,
     :message => 'should only be png or svg'
 
   # attachment deletion

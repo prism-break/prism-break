@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/airblade/paper_trail.git
-  revision: 79b1d94835de263111ff2a85add702dcfb293090
+  revision: 44f2380ec6cd45c15a8b654d5e7d694499c6e11c
   branch: master
   specs:
     paper_trail (3.0.0.beta2)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git://github.com/globalize/globalize.git
-  revision: 80a80cf9a1b4a4fde87eb361bccd4b0aa0f8fee2
+  revision: ae462f8e5eeaf9ac5df9b576ebf3ce68c551b314
   specs:
     globalize (4.0.0.alpha.1)
       activemodel (>= 4.0.0)
@@ -17,7 +17,7 @@ GIT
 
 GIT
   remote: git://github.com/lucasmazza/ruby-stylus.git
-  revision: e3543792d9b6a6551612a4ed1957a09bf9e9dbd2
+  revision: a933d8fb5b01d1832f346e103eae5231eb80e4d5
   specs:
     stylus (1.0.0.beta)
       execjs
@@ -32,12 +32,12 @@ GIT
 
 GIT
   remote: git://github.com/thoughtbot/paperclip.git
-  revision: 1d8982325fb43ee654b9476b34213a37429d7e22
+  revision: 144693101637b784ef3524749019ff8112c0df81
   specs:
-    paperclip (3.5.1)
+    paperclip (3.5.2)
       activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
-      cocaine (~> 0.5.0)
+      cocaine (~> 0.5.3)
       mime-types
 
 GEM
@@ -67,7 +67,7 @@ GEM
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
-    arel (4.0.0)
+    arel (4.0.1)
     atomic (1.1.14)
     builder (3.1.4)
     climate_control (0.0.3)
@@ -75,7 +75,7 @@ GEM
     closure_tree (4.2.9)
       activerecord (>= 3.0.0)
       with_advisory_lock (>= 0.0.9)
-    cocaine (0.5.2)
+    cocaine (0.5.3)
       climate_control (>= 0.0.3, < 1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
