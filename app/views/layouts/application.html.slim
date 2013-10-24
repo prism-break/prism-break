@@ -3,7 +3,7 @@ html lang=I18n.locale
   head
     = render 'layouts/head'
 
-  body class=I18n.locale
+  body class= "#{I18n.locale} #{controller.controller_name} #{controller.action_name}"
     = render 'layouts/header'
 
     #container= yield

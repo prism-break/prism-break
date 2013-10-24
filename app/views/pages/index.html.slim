@@ -1,11 +1,9 @@
 p.intro=raw t 'v.pages.index.intro'
 
 - @categories.roots.each do |category|
-  = link_to category, class: 'bar' do
+  = link_to category, class: 'bar right' do
     = t 'verbs.browse'
     '
     strong= category.title
-    '
-    | &rsaquo;
 
 = link_to t('v.categories.new'), new_category_path

@@ -2,7 +2,7 @@
   - subcategories = software.categories.first.root.leaves
   - category_title = (subcategories & software.categories).first.title
 
-.card
+div class="card"
   = link_to software, class: 'btn-rectangle' do 
     = image_tag software.logo.url(:'medium@2x'), class: 'software-logo'
     .title= software.title

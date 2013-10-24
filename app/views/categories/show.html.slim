@@ -5,12 +5,12 @@ p#notice = notice
 
 
 - if @category.parent == nil
-  = link_to "#{t('all')} &rsaquo;".html_safe, category_all_path, class: 'bar'
+  = link_to t('all'), category_all_path, class: 'bar right'
 
 - @category.children.each do |subcategory|
-  = link_to "#{subcategory.title} &rsaquo;".html_safe, subcategory, class: 'bar'
+  = link_to subcategory.title, subcategory, class: 'bar right'
 
 br
-= link_to 'Edit Category', edit_category_path(@category)
+= link_to t('v.categories.edit'), edit_category_path(@category)
 |  &middot;  
 = link_to '[x]', @category, :confirm => 'Are you sure?', :method => :delete
