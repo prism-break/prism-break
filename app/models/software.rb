@@ -46,7 +46,7 @@ class Software < ActiveRecord::Base
 
   # attachment validations
   validates_attachment :logo,
-    :size => { :in => 1..256.kilobytes }
+    :size => { :in => 1..512.kilobytes }
   validates_attachment_content_type :logo,
     :content_type => /^image\/(png|x-png)$/,
     :message => 'should only be png'
