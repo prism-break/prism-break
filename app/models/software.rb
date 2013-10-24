@@ -20,8 +20,6 @@ class Software < ActiveRecord::Base
       :large =>       ["120x120>", :png],
       :'medium@2x' => ["120x120>", :png],
       :medium =>      ["60x60>",   :png],
-      :'legacy@2x' => ["100x100>", :png],
-      :legacy =>      ["50x50>",   :png],
       :'small@2x' =>  ["80x80>",   :png],
       :small =>       ["40x40>",   :png],
       :'tiny@2x' =>   ["48x48>",   :png],
