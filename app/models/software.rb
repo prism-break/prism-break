@@ -46,8 +46,8 @@ class Software < ActiveRecord::Base
   validates_attachment :logo,
     :size => { :in => 1..100.kilobytes }
   validates_attachment_content_type :logo,
-    :content_type => /^image\/(png|x-png|svg|svg\+xml)$/,
-    :message => 'should only be png or svg'
+    :content_type => /^image\/(png|x-png)$/,
+    :message => 'should only be png'
 
   # attachment deletion
   attr_accessor :delete_logo
