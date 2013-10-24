@@ -1,6 +1,6 @@
 p#notice = notice
 
-- @category.softwares.each do |software|
+- @category.softwares.order(:title).each do |software|
   = render 'softwares/card', software: software
 
 

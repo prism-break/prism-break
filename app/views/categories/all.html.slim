@@ -6,7 +6,7 @@ p#notice = notice
 - @category.children.each do |subcategory|
   .pipe= subcategory.title
 
-  - subcategory.softwares.each do |software|
+  - subcategory.softwares.order(:title).each do |software|
     = render 'softwares/card', software: software
 
 br
