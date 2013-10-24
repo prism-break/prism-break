@@ -8,9 +8,12 @@ p#notice = notice
   = link_to t('all'), category_all_path, class: 'bar right'
 
 - @category.children.each do |subcategory|
-  = link_to subcategory.title, subcategory, class: 'bar right'
+  = link_to subcategory, class: 'bar right' do
+    = subcategory.title
+    '
+    span.light= "(#{subcategory.softwares.count})"
 
-br
-= link_to t('v.categories.edit'), edit_category_path(@category)
-|  &middot;  
-= link_to '[x]', @category, :confirm => 'Are you sure?', :method => :delete
+.admin
+  .pipe= t 'noun.Administration'
+  = link_to t('v.categories.edit'), edit_category_path(@category), class: 'bar right'
+  = link_to t('v.categories.destroy'), @category, :confirm => 'Are you sure?', :method => :delete, class: 'bar right'

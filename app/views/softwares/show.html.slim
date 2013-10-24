@@ -2,8 +2,7 @@ p#notice = notice
 
 = render 'softwares/card', software: @software
 
-.section
-  = @software.description
+.section.description= @software.description
 
 - if @software.operating_systems.count > 0
   .section
@@ -32,9 +31,6 @@ p#notice = notice
     - @software.licenses.each do |license|
       li= link_to license.title, license, class: 'bar right'
 
-
-
-
 /.section
   .pipe Category
   ul.comma-delimited
@@ -45,7 +41,7 @@ p#notice = notice
           |  > 
         = cat.title
 
-.data
+.admin
   .pipe= t('noun.Administration')
   = link_to t('noun.History'), software_history_path, class: 'bar right'
   = link_to t('v.softwares.edit'), edit_software_path(@software), class: 'bar right'

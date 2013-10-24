@@ -32,7 +32,7 @@ class CategoriesController < ApplicationController
 
   # GET /categories/1/edit
   def edit
-    @parent_path = categories_path
+    @parent_path = @category
     @page_title = t 'v.categories.edit'
   end
 

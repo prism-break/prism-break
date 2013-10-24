@@ -9,7 +9,7 @@ p#notice = notice
   - subcategory.softwares.order(:title).each do |software|
     = render 'softwares/card', software: software
 
-br
-= link_to 'Edit Category', edit_category_path(@category)
-|  &middot;  
-= link_to '[x]', @category, :confirm => 'Are you sure?', :method => :delete
+.admin
+  .pipe= t 'noun.Administration'
+  = link_to t('v.categories.edit'), edit_category_path(@category), class: 'bar right'
+  = link_to t('v.categories.destroy'), @category, :confirm => 'Are you sure?', :method => :delete, class: 'bar right'

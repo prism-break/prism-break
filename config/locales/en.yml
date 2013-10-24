@@ -21,30 +21,35 @@ en:
       singular: Category
       plural: Categories
       all: All Categories
+      destroy: Destroy Category
       edit: Edit Category
       new: New Category
     licenses:
       singular: License
       plural: Licenses
       all: All Licenses
+      destroy: Destroy License
       edit: Edit License
       new: New License
     operating-systems:
       singular: Operating System
       plural: Operating Systems
       all: All Operating Systems
+      destroy: Destroy Operating System
       edit: Edit Operating System
       new: New Operating System
     protocols:
       singular: Protocol
       plural: Protocols
       all: All Protocols
+      destroy: Destroy Protocol
       edit: Edit Protocol
       new: New Protocol
     softwares:
       singular: Software
       plural: Software
       all: All Software
+      destroy: Destroy Software
       edit: Edit Software
       new: New Software
       form:
