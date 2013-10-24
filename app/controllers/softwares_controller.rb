@@ -41,6 +41,7 @@ class SoftwaresController < ApplicationController
     @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'protocol_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'license_ids' => []}.merge(params[:software] || {})
+    @software.attributes = {'operating_system_ids' => []}.merge(params[:software] || {})
 
     respond_to do |format|
       if @software.save
@@ -59,6 +60,7 @@ class SoftwaresController < ApplicationController
     @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'protocol_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'license_ids' => []}.merge(params[:software] || {})
+    @software.attributes = {'operating_system_ids' => []}.merge(params[:software] || {})
     respond_to do |format|
       if @software.update(software_params)
         format.html { redirect_to @software, notice: 'Software was successfully updated.' }
