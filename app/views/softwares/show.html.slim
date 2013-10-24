@@ -2,56 +2,48 @@ p#notice = notice
 
 = render 'softwares/card', software: @software
 
-.pipe Description 
-= @software.description
-
-.pipe Information
-
-- if @software.protocols.count > 0
-  .data
-    strong Protocol Support
-    ul.comma-delimited
-      - @software.protocols.each do |protocol|
-        li= link_to protocol.title, protocol
-
-- if @software.licenses.count > 0
-  .data
-    strong Software License
-    ul.comma-delimited
-      - @software.licenses.each do |license|
-        li= link_to license.title, license
-
-- if @software.operating_systems.count > 0
-  .data
-    strong Operating System
-    ul.comma-delimited
-      - @software.operating_systems.each do |operating_system|
-        li= link_to operating_system.title, operating_system
-
-.data
-  strong Category
-  ul.comma-delimited
-    - @software.categories.each do |cat|
-      li
-        - if cat.parent != nil
-          = link_to cat.parent.title, cat.parent
-          |  > 
-        = link_to cat.title, cat
-.data
-  strong Versions
-  ul.comma-delimited
-    li= link_to  'Older Versions', software_history_path, class: 'block'
-    li= link_to 'Edit Software', edit_software_path(@software)
+.section
+  = @software.description
 
 .section
   .pipe External Links
-  ul
-    li= link_to 'Source Code &rsaquo;'.html_safe, @software.source_url, class: 'block'
-    li= link_to 'Software License &rsaquo;'.html_safe, @software.license_url, class: 'block'
-    - if @software.privacy_url != ""
-      li= link_to 'Privacy Policy &rsaquo;'.html_safe, @software.privacy_url, class: 'block'
+  = link_to t('noun.Source_Code'), @software.source_url, class: 'bar external'
+  = link_to t('v.licenses.singular'), @software.license_url, class: 'bar external'
+  - if @software.privacy_url != ""
+    = link_to t('noun.Privacy_Policy'), @software.privacy_url, class: 'bar external'
+  - if @software.tos_url != ""
+    = link_to  t('noun.Terms_of_Service'), @software.tos_url, class: 'bar external'
 
-    - if @software.tos_url != ""
-      li= link_to  'Terms of Service &rsaquo;'.html_safe, @software.tos_url, class: 'block'
+- if @software.licenses.count > 0
+  .section
+    .pipe Software License
+    - @software.licenses.each do |license|
+      li= link_to license.title, license, class: 'bar right'
+
+- if @software.protocols.count > 0
+  .section
+    .pipe Protocol Support
+    - @software.protocols.each do |protocol|
+      = link_to protocol.title, protocol, class: 'bar right'
 
 
+- if @software.operating_systems.count > 0
+  .section
+    .pipe Operating System
+    - @software.operating_systems.each do |operating_system|
+      = link_to operating_system.title, operating_system, class: 'bar right'
+
+/.section
+  .pipe Category
+  ul.comma-delimited
+    - @software.categories.each do |cat|
+      = link_to cat, class: 'bar right' do
+        - if cat.parent != nil
+          = cat.parent.title
+          |  > 
+        = cat.title
+
+.data
+  .pipe Admin
+  = link_to  'Older Versions', software_history_path, class: 'bar right'
+  = link_to 'Edit Software', edit_software_path(@software), class: 'bar right'

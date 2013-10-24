@@ -7,9 +7,28 @@
   c #333
 
 a.bar
+  relative()
   &:hover
     c hover
     bg m245
   &:active
     c hover
     bg m235
+  &.right
+    &:after
+      absolute()
+      top 0
+      right 0
+      w 44px
+      f 1.5em/43px serif
+      content: "\203A"
+      text-align center
+  &.external
+    &:after
+      absolute()
+      top 0
+      right 0
+      w 44px
+      f 1.5em/43px serif
+      content: "\1F30D"
+      text-align center

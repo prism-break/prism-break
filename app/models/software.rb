@@ -16,14 +16,16 @@ class Software < ActiveRecord::Base
   # paperclip
   has_attached_file :logo,
     :styles => {
-      :'large@2x' =>  ["240x240>", :png],
-      :large =>       ["120x120>", :png],
-      :'medium@2x' => ["120x120>", :png],
-      :medium =>      ["60x60>",   :png],
-      :'small@2x' =>  ["80x80>",   :png],
-      :small =>       ["40x40>",   :png],
-      :'tiny@2x' =>   ["48x48>",   :png],
-      :tiny =>        ["24x24>",   :png]
+      :'huge@2x'   => ["1024x1024>", :png],
+      :huge        => ["512x512>",   :png],
+      :'large@2x'  => ["240x240>",   :png],
+      :large       => ["120x120>",   :png],
+      :'medium@2x' => ["120x120>",   :png],
+      :medium      => ["60x60>",     :png],
+      :'small@2x'  => ["80x80>",     :png],
+      :small       => ["40x40>",     :png],
+      :'tiny@2x'   => ["48x48>",     :png],
+      :tiny        => ["24x24>",     :png]
     },
     :path => ":rails_root/public/system/:class/:attachment/:id/:basename_:style.:extension",
     :url => "/system/:class/:attachment/:id/:basename_:style.:extension",
@@ -44,7 +46,7 @@ class Software < ActiveRecord::Base
 
   # attachment validations
   validates_attachment :logo,
-    :size => { :in => 1..100.kilobytes }
+    :size => { :in => 1..256.kilobytes }
   validates_attachment_content_type :logo,
     :content_type => /^image\/(png|x-png)$/,
     :message => 'should only be png'
