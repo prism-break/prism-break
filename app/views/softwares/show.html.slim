@@ -2,7 +2,7 @@ p#notice = notice
 
 = render 'softwares/card', software: @software
 
-.section.description= @software.description
+.section.description= filter_markdown(@software.description)
 
 - if @software.operating_systems.count > 0
   .section
@@ -18,6 +18,7 @@ p#notice = notice
 
 .section
   .pipe More Information
+  = link_to t('noun.Wikipedia'), @software.wikipedia_url, class: 'bar external'
   = link_to t('noun.Source_Code'), @software.source_url, class: 'bar external'
   = link_to t('noun.Software_License'), @software.license_url, class: 'bar external'
   - if @software.privacy_url != ""

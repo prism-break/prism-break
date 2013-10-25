@@ -24,6 +24,9 @@
         = f.label :delete_logo, 'Destroy Logo'
 
   .field
+    = f.label :wikipedia_url, "#{t('v.softwares.form.wikipedia-url')}*"
+    = f.url_field :wikipedia_url
+  .field
     = f.label :url, "#{t('v.softwares.form.url')}*"
     = f.url_field :url
   .field
@@ -40,7 +43,7 @@
     = f.url_field :tos_url
     
   .field
-    = f.label :protocol, t('v.protocols.plural')
+    = f.label :protocol, t('noun.Supported_Protocols')
     ul.checkboxes
       - Protocol.all.each do |protocol|
         li.checkbox
@@ -49,7 +52,7 @@
       li= link_to t('v.protocols.new'), new_protocol_path
 
   .field
-    = f.label :operating_system, t('v.operating-systems.plural')
+    = f.label :protocol, t('noun.Supported_Operating_Systems')
     ul.checkboxes
       - OperatingSystem.all.each do |operating_system|
         li.checkbox

@@ -8,7 +8,7 @@ class Software < ActiveRecord::Base
   has_many :operating_systems, through: :operating_system_softwares
 
   # translations and edit history
-  translates :title, :description, :url, :source_url, :privacy_url, :tos_url, :license_url, :versioning => true
+  translates :title, :description, :url, :source_url, :privacy_url, :tos_url, :license_url, :wikipedia_url, :versioning => true
   has_paper_trail
   
   # paperclip
@@ -48,6 +48,7 @@ class Software < ActiveRecord::Base
   validates :url, presence: true, uniqueness: true
   validates :source_url, presence: true, uniqueness: true
   validates :license_url, presence:true, uniqueness: true
+  validates :wikipedia_url, presence:true, uniqueness: true
 
   # url validation
   validates_format_of :url, :source_url, :privacy_url, :tos_url,
