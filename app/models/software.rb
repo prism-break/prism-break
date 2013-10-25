@@ -4,8 +4,6 @@ class Software < ActiveRecord::Base
   has_many :categories, through: :categorizations
   has_many :protocol_softwares
   has_many :protocols, through: :protocol_softwares
-  has_many :license_softwares
-  has_many :licenses, through: :license_softwares
   has_many :operating_system_softwares
   has_many :operating_systems, through: :operating_system_softwares
 

@@ -25,12 +25,6 @@ p#notice = notice
   - if @software.tos_url != ""
     = link_to  t('noun.Terms_of_Service'), @software.tos_url, class: 'bar external'
 
-/- if @software.licenses.count > 0
-  .section
-    .pipe Software License
-    - @software.licenses.each do |license|
-      li= link_to license.title, license, class: 'bar right'
-
 /.section
   .pipe Category
   ul.comma-delimited

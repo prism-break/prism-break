@@ -16,7 +16,7 @@
   .field
     = image_tag @software.logo.url(:'medium@2x'), class: 'software-logo'
     = f.label :logo, "#{t('noun.Logo')}"
-    p.desc Square image up to 240px &times; 240px in dimensions and 50 KB in size.
+    p.desc Square PNG up to 1024 &times; 1024px in dimensions and 512 KB in size.
     = f.file_field :logo
     - if @software.logo.exists?
       .checkbox
@@ -39,15 +39,6 @@
     = f.label :tos_url, "#{t('v.softwares.form.tos-url')}"
     = f.url_field :tos_url
     
-  .field
-    = f.label :license, t('v.licenses.plural')
-    ul.checkboxes
-      - License.all.each do |license|
-        li.checkbox
-          = check_box_tag :license_ids, license.id, @software.licenses.include?(license), :name => 'software[license_ids][]', :id => "license_check_#{license.id}"
-          = label_tag "license_check_#{license.id}", license.title
-      li= link_to t('v.licenses.new'), new_license_path
-
   .field
     = f.label :protocol, t('v.protocols.plural')
     ul.checkboxes
