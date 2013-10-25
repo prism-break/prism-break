@@ -29,7 +29,10 @@ class Software < ActiveRecord::Base
     },
     :path => ":rails_root/public/system/:class/:attachment/:id/:basename_:style.:extension",
     :url => "/system/:class/:attachment/:id/:basename_:style.:extension",
-    :default_url => "/images/:style/missing.png"
+    :default_url => "/images/:style/missing.png",
+    :convert_options => {
+      :'medium@2x' => "-background none -gravity center -extent 120x120"
+    }
 
   # validations
   validates :title, presence: true, uniqueness: true
