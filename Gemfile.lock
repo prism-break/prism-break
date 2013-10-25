@@ -8,9 +8,9 @@ GIT
 
 GIT
   remote: git://github.com/globalize/globalize.git
-  revision: ae462f8e5eeaf9ac5df9b576ebf3ce68c551b314
+  revision: 5e07742f0b3fc37682f706dda5aebf257bfe8fd5
   specs:
-    globalize (4.0.0.alpha.1)
+    globalize (4.0.0.alpha.2)
       activemodel (>= 4.0.0)
       activerecord (>= 4.0.0)
       paper_trail (~> 3.0.0.beta)
@@ -114,6 +114,11 @@ GEM
     minitest (4.7.5)
     multi_json (1.8.2)
     mysql2 (0.3.13)
+    os (0.9.6)
+    paperclip-compression (0.3.4)
+      os (~> 0.9.6)
+      paperclip (~> 3.3)
+      ruby-imagespec (~> 0.3.1)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -136,6 +141,7 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     redcarpet (3.0.0)
+    ruby-imagespec (0.3.1)
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
@@ -187,6 +193,7 @@ DEPENDENCIES
   mysql2
   paper_trail!
   paperclip!
+  paperclip-compression
   rails (= 4.0.0)
   rb-readline (~> 0.4.2)
   redcarpet
