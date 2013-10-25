@@ -40,7 +40,6 @@ class SoftwaresController < ApplicationController
     @software = Software.new(software_params)
     @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'protocol_ids' => []}.merge(params[:software] || {})
-    @software.attributes = {'license_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'operating_system_ids' => []}.merge(params[:software] || {})
 
     respond_to do |format|
@@ -59,7 +58,6 @@ class SoftwaresController < ApplicationController
   def update
     @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'protocol_ids' => []}.merge(params[:software] || {})
-    @software.attributes = {'license_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'operating_system_ids' => []}.merge(params[:software] || {})
     respond_to do |format|
       if @software.update(software_params)
