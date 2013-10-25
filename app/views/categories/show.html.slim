@@ -7,7 +7,7 @@ p#notice = notice
 - if @category.parent == nil
   = link_to t('all'), category_all_path, class: 'bar right'
 
-- @category.children.each do |subcategory|
+- @category.children.order(:title).each do |subcategory|
   = link_to subcategory, class: 'bar right' do
     = subcategory.title
     '
