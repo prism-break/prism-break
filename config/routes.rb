@@ -1,5 +1,6 @@
 PrismBreak::Application.routes.draw do
   resources :operating_systems
+  match 'operating_systems/:id/history' => 'operating_systems#history', as: :operating_system_history, via: :get
 
   resources :protocols
 

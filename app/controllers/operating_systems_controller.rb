@@ -1,5 +1,5 @@
 class OperatingSystemsController < ApplicationController
-  before_action :set_operating_system, only: [:show, :edit, :update, :destroy]
+  before_action :set_operating_system, only: [:show, :edit, :update, :destroy, :history]
 
   # GET /operating_systems
   # GET /operating_systems.json
@@ -68,6 +68,9 @@ class OperatingSystemsController < ApplicationController
     end
   end
 
+  def history
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_operating_system
@@ -76,6 +79,6 @@ class OperatingSystemsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def operating_system_params
-      params.require(:operating_system).permit(:title, :description, :url)
+      params.require(:operating_system).permit(:title, :description, :url, :logo)
     end
 end

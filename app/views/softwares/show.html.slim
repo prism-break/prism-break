@@ -17,7 +17,7 @@ p#notice = notice
       = link_to protocol.title, protocol, class: 'bar right'
 
 .section
-  .pipe More Information
+  .pipe= t 'noun.More_Information'
   = link_to t('noun.Wikipedia'), @software.wikipedia_url, class: 'bar external'
   = link_to t('noun.Source_Code'), @software.source_url, class: 'bar external'
   = link_to t('noun.Software_License'), @software.license_url, class: 'bar external'
@@ -25,16 +25,6 @@ p#notice = notice
     = link_to t('noun.Privacy_Policy'), @software.privacy_url, class: 'bar external'
   - if @software.tos_url != ""
     = link_to  t('noun.Terms_of_Service'), @software.tos_url, class: 'bar external'
-
-/.section
-  .pipe Category
-  ul.comma-delimited
-    - @software.categories.each do |cat|
-      = link_to cat, class: 'bar right' do
-        - if cat.parent != nil
-          = cat.parent.title
-          |  > 
-        = cat.title
 
 .admin
   .pipe= t('noun.Administration')

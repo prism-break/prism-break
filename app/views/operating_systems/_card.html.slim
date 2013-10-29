@@ -1,6 +1,6 @@
 .card
   = link_to operating_system, class: 'btn-rectangle' do 
-    = image_tag '#', class: 'software-logo'
+    = image_tag operating_system.logo.url(:'medium@2x'), class: 'card-logo'
     .title= operating_system.title
     .category= t 'operating_system'
   = link_to 'Wikipedia', operating_system.url, class: 'btn-square'

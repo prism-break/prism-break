@@ -4,8 +4,8 @@
 
 div class="card"
   = link_to software, class: 'btn-rectangle' do 
-    = image_tag software.logo.url(:'medium@2x'), class: 'software-logo'
-    .title= truncate software.title, length: 18, omission: "..."
+    = image_tag software.logo.url(:'medium@2x'), class: 'card-logo'
+    .title= truncate software.title, length: 18
     .category= category_title
 
   = link_to 'Website', software.url, class: 'btn-square'
