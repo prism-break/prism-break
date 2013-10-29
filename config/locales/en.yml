@@ -21,6 +21,7 @@ en:
       singular: Category
       plural: Categories
       all: All Categories
+      browse: Browse by Category
       destroy: Destroy Category
       edit: Edit Category
       new: New Category
@@ -28,6 +29,7 @@ en:
       singular: Operating System
       plural: Operating Systems
       all: All Operating Systems
+      browse: Browse by OS
       destroy: Destroy Operating System
       edit: Edit Operating System
       new: New Operating System
@@ -35,6 +37,7 @@ en:
       singular: Protocol
       plural: Protocols
       all: All Protocols
+      browse: Browse by Protocol
       destroy: Destroy Protocol
       edit: Edit Protocol
       new: New Protocol
@@ -42,6 +45,7 @@ en:
       singular: Software
       plural: Software
       all: All Software
+      browse: Browse All Software
       destroy: Destroy Software
       edit: Edit Software
       new: New Software
