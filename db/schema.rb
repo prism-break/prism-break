@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131025070110) do
+ActiveRecord::Schema.define(version: 20131029022037) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20131025070110) do
     t.datetime "updated_at"
     t.integer  "parent_id"
     t.integer  "sort_order"
+    t.text     "description"
   end
 
   create_table "categorizations", force: true do |t|
@@ -46,6 +47,7 @@ ActiveRecord::Schema.define(version: 20131025070110) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "title"
+    t.text     "description"
   end
 
   add_index "category_translations", ["category_id"], name: "index_category_translations_on_category_id", using: :btree

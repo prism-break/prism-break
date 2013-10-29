@@ -9,6 +9,8 @@ p#notice = notice
 
 - @category.children.order(:title).each do |subcategory|
   = link_to subcategory, class: 'bar right' do
+    - if subcategory.softwares.first != nil
+      = image_tag subcategory.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
     = subcategory.title
     '
     span.light= "(#{subcategory.softwares.count})"

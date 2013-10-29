@@ -17,7 +17,6 @@ class SoftwaresController < ApplicationController
       @category = (@subcategories & @software.categories).first
     end
     @parent_path = @category
-    @page_title = t('v.softwares.singular')
   end
 
   # GET /softwares/new
