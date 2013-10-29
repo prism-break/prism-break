@@ -150,10 +150,12 @@
  
   "i18n-scheduling": "Scheduling",
   "i18n-dudle-desc": "A free securely-hosted online poll, with a privacy-enhanced version.",
-  "i18n-document-collaboration": "Gemeinsames Arbeiten an Dokumenten",
+
+  "i18n-office-productivity": "Office productivity",
+  "i18n-protectedtext-desc": "Free online encrypted notepad.",
   "i18n-etherpad-desc": "Quelloffenes, gemeinsames Arbeiten an Textdokumenten in Echtzeit.",
   "i18n-ethercalc-desc": "Tabellenkalkulation für mehrere Benutzer.",
-  "i18n-document-collaboration-note": "<p>Das <strong>Etherpad</strong>-Projekt enthält eine Liste von <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>Seiten, die Etherpad anbieten (Englisch)</a>. Bitte wähle nur die Anbieter, die SSL unterstützen und untersuche den Hintergrund der Seite, bevor Du ihr Deine Daten anvertraust.</p><p><a href='#email-service'><strong>Riseup</strong></a> bietet ebenfalls E-Mail, VPN, und Chat-Services.</p>",
+  "i18n-office-productivity-note": "<p>Das <strong>Etherpad</strong>-Projekt enthält eine Liste von <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>Seiten, die Etherpad anbieten (Englisch)</a>. Bitte wähle nur die Anbieter, die SSL unterstützen und untersuche den Hintergrund der Seite, bevor Du ihr Deine Daten anvertraust.</p><p><a href='#email-service'><strong>Riseup</strong></a> bietet ebenfalls E-Mail, VPN, und Chat-Services.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
   
   "i18n-media-publishing": "Medienveröffentlichung",
   "i18n-mediacrush-desc": "Privatsphäreorientiertes, schnelles Medien (Bilder, Audio, Video) Hosting.",
