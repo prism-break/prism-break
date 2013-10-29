@@ -148,11 +148,11 @@
   "i18n-tahoelafs-desc": "Freies und offenes Cloud-Speichersystem.",
   "i18n-cloud-storage-note": "<p>BitTorrent Sync, MEGA, SpiderOak und Tarsnap sind Services, die total oder teilweise auf propertiäre Software aufbauen. Sie werden nicht auf PRISM Break vorgeschlagen, bis sie den kompletten Quellcode freigeben.</p><p>Mit Software, die nicht quelloffen ist, musst Du zu 100% dem Anbieter vertrauen, weil es nichts außer Moral gibt, das sie hindert, deine persöhnlichen Daten zu verraten. Selbst wenn Du für deren Rechtschaffenheit bürgen kannst, hat propertiäre Software mehr ungefundene Sicherheitslücken und Exploits, weil es weniger Menschen gibt, die den Quellcode durchsuchen.</p><p>Eine weitere Alternative zu Cloudspeicherung ist ein lokales Backup mit externen Festplatten und USB-Sticks. Diese Methode ist viel zuverlässiger als Daten in einem Netzwerk zu speichern und kostet nur wenig.</p>",
  
-  "i18n-scheduling": "Scheduling",
-  "i18n-dudle-desc": "A free securely-hosted online poll, with a privacy-enhanced version.",
+  "i18n-scheduling": "Terminfindung",
+  "i18n-dudle-desc": "Freie, sicher gehostete Online-Umfragen mit einer Extraversion, die mehr Privatssphäre bietet.",
 
-  "i18n-office-productivity": "Office productivity",
-  "i18n-protectedtext-desc": "Free online encrypted notepad.",
+  "i18n-office-productivity": "Büro und Produktivität",
+  "i18n-protectedtext-desc": "Verschlüsselte Notizen online abspeichern.",
   "i18n-etherpad-desc": "Quelloffenes, gemeinsames Arbeiten an Textdokumenten in Echtzeit.",
   "i18n-ethercalc-desc": "Tabellenkalkulation für mehrere Benutzer.",
   "i18n-office-productivity-note": "<p>Das <strong>Etherpad</strong>-Projekt enthält eine Liste von <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>Seiten, die Etherpad anbieten (Englisch)</a>. Bitte wähle nur die Anbieter, die SSL unterstützen und untersuche den Hintergrund der Seite, bevor Du ihr Deine Daten anvertraust.</p><p><a href='#email-service'><strong>Riseup</strong></a> bietet ebenfalls E-Mail, VPN, und Chat-Services.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
