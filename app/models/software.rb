@@ -68,6 +68,12 @@ class Software < ActiveRecord::Base
   before_validation { logo.clear if delete_logo == '1' }
 
   # wikipedia
+  def no_dedicated_wikipedia_page
+    if self.id == 22 || self.id == 25
+      true
+    end
+  end
+
   def wikipedia_description
     sentences = 3
     url_array = self.wikipedia_url.split('/')
@@ -85,9 +91,10 @@ class Software < ActiveRecord::Base
 
   def self.update_descriptions
     Software.all.each do |s|
-      s.description = s.wikipedia_description
-      s.save!
-      puts "#{s.title} has an updated description."
+      unless s.no_dedicated_wikipedia_page(s.id)
+        s.description = s.wikipedia_description
+        s.save!
+      end
     end
   end
 
