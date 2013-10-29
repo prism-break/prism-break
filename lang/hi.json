@@ -148,10 +148,11 @@
   "i18n-tahoelafs-desc": "मुक्त एवं आेपन क्लाउड स्टोरेज प्रणाली.", 
   "i18n-cloud-storage-note": "<p>Why not MEGA? While MEGA is free as in beer, the software is proprietary code.</p><p>Why not SpiderOak? SpiderOak is proprietary software.</p><p>Why not Tarsnap? Tarsnap is partially proprietary and hosts your data on Amazon Web Services.</p>", 
 
-  "i18n-document-collaboration": "दस्तावेज सहभागिता", 
+  "i18n-office-productivity": "Office productivity",
+  "i18n-protectedtext-desc": "Free online encrypted notepad.",
   "i18n-etherpad-desc": "आेपन सोर्स, समयोचित सहभागी दस्तावेज.", 
   "i18n-ethercalc-desc": "बहु-उपयोगकर्ता स्प्रैड़शीट सर्वर.", 
-  "i18n-document-collaboration-note": "<p>--</p>", 
+  "i18n-office-productivity-note": "<p>The <strong>etherpad</strong> project maintains a list of <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites that run etherpad services</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> also offers email, XMPP, and chat services, all of which are accessible through <a href='#meshnet'>Tor Hidden Service</a> addresses. The list of these addresses is <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>available here</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
 
   "i18n-media-publishing": "मीडिया प्रकाशन", 
   "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting", 
