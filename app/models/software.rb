@@ -44,7 +44,7 @@ class Software < ActiveRecord::Base
 
   # validations
   validates :title, presence: true, uniqueness: true
-  validates :description, presence: true, uniqueness: true
+  validates :description, uniqueness: true
   validates :url, presence: true, uniqueness: true
   validates :source_url, presence: true, uniqueness: true
   validates :license_url, presence:true, uniqueness: true
@@ -91,7 +91,7 @@ class Software < ActiveRecord::Base
 
   def self.update_descriptions
     Software.all.each do |s|
-      unless s.no_dedicated_wikipedia_page(s.id)
+      unless s.no_dedicated_wikipedia_page
         s.description = s.wikipedia_description
         s.save!
       end

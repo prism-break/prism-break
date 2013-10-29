@@ -14,9 +14,6 @@
     - if @software.no_dedicated_wikipedia_page
       = f.label :description, "#{t('noun.Description')}*"
       = f.text_area :description
-    - else
-      = f.label :description, "#{t('noun.Wikipedia_Description')}"
-      = f.text_area :description, disabled: true
 
   .field
     = image_tag @software.logo.url(:'medium@2x'), class: 'card-logo'

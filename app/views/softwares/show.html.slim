@@ -2,7 +2,8 @@ p#notice = notice
 
 = render 'softwares/card', software: @software
 
-.section.description= filter_markdown(@software.description)
+- if @software.description != nil
+  .section.description= filter_markdown(@software.description)
 
 - if @software.operating_systems.count > 0
   .section
