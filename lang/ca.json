@@ -9,7 +9,7 @@
   "i18n-notes": "Notes", 
 
   "i18n-operating-system": "Sistemes Operatius", 
-  "i18n-arch-desc": "Elegant, minimal, and flexible Linux&reg; distribution."
+  "i18n-arch-desc": "Elegant, minimal, and flexible Linux&reg; distribution.",
   "i18n-debian-desc": "Popular distribució de GNU/Linux famosa pel seu contracte social.", 
   "i18n-fedora-desc": "Distribució de GNU/Linux ràpida, estable i potent.", 
   "i18n-gentoo-desc": "Distribució amb èmfasi en la tria, el control i la seguretat.", 
@@ -151,10 +151,11 @@
   "i18n-scheduling": "Scheduling",
   "i18n-dudle-desc": "A free securely-hosted online poll, with a privacy-enhanced version.",
 
-  "i18n-document-collaboration": "Documents Col·laboratius", 
+  "i18n-office-productivity": "Office productivity",
+  "i18n-protectedtext-desc": "Free online encrypted notepad.",
   "i18n-etherpad-desc": "Documents col·laboratius en temps real, de codi obert.", 
   "i18n-ethercalc-desc": "Servidor de fulls de càlcul multiusuari.", 
-  "i18n-document-collaboration-note": "<span class='p'>--</span>", 
+  "i18n-office-productivity-note": "<p>The <strong>etherpad</strong> project maintains a list of <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites that run etherpad services</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> also offers email, XMPP, and chat services, all of which are accessible through <a href='#meshnet'>Tor Hidden Service</a> addresses. The list of these addresses is <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>available here</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
 
   "i18n-media-publishing": "Publicació de Mèdia", 
   "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting", 
