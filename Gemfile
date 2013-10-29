@@ -11,7 +11,8 @@ gem 'closure_tree' # for tree based categories
 gem 'paperclip', :github => "thoughtbot/paperclip"
 gem 'paperclip-compression'
 gem 'redcarpet' # markdown
-gem 'nokogiri'
+gem 'nokogiri' # for html parsing
+gem 'whenever', :require => false # for cron jobs
 
 # Use mysql as the database for Active Record
 gem 'mysql2'

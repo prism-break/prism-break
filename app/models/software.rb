@@ -83,4 +83,12 @@ class Software < ActiveRecord::Base
     parse.first.content
   end
 
+  def self.update_descriptions
+    Software.all.each do |s|
+      s.description = s.wikipedia_description
+      s.save!
+      puts "#{s.title} has an updated description."
+    end
+  end
+
 end
