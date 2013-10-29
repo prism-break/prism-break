@@ -71,10 +71,11 @@ class Software < ActiveRecord::Base
   def wikipedia_description
     sentences = 3
     url_array = self.wikipedia_url.split('/')
+    url_locale = url_array[2].split('.').first
     url_remainder = url_array.drop(4)
     page_title = url_remainder.join('/')
 
-    extract_url = "https://en.wikipedia.org/w/api.php?" +
+    extract_url = "https://#{url_locale}.wikipedia.org/w/api.php?" +
       "action=query&prop=extracts&exintro=&exsentences=#{sentences}" +
       "&explaintext=&format=xml&titles=#{page_title}"
 
