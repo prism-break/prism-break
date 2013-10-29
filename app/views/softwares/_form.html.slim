@@ -14,7 +14,7 @@
     = f.text_area :description
 
   .field
-    = image_tag @software.logo.url(:'medium@2x'), class: 'software-logo'
+    = image_tag @software.logo.url(:'medium@2x'), class: 'card-logo'
     = f.label :logo, "#{t('noun.Logo')}"
     p.desc Square PNG up to 1024 &times; 1024px in dimensions and 512 KB in size.
     = f.file_field :logo
