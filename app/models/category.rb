@@ -3,7 +3,7 @@ class Category < ActiveRecord::Base
   validates :title, presence: true
 
   # translations and edit history
-  translates :title, :versioning => true
+  translates :title, :description, :versioning => true
   has_paper_trail
 
   # nesting
