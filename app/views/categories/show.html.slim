@@ -1,8 +1,10 @@
 p#notice = notice
 
+- if @category.description != nil
+  .top-description= @category.description
+
 - @category.softwares.order(:title).each do |software|
   = render 'softwares/card', software: software
-
 
 - if @category.parent == nil
   = link_to t('all'), category_all_path, class: 'bar right'
