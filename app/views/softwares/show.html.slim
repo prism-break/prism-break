@@ -3,6 +3,9 @@ p#notice = notice
 = render 'softwares/card', software: @software
 
 .section.description= filter_markdown(@software.description)
+- if @software.wikipedia_url != nil
+  .section.description
+    p= @software.wikipedia_description
 
 - if @software.operating_systems.count > 0
   .section

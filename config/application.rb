@@ -11,6 +11,9 @@ if defined? Stylus
   Stylus.debug = Rails.env != "production"
 end                                       
 
+require 'open-uri'
+require 'nokogiri'
+
 module PrismBreak
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.

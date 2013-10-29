@@ -67,4 +67,19 @@ class Software < ActiveRecord::Base
   attr_accessor :delete_logo
   before_validation { logo.clear if delete_logo == '1' }
 
+  # wikipedia
+  def wikipedia_description
+    sentences = 3
+    url_array = self.wikipedia_url.split('/')
+    url_remainder = url_array.drop(4)
+    page_title = url_remainder.join('/')
+
+    extract_url = "https://en.wikipedia.org/w/api.php?" +
+      "action=query&prop=extracts&exintro=&exsentences=#{sentences}" +
+      "&explaintext=&format=xml&titles=#{page_title}"
+
+    parse = Nokogiri::XML(open(extract_url)).xpath("//extract")
+    parse.first.content
+  end
+
 end
