@@ -1,33 +1,38 @@
-#header_menu
-  bg #fff
-  box-shadow b30 0 0 10px
-  d none
-  bg #000
-  fixed()
-  top 44px
-  left 0
-  w 320px
-  z-index 100
+#menu_toggle
+  #header_menu
+    bg #fff
+    box-shadow b30 0 0 10px
+    bg #000
+    fixed()
+    top 44px
+    left 0
+    w 320px
+    z-index 100
+    d none
 
-  ul
-    clearfix()
-    li
-      bb 1px solid #333
-      a
-        d block
-        c #ccc
-        f 1em/43px sans
-        p 0 1em
-        &:hover
-          bg #222
-          c #eee
-        &:active
-          bg #333
-          c #fff
-
-      &.small
-        bb none
-        w 50%
-        float left
+    ul
+      clearfix()
+      li
+        bb 1px solid #333
         a
-          f 1em/2.4 sans
+          d block
+          c #ccc
+          f 1em/43px sans
+          p 0 1em
+          &:hover
+            bg #222
+            c #eee
+          &:active
+            bg #333
+            c #fff
+
+        &.small
+          bb none
+          w 50%
+          float left
+          a
+            f 1em/2.4 sans
+
+  &:focus, &:hover
+    #header_menu
+      d block
