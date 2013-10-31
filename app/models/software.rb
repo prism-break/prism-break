@@ -68,8 +68,9 @@ class Software < ActiveRecord::Base
   before_validation { logo.clear if delete_logo == '1' }
 
   # wikipedia
-  def no_dedicated_wikipedia_page
-    if self.id == 22 || self.id == 25
+  def has_wikipedia_page
+    software_without_wikipedia_page = [22, 25]
+    unless software_without_wikipedia_page.include?(self.id)
       true
     end
   end
@@ -89,13 +90,15 @@ class Software < ActiveRecord::Base
     parse.first.content
   end
 
-  def self.update_descriptions
-    Software.all.each do |s|
-      unless s.no_dedicated_wikipedia_page
-        s.description = s.wikipedia_description
-        s.save!
-      end
+  def update_description
+    if self.has_wikipedia_page
+      self.description = self.wikipedia_description
+      self.save!
     end
+  end
+
+  def self.update_descriptions
+    Software.all.each { |s| s.update_description }
   end
 
 end

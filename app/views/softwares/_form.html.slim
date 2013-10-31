@@ -11,7 +11,7 @@
     = f.text_field :title
 
   .field
-    - if @software.no_dedicated_wikipedia_page
+    - unless @software.has_wikipedia_page
       = f.label :description, "#{t('noun.Description')}*"
       = f.text_area :description
 
