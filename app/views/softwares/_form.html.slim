@@ -11,9 +11,12 @@
     = f.text_field :title
 
   .field
-    - unless @software.has_wikipedia_page
+    - if @software.wikipedia_url == ""
       = f.label :description, "#{t('noun.Description')}*"
       = f.text_area :description
+    - else
+      = f.label :description, "#{t('noun.Wikipedia_Description')}"
+      = f.text_area :description, disabled: true
 
   .field
     = image_tag @software.logo.url(:'medium@2x'), class: 'card-logo'
@@ -26,9 +29,6 @@
         = f.label :delete_logo, 'Destroy Logo'
 
   .field
-    = f.label :wikipedia_url, "#{t('v.softwares.form.wikipedia-url')}*"
-    = f.url_field :wikipedia_url
-  .field
     = f.label :url, "#{t('v.softwares.form.url')}*"
     = f.url_field :url
   .field
@@ -37,6 +37,9 @@
   .field
     = f.label :license_url, "#{t('v.softwares.form.license-url')}*"
     = f.url_field :license_url
+  .field
+    = f.label :wikipedia_url, "#{t('v.softwares.form.wikipedia-url')}"
+    = f.url_field :wikipedia_url
   .field
     = f.label :privacy_url, "#{t('v.softwares.form.privacy-url')}"
     = f.url_field :privacy_url

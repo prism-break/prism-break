@@ -21,7 +21,8 @@ p#notice = notice
 
 .section
   .pipe= t 'noun.More_Information'
-  = link_to t('noun.Wikipedia'), @software.wikipedia_url, class: 'bar external'
+  - if @software.wikipedia_url != ""
+    = link_to t('noun.Wikipedia'), @software.wikipedia_url, class: 'bar external'
   = link_to t('noun.Source_Code'), @software.source_url, class: 'bar external'
   = link_to t('noun.Software_License'), @software.license_url, class: 'bar external'
   - if @software.privacy_url != ""

@@ -44,11 +44,9 @@ class Software < ActiveRecord::Base
 
   # validations
   validates :title, presence: true, uniqueness: true
-  validates :description, uniqueness: true
   validates :url, presence: true, uniqueness: true
-  validates :source_url, presence: true, uniqueness: true
-  validates :license_url, presence:true, uniqueness: true
-  validates :wikipedia_url, presence:true, uniqueness: true
+  validates :source_url, presence: true
+  validates :license_url, presence:true
 
   # url validation
   validates_format_of :url, :source_url, :privacy_url, :tos_url,
@@ -58,7 +56,7 @@ class Software < ActiveRecord::Base
 
   # attachment validations
   validates_attachment :logo,
-    :size => { :in => 1..512.kilobytes }
+    :size => { :in => 1..2048.kilobytes }
   validates_attachment_content_type :logo,
     :content_type => /^image\/(png|x-png)$/,
     :message => 'should only be png'
@@ -70,7 +68,7 @@ class Software < ActiveRecord::Base
   # wikipedia
   def has_wikipedia_page
     software_without_wikipedia_page = [22, 25]
-    unless software_without_wikipedia_page.include?(self.id)
+    unless software_without_wikipedia_page.include?(self.id) or self.wikipedia_url == ""
       true
     end
   end
@@ -87,7 +85,7 @@ class Software < ActiveRecord::Base
       "&explaintext=&format=xml&titles=#{page_title}"
 
     parse = Nokogiri::XML(open(extract_url)).xpath("//extract")
-    parse.first.content
+    rm_brackets = parse.first.content.text.gsub(/(?<=\[).+?(?=\])/, "")
   end
 
   def update_description

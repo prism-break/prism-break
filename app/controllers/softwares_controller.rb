@@ -42,8 +42,8 @@ class SoftwaresController < ApplicationController
     @software.attributes = {'operating_system_ids' => []}.merge(params[:software] || {})
 
     respond_to do |format|
-      @software.update_description
       if @software.save
+        @software.update_description
         format.html { redirect_to @software, notice: 'Software was successfully created.' }
         format.json { render action: 'show', status: :created, location: @software }
       else
