@@ -230,6 +230,7 @@
   "i18n-diskcryptor-desc": "Software de alto rendimiento para cifrado de particiones en Windows.", 
   "i18n-encfs-desc": "Herramienta de cifrado de archivos con soporte para GNU/Linux, Mac OS X y Windows.", 
   "i18n-geli-desc": "Subsistema de cifrado de disco incluido en el sistema operativo FreeBSD.", 
+  "i18n-ecryptfs-desc": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
   "i18n-file-encryption-note": "<p>Aunque <strong>TrueCrypt</strong> es libre y de código abierto, es desarrollado de forma cerrada y tal vez reciba menos revisión que un proyecto desarrollado abiertamente. A pesar de eso, es probable que sigua siendo la mejor opción para cifrar archivos bajo Windows y OS X.</p><p>Si tú estás usando GNU/Linux, <strong>dm-crypt</strong> con <strong>LUKS</strong> es la opción recomendada.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>tiene una guía</a> para <strong>dm-crypt</strong> con <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>tiene otra guía</a> para <strong>dm-crypt</strong> con <strong>LUKS</strong> que también es útil con Parabola GNU/Linux.</p>", 
 
   "i18n-mail-server": "Servidor de correo", 
