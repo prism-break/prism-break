@@ -1,7 +1,7 @@
 p#notice = notice
 
 - if @category.description != nil
-  .top-description= filter_markdown(@category.description)
+  .text-block= filter_markdown(@category.description)
 
 - @category.softwares.order(:title).each do |software|
   = render 'softwares/card', software: software

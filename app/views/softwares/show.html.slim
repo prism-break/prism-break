@@ -3,12 +3,13 @@ p#notice = notice
 = render 'softwares/card', software: @software
 
 - if @software.description != nil
-  .section.description= filter_markdown(@software.description)
+  .section
+    .text-block= filter_markdown(@software.description)
 
 - if @software.notes != nil
   .section
     .pipe= t 'noun.Security_Notes'
-    = filter_markdown(@software.description)
+    .text-block= filter_markdown(@software.notes)
 
 - if @software.operating_systems.count > 0
   .section
