@@ -13,6 +13,7 @@ gem 'paperclip-compression'
 gem 'redcarpet' # markdown
 gem 'nokogiri' # for html parsing
 gem 'whenever', :require => false # for cron jobs
+gem 'font-awesome-rails'
 
 # Use mysql as the database for Active Record
 gem 'mysql2'
