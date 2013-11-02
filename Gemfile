@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.1'
 gem 'rb-readline', '~> 0.4.2'
 gem 'routing-filter', github: 'svenfuchs/routing-filter'
 gem 'globalize', github: 'globalize/globalize'

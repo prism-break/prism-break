@@ -1,14 +1,15 @@
 GIT
   remote: git://github.com/airblade/paper_trail.git
-  revision: 44f2380ec6cd45c15a8b654d5e7d694499c6e11c
+  revision: 7c9f9b8953f76dd046fbcbfab1a933853f99e87b
   branch: master
   specs:
-    paper_trail (3.0.0.beta2)
+    paper_trail (3.0.0.rc1)
       activerecord (>= 3.0, < 5.0)
+      activesupport (>= 3.0, < 5.0)
 
 GIT
   remote: git://github.com/globalize/globalize.git
-  revision: 5e07742f0b3fc37682f706dda5aebf257bfe8fd5
+  revision: 885ec679fd6f7ea5ae225c8346301ca95d5cfffa
   specs:
     globalize (4.0.0.alpha.2)
       activemodel (>= 4.0.0)
@@ -32,7 +33,7 @@ GIT
 
 GIT
   remote: git://github.com/thoughtbot/paperclip.git
-  revision: 144693101637b784ef3524749019ff8112c0df81
+  revision: a01677f58762394c2915eb512fe2f69aec6fbcf5
   specs:
     paperclip (3.5.2)
       activemodel (>= 3.0.0)
@@ -43,25 +44,25 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (4.0.0)
-      actionpack (= 4.0.0)
-      mail (~> 2.5.3)
-    actionpack (4.0.0)
-      activesupport (= 4.0.0)
+    actionmailer (4.0.1)
+      actionpack (= 4.0.1)
+      mail (~> 2.5.4)
+    actionpack (4.0.1)
+      activesupport (= 4.0.1)
       builder (~> 3.1.0)
       erubis (~> 2.7.0)
       rack (~> 1.5.2)
       rack-test (~> 0.6.2)
-    activemodel (4.0.0)
-      activesupport (= 4.0.0)
+    activemodel (4.0.1)
+      activesupport (= 4.0.1)
       builder (~> 3.1.0)
-    activerecord (4.0.0)
-      activemodel (= 4.0.0)
+    activerecord (4.0.1)
+      activemodel (= 4.0.1)
       activerecord-deprecated_finders (~> 1.0.2)
-      activesupport (= 4.0.0)
+      activesupport (= 4.0.1)
       arel (~> 4.0.0)
     activerecord-deprecated_finders (1.0.3)
-    activesupport (4.0.0)
+    activesupport (4.0.1)
       i18n (~> 0.6, >= 0.6.4)
       minitest (~> 4.2)
       multi_json (~> 1.3)
@@ -112,7 +113,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25)
-    mini_portile (0.5.1)
+    mini_portile (0.5.2)
     minitest (4.7.5)
     multi_json (1.8.2)
     mysql2 (0.3.13)
@@ -127,17 +128,17 @@ GEM
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
-    rails (4.0.0)
-      actionmailer (= 4.0.0)
-      actionpack (= 4.0.0)
-      activerecord (= 4.0.0)
-      activesupport (= 4.0.0)
+    rails (4.0.1)
+      actionmailer (= 4.0.1)
+      actionpack (= 4.0.1)
+      activerecord (= 4.0.1)
+      activesupport (= 4.0.1)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.0.0)
+      railties (= 4.0.1)
       sprockets-rails (~> 2.0.0)
-    railties (4.0.0)
-      actionpack (= 4.0.0)
-      activesupport (= 4.0.0)
+    railties (4.0.1)
+      actionpack (= 4.0.1)
+      activesupport (= 4.0.1)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.1.0)
@@ -149,7 +150,7 @@ GEM
     sdoc (0.3.20)
       json (>= 1.1.3)
       rdoc (~> 3.10)
-    slim (2.0.1)
+    slim (2.0.2)
       temple (~> 0.6.6)
       tilt (>= 1.3.3, < 2.1)
     slim-rails (2.0.3)
@@ -178,9 +179,9 @@ GEM
     turbolinks (1.3.0)
       coffee-rails
     tzinfo (0.3.38)
-    uglifier (2.2.1)
+    uglifier (2.3.0)
       execjs (>= 0.3.0)
-      multi_json (~> 1.0, >= 1.0.2)
+      json (>= 1.8.0)
     whenever (0.8.4)
       activesupport (>= 2.3.4)
       chronic (>= 0.6.3)
@@ -202,7 +203,7 @@ DEPENDENCIES
   paper_trail!
   paperclip!
   paperclip-compression
-  rails (= 4.0.0)
+  rails (= 4.0.1)
   rb-readline (~> 0.4.2)
   redcarpet
   routing-filter!

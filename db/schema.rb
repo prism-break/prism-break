@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131029041917) do
+ActiveRecord::Schema.define(version: 20131102113102) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -132,6 +132,7 @@ ActiveRecord::Schema.define(version: 20131029041917) do
     t.string   "tos_url"
     t.string   "license_url"
     t.string   "wikipedia_url"
+    t.text     "notes"
   end
 
   add_index "software_translations", ["locale"], name: "index_software_translations_on_locale", using: :btree
@@ -152,6 +153,7 @@ ActiveRecord::Schema.define(version: 20131029041917) do
     t.datetime "logo_updated_at"
     t.string   "license_url"
     t.string   "wikipedia_url"
+    t.text     "notes"
   end
 
   create_table "versions", force: true do |t|

@@ -8,7 +8,7 @@ class Software < ActiveRecord::Base
   has_many :operating_systems, through: :operating_system_softwares
 
   # translations and edit history
-  translates :title, :description, :url, :source_url, :privacy_url, :tos_url, :license_url, :wikipedia_url, :versioning => true
+  translates :title, :description, :url, :source_url, :privacy_url, :tos_url, :license_url, :wikipedia_url, :notes, :versioning => true
   has_paper_trail
   
   # paperclip
@@ -85,7 +85,7 @@ class Software < ActiveRecord::Base
       "&explaintext=&format=xml&titles=#{page_title}"
 
     parse = Nokogiri::XML(open(extract_url)).xpath("//extract")
-    rm_brackets = parse.first.content.text.gsub(/(?<=\[).+?(?=\])/, "")
+    parse.first.content
   end
 
   def update_description

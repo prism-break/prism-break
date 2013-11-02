@@ -19,6 +19,10 @@
       = f.text_area :description, disabled: true
 
   .field
+    = f.label :notes, "#{t('v.softwares.form.notes')}"
+    = f.text_area :notes
+
+  .field
     = image_tag @software.logo.url(:'medium@2x'), class: 'card-logo'
     = f.label :logo, "#{t('noun.Logo')}"
     p.desc Square PNG up to 1024 &times; 1024px in dimensions and 512 KB in size.
@@ -47,6 +51,7 @@
     = f.label :tos_url, "#{t('v.softwares.form.tos-url')}"
     = f.url_field :tos_url
     
+
   .field
     = f.label :protocol, t('noun.Supported_Protocols')
     ul.checkboxes

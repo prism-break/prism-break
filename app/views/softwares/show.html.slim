@@ -5,6 +5,11 @@ p#notice = notice
 - if @software.description != nil
   .section.description= filter_markdown(@software.description)
 
+- if @software.notes != nil
+  .section
+    .pipe= t 'noun.Security_Notes'
+    = filter_markdown(@software.description)
+
 - if @software.operating_systems.count > 0
   .section
     .pipe= t 'noun.Supported_Operating_Systems'
