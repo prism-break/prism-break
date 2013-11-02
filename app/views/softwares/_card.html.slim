@@ -2,10 +2,16 @@
   - subcategories = software.categories.first.root.leaves
   - category_title = (subcategories & software.categories).first.title
 
-div class="card"
+.card
   = link_to software, class: 'btn-rectangle' do 
     = image_tag software.logo.url(:'medium@2x'), class: 'card-logo'
-    .title= truncate software.title, length: 18
+    .title= truncate software.title, length: 36
     .category= category_title
+    .rating
+      span.stars
+        | &#9733;&#9733;&#9733;&#9733;&#9733;
+      span.num 
+        '
+        | (75)
 
-  = link_to 'Website', software.url, class: 'btn-square'
+  = link_to '-^', software.url, class: 'btn-square'

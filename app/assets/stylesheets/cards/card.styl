@@ -22,21 +22,21 @@ body.softwares.show .card
       d block
 
     &.btn-rectangle
+      fl left
+      w 276px
       p .75em
       clearfix()
       &:hover
         bg m245
 
     &.btn-square
-      lhh 2em
+      fl left
+      lhh 84px
+      w 44px
       ta center
-      b 1px solid txt
-      p 0 .5em
+      bl 1px solid #eee
       s 75%
       c #333
-      absolute()
-      right 12px
-      top 24px
       bg #fff
       &:hover
         bg m245
@@ -45,15 +45,24 @@ body.softwares.show .card
     mr x*0.75
 
   .title
-    display inline
     c #333
-    pr x * 0.25
+    f 0.9em/1.5 sans
 
   .desc
     c txt
-  .category
-    f 75%/1.5 sans
+
+  .category, .rating .num
     c dim
+
+  .category
+    f 70%/1.5 sans
+
+  .rating
+    f 1.2em/85% sans
+    .stars
+      c orange
+    .num
+      s 50%
 
   &.plugin
     bl x * 0.75 solid #eee
