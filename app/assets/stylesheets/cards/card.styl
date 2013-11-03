@@ -26,6 +26,7 @@ body.softwares.show .card
       w 276px
       p .75em
       clearfix()
+      h 84px
       &:hover
         bg m245
 
@@ -52,15 +53,18 @@ body.softwares.show .card
   .desc
     c txt
 
-  .category, .rating .num
-    c dim
-
-  .category
+  .category, .rating
     f 70%/1.5 sans
 
+  .category
+    c dim
+
   .rating
-    f 1.2em/85% sans
     .stars
       c orange
+      .fa
+        mr 2px
     .num
-      s 50%
+      s 75%
+      va text-bottom
+      c light

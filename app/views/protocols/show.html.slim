@@ -2,13 +2,18 @@ p#notice = notice
 
 = render 'protocols/card', protocol: @protocol
 
-= filter_markdown(@protocol.description)
+.text-block= filter_markdown(@protocol.description)
 
-= link_to t('v.protocols.edit'), edit_protocol_path(@protocol)
-
-- if @protocol.softwares.count > 0
-  .pipe= t 'heading.supported-software'
+- if @protocol.softwares == []
+  .pipe= t 'heading.no-supported-software'
+- else
+  .pipe
+    = @protocol.title
+    '
+    = t 'heading.supported-software'
   - @protocol.softwares.each do |software|
     = render 'softwares/card', software: software
-- else
-  .pipe= t 'heading.no-supported-software'
+
+= link_to edit_protocol_path(@protocol), class: 'bar' do
+  .label= t('v.protocols.edit')
+  .icon= fa_icon 'edit'

@@ -1,4 +1,10 @@
+= link_to new_protocol_path, class: 'bar' do
+  .label= t('v.protocols.new')
+  .icon= fa_icon 'edit'
+
 - @protocols.each do |protocol|
   = render 'protocols/card', protocol: protocol
 
-= link_to t('v.protocols.new'), new_protocol_path
+= link_to new_protocol_path, class: 'bar' do
+  .label= t('v.protocols.new')
+  .icon= fa_icon 'edit'

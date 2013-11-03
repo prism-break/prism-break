@@ -2,16 +2,16 @@ p#notice = notice
 
 = render 'softwares/card', software: @software
 
-- if @software.description != nil
+- if @software.description?
   .section
     .text-block= filter_markdown(@software.description)
 
-- if @software.notes != nil
+- if @software.notes?
   .section
     .pipe= t 'noun.Security_Notes'
     .text-block= filter_markdown(@software.notes)
 
-- if @software.operating_systems.count > 0
+- if @software.operating_systems != []
   .section
     .pipe= t 'noun.Supported_Operating_Systems'
     - @software.operating_systems.order(:title).each do |operating_system|
@@ -21,7 +21,7 @@ p#notice = notice
           = operating_system.title
         .icon= fa_icon 'angle-right'
 
-- if @software.protocols.count > 0
+- if @software.protocols != []
   .section
     .pipe= t 'noun.Supported_Protocols'
     - @software.protocols.order(:title).each do |protocol|
@@ -32,7 +32,7 @@ p#notice = notice
 .section
   .pipe= t 'noun.More_Information'
 
-  - if @software.wikipedia_url != ""
+  - if @software.wikipedia_url?
     = link_to @software.wikipedia_url, class: 'bar' do
       .label= t('noun.Wikipedia')
       .icon= fa_icon 'external-link'
@@ -45,12 +45,12 @@ p#notice = notice
     .label= t('noun.Software_License')
     .icon= fa_icon 'external-link'
 
-  - if @software.privacy_url != ""
+  - if @software.privacy_url?
     = link_to @software.privacy_url, class: 'bar' do
       .label= t('noun.Privacy_Policy')
       .icon= fa_icon 'external-link'
 
-  - if @software.tos_url != ""
+  - if @software.tos_url?
     = link_to @software.tos_url, class: 'bar' do
       .label= t('noun.Terms_of_Service')
       .icon= fa_icon 'external-link'
