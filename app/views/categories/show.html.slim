@@ -23,9 +23,11 @@ p#notice = notice
 
 .admin
   .pipe= t 'noun.Administration'
+
   = link_to edit_category_path(@category), class: 'bar'
     .label= t('v.categories.edit') 
     .icon= fa_icon 'edit'
+
   = link_to @category, :confirm => t('admin.confirm'), :method => :delete, class: 'bar'
     .label= t('v.categories.destroy') 
     .icon= fa_icon 'trash-o'

@@ -1,11 +1,14 @@
 .bar
   d block
   h 44px
-  bb 1px solid #ddd
-  f 1em/43px sans
+  w 100%
   p 0 1em
+  ta left
+  f 1em/43px sans
   c #333
   bg #fff
+  b none
+  bb 1px solid #ddd
 
   .label
     float left
@@ -23,13 +26,14 @@
     ta center
     c dim
 
-a.bar
+a.bar, button.bar
   relative()
   p 0
+  cursor pointer
   &:hover
-    c hover
+    c #000
     bg m245
   &:active
-    c hover
+    c #000
     bg m235
 

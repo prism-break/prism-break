@@ -36,14 +36,14 @@
     = f.label :url, "#{t('v.softwares.form.url')}*"
     = f.url_field :url
   .field
+    = f.label :wikipedia_url, "#{t('v.softwares.form.wikipedia-url')}"
+    = f.url_field :wikipedia_url
+  .field
     = f.label :source_url, "#{t('v.softwares.form.source-url')}*"
     = f.url_field :source_url
   .field
     = f.label :license_url, "#{t('v.softwares.form.license-url')}*"
     = f.url_field :license_url
-  .field
-    = f.label :wikipedia_url, "#{t('v.softwares.form.wikipedia-url')}"
-    = f.url_field :wikipedia_url
   .field
     = f.label :privacy_url, "#{t('v.softwares.form.privacy-url')}"
     = f.url_field :privacy_url
@@ -78,4 +78,6 @@
             = check_box_tag :category_ids, subcategory.id, @software.categories.include?(subcategory), :name => 'software[category_ids][]', :id => "category_check_#{subcategory.id}"
             = label_tag "category_check_#{subcategory.id}", subcategory.title
 
-  .actions = f.submit t('verb.Save')
+  = content_tag :button, type: 'submit', class: 'bar' do
+    .label= t 'verb.Save'
+    .icon= fa_icon 'save'
