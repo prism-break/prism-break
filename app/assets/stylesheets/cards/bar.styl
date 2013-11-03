@@ -6,35 +6,29 @@
   p 0 1em
   c #333
   bg #fff
-  .logo
-    w 24px
-    h 24px
+
+  .label
     float left
-    m 10px 8px 0 -6px
+    pl 1em
+
+    .logo
+      w 24px
+      h 24px
+      float left
+      m 10px 8px 0 -6px
+
+  .icon
+    float right
+    w 44px
+    ta center
 
 a.bar
   relative()
+  p 0
   &:hover
     c hover
     bg m245
   &:active
     c hover
     bg m235
-  &.right
-    &:after
-      absolute()
-      top 0
-      right 0
-      w 44px
-      f 1.5em/40px serif
-      content: "\203A"
-      text-align center
-  &.external
-    &:after
-      absolute()
-      top 0
-      right 0
-      w 44px
-      f 1.5em/43px serif
-      content: "\1F30D"
-      text-align center
+

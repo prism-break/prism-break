@@ -2,7 +2,7 @@
   
   - if @parent_path != nil
     = link_to @parent_path, class: 'btn_corner left' do
-      span.btn &lsaquo;
+      span.btn= fa_icon 'angle-left'
 
   #page_title
     - if @page_title == 'home'
@@ -14,7 +14,7 @@
        = @page_title
 
   a.menu_toggle.btn_corner.right
-    span.btn &#9776;
+    span.btn= fa_icon 'reorder'
 
 #header_menu
   ul

@@ -3,4 +3,5 @@
     = image_tag operating_system.logo.url(:'medium@2x'), class: 'card-logo'
     .title= operating_system.title
     .category= t 'operating_system'
-  = link_to 'Wikipedia', operating_system.url, class: 'btn-square'
+  = link_to operating_system.url, class: 'btn-square'
+    = fa_icon 'external-link-square'

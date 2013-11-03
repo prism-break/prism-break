@@ -7,17 +7,25 @@ p#notice = notice
   = render 'softwares/card', software: software
 
 - if @category.parent == nil
-  = link_to t('all'), category_all_path, class: 'bar right'
+  = link_to category_all_path, class: 'bar'
+    .label= t('all') 
+    .icon= fa_icon 'angle-right'
 
 - @category.children.order(:title).each do |subcategory|
-  = link_to subcategory, class: 'bar right' do
-    - if subcategory.softwares.first != nil
-      = image_tag subcategory.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
-    = subcategory.title
-    '
-    span.light= "(#{subcategory.softwares.count})"
+  = link_to subcategory, class: 'bar' do
+    .label
+      - if subcategory.softwares != []
+        = image_tag subcategory.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
+      = subcategory.title
+      '
+      span.light= "(#{subcategory.softwares.count})"
+    .icon= fa_icon 'angle-right'
 
 .admin
   .pipe= t 'noun.Administration'
-  = link_to t('v.categories.edit'), edit_category_path(@category), class: 'bar right'
-  = link_to t('v.categories.destroy'), @category, :confirm => 'Are you sure?', :method => :delete, class: 'bar right'
+  = link_to edit_category_path(@category), class: 'bar'
+    .label= t('v.categories.edit') 
+    .icon= fa_icon 'edit'
+  = link_to @category, :confirm => t('admin.confirm'), :method => :delete, class: 'bar'
+    .label= t('v.categories.destroy') 
+    .icon= fa_icon 'trash-o'

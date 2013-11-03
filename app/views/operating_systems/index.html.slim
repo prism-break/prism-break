@@ -3,4 +3,6 @@
 
 .admin
   .pipe= t('noun.Administration')
-  = link_to t('v.operating-systems.new'), new_operating_system_path, class: 'bar right'
+  = link_to new_operating_system_path, class: 'bar right'
+    .label= t('v.operating-systems.new')
+    .icon= fa_icon 'angle-right'

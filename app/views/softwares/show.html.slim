@@ -15,28 +15,53 @@ p#notice = notice
   .section
     .pipe= t 'noun.Supported_Operating_Systems'
     - @software.operating_systems.order(:title).each do |operating_system|
-      = link_to operating_system, class: 'bar right' do
-        = image_tag operating_system.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
-        = operating_system.title
+      = link_to operating_system, class: 'bar' do
+        .label
+          = image_tag operating_system.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
+          = operating_system.title
+        .icon= fa_icon 'angle-right'
 
 - if @software.protocols.count > 0
   .section
     .pipe= t 'noun.Supported_Protocols'
     - @software.protocols.order(:title).each do |protocol|
-      = link_to protocol.title, protocol, class: 'bar right'
+      = link_to protocol, class: 'bar' do
+        .label= protocol.title
+        .icon= fa_icon 'angle-right'
 
 .section
   .pipe= t 'noun.More_Information'
+
   - if @software.wikipedia_url != ""
-    = link_to t('noun.Wikipedia'), @software.wikipedia_url, class: 'bar external'
-  = link_to t('noun.Source_Code'), @software.source_url, class: 'bar external'
-  = link_to t('noun.Software_License'), @software.license_url, class: 'bar external'
+    = link_to @software.wikipedia_url, class: 'bar' do
+      .label= t('noun.Wikipedia')
+      .icon= fa_icon 'external-link'
+
+  = link_to @software.source_url, class: 'bar' do
+    .label= t('noun.Source Code')
+    .icon= fa_icon 'external-link'
+
+  = link_to @software.license_url, class: 'bar'
+    .label= t('noun.Software_License')
+    .icon= fa_icon 'external-link'
+
   - if @software.privacy_url != ""
-    = link_to t('noun.Privacy_Policy'), @software.privacy_url, class: 'bar external'
+    = link_to @software.privacy_url, class: 'bar' do
+      .label= t('noun.Privacy_Policy')
+      .icon= fa_icon 'external-link'
+
   - if @software.tos_url != ""
-    = link_to  t('noun.Terms_of_Service'), @software.tos_url, class: 'bar external'
+    = link_to @software.tos_url, class: 'bar' do
+      .label= t('noun.Terms_of_Service')
+      .icon= fa_icon 'external-link'
 
 .admin
   .pipe= t('noun.Administration')
-  = link_to t('noun.History'), software_history_path, class: 'bar right'
-  = link_to t('v.softwares.edit'), edit_software_path(@software), class: 'bar right'
+
+  = link_to software_history_path, class: 'bar' do
+    .label= t('noun.History')
+    .icon= fa_icon 'angle-right'
+
+  = link_to edit_software_path(@software), class: 'bar' do
+    .label= t('v.softwares.edit')
+    .icon= fa_icon 'edit'
