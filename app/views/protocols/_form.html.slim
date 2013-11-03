@@ -18,4 +18,8 @@
   .field
     = f.label :description, t('noun.Description')
     = f.text_area :description
-  .actions = f.submit t('verb.Save')
+
+  .pipe Actions
+  = content_tag :button, type: 'submit', class: 'bar' do
+    .label= t 'verb.Save'
+    .icon= fa_icon 'save'

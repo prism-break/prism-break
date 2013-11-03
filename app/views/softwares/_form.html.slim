@@ -78,6 +78,7 @@
             = check_box_tag :category_ids, subcategory.id, @software.categories.include?(subcategory), :name => 'software[category_ids][]', :id => "category_check_#{subcategory.id}"
             = label_tag "category_check_#{subcategory.id}", subcategory.title
 
+  .pipe Actions
   = content_tag :button, type: 'submit', class: 'bar' do
     .label= t 'verb.Save'
     .icon= fa_icon 'save'

@@ -1,9 +1,12 @@
 - @categories.roots.each do |category|
   = link_to category, class: 'bar' do
-    = t 'verbs.browse'
-    '
-    strong= category.title
-    '
-    | &rsaquo;
+    .label
+      = t 'verbs.browse'
+      '
+      strong= category.title
+    .icon= fa_icon 'angle-right'
 
-= link_to t('v.categories.new'), new_category_path
+.pipe= t 'noun.Administration'
+= link_to new_protocol_path, class: 'bar' do
+  .label= t('v.categories.new')
+  .icon= fa_icon 'edit'

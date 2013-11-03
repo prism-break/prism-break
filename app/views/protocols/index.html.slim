@@ -1,10 +1,7 @@
-= link_to new_protocol_path, class: 'bar' do
-  .label= t('v.protocols.new')
-  .icon= fa_icon 'edit'
-
 - @protocols.each do |protocol|
   = render 'protocols/card', protocol: protocol
 
+.pipe= t 'noun.Administration'
 = link_to new_protocol_path, class: 'bar' do
   .label= t('v.protocols.new')
   .icon= fa_icon 'edit'

@@ -5,6 +5,7 @@
 - @softwares.each do |software|
   = render 'softwares/card', software: software
 
+.pipe= t 'noun.Administration'
 = link_to new_software_path, class: 'bar'
   .label= t('v.softwares.new')
   .icon= fa_icon 'edit'

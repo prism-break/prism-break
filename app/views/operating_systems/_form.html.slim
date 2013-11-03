@@ -21,13 +21,17 @@
     = f.text_field :url
 
   .field
-    = image_tag @operating_system.logo.url(:'medium@2x'), class: 'software-logo'
+    - if @operating_system.logo?
+      = image_tag @operating_system.logo.url(:'medium@2x'), class: 'card-logo'
     = f.label :logo, "#{t('noun.Logo')}"
     p.desc Square PNG up to 1024 &times; 1024px in dimensions and 512 KB in size.
     = f.file_field :logo
-    - if @operating_system.logo.exists?
+    - if @operating_system.logo?
       .checkbox
         = f.check_box :delete_logo
         = f.label :delete_logo, 'Destroy Logo'
 
-  .actions = f.submit t('verb.Save')
+  .pipe Actions
+  = content_tag :button, type: 'submit', class: 'bar' do
+    .label= t 'verb.Save'
+    .icon= fa_icon 'save'

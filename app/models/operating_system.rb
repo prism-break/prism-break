@@ -47,5 +47,8 @@ class OperatingSystem < ActiveRecord::Base
     },
     processors: [:thumbnail, :compression]
 
+  # attachment deletion
+  attr_accessor :delete_logo
+  before_validation { logo.clear if delete_logo == '1' }
 
 end
