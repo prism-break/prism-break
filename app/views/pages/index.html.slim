@@ -1,4 +1,5 @@
-p.intro=raw t 'v.pages.index.intro'
+.text-block
+  p= raw t 'v.pages.index.intro'
 
 - @categories.roots.each do |category|
   = link_to category, class: 'bar' do
