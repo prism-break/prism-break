@@ -1,18 +1,21 @@
 .field
-  p 0 .5em 0
   clearfix()
+  p .25em 0 0
+
+  label, p
+    s 80%
+    p 0 1em
 
   label
     d block
     fw bold
-    s 85%
   p
-    s 75%
-    c light
+    c dim
+
 
   .card-logo
     float right
-    m x x 0
+    m 0 x x 0
 
 input[type=text],
 input[type=password],
@@ -21,10 +24,22 @@ input[type=number],
 input[type=email],
 textarea
   d block
-  b 1px solid bc
-  p .5em .4em
-  f 85%/1.5 sans-serif
+  h 44px
   w 100%
+  p 1em
+  f 80%/1.5 sans-serif
+  b 1px solid bc
+  bl none
+  br none
+
+input[type=file]
+  bg #fff
+  f 80%/1.5 sans-serif
+  p .8em 1em
+  w 100%
+  b 1px solid bc
+  bl none
+  br none
 
 textarea
   height 15em
@@ -33,13 +48,13 @@ textarea
   m 0 0 1em
   .checkbox
     bg #fff
-    bb 1px solid #ddd
+    bt 1px solid #ddd
 
 .checkbox
   input
-    m 0 .5em
+    m 0 .75em 0 1.25em
   label
-    f 14px/32px sans
+    f 80%/2 sans-serif
     p 0
     d inline
     float none

@@ -59,7 +59,6 @@
         li.checkbox
           = check_box_tag :protocol_ids, protocol.id, @software.protocols.include?(protocol), :name => 'software[protocol_ids][]', :id => "protocol_check_#{protocol.id}"
           = label_tag "protocol_check_#{protocol.id}", protocol.title
-      li= link_to t('v.protocols.new'), new_protocol_path
 
   .field
     = f.label :protocol, t('noun.Supported_Operating_Systems')
@@ -68,17 +67,15 @@
         li.checkbox
           = check_box_tag :operating_system_ids, operating_system.id, @software.operating_systems.include?(operating_system), :name => 'software[operating_system_ids][]', :id => "operating_system_check_#{operating_system.id}"
           = label_tag "operating_system_check_#{operating_system.id}", operating_system.title
-      li= link_to t('v.operating-systems.new'), new_operating_system_path
 
   .field
     = f.label :category, "#{t('v.categories.plural')}*"
     - Category.roots.each do |category|
-      h2= category.title
+      label= category.title
       ul.checkboxes
         - category.children.order(:title).each do |subcategory|
           li.checkbox
             = check_box_tag :category_ids, subcategory.id, @software.categories.include?(subcategory), :name => 'software[category_ids][]', :id => "category_check_#{subcategory.id}"
             = label_tag "category_check_#{subcategory.id}", subcategory.title
-    = link_to t('v.categories.new'), new_category_path
 
   .actions = f.submit t('verb.Save')
