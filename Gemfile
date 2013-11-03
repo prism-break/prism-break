@@ -8,7 +8,7 @@ gem 'globalize', github: 'globalize/globalize'
 gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 gem 'jquery-turbolinks' # fixes "jquery only reloads on refresh"
 gem 'closure_tree' # for tree based categories
-gem 'paperclip', :github => "thoughtbot/paperclip"
+gem "paperclip", "~> 3.0"
 gem 'paperclip-compression'
 gem 'redcarpet' # markdown
 gem 'nokogiri' # for html parsing

@@ -31,16 +31,6 @@ GIT
     routing-filter (0.4.0.pre)
       actionpack
 
-GIT
-  remote: git://github.com/thoughtbot/paperclip.git
-  revision: a01677f58762394c2915eb512fe2f69aec6fbcf5
-  specs:
-    paperclip (3.5.2)
-      activemodel (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      cocaine (~> 0.5.3)
-      mime-types
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -122,6 +112,11 @@ GEM
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     os (0.9.6)
+    paperclip (3.5.2)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
     paperclip-compression (0.3.4)
       os (~> 0.9.6)
       paperclip (~> 3.3)
@@ -204,7 +199,7 @@ DEPENDENCIES
   mysql2
   nokogiri
   paper_trail!
-  paperclip!
+  paperclip (~> 3.0)
   paperclip-compression
   rails (= 4.0.1)
   rb-readline (~> 0.4.2)
