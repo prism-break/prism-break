@@ -3,7 +3,7 @@
   - category_title = (subcategories & software.categories).first.title
 
 .card
-  = link_to software, class: 'btn-rectangle' do 
+  .btn-rectangle
     = image_tag software.logo.url(:'medium@2x'), class: 'card-logo'
     .title= truncate software.title, length: 18
     .category= category_title

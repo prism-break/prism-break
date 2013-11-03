@@ -1,0 +1,69 @@
+.card-logo
+  d block
+  float left
+  w 60px
+  h 60px
+  mr x*0.75
+
+.card
+  bb 1px solid #ddd
+  list-style none
+  bg #fff
+  d block
+  clearfix()
+  relative()
+
+  .btn-rectangle
+  .btn-square
+    d block
+    h 60px + 12px * 2
+
+  .btn-rectangle
+    fl left
+    w 276px
+    p .75em
+    clearfix()
+
+  a.btn-rectangle
+    &:hover
+      bg m245
+
+  .btn-square
+    fl()
+    lh 60px + 12px * 2
+    w 44px
+    ta center
+    bl 1px solid #eee
+    c anchor
+    bg #fff
+    c dim
+
+  a.btn-square
+    &:hover
+      bg m245
+      c txt
+
+  .card-logo
+    mr x*0.75
+
+  .title
+    c #333
+
+  .desc
+    c txt
+
+  .category, .rating
+    f 70%/1.5 sans
+
+  .category
+    c dim
+
+  .rating
+    .stars
+      c orange
+      .fa
+        mr 2px
+    .num
+      s 75%
+      va text-bottom
+      c light
