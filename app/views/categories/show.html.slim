@@ -1,6 +1,6 @@
 p#notice = notice
 
-- if @category.description != nil
+- if @category.description?
   .text-block= filter_markdown(@category.description)
 
 - @category.softwares.order(:title).each do |software|
