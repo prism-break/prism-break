@@ -5,7 +5,7 @@
 .card
   = link_to software, class: 'btn-rectangle' do 
     = image_tag software.logo.url(:'medium@2x'), class: 'card-logo'
-    .title= truncate software.title, length: 18
+    .title= truncate software.title, length: 23
     .category= category_title
     .rating
       span.stars
