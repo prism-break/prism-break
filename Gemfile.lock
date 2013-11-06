@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/globalize/globalize.git
-  revision: 885ec679fd6f7ea5ae225c8346301ca95d5cfffa
+  revision: 98a9b262a9fd15e88e019ead6a0ef20f2d7613fe
   specs:
     globalize (4.0.0.alpha.2)
       activemodel (>= 4.0.0)
@@ -78,7 +78,7 @@ GEM
     coffee-script-source (1.6.3)
     erubis (2.7.0)
     execjs (2.0.2)
-    font-awesome-rails (4.0.1.0)
+    font-awesome-rails (4.0.3.0)
       railties (>= 3.2, < 5.0)
     hike (1.2.3)
     i18n (0.6.5)
