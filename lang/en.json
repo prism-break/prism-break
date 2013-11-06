@@ -10,7 +10,7 @@
   "i18n-notes": "Notes",
 
   "i18n-operating-system": "Operating system",
-  "i18n-arch-desc": "Elegant, minimal, and flexible Linux&reg; distribution.",
+  "i18n-arch-desc": "Elegant, minimal, and flexible GNU/Linux distribution.",
   "i18n-debian-desc": "Popular ethical GNU/Linux distribution.",
   "i18n-fedora-desc": "Fast, stable and powerful GNU/Linux distribution.",
   "i18n-gentoo-desc": "GNU/Linux distribution about choice, control and security.",
@@ -105,7 +105,7 @@
   "i18n-pidgin-desc": "Free universal instant messaging client.",
   "i18n-otr-desc": "Install and enable this plugin in Pidgin for encrypted chat.",
    "i18n-gajim-desc": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.",
-   "i18n-psiplus-desc": "Multi-platform IM client for power users with built-in OTR support.",
+  "i18n-psiplus-desc": "Multi-platform IM client for power users with built-in OTR support.",
   "i18n-adium-desc": "Multiprotocol chat client for Apple OS X with OTR features.",
   "i18n-bitlbee-desc": "IRC instant messaging gateway that supports a bunch of protocols.",
   "i18n-jappix-desc": "Instant messaging web application with advanced social networking features.",
@@ -228,7 +228,7 @@
 
   "i18n-file-encryption": "File encryption",
   "i18n-truecrypt-desc": "Real-time disk and partition encryption software for multiple platforms.",
-  "i18n-dmcrypt-desc": "Transparent disk encryption subsystem included in the GNU/Linux kernel.",
+  "i18n-dmcrypt-desc": "Transparent disk encryption subsystem included in the Linux kernel.",
   "i18n-luks-desc": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.",
   "i18n-diskcryptor-desc": "High performance partition encryption software for Windows.",
   "i18n-encfs-desc": "File based encryption tool with support for Linux, Mac OS and Windows.",
