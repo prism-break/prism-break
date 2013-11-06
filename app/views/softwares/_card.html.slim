@@ -1,8 +1,13 @@
+- if @category != nil
+  - category = @category
+- else
+  - category = software.categories.first
+
 .card
-  = link_to category_software_path(@category, software), class: 'btn-rectangle' do 
+  = link_to category_software_path(category, software), class: 'btn-rectangle' do 
     = image_tag software.logo.url(:'medium@2x'), class: 'card-logo'
     .title= truncate software.title, length: 23
-    .category= @category.title
+    .category= category.title
     .rating
       span.stars
         = fa_icon 'star'
