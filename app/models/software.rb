@@ -65,7 +65,7 @@ class Software < ActiveRecord::Base
 
   # wikipedia
   def has_wikipedia_page
-    software_without_wikipedia_page = [22, 25]
+    software_without_wikipedia_page = [22, 25, 45]
     unless software_without_wikipedia_page.include?(self.id) or self.wikipedia_url == ""
       true
     end
