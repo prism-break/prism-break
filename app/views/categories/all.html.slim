@@ -1,9 +1,9 @@
 p#notice = notice
 
-- @category.softwares.each do |software|
+- @parent_category.softwares.each do |software|
   = render 'softwares/card', software: software
 
-- @category.children.order(:title).each do |subcategory|
+- @parent_category.children.order(:title).each do |subcategory|
   .pipe= subcategory.title
 
   - subcategory.softwares.order(:title).each do |software|
@@ -11,5 +11,5 @@ p#notice = notice
 
 .admin
   .pipe= t 'noun.Administration'
-  = link_to t('v.categories.edit'), edit_category_path(@category), class: 'bar right'
-  = link_to t('v.categories.destroy'), @category, :confirm => 'Are you sure?', :method => :delete, class: 'bar right'
+  = link_to t('v.categories.edit'), edit_category_path(@parent_category), class: 'bar right'
+  = link_to t('v.categories.destroy'), @parent_category, :confirm => 'Are you sure?', :method => :delete, class: 'bar right'
