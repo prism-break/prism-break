@@ -17,11 +17,7 @@ p#notice = notice
   = link_to @software.url, class: 'bar' do
     =
     .label
-      = t('noun.Software_Website')
-    .icon= fa_icon 'external-link'
-
-  = link_to @software.license_url, class: 'bar'
-    .label= t('noun.Software_License')
+      = t('noun.Official_Website')
     .icon= fa_icon 'external-link'
 
   - if @software.privacy_url?
@@ -34,15 +30,27 @@ p#notice = notice
       .label= t('noun.Terms_of_Service')
       .icon= fa_icon 'external-link'
 
-  = link_to @software.source_url, class: 'bar' do
-    .label= t('noun.Source_Code')
-    .icon= fa_icon 'external-link'
 
   - if @software.wikipedia_url?
     = link_to @software.wikipedia_url, class: 'bar' do
       .label
         = t('noun.Wikipedia')
       .icon= fa_icon 'external-link'
+
+  - if @software.source_url?
+    = link_to @software.source_url, class: 'bar' do
+      .label= t('noun.Source_Code')
+      .icon= fa_icon 'external-link'
+  - else
+    .bar.warning= t 'warning.No_Source'
+
+  - if @software.license_url?
+    = link_to @software.license_url, class: 'bar'
+      .label= t('noun.Software_License')
+      .icon= fa_icon 'external-link'
+  - else
+    .bar.warning= t 'warning.No_License'
+
 
 - if @software.operating_systems != []
   .section

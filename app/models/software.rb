@@ -45,8 +45,6 @@ class Software < ActiveRecord::Base
   # validations
   validates :title, presence: true, uniqueness: true
   validates :url, presence: true, uniqueness: true
-  validates :source_url, presence: true
-  validates :license_url, presence:true
 
   # url validation
   validates_format_of :url, :source_url, :privacy_url, :tos_url,
