@@ -1,4 +1,4 @@
 == render 'form'
-= link_to @software, :confirm => t('admin.confirm'), :method => :delete, class: 'bar'
+= link_to category_software_path(@category, @software), :confirm => t('admin.confirm'), :method => :delete, class: 'bar'
   .label= t('v.softwares.destroy') 
   .icon= fa_icon 'trash-o'

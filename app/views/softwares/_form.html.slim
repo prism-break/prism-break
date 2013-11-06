@@ -1,4 +1,6 @@
-= form_for @software do |f|
+- url = (action_name == "new" ? {:action=>"create", :controller=>"softwares"} : {:action=>"update", :controller=>"softwares"})
+
+= form_for ([@category, @software]) do |f|
   - if @software.errors.any?
     #error_explanation
       h2 = "#{pluralize(@software.errors.count, "error")} prohibited this software from being saved:"

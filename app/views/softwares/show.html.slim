@@ -77,6 +77,6 @@ p#notice = notice
     .label= t('noun.History')
     .icon= fa_icon 'angle-right'
 
-  = link_to edit_software_path(@software), class: 'bar' do
+  = link_to edit_category_software_path(@category, @software), class: 'bar' do
     .label= t('v.softwares.edit')
     .icon= fa_icon 'edit'

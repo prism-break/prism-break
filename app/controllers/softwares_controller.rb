@@ -12,16 +12,14 @@ class SoftwaresController < ApplicationController
   # GET /softwares/1
   # GET /softwares/1.json
   def show
-    if @software.categories.first != nil
-      @subcategories = @software.categories.first.root.leaves
-      @category = (@subcategories & @software.categories).first
-    end
+    @category = Category.find(params[:category_id])
     @parent_path = @category
   end
 
   # GET /softwares/new
   def new
-    @parent_path = softwares_path
+    @category = Category.find(params[:category_id])
+    @parent_path = @category
     @page_title = t 'v.softwares.new'
     @software = Software.new
     @categories = Category.all
@@ -29,13 +27,15 @@ class SoftwaresController < ApplicationController
 
   # GET /softwares/1/edit
   def edit
-    @parent_path = @software
+    @category = Category.find(params[:category_id])
+    @parent_path = category_software_path(@category, @software)
     @page_title = t 'v.softwares.edit'
   end
 
   # POST /softwares
   # POST /softwares.json
   def create
+    @category = Category.find(params[:category_id])
     @software = Software.new(software_params)
     @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'protocol_ids' => []}.merge(params[:software] || {})
@@ -44,7 +44,7 @@ class SoftwaresController < ApplicationController
     respond_to do |format|
       if @software.save
         @software.update_description
-        format.html { redirect_to @software, notice: 'Software was successfully created.' }
+        format.html { redirect_to category_software_path(@category, @software), notice: 'Software was successfully created.' }
         format.json { render action: 'show', status: :created, location: @software }
       else
         format.html { render action: 'new' }
@@ -56,13 +56,14 @@ class SoftwaresController < ApplicationController
   # PATCH/PUT /softwares/1
   # PATCH/PUT /softwares/1.json
   def update
+    @category = Category.find(params[:category_id])
     @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'protocol_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'operating_system_ids' => []}.merge(params[:software] || {})
     respond_to do |format|
       if @software.update(software_params)
         @software.update_description
-        format.html { redirect_to @software, notice: 'Software was successfully updated.' }
+        format.html { redirect_to category_software_path(@category, @software), notice: 'Software was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
