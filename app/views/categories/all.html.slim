@@ -4,12 +4,17 @@ p#notice = notice
   = render 'softwares/card', software: software
 
 - @parent_category.children.order(:title).each do |subcategory|
-  .pipe= subcategory.title
+  - if subcategory.softwares.count > 0
+    .pipe= subcategory.title
 
-  - subcategory.softwares.order(:title).each do |software|
-    = render 'softwares/card', software: software
+    - subcategory.softwares.order(:title).each do |software|
+      = render 'softwares/card', software: software
 
 .admin
   .pipe= t 'noun.Administration'
-  = link_to t('v.categories.edit'), edit_category_path(@parent_category), class: 'bar right'
-  = link_to t('v.categories.destroy'), @parent_category, :confirm => 'Are you sure?', :method => :delete, class: 'bar right'
+  = link_to  edit_category_path(@parent_category), class: 'bar' do
+    .label= t('v.categories.edit')
+    .icon= fa_icon 'edit'
+  = link_to @parent_category, :confirm => 'Are you sure?', :method => :delete, class: 'bar' do
+    .label= t('v.categories.destroy')
+    .icon= fa_icon 'trash-o'
