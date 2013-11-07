@@ -46,7 +46,7 @@
   "i18n-torbrowser-desc": "Navigation chiffrée et anonyme.", 
   "i18n-jondonym-desc": "Navigation privée avec le service d'anomisation JonDo IP et le profil JonDoFox pour Firefox.", 
   "i18n-firefox-desc": "Navigateur web libre.", 
-  "i18n-orbot-desc": "Proxy TOR pour Android.", 
+  "i18n-orbot-desc": "Proxy Tor pour Android.", 
   "i18n-onionbrowser-desc": "Surfer sur le Web à travers le réseau Tor avec ce navigateur open-source pour iOS.", 
   "i18n-web-browser-note": "<p>Utilisez une combinaison de <strong>Tor Browser</strong> et d'un navigateur web libre de votre choix pour surfer sur le Web.</p> <p>Essayez d'utiliser Tor autant que possible, la navigation est plus lente mais est nettement plus sécurisée.</p> <p>Notez qu'utiliser Tor pour se connecter à PayPal ou un site de banque en ligne peut perturber la protection anti-fraude du site.</p><p>Les utilisateurs de Tor doivent aussi faire attention à naviguer en HTTPS, leur communication en HTTP pourraient être intercepter par un nœud de sortie malveillant.</p>", 
 
@@ -90,7 +90,7 @@
   "i18n-kontact-desc": "Le client de messagerie de KDE avec le support de GnuPG.", 
   "i18n-sylpheed-desc": "Client e-mail léger et ergonomique.", 
   "i18n-k9mail-desc": "Application email libre pour Android avec support PGP.", 
-  "i18n-email-client-note": "<p>Voici <a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">un guide</a> pour chiffrer vos courriels avec Thunderbird, GNU Privacy Guard (GPG) et Enigmail.</p>", 
+  "i18n-email-client-note": "<p>Voici <a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>un guide</a> pour chiffrer vos courriels avec Thunderbird, GNU Privacy Guard (GPG) et Enigmail.</p>", 
 
   "i18n-email-encryption": "Chiffrement d'e-mail", 
   "i18n-enigmail-desc": "Un module complémentaire OpenPGP pour Thunderbird et Icedove.", 
@@ -155,7 +155,7 @@
   "i18n-protectedtext-desc": "Free online encrypted notepad.",
   "i18n-etherpad-desc": "Collaboration sur les documents en temps réel et open-source.", 
   "i18n-ethercalc-desc": "Serveur multi-utilisateurs de tableur.", 
-  "i18n-office-productivity-note": "<p>Le projet <strong>etherpad</strong> maintient une liste de <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites qui proposent des services grâce à etherpad</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> propose aussi des adresses email, XMPP, et un service de chat, tous accessible via <a href='#meshnet'>Tor Hidden Service</a> addresses. The list of these addresses is <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>available here</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
+  "i18n-office-productivity-note": "<p>Le projet <strong>etherpad</strong> maintient une liste de <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites qui proposent des services grâce à etherpad</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> propose aussi des adresses email, XMPP, et un service de chat, tous accessible via <a href='#meshnet'>Tor Hidden Service</a> addresses. La liste de ces adresses est <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>disponible içi</a>.</p><p><strong>ProtectedText</strong> chiffre/déchiffre le texte dans le navigateur, et le mot de passe (ou il est hashé) n'est jamais envoyé au serveur - de telle sorte que le texte ne peut pas être déchiffré même si les autorités le demandent.</p>",
 
   "i18n-media-publishing": "Publication média", 
   "i18n-mediacrush-desc": "Média d'hébergement privé et rapide (image, audio, vidéo)", 
@@ -226,7 +226,7 @@
   "i18n-server-os-notes": "--", 
 
   "i18n-file-encryption": "Chiffrement des fichiers", 
-  "i18n-truecrypt-desc": "Logiciel de chiffrement pour disque et partitionpour de multiples plateformes.", 
+  "i18n-truecrypt-desc": "Logiciel de chiffrement pour disque et partition pour de multiples plateformes.", 
   "i18n-dmcrypt-desc": "Sous-système transparent de chiffrement de disques inclus dans le noyau Linux.", 
   "i18n-luks-desc": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.", 
   "i18n-diskcryptor-desc": "High performance partition encryption software for Windows.", 
