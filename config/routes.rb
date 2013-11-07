@@ -1,8 +1,9 @@
 PrismBreak::Application.routes.draw do
-  resources :operating_systems
+  resources :operating_systems, path: 'os'
+
   match 'operating_systems/:id/history' => 'operating_systems#history', as: :operating_system_history, via: :get
 
-  resources :protocols
+  resources :protocols, path: 'p'
 
   get 'media', to: 'pages#media'
 
