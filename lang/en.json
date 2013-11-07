@@ -237,13 +237,13 @@
   "i18n-file-encryption-note": "<p>While <strong>TrueCrypt</strong> is open source, it is developed in a closed fashion and may receive less review than a comparably openly deveoped project. That said, it is still probably the best option for file encryption on Windows and OS X.</p><p>If you&rsquo;re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p><p><strong>Transparency</strong> in this context means that individual programs don't need to manage encryption of their own data, because this is provided equally for all programs by the encryption tool (like <strong>dm-crypt</strong>). <a href='https://en.wikipedia.org/wiki/Transparency_%28human%E2%80%93computer_interaction%29'>More details on this in the Wikipedia</a>.</p>",
 
   "i18n-mail-server": "Mail server",
-  "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
+  "i18n-iredmail-desc": "Install and configure email server packages automatically in GNU/Linux and BSD.",
   "i18n-indimail-desc": "Highly scalable and configurable messaging platform based on the MTA qmail.",
   "i18n-groupware-server": "Groupware server",
   "i18n-kolab-desc": "Groupware solution for email, files, calendars, address books and mobile sync.",
-  "i18n-mail-transfer-agent": "Mail transfer agent (MTA)",
-  "i18n-exim-desc": "MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.",
-  "i18n-postfix-desc": "Easy-to-setup MTA used by approximately 23% of all mail servers.",
+  "i18n-mail-transfer-agent": "Mail Transfer Agent (MTA)",
+  "i18n-exim-desc": "MTA used on approximately 43% of all email servers&mdash;the default on Debian GNU/Linux.",
+  "i18n-postfix-desc": "Easy-to-setup MTA used by approximately 23% of all email servers.",
   "i18n-mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p><blockquote><p><strong>What is an MTA?</strong></p><p>&ldquo;Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>Wikipedia</a></cite></footer></blockquote>",
 
   "i18n-xmpp-server-title": "XMPP server",
