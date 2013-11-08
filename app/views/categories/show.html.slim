@@ -12,14 +12,24 @@ p#notice = notice
     .icon= fa_icon 'angle-right'
 
 - @category.children.order(:title).each do |subcategory|
-  = link_to subcategory, class: 'bar' do
-    .label
-      - if subcategory.softwares != []
-        = image_tag subcategory.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
-      = subcategory.title
-      '
-      span.light= "(#{subcategory.softwares.count})"
-    .icon= fa_icon 'angle-right'
+  - unless subcategory.softwares == []
+    - if subcategory.softwares.count <= 1
+      = link_to category_software_path(subcategory, subcategory.softwares.first), class: 'bar' do
+        .label
+          = image_tag subcategory.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
+          = subcategory.title
+          '
+          span.light= "(#{subcategory.softwares.count})"
+        .icon= fa_icon 'angle-right'
+
+    - else
+      = link_to subcategory, class: 'bar' do
+        .label
+          = image_tag subcategory.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
+          = subcategory.title
+          '
+          span.light= "(#{subcategory.softwares.count})"
+        .icon= fa_icon 'angle-right'
 
 .admin
   .pipe= t 'noun.Administration'
