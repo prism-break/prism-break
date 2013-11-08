@@ -46,8 +46,8 @@
   "i18n-torbrowser-desc": "Navigation chiffrée et anonyme.", 
   "i18n-jondonym-desc": "Navigation privée avec le service d'anomisation JonDo IP et le profil JonDoFox pour Firefox.", 
   "i18n-firefox-desc": "Navigateur web libre.", 
-  "i18n-orbot-desc": "Proxy TOR pour Android.", 
-  "i18n-onionbrowser-desc": "Surf the web through the Tor network with this open source browser for iOS devices.", 
+  "i18n-orbot-desc": "Proxy Tor pour Android.", 
+  "i18n-onionbrowser-desc": "Surfer sur le Web à travers le réseau Tor avec ce navigateur open-source pour iOS.", 
   "i18n-web-browser-note": "<p>Utilisez une combinaison de <strong>Tor Browser</strong> et d'un navigateur web libre de votre choix pour surfer sur le Web.</p> <p>Essayez d'utiliser Tor autant que possible, la navigation est plus lente mais est nettement plus sécurisée.</p> <p>Notez qu'utiliser Tor pour se connecter à PayPal ou un site de banque en ligne peut perturber la protection anti-fraude du site.</p><p>Les utilisateurs de Tor doivent aussi faire attention à naviguer en HTTPS, leur communication en HTTP pourraient être intercepter par un nœud de sortie malveillant.</p>", 
 
   "i18n-web-browser-plugins": "Plug-in pour navigateur web", 
@@ -90,11 +90,11 @@
   "i18n-kontact-desc": "Le client de messagerie de KDE avec le support de GnuPG.", 
   "i18n-sylpheed-desc": "Client e-mail léger et ergonomique.", 
   "i18n-k9mail-desc": "Application email libre pour Android avec support PGP.", 
-  "i18n-email-client-note": "<p>Voici <a href=\"http://www.enigmail.net/documentation/quickstart-ch1.php\">un guide</a> pour chiffrer vos courriels avec Thunderbird, GNU Privacy Guard (GPG) et Enigmail.</p>", 
+  "i18n-email-client-note": "<p>Voici <a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>un guide</a> pour chiffrer vos courriels avec Thunderbird, GNU Privacy Guard (GPG) et Enigmail.</p>", 
 
   "i18n-email-encryption": "Chiffrement d'e-mail", 
-  "i18n-enigmail-desc": "Un Plug-in OpenPGP pour Thunderbird et Icedove.", 
-  "i18n-torbirdy-desc": "Une extension qui connecte ThunderBird/Icedove via Tor.", 
+  "i18n-enigmail-desc": "Un module complémentaire OpenPGP pour Thunderbird et Icedove.", 
+  "i18n-torbirdy-desc": "Un module complémentaire qui connecte ThunderBird/Icedove via Tor.", 
   "i18n-gnuprivacyguard-desc": "Implémentation libre d'OpenPGP.", 
   "i18n-gpgmail-desc": "Extension OpenPGP Apple OS X Mail.", 
   "i18n-apg-desc": "L'implémentation d'OpenPGP pour Android.", 
@@ -155,7 +155,7 @@
   "i18n-protectedtext-desc": "Free online encrypted notepad.",
   "i18n-etherpad-desc": "Collaboration sur les documents en temps réel et open-source.", 
   "i18n-ethercalc-desc": "Serveur multi-utilisateurs de tableur.", 
-  "i18n-office-productivity-note": "<p>Le projet <strong>etherpad</strong> maintient une liste de <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites qui proposent des services grâce à etherpad</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> propose aussi des adresses email, XMPP, et un service de chat, tous accessible via <a href='#meshnet'>Tor Hidden Service</a> addresses. The list of these addresses is <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>available here</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
+  "i18n-office-productivity-note": "<p>Le projet <strong>etherpad</strong> maintient une liste de <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites qui proposent des services grâce à etherpad</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> propose aussi des adresses email, XMPP, et un service de chat, tous accessible via <a href='#meshnet'>Tor Hidden Service</a> addresses. La liste de ces adresses est <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>disponible içi</a>.</p><p><strong>ProtectedText</strong> chiffre/déchiffre le texte dans le navigateur, et le mot de passe (ou il est hashé) n'est jamais envoyé au serveur - de telle sorte que le texte ne peut pas être déchiffré même si les autorités le demandent.</p>",
 
   "i18n-media-publishing": "Publication média", 
   "i18n-mediacrush-desc": "Média d'hébergement privé et rapide (image, audio, vidéo)", 
@@ -214,7 +214,7 @@
   "i18n-commotion-desc": "Utilise les téléphones, ordinateurs et routeurs sans fil pour créer un réseau mesh décentralisé.", 
   "i18n-meshnet-project-desc": "Une alternative décentralisée à Internet.", 
   "i18n-freifunk-desc": "Initiative non commerciale et donc la base est ouverte pour supporter les réseaux sans fils gratuit dans le monde.", 
-  "i18n-guifi-desc": "Réseaux wifi ouvert, libre et neutre pour tout le monde.", 
+  "i18n-guifi-desc": "Réseaux WiFi ouverts, libres et neutres pour tout le monde.", 
   "i18n-byzantium-desc": "Byzantium est une distribution Live GNU/Linux qui propose une solution facile à utilisée de réseau maillé.", 
   "i18n-librevpn-desc": "Un réseau libre qui fonctionne sur les autres réseaux.", 
   "i18n-meshnet-note": "<p>Un réseau maillé est un réseau pair-à-pair décentralisé, avec des liens physiques contrôlés par l'utilisateur qui sont habituellement sans fil.</p><p>&laquo;&nbsp;Le réseau maillé (topologie) est un type de réseau dans lequel chaque nœud doit non seulement capturer et diffuser sa propre information, mais aussi servir de relai pour les autres nœuds, à savoir, collaborer à la propagation de l'information dans le réseau.&nbsp;&raquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Mesh_networking'>La Wikipédia</a> (en anglais)</p>", 
@@ -226,7 +226,7 @@
   "i18n-server-os-notes": "--", 
 
   "i18n-file-encryption": "Chiffrement des fichiers", 
-  "i18n-truecrypt-desc": "Real-time disk and partition encryption software for multiple platforms.", 
+  "i18n-truecrypt-desc": "Logiciel de chiffrement pour disque et partition pour de multiples plateformes.", 
   "i18n-dmcrypt-desc": "Sous-système transparent de chiffrement de disques inclus dans le noyau Linux.", 
   "i18n-luks-desc": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.", 
   "i18n-diskcryptor-desc": "High performance partition encryption software for Windows.", 
@@ -236,14 +236,14 @@
   "i18n-file-encryption-note": "<p>While <strong>TrueCrypt</strong> is open source, it is developed in a closed fashion and may receive less review than a comparably openly deveoped project. That said, it is still probably the best option for file encryption on Windows and OS X.</p><p>If you&rsquo;re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>", 
 
   "i18n-mail-server": "Serveur email", 
-  "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.", 
-  "i18n-indimail-desc": "Highly scalable and configurable messaging platform based on the MTA qmail.", 
+  "i18n-iredmail-desc": "Installer er configurer des packages de serveur email automaticaquement dans GNU/Linux et BSD.", 
+  "i18n-indimail-desc": "Plateforme de messagerie très scalable et configurable basé sur le MTA qmail.", 
   "i18n-groupware-server": "Serveur groupware", 
   "i18n-kolab-desc": "Serveur groupware (logiciel de groupe de travail) pour les mails, calendriers et carnets d'adresses incluant la possibilité de synchroniser les données vers des téléphones portables.", 
-  "i18n-mail-transfer-agent": "Email transfer agent (MTA)", 
-  "i18n-exim-desc": "MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.", 
+  "i18n-mail-transfer-agent": "Mail Transfer Agent (MTA)", 
+  "i18n-exim-desc": "MTA est utilisé sur à peu près 43%  des serveurs email&mdash;c'est celui par défaut sous Debian GNU/Linux.", 
   "i18n-postfix-desc": "Easy-to-setup MTA used by approximately 23% of all mail servers.", 
-  "i18n-mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p></p><blockquote><p><strong>What is an MTA?</strong></p><p>&ldquo;Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>Wikipedia</a></cite></footer></blockquote>", 
+  "i18n-mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p></p><blockquote><p><strong>Qu'est ce qu'un MTA ?</strong></p><p>&ldquo;Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.&rdquo;</p><footer>&mdash; <cite><a href='https://fr.wikipedia.org/wiki/Mail_Transfer_Agent'>Wikipédia</a></cite></footer></blockquote>", 
 
   "i18n-xmpp-server-title": "Serveur XMPP", 
   "i18n-dukgoxmpp-desc": "Service XMPP privé tournant sur DuckDuckGo Community Platform &mdash; guide inclus.", 
@@ -252,7 +252,7 @@
   "i18n-prosody-desc": "Serveur XMPP flexible et léger écrit en Lua.", 
   "i18n-tigase-desc": "Serveur XMPP multi-plateforme écrit en Java.", 
   "i18n-metronome-desc": "Serveur XMPP basé sur Prosody avec des fonctionnalités avancées de gestion/microblogging.", 
-  "i18n-xmpp-server-notes": " <p>&ldquo;Extensible Messaging and Presence Protocol (qu'on peut traduire par « Protocole extensible de présence et de messagerie »), souvent abrégé en XMPP, est un ensemble de protocoles standards ouverts de l’Internet Engineering Task Force (IETF) pour la messagerie instantanée, et plus généralement une architecture décentralisée d’échange de données. XMPP est également un système de collaboration en quasi-temps-réel et d’échange multimédia via le protocole Jingle, dont la Voix sur réseau IP (téléphonie sur Internet), la visioconférence et l’échange de fichiers sont des exemples d’applications.&rdquo;</p><p>&mdash; <a href='https://fr.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol'>Wikipedia</a></p>", 
+  "i18n-xmpp-server-notes": " <p>&ldquo;Extensible Messaging and Presence Protocol (qu'on peut traduire par « Protocole extensible de présence et de messagerie »), souvent abrégé en XMPP, est un ensemble de protocoles standards ouverts de l’Internet Engineering Task Force (IETF) pour la messagerie instantanée, et plus généralement une architecture décentralisée d’échange de données. XMPP est également un système de collaboration en quasi-temps-réel et d’échange multimédia via le protocole Jingle, dont la Voix sur réseau IP (téléphonie sur Internet), la visioconférence et l’échange de fichiers sont des exemples d’applications.&rdquo;</p><p>&mdash; <a href='https://fr.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol'>Wikipédia</a></p>", 
 
   "i18n-sip-server-title": "Serveur SIP", 
   "i18n-ostel-desc": "Comptes SIP sécurisés par le Guardian Project, pour être utilisé par exemple avec CSipSimple, Jitsi ou al.", 
@@ -262,8 +262,8 @@
   "i18n-sip-server-notes": "<p>&ldquo;Session Initiation Protocol (SIP) est un protocole standard ouvert de gestion de sessions souvent utilisé dans les télécommunications multimédia (son, image, etc.) Il est depuis 2007 le plus courant pour la téléphonie par internet (la VoIP).&rdquo;</p><p>&mdash; <a href='https://fr.wikipedia.org/wiki/Session_Initiation_Protocol'>Wikipedia</a></p>", 
 
   "i18n-hardware-software": "Solutions d'auto-hébergement", 
-  "i18n-freedombox-desc": "FreedomBox intègre la protection de la vie privée sur un simple server plug pour que chacun puisse conserver sa vie privée.", 
-  "i18n-arkos-desc": "arkOS est un ensemble de logiciels léger fait pour un Raspberry Pi qui permet d'auto-heberger, de manière sécurisée, son site web, ses mails, ses fichiers, etc.", 
+  "i18n-freedombox-desc": "FreedomBox intègre la protection de la vie privée sur un simple serveur plug pour que chacun puisse conserver sa vie privée.", 
+  "i18n-arkos-desc": "arkOS est un ensemble de logiciels légers faits pour un Raspberry Pi qui permet d'auto-heberger, de manière sécurisée, son site web, ses emails, ses fichiers, etc.", 
   "i18n-self-hosting-notes": "--", 
 
   "i18n-show-all": "Montrer tout", 
@@ -324,11 +324,11 @@
   "i18n-license": "Licence", 
   "i18n-changelog": "Changelog", 
 
-  "i18n-disclaimer": "Avertissement&nbsp;: l'utilisation des projets et logiciels recommandés sur ce site ne garantit pas que la totalité de vos communications seront à l'abri de la surveillance par les États. Vous devez effectuer vos propres enquêtes avant de délivrer des informations sensibles à ces logiciels.", 
+  "i18n-disclaimer": "Avertissement&nbsp;: l'utilisation des projets et logiciels recommandés sur ce site ne garantit pas que la totalité de vos communications seront à l'abri de la surveillance par les États. Vous devez effectuer vos propres enquêtes avant de faire confiance à ces logiciels pour des informations sensibles.", 
 
   "i18n-privacy-policy": "Politique de confidentialité", 
   "i18n-privacy-policy-content": "<p>PRISM Break utilise Piwik analytics pour évaluer le trafic sur ce site. Piwik enregistre la localisation géographique approximative du visiteur, leur navigateur, leur système d'exploitation, et leurs clicks sur la page. Ceci nous aide à évaluer et à améliorer nos contenus.</p><p>Piwik protège la vie privée des visiteurs en anonmysant leurs adresses IP. Ainsi nous ne stockerons aucune donnée à caractère personnel à votre sujet, même si le site va enregistrer que quelqu'un à visiter  notre site. Vous pouvez consulter <strong><a href='http://prism-break.org/analytics'>les données analytics anonymisées ici.</a></strong></p><p>De plus, Piwik respecte le paramètre &ldquo;Do Not Track&rdquo; proposé par certains navigateurs. Si vous avez indiqué cette préfèrece, Piwik ignorera votre visite.</p><p>Si vous n&rsquo;utilisez pas &ldquo;Do Not Track&rdquo; et souhaitez ne pas être traqué, veuillez décocher la case analytics ci-dessous. Le système déposera un cookie &ldquo;piwik_ignore&rdquo;, qui indiquera à Piwik d'ignorer votre ordinateur.</p>", 
 
   "i18n-donate-title": "Soutenez le projet PRISM Break en donnant des Bitcoins.", 
-  "i18n-donate-content": "<p><a href='https://prism-break.org/'>PRISM Break</a> a été lancé le 10 juin 2013 à la suite des révélation d'Edward Snowden sur la surveillance de masse mise en place par la NSA. Depuis son lancement, prés de 750 000 visiteurs concernés par les questions de vie privée ont visité ce site plus d'un million de fois depuis toute la planéte.</p><p>Bien que la première version de prism-break.org a été mise en place et lancée en seulement 2 jours, maintenir et améliorer le site ces deux dernier mois m'a pris presque tout mon temps. Au 3 Aout 2013, j'ai édité le site 1 208 fois et passé des heures à étudier de prés les solutions en matière de vie privée. J'ai fait cet effort afin que PRISM Break vous offre les meilleures méthodes pour combattre la surveillance gouvernementale.</p><p>Avec autant de personnes visitant prism-break.org, j'aimerais pouvoir consacrer toute mon attention à m'occuper des éventuels bugs de sécurité, améliorer la liiste de projets et rendre les contenus plus accessibles pour les utilisateurs. Cependant&mdash;comme tout le monde&mdash; je dois aussi payer mon loyer et acheter à manger, et ce projet ne génère pas d'argent. C'est en cela que vous pouvez aider.</p><p>Si vous souhaitez soutenir PRISM Break, vous pouvez donner des Bitcoins pour financer nos dévelopements futurs. Je me permet de vous suggérer de donner au moins 0.05 BTC, mais tout montant sera apprécié. Si vous donnez 0.50 BTC ou plus et que vous laissez un nom, je vous ajouterais sur cette page dans la liste des sponsors de PRISM Break.</p><p>L'adresse de donation est:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>Je vous remercie de votre soutien.</p><p>Peng Zhong<br />Dévelopeur de PRISM Break</p><p>P.S. Les dévelopeurs des superbes projets listés sur <a href='https://prism-break.org'>PRISM Break</a> seraient aussi ravies de votre soutien. Si vous appréciez utiliser leurs applications, vous devriez sérieusement penser à leur envoyer de l'ar}ent}pour financer leur dévelopement.</p>"
+  "i18n-donate-content": "<p><a href='https://prism-break.org/'>PRISM Break</a> a été lancé le 10 juin 2013 à la suite des révélation d'Edward Snowden sur la surveillance de masse mise en place par la NSA. Depuis son lancement, plus de 1 million visiteurs concernés par les questions de vie privée ont visité ce site plus de 2 millions de fois depuis toute la planéte.</p><p>Bien que la première version de prism-break.org a été mise en place et lancée en seulement 2 jours, maintenir et améliorer le site ces deux dernier mois m'a pris presque tout mon temps. Au 3 Aout 2013, j'ai édité le site 1 208 fois et passé des heures à étudier de prés les solutions en matière de vie privée. J'ai fait cet effort afin que PRISM Break vous offre les meilleures méthodes pour combattre la surveillance gouvernementale.</p><p>Avec autant de personnes visitant prism-break.org, j'aimerais pouvoir consacrer toute mon attention à m'occuper des éventuels bugs de sécurité, améliorer la liste de projets et rendre les contenus plus accessibles pour les utilisateurs. Cependant, comme tout le monde, je dois aussi payer mon loyer et acheter à manger, et ce projet ne génère pas d'argent. C'est en cela que vous pouvez aider.</p><p>Si vous souhaitez soutenir PRISM Break, vous pouvez donner des Bitcoins pour financer nos dévelopements futurs. Je me permets de vous suggérer de donner au moins 0.05 BTC, mais tout montant sera apprécié. Si vous donnez 0.50 BTC ou plus et que vous laissez un nom, je vous ajouterais sur cette page dans la liste des sponsors de PRISM Break.</p><p>L'adresse de donation est:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>Je vous remercie de votre soutien.</p><p>Peng Zhong<br />Dévelopeur de PRISM Break</p><p>P.S. Les dévelopeurs des superbes projets listés sur <a href='https://prism-break.org'>PRISM Break</a> seraient aussi ravies de votre soutien. Si vous appréciez d'utiliser leurs applications, vous devriez sérieusement penser à leur envoyer de l'argent pour financer leur dévelopement.</p>"
 }
