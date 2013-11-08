@@ -13,7 +13,11 @@ class SoftwaresController < ApplicationController
   # GET /softwares/1.json
   def show
     @category = Category.find(params[:category_id])
-    @parent_path = @category
+    if @category.softwares.count <= 1
+      @parent_path = @category.parent
+    else
+      @parent_path = @category
+    end
   end
 
   # GET /softwares/new
