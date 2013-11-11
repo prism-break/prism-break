@@ -2,9 +2,12 @@ p#notice = notice
 
 = render 'softwares/card', software: @software
 
-h2 Versions
-ul
-  - @software.versions.each do |v|
-    li= v.reify
+.pipe Versions
+.text-block
+  ul
+    - @software.versions.each do |v|
+      li= v.reify
 
-= link_to 'Edit Software', edit_category_software_path(@category, @software)
+= link_to edit_category_software_path(@category, @software), class: 'bar' do
+  .label= t 'Edit Software'
+  .icon= fa_icon 'edit'

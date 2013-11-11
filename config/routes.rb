@@ -1,19 +1,21 @@
 PrismBreak::Application.routes.draw do
-  resources :operating_systems, path: 'os'
 
-  resources :protocols, path: 'p'
+  resources :operating_systems, path: 'os' do
+    get 'history', on: :member
+  end
 
-  get 'media', to: 'pages#media'
+  resources :protocols, path: 'p' do
+    get 'history', on: :member
+  end
 
   resources :categories, path: 'c' do
-
     get 'all', on: :member
-
     resources :softwares, path: 's' do
       get 'history', on: :member
     end
-
   end
+
+  get 'media', to: 'pages#media'
 
   filter :locale
 

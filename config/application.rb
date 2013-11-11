@@ -11,6 +11,7 @@ if defined? Stylus
   Stylus.debug = Rails.env != "production"
 end                                       
 
+
 require 'open-uri'
 require 'nokogiri'
 

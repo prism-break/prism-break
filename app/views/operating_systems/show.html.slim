@@ -13,7 +13,7 @@ p#notice = notice
 
 .admin
   .pipe= t('noun.Administration')
-  = link_to operating_system_history_path, class: 'bar' do
+  = link_to history_operating_system_path, class: 'bar' do
     .label= t('noun.History')
     .icon= fa_icon 'edit'
   = link_to edit_operating_system_path(@operating_system), class: 'bar' do

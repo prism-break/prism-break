@@ -3,8 +3,23 @@ en:
     language:
       name: English
 
+  'Administration': Administration
   'Are you sure?': Are you sure?
+  'Edit Software': &edit_software Edit Software
+  'History': History
   'More Information': More Information
+  'More Info': More Info
+  'OS Support': OS Support
+  'Official Website': Official Website
+  'Privacy Policy': Privacy Policy
+  'Protocol Support': Protocol Support
+  'Security Notes': Security Notes
+  'Source Code': Source Code
+  'Source Code Unavailable': Source Code Unavailable
+  'Software License': Software License
+  'Software License Unavailable': Software License Unavailable
+  'Terms of Service': Terms of Service
+  'Wikipedia Article': Wikipedia Article
 
   warning:
     No_Source: Source Code Unavailable
@@ -55,7 +70,7 @@ en:
       all: All Software
       browse: Browse All Software
       destroy: Destroy Software
-      edit: Edit Software
+      edit: *edit_software
       new: New Software
       form:
         url: Software URL

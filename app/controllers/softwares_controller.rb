@@ -1,5 +1,6 @@
 class SoftwaresController < ApplicationController
   before_action :set_software, only: [:show, :edit, :update, :destroy, :history]
+  before_action :set_category, only: [:show, :new, :edit, :create, :update, :history]
 
   # GET /softwares
   # GET /softwares.json
@@ -12,7 +13,6 @@ class SoftwaresController < ApplicationController
   # GET /softwares/1
   # GET /softwares/1.json
   def show
-    @category = Category.find(params[:category_id])
     if @category.softwares.count <= 1
       @parent_path = @category.parent
     else
@@ -22,7 +22,6 @@ class SoftwaresController < ApplicationController
 
   # GET /softwares/new
   def new
-    @category = Category.find(params[:category_id])
     @parent_path = @category
     @page_title = t 'v.softwares.new'
     @software = Software.new
@@ -31,7 +30,6 @@ class SoftwaresController < ApplicationController
 
   # GET /softwares/1/edit
   def edit
-    @category = Category.find(params[:category_id])
     @parent_path = category_software_path(@category, @software)
     @page_title = t 'v.softwares.edit'
   end
@@ -39,7 +37,6 @@ class SoftwaresController < ApplicationController
   # POST /softwares
   # POST /softwares.json
   def create
-    @category = Category.find(params[:category_id])
     @software = Software.new(software_params)
     @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'protocol_ids' => []}.merge(params[:software] || {})
@@ -60,7 +57,6 @@ class SoftwaresController < ApplicationController
   # PATCH/PUT /softwares/1
   # PATCH/PUT /softwares/1.json
   def update
-    @category = Category.find(params[:category_id])
     @software.attributes = {'category_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'protocol_ids' => []}.merge(params[:software] || {})
     @software.attributes = {'operating_system_ids' => []}.merge(params[:software] || {})
@@ -81,19 +77,23 @@ class SoftwaresController < ApplicationController
   def destroy
     @software.destroy
     respond_to do |format|
-      format.html { redirect_to softwares_url }
+      format.html { redirect_to root_url }
       format.json { head :no_content }
     end
   end
 
   def history
-    @category = Category.find(params[:category_id])
+    @parent_path = category_software_path(@category, @software)
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_software
       @software = Software.find(params[:id])
+    end
+
+    def set_category
+      @category = Category.find(params[:category_id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
