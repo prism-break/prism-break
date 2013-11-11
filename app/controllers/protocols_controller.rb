@@ -35,6 +35,7 @@ class ProtocolsController < ApplicationController
 
     respond_to do |format|
       if @protocol.save
+        @protocol.update_description
         format.html { redirect_to @protocol, notice: 'Protocol was successfully created.' }
         format.json { render action: 'show', status: :created, location: @protocol }
       else
@@ -49,6 +50,7 @@ class ProtocolsController < ApplicationController
   def update
     respond_to do |format|
       if @protocol.update(protocol_params)
+        @protocol.update_description
         format.html { redirect_to @protocol, notice: 'Protocol was successfully updated.' }
         format.json { head :no_content }
       else

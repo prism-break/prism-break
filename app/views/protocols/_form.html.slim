@@ -10,14 +10,11 @@
           li= message
 
   .field
-    = f.label :title, t('noun.Title')
+    = f.label :title, t('Title')
     = f.text_field :title
   .field
-    = f.label :url, t('noun.Wikipedia-URL')
+    = f.label :url, t('Wikipedia URL')
     = f.text_field :url
-  .field
-    = f.label :description, t('noun.Description')
-    = f.text_area :description
 
   .pipe Actions
   = content_tag :button, type: 'submit', class: 'bar' do
