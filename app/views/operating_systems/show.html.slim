@@ -4,12 +4,12 @@ p#notice = notice
 
 .text-block= filter_markdown(@operating_system.description)
 
-- if @operating_system.softwares.count > 0
-  .pipe= t 'heading.supported-software'
+- if @operating_system.softwares == []
+  .pipe= t 'No Software Support'
+- else
+  .pipe= t 'Software Support'
   - @operating_system.softwares.each do |software|
     = render 'softwares/card', software: software
-- else
-  .pipe= t 'heading.no-supported-software'
 
 .admin
   .pipe= t('noun.Administration')

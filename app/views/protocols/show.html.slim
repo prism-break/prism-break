@@ -5,12 +5,12 @@ p#notice = notice
 .text-block= filter_markdown(@protocol.description)
 
 - if @protocol.softwares == []
-  .pipe= t 'heading.no-supported-software'
+  .pipe= t 'No Software Support'
 - else
   .pipe
     = @protocol.title
     '
-    = t 'heading.supported-software'
+    = t 'Software Support'
   - @protocol.softwares.each do |software|
     = render 'softwares/card', software: software
 

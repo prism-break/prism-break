@@ -4,26 +4,40 @@ en:
       name: English
 
   'Administration': Administration
+  All: All
   'Are you sure?': Are you sure?
+  Changelog: Changelog
+  Contribute: Contribute
+  Description: Description
+  Donate: Donate
   'Edit Software': &edit_software Edit Software
-  'History': History
+  History: History
+  License: License
+  Logo: Logo
+  Media: Media
   'More Information': More Information
   'More Info': More Info
+  'No Software Support': No Software Support
+  'Operating System': &operating_system Operating System
+  'Operating Systems': &operating_systems Operating Systems
   'OS Support': OS Support
   'Official Website': Official Website
   'Privacy Policy': Privacy Policy
   'Protocol Support': Protocol Support
-  'Security Notes': Security Notes
+  Save: Save
+  'Security Notes': &security_notes Security Notes
   'Source Code': Source Code
   'Source Code Unavailable': Source Code Unavailable
   'Software License': Software License
   'Software License Unavailable': Software License Unavailable
+  'Software Support': Software Support
   'Terms of Service': Terms of Service
+  Title: Title
+  Wikipedia: Wikipedia
   'Wikipedia Article': Wikipedia Article
+  'Wikipedia Description': Wikipedia Description
+  'Wikipedia URL': &wikipedia_url Wikipedia URL
 
-  warning:
-    No_Source: Source Code Unavailable
-    No_License: Software License Unavailable
 
   v:
 
@@ -49,8 +63,8 @@ en:
       edit: Edit Category
       new: New Category
     operating-systems:
-      singular: Operating System
-      plural: Operating Systems
+      singular: *operating_system
+      plural: *operating_systems
       all: All Operating Systems
       browse: Browse by OS
       destroy: Destroy Operating System
@@ -78,37 +92,8 @@ en:
         license-url: License File URL
         privacy-url: Privacy Policy URL
         tos-url: Terms of Service URL
-        wikipedia-url: Wikipedia URL
-        notes: Security Notes
-
-
-  noun:
-    All: All
-    Media: Media
-    Changelog: Changelog
-    License: License
-    Contribute: Contribute
-    Donate: Donate
-    History: History
-
-    Title: Title
-    Description: Description
-    Logo: Logo
-
-    Security_Notes: Security Notes
-    Supported_Operating_Systems: Supported Operating Systems
-    Supported_Protocols: Supported Protocols
-    More_Information: More Information
-    Source_Code: Source Code
-    Software_License: Software License
-    Privacy_Policy: Privacy Policy
-    Terms_of_Service: Terms of Service
-    Administration: Administration
-    Official_Website: Official Website
-
-    Wikipedia: Wikipedia
-    Wikipedia-URL: Wikipedia URL
-    Wikipedia_Description: Wikipedia Description
+        wikipedia-url: *wikipedia_url
+        notes: *security_notes
 
   verb:
     Browse: Browse
@@ -118,10 +103,6 @@ en:
   adverb:
     on: on
 
-  heading:
-    supported-software: Supported Software
-    no-supported-software: No Supported Software
-
   error:
     error-explanation: "%{errors} errors prohibited this %{model} from being saved:"
 
@@ -129,6 +110,7 @@ en:
   free-alternative: "Free alternative"
   notes: "Notes"
   operating-system: "Operating system"
+
   debian-desc: "Popular ethical GNU/Linux distribution."
   fedora-desc: "Fast, stable and powerful GNU/Linux distribution."
   gentoo-desc: "GNU/Linux distribution about choice, control and security."
