@@ -1,19 +1,19 @@
 PrismBreak::Application.routes.draw do
   resources :operating_systems, path: 'os'
 
-  match 'operating_systems/:id/history' => 'operating_systems#history', as: :operating_system_history, via: :get
-
   resources :protocols, path: 'p'
 
   get 'media', to: 'pages#media'
 
   resources :categories, path: 'c' do
-    resources :softwares, path: 's'
+
+    get 'all', on: :member
+
+    resources :softwares, path: 's' do
+      get 'history', on: :member
+    end
+
   end
-
-  match 'categories/:id/all' => 'categories#all', as: :category_all, via: :get
-
-  match 'softwares/:id/history' => 'softwares#history', as: :software_history, via: :get
 
   filter :locale
 

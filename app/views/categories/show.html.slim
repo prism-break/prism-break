@@ -7,7 +7,7 @@ p#notice = notice
   = render 'softwares/card', software: software
 
 - if @category.parent == nil
-  = link_to category_all_path, class: 'bar'
+  = link_to all_category_path, class: 'bar'
     .label= t('all') 
     .icon= fa_icon 'angle-right'
 
@@ -51,6 +51,6 @@ p#notice = notice
     .label= t('v.categories.edit') 
     .icon= fa_icon 'edit'
 
-  = link_to @category, :confirm => t('admin.confirm'), :method => :delete, class: 'bar'
+  = link_to @category, confirm: t('Are you sure?'), method: :delete, class: 'bar'
     .label= t('v.categories.destroy') 
     .icon= fa_icon 'trash-o'

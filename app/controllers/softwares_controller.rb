@@ -87,6 +87,7 @@ class SoftwaresController < ApplicationController
   end
 
   def history
+    @category = Category.find(params[:category_id])
   end
 
   private

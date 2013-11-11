@@ -7,4 +7,4 @@ ul
   - @software.versions.each do |v|
     li= v.reify
 
-= link_to 'Edit Software', edit_software_path(@software)
+= link_to 'Edit Software', edit_category_software_path(@category, @software)
