@@ -1,5 +1,7 @@
 - @protocols.each do |protocol|
-  = render 'protocols/card', protocol: protocol
+  = link_to protocol, class: 'bar' do
+    .label= protocol.title
+    .icon= fa_icon 'angle-right'
 
 .pipe= t 'noun.Administration'
 = link_to new_protocol_path, class: 'bar' do
