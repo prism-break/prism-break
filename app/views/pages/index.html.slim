@@ -1,10 +1,10 @@
 .text-block
   p= raw t 'v.pages.index.intro'
 
-- @categories.roots.each do |category|
-  = link_to category, class: 'bar' do
+- @platforms.order(:title).each do |platform|
+  = link_to platform, class: 'bar' do
     .label
       = t 'verbs.browse'
       '
-      strong= category.title
-    .icon= fa_icon 'angle-right'
+      strong= platform.title
+    .icon= fa_icon 'external-link-o'

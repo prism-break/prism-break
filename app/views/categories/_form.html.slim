@@ -12,5 +12,15 @@
   .field
     = f.label :description
     = f.text_area :description
+  .field
+    = f.label :platform
+    ul.checkboxes
+      - @platforms.each do |platform| 
+        li.checkbox
+          = f.radio_button :platform_id, platform.id, :id => "category_check_#{platform.id}"
+          = f.label "check_#{platform.id}", platform.title
 
-  .actions = f.submit 'Save'
+  .pipe Actions
+  = content_tag :button, type: 'submit', class: 'bar' do
+    .label= t 'Save'
+    .icon= fa_icon 'save'

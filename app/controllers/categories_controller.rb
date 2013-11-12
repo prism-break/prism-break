@@ -21,12 +21,14 @@ class CategoriesController < ApplicationController
     @parent_path = categories_path
     @page_title = t 'v.categories.new'
     @category = Category.new
+    @platforms = Platform.all
   end
 
   # GET /categories/1/edit
   def edit
     @parent_path = @category
     @page_title = t 'v.categories.edit'
+    @platforms = Platform.all
   end
 
   # POST /categories
@@ -77,7 +79,7 @@ class CategoriesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def category_params
-      params.require(:category).permit(:title, :description)
+      params.require(:category).permit(:title, :description, :platform_id)
     end
 
     def parent_path

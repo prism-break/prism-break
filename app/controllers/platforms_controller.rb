@@ -12,7 +12,7 @@ class PlatformsController < ApplicationController
   # GET /platforms/1
   # GET /platforms/1.json
   def show
-    @parent_path = platforms_path
+    @parent_path = root_path
     @page_title = @platform.title
   end
 

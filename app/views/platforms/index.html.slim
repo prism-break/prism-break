@@ -1,4 +1,4 @@
-- @platforms.each do |platform|
+- @platforms.order(:title).each do |platform|
   = link_to platform, class: 'bar' do
     .label= platform.title
     .icon= fa_icon 'external-link-o'
