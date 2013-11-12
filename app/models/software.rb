@@ -47,7 +47,8 @@ class Software < ActiveRecord::Base
   validates :url, presence: true, uniqueness: true
 
   # url validation
-  validates_format_of :url, :source_url, :privacy_url, :tos_url,
+  validates_format_of :url,
+    :source_url, :privacy_url, :tos_url, :wikipedia_url
     :with => URI::regexp(%w(http https)),
     :message => "requires 'https://' or 'http://'",
     :allow_blank => :true

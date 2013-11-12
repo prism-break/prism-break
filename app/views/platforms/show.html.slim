@@ -1,15 +1,10 @@
 p#notice = notice
 
-p
-  strong Title:
-  = @platform.title
-p
-  strong Description:
-  = @platform.description
-p
-  strong Wikipedia url:
-  = @platform.wikipedia_url
+.pipe= t 'Administration'
+= link_to edit_platform_path(@platform), class: 'bar' do
+  .label= t 'v.platforms.edit'
+  .icon= fa_icon 'edit'
 
-= link_to 'Edit', edit_platform_path(@platform)
-'|
-= link_to 'Back', platforms_path
+= link_to @platform, :confirm => 'Are you sure?', :method => :delete, class: 'bar' do
+  .label= t 'v.platforms.destroy'
+  .icon= fa_icon 'trash-o'

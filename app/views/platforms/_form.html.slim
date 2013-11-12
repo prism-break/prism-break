@@ -15,4 +15,8 @@
   .field
     = f.label :wikipedia_url
     = f.text_field :wikipedia_url
-  .actions = f.submit 'Save'
+
+  .pipe Actions
+  = content_tag :button, type: 'submit', class: 'bar' do
+    .label= t 'verb.Save'
+    .icon= fa_icon 'save'

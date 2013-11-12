@@ -1,4 +1,7 @@
 class Category < ActiveRecord::Base
+  # associations
+  belongs_to :platform
+
   # validations
   validates :title, presence: true
 

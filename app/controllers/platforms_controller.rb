@@ -4,16 +4,22 @@ class PlatformsController < ApplicationController
   # GET /platforms
   # GET /platforms.json
   def index
+    @parent_path = root_path
+    @page_title = t 'v.platforms.plural'
     @platforms = Platform.all
   end
 
   # GET /platforms/1
   # GET /platforms/1.json
   def show
+    @parent_path = platforms_path
+    @page_title = @platform.title
   end
 
   # GET /platforms/new
   def new
+    @parent_path = platforms_path
+    @page_title = t 'v.platforms.new'
     @platform = Platform.new
   end
 
