@@ -70,6 +70,14 @@ en:
       destroy: Destroy Operating System
       edit: Edit Operating System
       new: New Operating System
+    platforms:
+      singular: Platform
+      plural: Platforms
+      all: All Platforms
+      browse: Browse by Platform
+      destroy: Destroy Platform
+      edit: Edit Platform
+      new: New Platform
     protocols:
       singular: Protocol
       plural: Protocols
