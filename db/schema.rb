@@ -17,8 +17,6 @@ ActiveRecord::Schema.define(version: 20131112103600) do
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "parent_id"
-    t.integer  "sort_order"
     t.text     "description"
     t.integer  "platform_id"
   end

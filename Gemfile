@@ -7,7 +7,6 @@ gem 'routing-filter', github: 'svenfuchs/routing-filter'
 gem 'globalize', github: 'globalize/globalize'
 gem 'paper_trail', github: 'airblade/paper_trail', branch: 'master'
 gem 'jquery-turbolinks' # fixes "jquery only reloads on refresh"
-gem 'closure_tree' # for tree based categories
 gem "paperclip", "~> 3.0"
 gem 'paperclip-compression'
 gem 'redcarpet' # markdown

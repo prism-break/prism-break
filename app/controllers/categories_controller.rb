@@ -88,8 +88,8 @@ class CategoriesController < ApplicationController
     end
 
     def parent_path
-      if @category.parent_id != nil
-        @category.parent
+      if @category.platform != nil
+        @category.platform
       else
         root_path
       end
