@@ -9,13 +9,6 @@ class CategoriesController < ApplicationController
     @categories = Category.all
   end
 
-  # GET /categories/1/all
-  def all
-    @parent_category = Category.find(params[:id])
-    @parent_path = @parent_category
-    @page_title = "#{@parent_category.title} &rsaquo; #{t('noun.All')}".html_safe
-  end
-
   # GET /categories/1
   # GET /categories/1.json
   def show

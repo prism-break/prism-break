@@ -11,7 +11,6 @@ PrismBreak::Application.routes.draw do
   end
 
   resources :categories, path: 'c' do
-    get 'all', on: :member
     resources :softwares, path: 's' do
       get 'history', on: :member
     end
