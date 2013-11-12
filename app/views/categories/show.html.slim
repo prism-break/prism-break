@@ -6,40 +6,6 @@ p#notice = notice
 - @category.softwares.order(:title).each do |software|
   = render 'softwares/card', software: software
 
-- if @category.parent == nil
-  = link_to all_category_path, class: 'bar'
-    .label= t('all') 
-    .icon= fa_icon 'angle-right'
-
-- @category.children.order(:title).each do |subcategory|
-
-  - if subcategory.softwares.count == 0
-    = link_to subcategory, class: 'bar' do
-      .label
-        = subcategory.title
-        '
-        span.light= "(#{subcategory.softwares.count})"
-      .icon= fa_icon 'angle-right'
-
-  / convenient direct link to sole software
-    - elsif subcategory.softwares.count == 1
-      = link_to category_software_path(subcategory, subcategory.softwares.first), class: 'bar' do
-        .label
-          = image_tag subcategory.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
-          = subcategory.title
-          '
-          span.light= "(#{subcategory.softwares.count})"
-        .icon= fa_icon 'angle-right'
-
-  - else
-    = link_to subcategory, class: 'bar' do
-      .label
-        = image_tag subcategory.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
-        = subcategory.title
-        '
-        span.light= "(#{subcategory.softwares.count})"
-      .icon= fa_icon 'angle-right'
-
 .admin
   .pipe= t 'noun.Administration'
 

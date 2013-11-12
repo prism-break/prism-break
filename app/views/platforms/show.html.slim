@@ -1,5 +1,25 @@
 p#notice = notice
 
+
+- @platform.categories.each do |category|
+  - if category.softwares.count == 0
+    = link_to category, class: 'bar' do
+      .label
+        = category.title
+        '
+        span.light= "(#{category.softwares.count})"
+      .icon= fa_icon 'angle-right'
+
+  - else
+    = link_to category, class: 'bar' do
+      .label
+        = image_tag category.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
+        = category.title
+        '
+        span.light= "(#{category.softwares.count})"
+      .icon= fa_icon 'angle-right'
+
+
 .pipe= t 'Administration'
 = link_to edit_platform_path(@platform), class: 'bar' do
   .label= t 'v.platforms.edit'
