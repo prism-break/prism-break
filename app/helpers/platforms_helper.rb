@@ -1,0 +1,2 @@
+module PlatformsHelper
+end

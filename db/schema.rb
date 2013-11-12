@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131102113102) do
+ActiveRecord::Schema.define(version: 20131112063019) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -53,6 +53,37 @@ ActiveRecord::Schema.define(version: 20131102113102) do
   add_index "category_translations", ["category_id"], name: "index_category_translations_on_category_id", using: :btree
   add_index "category_translations", ["locale"], name: "index_category_translations_on_locale", using: :btree
 
+  create_table "license_softwares", force: true do |t|
+    t.integer  "license_id"
+    t.integer  "software_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "license_softwares", ["license_id"], name: "index_license_softwares_on_license_id", using: :btree
+  add_index "license_softwares", ["software_id"], name: "index_license_softwares_on_software_id", using: :btree
+
+  create_table "license_translations", force: true do |t|
+    t.integer  "license_id",  null: false
+    t.string   "locale",      null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+    t.string   "url"
+  end
+
+  add_index "license_translations", ["license_id"], name: "index_license_translations_on_license_id", using: :btree
+  add_index "license_translations", ["locale"], name: "index_license_translations_on_locale", using: :btree
+
+  create_table "licenses", force: true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "operating_system_softwares", force: true do |t|
     t.integer  "operating_system_id"
     t.integer  "software_id"
@@ -86,6 +117,27 @@ ActiveRecord::Schema.define(version: 20131102113102) do
     t.string   "logo_content_type"
     t.integer  "logo_file_size"
     t.datetime "logo_updated_at"
+  end
+
+  create_table "platform_translations", force: true do |t|
+    t.integer  "platform_id",   null: false
+    t.string   "locale",        null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+    t.text     "description"
+    t.string   "wikipedia_url"
+  end
+
+  add_index "platform_translations", ["locale"], name: "index_platform_translations_on_locale", using: :btree
+  add_index "platform_translations", ["platform_id"], name: "index_platform_translations_on_platform_id", using: :btree
+
+  create_table "platforms", force: true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "wikipedia_url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "protocol_softwares", force: true do |t|

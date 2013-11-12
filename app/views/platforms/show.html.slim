@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @platform.title
+p
+  strong Description:
+  = @platform.description
+p
+  strong Wikipedia url:
+  = @platform.wikipedia_url
+
+= link_to 'Edit', edit_platform_path(@platform)
+'|
+= link_to 'Back', platforms_path

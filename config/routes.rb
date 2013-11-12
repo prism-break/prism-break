@@ -1,5 +1,7 @@
 PrismBreak::Application.routes.draw do
 
+  resources :platforms
+
   resources :operating_systems, path: 'os' do
     get 'history', on: :member
   end

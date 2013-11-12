@@ -1,0 +1,23 @@
+h1 Listing platforms
+
+table
+  tr
+    th Title
+    th Description
+    th Wikipedia url
+    th
+    th
+    th
+
+  - @platforms.each do |platform|
+    tr
+      td = platform.title
+      td = platform.description
+      td = platform.wikipedia_url
+      td = link_to 'Show', platform
+      td = link_to 'Edit', edit_platform_path(platform)
+      td = link_to 'Destroy', platform, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Platform', new_platform_path
