@@ -13,11 +13,7 @@ class SoftwaresController < ApplicationController
   # GET /softwares/1
   # GET /softwares/1.json
   def show
-    if @category.softwares.count <= 1
-      @parent_path = @category.parent
-    else
-      @parent_path = @category
-    end
+    @parent_path = @category
   end
 
   # GET /softwares/new

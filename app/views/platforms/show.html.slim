@@ -1,7 +1,6 @@
 p#notice = notice
 
-
-- @platform.categories.each do |category|
+- @platform.categories.order(:title).each do |category|
   - if category.softwares.count == 0
     = link_to category, class: 'bar' do
       .label
@@ -21,9 +20,15 @@ p#notice = notice
 
 
 .pipe= t 'Administration'
+
+= link_to new_category_path, class: 'bar' do
+  .label= t 'v.categories.new'
+  .icon= fa_icon 'edit'
+
 = link_to edit_platform_path(@platform), class: 'bar' do
   .label= t 'v.platforms.edit'
   .icon= fa_icon 'edit'
+
 
 = link_to @platform, :confirm => 'Are you sure?', :method => :delete, class: 'bar' do
   .label= t 'v.platforms.destroy'

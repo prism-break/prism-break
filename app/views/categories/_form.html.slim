@@ -15,7 +15,7 @@
   .field
     = f.label :platform
     ul.checkboxes
-      - @platforms.each do |platform| 
+      - @platforms.order(:title).each do |platform| 
         li.checkbox
           = f.radio_button :platform_id, platform.id, :id => "category_check_#{platform.id}"
           = f.label "check_#{platform.id}", platform.title

@@ -25,6 +25,8 @@ class PlatformsController < ApplicationController
 
   # GET /platforms/1/edit
   def edit
+    @parent_path = @platform
+    @page_title = t 'v.platforms.edit'
   end
 
   # POST /platforms
