@@ -6,11 +6,6 @@
         - @category.errors.full_messages.each do |message|
           li = message
 
-  strong
-    | Platform ID
-    '
-    = params[:platform_id]
-
   .field
     = f.label :title
     = f.text_field :title
@@ -22,7 +17,11 @@
     ul.checkboxes
       - @platforms.order(:title).each do |platform| 
         li.checkbox
-          = f.radio_button :platform_id, platform.id, :id => "category_check_#{platform.id}"
+          / params[:platform_id] needs to be a fixnum
+          - if platform.id == params[:platform_id].to_i
+            = f.radio_button :platform_id, platform.id, id: "category_check_#{platform.id}", checked: true
+          - else
+            = f.radio_button :platform_id, platform.id, id: "category_check_#{platform.id}"
           = f.label "check_#{platform.id}", platform.title
 
   .pipe Actions

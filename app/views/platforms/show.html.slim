@@ -21,7 +21,7 @@ p#notice = notice
 
 .pipe= t 'Administration'
 
-= link_to new_category_path, class: 'bar' do
+= link_to new_platform_category_path(@platform), class: 'bar' do
   .label= t 'v.categories.new'
   .icon= fa_icon 'edit'
 
