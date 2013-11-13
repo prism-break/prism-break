@@ -2,7 +2,7 @@ p#notice = notice
 
 - @platform.categories.order(:title).each do |category|
   - if category.softwares.count == 0
-    = link_to category, class: 'bar' do
+    = link_to platform_category_path(@platform, category), class: 'bar' do
       .label
         = category.title
         '
@@ -10,7 +10,7 @@ p#notice = notice
       .icon= fa_icon 'angle-right'
 
   - else
-    = link_to category, class: 'bar' do
+    = link_to platform_category_path(@platform, category), class: 'bar' do
       .label
         = image_tag category.softwares.order(:title).first.logo.url(:'medium@2x'), class: 'logo', width: 29, height: 29
         = category.title

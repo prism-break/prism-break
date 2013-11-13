@@ -12,13 +12,13 @@ class CategoriesController < ApplicationController
   # GET /categories/1
   # GET /categories/1.json
   def show
-    @parent_path = parent_path
+    @parent_path = @category.platform
     @page_title = @category.title
   end
 
   # GET /categories/new
   def new
-    @parent_path = categories_path
+    @parent_path = root_path
     @page_title = t 'v.categories.new'
     @category = Category.new
     @platforms = Platform.all
@@ -80,14 +80,6 @@ class CategoriesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def category_params
       params.require(:category).permit(:title, :description, :platform_id)
-    end
-
-    def parent_path
-      if @category.platform != nil
-        @category.platform
-      else
-        root_path
-      end
     end
 
 end

@@ -6,6 +6,11 @@
         - @category.errors.full_messages.each do |message|
           li = message
 
+  strong
+    | Platform ID
+    '
+    = params[:platform_id]
+
   .field
     = f.label :title
     = f.text_field :title
