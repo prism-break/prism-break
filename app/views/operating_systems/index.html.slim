@@ -1,8 +1,0 @@
-- @operating_systems.each do |operating_system|
-  = render 'operating_systems/card', operating_system: operating_system
-
-.admin
-  .pipe= t('noun.Administration')
-  = link_to new_operating_system_path, class: 'bar right'
-    .label= t('v.operating-systems.new')
-    .icon= fa_icon 'angle-right'

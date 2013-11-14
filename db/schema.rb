@@ -85,41 +85,6 @@ ActiveRecord::Schema.define(version: 20131114014921) do
     t.datetime "updated_at"
   end
 
-  create_table "operating_system_softwares", force: true do |t|
-    t.integer  "operating_system_id"
-    t.integer  "software_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "operating_system_softwares", ["operating_system_id"], name: "index_operating_system_softwares_on_operating_system_id", using: :btree
-  add_index "operating_system_softwares", ["software_id"], name: "index_operating_system_softwares_on_software_id", using: :btree
-
-  create_table "operating_system_translations", force: true do |t|
-    t.integer  "operating_system_id", null: false
-    t.string   "locale",              null: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "title"
-    t.text     "description"
-    t.string   "url"
-  end
-
-  add_index "operating_system_translations", ["locale"], name: "index_operating_system_translations_on_locale", using: :btree
-  add_index "operating_system_translations", ["operating_system_id"], name: "index_operating_system_translations_on_operating_system_id", using: :btree
-
-  create_table "operating_systems", force: true do |t|
-    t.string   "title"
-    t.text     "description"
-    t.string   "url"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "logo_file_name"
-    t.string   "logo_content_type"
-    t.integer  "logo_file_size"
-    t.datetime "logo_updated_at"
-  end
-
   create_table "platform_translations", force: true do |t|
     t.integer  "platform_id",   null: false
     t.string   "locale",        null: false
