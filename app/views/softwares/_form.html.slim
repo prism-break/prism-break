@@ -73,7 +73,7 @@
   .field
     = f.label :category, "#{t('v.categories.plural')}*"
     - Platform.all.order(:title).each do |platform|
-      label= platform.title
+      label= link_to platform.title, platform
       ul.checkboxes
         - platform.categories.order(:title).each do |category|
           li.checkbox

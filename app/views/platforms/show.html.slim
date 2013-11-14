@@ -22,13 +22,17 @@ p#notice = notice
 .pipe= t 'Administration'
 
 = link_to new_platform_category_path(@platform), class: 'bar' do
-  .label= t 'v.categories.new'
-  .icon= fa_icon 'edit'
+  .label
+    = t 'v.categories.new'
+    '
+    = t 'in'
+    '
+    = @platform.title
+  .icon= fa_icon 'plus'
 
 = link_to edit_platform_path(@platform), class: 'bar' do
   .label= t 'v.platforms.edit'
   .icon= fa_icon 'edit'
-
 
 = link_to @platform, :confirm => 'Are you sure?', :method => :delete, class: 'bar' do
   .label= t 'v.platforms.destroy'
