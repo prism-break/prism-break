@@ -1,0 +1,9 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @platform_type.title
+
+= link_to 'Edit', edit_platform_type_path(@platform_type)
+'|
+= link_to 'Back', platform_types_path

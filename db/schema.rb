@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131112103600) do
+ActiveRecord::Schema.define(version: 20131114014921) do
 
   create_table "categories", force: true do |t|
     t.string   "title"
@@ -133,13 +133,33 @@ ActiveRecord::Schema.define(version: 20131112103600) do
   add_index "platform_translations", ["locale"], name: "index_platform_translations_on_locale", using: :btree
   add_index "platform_translations", ["platform_id"], name: "index_platform_translations_on_platform_id", using: :btree
 
+  create_table "platform_type_translations", force: true do |t|
+    t.integer  "platform_type_id", null: false
+    t.string   "locale",           null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "title"
+  end
+
+  add_index "platform_type_translations", ["locale"], name: "index_platform_type_translations_on_locale", using: :btree
+  add_index "platform_type_translations", ["platform_type_id"], name: "index_platform_type_translations_on_platform_type_id", using: :btree
+
+  create_table "platform_types", force: true do |t|
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "platforms", force: true do |t|
     t.string   "title"
     t.text     "description"
     t.string   "wikipedia_url"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "platform_type_id"
   end
+
+  add_index "platforms", ["platform_type_id"], name: "index_platforms_on_platform_type_id", using: :btree
 
   create_table "protocol_softwares", force: true do |t|
     t.integer  "protocol_id"

@@ -22,6 +22,7 @@ en:
   'Operating Systems': &operating_systems Operating Systems
   'OS Support': OS Support
   'Official Website': Official Website
+  'Platform Type': Platform Type
   'Privacy Policy': Privacy Policy
   'Protocol Support': Protocol Support
   Save: Save
@@ -70,6 +71,14 @@ en:
       destroy: Destroy Operating System
       edit: Edit Operating System
       new: New Operating System
+    platform_types:
+      singular: Platform Type
+      plural: Platform Types
+      all: All Platform Types
+      browse: Browse by Platform Type
+      destroy: Destroy Platform Type
+      edit: Edit Platform Type
+      new: New Platform Type
     platforms:
       singular: Platform
       plural: Platforms

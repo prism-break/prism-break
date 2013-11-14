@@ -64,9 +64,6 @@ GEM
     chronic (0.10.2)
     climate_control (0.0.3)
       activesupport (>= 3.0)
-    closure_tree (4.2.9)
-      activerecord (>= 3.0.0)
-      with_advisory_lock (>= 0.0.9)
     cocaine (0.5.3)
       climate_control (>= 0.0.3, < 1.0)
     coffee-rails (4.0.1)
@@ -182,14 +179,11 @@ GEM
     whenever (0.8.4)
       activesupport (>= 2.3.4)
       chronic (>= 0.6.3)
-    with_advisory_lock (0.0.10)
-      activerecord (>= 3.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  closure_tree
   font-awesome-rails
   globalize!
   jbuilder (~> 1.2)

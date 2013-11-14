@@ -17,7 +17,6 @@
     ul.checkboxes
       - @platforms.order(:title).each do |platform| 
         li.checkbox
-          / params[:platform_id] needs to be a fixnum
           - if platform.id == params[:platform_id].to_i
             = f.radio_button :platform_id, platform.id, id: "category_check_#{platform.id}", checked: true
           - else

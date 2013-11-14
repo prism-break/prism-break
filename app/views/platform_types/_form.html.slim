@@ -1,0 +1,12 @@
+= form_for @platform_type do |f|
+  - if @platform_type.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@platform_type.errors.count, "error")} prohibited this platform_type from being saved:"
+      ul
+        - @platform_type.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :title
+    = f.text_field :title
+  .actions = f.submit 'Save'

@@ -15,6 +15,13 @@
   .field
     = f.label t 'Wikipedia URL'
     = f.text_field :wikipedia_url
+  .field
+    = f.label t 'Platform Type'
+    ul.checkboxes
+      - @platform_types.order(:title).each do |type| 
+        li.checkbox
+          = f.radio_button :platform_type_id, type.id, id: "platform_check_#{type.id}"
+          = f.label "check_#{type.id}", type.title
 
   .pipe Actions
   = content_tag :button, type: 'submit', class: 'bar' do

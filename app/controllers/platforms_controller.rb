@@ -21,12 +21,14 @@ class PlatformsController < ApplicationController
     @parent_path = platforms_path
     @page_title = t 'v.platforms.new'
     @platform = Platform.new
+    @platform_types = PlatformType.all
   end
 
   # GET /platforms/1/edit
   def edit
     @parent_path = @platform
     @page_title = t 'v.platforms.edit'
+    @platform_types = PlatformType.all
   end
 
   # POST /platforms
@@ -48,6 +50,9 @@ class PlatformsController < ApplicationController
   # PATCH/PUT /platforms/1
   # PATCH/PUT /platforms/1.json
   def update
+    @parent_path = @platform
+    @page_title = t 'v.platforms.edit'
+    @platform_types = PlatformType.all
     respond_to do |format|
       if @platform.update(platform_params)
         format.html { redirect_to @platform, notice: 'Platform was successfully updated.' }
@@ -77,6 +82,6 @@ class PlatformsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def platform_params
-      params.require(:platform).permit(:title, :description, :wikipedia_url)
+      params.require(:platform).permit(:title, :description, :wikipedia_url, :platform_type_id)
     end
 end
