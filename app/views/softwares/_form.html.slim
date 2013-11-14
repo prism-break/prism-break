@@ -72,16 +72,16 @@
 
   .field
     = f.label :category, "#{t('v.categories.plural')}*"
-    - Category.roots.each do |category|
-      label= category.title
+    - Platform.all.order(:title).each do |platform|
+      label= platform.title
       ul.checkboxes
-        - category.children.order(:title).each do |subcategory|
+        - platform.categories.order(:title).each do |category|
           li.checkbox
-            - if @category.id == subcategory.id
-              = check_box_tag :category_ids, subcategory.id, @software.categories.include?(subcategory), :name => 'software[category_ids][]', :id => "category_check_#{subcategory.id}", checked: true
+            - if @category.id == category.id
+              = check_box_tag :category_ids, category.id, @software.categories.include?(category), :name => 'software[category_ids][]', :id => "category_check_#{category.id}", checked: true
             - else
-              = check_box_tag :category_ids, subcategory.id, @software.categories.include?(subcategory), :name => 'software[category_ids][]', :id => "category_check_#{subcategory.id}"
-            = label_tag "category_check_#{subcategory.id}", subcategory.title
+              = check_box_tag :category_ids, category.id, @software.categories.include?(category), :name => 'software[category_ids][]', :id => "category_check_#{category.id}"
+            = label_tag "category_check_#{category.id}", category.title
 
   .pipe Actions
   = content_tag :button, type: 'submit', class: 'bar' do

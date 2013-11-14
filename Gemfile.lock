@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/airblade/paper_trail.git
-  revision: 7c9f9b8953f76dd046fbcbfab1a933853f99e87b
+  revision: 6fc33be9f4586121188c3bd60249cb29e2cfaea4
   branch: master
   specs:
     paper_trail (3.0.0.rc1)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/globalize/globalize.git
-  revision: 98a9b262a9fd15e88e019ead6a0ef20f2d7613fe
+  revision: 6c415a340e24280bfbfcc80329d83e9b060c1aa9
   specs:
     globalize (4.0.0.alpha.2)
       activemodel (>= 4.0.0)
@@ -18,9 +18,9 @@ GIT
 
 GIT
   remote: git://github.com/lucasmazza/ruby-stylus.git
-  revision: a933d8fb5b01d1832f346e103eae5231eb80e4d5
+  revision: 74b148d03222960ae4be1de037b4501fa3ef3d60
   specs:
-    stylus (1.0.0.beta)
+    stylus (1.0.0)
       execjs
       stylus-source
 
@@ -105,7 +105,7 @@ GEM
     mini_portile (0.5.2)
     minitest (4.7.5)
     multi_json (1.8.2)
-    mysql2 (0.3.13)
+    mysql2 (0.3.14)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     os (0.9.6)
@@ -173,7 +173,7 @@ GEM
     turbolinks (1.3.0)
       coffee-rails
     tzinfo (0.3.38)
-    uglifier (2.3.0)
+    uglifier (2.3.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     whenever (0.8.4)
