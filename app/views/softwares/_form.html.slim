@@ -63,14 +63,6 @@
           = label_tag "protocol_check_#{protocol.id}", protocol.title
 
   .field
-    = f.label :protocol, t('OS Support')
-    ul.checkboxes
-      - OperatingSystem.all.order(:title).each do |operating_system|
-        li.checkbox
-          = check_box_tag :operating_system_ids, operating_system.id, @software.operating_systems.include?(operating_system), :name => 'software[operating_system_ids][]', :id => "operating_system_check_#{operating_system.id}"
-          = label_tag "operating_system_check_#{operating_system.id}", operating_system.title
-
-  .field
     = f.label :category, "#{t('v.categories.plural')}*"
     - PlatformType.all.order(:title).each do |platform_type|
       .pipe

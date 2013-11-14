@@ -4,8 +4,6 @@ class Software < ActiveRecord::Base
   has_many :categories, through: :categorizations
   has_many :protocol_softwares
   has_many :protocols, through: :protocol_softwares
-  has_many :operating_system_softwares
-  has_many :operating_systems, through: :operating_system_softwares
 
   # translations and edit history
   translates :title, :description, :url, :source_url, :privacy_url, :tos_url, :license_url, :wikipedia_url, :notes, :versioning => true

@@ -1,11 +1,5 @@
 PrismBreak::Application.routes.draw do
-
-
   resources :platform_types
-
-  resources :operating_systems, path: 'os' do
-    get 'history', on: :member
-  end
 
   resources :protocols, path: 'pt' do
     get 'history', on: :member
