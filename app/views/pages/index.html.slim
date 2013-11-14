@@ -1,10 +1,12 @@
 .text-block
   p= raw t 'v.pages.index.intro'
 
-- @platforms.order(:title).each do |platform|
-  = link_to platform, class: 'bar' do
-    .label
-      = t 'verbs.browse'
-      '
-      strong= platform.title
-    .icon= fa_icon 'external-link-o'
+- @platform_types.order(:title).each do |platform_type|
+  .pipe= platform_type.title
+  - platform_type.platforms.order(:title).each do |platform|
+    = link_to platform, class: 'bar' do
+      .label
+        = t 'verbs.browse'
+        '
+        strong= platform.title
+      .icon= fa_icon 'angle-right'

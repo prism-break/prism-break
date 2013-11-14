@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def index
-    @platforms = Platform.all
+    @platform_types = PlatformType.all
     @page_title = 'home'
   end
 
