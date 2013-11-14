@@ -72,16 +72,20 @@
 
   .field
     = f.label :category, "#{t('v.categories.plural')}*"
-    - Platform.all.order(:title).each do |platform|
-      label= link_to platform.title, platform
-      ul.checkboxes
-        - platform.categories.order(:title).each do |category|
-          li.checkbox
-            - if @category.id == category.id
-              = check_box_tag :category_ids, category.id, @software.categories.include?(category), :name => 'software[category_ids][]', :id => "category_check_#{category.id}", checked: true
-            - else
-              = check_box_tag :category_ids, category.id, @software.categories.include?(category), :name => 'software[category_ids][]', :id => "category_check_#{category.id}"
-            = label_tag "category_check_#{category.id}", category.title
+    - PlatformType.all.order(:title).each do |platform_type|
+      .pipe
+        = platform_type.title
+        |  ####################################
+      - platform_type.platforms.order(:title).each do |platform|
+        label= link_to platform.title, platform
+        ul.checkboxes
+          - platform.categories.order(:title).each do |category|
+            li.checkbox
+              - if @category.id == category.id
+                = check_box_tag :category_ids, category.id, @software.categories.include?(category), :name => 'software[category_ids][]', :id => "category_check_#{category.id}", checked: true
+              - else
+                = check_box_tag :category_ids, category.id, @software.categories.include?(category), :name => 'software[category_ids][]', :id => "category_check_#{category.id}"
+              = label_tag "category_check_#{category.id}", category.title
 
   .pipe Actions
   = content_tag :button, type: 'submit', class: 'bar' do

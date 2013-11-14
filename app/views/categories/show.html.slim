@@ -10,12 +10,7 @@ p#notice = notice
   .pipe= t 'noun.Administration'
 
   = link_to new_category_software_path(@category), class: 'bar'
-    .label
-      = t 'v.softwares.new'
-      '
-      = t 'in'
-      '
-      = @category.title
+    .label= t 'v.softwares.new'
 
     .icon= fa_icon 'plus'
 

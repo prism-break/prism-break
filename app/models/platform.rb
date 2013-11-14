@@ -15,4 +15,21 @@ class Platform < ActiveRecord::Base
     :message => "requires 'https://' or 'http://'",
     :allow_blank => :true
 
+  def softwares
+    list = []
+    self.categories.each do |category|
+      list << category.softwares
+    end
+    list
+  end
+
+  def software_count
+    count = 0
+    self.categories.each do |category|
+      count += category.softwares.count
+    end
+    count
+  end
+
+
 end
