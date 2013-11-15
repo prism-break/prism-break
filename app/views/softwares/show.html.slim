@@ -13,7 +13,7 @@ p#notice = notice
 
 - if @software.protocols != []
   .section
-    .pipe= t 'Protocol Support'
+    .pipe= t 'Supported Protocols'
     - @software.protocols.order(:title).each do |protocol|
       = link_to protocol, class: 'bar' do
         .label= protocol.title

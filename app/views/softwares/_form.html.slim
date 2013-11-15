@@ -55,7 +55,7 @@
     
 
   .field
-    = f.label :protocol, t('Protocol Support')
+    = f.label :protocol, t('Supported Protocol')
     ul.checkboxes
       - Protocol.all.order(:title).each do |protocol|
         li.checkbox
