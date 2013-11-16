@@ -105,6 +105,7 @@
   "i18n-otr-desc": "התקן ואפשר את התוסף ב־Pidgin עבור צ׳אט מאובטח.", 
   "i18n-gajim-desc": "תוכנת צ׳אט קלה ומהירה עבור GNU/Linux ו- Windows&mdash;תמיכה ב-OTR בעזרת תוסף.", 
   "i18n-psiplus-desc": "תוכנת מסרים מידיים חוצת פלפורמות בדביל משתמשים מתקדמים עם תמיכה מובנת ב-OTR&#8206.", 
+  "i18n-kopete-desc": "Flexible and extensible multi-protocol IM client suitable for personal and enterprise use.",
   "i18n-adium-desc": "לקוח צ׳אט חופשי רב־פרוטוקולים עבור מערכת הפעלה OS X&#8206.", 
   "i18n-bitlbee-desc": "תוכנת gateway עבור צ׳אט IRC התומך במספר פרוטוקולים.", 
   "i18n-jappix-desc": "אפליקציית צ׳אט דפדפן עם תכונות רשת חברתית מתקדמות.", 
@@ -232,6 +233,7 @@
   "i18n-diskcryptor-desc": "High performance partition encryption software for Windows.", 
   "i18n-encfs-desc": "File based encryption tool with support for Linux, Mac OS and Windows.", 
   "i18n-geli-desc": "Disk encryption subsystem included in the FreeBSD operating system.", 
+  "i18n-ecryptfs-desc": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
   "i18n-file-encryption-note": "<p>While <strong>TrueCrypt</strong> is open source, it is developed in a closed fashion and may receive less review than a comparably openly deveoped project. That said, it is still probably the best option for file encryption on Windows and OS X.</p><p>If you&rsquo;re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>", 
 
   "i18n-mail-server": "Mail server", 
