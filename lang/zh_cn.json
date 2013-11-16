@@ -113,8 +113,6 @@
   "i18n-hexchat-desc": "Cross-platform IRC client.", 
   "i18n-weechat-desc": "Extensible and customisable chat client for IRC and XMPP/Jabber.", 
   "i18n-chatsecure-android-desc": "私密安全的OTR信息用于Android.", 
-  "i18n-surespot-desc": "免费、开源、端到端的加密短信", 
-  "i18n-textsecure-desc": "安全的 SMS/MMS 通信用于Android.", 
   "i18n-xabber-desc": "OTR加密的即时通讯用于Android.", 
   "i18n-chatsecure-desc": "加密的IM用于iOS", 
   "i18n-instant-messaging-note": "<p>&ldquo;Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.</p><p>The primary motivation behind the protocol was providing deniability for the conversation participants while keeping conversations confidential, like a private conversation in real life, or off the record in journalism sourcing.&rdquo;</p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p>&mdash; <a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>Wikipedia</a></p><p>Note that <strong>Pidgin</strong> stores your IM account passwords in <a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>plain text</a>. You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like <a href='http://www.truecrypt.org/'>TrueCrypt</a>, or (3) storing your Pidgin password securely with the Debian package <a href='https://code.google.com/p/pidgin-gnome-keyring/'>pidgin-gnome-keyring</a>.</p><p><strong>Pidgin with OTR and dbus enabled has a local security bug.</strong> See the <a href='https://developer.pidgin.im/ticket/14830'>upstream bug report</a> for more information and possible workarounds.</p><p><strong>TorChat</strong> is not related to nor sponsored by the official <a href='https://www.torproject.org/'>Tor Project</a>.</p>", 
@@ -123,7 +121,6 @@
   "i18n-jitsi-desc": "加密的文本语音聊天", 
   "i18n-linphone-desc": "加密的音视频客户端", 
   "i18n-mumble-desc": "加密的低延迟的语音聊天", 
-  "i18n-redphone-desc": "安全私密的电话呼叫用于Android.", 
   "i18n-csipsimple-desc": "免费、加密的VoIP用于Android.", 
   "i18n-video-voip-note": "<p><strong>Jitsi</strong> is a drop-in, encrypted replacement for almost all the tasks Skype is used for.</p><p><strong>Mumble</strong> an open source voice chat client in the style of Ventrilo and TeamSpeak.</p><p><a href='http://www.webrtc.org/'>WebRTC</a> is an upcoming, promising browser to browser communications API.", 
 
