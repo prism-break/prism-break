@@ -37,7 +37,7 @@
   "i18n-fdroid-desc": "Freier und quelloffener Android-Appstore als Alternative zu Google Play.",
   "i18n-android-note": "<p>Falls <strong>Replicant</strong> durch dein <a href='http://replicant.us/supported-phones/'>Android Smartphone oder Tablet unterstützt wird</a>, solltest Du es definitiv anstelle von Cyanogenmod benutzen, da es komplett frei ist und ohne propertiären System-Quellcode läuft.</p><p><strong>CyanogenMod</strong> Lizenzierung: CyanogenMod enthält immer noch verschiedenen gerätespezifischen Code, welcher Stück für Stück quelloffen gemacht wird. &mdash; <a href=\"https://de.wikipedia.org/wiki/CyanogenMod#Lizenzierungskontroverse\">Mehr dazu</a></p><p>Google Apps für Android (Gapps) sind die propertiären Anwendungen von Google, welche vorinstalliert mit fast allen Android-Geräten mitgeliefert werden. Nach dem Flashen Deiner Firmware mit entweder <strong>Cyanogenmod</strong> oder <strong>Replicant</strong>, schütze deine Daten durch das Nichtinstallieren von Google Apps auf deinem Smartphone oder Tablet.</p><p>Deinstalliere Gapps von allen Betriebssystemen mithilfe <a href='https://cidofficial.neocities.org/010.html'>dieses Tutorials</a> von ciddaemon.</p><p>Wir sind der Ansicht, dass ein großer Zugewinn an Privatssphäre und Sicherheit durch die Installation einer alternativen, quell-offenen Android-Variante erreicht werden kann. Allerdings ist es möglich, dass die proprietäre Hardware Deines Gerätes weiterhin zu gewissen Privatsphärebrüchen fähig ist.</p>",   "i18n-mobile-os": "iOS &amp; WP",
   
-   "i18n-mobile-os": "iOS &amp; WP",
+  "i18n-mobile-os": "iOS &amp; WP",
   "i18n-mobile-os-no-alt-title": "Keine Alternative",
   "i18n-mobile-os-no-alt-desc": "Ersetze das Gerät, diese Betriebssysteme haben keine freien Alternativen.",
   "i18n-mobile-os-note": "<p>iOS und WP sind propertiäre Betriebssysteme, deren Quellcode nicht zur Bearbeitung Dritter verfügbar ist. Du solltest weder Deine Verbindungen noch Deine Daten einem Gerät anvertrauen, wessen Code nicht offen ist.</p>",
@@ -170,6 +170,7 @@
   "i18n-cryptocoins-title": "Alternative Kryptowährungen.",
   "i18n-cryptocoins-desc": "Liste der alternativen, verschlüsselten digitalen Währungen.",
   "i18n-online-transactions-note": "<p>Lerne mehr über <strong>BitCoin</strong> und mache Dich mit deiner ersten kostenlosen Brieftasche auf <a href='https://www.weusecoins.com/de/'>We Use Coins (Deutsch)</a> vertraut.</p>",
+  
   "i18n-digital-distribution": "Digitale Vertriebsplattform",
   "i18n-desurium-desc": "Freier, quelloffener Client für die digitale Vertriebsplattform desura.",
   "i18n-digital-distribution-note": "<p><strong>Desurium</strong> ist nur der Client. Du wirst dennoch von dem proprietären Dienst <a href='http://www.desura.com'>desura</a> abhängig sein, bzw. diesem vertrauen müssen.</p>",
@@ -280,6 +281,7 @@
   "i18n-usa-hosted": "US-Betreiber",
   "i18n-paid-service": "Bezahldienst",
   "i18n-paid-software": "Bezahlsoftware",
+ 
   "i18n-newbies-choice": "für Einsteiger",
   "i18n-editors-choice": "Redaktionsempfehlung",
   "i18n-most-stable": "sehr stabil",
@@ -287,15 +289,18 @@
   "i18n-most-advanced": "mit den fortschrittlichsten Features",
   "i18n-most-paranoid": "für Paranoiker",
   "i18n-friendly-defaults": "Nutzer-freundliche Standardeinstellungen",
+ 
   "i18n-fsf-definition-title": "Diese Website verwendet die <strong>Free Software Foundation</strong>-Definition für freie Software.",
   "i18n-fsf-quote": "&ldquo;Freie Software&rdquo; ist Software, die die Freiheit und Gemeinschaft der Nutzer respektiert. Ganz allgemein gesagt, haben <strong>Nutzer die Freiheit, Software auszuführen, zu kopieren, zu verbreiten, zu untersuchen, zu ändern und zu verbessern.</strong> Mit diesen Freiheiten kontrollieren die Nutzer (sowohl einzeln als auch im kollektiv) das Programm und was es für sie ausführt.",
+ 
   "i18n-eff-title": "Trete in Aktion gegen PRISM im <strong>Electronic Frontier Foundation</strong> Action Center.",
   "i18n-eff-quote-1": "<strong>MASSIVE ÜBERWACHUNG ENTLARVT</strong>",
   "i18n-eff-quote-2": "Kürzliche Berichte des <em>Guardian</em> und der <em>Washington Post</em> bestätigen geheime Spionageprogramme im Telefon- und Internetverkehr. Es ist an der Zeit mit den Spionageprogrammen abzurechnen — und die verfassungswidrige Überwachung zu beenden.",
+  
   "i18n-more": "mehr &hellip;",
   "i18n-the": " Die",
-  "i18n-media-title": "Erwähnungen in den Medien:",
   
+  "i18n-media-title": "Erwähnungen in den Medien:",
   "i18n-catalan": "Katalanisch",
   "i18n-german": "Deutsch",
   "i18n-english": "Englisch",
@@ -315,9 +320,12 @@
   "i18n-contribute": "Hilf mit",
   "i18n-license": "Lizenz",
   "i18n-changelog": "Changelog",
+  
   "i18n-disclaimer": "Hinweis: Es gibt keine 100%ige Garantie, dass die empfohlene Software auf dieser Seite Deine Kommunikation gegen Überwachungsstaaten abschirmt. Bitte informiere Dich grundlegend, bevor Du dieser Software brisante Informationen anvertraust.",
+  
   "i18n-privacy-policy": "Datenschutzrichtlinie",
   "i18n-privacy-policy-content": "<p>PRISM Break benutzt Piwik analytics um den Verkehr auf dieser Seite zu verfolgen. Piwik nimmt die ungefähre geografische Lage, den Browser und das Betriebssystem der Besucher sowie deren Klicks auf der Seite auf. Dies hilft uns den Wert unseres Inhalts zu beurteilen und zu verbessern.</p><p>Piwik sichert die Privatsphäre durch Anonymisierung der IP-Adressen der Nutzer. Das bedeutet, das wir keine persönlich indentifizierbare Informationen über Dich speichern, obwohl Dein Besuch einen Eintrag erstellt, dass unsere Seite von jemandem besucht wurde. Du möchtest vielleicht <strong><a href='http://prism-break.org/analytics'>die anonymisierten Analysen hier einsehen.</a></strong></p><p>Piwik wird ebenso die Nicht-verfolgen-Einstellung, eingestellt in manchen Browsern, respektieren, also falls Du diese Einstellung vorgenommen hast, wird Piwik Deinen Besuch ignorieren.</p><p>Falls Du Nicht-verfolgen nicht benutzt, aber trotzdem nicht verfolgt werden möchtest, trage Dich bitte aus den Statistiken durch das Abwählen der Box weiter unten aus. Das System wird ein Cookie setzen, welches Piwik vermittelt, Deinen Computer komplett zu ignorieren.</p>",
+ 
   "i18n-donate-title": "Unterstütze das PRISM Break-Projekt durch eine Bitcoin-Spende.",
   "i18n-donate-content": "<p><a href='https://prism-break.org/'>PRISM Break</a> wurde am 10. Juni 2013 gestartet. Es folgt den Enthüllungen von Edward Snowden über die Massenüberwachung der NSA. Seit dem Start haben  fast 750'000 Besucher aus der ganzen welt sich hier über Privatssphäre-schützende Software informiert.</p><p>Die erste Version von prism-break.org wurde in nur 2 Tagen gebaut und veröffentlicht. Allerdings nimmt seitdem die Weiterentwicklung und der Betrieb einen Großteil meiner Zeit in Anspruch. Seit dem 3. August 2013 habe ich über Tausend Änderungen vorgenommen und hunderte Stunden Recherchearbeit investiert, um auf PRISM Break die besten Überwachungsbekämpfungsmethoden auflisten zu können.</p><p>Da so viele Menschen prism-break.org besuchen, würde ich diesem Projekt gerne meine gesamte Zeit und Aufmerksamkeit widmen können, um mögliche Sicherheitsprobleme zu lösen, die Liste zu vervollständigen und die Seite benutzerfreundlicher zu gestalten. Allerdings muss ich&mdash;wie alle anderen auch&mdash; Miete und Essen bezahlen. Da dieses Projekt an sich kein Geld abwirft, kannst Du an diesem Punkt helfen.</p><p>wenn Du PRISM Break unterstützen, und die Weiterentwicklung finanzieren, möchtest, denke bitte über eine Bitcoin-Spende nach. Ich schlage ein Minimum von 0.05 BTC vor, aber jeder Betrag ist gern gesehen. Wen Du 0.5 BTC oder mehr spendest, und einen Namen dabei angibts, werde ich dich hier auf PRISM Break als Sponsor auflisten. Die Spendenadresse lautet:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>Vielen dank für Deine Unterstützung.</p><p>Peng Zhong<br />Entwickler von PRISM Break</p><p>P.S.: Die Entwickler der großartigen Softwareprojekte, die auf <a href='https://prism-break.org'>PRISM Break</a> empfohlen werden, sind auch für jede Unterstützung dankbar, die Du aufbringen kannst. Wenn Dir ihre Software gefällt, bitte denke auch über Spenden an sie nach, damit sie ihre Entwicklungsarbeit finanzieren können.</p>"
 }
