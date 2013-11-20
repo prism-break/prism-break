@@ -1,7 +1,7 @@
-- @categories.roots.each do |category|
+- @categories.each do |category|
   = link_to category, class: 'bar' do
     .label
-      = t 'verbs.browse'
+      = category.platform.title
       '
       strong= category.title
     .icon= fa_icon 'angle-right'
