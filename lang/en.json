@@ -4,7 +4,6 @@
   "i18n-intro": "<strong>Opt out of global data surveillance programs like <a href='https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29'>PRISM</a>, <a href='https://en.wikipedia.org/wiki/XKeyscore'>XKeyscore</a> and <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop governments from spying on you by encrypting your communications and ending your reliance on proprietary services.",
 
   "i18n-menu": "Menu",
-  "i18n-menu": "Menu",
   "i18n-proprietary": "Proprietary",
   "i18n-free-alternative": "Free alternative",
   "i18n-notes": "Notes",
@@ -36,7 +35,7 @@
   "i18n-replicant-desc": "Fully free Android distribution based on CyanogenMod.",
   "i18n-firefoxos-desc": "Free and open source operating system for Android-compatible devices.",
   "i18n-fdroid-desc": "Free and open source alternative to the Google Play app store for Android.",
-  "i18n-android-note": "<p>If <strong>Replicant</strong> supports your <a href='http://replicant.us/supported-phones/'>Android device</a>, you should definitely use it instead of Cyanogenmod, as Replicant is fully free and runs without relying on proprietary system code.</p><p><strong>CyanogenMod</strong> licensing:</p><blockquote><p>&ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></cite></footer></blockquote><p>Google Apps for Android (Gapps) are the proprietary applications by Google that come pre-installed with most Android devices. After flashing your firmware with either <strong>Cyanogenmod</strong> or <strong>Replicant</strong>, safeguard your data by not re-installing Google Apps on your phone.</p><p>Uninstall Gapps from any firmware with <a href='https://cidofficial.neocities.org/010.html'>this guide</a> by ciddaemon.</p><p>We believe that replacing your Android device's OS with open source software can greatly improve the privacy and security of your device. However, it is possible that your device's closed-source hardware will still remain capable of certain privacy violations.</p>",
+  "i18n-android-note": "<p>If <strong>Replicant</strong> supports your <a href='http://replicant.us/supported-phones/'>Android device</a>, you should definitely use it instead of CyanogenMod, as Replicant is fully free and runs without relying on proprietary system code.</p><p><strong>CyanogenMod</strong> licensing:</p><blockquote><p>&ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></cite></footer></blockquote><p>Google Apps (Gapps) are the proprietary applications by Google that come pre-installed with most Android devices. <a href='https://cidofficial.neocities.org/010.html'>Click here</a> to know more about Gapps and how to remove them. Anyway, remember that the best solution is flashing <strong>Replicant</strong> or <strong>CyanogenMod</strong>. We believe that replacing Android with open source software can improve the privacy, security and performance of your device. However, it is possible that your device's closed-source hardware will still remain capable of certain privacy violations.</p>",
 
   "i18n-mobile-os": "iOS &amp; WP",
   "i18n-mobile-os-no-alt-title": "No alternative",
@@ -47,7 +46,7 @@
   "i18n-torbrowser-desc": "Encrypted, anonymous web browsing powered by the Tor network.",
   "i18n-jondonym-desc": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.",
   "i18n-firefox-desc": "Fast, flexible and secure web browser with a vibrant add-on ecosystem.",
-  "i18n-orbot-desc": "The features and funtionality of Tor for Android.",
+  "i18n-orbot-desc": "The features and functionality of Tor for Android.",
   "i18n-onionbrowser-desc": "Surf the web through the Tor network with this open source browser for iOS.",
   "i18n-web-browser-note": "<p>Try to use <strong>Tor Browser Bundle</strong> (TBB) for all of your web surfing. It will offer you far better anonymity than any other browser. Make sure to <a href='https://www.torproject.org/docs/faq.html.en'>learn the basics of Tor</a> before using it. If the site you want to visit will not work in the TBB, try Firefox intead, but realize these browsers do not anonymize your IP by default.</p><p>TBB notes: Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor. Signing into HTTP websites can result in your ID being captured by a Tor exit node.</p><p><strong>Firefox</strong> notes: This browser uses Google search by default: replace it with a more <a href='#web-search'>private alternative</a>. Another debranded alternative to Firefox is <a href='http://www.geticeweasel.org/'>Iceweasel</a>, a browser for Debian-based distributions.</p><p>Why are Chromium, SRWare Iron, et al. not recommended on PRISM Break? <a href='https://github.com/nylira/prism-break/issues/169'>More info here.</a></p><p><strong>Warning for mobile devices &amp; Tor:</strong> Websites using HTML5 &lt;video&gt; tags will leak &lt;video&gt;-related DNS queries and data transfer outside of Tor.</p>",
 
@@ -86,7 +85,7 @@
   "i18n-email-client": "Email client",
   "i18n-thunderbird-desc": "Multi-platform email application with mail encryption through the Enigmail add-on.",
   "i18n-clawsmail-desc": "Fast, lightweight email application for multiple platforms with built-in PGP support.",
-  "i18n-evolution-desc": "Email, address book, and calendar application for the GNOME desktop with PGP support..",
+  "i18n-evolution-desc": "Email, address book, and calendar application for the GNOME desktop with PGP support.",
   "i18n-icedove-desc": "Libre edition of Mozilla Thunderbird for Debian GNU/Linux&mdash;mail encryption via Enigmail.",
   "i18n-kontact-desc": "Email, address books, calendars, and more for the K Desktop Environment (KDE) with PGP support.",
   "i18n-sylpheed-desc": "Lightweight, user-friendly email application for multiple platforms with built-in PGP support.",
@@ -104,7 +103,7 @@
   "i18n-instant-messaging": "Instant messaging",
   "i18n-pidgin-desc": "Free universal instant messaging client.",
   "i18n-otr-desc": "Install and enable this plugin in Pidgin for encrypted chat.",
-   "i18n-gajim-desc": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.",
+  "i18n-gajim-desc": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.",
   "i18n-psiplus-desc": "Multi-platform IM client for power users with built-in OTR support.",
   "i18n-kopete-desc": "Flexible and extensible multi-protocol IM client suitable for personal and enterprise use.",
   "i18n-adium-desc": "Multiprotocol chat client for Apple OS X with OTR features.",
@@ -136,7 +135,7 @@
   "i18n-salutatoi-desc": "Multi-frontend, multipurpose communication tool.",
   "i18n-tent-desc": "Protocol for realtime decentralized communication and personal data storage.",
   "i18n-protocol": "Protocol",
-  "i18n-social-networking-note": "<p>If you have system administration knowledge, please strongly consider running an instance of <strong>pump.io</strong> (or something else) for your friends, family, or favorite community. Many of them would be willing and grateful to escape Facebook if you provide them a way out.</p><p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>",
+  "i18n-social-networking-note": "<p>If you have system administration knowledge, please strongly consider running an instance of <strong>pump.io</strong> (or something else) for your friends, family, or favorite community. Many of them would be willing and grateful to escape Facebook if you provide them a way out.</p><p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community runs a <strong>pump.io</strong> software platform.</p>",
 
   "i18n-cloud-storage": "Cloud storage",
   "i18n-gitannex-desc": "Synchronize folders on your computers and drives.",
@@ -174,7 +173,7 @@
 
   "i18n-digital-distribution": "Digital distribution",
   "i18n-desurium-desc": "Free open source client for the Desura distribution service.",
-  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> is only the client. You will still have to trust/depend on the proprietary <a href='http://www.desura.com'>desura service</a>.</p>",
+  "i18n-digital-distribution-note": "<p><strong>Desurium</strong> is only the client. You will still have to trust/depend on the proprietary <a href='http://www.desura.com'>Desura service</a>.</p>",
 
   "i18n-vpn": "Virtual Private Network (VPN)",
   "i18n-autisticivpn-desc": "Secure personal VPN service provided by Autistici/Inventati.",
@@ -212,7 +211,6 @@
   "i18n-commotion-desc": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.",
   "i18n-meshnet-project-desc": "A decentralized alternative to the internet.",
   "i18n-freifunk-desc": "A non-commercial open grassroots initiative to support free radio networks around the world.",
-  "i18n-guifi-desc": "Open, free and neutral wireless network for everyone.",
   "i18n-guifi-desc": "Open, free and neutral wireless network for everyone.",
   "i18n-byzantium-desc": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
   "i18n-librevpn-desc": "A free network that runs over other networks.",
