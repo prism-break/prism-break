@@ -1,8 +1,6 @@
 PrismBreak::Application.routes.draw do
-  resources :platform_types
-
-  resources :protocols do
-    get 'history', on: :member
+  resources :platform_types do
+    resources :platforms
   end
 
   resources :platforms do
@@ -13,6 +11,10 @@ PrismBreak::Application.routes.draw do
     resources :softwares, path: 'software' do
       get 'history', on: :member
     end
+  end
+
+  resources :protocols do
+    get 'history', on: :member
   end
 
   get 'media', to: 'pages#media'

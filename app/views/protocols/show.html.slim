@@ -11,9 +11,14 @@ p#notice = notice
     = @protocol.title
     '
     = t 'Software Support'
-  - @protocol.softwares.each do |software|
+  - @protocol.softwares.order(:title).each do |software|
     = render 'softwares/card', software: software
 
+.pipe= t 'Administration'
 = link_to edit_protocol_path(@protocol), class: 'bar' do
   .label= t('v.protocols.edit')
   .icon= fa_icon 'edit'
+
+= link_to @protocol, :confirm => 'Are you sure?', :method => :delete, class: 'bar' do
+  .label= t 'v.protocols.destroy'
+  .icon= fa_icon 'trash-o'

@@ -2,13 +2,24 @@
   p= raw t 'v.pages.index.intro'
 
 - @platform_types.order(:title).each do |platform_type|
-  .pipe= platform_type.title
+  = link_to platform_type.title, platform_type, class: 'pipe'
   - platform_type.platforms.order(:title).each do |platform|
     = link_to platform, class: 'bar' do
       .label
-        = t 'verbs.browse'
+        = t 'Browse'
         '
         strong= platform.title
         '
         span.light= "(#{platform.software_count})"
       .icon= fa_icon 'angle-right'
+
+.pipe= t 'Administration'
+= link_to new_platform_path, class: 'bar' do
+  .label
+    = t 'v.platforms.new'
+  .icon= fa_icon 'plus'
+
+= link_to new_platform_type_path, class: 'bar' do
+  .label
+    = t 'v.platform_types.new'
+  .icon= fa_icon 'plus'

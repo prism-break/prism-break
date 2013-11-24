@@ -1,19 +1,22 @@
-h1 Listing platform_types
+- @platform_types.order(:title).each do |platform_type|
+  = link_to platform_type.title, platform_type, class: 'pipe'
+  - platform_type.platforms.order(:title).each do |platform|
+    = link_to platform, class: 'bar' do
+      .label
+        = t 'verbs.browse'
+        '
+        strong= platform.title
+        '
+        span.light= "(#{platform.software_count})"
+      .icon= fa_icon 'angle-right'
 
-table
-  tr
-    th Title
-    th
-    th
-    th
+.pipe= t 'Administration'
+= link_to new_category_path, class: 'bar' do
+  .label
+    = t 'v.platforms.new'
+  .icon= fa_icon 'plus'
 
-  - @platform_types.each do |platform_type|
-    tr
-      td = platform_type.title
-      td = link_to 'Show', platform_type
-      td = link_to 'Edit', edit_platform_type_path(platform_type)
-      td = link_to 'Destroy', platform_type, :confirm => 'Are you sure?', :method => :delete
-
-br
-
-= link_to 'New Platform type', new_platform_type_path
+= link_to new_platform_type_path, class: 'bar' do
+  .label
+    = t 'v.platform_types.new'
+  .icon= fa_icon 'plus'

@@ -16,12 +16,15 @@
     = f.label t 'Wikipedia URL'
     = f.text_field :wikipedia_url
   .field
-    = f.label t 'Platform Type'
+    = f.label t('Platform Type')
     ul.checkboxes
-      - @platform_types.order(:title).each do |type| 
+      - @platform_types.order(:title).each do |platform_type| 
         li.checkbox
-          = f.radio_button :platform_type_id, type.id, id: "platform_check_#{type.id}"
-          = f.label "check_#{type.id}", type.title
+          - if platform_type.id == params[:platform_type_id].to_i
+            = f.radio_button :platform_type_id, platform_type.id, id: "category_check_#{platform_type.id}", checked: true
+          - else
+            = f.radio_button :platform_type_id, platform_type.id, id: "category_check_#{platform_type.id}"
+          = f.label "check_#{platform_type.id}", platform_type.title
 
   .pipe Actions
   = content_tag :button, type: 'submit', class: 'bar' do

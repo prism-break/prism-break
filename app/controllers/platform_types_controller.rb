@@ -5,11 +5,15 @@ class PlatformTypesController < ApplicationController
   # GET /platform_types.json
   def index
     @platform_types = PlatformType.all
+    @parent_path = root_path
+    @page_title = t 'v.platform_types.plural'
   end
 
   # GET /platform_types/1
   # GET /platform_types/1.json
   def show
+    @parent_path = platform_types_path
+    @page_title = @platform_type.title
   end
 
   # GET /platform_types/new
@@ -19,6 +23,8 @@ class PlatformTypesController < ApplicationController
 
   # GET /platform_types/1/edit
   def edit
+    @parent_path = @platform_type
+    @page_title =  t 'v.platform_types.edit'
   end
 
   # POST /platform_types

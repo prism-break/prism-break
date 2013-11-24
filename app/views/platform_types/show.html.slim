@@ -1,9 +1,31 @@
 p#notice = notice
 
-p
-  strong Title:
-  = @platform_type.title
+- @platform_type.platforms.order(:title).each do |platform|
+  = link_to platform, class: 'bar' do
+    .label
+      = t 'verbs.browse'
+      '
+      strong= platform.title
+      '
+      span.light= "(#{platform.software_count})"
+    .icon= fa_icon 'angle-right'
 
-= link_to 'Edit', edit_platform_type_path(@platform_type)
-'|
-= link_to 'Back', platform_types_path
+.pipe= t 'Administration'
+= link_to new_platform_type_platform_path(@platform_type), class: 'bar' do
+  .label
+    = t 'v.platforms.new'
+    '
+    = t 'in'
+    '
+    = @platform_type.title
+  .icon= fa_icon 'plus'
+
+
+= link_to edit_platform_type_path(@platform_type), class: 'bar' do
+  .label
+    = t 'v.platform_types.edit'
+  .icon= fa_icon 'edit'
+
+= link_to @platform_type, :confirm => 'Are you sure?', :method => :delete, class: 'bar' do
+  .label= t 'v.platform_types.destroy'
+  .icon= fa_icon 'trash-o'

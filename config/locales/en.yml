@@ -5,6 +5,7 @@ en:
 
   'Administration': Administration
   All: All
+  Actions: Actions
   'Are you sure?': Are you sure?
   Changelog: Changelog
   Contribute: Contribute
@@ -21,7 +22,9 @@ en:
   'Operating System': &operating_system Operating System
   'Operating Systems': &operating_systems Operating Systems
   'Official Website': Official Website
-  'Platform Type': Platform Type
+  Platform: Platform
+  'Platform Type': &platform_type Platform Type
+  'Platform Types': &platform_types Platform Types
   'Privacy Policy': Privacy Policy
   Save: Save
   'Security Notes': &security_notes Security Notes
@@ -71,8 +74,8 @@ en:
       edit: Edit Operating System
       new: New Operating System
     platform_types:
-      singular: Platform Type
-      plural: Platform Types
+      singular: *platform_type
+      plural: *platform_types
       all: All Platform Types
       browse: Browse by Platform Type
       destroy: Destroy Platform Type
