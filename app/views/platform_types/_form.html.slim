@@ -9,4 +9,8 @@
   .field
     = f.label :title
     = f.text_field :title
-  .actions = f.submit 'Save'
+
+  .pipe Actions
+  = content_tag :button, type: 'submit', class: 'bar' do
+    .label= t 'verb.Save'
+    .icon= fa_icon 'save'

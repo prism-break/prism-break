@@ -19,6 +19,8 @@ class PlatformTypesController < ApplicationController
   # GET /platform_types/new
   def new
     @platform_type = PlatformType.new
+    @parent_path = root_path
+    @page_title = t 'v.platform_types.new'
   end
 
   # GET /platform_types/1/edit

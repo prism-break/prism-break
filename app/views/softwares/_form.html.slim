@@ -67,7 +67,7 @@
     - PlatformType.all.order(:title).each do |platform_type|
       .pipe
         = platform_type.title
-        |  ####################################
+        |  #################################
       - platform_type.platforms.order(:title).each do |platform|
         label= link_to platform.title, platform
         ul.checkboxes
