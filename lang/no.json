@@ -160,13 +160,14 @@
   "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting", 
   "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.", 
   "i18n-noblogs-desc": "Bloggpublisering basert på WordPresspwigo", 
-
   "i18n-gnumediagoblin-desc": "Desentralisert publiseringsplattform.", 
   "i18n-piwigo-desc": "Fritt fotogalleri.", 
   "i18n-wordpress-desc": "Fritt CMS for blogg, hjemmeside og lignende.", 
   "i18n-zenphoto-desc": "Fritt CMS for hjemmesider.", 
-
-  "i18n-media-publishing-note": "<p>For å kunne garantere personvern og sikkerhet er det helt klart beste at du setter opp disse programmene selv, eller at du får noen som du stoler på til å gjøre det. Bruker du wordpress.com eller lignende har du ingen garanti for noe som helst.</p>", 
+  "i18n-imgbi-desc": "Image hosting with in-browser AES-256 encryption.",
+  "i18n-imgbi-self-desc": "You can also run self-hosted instances of img.bi.",
+  "i18n-media-publishing-note": "<p>For å kunne garantere personvern og sikkerhet er det helt klart beste at du setter opp disse programmene selv, eller at du får noen som du stoler på til å gjøre det. Bruker du wordpress.com eller lignende har du ingen garanti for noe som helst.</p><p><strong>img.bi</strong> also accessible through <a href='#anon-network'>Tor Hidden Service</a> (<a href='http://imgbifwwqoixh7te.onion/'>imgbifwwqoixh7te.onion</a>) and as <a href='#anon-network'>Eepsite</a> (<a href='http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA'>imgbi.i2p</a>).</p>", 
+  
   "i18n-online-transactions": "Netthandel", 
   "i18n-bitcoin-desc": "Digital valuta basert på P2P, ikke sentralbank-kontroll.", 
   "i18n-cryptocoins-title": "Alternative cryptocurrencies.", 
