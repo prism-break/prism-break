@@ -150,11 +150,11 @@
   "i18n-scheduling": "Zaman çizelgesi",
   "i18n-dudle-desc": "A free securely-hosted online poll, with a privacy-enhanced version.",
 
-  "i18n-office-productivity": "Office productivity",
+  "i18n-online-office-suite": "Online office suite",
   "i18n-protectedtext-desc": "Free online encrypted notepad.",
   "i18n-etherpad-desc": "Bireysel sunucuda, anlık belge işbirliği.", 
   "i18n-ethercalc-desc": "Çok kullanıcılı hesap tablosu uygulaması.", 
-  "i18n-office-productivity-note": "<p><strong>Etherpad</strong> projesi <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>etherpad çalıştıran siteler listesi</a> barındırıyor. Lütfen bu servisler arasından yalnızca SSL kullananları seçin, ve onlara verinizle güvenmeden önce geçmişlerini araştırın.</p><p><a href='#email-service'><strong>Riseup</strong></a> aynı zamanda e-posta, XMPP, ve sohbet servisleri sunmaktadır ve her biri <a href='#meshnet'>Tor Saklı Sunucu</a> adreslerinden erişilebilir. Bu adreslerin listesi <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>burada mevcuttur</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>", 
+  "i18n-online-office-suite-note": "<p><strong>Etherpad</strong> projesi <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>etherpad çalıştıran siteler listesi</a> barındırıyor. Lütfen bu servisler arasından yalnızca SSL kullananları seçin, ve onlara verinizle güvenmeden önce geçmişlerini araştırın.</p><p><a href='#email-service'><strong>Riseup</strong></a> aynı zamanda e-posta, XMPP, ve sohbet servisleri sunmaktadır ve her biri <a href='#meshnet'>Tor Saklı Sunucu</a> adreslerinden erişilebilir. Bu adreslerin listesi <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>burada mevcuttur</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>", 
 
   "i18n-media-publishing": "Medya yayını", 
   "i18n-mediacrush-desc": "Gizlilik-önde hızlı medya (görsel, ses, video) hosting", 

@@ -134,11 +134,11 @@
   "i18n-wordpress-desc": "Besplatan CMS za sajt/blog.",
   "i18n-zenphoto-desc": "Besplatan CMS za objavljivanje medija.",
 
-  "i18n-office-productivity": "Office productivity",
+  "i18n-online-office-suite": "Online office suite",
   "i18n-protectedtext-desc": "Free online encrypted notepad.",
   "i18n-ethercalc-desc": "Višekorisnički kalkulacioni server.",
   "i18n-etherpad-desc": "Koolaboracija dokumentima u realnom vremenu.",
-  "i18n-office-productivity-note": "<p>The <strong>etherpad</strong> project maintains a list of <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites that run etherpad services</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> also offers email, XMPP, and chat services, all of which are accessible through <a href='#meshnet'>Tor Hidden Service</a> addresses. The list of these addresses is <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>available here</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
+  "i18n-online-office-suite-note": "<p>The <strong>etherpad</strong> project maintains a list of <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites that run etherpad services</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> also offers email, XMPP, and chat services, all of which are accessible through <a href='#meshnet'>Tor Hidden Service</a> addresses. The list of these addresses is <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>available here</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
 
   "i18n-web-analytics": "Internet analize",
   "i18n-piwik-desc": "Otvorenog koda, lično hostovana platforma za internet analizu.",
