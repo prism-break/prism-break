@@ -160,13 +160,14 @@
   "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting", 
   "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.", 
   "i18n-noblogs-desc": "Blog publicatie platform gebaseerd op WordPress, door autistici.org.", 
-
   "i18n-gnumediagoblin-desc": "Decentraal media publicatie platform.", 
   "i18n-piwigo-desc": "Vrij fotogalerij platform.", 
   "i18n-wordpress-desc": "Vrije website/blog CMS.", 
   "i18n-zenphoto-desc": "Vrije media website CMS.", 
-
-  "i18n-media-publishing-note": "<p><strong>Zelf hosten</strong> is belangrijk. Je blog hosten op WordPress.com is niet beter voor de veiligheid van je data dan op Blogger of Tumblr.</p><p>Waarschuwing: Gebruik van avatars in WordPress activeert Gravatar, welke je e-mail adres naar gravatar.com zal zenden. Avatars zijn standaard geactiveerd en kunnen worden gedeactiveerd onder &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.", 
+  "i18n-imgbi-desc": "Image hosting with in-browser AES-256 encryption.",
+  "i18n-imgbi-self-desc": "You can also run self-hosted instances of img.bi.",
+  "i18n-media-publishing-note": "<p><strong>Zelf hosten</strong> is belangrijk. Je blog hosten op WordPress.com is niet beter voor de veiligheid van je data dan op Blogger of Tumblr.</p><p><strong>img.bi</strong> also accessible through <a href='#anon-network'>Tor Hidden Service</a> (<a href='http://imgbifwwqoixh7te.onion/'>imgbifwwqoixh7te.onion</a>) and as <a href='#anon-network'>Eepsite</a> (<a href='http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA'>imgbi.i2p</a>).</p><p>Waarschuwing: Gebruik van avatars in WordPress activeert Gravatar, welke je e-mail adres naar gravatar.com zal zenden. Avatars zijn standaard geactiveerd en kunnen worden gedeactiveerd onder &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.", 
+  
   "i18n-online-transactions": "Online transacties", 
   "i18n-bitcoin-desc": "P2P digitale munteenheid zonder centrale autoriteit.", 
   "i18n-cryptocoins-title": "Alternatieve versleutelde valuta", 

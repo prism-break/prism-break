@@ -160,13 +160,14 @@
   "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting", 
   "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.", 
   "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.", 
-
   "i18n-gnumediagoblin-desc": "去中心化的媒体发布平台", 
   "i18n-piwigo-desc": "自行架设的照片库平台", 
   "i18n-wordpress-desc": "自行架设的网站发布平台", 
   "i18n-zenphoto-desc": "自行架设的媒体管理系统", 
-
-  "i18n-media-publishing-note": "<p><strong>可以自行架设</strong>是很重要的。把你的博客架设在 WordPress.com 数据的安全性没有比放在 Blogger 或者 Tumblr好。</p>", 
+  "i18n-imgbi-desc": "Image hosting with in-browser AES-256 encryption.",
+  "i18n-imgbi-self-desc": "You can also run self-hosted instances of img.bi.",
+  "i18n-media-publishing-note": "<p><strong>可以自行架设</strong>是很重要的。把你的博客架设在 WordPress.com 数据的安全性没有比放在 Blogger 或者 Tumblr好。</p><p><strong>img.bi</strong> also accessible through <a href='#anon-network'>Tor Hidden Service</a> (<a href='http://imgbifwwqoixh7te.onion/'>imgbifwwqoixh7te.onion</a>) and as <a href='#anon-network'>Eepsite</a> (<a href='http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA'>imgbi.i2p</a>).</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.</p><p>Warning: MediaCrush includes <strong>Google Analytics</strong> and <strong>Google Adsense</strong> if you do not have Do Not Track enabled.</p>", 
+  
   "i18n-online-transactions": "在线交易", 
   "i18n-bitcoin-desc": "没有中央机构的P2P数字货币", 
   "i18n-cryptocoins-title": "另外的加密货币", 

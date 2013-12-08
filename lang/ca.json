@@ -157,16 +157,17 @@
   "i18n-office-productivity-note": "<p>The <strong>etherpad</strong> project maintains a list of <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites that run etherpad services</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> also offers email, XMPP, and chat services, all of which are accessible through <a href='#meshnet'>Tor Hidden Service</a> addresses. The list of these addresses is <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>available here</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
 
   "i18n-media-publishing": "Publicació de Mèdia", 
-  "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting", 
-  "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.", 
-  "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.", 
-
+  "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting",
+  "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.",
+  "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.",
   "i18n-gnumediagoblin-desc": "Plataforma descentralitzada de publicació de mèdia.", 
   "i18n-piwigo-desc": "Plataforma per allotjament propi per a àlbums fotogràfics.", 
   "i18n-wordpress-desc": "Motor web/blog CMS lliure i gratuït.", 
   "i18n-zenphoto-desc": "Fotoblog CMS lliure i gratuït.", 
+  "i18n-imgbi-desc": "Image hosting with in-browser AES-256 encryption.",
+  "i18n-imgbi-self-desc": "You can also run self-hosted instances of img.bi.",
+  "i18n-media-publishing-note": "<p><strong>El autohospedaje</strong> es importante. Hospedar tu blog en Wordpress.com no da mayor seguridad a tus datos que Blogger or Tumblr.</p><p><strong>img.bi</strong> also accessible through <a href='#anon-network'>Tor Hidden Service</a> (<a href='http://imgbifwwqoixh7te.onion/'>imgbifwwqoixh7te.onion</a>) and as <a href='#anon-network'>Eepsite</a> (<a href='http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA'>imgbi.i2p</a>).</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.</p><p>Warning: MediaCrush includes <strong>Google Analytics</strong> and <strong>Google Adsense</strong> if you do not have Do Not Track enabled.</p>",
 
-  "i18n-media-publishing-note": "<span class='p'><strong>El autohospedaje</strong> es importante. Hospedar tu blog en Wordpress.com no da mayor seguridad a tus datos que Blogger or Tumblr.</span>", 
   "i18n-online-transactions": "Transaccions en Línia", 
   "i18n-bitcoin-desc": "Moneda P2P digital sense autoritat centralitzada.", 
   "i18n-cryptocoins-title": "Cripto-monedes Alternatives", 
