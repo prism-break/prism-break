@@ -244,6 +244,15 @@ data =
     tos_url: ""
     url: "http://openbsd.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/OpenBSD"
+    protocols: []
+    categories: [
+      * name: "Routers"
+        subcategories: ["Operating Systems"]
+      * name: "Servers"
+        subcategories: ["Operating Systems"]
+      * name: "BSD"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "FreeBSD is a free Unix-like operating system descended from AT&T UNIX via BSD UNIX.  Although for legal reasons FreeBSD cannot be called \"UNIX\", as a direct descendant of BSD UNIX (many of whose original developers became FreeBSD developers), FreeBSD's internals and system APIs are UNIX-compliant. Due to its permissive licensing terms, much of FreeBSD\u2019s code base has become an integral part of other operating systems such as Apple's OS X that have subsequently been certified as UNIX-compliant and have formally received UNIX branding. "
     license_url: "https://www.freebsd.org/copyright/freebsd-license.html"
@@ -255,6 +264,17 @@ data =
     tos_url: ""
     url: "https://www.freebsd.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/FreeBSD"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Operating Systems"]
+      * name: "BSD"
+        subcategories: ["Operating Systems"]
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems"]
+      * name: "Windows"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "NetBSD is an open-source Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. "
     license_url: "https://www.netbsd.org/about/redistribution.html"
@@ -266,8 +286,19 @@ data =
     tos_url: ""
     url: "https://www.netbsd.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/NetBSD"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Operating Systems"]
+      * name: "BSD"
+        subcategories: ["Operating Systems"]
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems"]
+      * name: "Windows"
+        subcategories: ["Operating Systems"]
+    ]
 
-  * description: "PC-BSD, or PCBSD, is a Unix-like, desktop-oriented operating system built upon the most recent releases of FreeBSD. It aims to be easy to install by using a graphical installation program, and easy and ready-to-use immediately by providing KDE SC, LXDE, XFCE, GNOME2 and E17 as the graphical user interface. It provides official binary nVidia and Intel drivers for hardware acceleration and an optional 3D desktop interface through Kwin, and Wine is ready-to-use in running Microsoft Windows software. "
+  * description: "DragonFly BSD is a free Unix-like operating system created as a fork of FreeBSD 4.8. Matthew Dillon, an Amiga developer in the late 1980s and early 1990s and a FreeBSD developer between 1994 and 2003, began work on DragonFly BSD in June 2003 and announced it on the FreeBSD mailing lists on 16 July 2003."
     license_url: "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/"
     logo_file_name: "dragonfly-bsd.png"
     notes: ""
@@ -277,6 +308,17 @@ data =
     tos_url: ""
     url: "https://www.dragonflybsd.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/PC-BSD"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Operating Systems"]
+      * name: "BSD"
+        subcategories: ["Operating Systems"]
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems"]
+      * name: "Windows"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "Liberté Linux is a secure, reliable, lightweight and easy to use Gentoo-based LiveUSB/SD/CD Linux distribution with the primary purpose of enabling anyone to communicate safely and covertly in hostile environments."
     license_url: "https://github.com/mkdesu/liberte/blob/master/README.md"
@@ -288,6 +330,17 @@ data =
     tos_url: ""
     url: "http://dee.su/liberte"
     wikipedia_url: "https://en.wikipedia.org/wiki/Security-focused_operating_system\#Libert.C3.A9_Linux.5B7.5D"
+    protocols: []
+    categories: [
+      * name: "BSD"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Linux"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Windows"
+        subcategories: ["Operating Systems (Live)"]
+    ]
 
   * description: "The Amnesic Incognito Live System or Tails is a Debian-based Linux distribution aimed at preserving privacy and anonymity. It is the next iteration of development on the previous Gentoo based Incognito Linux distribution. All its outgoing connections are forced to go through Tor, and direct (non-anonymous) connections are blocked. "
     license_url: "https://tails.boum.org/doc/about/license/index.en.html"
@@ -299,6 +352,17 @@ data =
     tos_url: ""
     url: "https://tails.boum.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System"
+    protocols: ["GPG", "SSL/TLS", "OTR", "Tor", "XMPP"]
+    categories: [
+      * name: "BSD"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Linux"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Windows"
+        subcategories: ["Operating Systems (Live)"]
+    ]
 
   * description: "Java Anon Proxy, also known as JAP or JonDonym, is a proxy system designed to allow browsing the Web with revocable pseudonymity. It was originally developed as part of a project of the Technische Universit\u00e4t Dresden, the Universit\u00e4t Regensburg and Privacy Commissioner of Schleswig-Holstein. The client-software is written in the Java programming language.\n"
     license_url: "https://anonymous-proxy-servers.net/en/help/credits.html"
@@ -310,6 +374,17 @@ data =
     tos_url: ""
     url: "https://anonymous-proxy-servers.net/en/jondo-live-cd.html"
     wikipedia_url: "https://en.wikipedia.org/wiki/Java_Anon_Proxy"
+    protocols: ["GPG", "SSL/TLS", "OTR", "Tor", "XMPP"]
+    categories: [
+      * name: "BSD"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Linux"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems (Live)"]
+      * name: "Windows"
+        subcategories: ["Operating Systems (Live)"]
+    ]
 
   * description: "Whonix is an anonymous general purpose operating system based on VirtualBox, Debian GNU/Linux and Tor. By Whonix design, IP and DNS leaks are impossible. Not even Malware as Superuser can find out the user's real IP address/location."
     license_url: "https://github.com/Whonix/Whonix/blob/master/GPLv3"
@@ -321,6 +396,15 @@ data =
     tos_url: ""
     url: "https://www.whonix.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Whonix"
+    protocols: ["Tor"]
+    categories: [
+      * name: "Linux"
+        subcategories: ["Operating Systems"]
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems"]
+      * name: "Windows"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "CyanogenMod (pronounced /sa\u026a.\u02c8\u00e6n.o\u028a.\u02ccd\u0292\u025bn.m\u0252d/) is an open source replacement distribution for smartphones and tablet computers based on the Android mobile operating system. It is developed as free and open source software based on the official releases of Android by Google, with added original and third-party code.\nIt offers features and options not found in the official firmware distributed by mobile device vendors. "
     license_url: "https://source.android.com/source/licenses.html"
@@ -332,6 +416,13 @@ data =
     tos_url: "http://www.cyanogenmod.org/docs/terms"
     url: "http://www.cyanogenmod.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/CyanogenMod"
+    protocols: ["Tor"]
+    categories: [
+      * name: "Android"
+        subcategories: ["Operating Systems"]
+      * name: "iOS"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "Replicant is a project aiming to provide a fully free Android distribution running on several devices. Replicant is thus a Free Software project that intends to replace the proprietary software that many phones need to make use of the full potential of the hardware or other functionalities of the device.\n"
     license_url: "http://replicant.us/about/"
