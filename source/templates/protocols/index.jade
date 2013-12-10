@@ -5,9 +5,8 @@ html
   body
     include ../partials/header
 
-    - each protocol in table
-
-      .section
+    .section
+      - each protocol in table
 
         a.h2(href=protocol.slug)
           | #{protocol.name} (#{protocol.projects.length})

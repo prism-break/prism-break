@@ -8,7 +8,7 @@ require! mkdirp
 {tmpl, routes, write-json} = require '../functions/paths.ls'
 
 # data
-{data} = require '../data/cities-en.ls'
+{data} = require '../data/software-en.ls'
 translations = require '../translations'
 
 # the main database
