@@ -1,4 +1,4 @@
-## prism-break (static)
+# prism-break (static)
 
 Experiment to see what can be done with a `Makefile` and nodejs.
 
