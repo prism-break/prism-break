@@ -22,8 +22,8 @@ routes = (subdirectory, depth)->
     css: '../assets/css/screen.css'
     root: ''
     categories: 'categories'
-    countries: 'countries'
-    cities: 'cities'
+    protocols: 'protocols'
+    projects: 'projects'
 
   final-paths = {}
   for key, value of bare-paths

@@ -4,7 +4,7 @@
 require! jade
 require! fs
 require! mkdirp
-{slugify-db, subcategories-in, countries-in, in-this-subcategory, in-this-country, categories-tree, nested-categories, countries-tree} = require '../functions/sort.ls'
+{slugify-db, subcategories-in, protocols-in, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
 {tmpl, routes, write-json} = require '../functions/paths.ls'
 
 # data
@@ -126,16 +126,16 @@ for language, translation of translations
 
         write-json data, public-dir + path + "index"
 
-  # WRITE countries/index
+  # WRITE protocols/index
   do ->
-    data = countries-tree(database)
-    path = 'countries/index'
+    data = protocols-tree(database)
+    path = 'protocols/index'
     template = tmpl path
 
     options = 
       pretty: true
       table: data
-      routes: routes 'countries', 1
+      routes: routes 'protocols', 1
       t: translation
 
     jade.render-file template, options, (err, html) ->
@@ -148,21 +148,21 @@ for language, translation of translations
 
     write-json data, public-dir + path
 
-  # WRITE countries/show
+  # WRITE protocols/show
   do ->
-    for country in countries-in(database)
-      data = country
-      path = "countries/#{country.slug}/"
-      template = tmpl "countries/show"
+    for protocol in protocols-in(database)
+      data = protocol
+      path = "protocols/#{protocol.slug}/"
+      template = tmpl "protocols/show"
 
       directory = public-dir + path
       mkdirp directory
 
       options = 
         pretty: true
-        country: data
-        table: in-this-country(country.name, database)
-        routes: routes 'countries', 2
+        protocol: data
+        table: in-this-protocol(protocol.name, database)
+        routes: routes 'protocols', 2
         t: translation
 
       jade.render-file template, options, (err, html) ->
@@ -175,16 +175,16 @@ for language, translation of translations
 
       write-json data, public-dir + path + "index"
 
-  # WRITE cities/index
+  # WRITE projects/index
   do ->
     data = database
-    path = 'cities/index'
+    path = 'projects/index'
     template = tmpl path
 
     options = 
       pretty: true
       table: data
-      routes: routes 'cities', 1
+      routes: routes 'projects', 1
       t: translation
 
     jade.render-file template, options, (err, html) ->
@@ -197,20 +197,20 @@ for language, translation of translations
 
     write-json data, public-dir + path
 
-  # WRITE cities/show
+  # WRITE projects/show
   do ->
-    for city in database
-      data = city
-      path = "cities/#{city.slug}/"
-      template = tmpl "cities/show"
+    for project in database
+      data = project
+      path = "projects/#{project.slug}/"
+      template = tmpl "projects/show"
 
       directory = public-dir + path
       mkdirp directory
 
       options = 
         pretty: true
-        city: city
-        routes: routes 'cities', 2
+        project: project
+        routes: routes 'projects', 2
         t: translation
 
       jade.render-file template, options, (err, html) ->

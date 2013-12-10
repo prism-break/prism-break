@@ -1,7 +1,7 @@
 translations =
-  title: '世界の市町村'
+  title: 'プリズムブレイク'
   categories: 'カテゴリ'
-  countries: '国'
-  cities: '都市'
+  protocols: 'プロトコル'
+  projects: 'プロジェクト'
 
 exports.translations = translations
