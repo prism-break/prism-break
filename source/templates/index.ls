@@ -15,9 +15,13 @@ translations = require '../translations'
 database = slugify-db data
 
 
-######################################################################
+############################################################################
+#
 # WRITE
-######################################################################
+# The following code writes all of the HTML pages for the entire site.
+#
+############################################################################
+
 
 for language, translation of translations
 
