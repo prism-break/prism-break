@@ -1,5 +1,6 @@
 .DS_Store
 *~
+*.log
 .*.s[a-w][a-z]
 awstats-icon
 awstatsicons
@@ -9,4 +10,5 @@ stats/
 config/
 log/
 node_modules/
+public/
 tmp/
