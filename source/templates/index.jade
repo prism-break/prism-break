@@ -1,0 +1,21 @@
+!!! 5
+html
+  include partials/html-head
+
+  body
+    include partials/header
+
+    - each category in table
+
+      .section
+
+        a.h2(href="./categories/#{category.slug}")
+          | #{category.name} (#{category.subcategories.length})
+
+        ul
+          - each subcategory in category.subcategories
+            li 
+              a(href="./subcategories/#{category.slug}-#{subcategory.slug}")
+                .name= subcategory.name
+
+    include partials/footer
