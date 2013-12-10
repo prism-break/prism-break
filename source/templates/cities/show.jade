@@ -1,0 +1,16 @@
+!!! 5
+html
+  include ../partials/html-head
+
+  body
+    include ../partials/header
+
+    .section
+      ul
+        li 
+          a(href=city.wikipedia_url)
+            .name= city.name
+            .category= city.country
+
+
+    include ../partials/footer

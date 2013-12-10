@@ -1,0 +1,22 @@
+!!! 5
+html
+  include ../partials/html-head
+
+  body
+    include ../partials/header
+
+    .section
+
+      h2 
+        a(href=categoryFile)= category.name
+        |  > 
+        a(href='./')= subcategory.name
+
+      ul
+        - each city in table
+          li
+            a(href="../../cities/#{city.slug}")
+              .name= city.name
+              .category= city.country
+
+    include ../partials/footer

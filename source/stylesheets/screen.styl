@@ -1,0 +1,87 @@
+@import nib
+@import 'source/stylesheets/mixins'
+
+global-reset()
+
+body
+  background #fff
+  font-family sans
+
+strong
+  font-weight bold
+
+header.site, footer.site
+  width 320px
+
+header.site 
+  h1
+    background #333
+    color #eee
+    text-align center
+    font 1.5em/2 sans
+    a
+      display block
+      color #eee
+      text-decoration none
+      &:hover
+        color #fff
+        background #444
+  ul
+    clearfix()
+    li
+      box-sizing border-box
+      width 107px
+      float left
+      text-align center
+      font 1em/1.5 sans
+      border-right 1px solid #ddd
+      &:nth-of-type(2n)
+        width 106px
+
+footer.site
+  background #333
+  ul
+    li
+      text-align center
+      color #eee
+      font .75em/3 sans
+
+.section
+  width 320px
+  border-right 1px solid #ddd
+  box-sizing border-box
+  clearfix()
+
+h2, .h2
+  font .75em/2 sans
+  border-bottom 1px solid #ccc
+  padding 0 .75em
+  background #eee
+  display block
+  text-decoration none
+  color #333
+
+a.h2
+  &:hover
+    background #ccc
+    color #000
+
+ul
+  li
+    clearfix()
+    a
+      display block
+      padding .5em 1em .66em
+      border-bottom 1px solid #ccc
+      text-decoration none
+      color #333
+      .name, .category
+        font 1em/1.75 sans
+      .name
+        font-weight bold
+      .category
+        color #999
+      &:hover 
+        background #f0f0f0
+      &:active 
+        background #eeeeee
