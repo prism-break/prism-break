@@ -1,7 +1,7 @@
 translations =
-  title: 'Cities of the World'
+  title: 'Prism Break'
   categories: 'Categories'
-  countries: 'Countries'
-  cities: 'Cities'
+  protocols: 'Protocols'
+  projects: 'Projects'
 
 exports.translations = translations

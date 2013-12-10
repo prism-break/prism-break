@@ -1,7 +1,7 @@
 translations =
-  title: 'Städte der Welt'
+  title: 'Prisma Breka'
   categories: 'Kategorien'
-  countries: 'Länder'
-  cities: 'Städte'
+  protocols: 'Protokolle'
+  projects: 'Projekte'
 
 exports.translations = translations
