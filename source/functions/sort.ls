@@ -48,7 +48,7 @@ in-this-subcategory = (subcategory-name, db) ->
   list = unique list
 
 in-this-protocol = (protocol, db) ->
-  filter (-> protocol == it.protocol), db
+  filter (-> protocol in it.protocols), db
 
 categories-tree = (db) ->
   tree = categories-in db

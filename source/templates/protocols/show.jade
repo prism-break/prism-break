@@ -7,10 +7,7 @@ html
 
     .section
 
-      h2 
-        a(href=categoryFile)= category.name
-        |  > 
-        a(href='./')= subcategory.name
+      h2 #{protocol.name}
 
       ul
         - each project in table

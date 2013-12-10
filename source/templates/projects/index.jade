@@ -7,10 +7,10 @@ html
 
     .section
       ul
-        - each city in table
+        - each project in table
           li 
-            a(href=city.slug)
-              .name= city.name
-              .category= city.country
+            a(href=project.slug)
+              .name= project.name
+              .category= project.protocols
 
     include ../partials/footer
