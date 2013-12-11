@@ -840,6 +840,27 @@ data =
     tos_url: ""
     url: "http://www.openstreetmap.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/OpenStreetMap"
+    protocols: []
+    categories: [
+      * name: "Services"
+        subcategories: ["World Map"]
+    ]
+
+  * description: "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac OS X platform."
+    license_url: "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT"
+    logo: "open-source-routing-machine.png"
+    notes: "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service."
+    privacy_url: ""
+    source_url: "https://github.com/DennisOSRM/Project-OSRM"
+    name: "Open Source Routing Machine"
+    tos_url: ""
+    url: "http://project-osrm.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
+    protocols: []
+    categories: [
+      * name: "Services"
+        subcategories: ["World Map"]
+    ]
 
   * description: "Marble is a virtual globe that allows the user to choose among the Earth, the Moon, Venus, Mars and other planets. It is free software under the terms of the GNU LGPL, developed by KDE for use on personal computers and smart phones running a Qt4-compatible operating system.\nMarble is intended to be very flexible; beyond its cross-platform design, the core components can easily be integrated into other programs. "
     license_url: "https://projects.kde.org/projects/kde/kdeedu/marble/repository/revisions/master/entry/LICENSE.txt"
