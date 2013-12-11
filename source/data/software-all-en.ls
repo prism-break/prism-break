@@ -416,7 +416,7 @@ data =
     tos_url: "http://www.cyanogenmod.org/docs/terms"
     url: "http://www.cyanogenmod.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/CyanogenMod"
-    protocols: ["Tor"]
+    protocols: []
     categories: [
       * name: "Android"
         subcategories: ["Operating Systems"]
@@ -434,6 +434,13 @@ data =
     tos_url: ""
     url: "http://replicant.us/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29"
+    protocols: []
+    categories: [
+      * name: "Android"
+        subcategories: ["Operating Systems"]
+      * name: "iOS"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "Firefox OS (project name: Boot to Gecko, also known as B2G) is a Linux-based open-source operating system for smartphones and tablet computers. It is being developed by Mozilla, the non-profit organization best known for the Firefox web browser.\nFirefox OS is designed to provide a \"complete\" community-based alternative system for mobile devices, using open standards and approaches such as HTML5 applications, JavaScript, a robust privilege model, open web APIs to communicate directly with cellphone hardware, and application marketplace. "
     license_url: "https://www.mozilla.org/en-US/foundation/licensing/"
@@ -445,6 +452,13 @@ data =
     tos_url: ""
     url: "https://www.mozilla.org/en-US/firefox/os/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Firefox_OS"
+    protocols: []
+    categories: [
+      * name: "Android"
+        subcategories: ["Operating Systems"]
+      * name: "iOS"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "F-Droid is a software repository (or \"app store\") for Android applications; it functions similarly to the Google Play store, but only contains free and open-source software. The apps can be browsed and installed from the F-Droid website or directly from the F-Droid client app (which is not available in the Google Play store, but can be installed by sideloading). The F-Droid client app will automatically update installed F-Droid apps. "
     license_url: "https://f-droid.org/about/"
@@ -456,6 +470,13 @@ data =
     tos_url: ""
     url: "https://f-droid.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/F-Droid"
+    protocols: []
+    categories: [
+      * name: "Android"
+        subcategories: ["App Store"]
+      * name: "iOS"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "Java Anon Proxy, also known as JAP or JonDonym, is a proxy system designed to allow browsing the Web with revocable pseudonymity. It was originally developed as part of a project of the Technische Universit\u00e4t Dresden, the Universit\u00e4t Regensburg and Privacy Commissioner of Schleswig-Holstein. The client-software is written in the Java programming language.\n"
     license_url: "https://anonymous-proxy-servers.net/en/help/credits.html"
@@ -467,6 +488,17 @@ data =
     tos_url: ""
     url: "https://anonymous-proxy-servers.net/en/jondofox.html"
     wikipedia_url: "https://en.wikipedia.org/wiki/Java_Anon_Proxy"
+    protocols: ["SSL/TLS", "Tor"]
+    categories: [
+      * name: "BSD"
+        subcategories: ["Web Browsers"]
+      * name: "Linux"
+        subcategories: ["Web Browsers"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browsers"]
+      * name: "Windows"
+        subcategories: ["Web Browsers"]
+    ]
 
   * description: "Orbot is an open source client for the Tor network on Android mobile devices. The client allows you to route traffic going from your device's web browser, e-mail client, map program, etc., through the Tor network, providing anonymity for the user.\nThis tool is being used by political dissidents around the world to keep their communications on smartphones secure from the governments that may be monitoring their communications.\n"
     license_url: "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE"
@@ -478,6 +510,11 @@ data =
     tos_url: ""
     url: "https://guardianproject.info/apps/orbot/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Orbot"
+    protocols: ["Tor"]
+    categories: [
+      * name: "Android"
+        subcategories: ["Anonymizing Networks"]
+    ]
 
   * description: "Mozilla Firefox is a free and open source web browser developed for Windows, OS X, and Linux, with a mobile version for Android, by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.\nAs of July 2013[update], Firefox has between 16% and 21% of worldwide usage, making it the third most popular web browser, according to different sources. "
     license_url: "https://www.mozilla.org/MPL/"
@@ -489,6 +526,19 @@ data =
     tos_url: "https://www.mozilla.org/en-US/about/legal.html"
     url: "https://mozilla.org/firefox"
     wikipedia_url: "https://en.wikipedia.org/wiki/Firefox"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Android"
+        subcategories: ["Web Browsers"]
+      * name: "BSD"
+        subcategories: ["Web Browsers"]
+      * name: "Linux"
+        subcategories: ["Web Browsers"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browsers"]
+      * name: "Windows"
+        subcategories: ["Web Browsers"]
+    ]
 
   * description: "Onion Browser is a minimal web browser that encrypts and tunnels web traffic through the Tor onion router network and provides other tools to help browse the internet while maintaining privacy."
     license_url: "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE"
@@ -500,6 +550,11 @@ data =
     tos_url: ""
     url: "https://mike.tig.as/onionbrowser/"
     wikipedia_url: ""
+    protocols: ["SSL/TLS", "Tor"]
+    categories: [
+      * name: "iOS"
+        subcategories: ["Web Browsers"]
+    ]
 
   * description: "HTTPS Everywhere is a Firefox and Chrome extension that encrypts your communications with many major websites, making your browsing more secure.\r\n\r\nHTTPS Everywhere is produced as a collaboration between The Tor Project and the Electronic Frontier Foundation. Many sites on the web offer some limited support for encryption over HTTPS, but make it difficult to use. For instance, they may default to unencrypted HTTP, or fill encrypted pages with links that go back to the unencrypted site. The HTTPS Everywhere extension fixes these problems by using a clever technology to rewrite requests to these sites to HTTPS."
     license_url: "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt"
