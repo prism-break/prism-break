@@ -14,12 +14,14 @@ translations = require '../translations'
 # the main database
 database = slugify-db data
 
-write-html = (file, html) ->
-  fs.write-file file, html, (err) ->
-    if err
-      console.error err
-    else
-      console.log "#{file} saved"
+write-html = (template, options, file) ->
+  file = file + '.html'
+  jade.render-file template, options, (err, html) ->
+    fs.write-file file, html, (err) ->
+      if err
+        console.error err
+      else
+        console.log "#{file} saved"
 
 ############################################################################
 #
@@ -38,7 +40,7 @@ for language, translation of translations
   do ->
     data = nested-categories(database)
     path = 'index'
-
+    file = public-dir + path
     template = tmpl path
 
     options = 
@@ -47,16 +49,14 @@ for language, translation of translations
       routes: routes!
       t: translation
 
-    jade.render-file template, options, (err, html) ->
-      file = public-dir + path + '.html'
-      write-html file, html
-
-    write-json data, public-dir + path
+    write-html template, options, file
+    write-json data, file
 
   # WRITE categories/index
   do ->
     data = nested-categories(database)
     path = 'categories/index'
+    file = public-dir + path
     template = tmpl path
 
     options = 
@@ -65,20 +65,18 @@ for language, translation of translations
       routes: routes 'categories', 1
       t: translation
 
-    jade.render-file template, options, (err, html) ->
-      file = public-dir + path + '.html'
-      write-html file, html
-
-    write-json data, public-dir + path
+    write-html template, options, file
+    write-json data, file
 
   # WRITE categories/show
   do ->
     for category in nested-categories(database)
       data = subcategories-in(category.name, database)
       path = "categories/#{category.slug}/"
+      directory = public-dir + path
+      file = directory + 'index'
       template = tmpl "categories/show"
 
-      directory = public-dir + path
       mkdirp directory
 
       options = 
@@ -88,11 +86,8 @@ for language, translation of translations
         routes: routes 'categories', 2
         t: translation
 
-      jade.render-file template, options, (err, html) ->
-        file = directory + 'index.html'
-        write-html file, html
-
-      write-json data, public-dir + path + "index"
+      write-html template, options, file
+      write-json data, file
 
   # WRITE subcategories/show
   do ->
@@ -100,9 +95,10 @@ for language, translation of translations
       for subcategory in category.subcategories
         data = in-this-subcategory(subcategory.name, database)
         path = "subcategories/#{category.slug}-#{subcategory.slug}/"
+        directory = public-dir + path
+        file = directory + 'index'
         template = tmpl "subcategories/show"
 
-        directory = public-dir + path
         mkdirp directory
 
         options = 
@@ -114,16 +110,14 @@ for language, translation of translations
           routes: routes 'subcategories', 2
           t: translation
 
-        jade.render-file template, options, (err, html) ->
-          file = directory + 'index.html'
-          write-html file, html
-
-        write-json data, public-dir + path + "index"
+        write-html template, options, file
+        write-json data, file
 
   # WRITE protocols/index
   do ->
     data = protocols-tree(database)
     path = 'protocols/index'
+    file = public-dir + path
     template = tmpl path
 
     options = 
@@ -132,20 +126,18 @@ for language, translation of translations
       routes: routes 'protocols', 1
       t: translation
 
-    jade.render-file template, options, (err, html) ->
-      file = public-dir + path + '.html'
-      write-html file, html
-
-    write-json data, public-dir + path
+    write-html template, options, file
+    write-json data, file
 
   # WRITE protocols/show
   do ->
     for protocol in protocols-in(database)
       data = protocol
       path = "protocols/#{protocol.slug}/"
+      directory = public-dir + path
+      file = directory + 'index'
       template = tmpl "protocols/show"
 
-      directory = public-dir + path
       mkdirp directory
 
       options = 
@@ -155,16 +147,14 @@ for language, translation of translations
         routes: routes 'protocols', 2
         t: translation
 
-      jade.render-file template, options, (err, html) ->
-        file = directory + 'index.html'
-        write-html file, html
-
-      write-json data, public-dir + path + "index"
+      write-html template, options, file
+      write-json data, file
 
   # WRITE projects/index
   do ->
     data = database
     path = 'projects/index'
+    file = public-dir + path
     template = tmpl path
 
     options = 
@@ -173,20 +163,18 @@ for language, translation of translations
       routes: routes 'projects', 1
       t: translation
 
-    jade.render-file template, options, (err, html) ->
-      file = public-dir + path + '.html'
-      write-html file, html
-
-    write-json data, public-dir + path
+    write-html template, options, file
+    write-json data, file
 
   # WRITE projects/show
   do ->
     for project in database
       data = project
       path = "projects/#{project.slug}/"
+      directory = public-dir + path
+      file = directory + 'index'
       template = tmpl "projects/show"
 
-      directory = public-dir + path
       mkdirp directory
 
       options = 
@@ -195,8 +183,5 @@ for language, translation of translations
         routes: routes 'projects', 2
         t: translation
 
-      jade.render-file template, options, (err, html) ->
-        file = directory + 'index.html'
-        write-html file, html
-
-      write-json data, public-dir + path + "index"
+      write-html template, options, file
+      write-json data, directory
