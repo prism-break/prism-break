@@ -1,11 +1,9 @@
 'use strict'
 
 # libraries
-require! jade
-require! fs
 require! mkdirp
 {slugify-db, subcategories-in, protocols-in, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
-{tmpl, routes, write-json} = require '../functions/paths.ls'
+{tmpl, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
 {data} = require '../data/software-en.ls'
@@ -14,14 +12,6 @@ translations = require '../translations'
 # the main database
 database = slugify-db data
 
-write-html = (template, options, file) ->
-  file = file + '.html'
-  jade.render-file template, options, (err, html) ->
-    fs.write-file file, html, (err) ->
-      if err
-        console.error err
-      else
-        console.log "#{file} saved"
 
 ############################################################################
 #
@@ -73,11 +63,11 @@ for language, translation of translations
     for category in nested-categories(database)
       data = subcategories-in(category.name, database)
       path = "categories/#{category.slug}/"
-      directory = public-dir + path
-      file = directory + 'index'
+      full-path = public-dir + path
+      file = full-path + 'index'
       template = tmpl "categories/show"
 
-      mkdirp directory
+      mkdirp full-path
 
       options = 
         pretty: true
@@ -95,11 +85,11 @@ for language, translation of translations
       for subcategory in category.subcategories
         data = in-this-subcategory(subcategory.name, database)
         path = "subcategories/#{category.slug}-#{subcategory.slug}/"
-        directory = public-dir + path
-        file = directory + 'index'
+        full-path = public-dir + path
+        file = full-path + 'index'
         template = tmpl "subcategories/show"
 
-        mkdirp directory
+        mkdirp full-path
 
         options = 
           pretty: true
@@ -134,11 +124,11 @@ for language, translation of translations
     for protocol in protocols-in(database)
       data = protocol
       path = "protocols/#{protocol.slug}/"
-      directory = public-dir + path
-      file = directory + 'index'
+      full-path = public-dir + path
+      file = full-path + 'index'
       template = tmpl "protocols/show"
 
-      mkdirp directory
+      mkdirp full-path
 
       options = 
         pretty: true
@@ -171,11 +161,11 @@ for language, translation of translations
     for project in database
       data = project
       path = "projects/#{project.slug}/"
-      directory = public-dir + path
-      file = directory + 'index'
+      full-path = public-dir + path
+      file = full-path + 'index'
       template = tmpl "projects/show"
 
-      mkdirp directory
+      mkdirp full-path
 
       options = 
         pretty: true
@@ -184,4 +174,4 @@ for language, translation of translations
         t: translation
 
       write-html template, options, file
-      write-json data, directory
+      write-json data, full-path
