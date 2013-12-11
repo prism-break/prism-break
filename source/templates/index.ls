@@ -14,6 +14,12 @@ translations = require '../translations'
 # the main database
 database = slugify-db data
 
+write-html = (file, html) ->
+  fs.write-file file, html, (err) ->
+    if err
+      console.error err
+    else
+      console.log "#{file} saved"
 
 ############################################################################
 #
@@ -43,11 +49,7 @@ for language, translation of translations
 
     jade.render-file template, options, (err, html) ->
       file = public-dir + path + '.html'
-      fs.write-file file, html, (err) ->
-        if err
-          console.log err
-        else
-          console.log "#{file} saved"
+      write-html file, html
 
     write-json data, public-dir + path
 
@@ -65,11 +67,7 @@ for language, translation of translations
 
     jade.render-file template, options, (err, html) ->
       file = public-dir + path + '.html'
-      fs.write-file file, html, (err) ->
-        if err
-          console.log err
-        else
-          console.log "#{file} saved"
+      write-html file, html
 
     write-json data, public-dir + path
 
@@ -92,11 +90,7 @@ for language, translation of translations
 
       jade.render-file template, options, (err, html) ->
         file = directory + 'index.html'
-        fs.write-file file, html, (err) ->
-          if err
-            console.log err
-          else
-            console.log "#{file} saved"
+        write-html file, html
 
       write-json data, public-dir + path + "index"
 
@@ -122,11 +116,7 @@ for language, translation of translations
 
         jade.render-file template, options, (err, html) ->
           file = directory + 'index.html'
-          fs.write-file file, html, (err) ->
-            if err
-              console.log err
-            else
-              console.log "#{file} saved"
+          write-html file, html
 
         write-json data, public-dir + path + "index"
 
@@ -144,11 +134,7 @@ for language, translation of translations
 
     jade.render-file template, options, (err, html) ->
       file = public-dir + path + '.html'
-      fs.write-file file, html, (err) ->
-        if err
-          console.log err
-        else
-          console.log "#{file} saved"
+      write-html file, html
 
     write-json data, public-dir + path
 
@@ -171,11 +157,7 @@ for language, translation of translations
 
       jade.render-file template, options, (err, html) ->
         file = directory + 'index.html'
-        fs.write-file file, html, (err) ->
-          if err
-            console.log err
-          else
-            console.log "#{file} saved"
+        write-html file, html
 
       write-json data, public-dir + path + "index"
 
@@ -193,11 +175,7 @@ for language, translation of translations
 
     jade.render-file template, options, (err, html) ->
       file = public-dir + path + '.html'
-      fs.write-file file, html, (err) ->
-        if err
-          console.log err
-        else
-          console.log "#{file} saved"
+      write-html file, html
 
     write-json data, public-dir + path
 
@@ -219,10 +197,6 @@ for language, translation of translations
 
       jade.render-file template, options, (err, html) ->
         file = directory + 'index.html'
-        fs.write-file file, html, (err) ->
-          if err
-            console.log err
-          else
-            console.log "#{file} saved"
+        write-html file, html
 
       write-json data, public-dir + path + "index"
