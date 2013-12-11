@@ -566,6 +566,17 @@ data =
     tos_url: ""
     url: "https://www.eff.org/https-everywhere"
     wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "BSD"
+        subcategories: ["Web Browser Addons"]
+      * name: "Linux"
+        subcategories: ["Web Browser Addons"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browser Addons"]
+      * name: "Windows"
+        subcategories: ["Web Browser Addons"]
+    ]
 
   * description: "Adblock Edge is a fork of the Adblock Plus version 2.1.2 extension for blocking advertisements on the web. This fork will provide the same features as Adblock Plus 2.X and higher but without \"acceptable ads\" feature. Adblock Edge was primarily branched off from Adblock Plus 2.1.2 source code package \"http://adblockplus.org/downloads/adblockplus-2.1.2-source.tgz\" created by Wladimir Palant."
     license_url: "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default"
@@ -577,6 +588,17 @@ data =
     tos_url: ""
     url: "https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/"
     wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "BSD"
+        subcategories: ["Web Browser Addons"]
+      * name: "Linux"
+        subcategories: ["Web Browser Addons"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browser Addons"]
+      * name: "Windows"
+        subcategories: ["Web Browser Addons"]
+    ]
 
   * description: "Used by over a million people, Disconnect lets you visualize and block the invisible websites that track you.\r\n\r\nAvailable for Google Chrome, Mozilla Firefox, Apple Safari, and Opera."
     license_url: "https://github.com/disconnectme/disconnect/blob/master/README.markdown"
@@ -588,6 +610,19 @@ data =
     tos_url: "https://disconnect.me/terms"
     url: "https://www.disconnect.me/disconnect"
     wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Android"
+        subcategories: ["Web Browser Addons"]
+      * name: "BSD"
+        subcategories: ["Web Browser Addons"]
+      * name: "Linux"
+        subcategories: ["Web Browser Addons"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browser Addons"]
+      * name: "Windows"
+        subcategories: ["Web Browser Addons"]
+    ]
 
   * description: "NoScript (or NoScript Security Suite) is a free and open-source extension for Mozilla Firefox, SeaMonkey, and other Mozilla-based web browsers, created and actively maintained by Giorgio Maone, an Italian software developer and member of the Mozilla Security Group. NoScript allows executable web content such as JavaScript, Java, Flash, Silverlight, and other plugins only if the site hosting it is considered trusted by its user and has been previously added to a whitelist. "
     license_url: "https://github.com/avian2/noscript"
@@ -599,6 +634,17 @@ data =
     tos_url: ""
     url: "http://noscript.net/"
     wikipedia_url: "https://en.wikipedia.org/wiki/NoScript"
+    protocols: []
+    categories: [
+      * name: "BSD"
+        subcategories: ["Web Browser Addons"]
+      * name: "Linux"
+        subcategories: ["Web Browser Addons"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browser Addons"]
+      * name: "Windows"
+        subcategories: ["Web Browser Addons"]
+    ]
 
   * description: "Scientific Linux (SL) is a Linux distribution produced by Fermi National Accelerator Laboratory and the European Organization for Nuclear Research (CERN). "
     license_url: "https://www.scientificlinux.org/documentation/faq/legal"
@@ -610,6 +656,11 @@ data =
     tos_url: ""
     url: "https://www.scientificlinux.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Scientific_Linux"
+    protocols: []
+    categories: [
+      * name: "Server"
+        subcategories: ["Operating Systems"]
+    ]
 
   * description: "RequestPolicy is an extension that improves the privacy and security of your browsing by giving you control over when cross-site requests are allowed by webpages you visit.\r\n\r\nCross-site requests are requests that your browser is told to make by a website you are visiting to a completely different website. Though usually legitimate requests, they often result in advertising companies and other websites knowing your browsing habits, including specific pages you view throughout the day. Among the attacks that cross-site requests are used in, they are particularly dangerous with Cross-Site Request Forgery (CSRF) attacks where your browser is told to make a request to another website and that other website thinks you (the person) meant to make the request."
     license_url: "https://github.com/RequestPolicy/requestpolicy/blob/master/src/LICENSE"
@@ -621,6 +672,17 @@ data =
     tos_url: ""
     url: "https://www.requestpolicy.com/"
     wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "BSD"
+        subcategories: ["Web Browser Addons"]
+      * name: "Linux"
+        subcategories: ["Web Browser Addons"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browser Addons"]
+      * name: "Windows"
+        subcategories: ["Web Browser Addons"]
+    ]
 
   * description: "Cryptocat is an open source web application intended to allow secure, encrypted online chatting. Cryptocat encrypts chats on the client side, only trusting the server with data that is already encrypted. Cryptocat is offered as an app for Mac OS X or as a browser extension for Google Chrome, Mozilla Firefox and Apple Safari.\n"
     license_url: "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt"
@@ -632,6 +694,19 @@ data =
     tos_url: ""
     url: "https://crypto.cat/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Cryptocat"
+    protocols: ["OTR"]
+    categories: [
+      * name: "BSD"
+        subcategories: ["Web Browser Addons", "Instant Messaging"]
+      * name: "Linux"
+        subcategories: ["Web Browser Addons", "Instant Messaging"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browser Addons", "Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Web Browser Addons", "Instant Messaging"]
+      * name: "Services"
+        subcategories: ["Instant Messaging"]
+    ]
 
   * description: "Mailvelope allows to encrypt and decrypt emails in your favorite webmail provider following the OpenPGP standard.\r\n\r\nMailvelope integrates directly into the webmail user interface; its elements are non-intrusive and easy to use in your regular workflow.\r\n\r\nIt comes preconfigured for major webmail providers:\r\n\r\n* Gmail\u2122\r\n* Yahoo!\u2122\r\n* Outlook.com\u2122\r\n* GMX\u2122"
     license_url: "https://github.com/toberndo/mailvelope/blob/master/LICENSE"
