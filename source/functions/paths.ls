@@ -4,7 +4,7 @@ require! fs
 require! jade
 
 tmpl = (template-name) ->
-  template = 'source/templates/' + template-name + '.jade'
+  template-path := 'source/templates/' + template-name + '.jade'
 
 routes = (subdirectory, depth)->
   if depth?

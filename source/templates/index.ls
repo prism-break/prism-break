@@ -61,7 +61,7 @@ for language, translation of translations
       data = subcategories-in(category.name, database)
 
       path = "categories/#{category.slug}/"
-      template = tmpl "categories/show"
+      template = tmpl 'categories/show'
       options = 
         pretty: true
         category: category
@@ -82,7 +82,7 @@ for language, translation of translations
         data = in-this-subcategory(subcategory.name, database)
 
         path = "subcategories/#{category.slug}-#{subcategory.slug}/"
-        template = tmpl "subcategories/show"
+        template = tmpl 'subcategories/show'
         options = 
           pretty: true
           category: category
@@ -120,7 +120,7 @@ for language, translation of translations
       data = protocol
 
       path = "protocols/#{protocol.slug}/"
-      template = tmpl "protocols/show"
+      template = tmpl 'protocols/show'
       options = 
         pretty: true
         protocol: data
@@ -156,7 +156,7 @@ for language, translation of translations
       data = project
 
       path = "projects/#{project.slug}/"
-      template = tmpl "projects/show"
+      template = tmpl 'projects/show'
       options = 
         pretty: true
         project: project
