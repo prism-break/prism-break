@@ -1,6 +1,7 @@
 'use strict'
 
 require! fs
+require! jade
 
 tmpl = (template-name) ->
   template = 'source/templates/' + template-name + '.jade'
@@ -38,6 +39,15 @@ routes = (subdirectory, depth)->
       final-paths[key] = prefix + value
   final-paths
 
+write-html = (template, options, file) ->
+  file = file + '.html'
+  jade.render-file template, options, (err, html) ->
+    fs.write-file file, html, (err) ->
+      if err
+        console.error err
+      else
+        console.log "#{file} saved"
+
 write-json = (db, path) ->
   file = path + '.json'
   data = JSON.stringify db, null, 2
@@ -49,4 +59,5 @@ write-json = (db, path) ->
 
 exports.tmpl = tmpl
 exports.routes = routes
+exports.write-html = write-html
 exports.write-json = write-json
