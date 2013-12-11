@@ -718,6 +718,17 @@ data =
     tos_url: ""
     url: "http://www.mailvelope.com/"
     wikipedia_url: ""
+    protocols: ["GPG"]
+    categories: [
+      * name: "BSD"
+        subcategories: ["Email Encryption", "Web Browser Addons"]
+      * name: "Linux"
+        subcategories: ["Email Encryption", "Web Browser Addons"]
+      * name: "Mac OS X"
+        subcategories: ["Email Encryption", "Web Browser Addons"]
+      * name: "Windows"
+        subcategories: ["Email Encryption", "Web Browser Addons"]
+    ]
 
   * description: "DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the \"filter bubble\" of personalized search results. DuckDuckGo distinguishes itself from other search engines by not profiling its users and by deliberately showing all users the same search results for a given search term. DuckDuckGo also emphasizes getting information from the best sources rather than the most sources, generating its search results from key crowdsourced sites such as Wikipedia and from partnerships with other search engines like Yandex, Yahoo!, Bing and WolframAlpha.\n"
     license_url: "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE"
@@ -729,6 +740,11 @@ data =
     tos_url: ""
     url: "https://duckduckgo.com/"
     wikipedia_url: "https://en.wikipedia.org/wiki/DuckDuckGo"
+    protocols: ["SSL/TLS", "Tor"]
+    categories: [
+      * name: "Services"
+        subcategories: ["Web Search"]
+    ]
 
   * description: "MetaGer is a SaaS by the German non-profit [SUMA e.V.](https://suma-ev.de/en/index.html) that provides you with anonymous meta search results.\r\n\r\nA meta search engine proxies your queries to multiple search providers.\r\n\r\n"
     license_url: ""
@@ -740,6 +756,11 @@ data =
     tos_url: ""
     url: "https://metager.de/en/"
     wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Services"
+        subcategories: ["Web Search"]
+    ]
 
   * description: "Seeks is a Free Software/open source project licensed under the Affero General Public License version 3 (AGPLv3). It exists to create an alternative search engine to the current commercially available market leading search engines which is driven by user concerns rather than corporate interests. The original manifesto was created by Emmanuel Benazera and Sylvio Drouin and published in October 2006. Since then, the project has been under active development and stable releases of the engine are available for public use in addition to various distributions of the source code for adventurous users. "
     license_url: "http://sourceforge.net/p/seeks/code/ci/master/tree/Licenses"
@@ -751,6 +772,11 @@ data =
     tos_url: ""
     url: "http://www.seeks-project.info/site/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Seeks"
+    protocols: []
+    categories: [
+      * name: "Linux"
+        subcategories: ["Web Search"]
+    ]
 
   * description: "On July 7, 2009 Ixquick launched Startpage.com to offer a new service at a URL that is both easier to remember and spell. Startpage.com fetches its results straight from the Google search engine without saving the users' IP addresses or giving any personal user information to Google's servers."
     license_url: ""
@@ -762,6 +788,11 @@ data =
     tos_url: ""
     url: "https://startpage.com/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Services"
+        subcategories: ["Web Search"]
+    ]
 
   * description: "Ixquick is a metasearch engine based in New York and the Netherlands. "
     license_url: ""
@@ -773,6 +804,11 @@ data =
     tos_url: ""
     url: "https://ixquick.com/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Services"
+        subcategories: ["Web Search"]
+    ]
 
   * description: "YaCy (pronounced \"ya see\") is a free distributed search engine, built on principles of peer-to-peer (P2P) networks. Its core is a computer program written in Java distributed on several hundred computers, as of September 2006[update], so-called YaCy-peers. Each YaCy-peer independently crawls through the Internet, analyzes and indexes found web pages, and stores indexing results in a common database (so called index) which is shared with other YaCy-peers using principles of P2P networks.\n"
     license_url: "https://gitorious.org/yacy/rc1/source/234a974955c0ab4f7de63157738e4b00a8ffcae8:COPYRIGHT"
@@ -784,6 +820,15 @@ data =
     tos_url: ""
     url: "http://yacy.de/en/index.html"
     wikipedia_url: "https://en.wikipedia.org/wiki/YaCy"
+    protocols: []
+    categories: [
+      * name: "Linux"
+        subcategories: ["Web Search"]
+      * name: "Mac OS X"
+        subcategories: ["Web Search"]
+      * name: "Windows"
+        subcategories: ["Web Search"]
+    ]
 
   * description: "OpenStreetMap (OSM) is a collaborative project to create a free editable map of the world. Two major driving forces behind the establishment and growth of OSM have been restrictions on use or availability of map information across much of the world and the advent of inexpensive portable satellite navigation devices.\nCreated by Steve Coast in the UK in 2004, it was inspired by the success of Wikipedia and preponderance of proprietary map data in the UK and elsewhere. "
     license_url: "http://www.openstreetmap.org/copyright"
