@@ -12,17 +12,17 @@ STYLUS_BIN = $(BIN)stylus
 STYLUS_PARAMS = -c -u ./node_modules/nib/
 
 # Inputs
-JADE = source/templates/index.ls
+JADE = ./source/templates/index.ls
 #LS_DIR = source/ls/
 #JS_DIR = source/js/
 #JS_ALL = source/js/*.js
-STYLUS = source/stylesheets/screen.styl
+STYLUS = ./source/stylesheets/screen.styl
 
 # Outputs
-CSS = public/assets/css/screen.css
+CSS = ./public/assets/css/screen.css
 #JS_CAT = public/js/main.js
-HTML = public/**/*.html
-JSON = public/**/*.json
+HTML = ./public/**/*.html
+JSON = ./public/**/*.json
 
 $(CSS): $(STYLUS)
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$< >$@
@@ -33,13 +33,16 @@ $(CSS): $(STYLUS)
 #$(JS_CAT): $(JS_ALL)
 #	cat $^ > $@
 
+mkdir_public:
+	mkdir -p public public/assets/css public/assets/js
+
 render_html: 
 	$(LS_BIN) $(JADE)
 
 clean:
-	rm -rf $(CSS) $(HTML) $(JSON)
+	rm -rf public/
 
-all: $(CSS) render_html
+all: mkdir_public $(CSS) render_html
 
 uber: clean all
 
