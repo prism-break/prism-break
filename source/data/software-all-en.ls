@@ -843,7 +843,7 @@ data =
     protocols: []
     categories: [
       * name: "Services"
-        subcategories: ["World Map"]
+        subcategories: ["World Maps"]
     ]
 
   * description: "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac OS X platform."
@@ -859,7 +859,7 @@ data =
     protocols: []
     categories: [
       * name: "Services"
-        subcategories: ["World Map"]
+        subcategories: ["World Maps"]
     ]
 
   * description: "Marble is a virtual globe that allows the user to choose among the Earth, the Moon, Venus, Mars and other planets. It is free software under the terms of the GNU LGPL, developed by KDE for use on personal computers and smart phones running a Qt4-compatible operating system.\nMarble is intended to be very flexible; beyond its cross-platform design, the core components can easily be integrated into other programs. "
@@ -872,6 +872,15 @@ data =
     tos_url: ""
     url: "http://marble.kde.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Marble_%28software%29"
+    protocols: []
+    categories: [
+      * name: "Linux"
+        subcategories: ["World Maps"]
+      * name: "Mac OS X"
+        subcategories: ["World Maps"]
+      * name: "Windows"
+        subcategories: ["World Maps"]
+    ]
 
   * description: "OsmAnd is an open source, global mobile map viewing & navigation app for offline and online maps (for Android and some other operating systems). It uses the Open Street Map (OSM) map database for its primary displays. The development for this project is being done on google code and is available under the GPLv3 license. "
     license_url: "https://github.com/osmandapp/Osmand/blob/master/LICENSE"
@@ -883,6 +892,11 @@ data =
     tos_url: ""
     url: "http://osmand.net/"
     wikipedia_url: "https://en.wikipedia.org/wiki/OsmAnd"
+    protocols: []
+    categories: [
+      * name: "Android"
+        subcategories: ["World Maps"]
+    ]
 
   * description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\r\n\r\nWe provide a full range of free, privacy-aware services, which include:\r\n\r\n* Blogs / Web Hosting\r\n* Anonymity Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
     license_url: ""
@@ -894,6 +908,11 @@ data =
     tos_url: ""
     url: "http://www.autistici.org/en/index.html"
     wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Services"
+        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Services", "Web Hosting"]
+    ]
 
   * description: "Bitmessage is a decentralized, encrypted, peer-to-peer, trustless communications protocol that can be used by one person to send encrypted messages to another person, or to multiple subscribers. Bitmessage encrypts each users' message inbox using strong encryption and replicates it inside its P2P network mixing it with inboxes of other users in order to conceal user's identity, prevent eavesdropping and protect the network from any control. The Bitmessage communication protocol avoids sender-spoofing through strong authentication, and hides metadata from wiretapping systems.\n"
     license_url: "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE"
