@@ -10,7 +10,7 @@ html
         - each project in table
           li 
             a(href=project.slug)
-              img(src=routes.logos + project.logo_file_name)
+              img(src= routes.logos + project.logo)
               .name= project.name
               .category= project.protocols
 
