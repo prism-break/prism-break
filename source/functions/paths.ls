@@ -24,6 +24,8 @@ routes = (subdirectory, depth)->
     categories: 'categories'
     protocols: 'protocols'
     projects: 'projects'
+    images: '../../images'
+    logos: '../../images/logos/medium/'
 
   final-paths = {}
   for key, value of bare-paths
