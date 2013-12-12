@@ -213,9 +213,11 @@ write-projects-show = (translation) ->
   for project in database
     create project
 
+
 ############################################################################
-# WRITE FUNCTIONS
+# WRITE SITE
 # This function will write all of the HTML pages per site language.
+
 
 for language, translation of translations
 
