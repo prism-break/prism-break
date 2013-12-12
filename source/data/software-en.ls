@@ -1285,11 +1285,11 @@ data =
     protocols: ["OTR"]
     categories: [
       * name: "BSD"
-        subcategories: ["Instant Messaging", "IRC"]
+        subcategories: ["Instant Messaging"]
       * name: "Linux"
-        subcategories: ["Instant Messaging", "IRC"]
+        subcategories: ["Instant Messaging"]
       * name: "Windows"
-        subcategories: ["Instant Messaging", "IRC"]
+        subcategories: ["Instant Messaging"]
     ]
 
   * description: "Gajim /\u0261\u025b\u02c8\u0292i\u02d0m/ is an instant messaging client for the XMPP protocol which uses the GTK+ toolkit. The name Gajim is a recursive acronym for Gajim's a jabber instant messenger. Gajim runs on GNU/Linux, BSD and Microsoft Windows. "
