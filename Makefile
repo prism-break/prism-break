@@ -2,13 +2,12 @@
 # npm install
 # make 					# to compile targets
 # make clean 		# to delete compiled files
-# make cssw 		# to watch stylus for changes
 # watch make 		# to periodically compile
 
 # Binaries
 BIN = ./node_modules/.bin/
-LS_BIN = $(BIN)lsc
-LS_PARAMS = -cob
+LIVESCRIPT_BIN = $(BIN)lsc
+LIVESCRIPT_PARAMS = -cob
 STYLUS_BIN = $(BIN)stylus
 STYLUS_PARAMS = -c -u ./node_modules/nib/
 STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u ./node_modules/nib/ -o public/assets/css/
@@ -19,8 +18,6 @@ STYL = ./source/stylesheets/screen.styl
 
 # Outputs
 CSS = ./public/assets/css/screen.css
-HTML = ./public/**/*.html
-JSON = ./public/**/*.json
 
 mkdirs:
 	mkdir -p public/assets/css public/assets/js
@@ -31,17 +28,17 @@ copy:
 render_css:
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
 
+watch_css:
+	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
+
 render_html: 
-	$(LS_BIN) $(JADE)
+	$(LIVESCRIPT_BIN) $(JADE)
 
 clean:
 	rm -rf public/
-
-cssw:
-	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
 
 all: mkdirs copy render_css render_html
 
 uber: clean all
 
-.PHONY: clean render_html
+.PHONY: watch_css render_html clean
