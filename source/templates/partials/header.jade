@@ -1,7 +1,16 @@
-header.site
-  h1: a(href=routes.root)= t.title
+#header
+  
+  #page_title
+    a#brand(href=routes.root)
+      strong PRISM
+      span.lightning  &#9889; 
+      | Break 
+
   ul
     li: a(href=routes.categories)= t.categories
     li: a(href=routes.protocols)= t.protocols
     li: a(href=routes.projects)= t.projects
-      
+
+  //
+    a.menu_toggle.btn_corner.right
+      span.btn.fa-icon.bars
