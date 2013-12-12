@@ -13,25 +13,15 @@ STYLUS_PARAMS = -c -u ./node_modules/nib/
 
 # Inputs
 JADE = ./source/templates/index.ls
-#LS_DIR = source/ls/
-#JS_DIR = source/js/
-#JS_ALL = source/js/*.js
 STYLUS = ./source/stylesheets/screen.styl
 
 # Outputs
 CSS = ./public/assets/css/screen.css
-#JS_CAT = public/js/main.js
 HTML = ./public/**/*.html
 JSON = ./public/**/*.json
 
 $(CSS): $(STYLUS)
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$< >$@
-
-#$(JS_DIR): $(LS_DIR)
-#	$(LS_BIN) $(LS_PARAMS) $@ $<
-
-#$(JS_CAT): $(JS_ALL)
-#	cat $^ > $@
 
 mkdir_public:
 	mkdir -p public public/assets/css public/assets/js
