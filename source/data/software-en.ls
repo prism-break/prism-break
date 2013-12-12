@@ -1265,11 +1265,11 @@ data =
     protocols: ["IRC", "OTR", "SIP", "XMPP"]
     categories: [
       * name: "BSD"
-        subcategories: ["Instant Messaging," "IRC"]
+        subcategories: ["Instant Messaging", "IRC"]
       * name: "Linux"
-        subcategories: ["Instant Messaging," "IRC"]
+        subcategories: ["Instant Messaging", "IRC"]
       * name: "Windows"
-        subcategories: ["Instant Messaging," "IRC"]
+        subcategories: ["Instant Messaging", "IRC"]
     ]
 
   * description: "Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie\u2013Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.\n"
@@ -1285,11 +1285,11 @@ data =
     protocols: ["OTR"]
     categories: [
       * name: "BSD"
-        subcategories: ["Instant Messaging," "IRC"]
+        subcategories: ["Instant Messaging", "IRC"]
       * name: "Linux"
-        subcategories: ["Instant Messaging," "IRC"]
+        subcategories: ["Instant Messaging", "IRC"]
       * name: "Windows"
-        subcategories: ["Instant Messaging," "IRC"]
+        subcategories: ["Instant Messaging", "IRC"]
     ]
 
   * description: "Gajim /\u0261\u025b\u02c8\u0292i\u02d0m/ is an instant messaging client for the XMPP protocol which uses the GTK+ toolkit. The name Gajim is a recursive acronym for Gajim's a jabber instant messenger. Gajim runs on GNU/Linux, BSD and Microsoft Windows. "
