@@ -1,6 +1,7 @@
 'use strict'
 
 # libraries
+require! fs
 require! mkdirp
 {slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
 {tmpl, routes, write-html, write-json} = require '../functions/paths.ls'
@@ -52,12 +53,19 @@ for language, translation of translations
       t: translation
     file = public-dir + path
 
-    write-html template, options, file
-    write-json data, file
+    write = ->
+      write-html template, options, file
+      write-json data, file
+
+    mkdirp public-dir + 'categories', (err) ->
+      if err
+        console.error err
+      else
+        write!
 
   # WRITE categories/show
   do ->
-    for category in nested-categories(database)
+    create = (category) ->
       data = subcategories-in(category.name, database)
 
       path = "categories/#{category.slug}/"
@@ -71,32 +79,50 @@ for language, translation of translations
       full-path = public-dir + path
       file = full-path + 'index'
 
-      mkdirp full-path
-      write-html template, options, file
-      write-json data, file
+      write = ->
+        write-html template, options, file
+        write-json data, file
+
+      mkdirp full-path, (err) ->
+        if err
+          console.error err
+        else
+          write!
+
+    for category in nested-categories(database)
+      create category
 
   # WRITE subcategories/show
   do ->
-    for category in nested-categories(database)
-      for subcategory in category.subcategories
-        data = in-this-subcategory(subcategory.name, in-this-category(category.name, database))
+    create = (subcategory) ->
+      data = in-this-subcategory(subcategory.name, in-this-category(category.name, database))
 
-        path = "subcategories/#{category.slug}-#{subcategory.slug}/"
-        template = tmpl 'subcategories/show'
-        options = 
-          pretty: true
-          category: category
-          category-file: "../../categories/#{category.slug}"
-          subcategory: subcategory
-          table: data
-          routes: routes 'subcategories', 2
-          t: translation
-        full-path = public-dir + path
-        file = full-path + 'index'
+      path = "subcategories/#{category.slug}-#{subcategory.slug}/"
+      template = tmpl 'subcategories/show'
+      options = 
+        pretty: true
+        category: category
+        category-file: "../../categories/#{category.slug}"
+        subcategory: subcategory
+        table: data
+        routes: routes 'subcategories', 2
+        t: translation
+      full-path = public-dir + path
+      file = full-path + 'index'
 
-        mkdirp full-path
+      write = ->
         write-html template, options, file
         write-json data, file
+
+      mkdirp full-path, (err) ->
+        if err
+          console.error err
+        else
+          write!
+
+    for category in nested-categories(database)
+      for subcategory in category.subcategories
+        create subcategory
 
   # WRITE protocols/index
   do ->
@@ -111,12 +137,19 @@ for language, translation of translations
       t: translation
     file = public-dir + path
 
-    write-html template, options, file
-    write-json data, file
+    write = ->
+      write-html template, options, file
+      write-json data, file
+
+    mkdirp public-dir + 'protocols', (err) ->
+      if err
+        console.error err
+      else
+        write!
 
   # WRITE protocols/show
   do ->
-    for protocol in protocols-in(database)
+    create = (protocol) ->
       data = protocol
 
       path = "protocols/#{protocol.slug}/"
@@ -130,9 +163,18 @@ for language, translation of translations
       full-path = public-dir + path
       file = full-path + 'index'
 
-      mkdirp full-path
-      write-html template, options, file
-      write-json data, file
+      write = ->
+        write-html template, options, file
+        write-json data, file
+
+      mkdirp full-path, (err) ->
+        if err
+          console.error err
+        else
+          write!
+
+    for protocol in protocols-in(database)
+      create protocol
 
   # WRITE projects/index
   do ->
@@ -147,13 +189,20 @@ for language, translation of translations
       t: translation
     file = public-dir + path
 
-    write-html template, options, file
-    write-json data, file
+    write = ->
+      write-html template, options, file
+      write-json data, file
+
+    mkdirp public-dir + 'projects', (err) ->
+      if err
+        console.error err
+      else
+        write!
 
   # WRITE projects/show
   do ->
-    for project in database
-      data = project
+
+    create = (project) ->
 
       path = "projects/#{project.slug}/"
       template = tmpl 'projects/show'
@@ -165,6 +214,17 @@ for language, translation of translations
       full-path = public-dir + path
       file = full-path + 'index'
 
-      mkdirp full-path
-      write-html template, options, file
-      write-json data, file
+      write = ->
+        write-html template, options, file
+        write-json data, file
+
+      mkdirp full-path, (err) ->
+        if err
+          console.error err
+        else
+          write!
+
+    for project in database
+      create project
+
+
