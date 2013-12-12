@@ -4,4 +4,4 @@ ja = require './ja'
 
 #exports.de = de['translations']
 exports.en = en['translations']
-#exports.ja = de['translations']
+#exports.ja = ja['translations']

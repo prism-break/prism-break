@@ -1,7 +1,7 @@
 translations =
   title: 'プリズムブレイク'
-  categories: 'カテゴリ'
-  protocols: 'プロトコル'
-  projects: 'プロジェクト'
+  Categories: 'カテゴリ'
+  Protocols: 'プロトコル'
+  Projects: 'プロジェクト'
 
 exports.translations = translations
