@@ -1530,4 +1530,414 @@ data =
         subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
+  * description: "Open source, federated social network."
+    license_url: "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE"
+    logo: "buddycloud.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/buddycloud"
+    name: "buddycloud"
+    tos_url: ""
+    url: "http://buddycloud.com/"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS", "XMPP"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["File Storage & Sync", "Social Networks"]
+    ]
+
+  * description: "Self-hosted social stream server."
+    license_url: "https://github.com/e14n/pump.io/blob/master/LICENSE"
+    logo: "pumpio.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/e14n/pump.io"
+    name: "pump.io"
+    tos_url: ""
+    url: "http://pump.io/"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Social Networks"]
+    ]
+
+  * description: "Diaspora (stylized DIASPORA*) is a free personal web server that implements a distributed social networking service. Installations of the software form nodes (termed \"pods\") which make up the distributed Diaspora social network.\nThe project was founded by Dan Grippi, Maxwell Salzberg, Raphael Sofaer and Ilya Zhitomirskiy, students at New York University's Courant Institute of Mathematical Sciences. "
+    license_url: "https://github.com/diaspora/diaspora/blob/develop/COPYRIGHT"
+    logo: "diaspora.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/diaspora/diaspora"
+    name: "diaspora*"
+    tos_url: ""
+    url: "https://diasporafoundation.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Diaspora_%28software%29"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Social Networks"]
+      * name: "Services"
+        subcategories: ["Social Networks"]
+    ]
+
+  * description: "Friendica (formerly known as Friendika) is open source software that implements a distributed social network. Before it became Friendika, the project started initially as Mistpark, developed by Mike Macgirvin,[citation needed] a software developer formerly employed by Symantec Corporation, America Online (AOL), Sun Microsystems, Netscape Communications, and Stanford University who had worked on the original Netscape Navigator project, among others. Friendica has an emphasis on extensive privacy settings and easy server installation. "
+    license_url: "https://github.com/friendica/friendica/blob/master/LICENSE"
+    logo: "friendica.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/friendica?tab=repositories"
+    name: "friendica"
+    tos_url: ""
+    url: "http://friendica.com/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Friendica"
+    protocols: ["RSS", "SSL/TLS", "XMPP"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Social Networks"]
+    ]
+
+  * description: "Self-hosted, decentralized social network."
+    license_url: "https://gitorious.org/statusnet/gnu-social/source/5308e04e83f4a3f04e6d8bf80b177e7208dbac58:COPYING"
+    logo: "gnu-social.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://gitorious.org/+socialites/statusnet/gnu-social"
+    name: "GNU social"
+    tos_url: ""
+    url: "https://www.gnu.org/software/social/"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Social Networks"]
+    ]
+
+  * description: null
+    license_url: "https://github.com/lorea/Elgg/blob/master/LICENSE.txt"
+    logo: "lorea.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/lorea"
+    name: "Lorea"
+    tos_url: ""
+    url: "https://lorea.org/"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Social Networks"]
+    ]
+
+  * description: "MOVIM (My Open Virtual Identity Manager) is a distributed social network built on top of XMPP, a popular open standards communication protocol. Movim is a free and open source software licensed under the AGPL. It can be accessed using existing XMPP clients and Jabber accounts.\n"
+    license_url: "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING"
+    logo: "movim.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://code.launchpad.net/movim"
+    name: "Movim"
+    tos_url: ""
+    url: "http://movim.eu/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Movim"
+    protocols: ["SSL/TLS", "XMPP"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Social Networks"]
+      * name: "Services"
+        subcategories: ["Social Networks"]
+    ]
+
+  * description: "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo."
+    license_url: ""
+    logo: "disconnect-search.png"
+    notes: "The source code can be downloaded for viewing by right clicking \"Get Disconnect Search\" on the official website and selecting \"Save Link As...\".\r\n\r\nWith \"search.xpi\" downloaded, change the file extension to \".zip\" and extract it to view the source code."
+    privacy_url: ""
+    source_url: "https://disconnect.me/search"
+    name: "Disconnect Search"
+    tos_url: ""
+    url: "https://disconnect.me/search"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Services"
+        subcategories: ["Web Search"]
+    ]
+
+  * description: "Multi-frontend, multipurpose communication tool."
+    license_url: "http://repos.goffi.org/sat/file/6aa71c853bf5/COPYING"
+    logo: "sat.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://sat.goffi.org/developers.html"
+    name: "Salut \u00e0 Toi"
+    tos_url: ""
+    url: "http://sat.goffi.org/"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS", "XMPP"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Social Networks"]
+    ]
+
+  * description: "Protocol for realtime decentralized communication and personal data storage."
+    license_url: "https://github.com/tent/tentd/blob/master/README.md"
+    logo: "tent.png"
+    notes: "Tent mentions that it's still in alpha:\r\n\r\n*\"Remember, Tent is still in alpha, so it\u2019s not safe to use with information you would not want to be public and should not be considered reliable.\"*"
+    privacy_url: ""
+    source_url: "https://github.com/tent"
+    name: "Tent"
+    tos_url: ""
+    url: "https://tent.io/"
+    wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Communication Protocols"]
+    ]
+
+  * description: "Synchronize folders on your computers and drives."
+    license_url: "https://git-annex.branchable.com/license/"
+    logo: "git-annex.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/joeyh/git-annex"
+    name: "git-annex"
+    tos_url: ""
+    url: "https://git-annex.branchable.com/"
+    wikipedia_url: ""
+    protocols: ["GPG"]
+    categories: [
+      * name: "Android"
+        subcategories: ["File Storage & Sync"]
+      * name: "Servers"
+        subcategories: ["File Storage & Sync"]
+      * name: "Linux"
+        subcategories: ["File Storage & Sync"]
+      * name: "Mac OS X"
+        subcategories: ["File Storage & Sync"]
+      * name: "Windows"
+        subcategories: ["File Storage & Sync"]
+    ]
+
+  * description: "A personal PaaS you can host, hack and delete."
+    license_url: "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE"
+    logo: "cozy.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/mycozycloud/"
+    name: "Cozy"
+    tos_url: ""
+    url: "http://cozy.io/"
+    wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["File Storage & Sync"]
+    ]
+
+  * description: "ownCloud is a free and open-source web application for data synchronization, file sharing, and remote storage of documents (\"cloud storage\").\nownCloud is written in the PHP and JavaScript scripting languages. For change management, it employs SabreDAV, an open-source WebDAV server. "
+    license_url: "https://github.com/owncloud/core/blob/master/COPYING-README"
+    logo: "owncloud.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/owncloud"
+    name: "ownCloud"
+    tos_url: ""
+    url: "http://owncloud.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/OwnCloud"
+    protocols: ["CalDAV", "CardDAV"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["File Storage & Sync"]
+    ]
+
+  * description: "SparkleShare is open-source client software that provides cloud storage and file synchronization services. By default, it uses Git as a storage backend. It is comparable to Dropbox, but the cloud storage can be provided by the user's own server, or a hosted solution such as GitHub and Gitorious. "
+    license_url: "https://github.com/hbons/SparkleShare/tree/master/legal"
+    logo: "sparkleshare.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/hbons/SparkleShare"
+    name: "SparkleShare"
+    tos_url: ""
+    url: "http://sparkleshare.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/SparkleShare"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["File Storage & Sync"]
+      * name: "Linux"
+        subcategories: ["File Storage & Sync"]
+      * name: "Mac OS X"
+        subcategories: ["File Storage & Sync"]
+      * name: "Windows"
+        subcategories: ["File Storage & Sync"]
+    ]
+
+  * description: "Tahoe-LAFS (Tahoe Least-Authority Filesystem) is an open source, secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system. It can be used as an online backup system, or to serve as a file or web host similar to Freenet, depending on the front-end used to insert and access files in the Tahoe system. Tahoe can also be used in a RAID-like manner to use multiple disks to make a single large RAIN pool of reliable data storage.\n"
+    license_url: "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL"
+    logo: "taho-lafs.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/tahoe-lafs/tahoe-lafs"
+    name: "Taho-LAFS"
+    tos_url: ""
+    url: "https://tahoe-lafs.org/trac/tahoe-lafs"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Tahoe-LAFS"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["File Storage & Sync"]
+    ]
+
+  * description: "A free securely-hosted online poll with an optional privacy-enhanced version."
+    license_url: "https://dudle.inf.tu-dresden.de/about.cgi"
+    logo: "dudle.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://dudle.inf.tu-dresden.de/about.cgi"
+    name: "dudle"
+    tos_url: ""
+    url: "https://dudle.inf.tu-dresden.de/"
+    wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Productivity"]
+      * name: "Services"
+        subcategories: ["Productivity"]
+    ]
+
+  * description: "ProtectedText is a free online encrypted notepad with open source cryptography."
+    license_url: ""
+    logo: "protextedtext.png"
+    notes: "ProtectedText encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities."
+    privacy_url: ""
+    source_url: "https://www.protectedtext.com/js/main.js"
+    name: "ProtectedText"
+    tos_url: ""
+    url: "https://www.protectedtext.com/"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Services"
+        subcategories: ["Productivity"]
+    ]
+
+  * description: "Etherpad (previously known as EtherPad) is a web-based collaborative real-time editor, allowing authors to simultaneously edit a text document, and see all of the participants' edits in real-time, with the ability to display each author's text in their own color. There is also a chat box in the sidebar to allow meta communication.\nFirst launched in November 2008, the software was acquired by Google in December 2009 and released as open source later that month. "
+    license_url: "https://github.com/ether/etherpad-lite/blob/develop/LICENSE"
+    logo: "etherpad.png"
+    notes: "The etherpad project maintains a list of [sites that run etherpad services](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Please only choose from the services that use SSL, and research the site's background before trusting them with your data."
+    privacy_url: ""
+    source_url: "https://github.com/ether/etherpad-lite"
+    name: "Etherpad"
+    tos_url: ""
+    url: "http://etherpad.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Etherpad"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Productivity"]
+      * name: "Services"
+        subcategories: ["Productivity"]
+    ]
+
+  * description: "*\"EtherCalc is a web spreadsheet.*\r\n\r\n*Your data is saved on the web, and people can edit the same document at the same time. Everybody's changes are instantly reflected on all screens.\"*"
+    license_url: "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt"
+    logo: "ethercalc.png"
+    notes: "The EtherCalc service does not encrypt your data transmission with HTTPS, and there's no privacy policy regarding what is done with your data either. Download and run your own EtherCalc server if you care about privacy."
+    privacy_url: ""
+    source_url: "https://github.com/audreyt/ethercalc"
+    name: "EtherCalc"
+    tos_url: ""
+    url: "http://ethercalc.net/"
+    wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Productivity"]
+      * name: "Services"
+        subcategories: ["Productivity"]
+    ]
+
+  * description: "MediaCrush offers privacy-first fast media (image, audio, video) hosting.\r\n\r\nYou may also run your own instance of MediaCrush."
+    license_url: "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE"
+    logo: "mediacrush.png"
+    notes: ""
+    privacy_url: "https://mediacru.sh/serious"
+    source_url: "https://github.com/MediaCrush/MediaCrush"
+    name: "MediaCrush"
+    tos_url: "https://mediacru.sh/serious"
+    url: "https://mediacru.sh/"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Productivity"]
+      * name: "Services"
+        subcategories: ["Productivity"]
+    ]
+
+  * description: "GNU MediaGoblin (also shortened to MediaGoblin or GMG) is a free, decentralized Web platform (server software) for hosting and sharing many forms of digital media; and strives to provide an extensible, federated, and freedom-respectful software alternative to major media publishing services such as Flickr, deviantArt, YouTube, etc."
+    license_url: "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING"
+    logo: "mediagoblin.png"
+    notes: "MediaGoblin does not encrypt any of your data by default."
+    privacy_url: ""
+    source_url: "https://gitorious.org/mediagoblin/mediagoblin"
+    name: "MediaGoblin"
+    tos_url: ""
+    url: "http://mediagoblin.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/MediaGoblin"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
+    ]
+
+  * description: "Piwigo is photo gallery software for the web, built by an active community of users and developers. Freely available extensions make Piwigo easily customizable. It is notable as a system with many features.\n"
+    license_url: "http://piwigo.org/basics/license"
+    logo: "piwigo.png"
+    notes: "Piwigo does not encrypt any of your data by default."
+    privacy_url: ""
+    source_url: "http://piwigo.org/dev/browser"
+    name: "Piwigo"
+    tos_url: ""
+    url: "http://piwigo.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Piwigo"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
+    ]
+
+  * description: "WordPress is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL, which runs on a web hosting service. Features include a plug-in architecture and a template system. WordPress is used by more than 18.9% of the top 10 million websites as of August 2013[update]. "
+    license_url: "http://wordpress.org/about/license/"
+    logo: "wordpress.png"
+    notes: "WordPress does not encrypt any of your data by default.\r\n\r\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\r\n"
+    privacy_url: "http://wordpress.org/about/privacy/"
+    source_url: "http://core.trac.wordpress.org/browser"
+    name: "WordPress"
+    tos_url: ""
+    url: "https://wordpress.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/WordPress"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
+    ]
+
+  * description: "Self-hosted media management system."
+    license_url: "http://www.zenphoto.org/pages/licenses"
+    logo: "zenphoto.png"
+    notes: "Zenphoto does not encrypt any of your data by default."
+    privacy_url: "http://www.zenphoto.org/pages/privacy"
+    source_url: "https://github.com/zenphoto/zenphoto"
+    name: "Zenphoto"
+    tos_url: "http://www.zenphoto.org/support/?terms-of-service=display"
+    url: "http://www.zenphoto.org/"
+    wikipedia_url: ""
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
+    ]
+
 exports.data = data
