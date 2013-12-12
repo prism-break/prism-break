@@ -2,6 +2,7 @@
 # npm install
 # make 					# to compile targets
 # make clean 		# to delete compiled files
+# make cssw 		# to watch stylus for changes
 # watch make 		# to periodically compile
 
 # Binaries
@@ -10,6 +11,7 @@ LS_BIN = $(BIN)lsc
 LS_PARAMS = -cob
 STYLUS_BIN = $(BIN)stylus
 STYLUS_PARAMS = -c -u ./node_modules/nib/
+STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u ./node_modules/nib/ -o public/assets/css/
 
 # Inputs
 JADE = ./source/templates/index.ls
@@ -31,6 +33,9 @@ render_html:
 
 clean:
 	rm -rf public/
+
+cssw:
+	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
 
 all: mkdir_public $(CSS) render_html
 
