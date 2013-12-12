@@ -6,7 +6,7 @@ require! mkdirp
 {tmpl, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
-{data} = require '../data/software-en.ls'
+{data} = require '../data/en-projects.ls'
 translations = require '../translations'
 
 # the main database
