@@ -26,7 +26,11 @@ $(CSS): $(STYLUS)
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$< >$@
 
 mkdir_public:
-	mkdir -p public public/assets/css public/assets/js
+	mkdir -p public/assets/css public/assets/js
+
+cp_images:
+	mkdir -p public/assets/
+	cp -r source/images public/assets/img
 
 render_html: 
 	$(LS_BIN) $(JADE)
@@ -37,7 +41,7 @@ clean:
 cssw:
 	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
 
-all: mkdir_public $(CSS) render_html
+all: mkdir_public cp_images $(CSS) render_html
 
 uber: clean all
 
