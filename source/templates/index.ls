@@ -1,7 +1,6 @@
 'use strict'
 
 # libraries
-require! fs
 require! mkdirp
 {slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
 {tmpl, routes, write-html, write-json} = require '../functions/paths.ls'
