@@ -221,6 +221,7 @@ write-projects-show = (translation) ->
 
 for language, translation of translations
 
+  t = translation
   public-dir = "public/#{language}/"
   mkdirp public-dir
 

@@ -1,7 +1,7 @@
 translations =
   title: 'Prisma Breka'
-  categories: 'Kategorien'
-  protocols: 'Protokolle'
-  projects: 'Projekte'
+  Categories: 'Kategorien'
+  Protocols: 'Protokolle'
+  Projects: 'Projekte'
 
 exports.translations = translations
