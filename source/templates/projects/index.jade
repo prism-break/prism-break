@@ -6,12 +6,14 @@ html
     include ../partials/header
 
     .section
-      ul
-        - each project in table
-          li 
-            a(href=project.slug)
-              img(src= routes.logos + project.logo)
-              .name= project.name
-              .category= project.protocols
+      - each project in table
+        .card
+          a.btn-rectangle(href=project.slug)
+            img.card-logo(src= routes.logos + project.logo)
+            .title= project.name
+            .category= project.protocols
+
+          a.btn-square(href=project.url)
+            | external-link-square
 
     include ../partials/footer
