@@ -1,0 +1,23 @@
+button()
+  d inline-block
+  b 1px solid b40
+  br 3px
+  cursor pointer
+  p 0 .7em
+  df()
+  lh m*2px - 3px
+  ts b50 0 0 5px
+  background linear-gradient(top, m70 0%, m55 100%)
+  bs inset w10 0 0 3px, w8 0 1px 0
+  c txt
+  &:hover, &:focus
+    background linear-gradient(top, m75 0%, m65 100%)
+  &:active
+    background linear-gradient(top, m50 0%, m65 100%)
+  &.disabled
+    cursor default
+    opacity .75
+    &:hover
+      background linear-gradient(top, m80 0%, m60 100%)
+  &[disabled]:active, &[disabled]:hover
+    background #EEEEEE

@@ -1,0 +1,85 @@
+/* PROPRIETARY */
+
+.prop
+  &.empty
+    d none
+
+.prop ul
+  p .5em 0 .75em
+  bb 1px solid #ddd
+
+.prop ul li
+  p .25em .75em
+
+.prop .logo
+  float left
+  margin-right .5em
+
+.prop .logo img
+  display block
+  width 16px
+  height 16px
+
+.prop .name
+  lh x
+
+
+/* FREE */
+
+.free ul li
+  border-bottom 1px solid #ddd
+  list-style none
+  clearfix()
+  line-height 1.25
+
+  a
+    d block
+    p .75em
+    clearfix()
+    &:hover
+      h5
+        td underline
+        c hover
+
+  img.logo
+    d block
+    float left
+    w 50px
+    h 50px
+    mr x
+
+  h5, p
+    display inline
+
+  h5
+    font-weight bold
+    pr x * 0.25
+
+  p.desc
+    c txt
+
+  &.plugin
+    bl x * 0.75 solid #eee
+    font-size 80%
+    img.logo
+      w 25px
+      h 25px
+      ml x
+
+/* NOTES */
+
+.notes div
+  p .75em 1em 0
+
+  p, ul
+    margin 0 0 1em
+    max-width 50em
+    a:hover
+      td underline
+
+  blockquote
+    bg #f6f6f6
+    p .5em .75em
+    mb 1em
+    p:last-of-type
+      mb .5em

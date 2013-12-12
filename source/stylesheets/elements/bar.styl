@@ -1,0 +1,41 @@
+.bar
+  d block
+  h 44px
+  w 100%
+  p 0 1em
+  ta left
+  f 1em/43px sans
+  c #333
+  bg #fff
+  b none
+  bb 1px solid #ddd
+  &.warning
+    c #f00
+
+  .label
+    float left
+    pl 1em
+
+    .logo
+      w 24px
+      h 24px
+      float left
+      m 10px 8px 0 -6px
+
+  .icon
+    float right
+    w 44px
+    ta center
+    c dim
+
+a.bar, button.bar
+  relative()
+  p 0
+  cursor pointer
+  &:hover
+    c #000
+    bg m245
+  &:active
+    c #000
+    bg m235
+
