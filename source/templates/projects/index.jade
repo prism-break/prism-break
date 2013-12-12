@@ -5,15 +5,14 @@ html
   body
     include ../partials/header
 
-    .section
-      - each project in table
-        .card
-          a.btn-rectangle(href=project.slug)
-            img.card-logo(src= routes.logos + project.logo)
-            .title= project.name
-            .category= project.protocols
+    - each project in table
+      .card
+        a.btn-rectangle(href=project.slug)
+          img.card-logo(src= routes.logos + project.logo)
+          .title= project.name
+          .category= project.protocols
 
-          a.btn-square(href=project.url)
-            | external-link-square
+        a.btn-square(href=project.url)
+          i.fa.fa-external-link-square
 
     include ../partials/footer
