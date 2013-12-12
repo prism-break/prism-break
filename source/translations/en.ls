@@ -1,7 +1,7 @@
 translations =
   title: 'Prism Break'
-  categories: 'Categories'
-  protocols: 'Protocols'
-  projects: 'Projects'
+  Categories: 'Categories'
+  Protocols: 'Protocols'
+  Projects: 'Projects'
 
 exports.translations = translations
