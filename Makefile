@@ -24,6 +24,7 @@ mkdirs:
 
 copy:
 	cp -r source/images public/assets/img
+	cp -r source/fonts public/assets/fonts
 
 render_css:
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
