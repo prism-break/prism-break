@@ -2,7 +2,7 @@
 
 # libraries
 require! mkdirp
-{slugify-db, subcategories-in, protocols-in, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
+{slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
 {tmpl, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
@@ -79,7 +79,7 @@ for language, translation of translations
   do ->
     for category in nested-categories(database)
       for subcategory in category.subcategories
-        data = in-this-subcategory(subcategory.name, database)
+        data = in-this-subcategory(subcategory.name, in-this-category(category.name, database))
 
         path = "subcategories/#{category.slug}-#{subcategory.slug}/"
         template = tmpl 'subcategories/show'
