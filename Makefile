@@ -31,7 +31,7 @@ render_css:
 watch_css:
 	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
 
-render_html: 
+render_html:
 	$(LIVESCRIPT_BIN) $(JADE)
 
 clean:
