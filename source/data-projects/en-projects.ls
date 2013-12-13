@@ -184,7 +184,7 @@ data =
     wikipedia_url: "https://en.wikipedia.org/wiki/OpenSUSE"
     protocols: []
     categories: [
-      * name: "Server"
+      * name: "Servers"
         subcategories: ["Operating Systems"]
       * name: "Linux"
         subcategories: ["Operating Systems"]
@@ -658,7 +658,7 @@ data =
     wikipedia_url: "https://en.wikipedia.org/wiki/Scientific_Linux"
     protocols: []
     categories: [
-      * name: "Server"
+      * name: "Servers"
         subcategories: ["Operating Systems"]
     ]
 
