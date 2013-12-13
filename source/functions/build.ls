@@ -59,14 +59,14 @@ write-categories-index = ->
 
 write-categories-show = (translation) ->
   create = (category) ->
-    data = subcategories-in(category.name, database)
+    category.subcategories = subcategories-in(category.name, database)
+    data = category
 
     path = "categories/#{category.slug}/"
     view = view-path 'categories/show'
     options = 
       pretty: true
       category: category
-      table: data
       routes: routes 'categories', 2
       t: translation
     full-path = public-dir + path
