@@ -87,16 +87,16 @@ write-categories-show = (translation) ->
 
 write-subcategories-show = (translation) ->
   create = (subcategory) ->
-    data = in-this-subcategory(subcategory.name, in-this-category(category.name, database))
+    data =
+      category: category
+      subcategory: subcategory
+      projects: in-this-subcategory(subcategory.name, in-this-category(category.name, database))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
     view = view-path 'subcategories/show'
     options = 
       pretty: true
-      category: category
-      category-file: "../../categories/#{category.slug}"
-      subcategory: subcategory
-      table: data
+      data: data
       routes: routes 'subcategories', 2
       t: translation
     full-path = public-dir + path
