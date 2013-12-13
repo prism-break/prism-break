@@ -1,15 +1,13 @@
 extends ../layouts/application
 block content
 
-  - each category in table
+  - each category in categories
 
-    .section
-
-      a.h2(href="./#{category.slug}")
+    .pipe 
+      a(href="./#{category.slug}")
         | #{category.name} (#{category.subcategories.length})
 
-      ul
-        - each subcategory in category.subcategories
-          li 
-            a(href="../subcategories/#{category.slug}-#{subcategory.slug}")
-              .name= subcategory.name
+    - each subcategory in category.subcategories
+      a.bar(href="../subcategories/#{category.slug}-#{subcategory.slug}")
+        .label= subcategory.name
+        .icon: i.fa.fa-angle-right

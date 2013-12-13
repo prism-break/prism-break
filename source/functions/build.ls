@@ -42,7 +42,7 @@ write-categories-index = ->
   view = view-path path
   options = 
     pretty: true
-    table: nested-categories(database)
+    categories: data
     routes: routes 'categories', 1
     t: translation
   file = public-dir + path
