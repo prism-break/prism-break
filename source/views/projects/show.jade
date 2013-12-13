@@ -14,12 +14,12 @@ block content
     .section
       .text-block= project.description
 
-  - if(typeof project.notes !== 'undefined')
+  - if(project.notes !== "")
     .section
       .pipe Security Notes
       .text-block= project.notes
 
-  - if(typeof project.protocols !== [])
+  - if(project.protocols.length > 0)
     .section
       .pipe Supported Protocols
       - for protocol in project.protocols
@@ -34,17 +34,17 @@ block content
       .label Official Website
       .icon: i.fa.fa-external-link
 
-    - if(typeof project.wikipedia_url !== 'undefined')
+    - if(project.wikipedia_url !== '')
       a.bar(href=project.wikipedia_url)
         .label Wikipedia Article
         .icon: i.fa.fa-external-link
 
-    - if(typeof project.privacy_url !== 'undefined')
+    - if(project.privacy_url !== '')
       a.bar(href=project.privacy_url)
         .label Privacy Policy
         .icon: i.fa.fa-external-link
 
-    - if(typeof project.tos_url !== 'undefined')
+    - if(project.tos_url !== '')
       a.bar(href=project.tos_url)
         .label Terms of Service
         .icon: i.fa.fa-external-link
@@ -52,14 +52,14 @@ block content
   .section
     .pipe Source Code
 
-    - if(typeof project.license_url !== 'undefined')
+    - if(project.license_url !== '')
       a.bar(href=project.license_url)
         .label Software License
         .icon: i.fa.fa-external-link
     - else
       .bar.warning Software License Unavailable
 
-    - if(typeof project.source_url !== 'undefined')
+    - if(project.source_url !== '')
       a.bar(href=project.source_url)
         .label Source Code
         .icon: i.fa.fa-external-link
