@@ -1,6 +1,6 @@
 data =
 
-  * description: "Debian (/\u02c8d\u025bbi\u0259n/) is an operating system composed of free software mostly carrying the GNU General Public License. The operating system is developed by an internet collaboration of volunteers aligned with The Debian Project.\nDebian systems can use either the Linux kernel (known as the Debian GNU/Linux distribution), the FreeBSD kernel (known as the Debian GNU/kFreeBSD distribution) or, more recently, the GNU Hurd kernel (more precisely, the GNU Mach microkernel and its servers; known as the Debian GNU/Hurd distribution).\n"
+  * description: "Debian (/\u02c8d\u025bbi\u0259n/) is an operating system composed of free software mostly carrying the GNU General Public License. The operating system is developed by an internet collaboration of volunteers aligned with The Debian Project.\nDebian systems can use either the Linux kernel (known as the Debian GNU/Linux distribution), the FreeBSD kernel (known as the Debian GNU/kFreeBSD distribution) or, more recently, the GNU Hurd kernel (more precisely, the GNU Mach microkernel and its servers; known as the Debian GNU/Hurd distribution)."
     license_url: "http://www.debian.org/legal/licenses/"
     logo: "debian.png"
     notes: ""
@@ -25,7 +25,7 @@ data =
   * description: "Tor Browser Bundle is a web browser based on Firefox ESR, pre-configured to protect users' privacy and anonymity on the web. is a free repackaged version of the bundled Tor Software. The program allows the end user to connect to the Tor anonymity network. "
     license_url: "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE"
     logo: "tor-browser-bundle.png"
-    notes: "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\r\n\r\nSigning into HTTP websites can result in your ID being captured by a Tor exit node."
+    notes: "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\nSigning into HTTP websites can result in your ID being captured by a Tor exit node."
     privacy_url: "https://www.torproject.org/about/overview.html.en"
     source_url: "https://gitweb.torproject.org/tor.git"
     name: "Tor Browser Bundle"
@@ -152,7 +152,7 @@ data =
         subcategories: ["Operating Systems"]
     ]
 
-  * description: "Linux Mint is a Linux distribution for desktop computers, based on Ubuntu or Debian. Linux Mint is aimed at being a \"modern, elegant and comfortable operating system which is both powerful and easy to use.\" Mint provides full out-of-the-box multimedia support by including some proprietary software such as Java and Adobe Flash. Mint's motto is \"from freedom came elegance\".\n"
+  * description: "Linux Mint is a Linux distribution for desktop computers, based on Ubuntu or Debian. Linux Mint is aimed at being a \"modern, elegant and comfortable operating system which is both powerful and easy to use.\" Mint provides full out-of-the-box multimedia support by including some proprietary software such as Java and Adobe Flash. Mint's motto is \"from freedom came elegance\"."
     license_url: "http://www.linuxmint.com/faq.php"
     logo: "linux-mint.png"
     notes: ""
@@ -364,7 +364,7 @@ data =
         subcategories: ["Operating Systems (Live)"]
     ]
 
-  * description: "Java Anon Proxy, also known as JAP or JonDonym, is a proxy system designed to allow browsing the Web with revocable pseudonymity. It was originally developed as part of a project of the Technische Universit\u00e4t Dresden, the Universit\u00e4t Regensburg and Privacy Commissioner of Schleswig-Holstein. The client-software is written in the Java programming language.\n"
+  * description: "Java Anon Proxy, also known as JAP or JonDonym, is a proxy system designed to allow browsing the Web with revocable pseudonymity. It was originally developed as part of a project of the Technische Universit\u00e4t Dresden, the Universit\u00e4t Regensburg and Privacy Commissioner of Schleswig-Holstein. The client-software is written in the Java programming language."
     license_url: "https://anonymous-proxy-servers.net/en/help/credits.html"
     logo: "jondonym.png"
     notes: ""
@@ -424,7 +424,7 @@ data =
         subcategories: ["Operating Systems"]
     ]
 
-  * description: "Replicant is a project aiming to provide a fully free Android distribution running on several devices. Replicant is thus a Free Software project that intends to replace the proprietary software that many phones need to make use of the full potential of the hardware or other functionalities of the device.\n"
+  * description: "Replicant is a project aiming to provide a fully free Android distribution running on several devices. Replicant is thus a Free Software project that intends to replace the proprietary software that many phones need to make use of the full potential of the hardware or other functionalities of the device."
     license_url: "http://replicant.us/about/"
     logo: "replicant.png"
     notes: ""
@@ -478,7 +478,7 @@ data =
         subcategories: ["Operating Systems"]
     ]
 
-  * description: "Java Anon Proxy, also known as JAP or JonDonym, is a proxy system designed to allow browsing the Web with revocable pseudonymity. It was originally developed as part of a project of the Technische Universit\u00e4t Dresden, the Universit\u00e4t Regensburg and Privacy Commissioner of Schleswig-Holstein. The client-software is written in the Java programming language.\n"
+  * description: "Java Anon Proxy, also known as JAP or JonDonym, is a proxy system designed to allow browsing the Web with revocable pseudonymity. It was originally developed as part of a project of the Technische Universit\u00e4t Dresden, the Universit\u00e4t Regensburg and Privacy Commissioner of Schleswig-Holstein. The client-software is written in the Java programming language."
     license_url: "https://anonymous-proxy-servers.net/en/help/credits.html"
     logo: "jondonym.png"
     notes: ""
@@ -500,7 +500,7 @@ data =
         subcategories: ["Web Browsers"]
     ]
 
-  * description: "Orbot is an open source client for the Tor network on Android mobile devices. The client allows you to route traffic going from your device's web browser, e-mail client, map program, etc., through the Tor network, providing anonymity for the user.\nThis tool is being used by political dissidents around the world to keep their communications on smartphones secure from the governments that may be monitoring their communications.\n"
+  * description: "Orbot is an open source client for the Tor network on Android mobile devices. The client allows you to route traffic going from your device's web browser, e-mail client, map program, etc., through the Tor network, providing anonymity for the user.\nThis tool is being used by political dissidents around the world to keep their communications on smartphones secure from the governments that may be monitoring their communications."
     license_url: "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE"
     logo: "orbot.png"
     notes: ""
@@ -519,7 +519,7 @@ data =
   * description: "Mozilla Firefox is a free and open source web browser developed for Windows, OS X, and Linux, with a mobile version for Android, by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.\nAs of July 2013[update], Firefox has between 16% and 21% of worldwide usage, making it the third most popular web browser, according to different sources. "
     license_url: "https://www.mozilla.org/MPL/"
     logo: "mozilla-firefox.png"
-    notes: "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\r\n\r\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches."
+    notes: "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches."
     privacy_url: "https://www.mozilla.org/en-US/privacy/policies/websites/"
     source_url: "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online"
     name: "Mozilla Firefox"
@@ -556,7 +556,7 @@ data =
         subcategories: ["Web Browsers"]
     ]
 
-  * description: "HTTPS Everywhere is a Firefox and Chrome extension that encrypts your communications with many major websites, making your browsing more secure.\r\n\r\nHTTPS Everywhere is produced as a collaboration between The Tor Project and the Electronic Frontier Foundation. Many sites on the web offer some limited support for encryption over HTTPS, but make it difficult to use. For instance, they may default to unencrypted HTTP, or fill encrypted pages with links that go back to the unencrypted site. The HTTPS Everywhere extension fixes these problems by using a clever technology to rewrite requests to these sites to HTTPS."
+  * description: "HTTPS Everywhere is a Firefox and Chrome extension that encrypts your communications with many major websites, making your browsing more secure.\nHTTPS Everywhere is produced as a collaboration between The Tor Project and the Electronic Frontier Foundation. Many sites on the web offer some limited support for encryption over HTTPS, but make it difficult to use. For instance, they may default to unencrypted HTTP, or fill encrypted pages with links that go back to the unencrypted site. The HTTPS Everywhere extension fixes these problems by using a clever technology to rewrite requests to these sites to HTTPS."
     license_url: "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt"
     logo: "https-everywhere.png"
     notes: ""
@@ -600,7 +600,7 @@ data =
         subcategories: ["Web Browser Addons"]
     ]
 
-  * description: "Used by over a million people, Disconnect lets you visualize and block the invisible websites that track you.\r\n\r\nAvailable for Google Chrome, Mozilla Firefox, Apple Safari, and Opera."
+  * description: "Used by over a million people, Disconnect lets you visualize and block the invisible websites that track you.\nAvailable for Google Chrome, Mozilla Firefox, Apple Safari, and Opera."
     license_url: "https://github.com/disconnectme/disconnect/blob/master/README.markdown"
     logo: "disconnect.png"
     notes: ""
@@ -627,7 +627,7 @@ data =
   * description: "NoScript (or NoScript Security Suite) is a free and open-source extension for Mozilla Firefox, SeaMonkey, and other Mozilla-based web browsers, created and actively maintained by Giorgio Maone, an Italian software developer and member of the Mozilla Security Group. NoScript allows executable web content such as JavaScript, Java, Flash, Silverlight, and other plugins only if the site hosting it is considered trusted by its user and has been previously added to a whitelist. "
     license_url: "https://github.com/avian2/noscript"
     logo: "noscript.png"
-    notes: "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\r\n\r\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en\#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**."
+    notes: "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en\#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**."
     privacy_url: "https://addons.mozilla.org/en-US/firefox/addon/noscript/privacy/"
     source_url: "https://github.com/avian2/noscript"
     name: "NoScript"
@@ -662,7 +662,7 @@ data =
         subcategories: ["Operating Systems"]
     ]
 
-  * description: "RequestPolicy is an extension that improves the privacy and security of your browsing by giving you control over when cross-site requests are allowed by webpages you visit.\r\n\r\nCross-site requests are requests that your browser is told to make by a website you are visiting to a completely different website. Though usually legitimate requests, they often result in advertising companies and other websites knowing your browsing habits, including specific pages you view throughout the day. Among the attacks that cross-site requests are used in, they are particularly dangerous with Cross-Site Request Forgery (CSRF) attacks where your browser is told to make a request to another website and that other website thinks you (the person) meant to make the request."
+  * description: "RequestPolicy is an extension that improves the privacy and security of your browsing by giving you control over when cross-site requests are allowed by webpages you visit.\nCross-site requests are requests that your browser is told to make by a website you are visiting to a completely different website. Though usually legitimate requests, they often result in advertising companies and other websites knowing your browsing habits, including specific pages you view throughout the day. Among the attacks that cross-site requests are used in, they are particularly dangerous with Cross-Site Request Forgery (CSRF) attacks where your browser is told to make a request to another website and that other website thinks you (the person) meant to make the request."
     license_url: "https://github.com/RequestPolicy/requestpolicy/blob/master/src/LICENSE"
     logo: "request-policy.png"
     notes: ""
@@ -684,7 +684,7 @@ data =
         subcategories: ["Web Browser Addons"]
     ]
 
-  * description: "Cryptocat is an open source web application intended to allow secure, encrypted online chatting. Cryptocat encrypts chats on the client side, only trusting the server with data that is already encrypted. Cryptocat is offered as an app for Mac OS X or as a browser extension for Google Chrome, Mozilla Firefox and Apple Safari.\n"
+  * description: "Cryptocat is an open source web application intended to allow secure, encrypted online chatting. Cryptocat encrypts chats on the client side, only trusting the server with data that is already encrypted. Cryptocat is offered as an app for Mac OS X or as a browser extension for Google Chrome, Mozilla Firefox and Apple Safari."
     license_url: "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt"
     logo: "cryptocat.png"
     notes: ""
@@ -708,7 +708,7 @@ data =
         subcategories: ["Instant Messaging"]
     ]
 
-  * description: "Mailvelope allows to encrypt and decrypt emails in your favorite webmail provider following the OpenPGP standard.\r\n\r\nMailvelope integrates directly into the webmail user interface; its elements are non-intrusive and easy to use in your regular workflow.\r\n\r\nIt comes preconfigured for major webmail providers:\r\n\r\n* Gmail\u2122\r\n* Yahoo!\u2122\r\n* Outlook.com\u2122\r\n* GMX\u2122"
+  * description: "Mailvelope allows to encrypt and decrypt emails in your favorite webmail provider following the OpenPGP standard.\nMailvelope integrates directly into the webmail user interface; its elements are non-intrusive and easy to use in your regular workflow.\nIt comes preconfigured for major webmail providers:\n* Gmail\u2122\r\n* Yahoo!\u2122\r\n* Outlook.com\u2122\r\n* GMX\u2122"
     license_url: "https://github.com/toberndo/mailvelope/blob/master/LICENSE"
     logo: "mailvelope.png"
     notes: ""
@@ -730,10 +730,10 @@ data =
         subcategories: ["Email Encryption", "Web Browser Addons"]
     ]
 
-  * description: "DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the \"filter bubble\" of personalized search results. DuckDuckGo distinguishes itself from other search engines by not profiling its users and by deliberately showing all users the same search results for a given search term. DuckDuckGo also emphasizes getting information from the best sources rather than the most sources, generating its search results from key crowdsourced sites such as Wikipedia and from partnerships with other search engines like Yandex, Yahoo!, Bing and WolframAlpha.\n"
+  * description: "DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the \"filter bubble\" of personalized search results. DuckDuckGo distinguishes itself from other search engines by not profiling its users and by deliberately showing all users the same search results for a given search term. DuckDuckGo also emphasizes getting information from the best sources rather than the most sources, generating its search results from key crowdsourced sites such as Wikipedia and from partnerships with other search engines like Yandex, Yahoo!, Bing and WolframAlpha."
     license_url: "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE"
     logo: "duckduckgo.png"
-    notes: "DuckDuckGo is a software-as-a-service (SaaS) hosted around the world that provides you with anonymous search results from [these sources](https://dukgo.com/help/en_US/results/sources). DDG open source components are [available here](https://github.com/duckduckgo).\r\n\r\nThere is also a DuckDuckGo hidden service at [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) for Tor users."
+    notes: "DuckDuckGo is a software-as-a-service (SaaS) hosted around the world that provides you with anonymous search results from [these sources](https://dukgo.com/help/en_US/results/sources). DDG open source components are [available here](https://github.com/duckduckgo).\nThere is also a DuckDuckGo hidden service at [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) for Tor users."
     privacy_url: "https://duckduckgo.com/privacy"
     source_url: "https://github.com/duckduckgo/duckduckgo"
     name: "DuckDuckGo"
@@ -746,7 +746,7 @@ data =
         subcategories: ["Web Search"]
     ]
 
-  * description: "MetaGer is a SaaS by the German non-profit [SUMA e.V.](https://suma-ev.de/en/index.html) that provides you with anonymous meta search results.\r\n\r\nA meta search engine proxies your queries to multiple search providers.\r\n\r\n"
+  * description: "MetaGer is a SaaS by the German non-profit [SUMA e.V.](https://suma-ev.de/en/index.html) that provides you with anonymous meta search results.\nA meta search engine proxies your queries to multiple search providers."
     license_url: ""
     logo: "metager.png"
     notes: ""
@@ -810,7 +810,7 @@ data =
         subcategories: ["Web Search"]
     ]
 
-  * description: "YaCy (pronounced \"ya see\") is a free distributed search engine, built on principles of peer-to-peer (P2P) networks. Its core is a computer program written in Java distributed on several hundred computers, as of September 2006[update], so-called YaCy-peers. Each YaCy-peer independently crawls through the Internet, analyzes and indexes found web pages, and stores indexing results in a common database (so called index) which is shared with other YaCy-peers using principles of P2P networks.\n"
+  * description: "YaCy (pronounced \"ya see\") is a free distributed search engine, built on principles of peer-to-peer (P2P) networks. Its core is a computer program written in Java distributed on several hundred computers, as of September 2006[update], so-called YaCy-peers. Each YaCy-peer independently crawls through the Internet, analyzes and indexes found web pages, and stores indexing results in a common database (so called index) which is shared with other YaCy-peers using principles of P2P networks."
     license_url: "https://gitorious.org/yacy/rc1/source/234a974955c0ab4f7de63157738e4b00a8ffcae8:COPYRIGHT"
     logo: "yacy.png"
     notes: ""
@@ -898,7 +898,7 @@ data =
         subcategories: ["World Maps"]
     ]
 
-  * description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\r\n\r\nWe provide a full range of free, privacy-aware services, which include:\r\n\r\n* Blogs / Web Hosting\r\n* Anonymity Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
+  * description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
     license_url: ""
     logo: "autistici-inventati.png"
     notes: ""
@@ -914,7 +914,7 @@ data =
         subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Services", "Web Hosting"]
     ]
 
-  * description: "Bitmessage is a decentralized, encrypted, peer-to-peer, trustless communications protocol that can be used by one person to send encrypted messages to another person, or to multiple subscribers. Bitmessage encrypts each users' message inbox using strong encryption and replicates it inside its P2P network mixing it with inboxes of other users in order to conceal user's identity, prevent eavesdropping and protect the network from any control. The Bitmessage communication protocol avoids sender-spoofing through strong authentication, and hides metadata from wiretapping systems.\n"
+  * description: "Bitmessage is a decentralized, encrypted, peer-to-peer, trustless communications protocol that can be used by one person to send encrypted messages to another person, or to multiple subscribers. Bitmessage encrypts each users' message inbox using strong encryption and replicates it inside its P2P network mixing it with inboxes of other users in order to conceal user's identity, prevent eavesdropping and protect the network from any control. The Bitmessage communication protocol avoids sender-spoofing through strong authentication, and hides metadata from wiretapping systems."
     license_url: "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE"
     logo: "bitmessage.png"
     notes: "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions."
@@ -937,7 +937,7 @@ data =
   * description: "MyKolab is a secure, privacy-focused web-based email and groupware service, based completely on free and open-source software. "
     license_url: "http://git.kolab.org/libkolab/tree/COPYING"
     logo: "mykolab.png"
-    notes: "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \r\n\r\nAlso, you can export all your data at any time."
+    notes: "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \nAlso, you can export all your data at any time."
     privacy_url: "https://mykolab.com/privacy"
     source_url: "http://git.kolab.org/"
     name: "MyKolab"
@@ -952,10 +952,10 @@ data =
         subcategories: ["File Storage & Sync"]
     ]
 
-  * description: "RetroShare is free software for encrypted, filesharing, serverless email, instant messaging, chatrooms, and BBS, based on a friend-to-friend network built on GPG (GNU Privacy Guard). It is not strictly a darknet since optionally, peers may communicate certificates and IP addresses from and to their friends.\n"
+  * description: "RetroShare is free software for encrypted, filesharing, serverless email, instant messaging, chatrooms, and BBS, based on a friend-to-friend network built on GPG (GNU Privacy Guard). It is not strictly a darknet since optionally, peers may communicate certificates and IP addresses from and to their friends."
     license_url: "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions\#Is_RetroShare_Open_source.3F"
     logo: "retroshare.png"
-    notes: "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\r\n\r\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network."
+    notes: "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network."
     privacy_url: ""
     source_url: "http://sourceforge.net/p/retroshare/code/HEAD/tree/"
     name: "RetroShare"
@@ -990,10 +990,10 @@ data =
         subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Services"]
     ]
 
-  * description: "Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation.\nThe project strategy was modeled after Mozilla Firefox, a project aimed at creating a web browser. On December 7, 2004, version 1.0 was released, and received more than 500,000 downloads in its first three days of release, and 1,000,000 in 10 days.\n"
+  * description: "Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation.\nThe project strategy was modeled after Mozilla Firefox, a project aimed at creating a web browser. On December 7, 2004, version 1.0 was released, and received more than 500,000 downloads in its first three days of release, and 1,000,000 in 10 days."
     license_url: "https://www.mozilla.org/MPL/"
     logo: "mozilla-thunderbird.png"
-    notes: "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\r\n\r\nThunderbird can optionally connect over Tor with the TorBirdy addon.\r\n\r\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging."
+    notes: "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\nThunderbird can optionally connect over Tor with the TorBirdy addon.\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging."
     privacy_url: "https://www.mozilla.org/en-US/privacy/policies/websites/"
     source_url: "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online"
     name: "Mozilla Thunderbird"
@@ -1090,7 +1090,7 @@ data =
         subcategories: ["Email Clients"]
     ]
 
-  * description: "K-9 Mail is an independent mail application for the Android operating system. It is made available as Free/Open Source Android Software under the Apache License version 2.0. The program is marketed as a more functional replacement for the default mail application included on most phones. It supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.\n"
+  * description: "K-9 Mail is an independent mail application for the Android operating system. It is made available as Free/Open Source Android Software under the Apache License version 2.0. The program is marketed as a more functional replacement for the default mail application included on most phones. It supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP."
     license_url: "https://github.com/k9mail/k-9/blob/master/NOTICE"
     logo: "k9-mail.png"
     notes: ""
@@ -1106,7 +1106,7 @@ data =
         subcategories: ["Email Clients"]
     ]
 
-  * description: "Android Privacy Guard (APG) is a Free Software and open source application that runs on the Android Operating System. The application provides strong, user-based encryption which is compatible with the Pretty Good Privacy (PGP) and GNU Privacy Guard (GPG) programs. This allows users to encrypt, decrypt, sign, and verify signatures for text, emails, and files.\n"
+  * description: "Android Privacy Guard (APG) is a Free Software and open source application that runs on the Android Operating System. The application provides strong, user-based encryption which is compatible with the Pretty Good Privacy (PGP) and GNU Privacy Guard (GPG) programs. This allows users to encrypt, decrypt, sign, and verify signatures for text, emails, and files."
     license_url: "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml"
     logo: "apg.png"
     notes: ""
@@ -1125,7 +1125,7 @@ data =
   * description: "OpenPGP Keychain is an OpenPGP implementation for Android."
     license_url: "https://github.com/dschuermann/openpgp-keychain/blob/master/LICENSE"
     logo: "openpgp-keychain.png"
-    notes: "OpenPGP Keychain is EXPERIMENTAL software. Use at your own risk!\r\n"
+    notes: "OpenPGP Keychain is EXPERIMENTAL software. Use at your own risk!\r"
     privacy_url: ""
     source_url: "https://github.com/dschuermann/openpgp-keychain"
     name: "OpenPGP Keychain"
@@ -1138,7 +1138,7 @@ data =
         subcategories: ["Email Encryption"]
     ]
 
-  * description: "A port of the whole GnuPG 2.1 suite to Android.\r\n\r\nGnu Privacy Guard (GPG) gives you access to the entire GnuPG suite of encryption software. GnuPG is GNU\u2019s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. GnuPG 2.1 is the new modularized version of GnuPG that now supports OpenPGP and S/MIME."
+  * description: "A port of the whole GnuPG 2.1 suite to Android.\nGnu Privacy Guard (GPG) gives you access to the entire GnuPG suite of encryption software. GnuPG is GNU\u2019s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. GnuPG 2.1 is the new modularized version of GnuPG that now supports OpenPGP and S/MIME."
     license_url: "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt"
     logo: "gnupg-for-android.png"
     notes: ""
@@ -1154,7 +1154,7 @@ data =
         subcategories: ["Email Encryption"]
     ]
 
-  * description: "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird and the SeaMonkey internet suite that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems. Its cryptographic functionality is handled by GNU Privacy Guard.\n"
+  * description: "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird and the SeaMonkey internet suite that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems. Its cryptographic functionality is handled by GNU Privacy Guard."
     license_url: "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi"
     logo: "enigmail.png"
     notes: "[Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail."
@@ -1198,7 +1198,7 @@ data =
         subcategories: ["Email Encryption"]
     ]
 
-  * description: "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.\n"
+  * description: "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems."
     license_url: "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master"
     logo: "gnupg.png"
     notes: ""
@@ -1236,7 +1236,7 @@ data =
         subcategories: ["Email Encryption"]
     ]
 
-  * description: "Gpg4win is an installation package for Windows (XP, Vista, 7 and 8) with software tools and manuals for email and file encryption on behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.\n"
+  * description: "Gpg4win is an installation package for Windows (XP, Vista, 7 and 8) with software tools and manuals for email and file encryption on behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures."
     license_url: "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD"
     logo: "gpg4win.png"
     notes: ""
@@ -1252,10 +1252,10 @@ data =
         subcategories: ["Email Encryption"]
     ]
 
-  * description: "Pidgin (formerly named Gaim) is an open-source multi-platform instant messaging client, based on a library named libpurple. Libpurple has support for many commonly used instant messaging protocols, allowing the user to log into various services from one application.\n"
+  * description: "Pidgin (formerly named Gaim) is an open-source multi-platform instant messaging client, based on a library named libpurple. Libpurple has support for many commonly used instant messaging protocols, allowing the user to log into various services from one application."
     license_url: "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING"
     logo: "pidgin.png"
-    notes: "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like [TrueCrypt](http://www.truecrypt.org/), or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\r\n\r\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds."
+    notes: "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like [TrueCrypt](http://www.truecrypt.org/), or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds."
     privacy_url: ""
     source_url: "http://hg.pidgin.im/pidgin/main/"
     name: "Pidgin"
@@ -1272,7 +1272,7 @@ data =
         subcategories: ["Instant Messaging", "IRC"]
     ]
 
-  * description: "Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie\u2013Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.\n"
+  * description: "Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie\u2013Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption."
     license_url: "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING"
     logo: "otr.png"
     notes: ""
@@ -1334,7 +1334,7 @@ data =
         subcategories: ["Instant Messaging"]
     ]
 
-  * description: "Adium is a free and open source instant messaging client for Mac OS X that supports multiple IM networks, including Windows Live Messenger, Yahoo! Messenger, Google Talk, AIM, ICQ and XMPP. It is written using Mac OS X's Cocoa API, and it is released under the GNU General Public License and many other licenses for components that are distributed with Adium.\n"
+  * description: "Adium is a free and open source instant messaging client for Mac OS X that supports multiple IM networks, including Windows Live Messenger, Yahoo! Messenger, Google Talk, AIM, ICQ and XMPP. It is written using Mac OS X's Cocoa API, and it is released under the GNU General Public License and many other licenses for components that are distributed with Adium."
     license_url: "https://trac.adium.im/wiki/Development"
     logo: "adium.png"
     notes: ""
@@ -1372,7 +1372,7 @@ data =
         subcategories: ["Instant Messaging", "IRC"]
     ]
 
-  * description: "TorChat is a decentralized anonymous instant messenger that uses Tor hidden services as its underlying Network. It can be used for text messaging and to transfer files to other users. The characteristics of Tor's hidden services take care that all traffic between the clients is encrypted and that it is extremely difficult (if not impossible) to tell who is communicating with whom and where a given client is physically located.\n"
+  * description: "TorChat is a decentralized anonymous instant messenger that uses Tor hidden services as its underlying Network. It can be used for text messaging and to transfer files to other users. The characteristics of Tor's hidden services take care that all traffic between the clients is encrypted and that it is extremely difficult (if not impossible) to tell who is communicating with whom and where a given client is physically located."
     license_url: "https://www.gnu.org/copyleft/gpl.html"
     logo: "torchat.png"
     notes: ""
@@ -1468,10 +1468,10 @@ data =
         subcategories: ["Instant Messaging"]
     ]
 
-  * description: "Jitsi (formerly SIP Communicator) is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application for Windows, Linux and Mac OS X. It supports several popular instant messaging and telephony protocols, including open recognised encryption protocols for chat (OTR) and voice/video/streaming and voice/video conferencing (SIP/RTP/SRTP/ZRTP), as well as built-in IPv6, NAT traversal and DNSSEC. Jitsi and its source code are released under the terms of the LGPL.\n"
+  * description: "Jitsi (formerly SIP Communicator) is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application for Windows, Linux and Mac OS X. It supports several popular instant messaging and telephony protocols, including open recognised encryption protocols for chat (OTR) and voice/video/streaming and voice/video conferencing (SIP/RTP/SRTP/ZRTP), as well as built-in IPv6, NAT traversal and DNSSEC. Jitsi and its source code are released under the terms of the LGPL."
     license_url: "https://github.com/jitsi/jitsi/blob/master/LICENSE"
     logo: "jitsi.png"
-    notes: "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \r\n\r\nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\r\n\r\nLastly, note that Jitsi records chat history in unencrypted form."
+    notes: "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\nLastly, note that Jitsi records chat history in unencrypted form."
     privacy_url: ""
     source_url: "https://github.com/jitsi"
     name: "Jitsi"
@@ -1628,7 +1628,7 @@ data =
         subcategories: ["Social Networks"]
     ]
 
-  * description: "MOVIM (My Open Virtual Identity Manager) is a distributed social network built on top of XMPP, a popular open standards communication protocol. Movim is a free and open source software licensed under the AGPL. It can be accessed using existing XMPP clients and Jabber accounts.\n"
+  * description: "MOVIM (My Open Virtual Identity Manager) is a distributed social network built on top of XMPP, a popular open standards communication protocol. Movim is a free and open source software licensed under the AGPL. It can be accessed using existing XMPP clients and Jabber accounts."
     license_url: "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING"
     logo: "movim.png"
     notes: ""
@@ -1649,7 +1649,7 @@ data =
   * description: "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo."
     license_url: ""
     logo: "disconnect-search.png"
-    notes: "The source code can be downloaded for viewing by right clicking \"Get Disconnect Search\" on the official website and selecting \"Save Link As...\".\r\n\r\nWith \"search.xpi\" downloaded, change the file extension to \".zip\" and extract it to view the source code."
+    notes: "The source code can be downloaded for viewing by right clicking \"Get Disconnect Search\" on the official website and selecting \"Save Link As...\".\nWith \"search.xpi\" downloaded, change the file extension to \".zip\" and extract it to view the source code."
     privacy_url: ""
     source_url: "https://disconnect.me/search"
     name: "Disconnect Search"
@@ -1681,7 +1681,7 @@ data =
   * description: "Protocol for realtime decentralized communication and personal data storage."
     license_url: "https://github.com/tent/tentd/blob/master/README.md"
     logo: "tent.png"
-    notes: "Tent mentions that it's still in alpha:\r\n\r\n*\"Remember, Tent is still in alpha, so it\u2019s not safe to use with information you would not want to be public and should not be considered reliable.\"*"
+    notes: "Tent mentions that it's still in alpha:\n*\"Remember, Tent is still in alpha, so it\u2019s not safe to use with information you would not want to be public and should not be considered reliable.\"*"
     privacy_url: ""
     source_url: "https://github.com/tent"
     name: "Tent"
@@ -1772,7 +1772,7 @@ data =
         subcategories: ["File Storage & Sync"]
     ]
 
-  * description: "Tahoe-LAFS (Tahoe Least-Authority Filesystem) is an open source, secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system. It can be used as an online backup system, or to serve as a file or web host similar to Freenet, depending on the front-end used to insert and access files in the Tahoe system. Tahoe can also be used in a RAID-like manner to use multiple disks to make a single large RAIN pool of reliable data storage.\n"
+  * description: "Tahoe-LAFS (Tahoe Least-Authority Filesystem) is an open source, secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system. It can be used as an online backup system, or to serve as a file or web host similar to Freenet, depending on the front-end used to insert and access files in the Tahoe system. Tahoe can also be used in a RAID-like manner to use multiple disks to make a single large RAIN pool of reliable data storage."
     license_url: "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL"
     logo: "taho-lafs.png"
     notes: ""
@@ -1840,7 +1840,7 @@ data =
         subcategories: ["Productivity"]
     ]
 
-  * description: "*\"EtherCalc is a web spreadsheet.*\r\n\r\n*Your data is saved on the web, and people can edit the same document at the same time. Everybody's changes are instantly reflected on all screens.\"*"
+  * description: "*\"EtherCalc is a web spreadsheet.\nYour data is saved on the web, and people can edit the same document at the same time. Everybody's changes are instantly reflected on all screens.\"*"
     license_url: "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt"
     logo: "ethercalc.png"
     notes: "The EtherCalc service does not encrypt your data transmission with HTTPS, and there's no privacy policy regarding what is done with your data either. Download and run your own EtherCalc server if you care about privacy."
@@ -1858,7 +1858,7 @@ data =
         subcategories: ["Productivity"]
     ]
 
-  * description: "MediaCrush offers privacy-first fast media (image, audio, video) hosting.\r\n\r\nYou may also run your own instance of MediaCrush."
+  * description: "MediaCrush offers privacy-first fast media (image, audio, video) hosting.\nYou may also run your own instance of MediaCrush."
     license_url: "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE"
     logo: "mediacrush.png"
     notes: ""
@@ -1892,7 +1892,7 @@ data =
         subcategories: ["Media Publishing"]
     ]
 
-  * description: "Piwigo is photo gallery software for the web, built by an active community of users and developers. Freely available extensions make Piwigo easily customizable. It is notable as a system with many features.\n"
+  * description: "Piwigo is photo gallery software for the web, built by an active community of users and developers. Freely available extensions make Piwigo easily customizable. It is notable as a system with many features."
     license_url: "http://piwigo.org/basics/license"
     logo: "piwigo.png"
     notes: "Piwigo does not encrypt any of your data by default."
@@ -1911,7 +1911,7 @@ data =
   * description: "WordPress is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL, which runs on a web hosting service. Features include a plug-in architecture and a template system. WordPress is used by more than 18.9% of the top 10 million websites as of August 2013[update]. "
     license_url: "http://wordpress.org/about/license/"
     logo: "wordpress.png"
-    notes: "WordPress does not encrypt any of your data by default.\r\n\r\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\r\n"
+    notes: "WordPress does not encrypt any of your data by default.\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\r"
     privacy_url: "http://wordpress.org/about/privacy/"
     source_url: "http://core.trac.wordpress.org/browser"
     name: "WordPress"
@@ -1968,7 +1968,7 @@ data =
         subcategories: ["Finance"]
     ]
 
-  * description: "Litecoin (sign : \u0141 ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.\n"
+  * description: "Litecoin (sign : \u0141 ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences."
     license_url: "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING"
     logo: "litecoin.png"
     notes: ""
@@ -2042,7 +2042,7 @@ data =
         subcategories: ["VPN Clients"]
     ]
 
-  * description: "*\"Libreswan is an IPsec implementation for Linux. It has support for most of the extensions (RFC + IETF drafts) related to IPsec, including IKEv2, X.509 Digital Certificates, NAT Traversal, and many others.\r\n\r\nLibreswan has been forked from Openswan 2.6.38, which was forked from\r\nFreeS/WAN 1.99.\"*"
+  * description: "*\"Libreswan is an IPsec implementation for Linux. It has support for most of the extensions (RFC + IETF drafts) related to IPsec, including IKEv2, X.509 Digital Certificates, NAT Traversal, and many others.\nLibreswan has been forked from Openswan 2.6.38, which was forked from FreeS/WAN 1.99.\"*"
     license_url: "https://github.com/libreswan/libreswan/blob/master/COPYING"
     logo: "libreswan.png"
     notes: ""
@@ -2090,7 +2090,7 @@ data =
         subcategories: ["VPN Servers"]
     ]
 
-  * description: "Piwik is a free and open source web analytics application written by a team of international developers that runs on a PHP/MySQL webserver. Piwik is used by over 480,000 websites, 1.2% of all websites, and has been translated to more than 45 languages. New versions of Piwik are regularly released every few weeks.\n"
+  * description: "Piwik is a free and open source web analytics application written by a team of international developers that runs on a PHP/MySQL webserver. Piwik is used by over 480,000 websites, 1.2% of all websites, and has been translated to more than 45 languages. New versions of Piwik are regularly released every few weeks."
     license_url: "https://github.com/piwik/piwik/blob/master/LEGALNOTICE"
     logo: "piwik.png"
     notes: ""
@@ -2170,7 +2170,7 @@ data =
         subcategories: ["DNS"]
     ]
 
-  * description: "Namecoin (sign: \u2115; code: NMC) is a cryptocurrency which also acts as an alternative, decentralized DNS, which would avoid domain name censorship by making a new top level domain outside of ICANN control, and in turn, make internet censorship much more difficult, as well as reduce downages.\nNamecoin currently uses the .bit domain, and as of July 2013, 78549 .bit domains have been registered. bit domains are not currently awarded, hence to resolve domain names, one must have either a copy of the Namecoin \"blockchain\" (a decentralized ledger storing all transactions and domains), or access to a public DNS server that participates in the Namecoin system.\n"
+  * description: "Namecoin (sign: \u2115; code: NMC) is a cryptocurrency which also acts as an alternative, decentralized DNS, which would avoid domain name censorship by making a new top level domain outside of ICANN control, and in turn, make internet censorship much more difficult, as well as reduce downages.\nNamecoin currently uses the .bit domain, and as of July 2013, 78549 .bit domains have been registered. bit domains are not currently awarded, hence to resolve domain names, one must have either a copy of the Namecoin \"blockchain\" (a decentralized ledger storing all transactions and domains), or access to a public DNS server that participates in the Namecoin system."
     license_url: "https://github.com/namecoin/namecoin/blob/master/COPYING"
     logo: "namecoin.png"
     notes: ""
@@ -2186,7 +2186,7 @@ data =
         subcategories: ["DNS"]
     ]
 
-  * description: "Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to store information, and has a suite of free software for working with this data store. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defines Freenet's goal as providing freedom of speech with strong anonymity protection.\n"
+  * description: "Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to store information, and has a suite of free software for working with this data store. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defines Freenet's goal as providing freedom of speech with strong anonymity protection."
     license_url: "https://github.com/freenet/fred-staging/blob/next/LICENSE"
     logo: "freenet.png"
     notes: ""
@@ -2282,7 +2282,7 @@ data =
         subcategories: ["Anonymizing Networks", "Social Networks"]
     ]
 
-  * description: "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.\n"
+  * description: "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored."
     license_url: "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE"
     logo: "tor.png"
     notes: ""
@@ -2380,7 +2380,7 @@ data =
         subcategories: ["Mesh Networks"]
     ]
 
-  * description: "Freifunk (German for: \"Free radio\") is a non-commercial open Grassroots initiative to support free radio networks in the German region. Freifunk is part of the international movement for open wireless radio networks. For more information on such projects around the world, see wireless community network.\n"
+  * description: "Freifunk (German for: \"Free radio\") is a non-commercial open Grassroots initiative to support free radio networks in the German region. Freifunk is part of the international movement for open wireless radio networks. For more information on such projects around the world, see wireless community network."
     license_url: "https://github.com/freifunk/meshkit/blob/master/LICENSE"
     logo: "freifunk.png"
     notes: ""
