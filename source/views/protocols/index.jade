@@ -4,12 +4,8 @@ block content
   - each protocol in table
 
     a.bar(href=protocol.slug)
-      .label #{protocol.name} (#{protocol.projects.length})
+      .label
+        = t.Browse + ' '
+        strong= protocol.name + ' '
+        span.light= '(' + protocol.projects.length + ')'
       .icon: i.fa.fa-angle-right
-
-    //
-      ul
-        - each project in protocol.projects
-          li 
-            a(href="../projects/#{project.slug}")
-              .name= project.name
