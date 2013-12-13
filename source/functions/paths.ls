@@ -3,8 +3,8 @@
 require! fs
 require! jade
 
-tmpl = (template-name) ->
-  template-path = 'source/templates/' + template-name + '.jade'
+view-path = (view-name) ->
+  'source/views/' + view-name + '.jade'
 
 routes = (subdirectory, depth)->
   if depth?
@@ -39,9 +39,9 @@ routes = (subdirectory, depth)->
       final-paths[key] = prefix + value
   final-paths
 
-write-html = (template, options, file) ->
+write-html = (view, options, file) ->
   file = file + '.html'
-  jade.render-file template, options, (err, html) ->
+  jade.render-file view, options, (err, html) ->
     fs.write-file file, html, (err) ->
       if err
         console.error err
@@ -57,7 +57,7 @@ write-json = (db, path) ->
     else
       console.log "#{file} saved"
 
-exports.tmpl = tmpl
+exports.view-path = view-path
 exports.routes = routes
 exports.write-html = write-html
 exports.write-json = write-json

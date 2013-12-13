@@ -3,7 +3,7 @@
 # libraries
 require! mkdirp
 {slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
-{tmpl, routes, write-html, write-json} = require '../functions/paths.ls'
+{view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
 {data} = require '../data/en-projects.ls'
@@ -22,7 +22,7 @@ write-site-index = (translation) ->
   data = nested-categories(database)
 
   path = 'index'
-  template = tmpl path
+  view = view-path path
   options = 
     pretty: true
     table: data
@@ -30,14 +30,14 @@ write-site-index = (translation) ->
     t: translation
   file = public-dir + path
 
-  write-html template, options, file
+  write-html view, options, file
   write-json data, file
 
 write-categories-index = ->
   data = nested-categories(database)
 
   path = 'categories/index'
-  template = tmpl path
+  view = view-path path
   options = 
     pretty: true
     table: nested-categories(database)
@@ -46,7 +46,7 @@ write-categories-index = ->
   file = public-dir + path
 
   write = ->
-    write-html template, options, file
+    write-html view, options, file
     write-json data, file
 
   mkdirp public-dir + 'categories', (err) ->
@@ -60,7 +60,7 @@ write-categories-show = (translation) ->
     data = subcategories-in(category.name, database)
 
     path = "categories/#{category.slug}/"
-    template = tmpl 'categories/show'
+    view = view-path 'categories/show'
     options = 
       pretty: true
       category: category
@@ -71,7 +71,7 @@ write-categories-show = (translation) ->
     file = full-path + 'index'
 
     write = ->
-      write-html template, options, file
+      write-html view, options, file
       write-json data, file
 
     mkdirp full-path, (err) ->
@@ -88,7 +88,7 @@ write-subcategories-show = (translation) ->
     data = in-this-subcategory(subcategory.name, in-this-category(category.name, database))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
-    template = tmpl 'subcategories/show'
+    view = view-path 'subcategories/show'
     options = 
       pretty: true
       category: category
@@ -101,7 +101,7 @@ write-subcategories-show = (translation) ->
     file = full-path + 'index'
 
     write = ->
-      write-html template, options, file
+      write-html view, options, file
       write-json data, file
 
     mkdirp full-path, (err) ->
@@ -118,7 +118,7 @@ write-protocols-index = (translation) ->
   data = protocols-tree(database)
 
   path = 'protocols/index'
-  template = tmpl path
+  view = view-path path
   options = 
     pretty: true
     table: data
@@ -127,7 +127,7 @@ write-protocols-index = (translation) ->
   file = public-dir + path
 
   write = ->
-    write-html template, options, file
+    write-html view, options, file
     write-json data, file
 
   mkdirp public-dir + 'protocols', (err) ->
@@ -141,7 +141,7 @@ write-protocols-show = (translation) ->
     data = protocol
 
     path = "protocols/#{protocol.slug}/"
-    template = tmpl 'protocols/show'
+    view = view-path 'protocols/show'
     options = 
       pretty: true
       protocol: data
@@ -152,7 +152,7 @@ write-protocols-show = (translation) ->
     file = full-path + 'index'
 
     write = ->
-      write-html template, options, file
+      write-html view, options, file
       write-json data, file
 
     mkdirp full-path, (err) ->
@@ -168,7 +168,7 @@ write-projects-index = (translation) ->
   data = database
 
   path = 'projects/index'
-  template = tmpl path
+  view = view-path path
   options = 
     pretty: true
     table: data
@@ -177,7 +177,7 @@ write-projects-index = (translation) ->
   file = public-dir + path
 
   write = ->
-    write-html template, options, file
+    write-html view, options, file
     write-json data, file
 
   mkdirp public-dir + 'projects', (err) ->
@@ -190,7 +190,7 @@ write-projects-show = (translation) ->
   create = (project) ->
 
     path = "projects/#{project.slug}/"
-    template = tmpl 'projects/show'
+    view = view-path 'projects/show'
     options = 
       pretty: true
       project: project
@@ -200,7 +200,7 @@ write-projects-show = (translation) ->
     file = full-path + 'index'
 
     write = ->
-      write-html template, options, file
+      write-html view, options, file
       write-json data, file
 
     mkdirp full-path, (err) ->
