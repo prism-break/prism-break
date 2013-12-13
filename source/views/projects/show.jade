@@ -1,9 +1,67 @@
 extends ../layouts/application
 block content
 
+  .card
+    .btn-rectangle
+      img.card-logo(src= routes.logos + project.logo)
+      .title= project.name
+      .category= project.protocols
+
+    a.btn-square(href=project.url)
+      i.fa.fa-external-link-square
+
+  - if(typeof project.description !== 'undefined')
+    .section
+      .text-block= project.description
+
+  - if(typeof project.notes !== 'undefined')
+    .section
+      .pipe Security Notes
+      .text-block= project.notes
+
+  - if(typeof project.protocols !== [])
+    .section
+      .pipe Supported Protocols
+      - for protocol in project.protocols
+        a.bar(href=protocol)
+          .label= protocol
+          .icon: i.fa.fa-angle-right
+
   .section
-    ul
-      li 
-        a(href=project.wikipedia_url)
-          .name= project.name
-          .category= project.protocols
+    .pipe More Info
+
+    a.bar(href=project.url)
+      .label Official Website
+      .icon: i.fa.fa-external-link
+
+    - if(typeof project.wikipedia_url !== 'undefined')
+      a.bar(href=project.wikipedia_url)
+        .label Wikipedia Article
+        .icon: i.fa.fa-external-link
+
+    - if(typeof project.privacy_url !== 'undefined')
+      a.bar(href=project.privacy_url)
+        .label Privacy Policy
+        .icon: i.fa.fa-external-link
+
+    - if(typeof project.tos_url !== 'undefined')
+      a.bar(href=project.tos_url)
+        .label Terms of Service
+        .icon: i.fa.fa-external-link
+
+  .section
+    .pipe Source Code
+
+    - if(typeof project.license_url !== 'undefined')
+      a.bar(href=project.license_url)
+        .label Software License
+        .icon: i.fa.fa-external-link
+    - else
+      .bar.warning Software License Unavailable
+
+    - if(typeof project.source_url !== 'undefined')
+      a.bar(href=project.source_url)
+        .label Source Code
+        .icon: i.fa.fa-external-link
+    - else
+      .bar.warning Source Code Unavailable
