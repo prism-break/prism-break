@@ -1,7 +1,7 @@
 extends ../layouts/application
 block content
 
-  - each project in table
+  - each project in projects
     .card
       a.btn-rectangle(href=project.slug)
         img.card-logo(src= routes.logos + project.logo)
