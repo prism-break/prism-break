@@ -5,7 +5,7 @@ block content
     .card
       a.btn-rectangle(href=project.slug)
         img.card-logo(src= routes.logos + project.logo)
-        .title= project.name
+        .title!= truncate(project.name, 20)
         .category= project.protocols
 
       a.btn-square(href=project.url)
