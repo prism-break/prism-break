@@ -9,7 +9,7 @@ require! marked
 
 # data
 {data} = require '../data-projects/en-projects.ls'
-translations = require '../data-site'
+translations = require '../data-languages'
 
 # the main database
 database = slugify-db data
