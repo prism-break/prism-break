@@ -1,9 +1,11 @@
+include mixins
 include ../projects/mixins
 extends ../layouts/application
 block content
 
-  h2 #{protocol.name}
+  mixin protocol-top(protocol)
 
-  ul
-    - each project in table
-      mixin project-card(project)
+  .pipe= t['Supported Software']
+
+  - each project in protocol.projects
+    mixin project-card(project)

@@ -2,5 +2,7 @@ mixin protocol-top(protocol)
   .card
     .btn-rectangle
       img.card-logo(src='#')
-      .title= protocol
-      .category FIXME Project Count
+      .title= protocol.name
+      .category
+        = protocol.projects.length + ' '
+        | projects

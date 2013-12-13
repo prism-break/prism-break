@@ -139,14 +139,13 @@ write-protocols-index = (translation) ->
 
 write-protocols-show = (translation) ->
   create = (protocol) ->
-    data = protocol
+    protocol.projects = in-this-protocol(protocol.name, database)
 
     path = "protocols/#{protocol.slug}/"
     view = view-path 'protocols/show'
     options = 
       pretty: true
-      protocol: data
-      table: in-this-protocol(protocol.name, database)
+      protocol: protocol
       routes: routes 'protocols', 2
       t: translation
     full-path = public-dir + path
