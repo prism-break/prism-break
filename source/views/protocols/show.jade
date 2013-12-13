@@ -1,3 +1,4 @@
+include ../projects/mixins
 extends ../layouts/application
 block content
 
@@ -5,7 +6,4 @@ block content
 
   ul
     - each project in table
-      li
-        a(href="../../projects/#{project.slug}")
-          .name= project.name
-          .category= project.protocols
+      mixin project-card(project)
