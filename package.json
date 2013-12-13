@@ -11,7 +11,8 @@
     "prelude-ls": "~1.0.3",
     "require-all": "~0.0.8",
     "stylus": "~0.40.3",
-    "uglify-js": "~2.4.4"
+    "uglify-js": "~2.4.4",
+    "marked": "~0.2.10"
   },
   "devDependencies": {},
   "scripts": {
