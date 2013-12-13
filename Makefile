@@ -13,7 +13,7 @@ STYLUS_PARAMS = -c -u ./node_modules/nib/
 STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u ./node_modules/nib/ -o public/assets/css/
 
 # Inputs
-JADE = ./source/templates/index.ls
+VIEWS = ./source/views/index.ls
 STYL = ./source/stylesheets/screen.styl
 
 # Outputs
@@ -33,7 +33,7 @@ watch_css:
 	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
 
 render_html:
-	$(LIVESCRIPT_BIN) $(JADE)
+	$(LIVESCRIPT_BIN) $(VIEWS)
 
 clean:
 	rm -rf public/
