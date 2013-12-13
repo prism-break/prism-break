@@ -1612,7 +1612,7 @@ data =
         subcategories: ["Social Networks"]
     ]
 
-  * description: "*Lorea is a project to create secure social cybernetic systems, in which a network of humans will become simultaneously represented on a virtual shared world.\nIts aim is to create a distributed and federated nodal organization of entities with no geophysical territory, interlacing their multiple relationships through binary codes and languages.*"
+  * description: "*\"Lorea is a project to create secure social cybernetic systems, in which a network of humans will become simultaneously represented on a virtual shared world.\nIts aim is to create a distributed and federated nodal organization of entities with no geophysical territory, interlacing their multiple relationships through binary codes and languages.\"*"
     license_url: "https://github.com/lorea/Elgg/blob/master/LICENSE.txt"
     logo: "lorea.png"
     notes: ""
