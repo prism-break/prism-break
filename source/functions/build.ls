@@ -3,6 +3,7 @@
 # libraries
 require! mkdirp
 require! marked
+{truncate} = require '../functions/truncate.ls'
 {slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
@@ -171,6 +172,7 @@ write-projects-index = (translation) ->
   view = view-path path
   options = 
     pretty: true
+    truncate: truncate
     table: data
     routes: routes 'projects', 1
     t: translation
