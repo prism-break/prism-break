@@ -1,0 +1,19 @@
+mixin card(project)
+  .card
+    a.btn-rectangle(href=project)
+      img.card-logo(src= routes.logos + project.logo)
+      .title= project.name
+      .category= project.protocols
+
+    a.btn-square(href=project.url)
+      i.fa.fa-external-link-square
+
+mixin top(project)
+  .card
+    .btn-rectangle
+      img.card-logo(src= routes.logos + project.logo)
+      .title= project.name
+      .category= project.protocols
+
+    a.btn-square(href=project.url)
+      i.fa.fa-external-link-square

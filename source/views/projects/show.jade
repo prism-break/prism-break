@@ -1,14 +1,8 @@
+include ../projects/mixins
 extends ../layouts/application
 block content
 
-  .card
-    .btn-rectangle
-      img.card-logo(src= routes.logos + project.logo)
-      .title= project.name
-      .category= project.protocols
-
-    a.btn-square(href=project.url)
-      i.fa.fa-external-link-square
+  mixin top(project)
 
   - if(project.description !== '')
     .section
