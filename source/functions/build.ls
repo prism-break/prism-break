@@ -123,7 +123,7 @@ write-protocols-index = (translation) ->
   view = view-path path
   options = 
     pretty: true
-    table: data
+    protocols: data
     routes: routes 'protocols', 1
     t: translation
   file = public-dir + path
@@ -141,12 +141,13 @@ write-protocols-index = (translation) ->
 write-protocols-show = (translation) ->
   create = (protocol) ->
     protocol.projects = in-this-protocol(protocol.name, database)
+    data = protocol
 
     path = "protocols/#{protocol.slug}/"
     view = view-path 'protocols/show'
     options = 
       pretty: true
-      protocol: protocol
+      protocol: data
       routes: routes 'protocols', 2
       t: translation
     full-path = public-dir + path
@@ -173,7 +174,7 @@ write-projects-index = (translation) ->
   options = 
     pretty: true
     truncate: truncate
-    table: data
+    projects: data
     routes: routes 'projects', 1
     t: translation
   file = public-dir + path
@@ -190,13 +191,14 @@ write-projects-index = (translation) ->
 
 write-projects-show = (translation) ->
   create = (project) ->
+    data = project
 
     path = "projects/#{project.slug}/"
     view = view-path 'projects/show'
     options = 
       pretty: true
       marked: marked
-      project: project
+      project: data
       routes: routes 'projects', 2
       t: translation
     full-path = public-dir + path
