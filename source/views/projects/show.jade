@@ -13,12 +13,12 @@ block content
       .pipe= t['Security Notes']
       .text-block!= marked(project.notes)
 
-  - if(project.protocols.length > 0)
+  - if(project.protocolsSlugged.length > 0)
     .section
       .pipe= t['Supported Protocols']
-      - for protocol in project.protocols
-        a.bar(href=protocol)
-          .label= protocol
+      - for protocol in project.protocolsSlugged
+        a.bar(href="../../protocols/#{protocol.slug}")
+          .label= protocol.name
           .icon: i.fa.fa-angle-right
 
   .section
