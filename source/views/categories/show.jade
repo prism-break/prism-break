@@ -1,11 +1,9 @@
 extends ../layouts/application
 block content
 
-  h2 
-    a(href='./')= category.name
+  .pipe: a(href='./')= category.name
 
-  ul
-    - each subcategory in table
-      li
-        a(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
-          .name= subcategory.name
+  - each subcategory in category.subcategories
+    a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
+      .label= subcategory.name
+      .icon: i.fa.fa-angle-right
