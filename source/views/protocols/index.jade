@@ -3,11 +3,13 @@ block content
   
   - each protocol in table
 
-    a.h2(href=protocol.slug)
-      | #{protocol.name} (#{protocol.projects.length})
+    a.bar(href=protocol.slug)
+      .label #{protocol.name} (#{protocol.projects.length})
+      .icon: i.fa.fa-angle-right
 
-    ul
-      - each project in protocol.projects
-        li 
-          a(href="../projects/#{project.slug}")
-            .name= project.name
+    //
+      ul
+        - each project in protocol.projects
+          li 
+            a(href="../projects/#{project.slug}")
+              .name= project.name
