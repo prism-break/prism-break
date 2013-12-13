@@ -13,7 +13,7 @@ STYLUS_PARAMS = -c -u ./node_modules/nib/
 STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u ./node_modules/nib/ -o public/assets/css/
 
 # Inputs
-VIEWS = ./source/views/index.ls
+VIEWS = ./source/functions/build.ls
 STYL = ./source/stylesheets/screen.styl
 
 # Outputs
@@ -22,23 +22,25 @@ CSS = ./public/assets/css/screen.css
 mkdirs:
 	mkdir -p public/assets/css public/assets/js
 
-copy:
+copy_assets:
 	cp -r source/assets/images public/assets/img
 	cp -r source/assets/fonts public/assets/fonts
-
-render_css:
-	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
 
 watch_css:
 	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
 
-render_html:
+build_css:
+	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
+
+build_html:
 	$(LIVESCRIPT_BIN) $(VIEWS)
 
 clean:
 	rm -rf public/
 
-all: mkdirs copy render_css render_html
+build_all: build_css build_html
+
+all: mkdirs copy_assets build_all
 
 uber: clean all
 
