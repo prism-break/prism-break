@@ -23,8 +23,10 @@ routes = (subdirectory, depth)->
     css: '../assets/css/screen.css'
     root: ''
     categories: 'categories'
-    protocols: 'protocols'
     projects: 'projects'
+    protocols: 'protocols'
+    platforms: 'platforms'
+    platform-types: 'platform-types'
     images: '../assets/img'
     logos: '../assets/img/logos/medium/'
 
