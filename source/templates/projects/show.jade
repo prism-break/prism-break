@@ -1,16 +1,9 @@
-!!! 5
-html
-  include ../partials/html-head
+extends ../layouts/application
+block content
 
-  body
-    include ../partials/header
-
-    .section
-      ul
-        li 
-          a(href=project.wikipedia_url)
-            .name= project.name
-            .category= project.protocols
-
-
-    include ../partials/footer
+  .section
+    ul
+      li 
+        a(href=project.wikipedia_url)
+          .name= project.name
+          .category= project.protocols

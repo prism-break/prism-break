@@ -1,20 +1,13 @@
-!!! 5
-html
-  include ../partials/html-head
+extends ../layouts/application
+block content
+  
+  - each protocol in table
 
-  body
-    include ../partials/header
+    a.h2(href=protocol.slug)
+      | #{protocol.name} (#{protocol.projects.length})
 
-    .section
-      - each protocol in table
-
-        a.h2(href=protocol.slug)
-          | #{protocol.name} (#{protocol.projects.length})
-
-        ul
-          - each project in protocol.projects
-            li 
-              a(href="../projects/#{project.slug}")
-                .name= project.name
-
-    include ../partials/footer
+    ul
+      - each project in protocol.projects
+        li 
+          a(href="../projects/#{project.slug}")
+            .name= project.name
