@@ -10,7 +10,7 @@ block content
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
 
-  - if(typeof project.description !== 'undefined')
+  - if(project.description !== '')
     .section
       .text-block!= marked(project.description)
 
