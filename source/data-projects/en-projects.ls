@@ -463,7 +463,7 @@ data =
   * description: "F-Droid is a software repository (or \"app store\") for Android applications; it functions similarly to the Google Play store, but only contains free and open-source software. The apps can be browsed and installed from the F-Droid website or directly from the F-Droid client app (which is not available in the Google Play store, but can be installed by sideloading). The F-Droid client app will automatically update installed F-Droid apps. "
     license_url: "https://f-droid.org/about/"
     logo: "f-droid.png"
-    notes: null
+    notes: ""
     privacy_url: ""
     source_url: "https://gitorious.org/f-droid"
     name: "F-Droid"
@@ -1612,7 +1612,7 @@ data =
         subcategories: ["Social Networks"]
     ]
 
-  * description: null
+  * description: "*Lorea is a project to create secure social cybernetic systems, in which a network of humans will become simultaneously represented on a virtual shared world.\nIts aim is to create a distributed and federated nodal organization of entities with no geophysical territory, interlacing their multiple relationships through binary codes and languages.*"
     license_url: "https://github.com/lorea/Elgg/blob/master/LICENSE.txt"
     logo: "lorea.png"
     notes: ""
