@@ -2036,7 +2036,7 @@ data =
         subcategories: ["VPN Clients"]
       * name: "Linux"
         subcategories: ["VPN Clients"]
-      * name: "OS X"
+      * name: "Mac OS X"
         subcategories: ["VPN Clients"]
       * name: "Windows"
         subcategories: ["VPN Clients"]
