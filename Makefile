@@ -23,8 +23,8 @@ mkdirs:
 	mkdir -p public/assets/css public/assets/js
 
 copy:
-	cp -r source/images public/assets/img
-	cp -r source/fonts public/assets/fonts
+	cp -r source/assets/images public/assets/img
+	cp -r source/assets/fonts public/assets/fonts
 
 render_css:
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
