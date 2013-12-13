@@ -12,12 +12,12 @@ block content
 
   - if(typeof project.description !== 'undefined')
     .section
-      .text-block= project.description
+      .text-block!= marked(project.description)
 
   - if(project.notes !== "")
     .section
       .pipe Security Notes
-      .text-block= project.notes
+      .text-block!= marked(project.notes)
 
   - if(project.protocols.length > 0)
     .section

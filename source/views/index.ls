@@ -2,6 +2,7 @@
 
 # libraries
 require! mkdirp
+require! marked
 {slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
@@ -193,6 +194,7 @@ write-projects-show = (translation) ->
     view = view-path 'projects/show'
     options = 
       pretty: true
+      marked: marked
       project: project
       routes: routes 'projects', 2
       t: translation
