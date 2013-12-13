@@ -1,18 +1,12 @@
-!!! 5
-html
-  include ../partials/html-head
+extends ../layouts/application
+block content
 
-  body
-    include ../partials/header
+  - each project in table
+    .card
+      a.btn-rectangle(href=project.slug)
+        img.card-logo(src= routes.logos + project.logo)
+        .title= project.name
+        .category= project.protocols
 
-    - each project in table
-      .card
-        a.btn-rectangle(href=project.slug)
-          img.card-logo(src= routes.logos + project.logo)
-          .title= project.name
-          .category= project.protocols
-
-        a.btn-square(href=project.url)
-          i.fa.fa-external-link-square
-
-    include ../partials/footer
+      a.btn-square(href=project.url)
+        i.fa.fa-external-link-square

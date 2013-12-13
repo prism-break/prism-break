@@ -1,21 +1,15 @@
-!!! 5
-html
-  include ../partials/html-head
+extends ../layouts/application
+block content
 
-  body
-    include ../partials/header
+  - each category in table
 
-    - each category in table
+    .section
 
-      .section
+      a.h2(href="./#{category.slug}")
+        | #{category.name} (#{category.subcategories.length})
 
-        a.h2(href="./#{category.slug}")
-          | #{category.name} (#{category.subcategories.length})
-
-        ul
-          - each subcategory in category.subcategories
-            li 
-              a(href="../subcategories/#{category.slug}-#{subcategory.slug}")
-                .name= subcategory.name
-
-    include ../partials/footer
+      ul
+        - each subcategory in category.subcategories
+          li 
+            a(href="../subcategories/#{category.slug}-#{subcategory.slug}")
+              .name= subcategory.name

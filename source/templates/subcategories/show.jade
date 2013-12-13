@@ -1,22 +1,14 @@
-!!! 5
-html
-  include ../partials/html-head
+extends ../layouts/application
+block content
 
-  body
-    include ../partials/header
+  h2 
+    a(href=categoryFile)= category.name
+    |  > 
+    a(href='./')= subcategory.name
 
-    .section
-
-      h2 
-        a(href=categoryFile)= category.name
-        |  > 
-        a(href='./')= subcategory.name
-
-      ul
-        - each project in table
-          li
-            a(href="../../projects/#{project.slug}")
-              .name= project.name
-              .category= project.protocols
-
-    include ../partials/footer
+  ul
+    - each project in table
+      li
+        a(href="../../projects/#{project.slug}")
+          .name= project.name
+          .category= project.protocols
