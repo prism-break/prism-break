@@ -1,7 +1,10 @@
 extends ../layouts/application
 block content
 
-  .pipe: a(href='./')= category.name
+  .pipe
+    a(href=routes.categories)= t.Categories
+    |  > 
+    a(href='./')= category.name
 
   - each subcategory in category.subcategories
     a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
