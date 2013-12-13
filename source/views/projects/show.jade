@@ -16,52 +16,52 @@ block content
 
   - if(project.notes !== "")
     .section
-      .pipe Security Notes
+      .pipe= t['Security Notes']
       .text-block!= marked(project.notes)
 
   - if(project.protocols.length > 0)
     .section
-      .pipe Supported Protocols
+      .pipe= t['Supported Protocols']
       - for protocol in project.protocols
         a.bar(href=protocol)
           .label= protocol
           .icon: i.fa.fa-angle-right
 
   .section
-    .pipe More Info
+    .pipe= t['More Info']
 
     a.bar(href=project.url)
-      .label Official Website
+      .label= t['Official Website']
       .icon: i.fa.fa-external-link
 
     - if(project.wikipedia_url !== '')
       a.bar(href=project.wikipedia_url)
-        .label Wikipedia Article
+        .label= t['Wikipedia Article']
         .icon: i.fa.fa-external-link
 
     - if(project.privacy_url !== '')
       a.bar(href=project.privacy_url)
-        .label Privacy Policy
+        .label= t['Privacy Policy']
         .icon: i.fa.fa-external-link
 
     - if(project.tos_url !== '')
       a.bar(href=project.tos_url)
-        .label Terms of Service
+        .label= t['Terms of Service']
         .icon: i.fa.fa-external-link
 
   .section
-    .pipe Source Code
+    .pipe= ['Source Code']
 
     - if(project.license_url !== '')
       a.bar(href=project.license_url)
-        .label Software License
+        .label= t['Project License']
         .icon: i.fa.fa-external-link
     - else
-      .bar.warning Software License Unavailable
+      .bar.warning= t['Project License Unavailable']
 
     - if(project.source_url !== '')
       a.bar(href=project.source_url)
-        .label Source Code
+        .label= t['Source Code']
         .icon: i.fa.fa-external-link
     - else
-      .bar.warning Source Code Unavailable
+      .bar.warning= t['Source Code Unavailable']
