@@ -32,7 +32,7 @@ data =
     tos_url: ""
     url: "https://www.torproject.org/projects/torbrowser.html.en"
     wikipedia_url: "https://en.wikipedia.org/wiki/Tor_Browser_Bundle"
-    protocols: ["HTTPS", "SSL/TLS", "Tor"]
+    protocols: ["SSL/TLS", "Tor"]
     categories: [
       * name: "BSD"
         subcategories: ["Web Browsers"]
