@@ -5,6 +5,7 @@ slugify-db = (db) ->
   list = db
   for project in list
     project.slug = slugify project.name
+    project.protocols-slugged = slugify-list project.protocols
   list = sort-by (.name), list
 
 slugify-list = (list) ->
