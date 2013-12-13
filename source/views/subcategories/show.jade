@@ -2,12 +2,12 @@ extends ../layouts/application
 block content
 
   h2 
-    a(href=categoryFile)= category.name
+    a(href="../../categories/#{data.category.slug}")= data.category.name
     |  > 
-    a(href='./')= subcategory.name
+    a(href='./')= data.subcategory.name
 
   ul
-    - each project in table
+    - each project in data.projects
       li
         a(href="../../projects/#{project.slug}")
           .name= project.name
