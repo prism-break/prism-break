@@ -1,14 +1,11 @@
+include ../projects/mixins
 extends ../layouts/application
 block content
 
-  h2 
+  .pipe 
     a(href="../../categories/#{data.category.slug}")= data.category.name
     |  > 
     a(href='./')= data.subcategory.name
 
-  ul
-    - each project in data.projects
-      li
-        a(href="../../projects/#{project.slug}")
-          .name= project.name
-          .category= project.protocols
+  - each project in data.projects
+    mixin project-card(project)
