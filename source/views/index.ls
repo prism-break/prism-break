@@ -6,8 +6,8 @@ require! mkdirp
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
-{data} = require '../data/en-projects.ls'
-translations = require '../translations'
+{data} = require '../data-projects/en-projects.ls'
+translations = require '../data-site'
 
 # the main database
 database = slugify-db data
