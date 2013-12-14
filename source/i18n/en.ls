@@ -1,4 +1,5 @@
 translations =
+  All: 'All'
   title: 'Prism Break'
   Browse: 'Browse'
   'Browse by Platform': 'Browse by Platform'
@@ -7,6 +8,7 @@ translations =
   'More Info': 'More Info'
   'Official Website': 'Official Website'
   'One Supported Project': 'One Supported Project'
+  Platform: 'Platform'
   Platforms: 'Platforms'
   'Platform Types': 'Platform Types'
   'Privacy Policy': 'Privacy Policy'

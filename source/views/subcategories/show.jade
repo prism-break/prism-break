@@ -1,11 +1,9 @@
+include ../subcategories/mixins
 include ../projects/mixins
 extends ../layouts/application
 block content
 
-  .pipe 
-    a(href="../../categories/#{data.category.slug}")= data.category.name
-    |  > 
-    a(href='./')= data.subcategory.name
+  mixin subcategory-top(data)
 
   - each project in data.projects
     mixin project-card(project)

@@ -1,0 +1,9 @@
+mixin category-top(category)
+  .card.mega
+    .btn-rectangle
+      .title= category.name
+      .category
+        a(href=routes.root)= t['Platforms']
+        != ' &raquo; ' + category.name
+
+  .pipe= t.Projects
