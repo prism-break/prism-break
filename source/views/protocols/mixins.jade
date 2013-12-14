@@ -9,5 +9,8 @@ mixin protocol-top(protocol)
   .text-block!= h.marked(protocol.description)
 
   .pipe
-    = protocol.projects.length + ' '
-    = t['Supported Projects']
+    if protocol.projects.length === 1
+      = t['One Supported Project']
+    else
+      = protocol.projects.length + ' '
+      = t['Supported Projects']
