@@ -98,6 +98,7 @@ write-subcategories-show = (translation) ->
     view = view-path 'subcategories/show'
     options = 
       pretty: true
+      truncate: truncate
       data: data
       routes: routes 'subcategories', 2
       t: translation
@@ -149,6 +150,7 @@ write-protocols-show = (translation) ->
     view = view-path 'protocols/show'
     options = 
       pretty: true
+      truncate: truncate
       protocol: data
       routes: routes 'protocols', 2
       t: translation
@@ -199,6 +201,7 @@ write-projects-show = (translation) ->
     view = view-path 'projects/show'
     options = 
       pretty: true
+      truncate: truncate
       marked: marked
       project: data
       routes: routes 'projects', 2
