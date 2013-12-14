@@ -221,6 +221,27 @@ write-projects-show = (translation) ->
   for project in projects-db
     create project
 
+write-about-index = ->
+  create = ->
+    path = 'about/index'
+    view = view-path path
+    options =
+      pretty: true
+      h: helpers
+      routes: routes 'about', 1
+      t: translation
+    file = public-dir + path
+
+    write = ->
+      write-html view, options, file
+
+    mkdirp public-dir + 'about', (err) ->
+      if err
+        console.error err
+      else
+        write!
+
+  create!
 
 ############################################################################
 # WRITE SITE
@@ -241,3 +262,4 @@ for language, translation of i18n
   write-protocols-show translation
   write-projects-index translation
   write-projects-show translation
+  write-about-index!
