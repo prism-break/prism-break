@@ -8,9 +8,10 @@ require! marked
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
-{data} =           require '../db/en-projects.ls'
-{platforms} = require '../db/en-platforms.ls'
-translations =     require '../i18n/index.ls'
+{data} = require '../db/en-projects.ls'
+{platform-types} = require '../db/en-platform-types.ls'
+{protocol-types} = require '../db/en-protocol-types.ls'
+translations = require '../i18n/index.ls'
 
 # the main database
 database = slugify-db data
@@ -22,7 +23,7 @@ database = slugify-db data
 
 
 write-site-index = (translation) ->
-  data = platforms database
+  data = platform-types database
 
   path = 'index'
   view = view-path path
