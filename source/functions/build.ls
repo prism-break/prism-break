@@ -3,7 +3,7 @@
 # libraries
 require! mkdirp
 require! '../functions/helpers.ls'
-{slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, nested-categories, protocols-tree, platform-types, protocol-types} = require '../functions/sort.ls'
+{slugify-db, subcategories-in, in-this-category, in-this-subcategory, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
@@ -167,7 +167,7 @@ write-protocols-show = (translation) ->
       else
         write!
 
-  for protocol in protocols-in projects-db
+  for protocol in protocols-db
     create protocol
 
 write-projects-index = (translation) ->
