@@ -22,6 +22,7 @@ routes = (subdirectory, depth)->
   bare-paths =
     css: '../assets/css/screen.css'
     root: ''
+    about: 'site'
     categories: 'categories'
     projects: 'projects'
     protocols: 'protocols'
