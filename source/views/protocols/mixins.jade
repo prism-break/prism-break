@@ -5,4 +5,4 @@ mixin protocol-top(protocol)
       .category
         = protocol.projects.length + ' '
         | projects
-  .text-block= protocol.description
+  .text-block!= h.marked(protocol.description)
