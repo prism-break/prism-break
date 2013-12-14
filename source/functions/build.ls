@@ -2,8 +2,7 @@
 
 # libraries
 require! mkdirp
-require! marked
-{truncate} = require '../functions/truncate.ls'
+require! '../functions/helpers.ls'
 {slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree, platform-types} = require '../functions/sort.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
@@ -98,7 +97,7 @@ write-subcategories-show = (translation) ->
     view = view-path 'subcategories/show'
     options = 
       pretty: true
-      truncate: truncate
+      h: helpers
       data: data
       routes: routes 'subcategories', 2
       t: translation
@@ -150,7 +149,7 @@ write-protocols-show = (translation) ->
     view = view-path 'protocols/show'
     options = 
       pretty: true
-      truncate: truncate
+      h: helpers
       protocol: data
       routes: routes 'protocols', 2
       t: translation
@@ -177,7 +176,7 @@ write-projects-index = (translation) ->
   view = view-path path
   options = 
     pretty: true
-    truncate: truncate
+    h: helpers
     projects: data
     routes: routes 'projects', 1
     t: translation
@@ -201,8 +200,7 @@ write-projects-show = (translation) ->
     view = view-path 'projects/show'
     options = 
       pretty: true
-      truncate: truncate
-      marked: marked
+      h: helpers
       project: data
       routes: routes 'projects', 2
       t: translation
