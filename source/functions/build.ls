@@ -9,11 +9,12 @@ require! '../functions/helpers.ls'
 # data
 {data} = require '../db/en-projects.ls'
 {platform-types} = require '../db/en-platform-types.ls'
-{protocols} = require '../db/en-protocols.ls'
+{protocols-raw} = require '../db/en-protocols.ls'
 i18n = require '../i18n/index.ls'
 
 # the main database
 database = slugify-db data
+protocols = slugify-db protocols-raw
 
 
 ############################################################################
