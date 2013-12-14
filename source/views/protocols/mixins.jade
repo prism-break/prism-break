@@ -2,7 +2,11 @@ mixin protocol-top(protocol)
   .card.mega
     .btn-rectangle
       .title= protocol.name
-      .category
-        = protocol.projects.length + ' '
-        | projects
+      .category= protocol.full_name
+    a.btn-square(href=protocol.wikipedia_url)
+      i.fa.fa-external-link-square
   .text-block!= h.marked(protocol.description)
+
+  .pipe
+    = protocol.projects.length + ' '
+    = t['Supported Projects']

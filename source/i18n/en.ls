@@ -16,7 +16,7 @@ translations =
   'Security Notes': 'Security Notes'
   'Source Code': 'Source Code'
   'Source Code Unavailable': 'Source Code Unavailable'
-  'Supported Software': 'Supported Software'
+  'Supported Projects': 'Supported Projects'
   'Supported Protocols': 'Supported Protocols'
   'Terms of Service': 'Terms of Service'
   'Wikipedia Article': 'Wikipedia Article'
