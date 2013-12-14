@@ -1,6 +1,8 @@
 translations =
   title: 'Prism Break'
   Browse: 'Browse'
+  'Browse by Platform': 'Browse by Platform'
+  'Browse by Protocol': 'Browse by Protocol'
   Categories: 'Categories'
   'More Info': 'More Info'
   'Official Website': 'Official Website'
