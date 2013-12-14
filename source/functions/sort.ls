@@ -28,11 +28,6 @@ subcategories-in = (category-name, db) ->
   list = slugify-list list
   list = sort-by (.name), list
 
-protocols-in = (db) ->
-  list = map (.protocols), db
-  list = unique flatten list
-  list = sort slugify-list list
-
 in-this-category = (category-name, db) ->
   list = []
   for project in db
@@ -60,12 +55,6 @@ nested-categories = (db) ->
     category.subcategories = sort-by (.name), category.subcategories
   tree = sort-by (.name), tree
 
-protocols-tree = (db) ->
-  tree = protocols-in(db)
-  for protocol in tree
-    protocol.projects = in-this-protocol(protocol.name, db)
-  tree = sort-by (.name), tree
-
 protocol-types = (protocols) ->
   types = categories-in protocols
   for type in types
@@ -76,10 +65,8 @@ exports.slugify-db = slugify-db
 exports.slugify-list = slugify-list
 exports.categories-in = categories-in
 exports.subcategories-in = subcategories-in
-exports.protocols-in = protocols-in
 exports.in-this-category = in-this-category
 exports.in-this-subcategory = in-this-subcategory
 exports.in-this-protocol = in-this-protocol
 exports.nested-categories = nested-categories
-exports.protocols-tree = protocols-tree
 exports.protocol-types = protocol-types
