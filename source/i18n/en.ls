@@ -6,6 +6,7 @@ translations =
   Categories: 'Categories'
   'More Info': 'More Info'
   'Official Website': 'Official Website'
+  'One Supported Project': 'One Supported Project'
   Platforms: 'Platforms'
   'Platform Types': 'Platform Types'
   'Privacy Policy': 'Privacy Policy'
