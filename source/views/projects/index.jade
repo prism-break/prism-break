@@ -1,12 +1,6 @@
+include ../projects/mixins
 extends ../layouts/application
 block content
 
   - each project in projects
-    .card
-      a.btn-rectangle(href=project.slug)
-        img.card-logo(src= routes.logos + project.logo)
-        .title!= truncate(project.name, 20)
-        .category= project.protocols
-
-      a.btn-square(href=project.url)
-        i.fa.fa-external-link-square
+    mixin project-card(project)
