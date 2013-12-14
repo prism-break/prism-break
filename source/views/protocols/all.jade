@@ -1,0 +1,8 @@
+extends ../layouts/application
+block content
+  
+  - each protocol in protocols
+
+    a.bar(href=protocol.slug)
+      .label= protocol.name + ' '
+      .icon: i.fa.fa-angle-right

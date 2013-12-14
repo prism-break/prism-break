@@ -1,8 +1,11 @@
 extends ../layouts/application
 block content
   
-  - each protocol in protocols
+  - each protocolType in protocolTypes
 
-    a.bar(href=protocol.slug)
-      .label= protocol.name + ' '
-      .icon: i.fa.fa-angle-right
+    .pipe= protocolType.name
+
+    - each protocol in protocolType.protocols
+      a.bar(href="../protocols/#{protocol.slug}")
+        .label= protocol.name
+        .icon: i.fa.fa-angle-right
