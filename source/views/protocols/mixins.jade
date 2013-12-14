@@ -1,8 +1,8 @@
 mixin protocol-top(protocol)
-  .card
+  .card.mega
     .btn-rectangle
-      img.card-logo(src='#')
       .title= protocol.name
       .category
         = protocol.projects.length + ' '
         | projects
+  .text-block= protocol.description
