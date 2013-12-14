@@ -10,6 +10,7 @@ require! '../functions/helpers.ls'
 {data} = require '../db/en-projects.ls'
 {platform-types} = require '../db/en-platform-types.ls'
 {protocol-types} = require '../db/en-protocol-types.ls'
+{protocols} = require '../db/en-protocols.ls'
 translations = require '../i18n/index.ls'
 
 # the main database
