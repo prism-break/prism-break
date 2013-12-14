@@ -53,13 +53,6 @@ in-this-subcategory = (subcategory-name, db) ->
 in-this-protocol = (protocol, db) ->
   filter (-> protocol in it.protocols), db
 
-categories-tree = (db) ->
-  tree = categories-in db
-  for category in tree
-    category.protocols = protocols-in(in-this-category(category.name, db))
-    category.protocols = sort-by (.name), category.protocols
-  tree = sort-by (.name), tree
-
 nested-categories = (db) ->
   tree = categories-in db
   for category in tree
@@ -87,7 +80,6 @@ exports.protocols-in = protocols-in
 exports.in-this-category = in-this-category
 exports.in-this-subcategory = in-this-subcategory
 exports.in-this-protocol = in-this-protocol
-exports.categories-tree = categories-tree
 exports.nested-categories = nested-categories
 exports.protocols-tree = protocols-tree
 exports.protocol-types = protocol-types

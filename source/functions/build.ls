@@ -3,7 +3,7 @@
 # libraries
 require! mkdirp
 require! '../functions/helpers.ls'
-{slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree, platform-types, protocol-types} = require '../functions/sort.ls'
+{slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, nested-categories, protocols-tree, platform-types, protocol-types} = require '../functions/sort.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
