@@ -119,13 +119,13 @@ write-subcategories-show = (translation) ->
       create subcategory
 
 write-protocols-index = (translation) ->
-  data = protocols-tree(database)
+  data = protocol-types database
 
   path = 'protocols/index'
   view = view-path path
   options = 
     pretty: true
-    protocols: data
+    protocol-types: data
     routes: routes 'protocols', 1
     t: translation
   file = public-dir + path

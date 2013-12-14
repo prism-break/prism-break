@@ -4,19 +4,22 @@ protocol-types = (db) ->
   types =
     * name: 'Communication'
       slug: 'communication'
-      categories: ['IRC', 'SIP', 'VoIP', 'XMPP']
+      protocols: ['IRC', 'SIP', 'VoIP', 'XMPP']
     * name: 'Encryption'
       slug: 'encryption'
-      categories: ['GPG', 'OTR', 'S/MIME', 'SSL/TLS', 'ZRTP']
+      protocols: ['GPG', 'OTR', 'S/MIME', 'SSL/TLS', 'ZRTP']
     * name: 'Network Anonymity'
       slug: 'network-anonymity'
-      categories: ['I2P', 'Tor']
-    * name: 'Synchronization'
-      slug: 'synchronization'
-      categories: ['CalDAV', 'CardDAV', 'RSS', 'WebDAV']
+      protocols: ['I2P', 'Tor']
+    * name: 'Syndication'
+      slug: 'syndication'
+      protocols: ['RSS']
+    * name: 'Collaboration'
+      slug: 'collaboration'
+      protocols: ['CalDAV', 'CardDAV', 'WebDAV']
 
   for type in types
-    type.categories = slugify-list type.categories
+    type.protocols = slugify-list type.protocols
   types
 
 exports.protocol-types = protocol-types
