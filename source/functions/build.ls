@@ -7,14 +7,14 @@ require! '../functions/helpers.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
-{data} = require '../db/en-projects.ls'
+{projects-raw} = require '../db/en-projects.ls'
 {platform-types} = require '../db/en-platform-types.ls'
 {protocols-raw} = require '../db/en-protocols.ls'
 i18n = require '../i18n/index.ls'
 
-# the main database
-database = slugify-db data
-protocols = slugify-db protocols-raw
+# slugging the data for urls
+projects-db = slugify-db projects-raw
+protocols-db = slugify-db protocols-raw
 
 
 ############################################################################
@@ -23,7 +23,7 @@ protocols = slugify-db protocols-raw
 
 
 write-site-index = (translation) ->
-  data = platform-types database
+  data = platform-types projects-db
 
   path = 'index'
   view = view-path path
@@ -38,7 +38,7 @@ write-site-index = (translation) ->
   write-json data, file
 
 write-categories-index = ->
-  data = nested-categories(database)
+  data = nested-categories(projects-db)
 
   path = 'categories/index'
   view = view-path path
@@ -61,7 +61,7 @@ write-categories-index = ->
 
 write-categories-show = (translation) ->
   create = (category) ->
-    category.subcategories = subcategories-in(category.name, database)
+    category.subcategories = subcategories-in(category.name, projects-db)
     data = category
 
     path = "categories/#{category.slug}/"
@@ -84,7 +84,7 @@ write-categories-show = (translation) ->
       else
         write!
 
-  for category in nested-categories(database)
+  for category in nested-categories(projects-db)
     create category
 
 write-subcategories-show = (translation) ->
@@ -92,7 +92,7 @@ write-subcategories-show = (translation) ->
     data =
       category: category
       subcategory: subcategory
-      projects: in-this-subcategory(subcategory.name, in-this-category(category.name, database))
+      projects: in-this-subcategory(subcategory.name, in-this-category(category.name, projects-db))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
     view = view-path 'subcategories/show'
@@ -115,12 +115,12 @@ write-subcategories-show = (translation) ->
       else
         write!
 
-  for category in nested-categories(database)
+  for category in nested-categories(projects-db)
     for subcategory in category.subcategories
       create subcategory
 
 write-protocols-index = (translation) ->
-  data = protocol-types protocols
+  data = protocol-types protocols-db
 
   path = 'protocols/index'
   view = view-path path
@@ -143,7 +143,7 @@ write-protocols-index = (translation) ->
 
 write-protocols-show = (translation) ->
   create = (protocol) ->
-    protocol.projects = in-this-protocol(protocol.name, database)
+    protocol.projects = in-this-protocol(protocol.name, projects-db)
     data = protocol
 
     path = "protocols/#{protocol.slug}/"
@@ -167,11 +167,11 @@ write-protocols-show = (translation) ->
       else
         write!
 
-  for protocol in protocols-in(database)
+  for protocol in protocols-in(projects-db)
     create protocol
 
 write-projects-index = (translation) ->
-  data = database
+  data = projects-db
 
   path = 'projects/index'
   view = view-path path
@@ -218,7 +218,7 @@ write-projects-show = (translation) ->
       else
         write!
 
-  for project in database
+  for project in projects-db
     create project
 
 
