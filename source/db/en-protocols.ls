@@ -101,7 +101,7 @@ protocols-raw =
     description: "Calendaring Extensions to WebDAV, or CalDAV, is an Internet standard allowing a client to access scheduling information on a remote server. It extends WebDAV (HTTP-based protocol for data manipulation) specification and uses iCalendar format for the data. The protocol is defined by RFC 4791. It allows multiple client access to the same information thus allowing cooperative planning and information sharing. Many server and client applications support the protocol."
     wikipedia_url: "https://en.wikipedia.org/wiki/CalDAV"
     categories: [
-      * name: "Collaboration"
+      * name: "Synchronization"
     ]
 
   * name: "CardDAV"
@@ -109,7 +109,7 @@ protocols-raw =
     description: "CardDAV is an address book client/server protocol designed to allow users to access and share contact data on a server."
     wikipedia_url: "https://en.wikipedia.org/wiki/CardDAV"
     categories: [
-      * name: "Collaboration"
+      * name: "Synchronization"
     ]
 
   * name: "WebDAV"
@@ -117,7 +117,7 @@ protocols-raw =
     description: "Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol (HTTP) that facilitates collaboration between users in editing and managing documents and files stored on World Wide Web servers. A working group of the Internet Engineering Task Force (IETF) defined WebDAV in RFC 4918."
     wikipedia_url: "https://en.wikipedia.org/wiki/WebDAV"
     categories: [
-      * name: "Collaboration"
+      * name: "Synchronization"
     ]
 
 exports.protocols-raw = protocols-raw
