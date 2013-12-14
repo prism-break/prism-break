@@ -2,7 +2,8 @@ mixin protocol-top(protocol)
   .card.mega
     .btn-rectangle
       .title= protocol.name
-      .category= protocol.full_name
+      .category(title=protocol.full_name)
+        != h.truncate(protocol.full_name, 37)
     a.btn-square(href=protocol.wikipedia_url)
       i.fa.fa-external-link-square
   .text-block!= h.marked(protocol.description)

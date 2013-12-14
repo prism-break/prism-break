@@ -9,8 +9,8 @@ mixin project-card(project)
   .card
     a.btn-rectangle(href="#{routes.projects}/#{project.slug}")
       img.card-logo(src= routes.logos + project.logo)
-      .title!= h.truncator(project.name, 20)
-      .category!= h.truncator(subcategories, 30)
+      .title!= h.truncate(project.name, 20)
+      .category!= h.truncate(subcategories, 30)
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
@@ -25,8 +25,8 @@ mixin project-top(project)
   .card
     .btn-rectangle
       img.card-logo(src= routes.logos + project.logo)
-      .title!= h.truncator(project.name, 20)
-      .category!= h.truncator(subcategories, 30)
+      .title!= h.truncate(project.name, 20)
+      .category!= h.truncate(subcategories, 30)
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
