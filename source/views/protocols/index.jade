@@ -4,8 +4,5 @@ block content
   - each protocol in protocols
 
     a.bar(href=protocol.slug)
-      .label
-        = t.Browse + ' '
-        strong= protocol.name + ' '
-        span.light= '(' + protocol.projects.length + ')'
+      .label= protocol.name + ' '
       .icon: i.fa.fa-angle-right
