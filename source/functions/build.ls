@@ -167,7 +167,7 @@ write-protocols-show = (translation) ->
       else
         write!
 
-  for protocol in protocols-in(projects-db)
+  for protocol in protocols-in projects-db
     create protocol
 
 write-projects-index = (translation) ->
