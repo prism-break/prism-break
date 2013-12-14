@@ -38,7 +38,7 @@ write-site-index = (translation) ->
   write-json data, file
 
 write-categories-index = ->
-  data = nested-categories(projects-db)
+  data = nested-categories projects-db
 
   path = 'categories/index'
   view = view-path path
