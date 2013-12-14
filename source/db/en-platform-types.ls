@@ -4,7 +4,7 @@ platform-types = (db) ->
   types =
     * name: 'Services'
       slug: 'services'
-      categories: ['Services']
+      categories: ['Web Services']
     * name: 'Mobile'
       slug: 'mobile'
       categories: ['Android', 'iOS']
