@@ -36,7 +36,7 @@ routes = (subdirectory, depth)->
       if depth == 2
         final-paths[key] = '../'
       else
-        final-paths[key] = './'
+        final-paths[key] = '.'
     else
       final-paths[key] = prefix + value
   final-paths
