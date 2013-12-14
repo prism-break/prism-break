@@ -1,7 +1,7 @@
 {slugify-list} = require '../functions/sort.ls'
 
-platforms = (db) ->
-  platform-types =
+platform-types = (db) ->
+  types =
     * name: 'Services'
       slug: 'services'
       categories: ['Services']
@@ -15,8 +15,8 @@ platforms = (db) ->
       slug: 'server'
       categories: ['Routers', 'Servers']
 
-  for platform in platform-types
-    platform.categories = slugify-list platform.categories
-  platform-types
+  for type in types
+    type.categories = slugify-list type.categories
+  types
 
-exports.platforms = platforms
+exports.platform-types = platform-types
