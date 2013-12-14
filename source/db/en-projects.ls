@@ -704,7 +704,7 @@ data =
         subcategories: ["Web Browser Addons", "Instant Messaging"]
       * name: "Windows"
         subcategories: ["Web Browser Addons", "Instant Messaging"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Instant Messaging"]
     ]
 
@@ -742,7 +742,7 @@ data =
     wikipedia_url: "https://en.wikipedia.org/wiki/DuckDuckGo"
     protocols: ["SSL/TLS", "Tor"]
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
@@ -758,7 +758,7 @@ data =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
@@ -790,7 +790,7 @@ data =
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
@@ -806,7 +806,7 @@ data =
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
@@ -842,7 +842,7 @@ data =
     wikipedia_url: "https://en.wikipedia.org/wiki/OpenStreetMap"
     protocols: []
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["World Maps"]
     ]
 
@@ -858,7 +858,7 @@ data =
     wikipedia_url: "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
     protocols: []
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["World Maps"]
     ]
 
@@ -898,7 +898,7 @@ data =
         subcategories: ["World Maps"]
     ]
 
-  * description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
+  * description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Web Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
     license_url: ""
     logo: "autistici-inventati.png"
     notes: ""
@@ -910,8 +910,8 @@ data =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Services", "Web Hosting"]
+      * name: "Web Services"
+        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Web Services", "Web Hosting"]
     ]
 
   * description: "Bitmessage is a decentralized, encrypted, peer-to-peer, trustless communications protocol that can be used by one person to send encrypted messages to another person, or to multiple subscribers. Bitmessage encrypts each users' message inbox using strong encryption and replicates it inside its P2P network mixing it with inboxes of other users in order to conceal user's identity, prevent eavesdropping and protect the network from any control. The Bitmessage communication protocol avoids sender-spoofing through strong authentication, and hides metadata from wiretapping systems."
@@ -946,7 +946,7 @@ data =
     wikipedia_url: "https://en.wikipedia.org/wiki/MyKolab"
     protocols: []
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Email Accounts"]
       * name: "Mac OS X"
         subcategories: ["File Storage & Sync"]
@@ -986,8 +986,8 @@ data =
     wikipedia_url: ""
     protocols: ["SSL/TLS", "Tor", "XMPP"]
     categories: [
-      * name: "Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Services"]
+      * name: "Web Services"
+        subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Web Services"]
     ]
 
   * description: "Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation.\nThe project strategy was modeled after Mozilla Firefox, a project aimed at creating a web browser. On December 7, 2004, version 1.0 was released, and received more than 500,000 downloads in its first three days of release, and 1,000,000 in 10 days."
@@ -1510,7 +1510,7 @@ data =
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
@@ -1576,7 +1576,7 @@ data =
     categories: [
       * name: "Servers"
         subcategories: ["Social Networks"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Social Networks"]
     ]
 
@@ -1642,7 +1642,7 @@ data =
     categories: [
       * name: "Servers"
         subcategories: ["Social Networks"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Social Networks"]
     ]
 
@@ -1658,7 +1658,7 @@ data =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
@@ -1802,7 +1802,7 @@ data =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1818,7 +1818,7 @@ data =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1836,7 +1836,7 @@ data =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1854,7 +1854,7 @@ data =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1872,7 +1872,7 @@ data =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1964,7 +1964,7 @@ data =
         subcategories: ["Finance"]
       * name: "Windows"
         subcategories: ["Finance"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Finance"]
     ]
 
@@ -1992,7 +1992,7 @@ data =
         subcategories: ["Finance"]
       * name: "Windows"
         subcategories: ["Finance"]
-      * name: "Services"
+      * name: "Web Services"
         subcategories: ["Finance"]
     ]
 
