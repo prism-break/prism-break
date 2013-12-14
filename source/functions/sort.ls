@@ -65,12 +65,30 @@ nested-categories = (db) ->
     category.subcategories = sort-by (.name), category.subcategories
   tree = sort-by (.name), tree
 
-protocols-tree =  (db) ->
+protocols-tree = (db) ->
   tree = protocols-in(db)
   for protocol in tree
     protocol.projects = in-this-protocol(protocol.name, db)
   tree = sort-by (.name), tree
 
+platforms-tree = (db) ->
+  platform-types =
+    * name: 'Services'
+      slug: 'services'
+      categories: ['Services']
+    * name: 'Mobile'
+      slug: 'mobile'
+      categories: ['Android', 'iOS']
+    * name: 'PC'
+      slug: 'pc'
+      categories: ['BSD', 'Linux', 'Mac OS X', 'Windows']
+    * name: 'Server'
+      slug: 'server'
+      categories: ['Routers', 'Servers']
+
+  for platform-type in platform-types
+    platform-type.categories = slugify-list platform-type.categories
+  platform-types
 
 exports.slugify-db = slugify-db
 exports.slugify-list = slugify-list
@@ -83,3 +101,4 @@ exports.in-this-protocol = in-this-protocol
 exports.categories-tree = categories-tree
 exports.nested-categories = nested-categories
 exports.protocols-tree = protocols-tree
+exports.platforms-tree = platforms-tree
