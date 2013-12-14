@@ -6,12 +6,12 @@ block content
 
   - if(project.description !== '')
     .section
-      .text-block!= marked(project.description)
+      .text-block!= h.marked(project.description)
 
   - if(project.notes !== "")
     .section
       .pipe= t['Security Notes']
-      .text-block!= marked(project.notes)
+      .text-block!= h.marked(project.notes)
 
   - if(project.protocolsSlugged.length > 0)
     .section
