@@ -6,5 +6,7 @@ block content
 
   - each subcategory in category.subcategories
     a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
-      .label= subcategory.name
+      .label
+        img.logo(src="#{routes.logos}mozilla-firefox.png")
+        = subcategory.name
       .icon: i.fa.fa-angle-right

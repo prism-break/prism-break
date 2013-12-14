@@ -1,4 +1,5 @@
 translations =
+  About: 'About'
   All: 'All'
   title: 'Prism Break'
   Browse: 'Browse'
