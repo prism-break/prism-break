@@ -4,7 +4,7 @@
 require! mkdirp
 require! marked
 {truncate} = require '../functions/truncate.ls'
-{slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree} = require '../functions/sort.ls'
+{slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree, platforms-tree} = require '../functions/sort.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
@@ -21,13 +21,13 @@ database = slugify-db data
 
 
 write-site-index = (translation) ->
-  data = nested-categories(database)
+  data = platforms-tree database
 
   path = 'index'
   view = view-path path
   options = 
     pretty: true
-    table: data
+    platform-types: data
     routes: routes!
     t: translation
   file = public-dir + path

@@ -1,15 +1,11 @@
 extends layouts/application
 block content
 
-  - each category in table
+  - each platformType in platformTypes
 
-    .section
+    .pipe= platformType.name
 
-      a.h2(href="./categories/#{category.slug}")
-        | #{category.name} (#{category.subcategories.length})
-
-      ul
-        - each subcategory in category.subcategories
-          li 
-            a(href="./subcategories/#{category.slug}-#{subcategory.slug}")
-              .name= subcategory.name
+    - each category in platformType.categories
+      a.bar(href="./categories/#{category.slug}")
+        .label= category.name
+        .icon: i.fa.fa-angle-right
