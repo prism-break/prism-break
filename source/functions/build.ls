@@ -11,7 +11,7 @@ require! '../functions/helpers.ls'
 {platform-types} = require '../db/en-platform-types.ls'
 {protocol-types} = require '../db/en-protocol-types.ls'
 {protocols} = require '../db/en-protocols.ls'
-translations = require '../i18n/index.ls'
+i18n = require '../i18n/index.ls'
 
 # the main database
 database = slugify-db data
@@ -227,7 +227,7 @@ write-projects-show = (translation) ->
 # This function will write all of the HTML pages per site language.
 
 
-for language, translation of translations
+for language, translation of i18n
 
   t = translation
   public-dir = "public/#{language}/"
