@@ -1,4 +1,4 @@
-data =
+projects-raw =
 
   * description: "Debian (/\u02c8d\u025bbi\u0259n/) is an operating system composed of free software mostly carrying the GNU General Public License. The operating system is developed by an internet collaboration of volunteers aligned with The Debian Project.\nDebian systems can use either the Linux kernel (known as the Debian GNU/Linux distribution), the FreeBSD kernel (known as the Debian GNU/kFreeBSD distribution) or, more recently, the GNU Hurd kernel (more precisely, the GNU Mach microkernel and its servers; known as the Debian GNU/Hurd distribution)."
     license_url: "http://www.debian.org/legal/licenses/"
@@ -2396,4 +2396,4 @@ data =
         subcategories: ["Mesh Networks"]
     ]
 
-exports.data = data
+exports.projects-raw = projects-raw
