@@ -3,13 +3,12 @@
 # libraries
 require! mkdirp
 require! '../functions/helpers.ls'
-{slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree, platform-types} = require '../functions/sort.ls'
+{slugify-db, subcategories-in, protocols-in, in-this-category, in-this-subcategory, in-this-protocol, categories-tree, nested-categories, protocols-tree, platform-types, protocol-types} = require '../functions/sort.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
 {data} = require '../db/en-projects.ls'
 {platform-types} = require '../db/en-platform-types.ls'
-{protocol-types} = require '../db/en-protocol-types.ls'
 {protocols} = require '../db/en-protocols.ls'
 i18n = require '../i18n/index.ls'
 
@@ -120,7 +119,7 @@ write-subcategories-show = (translation) ->
       create subcategory
 
 write-protocols-index = (translation) ->
-  data = protocol-types database
+  data = protocol-types protocols
 
   path = 'protocols/index'
   view = view-path path

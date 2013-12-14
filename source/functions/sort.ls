@@ -71,6 +71,11 @@ protocols-tree = (db) ->
     protocol.projects = in-this-protocol(protocol.name, db)
   tree = sort-by (.name), tree
 
+protocol-types = (protocols) ->
+  types = categories-in protocols
+  for type in types
+    type.protocols = in-this-category(type.name, protocols)
+  types
 
 exports.slugify-db = slugify-db
 exports.slugify-list = slugify-list
@@ -83,3 +88,4 @@ exports.in-this-protocol = in-this-protocol
 exports.categories-tree = categories-tree
 exports.nested-categories = nested-categories
 exports.protocols-tree = protocols-tree
+exports.protocol-types = protocol-types
