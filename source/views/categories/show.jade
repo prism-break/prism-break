@@ -1,10 +1,8 @@
+include ../categories/mixins
 extends ../layouts/application
 block content
 
-  .pipe
-    a(href=routes.categories)= t.Categories
-    |  > 
-    a(href='./')= category.name
+  mixin category-top(category)
 
   - each subcategory in category.subcategories
     a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
