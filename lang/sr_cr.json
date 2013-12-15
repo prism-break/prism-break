@@ -132,7 +132,9 @@
   "i18n-piwigo-desc": "Бесплатна платформа за интернет галерије.",
   "i18n-wordpress-desc": "Бесплатан ЦМС за сајт/блог.",
   "i18n-zenphoto-desc": "Бесплатан ЦМС за објављивање медија.",
-
+  "i18n-imgbi-desc": "Image hosting with in-browser AES-256 encryption.",
+  "i18n-imgbi-self-desc": "You can also run self-hosted instances of img.bi.",
+  
   "i18n-online-office-suite": "Online office suite",
   "i18n-protectedtext-desc": "Free online encrypted notepad.",
   "i18n-ethercalc-desc": "Више кориснички калкулациони сервер.",
@@ -195,7 +197,7 @@
   "i18n-iredmail-desc": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
   "i18n-indimail-desc": "Highly scalable and configurable messaging platform based on the MTA qmail.",
   "i18n-groupware-server": "Groupware server",
-  "i18n-kolab-desc'>Groupware solution for email, files, calendars, address books and mobile sync.",
+  "i18n-kolab-desc': "Groupware solution for email, files, calendars, address books and mobile sync.",
   "i18n-mail-transfer-agent": "Mail transfer agent (MTA)",
   "i18n-exim-desc": "MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.",
   "i18n-postfix-desc": "Easy-to-setup MTA used by approximately 23% of all mail servers.",
@@ -286,7 +288,7 @@
 
   "i18n-online-transactions-note": "<p>The <strong>Bitcoin</strong> blockchain is a decentralized, public ledger of all transactions in the Bitcoin network.</p><p>&ldquo;It may be the TCP/IP of money.&rdquo; &mdash;Paul Buchheit</p>",
 
-  "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</p>",
+  "i18n-media-publishing-note": "<p><strong>Self-hosted</strong> is important. Hosting your blog on WordPress.com is no better for your data security than Blogger or Tumblr.</p><p><strong>img.bi</strong> also accessible through <a href='#anon-network'>Tor Hidden Service</a> (<a href='http://imgbifwwqoixh7te.onion/'>imgbifwwqoixh7te.onion</a>) and as <a href='#anon-network'>Eepsite</a> (<a href='http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA'>imgbi.i2p</a>).</p><p>Warning: Using avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under &ldquo;Settings &gt; Discussion &gt; Avatars&rdquo;.</p><p>Warning: MediaCrush includes <strong>Google Analytics</strong> and <strong>Google Adsense</strong> if you do not have Do Not Track enabled.</p>",
   "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting",
   "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.",
 

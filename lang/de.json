@@ -165,7 +165,9 @@
   "i18n-piwigo-desc": "Selbstgehostete Fotogalerie-Plattform.",
   "i18n-wordpress-desc": "Selbstgehostetes Website-/Blog-CMS.",
   "i18n-zenphoto-desc": "Selbstgehostetes Medienmanagementsystem.",
-  "i18n-media-publishing-note": "<p>Es ist wichtig <strong>selbst zu hosten</strong>. Deinen Blog auf wordpress.com zu hosten ist nicht besser für Deine Daten, als es bei Blogger oder Tumblr zu tun.</p><p>Warnung: Das Benutzen von Avataren in WordPress wird Gravatar aktivieren, welches deine E-Mail gravatar.com mitteilt. Avatare sind standardmässig aktiviert und können unter Einstellungen->Diskussion->Avatare deaktiviert werden.</p>",
+  "i18n-imgbi-desc": "Image hosting with in-browser AES-256 encryption.",
+  "i18n-imgbi-self-desc": "You can also run self-hosted instances of img.bi.",
+  "i18n-media-publishing-note": "<p>Es ist wichtig <strong>selbst zu hosten</strong>. Deinen Blog auf wordpress.com zu hosten ist nicht besser für Deine Daten, als es bei Blogger oder Tumblr zu tun.</p><p><strong>img.bi</strong> also accessible through <a href='#anon-network'>Tor Hidden Service</a> (<a href='http://imgbifwwqoixh7te.onion/'>imgbifwwqoixh7te.onion</a>) and as <a href='#anon-network'>Eepsite</a> (<a href='http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA'>imgbi.i2p</a>).</p><p>Warnung: Das Benutzen von Avataren in WordPress wird Gravatar aktivieren, welches deine E-Mail gravatar.com mitteilt. Avatare sind standardmässig aktiviert und können unter Einstellungen->Diskussion->Avatare deaktiviert werden.</p>",
  
   "i18n-online-transactions": "Online-Transaktionen",
   "i18n-bitcoin-desc": "P2P-basierte digitale Währung ohne zentrale Autorität.",

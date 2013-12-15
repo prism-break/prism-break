@@ -161,13 +161,14 @@
   "i18n-mediacrush-desc": "Privacy-first fast media (image, audio, video) hosting", 
   "i18n-mediacrush-self-desc": "You can also run self-hosted instances of MediaCrush.", 
   "i18n-noblogs-desc": "Blog publishing platform based on WordPress, by autistici.org.", 
-
   "i18n-gnumediagoblin-desc": "Zdecentralizowana platforma publikacji medi&oacute;w.", 
   "i18n-piwigo-desc": "Darmowa platforma galerii ze zdjeciami.", 
   "i18n-wordpress-desc": "Darmowy system CMS dla blog&oacute;w i stron WWW.", 
   "i18n-zenphoto-desc": "Darmowy system CMS dla stron z multimediami.", 
-
-  "i18n-media-publishing-note": "<p><strong>W&#322;asny hosting</strong> jest najwa&#380;niejszy. NIE U&#379;YWAJ Wordpress.com, gdy&#380; nie daje Ci to &#380;adnej prywatno&#347;ci - to tak jakby u&#380;ywa&#263; Bloggera czy Tumblra.</p><p>Je&#347;li kraj, w kt&oacute;rym mieszkasz, kontroluje wszystkie serwery, za&#322;&oacute;&#380; konto hostingowe za granic&#261;.", 
+  "i18n-imgbi-desc": "Image hosting with in-browser AES-256 encryption.",
+  "i18n-imgbi-self-desc": "You can also run self-hosted instances of img.bi.",
+  "i18n-media-publishing-note": "<p><strong>W&#322;asny hosting</strong> jest najwa&#380;niejszy. NIE U&#379;YWAJ Wordpress.com, gdy&#380; nie daje Ci to &#380;adnej prywatno&#347;ci - to tak jakby u&#380;ywa&#263; Bloggera czy Tumblra.</p><p><strong>img.bi</strong> also accessible through <a href='#anon-network'>Tor Hidden Service</a> (<a href='http://imgbifwwqoixh7te.onion/'>imgbifwwqoixh7te.onion</a>) and as <a href='#anon-network'>Eepsite</a> (<a href='http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA'>imgbi.i2p</a>).</p><p>Je&#347;li kraj, w kt&oacute;rym mieszkasz, kontroluje wszystkie serwery, za&#322;&oacute;&#380; konto hostingowe za granic&#261;.</p>", 
+  
   "i18n-online-transactions": "Transakcje on-line", 
   "i18n-bitcoin-desc": "Cyfrowa waluta P2P, bez organu centralnego.", 
   "i18n-cryptocoins-title": "Alternatywne waluty kryptograficzne.", 
