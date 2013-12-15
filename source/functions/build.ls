@@ -3,7 +3,7 @@
 # libraries
 require! mkdirp
 require! '../functions/helpers.ls'
-{slugify-db, subcategories-in, in-this-category, in-this-subcategory, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
+{select-random, slugify-db, subcategories-in, images-in, in-this-category, in-this-subcategory, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
 {view-path, routes, write-html, write-json} = require '../functions/paths.ls'
 
 # data
@@ -63,7 +63,9 @@ write-categories-show = (translation) ->
   create = (category) ->
     category.subcategories = subcategories-in(category.name, projects-db)
     for subcategory in category.subcategories
-      subcategory.projects = in-this-subcategory(subcategory.name, projects-db)
+      subcategory.projects = in-this-subcategory(subcategory.name, in-this-category(category.name, projects-db))
+      subcategory.project-logos = images-in(subcategory.projects)
+      subcategory.random-logo = select-random(subcategory.project-logos)
     data = category
 
     path = "categories/#{category.slug}/"
