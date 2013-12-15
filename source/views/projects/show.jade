@@ -1,7 +1,8 @@
 include ../projects/mixins
 extends ../layouts/application
 block title
-  = project.name
+  = project.name + ' - '
+  = t.Projects
 block content
 
   mixin project-head(project)
