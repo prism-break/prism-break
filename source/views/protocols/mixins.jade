@@ -1,9 +1,10 @@
-mixin protocol-top(protocol)
-  .card.mega
+mixin protocol-head(protocol)
+  .card.text
     .btn-rectangle
+      .small
+        a(href=routes.protocols)= t.Protocols
+        = " /"
       .title= protocol.name
-      .category(title=protocol.full_name)
-        != h.truncate(protocol.full_name, 37)
     a.btn-square(href=protocol.wikipedia_url)
       i.fa.fa-external-link-square
   .text-block!= h.marked(protocol.description)
