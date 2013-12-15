@@ -28,6 +28,7 @@ routes = (subdirectory, depth)->
     protocols: 'protocols'
     images: '../assets/img'
     logos: '../assets/img/logos/medium/'
+    logos-rejected: '../assets/img/logos-rejected/small/'
 
   final-paths = {}
   for key, value of bare-paths
