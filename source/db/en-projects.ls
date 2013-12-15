@@ -974,11 +974,11 @@ projects-raw =
     protocols: ["Tor"]
     categories: [
       * name: "Linux"
-        subcategories: ["Email Alternative"]
+        subcategories: ["Email Alternatives"]
       * name: "Mac OS X"
-        subcategories: ["Email Alternative"]
+        subcategories: ["Email Alternatives"]
       * name: "Windows"
-        subcategories: ["Email Alternative"]
+        subcategories: ["Email Alternatives"]
     ]
 
   * status: 'recommended'
@@ -1014,13 +1014,13 @@ projects-raw =
     protocols: ["GPG", "VoIP"]
     categories: [
       * name: "BSD"
-        subcategories: ["Email Alternative", "Instant Messaging", "Social Networks"]
+        subcategories: ["Email Alternatives", "Instant Messaging", "Social Networks"]
       * name: "Linux"
-        subcategories: ["Email Alternative", "Instant Messaging", "Social Networks"]
+        subcategories: ["Email Alternatives", "Instant Messaging", "Social Networks"]
       * name: "Mac OS X"
-        subcategories: ["Email Alternative", "Instant Messaging", "Social Networks"]
+        subcategories: ["Email Alternatives", "Instant Messaging", "Social Networks"]
       * name: "Windows"
-        subcategories: ["Email Alternative", "Instant Messaging", "Social Networks"]
+        subcategories: ["Email Alternatives", "Instant Messaging", "Social Networks"]
     ]
 
   * status: 'recommended'
