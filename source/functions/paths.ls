@@ -24,11 +24,12 @@ routes = (subdirectory, depth)->
     root: ''
     about: 'about'
     categories: 'categories'
-    projects: 'projects'
-    protocols: 'protocols'
+    icons: '../assets/ico/'
     images: '../assets/img'
     logos: '../assets/img/logos/medium/'
     logos-rejected: '../assets/img/logos-rejected/small/'
+    projects: 'projects'
+    protocols: 'protocols'
 
   final-paths = {}
   for key, value of bare-paths
