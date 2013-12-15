@@ -242,6 +242,29 @@ write-about-index = ->
 
   create!
 
+write-about-media = ->
+  create = ->
+    path = 'about/media/'
+    view = view-path 'about/media'
+    options =
+      pretty: true
+      h: helpers
+      routes: routes 'about', 2
+      t: translation
+    full-path = public-dir + path
+    file = full-path + 'index'
+
+    write = ->
+      write-html view, options, file
+
+    mkdirp full-path, (err) ->
+      if err
+        console.error err
+      else
+        write!
+
+  create!
+
 ############################################################################
 # WRITE SITE
 # This function will write all of the HTML pages per site language.
@@ -262,3 +285,4 @@ for language, translation of i18n
   write-projects-index translation
   write-projects-show translation
   write-about-index!
+  write-about-media!
