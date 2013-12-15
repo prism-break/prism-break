@@ -11,6 +11,15 @@ Only edit files in the `./source/` directory.
     npm install
     make all
 
+## Rebuild
+
+    make clean
+    make all
+
+    // or
+
+    make uber
+
 ## Serve
 
 Serve the folder `./public` on your web server. Done!
