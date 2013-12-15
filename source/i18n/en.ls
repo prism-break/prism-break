@@ -1,11 +1,11 @@
 translations =
   About: 'About'
   All: 'All'
-  title: 'Prism Break'
   Browse: 'Browse'
   'Browse by Platform': 'Browse by Platform'
   'Browse by Protocol': 'Browse by Protocol'
   Categories: 'Categories'
+  Donate: 'Donate'
   'Free Alternatives': 'Free Alternatives'
   'Media Mentions': 'Media Mentions'
   'More Info': 'More Info'
@@ -34,5 +34,7 @@ translations =
   site-introduction: "<strong>Opt out of global data surveillance programs like <a href='https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29'>PRISM</a>, <a href='https://en.wikipedia.org/wiki/XKeyscore'>XKeyscore</a> and <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop governments from spying on you by encrypting your communications and ending your reliance on proprietary services."
 
   site-disclaimer: "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these softwares with sensitive information."
+
+  site-privacy: "* This website does not collect any information about you. * This website does not track your IP address. * This website does not use any client-side JavaScript."
 
 exports.translations = translations
