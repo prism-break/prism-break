@@ -1203,7 +1203,7 @@ projects-raw =
     notes: ""
     privacy_url: ""
     source_url: "https://github.com/guardianproject/gnupg-for-android"
-    name: "GNU Privacy Guard for Android"
+    name: "GPG for Android"
     tos_url: ""
     url: "https://guardianproject.info/code/gnupg/"
     wikipedia_url: ""

@@ -8,12 +8,14 @@ require! '../functions/helpers.ls'
 
 # data
 {projects-raw} = require '../db/en-projects.ls'
+{projects-rejected-raw} = require '../db/en-projects-rejected.ls'
 {platform-types} = require '../db/en-platform-types.ls'
 {protocols-raw} = require '../db/en-protocols.ls'
 i18n = require '../i18n/index.ls'
 
 # slugging the data for urls
 projects-db = slugify-db projects-raw
+projects-rejected-db = slugify-db projects-rejected-raw
 protocols-db = slugify-db protocols-raw
 
 
@@ -92,6 +94,7 @@ write-subcategories-show = (translation) ->
       category: category
       subcategory: subcategory
       projects: in-this-subcategory(subcategory.name, in-this-category(category.name, projects-db))
+      projects-rejected: in-this-subcategory(subcategory.name, in-this-category(category.name, projects-rejected-raw))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
     view = view-path 'subcategories/show'
