@@ -1,7 +1,9 @@
 mixin subcategory-top(data)
   .card.mega
     .btn-rectangle.mega
-      .title= data.subcategory.name
       .category
-        a(href="../../categories/#{data.category.slug}")= data.category.name
-        != ' &raquo; ' + data.subcategory.name
+        a(href="../../categories/#{data.category.slug}")
+          = data.category.name
+        = ' /'
+        //!= ' &raquo; ' + data.subcategory.name
+      .title= data.subcategory.name
