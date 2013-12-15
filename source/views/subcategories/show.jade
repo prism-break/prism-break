@@ -5,5 +5,10 @@ block content
 
   mixin subcategory-top(data)
 
-  - each project in data.projects
-    mixin project-card(project)
+  if data.projects.length > 1
+    - each project in data.projects
+      mixin project-card(project)
+  else
+    - each project in data.projects
+      mixin project-head(project)
+      mixin project-tail(project)

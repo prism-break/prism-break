@@ -15,7 +15,7 @@ mixin project-card(project)
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
 
-mixin project-top(project)
+mixin project-head(project)
   - var subcategories = []
   - each subcategory, i in project.categories[0].subcategories
     if i === project.categories[0].subcategories.length - 1
@@ -30,3 +30,60 @@ mixin project-top(project)
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
+
+mixin project-tail(project)
+  - if(project.description !== '')
+    .section
+      .text-block!= h.marked(project.description)
+
+  - if(project.notes !== "")
+    .section
+      .pipe= t['Security Notes']
+      .text-block!= h.marked(project.notes)
+
+  - if(project.protocolsSlugged.length > 0)
+    .section
+      .pipe= t['Supported Protocols']
+      - for protocol in project.protocolsSlugged
+        a.bar(href="../../protocols/#{protocol.slug}")
+          .label= protocol.name
+          .icon: i.fa.fa-angle-right
+
+  .section
+    .pipe= t['More Info']
+
+    a.bar(href=project.url)
+      .label= t['Official Website']
+      .icon: i.fa.fa-external-link
+
+    - if(project.wikipedia_url !== '')
+      a.bar(href=project.wikipedia_url)
+        .label= t['Wikipedia Article']
+        .icon: i.fa.fa-external-link
+
+    - if(project.privacy_url !== '')
+      a.bar(href=project.privacy_url)
+        .label= t['Privacy Policy']
+        .icon: i.fa.fa-external-link
+
+    - if(project.tos_url !== '')
+      a.bar(href=project.tos_url)
+        .label= t['Terms of Service']
+        .icon: i.fa.fa-external-link
+
+  .section
+    .pipe= ['Source Code']
+
+    - if(project.license_url !== '')
+      a.bar(href=project.license_url)
+        .label= t['Project License']
+        .icon: i.fa.fa-external-link
+    - else
+      .bar.warning= t['Project License Unavailable']
+
+    - if(project.source_url !== '')
+      a.bar(href=project.source_url)
+        .label= t['Source Code']
+        .icon: i.fa.fa-external-link
+    - else
+      .bar.warning= t['Source Code Unavailable']
