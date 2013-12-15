@@ -1,6 +1,9 @@
 {filter, flatten, map, sort, sort-by, unique, values} = require 'prelude-ls'
 {slugify} = require './slugify.ls'
 
+select-random = (list) ->
+  list[Math.floor(Math.random! * list.length)]
+
 slugify-db = (db) ->
   list = db
   for project in list
@@ -27,6 +30,9 @@ subcategories-in = (category-name, db) ->
   list = unique flatten list
   list = slugify-list list
   list = sort-by (.name), list
+
+images-in = (db) ->
+  list = map (.logo), db
 
 in-this-category = (category-name, db) ->
   list = []
@@ -61,10 +67,12 @@ protocol-types = (protocols) ->
     type.protocols = in-this-category(type.name, protocols)
   types
 
+exports.select-random = select-random
 exports.slugify-db = slugify-db
 exports.slugify-list = slugify-list
 exports.categories-in = categories-in
 exports.subcategories-in = subcategories-in
+exports.images-in = images-in
 exports.in-this-category = in-this-category
 exports.in-this-subcategory = in-this-subcategory
 exports.in-this-protocol = in-this-protocol

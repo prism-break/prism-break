@@ -911,7 +911,7 @@ projects-raw =
     protocols: ["SSL/TLS"]
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Web Services", "Web Hosting"]
+        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Services", "Web Hosting"]
     ]
 
   * description: "Bitmessage is a decentralized, encrypted, peer-to-peer, trustless communications protocol that can be used by one person to send encrypted messages to another person, or to multiple subscribers. Bitmessage encrypts each users' message inbox using strong encryption and replicates it inside its P2P network mixing it with inboxes of other users in order to conceal user's identity, prevent eavesdropping and protect the network from any control. The Bitmessage communication protocol avoids sender-spoofing through strong authentication, and hides metadata from wiretapping systems."
@@ -987,7 +987,7 @@ projects-raw =
     protocols: ["SSL/TLS", "Tor", "XMPP"]
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Web Services"]
+        subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Servies"]
     ]
 
   * description: "Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation.\nThe project strategy was modeled after Mozilla Firefox, a project aimed at creating a web browser. On December 7, 2004, version 1.0 was released, and received more than 500,000 downloads in its first three days of release, and 1,000,000 in 10 days."
