@@ -447,12 +447,21 @@ projects-rejected-raw =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "ms-outlook.png"
-    name: "Microsoft Outlook"
+    name: "Microsoft Office Outlook"
     categories: [
       * name: "Mac OS X"
         subcategories: ["Email Clients", "Productivity"]
       * name: "Windows"
         subcategories: ["Email Clients", "Productivity"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "ms-outlook.png"
+    name: "Microsoft Outlook.com"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Email Accounts"]
     ]
 
   * status: 'rejected'

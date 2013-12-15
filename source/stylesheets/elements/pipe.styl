@@ -5,6 +5,24 @@
   c #333
   p 0 1em
   bb 1px solid #ddd
+  &.positive, &.negative
+    i.fa
+      fr()
+      mr -1em
+      ml .5em
+      w 44px
+      lhh 21px
+      ta center
+      c #fff
+      c w90
+      bl 1px solid #ddd
+  &.negative i.fa
+    bg hsla(340,100,50,.80)
+  &.positive i.fa
+    bg hsla(210,100,50,.80)
+
+  .light
+    font-weight normal
 
 a.pipe
   c #333

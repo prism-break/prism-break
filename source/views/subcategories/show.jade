@@ -5,10 +5,18 @@ block content
 
   mixin subcategory-head(data)
 
+  .pipe.positive
+    = t['Free Alternatives']
+    i.fa.fa-check
   - each project in data.projects
     mixin project-card(project)
 
-  - each project in data.projectsRejected
-    .bar
-      .label= project.name
-      .icon: i.fa.fa-warning
+  if(data.projectsRejected.length > 0)
+    .pipe.negative
+      = t.Proprietary
+      i.fa.fa-times
+    - each project in data.projectsRejected
+      .bar
+        .label
+          img.logo(src=routes.logosRejected + project.logo )
+          = project.name
