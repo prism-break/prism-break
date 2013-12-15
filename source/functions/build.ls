@@ -31,6 +31,7 @@ write-site-index = (translation) ->
   view = view-path path
   options = 
     pretty: true
+    body-class: "#{language} root index"
     platform-types: data
     routes: routes!
     t: translation
@@ -46,8 +47,10 @@ write-categories-index = ->
   view = view-path path
   options = 
     pretty: true
+    body-class: "#{language} categories index"
     categories: data
     routes: routes 'categories', 1
+    language: language
     t: translation
   file = public-dir + path
 
@@ -69,8 +72,10 @@ write-categories-show = (translation) ->
     view = view-path 'categories/show'
     options = 
       pretty: true
+      body-class: "#{language} categories show"
       category: category
       routes: routes 'categories', 2
+      language: language
       t: translation
     full-path = public-dir + path
     file = full-path + 'index'
@@ -100,9 +105,11 @@ write-subcategories-show = (translation) ->
     view = view-path 'subcategories/show'
     options = 
       pretty: true
+      body-class: "#{language} subcategories show"
       h: helpers
       data: data
       routes: routes 'subcategories', 2
+      language: language
       t: translation
     full-path = public-dir + path
     file = full-path + 'index'
@@ -128,8 +135,10 @@ write-protocols-index = (translation) ->
   view = view-path path
   options = 
     pretty: true
+    body-class: "#{language} protocols index"
     protocol-types: data
     routes: routes 'protocols', 1
+    language: language
     t: translation
   file = public-dir + path
 
@@ -152,9 +161,11 @@ write-protocols-show = (translation) ->
     view = view-path 'protocols/show'
     options = 
       pretty: true
+      body-class: "#{language} protocols show"
       h: helpers
       protocol: data
       routes: routes 'protocols', 2
+      language: language
       t: translation
     full-path = public-dir + path
     file = full-path + 'index'
@@ -179,9 +190,11 @@ write-projects-index = (translation) ->
   view = view-path path
   options = 
     pretty: true
+    body-class: "#{language} projects index"
     h: helpers
     projects: data
     routes: routes 'projects', 1
+    language: language
     t: translation
   file = public-dir + path
 
@@ -203,9 +216,11 @@ write-projects-show = (translation) ->
     view = view-path 'projects/show'
     options = 
       pretty: true
+      body-class: "#{language} projects show"
       h: helpers
       project: data
       routes: routes 'projects', 2
+      language: language
       t: translation
     full-path = public-dir + path
     file = full-path + 'index'
@@ -229,8 +244,10 @@ write-about-index = ->
     view = view-path path
     options =
       pretty: true
+      body-class: "#{language} about index"
       h: helpers
       routes: routes 'about', 1
+      language: language
       t: translation
     file = public-dir + path
 
@@ -251,8 +268,10 @@ write-about-media = ->
     view = view-path 'about/media'
     options =
       pretty: true
+      body-class: "#{language} about media"
       h: helpers
       routes: routes 'about', 2
+      language: language
       t: translation
     full-path = public-dir + path
     file = full-path + 'index'

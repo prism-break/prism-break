@@ -11,6 +11,12 @@
       = t.Donate + ' BTC'
 
   ul.tabs
-    li: a(href=routes.root)= t.Platforms
-    li: a(href=routes.protocols)= t.Protocols
-    li: a(href=routes.about)= t.About
+
+    li.tab-platforms
+      a(href=routes.root)= t.Platforms
+
+    li.tab-protocols
+      a(href=routes.protocols)= t.Protocols
+
+    li.tab-about
+      a(href=routes.about)= t.About
