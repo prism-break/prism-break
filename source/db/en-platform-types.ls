@@ -3,16 +3,12 @@
 platform-types = (db) ->
   types =
     * name: 'Services'
-      slug: 'services'
       categories: ['Web Services']
     * name: 'Mobile'
-      slug: 'mobile'
       categories: ['Android', 'iOS']
-    * name: 'PC'
-      slug: 'pc'
+    * name: 'Computer'
       categories: ['BSD', 'Linux', 'Mac OS X', 'Windows']
     * name: 'Server'
-      slug: 'server'
       categories: ['Routers', 'Servers']
 
   for type in types
