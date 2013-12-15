@@ -1344,7 +1344,7 @@ projects-raw =
     notes: ""
     privacy_url: ""
     source_url: "https://otr.cypherpunks.ca/index.php\#git"
-    name: "Off-the-Record Messaging"
+    name: "OTR Messaging"
     tos_url: ""
     url: "https://otr.cypherpunks.ca/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Off-the-Record_Messaging"
