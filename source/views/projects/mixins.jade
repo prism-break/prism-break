@@ -33,11 +33,6 @@ mixin project-tail(project)
     .section
       .text-block!= h.marked(project.description)
 
-  - if(project.notes !== "")
-    .section
-      .pipe= t['Security Notes']
-      .text-block!= h.marked(project.notes)
-
   .section
     .pipe= t['More Info']
 
@@ -59,6 +54,11 @@ mixin project-tail(project)
       a.bar(href=project.tos_url)
         .label= t['Terms of Service']
         .icon: i.fa.fa-external-link
+
+  - if(project.notes !== "")
+    .section
+      .pipe= t['Security Notes']
+      .text-block!= h.marked(project.notes)
 
 
   - if(project.protocolsSlugged.length > 0)
