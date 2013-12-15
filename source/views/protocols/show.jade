@@ -3,7 +3,7 @@ include ../projects/mixins
 extends ../layouts/application
 block content
 
-  mixin protocol-top(protocol)
+  mixin protocol-head(protocol)
 
   - each project in protocol.projects
     mixin project-card(project)

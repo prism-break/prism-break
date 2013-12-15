@@ -10,7 +10,7 @@ mixin project-card(project)
     a.btn-rectangle(href="#{routes.projects}/#{project.slug}")
       img.card-logo(src= routes.logos + project.logo)
       .title!= h.truncate(project.name, 20)
-      .category!= h.truncate(subcategories, 30)
+      .small!= h.truncate(subcategories, 30)
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
@@ -22,14 +22,11 @@ mixin project-head(project)
       - subcategories += subcategory
     else
       - subcategories += subcategory + ', '
-  .card
+  .card.head.max
     .btn-rectangle
       img.card-logo(src= routes.logos + project.logo)
       .title!= h.truncate(project.name, 20)
-      .category!= h.truncate(subcategories, 30)
-
-    a.btn-square(href=project.url)
-      i.fa.fa-external-link-square
+      .small!= h.truncate(subcategories, 30)
 
 mixin project-tail(project)
   - if(project.description !== '')
@@ -40,14 +37,6 @@ mixin project-tail(project)
     .section
       .pipe= t['Security Notes']
       .text-block!= h.marked(project.notes)
-
-  - if(project.protocolsSlugged.length > 0)
-    .section
-      .pipe= t['Supported Protocols']
-      - for protocol in project.protocolsSlugged
-        a.bar(href="../../protocols/#{protocol.slug}")
-          .label= protocol.name
-          .icon: i.fa.fa-angle-right
 
   .section
     .pipe= t['More Info']
@@ -70,6 +59,15 @@ mixin project-tail(project)
       a.bar(href=project.tos_url)
         .label= t['Terms of Service']
         .icon: i.fa.fa-external-link
+
+
+  - if(project.protocolsSlugged.length > 0)
+    .section
+      .pipe= t['Supported Protocols']
+      - for protocol in project.protocolsSlugged
+        a.bar(href="../../protocols/#{protocol.slug}")
+          .label= protocol.name
+          .icon: i.fa.fa-angle-right
 
   .section
     .pipe= ['Source Code']

@@ -2,7 +2,7 @@ include ../categories/mixins
 extends ../layouts/application
 block content
 
-  mixin category-top(category)
+  mixin category-head(category)
 
   - each subcategory in category.subcategories
     a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")

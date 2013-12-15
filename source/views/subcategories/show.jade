@@ -3,12 +3,7 @@ include ../projects/mixins
 extends ../layouts/application
 block content
 
-  mixin subcategory-top(data)
+  mixin subcategory-head(data)
 
-  if data.projects.length > 1
-    - each project in data.projects
-      mixin project-card(project)
-  else
-    - each project in data.projects
-      mixin project-head(project)
-      mixin project-tail(project)
+  - each project in data.projects
+    mixin project-card(project)

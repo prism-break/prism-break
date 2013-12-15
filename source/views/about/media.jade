@@ -1,10 +1,12 @@
 extends ../layouts/application
 block content
   
-  .card.mega
+  .card.text.max
     .btn-rectangle
-      .title Media
-      .category Mentions by the media
+      .small 
+        a(href=routes.about)= t.About
+        = " /"
+      .title Media Mentions
 
   .pipe
     span.i18n-catalan Catalan
