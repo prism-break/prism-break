@@ -18,6 +18,7 @@ translations =
   Proprietary: 'Proprietary'
   'Project License': 'Project License'
   'Project License Unavailable': 'Project License Unavailable'
+  'Projects Supported': 'Projects Supported'
   Projects: 'Projects'
   'Security Notes': 'Security Notes'
   'Source Code': 'Source Code'

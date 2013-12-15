@@ -1,4 +1,5 @@
 mixin project-card(project)
+
   - var subcategories = []
   - each subcategory, i in project.categories[0].subcategories
     if i === project.categories[0].subcategories.length - 1
@@ -6,11 +7,19 @@ mixin project-card(project)
     else
       - subcategories += subcategory + ', '
 
+  - var categories = []
+  - each category, i in project.categories
+    if i === project.categories.length - 1
+      - categories += category.name
+    else
+      - categories += category.name + ', '
+
   .card
     a.btn-rectangle(href="#{routes.projects}/#{project.slug}")
       img.card-logo(src= routes.logos + project.logo)
       .title!= h.truncate(project.name, 20)
       .small!= h.truncate(subcategories, 30)
+      .small!= h.truncate(categories, 30)
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
