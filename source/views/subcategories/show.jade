@@ -8,4 +8,7 @@ block content
   - each project in data.projects
     mixin project-card(project)
 
-  = data.projectsRejected
+  - each project in data.projectsRejected
+    .bar
+      .label= project.name
+      .icon: i.fa.fa-warning
