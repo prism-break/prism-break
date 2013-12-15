@@ -23,8 +23,9 @@ mkdirs:
 	mkdir -p public/assets/css public/assets/js
 
 copy_assets:
-	cp -r source/assets/images public/assets/img
 	cp -r source/assets/fonts public/assets/fonts
+	cp -r source/assets/icons public/assets/ico
+	cp -r source/assets/images public/assets/img
 
 watch_css:
 	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
