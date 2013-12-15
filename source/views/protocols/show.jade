@@ -1,6 +1,9 @@
 include mixins
 include ../projects/mixins
 extends ../layouts/application
+block title
+  = protocol.name + ' - '
+  = t.Protocols
 block content
 
   mixin protocol-head(protocol)

@@ -1,6 +1,9 @@
 include ../subcategories/mixins
 include ../projects/mixins
 extends ../layouts/application
+block title
+  = data.subcategory.name + ' - '
+  = data.category.name
 block content
 
   mixin subcategory-head(data)
