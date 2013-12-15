@@ -1,71 +1,16 @@
 #header
-  /*
-  position fixed
-  top 0
-  */
-  w 320px
-  padding 0
   border-bottom 1px solid #ddd
   bg #fff
-  box-shadow b10 0 0 1.5em
-  z-index 100
 
-  .btn_corner
-    ta center
-    cursor pointer
-    w 44px
-    h 43px
-
-    .btn
-      d block
-      lhh 43px
-      c txt
-
-    &.left
-      float left
-      br 1px solid #eee
-
-    &.right
-      float right
-
-
-    &:hover
-      .btn
-        bg #eee
-        c hover
-
-    &:active
-      .btn
-        bg #ddd
-        c light
-  ul.tabs
-    bt 1px solid #ddd
-    clear both
+  .top
     clearfix()
-    li
-      fl()
-      br 1px solid #ddd
-      a
-        d block
-        f 1em/2 sans
-        p 0 1em
-        c txt
-        &:hover
-          c hover
-          bg #eee
-      &:last-of-type
-        br none
+    h 44px
 
-#page_title
-  fl left
-  w 320px - 88px
-  p 0 .75em
-  font-size 1em
-  line-height 43px
-  #brand
+  a#brand
+    p 0 .75em
+    fl()
     text-transform uppercase
-
-  a
+    font 1em/43px sans
     c txt
 
     .lightning
@@ -74,3 +19,40 @@
     &:hover,
     &:hover .lightning
       color #09c
+
+  a#donate
+    fr()
+    p 0 (.75/.8em)
+    f .8em/43px sans
+    c dim
+    &:hover
+      c hover
+    &:active
+      c link
+
+
+  ul.tabs
+    bt 1px solid #ddd
+    clear both
+    clearfix()
+    li
+      fl()
+      br 1px solid #ddd
+      w 107px
+      a
+        d block
+        f 1em/2 sans
+        c txt
+        ta center
+        bg #eee
+        &:hover
+          c hover
+          bg #eee
+        &.active
+          bg #fff
+
+      &:last-of-type
+        w 106px
+        br none
+
+
