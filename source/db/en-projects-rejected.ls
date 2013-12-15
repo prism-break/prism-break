@@ -15,6 +15,8 @@ projects-rejected-raw =
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
+      * name: "Servers"
+        subcategories: ["Instant Messaging"]
     ]
 
   * status: 'rejected'
@@ -28,6 +30,8 @@ projects-rejected-raw =
         subcategories: ["Video & Voice"]
       * name: "Mac OS X"
         subcategories: ["Video & Voice"]
+      * name: "Servers"
+        subcategories: ["Video & Voice"]
     ]
 
   * status: 'rejected'
@@ -36,6 +40,8 @@ projects-rejected-raw =
     name: "Apple FileVault"
     categories: [
       * name: "Mac OS X"
+        subcategories: ["Disk Encryption"]
+      * name: "Servers"
         subcategories: ["Disk Encryption"]
     ]
 
@@ -72,6 +78,8 @@ projects-rejected-raw =
         subcategories: ["Email Clients"]
       * name: "Mac OS X"
         subcategories: ["Email Clients"]
+      * name: "Servers"
+        subcategories: ["Email Servers"]
     ]
 
   * status: 'rejected'
@@ -79,6 +87,8 @@ projects-rejected-raw =
     logo: "apple-maps.png"
     name: "Apple Maps"
     categories: [
+      * name: "Web Services"
+        subcategories: ["World Maps"]
       * name: "iOS"
         subcategories: ["World Maps"]
       * name: "Mac OS X"
@@ -96,13 +106,19 @@ projects-rejected-raw =
         subcategories: ["Instant Messaging"]
       * name: "Mac OS X"
         subcategories: ["Instant Messaging"]
+      * name: "Servers"
+        subcategories: ["Instant Messaging"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-osx.png"
-    name: "REPLACEME"
+    name: "Apple OS X"
     categories: [
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems"]
+      * name: "Servers"
+        subcategories: ["Operating Systems"]
     ]
 
   * status: 'rejected'
@@ -110,56 +126,97 @@ projects-rejected-raw =
     logo: "apple-safari.png"
     name: "Apple Safari"
     protocols: ["SSL/TLS"]
-    name: "REPLACEME"
     categories: [
       * name: "iOS"
-        subcategories: ["Instant Messaging"]
-    categories: ["Web Browsers"]
+        subcategories: ["Web Browsers"]
       * name: "Mac OS X"
-        subcategories: ["Instant Messaging"]
-    categories: ["Web Browsers"]
+        subcategories: ["Web Browsers"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "cisco.png"
-    name: "REPLACEME"
+    name: "Cisco Systems VPN Client"
     categories: [
+      * name: "Linux"
+        subcategories: ["VPN Clients"]
+      * name: "Mac OS X"
+        subcategories: ["VPN Clients"]
+      * name: "Windows"
+        subcategories: ["VPN Clients"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "doodle.png"
-    name: "REPLACEME"
+    name: "Doodle"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Productivity"]
+      * name: "Servers"
+        subcategories: ["Productivity"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "dropbox.png"
-    name: "REPLACEME"
+    name: "Dropbox"
     categories: [
+      * name: "Web Services"
+        subcategories: ["File Storage & Sync"]
+      * name: "Android"
+        subcategories: ["File Storage & Sync"]
+      * name: "iOS"
+        subcategories: ["File Storage & Sync"]
+      * name: "Linux"
+        subcategories: ["File Storage & Sync"]
+      * name: "Mac OS X"
+        subcategories: ["File Storage & Sync"]
+      * name: "Windows"
+        subcategories: ["File Storage & Sync"]
+      * name: "Servers"
+        subcategories: ["File Storage & Sync"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "evernote.png"
-    name: "REPLACEME"
+    name: "Evernote"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Productivity"]
+      * name: "Android"
+        subcategories: ["Productivity"]
+      * name: "iOS"
+        subcategories: ["Productivity"]
+      * name: "Mac OS X"
+        subcategories: ["Productivity"]
+      * name: "Windows"
+        subcategories: ["Productivity"]
+      * name: "Servers"
+        subcategories: ["Productivity"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "instagram.png"
-    name: "REPLACEME"
+    logo: "facebook-instagram.png"
+    name: "Instagram"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "facebook.png"
-    name: "REPLACEME"
+    name: "Facebook"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "Social Networks", "Video & Voice"]
+      * name: "Servers"
+        subcategories: ["Email Server", "Instant Messaging", "Media Publishing", "Social Networks", "Video & Voice"]
     ]
 
   * status: 'rejected'
@@ -168,8 +225,7 @@ projects-rejected-raw =
     name: 'Google Android'
     categories: [
       * name: "Android"
-        subcategories: ["Instant Messaging"]
-    categories: ['Operating Systems']
+        subcategories: ['Operating Systems']
     ]
 
   * status: 'rejected'
@@ -177,121 +233,194 @@ projects-rejected-raw =
     logo: "google-chrome.png"
     name: "Google Chrome"
     protocols: ["SSL/TLS"]
-    name: "REPLACEME"
     categories: [
       * name: "Android"
-        subcategories: ["Instant Messaging"]
-    categories: ["Web Browsers"]
+        subcategories: ["Web Browsers"]
       * name: "iOS"
-        subcategories: ["Instant Messaging"]
-    categories: ["Web Browsers"]
+        subcategories: ["Web Browsers"]
       * name: "Linux"
-        subcategories: ["Instant Messaging"]
-    categories: ["Web Browsers"]
+        subcategories: ["Web Browsers"]
       * name: "Mac OS X"
-        subcategories: ["Instant Messaging"]
-    categories: ["Web Browsers"]
+        subcategories: ["Web Browsers"]
       * name: "Windows"
-        subcategories: ["Instant Messaging"]
-    categories: ["Web Browsers"]
+        subcategories: ["Web Browsers"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "google-drive.png"
-    name: "REPLACEME"
+    name: "Google Drive"
     categories: [
+      * name: "Web Services"
+        subcategories: ["File Storage & Sync"]
+      * name: "Android"
+        subcategories: ["File Storage & Sync"]
+      * name: "iOS"
+        subcategories: ["File Storage & Sync"]
+      * name: "Mac OS X"
+        subcategories: ["File Storage & Sync"]
+      * name: "Windows"
+        subcategories: ["File Storage & Sync"]
+      * name: "Servers"
+        subcategories: ["File Storage & Sync"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "google-earth.png"
-    name: "REPLACEME"
+    name: "Google Earth"
     categories: [
+      * name: "Web Services"
+        subcategories: ["World Maps"]
+      * name: "Android"
+        subcategories: ["World Maps"]
+      * name: "iOS"
+        subcategories: ["World Maps"]
+      * name: "Linux"
+        subcategories: ["World Maps"]
+      * name: "Mac OS X"
+        subcategories: ["World Maps"]
+      * name: "Windows"
+        subcategories: ["World Maps"]
+      * name: "Servers"
+        subcategories: ["World Maps"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "google-mail.png"
-    name: "REPLACEME"
+    name: "Gmail"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Email Accounts"]
+      * name: "Servers"
+        subcategories: ["Email Accounts"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "google-picasa.png"
-    name: "REPLACEME"
+    name: "Picasa"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Media Publishing"]
+      * name: "Android"
+        subcategories: ["Media Publishing"]
+      * name: "iOS"
+        subcategories: ["Media Publishing"]
+      * name: "Mac OS X"
+        subcategories: ["Media Publishing"]
+      * name: "Windows"
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "google-play.png"
-    name: "REPLACEME"
+    name: "Google Play"
     categories: [
+      * name: "Android"
+        subcategories: ["App Store"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "google-plus.png"
-    name: "REPLACEME"
+    name: "Google+"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Media Publishing", "Social Networks", "Video & Voice"]
+      * name: "Servers"
+        subcategories: ["Media Publishing", "Social Networks", "Video & Voice"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "google-youtube.png"
-    name: "REPLACEME"
+    name: "YouTube"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "google.png"
-    name: "REPLACEME"
+    name: "Google Talk"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
+      * name: "Servers"
+        subcategories: ["XMPP Servers"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "google.png"
+    name: "Google Search"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Web Search"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "groupwise.png"
-    name: "REPLACEME"
+    name: "Novell Groupwise"
     categories: [
+      * name: "Servers"
+        subcategories: ["Email Servers", "Productivity"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "linkedin.png"
-    name: "REPLACEME"
+    name: "LinkedIn"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Social Networks"]
+      * name: "Servers"
+        subcategories: ["Social Networks"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "lotus-notes.png"
-    name: "REPLACEME"
+    name: "IBM Notes"
     categories: [
+      * name: "Servers"
+        subcategories: ["Email Servers"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "mcafee.png"
-    name: "REPLACEME"
+    name: "McAfee Endpoint Encryption"
     categories: [
+      * name: "Windows"
+        subcategories: ["Disk Encryption"]
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-bing.png"
-    name: "REPLACEME"
+    name: "Microsoft Bing"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Web Search"]
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-exchange.png"
-    name: "REPLACEME"
+    name: "Microsoft Exchange"
     categories: [
+      * name: "Servers"
+        subcategories: ["Email Servers"]
     ]
 
   * status: 'rejected'
@@ -299,158 +428,265 @@ projects-rejected-raw =
     logo: "ms-ie.png"
     name: "Microsoft Internet Exploroer"
     protocols: ["SSL/TLS"]
-    name: "REPLACEME"
     categories: [
       * name: "Windows"
-        subcategories: ["Instant Messaging"]
-    categories: ["Web Browsers"]
+        subcategories: ["Web Browsers"]
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-office.png"
-    name: "REPLACEME"
+    name: "Microsoft Office Web Apps"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Productivity"]
+      * name: "Servers"
+        subcategories: ["Productivity"]
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-outlook.png"
-    name: "REPLACEME"
+    name: "Microsoft Outlook"
     categories: [
+      * name: "Mac OS X"
+        subcategories: ["Email Clients", "Productivity"]
+      * name: "Windows"
+        subcategories: ["Email Clients", "Productivity"]
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-skydrive.png"
-    name: "REPLACEME"
+    name: "Microsoft SkyDrive"
     categories: [
+      * name: "Web Services"
+        subcategories: ["File Storage & Sync"]
+      * name: "Android"
+        subcategories: ["File Storage & Sync"]
+      * name: "iOS"
+        subcategories: ["File Storage & Sync"]
+      * name: "Mac OS X"
+        subcategories: ["File Storage & Sync"]
+      * name: "Windows"
+        subcategories: ["File Storage & Sync"]
+      * name: "Servers"
+        subcategories: ["File Storage & Sync"]
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-skype.png"
-    name: "REPLACEME"
+    name: "Skype"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Android"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Linux"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Mac OS X"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Servers"
+        subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-windows-phone.png"
-    name: "REPLACEME"
+    name: "Microsoft Windows Phone"
     categories: [
+      * name: "Android"
+        subcategories: ["Operating Systems"]
+      * name: "iOS"
+        subcategories: ["Operating Systems"]
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-windows.png"
-    name: "REPLACEME"
+    name: "Microsoft Windows"
     categories: [
+      * name: "Mac OS X"
+        subcategories: ["Operating Systems"]
+      * name: "Windows"
+        subcategories: ["Operating Systems"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "opera.png"
-    name: "REPLACEME"
+    name: "Opera"
     categories: [
+      * name: "Android"
+        subcategories: ["Web Browsers"]
+      * name: "iOS"
+        subcategories: ["Web Browsers"]
+      * name: "Linux"
+        subcategories: ["Web Browsers"]
+      * name: "Mac OS X"
+        subcategories: ["Web Browsers"]
+      * name: "Windows"
+        subcategories: ["Web Browsers"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "paypal.png"
-    name: "REPLACEME"
+    name: "PayPal"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Finance"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "steam.png"
-    name: "REPLACEME"
+    name: "Steam"
     categories: [
+      * name: "Linux"
+        subcategories: ["Digital Distribution"]
+      * name: "Mac OS X"
+        subcategories: ["Digital Distribution"]
+      * name: "Windows"
+        subcategories: ["Digital Distribution"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "symantec.png"
-    name: "REPLACEME"
+    name: "Symantec Drive Encryption"
     categories: [
+      * name: "Linux"
+        subcategories: ["Disk Encryption"]
+      * name: "Mac OS X"
+        subcategories: ["Disk Encryption"]
+      * name: "Windows"
+        subcategories: ["Disk Encryption"]
+      * name: "Servers"
+        subcategories: ["Disk Encryption"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "trillian.png"
-    name: "REPLACEME"
+    name: "Trillian"
     categories: [
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Mac OS X"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "twitter.png"
-    name: "REPLACEME"
+    name: "Twitter"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Social Networks"]
+      * name: "Servers"
+        subcategories: ["Social Networks"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "viber.png"
-    name: "REPLACEME"
+    name: "Viber Messenger"
     categories: [
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Mac OS X"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "vimeo.png"
-    name: "REPLACEME"
+    name: "Vimeo"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "viscosity.png"
-    name: "REPLACEME"
+    name: "Viscosity"
     categories: [
+      * name: "Mac OS X"
+        subcategories: ["VPN Clients"]
+      * name: "Windows"
+        subcategories: ["VPN Clients"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "whatsapp-android.png"
-    name: "REPLACEME"
+    name: "WhatsApp"
     categories: [
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "whatsapp.png"
-    name: "REPLACEME"
-    categories: [
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "yahoo-flickr.png"
-    name: "REPLACEME"
+    name: "Flickr"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "yahoo-tumblr.png"
-    name: "REPLACEME"
+    name: "Tumblr"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "yahoo.png"
-    name: "REPLACEME"
+    name: "Yahoo! Mail"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Email Accounts"]
+      * name: "Servers"
+        subcategories: ["Email Accounts"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "zoho.png"
-    name: "REPLACEME"
+    name: "Zoho Office Suite"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Productivity"]
+      * name: "Servers"
+        subcategories: ["Productivity"]
     ]
 
 exports.projects-rejected-raw = projects-rejected-raw
