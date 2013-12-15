@@ -62,6 +62,8 @@ write-categories-index = ->
 write-categories-show = (translation) ->
   create = (category) ->
     category.subcategories = subcategories-in(category.name, projects-db)
+    for subcategory in category.subcategories
+      subcategory.projects = in-this-subcategory(subcategory.name, projects-db)
     data = category
 
     path = "categories/#{category.slug}/"
