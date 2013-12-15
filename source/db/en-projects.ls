@@ -1037,7 +1037,7 @@ projects-raw =
     protocols: ["SSL/TLS", "Tor", "XMPP"]
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Servies"]
+        subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Services"]
     ]
 
   * status: 'recommended'
