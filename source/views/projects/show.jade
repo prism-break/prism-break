@@ -1,5 +1,7 @@
 include ../projects/mixins
 extends ../layouts/application
+block title
+  = project.name
 block content
 
   mixin project-head(project)

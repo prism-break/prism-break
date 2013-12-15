@@ -7,6 +7,7 @@ translations =
   'Browse by Protocol': 'Browse by Protocol'
   Categories: 'Categories'
   'Free Alternatives': 'Free Alternatives'
+  'Media Mentions': 'Media Mentions'
   'More Info': 'More Info'
   'Official Website': 'Official Website'
   'One Supported Project': 'One Supported Project'
@@ -27,6 +28,8 @@ translations =
   'Supported Protocols': 'Supported Protocols'
   'Terms of Service': 'Terms of Service'
   'Wikipedia Article': 'Wikipedia Article'
+
+  site-title: "Opt out of global data surveillance programs like PRISM, XKeyscore, and Tempora"
 
   site-introduction: "<strong>Opt out of global data surveillance programs like <a href='https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29'>PRISM</a>, <a href='https://en.wikipedia.org/wiki/XKeyscore'>XKeyscore</a> and <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Stop governments from spying on you by encrypting your communications and ending your reliance on proprietary services."
 

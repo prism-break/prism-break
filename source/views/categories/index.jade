@@ -1,4 +1,6 @@
 extends ../layouts/application
+block title
+  = categories.name
 block content
 
   - each category in categories

@@ -1,4 +1,7 @@
 extends ../layouts/application
+block title
+  = t['Media Mentions'] + ' - '
+  = t.About
 block content
   
   .card.text.max
@@ -6,7 +9,7 @@ block content
       .small 
         a(href=routes.about)= t.About
         = " /"
-      .title Media Mentions
+      .title= t['Media Mentions']
 
   .pipe
     span.i18n-catalan Catalan

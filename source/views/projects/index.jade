@@ -1,5 +1,7 @@
 include ../projects/mixins
 extends ../layouts/application
+block title
+  = t.Projects
 block content
 
   - each project in projects

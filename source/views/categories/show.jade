@@ -1,5 +1,8 @@
 include ../categories/mixins
 extends ../layouts/application
+block title
+  = category.name + ' - '
+  = t.Platforms
 block content
 
   mixin category-head(category)
