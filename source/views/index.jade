@@ -1,6 +1,9 @@
 extends layouts/application
 block content
 
+  .text-block
+    p!= t.siteIntroduction
+
   - each platformType in platformTypes
 
     .pipe= platformType.name
