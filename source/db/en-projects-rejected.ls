@@ -426,7 +426,7 @@ projects-rejected-raw =
   * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
     logo: "ms-ie.png"
-    name: "Microsoft Internet Exploroer"
+    name: "Microsoft Internet Explorer"
     protocols: ["SSL/TLS"]
     categories: [
       * name: "Windows"
