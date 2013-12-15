@@ -61,11 +61,6 @@ write-categories-index = ->
 
 write-categories-show = (translation) ->
   create = (category) ->
-    category.subcategories = subcategories-in(category.name, projects-db)
-    for subcategory in category.subcategories
-      subcategory.projects = in-this-subcategory(subcategory.name, in-this-category(category.name, projects-db))
-      subcategory.project-logos = images-in(subcategory.projects)
-      subcategory.random-logo = select-random(subcategory.project-logos)
     data = category
 
     path = "categories/#{category.slug}/"
