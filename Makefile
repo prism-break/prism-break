@@ -1,10 +1,10 @@
-# INSTRUCTIONS:
-# npm install
-# make 					# to compile targets
-# make clean 		# to delete compiled files
-# watch make 		# to periodically compile
+# COMMANDS (more in README.md)
+# make all					build the entire /public directory
+# make clean				destroy the /public directory
+# make uber					destroy /public and rebuild it
+# make watch_css		run "stylus --watch" for css edits
 
-# Binaries
+# BINARIES
 BIN = ./node_modules/.bin/
 LIVESCRIPT_BIN = $(BIN)lsc
 LIVESCRIPT_PARAMS = -cob
@@ -12,11 +12,11 @@ STYLUS_BIN = $(BIN)stylus
 STYLUS_PARAMS = -c -u ./node_modules/nib/
 STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u ./node_modules/nib/ -o public/assets/css/
 
-# Inputs
+# INPUTS
 VIEWS = ./source/functions/build.ls
 STYL = ./source/stylesheets/screen.styl
 
-# Outputs
+# OUTPUTS
 CSS = ./public/assets/css/screen.css
 
 mkdirs:
