@@ -5,5 +5,8 @@ block content
 
   mixin protocol-head(protocol)
 
+  .pipe.positive
+    = t['Projects Supported']
+    i.fa.fa-check
   - each project in protocol.projects
     mixin project-card(project)
