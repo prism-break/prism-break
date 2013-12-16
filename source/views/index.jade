@@ -4,17 +4,19 @@ block title
   = t.siteTitle
 block content
 
-  .text-block.large
-    p!= t.siteIntroduction
+  .content-side
+    .text-block.large
+      p!= t.siteIntroduction
 
-  - each platformType in platformTypes
+  .content-main
+    - each platformType in platformTypes
 
-    .section
-      .pipe= platformType.name
+      .section
+        .pipe= platformType.name
 
-      - each category in platformType.categories
-        a.bar(href="./categories/#{category.slug}")
-          .label= category.name
-          .icon: i.fa.fa-angle-right
+        - each category in platformType.categories
+          a.bar(href="./categories/#{category.slug}")
+            .label= category.name
+            .icon: i.fa.fa-angle-right
 
-      mixin filler-bars(platformType.categories)
+        mixin filler-bars(platformType.categories)
