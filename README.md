@@ -45,7 +45,7 @@ Append the sample project to the file `./source/db/en-projects.ls`. Edit the val
 
     * name: "Awesome Project"
       logo: "awesome-project.png"
-      description: "The description of the project goes here. A soft limit of three to four sentences is best. Feel free to use the description from Wikipedia."
+      description: "A 3-4 sentence description of the project goes here."
       notes: "Note that the project is in beta, has not been audited, etc."
       url: "https://www.awesome-project.org"
       wikipedia_url: "https://en.wikipedia.org/wiki/Awesome_Project"
