@@ -19,7 +19,7 @@ block content
       = t.Proprietary
       i.fa.fa-times
     - each project in data.projectsRejected
-      .bar
+      .bar.negative
         .label
           img.logo(src=routes.logosRejected + project.logo )
           = project.name
