@@ -6,11 +6,12 @@ block content
   
   - each protocolType in protocolTypes
 
-    .pipe= protocolType.name
+    .section
+      .pipe= protocolType.name
 
-    - each protocol in protocolType.protocols
-      a.bar(href="../protocols/#{protocol.slug}")
-        .label= protocol.name
-        .icon: i.fa.fa-angle-right
+      - each protocol in protocolType.protocols
+        a.bar(href="../protocols/#{protocol.slug}")
+          .label= protocol.name
+          .icon: i.fa.fa-angle-right
 
-    mixin filler-bars(data.projects)
+      mixin filler-bars(protocolType.protocols)
