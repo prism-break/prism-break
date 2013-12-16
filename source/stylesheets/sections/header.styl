@@ -1,29 +1,34 @@
 #header
   border-bottom 1px solid #ddd
   bg #fff
+  h 44px
+  clearfix()
 
-  ul.tabs
-    bt 1px solid #ddd
-    clearfix()
-    bg #eee
-    bg txt
+  a#brand
+    p 0 .75em
+    fl()
+    text-transform uppercase
+    font 1em/43px sans
+    c txt
 
-    li
+    .lightning
+      c light
+
+    &:hover,
+    &:hover .lightning
+      color #09c
+
+  .menu
+    fr()
+    .nav
       fl()
-      w 107px
-
-      a
-        d block
-        f 1em/2 sans
-        c #ddd
-        p 0 1em
-        br 1px solid #666
-
-        &:hover
-          c #eee
-
-        &.active
-          bg #fff
-
-      &:last-of-type
-        w 106px
+      p 0 (.75/.8em)
+      f .8em/43px sans
+      c dim
+      &:hover
+        c hover
+      &:active
+        c link
+      &.nav-donate
+      &.nav-platforms
+        d none

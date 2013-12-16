@@ -1,22 +1,21 @@
 #header
   
-  #billboard
-    #page_title
-      a#brand(href=routes.root)
-        strong PRISM
-        span.lightning  &#9889; 
-        | Break 
+  a#brand(href=routes.root)
+    strong PRISM
+    span.lightning  &#9889; 
+    | Break 
 
-    a#donate(href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw")
-      = t.Donate + ' BTC'
+  .menu
 
-  ul.tabs
+    .nav.nav-donate
+      a#donate(href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw")
+        = t.Donate + ' BTC'
 
-    li.tab-platforms
+    .nav.nav-platforms
       a(href=routes.root)= t.Platforms
 
-    li.tab-protocols
+    .nav.nav-protocols
       a(href=routes.protocols)= t.Protocols
 
-    li.tab-about
+    .nav.nav-about
       a(href=routes.about)= t.About

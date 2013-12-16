@@ -32,6 +32,7 @@ write-site-index = (translation) ->
   options = 
     pretty: true
     body-class: "#{language} root index"
+    h: helpers
     platform-types: data
     routes: routes!
     t: translation
@@ -48,6 +49,7 @@ write-categories-index = ->
   options = 
     pretty: true
     body-class: "#{language} categories index"
+    h: helpers
     categories: data
     routes: routes 'categories', 1
     language: language
@@ -73,6 +75,7 @@ write-categories-show = (translation) ->
     options = 
       pretty: true
       body-class: "#{language} categories show"
+      h: helpers
       category: category
       routes: routes 'categories', 2
       language: language
