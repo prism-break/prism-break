@@ -1,13 +1,9 @@
 body
   &.root.index
-    #container
+    .section
       .bar
-        w 50%
-        h 44px * 1.25
-        f 1.25em/44px * 1.25 sans
-
-        .icon
-          w 44px * 1.25
+        w 100% !important
+        br none
 
   .filler-columns-two
     d block
@@ -21,7 +17,11 @@ body
   .text-block
     f 16px/1.5 sans !important
     &.large
-      f 18px/1.5 sans !important
+      f 16px/1.5 sans !important
+
+  #header .menu .nav.nav-donate
+  #header .menu .nav.nav-platforms
+    d block !important
 
   #footer
     f 16px/1.5 sans !important

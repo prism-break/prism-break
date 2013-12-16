@@ -1,6 +1,13 @@
 body
+  p 0 40px 40px
+
   #container
-    p 1.5em 0
+    pb 1.5em
+
+  &.root.index
+    #container
+      p 1.5em 0
+
   .content-side
     float right
     w 33%
@@ -11,6 +18,17 @@ body
   .content-main
     float right
     w 66%
+
+  .text-block.large strong
+    f 1.25em/1.5 sans
+    d block
+    pb .75em
+    mb .75em
+    bb 1px dotted #999
+
+  #footer
+    m 0 -40px -40px
+    p 20px 40px 40px
 
   /*
   .filler-columns-two

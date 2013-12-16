@@ -5,8 +5,7 @@ block title
 block content
 
   .content-side
-    .text-block.large
-      p!= t.siteIntroduction
+    .text-block.large!= h.marked(t.siteIntroduction)
 
   .content-main
     - each platformType in platformTypes
@@ -19,5 +18,3 @@ block content
             a.bar(href="./categories/#{category.slug}")
               .label= category.name
               .icon: i.fa.fa-angle-right
-
-          mixin filler-bars(platformType.categories)
