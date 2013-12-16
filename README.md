@@ -11,7 +11,7 @@ Contributors are welcome.
 
 ## Edit
 
-Only edit files in the `./source/` directory.
+    vi ./source/db/en-projects.ls
 
 ## Rebuild
 
@@ -19,7 +19,7 @@ Only edit files in the `./source/` directory.
 
 ## Serve
 
-Serve the folder `./public` on your web server. Awesome!
+Serve the folder `./public` on your web server.
 
 # Guidelines for Project Inclusion
 
@@ -44,6 +44,7 @@ Project data is stored in `./source/db/*-projects.ls`, where `*` is the two lett
 Append the sample project to the file `./source/db/en-projects.ls`. Edit the values to fit your project. Repeat the process for the other languages (e.g. `./source/db/de-projects.ls`).
 
 **Sample Project:**
+
     * name: "Awesome Project"
       logo: "awesome-project.png"
       description: "A 3-4 sentence description of the project goes here."
