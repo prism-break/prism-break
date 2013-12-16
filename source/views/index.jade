@@ -14,9 +14,10 @@ block content
       .section
         .pipe= platformType.name
 
-        - each category in platformType.categories
-          a.bar(href="./categories/#{category.slug}")
-            .label= category.name
-            .icon: i.fa.fa-angle-right
+        .bars
+          - each category in platformType.categories
+            a.bar(href="./categories/#{category.slug}")
+              .label= category.name
+              .icon: i.fa.fa-angle-right
 
-        mixin filler-bars(platformType.categories)
+          mixin filler-bars(platformType.categories)
