@@ -9,24 +9,28 @@ block content
 
   mixin subcategory-head(data)
 
-  .pipe.positive
+  .section
+    .pipe.positive
 
-    = t['Free Alternatives']
-    i.fa.fa-check
+      = t['Free Alternatives']
+      i.fa.fa-check
 
-  - each project in data.projects
-    mixin project-card(project)
+    - each project in data.projects
+      mixin project-card(project)
 
-  if(data.projectsRejected.length > 0)
+    mixin filler-cards(data.projects)
 
-    .pipe.negative
-      = t.Proprietary
-      i.fa.fa-times
+  .section
+    if(data.projectsRejected.length > 0)
 
-    - each project in data.projectsRejected
-      .bar.negative
-        .label
-          img.logo(src=routes.logosRejected + project.logo )
-          = project.name
+      .pipe.negative
+        = t.Proprietary
+        i.fa.fa-times
 
-    mixin filler-bars(data.projectsRejected)
+      - each project in data.projectsRejected
+        .bar.negative
+          .label
+            img.logo(src=routes.logosRejected + project.logo )
+            = project.name
+
+      mixin filler-bars(data.projectsRejected)

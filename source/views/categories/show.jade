@@ -8,11 +8,12 @@ block content
 
   mixin category-head(category)
 
-  - each subcategory in category.subcategories
-    a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
-      .label
-        img.logo(src=routes.logos + subcategory.randomLogo)
-        = subcategory.name
-      .icon: i.fa.fa-angle-right
+  .section
+    - each subcategory in category.subcategories
+      a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
+        .label
+          img.logo(src=routes.logos + subcategory.randomLogo)
+          = subcategory.name
+        .icon: i.fa.fa-angle-right
 
-  mixin filler-bars(category.subcategories)
+    mixin filler-bars(category.subcategories)

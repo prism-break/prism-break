@@ -1,4 +1,5 @@
 include mixins
+extends ../layouts/mixins
 include ../projects/mixins
 extends ../layouts/application
 block title
@@ -8,8 +9,11 @@ block content
 
   mixin protocol-head(protocol)
 
-  .pipe.positive
-    = t['Projects Supported']
-    i.fa.fa-check
-  - each project in protocol.projects
-    mixin project-card(project)
+  .section
+    .pipe.positive
+      = t['Projects Supported']
+      i.fa.fa-check
+    - each project in protocol.projects
+      mixin project-card(project)
+
+    mixin filler-cards(protocol.projects)
