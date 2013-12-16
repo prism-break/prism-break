@@ -39,34 +39,35 @@ Project data is stored in `./source/db/*-projects.ls`, where `*` is the two lett
 
 ## Adding A New Project
 
-### Project Details
+### Adding the Project Data
 
-Append the following text to the file `./source/db/en-projects.ls`. Repeat the process for the other languages (e.g. `./source/db/de-projects.ls`).
+Append the sample project to the file `./source/db/en-projects.ls`. Edit the values to fit your project. Repeat the process for the other languages (e.g. `./source/db/de-projects.ls`).
 
-    * status: 'recommended'
-      description: "Tor Browser Bundle is a web browser based on Firefox ESR, pre-configured to protect users' privacy and anonymity on the web. is a free repackaged version of the bundled Tor Software. The program allows the end user to connect to the Tor anonymity network. "
-      license_url: "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE"
-      logo: "tor-browser-bundle.png"
-      notes: "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node."
-      privacy_url: "https://www.torproject.org/about/overview.html.en"
-      source_url: "https://gitweb.torproject.org/tor.git"
-      name: "Tor Browser Bundle"
+    * name: "Awesome Project"
+      logo: "awesome-project.png"
+      description: "The description of the project goes here. A soft limit of three to four sentences is best. Feel free to use the description from Wikipedia."
+      notes: "Note that the project is in beta, has not been audited, etc."
+      url: "https://www.awesome-project.org"
+      wikipedia_url: "https://en.wikipedia.org/wiki/Awesome_Project"
+      privacy_url: ""
       tos_url: ""
-      url: "https://www.torproject.org/projects/torbrowser.html.en"
-      wikipedia_url: "https://en.wikipedia.org/wiki/Tor_Browser_Bundle"
-      protocols: ["SSL/TLS", "Tor"]
+      license_url: "https://git.awesome-project.org//master/LICENSE.txt"
+      source_url: "https://git.awesome-project.org/master/"
+      protocols: ["GPG", "OTR", "XMPP"]
       categories: [
-        * name: "BSD"
-          subcategories: ["Web Browsers"]
+        * name: "Web Services"
+          subcategories: ["Email Accounts", "Social Networks"]
         * name: "Linux"
-          subcategories: ["Web Browsers"]
+          subcategories: ["Operating Systems"]
         * name: "Mac OS X"
-          subcategories: ["Web Browsers"]
+          subcategories: ["Instant Messaging", "IRC"]
         * name: "Windows"
-          subcategories: ["Web Browsers"]
+          subcategories: ["Disk Encryption", "VPN Clients"]
       ]
 
-### Project Thumbnail
+Only the fields `name`, `description`, `logo`, `url`, and `categories` are required. The other fields can be left empty with a value of `""` (`[]` for `protocols`).
+
+### Adding the Project Thumbnail
 
 **Project thumbnails should be in the PNG format.** Try to get a 1024px x 1024px (or better) version of the logo for `./source/images/original` and rescale it to 60x60 and 120x120 for `./source/images/medium` and `./source/images/medium@2x`
 
