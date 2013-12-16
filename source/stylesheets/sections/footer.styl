@@ -1,16 +1,26 @@
 #footer
   p 1em 0
   bg txt
-  c bg2
+  c #ccc
   f .8em/1.5 sans
 
   ul
     mb 1em
     clearfix()
-    p 0 1em
     li
       fl()
       w 25%
+      pb 1px
+      pr 1px
+      a
+        d block
+        bg #555
+        p 0 .5em
+        c #eee
+        f 1em/2 sans
 
+        &:hover
+          bg #666
+          c #fff
   p
     p 0 1em 1em
