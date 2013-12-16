@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^$ /en [L]
+RewriteRule ^$ ./en [L]
