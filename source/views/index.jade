@@ -8,9 +8,10 @@ block content
 
   - each platformType in platformTypes
 
-    .pipe= platformType.name
+    .section
+      .pipe= platformType.name
 
-    - each category in platformType.categories
-      a.bar(href="./categories/#{category.slug}")
-        .label= category.name
-        .icon: i.fa.fa-angle-right
+      - each category in platformType.categories
+        a.bar(href="./categories/#{category.slug}")
+          .label= category.name
+          .icon: i.fa.fa-angle-right
