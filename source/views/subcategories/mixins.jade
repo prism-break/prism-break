@@ -2,6 +2,10 @@ mixin subcategory-head(data)
   .card.text.max
     .btn-rectangle
       .small
+        a(href=routes.root)
+          = t.Platforms
+        = ' / '
         a(href=routes.categories + data.category.slug)
           = data.category.name
+        = ' / '
       .title= data.subcategory.name
