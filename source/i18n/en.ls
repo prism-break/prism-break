@@ -4,6 +4,8 @@ translations =
   Browse: 'Browse'
   'Browse by Platform': 'Browse by Platform'
   'Browse by Protocol': 'Browse by Protocol'
+  Category: 'Category'
+  'categories in this platform': 'categories in this platform'
   Categories: 'Categories'
   Donate: 'Donate'
   'Free Alternatives': 'Free Alternatives'

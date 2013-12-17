@@ -7,29 +7,55 @@ block title
   = data.category.name
 block content
 
-  mixin subcategory-head(data)
-
-  .section
-    .pipe.positive
-
-      = t['Free Alternatives']
-      i.fa.fa-check
-
-    - each project in data.projects
-      mixin project-card(project)
-
-    mixin filler-cards(data.projects)
-
-  if(data.projectsRejected.length > 0)
+  .content-side
     .section
-      .pipe.negative
-        = t.Proprietary
-        i.fa.fa-times
 
-      - each project in data.projectsRejected
-        .bar.negative
-          .label
-            img.logo(src=routes.logosRejected + project.logo )
-            = project.name
+      .pipe 
+        = data.category.name + ' '
+        = t.Categories
 
-      mixin filler-bars(data.projectsRejected)
+      - each subcat in data.category.subcategories
+
+          if subcat.name === data.subcategory.name
+            .bar.active
+              .label
+                img.logo(src=routes.logos + subcat.randomLogo)
+                = subcat.name
+              .icon: i.fa.fa-dot-circle-o
+
+          else
+            a.bar(href=routes.subcategories + data.category.slug + '-' + subcat.slug)
+              .label
+                img.logo(src=routes.logos + subcat.randomLogo)
+                = subcat.name
+              .icon: i.fa.fa-angle-right
+
+  .content-main
+    .pipe= t.Category
+
+    mixin subcategory-head(data)
+
+    .section
+      .pipe.positive
+
+        = t['Free Alternatives']
+        i.fa.fa-check
+
+      - each project in data.projects
+        mixin project-card(project)
+
+      mixin filler-cards(data.projects)
+
+    if(data.projectsRejected.length > 0)
+      .section
+        .pipe.negative
+          = t.Proprietary
+          i.fa.fa-times
+
+        - each project in data.projectsRejected
+          .bar.negative
+            .label
+              img.logo(src=routes.logosRejected + project.logo )
+              = project.name
+
+        mixin filler-bars(data.projectsRejected)
