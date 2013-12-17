@@ -3,7 +3,7 @@
 # libraries
 require! mkdirp
 require! '../functions/helpers.ls'
-{select-random, slugify-db, slugify-project, subcategories-in, images-in, in-this-category, in-this-subcategory, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
+{select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
 {view-path, write-html, write-json} = require '../functions/paths.ls'
 {routes} = require '../functions/routes.ls'
 
@@ -218,6 +218,7 @@ write-projects-index = (translation) ->
 write-projects-show = (translation) ->
   create = (project) ->
     data = slugify-project project
+    data.projects-related = in-these-subcategories(subcategories-of(project), projects-db)
 
     path = "projects/#{project.slug}/"
     view = view-path 'projects/show'

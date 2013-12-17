@@ -9,7 +9,6 @@ slugify-db = (db) ->
   for project in list
     project.slug = slugify project.name
     project.categories = sort-by (.name), project.categories
-
   list = sort-by (.name), list
 
 slugify-list = (list) ->
@@ -39,6 +38,12 @@ subcategories-in = (category-name, db) ->
   list = slugify-list list
   list = sort-by (.name), list
 
+subcategories-of = (project) ->
+  list = flatten map (.subcategories), project.categories
+  list = map (.name), list
+  list = unique flatten list
+  list = sort list
+
 images-in = (db) ->
   list = map (.logo), db
 
@@ -57,6 +62,12 @@ in-this-subcategory = (subcategory-name, db) ->
       for subcategory in category.subcategories
         if subcategory == subcategory-name
           list.push project
+  list = unique list
+
+in-these-subcategories = (subcategories, db) ->
+  list = []
+  for subcategory in subcategories
+    list.push in-this-subcategory(subcategory, db)
   list = unique list
 
 in-this-protocol = (protocol, db) ->
@@ -86,9 +97,11 @@ exports.slugify-list = slugify-list
 exports.slugify-project = slugify-project
 exports.categories-in = categories-in
 exports.subcategories-in = subcategories-in
+exports.subcategories-of = subcategories-of
 exports.images-in = images-in
 exports.in-this-category = in-this-category
 exports.in-this-subcategory = in-this-subcategory
+exports.in-these-subcategories = in-these-subcategories
 exports.in-this-protocol = in-this-protocol
 exports.nested-categories = nested-categories
 exports.protocol-types = protocol-types
