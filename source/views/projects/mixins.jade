@@ -15,7 +15,7 @@ mixin project-card(project)
       - categories += category.name + ', '
 
   .card
-    a.btn-rectangle(href="#{routes.projects}/#{project.slug}")
+    a.btn-rectangle(href=routes.projects + project.slug)
       img.card-logo(src= routes.logos + project.logo)
       .title!= h.truncate(project.name, 20)
       .small!= h.truncate(subcategories, 24)

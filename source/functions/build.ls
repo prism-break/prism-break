@@ -4,7 +4,8 @@
 require! mkdirp
 require! '../functions/helpers.ls'
 {select-random, slugify-db, subcategories-in, images-in, in-this-category, in-this-subcategory, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
-{view-path, routes, write-html, write-json} = require '../functions/paths.ls'
+{view-path, write-html, write-json} = require '../functions/paths.ls'
+{routes} = require '../functions/routes.ls'
 
 # data
 {projects-raw} = require '../db/en-projects.ls'

@@ -6,43 +6,6 @@ require! jade
 view-path = (view-name) ->
   'source/views/' + view-name + '.jade'
 
-routes = (subdirectory, depth)->
-  if depth?
-    if depth == 0
-      prefix = './'
-    else if depth == 1
-      prefix = '../'
-    else if depth == 2
-      prefix = '../../'
-    else
-      console.log "depth only goes to 2"
-  else
-    prefix = './'
-
-  bare-paths =
-    css: '../assets/css/screen.css'
-    root: ''
-    about: 'about'
-    categories: 'categories'
-    subcategories: 'subcategories/'
-    icons: '../assets/ico/'
-    images: '../assets/img/'
-    logos: '../assets/img/logos/medium/'
-    logos-rejected: '../assets/img/logos-rejected/small/'
-    projects: 'projects'
-    protocols: 'protocols'
-
-  final-paths = {}
-  for key, value of bare-paths
-    if subdirectory == value
-      if depth == 2
-        final-paths[key] = '../'
-      else
-        final-paths[key] = '.'
-    else
-      final-paths[key] = prefix + value
-  final-paths
-
 write-html = (view, options, file) ->
   file = file + '.html'
   jade.render-file view, options, (err, html) ->
@@ -62,6 +25,5 @@ write-json = (db, path) ->
       console.log "#{file} saved"
 
 exports.view-path = view-path
-exports.routes = routes
 exports.write-html = write-html
 exports.write-json = write-json

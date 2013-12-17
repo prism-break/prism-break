@@ -9,7 +9,12 @@ block content
   .content-side
     .section
 
-      .pipe= t.Platforms
+      //.pipe= t.Platforms
+
+      a.bar(href=routes.root)
+        .label
+          | -
+          = t.All
 
       - each platformType in platformTypes
         - each cat in platformType.categories
@@ -36,7 +41,6 @@ block content
 
   .content-main
 
-    .pipe= t.Platform
     mixin category-head(category)
 
     .section
