@@ -4,6 +4,14 @@
 select-random = (list) ->
   list[Math.floor(Math.random! * list.length)]
 
+shuffle-array = (array) ->
+  for i from 0 til array.length - 1 by 1
+    j = Math.floor(Math.random! * (i + 1))
+    temp = array[i]
+    array[i] = array[j]
+    array[j] = temp
+  array
+
 slugify-db = (db) ->
   list = db
   for project in list
@@ -72,6 +80,7 @@ protocol-types = (protocols) ->
   types
 
 exports.select-random = select-random
+exports.shuffle-array = select-random
 exports.slugify-db = slugify-db
 exports.slugify-list = slugify-list
 exports.categories-in = categories-in

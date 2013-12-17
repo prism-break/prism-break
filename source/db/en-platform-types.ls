@@ -1,4 +1,5 @@
-{slugify-list} = require '../functions/sort.ls'
+{flatten, take, unique} = require 'prelude-ls'
+{images-in, in-this-category, shuffle-array, slugify-list} = require '../functions/sort.ls'
 
 platform-types = (db) ->
   types =
@@ -13,6 +14,10 @@ platform-types = (db) ->
 
   for type in types
     type.categories = slugify-list type.categories
+    for category in type.categories
+      category.projects = in-this-category(category.name, db)
+      category.logos = images-in(category.projects)
+      category.logos = take 5 (unique flatten category.logos)
   types
 
 exports.platform-types = platform-types
