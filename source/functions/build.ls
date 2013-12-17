@@ -77,6 +77,7 @@ write-categories-show = (translation) ->
       body-class: "#{language} categories show"
       h: helpers
       category: category
+      platform-types: platform-types projects-db
       routes: routes 'categories', 2
       language: language
       t: translation

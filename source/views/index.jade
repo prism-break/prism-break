@@ -17,6 +17,9 @@ block content
           - each category in platformType.categories
             a.bar(href="./categories/#{category.slug}")
               .label
-                i(class="fa #{category.fa}")
+                if category.fa === 'fa-mobile'
+                  i(class="fa #{category.fa} large")
+                else
+                  i(class="fa #{category.fa}")
                 = category.name
               .icon: i.fa.fa-angle-right
