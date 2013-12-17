@@ -10,12 +10,8 @@ block content
   .content-side
     .section
 
-      //.pipe= data.category.name + ' '
-
-      a.bar(href=routes.categories + data.category.slug)
-        .label
-          | -
-          = t.All
+      a.pipe(href=routes.categories + data.category.slug)
+        = data.category.name + ' '
 
       - each subcat in data.category.subcategories
 
