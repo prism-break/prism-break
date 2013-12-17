@@ -1,12 +1,9 @@
 body
   p 0 40px 40px
 
-  #container
-    pb 1.5em
-
   &.root.index
     #container
-      p 1.5em 0
+      p 2em 0 1em
 
   .content-side
     float right
@@ -15,18 +12,25 @@ body
     .text-block
       bb none
       pt 0
+
   .content-main
     float right
     w 66%
+    .section
+      ml 0 !important
+      mr 0 !important
 
-  .text-block.large strong
-    pb .75em
-    mb .75em
-    bb 1px solid #ddd
+  .text-block.large 
+    m 0
+    strong
+      pb .75em
+      mb .75em
+      bb 1px solid #ddd
 
   #footer
-    m 0 -40px -40px
-    p 20px 40px 40px
+    p 2em 0
+    .content-main
+      m 0
 
   /*
   .filler-columns-two
@@ -39,3 +43,4 @@ body
       w 33.33333% !important
       fl()
       br 1px solid #ddd
+  */
