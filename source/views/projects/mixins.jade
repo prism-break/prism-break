@@ -1,3 +1,4 @@
+include ../layouts/mixins
 mixin project-card(project)
 
   - var subcategories = []
@@ -17,8 +18,10 @@ mixin project-card(project)
   .card
     a.btn-rectangle(href=routes.projects + project.slug)
       img.card-logo(src= routes.logos + project.logo)
-      .title!= h.truncate(project.name, 20)
-      .small!= h.truncate(subcategories, 24)
+      //.title!= h.truncate(project.name, 20)
+      .title= project.name, 20
+      //.small!= h.truncate(subcategories, 24)
+      .small= subcategories, 24
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
@@ -77,6 +80,8 @@ mixin project-tail(project)
         a.bar(href="../../protocols/#{protocol.slug}")
           .label= protocol.name
           .icon: i.fa.fa-angle-right
+
+      mixin filler-bars(project.protocolsSlugged)
 
   .section
     .pipe= ['Source Code']

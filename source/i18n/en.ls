@@ -15,6 +15,7 @@ translations =
   'More Info': 'More Info'
   'Official Website': 'Official Website'
   'One Supported Project': 'One Supported Project'
+  'Platform Support': 'Platform Support'
   Platform: 'Platform'
   Platforms: 'Platforms'
   'Platform Types': 'Platform Types'
