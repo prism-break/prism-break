@@ -1,6 +1,8 @@
 translations =
   About: 'About'
   All: 'All'
+  'All Categories': 'All Categories'
+  'All Platforms': 'All Platforms'
   Browse: 'Browse'
   'Browse by Platform': 'Browse by Platform'
   'Browse by Protocol': 'Browse by Protocol'

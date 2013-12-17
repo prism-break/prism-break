@@ -10,9 +10,12 @@ block content
   .content-side
     .section
 
-      .pipe 
-        = data.category.name + ' '
-        = t.Categories
+      //.pipe= data.category.name + ' '
+
+      a.bar(href=routes.categories + data.category.slug)
+        .label
+          | -
+          = t.All
 
       - each subcat in data.category.subcategories
 
@@ -31,8 +34,6 @@ block content
               .icon: i.fa.fa-angle-right
 
   .content-main
-    .pipe= t.Category
-
     mixin subcategory-head(data)
 
     .section

@@ -1,7 +1,7 @@
 mixin subcategory-head(data)
   .card.text.max
     .btn-rectangle
-      .title= data.subcategory.name
       .small
-        = data.subcategory.projects.length
-        = t.Projects
+        a(href=routes.categories + data.category.slug)
+          = data.category.name
+      .title= data.subcategory.name
