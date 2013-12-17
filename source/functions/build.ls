@@ -170,6 +170,7 @@ write-protocols-show = (translation) ->
       body-class: "#{language} protocols show"
       h: helpers
       protocol: data
+      protocol-types: protocol-types protocols-db
       routes: routes 'protocols', 2
       language: language
       t: translation

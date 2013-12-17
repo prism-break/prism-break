@@ -7,13 +7,37 @@ block title
   = t.Protocols
 block content
 
-  mixin protocol-head(protocol)
+  .content-side
+    .section
 
-  .section
-    .pipe.positive
-      = t['Projects Supported']
-      i.fa.fa-check
-    - each project in protocol.projects
-      mixin project-card(project)
+      a.pipe(href=routes.protocols)
+        = t.Protocols
 
-    mixin filler-cards(protocol.projects)
+      - each protocolType in protocolTypes
+
+        .pipe.subtle= protocolType.name
+
+        - each pro in protocolType.protocols
+          if pro.name === protocol.name
+            .bar.active
+              .label
+                = pro.name
+              .icon: i.fa.fa-dot-circle-o
+
+          else
+            a.bar(href=routes.protocols + pro.slug)
+              .label
+                = pro.name
+              .icon: i.fa.fa-angle-right
+
+  .content-main
+    mixin protocol-head(protocol)
+
+    .section
+      .pipe.positive
+        = t['Projects Supported']
+        i.fa.fa-check
+      - each project in protocol.projects
+        mixin project-card(project)
+
+      mixin filler-cards(protocol.projects)

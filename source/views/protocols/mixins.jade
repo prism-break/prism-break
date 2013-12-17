@@ -1,18 +1,11 @@
 mixin protocol-head(protocol)
-  .card.text
-    .btn-rectangle
-      .small
-        a(href=routes.protocols)= t.Protocols
-        = " /"
-      .title= protocol.name
-    a.btn-square(href=protocol.wikipedia_url)
-      i.fa.fa-external-link-square
-  .text-block!= h.marked(protocol.description)
-
-  //
-    .pipe
-      if protocol.projects.length === 1
-        = t['One Supported Project']
-      else
-        = protocol.projects.length + ' '
-        = t['Supported Projects']
+  .box
+    .card.text
+      .btn-rectangle
+        .small
+          a(href=routes.protocols)= t.Protocols
+          = " /"
+        .title= protocol.name
+      a.btn-square(href=protocol.wikipedia_url)
+        i.fa.fa-external-link-square
+    .text-block!= h.marked(protocol.description)
