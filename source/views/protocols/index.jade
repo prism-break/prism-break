@@ -4,14 +4,19 @@ block title
   = t.Protocols
 block content
   
-  - each protocolType in protocolTypes
+  .content-side
+    .text-block.large
+      strong Browse projects by protocol.
+      | Pick the one you like.
 
-    .section
-      .pipe= protocolType.name
+  .content-main
+    - each protocolType in protocolTypes
 
-      - each protocol in protocolType.protocols
-        a.bar(href="../protocols/#{protocol.slug}")
-          .label= protocol.name
-          .icon: i.fa.fa-angle-right
+      .section
+        .pipe= protocolType.name
 
-      mixin filler-bars(protocolType.protocols)
+        .bars
+          - each protocol in protocolType.protocols
+            a.bar(href="../protocols/#{protocol.slug}")
+              .label= protocol.name
+              .icon: i.fa.fa-angle-right

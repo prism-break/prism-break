@@ -77,7 +77,7 @@ protocols-raw =
     description: "I2P (Invisible Internet Project) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous web surfing, chatting, blogging and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node."
     wikipedia_url: "https://en.wikipedia.org/wiki/I2p"
     categories: [
-      * name: "Network Anonymity"
+      * name: "Anonymity"
     ]
 
   * name: "Tor"
@@ -85,7 +85,7 @@ protocols-raw =
     description: "Tor (previously TOR, an acronym for The Onion Router)[5] is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays[6] to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user[7] and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored."
     wikipedia_url: "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29"
     categories: [
-      * name: "Network Anonymity"
+      * name: "Anonymity"
     ]
 
   * name: "RSS"
