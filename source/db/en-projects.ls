@@ -497,8 +497,6 @@ projects-raw =
     categories: [
       * name: "Android"
         subcategories: ["App Store"]
-      * name: "iOS"
-        subcategories: ["Operating Systems"]
     ]
 
   * status: 'recommended'
