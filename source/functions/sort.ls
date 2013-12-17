@@ -8,6 +8,7 @@ slugify-db = (db) ->
   list = db
   for project in list
     project.slug = slugify project.name
+    project.categories = sort-by (.name), project.categories
 
   list = sort-by (.name), list
 
