@@ -1,23 +1,47 @@
 {flatten, take, unique} = require 'prelude-ls'
-{images-in, in-this-category, shuffle-array, slugify-list} = require '../functions/sort.ls'
+{images-in, in-this-category, shuffle-array} = require '../functions/sort.ls'
+{slugify} = require '../functions/slugify.ls'
+
 
 platform-types = (db) ->
   types =
     * name: 'Services'
-      categories: ['Web Services']
+      categories: [
+        * name: 'Web Services'
+          fa: 'fa-comments'
+      ]
     * name: 'Mobile'
-      categories: ['Android', 'iOS']
+      categories: [
+        * name: 'Android'
+          fa: 'fa-android'
+        * name: 'iOS'
+          fa: 'fa-mobile'
+      ]
     * name: 'Computer'
-      categories: ['BSD', 'Linux', 'Mac OS X', 'Windows']
+      categories: [
+        * name: 'BSD'
+          fa: 'fa-lock'
+        * name: 'Linux'
+          fa: 'fa-linux'
+        * name: 'Mac OS X'
+          fa: 'fa-apple'
+        * name: 'Windows'
+          fa: 'fa-windows'
+      ]
     * name: 'Server'
-      categories: ['Routers', 'Servers']
+      categories: [
+        * name: 'Routers'
+          fa: 'fa-sitemap'
+        * name: 'Servers'
+          fa: 'fa-tasks'
+      ]
 
   for type in types
-    type.categories = slugify-list type.categories
     for category in type.categories
-      category.projects = in-this-category(category.name, db)
-      category.logos = images-in(category.projects)
-      category.logos = take 5 (unique flatten category.logos)
+      category.slug = slugify category.name
+      #category.projects = in-this-category(category.name, db)
+      #category.logos = images-in(category.projects)
+      #category.logos = take 5 (unique flatten category.logos)
   types
 
 exports.platform-types = platform-types

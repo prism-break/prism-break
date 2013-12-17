@@ -16,5 +16,7 @@ block content
         .bars
           - each category in platformType.categories
             a.bar(href="./categories/#{category.slug}")
-              .label= category.name
+              .label
+                i(class="fa #{category.fa}")
+                = category.name
               .icon: i.fa.fa-angle-right
