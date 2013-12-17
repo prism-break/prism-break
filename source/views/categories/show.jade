@@ -7,14 +7,11 @@ block title
 block content
 
   .content-side
-
     .section
 
       .pipe= t.Platforms
-      - each platformType in platformTypes
-      
-        //.pipe= platformType.name
 
+      - each platformType in platformTypes
         - each cat in platformType.categories
 
           if cat.name === category.name
@@ -26,6 +23,7 @@ block content
                   i(class="fa #{cat.fa}")
                 = cat.name
               .icon: i.fa.fa-dot-circle-o
+
           else
             a.bar(href=routes.categories + cat.slug)
               .label
@@ -38,11 +36,12 @@ block content
 
   .content-main
 
+    .pipe= t.Platform
     mixin category-head(category)
 
     .section
       - each subcategory in category.subcategories
-        a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
+        a.bar(href=routes.subcategories + category.slug + '-' + subcategory.slug)
           .label
             img.logo(src=routes.logos + subcategory.randomLogo)
             = subcategory.name

@@ -1,7 +1,7 @@
 mixin category-head(category)
   .card.text.max
     .btn-rectangle
-      .small
-        a(href=routes.root)= t['Platforms']
-        = ' /'
       .title= category.name
+      .small
+        = category.subcategories.length + ' '
+        = t['categories in this platform']
