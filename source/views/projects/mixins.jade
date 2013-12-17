@@ -3,9 +3,9 @@ mixin project-card(project)
   - var subcategories = []
   - each subcategory, i in project.categories[0].subcategories
     if i === project.categories[0].subcategories.length - 1
-      - subcategories += subcategory
+      - subcategories += subcategory.name
     else
-      - subcategories += subcategory + ', '
+      - subcategories += subcategory.name + ', '
 
   - var categories = []
   - each category, i in project.categories
@@ -27,19 +27,20 @@ mixin project-head(project)
   - var subcategories = []
   - each subcategory, i in project.categories[0].subcategories
     if i === project.categories[0].subcategories.length - 1
-      - subcategories += subcategory
+      - subcategories += subcategory.name
     else
-      - subcategories += subcategory + ', '
-  .card.head.max
-    .btn-rectangle
-      img.card-logo(src= routes.logos + project.logo)
-      .title!= h.truncate(project.name, 20)
-      .small!= h.truncate(subcategories, 30)
+      - subcategories += subcategory.name + ', '
+  .box
+    .card.head.max
+      .btn-rectangle
+        img.card-logo(src= routes.logos + project.logo)
+        .title!= h.truncate(project.name, 20)
+        .small!= h.truncate(subcategories, 30)
+
+    - if(project.description !== '')
+      .text-block!= h.marked(project.description)
 
 mixin project-tail(project)
-  - if(project.description !== '')
-    .section
-      .text-block!= h.marked(project.description)
 
   .section
     .pipe= t['More Info']
