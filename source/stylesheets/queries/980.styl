@@ -23,7 +23,12 @@ body
     .section
       ml 1em
       bl none
+      .pipe
+        &.subtle
+          bg #fff
+          font-weight normal
       .bar
+        float none
         w 100% !important
         f .75em sans
         lhh 2em
@@ -40,6 +45,12 @@ body
     mb 1em
     b 1px solid #ddd
 
+  .box
+    mb 1em
+    b 1px solid #ddd
+    .text-block
+      bb none
+
   .text-block.large 
     m 0
     strong
@@ -54,6 +65,7 @@ body
 
   &.categories.show
   &.subcategories.show
+  &.protocols.show
     #container
       .content-side
         float left
