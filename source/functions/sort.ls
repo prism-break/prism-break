@@ -4,25 +4,24 @@
 select-random = (list) ->
   list[Math.floor(Math.random! * list.length)]
 
-shuffle-array = (array) ->
-  for i from 0 til array.length - 1 by 1
-    j = Math.floor(Math.random! * (i + 1))
-    temp = array[i]
-    array[i] = array[j]
-    array[j] = temp
-  array
-
 slugify-db = (db) ->
   list = db
   for project in list
     project.slug = slugify project.name
-    if project.protocols?
-      project.protocols-slugged = slugify-list project.protocols
 
   list = sort-by (.name), list
 
 slugify-list = (list) ->
   map (-> { name: it, slug: slugify(it)}), list
+
+slugify-project = (project) ->
+  if project.protocols?
+    project.protocols-slugged = slugify-list project.protocols
+  if project.categories?
+    for category in project.categories
+      category.slug = slugify category.name
+      category.subcategories = slugify-list category.subcategories
+  project
 
 categories-in = (db) ->
   list = flatten map (.categories), db
@@ -83,6 +82,7 @@ exports.select-random = select-random
 exports.shuffle-array = select-random
 exports.slugify-db = slugify-db
 exports.slugify-list = slugify-list
+exports.slugify-project = slugify-project
 exports.categories-in = categories-in
 exports.subcategories-in = subcategories-in
 exports.images-in = images-in

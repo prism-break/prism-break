@@ -5,5 +5,22 @@ block title
   = t.Projects
 block content
 
-  mixin project-head(project)
-  mixin project-tail(project)
+  .content-side
+
+    .section
+      a.pipe(href=routes.categories)
+        = t.Categories
+
+      - each cat in project.categories
+
+        a.bar.parent(href=routes.categories + cat.slug)
+          .label= cat.name
+
+        - each subcat in cat.subcategories
+
+          a.bar.child(href=routes.subcategories+cat.slug+'-'+subcat.slug)
+            .label= subcat.name
+
+  .content-main
+    mixin project-head(project)
+    mixin project-tail(project)

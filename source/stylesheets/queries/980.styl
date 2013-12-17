@@ -1,14 +1,9 @@
 body
   p 0 40px 40px
 
-
   #container
     p 2em 0 1em
 
-  .section
-    mb 1em
-    bt 1px solid #ddd
-    bl 1px solid #ddd
 
   .content-side
     d block
@@ -26,7 +21,6 @@ body
       .pipe
         &.subtle
           bg #fff
-          font-weight normal
       .bar
         float none
         w 100% !important
@@ -35,21 +29,16 @@ body
         br none
         .logo, i.fa, .icon
           d none
+        &.parent
+          fw bold
+        &.child
+          pl 2em
+
 
   .content-main
     float right
     m 0
     w 66.67%
-
-  .card.text.max
-    mb 1em
-    b 1px solid #ddd
-
-  .box
-    mb 1em
-    b 1px solid #ddd
-    .text-block
-      bb none
 
   .text-block.large 
     m 0
@@ -66,6 +55,7 @@ body
   &.categories.show
   &.subcategories.show
   &.protocols.show
+  &.projects.show
     #container
       .content-side
         float left

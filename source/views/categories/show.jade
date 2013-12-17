@@ -13,10 +13,13 @@ block content
         = t.Platforms
 
       - each platformType in platformTypes
+
+        .pipe.subtle= platformType.name
+
         - each cat in platformType.categories
 
           if cat.name === category.name
-            .bar.active
+            .bar.active.child
               .label
                 if cat.fa === 'fa-mobile'
                   i(class="fa #{cat.fa} large")
@@ -26,7 +29,7 @@ block content
               .icon: i.fa.fa-dot-circle-o
 
           else
-            a.bar(href=routes.categories + cat.slug)
+            a.bar.child(href=routes.categories + cat.slug)
               .label
                 if cat.fa === 'fa-mobile'
                   i(class="fa #{cat.fa} large")
