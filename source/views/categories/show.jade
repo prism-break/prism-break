@@ -6,14 +6,46 @@ block title
   = t.Platforms
 block content
 
-  mixin category-head(category)
+  .content-side
 
-  .section
-    - each subcategory in category.subcategories
-      a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
-        .label
-          img.logo(src=routes.logos + subcategory.randomLogo)
-          = subcategory.name
-        .icon: i.fa.fa-angle-right
+    .section
 
-    mixin filler-bars(category.subcategories)
+      .pipe= t.Platforms
+      - each platformType in platformTypes
+      
+        //.pipe= platformType.name
+
+        - each cat in platformType.categories
+
+          if cat.name === category.name
+            .bar.active
+              .label
+                if cat.fa === 'fa-mobile'
+                  i(class="fa #{cat.fa} large")
+                else
+                  i(class="fa #{cat.fa}")
+                = cat.name
+              .icon: i.fa.fa-dot-circle-o
+          else
+            a.bar(href=routes.categories + cat.slug)
+              .label
+                if cat.fa === 'fa-mobile'
+                  i(class="fa #{cat.fa} large")
+                else
+                  i(class="fa #{cat.fa}")
+                = cat.name
+              .icon: i.fa.fa-angle-right
+
+  .content-main
+
+    mixin category-head(category)
+
+    .section
+      - each subcategory in category.subcategories
+        a.bar(href="../../subcategories/#{category.slug}-#{subcategory.slug}")
+          .label
+            img.logo(src=routes.logos + subcategory.randomLogo)
+            = subcategory.name
+          .icon: i.fa.fa-angle-right
+
+      mixin filler-bars(category.subcategories)

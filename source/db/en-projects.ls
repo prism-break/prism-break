@@ -738,7 +738,7 @@ projects-raw =
         subcategories: ["Web Browser Addons", "Instant Messaging"]
       * name: "Windows"
         subcategories: ["Web Browser Addons", "Instant Messaging"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Instant Messaging"]
     ]
 
@@ -778,7 +778,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/DuckDuckGo"
     protocols: ["SSL/TLS", "Tor"]
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Web Search"]
     ]
 
@@ -795,7 +795,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Web Search"]
     ]
 
@@ -829,7 +829,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Web Search"]
     ]
 
@@ -846,7 +846,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Web Search"]
     ]
 
@@ -884,7 +884,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/OpenStreetMap"
     protocols: []
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["World Maps"]
     ]
 
@@ -901,7 +901,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
     protocols: []
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["World Maps"]
     ]
 
@@ -944,7 +944,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\n\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Web Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
+    description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\n\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Online Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
     license_url: ""
     logo: "autistici-inventati.png"
     notes: ""
@@ -956,7 +956,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Services", "Web Hosting"]
     ]
 
@@ -994,7 +994,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/MyKolab"
     protocols: []
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Email Accounts"]
       * name: "Mac OS X"
         subcategories: ["File Storage & Sync"]
@@ -1036,7 +1036,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS", "Tor", "XMPP"]
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Services"]
     ]
 
@@ -1587,7 +1587,7 @@ projects-raw =
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
@@ -1657,7 +1657,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Social Networks"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Social Networks"]
     ]
 
@@ -1727,7 +1727,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Social Networks"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Social Networks"]
     ]
 
@@ -1744,7 +1744,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Web Search"]
     ]
 
@@ -1896,7 +1896,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1913,7 +1913,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1932,7 +1932,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1951,7 +1951,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1970,7 +1970,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Productivity"]
     ]
 
@@ -2067,7 +2067,7 @@ projects-raw =
         subcategories: ["Finance"]
       * name: "Windows"
         subcategories: ["Finance"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Finance"]
     ]
 
@@ -2096,7 +2096,7 @@ projects-raw =
         subcategories: ["Finance"]
       * name: "Windows"
         subcategories: ["Finance"]
-      * name: "Web Services"
+      * name: "Online Services"
         subcategories: ["Finance"]
     ]
 

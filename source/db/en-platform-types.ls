@@ -7,7 +7,7 @@ platform-types = (db) ->
   types =
     * name: 'Services'
       categories: [
-        * name: 'Web Services'
+        * name: 'Online Services'
           fa: 'fa-comments'
       ]
     * name: 'Mobile'
@@ -28,7 +28,7 @@ platform-types = (db) ->
         * name: 'Windows'
           fa: 'fa-windows'
       ]
-    * name: 'Server'
+    * name: 'Network'
       categories: [
         * name: 'Routers'
           fa: 'fa-sitemap'

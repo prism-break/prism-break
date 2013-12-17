@@ -13,6 +13,14 @@
     c #f00
   &.negative
     c dim
+  &.active
+    bg link
+    .label
+      c #fff
+      i.fa
+        c #fff
+    .icon
+      c hsl(lhue,100,75) !important
 
   .label
     float left
@@ -29,6 +37,8 @@
       lh 28px
       ta center
       c link
+      &.large
+        s 30px
 
   .icon
     float right

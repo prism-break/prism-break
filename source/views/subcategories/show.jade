@@ -20,9 +20,8 @@ block content
 
     mixin filler-cards(data.projects)
 
-  .section
-    if(data.projectsRejected.length > 0)
-
+  if(data.projectsRejected.length > 0)
+    .section
       .pipe.negative
         = t.Proprietary
         i.fa.fa-times
