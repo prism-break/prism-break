@@ -25,7 +25,7 @@ routes = (subdirectory, depth)->
     about: 'about'
     categories: 'categories'
     icons: '../assets/ico/'
-    images: '../assets/img'
+    images: '../assets/img/'
     logos: '../assets/img/logos/medium/'
     logos-rejected: '../assets/img/logos-rejected/small/'
     projects: 'projects'
