@@ -5,9 +5,7 @@ block title
 block content
   
   .content-side
-    .text-block.large
-      strong Browse projects by protocol.
-      | Pick the one you like.
+    .text-block.large!= h.marked(t.siteProtocolsIndex)
 
   .content-main
     - each protocolType in protocolTypes

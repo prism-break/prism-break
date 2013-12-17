@@ -141,6 +141,7 @@ write-protocols-index = (translation) ->
   options = 
     pretty: true
     body-class: "#{language} protocols index"
+    h: helpers
     protocol-types: data
     routes: routes 'protocols', 1
     language: language
