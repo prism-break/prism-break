@@ -18,10 +18,11 @@ mixin project-card(project)
   .card
     a.btn-rectangle(href=routes.projects + project.slug)
       img.card-logo(src= routes.logos + project.logo)
-      //.title!= h.truncate(project.name, 20)
-      .title= project.name, 20
-      //.small!= h.truncate(subcategories, 24)
-      .small= subcategories, 24
+      //- .title!= h.truncate(project.name, 20)
+      .title= project.name
+      //- .small!= h.truncate(subcategories, 24)
+      //- .small= subcategories
+      .small= categories
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square

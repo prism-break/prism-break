@@ -17,7 +17,7 @@ projects-raw =
         subcategories: ["Operating Systems"]
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -40,7 +40,7 @@ projects-raw =
         subcategories: ["Web Browsers"]
       * name: "Linux"
         subcategories: ["Web Browsers"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
@@ -69,7 +69,7 @@ projects-raw =
         subcategories: ["Video & Voice"]
       * name: "Linux"
         subcategories: ["Video & Voice"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Video & Voice"]
       * name: "Windows"
         subcategories: ["Video & Voice"]
@@ -90,7 +90,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -111,7 +111,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -132,7 +132,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -153,7 +153,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -174,7 +174,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -197,7 +197,7 @@ projects-raw =
         subcategories: ["Operating Systems"]
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -218,7 +218,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -239,7 +239,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -283,7 +283,7 @@ projects-raw =
         subcategories: ["Operating Systems"]
       * name: "BSD"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -306,7 +306,7 @@ projects-raw =
         subcategories: ["Operating Systems"]
       * name: "BSD"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -329,7 +329,7 @@ projects-raw =
         subcategories: ["Operating Systems"]
       * name: "BSD"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -352,7 +352,7 @@ projects-raw =
         subcategories: ["Operating Systems (Live)"]
       * name: "Linux"
         subcategories: ["Operating Systems (Live)"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems (Live)"]
       * name: "Windows"
         subcategories: ["Operating Systems (Live)"]
@@ -375,7 +375,7 @@ projects-raw =
         subcategories: ["Operating Systems (Live)"]
       * name: "Linux"
         subcategories: ["Operating Systems (Live)"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems (Live)"]
       * name: "Windows"
         subcategories: ["Operating Systems (Live)"]
@@ -398,7 +398,7 @@ projects-raw =
         subcategories: ["Operating Systems (Live)"]
       * name: "Linux"
         subcategories: ["Operating Systems (Live)"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems (Live)"]
       * name: "Windows"
         subcategories: ["Operating Systems (Live)"]
@@ -419,7 +419,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Operating Systems"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -516,7 +516,7 @@ projects-raw =
         subcategories: ["Web Browsers"]
       * name: "Linux"
         subcategories: ["Web Browsers"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
@@ -558,7 +558,7 @@ projects-raw =
         subcategories: ["Web Browsers"]
       * name: "Linux"
         subcategories: ["Web Browsers"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
@@ -598,7 +598,7 @@ projects-raw =
         subcategories: ["Web Browser Addons"]
       * name: "Linux"
         subcategories: ["Web Browser Addons"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browser Addons"]
       * name: "Windows"
         subcategories: ["Web Browser Addons"]
@@ -621,7 +621,7 @@ projects-raw =
         subcategories: ["Web Browser Addons"]
       * name: "Linux"
         subcategories: ["Web Browser Addons"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browser Addons"]
       * name: "Windows"
         subcategories: ["Web Browser Addons"]
@@ -646,7 +646,7 @@ projects-raw =
         subcategories: ["Web Browser Addons"]
       * name: "Linux"
         subcategories: ["Web Browser Addons"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browser Addons"]
       * name: "Windows"
         subcategories: ["Web Browser Addons"]
@@ -669,7 +669,7 @@ projects-raw =
         subcategories: ["Web Browser Addons"]
       * name: "Linux"
         subcategories: ["Web Browser Addons"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browser Addons"]
       * name: "Windows"
         subcategories: ["Web Browser Addons"]
@@ -709,14 +709,14 @@ projects-raw =
         subcategories: ["Web Browser Addons"]
       * name: "Linux"
         subcategories: ["Web Browser Addons"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browser Addons"]
       * name: "Windows"
         subcategories: ["Web Browser Addons"]
     ]
 
   * status: 'recommended'
-    description: "Cryptocat is an open source web application intended to allow secure, encrypted online chatting. Cryptocat encrypts chats on the client side, only trusting the server with data that is already encrypted. Cryptocat is offered as an app for Mac OS X or as a browser extension for Google Chrome, Mozilla Firefox and Apple Safari."
+    description: "Cryptocat is an open source web application intended to allow secure, encrypted online chatting. Cryptocat encrypts chats on the client side, only trusting the server with data that is already encrypted. Cryptocat is offered as an app for Mac or as a browser extension for Google Chrome, Mozilla Firefox and Apple Safari."
     license_url: "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt"
     logo: "cryptocat.png"
     notes: ""
@@ -732,11 +732,11 @@ projects-raw =
         subcategories: ["Web Browser Addons", "Instant Messaging"]
       * name: "Linux"
         subcategories: ["Web Browser Addons", "Instant Messaging"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browser Addons", "Instant Messaging"]
       * name: "Windows"
         subcategories: ["Web Browser Addons", "Instant Messaging"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Instant Messaging"]
     ]
 
@@ -757,7 +757,7 @@ projects-raw =
         subcategories: ["Email Encryption", "Web Browser Addons"]
       * name: "Linux"
         subcategories: ["Email Encryption", "Web Browser Addons"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Encryption", "Web Browser Addons"]
       * name: "Windows"
         subcategories: ["Email Encryption", "Web Browser Addons"]
@@ -776,7 +776,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/DuckDuckGo"
     protocols: ["SSL/TLS", "Tor"]
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Web Search"]
     ]
 
@@ -793,7 +793,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Web Search"]
     ]
 
@@ -827,7 +827,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Web Search"]
     ]
 
@@ -844,7 +844,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Web Search"]
     ]
 
@@ -863,7 +863,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Web Search"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Search"]
       * name: "Windows"
         subcategories: ["Web Search"]
@@ -882,12 +882,12 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/OpenStreetMap"
     protocols: []
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["World Maps"]
     ]
 
   * status: 'recommended'
-    description: "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac OS X platform."
+    description: "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform."
     license_url: "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT"
     logo: "open-source-routing-machine.png"
     notes: "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service."
@@ -899,7 +899,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
     protocols: []
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["World Maps"]
     ]
 
@@ -918,7 +918,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["World Maps"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["World Maps"]
       * name: "Windows"
         subcategories: ["World Maps"]
@@ -942,7 +942,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\n\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Online Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
+    description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\n\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
     license_url: ""
     logo: "autistici-inventati.png"
     notes: ""
@@ -954,7 +954,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Services", "Web Hosting"]
     ]
 
@@ -973,7 +973,7 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Email Alternatives"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Alternatives"]
       * name: "Windows"
         subcategories: ["Email Alternatives"]
@@ -992,9 +992,9 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/MyKolab"
     protocols: []
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Email Accounts"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["File Storage & Sync"]
     ]
 
@@ -1015,7 +1015,7 @@ projects-raw =
         subcategories: ["Email Alternatives", "Instant Messaging", "Social Networks"]
       * name: "Linux"
         subcategories: ["Email Alternatives", "Instant Messaging", "Social Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Alternatives", "Instant Messaging", "Social Networks"]
       * name: "Windows"
         subcategories: ["Email Alternatives", "Instant Messaging", "Social Networks"]
@@ -1034,7 +1034,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS", "Tor", "XMPP"]
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Services"]
     ]
 
@@ -1055,7 +1055,7 @@ projects-raw =
         subcategories: ["Email Clients", "Instant Messaging", "IRC"]
       * name: "Linux"
         subcategories: ["Email Clients", "Instant Messaging", "IRC"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Clients", "Instant Messaging", "IRC"]
       * name: "Windows"
         subcategories: ["Email Clients", "Instant Messaging", "IRC"]
@@ -1078,7 +1078,7 @@ projects-raw =
         subcategories: ["Email Clients"]
       * name: "Linux"
         subcategories: ["Email Clients"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Clients"]
       * name: "Windows"
         subcategories: ["Email Clients"]
@@ -1118,7 +1118,7 @@ projects-raw =
         subcategories: ["Email Clients"]
       * name: "Linux"
         subcategories: ["Email Clients"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Clients"]
       * name: "Windows"
         subcategories: ["Email Clients"]
@@ -1228,7 +1228,7 @@ projects-raw =
         subcategories: ["Email Encryption"]
       * name: "Linux"
         subcategories: ["Email Encryption"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Encryption"]
       * name: "Windows"
         subcategories: ["Email Encryption"]
@@ -1251,7 +1251,7 @@ projects-raw =
         subcategories: ["Email Encryption"]
       * name: "Linux"
         subcategories: ["Email Encryption"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Encryption"]
       * name: "Windows"
         subcategories: ["Email Encryption"]
@@ -1274,14 +1274,14 @@ projects-raw =
         subcategories: ["Email Encryption"]
       * name: "Linux"
         subcategories: ["Email Encryption"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Encryption"]
       * name: "Windows"
         subcategories: ["Email Encryption"]
     ]
 
   * status: 'recommended'
-    description: "GPGTools is an installation package for Mac OS X (10.6 - 10.8) with software tools for email and file encryption (similar to Gpg4win for Windows). GPGTools itself and all tools of GPGTools are free and open source software. "
+    description: "GPGTools is an installation package for Mac (10.6 - 10.8) with software tools for email and file encryption (similar to Gpg4win for Windows). GPGTools itself and all tools of GPGTools are free and open source software. "
     license_url: "https://github.com/GPGTools/MacGPG2/blob/dev/LICENSE.txt"
     logo: "gpgtools.png"
     notes: ""
@@ -1293,7 +1293,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/GPGTools"
     protocols: ["GPG"]
     categories: [
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Encryption"]
     ]
 
@@ -1378,7 +1378,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "Psi is a free instant messaging client for the XMPP protocol (including such services as Google Talk) which uses the Qt toolkit. It runs on Linux (and other Unix-like operating systems), Windows, Mac OS X and eComStation (OS/2).\n\nReady-to-install deb and RPM packages are available for many Linux distributions. "
+    description: "Psi is a free instant messaging client for the XMPP protocol (including such services as Google Talk) which uses the Qt toolkit. It runs on Linux (and other Unix-like operating systems), Windows, Mac and eComStation (OS/2).\n\nReady-to-install deb and RPM packages are available for many Linux distributions. "
     license_url: "https://github.com/psi-plus/main/blob/master/copying-psi.txt"
     logo: "psi-plus.png"
     notes: ""
@@ -1394,14 +1394,14 @@ projects-raw =
         subcategories: ["Instant Messaging"]
       * name: "Linux"
         subcategories: ["Instant Messaging"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
     ]
 
   * status: 'recommended'
-    description: "Adium is a free and open source instant messaging client for Mac OS X that supports multiple IM networks, including Windows Live Messenger, Yahoo! Messenger, Google Talk, AIM, ICQ and XMPP. It is written using Mac OS X's Cocoa API, and it is released under the GNU General Public License and many other licenses for components that are distributed with Adium."
+    description: "Adium is a free and open source instant messaging client for Mac that supports multiple IM networks, including Windows Live Messenger, Yahoo! Messenger, Google Talk, AIM, ICQ and XMPP. It is written using Mac's Cocoa API, and it is released under the GNU General Public License and many other licenses for components that are distributed with Adium."
     license_url: "https://trac.adium.im/wiki/Development"
     logo: "adium.png"
     notes: ""
@@ -1413,7 +1413,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Adium"
     protocols: ["IRC", "OTR", "XMPP"]
     categories: [
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging", "IRC"]
     ]
 
@@ -1434,7 +1434,7 @@ projects-raw =
         subcategories: ["Instant Messaging", "IRC"]
       * name: "Linux"
         subcategories: ["Instant Messaging", "IRC"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging", "IRC"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "IRC"]
@@ -1476,7 +1476,7 @@ projects-raw =
         subcategories: ["IRC"]
       * name: "Linux"
         subcategories: ["IRC"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["IRC"]
       * name: "Windows"
         subcategories: ["IRC"]
@@ -1499,7 +1499,7 @@ projects-raw =
         subcategories: ["IRC"]
       * name: "Linux"
         subcategories: ["IRC"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["IRC"]
       * name: "Windows"
         subcategories: ["IRC"]
@@ -1542,7 +1542,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "Jitsi (formerly SIP Communicator) is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application for Windows, Linux and Mac OS X. It supports several popular instant messaging and telephony protocols, including open recognised encryption protocols for chat (OTR) and voice/video/streaming and voice/video conferencing (SIP/RTP/SRTP/ZRTP), as well as built-in IPv6, NAT traversal and DNSSEC. Jitsi and its source code are released under the terms of the LGPL."
+    description: "Jitsi (formerly SIP Communicator) is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application for Windows, Linux and Mac. It supports several popular instant messaging and telephony protocols, including open recognised encryption protocols for chat (OTR) and voice/video/streaming and voice/video conferencing (SIP/RTP/SRTP/ZRTP), as well as built-in IPv6, NAT traversal and DNSSEC. Jitsi and its source code are released under the terms of the LGPL."
     license_url: "https://github.com/jitsi/jitsi/blob/master/LICENSE"
     logo: "jitsi.png"
     notes: "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\n\nLastly, note that Jitsi records chat history in unencrypted form."
@@ -1556,14 +1556,14 @@ projects-raw =
     categories: [
       * name: "Linux"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
   * status: 'recommended'
-    description: "Linphone is a free VoIP application available on PCs running Linux, BSD operating systems such as FreeBSD, Windows, or Mac OS X, and mobile phones running BlackBerry OS, Android or iOS. It uses the Session Initiation Protocol (SIP) for communication and is licensed under the GNU General Public License (GPL). It supports IPv6, encryption via Transport Layer Security (TLS) and can be used behind network address translator (NAT). "
+    description: "Linphone is a free VoIP application available on PCs running Linux, BSD operating systems such as FreeBSD, Windows, or Mac, and mobile phones running BlackBerry OS, Android or iOS. It uses the Session Initiation Protocol (SIP) for communication and is licensed under the GNU General Public License (GPL). It supports IPv6, encryption via Transport Layer Security (TLS) and can be used behind network address translator (NAT). "
     license_url: "https://en.wikipedia.org/wiki/Linphone\#cite_note-4"
     logo: "linphone.png"
     notes: ""
@@ -1581,11 +1581,11 @@ projects-raw =
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Linux"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
@@ -1655,7 +1655,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Social Networks"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Social Networks"]
     ]
 
@@ -1725,7 +1725,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Social Networks"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Social Networks"]
     ]
 
@@ -1742,7 +1742,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Web Search"]
     ]
 
@@ -1799,7 +1799,7 @@ projects-raw =
         subcategories: ["File Storage & Sync"]
       * name: "Linux"
         subcategories: ["File Storage & Sync"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -1856,7 +1856,7 @@ projects-raw =
         subcategories: ["File Storage & Sync"]
       * name: "Linux"
         subcategories: ["File Storage & Sync"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -1894,7 +1894,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1911,7 +1911,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1930,7 +1930,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1949,7 +1949,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Productivity"]
     ]
 
@@ -1968,7 +1968,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Productivity"]
     ]
 
@@ -2061,11 +2061,11 @@ projects-raw =
         subcategories: ["Finance"]
       * name: "Linux"
         subcategories: ["Finance"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Finance"]
       * name: "Windows"
         subcategories: ["Finance"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Finance"]
     ]
 
@@ -2090,11 +2090,11 @@ projects-raw =
         subcategories: ["Finance"]
       * name: "Linux"
         subcategories: ["Finance"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Finance"]
       * name: "Windows"
         subcategories: ["Finance"]
-      * name: "Online Services"
+      * name: "Services"
         subcategories: ["Finance"]
     ]
 
@@ -2131,7 +2131,7 @@ projects-raw =
     protocols: ["SSL/TLS"]
     categories: [
       * name: "Android"
-        subcategories: ["VPN Client"]
+        subcategories: ["VPN Clients"]
       * name: "Routers"
         subcategories: ["VPN"]
       * name: "Servers"
@@ -2140,7 +2140,7 @@ projects-raw =
         subcategories: ["VPN Clients"]
       * name: "Linux"
         subcategories: ["VPN Clients"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["VPN Clients"]
       * name: "Windows"
         subcategories: ["VPN Clients"]
@@ -2318,7 +2318,7 @@ projects-raw =
         subcategories: ["Anonymizing Networks"]
       * name: "Linux"
         subcategories: ["Anonymizing Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Anonymizing Networks"]
       * name: "Windows"
         subcategories: ["Anonymizing Networks"]
@@ -2343,7 +2343,7 @@ projects-raw =
         subcategories: ["Anonymizing Networks"]
       * name: "Linux"
         subcategories: ["Anonymizing Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Anonymizing Networks"]
       * name: "Windows"
         subcategories: ["Anonymizing Networks"]
@@ -2370,7 +2370,7 @@ projects-raw =
         subcategories: ["Anonymizing Networks", "Social Networks"]
       * name: "Linux"
         subcategories: ["Anonymizing Networks", "Social Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Anonymizing Networks", "Social Networks"]
       * name: "Windows"
         subcategories: ["Anonymizing Networks", "Social Networks"]
@@ -2393,7 +2393,7 @@ projects-raw =
         subcategories: ["Anonymizing Networks", "Social Networks"]
       * name: "Linux"
         subcategories: ["Anonymizing Networks", "Social Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Anonymizing Networks", "Social Networks"]
       * name: "Windows"
         subcategories: ["Anonymizing Networks", "Social Networks"]
@@ -2418,7 +2418,7 @@ projects-raw =
         subcategories: ["Anonymizing Networks"]
       * name: "Linux"
         subcategories: ["Anonymizing Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Anonymizing Networks"]
       * name: "Windows"
         subcategories: ["Anonymizing Networks"]
@@ -2443,7 +2443,7 @@ projects-raw =
         subcategories: ["Anonymizing Networks"]
       * name: "Linux"
         subcategories: ["Anonymizing Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Anonymizing Networks"]
       * name: "Windows"
         subcategories: ["Anonymizing Networks"]
@@ -2470,7 +2470,7 @@ projects-raw =
         subcategories: ["Mesh Networks"]
       * name: "Linux"
         subcategories: ["Mesh Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Mesh Networks"]
       * name: "Windows"
         subcategories: ["Mesh Networks"]
@@ -2497,7 +2497,7 @@ projects-raw =
         subcategories: ["Mesh Networks"]
       * name: "Linux"
         subcategories: ["Mesh Networks"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Mesh Networks"]
     ]
 

@@ -5,10 +5,10 @@
 
 platform-types = (db) ->
   types =
-    * name: 'Services'
+    * name: 'Web'
       categories: [
-        * name: 'Online Services'
-          fa: 'fa-comments'
+        * name: 'Services'
+          fa: 'fa-globe'
       ]
     * name: 'Mobile'
       categories: [
@@ -23,7 +23,7 @@ platform-types = (db) ->
           fa: 'fa-lock'
         * name: 'Linux'
           fa: 'fa-linux'
-        * name: 'Mac OS X'
+        * name: 'Mac'
           fa: 'fa-apple'
         * name: 'Windows'
           fa: 'fa-windows'
