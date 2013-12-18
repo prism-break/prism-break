@@ -24,9 +24,3 @@ block content
   .content-main
     mixin project-head(project)
     mixin project-tail(project)
-
-    .section
-      - for project in project.projects-related
-        .bar
-          .label= project.name
-
