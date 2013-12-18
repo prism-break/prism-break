@@ -13,16 +13,17 @@ routes = (subdirectory, depth)->
 
   bare-paths =
     css: '../assets/css/screen.css'
-    root: ''
     about: 'about/'
     categories: 'categories/'
-    subcategories: 'subcategories/'
     icons: '../assets/ico/'
     images: '../assets/img/'
     logos: '../assets/img/logos/medium/'
     logos-rejected: '../assets/img/logos-rejected/small/'
     projects: 'projects/'
     protocols: 'protocols/'
+    public: '../'
+    root: ''
+    subcategories: 'subcategories/'
 
   final-paths = {}
   for key, value of bare-paths
