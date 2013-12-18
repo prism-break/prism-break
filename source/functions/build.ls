@@ -147,6 +147,7 @@ write-protocols-index = (translation) ->
     body-class: "#{language} protocols index"
     h: helpers
     protocol-types: data
+    path: 'protocols'
     routes: routes 'protocols', 1
     language: language
     t: translation
@@ -175,6 +176,7 @@ write-protocols-show = (translation) ->
       h: helpers
       protocol: data
       protocol-types: protocol-types protocols-db
+      path: path
       routes: routes 'protocols', 2
       language: language
       t: translation
@@ -204,6 +206,7 @@ write-projects-index = (translation) ->
     body-class: "#{language} projects index"
     h: helpers
     projects: data
+    path: 'projects'
     routes: routes 'projects', 1
     language: language
     t: translation
@@ -259,6 +262,7 @@ write-about-index = ->
       pretty: true
       body-class: "#{language} about index"
       h: helpers
+      path: 'about'
       routes: routes 'about', 1
       language: language
       t: translation
@@ -283,6 +287,7 @@ write-about-media = ->
       pretty: true
       body-class: "#{language} about media"
       h: helpers
+      path: path
       routes: routes 'about', 2
       language: language
       t: translation
