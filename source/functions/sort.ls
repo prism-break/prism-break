@@ -82,7 +82,7 @@ nested-categories = (db) ->
       subcategory.projects = in-this-subcategory(subcategory.name, in-this-category(category.name, db))
       subcategory.project-logos = images-in(subcategory.projects)
       subcategory.random-logo = select-random(subcategory.project-logos)
-  tree = sort-by (.name), tree
+  tree = sort-by (-> it.name.to-lower-case!), tree
 
 protocol-types = (protocols) ->
   types = categories-in protocols

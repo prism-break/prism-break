@@ -1,15 +1,20 @@
 extends ../layouts/application
 block title
-  = categories.name
+  = t.Categories
 block content
 
-  - each category in categories
+  .content-side
+    .text-block.large!= h.marked(t.siteCategoriesIndex)
 
-    .pipe 
-      a(href="./#{category.slug}")
-        | #{category.name} (#{category.subcategories.length})
+  .content-main
+    - each category in categories
+      .section
+        .pipe 
+          a(href="./#{category.slug}")
+            | #{category.name} (#{category.subcategories.length})
 
-    - each subcategory in category.subcategories
-      a.bar(href="../subcategories/#{category.slug}-#{subcategory.slug}")
-        .label= subcategory.name
-        .icon: i.fa.fa-angle-right
+        .bars
+          - each subcategory in category.subcategories
+            a.bar(href="../subcategories/#{category.slug}-#{subcategory.slug}")
+              .label= subcategory.name
+              .icon: i.fa.fa-angle-right
