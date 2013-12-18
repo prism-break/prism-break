@@ -2519,6 +2519,69 @@ projects-raw =
     ]
 
   * status: 'recommended'
+    description: "Open, free and neutral wireless network for everyone.",
+    license_url: "https://github.com/freifunk/meshkit/blob/master/LICENSE"
+    logo: "guifi.png"
+    notes: ""
+    privacy_url: ""
+    source_url: ""
+    name: "guifi.net"
+    tos_url: ""
+    url: "https://guifi.net/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Guifi.net"
+    protocols: []
+    categories: [
+      * name: "Routers"
+        subcategories: ["Mesh Networks"]
+    ]
+
+  * status: 'recommended'
+    description: "Byzantium is a live Linux distribution based on Porteus Linux that delivers easy-to-use, secure, and robust mesh networking capabilities.",
+    license_url: "https://github.com/Byzantium/Byzantium/blob/master/LICENSE"
+    logo: "byzantium.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/Byzantium/Byzantium"
+    name: "Byzantium"
+    tos_url: ""
+    url: "http://project-byzantium.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Guifi.net"
+    protocols: []
+    categories: [
+      * name: "Routers"
+        subcategories: ["Mesh Networks"]
+      * name: "Servers"
+        subcategories: ["Mesh Networks"]
+      * name: "BSD"
+        subcategories: ["Mesh Networks"]
+      * name: "Linux"
+        subcategories: ["Mesh Networks"]
+      * name: "Mac"
+        subcategories: ["Mesh Networks"]
+      * name: "Windows"
+        subcategories: ["Mesh Networks"]
+    ]
+
+  * status: 'recommended'
+    description: "A free network that runs over other networks.",
+    license_url: "https://github.com/fauno/librevpn/blob/master/LICENSE"
+    logo: "librevpn.png"
+    notes: "This project is experimental, and the site is in Spanish only."
+    privacy_url: ""
+    source_url: "https://github.com/fauno/librevpn"
+    name: "LibreVPN"
+    tos_url: ""
+    url: "http://librevpn.org.ar/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Guifi.net"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Mesh Networks"]
+      * name: "Linux"
+        subcategories: ["Mesh Networks"]
+    ]
+
+  * status: 'recommended'
     description: "*\"Cookies when you need them, not when others need them to track you - gets rid of a site's cookies and LocalStorage as soon as you close its tabs. Protects against trackers and zombie-cookies. Trustworthy services can be whitelisted.\"*"
     license_url: "https://addons.mozilla.org/en-US/firefox/files/browse/235317/file/LICENSE"
     logo: "self-destructing-cookies.png"
