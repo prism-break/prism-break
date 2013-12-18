@@ -35,6 +35,7 @@ write-site-index = (translation) ->
     body-class: "#{language} root index"
     h: helpers
     platform-types: data
+    path: ''
     routes: routes!
     t: translation
   file = public-dir + path
