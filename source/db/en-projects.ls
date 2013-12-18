@@ -2518,4 +2518,29 @@ projects-raw =
         subcategories: ["Mesh Networks"]
     ]
 
+  * status: 'recommended'
+    description: "*\"Cookies when you need them, not when others need them to track you - gets rid of a site's cookies and LocalStorage as soon as you close its tabs. Protects against trackers and zombie-cookies. Trustworthy services can be whitelisted.\"*"
+    license_url: "https://addons.mozilla.org/en-US/firefox/files/browse/235317/file/LICENSE"
+    logo: "self-destructing-cookies.png"
+    notes: "Only works with Firefox version 24 and above.\n\n The Android version is [available here](https://addons.mozilla.org/en-US/android/addon/self-destructing-cookies/)."
+    privacy_url: ""
+    source_url: "https://addons.mozilla.org/en-US/firefox/files/browse/235317/"
+    name: "Self-Destructing Cookies"
+    tos_url: ""
+    url: "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/"
+    wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Android"
+        subcategories: ["Web Browser Addons"]
+      * name: "BSD"
+        subcategories: ["Web Browser Addons"]
+      * name: "Linux"
+        subcategories: ["Web Browser Addons"]
+      * name: "Mac"
+        subcategories: ["Web Browser Addons"]
+      * name: "Windows"
+        subcategories: ["Web Browser Addons"]
+    ]
+
 exports.projects-raw = projects-raw
