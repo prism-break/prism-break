@@ -40,6 +40,8 @@ translations =
 
   site-protocols-index: "**Browse by Protocol**\n\nBrowse F/OSS projects by supported protocol."
 
+  site-categories-index: "**Browse by Category**\n\nBrowse F/OSS projects by platform categories."
+
   site-disclaimer: "Disclaimer: Using the recommended projects on this site will not guarantee that 100% of your communications will be shielded against surveillance states. Please do your own research before trusting these projects and services with sensitive information."
 
   site-privacy: "* This website does not collect any information about you. * This website does not track your IP address. * This website does not use any client-side JavaScript."
