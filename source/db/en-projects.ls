@@ -2519,7 +2519,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "Open, free and neutral wireless network for everyone.",
+    description: "Open, free and neutral wireless network for everyone."
     license_url: "https://github.com/freifunk/meshkit/blob/master/LICENSE"
     logo: "guifi.png"
     notes: ""
@@ -2536,7 +2536,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "Byzantium is a live Linux distribution based on Porteus Linux that delivers easy-to-use, secure, and robust mesh networking capabilities.",
+    description: "Byzantium is a live Linux distribution based on Porteus Linux that delivers easy-to-use, secure, and robust mesh networking capabilities."
     license_url: "https://github.com/Byzantium/Byzantium/blob/master/LICENSE"
     logo: "byzantium.png"
     notes: ""
@@ -2563,7 +2563,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "A free network that runs over other networks.",
+    description: "A free network that runs over other networks."
     license_url: "https://github.com/fauno/librevpn/blob/master/LICENSE"
     logo: "librevpn.png"
     notes: "This project is experimental, and the site is in Spanish only."
@@ -2624,7 +2624,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+    description: "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more."
     license_url: "http://wiki.contribs.org/SME_Server:Documentation:Developers_Manual:Chapter14\#Configuring_your_development_environment"
     logo: "sme-server.png"
     notes: ""
@@ -2641,7 +2641,7 @@ projects-raw =
     ]
 
   * status: 'recommended'
-    description: "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+    description: "Personal distribution based on Debian with preconfigured mail, IM, and web server."
     license_url: "https://github.com/YunoHost/admin_v1/blob/master/LICENCE"
     logo: "yunohost.png"
     notes: ""
@@ -2657,5 +2657,107 @@ projects-raw =
         subcategories: ["Operating Systems"]
     ]
 
+  * status: 'recommended'
+    description: "Real-time disk and partition encryption software for multiple platforms."
+    license_url: "http://www.truecrypt.org/legal/license"
+    logo: "truecrypt.png"
+    notes: "While TrueCrypt is open source, it is developed in a closed fashion and may receive less review than a comparably openly developed project. That said, it is still probably the best option for file encryption on Windows and OS X."
+    privacy_url: ""
+    source_url: "http://www.truecrypt.org/downloads2"
+    name: "TrueCrypt"
+    tos_url: ""
+    url: "http://www.truecrypt.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/TrueCrypt"
+    protocols: []
+    categories: [
+      * name: "Linux"
+        subcategories: ["Disk Encryption"]
+      * name: "Mac"
+        subcategories: ["Disk Encryption"]
+      * name: "Windows"
+        subcategories: ["Disk Encryption"]
+      * name: "Servers"
+        subcategories: ["Disk Encryption"]
+    ]
+
+  * status: 'recommended'
+    description: "DiskCryptor a full disk encryption system for Microsoft Windows that allows the encryption of an entire PC's harddrive or individual partitions – including the ability to encrypt the partition and disk on which the OS is installed."
+    license_url: "https://diskcryptor.net/wiki/Main_Page"
+    logo: "diskcryptor.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://diskcryptor.net/wiki/Downloads"
+    name: "DiskCryptor"
+    tos_url: ""
+    url: "https://diskcryptor.net/wiki/Main_Page"
+    wikipedia_url: "https://en.wikipedia.org/wiki/DiskCryptor"
+    protocols: []
+    categories: [
+      * name: "Windows"
+        subcategories: ["Disk Encryption"]
+    ]
+
+  * status: 'recommended'
+    description: "*\"cryptsetup is a utility used to conveniently setup disk encryption based on dm-crypt kernel module.These include plain dm-crypt volumes, LUKS volumes, loop-AES and TrueCrypt compatible format.\"*",
+    license_url: "https://code.google.com/p/cryptsetup/source/browse/COPYING"
+    logo: "luks.png"
+    notes: "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD."
+    privacy_url: ""
+    source_url: "https://code.google.com/p/cryptsetup/source/browse/"
+    name: "cryptsetup"
+    tos_url: ""
+    url: "http://code.google.com/p/cryptsetup/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Dm-crypt"
+    protocols: []
+    categories: [
+      * name: "BSD"
+        subcategories: ["Disk Encryption"]
+      * name: "Linux"
+        subcategories: ["Disk Encryption"]
+      * name: "Server"
+        subcategories: ["Disk Encryption"]
+    ]
+
+  * status: 'recommended'
+    description: "*\"EncFS provides an encrypted filesystem in user-space. It runs without any special permissions and uses the FUSE library and Linux kernel module to provide the filesystem interface. You can find links to source and binary releases below. EncFS is open source software, licensed under the GPL.\"*",
+    license_url: "https://code.google.com/p/encfs/source/browse/trunk/COPYING"
+    logo: "encfs.png"
+    notes: "EncFS is available for Windows through the \"encfs4win\" port."
+    privacy_url: ""
+    source_url: "https://code.google.com/p/encfs/source/browse/\#svn%2Ftrunk"
+    name: "encfs"
+    tos_url: ""
+    url: "http://www.arg0.net/encfs"
+    wikipedia_url: "https://en.wikipedia.org/wiki/EncFS"
+    protocols: []
+    categories: [
+      * name: "BSD"
+        subcategories: ["Disk Encryption"]
+      * name: "Linux"
+        subcategories: ["Disk Encryption"]
+      * name: "Mac"
+        subcategories: ["Disk Encryption"]
+      * name: "Windows"
+        subcategories: ["Disk Encryption"]
+      * name: "Server"
+        subcategories: ["Disk Encryption"]
+    ]
+
+  * status: 'recommended'
+    description: "eCryptfs (Enterprise Cryptographic Filesystem) is a package of disk encryption software for Linux. It is implemented as a POSIX-compliant filesystem-level encrypted file system that has been part of the Linux Kernel since version 2.6.19."
+    license_url: "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING"
+    logo: "geli.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/"
+    name: "eCryptfs"
+    tos_url: ""
+    url: "http://ecryptfs.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/ECryptfs"
+    protocols: []
+    categories: [
+      * name: "Linux"
+        subcategories: ["Disk Encryption"]
+    ]
 
 exports.projects-raw = projects-raw
