@@ -1,38 +1,39 @@
-#footer
+mixin footer(path)
+  #footer
 
-  .content-side
-    p.disclaimer= t.siteDisclaimer
+    .content-side
+      p.disclaimer= t.siteDisclaimer
 
-  .content-main
-    ul.languages
-      li: a(href="ar") العربية
-      li: a(href="ca") Català
-      li: a(href="de") Deutsch
-      li: a(href="el") ελληνικά
-      li: a(href="eo") Esperanto
-      li: a(href="en") English
-      li: a(href="es") Español
-      li: a(href="fa") فارسی
-      li: a(href="fi") Suomi
-      li: a(href="fr") Français
-      li: a(href="he") עברית
-      li: a(href="hi") हिन्दी
-      li: a(href="io") Ido
-      li: a(href="it") Italiano
-      li: a(href="ja") 日本語
-      li: a(href="nl") Nederlands
-      li: a(href="no") Norsk
-      li: a(href="pl") Polski
-      li: a(href="pt") Português
-      li: a(href="ru") Русский
-      li: a(href="sr") srpski
-      li: a(href="sr_cr") српски
-      li: a(href="sv") Svenska
-      li: a(href="tr") Türkçe
-      li: a(href="zh_cn") 简体中文
-      li: a(href="zh_tw") 繁體中文
+    .content-main
+      ul.languages
+        li: a(href="#{routes.public}ar/#{path}") العربية
+        li: a(href="#{routes.public}ca/#{path}") Català
+        li: a(href="#{routes.public}de/#{path}") Deutsch
+        li: a(href="#{routes.public}el/#{path}") ελληνικά
+        li: a(href="#{routes.public}eo/#{path}") Esperanto
+        li: a(href="#{routes.public}en/#{path}") English
+        li: a(href="#{routes.public}es/#{path}") Español
+        li: a(href="#{routes.public}fa/#{path}") فارسی
+        li: a(href="#{routes.public}fi/#{path}") Suomi
+        li: a(href="#{routes.public}fr/#{path}") Français
+        li: a(href="#{routes.public}he/#{path}") עברית
+        li: a(href="#{routes.public}hi/#{path}") हिन्दी
+        li: a(href="#{routes.public}io/#{path}") Ido
+        li: a(href="#{routes.public}it/#{path}") Italiano
+        li: a(href="#{routes.public}ja/#{path}") 日本語
+        li: a(href="#{routes.public}nl/#{path}") Nederlands
+        li: a(href="#{routes.public}no/#{path}") Norsk
+        li: a(href="#{routes.public}pl/#{path}") Polski
+        li: a(href="#{routes.public}pt/#{path}") Português
+        li: a(href="#{routes.public}ru/#{path}") Русский
+        li: a(href="#{routes.public}sr/#{path}") srpski
+        li: a(href="#{routes.public}sr_cr/#{path}") српски
+        li: a(href="#{routes.public}sv/#{path}") Svenska
+        li: a(href="#{routes.public}tr/#{path}") Türkçe
+        li: a(href="#{routes.public}zh_cn/#{path}") 简体中文
+        li: a(href="#{routes.public}zh_tw/#{path}") 繁體中文
 
-  p.copyright
-    | &copy; 
-    a(href="http://nylira.com/") Peng Zhong 
-    | 2013&mdash;
+    p.copyright
+      | &copy; 
+      a(href="http://nylira.com/") Peng Zhong 
+      | 2013&mdash;

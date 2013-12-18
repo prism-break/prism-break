@@ -230,6 +230,7 @@ write-projects-show = (translation) ->
       routes: routes 'projects', 2
       language: language
       t: translation
+      path: path
     full-path = public-dir + path
     file = full-path + 'index'
 
