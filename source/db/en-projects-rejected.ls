@@ -117,6 +117,13 @@ projects-rejected-raw =
     categories: [
       * name: "Mac OS X"
         subcategories: ["Operating Systems"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "apple-osx.png"
+    name: "Apple OS X Server"
+    categories: [
       * name: "Servers"
         subcategories: ["Operating Systems"]
     ]
@@ -523,6 +530,15 @@ projects-rejected-raw =
       * name: "Mac OS X"
         subcategories: ["Operating Systems"]
       * name: "Windows"
+        subcategories: ["Operating Systems"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "ms-windows.png"
+    name: "Microsoft Windows Server"
+    categories: [
+      * name: "Servers"
         subcategories: ["Operating Systems"]
     ]
 
