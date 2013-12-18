@@ -53,6 +53,7 @@ write-categories-index = ->
     body-class: "#{language} categories index"
     h: helpers
     categories: data
+    path: 'categories'
     routes: routes 'categories', 1
     language: language
     t: translation
