@@ -2624,5 +2624,85 @@ projects-raw =
         subcategories: ["Disk Encryption"]
     ]
 
+  * description: "iRedMail is a script that installs and configures email server packages automatically in Linux and BSD.",
+    license_url: "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/README?at=default"
+    logo: "iredmail.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/?at=default"
+    name: "iRedMail"
+    tos_url: ""
+    url: "http://www.iredmail.org/"
+    wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Mail Servers"]
+    ]
+
+  * description: "IndiMail is a highly scalable and configurable messaging platform based on the MTA qmail."
+    license_url: "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING"
+    logo: "indimail.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://sourceforge.net/p/indimail/code/ci/master/tree/"
+    name: "IndiMail"
+    tos_url: ""
+    url: "http://www.indimail.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Mail Servers"]
+    ]
+
+  * description: "Groupware solution for email, files, calendars, address books and mobile sync."
+    license_url: "http://git.kolab.org/kolab-wap/tree/doc/LICENSE"
+    logo: "kolab.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://git.kolab.org/"
+    name: "Kolab"
+    tos_url: ""
+    url: "https://kolab.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Kolab"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Mail Servers", "Groupware"]
+    ]
+
+  * description: "MTA used on approximately 43% of all email servers&mdash;the default on Debian GNU/Linux."
+    license_url: "https://github.com/Exim/exim/blob/master/src/LICENCE"
+    logo: "exim.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/Exim/exim"
+    name: "Exim"
+    tos_url: ""
+    url: "http://www.exim.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Exim"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Mail Transfer Agents"]
+    ]
+
+  * description: "Easy-to-setup MTA used by approximately 23% of all email servers.",
+    license_url: "ftp://ftp.porcupine.org/mirrors/postfix-release/LICENSE"
+    logo: "postfix.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "ftp://ftp.porcupine.org/mirrors/postfix-release/"
+    name: "Postfix"
+    tos_url: ""
+    url: "http://www.postfix.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Postfix_%28software%29"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Mail Transfer Agents"]
+    ]
+
 
 exports.projects-raw = projects-raw
