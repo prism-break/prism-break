@@ -702,7 +702,7 @@ projects-raw =
         subcategories: ["Web Browser Addons", "Instant Messaging"]
       * name: "Windows"
         subcategories: ["Web Browser Addons", "Instant Messaging"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Instant Messaging"]
     ]
 
@@ -740,7 +740,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/DuckDuckGo"
     protocols: ["SSL/TLS", "Tor"]
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Web Search"]
     ]
 
@@ -756,7 +756,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Web Search"]
     ]
 
@@ -788,7 +788,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Web Search"]
     ]
 
@@ -804,7 +804,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Ixquick\#Startpage.com"
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Web Search"]
     ]
 
@@ -840,7 +840,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/OpenStreetMap"
     protocols: []
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["World Maps"]
     ]
 
@@ -856,7 +856,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
     protocols: []
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["World Maps"]
     ]
 
@@ -896,7 +896,7 @@ projects-raw =
         subcategories: ["World Maps"]
     ]
 
-  * description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\n\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Services / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
+  * description: "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\n\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Web / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting"
     license_url: ""
     logo: "autistici-inventati.png"
     notes: ""
@@ -908,8 +908,8 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Services", "Web Hosting"]
+      * name: "Web"
+        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "VPN Accounts", "Web Hosting"]
     ]
 
   * description: "Bitmessage is a decentralized, encrypted, peer-to-peer, trustless communications protocol that can be used by one person to send encrypted messages to another person, or to multiple subscribers. Bitmessage encrypts each users' message inbox using strong encryption and replicates it inside its P2P network mixing it with inboxes of other users in order to conceal user's identity, prevent eavesdropping and protect the network from any control. The Bitmessage communication protocol avoids sender-spoofing through strong authentication, and hides metadata from wiretapping systems."
@@ -944,7 +944,7 @@ projects-raw =
     wikipedia_url: "https://en.wikipedia.org/wiki/MyKolab"
     protocols: []
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Email Accounts"]
       * name: "Mac"
         subcategories: ["File Storage & Sync"]
@@ -984,8 +984,8 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS", "Tor", "XMPP"]
     categories: [
-      * name: "Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Services"]
+      * name: "Web"
+        subcategories: ["Email Accounts", "Instant Messaging", "Productivity", "VPN Accounts"]
     ]
 
   * description: "Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation.\n\nThe project strategy was modeled after Mozilla Firefox, a project aimed at creating a web browser. On December 7, 2004, version 1.0 was released, and received more than 500,000 downloads in its first three days of release, and 1,000,000 in 10 days."
@@ -1508,7 +1508,7 @@ projects-raw =
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
@@ -1574,7 +1574,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Social Networks"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Social Networks"]
     ]
 
@@ -1640,7 +1640,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Social Networks"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Social Networks"]
     ]
 
@@ -1656,7 +1656,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Web Search"]
     ]
 
@@ -1800,7 +1800,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Productivity"]
     ]
 
@@ -1816,7 +1816,7 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Productivity"]
     ]
 
@@ -1834,7 +1834,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Productivity"]
     ]
 
@@ -1852,7 +1852,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Productivity"]
     ]
 
@@ -1870,7 +1870,7 @@ projects-raw =
     categories: [
       * name: "Servers"
         subcategories: ["Productivity"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Productivity"]
     ]
 
@@ -1962,7 +1962,7 @@ projects-raw =
         subcategories: ["Finance"]
       * name: "Windows"
         subcategories: ["Finance"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Finance"]
     ]
 
@@ -1990,7 +1990,7 @@ projects-raw =
         subcategories: ["Finance"]
       * name: "Windows"
         subcategories: ["Finance"]
-      * name: "Services"
+      * name: "Web"
         subcategories: ["Finance"]
     ]
 
@@ -2580,7 +2580,7 @@ projects-raw =
         subcategories: ["Disk Encryption"]
       * name: "Linux"
         subcategories: ["Disk Encryption"]
-      * name: "Server"
+      * name: "Servers"
         subcategories: ["Disk Encryption"]
     ]
 
@@ -2604,7 +2604,7 @@ projects-raw =
         subcategories: ["Disk Encryption"]
       * name: "Windows"
         subcategories: ["Disk Encryption"]
-      * name: "Server"
+      * name: "Servers"
         subcategories: ["Disk Encryption"]
     ]
 
