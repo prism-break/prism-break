@@ -19,13 +19,13 @@ block content
 
         - each pro in protocolType.protocols
           if pro.name === protocol.name
-            .bar.active
+            .bar.active.child
               .label
                 = pro.name
               .icon: i.fa.fa-dot-circle-o
 
           else
-            a.bar(href=routes.protocols + pro.slug)
+            a.bar.child(href=routes.protocols + pro.slug)
               .label
                 = pro.name
               .icon: i.fa.fa-angle-right
