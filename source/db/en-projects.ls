@@ -2606,4 +2606,56 @@ projects-raw =
         subcategories: ["Web Browser Addons"]
     ]
 
+  * status: 'recommended'
+    description: "CentOS (\"Community Enterprise Operating System\") is a Linux distribution that attempts to provide a free enterprise class computing platform which has 100% binary compatibility with its upstream source, Red Hat Enterprise Linux (RHEL)."
+    license_url: "http://mirror.centos.org/centos/6/os/x86_64/GPL"
+    logo: "centos.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://mirror.centos.org/centos/"
+    name: "CentOS"
+    tos_url: ""
+    url: "https://www.centos.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/CentOS"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Operating Systems"]
+    ]
+
+  * status: 'recommended'
+    description: "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+    license_url: "http://wiki.contribs.org/SME_Server:Documentation:Developers_Manual:Chapter14\#Configuring_your_development_environment"
+    logo: "sme-server.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://fisheye1.atlassian.com/browse/smeserver/"
+    name: "SME Server"
+    tos_url: ""
+    url: "http://wiki.contribs.org/Main_Page"
+    wikipedia_url: "https://en.wikipedia.org/wiki/SME_Server"
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Operating Systems"]
+    ]
+
+  * status: 'recommended'
+    description: "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
+    license_url: "https://github.com/YunoHost/admin_v1/blob/master/LICENCE"
+    logo: "yunohost.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/YunoHost"
+    name: "Yunohost"
+    tos_url: ""
+    url: "http://yunohost.org/"
+    wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Operating Systems"]
+    ]
+
+
 exports.projects-raw = projects-raw
