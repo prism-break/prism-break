@@ -423,6 +423,15 @@ projects-rejected-raw =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
+    logo: "ms-bitlocker.png"
+    name: "BitLocker Drive Encryption"
+    categories: [
+      * name: "Windows"
+        subcategories: ["Disk Encryption"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-exchange.png"
     name: "Microsoft Exchange"
     categories: [
