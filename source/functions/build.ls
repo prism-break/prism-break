@@ -81,6 +81,7 @@ write-categories-show = (translation) ->
       h: helpers
       category: category
       platform-types: platform-types projects-db
+      path: path
       routes: routes 'categories', 2
       language: language
       t: translation
@@ -115,6 +116,7 @@ write-subcategories-show = (translation) ->
       body-class: "#{language} subcategories show"
       h: helpers
       data: data
+      path: path
       routes: routes 'subcategories', 2
       language: language
       t: translation
