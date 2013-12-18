@@ -3,30 +3,38 @@ block title
   = t.About
 block content
   
-  .pipe About
-    
-  a.bar(href="./media")
-    .label Media Mentions
-    .icon: i.fa.fa-angle-right
+  .content-side
+    .text-block.large!= h.marked(t.siteAboutIndex)
 
-  a.bar(href="./privacy")
-    .label Privacy Policy
-    .icon: i.fa.fa-angle-right
+  .content-main
+      
+    .section
+      .pipe About
+      .bars
+        a.bar(href="./media")
+          .label Media Mentions
+          .icon: i.fa.fa-angle-right
 
-  a.bar(href="./prism-break.tgz")
-    .label Download Site
-    .icon: i.fa.fa-save
+        a.bar(href="./privacy")
+          .label Privacy Policy
+          .icon: i.fa.fa-angle-right
 
-  .pipe Development
+        a.bar(href="./prism-break.tgz")
+          .label Download Site
+          .icon: i.fa.fa-save
 
-  a.bar(href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw")
-    .label Donate BTC
-    .icon: i.fa.fa-bitcoin
+    .section
+      .pipe Development
 
-  a.bar(href="https://github.com/nylira/prism-break/issues")
-    .label Issues Tracker
-    .icon: i.fa.fa-external-link-square
+      .bars
+        a.bar(href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw")
+          .label Donate BTC
+          .icon: i.fa.fa-bitcoin
 
-  a.bar(href="https://github.com/nylira/prism-break")
-    .label Source Code
-    .icon: i.fa.fa-external-link-square
+        a.bar(href="https://github.com/nylira/prism-break/issues")
+          .label Issues Tracker
+          .icon: i.fa.fa-external-link-square
+
+        a.bar(href="https://github.com/nylira/prism-break")
+          .label Source Code
+          .icon: i.fa.fa-external-link-square
