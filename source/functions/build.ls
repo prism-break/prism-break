@@ -218,7 +218,7 @@ write-projects-index = (translation) ->
 write-projects-show = (translation) ->
   create = (project) ->
     data = slugify-project project
-    data.projects-related = in-these-subcategories(subcategories-of(project), projects-db)
+    #data.projects-related = in-these-subcategories(subcategories-of(project), projects-db)
 
     path = "projects/#{project.slug}/"
     view = view-path 'projects/show'
