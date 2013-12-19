@@ -22,13 +22,19 @@
     fr()
     .nav
       fl()
-      p 0 (.75/.8em)
-      f .8em/43px sans
-      c dim
-      &:hover
-        c hover
-      &:active
-        c link
       &.nav-donate
       &.nav-platforms
         d none
+
+      a
+        d block
+        p 0 (.75/.8em)
+        f .8em/43px sans
+        &:hover
+          c hover
+        &:active
+          c link
+        &.active
+          fw bold
+          c txt
+          cursor default

@@ -8,13 +8,22 @@
   .menu
 
     .nav.nav-platforms
-      a(href=routes.root)= t.Platforms
+      if path == ''
+        a.active(href=routes.root)= t.Platforms
+      else
+        a(href=routes.root)= t.Platforms
 
     .nav.nav-protocols
-      a(href=routes.protocols)= t.Protocols
+      if path == 'protocols'
+        a.active(href=routes.protocols)= t.Protocols
+      else
+        a(href=routes.protocols)= t.Protocols
 
     .nav.nav-about
-      a(href=routes.about)= t.About
+      if path == 'about'
+        a.active(href=routes.about)= t.About
+      else
+        a(href=routes.about)= t.About
 
     .nav.nav-donate
       a#donate(href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw")
