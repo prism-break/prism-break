@@ -846,7 +846,7 @@ projects-raw =
 
   * description: "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform."
     license_url: "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT"
-    logo: "open-source-routing-machine.png"
+    logo: "osrm.png"
     notes: "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service."
     privacy_url: ""
     source_url: "https://github.com/DennisOSRM/Project-OSRM"
@@ -857,6 +857,14 @@ projects-raw =
     protocols: []
     categories: [
       * name: "Web"
+        subcategories: ["World Maps"]
+      * name: "BSD"
+        subcategories: ["World Maps"]
+      * name: "Linux"
+        subcategories: ["World Maps"]
+      * name: "Mac"
+        subcategories: ["World Maps"]
+      * name: "Windows"
         subcategories: ["World Maps"]
     ]
 
@@ -1859,7 +1867,7 @@ projects-raw =
   * description: "MediaCrush offers privacy-first fast media (image, audio, video) hosting.\n\nYou may also run your own instance of MediaCrush."
     license_url: "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE"
     logo: "mediacrush.png"
-    notes: ""
+    notes: "Warning: MediaCrush includes Google Analytics and Google Adsense if you do not have Do Not Track enabled."
     privacy_url: "https://mediacru.sh/serious"
     source_url: "https://github.com/MediaCrush/MediaCrush"
     name: "MediaCrush"
@@ -1868,10 +1876,10 @@ projects-raw =
     wikipedia_url: ""
     protocols: ["SSL/TLS"]
     categories: [
-      * name: "Servers"
-        subcategories: ["Productivity"]
       * name: "Web"
-        subcategories: ["Productivity"]
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
     ]
 
   * description: "GNU MediaGoblin (also shortened to MediaGoblin or GMG) is a free, decentralized Web platform (server software) for hosting and sharing many forms of digital media; and strives to provide an extensible, federated, and freedom-respectful software alternative to major media publishing services such as Flickr, deviantArt, YouTube, etc."
@@ -2880,20 +2888,92 @@ projects-raw =
         subcategories: ["Raspberry Pi", "Operating Systems"]
     ]
 
-  * description: "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more."
-    license_url: "https://github.com/cznweb/arkos-install/blob/master/LICENSE"
-    logo: "arkos.png"
+  * description: "Flexible and extensible multi-protocol IM client suitable for personal and enterprise use."
+    license_url: "http://docs.kde.org/development/en/kdenetwork/kopete/credits-and-license.html"
+    logo: "kopete.png"
+    notes: "Encrypted chat is available for Kopete through the 'Off-the-Record Messaging' plugin. GPG encryption is available through the Debian package `kopete-cryptography`"
+    privacy_url: ""
+    source_url: "http://kopete.kde.org/svnaccess.php"
+    name: "Kopete"
+    tos_url: ""
+    url: "http://kopete.kde.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Kopete"
+    protocols: ['GPG', 'OTR', 'XMPP']
+    categories: [
+      * name: "Linux"
+        subcategories: ["Instant Messaging"]
+    ]
+
+  * description: "Pydio lets you instantly turn any server into a file sharing platform."
+    license_url: "https://github.com/pydio/pydio-core/blob/master/README.md"
+    logo: "pydio.png"
     notes: ""
     privacy_url: ""
-    source_url: "https://github.com/cznweb"
-    name: "arkOS"
+    source_url: "https://github.com/pydio/pydio-core"
+    name: "Pydio"
     tos_url: ""
-    url: "https://arkos.io/"
+    url: "http://pyd.io/"
     wikipedia_url: ""
     protocols: []
     categories: [
       * name: "Servers"
-        subcategories: ["Raspberry Pi", "Operating Systems"]
+        subcategories: ["File Storage & Sync"]
+    ]
+
+  * description: "img.bi offers image hosting with in-browser AES-256 encryption."
+    license_url: "https://github.com/imgbi/img.bi/blob/master/LICENSE"
+    logo: "imgbi.png"
+    notes: "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)"
+    privacy_url: "https://img.bi/"
+    source_url: "https://github.com/imgbi"
+    name: "img.bi"
+    tos_url: ""
+    url: "https://img.bi/"
+    wikipedia_url: ""
+    protocols: ["I2P", "SSL/TLS", "Tor"]
+    categories: [
+      * name: "Web"
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
+    ]
+
+  * description: "img.bi offers image hosting with in-browser AES-256 encryption."
+    license_url: "https://github.com/imgbi/img.bi/blob/master/LICENSE"
+    logo: "imgbi.png"
+    notes: "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)"
+    privacy_url: "https://img.bi/"
+    source_url: "https://github.com/imgbi"
+    name: "img.bi"
+    tos_url: ""
+    url: "https://img.bi/"
+    wikipedia_url: ""
+    protocols: ["I2P", "SSL/TLS", "Tor"]
+    categories: [
+      * name: "Web"
+        subcategories: ["Media Publishing"]
+      * name: "Servers"
+        subcategories: ["Media Publishing"]
+    ]
+
+  * description: "Tinc is a self-routing, mesh networking protocol, used for compressed, encrypted, virtual private networks. It was started in 1998 by Guus Sliepen, Ivo Timmermans, and Robert van der Meulen, and released as a GPL-licensed project."
+    license_url: "http://tinc-vpn.org/git/browse?p=tinc;a=blob;f=COPYING.README;h=2eb9c1facc212244a4103f9f9b81149c6f6a9d44;hb=HEAD"
+    logo: "tinc.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://tinc-vpn.org/git/browse?p=tinc;a=tree"
+    name: "tinc"
+    tos_url: ""
+    url: "http://tinc-vpn.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Tinc_%28protocol%29"
+    protocols: []
+    categories: [
+      * name: "Linux"
+        subcategories: ["Mesh Networks"]
+      * name: "Routers"
+        subcategories: ["Mesh Networks", "VPN Servers"]
+      * name: "Servers"
+        subcategories: ["Mesh Networks", "VPN Servers"]
     ]
 
 exports.projects-raw = projects-raw
