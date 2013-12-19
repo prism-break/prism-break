@@ -8,8 +8,8 @@ slugify-db = (db) ->
   list = db
   for project in list
     project.slug = slugify project.name
-    project.categories = sort-by (.name), project.categories
-  list = sort-by (.name), list
+    project.categories = sort-by (.name.to-lower-case!), project.categories
+  list = sort-by (.name.to-lower-case!), list
 
 slugify-list = (list) ->
   map (-> { name: it, slug: slugify(it)}), list
@@ -28,7 +28,7 @@ categories-in = (db) ->
   list = map (.name), list
   list = unique list
   list = slugify-list list
-  list = sort-by (.name), list
+  list = sort-by (.name.to-lower-case!), list
 
 subcategories-in = (category-name, db) ->
   list = flatten map (.categories), db
@@ -36,7 +36,7 @@ subcategories-in = (category-name, db) ->
   list = map (.subcategories), list
   list = unique flatten list
   list = slugify-list list
-  list = sort-by (.name), list
+  list = sort-by (.name.to-lower-case!), list
 
 subcategories-of = (project) ->
   list = flatten map (.subcategories), project.categories
@@ -77,12 +77,12 @@ nested-categories = (db) ->
   tree = categories-in db
   for category in tree
     category.subcategories = subcategories-in(category.name, in-this-category(category.name, db))
-    category.subcategories = sort-by (.name), category.subcategories
+    category.subcategories = sort-by (.name.to-lower-case!), category.subcategories
     for subcategory in category.subcategories
       subcategory.projects = in-this-subcategory(subcategory.name, in-this-category(category.name, db))
       subcategory.project-logos = images-in(subcategory.projects)
       subcategory.random-logo = select-random(subcategory.project-logos)
-  tree = sort-by (-> it.name.to-lower-case!), tree
+  tree = sort-by (.name.to-lower-case!), tree
 
 protocol-types = (protocols) ->
   types = categories-in protocols
