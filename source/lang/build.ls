@@ -8,7 +8,7 @@ require! '../functions/helpers.ls'
 {routes} = require '../functions/routes.ls'
 
 # data
-{projects} = require './_projects.ls'
+{projects} = require '../db/en-projects.ls'
 projects = slugify-db projects
 lang-json = require './ar.json'
 
