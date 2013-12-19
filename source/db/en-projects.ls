@@ -2666,7 +2666,7 @@ projects-raw =
     tos_url: ""
     url: "https://kolab.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/Kolab"
-    protocols: []
+    protocols: ['CalDAV', 'CardDAV', 'WebDAV']
     categories: [
       * name: "Servers"
         subcategories: ["Mail Servers", "Groupware"]
@@ -2704,5 +2704,196 @@ projects-raw =
         subcategories: ["Mail Transfer Agents"]
     ]
 
+  * description: "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included."
+    license_url: ""
+    logo: "duckduckgo.png"
+    notes: ""
+    privacy_url: ""
+    source_url: ""
+    name: "dukgo.com"
+    tos_url: ""
+    url: "https://duck.co/blog/using-pidgin-with-xmpp-jabber"
+    wikipedia_url: ""
+    protocols: ['XMPP']
+    categories: [
+      * name: "Web"
+        subcategories: ["Instant Messaging"]
+    ]
+
+  * description: "ejabberd is an XMPP application server, written mainly in the Erlang programming language. It can run under several Unix-like operating systems such as Mac OS X, GNU/Linux, FreeBSD, NetBSD, OpenBSD and OpenSolaris. Additionally, ejabberd can run under Microsoft Windows, however, a user must stay logged in or always restart the ejabberd service remotely after any logout from the machine."
+    license_url: "https://github.com/processone/ejabberd/blob/master/COPYING"
+    logo: "ejabberd.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/processone/ejabberd"
+    name: "ejabberd"
+    tos_url: ""
+    url: "http://www.ejabberd.im/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Ejabberd"
+    protocols: ['XMPP']
+    categories: [
+      * name: "Servers"
+        subcategories: ["XMPP Servers"]
+    ]
+
+  * description: "Openfire (previously known as Wildfire, and Jive Messenger) is an instant messaging (IM) and groupchat server that uses XMPP server written in Java and licensed under the Apache License 2.0."
+    license_url: "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses"
+    logo: "openfire.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://fisheye.igniterealtime.org/browse/openfire/trunk"
+    name: "Openfire"
+    tos_url: ""
+    url: "http://www.igniterealtime.org/projects/openfire/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Openfire"
+    protocols: ['XMPP']
+    categories: [
+      * name: "Servers"
+        subcategories: ["XMPP Servers"]
+    ]
+
+  * description: "Prosody (formerly lxmppd) is a cross-platform XMPP server written in Lua. Its development goals include low resource usage, ease-of-use, and extensibility."
+    license_url: "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING"
+    logo: "prosody.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://prosody.im/source/start"
+    name: "Prosody"
+    tos_url: ""
+    url: "https://prosody.im/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Prosody_%28software%29"
+    protocols: ['XMPP']
+    categories: [
+      * name: "Servers"
+        subcategories: ["XMPP Servers"]
+    ]
+
+  * description: "Tigase is an open source (AGPL3) project started by Artur Hefczyc in October 2004 to develop XMPP server implementation in Java."
+    license_url: "https://projects.tigase.org/projects/tigase-server/repository/revisions/master/changes/COPYING"
+    logo: "tigase.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://projects.tigase.org/projects/tigase-server/repository"
+    name: "Tigase"
+    tos_url: ""
+    url: "http://www.tigase.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Tigase"
+    protocols: ['XMPP']
+    categories: [
+      * name: "Servers"
+        subcategories: ["XMPP Servers"]
+    ]
+
+  * description: "XMPP server based on Prosody, with advanced management/microblogging features."
+    license_url: "https://code.lightwitch.org/metronome/file/f9f76843539a/COPYING"
+    logo: "metronome.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://code.lightwitch.org/metronome/file/f9f76843539a"
+    name: "Metronome"
+    tos_url: ""
+    url: "http://www.lightwitch.org/metronome"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Metronome_IM"
+    protocols: ['XMPP']
+    categories: [
+      * name: "Servers"
+        subcategories: ["XMPP Servers"]
+    ]
+
+  * description: "OSTel (Open Secure Telephony) is a service run by the Guardian Project for use with CSipSimple, Jitsi, and others.",
+    license_url: ""
+    logo: "ostel.png"
+    notes: ""
+    privacy_url: "https://ostel.co/privacy"
+    source_url: "https://github.com/guardianproject/OStel"
+    name: "Ostel"
+    tos_url: ""
+    url: "https://ostel.co/"
+    wikipedia_url: ""
+    protocols: ['SIP', 'SSL/TLS', 'VoIP', 'ZRTP']
+    categories: [
+      * name: "Web"
+        subcategories: ["Video & Voice"]
+    ]
+
+  * description: "Asterisk is a software implementation of a telephone private branch exchange (PBX); it was created in 1999 by Mark Spencer of Digium. Like any PBX, it allows attached telephones to make calls to one another, and to connect to other telephone services, such as the public switched telephone network (PSTN) and Voice over Internet Protocol (VoIP) services. Its name comes from the asterisk symbol, *."
+    license_url: "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup"
+    logo: "asterisk.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://www.asterisk.org/downloads/source-code"
+    name: "Asterisk"
+    tos_url: ""
+    url: "http://www.asterisk.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
+    protocols: ['SIP', 'VoIP']
+    categories: [
+      * name: "Servers"
+        subcategories: ["SIP Servers"]
+    ]
+
+  * description: "FreeSWITCH is free and open source communications software for the creation of voice and messaging products. It is licensed under the Mozilla Public License (MPL), a free software license. Its core library, libfreeswitch, is capable of being embedded into other projects, as well as being used as a stand-alone application."
+    license_url: "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true"
+    logo: "freeswitch.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://fisheye.freeswitch.org/browse/freeswitch.git"
+    name: "FreeSWITCH"
+    tos_url: ""
+    url: "https://www.freeswitch.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/FreeSWITCH"
+    protocols: ['SIP', 'VoIP']
+    categories: [
+      * name: "Servers"
+        subcategories: ["SIP Servers"]
+    ]
+
+  * description: "*\"Kamailio™ (former OpenSER) is an Open Source SIP Server released under GPL, able to handle thousands of call setups per second. Among features: asynchronous TCP, UDP and SCTP, secure communication via TLS for VoIP (voice, video); WebSocket support for WebRTC; IPv4 and IPv6; SIMPLE instant messaging and presence with embedded XCAP server and MSRP relay; IMS extensions; ENUM; DID and least cost routing; load balancing; routing fail-over; accounting, authentication and authorization; support for many backend systems such as MySQL, Postgres, Oracle, Radius, LDAP, Redis, Cassandra; XMLRPC control interface, SNMP monitoring. It can be used to build large VoIP servicing platforms or to scale up SIP-to-PSTN gateways, PBX systems or media servers like Asterisk™, FreeSWITCH™ or SEMS.\"*"
+    license_url: "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD"
+    logo: "kamailio.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=tree"
+    name: "Kamailio"
+    tos_url: ""
+    url: "http://www.kamailio.org/w/"
+    wikipedia_url: ""
+    protocols: ['SIP', 'SSL/TLS', 'VoIP']
+    categories: [
+      * name: "Servers"
+        subcategories: ["SIP Servers"]
+    ]
+
+  * description: "FreedomBox is a community project to develop, design and promote personal servers running free software for distributed social networking, email and audio/video communications. The project was announced by Eben Moglen at the New York ISOC meeting on February 2, 2010."
+    license_url: "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD"
+    logo: "freedombox.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=tree"
+    name: "FreedomBox"
+    tos_url: ""
+    url: "https://www.freedomboxfoundation.org/"
+    wikipedia_url: "https://en.wikipedia.org/wiki/FreedomBox"
+    protocols: ['GPG', 'TOR', 'SSL/TLS']
+    categories: [
+      * name: "Servers"
+        subcategories: ["Raspberry Pi", "Operating Systems"]
+    ]
+
+  * description: "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more."
+    license_url: "https://github.com/cznweb/arkos-install/blob/master/LICENSE"
+    logo: "arkos.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/cznweb"
+    name: "arkOS"
+    tos_url: ""
+    url: "https://arkos.io/"
+    wikipedia_url: ""
+    protocols: []
+    categories: [
+      * name: "Servers"
+        subcategories: ["Raspberry Pi", "Operating Systems"]
+    ]
 
 exports.projects-raw = projects-raw
