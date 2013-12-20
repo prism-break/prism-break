@@ -8,19 +8,51 @@ require! '../functions/helpers.ls'
 {routes} = require '../functions/routes.ls'
 
 # data
-{projects} = require '../db/en-projects.ls'
-projects = slugify-db projects
-json = require './ar.json'
+{projects-raw} = require '../db/en-projects.ls'
+projects = slugify-db projects-raw
 
-real-projects = []
+languages = []
+languages["ar"] = require './ar.json'
+languages["ca"] = require './ca.json'
+languages["de"] = require './de.json'
+languages["el"] = require './el.json'
+languages["en"] = require './en.json'
+languages["eo"] = require './eo.json'
+languages["es"] = require './es.json'
+languages["fa"] = require './fa.json'
+languages["fi"] = require './fi.json'
+languages["fr"] = require './fr.json'
+languages["he"] = require './he.json'
+languages["hi"] = require './hi.json'
+languages["hu"] = require './hu.json'
+languages["io"] = require './io.json'
+languages["it"] = require './it.json'
+languages["ja"] = require './ja.json'
+languages["nl"] = require './nl.json'
+languages["no"] = require './no.json'
+languages["pl"] = require './pl.json'
+languages["pt"] = require './pt.json'
+languages["ru"] = require './ru.json'
+languages["sr"] = require './sr.json'
+languages["sr-Cyrl"] = require './sr_cr.json'
+languages["sv"] = require './sv.json'
+languages["tr"] = require './tr.json'
+languages["zh-CN"] = require './zh_cn.json'
+languages["zh-TW"] = require './zh_tw.json'
+
+console.log languages
+
+/*
 for project in projects
-  for key, value of json
+  for key, value of ar
     slug = key.split('-')[1]
     if slug == project.slug
       project.description = value
-      #console.log "#{slug} EQUALS #{project.slug}"
-      #console.log project
-      real-projects.push project
-real-projects
+      delete ar[key]
 
-write-json real-projects, 'ar-projects'
+projects
+ar
+
+write-json projects, 'ar-projects'
+write-json ar, 'ar-reduced'
+*/
