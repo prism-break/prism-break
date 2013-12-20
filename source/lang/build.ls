@@ -10,26 +10,16 @@ require! '../functions/helpers.ls'
 # data
 {projects} = require '../db/en-projects.ls'
 projects = slugify-db projects
-lang-json = require './ar.json'
-
-
-/*
-obj-zip = (json) ->
-  zip (keys json), (values json)
-
-language = pairs-to-obj obj-zip(lang-json)
-*/
-
-#console.log language.length
+json = require './ar.json'
 
 real-projects = []
 for project in projects
-  for key, value of lang-json
+  for key, value of json
     slug = key.split('-')[1]
     if slug == project.slug
       project.description = value
-      console.log "#{slug} EQUALS #{project.slug}"
-      console.log project
+      #console.log "#{slug} EQUALS #{project.slug}"
+      #console.log project
       real-projects.push project
 real-projects
 
