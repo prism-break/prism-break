@@ -2938,24 +2938,6 @@ projects-raw =
         subcategories: ["Media Publishing"]
     ]
 
-  * description: "img.bi offers image hosting with in-browser AES-256 encryption."
-    license_url: "https://github.com/imgbi/img.bi/blob/master/LICENSE"
-    logo: "imgbi.png"
-    notes: "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)"
-    privacy_url: "https://img.bi/"
-    source_url: "https://github.com/imgbi"
-    name: "img.bi"
-    tos_url: ""
-    url: "https://img.bi/"
-    wikipedia_url: ""
-    protocols: ["I2P", "SSL/TLS", "Tor"]
-    categories: [
-      * name: "Web"
-        subcategories: ["Media Publishing"]
-      * name: "Servers"
-        subcategories: ["Media Publishing"]
-    ]
-
   * description: "Tinc is a self-routing, mesh networking protocol, used for compressed, encrypted, virtual private networks. It was started in 1998 by Guus Sliepen, Ivo Timmermans, and Robert van der Meulen, and released as a GPL-licensed project."
     license_url: "http://tinc-vpn.org/git/browse?p=tinc;a=blob;f=COPYING.README;h=2eb9c1facc212244a4103f9f9b81149c6f6a9d44;hb=HEAD"
     logo: "tinc.png"
