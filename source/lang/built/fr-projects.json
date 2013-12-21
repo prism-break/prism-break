@@ -125,6 +125,29 @@
     "slug": "arch-linux"
   },
   {
+    "description": "arkOS est un ensemble de logiciels légers faits pour un Raspberry Pi qui permet d'auto-heberger, de manière sécurisée, son site web, ses emails, ses fichiers, etc.",
+    "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
+    "logo": "arkos.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/cznweb",
+    "name": "ArkOS",
+    "tos_url": "",
+    "url": "https://arkos.io/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Raspberry Pi",
+          "Operating Systems"
+        ]
+      }
+    ],
+    "slug": "arkos"
+  },
+  {
     "description": "Implémentation PBX supportant VoIP/SIP.",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
@@ -1083,7 +1106,7 @@
     "slug": "dudle"
   },
   {
-    "description": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.",
+    "description": "Service XMPP privé tournant sur DuckDuckGo Community Platform &mdash; guide inclus.",
     "license_url": "",
     "logo": "duckduckgo.png",
     "notes": "",

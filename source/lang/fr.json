@@ -247,7 +247,7 @@
   "mail-server-notes": "<p>Un guide pour débutant pour configurer/utiliser votre propre serveur email est disponible ici: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> intégre Roundcube dans son client web et offre aussi des clients de bureau. Les versions récente intégre aussi un 'cloud' pour fichiers, ce qui en fait une solution complète pour la gestion des données personnelles.</p></p><blockquote><p><strong>Qu'est ce qu'un MTA ?</strong></p><p>&ldquo;Un Mail Transfer Agent est un logiciel pour serveur de transmission de courriers électroniques.&rdquo;</p><footer>&mdash; <cite><a href='https://fr.wikipedia.org/wiki/Mail_Transfer_Agent'>Wikipédia</a></cite></footer></blockquote>", 
 
   "xmpp-server-title": "Serveur XMPP", 
-  "dukgoxmpp": "Service XMPP privé tournant sur DuckDuckGo Community Platform &mdash; guide inclus.", 
+  "dukgocom": "Service XMPP privé tournant sur DuckDuckGo Community Platform &mdash; guide inclus.", 
   "ejabberd": "Serveur XMPP écrit en Erlang/OTP pour GNU/Linux et OS X.", 
   "openfire": "Serveur XMPP multi-plateforme écrit en Java.", 
   "prosody": "Serveur XMPP flexible et léger écrit en Lua.", 
