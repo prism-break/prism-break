@@ -85,13 +85,13 @@
   "email-service-note": "<p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p><strong>Riseup</strong> is hosted in the USA. It&rsquo;s also beginning to offer VPN, chat, and <strong>etherpad</strong> services.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p><p>The only way to have full control over your email is to run your own mail server. This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>", 
 
   "email-client": "Email桌面客户端", 
-  "thunderbird": "开源email应用", 
-  "clawsmail": "支持GPG的轻量email应用", 
+  "mozilla-thunderbird": "开源email应用", 
+  "claws-mail": "支持GPG的轻量email应用", 
   "evolution": "支持GPG的免费邮件和日历应用", 
   "icedove": "免费版本的 Mozilla Thunderbird.", 
   "kontact": "支持GPG的 KDE 邮件客户端", 
   "sylpheed": "Lightweight and user-friendly e-mail client.", 
-  "k9mail": "Open source email app for Android with PGP support.", 
+  "k-9-mail": "Open source email app for Android with PGP support.", 
   "email-client-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Here is a guide</a> to encrypting your email with <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p><p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>", 
 
   "email-encryption": "Email加密", 

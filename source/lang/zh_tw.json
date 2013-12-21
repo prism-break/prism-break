@@ -85,13 +85,13 @@
   "email-service-note": "<p><strong>Riseup</strong> is hosted in the USA, in case that matters.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>&ldquo;compromises to email privacy&rdquo;</a>.</p>", 
 
   "email-client": "桌面郵件用戶端", 
-  "thunderbird": "開放原始碼的郵件程式。", 
-  "clawsmail": "輕量級郵件程式。支援 GnuPG 加密。", 
+  "mozilla-thunderbird": "開放原始碼的郵件程式。", 
+  "claws-mail": "輕量級郵件程式。支援 GnuPG 加密。", 
   "evolution": "自由的郵件與行事曆程式。", 
   "icedove": "完全自由版本的 Mozilla Thunderbird。", 
   "kontact": "KDE 桌面裡的郵件程式。支援 GPG 加密。", 
   "sylpheed": "Lightweight and user-friendly e-mail client.", 
-  "k9mail": "Open source email app for Android with PGP support.", 
+  "k-9-mail": "Open source email app for Android with PGP support.", 
   "email-client-note": "<p>Note: <strong>Mozilla Thunderbird</strong> is technically not completely free software, as Mozilla recommends non-free add-ons on their website.</p>", 
 
   "email-encryption": "電子郵件加密", 

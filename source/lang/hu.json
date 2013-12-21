@@ -85,13 +85,13 @@
   "email-service-note": "<p>Here are some email providers that try do things right and run email for you. Please decide for yourself whether you trust them with your data.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the <a href='https://MyKolab.com/privacy'>strong Swiss privacy laws</a>. It is run exclusively with free software and using the service supports the development of <strong>Kolab</strong>. Also, it lets you export all your data at any time.</p><p><strong>Bitmessage</strong> is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collusions.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p>", 
 
   "email-client": "Email client", 
-  "thunderbird": "Multi-platform email application with mail encryption through the Enigmail add-on.", 
-  "clawsmail": "Fast, lightweight email application for multiple platforms with built-in PGP support.", 
+  "mozilla-thunderbird": "Multi-platform email application with mail encryption through the Enigmail add-on.", 
+  "claws-mail": "Fast, lightweight email application for multiple platforms with built-in PGP support.", 
   "evolution": "Email, address book, and calendar application for the GNOME desktop with PGP support..", 
   "icedove": "Libre edition of Mozilla Thunderbird for Debian GNU/Linux&mdash;mail encryption via Enigmail.", 
   "kontact": "Email, address books, calendars, and more for the K Desktop Environment (KDE) with PGP support.", 
   "sylpheed": "Lightweight, user-friendly email application for multiple platforms with built-in PGP support.", 
-  "k9mail": "Email application for Android devices with built-in PGP support.", 
+  "k-9-mail": "Email application for Android devices with built-in PGP support.", 
   "email-client-note": "<p>Switching from a proprietary service like Gmail to one of the more transparently-run email services on PRISM Break is the first step to a secure email account.</p><p>The second step is getting you and your contacts to encrypt your plain text messages with <a href='#email-encryption'>PGP encryption</a>. This section contains free email clients that support PGP.</p><p><a href='https://securityinabox.org/en/thunderbird_main'>Here is a guide</a> by Security In A Box to encrypting your email with <strong>Mozilla Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong>, and <strong>Enigmail</strong>.</p><p><a href='https://en.wikipedia.org/wiki/Icedove'>Find out more</a> about the differences between <strong>Mozilla Thunderbird</strong> and <strong>Icedove</strong>.", 
 
   "email-encryption": "Email encryption", 

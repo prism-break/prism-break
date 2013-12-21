@@ -85,13 +85,13 @@
   "email-service-note": "<p>Den beste måten å garantere personvern og sikkerhet på er å kjøre din egen e-posttjener.</p><p><strong>Bitmessage</strong> er et lovende kryptert alternativ til e-post. Det er dog ikke erklært stabilt til daglig bruk ennå.<p><p><strong>MyKolab</strong> kjører på fri programvare og lar deg eksportere alt. Det kjører i Sveits, og drar nytte av de sterke personvernslovene der nede.<p><strong>Riseup</strong> tilbyr VPN, lynmeldinger og etherpad.</p><p>FreedomBox er ikke ferdig ennå, men har et edelt mål. Det skal nemlig gjøre kål på sentraliserte tjenere som aggregerer informasjon om alt og alle, til fordel for personlig lagring av alt, på en så enkel måte at selv bestemor kan gjøre det.</p>", 
 
   "email-client": "E-postklient", 
-  "thunderbird": "Fri e-postapplikasjon.", 
-  "clawsmail": "Lett E-post applikasjon med GPG-støtte.", 
+  "mozilla-thunderbird": "Fri e-postapplikasjon.", 
+  "claws-mail": "Lett E-post applikasjon med GPG-støtte.", 
   "evolution": "Fri e-post- og kalenderapplikasjon.", 
   "icedove": "debians versjon av Mozilla Thunderbird, som er uten proprietær logo og tilgjengeliggjøring av proprietære plug-ins.", 
   "kontact": "Fri e-postklient med GPG-støtte.", 
   "sylpheed": "Lightweight and user-friendly e-mail client.", 
-  "k9mail": "Fri e-postapplikasjon for Android med PGP-støtte.", 
+  "k-9-mail": "Fri e-postapplikasjon for Android med PGP-støtte.", 
   "email-client-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Her finner du en guide</a> for å kryptere din e-post med <strong>Mozilla Thunderbird</strong>, <strong>GPG</strong> og <strong>Enigmail</strong>.</p>", 
 
   "email-encryption": "E-postkryptering", 

@@ -85,13 +85,13 @@
   "email-service-note": "<p><strong>Important:</strong> switching from Gmail to one of the recommended services is only the first step to a secure email account. You&rsquo;re still sending plain text messages. You and your contacts need to encrypt your messages with <a href='#email-encryption'>PGP</a>. Scroll down to find an <a href='#email-client'>email client</a> that supports PGP.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the strong Swiss privacy laws. It is run with free software and lets you export all your data.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p><p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p>The only way to have full control over your email is to run your own mail server (e.g. with <strong>Kolab</strong>). This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>", 
 
   "email-client": "E-mail applicaties", 
-  "thunderbird": "Open source e-mail applicatie.", 
-  "clawsmail": "Lichtgewicht e-mail applicatie met GnuPG ondersteuning.", 
+  "mozilla-thunderbird": "Open source e-mail applicatie.", 
+  "claws-mail": "Lichtgewicht e-mail applicatie met GnuPG ondersteuning.", 
   "evolution": "Vrije e-mail en agenda applicatie met GPG ondersteuning.", 
   "icedove": "Vrije versie van Mozilla Thunderbird.", 
   "kontact": "KDE e-mail applicatie met GPG ondersteuning.", 
   "sylpheed": "Lichtgewicht en gebruikersvriendelijke e-mail applicatie.", 
-  "k9mail": "Open source e-mail applicatie voor Android met PGP ondersteuning.", 
+  "k-9-mail": "Open source e-mail applicatie voor Android met PGP ondersteuning.", 
   "email-client-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Hier is een handleiding</a> om je e-mail te versleutelen met <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong> en <strong>Enigmail</strong>.</p><p><a href='https://en.wikipedia.org/wiki/Icedove'>Lees meer</a> over de verschillen tussen <strong>Mozilla Thunderbird</strong> en <strong>Icedove</strong>.", 
 
   "email-encryption": "E-mail versleuteling", 

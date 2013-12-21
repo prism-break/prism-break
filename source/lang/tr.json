@@ -85,13 +85,13 @@
   "email-service-note": "<p>Burada şeffaf olarak çalıştırılan, kişisel gizlilik odaklı Gmail veya Hotmail alternatifi e-posta servisleri bulabilirsiniz. Lütfen onlara kendi verilerinizi korumakta güvendiğinize kendiniz karar verin. Eğer teknik beceriye sahipseniz, <a href='#mail-server'>kendi posta sunucunuzu çalıştırma fikrini</a> göz önünde bulundurun.</p><p><strong>MyKolab</strong> İsviçre sunucularında barınır ve dolayısıyla <a href='https://MyKolab.com/privacy'>sağlam İsviçre gizlilik yasalarından</a> faydalanır. ", 
 
   "email-client": "E-posta uygulaması", 
-  "thunderbird": "Birçok platform destekleyen, Enigmail eklentisiyle posta şifreleme sağlayan e-posta uygulaması.", 
-  "clawsmail": "Halihazirda PGP destekli hızlı, hafif e-posta uygulaması", 
+  "mozilla-thunderbird": "Birçok platform destekleyen, Enigmail eklentisiyle posta şifreleme sağlayan e-posta uygulaması.", 
+  "claws-mail": "Halihazirda PGP destekli hızlı, hafif e-posta uygulaması", 
   "evolution": "GNOME masaüstü için PGP destekli e-posta, adres defteri, takvim uygulaması.", 
   "icedove": "Debian GNU/Linux için Mozilla Thunderbird özgür versiyonu, mail şifreleme Enigmail aracılığıyla.", 
   "kontact": "GPG destekli KDE masaüstü için e-posta, adres defteri, takvim ve dahası.", 
   "sylpheed": "Hafif ve kullanıcı dostu PGP destekli, çok platformlu e-posta uygulaması.", 
-  "k9mail": "Android için GPG destekli açık kaynaklı e-posta uygulaması.", 
+  "k-9-mail": "Android için GPG destekli açık kaynaklı e-posta uygulaması.", 
   "email-client-note": "<p><a href='http://www.enigmail.net/documentation/quickstart-ch1.php'>Burada</a> e-postalarınızı <strong>Thunderbird</strong>, <strong>GNU Privacy Guard (GPG)</strong> ve <strong>Enigmail</strong> ile şifrelemek için bir rehber bulabilirsiniz.</p><p><strong>Mozilla Thunderbird</strong> ve <strong>Icedove</strong> arasındaki fark hakkında <a href='https://en.wikipedia.org/wiki/Icedove'>daha fazla bilgi sahibi olun</a>.", 
 
   "email-encryption": "E-posta şifreleme", 
