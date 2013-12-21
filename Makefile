@@ -35,7 +35,7 @@ build_css:
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
 
 build_html:
-	$(LIVESCRIPT_BIN) $(VIEWS)
+	$(LIVESCRIPT_BIN) ./source/build/site-en.ls
 
 clean:
 	rm -rf public/
