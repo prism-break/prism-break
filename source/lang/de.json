@@ -97,8 +97,8 @@
   "email-encryption": "E-Mail-Verschlüsselung",
   "enigmail": "Ein OpenPGP-Add-on für Thunderbird/Icedove.",
   "torbirdy": "Verbinde Dich mit Thunderbird/Icedove durch Tor.",
-  "gnuprivacyguard": "OpenPGP-Implementierung für viele Frontends, unter anderem Thunderbird/Icedove.",
-  "gpgmail": "OpenPGP-Add-on für die OS X Mail-App.",
+  "gnu-privacy-guard": "OpenPGP-Implementierung für viele Frontends, unter anderem Thunderbird/Icedove.",
+  "gpgtools": "OpenPGP-Add-on für die OS X Mail-App.",
   "apg": "OpenPGP-App für Android.",
   "email-encryption-note": "<p>&ldquo;Pretty Good Privacy (PGP, deutsch sinngemäß „Ziemlich gute Privatsphäre“) ist ein Programm zur Verschlüsselung und zum Unterschreiben von Daten.&rdquo;</p><p>&mdash; <a href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\">Wikipedia</a><br><p>PGP wird häufig zum signieren, verschlüsseln und entschlüsseln von Texten, E-Mails, Dateien, Ordnern und ganzen Festplattenpartitionen genutzt, um die Sicherheit von E-Mailkommunikation zu erhöhen.</p><footer>&mdash; <cite><a href='https://de.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></cite></footer></blockquote><p>PRISM Break empfiehlt die S/MIME E-Mail Verschlüsselung nicht, da es Drittanbieter-Zertifikate von zentralen Autoritäten benötigt. Mehr <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>hier (Englisch)</a>.</p><p><strong>APG</strong> wurde in den letzten drei Jahren nicht aktualisiert. Experimentelle PGP-Projekte, die es wert sind, anzusehen, sind <a href='https://github.com/dschuermann/openpgp-keychain'>OpenPGP Keychain</a> (ein APG-Zweig) und <a href='https://dev.guardianproject.info/projects/gpgandroid/wiki'>GnuPG für Android</a> von dem Guardian Project.</p>",
   

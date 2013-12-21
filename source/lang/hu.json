@@ -97,8 +97,8 @@
   "email-encryption": "Email encryption", 
   "enigmail": "OpenPGP email encryption add-on for Thunderbird and Icedove.", 
   "torbirdy": "Add-on that makes Thunderbird and Icedove connect through Tor.", 
-  "gnuprivacyguard": "OpenPGP implementation for numerous frontends, including Thunderbird/Icedove.", 
-  "gpgmail": "OpenPGP add-on for Apple OS X Mail.", 
+  "gnu-privacy-guard": "OpenPGP implementation for numerous frontends, including Thunderbird/Icedove.", 
+  "gpgtools": "OpenPGP add-on for Apple OS X Mail.", 
   "apg": "OpenPGP implementation for Android.", 
   "email-encryption-note": "<blockquote><p>&ldquo;Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting and decrypting texts, e-mails, files, directories and whole disk partitions to increase the security of e-mail communications.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></cite></footer></blockquote><p>PRISM Break does not recommended S/MIME email encryption because of its reliance on third-party certificates from central authorities. Read more <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>here</a>.</p>", 
 

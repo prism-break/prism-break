@@ -97,8 +97,8 @@
   "email-encryption": "Cifrado de correo electrónico", 
   "enigmail": "Un agregado de OpenPGP para Thunderbird/Icedove.", 
   "torbirdy": "Complemento para hacer que Thunderbird/Icedove se conecte a Tor.", 
-  "gnuprivacyguard": "Implementación libre y gratuita de OpenPGP.", 
-  "gpgmail": "Complemento para usar GPG en Apple OS X Mail.", 
+  "gnu-privacy-guard": "Implementación libre y gratuita de OpenPGP.", 
+  "gpgtools": "Complemento para usar GPG en Apple OS X Mail.", 
   "apg": "Implementación de OpenPGP para Android.", 
   "email-encryption-note": "<blockquote><p>&ldquo;Pretty Good Privacy (PGP) es un programa computacional de cifrado y descifrado que provee privacidad y autenticación criptográficas para comunicación de datos. PGP suele usarse para firmar, cifrar y descifrar textos, correos electrónicos, archivos, directorios y particiones completas de disco para incrementar la seguridad de las comunicaciones por correo electrónico.&rdquo;</p><footer>&mdash; <cite><a href='https://es.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></cite></footer></blockquote><p>PRISM Break no recomienda cifrado S/MIME porque depende en certificados de terceros emitidos por autoridades centralizadas. Lee más <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>aquí</a>. <i>(inglés)</i></></p><p><strong>APG</strong> no ha sido actualizado en tres años. Algunos proyectos experimentales de implementación de PGP que valen la pena considerar son <a href='https://github.com/dschuermann/openpgp-keychain'>OpenPGP Keychain</a> (derivado de APG) y <a href='https://dev.guardianproject.info/projects/gpgandroid/wiki'>GnuPG para Android</a> del proyecto Guardian.<p>", 
 

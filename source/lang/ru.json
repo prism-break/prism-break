@@ -99,8 +99,8 @@
   "email-encryption": "Шифрование электронной почты", 
   "enigmail": "OpenPGP расширение для Thunderbird и Icedove", 
   "torbirdy": "Заставляет Thunderbird и Icedove использовать Tor.",
-  "gnuprivacyguard": "Реализация OpenPGP для множества фронтэндов, включая Thunderbird/Icedove.",
-  "gpgmail": "OpenPGP расширение для Apple OS X Mail.",
+  "gnu-privacy-guard": "Реализация OpenPGP для множества фронтэндов, включая Thunderbird/Icedove.",
+  "gpgtools": "OpenPGP расширение для Apple OS X Mail.",
   "apg": "Реализация OpenPGP для Android.",
   "email-encryption-note": "<blockquote><p>&laquo;PGP (англ. Pretty Good Privacy) &mdash; компьютерная программа, также библиотека функций, позволяющая выполнять операции шифрования и дешифрования, которая предоставляет приватность и аутентификацию при передачи данных. PGP часто используется для подписи, шифрования и дешифрования текстов, электронной почты, файлов, директорий и целых разделов жестких дисков и для увеличения безопасности коммуникации посредством электронной почты.&raquo;</p><footer>&mdash; <cite><a href='https://ru.wikipedia.org/wiki/PGP'>Википедия</a></cite></footer></blockquote><p>PRISM Break не рекомендует использовать шифрование S/MIME, потому что оно основывается на сертификатах третих лиц от центральных органов. Читайте подробнее об этом <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>здесь</a>.</p><p><strong>APG</strong> не обновлялся в течение трех лет. Экспериментальные PGP проекты заслуживают того, чтобы вы на них обратили внимание: <a href='https://github.com/dschuermann/openpgp-keychain'>OpenPGP Keychain</a> (форк APG) и <a href='https://dev.guardianproject.info/projects/gpgandroid/wiki'>GnuPG for Android</a> от Guardian Project.</p>",
 
