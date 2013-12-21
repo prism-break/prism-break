@@ -27,7 +27,7 @@ write-localized-site = (db) ->
   write-about-media db
 
 write-site-index = (db) ->
-  data = db.platform-types db.projects-db
+  data = db.platform-types db.projects
 
   path = 'index'
   view = view-path path
@@ -45,7 +45,7 @@ write-site-index = (db) ->
   write-json data, file
 
 write-categories-index = (db) ->
-  data = nested-categories db.projects-db
+  data = nested-categories db.projects
 
   path = 'categories/index'
   view = view-path path
@@ -81,7 +81,7 @@ write-categories-show = (db) ->
       body-class: "#{db.iso} categories show"
       h: helpers
       category: category
-      platform-types: db.platform-types db.projects-db
+      platform-types: db.platform-types db.projects
       path: path
       routes: routes 'categories', 2
       language: db.iso
@@ -99,7 +99,7 @@ write-categories-show = (db) ->
       else
         write!
 
-  for category in nested-categories(db.projects-db)
+  for category in nested-categories(db.projects)
     create category
 
 write-subcategories-show = (db) ->
@@ -107,7 +107,7 @@ write-subcategories-show = (db) ->
     data =
       category: category
       subcategory: subcategory
-      projects: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-db))
+      projects: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects))
       projects-rejected: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
@@ -134,12 +134,12 @@ write-subcategories-show = (db) ->
       else
         write!
 
-  for category in nested-categories(db.projects-db)
+  for category in nested-categories(db.projects)
     for subcategory in category.subcategories
       create subcategory
 
 write-protocols-index = (db) ->
-  data = protocol-types db.protocols-db
+  data = protocol-types db.protocols
 
   path = 'protocols/index'
   view = view-path path
@@ -166,7 +166,7 @@ write-protocols-index = (db) ->
 
 write-protocols-show = (db) ->
   create = (protocol) ->
-    protocol.projects = in-this-protocol(protocol.name, db.projects-db)
+    protocol.projects = in-this-protocol(protocol.name, db.projects)
     data = protocol
 
     path = "protocols/#{protocol.slug}/"
@@ -176,7 +176,7 @@ write-protocols-show = (db) ->
       body-class: "#{db.iso} protocols show"
       h: helpers
       protocol: data
-      protocol-types: protocol-types db.protocols-db
+      protocol-types: protocol-types db.protocols
       path: path
       routes: routes 'protocols', 2
       language: db.iso
@@ -194,11 +194,11 @@ write-protocols-show = (db) ->
       else
         write!
 
-  for protocol in db.protocols-db
+  for protocol in db.protocols
     create protocol
 
 write-projects-index = (db) ->
-  data = db.projects-db
+  data = db.projects
 
   path = 'projects/index'
   view = view-path path
@@ -226,7 +226,6 @@ write-projects-index = (db) ->
 write-projects-show = (db) ->
   create = (project) ->
     data = slugify-project project
-    #data.projects-related = in-these-subcategories(subcategories-of(project), db.projects-db)
 
     path = "projects/#{project.slug}/"
     view = view-path 'projects/show'
@@ -252,7 +251,7 @@ write-projects-show = (db) ->
       else
         write!
 
-  for project in db.projects-db
+  for project in db.projects
     create project
 
 write-about-index = (db) ->

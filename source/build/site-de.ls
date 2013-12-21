@@ -3,7 +3,7 @@
 {write-localized-site} = require '../functions/build.ls'
 {slugify-db} = require '../functions/sort.ls'
 
-iso = 'en'
+iso = 'de'
 {locale} =            require "../locales/#{iso}.ls"
 {projects} =          require '../db/en-projects.ls'
 {projects-rejected} = require '../db/en-projects-rejected.ls'

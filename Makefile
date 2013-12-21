@@ -36,6 +36,7 @@ build_css:
 
 build_html:
 	$(LIVESCRIPT_BIN) ./source/build/site-en.ls
+	$(LIVESCRIPT_BIN) ./source/build/site-de.ls
 
 clean:
 	rm -rf public/
