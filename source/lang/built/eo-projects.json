@@ -615,7 +615,7 @@
     "slug": "commotion"
   },
   {
-    "description": "A personal PaaS you can host, hack and delete.",
+    "description": "A personal PaaS you can host, hack and delete",
     "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
     "logo": "cozy.png",
     "notes": "",
@@ -1693,7 +1693,7 @@
     "slug": "gentoo"
   },
   {
-    "description": "Synchronize folders on your computers and drives.",
+    "description": "Sinkronigi dosierujoj en viaj komputiloj kaj diskoj.",
     "license_url": "https://git-annex.branchable.com/license/",
     "logo": "git-annex.png",
     "notes": "",
@@ -1817,7 +1817,7 @@
     "slug": "gnu-privacy-guard"
   },
   {
-    "description": "Self-hosted, decentralized social network.",
+    "description": "Memgastiga, malcentra socia reto.",
     "license_url": "https://gitorious.org/statusnet/gnu-social/source/5308e04e83f4a3f04e6d8bf80b177e7208dbac58:COPYING",
     "logo": "gnu-social.png",
     "notes": "",
@@ -2863,7 +2863,7 @@
     "slug": "mediacrush"
   },
   {
-    "description": "GNU MediaGoblin (also shortened to MediaGoblin or GMG) is a free, decentralized Web platform (server software) for hosting and sharing many forms of digital media; and strives to provide an extensible, federated, and freedom-respectful software alternative to major media publishing services such as Flickr, deviantArt, YouTube, etc.",
+    "description": "Malcentra platformo por aŭdvidea publikigo.",
     "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
     "logo": "mediagoblin.png",
     "notes": "MediaGoblin does not encrypt any of your data by default.",
@@ -3428,7 +3428,7 @@
     "slug": "open-source-routing-machine"
   },
   {
-    "description": "Open Web Analytics (OWA) is open source web analytics software created by Peter Adams. OWA is written in PHP and uses a MySQL database, which makes it compatible for running with an AMP solution stack on various web servers. OWA is comparable to Google Analytics, though OWA is server software anyone can install and run on their own host, while Google Analytics is a software service offered by Google. ",
+    "description": "Alternative open source web analytics.",
     "license_url": "http://wiki.openwebanalytics.com/index.php?title=License",
     "logo": "open-web-analytics.png",
     "notes": "",
@@ -4055,7 +4055,7 @@
     "slug": "pumpio"
   },
   {
-    "description": "Pydio lets you instantly turn any server into a file sharing platform.",
+    "description": "Instantly turn any server into a file sharing platform.",
     "license_url": "https://github.com/pydio/pydio-core/blob/master/README.md",
     "logo": "pydio.png",
     "notes": "",
@@ -4259,7 +4259,7 @@
     "slug": "riseup"
   },
   {
-    "description": "Multi-frontend, multipurpose communication tool.",
+    "description": "Multfasada, multintenca komunikilo.",
     "license_url": "http://repos.goffi.org/sat/file/6aa71c853bf5/COPYING",
     "logo": "sat.png",
     "notes": "",
@@ -4570,13 +4570,13 @@
     "slug": "syndie"
   },
   {
-    "description": "Tahoe-LAFS (Tahoe Least-Authority Filesystem) is an open source, secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system. It can be used as an online backup system, or to serve as a file or web host similar to Freenet, depending on the front-end used to insert and access files in the Tahoe system. Tahoe can also be used in a RAID-like manner to use multiple disks to make a single large RAIN pool of reliable data storage.",
+    "description": "Libera kaj malfermita sistemo por nuba stoko.",
     "license_url": "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL",
-    "logo": "taho-lafs.png",
+    "logo": "tahoe-lafs.png",
     "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/tahoe-lafs/tahoe-lafs",
-    "name": "Taho-LAFS",
+    "name": "Tahoe-LAFS",
     "tos_url": "",
     "url": "https://tahoe-lafs.org/trac/tahoe-lafs",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tahoe-LAFS",
@@ -4589,7 +4589,7 @@
         ]
       }
     ],
-    "slug": "taho-lafs"
+    "slug": "tahoe-lafs"
   },
   {
     "description": "Viva KD/USB pensita por privateco.",

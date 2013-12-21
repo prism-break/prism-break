@@ -4572,11 +4572,11 @@
   {
     "description": "Tahoe-LAFS (Tahoe Least-Authority Filesystem) is an open source, secure, decentralized, fault-tolerant, peer-to-peer distributed data store and distributed file system. It can be used as an online backup system, or to serve as a file or web host similar to Freenet, depending on the front-end used to insert and access files in the Tahoe system. Tahoe can also be used in a RAID-like manner to use multiple disks to make a single large RAIN pool of reliable data storage.",
     "license_url": "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL",
-    "logo": "taho-lafs.png",
+    "logo": "tahoe-lafs.png",
     "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/tahoe-lafs/tahoe-lafs",
-    "name": "Taho-LAFS",
+    "name": "Tahoe-LAFS",
     "tos_url": "",
     "url": "https://tahoe-lafs.org/trac/tahoe-lafs",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tahoe-LAFS",
@@ -4589,7 +4589,7 @@
         ]
       }
     ],
-    "slug": "taho-lafs"
+    "slug": "tahoe-lafs"
   },
   {
     "description": "The Amnesic Incognito Live System or Tails is a Debian-based Linux distribution aimed at preserving privacy and anonymity. It is the next iteration of development on the previous Gentoo based Incognito Linux distribution. All its outgoing connections are forced to go through Tor, and direct (non-anonymous) connections are blocked. ",
