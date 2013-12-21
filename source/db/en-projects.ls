@@ -2616,6 +2616,22 @@ projects-raw =
         subcategories: ["Disk Encryption"]
     ]
 
+  * description: "geli is a block device-layer disk encryption system written for FreeBSD, introduced in version 6.0. It utilises the GEOM disk framework. It was designed and implemented by Paweł Jakub Dawidek."
+    license_url: "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595"
+    logo: "geli.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595"
+    name: "geli"
+    tos_url: ""
+    url: "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8"
+    wikipedia_url: "https://en.wikipedia.org/wiki/Geli_%28software%29"
+    protocols: []
+    categories: [
+      * name: "BSD"
+        subcategories: ["Disk Encryption"]
+    ]
+
   * description: "eCryptfs (Enterprise Cryptographic Filesystem) is a package of disk encryption software for Linux. It is implemented as a POSIX-compliant filesystem-level encrypted file system that has been part of the Linux Kernel since version 2.6.19."
     license_url: "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING"
     logo: "geli.png"
