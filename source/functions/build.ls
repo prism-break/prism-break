@@ -12,72 +12,65 @@ require! '../functions/helpers.ls'
 # WRITE FUNCTIONS
 # These functions write all of the HTML pages for the entire site.
 
-write-localized-site = (iso, locale, data) ->
-  dir = "public/#{iso}/"
-  mkdirp dir
+write-localized-site = (db) ->
+  mkdirp db.dir
 
-  db =
-    projects-db: slugify-db data.projects-raw
-    projects-rejected-raw: data.projects-rejected-raw
-    protocols-db: slugify-db data.protocols-raw
-    platform-types: data.platform-types
+  write-site-index db
+  write-categories-index db
+  write-categories-show db
+  write-subcategories-show db
+  write-protocols-index db
+  write-protocols-show db
+  write-projects-index db
+  write-projects-show db
+  write-about-index db
+  write-about-media db
 
-  write-site-index dir, iso, locale, db
-  write-categories-index dir, iso, locale, db
-  write-categories-show dir, iso, locale, db
-  write-subcategories-show dir, iso, locale, db
-  write-protocols-index dir, iso, locale, db
-  write-protocols-show dir, iso, locale, db
-  write-projects-index dir, iso, locale, db
-  write-projects-show dir, iso, locale, db
-  write-about-index dir, iso, locale
-  write-about-media dir, iso, locale
-
-write-site-index = (dir, iso, locale, db) ->
+write-site-index = (db) ->
   data = db.platform-types db.projects-db
 
   path = 'index'
   view = view-path path
   options = 
     pretty: true
-    body-class: "#{iso} root index"
+    body-class: "#{db.iso} root index"
     h: helpers
     platform-types: data
     path: ''
     routes: routes!
-    t: locale
-  file = dir + path
+    t: db.locale
+  file = db.dir + path
 
   write-html view, options, file
   write-json data, file
 
-write-categories-index = (dir, iso, locale, db) ->
+write-categories-index = (db) ->
   data = nested-categories db.projects-db
 
   path = 'categories/index'
   view = view-path path
   options = 
     pretty: true
-    body-class: "#{iso} categories index"
+    body-class: "#{db.iso} categories index"
     h: helpers
     categories: data
     path: 'categories'
     routes: routes 'categories', 1
-    language: iso
-    t: locale
-  file = dir + path
+    language: db.iso
+    t: db.locale
+  file = db.dir + path
 
   write = ->
     write-html view, options, file
     write-json data, file
 
-  mkdirp dir + 'categories', (err) ->
+  mkdirp db.dir + 'categories', (err) ->
     if err
       console.error err
     else
       write!
 
-write-categories-show = (dir, iso, locale, db) ->
+write-categories-show = (db) ->
   create = (category) ->
     data = category
 
@@ -85,15 +78,15 @@ write-categories-show = (dir, iso, locale, db) ->
     view = view-path 'categories/show'
     options = 
       pretty: true
-      body-class: "#{iso} categories show"
+      body-class: "#{db.iso} categories show"
       h: helpers
       category: category
       platform-types: db.platform-types db.projects-db
       path: path
       routes: routes 'categories', 2
-      language: iso
-      t: locale
-    full-path = dir + path
+      language: db.iso
+      t: db.locale
+    full-path = db.dir + path
     file = full-path + 'index'
 
     write = ->
@@ -109,26 +102,26 @@ write-categories-show = (dir, iso, locale, db) ->
   for category in nested-categories(db.projects-db)
     create category
 
-write-subcategories-show = (dir, iso, locale, db) ->
+write-subcategories-show = (db) ->
   create = (subcategory) ->
     data =
       category: category
       subcategory: subcategory
       projects: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-db))
-      projects-rejected: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected-raw))
+      projects-rejected: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
     view = view-path 'subcategories/show'
     options = 
       pretty: true
-      body-class: "#{iso} subcategories show"
+      body-class: "#{db.iso} subcategories show"
       h: helpers
       data: data
       path: path
       routes: routes 'subcategories', 2
-      language: iso
-      t: locale
-    full-path = dir + path
+      language: db.iso
+      t: db.locale
+    full-path = db.dir + path
     file = full-path + 'index'
 
     write = ->
@@ -145,33 +138,33 @@ write-subcategories-show = (dir, iso, locale, db) ->
     for subcategory in category.subcategories
       create subcategory
 
-write-protocols-index = (dir, iso, locale, db) ->
+write-protocols-index = (db) ->
   data = protocol-types db.protocols-db
 
   path = 'protocols/index'
   view = view-path path
   options = 
     pretty: true
-    body-class: "#{iso} protocols index"
+    body-class: "#{db.iso} protocols index"
     h: helpers
     protocol-types: data
     path: 'protocols'
     routes: routes 'protocols', 1
-    language: iso
-    t: locale
-  file = dir + path
+    language: db.iso
+    t: db.locale
+  file = db.dir + path
 
   write = ->
     write-html view, options, file
     write-json data, file
 
-  mkdirp dir + 'protocols', (err) ->
+  mkdirp db.dir + 'protocols', (err) ->
     if err
       console.error err
     else
       write!
 
-write-protocols-show = (dir, iso, locale, db) ->
+write-protocols-show = (db) ->
   create = (protocol) ->
     protocol.projects = in-this-protocol(protocol.name, db.projects-db)
     data = protocol
@@ -180,15 +173,15 @@ write-protocols-show = (dir, iso, locale, db) ->
     view = view-path 'protocols/show'
     options = 
       pretty: true
-      body-class: "#{iso} protocols show"
+      body-class: "#{db.iso} protocols show"
       h: helpers
       protocol: data
       protocol-types: protocol-types db.protocols-db
       path: path
       routes: routes 'protocols', 2
-      language: iso
-      t: locale
-    full-path = dir + path
+      language: db.iso
+      t: db.locale
+    full-path = db.dir + path
     file = full-path + 'index'
 
     write = ->
@@ -204,33 +197,33 @@ write-protocols-show = (dir, iso, locale, db) ->
   for protocol in db.protocols-db
     create protocol
 
-write-projects-index = (dir, iso, locale, db) ->
+write-projects-index = (db) ->
   data = db.projects-db
 
   path = 'projects/index'
   view = view-path path
   options = 
     pretty: true
-    body-class: "#{iso} projects index"
+    body-class: "#{db.iso} projects index"
     h: helpers
     projects: data
     path: 'projects'
     routes: routes 'projects', 1
-    language: iso
-    t: locale
-  file = dir + path
+    language: db.iso
+    t: db.locale
+  file = db.dir + path
 
   write = ->
     write-html view, options, file
     write-json data, file
 
-  mkdirp dir + 'projects', (err) ->
+  mkdirp db.dir + 'projects', (err) ->
     if err
       console.error err
     else
       write!
 
-write-projects-show = (dir, iso, locale, db) ->
+write-projects-show = (db) ->
   create = (project) ->
     data = slugify-project project
     #data.projects-related = in-these-subcategories(subcategories-of(project), db.projects-db)
@@ -239,14 +232,14 @@ write-projects-show = (dir, iso, locale, db) ->
     view = view-path 'projects/show'
     options = 
       pretty: true
-      body-class: "#{iso} projects show"
+      body-class: "#{db.iso} projects show"
       h: helpers
       project: data
       routes: routes 'projects', 2
-      language: iso
-      t: locale
+      language: db.iso
+      t: db.locale
       path: path
-    full-path = dir + path
+    full-path = db.dir + path
     file = full-path + 'index'
 
     write = ->
@@ -262,24 +255,24 @@ write-projects-show = (dir, iso, locale, db) ->
   for project in db.projects-db
     create project
 
-write-about-index = (dir, iso, locale, db) ->
+write-about-index = (db) ->
   create = ->
     path = 'about/index'
     view = view-path path
     options =
       pretty: true
-      body-class: "#{iso} about index"
+      body-class: "#{db.iso} about index"
       h: helpers
       path: 'about'
       routes: routes 'about', 1
-      language: iso
-      t: locale
-    file = dir + path
+      language: db.iso
+      t: db.locale
+    file = db.dir + path
 
     write = ->
       write-html view, options, file
 
-    mkdirp dir + 'about', (err) ->
+    mkdirp db.dir + 'about', (err) ->
       if err
         console.error err
       else
@@ -287,19 +280,19 @@ write-about-index = (dir, iso, locale, db) ->
 
   create!
 
-write-about-media = (dir, iso, locale, db) ->
+write-about-media = (db) ->
   create = ->
     path = 'about/media/'
     view = view-path 'about/media'
     options =
       pretty: true
-      body-class: "#{iso} about media"
+      body-class: "#{db.iso} about media"
       h: helpers
       path: path
       routes: routes 'about', 2
-      language: iso
-      t: locale
-    full-path = dir + path
+      language: db.iso
+      t: db.locale
+    full-path = db.dir + path
     file = full-path + 'index'
 
     write = ->

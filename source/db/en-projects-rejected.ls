@@ -1,4 +1,4 @@
-projects-rejected-raw =
+projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
@@ -723,4 +723,4 @@ projects-rejected-raw =
         subcategories: ["Productivity"]
     ]
 
-exports.projects-rejected-raw = projects-rejected-raw
+exports.projects-rejected = projects-rejected

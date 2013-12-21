@@ -1,4 +1,4 @@
-protocols-raw =
+protocols =
 
   * name: "IRC"
     full_name: "Internet Relay Chat"
@@ -120,4 +120,4 @@ protocols-raw =
       * name: "Synchronization"
     ]
 
-exports.protocols-raw = protocols-raw
+exports.protocols = protocols
