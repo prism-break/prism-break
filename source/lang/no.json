@@ -14,9 +14,9 @@
   "fedora": "Rask, stabil og kraftig GNU/Linux-distribusjon.", 
   "gentoo": "GNU/Linux-distribusjon med fokus på tilpasning, kontroll og sikkerhet.", 
   "gnewsense": "FSF-sponset GNU/Linux-distribution basert på debian.", 
-  "linuxmint": "GNU/Linux-distribusjon basert på debian som har som mål å være enkel i bruk.", 
+  "linux-mint-debian": "GNU/Linux-distribusjon basert på debian som har som mål å være enkel i bruk.", 
   "opensuse": "GNU/Linux-distribusjon som har som mål å være stabil og enkel i bruk.", 
-  "parabola": "Fleksibel GNU/Linux distribusjon basert på Arch Linux.", 
+  "parabola-gnu-linux-libre": "Fleksibel GNU/Linux distribusjon basert på Arch Linux.", 
   "trisquel": "FSF endorsed, user-friendly GNU/Linux distribution.", 
   "qubes": "Fedora/Xen-basert system designet for sikkerhet som følge av isolasjon.", 
   "openbsd": "Et fritt BSD system med fokus på sikkerhet.", 
@@ -24,9 +24,9 @@
   "operating-system-note": "<p>Apple, Google og Microsoft står bak proprietære operativsystemer som ikke kan beskytte deg mot NSA, eller noen andre.</p><p>Du burde istedenfor kjøre et fritt alternativ: GNU/Linux eller BSD.</p>", 
 
   "live-cd-title": "Live CDer &amp; VM-bilder", 
-  "liberte": "Live CD/USB designet for å være et kommunikasjonsverktøy i fiendtlige omgivelser.", 
+  "liberte-linux": "Live CD/USB designet for å være et kommunikasjonsverktøy i fiendtlige omgivelser.", 
   "tails": "Live CD/USB laget for personvern.", 
-  "jondolive": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
+  "jondo-live-cd": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
   "whonix": "Tor-basert system med fokus på anonymitet, personvern og sikkerhet.", 
   "live-cd-notes": "<p>A live distribution like <strong>Tails</strong> or <strong>Liberté Linux</strong> is the fastest and easiest way to a secure operating system. All you have to do is create a bootable CD or USB drive with the files provided and you&rsquo;re set. Everything else will be preconfigured for you.</p><p>A virtual machine (VM) image like <strong>Whonix</strong> is designed to be run inside of a virtualization package like <a href='https://www.virtualbox.org/'>VirtualBox</a>. VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.</p>", 
 

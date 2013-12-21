@@ -14,9 +14,9 @@
   "fedora": "توزیع قدرتمند، سریع و پایدار گنو/لینوکس", 
   "gentoo": "توزیعی برپایه‌ی انتخاب، کنترل و امنیت", 
   "gnewsense": "Fully free software GNU/Linux distribution based on Debian.", 
-  "linuxmint": "توزیع گنو/لینوکس راحت و آسان", 
+  "linux-mint-debian": "توزیع گنو/لینوکس راحت و آسان", 
   "opensuse": "Stable, easy-to-use multi-purpose GNU/Linux distribution.", 
-  "parabola": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.", 
+  "parabola-gnu-linux-libre": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.", 
   "trisquel": "توزیع کاربر محور و مورد حمایت اف‌اس‌اف", 
   "qubes": "Fedora/Xen-based OS designed to provide strong security through isolation.", 
   "openbsd": "A secure BSD operating system.", 
@@ -24,9 +24,9 @@
   "operating-system-note": "<p>اپل، گوگل و مایکروسافت اعضای پریسم هستند. سیستم‌های عامل انحصاری آن‌ها نمی‌تواند اطّلاعات شخصی شما را از NSA محفوظ بدارد.</p><p>این ما را با دو جایگزین آزاد مواجه می‌کند: <strong><a href='https://www.gnu.org/distros/free-distros.html'>گنو/لینوکس</a></strong> و <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>بی‌اس‌دی</a></strong>.</p> <p>گنو/لینوکس جامعه‌ی بزرگ‌تری برای کمک به مهاجرت شما دارد. توصیه می‌شود کاوش خود را با گشتن به دنبال یک <a href='http://distrowatch.com/'>توزیع گنو/لینوکس</a> که مناسب نیازهاییتان باشد آغاز کنید.</p> <p>چرا اوبونتو نه؟ اوبونتو انتخاب جندان مطمينی نیست، زیرا که برخی معتقدند در گذشته حاوی <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>جاسوس‌افزار</a> بود.</p> <p>توجّه: PRISM Break نسخه‌ی بدون رمزگشای <strong>لینوکس مینت</strong> را توصیه می‌کند، چرا که نسخه‌های دیگر آن شامل برنامه‌هایی با پتنت‌های نرم‌افزاری هستند. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>اطّلاعات بیش‌تر</a>.</p>", 
 
   "live-cd-title": "Live CDs &amp; VM images", 
-  "liberte": "دیسک/فلش زنده به عنوان دستیار ارتباطی در محیط‌های ناامن", 
+  "liberte-linux": "دیسک/فلش زنده به عنوان دستیار ارتباطی در محیط‌های ناامن", 
   "tails": "دیسک/فلش زنده برای حریم شخصی بهتر", 
-  "jondolive": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
+  "jondo-live-cd": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
   "whonix": "VM-friendly OS based on Debian and Tor focused on anonymity, privacy and security.", 
   "live-cd-notes": "<p>A live distribution like <strong>Tails</strong> or <strong>Liberté Linux</strong> is the fastest and easiest way to a secure operating system. All you have to do is create a bootable CD or USB drive with the files provided and you&rsquo;re set. Everything else will be preconfigured for you.</p><p>A virtual machine (VM) image like <strong>Whonix</strong> is designed to be run inside of a virtualization package like <a href='https://www.virtualbox.org/'>VirtualBox</a>. VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.</p>", 
 

@@ -14,9 +14,9 @@
   "fedora": "快捷、稳定、强大的 GNU/Linux 发行版", 
   "gentoo": "Distribution about choice, control and security.", 
   "gnewsense": "Fully free software GNU/Linux distribution based on Debian.", 
-  "linuxmint": "令人舒适和易于使用的 GNU/Linux 发行版", 
+  "linux-mint-debian": "令人舒适和易于使用的 GNU/Linux 发行版", 
   "opensuse": "Stable, easy-to-use multi-purpose GNU/Linux distribution.", 
-  "parabola": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.", 
+  "parabola-gnu-linux-libre": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.", 
   "trisquel": "FSF（自由软件基金会）认可的，对用户友好的 GNU/Linux 发行版", 
   "qubes": "Fedora/Xen-based OS designed to provide strong security through isolation.", 
   "openbsd": "A secure BSD operating system.", 
@@ -24,9 +24,9 @@
   "operating-system-note": "<p>Apple、Google和Microsoft是PRISM项目的一部分。他们专有的操作系统不能被信任来保护你的个人信息不被泄露给美国国家安全局NSA。</p><p>这留给我们两个免费替代品: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> 和 <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux 有一个更大的社区来帮助你的转换过程。推荐你 It's recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p><p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</p><p>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>", 
 
   "live-cd-title": "Live CDs &amp; VM images", 
-  "liberte": "Live CD/USB 设计的用于敌对环境的通信辅助系统", 
+  "liberte-linux": "Live CD/USB 设计的用于敌对环境的通信辅助系统", 
   "tails": "Live CD/USB 设计的致力于保护你的隐私和匿名性的系统", 
-  "jondolive": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
+  "jondo-live-cd": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
   "whonix": "VM-friendly OS based on Debian and Tor focused on anonymity, privacy and security.", 
   "live-cd-notes": "<p>A live distribution like <strong>Tails</strong> or <strong>Liberté Linux</strong> is the fastest and easiest way to a secure operating system. All you have to do is create a bootable CD or USB drive with the files provided and you&rsquo;re set. Everything else will be preconfigured for you.</p><p>A virtual machine (VM) image like <strong>Whonix</strong> is designed to be run inside of a virtualization package like <a href='https://www.virtualbox.org/'>VirtualBox</a>. VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.</p>", 
 

@@ -14,9 +14,9 @@
   "fedora": "Szybka, stabilna, wielofunkcyjna dystrybucja GNU/Linux.", 
   "gentoo": "Distribution about choice, control and security.", 
   "gnewsense": "Fully free software GNU/Linux distribution based on Debian.", 
-  "linuxmint": "Wygodna i &#322;atwa w u&#380;yciu dystrybucja Linuksa", 
+  "linux-mint-debian": "Wygodna i &#322;atwa w u&#380;yciu dystrybucja Linuksa", 
   "opensuse": "Stable, easy-to-use multi-purpose GNU/Linux distribution.", 
-  "parabola": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.", 
+  "parabola-gnu-linux-libre": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.", 
   "trisquel": "Zatwierdzona przez FSF, przyjazna u&#380;ytkownikom dystrybucja GNU/Linux.", 
   "qubes": "Fedora/Xen-based OS designed to provide strong security through isolation.", 
   "openbsd": "A secure BSD operating system.", 
@@ -24,9 +24,9 @@
   "operating-system-note": "<p>Apple, Google i Microsoft s&#261;  cz&#281;&#347;ci&#261; PRISM. Nie ma pewno&#347;ci, &#380;e ich oprogramowanie i us&#322;ugi nie s&#261; wykorzystywane w celu ograniczania Twojej prywatno&#347;ci.</p><p>Zostajemy przy dw&oacute;ch mo&#380;liwych alternatywach: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> i <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux ma o wiele wi&#281;ksz&#261; spo&#322;eczno&#347;&#263;, kt&oacute;ra ch&#281;tnie wspiera osoby migruj&#261;ce z inych system&oacute;w operacyjnych. Najlepiej zacz&#261;&#263; <a href='http://distrowatch.com/'>tutaj</a> by znale&#378;&#263; w&#322;a&#347;ciw&#261; dystrybucj&#281;. Popytaj te&#380; znajomych, mo&#380;e pomog&#261; Ci si&#281; zaadaptowa&#263; w nowym systemie operacyjnym.</p> <p>Dlaczego nie Ubuntu? Dlatego, &#380;e Unity i jego wtyczki zawiera du&#380;o <a href='https://www.gnu.org/philosophy/ubuntu-spyware.html'>spyware.</a>.</p> <p>Wa&#380;ne: PRISM Break rekomenduje zaprzestanie u&#380;ywania niewolnych bibliotek i kodek&oacute;w</strong>, kt&oacute;re mog&#261; r&oacute;wnie&#380; po cz&#281;&#347;ci szpiegowa&#263; u&#380;ytkownik&oacute;w. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>Wi&#281;cej</a>.</p>", 
 
   "live-cd-title": "Live CDs &amp; VM images", 
-  "liberte": "Live CD/USB zaprojektowana dla komunikacji w niepewnych &#347;rodowiskach.", 
+  "liberte-linux": "Live CD/USB zaprojektowana dla komunikacji w niepewnych &#347;rodowiskach.", 
   "tails": "Live CD/USB dla prywatno&#347;ci w dowolnym miejscu.", 
-  "jondolive": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
+  "jondo-live-cd": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
   "whonix": "VM-friendly OS based on Debian and Tor focused on anonymity, privacy and security.", 
   "live-cd-notes": "<p>A live distribution like <strong>Tails</strong> or <strong>Liberté Linux</strong> is the fastest and easiest way to a secure operating system. All you have to do is create a bootable CD or USB drive with the files provided and you&rsquo;re set. Everything else will be preconfigured for you.</p><p>A virtual machine (VM) image like <strong>Whonix</strong> is designed to be run inside of a virtualization package like <a href='https://www.virtualbox.org/'>VirtualBox</a>. VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.</p>", 
 
