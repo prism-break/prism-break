@@ -21,7 +21,7 @@
   "qubes": "Fedora/Xen-based OS designed to provide strong security through isolation.", 
   "openbsd": "A secure BSD operating system.", 
   "freebsd": "A free BSD-derived operating system.", 
-  "operating-system-note": "<p>Apple、Google和Microsoft是PRISM项目的一部分。他们专有的操作系统不能被信任来保护你的个人信息不被泄露给美国国家安全局NSA。</p><p>这留给我们两个免费替代品: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> 和 <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux 有一个更大的社区来帮助你的转换过程。推荐你 It's recommended that you begin your explorations by looking for a <a href='http://distrowatch.com/'>GNU/Linux distribution</a> that suits your needs.</p><p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</p><p>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>", 
+  "operating-system-note": "<p>Apple、Google和Microsoft是PRISM项目的一部分。他们专有的操作系统不能被信任来保护你的个人信息不被泄露给美国国家安全局NSA。</p><p>这留给我们两个免费替代品: <strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> 和 <strong><a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p> <p>GNU/Linux 有一个更大的社区来帮助你的转换过程。推荐你 It's recommended that you begin your explorations by looking for a <a href='http://distropen-web-analyticstch.com/'>GNU/Linux distribution</a> that suits your needs.</p><p>Canonical&rsquo;s Ubuntu is not recommended by PRISM Break because it contains <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>Amazon ads and data leaks</a> by default.</p><p>Note: PRISM Break recommends the no-codecs edition of <strong>Linux Mint</strong>, as the other editions are encumbered with software patents. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>More info</a>.</p>", 
 
   "live-cd-title": "Live CDs &amp; VM images", 
   "liberte-linux": "Live CD/USB 设计的用于敌对环境的通信辅助系统", 
@@ -191,7 +191,7 @@
   "vpn-client-note": "--", 
   "web-analytics": "Web分析", 
   "piwik": "开放源代码、自行架设的web分析服务", 
-  "owa": "Alternative open source web analytics.", 
+  "open-web-analytics": "Alternative open source web analytics.", 
 
   "web-analytics-note": "<p>--</p>.", 
   "dns-provider": "DNS提供商", 
