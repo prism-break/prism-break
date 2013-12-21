@@ -5,7 +5,7 @@
 
 iso = 'de'
 {locale} =            require "../locales/#{iso}.ls"
-{projects} =          require '../db/en-projects.ls'
+projects =          require "../db/#{iso}-projects.json"
 {projects-rejected} = require '../db/en-projects-rejected.ls'
 {platform-types} =    require '../db/en-platform-types.ls'
 {protocols} =         require '../db/en-protocols.ls'
