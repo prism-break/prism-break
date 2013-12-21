@@ -97,8 +97,8 @@
   "email-encryption": "E-posta şifreleme", 
   "enigmail": "Thunderbird ve Icedove için OpenPGP e-posta şifreleme eklentisi.", 
   "torbirdy": "Thunderbird/Icedove uygulamalarının Tor bağlantısı kurmasını sağlayan eklenti.", 
-  "gnuprivacyguard": "Thunderbird/Icedove da dahil olmak üzere birçok önyüz için OpenPGP uygulaması.", 
-  "gpgmail": "Apple OS X Mail için OpenPGP eklentisi.", 
+  "gnu-privacy-guard": "Thunderbird/Icedove da dahil olmak üzere birçok önyüz için OpenPGP uygulaması.", 
+  "gpgtools": "Apple OS X Mail için OpenPGP eklentisi.", 
   "apg": "Android için OpenPGP uygulaması.", 
   "email-encryption-note": "<blockquote><p>&ldquo;Pretty Good Privacy (PGP) veri iletişimi için kriptografik gizlilik ve teyit sağlayan bir veri şifreleme ve şifre çözme yazılımıdır. PGP genellikle e-posta iletişimini daha güvenli kılmak adına metinleri, e-postaları, dosyaları, klasörleri ve bütün disk partisyonlarını imzalamak, şifrelemek ve şifreyi çözmek için kullanılır.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>Wikipedia</a></cite></footer></blockquote><p>PRISM Break e-posta şifrelemek için S/MIME standardını önermez çünkü bu standart merkezi otoritelerden gelen üçüncü-şahıs sertifikalara bağımlıdır. <a href='http://www.enigmail.net/forum/viewtopic.php?f=7&t=67'>Buradan</a> daha fazlasını okuyabilirsiniz.</p><p><strong>APG</strong> üç yıldır güncellenmemiştir. Gözatmaya değer deneysel PGP projeleri arasında <a href='https://github.com/dschuermann/openpgp-keychain'>OpenPGP Keychain</a> (bir APG çatalı) ve the Guardian Project imzalı <a href='https://dev.guardianproject.info/projects/gpgandroid/wiki'>GnuPG for Android</a> sayılabilir.</p>", 
 
