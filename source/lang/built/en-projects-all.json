@@ -1659,6 +1659,28 @@
     "slug": "gajim"
   },
   {
+    "description": "geli is a block device-layer disk encryption system written for FreeBSD, introduced in version 6.0. It utilises the GEOM disk framework. It was designed and implemented by Paweł Jakub Dawidek.",
+    "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
+    "logo": "geli.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
+    "name": "geli",
+    "tos_url": "",
+    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "slug": "geli"
+  },
+  {
     "description": "Gentoo Linux (/ˈdʒɛntuː/ JEN-too, named after the Gentoo Penguin) is a computer operating system built on top of the Linux kernel and based on the Portage package management system. It is distributed as free and open source software. Unlike a conventional software distribution, the user compiles the source code locally according to that user's chosen configuration. ",
     "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
     "logo": "gentoo.png",

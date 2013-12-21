@@ -2572,7 +2572,7 @@ projects-raw =
         subcategories: ["Disk Encryption"]
     ]
 
-  * description: "*\"cryptsetup is a utility used to conveniently setup disk encryption based on dm-crypt kernel module.These include plain dm-crypt volumes, LUKS volumes, loop-AES and TrueCrypt compatible format.\"*",
+  * description: "*\"cryptsetup is a utility used to conveniently setup disk encryption based on dm-crypt kernel module.These include plain dm-crypt volumes, LUKS volumes, loop-AES and TrueCrypt compatible format.\"*"
     license_url: "https://code.google.com/p/cryptsetup/source/browse/COPYING"
     logo: "luks.png"
     notes: "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD."
@@ -2592,7 +2592,7 @@ projects-raw =
         subcategories: ["Disk Encryption"]
     ]
 
-  * description: "*\"EncFS provides an encrypted filesystem in user-space. It runs without any special permissions and uses the FUSE library and Linux kernel module to provide the filesystem interface. You can find links to source and binary releases below. EncFS is open source software, licensed under the GPL.\"*",
+  * description: "*\"EncFS provides an encrypted filesystem in user-space. It runs without any special permissions and uses the FUSE library and Linux kernel module to provide the filesystem interface. You can find links to source and binary releases below. EncFS is open source software, licensed under the GPL.\"*"
     license_url: "https://code.google.com/p/encfs/source/browse/trunk/COPYING"
     logo: "encfs.png"
     notes: "EncFS is available for Windows through the \"encfs4win\" port."
@@ -2648,7 +2648,7 @@ projects-raw =
         subcategories: ["Disk Encryption"]
     ]
 
-  * description: "iRedMail is a script that installs and configures email server packages automatically in Linux and BSD.",
+  * description: "iRedMail is a script that installs and configures email server packages automatically in Linux and BSD."
     license_url: "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/README?at=default"
     logo: "iredmail.png"
     notes: ""
@@ -2712,7 +2712,7 @@ projects-raw =
         subcategories: ["Mail Transfer Agents"]
     ]
 
-  * description: "Easy-to-setup MTA used by approximately 23% of all email servers.",
+  * description: "Easy-to-setup MTA used by approximately 23% of all email servers."
     license_url: "ftp://ftp.porcupine.org/mirrors/postfix-release/LICENSE"
     logo: "postfix.png"
     notes: ""
@@ -2824,7 +2824,7 @@ projects-raw =
         subcategories: ["XMPP Servers"]
     ]
 
-  * description: "OSTel (Open Secure Telephony) is a service run by the Guardian Project for use with CSipSimple, Jitsi, and others.",
+  * description: "OSTel (Open Secure Telephony) is a service run by the Guardian Project for use with CSipSimple, Jitsi, and others."
     license_url: ""
     logo: "ostel.png"
     notes: ""
@@ -2899,6 +2899,22 @@ projects-raw =
     url: "https://www.freedomboxfoundation.org/"
     wikipedia_url: "https://en.wikipedia.org/wiki/FreedomBox"
     protocols: ['GPG', 'TOR', 'SSL/TLS']
+    categories: [
+      * name: "Servers"
+        subcategories: ["Raspberry Pi", "Operating Systems"]
+    ]
+
+  * description: "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more."
+    license_url: "https://github.com/cznweb/genesis/blob/master/LICENSE"
+    logo: "arkos.png"
+    notes: ""
+    privacy_url: ""
+    source_url: "https://github.com/cznweb"
+    name: "ArkOS"
+    tos_url: ""
+    url: "https://arkos.io/"
+    wikipedia_url: ""
+    protocols: []
     categories: [
       * name: "Servers"
         subcategories: ["Raspberry Pi", "Operating Systems"]

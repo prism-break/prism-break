@@ -689,7 +689,7 @@
     "slug": "cryptocat"
   },
   {
-    "description": "*\"cryptsetup is a utility used to conveniently setup disk encryption based on dm-crypt kernel module.These include plain dm-crypt volumes, LUKS volumes, loop-AES and TrueCrypt compatible format.\"*",
+    "description": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",
     "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
@@ -1657,6 +1657,28 @@
       }
     ],
     "slug": "gajim"
+  },
+  {
+    "description": "Disk encryption subsystem included in the FreeBSD operating system.",
+    "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
+    "logo": "geli.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
+    "name": "geli",
+    "tos_url": "",
+    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "slug": "geli"
   },
   {
     "description": "GNU/Linux distributie over keuze, controle en veiligheid.",

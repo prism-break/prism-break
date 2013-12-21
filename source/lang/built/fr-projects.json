@@ -689,7 +689,7 @@
     "slug": "cryptocat"
   },
   {
-    "description": "*\"cryptsetup is a utility used to conveniently setup disk encryption based on dm-crypt kernel module.These include plain dm-crypt volumes, LUKS volumes, loop-AES and TrueCrypt compatible format.\"*",
+    "description": "LUKS est une couche pratique et facile à utiliser au dessus de dm-crypt.",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",
     "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
@@ -1659,6 +1659,28 @@
     "slug": "gajim"
   },
   {
+    "description": "Sous-système de chiffrement de disque inclus dans le système d'exploitation FreeBSD.",
+    "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
+    "logo": "geli.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
+    "name": "geli",
+    "tos_url": "",
+    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "slug": "geli"
+  },
+  {
     "description": "Distribution GNU/Linux offrant choix, contrôle et sécurité.",
     "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
     "logo": "gentoo.png",
@@ -1962,7 +1984,7 @@
     "slug": "gpgtools"
   },
   {
-    "description": "Open, free and neutral wireless network for everyone.",
+    "description": "Réseaux WiFi ouverts, libres et neutres pour tout le monde.",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "guifi.png",
     "notes": "",
@@ -4374,7 +4396,7 @@
     "slug": "self-destructing-cookies"
   },
   {
-    "description": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+    "description": "Distribution simple basée sur CentOS avec messagerie préconfiguré, partage de fichiers, serveur web, et plus encore.",
     "license_url": "http://wiki.contribs.org/SME_Server:Documentation:Developers_Manual:Chapter14#Configuring_your_development_environment",
     "logo": "sme-server.png",
     "notes": "",
