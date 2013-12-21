@@ -2116,7 +2116,7 @@
     "slug": "i2p"
   },
   {
-    "description": "You can also run self-hosted instances of img.bi.",
+    "description": "Image hosting with in-browser AES-256 encryption.",
     "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
     "logo": "imgbi.png",
     "notes": "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
@@ -2833,7 +2833,7 @@
     "slug": "marble"
   },
   {
-    "description": "Puedes instalar tu propia instancia de MediaCrush localmente.",
+    "description": "Hospedaje de multimedia (audio, video, imágenes) con la privacidad y la rapidez como metas principales",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
     "notes": "Warning: MediaCrush includes Google Analytics and Google Adsense if you do not have Do Not Track enabled.",
@@ -4720,7 +4720,7 @@
     "slug": "tinc"
   },
   {
-    "description": "La red Tor ofrece acceso a sitios web *.onion.",
+    "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.png",
     "notes": "",

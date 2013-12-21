@@ -46,8 +46,7 @@ for iso639, translations of languages
   list-of-projects = projects
   for project in list-of-projects
     for key, value of translations
-      slug = key.split('-')[1]
-      if slug == project.slug
+      if key == project.slug
         project.description = value
         delete translations[key]
 
