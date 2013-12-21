@@ -11,6 +11,8 @@ require! '../functions/helpers.ls'
 {projects-raw} = require '../db/en-projects.ls'
 projects = slugify-db projects-raw
 
+#write-json projects, "./built/en-projects"
+
 languages = []
 languages["ar"] = require './ar.json'
 languages["ca"] = require './ca.json'
@@ -40,19 +42,17 @@ languages["tr"] = require './tr.json'
 languages["zh-CN"] = require './zh_cn.json'
 languages["zh-TW"] = require './zh_tw.json'
 
-console.log languages
+for iso639, translations of languages
+  list-of-projects = projects
+  for project in list-of-projects
+    for key, value of translations
+      slug = key.split('-')[1]
+      if slug == project.slug
+        project.description = value
+        delete translations[key]
 
-/*
-for project in projects
-  for key, value of ar
-    slug = key.split('-')[1]
-    if slug == project.slug
-      project.description = value
-      delete ar[key]
+  list-of-projects
+  translations
 
-projects
-ar
-
-write-json projects, 'ar-projects'
-write-json ar, 'ar-reduced'
-*/
+  write-json list-of-projects, "./built/#{iso639}-projects"
+  write-json translations, "./built/#{iso639}-reduced"
