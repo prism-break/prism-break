@@ -2,6 +2,7 @@
 
 # libraries
 require! '../functions/helpers.ls'
+require! mkdirp
 {map, keys, values, zip, pairs-to-obj} = require 'prelude-ls'
 {select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
 {view-path, write-html, write-json} = require '../functions/paths.ls'
@@ -11,7 +12,9 @@ require! '../functions/helpers.ls'
 {projects-raw} = require '../db/en-projects.ls'
 projects = slugify-db projects-raw
 
-write-json projects, "./built/en-projects-all"
+#write-json projects, "./built/en-projects-all"
+mkdirp './db'
+mkdirp './i18n'
 
 languages = []
 languages["ar"] = require './ar.json'
@@ -53,5 +56,5 @@ for iso639, translations of languages
   list-of-projects
   translations
 
-  write-json list-of-projects, "./built/#{iso639}-projects"
-  write-json translations, "./built/#{iso639}-reduced"
+  write-json list-of-projects, "./db/#{iso639}-projects"
+  write-json translations, "./i18n/#{iso639}"
