@@ -229,7 +229,7 @@
   "file-encryption": "Cifrado de archivos", 
   "truecrypt": "Software de cifrado de discos y particiones en tiempo real para múltiples plataformas.", 
   "dmcrypt": "Subsistema transparente de cifrado de discos incluido en el núcleo Linux.", 
-  "luks": "LUKS es una capa conveniente y fácil de usar encima de dm-crypt.", 
+  "cryptsetup": "LUKS es una capa conveniente y fácil de usar encima de dm-crypt.", 
   "diskcryptor": "Software de alto rendimiento para cifrado de particiones en Windows.", 
   "encfs": "Herramienta de cifrado de archivos con soporte para GNU/Linux, Mac OS X y Windows.", 
   "geli": "Subsistema de cifrado de disco incluido en el sistema operativo FreeBSD.", 
