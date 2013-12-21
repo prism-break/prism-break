@@ -16,7 +16,7 @@ translations =
   "dns-provider-note": "<p>Google-ov javni DNS trajno čuva informaciju o Vašem ISP-u i lokaciji za analizu. Vaša ip-adresa se čuva 24 sata.</p><p><strong>OpenNIC</strong> nema službenu polisu koja se tiče privatnosti/anonimizacije. Više informacija <a href='http://wiki.opennicproject.org/Tier2'>ovde</a>.</p>"
   "darknet": "Darknet"
   "Online Transactions": "Internet prepiske"
-  "cryptocoins-title": "Alternativna šifrovana valuta."
+  "Alternative Cryptocurrencies": "Alternativna šifrovana valuta."
   "cryptocoins": "Lista alternativnih šifrovanih digitalnih valuta."
   "Digital Distribution": "Digitalna distribucija"
   "digital-distribution-note": "<p><strong>Desurium</strong> je samo klijent. I dalje morate da verujete i zavisite o vlasničkom <a href='http://www.desura.com'>desura servisu</a>.</p>"
