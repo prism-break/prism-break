@@ -14,9 +14,9 @@
   "fedora": "הפצת GNU/לינוקס מהירה, אמידה וחזקה.", 
   "gentoo": "הפצה שכולה בחירה, שליטה ובטיחות.", 
   "gnewsense": "הפצת GNU/לינוקס חופשית לגמרי ומבוזרת המבוססת כל מערכת הפעלה דביאן.", 
-  "linuxmint": "הפצת GNU/לינוקס נוחה וקלה לשימוש.", 
+  "linux-mint-debian": "הפצת GNU/לינוקס נוחה וקלה לשימוש.", 
   "opensuse": "הפצת GNU/לינוקס יציבה, רב-תכליתית וקלה לשימוש.", 
-  "parabola": "הפצת GNU/לינוקס קלה, חופשית וגמישה המבוססת על ההפצה Arch Linux.", 
+  "parabola-gnu-linux-libre": "הפצת GNU/לינוקס קלה, חופשית וגמישה המבוססת על ההפצה Arch Linux.", 
   "trisquel": "הפצת GNU/לינוקס ידידותית למשתמש הנתמכת ע״י המוסד לתוכנה חופשית.", 
   "qubes": "מערכת הפעלה מבוססת פאדורה/Xen המתוכננת לספק הבטחה חזקה ע״י הפרדה.", 
   "openbsd": "מערכת הפעלה BSD מאובטחת.", 
@@ -24,9 +24,9 @@
   "operating-system-note": "<p>אפל, גוגל ומיקרוסופט הם חלק מ־PRISM. לא ניתן לסמוך על מערכות ההפעלה המסחריות שלהן שישמרו על המידע האישי שלך מה־NSA.</p><p>זה משאיר לנו שתי אלטרנטיבות חופשיות:<strong><a href='https://www.gnu.org/distros/free-distros.html'>GNU/Linux</a></strong> ו־<a href='https://en.wikipedia.org/wiki/Comparison_of_BSD_operating_systems'>BSD</a></strong>.</p><p>ל־GNU/Linux יש קהילה הרבה יותר גדולה היוכלה לתת תמיכה במעבר. מומלץ שתתחיל את חיפושך במציאת <a href='http://distrowatch.com/'>הפצת GNU/Linux</a> שמתאימה לצרכיך.</p><p>הפצת Ubuntu של חברת Canonical לא מומלצת ע״י פריצת PRISM מכיוון שהיא מכילה <a href='https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks'>פרסומת של Amazon ודליפות מידע</a> כברירת מחדל.</p><p><strong>Linux Mint</strong> היא כנראה ההפצה הכי קלה לשימוש עבור אנשים שמהגרים ממערכת הפעלה Windows של Microsoft. אנו ממליצים את הגרסה ללא קידודים (codecs), מכיוון שהאחרות מסובכות עם פטנטי תוכנה. <a href='https://github.com/nylira/prism-break/issues/126#issuecomment-19898104'>למידע נוסף</a> (באנגלית).</p>", 
 
   "live-cd-title": "דיסקי אתחול ותמונות עבור מכונות ווירטואליות", 
-  "liberte": "תקליטור אתחול/USB שעוצב כעזר תקשורת באזורים עוינים.", 
+  "liberte-linux": "תקליטור אתחול/USB שעוצב כעזר תקשורת באזורים עוינים.", 
   "tails": "תקליטור אתחול/USB המיועד לשמירת הפרטיות והאנונימיות שלך.", 
-  "jondolive": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
+  "jondo-live-cd": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.", 
   "whonix": "מערכת הפעלה אוכפת־Tor המרוכזת כל אנונימיות, פרטיות ובטחון. מציעה תמונות VM מוכנות לשימוש.", 
   "live-cd-notes": "<p>הפצת זמן אמת כמו <strong>Tails</strong> או <strong>Liberté Linux</strong> היא הדרך המהירה והקלה ביותר למערכת הפעלה בטוחה. כל שצריך לעשות הוא ליצור דיסק אתחול או החסן נייד אתחול נייד (דיסק און קי) עם הקבצים שסופקו ואתה מוכן. כל דבר אחר כבר מוגדר מראש בשבילך.</p><p>תמונת מכונה ווירטואלית (VM) כמו <strong>Whonix</strong> מעוצבת לרוץ בתוך חבילת ווירטואליזציה כמו <a href='https://www.virtualbox.org/'>VirtualBox</a>. ניתן להתקין VirtualBox על Windows, Linux, OS X, ו-Solaris. זה אומר שאם אתה נאלץ להשתמש ב-Windows או OS X מכל סיבה כלשהיא, אתה יכול להתקין VirtualBox ולהשתמש ב-Whonix כדי להגביר את הבטיחות והפרטיות שלך.</p>", 
 
