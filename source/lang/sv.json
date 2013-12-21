@@ -43,11 +43,11 @@
   "mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>", 
 
   "web-browser": "Webbläsare", 
-  "torbrowser": "Krypterad, anonym surfning.", 
-  "jondonym": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.", 
-  "firefox": "Webbläsare med öppen källkod.", 
+  "tor-browser-bundle": "Krypterad, anonym surfning.", 
+  "jondofox": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.", 
+  "mozilla-firefox": "Webbläsare med öppen källkod.", 
   "orbot": "Tor proxy för Android.", 
-  "onionbrowser": "Surf the web through the Tor network with this open source browser for iOS devices.", 
+  "onion-browser": "Surf the web through the Tor network with this open source browser for iOS devices.", 
   "web-browser-note": "<p>Använd en kombination av <strong>Tor Browser</strong> och en valfri gratis webbläsare för att surfa på webben.</p> <p>Testa att använda <strong>Tor Browser</strong> så ofta som möjligt. Att surfa är långsammare med Tor, men mycket mer säkert.</p> <p>Notera: <strong>Mozilla Firefox</strong> är tekniskt sett inte helt fri mjukvara, eftersom Mozilla rekommenderar icke-fria tillägg på deras webbsida.</p>", 
 
   "web-browser-plugins": "Tillägg för Webbläsare", 

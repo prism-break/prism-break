@@ -20,8 +20,8 @@
 
   "web-browser": "Интернет прегледачи",
   "icecat": "ГНУ верзија Фајерфокса.",
-  "firefox": "Интернет прегледач отвореног кода.",
-  "torbrowser": "Шифровано анонимно прегледање.",
+  "mozilla-firefox": "Интернет прегледач отвореног кода.",
+  "tor-browser-bundle": "Шифровано анонимно прегледање.",
 
   "web-browser-plugins": "Dodaci za internet pregledače",
   "adblockedge": "Block advertisements on the web.",
@@ -154,7 +154,7 @@
   "csipsimple": "Бесплатан и шифрован ВоИП за Андроид.",
   "chatsecure-android": "Приватано и сигурно ОТР дописивање за Андроид.",
   "orbot": "Тор прокси за Андроид.",
-  "onionbrowser": "Surf the web through the Tor network with this open source browser for iOS devices.",
+  "onion-browser": "Surf the web through the Tor network with this open source browser for iOS devices.",
   "xabber": "ОТР-шифровано дописивање за Андроид.",
 
   "mobile-os": "iOS &amp; WP",
@@ -163,7 +163,7 @@
   "mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>",
 
   "chatsecure": "Шифрујте дописивање у иОС-у.",
-  "onionbrowser": "Сигурно претраживање за иОС.",
+  "onion-browser": "Сигурно претраживање за иОС.",
 
   "anon-networks": "Anonymizing network",
   "gnunet": "GNUnet is a fully free P2P network.",

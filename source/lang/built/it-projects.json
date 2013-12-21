@@ -1350,7 +1350,7 @@
     "slug": "exim"
   },
   {
-    "description": "F-Droid is a software repository (or \"app store\") for Android applications; it functions similarly to the Google Play store, but only contains free and open-source software. The apps can be browsed and installed from the F-Droid website or directly from the F-Droid client app (which is not available in the Google Play store, but can be installed by sideloading). The F-Droid client app will automatically update installed F-Droid apps. ",
+    "description": "Applicazioni libere e open source per Android.",
     "license_url": "https://f-droid.org/about/",
     "logo": "f-droid.png",
     "notes": "",
@@ -1406,7 +1406,7 @@
     "slug": "fedora"
   },
   {
-    "description": "Firefox OS (project name: Boot to Gecko, also known as B2G) is a Linux-based open-source operating system for smartphones and tablet computers. It is being developed by Mozilla, the non-profit organization best known for the Firefox web browser.\n\nFirefox OS is designed to provide a \"complete\" community-based alternative system for mobile devices, using open standards and approaches such as HTML5 applications, JavaScript, a robust privilege model, open web APIs to communicate directly with cellphone hardware, and application marketplace. ",
+    "description": "Firefox OS is a free open-source operating system for Android-compatible smartphones and tablet computers.",
     "license_url": "https://www.mozilla.org/en-US/foundation/licensing/",
     "logo": "mozilla-firefox.png",
     "notes": "",
@@ -2304,7 +2304,7 @@
     "slug": "jondo-live-cd"
   },
   {
-    "description": "Java Anon Proxy, also known as JAP or JonDonym, is a proxy system designed to allow browsing the Web with revocable pseudonymity. It was originally developed as part of a project of the Technische Universität Dresden, the Universität Regensburg and Privacy Commissioner of Schleswig-Holstein. The client-software is written in the Java programming language.",
+    "description": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.",
     "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
     "logo": "jondonym.png",
     "notes": "",
@@ -2966,7 +2966,7 @@
     "slug": "movim"
   },
   {
-    "description": "Mozilla Firefox is a free and open source web browser developed for Windows, OS X, and Linux, with a mobile version for Android, by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.\n\nAs of July 2013[update], Firefox has between 16% and 21% of worldwide usage, making it the third most popular web browser, according to different sources. ",
+    "description": "Browser internet open source.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
@@ -3357,7 +3357,7 @@
     "slug": "off-the-record-messaging"
   },
   {
-    "description": "Onion Browser is a minimal web browser that encrypts and tunnels web traffic through the Tor onion router network and provides other tools to help browse the internet while maintaining privacy.",
+    "description": "Surf the web through the Tor network with this open source browser for iOS devices.",
     "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
     "logo": "onion-browser.png",
     "notes": "",
@@ -4768,7 +4768,7 @@
     "slug": "tor"
   },
   {
-    "description": "Tor Browser Bundle is a web browser based on Firefox ESR, pre-configured to protect users' privacy and anonymity on the web. is a free repackaged version of the bundled Tor Software. The program allows the end user to connect to the Tor anonymity network. ",
+    "description": "Navigazione anonima e criptata.",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
     "logo": "tor-browser-bundle.png",
     "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",

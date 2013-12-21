@@ -43,11 +43,11 @@
   "mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>", 
 
   "web-browser": "Navegador Web", 
-  "torbrowser": "Navegació xifrada i anònima.", 
-  "jondonym": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.", 
-  "firefox": "Navegador web de codi lliure i obert.", 
+  "tor-browser-bundle": "Navegació xifrada i anònima.", 
+  "jondofox": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.", 
+  "mozilla-firefox": "Navegador web de codi lliure i obert.", 
   "orbot": "TOR per a Android.", 
-  "onionbrowser": "Surf the web through the Tor network with this open source browser for iOS devices.", 
+  "onion-browser": "Surf the web through the Tor network with this open source browser for iOS devices.", 
   "web-browser-note": "<span class='p'>Usa una combinación de <strong>Tor Browser</strong> y un navegador web libre de tu elección para navegar por la red.</span> <span class='p'>Intenta usar <strong>Tor Browser</strong> tan a menudo como sea posible. La navegación es más lenta con Tor, pero mucho más segura.</span> <span class='p'>Nota: <strong>Mozilla Firefox</strong> técnicamente no es completamente software libre, ya que Mozilla recomienda agregados no libres en su página web.</span>", 
 
   "web-browser-plugins": "Afegits per a Navegadors Web", 
