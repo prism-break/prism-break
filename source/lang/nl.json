@@ -77,9 +77,9 @@
   "maps-note": "<blockquote><p>&ldquo;Als je meewerkt aan het OpenStreetMap help je mee om een geografische database van de wereld te bouwen welke vrij en open voor iedereen is en voor altijd.&rdquo;</p><footer>&mdash; <cite><a href='https://wiki.openstreetmap.org/wiki/Google_Map_Maker'>OpenStreetMap Wiki</a></cite></footer></blockquote>", 
 
   "email-service": "E-mail diensten", 
-  "autistici": "Een volledige verzameling van vrije, privacy-respecterende services.", 
+  "autistici-inventati": "Een volledige verzameling van vrije, privacy-respecterende services.", 
   "bitmessage": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.", 
-  "mykolabcom": "Kolab accounts gehost in Zwitzerland voor 10 CHF per maand.", 
+  "mykolab": "Kolab accounts gehost in Zwitzerland voor 10 CHF per maand.", 
   "retroshare": "Vrij en veilig P2P communicatieplatform.", 
   "riseup": "Veilige communicatiemiddelen voor activisten.", 
   "email-service-note": "<p><strong>Important:</strong> switching from Gmail to one of the recommended services is only the first step to a secure email account. You&rsquo;re still sending plain text messages. You and your contacts need to encrypt your messages with <a href='#email-encryption'>PGP</a>. Scroll down to find an <a href='#email-client'>email client</a> that supports PGP.</p><p><strong>MyKolab</strong> is hosted in Switzerland and benefits from the strong Swiss privacy laws. It is run with free software and lets you export all your data.</p><p>Why not Hushmail? See <a href='https://en.wikipedia.org/wiki/Hushmail#Compromises_to_email_privacy'>'compromises to email privacy'</a>.</p><p><strong>Bitmessage</strong> is a promising alternative to email, but it&rsquo;s is not ready for daily usage. Use at your own risk.</p><p>The only way to have full control over your email is to run your own mail server (e.g. with <strong>Kolab</strong>). This is not for everyone though, as it requires considerable time investment and technical knowledge.</p><p>While not complete yet, the <a href='https://www.freedomboxfoundation.org/'>FreedomBox</a> project is aiming at creating a turnkey solution for encrypted communications.</p>", 
