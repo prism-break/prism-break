@@ -43,11 +43,11 @@
   "mobile-os-note": "<p>iOS et WP sont des systèmes d'exploitation propriétaires dont le code source n'est pas disponible pour être audité par des tiers. Vous ne pouvez faire confiance à un terminal en boîte noire ni pour vos communications ni pour vos données.</p>", 
 
   "web-browser": "Navigateur web", 
-  "torbrowser": "Navigation chiffrée et anonyme.", 
-  "jondonym": "Navigation privée avec le service d'anomisation JonDo IP et le profil JonDoFox pour Firefox.", 
-  "firefox": "Navigateur web libre.", 
+  "tor-browser-bundle": "Navigation chiffrée et anonyme.", 
+  "jondofox": "Navigation privée avec le service d'anomisation JonDo IP et le profil JonDoFox pour Firefox.", 
+  "mozilla-firefox": "Navigateur web libre.", 
   "orbot": "Proxy Tor pour Android.", 
-  "onionbrowser": "Surfer sur le Web à travers le réseau Tor avec ce navigateur open-source pour iOS.", 
+  "onion-browser": "Surfer sur le Web à travers le réseau Tor avec ce navigateur open-source pour iOS.", 
   "web-browser-note": "<p>Utilisez une combinaison de <strong>Tor Browser</strong> et d'un navigateur web libre de votre choix pour surfer sur le Web.</p> <p>Essayez d'utiliser Tor autant que possible, la navigation est plus lente mais est nettement plus sécurisée.</p> <p>Notez qu'utiliser Tor pour se connecter à PayPal ou un site de banque en ligne peut perturber la protection anti-fraude du site.</p><p>Les utilisateurs de Tor doivent aussi faire attention à naviguer en HTTPS, leur communication en HTTP pourraient être intercepter par un nœud de sortie malveillant.</p>", 
 
   "web-browser-plugins": "Plugin pour navigateur web", 

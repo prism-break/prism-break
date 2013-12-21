@@ -43,11 +43,11 @@
   "mobile-os-note": "<p>iOS ו-WP הן מערכות הפעלה קנייניות שקוד המקור שלהן לא זמין לביקורות ע״י גורם צד שלישי. לא כדאי שתפקיד את התקשורת או המידע שלך בידי מכשיר קופסא שחורה.</p>", 
 
   "web-browser": "דפדפן אינטרנט", 
-  "torbrowser": "גלישה מוצפנת ואנונימית.", 
-  "jondonym": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.", 
-  "firefox": "דפדפן אינטרנט בקוד פתוח.", 
+  "tor-browser-bundle": "גלישה מוצפנת ואנונימית.", 
+  "jondofox": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.", 
+  "mozilla-firefox": "דפדפן אינטרנט בקוד פתוח.", 
   "orbot": "פרוקסי Tor עבור אנדרואיד.", 
-  "onionbrowser": "Surf the web through the Tor network with this open source browser for iOS devices.", 
+  "onion-browser": "Surf the web through the Tor network with this open source browser for iOS devices.", 
   "web-browser-note": "<p>השתמשו בשילוב של <strong>דפדפן Tor</strong> ודפדפן חופשי אחר לגלישה באינטרנט. נסו להשתמש ב־Tor כל הזמן. גלישה באינטרנט בעזרתו היא אטית, אבל הרבה יותר מאובטחת.</p><p>יש לשים לב ששימוש ב־<strong>דפדפן Tor</strong> עבור התחברות ל־PayPal או אתר של בנק עלול להפעיל את אמצעי ההגנה מהונאה דיגיטלית.</p><p>כדאי שמשתמשים של <strong>דפדפן Tor</strong> ידעו שהתחברות לאתרי HTTP (במקום HTTPS) עלולה לגרום לכך שההרשאות שלהם יתפסו על ידי צומת יציאה זדוני.</p>", 
 
   "web-browser-plugins": "תוספים לדפדפן אינטרנט", 

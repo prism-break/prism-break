@@ -43,11 +43,11 @@
   "mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>", 
 
   "web-browser": "مرورگر وب", 
-  "torbrowser": "مرور رمز شده و ناشناس وب", 
-  "jondonym": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.", 
-  "firefox": "مرورگر متن باز", 
+  "tor-browser-bundle": "مرور رمز شده و ناشناس وب", 
+  "jondofox": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.", 
+  "mozilla-firefox": "مرورگر متن باز", 
   "orbot": "تور برای اندروید", 
-  "onionbrowser": "Surf the web through the Tor network with this open source browser for iOS devices.", 
+  "onion-browser": "Surf the web through the Tor network with this open source browser for iOS devices.", 
   "web-browser-note": "<p>از ترکیب <strong>مرورگر تور</strong> و یک مرورگر وب آزاد به انتخاب خودتان برای وب‌گردی استفاده کنید.</p> <p>سعی کنید تا جای ممکن از <strong>مرورگر تور</strong> استفاده کنید. مرور با تور ممکن است کمی کندتر باشد، ولی بسیار امن‌تر است.</p> <p>توجّه: <strong>فایرفاکس موزیلا</strong> تکنیکالی به طور کامل نرم‌افزار آزاد نیست، زیرا که موزیلا افزونه‌های غیرآزاد را در وبگاهش توصیه می‌کند.</p>", 
 
   "web-browser-plugins": "افزونه مرورگرها", 
