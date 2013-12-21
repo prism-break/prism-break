@@ -140,12 +140,12 @@
   "social-networking-note": "<p>If you have system administration knowledge, please strongly consider running an instance of <strong>pump.io</strong> (or something else) for your friends, family, or favorite community. Many of them would be willing and grateful to escape Facebook if you provide them a way out.</p><p>For those of you without your own server, <strong>RetroShare</strong> is the easiest way to start your own encrypted social network.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> is a popular Twitter-like social networking hub for the free and open source software community. The site is converting to the <strong>pump.io</strong> software platform sometime this week.</p>", 
 
   "cloud-storage": "Cloud storage", 
-  "gitannex": "Synchronize folders on your computers and drives.", 
-  "ajaxplorer": "Instantly turn any server into a file sharing platform.", 
-  "cozycloud": "A personal PaaS you can host, hack and delete", 
+  "git-annex": "Synchronize folders on your computers and drives.", 
+  "pydio": "Instantly turn any server into a file sharing platform.", 
+  "cozy": "A personal PaaS you can host, hack and delete", 
   "owncloud": "Cloud data in your control.", 
   "sparkleshare": "Self-hosted version control and file sync.", 
-  "tahoelafs": "Free and open cloud storage system.", 
+  "tahoe-lafs": "Free and open cloud storage system.", 
   "cloud-storage-note": "<p>BitTorrent Sync, MEGA, SpiderOak, and Tarsnap are services that are built on either partially or fully proprietary software. They will not be recommended on PRISM Break until they open source the entirety of their codebase.</p><p> With closed source software, you need to have 100% trust in the vendor because there's nothing except for their morality in the way of them leaking your personal information. Even if you can vouch for their integrity, proprietary software invariably has more uncaught security bugs and exploits because there are fewer eyes examining the source code.</p>", 
 
   "online-office-suite": "Online office suite",
