@@ -1,11 +1,11 @@
 include layouts/mixins
 extends layouts/application
 block title
-  = t.siteTitle
+  = t['site-title']
 block content
 
   .content-side
-    .text-block.large!= h.marked(t.siteIntroduction)
+    .text-block.large!= h.marked(t['site-introduction'])
 
   .content-main
     - each platformType in platformTypes

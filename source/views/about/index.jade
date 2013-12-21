@@ -4,19 +4,19 @@ block title
 block content
   
   .content-side
-    .text-block.large!= h.marked(t.siteAboutIndex)
+    .text-block.large!= h.marked(t['site-about-index'])
 
   .content-main
       
     .section
-      .pipe About
+      .pipe= t.About
       .bars
         a.bar(href="./media")
           .label Media Mentions
           .icon: i.fa.fa-angle-right
 
         a.bar(href="./privacy")
-          .label Privacy Policy
+          .label= t['Privacy Policy']
           .icon: i.fa.fa-angle-right
 
         a.bar(href="./prism-break.tgz")
