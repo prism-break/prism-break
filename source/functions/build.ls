@@ -7,39 +7,34 @@ require! '../functions/helpers.ls'
 {view-path, write-html, write-json} = require '../functions/paths.ls'
 {routes} = require '../functions/routes.ls'
 
-# data
-{projects-raw} = require '../db/en-projects.ls'
-{projects-rejected-raw} = require '../db/en-projects-rejected.ls'
-{platform-types} = require '../db/en-platform-types.ls'
-{protocols-raw} = require '../db/en-protocols.ls'
-
-# slugging the data for urls
-projects-db = slugify-db projects-raw
-projects-rejected-db = slugify-db projects-rejected-raw
-protocols-db = slugify-db protocols-raw
-
 
 ############################################################################
 # WRITE FUNCTIONS
 # These functions write all of the HTML pages for the entire site.
 
-write-localized-site = (iso, locale) ->
+write-localized-site = (iso, locale, data) ->
   dir = "public/#{iso}/"
   mkdirp dir
 
-  write-site-index dir, iso, locale
-  write-categories-index dir, iso, locale
-  write-categories-show dir, iso, locale
-  write-subcategories-show dir, iso, locale
-  write-protocols-index dir, iso, locale
-  write-protocols-show dir, iso, locale
-  write-projects-index dir, iso, locale
-  write-projects-show dir, iso, locale
-  write-about-index dir
-  write-about-media dir
+  db =
+    projects-db: slugify-db data.projects-raw
+    projects-rejected-raw: data.projects-rejected-raw
+    protocols-db: slugify-db data.protocols-raw
+    platform-types: data.platform-types
 
-write-site-index = (dir, iso, locale) ->
-  data = platform-types projects-db
+  write-site-index dir, iso, locale, db
+  write-categories-index dir, iso, locale, db
+  write-categories-show dir, iso, locale, db
+  write-subcategories-show dir, iso, locale, db
+  write-protocols-index dir, iso, locale, db
+  write-protocols-show dir, iso, locale, db
+  write-projects-index dir, iso, locale, db
+  write-projects-show dir, iso, locale, db
+  write-about-index dir, iso, locale
+  write-about-media dir, iso, locale
+
+write-site-index = (dir, iso, locale, db) ->
+  data = db.platform-types db.projects-db
 
   path = 'index'
   view = view-path path
@@ -56,8 +51,8 @@ write-site-index = (dir, iso, locale) ->
   write-html view, options, file
   write-json data, file
 
-write-categories-index = (dir, iso, locale) ->
-  data = nested-categories projects-db
+write-categories-index = (dir, iso, locale, db) ->
+  data = nested-categories db.projects-db
 
   path = 'categories/index'
   view = view-path path
@@ -82,7 +77,7 @@ write-categories-index = (dir, iso, locale) ->
     else
       write!
 
-write-categories-show = (dir, iso, locale) ->
+write-categories-show = (dir, iso, locale, db) ->
   create = (category) ->
     data = category
 
@@ -93,7 +88,7 @@ write-categories-show = (dir, iso, locale) ->
       body-class: "#{iso} categories show"
       h: helpers
       category: category
-      platform-types: platform-types projects-db
+      platform-types: db.platform-types db.projects-db
       path: path
       routes: routes 'categories', 2
       language: iso
@@ -111,16 +106,16 @@ write-categories-show = (dir, iso, locale) ->
       else
         write!
 
-  for category in nested-categories(projects-db)
+  for category in nested-categories(db.projects-db)
     create category
 
-write-subcategories-show = (dir, iso, locale) ->
+write-subcategories-show = (dir, iso, locale, db) ->
   create = (subcategory) ->
     data =
       category: category
       subcategory: subcategory
-      projects: in-this-subcategory(subcategory.name, in-this-category(category.name, projects-db))
-      projects-rejected: in-this-subcategory(subcategory.name, in-this-category(category.name, projects-rejected-raw))
+      projects: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-db))
+      projects-rejected: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected-raw))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
     view = view-path 'subcategories/show'
@@ -146,12 +141,12 @@ write-subcategories-show = (dir, iso, locale) ->
       else
         write!
 
-  for category in nested-categories(projects-db)
+  for category in nested-categories(db.projects-db)
     for subcategory in category.subcategories
       create subcategory
 
-write-protocols-index = (dir, iso, locale) ->
-  data = protocol-types protocols-db
+write-protocols-index = (dir, iso, locale, db) ->
+  data = protocol-types db.protocols-db
 
   path = 'protocols/index'
   view = view-path path
@@ -176,9 +171,9 @@ write-protocols-index = (dir, iso, locale) ->
     else
       write!
 
-write-protocols-show = (dir, iso, locale) ->
+write-protocols-show = (dir, iso, locale, db) ->
   create = (protocol) ->
-    protocol.projects = in-this-protocol(protocol.name, projects-db)
+    protocol.projects = in-this-protocol(protocol.name, db.projects-db)
     data = protocol
 
     path = "protocols/#{protocol.slug}/"
@@ -188,7 +183,7 @@ write-protocols-show = (dir, iso, locale) ->
       body-class: "#{iso} protocols show"
       h: helpers
       protocol: data
-      protocol-types: protocol-types protocols-db
+      protocol-types: protocol-types db.protocols-db
       path: path
       routes: routes 'protocols', 2
       language: iso
@@ -206,11 +201,11 @@ write-protocols-show = (dir, iso, locale) ->
       else
         write!
 
-  for protocol in protocols-db
+  for protocol in db.protocols-db
     create protocol
 
-write-projects-index = (dir, iso, locale) ->
-  data = projects-db
+write-projects-index = (dir, iso, locale, db) ->
+  data = db.projects-db
 
   path = 'projects/index'
   view = view-path path
@@ -235,10 +230,10 @@ write-projects-index = (dir, iso, locale) ->
     else
       write!
 
-write-projects-show = (dir, iso, locale) ->
+write-projects-show = (dir, iso, locale, db) ->
   create = (project) ->
     data = slugify-project project
-    #data.projects-related = in-these-subcategories(subcategories-of(project), projects-db)
+    #data.projects-related = in-these-subcategories(subcategories-of(project), db.projects-db)
 
     path = "projects/#{project.slug}/"
     view = view-path 'projects/show'
@@ -264,10 +259,10 @@ write-projects-show = (dir, iso, locale) ->
       else
         write!
 
-  for project in projects-db
+  for project in db.projects-db
     create project
 
-write-about-index = (dir, iso, locale) ->
+write-about-index = (dir, iso, locale, db) ->
   create = ->
     path = 'about/index'
     view = view-path path
@@ -292,7 +287,7 @@ write-about-index = (dir, iso, locale) ->
 
   create!
 
-write-about-media = (dir, iso, locale) ->
+write-about-media = (dir, iso, locale, db) ->
   create = ->
     path = 'about/media/'
     view = view-path 'about/media'
@@ -322,10 +317,4 @@ write-about-media = (dir, iso, locale) ->
 # WRITE SITE
 # This function will write all of the HTML pages per site iso.
 
-
 exports.write-localized-site = write-localized-site
-
-/*
-for iso, locale of i18n
-  write-localized-site(iso, locale)
-*/
