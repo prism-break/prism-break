@@ -229,7 +229,7 @@
   "file-encryption": "HDD- &amp; SSD-Verschlüsselung",
   "truecrypt": "Vollständige oder teilweise Verschlüsselung von Festplatten, Partitionen und wechseldatenträgern unter Windows und Mac OS X.",
   "dmcrypt": "Ein Sub-System des GNU/Linux-Kernels, das transparente Laufwerksverschlüsselung bereitstellt.",
-  "luks": "Ein bequem und einfach zu bedienende Erweiterung von dmcrypt",
+  "cryptsetup": "Ein bequem und einfach zu bedienende Erweiterung von dmcrypt",
   "diskcryptor": "Sehr leistungshähige Software zur Partitionsverschlüsseung für Windows.",
   "encfs": "Dateibasiertes Verschlüsselungstool für GNU/Linux, Mac OS X und Windows.",
   "geli": "Ein Sub-System zur Festplattenverschlüsselungs unter FreeBSD.",

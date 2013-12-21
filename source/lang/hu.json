@@ -226,7 +226,7 @@
   "file-encryption": "File encryption", 
   "truecrypt": "Real-time disk and partition encryption software for multiple platforms.", 
   "dmcrypt": "Transparent disk encryption subsystem included in the GNU/Linux kernel.", 
-  "luks": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.", 
+  "cryptsetup": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.", 
   "diskcryptor": "High performance partition encryption software for Windows.", 
   "encfs": "File based encryption tool with support for Linux, Mac OS and Windows.", 
   "geli": "Disk encryption subsystem included in the FreeBSD operating system.", 

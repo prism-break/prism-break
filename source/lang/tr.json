@@ -229,7 +229,7 @@
   "file-encryption": "Dosya şifreleme", 
   "truecrypt": "Real-time disk and partition encryption software for multiple platforms.", 
   "dmcrypt": "GNU/Linux kerneline dahil şeffaf disk şifreleme altyapısı.", 
-  "luks": "LUKS dm-crypt üzerinde kullanım kolaylığı ve rahatlık sağlayan bir katmandır.", 
+  "cryptsetup": "LUKS dm-crypt üzerinde kullanım kolaylığı ve rahatlık sağlayan bir katmandır.", 
   "diskcryptor": "High performance partition encryption software for Windows.", 
   "encfs": "File based encryption tool with support for Linux, Mac OS and Windows.", 
   "geli": "FreeBSD işletim sistemine dahil disk şifreleme altyapısı.", 
