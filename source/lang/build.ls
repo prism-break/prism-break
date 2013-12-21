@@ -9,10 +9,11 @@ require! mkdirp
 {routes} = require '../functions/routes.ls'
 
 # data
-{projects-raw} = require '../db/en-projects.ls'
-projects = slugify-db projects-raw
+{projects} = require '../db/en-projects.ls'
+projects = slugify-db projects
 
-#write-json projects, "./built/en-projects-all"
+write-json projects, "./built/en-projects"
+
 mkdirp './db'
 mkdirp './i18n'
 
@@ -21,7 +22,7 @@ languages["ar"] = require './ar.json'
 languages["ca"] = require './ca.json'
 languages["de"] = require './de.json'
 languages["el"] = require './el.json'
-languages["en"] = require './en.json'
+#languages["en"] = require './en.json'
 languages["eo"] = require './eo.json'
 languages["es"] = require './es.json'
 languages["fa"] = require './fa.json'
