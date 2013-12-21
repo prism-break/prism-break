@@ -40,7 +40,7 @@
     "slug": "adblock-edge"
   },
   {
-    "description": "Programma open source per chat multiprotocollo per OS X.",
+    "description": "Adium is a free and open source instant messaging client for Mac that supports multiple IM networks, including Windows Live Messenger, Yahoo! Messenger, Google Talk, AIM, ICQ and XMPP. It is written using Mac's Cocoa API, and it is released under the GNU General Public License and many other licenses for components that are distributed with Adium.",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
     "notes": "",
@@ -67,7 +67,7 @@
     "slug": "adium"
   },
   {
-    "description": "OpenPGP implementation for Android.",
+    "description": "Android Privacy Guard (APG) is a Free Software and open source application that runs on the Android Operating System. The application provides strong, user-based encryption which is compatible with the Pretty Good Privacy (PGP) and GNU Privacy Guard (GPG) programs. This allows users to encrypt, decrypt, sign, and verify signatures for text, emails, and files.",
     "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
     "logo": "apg.png",
     "notes": "",
@@ -91,7 +91,7 @@
     "slug": "apg"
   },
   {
-    "description": "Elegant, minimal, and flexible Linux&reg; distribution.",
+    "description": "Arch Linux (or Arch /ˈɑrtʃ/) is a Linux-based operating system for i686 and x86-64 computers. It is composed predominantly of free and open source software, and supports community involvement.\n\nThe design approach of the development team focuses on elegance, code correctness, minimalism, and simplicity from a developer's standpoint rather than a user's standpoint. ",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
     "notes": "",
@@ -125,7 +125,7 @@
     "slug": "arch-linux"
   },
   {
-    "description": "PBX implementation with VoIP/SIP support.",
+    "description": "Asterisk is a software implementation of a telephone private branch exchange (PBX); it was created in 1999 by Mark Spencer of Digium. Like any PBX, it allows attached telephones to make calls to one another, and to connect to other telephone services, such as the public switched telephone network (PSTN) and Voice over Internet Protocol (VoIP) services. Its name comes from the asterisk symbol, *.",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
     "notes": "",
@@ -178,7 +178,7 @@
     "slug": "autistici-inventati"
   },
   {
-    "description": "Valuta digitale P2P senza un'autorit&agrave; centrale.",
+    "description": "Bitcoin (sign: ; code: BTC or XBT) is a distributed, peer-to-peer digital currency that functions without the intermediation of any central authority. The concept was introduced in a 2008 paper by a pseudonymous developer known as \"Satoshi Nakamoto\".\n\nBitcoin has been called a cryptocurrency because it is decentralized and uses cryptography to control transactions and prevent double-spending, a problem for digital currencies. ",
     "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
     "logo": "bitcoin.png",
     "notes": "",
@@ -236,7 +236,7 @@
     "slug": "bitcoin"
   },
   {
-    "description": "IRC instant messaging gateway that supports a bunch of protocols.",
+    "description": "BitlBee is a cross-platform IRC instant messaging gateway, licensed under the terms of the GNU General Public License.\n\nBitlBee communicates with the user via the IRC protocol, providing a gateway to popular chat networks such as AIM and ICQ (via OSCAR), Microsoft Messenger service (via MSNP), Yahoo! (via YMSG) and Google Talk and Facebook Messenger (via XMPP) and the microblogging networks Twitter, Identi.ca, and status.net. ",
     "license_url": "http://code.bitlbee.org/lh/bitlbee/view/head:/COPYING",
     "logo": "bitlbee.png",
     "notes": "",
@@ -284,7 +284,7 @@
     "slug": "bitlbee"
   },
   {
-    "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
+    "description": "Bitmessage is a decentralized, encrypted, peer-to-peer, trustless communications protocol that can be used by one person to send encrypted messages to another person, or to multiple subscribers. Bitmessage encrypts each users' message inbox using strong encryption and replicates it inside its P2P network mixing it with inboxes of other users in order to conceal user's identity, prevent eavesdropping and protect the network from any control. The Bitmessage communication protocol avoids sender-spoofing through strong authentication, and hides metadata from wiretapping systems.",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
@@ -346,7 +346,7 @@
     "slug": "buddycloud"
   },
   {
-    "description": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
+    "description": "Byzantium is a live Linux distribution based on Porteus Linux that delivers easy-to-use, secure, and robust mesh networking capabilities.",
     "license_url": "https://github.com/Byzantium/Byzantium/blob/master/LICENSE",
     "logo": "byzantium.png",
     "notes": "",
@@ -398,7 +398,7 @@
     "slug": "byzantium"
   },
   {
-    "description": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
+    "description": "CentOS (\"Community Enterprise Operating System\") is a Linux distribution that attempts to provide a free enterprise class computing platform which has 100% binary compatibility with its upstream source, Red Hat Enterprise Linux (RHEL).",
     "license_url": "http://mirror.centos.org/centos/6/os/x86_64/GPL",
     "logo": "centos.png",
     "notes": "",
@@ -420,7 +420,7 @@
     "slug": "centos"
   },
   {
-    "description": "Messaggistica cifrata per iOS.",
+    "description": "ChatSecure is an application for Android and iOS devices that offers OTR-encrypted instant messaging.",
     "license_url": "https://github.com/guardianproject/ChatSecureAndroid/blob/master/LICENSE",
     "logo": "chatsecure.png",
     "notes": "The Guardian Project hosts <a href='https://guardianproject.info/howto/chatsecurely/'>a fantastic how-to guide</a> to chatting securely on Android.",
@@ -541,7 +541,7 @@
     "slug": "claws-mail"
   },
   {
-    "description": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+    "description": "CloudNS is an Australia-based DNS provider currently offering a free DNS resolution service, with DNS hosting and email infrastructure under construction.",
     "license_url": "",
     "logo": "cloudns.png",
     "notes": "",
@@ -563,7 +563,7 @@
     "slug": "cloudns"
   },
   {
-    "description": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.",
+    "description": "Commotion Wireless is an open-source wireless mesh network for electronic communication. ",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
     "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
@@ -637,7 +637,7 @@
     "slug": "cozy"
   },
   {
-    "description": "Private and encrypted instant messaging within the web browser.",
+    "description": "Cryptocat is an open source web application intended to allow secure, encrypted online chatting. Cryptocat encrypts chats on the client side, only trusting the server with data that is already encrypted. Cryptocat is offered as an app for Mac or as a browser extension for Google Chrome, Mozilla Firefox and Apple Safari.",
     "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
     "logo": "cryptocat.png",
     "notes": "",
@@ -723,7 +723,7 @@
     "slug": "cryptsetup"
   },
   {
-    "description": "Applicazione VoIP libera e cifrata per Android.",
+    "description": "CSipSimple is a Voice over Internet Protocol (VoIP) application for Google Android operating system using the Session Initiation Protocol (SIP). ",
     "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
     "logo": "csipsimple.png",
     "notes": "",
@@ -750,7 +750,7 @@
     "slug": "csipsimple"
   },
   {
-    "description": "Firmware sostitutivo per dispositivi Android.",
+    "description": "CyanogenMod (pronounced /saɪ.ˈæn.oʊ.ˌdʒɛn.mɒd/) is an open source replacement distribution for smartphones and tablet computers based on the Android mobile operating system. It is developed as free and open source software based on the official releases of Android by Google, with added original and third-party code.\n\nIt offers features and options not found in the official firmware distributed by mobile device vendors. ",
     "license_url": "https://source.android.com/source/licenses.html",
     "logo": "cyanogenmod.png",
     "notes": "",
@@ -778,7 +778,7 @@
     "slug": "cyanogenmod"
   },
   {
-    "description": "Distribuzione GNU/Linux famosa per il suo contratto sociale.",
+    "description": "Debian (/ˈdɛbiən/) is an operating system composed of free software mostly carrying the GNU General Public License. The operating system is developed by an internet collaboration of volunteers aligned with The Debian Project.\n\nDebian systems can use either the Linux kernel (known as the Debian GNU/Linux distribution), the FreeBSD kernel (known as the Debian GNU/kFreeBSD distribution) or, more recently, the GNU Hurd kernel (more precisely, the GNU Mach microkernel and its servers; known as the Debian GNU/Hurd distribution).",
     "license_url": "http://www.debian.org/legal/licenses/",
     "logo": "debian.png",
     "notes": "",
@@ -818,7 +818,7 @@
     "slug": "debian"
   },
   {
-    "description": "Free open source client for the Desura distribution service.",
+    "description": "Free and open source client for the Desura digital distribution service.",
     "license_url": "https://github.com/desura/Desurium/blob/master/LICENSE",
     "logo": "desurium.png",
     "notes": "Desurium is client software. You will still have to trust and depend on the proprietary <a href='http://www.desura.com'>Desura service</a>.",
@@ -846,7 +846,7 @@
     "slug": "desurium"
   },
   {
-    "description": "Social network distribuito e comunitario.",
+    "description": "Diaspora (stylized DIASPORA*) is a free personal web server that implements a distributed social networking service. Installations of the software form nodes (termed \"pods\") which make up the distributed Diaspora social network.\n\nThe project was founded by Dan Grippi, Maxwell Salzberg, Raphael Sofaer and Ilya Zhitomirskiy, students at New York University's Courant Institute of Mathematical Sciences. ",
     "license_url": "https://github.com/diaspora/diaspora/blob/develop/COPYRIGHT",
     "logo": "diaspora.png",
     "notes": "",
@@ -876,7 +876,7 @@
     "slug": "diaspora"
   },
   {
-    "description": "Blocca il tracciamento dati di siti di terze parti.",
+    "description": "Used by over a million people, Disconnect lets you visualize and block the invisible websites that track you.\n\nAvailable for Google Chrome, Mozilla Firefox, Apple Safari, and Opera.",
     "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
     "logo": "disconnect.png",
     "notes": "",
@@ -946,7 +946,7 @@
     "slug": "disconnect-search"
   },
   {
-    "description": "High performance partition encryption software for Windows.",
+    "description": "DiskCryptor a full disk encryption system for Microsoft Windows that allows the encryption of an entire PC's harddrive or individual partitions – including the ability to encrypt the partition and disk on which the OS is installed.",
     "license_url": "https://diskcryptor.net/wiki/Main_Page",
     "logo": "diskcryptor.png",
     "notes": "",
@@ -1030,7 +1030,7 @@
     "slug": "dragonfly-bsd"
   },
   {
-    "description": "Ricerche anonime e non registrate.",
+    "description": "DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the \"filter bubble\" of personalized search results. DuckDuckGo distinguishes itself from other search engines by not profiling its users and by deliberately showing all users the same search results for a given search term. DuckDuckGo also emphasizes getting information from the best sources rather than the most sources, generating its search results from key crowdsourced sites such as Wikipedia and from partnerships with other search engines like Yandex, Yahoo!, Bing and WolframAlpha.",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
     "notes": "DuckDuckGo is a software-as-a-service (SaaS) hosted around the world that provides you with anonymous search results from [these sources](https://dukgo.com/help/en_US/results/sources). DDG open source components are [available here](https://github.com/duckduckgo).\n\nThere is also a DuckDuckGo hidden service at [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) for Tor users.",
@@ -1055,7 +1055,7 @@
     "slug": "duckduckgo"
   },
   {
-    "description": "A free securely-hosted online poll, with a privacy-enhanced version.",
+    "description": "A free securely-hosted online poll with an optional privacy-enhanced version.",
     "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
     "logo": "dudle.png",
     "notes": "",
@@ -1107,7 +1107,7 @@
     "slug": "dukgocom"
   },
   {
-    "description": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
+    "description": "eCryptfs (Enterprise Cryptographic Filesystem) is a package of disk encryption software for Linux. It is implemented as a POSIX-compliant filesystem-level encrypted file system that has been part of the Linux Kernel since version 2.6.19.",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
     "logo": "geli.png",
     "notes": "",
@@ -1129,7 +1129,7 @@
     "slug": "ecryptfs"
   },
   {
-    "description": "XMPP server written in Erlang/OTP for GNU/Linux and OS X.",
+    "description": "ejabberd is an XMPP application server, written mainly in the Erlang programming language. It can run under several Unix-like operating systems such as Mac OS X, GNU/Linux, FreeBSD, NetBSD, OpenBSD and OpenSolaris. Additionally, ejabberd can run under Microsoft Windows, however, a user must stay logged in or always restart the ejabberd service remotely after any logout from the machine.",
     "license_url": "https://github.com/processone/ejabberd/blob/master/COPYING",
     "logo": "ejabberd.png",
     "notes": "",
@@ -1153,7 +1153,7 @@
     "slug": "ejabberd"
   },
   {
-    "description": "File based encryption tool with support for Linux, Mac OS and Windows.",
+    "description": "*\"EncFS provides an encrypted filesystem in user-space. It runs without any special permissions and uses the FUSE library and Linux kernel module to provide the filesystem interface. You can find links to source and binary releases below. EncFS is open source software, licensed under the GPL.\"*",
     "license_url": "https://code.google.com/p/encfs/source/browse/trunk/COPYING",
     "logo": "encfs.png",
     "notes": "EncFS is available for Windows through the \"encfs4win\" port.",
@@ -1199,7 +1199,7 @@
     "slug": "encfs"
   },
   {
-    "description": "Plugin per Thunderbird/Icedove con supporto OpenPGP.",
+    "description": "Enigmail is a data encryption and decryption extension for Mozilla Thunderbird and the SeaMonkey internet suite that provides OpenPGP public key e-mail encryption and signing. Enigmail works under Microsoft Windows, Unix-like, and Mac OS operating systems. Its cryptographic functionality is handled by GNU Privacy Guard.",
     "license_url": "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi",
     "logo": "enigmail.png",
     "notes": "[Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.",
@@ -1241,7 +1241,7 @@
     "slug": "enigmail"
   },
   {
-    "description": "Server per fogli di calcolo multi-utente.",
+    "description": "*\"EtherCalc is a web spreadsheet.\n\nYour data is saved on the web, and people can edit the same document at the same time. Everybody's changes are instantly reflected on all screens.\"*",
     "license_url": "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt",
     "logo": "ethercalc.png",
     "notes": "The EtherCalc service does not encrypt your data transmission with HTTPS, and there's no privacy policy regarding what is done with your data either. Download and run your own EtherCalc server if you care about privacy.",
@@ -1269,7 +1269,7 @@
     "slug": "ethercalc"
   },
   {
-    "description": "Sistema open source per documenti collaborativi in real-time.",
+    "description": "Etherpad (previously known as EtherPad) is a web-based collaborative real-time editor, allowing authors to simultaneously edit a text document, and see all of the participants' edits in real-time, with the ability to display each author's text in their own color. There is also a chat box in the sidebar to allow meta communication.\n\nFirst launched in November 2008, the software was acquired by Google in December 2009 and released as open source later that month. ",
     "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
     "logo": "etherpad.png",
     "notes": "The etherpad project maintains a list of [sites that run etherpad services](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Please only choose from the services that use SSL, and research the site's background before trusting them with your data.",
@@ -1299,7 +1299,7 @@
     "slug": "etherpad"
   },
   {
-    "description": "Client email e calendario libero.",
+    "description": "Evolution (formerly Novell Evolution and Ximian Evolution, prior to Novell's 2003 acquisition of Ximian) is the official personal information manager for GNOME. It has been an official part of GNOME since Evolution 2.0 was included with the GNOME 2.8 release in September 2004. It combines e-mail, address book, calendar, task list and note-taking features. Its user interface and functionality is similar to Microsoft Outlook. ",
     "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
     "logo": "evolution.png",
     "notes": "",
@@ -1328,7 +1328,7 @@
     "slug": "evolution"
   },
   {
-    "description": "MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.",
+    "description": "MTA used on approximately 43% of all email servers&mdash;the default on Debian GNU/Linux.",
     "license_url": "https://github.com/Exim/exim/blob/master/src/LICENCE",
     "logo": "exim.png",
     "notes": "",
@@ -1372,7 +1372,7 @@
     "slug": "f-droid"
   },
   {
-    "description": "Distribuzione GNU/Linux veloce, stabile e potente.",
+    "description": "Fedora /fɨˈdɒr.ə/, formerly Fedora Core, is an RPM-based, general purpose collection of software, including an operating system based on the Linux kernel, developed by the community-supported Fedora Project and owned by Red Hat. The Fedora Project's mission is to lead the advancement of free and open source software and content as a collaborative community.\n\nOne of Fedora's main objectives is not only to contain software distributed under a free and open source license, but also to be on the leading edge of such technologies. ",
     "license_url": "https://fedoraproject.org/wiki/Licensing:Main",
     "logo": "fedora.png",
     "notes": "",
@@ -1434,7 +1434,7 @@
     "slug": "firefox-os"
   },
   {
-    "description": "A free BSD-derived operating system.",
+    "description": "FreeBSD is a free Unix-like operating system descended from AT&T UNIX via BSD UNIX.  Although for legal reasons FreeBSD cannot be called \"UNIX\", as a direct descendant of BSD UNIX (many of whose original developers became FreeBSD developers), FreeBSD's internals and system APIs are UNIX-compliant. Due to its permissive licensing terms, much of FreeBSD’s code base has become an integral part of other operating systems such as Apple's OS X that have subsequently been certified as UNIX-compliant and have formally received UNIX branding. ",
     "license_url": "https://www.freebsd.org/copyright/freebsd-license.html",
     "logo": "freebsd.png",
     "notes": "",
@@ -1474,7 +1474,7 @@
     "slug": "freebsd"
   },
   {
-    "description": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.",
+    "description": "FreedomBox is a community project to develop, design and promote personal servers running free software for distributed social networking, email and audio/video communications. The project was announced by Eben Moglen at the New York ISOC meeting on February 2, 2010.",
     "license_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "freedombox.png",
     "notes": "",
@@ -1501,7 +1501,7 @@
     "slug": "freedombox"
   },
   {
-    "description": "Rete decentralizzata contro la censura.",
+    "description": "Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to store information, and has a suite of free software for working with this data store. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defines Freenet's goal as providing freedom of speech with strong anonymity protection.",
     "license_url": "https://github.com/freenet/fred-staging/blob/next/LICENSE",
     "logo": "freenet.png",
     "notes": "",
@@ -1547,7 +1547,7 @@
     "slug": "freenet"
   },
   {
-    "description": "Cross-platform soft switch software with VoIP/SIP support.",
+    "description": "FreeSWITCH is free and open source communications software for the creation of voice and messaging products. It is licensed under the Mozilla Public License (MPL), a free software license. Its core library, libfreeswitch, is capable of being embedded into other projects, as well as being used as a stand-alone application.",
     "license_url": "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true",
     "logo": "freeswitch.png",
     "notes": "",
@@ -1572,7 +1572,7 @@
     "slug": "freeswitch"
   },
   {
-    "description": "A non-commercial open grassroots initiative to support free radio networks around the world.",
+    "description": "Freifunk (German for: \"Free radio\") is a non-commercial open Grassroots initiative to support free radio networks in the German region. Freifunk is part of the international movement for open wireless radio networks. For more information on such projects around the world, see wireless community network.",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "freifunk.png",
     "notes": "",
@@ -1594,7 +1594,7 @@
     "slug": "freifunk"
   },
   {
-    "description": "Web server sociale libero, open source e distribuito.",
+    "description": "Friendica (formerly known as Friendika) is open source software that implements a distributed social network. Before it became Friendika, the project started initially as Mistpark, developed by Mike Macgirvin,[citation needed] a software developer formerly employed by Symantec Corporation, America Online (AOL), Sun Microsystems, Netscape Communications, and Stanford University who had worked on the original Netscape Navigator project, among others. Friendica has an emphasis on extensive privacy settings and easy server installation. ",
     "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
     "logo": "friendica.png",
     "notes": "",
@@ -1620,7 +1620,7 @@
     "slug": "friendica"
   },
   {
-    "description": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.",
+    "description": "Gajim /ɡɛˈʒiːm/ is an instant messaging client for the XMPP protocol which uses the GTK+ toolkit. The name Gajim is a recursive acronym for Gajim's a jabber instant messenger. Gajim runs on GNU/Linux, BSD and Microsoft Windows. ",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.png",
     "notes": "",
@@ -1659,7 +1659,7 @@
     "slug": "gajim"
   },
   {
-    "description": "Distribuzione GNU/Linux orientata a customizzazione, controllo e sicurezza.",
+    "description": "Gentoo Linux (/ˈdʒɛntuː/ JEN-too, named after the Gentoo Penguin) is a computer operating system built on top of the Linux kernel and based on the Portage package management system. It is distributed as free and open source software. Unlike a conventional software distribution, the user compiles the source code locally according to that user's chosen configuration. ",
     "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
     "logo": "gentoo.png",
     "notes": "",
@@ -1741,7 +1741,7 @@
     "slug": "git-annex"
   },
   {
-    "description": "Distribuzione GNU/Linux basata su Debian.",
+    "description": "gNewSense is a computer operating system, originally based on Ubuntu and later upon Debian, and developed with sponsorship from the Free Software Foundation. Its goal is user-friendliness, but with all proprietary (e.g. binary blobs) and non-free software removed. ",
     "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
     "logo": "gnewsense.png",
     "notes": "",
@@ -1841,7 +1841,7 @@
     "slug": "gnu-social"
   },
   {
-    "description": "GNUnet is a fully free P2P network.",
+    "description": "GNUnet is a free software framework for decentralized, peer-to-peer networking and an official GNU package. The framework offers link encryption, peer discovery, resource allocation, communication over many transports (such as tcp, udp, http, https, wlan and bluetooth) and various basic peer-to-peer algorithms for routing, multicast and network size estimation.\n\nGNUnet's basic network topology is that of a mesh network. ",
     "license_url": "https://gnunet.org/svn/gnunet/COPYING",
     "logo": "gnunet.png",
     "notes": "",
@@ -1984,7 +1984,7 @@
     "slug": "guifinet"
   },
   {
-    "description": "Cross-platform IRC client.",
+    "description": "HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like systems. Since XChat is open source, it’s perfectly legal. For more info, please read the \"Shareware background\" on the official website.",
     "license_url": "https://github.com/hexchat/hexchat/blob/master/COPYING",
     "logo": "hexchat.png",
     "notes": "HexChat does not offer encrypted IRC by default. You need to enable the FiSHLiM plugin for IRC message encryption.",
@@ -2068,7 +2068,7 @@
     "slug": "https-everywhere"
   },
   {
-    "description": "Progetto Internet Invisibile.",
+    "description": "I2P (Invisible Internet Project) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous web surfing, chatting, blogging and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node. ",
     "license_url": "https://www.i2p2.de/licenses",
     "logo": "i2p.png",
     "notes": "",
@@ -2116,7 +2116,7 @@
     "slug": "i2p"
   },
   {
-    "description": "Image hosting with in-browser AES-256 encryption.",
+    "description": "img.bi offers image hosting with in-browser AES-256 encryption.",
     "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
     "logo": "imgbi.png",
     "notes": "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
@@ -2148,7 +2148,7 @@
     "slug": "imgbi"
   },
   {
-    "description": "Highly scalable and configurable messaging platform based on the MTA qmail.",
+    "description": "IndiMail is a highly scalable and configurable messaging platform based on the MTA qmail.",
     "license_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING",
     "logo": "indimail.png",
     "notes": "",
@@ -2170,7 +2170,7 @@
     "slug": "indimail"
   },
   {
-    "description": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
+    "description": "iRedMail is a script that installs and configures email server packages automatically in Linux and BSD.",
     "license_url": "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/README?at=default",
     "logo": "iredmail.png",
     "notes": "",
@@ -2216,7 +2216,7 @@
     "slug": "ixquick"
   },
   {
-    "description": "Chat e videoconferenze cifrate.",
+    "description": "Jitsi (formerly SIP Communicator) is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application for Windows, Linux and Mac. It supports several popular instant messaging and telephony protocols, including open recognised encryption protocols for chat (OTR) and voice/video/streaming and voice/video conferencing (SIP/RTP/SRTP/ZRTP), as well as built-in IPv6, NAT traversal and DNSSEC. Jitsi and its source code are released under the terms of the LGPL.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
     "notes": "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\n\nLastly, note that Jitsi records chat history in unencrypted form.",
@@ -2373,7 +2373,7 @@
     "slug": "k-9-mail"
   },
   {
-    "description": "Open source VoIP/SIP server.",
+    "description": "*\"Kamailio™ (former OpenSER) is an Open Source SIP Server released under GPL, able to handle thousands of call setups per second. Among features: asynchronous TCP, UDP and SCTP, secure communication via TLS for VoIP (voice, video); WebSocket support for WebRTC; IPv4 and IPv6; SIMPLE instant messaging and presence with embedded XCAP server and MSRP relay; IMS extensions; ENUM; DID and least cost routing; load balancing; routing fail-over; accounting, authentication and authorization; support for many backend systems such as MySQL, Postgres, Oracle, Radius, LDAP, Redis, Cassandra; XMLRPC control interface, SNMP monitoring. It can be used to build large VoIP servicing platforms or to scale up SIP-to-PSTN gateways, PBX systems or media servers like Asterisk™, FreeSWITCH™ or SEMS.\"*",
     "license_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD",
     "logo": "kamailio.png",
     "notes": "",
@@ -2426,7 +2426,7 @@
     "slug": "kolab"
   },
   {
-    "description": "Client email per ambiente KDE con supporto GnuPG.",
+    "description": "Kontact is a personal information manager and groupware software suite developed by KDE. It supports calendars, contacts, notes, to-do lists, news, and email. ",
     "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
     "logo": "kontact.png",
     "notes": "",
@@ -2525,7 +2525,7 @@
     "slug": "liberte-linux"
   },
   {
-    "description": "Free software VPN client (3rd generation) derived from Openswan.",
+    "description": "*\"Libreswan is an IPsec implementation for Linux. It has support for most of the extensions (RFC + IETF drafts) related to IPsec, including IKEv2, X.509 Digital Certificates, NAT Traversal, and many others.\n\nLibreswan has been forked from Openswan 2.6.38, which was forked from FreeS/WAN 1.99.\"*",
     "license_url": "https://github.com/libreswan/libreswan/blob/master/COPYING",
     "logo": "libreswan.png",
     "notes": "",
@@ -2575,7 +2575,7 @@
     "slug": "librevpn"
   },
   {
-    "description": "Client per VoIP e videoconferenze cifrate.",
+    "description": "Linphone is a free VoIP application available on PCs running Linux, BSD operating systems such as FreeBSD, Windows, or Mac, and mobile phones running BlackBerry OS, Android or iOS. It uses the Session Initiation Protocol (SIP) for communication and is licensed under the GNU General Public License (GPL). It supports IPv6, encryption via Transport Layer Security (TLS) and can be used behind network address translator (NAT). ",
     "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
     "logo": "linphone.png",
     "notes": "",
@@ -2729,7 +2729,7 @@
     "slug": "litecoin"
   },
   {
-    "description": "Nodi sociali distribuiti e federati.",
+    "description": "*\"Lorea is a project to create secure social cybernetic systems, in which a network of humans will become simultaneously represented on a virtual shared world.\n\nIts aim is to create a distributed and federated nodal organization of entities with no geophysical territory, interlacing their multiple relationships through binary codes and languages.\"*",
     "license_url": "https://github.com/lorea/Elgg/blob/master/LICENSE.txt",
     "logo": "lorea.png",
     "notes": "",
@@ -2753,7 +2753,7 @@
     "slug": "lorea"
   },
   {
-    "description": "Cifratura OpenPGP per webmail.",
+    "description": "Mailvelope allows to encrypt and decrypt emails in your favorite webmail provider following the OpenPGP standard.\n\nMailvelope integrates directly into the webmail user interface; its elements are non-intrusive and easy to use in your regular workflow.\n\nIt comes preconfigured for major webmail providers:\n* Gmail™\r\n* Yahoo!™\r\n* Outlook.com™\r\n* GMX™",
     "license_url": "https://github.com/toberndo/mailvelope/blob/master/LICENSE",
     "logo": "mailvelope.png",
     "notes": "",
@@ -2799,7 +2799,7 @@
     "slug": "mailvelope"
   },
   {
-    "description": "Free virtual globe and world atlas.",
+    "description": "Marble is a virtual globe that allows the user to choose among the Earth, the Moon, Venus, Mars and other planets. It is free software under the terms of the GNU LGPL, developed by KDE for use on personal computers and smart phones running a Qt4-compatible operating system.\n\nMarble is intended to be very flexible; beyond its cross-platform design, the core components can easily be integrated into other programs. ",
     "license_url": "https://projects.kde.org/projects/kde/kdeedu/marble/repository/revisions/master/entry/LICENSE.txt",
     "logo": "marble.png",
     "notes": "",
@@ -2833,7 +2833,7 @@
     "slug": "marble"
   },
   {
-    "description": "Privacy-first fast media (image, audio, video) hosting",
+    "description": "MediaCrush offers privacy-first fast media (image, audio, video) hosting.\n\nYou may also run your own instance of MediaCrush.",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
     "notes": "Warning: MediaCrush includes Google Analytics and Google Adsense if you do not have Do Not Track enabled.",
@@ -2887,7 +2887,7 @@
     "slug": "mediagoblin"
   },
   {
-    "description": "Meta search engine that proxies your queries to multiple search providers.",
+    "description": "MetaGer is a SaaS by the German non-profit [SUMA e.V.](https://suma-ev.de/en/index.html) that provides you with anonymous meta search results.\n\nA meta search engine proxies your queries to multiple search providers.",
     "license_url": "",
     "logo": "metager.png",
     "notes": "",
@@ -2935,7 +2935,7 @@
     "slug": "metronome"
   },
   {
-    "description": "Server per social network privato e decentralizzato.",
+    "description": "MOVIM (My Open Virtual Identity Manager) is a distributed social network built on top of XMPP, a popular open standards communication protocol. Movim is a free and open source software licensed under the AGPL. It can be accessed using existing XMPP clients and Jabber accounts.",
     "license_url": "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING",
     "logo": "movim.png",
     "notes": "",
@@ -3070,7 +3070,7 @@
     "slug": "mozilla-thunderbird"
   },
   {
-    "description": "Chat vocale cifrata e a bassa latenza.",
+    "description": "Mumble is a voice over IP (VOIP) application primarily designed for use by gamers, similar to programs such as TeamSpeak and Ventrilo.\n\nMumble uses a client–server architecture which allows users to talk to each other via the same server. It has a very simple administrative interface and features high sound quality and low latency. ",
     "license_url": "http://mumble.sourceforge.net/License",
     "logo": "mumble.png",
     "notes": "",
@@ -3159,7 +3159,7 @@
     "slug": "mykolab"
   },
   {
-    "description": "Sistema DNS distribuito basato sulla tecnologia Bitcoin.",
+    "description": "Namecoin (sign: ℕ; code: NMC) is a cryptocurrency which also acts as an alternative, decentralized DNS, which would avoid domain name censorship by making a new top level domain outside of ICANN control, and in turn, make internet censorship much more difficult, as well as reduce downages.\n\nNamecoin currently uses the .bit domain, and as of July 2013, 78549 .bit domains have been registered. bit domains are not currently awarded, hence to resolve domain names, one must have either a copy of the Namecoin \"blockchain\" (a decentralized ledger storing all transactions and domains), or access to a public DNS server that participates in the Namecoin system.",
     "license_url": "https://github.com/namecoin/namecoin/blob/master/COPYING",
     "logo": "namecoin.png",
     "notes": "",
@@ -3221,7 +3221,7 @@
     "slug": "netbsd"
   },
   {
-    "description": "Rete anonima I2P per Android.",
+    "description": "Anonymous I2P network for Android and desktop.",
     "license_url": "https://github.com/oakes/Nightweb/blob/master/UNLICENSE",
     "logo": "nightweb.png",
     "notes": "",
@@ -3281,7 +3281,7 @@
     "slug": "nightweb"
   },
   {
-    "description": "Only enable JavaScript, Java, and Flash for sites you trust.",
+    "description": "NoScript (or NoScript Security Suite) is a free and open-source extension for Mozilla Firefox, SeaMonkey, and other Mozilla-based web browsers, created and actively maintained by Giorgio Maone, an Italian software developer and member of the Mozilla Security Group. NoScript allows executable web content such as JavaScript, Java, Flash, Silverlight, and other plugins only if the site hosting it is considered trusted by its user and has been previously added to a whitelist. ",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
     "notes": "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
@@ -3450,7 +3450,7 @@
     "slug": "open-web-analytics"
   },
   {
-    "description": "A secure BSD operating system.",
+    "description": "OpenBSD is a Unix-like computer operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was forked from NetBSD by project leader Theo de Raadt in late 1995. As well as the operating system, the OpenBSD Project has produced portable versions of numerous subsystems, most notably PF, OpenSSH and OpenNTPD, which are very widely available as packages in other operating systems.\n\nThe project is also widely known for the developers' insistence on open-source code and quality documentation, uncompromising position on software licensing, and focus on security and code correctness. ",
     "license_url": "http://openbsd.org/policy.html",
     "logo": "openbsd.png",
     "notes": "",
@@ -3484,7 +3484,7 @@
     "slug": "openbsd"
   },
   {
-    "description": "Cross-platform XMPP server written in Java.",
+    "description": "Openfire (previously known as Wildfire, and Jive Messenger) is an instant messaging (IM) and groupchat server that uses XMPP server written in Java and licensed under the Apache License 2.0.",
     "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
     "logo": "openfire.png",
     "notes": "",
@@ -3508,7 +3508,7 @@
     "slug": "openfire"
   },
   {
-    "description": "Open, democratic, and anti-censorship DNS provider.",
+    "description": "OpenNIC (www.opennicproject.org)is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries.\n\nAs of 2006[update] users of the OpenNIC DNS servers are able to resolve all existing ICANN top-level domains as well as their own.\n\nLike all alternative root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet. ",
     "license_url": "",
     "logo": "opennic.png",
     "notes": "OpenNIC has not adopted an official policy concerning log query privacy/anonymization. More information [here](http://wiki.opennicproject.org/Tier2).",
@@ -3554,7 +3554,7 @@
     "slug": "openpgp-keychain"
   },
   {
-    "description": "Mappa mondiale collaborativa e libera.",
+    "description": "OpenStreetMap (OSM) is a collaborative project to create a free editable map of the world. Two major driving forces behind the establishment and growth of OSM have been restrictions on use or availability of map information across much of the world and the advent of inexpensive portable satellite navigation devices.\n\nCreated by Steve Coast in the UK in 2004, it was inspired by the success of Wikipedia and preponderance of proprietary map data in the UK and elsewhere. ",
     "license_url": "http://www.openstreetmap.org/copyright",
     "logo": "openstreetmap.png",
     "notes": "",
@@ -3576,7 +3576,7 @@
     "slug": "openstreetmap"
   },
   {
-    "description": "Distribuzione GNU/Linux multiuso, stabile e di facile utilizzo",
+    "description": "openSUSE /ˌoʊpənˈsuːzə/ is a general purpose operating system built on top of the Linux kernel, developed by the community-supported openSUSE Project and sponsored by SUSE and a number of other companies. After Novell acquired SUSE Linux in January 2004, Novell decided to release the SUSE Linux Professional product as a 100% open source project. In 2011 The Attachmate Group acquired Novell and split Novell and SUSE into two autonomous subsidiary companies. ",
     "license_url": "https://en.opensuse.org/openSUSE:License",
     "logo": "opensuse.png",
     "notes": "",
@@ -3616,7 +3616,7 @@
     "slug": "opensuse"
   },
   {
-    "description": "Free software VPN client derived from FreeS/WAN.",
+    "description": "Openswan is a complete IPsec implementation for Linux 2.0, 2.2, 2.4 and 2.6 kernels.\n\nOpenswan began as a fork of the now-defunct FreeS/WAN project, and continues to be released freely under the GNU General Public License. ",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",
     "notes": "",
@@ -3638,7 +3638,7 @@
     "slug": "openswan"
   },
   {
-    "description": "Free software VPN client.",
+    "description": "OpenVPN is an open source software application that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It uses a custom security protocol that utilizes SSL/TLS for key exchange. It is capable of traversing network address translators (NATs) and firewalls. ",
     "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
     "logo": "openvpn.png",
     "notes": "",
@@ -3698,7 +3698,7 @@
     "slug": "openvpn"
   },
   {
-    "description": "Sevizio proxy Tor per Android.",
+    "description": "Orbot is an open source client for the Tor network on Android mobile devices. The client allows you to route traffic going from your device's web browser, e-mail client, map program, etc., through the Tor network, providing anonymity for the user.\n\nThis tool is being used by political dissidents around the world to keep their communications on smartphones secure from the governments that may be monitoring their communications.",
     "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
     "logo": "orbot.png",
     "notes": "",
@@ -3722,7 +3722,7 @@
     "slug": "orbot"
   },
   {
-    "description": "OsmAnd (OSM Automated Navigation Directions) is a map and navigation app that uses OpenStreetMap data.",
+    "description": "OsmAnd is an open source, global mobile map viewing & navigation app for offline and online maps (for Android and some other operating systems). It uses the Open Street Map (OSM) map database for its primary displays. The development for this project is being done on google code and is available under the GPLv3 license. ",
     "license_url": "https://github.com/osmandapp/Osmand/blob/master/LICENSE",
     "logo": "osmand.png",
     "notes": "",
@@ -3744,7 +3744,7 @@
     "slug": "osmand"
   },
   {
-    "description": "Secure SIP accounts by the Guardian Project for use with CSipSimple, Jitsi, et al.",
+    "description": "OSTel (Open Secure Telephony) is a service run by the Guardian Project for use with CSipSimple, Jitsi, and others.",
     "license_url": "",
     "logo": "ostel.png",
     "notes": "",
@@ -3771,7 +3771,7 @@
     "slug": "ostel"
   },
   {
-    "description": "Piattaforma cloud storage libera e privata.",
+    "description": "ownCloud is a free and open-source web application for data synchronization, file sharing, and remote storage of documents (\"cloud storage\").\n\nownCloud is written in the PHP and JavaScript scripting languages. For change management, it employs SabreDAV, an open-source WebDAV server. ",
     "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
     "logo": "owncloud.png",
     "notes": "",
@@ -3830,7 +3830,7 @@
     "slug": "parabola-gnu-linux-libre"
   },
   {
-    "description": "Programma open source per chat multiprotocollo.",
+    "description": "Pidgin (formerly named Gaim) is an open-source multi-platform instant messaging client, based on a library named libpurple. Libpurple has support for many commonly used instant messaging protocols, allowing the user to log into various services from one application.",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
     "notes": "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like [TrueCrypt](http://www.truecrypt.org/), or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\n\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds.",
@@ -3872,7 +3872,7 @@
     "slug": "pidgin"
   },
   {
-    "description": "Piattaforma di foto-gallery libera.",
+    "description": "Piwigo is photo gallery software for the web, built by an active community of users and developers. Freely available extensions make Piwigo easily customizable. It is notable as a system with many features.",
     "license_url": "http://piwigo.org/basics/license",
     "logo": "piwigo.png",
     "notes": "Piwigo does not encrypt any of your data by default.",
@@ -3896,7 +3896,7 @@
     "slug": "piwigo"
   },
   {
-    "description": "Analisi web self-hosted e open source.",
+    "description": "Piwik is a free and open source web analytics application written by a team of international developers that runs on a PHP/MySQL webserver. Piwik is used by over 480,000 websites, 1.2% of all websites, and has been translated to more than 45 languages. New versions of Piwik are regularly released every few weeks.",
     "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
     "logo": "piwik.png",
     "notes": "",
@@ -3918,7 +3918,7 @@
     "slug": "piwik"
   },
   {
-    "description": "Easy-to-setup MTA used by approximately 23% of all mail servers.",
+    "description": "Easy-to-setup MTA used by approximately 23% of all email servers.",
     "license_url": "ftp://ftp.porcupine.org/mirrors/postfix-release/LICENSE",
     "logo": "postfix.png",
     "notes": "",
@@ -3940,7 +3940,7 @@
     "slug": "postfix"
   },
   {
-    "description": "Flexible lightweight XMPP server written in Lua.",
+    "description": "Prosody (formerly lxmppd) is a cross-platform XMPP server written in Lua. Its development goals include low resource usage, ease-of-use, and extensibility.",
     "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
     "logo": "prosody.png",
     "notes": "",
@@ -3964,7 +3964,7 @@
     "slug": "prosody"
   },
   {
-    "description": "Free online encrypted notepad.",
+    "description": "ProtectedText is a free online encrypted notepad with open source cryptography.",
     "license_url": "",
     "logo": "protextedtext.png",
     "notes": "ProtectedText encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.",
@@ -4031,7 +4031,7 @@
     "slug": "psi"
   },
   {
-    "description": "Server di streaming sociale self-hosted.",
+    "description": "Self-hosted social stream server.",
     "license_url": "https://github.com/e14n/pump.io/blob/master/LICENSE",
     "logo": "pumpio.png",
     "notes": "",
@@ -4077,7 +4077,7 @@
     "slug": "pydio"
   },
   {
-    "description": "Fedora/Xen-based OS designed to provide strong security through isolation.",
+    "description": "Qubes OS is a desktop operating system that aims to provide security through isolation. ",
     "license_url": "http://qubes-os.org/trac/wiki/QubesLicensing",
     "logo": "qubes-os.png",
     "notes": "",
@@ -4111,7 +4111,7 @@
     "slug": "qubes"
   },
   {
-    "description": "Distribuzione Android completamente libera.",
+    "description": "Replicant is a project aiming to provide a fully free Android distribution running on several devices. Replicant is thus a Free Software project that intends to replace the proprietary software that many phones need to make use of the full potential of the hardware or other functionalities of the device.",
     "license_url": "http://replicant.us/about/",
     "logo": "replicant.png",
     "notes": "",
@@ -4179,7 +4179,7 @@
     "slug": "request-policy"
   },
   {
-    "description": "Piattaforma P2P e libera per comunicazioni protette.",
+    "description": "RetroShare is free software for encrypted, filesharing, serverless email, instant messaging, chatrooms, and BBS, based on a friend-to-friend network built on GPG (GNU Privacy Guard). It is not strictly a darknet since optionally, peers may communicate certificates and IP addresses from and to their friends.",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
     "logo": "retroshare.png",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
@@ -4230,7 +4230,7 @@
     "slug": "retroshare"
   },
   {
-    "description": "Account email protetti e privati.",
+    "description": "*\"Riseup provides online communication tools for people and groups working on liberatory social change. We are a project to create democratic alternatives and practice self-determination by controlling our own secure means of communications.\"*",
     "license_url": "",
     "logo": "riseup.png",
     "notes": "Riseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
@@ -4396,7 +4396,7 @@
     "slug": "sme-server"
   },
   {
-    "description": "Sistema self-hosted di sincronizzazione file e controllo versione.",
+    "description": "SparkleShare is open-source client software that provides cloud storage and file synchronization services. By default, it uses Git as a storage backend. It is comparable to Dropbox, but the cloud storage can be provided by the user's own server, or a hosted solution such as GitHub and Gitorious. ",
     "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
     "logo": "sparkleshare.png",
     "notes": "",
@@ -4436,7 +4436,7 @@
     "slug": "sparkleshare"
   },
   {
-    "description": "Ricerche private e non registrate.",
+    "description": "On July 7, 2009 Ixquick launched Startpage.com to offer a new service at a URL that is both easier to remember and spell. Startpage.com fetches its results straight from the Google search engine without saving the users' IP addresses or giving any personal user information to Google's servers.",
     "license_url": "",
     "logo": "startpage.png",
     "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy.",
@@ -4460,7 +4460,7 @@
     "slug": "startpage"
   },
   {
-    "description": "Free software VPN client derived from FreeS/WAN.",
+    "description": "strongSwan is a complete IPsec implementation for Linux 2.6 and 3.x kernels. ",
     "license_url": "http://git.strongswan.org/?p=strongswan.git;a=blob;f=COPYING;h=d159169d1050894d3ea3b98e1c965c4058208fe1;hb=HEAD",
     "logo": "strongswan.png",
     "notes": "",
@@ -4482,7 +4482,7 @@
     "slug": "strongswan"
   },
   {
-    "description": "Lightweight and user-friendly e-mail client.",
+    "description": "Sylpheed is an open source e-mail client and news client licensed under the GPL. It provides easy configuration and an abundance of features. It stores mail in the MH Message Handling System. ",
     "license_url": "https://www.gnu.org/copyleft/gpl.html",
     "logo": "sylpheed.png",
     "notes": "",
@@ -4526,7 +4526,7 @@
     "slug": "sylpheed"
   },
   {
-    "description": "Software per creare forum anonimi e distribuiti.",
+    "description": "Syndie is an open source cross-platform computer application to syndicate (re-publish) data over a variety of anonymous and non-anonymous computer networks. ",
     "license_url": "https://github.com/i2p/i2p.syndie/blob/master/LICENSE",
     "logo": "syndie.png",
     "notes": "",
@@ -4592,7 +4592,7 @@
     "slug": "taho-lafs"
   },
   {
-    "description": "Distribuzione GNU/Linux live che tutela la propria riservatezza.",
+    "description": "The Amnesic Incognito Live System or Tails is a Debian-based Linux distribution aimed at preserving privacy and anonymity. It is the next iteration of development on the previous Gentoo based Incognito Linux distribution. All its outgoing connections are forced to go through Tor, and direct (non-anonymous) connections are blocked. ",
     "license_url": "https://tails.boum.org/doc/about/license/index.en.html",
     "logo": "tails.png",
     "notes": "",
@@ -4660,7 +4660,7 @@
     "slug": "tent"
   },
   {
-    "description": "Cross-platform XMPP server written in Java.",
+    "description": "Tigase is an open source (AGPL3) project started by Artur Hefczyc in October 2004 to develop XMPP server implementation in Java.",
     "license_url": "https://projects.tigase.org/projects/tigase-server/repository/revisions/master/changes/COPYING",
     "logo": "tigase.png",
     "notes": "",
@@ -4684,7 +4684,7 @@
     "slug": "tigase"
   },
   {
-    "description": "Free software daemon that uses tunnelling and encryption to create a secure private network",
+    "description": "Tinc is a self-routing, mesh networking protocol, used for compressed, encrypted, virtual private networks. It was started in 1998 by Guus Sliepen, Ivo Timmermans, and Robert van der Meulen, and released as a GPL-licensed project.",
     "license_url": "http://tinc-vpn.org/git/browse?p=tinc;a=blob;f=COPYING.README;h=2eb9c1facc212244a4103f9f9b81149c6f6a9d44;hb=HEAD",
     "logo": "tinc.png",
     "notes": "",
@@ -4811,7 +4811,7 @@
     "slug": "tor-browser-bundle"
   },
   {
-    "description": "Plugin per l'utilizzo di Thunderbird/Icedove attraverso Tor.",
+    "description": "TorBirdy is a Thunderbird extension that pipes connections over the Tor anonymity network. It also adds some extra security and anonymity features to the email client.",
     "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
     "logo": "torbirdy.png",
     "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the \"Before using TorBirdy\" and \"Known TorBirdy\" Issues sections on the project website.",
@@ -4853,7 +4853,7 @@
     "slug": "torbirdy"
   },
   {
-    "description": "Messaggistica anonima e decentralizzata P2P basata su Tor Hidden Services",
+    "description": "TorChat is a decentralized anonymous instant messenger that uses Tor hidden services as its underlying Network. It can be used for text messaging and to transfer files to other users. The characteristics of Tor's hidden services take care that all traffic between the clients is encrypted and that it is extremely difficult (if not impossible) to tell who is communicating with whom and where a given client is physically located.",
     "license_url": "https://www.gnu.org/copyleft/gpl.html",
     "logo": "torchat.png",
     "notes": "",
@@ -4923,7 +4923,7 @@
     "slug": "truecrypt"
   },
   {
-    "description": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
+    "description": "WeeChat (Wee Enhanced Environment for Chat) is a console IRC client, which is designed to be light and fast. It is released under the terms of the GNU General Public License 3 and has been developed since 2003. GTK+ and Qt interfaces are planned for the future.\n\nEverything can be done with a keyboard. ",
     "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "weechat.png",
     "notes": "WeeChat does not offer encryption by default, but there is a FiSH encryption plugin available.",
@@ -4965,7 +4965,7 @@
     "slug": "weechat"
   },
   {
-    "description": "VM-friendly OS based on Debian and Tor focused on anonymity, privacy and security.",
+    "description": "Whonix is an anonymous general purpose operating system based on VirtualBox, Debian GNU/Linux and Tor. By Whonix design, IP and DNS leaks are impossible. Not even Malware as Superuser can find out the user's real IP address/location.",
     "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
     "logo": "whonix.png",
     "notes": "Whonix is designed to be run inside of a virtualization package like [VirtualBox](https://www.virtualbox.org/). VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.",
@@ -5001,7 +5001,7 @@
     "slug": "whonix"
   },
   {
-    "description": "CMS libero per siti/blog.",
+    "description": "WordPress is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL, which runs on a web hosting service. Features include a plug-in architecture and a template system. WordPress is used by more than 18.9% of the top 10 million websites as of August 2013[update]. ",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
     "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\r",
@@ -5025,7 +5025,7 @@
     "slug": "wordpress"
   },
   {
-    "description": "Messaggistica istantanea con cifratura OTR per Android.",
+    "description": "Xabber is an XMPP (Jabber) instant messaging client for Android with OTR encryption and multi-account support.",
     "license_url": "https://github.com/redsolution/xabber-android/blob/master/LICENSE",
     "logo": "xabber.png",
     "notes": "",
@@ -5051,7 +5051,7 @@
     "slug": "xabber"
   },
   {
-    "description": "Ricerca decentralizzata.",
+    "description": "YaCy (pronounced \"ya see\") is a free distributed search engine, built on principles of peer-to-peer (P2P) networks. Its core is a computer program written in Java distributed on several hundred computers, as of September 2006[update], so-called YaCy-peers. Each YaCy-peer independently crawls through the Internet, analyzes and indexes found web pages, and stores indexing results in a common database (so called index) which is shared with other YaCy-peers using principles of P2P networks.",
     "license_url": "https://gitorious.org/yacy/rc1/source/234a974955c0ab4f7de63157738e4b00a8ffcae8:COPYRIGHT",
     "logo": "yacy.png",
     "notes": "",
@@ -5107,7 +5107,7 @@
     "slug": "yunohost"
   },
   {
-    "description": "CMS libero per multimedia.",
+    "description": "Self-hosted media management system.",
     "license_url": "http://www.zenphoto.org/pages/licenses",
     "logo": "zenphoto.png",
     "notes": "Zenphoto does not encrypt any of your data by default.",

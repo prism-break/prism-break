@@ -11,7 +11,7 @@ require! '../functions/helpers.ls'
 {projects-raw} = require '../db/en-projects.ls'
 projects = slugify-db projects-raw
 
-#write-json projects, "./built/en-projects"
+write-json projects, "./built/en-projects-all"
 
 languages = []
 languages["ar"] = require './ar.json'
