@@ -1,4 +1,4 @@
-translations =
+locale =
   About: 'About'
   All: 'All'
   'All Categories': 'All Categories'
@@ -48,4 +48,4 @@ translations =
 
   site-privacy: "* This website does not collect any information about you. * This website does not track your IP address. * This website does not use any client-side JavaScript."
 
-exports.translations = translations
+exports.locale = locale
