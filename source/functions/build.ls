@@ -24,52 +24,66 @@ protocols-db = slugify-db protocols-raw
 # WRITE FUNCTIONS
 # These functions write all of the HTML pages for the entire site.
 
+write-localized-site = (iso639, locale) ->
+  dir = "public/#{iso639}/"
+  mkdirp dir
 
-write-site-index = (translation) ->
+  write-site-index dir, locale
+  write-categories-index dir, locale
+  write-categories-show dir, locale
+  write-subcategories-show dir, locale
+  write-protocols-index dir, locale
+  write-protocols-show dir, locale
+  write-projects-index dir, locale
+  write-projects-show dir, locale
+  write-about-index dir
+  write-about-media dir
+
+write-site-index = (dir, locale) ->
   data = platform-types projects-db
 
   path = 'index'
   view = view-path path
   options = 
     pretty: true
-    body-class: "#{language} root index"
+    body-class: "#{iso639} root index"
     h: helpers
     platform-types: data
     path: ''
     routes: routes!
-    t: translation
-  file = public-dir + path
+    t: locale
+  file = dir + path
 
   write-html view, options, file
   write-json data, file
 
-write-categories-index = ->
+write-categories-index = (dir) ->
   data = nested-categories projects-db
 
   path = 'categories/index'
   view = view-path path
   options = 
     pretty: true
-    body-class: "#{language} categories index"
+    body-class: "#{iso639} categories index"
     h: helpers
     categories: data
     path: 'categories'
     routes: routes 'categories', 1
-    language: language
-    t: translation
-  file = public-dir + path
+    language: iso639
+    t: locale
+  file = dir + path
 
   write = ->
     write-html view, options, file
     write-json data, file
 
-  mkdirp public-dir + 'categories', (err) ->
+  mkdirp dir + 'categories', (err) ->
     if err
       console.error err
     else
       write!
 
-write-categories-show = (translation) ->
+write-categories-show = (dir, locale) ->
   create = (category) ->
     data = category
 
@@ -77,15 +91,15 @@ write-categories-show = (translation) ->
     view = view-path 'categories/show'
     options = 
       pretty: true
-      body-class: "#{language} categories show"
+      body-class: "#{iso639} categories show"
       h: helpers
       category: category
       platform-types: platform-types projects-db
       path: path
       routes: routes 'categories', 2
-      language: language
-      t: translation
-    full-path = public-dir + path
+      language: iso639
+      t: locale
+    full-path = dir + path
     file = full-path + 'index'
 
     write = ->
@@ -101,7 +115,7 @@ write-categories-show = (translation) ->
   for category in nested-categories(projects-db)
     create category
 
-write-subcategories-show = (translation) ->
+write-subcategories-show = (dir, locale) ->
   create = (subcategory) ->
     data =
       category: category
@@ -113,14 +127,14 @@ write-subcategories-show = (translation) ->
     view = view-path 'subcategories/show'
     options = 
       pretty: true
-      body-class: "#{language} subcategories show"
+      body-class: "#{iso639} subcategories show"
       h: helpers
       data: data
       path: path
       routes: routes 'subcategories', 2
-      language: language
-      t: translation
-    full-path = public-dir + path
+      language: iso639
+      t: locale
+    full-path = dir + path
     file = full-path + 'index'
 
     write = ->
@@ -137,33 +151,33 @@ write-subcategories-show = (translation) ->
     for subcategory in category.subcategories
       create subcategory
 
-write-protocols-index = (translation) ->
+write-protocols-index = (dir, locale) ->
   data = protocol-types protocols-db
 
   path = 'protocols/index'
   view = view-path path
   options = 
     pretty: true
-    body-class: "#{language} protocols index"
+    body-class: "#{iso639} protocols index"
     h: helpers
     protocol-types: data
     path: 'protocols'
     routes: routes 'protocols', 1
-    language: language
-    t: translation
-  file = public-dir + path
+    language: iso639
+    t: locale
+  file = dir + path
 
   write = ->
     write-html view, options, file
     write-json data, file
 
-  mkdirp public-dir + 'protocols', (err) ->
+  mkdirp dir + 'protocols', (err) ->
     if err
       console.error err
     else
       write!
 
-write-protocols-show = (translation) ->
+write-protocols-show = (dir, locale) ->
   create = (protocol) ->
     protocol.projects = in-this-protocol(protocol.name, projects-db)
     data = protocol
@@ -172,15 +186,15 @@ write-protocols-show = (translation) ->
     view = view-path 'protocols/show'
     options = 
       pretty: true
-      body-class: "#{language} protocols show"
+      body-class: "#{iso639} protocols show"
       h: helpers
       protocol: data
       protocol-types: protocol-types protocols-db
       path: path
       routes: routes 'protocols', 2
-      language: language
-      t: translation
-    full-path = public-dir + path
+      language: iso639
+      t: locale
+    full-path = dir + path
     file = full-path + 'index'
 
     write = ->
@@ -196,33 +210,33 @@ write-protocols-show = (translation) ->
   for protocol in protocols-db
     create protocol
 
-write-projects-index = (translation) ->
+write-projects-index = (dir, locale) ->
   data = projects-db
 
   path = 'projects/index'
   view = view-path path
   options = 
     pretty: true
-    body-class: "#{language} projects index"
+    body-class: "#{iso639} projects index"
     h: helpers
     projects: data
     path: 'projects'
     routes: routes 'projects', 1
-    language: language
-    t: translation
-  file = public-dir + path
+    language: iso639
+    t: locale
+  file = dir + path
 
   write = ->
     write-html view, options, file
     write-json data, file
 
-  mkdirp public-dir + 'projects', (err) ->
+  mkdirp dir + 'projects', (err) ->
     if err
       console.error err
     else
       write!
 
-write-projects-show = (translation) ->
+write-projects-show = (dir, locale) ->
   create = (project) ->
     data = slugify-project project
     #data.projects-related = in-these-subcategories(subcategories-of(project), projects-db)
@@ -231,14 +245,14 @@ write-projects-show = (translation) ->
     view = view-path 'projects/show'
     options = 
       pretty: true
-      body-class: "#{language} projects show"
+      body-class: "#{iso639} projects show"
       h: helpers
       project: data
       routes: routes 'projects', 2
-      language: language
-      t: translation
+      language: iso639
+      t: locale
       path: path
-    full-path = public-dir + path
+    full-path = dir + path
     file = full-path + 'index'
 
     write = ->
@@ -254,24 +268,24 @@ write-projects-show = (translation) ->
   for project in projects-db
     create project
 
-write-about-index = ->
+write-about-index = (dir) ->
   create = ->
     path = 'about/index'
     view = view-path path
     options =
       pretty: true
-      body-class: "#{language} about index"
+      body-class: "#{iso639} about index"
       h: helpers
       path: 'about'
       routes: routes 'about', 1
-      language: language
-      t: translation
-    file = public-dir + path
+      language: iso639
+      t: locale
+    file = dir + path
 
     write = ->
       write-html view, options, file
 
-    mkdirp public-dir + 'about', (err) ->
+    mkdirp dir + 'about', (err) ->
       if err
         console.error err
       else
@@ -279,19 +293,19 @@ write-about-index = ->
 
   create!
 
-write-about-media = ->
+write-about-media = (dir) ->
   create = ->
     path = 'about/media/'
     view = view-path 'about/media'
     options =
       pretty: true
-      body-class: "#{language} about media"
+      body-class: "#{iso639} about media"
       h: helpers
       path: path
       routes: routes 'about', 2
-      language: language
-      t: translation
-    full-path = public-dir + path
+      language: iso639
+      t: locale
+    full-path = dir + path
     file = full-path + 'index'
 
     write = ->
@@ -307,23 +321,10 @@ write-about-media = ->
 
 ############################################################################
 # WRITE SITE
-# This function will write all of the HTML pages per site language.
+# This function will write all of the HTML pages per site iso639.
 
 
-for language, translation of i18n
+# exports.write-localized-site = write-localized-site
 
-  public-dir = "public/#{language}/"
-  mkdirp public-dir
-
-  write-site-index translation
-  /*
-  write-categories-index translation
-  write-categories-show translation
-  write-subcategories-show translation
-  write-protocols-index translation
-  write-protocols-show translation
-  write-projects-index translation
-  write-projects-show translation
-  write-about-index!
-  write-about-media!
-  */
+for iso639, locale of i18n
+  write-localized-site(iso639, locale)
