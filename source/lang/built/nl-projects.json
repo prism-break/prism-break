@@ -1,6 +1,6 @@
 [
   {
-    "description": "Adblock Edge is a fork of the Adblock Plus version 2.1.2 extension for blocking advertisements on the web. This fork will provide the same features as Adblock Plus 2.X and higher but without \"acceptable ads\" feature. Adblock Edge was primarily branched off from Adblock Plus 2.1.2 source code package \"http://adblockplus.org/downloads/adblockplus-2.1.2-source.tgz\" created by Wladimir Palant.",
+    "description": "Blokkeer advertenties en trackers op het web.",
     "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
     "logo": "adblock-edge.png",
     "notes": "",
@@ -150,7 +150,7 @@
     "slug": "asterisk"
   },
   {
-    "description": "A/I was born more than 10 years ago when individuals and collectives dealing in technology, privacy, cyber rights and political activism met in Italy. Our fundamental aim is to provide free communication tools on a wide basis, while pushing people to choose free rather than commercial communication modes. We would like to arouse people's awareness about the need to protect their privacy and to escape the looting which is indiscriminately perpetrated by governments and corporations alike on both data and personalities.\n\nWe provide a full range of free, privacy-aware services, which include:\n* Blogs / Web Hosting\r\n* Anonymity Web / Personal VPNs\r\n* Email / Mailing lists, Newsletters and Forums\r\n* Instant Messaging and Chat / Software project hosting",
+    "description": "Een volledige verzameling van vrije, privacy-respecterende services.",
     "license_url": "",
     "logo": "autistici-inventati.png",
     "notes": "",
@@ -497,7 +497,7 @@
     "slug": "cjdns"
   },
   {
-    "description": "Claws Mail is a free and open source, GTK+-based email and news client. It offers easy configuration and an abundance of features. It stores mail in the MH mailbox format and also the Mbox mailbox format via a plugin. ",
+    "description": "Lichtgewicht e-mail applicatie met GnuPG ondersteuning.",
     "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
     "logo": "claws-mail.png",
     "notes": "",
@@ -1775,7 +1775,7 @@
     "slug": "gnewsense"
   },
   {
-    "description": "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.",
+    "description": "Vrije OpenPGP implementatie.",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master",
     "logo": "gnupg.png",
     "notes": "",
@@ -1938,7 +1938,7 @@
     "slug": "gpg4win"
   },
   {
-    "description": "GPGTools is an installation package for Mac (10.6 - 10.8) with software tools for email and file encryption (similar to Gpg4win for Windows). GPGTools itself and all tools of GPGTools are free and open source software. ",
+    "description": "OpenPGP plugin voor Apple OS X Mail.",
     "license_url": "https://github.com/GPGTools/MacGPG2/blob/dev/LICENSE.txt",
     "logo": "gpgtools.png",
     "notes": "",
@@ -2026,7 +2026,7 @@
     "slug": "hexchat"
   },
   {
-    "description": "HTTPS Everywhere is a Firefox and Chrome extension that encrypts your communications with many major websites, making your browsing more secure.\n\nHTTPS Everywhere is produced as a collaboration between The Tor Project and the Electronic Frontier Foundation. Many sites on the web offer some limited support for encryption over HTTPS, but make it difficult to use. For instance, they may default to unencrypted HTTP, or fill encrypted pages with links that go back to the unencrypted site. The HTTPS Everywhere extension fixes these problems by using a clever technology to rewrite requests to these sites to HTTPS.",
+    "description": "Versleutelt je communicatie op duizenden websites.",
     "license_url": "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt",
     "logo": "https-everywhere.png",
     "notes": "",
@@ -2347,7 +2347,7 @@
     "slug": "jondofox"
   },
   {
-    "description": "K-9 Mail is an independent mail application for the Android operating system. It is made available as Free/Open Source Android Software under the Apache License version 2.0. The program is marketed as a more functional replacement for the default mail application included on most phones. It supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.",
+    "description": "Open source e-mail applicatie voor Android met PGP ondersteuning.",
     "license_url": "https://github.com/k9mail/k-9/blob/master/NOTICE",
     "logo": "k9-mail.png",
     "notes": "",
@@ -3014,7 +3014,7 @@
     "slug": "mozilla-firefox"
   },
   {
-    "description": "Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation.\n\nThe project strategy was modeled after Mozilla Firefox, a project aimed at creating a web browser. On December 7, 2004, version 1.0 was released, and received more than 500,000 downloads in its first three days of release, and 1,000,000 in 10 days.",
+    "description": "Open source e-mail applicatie.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
@@ -3131,7 +3131,7 @@
     "slug": "mumble"
   },
   {
-    "description": "MyKolab is a secure, privacy-focused web-based email and groupware service, based completely on free and open-source software. ",
+    "description": "Kolab accounts gehost in Zwitzerland voor 10 CHF per maand.",
     "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
     "logo": "mykolab.png",
     "notes": "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \nAlso, you can export all your data at any time.",
@@ -3321,7 +3321,7 @@
     "slug": "noscript"
   },
   {
-    "description": "Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.",
+    "description": "Installeer en zet aan in Pidgin voor versleutelde berichten.",
     "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
     "logo": "otr.png",
     "notes": "",
@@ -3988,7 +3988,7 @@
     "slug": "protectedtext"
   },
   {
-    "description": "Psi is a free instant messaging client for the XMPP protocol (including such services as Google Talk) which uses the Qt toolkit. It runs on Linux (and other Unix-like operating systems), Windows, Mac and eComStation (OS/2).\n\nReady-to-install deb and RPM packages are available for many Linux distributions. ",
+    "description": "Multiplatform IM applicatie voor power gebruikers met ingebouwde OTR ondersteuning.",
     "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
     "logo": "psi-plus.png",
     "notes": "",
@@ -4139,7 +4139,7 @@
     "slug": "replicant"
   },
   {
-    "description": "RequestPolicy is an extension that improves the privacy and security of your browsing by giving you control over when cross-site requests are allowed by webpages you visit.\n\nCross-site requests are requests that your browser is told to make by a website you are visiting to a completely different website. Though usually legitimate requests, they often result in advertising companies and other websites knowing your browsing habits, including specific pages you view throughout the day. Among the attacks that cross-site requests are used in, they are particularly dangerous with Cross-Site Request Forgery (CSRF) attacks where your browser is told to make a request to another website and that other website thinks you (the person) meant to make the request.",
+    "description": "Regel welke cross-site aanvragen van de sites die je bezoekt worden toegestaan.",
     "license_url": "https://github.com/RequestPolicy/requestpolicy/blob/master/src/LICENSE",
     "logo": "request-policy.png",
     "notes": "",
@@ -4306,7 +4306,7 @@
     "slug": "scientific-linux"
   },
   {
-    "description": "Seeks is a Free Software/open source project licensed under the Affero General Public License version 3 (AGPLv3). It exists to create an alternative search engine to the current commercially available market leading search engines which is driven by user concerns rather than corporate interests. The original manifesto was created by Emmanuel Benazera and Sylvio Drouin and published in October 2006. Since then, the project has been under active development and stable releases of the engine are available for public use in addition to various distributions of the source code for adventurous users. ",
+    "description": "Open decentraal platform voor gezamenlijk zoeken.",
     "license_url": "http://sourceforge.net/p/seeks/code/ci/master/tree/Licenses",
     "logo": "seeks-project.png",
     "notes": "",
@@ -4328,7 +4328,7 @@
     "slug": "seeks-project"
   },
   {
-    "description": "*\"Cookies when you need them, not when others need them to track you - gets rid of a site's cookies and LocalStorage as soon as you close its tabs. Protects against trackers and zombie-cookies. Trustworthy services can be whitelisted.\"*",
+    "description": "Automatically delete cookies and local storage when they are no longer used by open browser tabs.",
     "license_url": "https://addons.mozilla.org/en-US/firefox/files/browse/235317/file/LICENSE",
     "logo": "self-destructing-cookies.png",
     "notes": "Only works with Firefox version 24 and above.\n\n The Android version is [available here](https://addons.mozilla.org/en-US/android/addon/self-destructing-cookies/).",
