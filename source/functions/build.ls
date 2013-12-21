@@ -312,11 +312,11 @@ write-about-media = ->
 
 for language, translation of i18n
 
-  t = translation
   public-dir = "public/#{language}/"
   mkdirp public-dir
 
   write-site-index translation
+  /*
   write-categories-index translation
   write-categories-show translation
   write-subcategories-show translation
@@ -326,3 +326,4 @@ for language, translation of i18n
   write-projects-show translation
   write-about-index!
   write-about-media!
+  */
