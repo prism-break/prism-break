@@ -16,7 +16,7 @@ translations =
   "dns-provider-note": "<p>Google Public DNS permanently logs your ISP and location information for analysis. Your ip-address is also stored for 24 hours.</p><p><strong>OpenNIC</strong> has not adopted an official policy concerning log query privacy/anonymization. More information <a href='http://wiki.opennicproject.org/Tier2'>here</a>.</p>"
   "darknet": "Даркнет"
   "Online Transactions": "Интернет преписке"
-  "cryptocoins-title": "Алтернативна шифрована валута."
+  "Alternative Cryptocurrencies": "Алтернативна шифрована валута."
   "cryptocoins": "Листа алтернативних шифрованих дигиталних валута."
   "Digital Distribution": "Digital distribution"
   "digital-distribution-note": "<p><strong>Desurium</strong> is only the client. You will still have to trust/depend on the proprietary <a href='http://www.desura.com'>desura service</a>.</p>"
