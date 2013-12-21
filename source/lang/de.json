@@ -140,12 +140,12 @@
   "social-networking-note": "<p>Solltest Du über Systemadministration Bescheid wissen, entscheide Dich unbedingt, eine Instanz von <strong>pump.io</strong> (oder etwas Ähnlichem) für Deine Freunde, Familie oder Lieblingsgemeinschaft zu starten. Viele von ihnen würden gerne Facebook verlassen, falls Du ihnen dazu einen Weg zeigst.</p><p>Für die unter Euch ohne einen eigenen Server ist <strong>RetroShare</strong> der einfachste Weg, ein eigenes verschlüsseltes soziales Netzwerk zu starten.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> ist ein populäres soziales Netzwerk ähnlich Twitter für die freie und quelloffene Software-Gemeinschaft. Diese Seite zieht im Laufe der Woche zu der <strong>pump.io</strong> Softwareplattform um.</p>",
  
   "cloud-storage": "Cloudspeicherung",
-  "gitannex": "Synchronisiert Ordner auf allen Laufwerken Deines Computers.",
-  "ajaxplorer": "Verwandelt jeden Server in eine File-Sharing-Plattform.",
-  "cozycloud": "Eigener PaaS, den Du hosten, hacken und löschen kannst.",
+  "git-annex": "Synchronisiert Ordner auf allen Laufwerken Deines Computers.",
+  "pydio": "Verwandelt jeden Server in eine File-Sharing-Plattform.",
+  "cozy": "Eigener PaaS, den Du hosten, hacken und löschen kannst.",
   "owncloud": "Cloud-Daten unter Deiner Kontrolle.",
   "sparkleshare": "Selbst-gehostete Versionskontrolle und Dateisynchronisierung.",
-  "tahoelafs": "Freies und offenes Cloud-Speichersystem.",
+  "tahoe-lafs": "Freies und offenes Cloud-Speichersystem.",
   "cloud-storage-note": "<p>BitTorrent Sync, MEGA, SpiderOak und Tarsnap sind Services, die total oder teilweise auf propertiäre Software aufbauen. Sie werden nicht auf PRISM Break vorgeschlagen, bis sie den kompletten Quellcode freigeben.</p><p>Mit Software, die nicht quelloffen ist, musst Du zu 100% dem Anbieter vertrauen, weil es nichts außer Moral gibt, das sie hindert, deine persöhnlichen Daten zu verraten. Selbst wenn Du für deren Rechtschaffenheit bürgen kannst, hat propertiäre Software mehr ungefundene Sicherheitslücken und Exploits, weil es weniger Menschen gibt, die den Quellcode durchsuchen.</p><p>Eine weitere Alternative zu Cloudspeicherung ist ein lokales Backup mit externen Festplatten und USB-Sticks. Diese Methode ist viel zuverlässiger als Daten in einem Netzwerk zu speichern und kostet nur wenig.</p>",
  
   "scheduling": "Terminfindung",

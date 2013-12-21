@@ -140,12 +140,12 @@
   "social-networking-note": "<p>Eğer sistem yönetimi bilginiz varsa, lütfen arkadaşlarınız, aileniz ya da favori topluluğunuz için bir <strong>pump.io</strong> (veya başka bir şey) kopyası çalıştırma fikrini değerlendirin. Bir çıkış yolu gösterirseniz birçoğu Facebook'tan kaçmak için istekli ve müteşekkir olacaktır.</p><p>Aranızdaki kendi sunucusu olmayanlar için, <strong>RetroShare</strong> kendi şifreli sosyal ağınızı yaratmanın en kolay yoludur.</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> özgür ve açık kaynak kodlu yazılım topluluğu için popüler bir Twitter-benzeri sosyal ağ yapısıdır.</p>", 
 
   "cloud-storage": "Bulut depolama", 
-  "gitannex": "Bilgisayarlarınız ve diskleriniz arasında klasörleri senkronize eder.", 
-  "ajaxplorer": "Herhangi bir sunucuyu anında dosya paylaşım platformuna çevirin..", 
-  "cozycloud": "A personal PaaS you can host, hack and delete", 
+  "git-annex": "Bilgisayarlarınız ve diskleriniz arasında klasörleri senkronize eder.", 
+  "pydio": "Herhangi bir sunucuyu anında dosya paylaşım platformuna çevirin..", 
+  "cozy": "A personal PaaS you can host, hack and delete", 
   "owncloud": "Sizin kontrolünüzde bulut verisi.", 
   "sparkleshare": "Bireysel-host edilen versiyon kontrolü ve dosya senkronizasyonu.", 
-  "tahoelafs": "Özgür ve açık kaynaklı bulut depolama sistemi.", 
+  "tahoe-lafs": "Özgür ve açık kaynaklı bulut depolama sistemi.", 
   "cloud-storage-note": "<p>Tarsnap anonim ödeme seçeneğinin eksikliği ve <a href='https://github.com/nylira/prism-break/issues/555#issuecomment-23216365'>uygulamasındaki katı tescilin</a> bu servisin kapandığı takdirde değiştirmeyi zorlaştırdığından o PRISM Break tarafından tavsiye edilmez. </p> <p> BitTorrent Sync, MEGA ve SpiderOak kısmi ya da tamamen tescilli yazılım üzerine inşa edilmiş servislerdir. Kodtabanlarının tamamını açık kaynaklı hale getirinceye kadar PRISM Break üzerinde tavsiye edilmeyeceklerdir.</p><p>Kapalı kaynaklı yazılımda, tedarikçiye %100 güven duyuyor olmalısınız çünkü ahlakları dışında kişisel bilgilerinizi sızdırmak için önlerinde başka engel yoktur. Dürüstlüklerinden şüpheniz olmasa bile, tescilli yazılımlar istisnasız daha fazla sayıda güvenlik açığı içerir çünkü kaynak kodunu inceleyen daha az göz vardır.</p><p>Bulut depolamaya bir diğer alternatif is harici diskler ve USB belleklerdir. Bu yöntemin güvenilirliği ağ üzerinde veri depolamaya göre istikrarlı olarak daha yüksektir, fakat kolaylık açısından masraflıdır.</p>", 
 
   "scheduling": "Zaman çizelgesi",
