@@ -125,6 +125,29 @@
     "slug": "arch-linux"
   },
   {
+    "description": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.",
+    "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
+    "logo": "arkos.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/cznweb",
+    "name": "ArkOS",
+    "tos_url": "",
+    "url": "https://arkos.io/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Raspberry Pi",
+          "Operating Systems"
+        ]
+      }
+    ],
+    "slug": "arkos"
+  },
+  {
     "description": "Asterisk is a software implementation of a telephone private branch exchange (PBX); it was created in 1999 by Mark Spencer of Digium. Like any PBX, it allows attached telephones to make calls to one another, and to connect to other telephone services, such as the public switched telephone network (PSTN) and Voice over Internet Protocol (VoIP) services. Its name comes from the asterisk symbol, *.",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",

@@ -254,7 +254,7 @@
   "mail-server-notes": "<p>Инструкция по запуску собственного сервера электронной почты для начинающих находится здесь: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> имеет встроенный Roundcube в вебклиенте, также предоставляет и клиенты для компьютера. Последние версии также включают облачное хранилище файлов, что превращает его в полноценное решение для управления персональной информацией.</p></p><blockquote><p><strong>Что такое агент пересылки сообщений?</strong></p><p>&laquo;Почтовый сервер, сервер электронной почты, мейл-сервер &mdash; в системе пересылки электронной почты так обычно называют агент пересылки сообщений (англ. mail transfer agent, MTA). Это компьютерная программа, которая передаёт сообщения от одного компьютера к другому. Обычно почтовый сервер работает &laquo;за кулисами&raquo;, а пользователи имеют дело с другой программой &mdash; клиентом электронной почты (англ. mail user agent, MUA).&raquo;</p><footer>&mdash; <cite><a href='https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80'>Википедия</a></cite></footer></blockquote>", 
 
   "xmpp-server-title": "XMPP серверы", 
-  "dukgoxmpp": "Приватный XMPP сервис, запущенный на DuckDuckGo Community Platform&mdash;инструкция включена.", 
+  "dukgocom": "Приватный XMPP сервис, запущенный на DuckDuckGo Community Platform&mdash;инструкция включена.", 
   "ejabberd": "XMPP сервер написанный на Erlang/OTP для GNU/Linux и OS X.", 
   "openfire": "Кросс-платформенный XMPP сервер написанный на Java.", 
   "prosody": "Гибкий и легкий XMPP сервер написанный на Lua.", 

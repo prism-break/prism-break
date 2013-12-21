@@ -247,7 +247,7 @@
   "mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> beinhaltet den Webmail-Client<a href='http://roundcube.net/'>Roundcube</a>, bietet allerdings auch Desktop-Clients an. Neuere Versionen bieten zudem Dateisynchronisierung an, sodass eine komplette Lösung für persönliches Informationsmanagement entsteht.</p><blockquote><p><strong>Was ist ein MTA?</strong></p><p>&ldquo;Ein Mail Transfer Agent oder Message Transport Agent (MTA) ist die Software eines Mailservers, die E-Mails entgegennimmt und sendet.</p><p>Der MTA des Adressaten arbeitet mit dem Mail Delivery Agent des Mailservers zusammen, der die E-Mails in den passenden Postfächern abliefert.&rdquo;</p><footer>&mdash; <cite><a href='https://de.wikipedia.org/wiki/Mail_Transfer_Agent'>Wikipedia</a></cite></footer></blockquote>",
 
   "xmpp-server-title": "XMPP-Server",
-  "dukgoxmpp": "Von der DuckDuckGo Community betriebener privater XMPP-Dienst&mdash;Anleitung vorhanden.",
+  "dukgocom": "Von der DuckDuckGo Community betriebener privater XMPP-Dienst&mdash;Anleitung vorhanden.",
   "ejabberd": "In Erlang/OTP geschriebener XMPP-Server für GNU/Linux und OS X.",
   "openfire": "Plattformübergreifender, in Java geschriebener XMPP-Server.",
   "prosody": "Flexibler und leichter, in Lua geschriebener XMPP-Server.",

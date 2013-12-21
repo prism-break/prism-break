@@ -247,7 +247,7 @@
   "mail-server-notes": "<p>A beginner&rsquo;s guide to running your own mail server is available here: <a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>&ldquo;NSA-proof your e-mail in 2 hours&rdquo;</a>.</p><p><strong>Kolab</strong> integrates Roundcube into its webclient and offers desktop clients as well. Recent versions also feature a file cloud turning it into a complete solution for personal information management.</p><blockquote><p><strong>What is an MTA?</strong></p><p>&ldquo;Within Internet message handling services (MHS), a message transfer agent or mail transfer agent (MTA) or mail relay is software that transfers electronic mail messages from one computer to another using a client–server application architecture. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.</p><p>The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>Wikipedia</a></cite></footer></blockquote>", 
 
   "xmpp-server-title": "XMPP server", 
-  "dukgoxmpp": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.", 
+  "dukgocom": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.", 
   "ejabberd": "XMPP server written in Erlang/OTP for GNU/Linux and OS X.", 
   "openfire": "Cross-platform XMPP server written in Java.", 
   "prosody": "Flexible lightweight XMPP server written in Lua.", 
