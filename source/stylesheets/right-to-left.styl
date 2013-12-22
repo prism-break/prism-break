@@ -76,14 +76,75 @@ body.he
     mr 0
     ml x*0.75
 
-  @media (min-width: 481px)
-    body
-      d block
+@media (min-width: 481px)
+  body.ar
+  body.fa
+  body.he
+    .section
+      .bar, .card
+        fr()
+        br none
+        bl 1px solid #ddd
 
-  @media (min-width: 768px)
-    body
-      d block
+@media (min-width: 768px)
+  body.ar
+  body.fa
+  body.he
+    .section
+      bl none
+      br 1px solid #ddd
 
-  @media (min-width: 980px)
-    body
-      d block
+    &.root.index
+    &.protocols.index
+    &.categories.index
+    &.about.index
+
+      .pipe
+        fr()
+
+      .bars
+        fr()
+        bl none
+        br 1px solid #ddd
+
+      .bar
+        bl none
+
+@media (min-width: 980px)
+  body.ar
+  body.fa
+  body.he
+    p 0 40px 40px
+
+    .content-side
+      fl()
+
+      .text-block
+        pl 0
+        pr 1.5em
+
+      .section
+        ml 0
+        mr 1em
+        br none
+        .bar
+          bl none
+          &.child
+            pl 0
+            pr 2em
+
+
+    .content-main
+      fl()
+
+    &.categories.show
+    &.subcategories.show
+    &.protocols.show
+    &.projects.show
+      #container
+        .content-side
+          fr()
+          .section
+            m 0 0 0 1em
+        .content-main
+          fr()
