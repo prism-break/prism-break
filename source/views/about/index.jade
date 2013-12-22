@@ -12,27 +12,24 @@ block content
       .pipe= t.About
       .bars
         a.bar(href="./media")
-          .label Media Mentions
+          .label= t['Media Mentions']
           .icon
             i.fa.fa-angle-right.ltr
             i.fa.fa-angle-left.rtl
 
-        a.bar(href="./privacy")
-          .label= t['Privacy Policy']
-          .icon
-            i.fa.fa-angle-right.ltr
-            i.fa.fa-angle-left.rtl
-
-        a.bar(href="./prism-break.tgz")
-          .label Download Site
-          .icon: i.fa.fa-save
+        //-
+          a.bar(href="./privacy")
+            .label= t['Privacy Policy']
+            .icon
+              i.fa.fa-angle-right.ltr
+              i.fa.fa-angle-left.rtl
 
     .section
       .pipe Development
 
       .bars
         a.bar(href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw")
-          .label Donate BTC
+          .label Donate Bitcoin
           .icon: i.fa.fa-bitcoin
 
         a.bar(href="https://github.com/nylira/prism-break/issues")
