@@ -1,0 +1,46 @@
+body.ar
+body.fa
+body.he
+
+  direction: rtl
+
+  .ltr
+    d none
+  .rtl
+    d block
+
+  #header
+    a#brand
+      fr()
+
+    .menu
+      fl()
+      .nav
+        fr()
+
+  .bar
+    ta right
+
+    .label
+      fr()
+
+      .logo, i.fa
+        fr()
+        m 8px 0 0 12px
+
+    .icon
+      fl()
+      margin-left -1em
+      margin-right 0
+
+  @media (min-width: 481px)
+    body
+      d block
+
+  @media (min-width: 768px)
+    body
+      d block
+
+  @media (min-width: 980px)
+    body
+      d block
