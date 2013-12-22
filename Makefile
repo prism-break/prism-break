@@ -35,7 +35,7 @@ build_css:
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
 
 build_html:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)ar.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)ar.ls
 #	$(LIVESCRIPT_BIN) $(BUILD_DIR)ca.ls
 #	$(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
 #	$(LIVESCRIPT_BIN) $(BUILD_DIR)el.ls
