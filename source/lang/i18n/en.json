@@ -14,7 +14,7 @@
   "Android": "Android",
   "android-note": "<p>If <strong>Replicant</strong> supports your <a href='http://replicant.us/supported-phones/'>Android device</a>, you should definitely use it instead of CyanogenMod, as Replicant is fully free and runs without relying on proprietary system code.</p><p><strong>CyanogenMod</strong> licensing:</p><blockquote><p>&ldquo;CyanogenMod does still include various hardware-specific code, which is also slowly being open-sourced anyway.&rdquo;</p><footer>&mdash; <cite><a href='https://en.wikipedia.org/wiki/CyanogenMod#Licensing'>Wikipedia</a></cite></footer></blockquote><p>Google Apps (Gapps) are the proprietary applications by Google that come pre-installed with most Android devices. <a href='https://cidofficial.neocities.org/010.html'>Click here</a> to know more about Gapps and how to remove them. Anyway, remember that the best solution is flashing <strong>Replicant</strong> or <strong>CyanogenMod</strong>. We believe that replacing Android with open source software can improve the privacy, security and performance of your device. However, it is possible that your device's closed-source hardware will still remain capable of certain privacy violations.</p>",
   "iOS and WP": "iOS &amp; WP",
-  "No Alternative": "No alternative",
+  "No Alternatives": "No Alternatives",
   "mobile-os-no-alt": "Replace the device&mdash;these operating systems have no free alternatives.",
   "mobile-os-note": "<p>iOS and WP are proprietary operating systems whose source code are not available for auditing by third parties. You should entrust neither your communications nor your data to a black box device.</p>",
   "Web Browser": "Web browser",
