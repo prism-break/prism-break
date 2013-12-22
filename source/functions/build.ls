@@ -12,8 +12,8 @@ build-site = (iso) ->
   {protocols} =         require '../db/en-protocols.ls'
 
   db =
-    iso: iso
     dir: "tmp/#{iso}/"
+    iso: iso
     locale: locale
     platform-types: platform-types
     projects: slugify-db projects

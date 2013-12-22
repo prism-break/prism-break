@@ -4,7 +4,7 @@
   f .8em/1.5 sans
   clearfix()
 
-  ul
+  ul.languages
     mb 1em
     clearfix()
     bt 1px solid #ddd
@@ -22,6 +22,25 @@
         &:hover
           bg hover
           c #fff
+
+  ul.nav
+
+    clear both
+    clearfix()
+    p 0 1em 1em
+    li
+      float left
+      f 1em/2 sans
+      mr 1em
+      a
+        d block
+        &:hover
+          td underline
+      &.copyright
+        c dim
+        a
+          d inline
+
   p
     p 0 1em 1em
     max-width 50em
