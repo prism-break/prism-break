@@ -17,4 +17,6 @@ block content
           - each subcategory in category.subcategories
             a.bar(href="../subcategories/#{category.slug}-#{subcategory.slug}")
               .label= subcategory.name
-              .icon: i.fa.fa-angle-right
+              .icon
+                i.fa.fa-angle-right.ltr
+                i.fa.fa-angle-left.rtl

@@ -27,7 +27,9 @@ block content
               .label
                 img.logo(src=routes.logos + subcat.randomLogo)
                 = subcat.name
-              .icon: i.fa.fa-angle-right
+              .icon
+                i.fa.fa-angle-right.ltr
+                i.fa.fa-angle-left.rtl
 
   .content-main
     mixin subcategory-head(data)
