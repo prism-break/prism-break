@@ -529,8 +529,7 @@ a.pipe:active{color:#0467ae;background:#ebebeb}
 .content-side{display:none}
 body.root.index .content-side{display:block}
 .content-main{display:block}
-@media (min-width: 481px){body #header .menu .nav a{font:16px/43px 'Helvetica Neue',Arial,Helvetica,sans-serif}
-body .filler-columns-two{display:block}
+@media (min-width: 481px){body .filler-columns-two{display:block}
 body .section .bar,body .section .card{width:50% !important;float:left;border-right:1px solid #ddd}
 body .text-block{font:16px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif !important;}
 body .text-block.large{font:16px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif !important}
@@ -538,6 +537,7 @@ body #header .menu .nav.nav-donate,body #header .menu .nav.nav-platforms{display
 body #footer{font:16px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif !important;}
 body #footer ul.nav li{margin-right:2em}
 }@media (min-width: 768px){body{display:block;}
+body #header .menu .nav a{font:16px/43px 'Helvetica Neue',Arial,Helvetica,sans-serif}
 body #container{padding:1em 0 0}
 body .content-main{margin:0 1em}
 body .section{margin-bottom:1em;border-top:1px solid #ddd;border-left:1px solid #ddd}
