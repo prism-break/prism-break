@@ -16,3 +16,5 @@ mixin category-head(category)
       .text-block.warning!= h.marked(t['warning-mac'])
     else if category.name == 'Windows'
       .text-block.warning!= h.marked(t['warning-windows'])
+    else if category.name == 'Servers'
+      .text-block.warning!= h.marked(t['server-os-notes'])
