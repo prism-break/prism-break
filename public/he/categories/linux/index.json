@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "tor.png"
+      "randomLogo": "freenet.png"
     },
     {
       "name": "Digital Distribution",
@@ -743,7 +743,7 @@
         "encfs.png",
         "truecrypt.png"
       ],
-      "randomLogo": "geli.png"
+      "randomLogo": "truecrypt.png"
     },
     {
       "name": "Email Alternatives",
@@ -909,7 +909,7 @@
         "bitmessage.png",
         "retroshare.png"
       ],
-      "randomLogo": "bitmessage.png"
+      "randomLogo": "retroshare.png"
     },
     {
       "name": "Email Clients",
@@ -1315,7 +1315,7 @@
         "mozilla-thunderbird.png",
         "sylpheed.png"
       ],
-      "randomLogo": "claws-mail.png"
+      "randomLogo": "mozilla-thunderbird.png"
     },
     {
       "name": "Email Encryption",
@@ -1600,7 +1600,7 @@
         "mailvelope.png",
         "torbirdy.png"
       ],
-      "randomLogo": "enigmail.png"
+      "randomLogo": "torbirdy.png"
     },
     {
       "name": "File Storage & Sync",
@@ -2915,7 +2915,7 @@
         "retroshare.png",
         "torchat.png"
       ],
-      "randomLogo": "gajim.png"
+      "randomLogo": "otr.png"
     },
     {
       "name": "IRC",
@@ -3681,7 +3681,7 @@
         "librevpn.png",
         "tinc.png"
       ],
-      "randomLogo": "commotion.png"
+      "randomLogo": "librevpn.png"
     },
     {
       "name": "Operating Systems",
@@ -4197,7 +4197,7 @@
         "qubes-os.png",
         "whonix.png"
       ],
-      "randomLogo": "gentoo.png"
+      "randomLogo": "fedora.png"
     },
     {
       "name": "Operating Systems (Live)",
@@ -4728,7 +4728,7 @@
         "retroshare.png",
         "syndie.png"
       ],
-      "randomLogo": "retroshare.png"
+      "randomLogo": "nightweb.png"
     },
     {
       "name": "Video & Voice",
@@ -5698,7 +5698,7 @@
         "request-policy.png",
         "self-destructing-cookies.png"
       ],
-      "randomLogo": "request-policy.png"
+      "randomLogo": "cryptocat.png"
     },
     {
       "name": "Web Browsers",
@@ -5922,7 +5922,7 @@
         "mozilla-firefox.png",
         "tor-browser-bundle.png"
       ],
-      "randomLogo": "jondonym.png"
+      "randomLogo": "tor-browser-bundle.png"
     },
     {
       "name": "Web Search",
@@ -6007,7 +6007,7 @@
         "seeks-project.png",
         "yacy.png"
       ],
-      "randomLogo": "yacy.png"
+      "randomLogo": "seeks-project.png"
     },
     {
       "name": "World Maps",
@@ -6132,7 +6132,7 @@
         "marble.png",
         "osrm.png"
       ],
-      "randomLogo": "marble.png"
+      "randomLogo": "osrm.png"
     }
   ]
 }

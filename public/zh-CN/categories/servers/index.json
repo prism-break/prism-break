@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "nightweb.png"
+      "randomLogo": "freenet.png"
     },
     {
       "name": "Communication Protocols",
@@ -705,7 +705,7 @@
         "encfs.png",
         "truecrypt.png"
       ],
-      "randomLogo": "encfs.png"
+      "randomLogo": "truecrypt.png"
     },
     {
       "name": "DNS",
@@ -826,7 +826,7 @@
         "namecoin.png",
         "opennic.png"
       ],
-      "randomLogo": "cloudns.png"
+      "randomLogo": "dnscrypt.png"
     },
     {
       "name": "File Storage & Sync",
@@ -1373,7 +1373,7 @@
         "exim.png",
         "postfix.png"
       ],
-      "randomLogo": "exim.png"
+      "randomLogo": "postfix.png"
     },
     {
       "name": "Media Publishing",
@@ -1622,7 +1622,7 @@
         "wordpress.png",
         "zenphoto.png"
       ],
-      "randomLogo": "zenphoto.png"
+      "randomLogo": "mediacrush.png"
     },
     {
       "name": "Mesh Networks",
@@ -1949,7 +1949,7 @@
         "librevpn.png",
         "tinc.png"
       ],
-      "randomLogo": "commotion.png"
+      "randomLogo": "librevpn.png"
     },
     {
       "name": "Operating Systems",
@@ -2489,7 +2489,7 @@
         "sme-server.png",
         "yunohost.png"
       ],
-      "randomLogo": "arkos.png"
+      "randomLogo": "freedombox.png"
     },
     {
       "name": "Productivity",
@@ -2619,7 +2619,7 @@
         "ethercalc.png",
         "etherpad.png"
       ],
-      "randomLogo": "dudle.png"
+      "randomLogo": "etherpad.png"
     },
     {
       "name": "Raspberry Pi",
@@ -2709,7 +2709,7 @@
         "arkos.png",
         "freedombox.png"
       ],
-      "randomLogo": "arkos.png"
+      "randomLogo": "freedombox.png"
     },
     {
       "name": "SIP Servers",
@@ -2843,7 +2843,7 @@
         "freeswitch.png",
         "kamailio.png"
       ],
-      "randomLogo": "freeswitch.png"
+      "randomLogo": "kamailio.png"
     },
     {
       "name": "Social Networks",
@@ -3364,7 +3364,7 @@
         "sat.png",
         "syndie.png"
       ],
-      "randomLogo": "diaspora.png"
+      "randomLogo": "sat.png"
     },
     {
       "name": "Video & Voice",
@@ -3966,7 +3966,7 @@
         "prosody.png",
         "tigase.png"
       ],
-      "randomLogo": "openfire.png"
+      "randomLogo": "prosody.png"
     }
   ]
 }

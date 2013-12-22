@@ -486,7 +486,7 @@
           "syndie.png",
           "tor.png"
         ],
-        "randomLogo": "nightweb.png"
+        "randomLogo": "syndie.png"
       },
       {
         "name": "Disk Encryption",
@@ -787,7 +787,7 @@
           "bitmessage.png",
           "retroshare.png"
         ],
-        "randomLogo": "bitmessage.png"
+        "randomLogo": "retroshare.png"
       },
       {
         "name": "Email Clients",
@@ -1073,7 +1073,7 @@
           "mozilla-thunderbird.png",
           "sylpheed.png"
         ],
-        "randomLogo": "sylpheed.png"
+        "randomLogo": "mozilla-thunderbird.png"
       },
       {
         "name": "Email Encryption",
@@ -1393,7 +1393,7 @@
           "mailvelope.png",
           "torbirdy.png"
         ],
-        "randomLogo": "gpgtools.png"
+        "randomLogo": "enigmail.png"
       },
       {
         "name": "File Storage & Sync",
@@ -1573,7 +1573,7 @@
           "mykolab.png",
           "sparkleshare.png"
         ],
-        "randomLogo": "git-annex.png"
+        "randomLogo": "mykolab.png"
       },
       {
         "name": "Finance",
@@ -1758,7 +1758,7 @@
           "bitcoin.png",
           "litecoin.png"
         ],
-        "randomLogo": "litecoin.png"
+        "randomLogo": "bitcoin.png"
       },
       {
         "name": "Instant Messaging",
@@ -2498,7 +2498,7 @@
           "psi-plus.png",
           "retroshare.png"
         ],
-        "randomLogo": "jitsi.png"
+        "randomLogo": "linphone.png"
       },
       {
         "name": "IRC",
@@ -2904,7 +2904,7 @@
           "mozilla-thunderbird.png",
           "weechat.png"
         ],
-        "randomLogo": "mozilla-thunderbird.png"
+        "randomLogo": "bitlbee.png"
       },
       {
         "name": "Mesh Networks",
@@ -3137,7 +3137,7 @@
           "cjdns.png",
           "commotion.png"
         ],
-        "randomLogo": "commotion.png"
+        "randomLogo": "cjdns.png"
       },
       {
         "name": "Operating Systems",
@@ -3827,7 +3827,7 @@
           "qubes-os.png",
           "whonix.png"
         ],
-        "randomLogo": "debian.png"
+        "randomLogo": "gentoo.png"
       },
       {
         "name": "Operating Systems (Live)",
@@ -5328,7 +5328,7 @@
           "request-policy.png",
           "self-destructing-cookies.png"
         ],
-        "randomLogo": "cryptocat.png"
+        "randomLogo": "noscript.png"
       },
       {
         "name": "Web Browsers",
@@ -5979,5 +5979,88 @@
       "protocolsSlugged": []
     }
   ],
-  "projectsRejected": []
+  "projectsRejected": [
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary",
+        "PRISM"
+      ],
+      "logo": "apple-maps.png",
+      "name": "Apple Maps",
+      "categories": [
+        {
+          "name": "Web Services",
+          "subcategories": [
+            "World Maps"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "World Maps"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "World Maps"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary",
+        "PRISM"
+      ],
+      "logo": "google-earth.png",
+      "name": "Google Earth",
+      "categories": [
+        {
+          "name": "Web Services",
+          "subcategories": [
+            "World Maps"
+          ]
+        },
+        {
+          "name": "Android",
+          "subcategories": [
+            "World Maps"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "World Maps"
+          ]
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            "World Maps"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "World Maps"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "World Maps"
+          ]
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            "World Maps"
+          ]
+        }
+      ]
+    }
+  ]
 }

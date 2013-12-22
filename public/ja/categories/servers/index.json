@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "nightweb.png"
+      "randomLogo": "gnunet.png"
     },
     {
       "name": "Communication Protocols",
@@ -826,7 +826,7 @@
         "namecoin.png",
         "opennic.png"
       ],
-      "randomLogo": "cloudns.png"
+      "randomLogo": "namecoin.png"
     },
     {
       "name": "File Storage & Sync",
@@ -1136,7 +1136,7 @@
         "sparkleshare.png",
         "tahoe-lafs.png"
       ],
-      "randomLogo": "buddycloud.png"
+      "randomLogo": "tahoe-lafs.png"
     },
     {
       "name": "Groupware",
@@ -1308,7 +1308,7 @@
         "iredmail.png",
         "kolab.png"
       ],
-      "randomLogo": "indimail.png"
+      "randomLogo": "iredmail.png"
     },
     {
       "name": "Mail Transfer Agents",
@@ -1373,7 +1373,7 @@
         "exim.png",
         "postfix.png"
       ],
-      "randomLogo": "exim.png"
+      "randomLogo": "postfix.png"
     },
     {
       "name": "Media Publishing",
@@ -1622,7 +1622,7 @@
         "wordpress.png",
         "zenphoto.png"
       ],
-      "randomLogo": "mediagoblin.png"
+      "randomLogo": "zenphoto.png"
     },
     {
       "name": "Mesh Networks",
@@ -1949,7 +1949,7 @@
         "librevpn.png",
         "tinc.png"
       ],
-      "randomLogo": "tinc.png"
+      "randomLogo": "byzantium.png"
     },
     {
       "name": "Operating Systems",
@@ -3364,7 +3364,7 @@
         "sat.png",
         "syndie.png"
       ],
-      "randomLogo": "buddycloud.png"
+      "randomLogo": "movim.png"
     },
     {
       "name": "Video & Voice",
@@ -3717,7 +3717,7 @@
         "strongswan.png",
         "tinc.png"
       ],
-      "randomLogo": "openswan.png"
+      "randomLogo": "tinc.png"
     },
     {
       "name": "Web Analytics",
@@ -3966,7 +3966,7 @@
         "prosody.png",
         "tigase.png"
       ],
-      "randomLogo": "metronome.png"
+      "randomLogo": "prosody.png"
     }
   ]
 }

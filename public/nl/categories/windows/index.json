@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "i2p.png"
+      "randomLogo": "tor.png"
     },
     {
       "name": "Digital Distribution",
@@ -695,7 +695,7 @@
         "encfs.png",
         "truecrypt.png"
       ],
-      "randomLogo": "truecrypt.png"
+      "randomLogo": "encfs.png"
     },
     {
       "name": "Email Alternatives",
@@ -861,7 +861,7 @@
         "bitmessage.png",
         "retroshare.png"
       ],
-      "randomLogo": "retroshare.png"
+      "randomLogo": "bitmessage.png"
     },
     {
       "name": "Email Clients",
@@ -1207,7 +1207,7 @@
         "mozilla-thunderbird.png",
         "sylpheed.png"
       ],
-      "randomLogo": "mozilla-thunderbird.png"
+      "randomLogo": "sylpheed.png"
     },
     {
       "name": "Email Encryption",
@@ -1527,7 +1527,7 @@
         "mailvelope.png",
         "torbirdy.png"
       ],
-      "randomLogo": "gnupg.png"
+      "randomLogo": "mailvelope.png"
     },
     {
       "name": "File Storage & Sync",
@@ -1854,7 +1854,7 @@
         "bitcoin.png",
         "litecoin.png"
       ],
-      "randomLogo": "bitcoin.png"
+      "randomLogo": "litecoin.png"
     },
     {
       "name": "Instant Messaging",
@@ -3236,7 +3236,7 @@
         "pidgin.png",
         "weechat.png"
       ],
-      "randomLogo": "pidgin.png"
+      "randomLogo": "hexchat.png"
     },
     {
       "name": "Mesh Networks",
@@ -4091,7 +4091,7 @@
         "qubes-os.png",
         "whonix.png"
       ],
-      "randomLogo": "gnewsense.png"
+      "randomLogo": "freebsd.png"
     },
     {
       "name": "Operating Systems (Live)",
@@ -4328,7 +4328,7 @@
         "liberte-linux.png",
         "tails.png"
       ],
-      "randomLogo": "liberte-linux.png"
+      "randomLogo": "jondonym.png"
     },
     {
       "name": "Social Networks",
@@ -4622,7 +4622,7 @@
         "retroshare.png",
         "syndie.png"
       ],
-      "randomLogo": "retroshare.png"
+      "randomLogo": "nightweb.png"
     },
     {
       "name": "Video & Voice",
@@ -4932,7 +4932,7 @@
         "linphone.png",
         "mumble.png"
       ],
-      "randomLogo": "mumble.png"
+      "randomLogo": "jitsi.png"
     },
     {
       "name": "VPN Clients",
@@ -5592,7 +5592,7 @@
         "request-policy.png",
         "self-destructing-cookies.png"
       ],
-      "randomLogo": "noscript.png"
+      "randomLogo": "self-destructing-cookies.png"
     },
     {
       "name": "Web Browsers",
@@ -5816,7 +5816,7 @@
         "mozilla-firefox.png",
         "tor-browser-bundle.png"
       ],
-      "randomLogo": "tor-browser-bundle.png"
+      "randomLogo": "mozilla-firefox.png"
     },
     {
       "name": "Web Search",
@@ -5998,7 +5998,7 @@
         "marble.png",
         "osrm.png"
       ],
-      "randomLogo": "osrm.png"
+      "randomLogo": "marble.png"
     }
   ]
 }

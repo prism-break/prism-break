@@ -486,7 +486,7 @@
           "syndie.png",
           "tor.png"
         ],
-        "randomLogo": "syndie.png"
+        "randomLogo": "nightweb.png"
       },
       {
         "name": "Disk Encryption",
@@ -1073,7 +1073,7 @@
           "mozilla-thunderbird.png",
           "sylpheed.png"
         ],
-        "randomLogo": "sylpheed.png"
+        "randomLogo": "claws-mail.png"
       },
       {
         "name": "Email Encryption",
@@ -1573,7 +1573,7 @@
           "mykolab.png",
           "sparkleshare.png"
         ],
-        "randomLogo": "git-annex.png"
+        "randomLogo": "mykolab.png"
       },
       {
         "name": "Finance",
@@ -1758,7 +1758,7 @@
           "bitcoin.png",
           "litecoin.png"
         ],
-        "randomLogo": "litecoin.png"
+        "randomLogo": "bitcoin.png"
       },
       {
         "name": "Instant Messaging",
@@ -2498,7 +2498,7 @@
           "psi-plus.png",
           "retroshare.png"
         ],
-        "randomLogo": "cryptocat.png"
+        "randomLogo": "linphone.png"
       },
       {
         "name": "IRC",
@@ -2904,7 +2904,7 @@
           "mozilla-thunderbird.png",
           "weechat.png"
         ],
-        "randomLogo": "hexchat.png"
+        "randomLogo": "mozilla-thunderbird.png"
       },
       {
         "name": "Mesh Networks",
@@ -3827,7 +3827,7 @@
           "qubes-os.png",
           "whonix.png"
         ],
-        "randomLogo": "linux-mint.png"
+        "randomLogo": "whonix.png"
       },
       {
         "name": "Operating Systems (Live)",
@@ -4064,7 +4064,7 @@
           "liberte-linux.png",
           "tails.png"
         ],
-        "randomLogo": "liberte-linux.png"
+        "randomLogo": "jondonym.png"
       },
       {
         "name": "Social Networks",
@@ -4358,7 +4358,7 @@
           "retroshare.png",
           "syndie.png"
         ],
-        "randomLogo": "nightweb.png"
+        "randomLogo": "syndie.png"
       },
       {
         "name": "Video & Voice",
@@ -5328,7 +5328,7 @@
           "request-policy.png",
           "self-destructing-cookies.png"
         ],
-        "randomLogo": "disconnect.png"
+        "randomLogo": "noscript.png"
       },
       {
         "name": "Web Browsers",
@@ -6348,5 +6348,101 @@
       ]
     }
   ],
-  "projectsRejected": []
+  "projectsRejected": [
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary",
+        "PRISM"
+      ],
+      "logo": "apple-facetime.png",
+      "name": "Apple FaceTime",
+      "categories": [
+        {
+          "name": "Web Services",
+          "subcategories": [
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            "Video & Voice"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary",
+        "PRISM"
+      ],
+      "logo": "ms-skype.png",
+      "name": "Skype",
+      "categories": [
+        {
+          "name": "Web Services",
+          "subcategories": [
+            "Instant Messaging",
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "Android",
+          "subcategories": [
+            "Instant Messaging",
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "Instant Messaging",
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            "Instant Messaging",
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "Instant Messaging",
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "Instant Messaging",
+            "Video & Voice"
+          ]
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            "Instant Messaging",
+            "Video & Voice"
+          ]
+        }
+      ]
+    }
+  ]
 }

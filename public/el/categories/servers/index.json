@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "gnunet.png"
+      "randomLogo": "syndie.png"
     },
     {
       "name": "Communication Protocols",
@@ -705,7 +705,7 @@
         "encfs.png",
         "truecrypt.png"
       ],
-      "randomLogo": "encfs.png"
+      "randomLogo": "luks.png"
     },
     {
       "name": "DNS",
@@ -1136,7 +1136,7 @@
         "sparkleshare.png",
         "tahoe-lafs.png"
       ],
-      "randomLogo": "cozy.png"
+      "randomLogo": "sparkleshare.png"
     },
     {
       "name": "Groupware",
@@ -1308,7 +1308,7 @@
         "iredmail.png",
         "kolab.png"
       ],
-      "randomLogo": "kolab.png"
+      "randomLogo": "iredmail.png"
     },
     {
       "name": "Mail Transfer Agents",
@@ -1949,7 +1949,7 @@
         "librevpn.png",
         "tinc.png"
       ],
-      "randomLogo": "tinc.png"
+      "randomLogo": "byzantium.png"
     },
     {
       "name": "Operating Systems",
@@ -2489,7 +2489,7 @@
         "sme-server.png",
         "yunohost.png"
       ],
-      "randomLogo": "freedombox.png"
+      "randomLogo": "debian.png"
     },
     {
       "name": "Productivity",
@@ -2619,7 +2619,7 @@
         "ethercalc.png",
         "etherpad.png"
       ],
-      "randomLogo": "etherpad.png"
+      "randomLogo": "dudle.png"
     },
     {
       "name": "Raspberry Pi",
@@ -3364,7 +3364,7 @@
         "sat.png",
         "syndie.png"
       ],
-      "randomLogo": "lorea.png"
+      "randomLogo": "sat.png"
     },
     {
       "name": "Video & Voice",
@@ -3717,7 +3717,7 @@
         "strongswan.png",
         "tinc.png"
       ],
-      "randomLogo": "libreswan.png"
+      "randomLogo": "openvpn.png"
     },
     {
       "name": "Web Analytics",
@@ -3782,7 +3782,7 @@
         "open-web-analytics.png",
         "piwik.png"
       ],
-      "randomLogo": "open-web-analytics.png"
+      "randomLogo": "piwik.png"
     },
     {
       "name": "XMPP Servers",
@@ -3966,7 +3966,7 @@
         "prosody.png",
         "tigase.png"
       ],
-      "randomLogo": "metronome.png"
+      "randomLogo": "tigase.png"
     }
   ]
 }

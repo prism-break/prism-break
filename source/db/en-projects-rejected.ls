@@ -11,7 +11,7 @@ projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
@@ -28,7 +28,7 @@ projects-rejected =
         subcategories: ["Video & Voice"]
       * name: "iOS"
         subcategories: ["Video & Voice"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Video & Voice"]
       * name: "Servers"
         subcategories: ["Video & Voice"]
@@ -39,7 +39,7 @@ projects-rejected =
     logo: "apple-filevault.png"
     name: "Apple FileVault"
     categories: [
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Disk Encryption"]
       * name: "Servers"
         subcategories: ["Disk Encryption"]
@@ -52,7 +52,7 @@ projects-rejected =
     categories: [
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -76,7 +76,7 @@ projects-rejected =
         subcategories: ["Email Accounts"]
       * name: "iOS"
         subcategories: ["Email Clients"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Clients"]
       * name: "Servers"
         subcategories: ["Email Servers"]
@@ -91,7 +91,7 @@ projects-rejected =
         subcategories: ["World Maps"]
       * name: "iOS"
         subcategories: ["World Maps"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["World Maps"]
     ]
 
@@ -104,7 +104,7 @@ projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging"]
       * name: "Servers"
         subcategories: ["Instant Messaging"]
@@ -115,7 +115,7 @@ projects-rejected =
     logo: "apple-osx.png"
     name: "Apple OS X"
     categories: [
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
     ]
 
@@ -136,7 +136,7 @@ projects-rejected =
     categories: [
       * name: "iOS"
         subcategories: ["Web Browsers"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browsers"]
     ]
 
@@ -147,7 +147,7 @@ projects-rejected =
     categories: [
       * name: "Linux"
         subcategories: ["VPN Clients"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["VPN Clients"]
       * name: "Windows"
         subcategories: ["VPN Clients"]
@@ -177,7 +177,7 @@ projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "Linux"
         subcategories: ["File Storage & Sync"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -196,7 +196,7 @@ projects-rejected =
         subcategories: ["Productivity"]
       * name: "iOS"
         subcategories: ["Productivity"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Productivity"]
       * name: "Windows"
         subcategories: ["Productivity"]
@@ -247,7 +247,7 @@ projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "Linux"
         subcategories: ["Web Browsers"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
@@ -264,7 +264,7 @@ projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -285,7 +285,7 @@ projects-rejected =
         subcategories: ["World Maps"]
       * name: "Linux"
         subcategories: ["World Maps"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["World Maps"]
       * name: "Windows"
         subcategories: ["World Maps"]
@@ -315,7 +315,7 @@ projects-rejected =
         subcategories: ["Media Publishing"]
       * name: "iOS"
         subcategories: ["Media Publishing"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Media Publishing"]
       * name: "Windows"
         subcategories: ["Media Publishing"]
@@ -465,7 +465,7 @@ projects-rejected =
     logo: "ms-outlook.png"
     name: "Microsoft Office Outlook"
     categories: [
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Email Clients", "Productivity"]
       * name: "Windows"
         subcategories: ["Email Clients", "Productivity"]
@@ -491,7 +491,7 @@ projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -512,7 +512,7 @@ projects-rejected =
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Linux"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
@@ -536,7 +536,7 @@ projects-rejected =
     logo: "ms-windows.png"
     name: "Microsoft Windows"
     categories: [
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
@@ -562,7 +562,7 @@ projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "Linux"
         subcategories: ["Web Browsers"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
@@ -584,7 +584,7 @@ projects-rejected =
     categories: [
       * name: "Linux"
         subcategories: ["Digital Distribution"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Digital Distribution"]
       * name: "Windows"
         subcategories: ["Digital Distribution"]
@@ -597,7 +597,7 @@ projects-rejected =
     categories: [
       * name: "Linux"
         subcategories: ["Disk Encryption"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Disk Encryption"]
       * name: "Windows"
         subcategories: ["Disk Encryption"]
@@ -614,7 +614,7 @@ projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
@@ -640,7 +640,7 @@ projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
@@ -662,7 +662,7 @@ projects-rejected =
     logo: "viscosity.png"
     name: "Viscosity"
     categories: [
-      * name: "Mac OS X"
+      * name: "Mac"
         subcategories: ["VPN Clients"]
       * name: "Windows"
         subcategories: ["VPN Clients"]

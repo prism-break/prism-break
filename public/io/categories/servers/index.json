@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "tor.png"
+      "randomLogo": "freenet.png"
     },
     {
       "name": "Communication Protocols",
@@ -1308,7 +1308,7 @@
         "iredmail.png",
         "kolab.png"
       ],
-      "randomLogo": "indimail.png"
+      "randomLogo": "kolab.png"
     },
     {
       "name": "Mail Transfer Agents",
@@ -1373,7 +1373,7 @@
         "exim.png",
         "postfix.png"
       ],
-      "randomLogo": "postfix.png"
+      "randomLogo": "exim.png"
     },
     {
       "name": "Media Publishing",
@@ -2489,7 +2489,7 @@
         "sme-server.png",
         "yunohost.png"
       ],
-      "randomLogo": "sme-server.png"
+      "randomLogo": "arkos.png"
     },
     {
       "name": "Productivity",
@@ -2843,7 +2843,7 @@
         "freeswitch.png",
         "kamailio.png"
       ],
-      "randomLogo": "kamailio.png"
+      "randomLogo": "asterisk.png"
     },
     {
       "name": "Social Networks",
@@ -3364,7 +3364,7 @@
         "sat.png",
         "syndie.png"
       ],
-      "randomLogo": "diaspora.png"
+      "randomLogo": "buddycloud.png"
     },
     {
       "name": "Video & Voice",
@@ -3717,7 +3717,7 @@
         "strongswan.png",
         "tinc.png"
       ],
-      "randomLogo": "libreswan.png"
+      "randomLogo": "openvpn.png"
     },
     {
       "name": "Web Analytics",
@@ -3782,7 +3782,7 @@
         "open-web-analytics.png",
         "piwik.png"
       ],
-      "randomLogo": "piwik.png"
+      "randomLogo": "open-web-analytics.png"
     },
     {
       "name": "XMPP Servers",
@@ -3966,7 +3966,7 @@
         "prosody.png",
         "tigase.png"
       ],
-      "randomLogo": "metronome.png"
+      "randomLogo": "tigase.png"
     }
   ]
 }

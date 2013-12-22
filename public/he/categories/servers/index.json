@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "tor.png"
+      "randomLogo": "syndie.png"
     },
     {
       "name": "Communication Protocols",
@@ -705,7 +705,7 @@
         "encfs.png",
         "truecrypt.png"
       ],
-      "randomLogo": "luks.png"
+      "randomLogo": "truecrypt.png"
     },
     {
       "name": "DNS",
@@ -1136,7 +1136,7 @@
         "sparkleshare.png",
         "tahoe-lafs.png"
       ],
-      "randomLogo": "buddycloud.png"
+      "randomLogo": "git-annex.png"
     },
     {
       "name": "Groupware",
@@ -1308,7 +1308,7 @@
         "iredmail.png",
         "kolab.png"
       ],
-      "randomLogo": "indimail.png"
+      "randomLogo": "iredmail.png"
     },
     {
       "name": "Mail Transfer Agents",
@@ -1373,7 +1373,7 @@
         "exim.png",
         "postfix.png"
       ],
-      "randomLogo": "exim.png"
+      "randomLogo": "postfix.png"
     },
     {
       "name": "Media Publishing",
@@ -1622,7 +1622,7 @@
         "wordpress.png",
         "zenphoto.png"
       ],
-      "randomLogo": "zenphoto.png"
+      "randomLogo": "mediagoblin.png"
     },
     {
       "name": "Mesh Networks",
@@ -1949,7 +1949,7 @@
         "librevpn.png",
         "tinc.png"
       ],
-      "randomLogo": "tinc.png"
+      "randomLogo": "commotion.png"
     },
     {
       "name": "Operating Systems",
@@ -2843,7 +2843,7 @@
         "freeswitch.png",
         "kamailio.png"
       ],
-      "randomLogo": "asterisk.png"
+      "randomLogo": "freeswitch.png"
     },
     {
       "name": "Social Networks",
@@ -3364,7 +3364,7 @@
         "sat.png",
         "syndie.png"
       ],
-      "randomLogo": "movim.png"
+      "randomLogo": "nightweb.png"
     },
     {
       "name": "Video & Voice",
@@ -3717,7 +3717,7 @@
         "strongswan.png",
         "tinc.png"
       ],
-      "randomLogo": "tinc.png"
+      "randomLogo": "libreswan.png"
     },
     {
       "name": "Web Analytics",
@@ -3966,7 +3966,7 @@
         "prosody.png",
         "tigase.png"
       ],
-      "randomLogo": "tigase.png"
+      "randomLogo": "openfire.png"
     }
   ]
 }

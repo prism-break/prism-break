@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "freenet.png"
+      "randomLogo": "syndie.png"
     },
     {
       "name": "Communication Protocols",
@@ -705,7 +705,7 @@
         "encfs.png",
         "truecrypt.png"
       ],
-      "randomLogo": "truecrypt.png"
+      "randomLogo": "encfs.png"
     },
     {
       "name": "DNS",
@@ -826,7 +826,7 @@
         "namecoin.png",
         "opennic.png"
       ],
-      "randomLogo": "dnscrypt.png"
+      "randomLogo": "namecoin.png"
     },
     {
       "name": "File Storage & Sync",
@@ -1136,7 +1136,7 @@
         "sparkleshare.png",
         "tahoe-lafs.png"
       ],
-      "randomLogo": "buddycloud.png"
+      "randomLogo": "owncloud.png"
     },
     {
       "name": "Groupware",
@@ -1308,7 +1308,7 @@
         "iredmail.png",
         "kolab.png"
       ],
-      "randomLogo": "iredmail.png"
+      "randomLogo": "indimail.png"
     },
     {
       "name": "Mail Transfer Agents",
@@ -1622,7 +1622,7 @@
         "wordpress.png",
         "zenphoto.png"
       ],
-      "randomLogo": "piwigo.png"
+      "randomLogo": "wordpress.png"
     },
     {
       "name": "Mesh Networks",
@@ -1949,7 +1949,7 @@
         "librevpn.png",
         "tinc.png"
       ],
-      "randomLogo": "librevpn.png"
+      "randomLogo": "cjdns.png"
     },
     {
       "name": "Operating Systems",
@@ -2489,7 +2489,7 @@
         "sme-server.png",
         "yunohost.png"
       ],
-      "randomLogo": "dragonfly-bsd.png"
+      "randomLogo": "freebsd.png"
     },
     {
       "name": "Productivity",
@@ -2619,7 +2619,7 @@
         "ethercalc.png",
         "etherpad.png"
       ],
-      "randomLogo": "dudle.png"
+      "randomLogo": "ethercalc.png"
     },
     {
       "name": "Raspberry Pi",
@@ -2843,7 +2843,7 @@
         "freeswitch.png",
         "kamailio.png"
       ],
-      "randomLogo": "kamailio.png"
+      "randomLogo": "asterisk.png"
     },
     {
       "name": "Social Networks",
@@ -3364,7 +3364,7 @@
         "sat.png",
         "syndie.png"
       ],
-      "randomLogo": "lorea.png"
+      "randomLogo": "syndie.png"
     },
     {
       "name": "Video & Voice",
@@ -3717,7 +3717,7 @@
         "strongswan.png",
         "tinc.png"
       ],
-      "randomLogo": "openvpn.png"
+      "randomLogo": "openswan.png"
     },
     {
       "name": "Web Analytics",

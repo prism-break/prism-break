@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "gnunet.png"
+      "randomLogo": "tor.png"
     },
     {
       "name": "Communication Protocols",
@@ -705,7 +705,7 @@
         "encfs.png",
         "truecrypt.png"
       ],
-      "randomLogo": "encfs.png"
+      "randomLogo": "luks.png"
     },
     {
       "name": "DNS",
@@ -826,7 +826,7 @@
         "namecoin.png",
         "opennic.png"
       ],
-      "randomLogo": "cloudns.png"
+      "randomLogo": "opennic.png"
     },
     {
       "name": "File Storage & Sync",
@@ -1136,7 +1136,7 @@
         "sparkleshare.png",
         "tahoe-lafs.png"
       ],
-      "randomLogo": "tahoe-lafs.png"
+      "randomLogo": "owncloud.png"
     },
     {
       "name": "Groupware",
@@ -1622,7 +1622,7 @@
         "wordpress.png",
         "zenphoto.png"
       ],
-      "randomLogo": "mediagoblin.png"
+      "randomLogo": "zenphoto.png"
     },
     {
       "name": "Mesh Networks",
@@ -2489,7 +2489,7 @@
         "sme-server.png",
         "yunohost.png"
       ],
-      "randomLogo": "centos.png"
+      "randomLogo": "scientific-linux.png"
     },
     {
       "name": "Productivity",
@@ -2619,7 +2619,7 @@
         "ethercalc.png",
         "etherpad.png"
       ],
-      "randomLogo": "dudle.png"
+      "randomLogo": "etherpad.png"
     },
     {
       "name": "Raspberry Pi",
@@ -3364,7 +3364,7 @@
         "sat.png",
         "syndie.png"
       ],
-      "randomLogo": "pumpio.png"
+      "randomLogo": "nightweb.png"
     },
     {
       "name": "Video & Voice",
@@ -3717,7 +3717,7 @@
         "strongswan.png",
         "tinc.png"
       ],
-      "randomLogo": "openvpn.png"
+      "randomLogo": "libreswan.png"
     },
     {
       "name": "Web Analytics",
@@ -3966,7 +3966,7 @@
         "prosody.png",
         "tigase.png"
       ],
-      "randomLogo": "ejabberd.png"
+      "randomLogo": "prosody.png"
     }
   ]
 }

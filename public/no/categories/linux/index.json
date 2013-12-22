@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "tor.png"
+      "randomLogo": "syndie.png"
     },
     {
       "name": "Digital Distribution",
@@ -909,7 +909,7 @@
         "bitmessage.png",
         "retroshare.png"
       ],
-      "randomLogo": "retroshare.png"
+      "randomLogo": "bitmessage.png"
     },
     {
       "name": "Email Clients",
@@ -1315,7 +1315,7 @@
         "mozilla-thunderbird.png",
         "sylpheed.png"
       ],
-      "randomLogo": "kontact.png"
+      "randomLogo": "evolution.png"
     },
     {
       "name": "Email Encryption",
@@ -1600,7 +1600,7 @@
         "mailvelope.png",
         "torbirdy.png"
       ],
-      "randomLogo": "mailvelope.png"
+      "randomLogo": "torbirdy.png"
     },
     {
       "name": "File Storage & Sync",
@@ -1927,7 +1927,7 @@
         "bitcoin.png",
         "litecoin.png"
       ],
-      "randomLogo": "bitcoin.png"
+      "randomLogo": "litecoin.png"
     },
     {
       "name": "Instant Messaging",
@@ -2915,7 +2915,7 @@
         "retroshare.png",
         "torchat.png"
       ],
-      "randomLogo": "bitlbee.png"
+      "randomLogo": "mozilla-thunderbird.png"
     },
     {
       "name": "IRC",
@@ -3354,7 +3354,7 @@
         "pidgin.png",
         "weechat.png"
       ],
-      "randomLogo": "weechat.png"
+      "randomLogo": "bitlbee.png"
     },
     {
       "name": "Mesh Networks",
@@ -3681,7 +3681,7 @@
         "librevpn.png",
         "tinc.png"
       ],
-      "randomLogo": "tinc.png"
+      "randomLogo": "librevpn.png"
     },
     {
       "name": "Operating Systems",
@@ -4197,7 +4197,7 @@
         "qubes-os.png",
         "whonix.png"
       ],
-      "randomLogo": "debian.png"
+      "randomLogo": "linux-mint.png"
     },
     {
       "name": "Operating Systems (Live)",
@@ -5038,7 +5038,7 @@
         "linphone.png",
         "mumble.png"
       ],
-      "randomLogo": "linphone.png"
+      "randomLogo": "jitsi.png"
     },
     {
       "name": "VPN Clients",
@@ -5698,7 +5698,7 @@
         "request-policy.png",
         "self-destructing-cookies.png"
       ],
-      "randomLogo": "mailvelope.png"
+      "randomLogo": "disconnect.png"
     },
     {
       "name": "Web Browsers",
@@ -5922,7 +5922,7 @@
         "mozilla-firefox.png",
         "tor-browser-bundle.png"
       ],
-      "randomLogo": "jondonym.png"
+      "randomLogo": "mozilla-firefox.png"
     },
     {
       "name": "Web Search",
@@ -6007,7 +6007,7 @@
         "seeks-project.png",
         "yacy.png"
       ],
-      "randomLogo": "seeks-project.png"
+      "randomLogo": "yacy.png"
     },
     {
       "name": "World Maps",
@@ -6132,7 +6132,7 @@
         "marble.png",
         "osrm.png"
       ],
-      "randomLogo": "osrm.png"
+      "randomLogo": "marble.png"
     }
   ]
 }

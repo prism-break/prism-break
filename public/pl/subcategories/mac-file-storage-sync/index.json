@@ -486,7 +486,7 @@
           "syndie.png",
           "tor.png"
         ],
-        "randomLogo": "freenet.png"
+        "randomLogo": "i2p.png"
       },
       {
         "name": "Disk Encryption",
@@ -1073,7 +1073,7 @@
           "mozilla-thunderbird.png",
           "sylpheed.png"
         ],
-        "randomLogo": "mozilla-thunderbird.png"
+        "randomLogo": "sylpheed.png"
       },
       {
         "name": "Email Encryption",
@@ -1393,7 +1393,7 @@
           "mailvelope.png",
           "torbirdy.png"
         ],
-        "randomLogo": "mailvelope.png"
+        "randomLogo": "torbirdy.png"
       },
       {
         "name": "File Storage & Sync",
@@ -1573,7 +1573,7 @@
           "mykolab.png",
           "sparkleshare.png"
         ],
-        "randomLogo": "mykolab.png"
+        "randomLogo": "git-annex.png"
       },
       {
         "name": "Finance",
@@ -2498,7 +2498,7 @@
           "psi-plus.png",
           "retroshare.png"
         ],
-        "randomLogo": "linphone.png"
+        "randomLogo": "jitsi.png"
       },
       {
         "name": "IRC",
@@ -2904,7 +2904,7 @@
           "mozilla-thunderbird.png",
           "weechat.png"
         ],
-        "randomLogo": "weechat.png"
+        "randomLogo": "mozilla-thunderbird.png"
       },
       {
         "name": "Mesh Networks",
@@ -3137,7 +3137,7 @@
           "cjdns.png",
           "commotion.png"
         ],
-        "randomLogo": "byzantium.png"
+        "randomLogo": "commotion.png"
       },
       {
         "name": "Operating Systems",
@@ -3827,7 +3827,7 @@
           "qubes-os.png",
           "whonix.png"
         ],
-        "randomLogo": "gnewsense.png"
+        "randomLogo": "qubes-os.png"
       },
       {
         "name": "Operating Systems (Live)",
@@ -4064,7 +4064,7 @@
           "liberte-linux.png",
           "tails.png"
         ],
-        "randomLogo": "tails.png"
+        "randomLogo": "jondonym.png"
       },
       {
         "name": "Social Networks",
@@ -4358,7 +4358,7 @@
           "retroshare.png",
           "syndie.png"
         ],
-        "randomLogo": "syndie.png"
+        "randomLogo": "nightweb.png"
       },
       {
         "name": "Video & Voice",
@@ -5328,7 +5328,7 @@
           "request-policy.png",
           "self-destructing-cookies.png"
         ],
-        "randomLogo": "noscript.png"
+        "randomLogo": "mailvelope.png"
       },
       {
         "name": "Web Browsers",
@@ -5552,7 +5552,7 @@
           "mozilla-firefox.png",
           "tor-browser-bundle.png"
         ],
-        "randomLogo": "mozilla-firefox.png"
+        "randomLogo": "tor-browser-bundle.png"
       },
       {
         "name": "Web Search",
@@ -5734,7 +5734,7 @@
           "marble.png",
           "osrm.png"
         ],
-        "randomLogo": "marble.png"
+        "randomLogo": "osrm.png"
       }
     ]
   },
@@ -5916,7 +5916,7 @@
       "mykolab.png",
       "sparkleshare.png"
     ],
-    "randomLogo": "mykolab.png"
+    "randomLogo": "git-annex.png"
   },
   "projects": [
     {
@@ -6088,5 +6088,182 @@
       "protocolsSlugged": []
     }
   ],
-  "projectsRejected": []
+  "projectsRejected": [
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary",
+        "PRISM"
+      ],
+      "logo": "apple-icloud.png",
+      "name": "Apple iCloud",
+      "categories": [
+        {
+          "name": "iOS",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary",
+        "PRISM"
+      ],
+      "logo": "dropbox.png",
+      "name": "Dropbox",
+      "categories": [
+        {
+          "name": "Web Services",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Android",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary",
+        "PRISM"
+      ],
+      "logo": "google-drive.png",
+      "name": "Google Drive",
+      "categories": [
+        {
+          "name": "Web Services",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Android",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary",
+        "PRISM"
+      ],
+      "logo": "ms-skydrive.png",
+      "name": "Microsoft SkyDrive",
+      "categories": [
+        {
+          "name": "Web Services",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Android",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            "File Storage & Sync"
+          ]
+        }
+      ]
+    }
+  ]
 }

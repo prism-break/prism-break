@@ -485,7 +485,7 @@
         "syndie.png",
         "tor.png"
       ],
-      "randomLogo": "freenet.png"
+      "randomLogo": "nightweb.png"
     },
     {
       "name": "Disk Encryption",
@@ -620,7 +620,7 @@
         "encfs.png",
         "truecrypt.png"
       ],
-      "randomLogo": "truecrypt.png"
+      "randomLogo": "encfs.png"
     },
     {
       "name": "Email Alternatives",
@@ -2497,7 +2497,7 @@
         "psi-plus.png",
         "retroshare.png"
       ],
-      "randomLogo": "jitsi.png"
+      "randomLogo": "linphone.png"
     },
     {
       "name": "IRC",
@@ -2903,7 +2903,7 @@
         "mozilla-thunderbird.png",
         "weechat.png"
       ],
-      "randomLogo": "mozilla-thunderbird.png"
+      "randomLogo": "weechat.png"
     },
     {
       "name": "Mesh Networks",
@@ -3136,7 +3136,7 @@
         "cjdns.png",
         "commotion.png"
       ],
-      "randomLogo": "commotion.png"
+      "randomLogo": "cjdns.png"
     },
     {
       "name": "Operating Systems",
@@ -3826,7 +3826,7 @@
         "qubes-os.png",
         "whonix.png"
       ],
-      "randomLogo": "parabola.png"
+      "randomLogo": "arch-linux.png"
     },
     {
       "name": "Operating Systems (Live)",
@@ -4667,7 +4667,7 @@
         "linphone.png",
         "mumble.png"
       ],
-      "randomLogo": "mumble.png"
+      "randomLogo": "jitsi.png"
     },
     {
       "name": "VPN Clients",
@@ -5327,7 +5327,7 @@
         "request-policy.png",
         "self-destructing-cookies.png"
       ],
-      "randomLogo": "self-destructing-cookies.png"
+      "randomLogo": "request-policy.png"
     },
     {
       "name": "Web Browsers",
@@ -5733,7 +5733,7 @@
         "marble.png",
         "osrm.png"
       ],
-      "randomLogo": "marble.png"
+      "randomLogo": "osrm.png"
     }
   ]
 }

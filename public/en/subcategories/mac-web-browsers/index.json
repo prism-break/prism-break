@@ -486,7 +486,7 @@
           "syndie.png",
           "tor.png"
         ],
-        "randomLogo": "syndie.png"
+        "randomLogo": "freenet.png"
       },
       {
         "name": "Disk Encryption",
@@ -1073,7 +1073,7 @@
           "mozilla-thunderbird.png",
           "sylpheed.png"
         ],
-        "randomLogo": "sylpheed.png"
+        "randomLogo": "mozilla-thunderbird.png"
       },
       {
         "name": "Email Encryption",
@@ -1393,7 +1393,7 @@
           "mailvelope.png",
           "torbirdy.png"
         ],
-        "randomLogo": "enigmail.png"
+        "randomLogo": "torbirdy.png"
       },
       {
         "name": "File Storage & Sync",
@@ -1573,7 +1573,7 @@
           "mykolab.png",
           "sparkleshare.png"
         ],
-        "randomLogo": "git-annex.png"
+        "randomLogo": "mykolab.png"
       },
       {
         "name": "Finance",
@@ -1758,7 +1758,7 @@
           "bitcoin.png",
           "litecoin.png"
         ],
-        "randomLogo": "litecoin.png"
+        "randomLogo": "bitcoin.png"
       },
       {
         "name": "Instant Messaging",
@@ -2498,7 +2498,7 @@
           "psi-plus.png",
           "retroshare.png"
         ],
-        "randomLogo": "psi-plus.png"
+        "randomLogo": "cryptocat.png"
       },
       {
         "name": "IRC",
@@ -2904,7 +2904,7 @@
           "mozilla-thunderbird.png",
           "weechat.png"
         ],
-        "randomLogo": "mozilla-thunderbird.png"
+        "randomLogo": "adium.png"
       },
       {
         "name": "Mesh Networks",
@@ -3137,7 +3137,7 @@
           "cjdns.png",
           "commotion.png"
         ],
-        "randomLogo": "cjdns.png"
+        "randomLogo": "commotion.png"
       },
       {
         "name": "Operating Systems",
@@ -3827,7 +3827,7 @@
           "qubes-os.png",
           "whonix.png"
         ],
-        "randomLogo": "parabola.png"
+        "randomLogo": "debian.png"
       },
       {
         "name": "Operating Systems (Live)",
@@ -4358,7 +4358,7 @@
           "retroshare.png",
           "syndie.png"
         ],
-        "randomLogo": "syndie.png"
+        "randomLogo": "retroshare.png"
       },
       {
         "name": "Video & Voice",
@@ -4668,7 +4668,7 @@
           "linphone.png",
           "mumble.png"
         ],
-        "randomLogo": "linphone.png"
+        "randomLogo": "mumble.png"
       },
       {
         "name": "VPN Clients",
@@ -5328,7 +5328,7 @@
           "request-policy.png",
           "self-destructing-cookies.png"
         ],
-        "randomLogo": "noscript.png"
+        "randomLogo": "cryptocat.png"
       },
       {
         "name": "Web Browsers",
@@ -5552,7 +5552,7 @@
           "mozilla-firefox.png",
           "tor-browser-bundle.png"
         ],
-        "randomLogo": "mozilla-firefox.png"
+        "randomLogo": "jondonym.png"
       },
       {
         "name": "Web Search",
@@ -5734,7 +5734,7 @@
           "marble.png",
           "osrm.png"
         ],
-        "randomLogo": "osrm.png"
+        "randomLogo": "marble.png"
       }
     ]
   },
@@ -5960,7 +5960,7 @@
       "mozilla-firefox.png",
       "tor-browser-bundle.png"
     ],
-    "randomLogo": "mozilla-firefox.png"
+    "randomLogo": "jondonym.png"
   },
   "projects": [
     {
@@ -6176,5 +6176,118 @@
       ]
     }
   ],
-  "projectsRejected": []
+  "projectsRejected": [
+    {
+      "status": "rejected",
+      "tags": [
+        "PRISM",
+        "USA",
+        "Proprietary"
+      ],
+      "logo": "apple-safari.png",
+      "name": "Apple Safari",
+      "protocols": [
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "iOS",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "rejected",
+      "tags": [
+        "PRISM",
+        "USA",
+        "Proprietary"
+      ],
+      "logo": "google-chrome.png",
+      "name": "Google Chrome",
+      "protocols": [
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "rejected",
+      "tags": [
+        "Proprietary"
+      ],
+      "logo": "opera.png",
+      "name": "Opera",
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "iOS",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        }
+      ]
+    }
+  ]
 }

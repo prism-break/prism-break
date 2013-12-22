@@ -411,7 +411,7 @@
         "nightweb.png",
         "tor.png"
       ],
-      "randomLogo": "freenet.png"
+      "randomLogo": "tor.png"
     },
     {
       "name": "Disk Encryption",
@@ -564,7 +564,7 @@
         "encfs.png",
         "geli.png"
       ],
-      "randomLogo": "geli.png"
+      "randomLogo": "luks.png"
     },
     {
       "name": "Email Alternatives",
@@ -961,7 +961,7 @@
         "mozilla-thunderbird.png",
         "sylpheed.png"
       ],
-      "randomLogo": "claws-mail.png"
+      "randomLogo": "mozilla-thunderbird.png"
     },
     {
       "name": "Email Encryption",
@@ -1246,7 +1246,7 @@
         "mailvelope.png",
         "torbirdy.png"
       ],
-      "randomLogo": "gnupg.png"
+      "randomLogo": "mailvelope.png"
     },
     {
       "name": "Finance",
@@ -1431,7 +1431,7 @@
         "bitcoin.png",
         "litecoin.png"
       ],
-      "randomLogo": "bitcoin.png"
+      "randomLogo": "litecoin.png"
     },
     {
       "name": "Instant Messaging",
@@ -2567,7 +2567,7 @@
         "pidgin.png",
         "weechat.png"
       ],
-      "randomLogo": "weechat.png"
+      "randomLogo": "pidgin.png"
     },
     {
       "name": "Mesh Networks",
@@ -3122,7 +3122,7 @@
         "liberte-linux.png",
         "tails.png"
       ],
-      "randomLogo": "jondonym.png"
+      "randomLogo": "tails.png"
     },
     {
       "name": "Social Networks",
@@ -3342,7 +3342,7 @@
         "nightweb.png",
         "retroshare.png"
       ],
-      "randomLogo": "retroshare.png"
+      "randomLogo": "nightweb.png"
     },
     {
       "name": "Video & Voice",
@@ -4111,7 +4111,7 @@
         "request-policy.png",
         "self-destructing-cookies.png"
       ],
-      "randomLogo": "request-policy.png"
+      "randomLogo": "https-everywhere.png"
     },
     {
       "name": "Web Browsers",
@@ -4335,7 +4335,7 @@
         "mozilla-firefox.png",
         "tor-browser-bundle.png"
       ],
-      "randomLogo": "jondonym.png"
+      "randomLogo": "tor-browser-bundle.png"
     },
     {
       "name": "World Maps",
