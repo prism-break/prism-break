@@ -13,11 +13,15 @@ block content
       .bars
         a.bar(href="./media")
           .label Media Mentions
-          .icon: i.fa.fa-angle-right
+          .icon
+            i.fa.fa-angle-right.ltr
+            i.fa.fa-angle-left.rtl
 
         a.bar(href="./privacy")
           .label= t['Privacy Policy']
-          .icon: i.fa.fa-angle-right
+          .icon
+            i.fa.fa-angle-right.ltr
+            i.fa.fa-angle-left.rtl
 
         a.bar(href="./prism-break.tgz")
           .label Download Site

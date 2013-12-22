@@ -28,7 +28,9 @@ block content
             a.bar.child(href=routes.protocols + pro.slug)
               .label
                 = pro.name
-              .icon: i.fa.fa-angle-right
+              .icon
+                i.fa.fa-angle-right.ltr
+                i.fa.fa-angle-left.rtl
 
   .content-main
     mixin protocol-head(protocol)

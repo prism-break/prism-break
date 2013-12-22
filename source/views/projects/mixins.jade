@@ -77,7 +77,9 @@ mixin project-tail(project)
       - for protocol in project.protocolsSlugged
         a.bar(href="../../protocols/#{protocol.slug}")
           .label= protocol.name
-          .icon: i.fa.fa-angle-right
+          .icon
+            i.fa.fa-angle-right.ltr
+            i.fa.fa-angle-left.rtl
 
       mixin filler-bars(project.protocolsSlugged)
 

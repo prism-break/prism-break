@@ -36,7 +36,9 @@ block content
                 else
                   i(class="fa #{cat.fa}")
                 = cat.name
-              .icon: i.fa.fa-angle-right
+              .icon
+                i.fa.fa-angle-right.ltr
+                i.fa.fa-angle-left.rtl
 
   .content-main
 
@@ -48,6 +50,8 @@ block content
           .label
             img.logo(src=routes.logos + subcategory.randomLogo)
             = subcategory.name
-          .icon: i.fa.fa-angle-right
+          .icon
+            i.fa.fa-angle-right.ltr
+            i.fa.fa-angle-left.rtl
 
       mixin filler-bars(category.subcategories)
