@@ -1,0 +1,64 @@
+{
+  "description": "افزونه پی‌جی‌پی برای تاندربرد و آیس‌داو",
+  "license_url": "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi",
+  "logo": "enigmail.png",
+  "notes": "[Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.",
+  "privacy_url": "",
+  "source_url": "https://www.enigmail.net/download/source.php",
+  "name": "Enigmail",
+  "tos_url": "",
+  "url": "https://www.enigmail.net/home/index.php",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Enigmail",
+  "protocols": [
+    "GPG"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "enigmail",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    }
+  ]
+}

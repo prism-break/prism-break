@@ -1,0 +1,34 @@
+{
+  "description": "XMPP tjener.",
+  "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
+  "logo": "openfire.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk",
+  "name": "Openfire",
+  "tos_url": "",
+  "url": "http://www.igniterealtime.org/projects/openfire/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire",
+  "protocols": [
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "XMPP Servers",
+          "slug": "xmpp-servers"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "openfire",
+  "protocolsSlugged": [
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

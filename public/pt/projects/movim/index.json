@@ -1,0 +1,49 @@
+{
+  "description": "Servidor de rede social privado e descentralizado.",
+  "license_url": "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING",
+  "logo": "movim.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://code.launchpad.net/movim",
+  "name": "Movim",
+  "tos_url": "",
+  "url": "http://movim.eu/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Movim",
+  "protocols": [
+    "SSL/TLS",
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Social Networks",
+          "slug": "social-networks"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Social Networks",
+          "slug": "social-networks"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "movim",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

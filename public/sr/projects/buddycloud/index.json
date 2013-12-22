@@ -1,0 +1,43 @@
+{
+  "description": "Društvena mreža otvorenog koda.",
+  "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
+  "logo": "buddycloud.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/buddycloud",
+  "name": "buddycloud",
+  "tos_url": "",
+  "url": "http://buddycloud.com/",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS",
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        },
+        {
+          "name": "Social Networks",
+          "slug": "social-networks"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "buddycloud",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

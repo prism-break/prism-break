@@ -1,0 +1,57 @@
+{
+  "description": "Distribución de GNU/Linux estable, fácil de usar y de propósito general.",
+  "license_url": "https://en.opensuse.org/openSUSE:License",
+  "logo": "opensuse.png",
+  "notes": "",
+  "privacy_url": "https://www.suse.com/company/policies/privacy/",
+  "source_url": "https://en.opensuse.org/Source_code",
+  "name": "OpenSUSE",
+  "tos_url": "https://en.opensuse.org/Terms_of_site",
+  "url": "https://www.opensuse.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/OpenSUSE",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "opensuse",
+  "protocolsSlugged": []
+}

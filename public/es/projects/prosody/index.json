@@ -1,0 +1,34 @@
+{
+  "description": "Servidor XMPP ligero y flexible escrito en Lua.",
+  "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
+  "logo": "prosody.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://prosody.im/source/start",
+  "name": "Prosody",
+  "tos_url": "",
+  "url": "https://prosody.im/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29",
+  "protocols": [
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "XMPP Servers",
+          "slug": "xmpp-servers"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "prosody",
+  "protocolsSlugged": [
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

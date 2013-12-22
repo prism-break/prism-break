@@ -1,0 +1,77 @@
+{
+  "description": "Byzantium est une distribution live GNU/Linux qui propose une solution facile à utilisée de réseau maillé.",
+  "license_url": "https://github.com/Byzantium/Byzantium/blob/master/LICENSE",
+  "logo": "byzantium.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/Byzantium/Byzantium",
+  "name": "Byzantium",
+  "tos_url": "",
+  "url": "http://project-byzantium.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Routers",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "routers"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "byzantium",
+  "protocolsSlugged": []
+}

@@ -1,0 +1,165 @@
+{
+  "name": "WebDAV",
+  "full_name": "Web Distributed Authoring and Versioning",
+  "description": "Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol (HTTP) that facilitates collaboration between users in editing and managing documents and files stored on World Wide Web servers. A working group of the Internet Engineering Task Force (IETF) defined WebDAV in RFC 4918.",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/WebDAV",
+  "categories": [
+    {
+      "name": "Synchronization"
+    }
+  ],
+  "slug": "webdav",
+  "projects": [
+    {
+      "description": "自由な電子メールおよびカレンダーアプリケーション。",
+      "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
+      "logo": "evolution.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://projects.gnome.org/evolution/git.shtml",
+      "name": "Evolution",
+      "tos_url": "",
+      "url": "https://projects.gnome.org/evolution/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
+      "protocols": [
+        "CalDAV",
+        "GPG",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS",
+        "WebDAV"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        }
+      ],
+      "slug": "evolution",
+      "protocolsSlugged": [
+        {
+          "name": "CalDAV",
+          "slug": "caldav"
+        },
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "WebDAV",
+          "slug": "webdav"
+        }
+      ]
+    },
+    {
+      "description": "Open source email app for Android with PGP support.",
+      "license_url": "https://github.com/k9mail/k-9/blob/master/NOTICE",
+      "logo": "k9-mail.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/k9mail/k-9",
+      "name": "K-9 Mail",
+      "tos_url": "",
+      "url": "http://code.google.com/p/k9mail/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail",
+      "protocols": [
+        "GPG",
+        "SSL/TLS",
+        "WebDAV"
+      ],
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "android"
+        }
+      ],
+      "slug": "k-9-mail",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "WebDAV",
+          "slug": "webdav"
+        }
+      ]
+    },
+    {
+      "description": "Groupware solution for email, files, calendars, address books and mobile sync.",
+      "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
+      "logo": "kolab.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://git.kolab.org/",
+      "name": "Kolab",
+      "tos_url": "",
+      "url": "https://kolab.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab",
+      "protocols": [
+        "CalDAV",
+        "CardDAV",
+        "WebDAV"
+      ],
+      "categories": [
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "Mail Servers",
+              "slug": "mail-servers"
+            },
+            {
+              "name": "Groupware",
+              "slug": "groupware"
+            }
+          ],
+          "slug": "servers"
+        }
+      ],
+      "slug": "kolab",
+      "protocolsSlugged": [
+        {
+          "name": "CalDAV",
+          "slug": "caldav"
+        },
+        {
+          "name": "CardDAV",
+          "slug": "carddav"
+        },
+        {
+          "name": "WebDAV",
+          "slug": "webdav"
+        }
+      ]
+    }
+  ]
+}

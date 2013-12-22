@@ -1,0 +1,87 @@
+{
+  "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
+  "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
+  "logo": "litecoin.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/litecoin-project/litecoin",
+  "name": "Litecoin",
+  "tos_url": "",
+  "url": "https://litecoin.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "android"
+    },
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "iOS",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "ios"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "web"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "litecoin",
+  "protocolsSlugged": []
+}

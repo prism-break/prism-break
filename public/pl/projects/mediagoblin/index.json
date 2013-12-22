@@ -1,0 +1,34 @@
+{
+  "description": "Zdecentralizowana platforma publikacji medi&oacute;w.",
+  "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
+  "logo": "mediagoblin.png",
+  "notes": "MediaGoblin does not encrypt any of your data by default.",
+  "privacy_url": "",
+  "source_url": "https://gitorious.org/mediagoblin/mediagoblin",
+  "name": "MediaGoblin",
+  "tos_url": "",
+  "url": "http://mediagoblin.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Media Publishing",
+          "slug": "media-publishing"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "mediagoblin",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "description": "מטא מנוע חיפוש שמייצא את השאילתות שלך למספר מספקי שירותי חיפוש.",
+  "license_url": "",
+  "logo": "metager.png",
+  "notes": "",
+  "privacy_url": "https://www.metager.de/en/privacy.html",
+  "source_url": "",
+  "name": "MetaGer",
+  "tos_url": "",
+  "url": "https://metager.de/en/",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Web Search",
+          "slug": "web-search"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "metager",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

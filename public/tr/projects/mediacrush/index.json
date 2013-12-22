@@ -1,0 +1,44 @@
+{
+  "description": "Gizlilik-önde hızlı medya (görsel, ses, video) hosting",
+  "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
+  "logo": "mediacrush.png",
+  "notes": "Warning: MediaCrush includes Google Analytics and Google Adsense if you do not have Do Not Track enabled.",
+  "privacy_url": "https://mediacru.sh/serious",
+  "source_url": "https://github.com/MediaCrush/MediaCrush",
+  "name": "MediaCrush",
+  "tos_url": "https://mediacru.sh/serious",
+  "url": "https://mediacru.sh/",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Media Publishing",
+          "slug": "media-publishing"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Media Publishing",
+          "slug": "media-publishing"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "mediacrush",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

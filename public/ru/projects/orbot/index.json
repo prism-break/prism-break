@@ -1,0 +1,34 @@
+{
+  "description": "Функциональность и возможности Tor для Android.",
+  "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
+  "logo": "orbot.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://gitweb.torproject.org/orbot.git",
+  "name": "Orbot",
+  "tos_url": "",
+  "url": "https://guardianproject.info/apps/orbot/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Orbot",
+  "protocols": [
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "android"
+    }
+  ],
+  "slug": "orbot",
+  "protocolsSlugged": [
+    {
+      "name": "Tor",
+      "slug": "tor"
+    }
+  ]
+}

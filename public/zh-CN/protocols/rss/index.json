@@ -1,0 +1,450 @@
+{
+  "name": "RSS",
+  "full_name": "Rich Site Summary",
+  "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats[2] to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called \"feed\", \"web feed\",[3] or \"channel\") includes full or summarized text, and metadata, like publishing date and author's name.",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/RSS",
+  "categories": [
+    {
+      "name": "Syndication"
+    }
+  ],
+  "slug": "rss",
+  "projects": [
+    {
+      "description": "支持GPG的轻量email应用",
+      "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
+      "logo": "claws-mail.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://git.claws-mail.org/",
+      "name": "Claws Mail",
+      "tos_url": "",
+      "url": "http://www.claws-mail.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Claws_Mail",
+      "protocols": [
+        "GPG",
+        "RSS",
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "claws-mail",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        }
+      ]
+    },
+    {
+      "description": "支持GPG的免费邮件和日历应用",
+      "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
+      "logo": "evolution.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://projects.gnome.org/evolution/git.shtml",
+      "name": "Evolution",
+      "tos_url": "",
+      "url": "https://projects.gnome.org/evolution/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
+      "protocols": [
+        "CalDAV",
+        "GPG",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS",
+        "WebDAV"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        }
+      ],
+      "slug": "evolution",
+      "protocolsSlugged": [
+        {
+          "name": "CalDAV",
+          "slug": "caldav"
+        },
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "WebDAV",
+          "slug": "webdav"
+        }
+      ]
+    },
+    {
+      "description": "尊重隐私的分布式联合社交网络",
+      "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
+      "logo": "friendica.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/friendica?tab=repositories",
+      "name": "friendica",
+      "tos_url": "",
+      "url": "http://friendica.com/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica",
+      "protocols": [
+        "RSS",
+        "SSL/TLS",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "Social Networks",
+              "slug": "social-networks"
+            }
+          ],
+          "slug": "servers"
+        }
+      ],
+      "slug": "friendica",
+      "protocolsSlugged": [
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "支持GPG的 KDE 邮件客户端",
+      "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
+      "logo": "kontact.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://www.kde.org/applications/office/kontact/development",
+      "name": "Kontact",
+      "tos_url": "",
+      "url": "http://www.kontact.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact",
+      "protocols": [
+        "GPG",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "kontact",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        }
+      ]
+    },
+    {
+      "description": "开源email应用",
+      "license_url": "https://www.mozilla.org/MPL/",
+      "logo": "mozilla-thunderbird.png",
+      "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
+      "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
+      "name": "Mozilla Thunderbird",
+      "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+      "url": "https://www.mozilla.org/en-US/thunderbird/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
+      "protocols": [
+        "GPG",
+        "IRC",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS",
+        "Tor",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "mozilla-thunderbird",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "Lightweight and user-friendly e-mail client.",
+      "license_url": "https://www.gnu.org/copyleft/gpl.html",
+      "logo": "sylpheed.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://sylpheed.sraoss.jp/en/svn.html",
+      "name": "Sylpheed",
+      "tos_url": "",
+      "url": "http://sylpheed.sraoss.jp/en/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed",
+      "protocols": [
+        "GPG",
+        "RSS",
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "sylpheed",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        }
+      ]
+    }
+  ]
+}

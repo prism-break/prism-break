@@ -1,0 +1,67 @@
+{
+  "description": "Niepo&#380;&#261;dane strony nie b&#281;d&#261; Ci&#281; &#347;ledzi&#263;",
+  "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
+  "logo": "disconnect.png",
+  "notes": "",
+  "privacy_url": "https://disconnect.me/privacy",
+  "source_url": "https://github.com/disconnectme/disconnect",
+  "name": "Disconnect",
+  "tos_url": "https://disconnect.me/terms",
+  "url": "https://www.disconnect.me/disconnect",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "android"
+    },
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "disconnect",
+  "protocolsSlugged": []
+}

@@ -1,0 +1,81 @@
+{
+  "description": "加密的文本语音聊天",
+  "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
+  "logo": "jitsi.png",
+  "notes": "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\n\nLastly, note that Jitsi records chat history in unencrypted form.",
+  "privacy_url": "",
+  "source_url": "https://github.com/jitsi",
+  "name": "Jitsi",
+  "tos_url": "",
+  "url": "https://jitsi.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi",
+  "protocols": [
+    "OTR",
+    "SIP",
+    "XMPP",
+    "ZRTP"
+  ],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "jitsi",
+  "protocolsSlugged": [
+    {
+      "name": "OTR",
+      "slug": "otr"
+    },
+    {
+      "name": "SIP",
+      "slug": "sip"
+    },
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    },
+    {
+      "name": "ZRTP",
+      "slug": "zrtp"
+    }
+  ]
+}

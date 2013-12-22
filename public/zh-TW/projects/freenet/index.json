@@ -1,0 +1,67 @@
+{
+  "description": "去中心化、防審查網路。",
+  "license_url": "https://github.com/freenet/fred-staging/blob/next/LICENSE",
+  "logo": "freenet.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/freenet/",
+  "name": "Freenet",
+  "tos_url": "",
+  "url": "https://freenetproject.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Freenet",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "freenet",
+  "protocolsSlugged": []
+}

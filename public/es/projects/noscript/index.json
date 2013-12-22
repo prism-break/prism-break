@@ -1,0 +1,57 @@
+{
+  "description": "Activa JavaScript, Java y Flash solamente en los sitios en que confíes.",
+  "license_url": "https://github.com/avian2/noscript",
+  "logo": "noscript.png",
+  "notes": "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
+  "privacy_url": "https://addons.mozilla.org/en-US/firefox/addon/noscript/privacy/",
+  "source_url": "https://github.com/avian2/noscript",
+  "name": "NoScript",
+  "tos_url": "",
+  "url": "http://noscript.net/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/NoScript",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "noscript",
+  "protocolsSlugged": []
+}

@@ -1,0 +1,74 @@
+{
+  "description": "Bilgisayarlarınız ve diskleriniz arasında klasörleri senkronize eder.",
+  "license_url": "https://git-annex.branchable.com/license/",
+  "logo": "git-annex.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/joeyh/git-annex",
+  "name": "git-annex",
+  "tos_url": "",
+  "url": "https://git-annex.branchable.com/",
+  "wikipedia_url": "",
+  "protocols": [
+    "GPG"
+  ],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "android"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "git-annex",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    }
+  ]
+}

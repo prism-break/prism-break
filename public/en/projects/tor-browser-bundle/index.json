@@ -1,0 +1,69 @@
+{
+  "description": "Encrypted, anonymous web browsing powered by the Tor network.",
+  "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
+  "logo": "tor-browser-bundle.png",
+  "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
+  "privacy_url": "https://www.torproject.org/about/overview.html.en",
+  "source_url": "https://gitweb.torproject.org/tor.git",
+  "name": "Tor Browser Bundle",
+  "tos_url": "",
+  "url": "https://www.torproject.org/projects/torbrowser.html.en",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+  "protocols": [
+    "SSL/TLS",
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "tor-browser-bundle",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "Tor",
+      "slug": "tor"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "description": "Программное обеспечение для совместной работы с электронной почтой, календарями, адресными книгами, а так же синхронизация для мобильных телефонов.",
+  "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
+  "logo": "kolab.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://git.kolab.org/",
+  "name": "Kolab",
+  "tos_url": "",
+  "url": "https://kolab.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab",
+  "protocols": [
+    "CalDAV",
+    "CardDAV",
+    "WebDAV"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Mail Servers",
+          "slug": "mail-servers"
+        },
+        {
+          "name": "Groupware",
+          "slug": "groupware"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "kolab",
+  "protocolsSlugged": [
+    {
+      "name": "CalDAV",
+      "slug": "caldav"
+    },
+    {
+      "name": "CardDAV",
+      "slug": "carddav"
+    },
+    {
+      "name": "WebDAV",
+      "slug": "webdav"
+    }
+  ]
+}

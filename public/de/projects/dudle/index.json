@@ -1,0 +1,37 @@
+{
+  "description": "Freie, sicher gehostete Online-Umfragen mit einer Extraversion, die mehr Privatssphäre bietet.",
+  "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
+  "logo": "dudle.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://dudle.inf.tu-dresden.de/about.cgi",
+  "name": "dudle",
+  "tos_url": "",
+  "url": "https://dudle.inf.tu-dresden.de/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "dudle",
+  "protocolsSlugged": []
+}

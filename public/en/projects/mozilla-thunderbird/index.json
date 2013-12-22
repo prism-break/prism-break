@@ -1,0 +1,126 @@
+{
+  "description": "Multi-platform email application with mail encryption through the Enigmail add-on.",
+  "license_url": "https://www.mozilla.org/MPL/",
+  "logo": "mozilla-thunderbird.png",
+  "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
+  "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
+  "name": "Mozilla Thunderbird",
+  "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+  "url": "https://www.mozilla.org/en-US/thunderbird/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
+  "protocols": [
+    "GPG",
+    "IRC",
+    "RSS",
+    "S/MIME",
+    "SSL/TLS",
+    "Tor",
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "mozilla-thunderbird",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    },
+    {
+      "name": "IRC",
+      "slug": "irc"
+    },
+    {
+      "name": "RSS",
+      "slug": "rss"
+    },
+    {
+      "name": "S/MIME",
+      "slug": "s-mime"
+    },
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "Tor",
+      "slug": "tor"
+    },
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

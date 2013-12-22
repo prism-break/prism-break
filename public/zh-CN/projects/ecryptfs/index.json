@@ -1,0 +1,27 @@
+{
+  "description": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
+  "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
+  "logo": "geli.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/",
+  "name": "eCryptfs",
+  "tos_url": "",
+  "url": "http://ecryptfs.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "linux"
+    }
+  ],
+  "slug": "ecryptfs",
+  "protocolsSlugged": []
+}

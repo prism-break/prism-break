@@ -1,0 +1,27 @@
+{
+  "description": "ספק DNS פתוח, דמוקרטי ומתנגד לצנזורה.",
+  "license_url": "",
+  "logo": "opennic.png",
+  "notes": "OpenNIC has not adopted an official policy concerning log query privacy/anonymization. More information [here](http://wiki.opennicproject.org/Tier2).",
+  "privacy_url": "http://wiki.opennicproject.org/Tier2",
+  "source_url": "http://wiki.opennicproject.org/opennicZoneScript",
+  "name": "OpenNIC",
+  "tos_url": "",
+  "url": "http://www.opennicproject.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "DNS",
+          "slug": "dns"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "opennic",
+  "protocolsSlugged": []
+}

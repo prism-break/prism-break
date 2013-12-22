@@ -1,0 +1,27 @@
+{
+  "description": "Android için Google Play uygulama dükkanına özgür ve açık kaynaklı alternatif.",
+  "license_url": "https://f-droid.org/about/",
+  "logo": "f-droid.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://gitorious.org/f-droid",
+  "name": "F-Droid",
+  "tos_url": "",
+  "url": "https://f-droid.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/F-Droid",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "App Store",
+          "slug": "app-store"
+        }
+      ],
+      "slug": "android"
+    }
+  ],
+  "slug": "f-droid",
+  "protocolsSlugged": []
+}

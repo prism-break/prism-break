@@ -1,0 +1,44 @@
+{
+  "description": "Messaggistica istantanea con cifratura OTR per Android.",
+  "license_url": "https://github.com/redsolution/xabber-android/blob/master/LICENSE",
+  "logo": "xabber.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/redsolution/xabber-android",
+  "name": "Xabber",
+  "tos_url": "",
+  "url": "http://www.xabber.org/",
+  "wikipedia_url": "",
+  "protocols": [
+    "OTR",
+    "SSL/TLS",
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        }
+      ],
+      "slug": "android"
+    }
+  ],
+  "slug": "xabber",
+  "protocolsSlugged": [
+    {
+      "name": "OTR",
+      "slug": "otr"
+    },
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

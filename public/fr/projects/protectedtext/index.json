@@ -1,0 +1,34 @@
+{
+  "description": "Bloc-notes gratuit chiffré en ligne.",
+  "license_url": "",
+  "logo": "protextedtext.png",
+  "notes": "ProtectedText encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.",
+  "privacy_url": "",
+  "source_url": "https://www.protectedtext.com/js/main.js",
+  "name": "ProtectedText",
+  "tos_url": "",
+  "url": "https://www.protectedtext.com/",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "protectedtext",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

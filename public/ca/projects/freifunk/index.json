@@ -1,0 +1,27 @@
+{
+  "description": "Iniciativa no comercial i de base per donar suport a xarxes lliures sense fils arreu del món.",
+  "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
+  "logo": "freifunk.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/freifunk/meshkit",
+  "name": "Freifunk",
+  "tos_url": "",
+  "url": "http://wiki.freifunk.net/Kategorie:English",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Freifunk",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Routers",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "routers"
+    }
+  ],
+  "slug": "freifunk",
+  "protocolsSlugged": []
+}

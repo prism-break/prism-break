@@ -1,0 +1,64 @@
+{
+  "description": "मुक्त आेपनपीजीपी क्रियान्वयन.",
+  "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master",
+  "logo": "gnupg.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://www.gnupg.org/download/cvs_access.html",
+  "name": "GNU Privacy Guard",
+  "tos_url": "",
+  "url": "http://www.gnupg.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
+  "protocols": [
+    "GPG"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "gnu-privacy-guard",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    }
+  ]
+}

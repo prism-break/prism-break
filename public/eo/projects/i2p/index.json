@@ -1,0 +1,74 @@
+{
+  "description": "La projekto por nevidebla interreto.",
+  "license_url": "https://www.i2p2.de/licenses",
+  "logo": "i2p.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://www.i2p2.de/newdevelopers.html",
+  "name": "I2P",
+  "tos_url": "",
+  "url": "https://www.i2p2.de/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/I2P",
+  "protocols": [
+    "I2P"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "i2p",
+  "protocolsSlugged": [
+    {
+      "name": "I2P",
+      "slug": "i2p"
+    }
+  ]
+}

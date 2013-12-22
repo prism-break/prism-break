@@ -1,0 +1,44 @@
+{
+  "description": "Serveur VoIP/SIP open-source.",
+  "license_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD",
+  "logo": "kamailio.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=tree",
+  "name": "Kamailio",
+  "tos_url": "",
+  "url": "http://www.kamailio.org/w/",
+  "wikipedia_url": "",
+  "protocols": [
+    "SIP",
+    "SSL/TLS",
+    "VoIP"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "SIP Servers",
+          "slug": "sip-servers"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "kamailio",
+  "protocolsSlugged": [
+    {
+      "name": "SIP",
+      "slug": "sip"
+    },
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "VoIP",
+      "slug": "voip"
+    }
+  ]
+}

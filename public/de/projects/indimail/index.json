@@ -1,0 +1,27 @@
+{
+  "description": "Eine sehr skalier- und konfigurierbare Nachrichtenplattform, basierend auf MTA-Mail.",
+  "license_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING",
+  "logo": "indimail.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/",
+  "name": "IndiMail",
+  "tos_url": "",
+  "url": "http://www.indimail.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Mail Servers",
+          "slug": "mail-servers"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "indimail",
+  "protocolsSlugged": []
+}

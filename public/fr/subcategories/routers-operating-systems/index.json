@@ -1,0 +1,781 @@
+{
+  "category": {
+    "name": "Routers",
+    "slug": "routers",
+    "subcategories": [
+      {
+        "name": "Mesh Networks",
+        "slug": "mesh-networks",
+        "projects": [
+          {
+            "description": "Byzantium est une distribution live GNU/Linux qui propose une solution facile à utilisée de réseau maillé.",
+            "license_url": "https://github.com/Byzantium/Byzantium/blob/master/LICENSE",
+            "logo": "byzantium.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "https://github.com/Byzantium/Byzantium",
+            "name": "Byzantium",
+            "tos_url": "",
+            "url": "http://project-byzantium.org/",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
+            "protocols": [],
+            "categories": [
+              {
+                "name": "BSD",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "bsd"
+              },
+              {
+                "name": "Linux",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "linux"
+              },
+              {
+                "name": "Mac",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "mac"
+              },
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "routers"
+              },
+              {
+                "name": "Servers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "servers"
+              },
+              {
+                "name": "Windows",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "windows"
+              }
+            ],
+            "slug": "byzantium",
+            "protocolsSlugged": []
+          },
+          {
+            "description": "Cjdns is a networking protocol, a system of digital rules for message exchange between computers. \"Instead of letting other computers connect to you through a shared IP address which anyone can use, cjdns only lets computers talk to one other after they have verified each other cryptographically. ",
+            "license_url": "https://github.com/cjdelisle/cjdns/blob/master/LICENSE",
+            "logo": "cjdns.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "https://github.com/cjdelisle/cjdns",
+            "name": "Cjdns",
+            "tos_url": "",
+            "url": "http://cjdns.info/",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Cjdns",
+            "protocols": [],
+            "categories": [
+              {
+                "name": "Android",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "android"
+              },
+              {
+                "name": "Linux",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "linux"
+              },
+              {
+                "name": "Mac",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "mac"
+              },
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "routers"
+              },
+              {
+                "name": "Servers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "servers"
+              }
+            ],
+            "slug": "cjdns",
+            "protocolsSlugged": []
+          },
+          {
+            "description": "Utilise les téléphones, ordinateurs et routeurs sans fil pour créer un réseau mesh décentralisé.",
+            "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
+            "logo": "commotion.png",
+            "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
+            "privacy_url": "https://commotionwireless.net/about/license-privacy",
+            "source_url": "https://github.com/opentechinstitute",
+            "name": "Commotion",
+            "tos_url": "",
+            "url": "https://commotionwireless.net/",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Commotion_Wireless",
+            "protocols": [],
+            "categories": [
+              {
+                "name": "Android",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "android"
+              },
+              {
+                "name": "Linux",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "linux"
+              },
+              {
+                "name": "Mac",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "mac"
+              },
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "routers"
+              },
+              {
+                "name": "Servers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "servers"
+              },
+              {
+                "name": "Windows",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "windows"
+              }
+            ],
+            "slug": "commotion",
+            "protocolsSlugged": []
+          },
+          {
+            "description": "Initiative non commerciale et donc la base est ouverte pour supporter les réseaux sans fils gratuit dans le monde.",
+            "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
+            "logo": "freifunk.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "https://github.com/freifunk/meshkit",
+            "name": "Freifunk",
+            "tos_url": "",
+            "url": "http://wiki.freifunk.net/Kategorie:English",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Freifunk",
+            "protocols": [],
+            "categories": [
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "routers"
+              }
+            ],
+            "slug": "freifunk",
+            "protocolsSlugged": []
+          },
+          {
+            "description": "Réseaux WiFi ouverts, libres et neutres pour tout le monde.",
+            "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
+            "logo": "guifi.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "",
+            "name": "guifi.net",
+            "tos_url": "",
+            "url": "https://guifi.net/",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
+            "protocols": [],
+            "categories": [
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "routers"
+              }
+            ],
+            "slug": "guifinet",
+            "protocolsSlugged": []
+          },
+          {
+            "description": "Démon de logiciel libre qui utilise le tunneling et le chiffrement pour créer un réseau privé sécurisé",
+            "license_url": "http://tinc-vpn.org/git/browse?p=tinc;a=blob;f=COPYING.README;h=2eb9c1facc212244a4103f9f9b81149c6f6a9d44;hb=HEAD",
+            "logo": "tinc.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "http://tinc-vpn.org/git/browse?p=tinc;a=tree",
+            "name": "tinc",
+            "tos_url": "",
+            "url": "http://tinc-vpn.org/",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Tinc_%28protocol%29",
+            "protocols": [],
+            "categories": [
+              {
+                "name": "Linux",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "linux"
+              },
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  },
+                  {
+                    "name": "VPN Servers",
+                    "slug": "vpn-servers"
+                  }
+                ],
+                "slug": "routers"
+              },
+              {
+                "name": "Servers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  },
+                  {
+                    "name": "VPN Servers",
+                    "slug": "vpn-servers"
+                  }
+                ],
+                "slug": "servers"
+              }
+            ],
+            "slug": "tinc",
+            "protocolsSlugged": []
+          }
+        ],
+        "projectLogos": [
+          "byzantium.png",
+          "cjdns.png",
+          "commotion.png",
+          "freifunk.png",
+          "guifi.png",
+          "tinc.png"
+        ],
+        "randomLogo": "freifunk.png"
+      },
+      {
+        "name": "Operating Systems",
+        "slug": "operating-systems",
+        "projects": [
+          {
+            "description": "Un système d'exploitation BSD sécurisé.",
+            "license_url": "http://openbsd.org/policy.html",
+            "logo": "openbsd.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "http://www.openbsd.org/cgi-bin/cvsweb/",
+            "name": "OpenBSD",
+            "tos_url": "",
+            "url": "http://openbsd.org/",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD",
+            "protocols": [],
+            "categories": [
+              {
+                "name": "BSD",
+                "subcategories": [
+                  {
+                    "name": "Operating Systems",
+                    "slug": "operating-systems"
+                  }
+                ],
+                "slug": "bsd"
+              },
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "Operating Systems",
+                    "slug": "operating-systems"
+                  }
+                ],
+                "slug": "routers"
+              },
+              {
+                "name": "Servers",
+                "subcategories": [
+                  {
+                    "name": "Operating Systems",
+                    "slug": "operating-systems"
+                  }
+                ],
+                "slug": "servers"
+              }
+            ],
+            "slug": "openbsd",
+            "protocolsSlugged": []
+          }
+        ],
+        "projectLogos": [
+          "openbsd.png"
+        ],
+        "randomLogo": "openbsd.png"
+      },
+      {
+        "name": "VPN",
+        "slug": "vpn",
+        "projects": [
+          {
+            "description": "Client VPN libre.",
+            "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
+            "logo": "openvpn.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "https://github.com/OpenVPN",
+            "name": "OpenVPN",
+            "tos_url": "",
+            "url": "http://openvpn.net/index.php/open-source.html",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN",
+            "protocols": [
+              "SSL/TLS"
+            ],
+            "categories": [
+              {
+                "name": "Android",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "android"
+              },
+              {
+                "name": "BSD",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "bsd"
+              },
+              {
+                "name": "Linux",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "linux"
+              },
+              {
+                "name": "Mac",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "mac"
+              },
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "VPN",
+                    "slug": "vpn"
+                  }
+                ],
+                "slug": "routers"
+              },
+              {
+                "name": "Servers",
+                "subcategories": [
+                  {
+                    "name": "VPN Servers",
+                    "slug": "vpn-servers"
+                  }
+                ],
+                "slug": "servers"
+              },
+              {
+                "name": "Windows",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "windows"
+              }
+            ],
+            "slug": "openvpn",
+            "protocolsSlugged": [
+              {
+                "name": "SSL/TLS",
+                "slug": "ssl-tls"
+              }
+            ]
+          }
+        ],
+        "projectLogos": [
+          "openvpn.png"
+        ],
+        "randomLogo": "openvpn.png"
+      },
+      {
+        "name": "VPN Servers",
+        "slug": "vpn-servers",
+        "projects": [
+          {
+            "description": "Client VPN libre.",
+            "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
+            "logo": "openvpn.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "https://github.com/OpenVPN",
+            "name": "OpenVPN",
+            "tos_url": "",
+            "url": "http://openvpn.net/index.php/open-source.html",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN",
+            "protocols": [
+              "SSL/TLS"
+            ],
+            "categories": [
+              {
+                "name": "Android",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "android"
+              },
+              {
+                "name": "BSD",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "bsd"
+              },
+              {
+                "name": "Linux",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "linux"
+              },
+              {
+                "name": "Mac",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "mac"
+              },
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "VPN",
+                    "slug": "vpn"
+                  }
+                ],
+                "slug": "routers"
+              },
+              {
+                "name": "Servers",
+                "subcategories": [
+                  {
+                    "name": "VPN Servers",
+                    "slug": "vpn-servers"
+                  }
+                ],
+                "slug": "servers"
+              },
+              {
+                "name": "Windows",
+                "subcategories": [
+                  {
+                    "name": "VPN Clients",
+                    "slug": "vpn-clients"
+                  }
+                ],
+                "slug": "windows"
+              }
+            ],
+            "slug": "openvpn",
+            "protocolsSlugged": [
+              {
+                "name": "SSL/TLS",
+                "slug": "ssl-tls"
+              }
+            ]
+          },
+          {
+            "description": "Démon de logiciel libre qui utilise le tunneling et le chiffrement pour créer un réseau privé sécurisé",
+            "license_url": "http://tinc-vpn.org/git/browse?p=tinc;a=blob;f=COPYING.README;h=2eb9c1facc212244a4103f9f9b81149c6f6a9d44;hb=HEAD",
+            "logo": "tinc.png",
+            "notes": "",
+            "privacy_url": "",
+            "source_url": "http://tinc-vpn.org/git/browse?p=tinc;a=tree",
+            "name": "tinc",
+            "tos_url": "",
+            "url": "http://tinc-vpn.org/",
+            "wikipedia_url": "https://en.wikipedia.org/wiki/Tinc_%28protocol%29",
+            "protocols": [],
+            "categories": [
+              {
+                "name": "Linux",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  }
+                ],
+                "slug": "linux"
+              },
+              {
+                "name": "Routers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  },
+                  {
+                    "name": "VPN Servers",
+                    "slug": "vpn-servers"
+                  }
+                ],
+                "slug": "routers"
+              },
+              {
+                "name": "Servers",
+                "subcategories": [
+                  {
+                    "name": "Mesh Networks",
+                    "slug": "mesh-networks"
+                  },
+                  {
+                    "name": "VPN Servers",
+                    "slug": "vpn-servers"
+                  }
+                ],
+                "slug": "servers"
+              }
+            ],
+            "slug": "tinc",
+            "protocolsSlugged": []
+          }
+        ],
+        "projectLogos": [
+          "openvpn.png",
+          "tinc.png"
+        ],
+        "randomLogo": "openvpn.png"
+      }
+    ]
+  },
+  "subcategory": {
+    "name": "Operating Systems",
+    "slug": "operating-systems",
+    "projects": [
+      {
+        "description": "Un système d'exploitation BSD sécurisé.",
+        "license_url": "http://openbsd.org/policy.html",
+        "logo": "openbsd.png",
+        "notes": "",
+        "privacy_url": "",
+        "source_url": "http://www.openbsd.org/cgi-bin/cvsweb/",
+        "name": "OpenBSD",
+        "tos_url": "",
+        "url": "http://openbsd.org/",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD",
+        "protocols": [],
+        "categories": [
+          {
+            "name": "BSD",
+            "subcategories": [
+              {
+                "name": "Operating Systems",
+                "slug": "operating-systems"
+              }
+            ],
+            "slug": "bsd"
+          },
+          {
+            "name": "Routers",
+            "subcategories": [
+              {
+                "name": "Operating Systems",
+                "slug": "operating-systems"
+              }
+            ],
+            "slug": "routers"
+          },
+          {
+            "name": "Servers",
+            "subcategories": [
+              {
+                "name": "Operating Systems",
+                "slug": "operating-systems"
+              }
+            ],
+            "slug": "servers"
+          }
+        ],
+        "slug": "openbsd",
+        "protocolsSlugged": []
+      }
+    ],
+    "projectLogos": [
+      "openbsd.png"
+    ],
+    "randomLogo": "openbsd.png"
+  },
+  "projects": [
+    {
+      "description": "Un système d'exploitation BSD sécurisé.",
+      "license_url": "http://openbsd.org/policy.html",
+      "logo": "openbsd.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://www.openbsd.org/cgi-bin/cvsweb/",
+      "name": "OpenBSD",
+      "tos_url": "",
+      "url": "http://openbsd.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD",
+      "protocols": [],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Operating Systems",
+              "slug": "operating-systems"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Routers",
+          "subcategories": [
+            {
+              "name": "Operating Systems",
+              "slug": "operating-systems"
+            }
+          ],
+          "slug": "routers"
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "Operating Systems",
+              "slug": "operating-systems"
+            }
+          ],
+          "slug": "servers"
+        }
+      ],
+      "slug": "openbsd",
+      "protocolsSlugged": []
+    }
+  ],
+  "projectsRejected": []
+}

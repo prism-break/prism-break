@@ -1,0 +1,87 @@
+{
+  "description": "P2P digitale munteenheid zonder centrale autoriteit.",
+  "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
+  "logo": "bitcoin.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/bitcoin/bitcoin",
+  "name": "Bitcoin",
+  "tos_url": "",
+  "url": "http://bitcoin.org",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "android"
+    },
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "iOS",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "ios"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "web"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Finance",
+          "slug": "finance"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "bitcoin",
+  "protocolsSlugged": []
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Freier, quelloffener Client für die digitale Vertriebsplattform desura.",
+  "license_url": "https://github.com/desura/Desurium/blob/master/LICENSE",
+  "logo": "desurium.png",
+  "notes": "Desurium is client software. You will still have to trust and depend on the proprietary <a href='http://www.desura.com'>Desura service</a>.",
+  "privacy_url": "",
+  "source_url": "https://github.com/desura/Desurium",
+  "name": "Desurium",
+  "tos_url": "",
+  "url": "https://github.com/desura/Desurium",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Digital Distribution",
+          "slug": "digital-distribution"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Digital Distribution",
+          "slug": "digital-distribution"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "desurium",
+  "protocolsSlugged": []
+}

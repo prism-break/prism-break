@@ -1,0 +1,27 @@
+{
+  "description": "Ilmainen ja avoin pilvipalvelu.",
+  "license_url": "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL",
+  "logo": "tahoe-lafs.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/tahoe-lafs/tahoe-lafs",
+  "name": "Tahoe-LAFS",
+  "tos_url": "",
+  "url": "https://tahoe-lafs.org/trac/tahoe-lafs",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tahoe-LAFS",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "tahoe-lafs",
+  "protocolsSlugged": []
+}

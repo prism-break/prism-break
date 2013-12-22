@@ -1,0 +1,48 @@
+{
+  "description": "FreedomBox intègre la protection de la vie privée sur un simple serveur plug pour que chacun puisse conserver sa vie privée.",
+  "license_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
+  "logo": "freedombox.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=tree",
+  "name": "FreedomBox",
+  "tos_url": "",
+  "url": "https://www.freedomboxfoundation.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox",
+  "protocols": [
+    "GPG",
+    "TOR",
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Raspberry Pi",
+          "slug": "raspberry-pi"
+        },
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "freedombox",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    },
+    {
+      "name": "TOR",
+      "slug": "tor"
+    },
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "description": "Distribuição GNU/Linux livre famosa por suas posições éticas.",
+  "license_url": "http://www.debian.org/legal/licenses/",
+  "logo": "debian.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://sources.debian.net/",
+  "name": "Debian",
+  "tos_url": "",
+  "url": "http://debian.org",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Debian",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "debian",
+  "protocolsSlugged": []
+}

@@ -1,0 +1,56 @@
+{
+  "description": "セキュアでプライベートな電子メールアカウント。",
+  "license_url": "",
+  "logo": "riseup.png",
+  "notes": "Riseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
+  "privacy_url": "https://help.riseup.net/en/privacy-policy",
+  "source_url": "http://riseuplabs.org/",
+  "name": "Riseup",
+  "tos_url": "",
+  "url": "https://riseup.net/en",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS",
+    "Tor",
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Email Accounts",
+          "slug": "email-accounts"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        },
+        {
+          "name": "VPN Accounts",
+          "slug": "vpn-accounts"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "riseup",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "Tor",
+      "slug": "tor"
+    },
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+  "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
+  "logo": "tor.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://gitweb.torproject.org/tor.git",
+  "name": "Tor",
+  "tos_url": "",
+  "url": "https://www.torproject.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
+  "protocols": [
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "tor",
+  "protocolsSlugged": [
+    {
+      "name": "Tor",
+      "slug": "tor"
+    }
+  ]
+}

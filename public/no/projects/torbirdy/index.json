@@ -1,0 +1,64 @@
+{
+  "description": "Utvidelse for å bruke Thunderbird med Tor.",
+  "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
+  "logo": "torbirdy.png",
+  "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the \"Before using TorBirdy\" and \"Known TorBirdy\" Issues sections on the project website.",
+  "privacy_url": "",
+  "source_url": "https://github.com/ioerror/torbirdy",
+  "name": "TorBirdy",
+  "tos_url": "",
+  "url": "https://trac.torproject.org/projects/tor/wiki/torbirdy",
+  "wikipedia_url": "",
+  "protocols": [
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "torbirdy",
+  "protocolsSlugged": [
+    {
+      "name": "Tor",
+      "slug": "tor"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "DNSCrypt, DNSSec, ve Namecoin destekli DNS hosting sağlayıcısı.",
+  "license_url": "",
+  "logo": "cloudns.png",
+  "notes": "",
+  "privacy_url": "https://cloudns.com.au/",
+  "source_url": "",
+  "name": "CloudNS",
+  "tos_url": "",
+  "url": "https://cloudns.com.au/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "DNS",
+          "slug": "dns"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "cloudns",
+  "protocolsSlugged": []
+}

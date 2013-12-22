@@ -1,0 +1,67 @@
+{
+  "description": "File based encryption tool with support for Linux, Mac OS and Windows.",
+  "license_url": "https://code.google.com/p/encfs/source/browse/trunk/COPYING",
+  "logo": "encfs.png",
+  "notes": "EncFS is available for Windows through the \"encfs4win\" port.",
+  "privacy_url": "",
+  "source_url": "https://code.google.com/p/encfs/source/browse/#svn%2Ftrunk",
+  "name": "encfs",
+  "tos_url": "",
+  "url": "http://www.arg0.net/encfs",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/EncFS",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "encfs",
+  "protocolsSlugged": []
+}

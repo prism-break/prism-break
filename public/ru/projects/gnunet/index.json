@@ -1,0 +1,74 @@
+{
+  "description": "GNUnet &mdash; полностью свободная P2P сеть.",
+  "license_url": "https://gnunet.org/svn/gnunet/COPYING",
+  "logo": "gnunet.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://gnunet.org/subversion",
+  "name": "GNUnet",
+  "tos_url": "",
+  "url": "https://gnunet.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Anonymizing Networks",
+          "slug": "anonymizing-networks"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "gnunet",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

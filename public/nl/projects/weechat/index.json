@@ -1,0 +1,64 @@
+{
+  "description": "Uitbreidbare en aanpasbare chat client voor IRC en XMPP/Jabber.",
+  "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
+  "logo": "weechat.png",
+  "notes": "WeeChat does not offer encryption by default, but there is a FiSH encryption plugin available.",
+  "privacy_url": "",
+  "source_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=summary",
+  "name": "WeeChat",
+  "tos_url": "",
+  "url": "http://www.weechat.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat",
+  "protocols": [
+    "IRC"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "weechat",
+  "protocolsSlugged": [
+    {
+      "name": "IRC",
+      "slug": "irc"
+    }
+  ]
+}
