@@ -1,7 +1,7 @@
 # COMMANDS (more in README.md)
-# make all					build the entire /public directory
-# make clean				destroy the /public directory
-# make uber					destroy /public and rebuild it
+# make all					build /tmp and copy to /public
+# make clean				destroy built files
+# make uber					destroy built files and rebuild everything
 # make watch_css		run "stylus --watch" for css edits
 
 # BINARIES
@@ -13,20 +13,20 @@ STYLUS_PARAMS = -c -u ./node_modules/nib/
 STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u ./node_modules/nib/ -o public/assets/css/
 
 # INPUTS
-VIEWS = ./source/functions/build.ls
+BUILD_DIR = ./source/build/site-
 STYL = ./source/stylesheets/screen.styl
 
 # OUTPUTS
-CSS = ./public/assets/css/screen.css
+CSS = ./tmp/assets/css/screen.css
 
 mkdirs:
-	mkdir -p public/assets/css public/assets/js
+	mkdir -p tmp/assets/css tmp/assets/js
 
 copy_assets:
-	cp -r source/assets/fonts public/assets/fonts
-	cp -r source/assets/icons public/assets/ico
-	cp -r source/assets/images public/assets/img
-	cp -r source/dotfiles/.htaccess public
+	cp -r source/assets/fonts tmp/assets/fonts
+	cp -r source/assets/icons tmp/assets/ico
+	cp -r source/assets/images tmp/assets/img
+	cp -r source/dotfiles/.htaccess tmp
 
 watch_css:
 	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
@@ -35,15 +35,47 @@ build_css:
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
 
 build_html:
-	$(LIVESCRIPT_BIN) ./source/build/site-all.ls
+	$(LIVESCRIPT_BIN) $(BUILD_DIR)ar.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)ca.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)el.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)eo.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)es.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)fa.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)fi.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)fr.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)he.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)hi.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)io.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)it.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)ja.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)nl.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)no.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)pl.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)pt.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)ru.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)sr-Cyrl.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)sr.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)sv.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)tr.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-CN.ls
+#	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-TW.ls
+	mv tmp public
 
-clean:
+clean_tmp:
+	rm -rf tmp/
+
+clean_public:
 	rm -rf public/
 
+# ORGANIZE
 build_all: build_css build_html
 
-all: mkdirs copy_assets build_all
+# MAIN COMMANDS
+all: clean_tmp mkdirs copy_assets build_all
+clean: clean_tmp clean_public
+reset: clean_public all
 
-uber: clean all
-
-.PHONY: watch_css render_html clean
+# PHONY
+.PHONY: watch_css render_html clean_tmp clean_public

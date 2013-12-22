@@ -13,7 +13,7 @@ build-site = (iso) ->
 
   db =
     iso: iso
-    dir: "public/#{iso}/"
+    dir: "tmp/#{iso}/"
     locale: locale
     platform-types: platform-types
     projects: slugify-db projects
