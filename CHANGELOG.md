@@ -4,13 +4,17 @@
 
 * Split the site into over 100 pages for easier linking and saner translations.
 
-* Add indepth information about each project, including source code, license, security notes, and longer descriptions powered by Wikipedia.
+* Split the translation files into (at least) two parts. The first part for project descriptions and the second part for general site translations.
+
+* Add in-depth information about each project, including source code, license, security notes, and longer descriptions powered by Wikipedia.
+
+* Due the change above, Project URLs, logos, and even names can now be localized.
 
 # Notable Removals
 
 * Remove client-side dependency for JavaScript for better security and usability with NoScript.
 
-* Remove category notes. The legacy category notes are confusing and completely unorganized. With 0.2.0 the vast majority of the notes should be moved into their respective project's notes. Unfortunately, this is not doable easily programatically. I need your help to splice the legacy category notes into the new project notes I've already done this with the English edition.
+* Remove most category notes. The legacy category notes are confusing and completely unorganized. With 0.2.0 the vast majority of the notes should be moved into their respective projects. I need your help to splice the legacy category notes into the new project notes!
 
 # Project Additions
 
