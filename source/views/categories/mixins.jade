@@ -1,8 +1,18 @@
 mixin category-head(category)
-  .card.text.max
-    .btn-rectangle
-      .small
-        a(href=routes.root)
-          = t.Platforms
-        = ' / '
-      .title= category.name
+  .box
+    .card.text
+      .btn-rectangle
+        .small
+          a(href=routes.root)
+            = t.Platforms
+          = ' / '
+        .title= category.name
+
+    if category.name == 'Android'
+      .text-block.warning!= h.marked(t['warning-android'])
+    else if category.name == 'iOS'
+      .text-block.warning!= h.marked(t['warning-ios'])
+    else if category.name == 'Mac'
+      .text-block.warning!= h.marked(t['warning-mac'])
+    else if category.name == 'Windows'
+      .text-block.warning!= h.marked(t['warning-windows'])
