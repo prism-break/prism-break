@@ -15,7 +15,7 @@ Contributors are welcome.
 
 ## Rebuild
 
-    make uber
+    make reset
 
 ## Serve
 
@@ -35,7 +35,7 @@ Serve the folder `./public` on your web server.
 
 ## Editing Projects
   
-Project data is stored in `./source/db/*-projects.ls`, where `*` is the two letter language code (ISO-639). Edit normally with your favorite text editor, and make sure the site still compiles correctly with `make uber`.
+Project data is stored in `./source/db/*-projects.ls`, where `*` is the two letter language code (ISO-639). Edit normally with your favorite text editor, and make sure the site still compiles correctly with `make reset`.
 
 ## Adding A New Project
 
@@ -75,15 +75,15 @@ Only the fields `name`, `description`, `logo`, `url`, and `categories` are requi
 
 ## Localizations
 
-For anyone who's interested in working on localizing this site, please look into the `./source/i18n` directory of this repository. There are some sample LiveScript files there. To start, just make a copy of the en.ls file and start filling it out.
+For anyone who's interested in working on localizing this site, please look into the `./source/i18n` directory of this repository. There are some sample JSON translations there. To start, just make a copy of the en.ls file and start filling it out.
 
-**Run `make uber` to make sure your translations compile properly.** A common mistake is putting unescaped quotation marks in a sentence. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
+**Run `make reset` to make sure your translations compile properly.** A common mistake is putting unescaped quotation marks in a sentence. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
 
-    description: "Add curly quotes &ldquo;like this&rdquo;."
+    "description": "Use curly quotes &ldquo;like this&rdquo;."
 
-    description: "Add straight quotes \"like this\"."
+    "description": "Escape straight quotes \"like this\"."
 
-    description: "This will create "an error"."
+    "description": "Not escaping quotes will cause "an error"."
 
 Bear in mind that the site is being constantly updated, so you may want to check back every so often.
 

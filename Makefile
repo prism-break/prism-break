@@ -13,7 +13,7 @@ STYLUS_PARAMS = -c -u ./node_modules/nib/
 STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u ./node_modules/nib/ -o public/assets/css/
 
 # INPUTS
-BUILD_DIR = ./source/build/site-
+BUILD_DIR = ./source/functions/build/site-
 STYL = ./source/stylesheets/screen.styl
 
 # OUTPUTS
@@ -61,7 +61,9 @@ build_html:
 #	$(LIVESCRIPT_BIN) $(BUILD_DIR)tr.ls
 #	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-CN.ls
 #	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-TW.ls
-	mv tmp public
+	mkdir -p public
+	cp -r tmp/* public/
+	rm -rf tmp
 
 clean_tmp:
 	rm -rf tmp/

@@ -33,6 +33,7 @@ write-site-index = (db) ->
   view = view-path path
   options = 
     pretty: true
+    iso: db.iso
     body-class: "#{db.iso} root index"
     h: helpers
     platform-types: data
@@ -51,6 +52,7 @@ write-categories-index = (db) ->
   view = view-path path
   options = 
     pretty: true
+    iso: db.iso
     body-class: "#{db.iso} categories index"
     h: helpers
     categories: data
@@ -78,6 +80,7 @@ write-categories-show = (db) ->
     view = view-path 'categories/show'
     options = 
       pretty: true
+      iso: db.iso
       body-class: "#{db.iso} categories show"
       h: helpers
       category: category
@@ -114,6 +117,7 @@ write-subcategories-show = (db) ->
     view = view-path 'subcategories/show'
     options = 
       pretty: true
+      iso: db.iso
       body-class: "#{db.iso} subcategories show"
       h: helpers
       data: data
@@ -145,6 +149,7 @@ write-protocols-index = (db) ->
   view = view-path path
   options = 
     pretty: true
+    iso: db.iso
     body-class: "#{db.iso} protocols index"
     h: helpers
     protocol-types: data
@@ -173,6 +178,7 @@ write-protocols-show = (db) ->
     view = view-path 'protocols/show'
     options = 
       pretty: true
+      iso: db.iso
       body-class: "#{db.iso} protocols show"
       h: helpers
       protocol: data
@@ -204,6 +210,7 @@ write-projects-index = (db) ->
   view = view-path path
   options = 
     pretty: true
+    iso: db.iso
     body-class: "#{db.iso} projects index"
     h: helpers
     projects: data
@@ -231,6 +238,7 @@ write-projects-show = (db) ->
     view = view-path 'projects/show'
     options = 
       pretty: true
+      iso: db.iso
       body-class: "#{db.iso} projects show"
       h: helpers
       project: data
@@ -260,6 +268,7 @@ write-about-index = (db) ->
     view = view-path path
     options =
       pretty: true
+      iso: db.iso
       body-class: "#{db.iso} about index"
       h: helpers
       path: 'about'
@@ -285,6 +294,7 @@ write-about-media = (db) ->
     view = view-path 'about/media'
     options =
       pretty: true
+      iso: db.iso
       body-class: "#{db.iso} about media"
       h: helpers
       path: path
