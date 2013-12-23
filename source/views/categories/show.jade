@@ -37,7 +37,7 @@ block content
                 i.fa.fa-times
               - each project in subcategory.projectsRejected
                 .bar.negative
-                  .label
+                  .label(title=project.name)
                     img.logo(src=routes.logosRejected + project.logo )
                     = project.name
                   .icon: i.fa.fa-ban
