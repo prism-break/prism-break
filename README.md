@@ -13,6 +13,8 @@ Contributors are welcome.
     npm install
     make test      # builds ./public/en for preview purposes
 
+If it looks good here, feel free to commit the changes and submit a pull request. Steps #3 and #4 are only necessary if you want to build your own copy of the site.
+
 ## 3. Build
 
     make all       # get a drink, it'll take a while build all 27 languages
