@@ -7,6 +7,18 @@ block title
   = t.Protocols
 block content
 
+  .content-main
+    mixin protocol-head(protocol)
+
+    .section
+      .pipe.positive
+        = t['Projects Supported']
+        i.fa.fa-check
+      - each project in protocol.projects
+        mixin project-card(project)
+
+      mixin filler-cards(protocol.projects)
+
   .content-side
     .section
 
@@ -32,14 +44,4 @@ block content
                 i.fa.fa-angle-right.ltr
                 i.fa.fa-angle-left.rtl
 
-  .content-main
-    mixin protocol-head(protocol)
 
-    .section
-      .pipe.positive
-        = t['Projects Supported']
-        i.fa.fa-check
-      - each project in protocol.projects
-        mixin project-card(project)
-
-      mixin filler-cards(protocol.projects)

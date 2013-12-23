@@ -4,9 +4,6 @@ block title
   = t['site-title']
 block content
 
-  .content-side
-    .text-block.large!= h.marked(t['site-introduction'])
-
   .content-main
     - each platformType in platformTypes
 
@@ -25,3 +22,6 @@ block content
               .icon
                 i.fa.fa-angle-right.ltr
                 i.fa.fa-angle-left.rtl
+
+  .content-side
+    .text-block.large!= h.marked(t['site-introduction'])

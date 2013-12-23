@@ -8,9 +8,6 @@ mixin footer(path)
 
   #footer
 
-    .content-side
-      p.disclaimer= t['site-disclaimer']
-
     .content-main
       ul.languages
         li: a(href="#{routes.public}ar/#{path}") العربية
@@ -39,6 +36,8 @@ mixin footer(path)
         li: a(href="#{routes.public}tr/#{path}") Türkçe
         li: a(href="#{routes.public}zh-CN/#{path}") 简体中文
         li: a(href="#{routes.public}zh-TW/#{path}") 繁體中文
+    .content-side
+      p.disclaimer= t['site-disclaimer']
 
     ul.nav
       li
@@ -57,4 +56,4 @@ mixin footer(path)
       li.copyright
         != "&copy; "
         a(href="http://nylira.com") Peng Zhong 
-        | 2013&mdash;
+

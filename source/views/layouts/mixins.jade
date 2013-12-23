@@ -4,28 +4,8 @@ mixin filler-bars(list)
       .bar.two-col
         |  
 
-  .filler-columns-three
-    if list.length % 3 === 1
-      .bar.three-col
-        |  
-      .bar.three-col
-        |  
-    else if list.length % 3 === 2
-      .bar.three-col
-        |  
-
 mixin filler-cards(list)
   .filler-columns-two
     if list.length % 2 === 1
       .card.two-col
-        |  
-
-  .filler-columns-three
-    if list.length % 3 === 1
-      .card.three-col
-        |  
-      .card.three-col
-        |  
-    else if list.length % 3 === 2
-      .card.three-col
         |  

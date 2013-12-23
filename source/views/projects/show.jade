@@ -5,6 +5,10 @@ block title
   = t.Projects
 block content
 
+  .content-main
+    mixin project-head(project)
+    mixin project-tail(project)
+
   .content-side
 
     .section
@@ -20,7 +24,3 @@ block content
 
           a.bar.child(href=routes.subcategories+cat.slug+'-'+subcat.slug)
             .label= subcat.name
-
-  .content-main
-    mixin project-head(project)
-    mixin project-tail(project)

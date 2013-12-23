@@ -7,30 +7,6 @@ block title
   = data.category.name
 block content
 
-  .content-side
-    .section
-
-      a.pipe(href=routes.categories + data.category.slug)
-        = data.category.name + ' '
-
-      - each subcat in data.category.subcategories
-
-          if subcat.name === data.subcategory.name
-            .bar.active
-              .label
-                img.logo(src=routes.logos + subcat.randomLogo)
-                = subcat.name
-              .icon: i.fa.fa-dot-circle-o
-
-          else
-            a.bar(href=routes.subcategories + data.category.slug + '-' + subcat.slug)
-              .label
-                img.logo(src=routes.logos + subcat.randomLogo)
-                = subcat.name
-              .icon
-                i.fa.fa-angle-right.ltr
-                i.fa.fa-angle-left.rtl
-
   .content-main
     mixin subcategory-head(data)
 
@@ -59,3 +35,27 @@ block content
             .icon: i.fa.fa-ban
 
         mixin filler-bars(data.projectsRejected)
+
+  .content-side
+    .section
+
+      a.pipe(href=routes.categories + data.category.slug)
+        = data.category.name + ' '
+
+      - each subcat in data.category.subcategories
+
+          if subcat.name === data.subcategory.name
+            .bar.active
+              .label
+                img.logo(src=routes.logos + subcat.randomLogo)
+                = subcat.name
+              .icon: i.fa.fa-dot-circle-o
+
+          else
+            a.bar(href=routes.subcategories + data.category.slug + '-' + subcat.slug)
+              .label
+                img.logo(src=routes.logos + subcat.randomLogo)
+                = subcat.name
+              .icon
+                i.fa.fa-angle-right.ltr
+                i.fa.fa-angle-left.rtl

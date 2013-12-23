@@ -8,16 +8,6 @@ block title
   = t.Platforms
 block content
 
-  .content-side
-    .section
-
-      .pipe
-        = t.Categories
-
-      - each subcategory in category.subcategories
-        a.pipe.subtle(href="##{subcategory.slug}")= subcategory.name
-
-
   .content-main
 
     mixin category-head(category)
@@ -37,6 +27,8 @@ block content
             - each project in subcategory.projects
               mixin project-card(project)
 
+            mixin filler-cards(subcategory.projects)
+
           if(subcategory.projectsRejected.length > 0)
             .section
               .pipe.negative
@@ -51,3 +43,12 @@ block content
                   .icon: i.fa.fa-ban
 
               mixin filler-bars(subcategory.projectsRejected)
+
+  .content-side
+    .section
+
+      .pipe
+        = t.Categories
+
+      - each subcategory in category.subcategories
+        a.pipe.subtle(href="##{subcategory.slug}")= subcategory.name
