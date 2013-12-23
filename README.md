@@ -6,11 +6,9 @@ Contributors are welcome.
 
 ## 1. Edit
 
-    # add the project information
-    vi ./source/db/en-projects.json
+    vi ./source/db/en-projects.json                  # edit or add a project
 
-    # add the project logo (format: 60px x 60px PNG)
-    cp project-logo-60x60.png ./source/assets/images/medium/
+    cp project.png ./source/assets/images/medium/    # put 60x60 PNG here
 
 ## 2. Test
 
@@ -19,20 +17,19 @@ Contributors are welcome.
 
 ## 3. Translate
 
-    # make it possible for someone to translate the project
-    # by copying your edits to all of the language files:
+    # set up stubs by copying your edits to *-projects.json
     ./source/db/*-projects.json
 
 At this point, feel free to commit the changes and submit a pull request. Steps #4 and #5 are only necessary if you want to build your own copy of the site.
 
-## 3. Build
+## 4. Build
 
     make all       # get a drink, it'll take a while build all 27 languages
 
     make reset     # making a drastic change? run this instead of `make all`
                    # this will vaporize /public before running `make all`
 
-## 4. Serve
+## 5. Serve
 
 Serve the folder `./public` on your web server.
 
