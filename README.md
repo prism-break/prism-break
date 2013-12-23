@@ -9,7 +9,7 @@ Contributors are welcome.
     # add the project information
     vi ./source/db/en-projects.json
 
-    # add the project logo (60x60 PNG)
+    # add the project logo (format: 60px x 60px PNG)
     cp project-logo-60x60.png ./source/assets/images/medium/
 
 ## 2. Test
@@ -19,8 +19,7 @@ Contributors are welcome.
 
 ## 3. Translate
 
-    # you don't have to translate the project yourself,
-    # but make it possible for someone else to do so
+    # make it possible for someone to translate the project
     # by copying your edits to all of the language files:
     ./source/db/*-projects.json
 
