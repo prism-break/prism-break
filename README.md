@@ -4,20 +4,21 @@ Contributors are welcome.
 
 # 30-Second Quick Start
 
-## Build
-
-    npm install
-    make all
-
-## Edit
+## 1. Edit
 
     vi ./source/db/en-projects.ls
 
-## Rebuild
+## 2. Test
 
-    make reset
+    npm install
+    make test      # builds ./public/en for preview purposes
 
-## Serve
+## 3. Build
+
+    make all       # get a drink, it'll take a while build all 27 languages
+    make reset     # making a drastic change? run this instead of `make all`
+
+## 4. Serve
 
 Serve the folder `./public` on your web server.
 
