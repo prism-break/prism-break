@@ -78,6 +78,7 @@ clean_tmp:
 clean_public:
 	rm -rf public/
 
+# copy ./public to another repository and commit changes
 sync:
 	rsync -azru --delete --stats public/ ../prism-break-static/public/
 	(cd ../prism-break-static; git add -A; git commit -m 'regenerate')
