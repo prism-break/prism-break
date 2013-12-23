@@ -1,0 +1,49 @@
+{
+  "description": "Comptes SIP sécurisés par le Guardian Project, pour être utilisé par exemple avec CSipSimple, Jitsi ou al.",
+  "license_url": "",
+  "logo": "ostel.png",
+  "notes": "",
+  "privacy_url": "https://ostel.co/privacy",
+  "source_url": "https://github.com/guardianproject/OStel",
+  "name": "Ostel",
+  "tos_url": "",
+  "url": "https://ostel.co/",
+  "wikipedia_url": "",
+  "protocols": [
+    "SIP",
+    "SSL/TLS",
+    "VoIP",
+    "ZRTP"
+  ],
+  "categories": [
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "ostel",
+  "protocolsSlugged": [
+    {
+      "name": "SIP",
+      "slug": "sip"
+    },
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "VoIP",
+      "slug": "voip"
+    },
+    {
+      "name": "ZRTP",
+      "slug": "zrtp"
+    }
+  ]
+}

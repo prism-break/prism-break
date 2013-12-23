@@ -1,0 +1,27 @@
+{
+  "description": "MTA, der auf etwa 43% aller E-Mail-Server benutzt wird&mdash;Standard auf Debian GNU/Linux.",
+  "license_url": "https://github.com/Exim/exim/blob/master/src/LICENCE",
+  "logo": "exim.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/Exim/exim",
+  "name": "Exim",
+  "tos_url": "",
+  "url": "http://www.exim.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Exim",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Mail Transfer Agents",
+          "slug": "mail-transfer-agents"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "exim",
+  "protocolsSlugged": []
+}

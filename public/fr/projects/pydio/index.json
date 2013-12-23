@@ -1,0 +1,27 @@
+{
+  "description": "Transformez instantanément n’importe quel serveur en une plate-forme de partage de fichiers.",
+  "license_url": "https://github.com/pydio/pydio-core/blob/master/README.md",
+  "logo": "pydio.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/pydio/pydio-core",
+  "name": "Pydio",
+  "tos_url": "",
+  "url": "http://pyd.io/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "pydio",
+  "protocolsSlugged": []
+}

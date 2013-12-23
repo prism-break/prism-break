@@ -1,0 +1,39 @@
+{
+  "description": "PBX-Implementation mit VoIP/SIP-Unterstützung.",
+  "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
+  "logo": "asterisk.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://www.asterisk.org/downloads/source-code",
+  "name": "Asterisk",
+  "tos_url": "",
+  "url": "http://www.asterisk.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
+  "protocols": [
+    "SIP",
+    "VoIP"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "SIP Servers",
+          "slug": "sip-servers"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "asterisk",
+  "protocolsSlugged": [
+    {
+      "name": "SIP",
+      "slug": "sip"
+    },
+    {
+      "name": "VoIP",
+      "slug": "voip"
+    }
+  ]
+}

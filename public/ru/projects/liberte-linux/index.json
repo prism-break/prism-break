@@ -1,0 +1,57 @@
+{
+  "description": "Live CD/USB операционная система, разработанная для безопасной коммуникации в враждебных средах.",
+  "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
+  "logo": "liberte-linux.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/mkdesu/liberte",
+  "name": "Liberté Linux",
+  "tos_url": "",
+  "url": "http://dee.su/liberte",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Security-focused_operating_system#Libert.C3.A9_Linux.5B7.5D",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Operating Systems (Live)",
+          "slug": "operating-systems-live"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Operating Systems (Live)",
+          "slug": "operating-systems-live"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Operating Systems (Live)",
+          "slug": "operating-systems-live"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Operating Systems (Live)",
+          "slug": "operating-systems-live"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "liberte-linux",
+  "protocolsSlugged": []
+}

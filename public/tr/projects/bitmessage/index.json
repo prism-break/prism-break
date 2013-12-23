@@ -1,0 +1,54 @@
+{
+  "description": "Bitcoin teknolojisi tabanlı şifreli, merkezsiz P2P mesajlaşma servisi.",
+  "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
+  "logo": "bitmessage.png",
+  "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
+  "privacy_url": "",
+  "source_url": "https://github.com/Bitmessage/PyBitmessage",
+  "name": "Bitmessage",
+  "tos_url": "",
+  "url": "https://bitmessage.org/wiki/Main_Page",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage",
+  "protocols": [
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Email Alternatives",
+          "slug": "email-alternatives"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Email Alternatives",
+          "slug": "email-alternatives"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Email Alternatives",
+          "slug": "email-alternatives"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "bitmessage",
+  "protocolsSlugged": [
+    {
+      "name": "Tor",
+      "slug": "tor"
+    }
+  ]
+}

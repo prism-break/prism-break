@@ -1,0 +1,34 @@
+{
+  "description": "Yksityisyyttä arvostava hakukone, joka ei kerää tietoja.",
+  "license_url": "",
+  "logo": "startpage.png",
+  "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy.",
+  "privacy_url": "https://startpage.com/eng/protect-privacy.html",
+  "source_url": "",
+  "name": "Startpage",
+  "tos_url": "",
+  "url": "https://startpage.com/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Web Search",
+          "slug": "web-search"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "startpage",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

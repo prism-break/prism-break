@@ -1,0 +1,47 @@
+{
+  "description": "Volledig vrije GNU/Linux distributie gebaseerd op Debian.",
+  "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
+  "logo": "gnewsense.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://savannah.nongnu.org/bzr/?group=gnewsense",
+  "name": "gNewSense",
+  "tos_url": "",
+  "url": "http://www.gnewsense.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/GNewSense",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "gnewsense",
+  "protocolsSlugged": []
+}

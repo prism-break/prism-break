@@ -1,0 +1,31 @@
+{
+  "description": "arkOS je lagan softver koji radi na Raspberry Pi uređajima da sigurno hostujete sami svoju web stranicu, email, datoteke i još mnogo toga.",
+  "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
+  "logo": "arkos.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/cznweb",
+  "name": "ArkOS",
+  "tos_url": "",
+  "url": "https://arkos.io/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Raspberry Pi",
+          "slug": "raspberry-pi"
+        },
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "arkos",
+  "protocolsSlugged": []
+}

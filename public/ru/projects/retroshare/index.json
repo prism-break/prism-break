@@ -1,0 +1,101 @@
+{
+  "description": "Свободная и безопасная P2P коммуникационная платформа, предоставляющая IM, форумы, VoIP, обмен файлами и многое другое.",
+  "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
+  "logo": "retroshare.png",
+  "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
+  "privacy_url": "",
+  "source_url": "http://sourceforge.net/p/retroshare/code/HEAD/tree/",
+  "name": "RetroShare",
+  "tos_url": "",
+  "url": "http://retroshare.sourceforge.net/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
+  "protocols": [
+    "GPG",
+    "VoIP"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Email Alternatives",
+          "slug": "email-alternatives"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Social Networks",
+          "slug": "social-networks"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Email Alternatives",
+          "slug": "email-alternatives"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Social Networks",
+          "slug": "social-networks"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Email Alternatives",
+          "slug": "email-alternatives"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Social Networks",
+          "slug": "social-networks"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Email Alternatives",
+          "slug": "email-alternatives"
+        },
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Social Networks",
+          "slug": "social-networks"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "retroshare",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    },
+    {
+      "name": "VoIP",
+      "slug": "voip"
+    }
+  ]
+}

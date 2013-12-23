@@ -1,0 +1,67 @@
+{
+  "description": "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform.",
+  "license_url": "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT",
+  "logo": "osrm.png",
+  "notes": "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service.",
+  "privacy_url": "",
+  "source_url": "https://github.com/DennisOSRM/Project-OSRM",
+  "name": "Open Source Routing Machine",
+  "tos_url": "",
+  "url": "http://project-osrm.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "World Maps",
+          "slug": "world-maps"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "World Maps",
+          "slug": "world-maps"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "World Maps",
+          "slug": "world-maps"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "World Maps",
+          "slug": "world-maps"
+        }
+      ],
+      "slug": "web"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "World Maps",
+          "slug": "world-maps"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "open-source-routing-machine",
+  "protocolsSlugged": []
+}

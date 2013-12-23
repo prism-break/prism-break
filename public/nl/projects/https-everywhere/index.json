@@ -1,0 +1,64 @@
+{
+  "description": "Versleutelt je communicatie op duizenden websites.",
+  "license_url": "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt",
+  "logo": "https-everywhere.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://gitweb.torproject.org/https-everywhere.git",
+  "name": "HTTPS Everywhere",
+  "tos_url": "",
+  "url": "https://www.eff.org/https-everywhere",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Web Browser Addons",
+          "slug": "web-browser-addons"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "https-everywhere",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

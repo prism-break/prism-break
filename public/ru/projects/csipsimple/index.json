@@ -1,0 +1,48 @@
+{
+  "description": "Свободный VoIP клиент с поддержкой шифрования для Android.",
+  "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
+  "logo": "csipsimple.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://code.google.com/p/csipsimple/source/checkout",
+  "name": "CSipSimple",
+  "tos_url": "",
+  "url": "https://code.google.com/p/csipsimple/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/CSipSimple",
+  "protocols": [
+    "SIP",
+    "SSL/TLS",
+    "ZRTP"
+  ],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "android"
+    }
+  ],
+  "slug": "csipsimple",
+  "protocolsSlugged": [
+    {
+      "name": "SIP",
+      "slug": "sip"
+    },
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "ZRTP",
+      "slug": "zrtp"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "description": "iOS'lu cihazlar için bu açık kaynaklı tarayıcı sayesinde web'de Tor ağı üzerinden gezin.",
+  "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
+  "logo": "onion-browser.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/mtigas/iOS-OnionBrowser",
+  "name": "Onion Browser",
+  "tos_url": "",
+  "url": "https://mike.tig.as/onionbrowser/",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS",
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "iOS",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "ios"
+    }
+  ],
+  "slug": "onion-browser",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "Tor",
+      "slug": "tor"
+    }
+  ]
+}

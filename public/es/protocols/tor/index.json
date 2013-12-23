@@ -1,0 +1,958 @@
+{
+  "name": "Tor",
+  "full_name": "The Onion Router",
+  "description": "Tor (previously TOR, an acronym for The Onion Router)[5] is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays[6] to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user[7] and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
+  "categories": [
+    {
+      "name": "Anonymity"
+    }
+  ],
+  "slug": "tor",
+  "projects": [
+    {
+      "description": "Servicio de mensajería cifrada y descentralizada basada en tecnología bitcoin.",
+      "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
+      "logo": "bitmessage.png",
+      "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
+      "privacy_url": "",
+      "source_url": "https://github.com/Bitmessage/PyBitmessage",
+      "name": "Bitmessage",
+      "tos_url": "",
+      "url": "https://bitmessage.org/wiki/Main_Page",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage",
+      "protocols": [
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Alternatives",
+              "slug": "email-alternatives"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Alternatives",
+              "slug": "email-alternatives"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Alternatives",
+              "slug": "email-alternatives"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "bitmessage",
+      "protocolsSlugged": [
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "Búsquedas anónimas y sin registro.",
+      "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
+      "logo": "duckduckgo.png",
+      "notes": "DuckDuckGo is a software-as-a-service (SaaS) hosted around the world that provides you with anonymous search results from [these sources](https://dukgo.com/help/en_US/results/sources). DDG open source components are [available here](https://github.com/duckduckgo).\n\nThere is also a DuckDuckGo hidden service at [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) for Tor users.",
+      "privacy_url": "https://duckduckgo.com/privacy",
+      "source_url": "https://github.com/duckduckgo/duckduckgo",
+      "name": "DuckDuckGo",
+      "tos_url": "",
+      "url": "https://duckduckgo.com/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo",
+      "protocols": [
+        "SSL/TLS",
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "Web",
+          "subcategories": [
+            {
+              "name": "Web Search",
+              "slug": "web-search"
+            }
+          ],
+          "slug": "web"
+        }
+      ],
+      "slug": "duckduckgo",
+      "protocolsSlugged": [
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "Image hosting with in-browser AES-256 encryption.",
+      "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
+      "logo": "imgbi.png",
+      "notes": "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
+      "privacy_url": "https://img.bi/",
+      "source_url": "https://github.com/imgbi",
+      "name": "img.bi",
+      "tos_url": "",
+      "url": "https://img.bi/",
+      "wikipedia_url": "",
+      "protocols": [
+        "I2P",
+        "SSL/TLS",
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "Media Publishing",
+              "slug": "media-publishing"
+            }
+          ],
+          "slug": "servers"
+        },
+        {
+          "name": "Web",
+          "subcategories": [
+            {
+              "name": "Media Publishing",
+              "slug": "media-publishing"
+            }
+          ],
+          "slug": "web"
+        }
+      ],
+      "slug": "imgbi",
+      "protocolsSlugged": [
+        {
+          "name": "I2P",
+          "slug": "i2p"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "CD/USB en vivo basado de Debian con herramientas preconfiguradas para navegación anónima y más.",
+      "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
+      "logo": "jondonym.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://anonymous-proxy-servers.net/wiki/index.php/JonDo_sources",
+      "name": "JonDo Live CD",
+      "tos_url": "",
+      "url": "https://anonymous-proxy-servers.net/en/jondo-live-cd.html",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Anon_Proxy",
+      "protocols": [
+        "GPG",
+        "SSL/TLS",
+        "OTR",
+        "Tor",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "jondo-live-cd",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "OTR",
+          "slug": "otr"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "Navegación privada con el servicio de anonimato JonDo IP y el perfil JonDoFox para Firefox.",
+      "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
+      "logo": "jondonym.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://anonymous-proxy-servers.net/wiki/index.php/JonDo_sources",
+      "name": "JonDoFox",
+      "tos_url": "",
+      "url": "https://anonymous-proxy-servers.net/en/jondofox.html",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Anon_Proxy",
+      "protocols": [
+        "SSL/TLS",
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "jondofox",
+      "protocolsSlugged": [
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "Aplicación multiplataforma de correo electrónico con cifrado a través de la extensión Enigmail.",
+      "license_url": "https://www.mozilla.org/MPL/",
+      "logo": "mozilla-thunderbird.png",
+      "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
+      "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
+      "name": "Mozilla Thunderbird",
+      "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+      "url": "https://www.mozilla.org/en-US/thunderbird/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
+      "protocols": [
+        "GPG",
+        "IRC",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS",
+        "Tor",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "mozilla-thunderbird",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "Navega la web a través de la red de Tor con este navegador de software libre para iOS.",
+      "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
+      "logo": "onion-browser.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/mtigas/iOS-OnionBrowser",
+      "name": "Onion Browser",
+      "tos_url": "",
+      "url": "https://mike.tig.as/onionbrowser/",
+      "wikipedia_url": "",
+      "protocols": [
+        "SSL/TLS",
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "iOS",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "ios"
+        }
+      ],
+      "slug": "onion-browser",
+      "protocolsSlugged": [
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "Las características y funcionalidad de Tor pero para Android.",
+      "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
+      "logo": "orbot.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://gitweb.torproject.org/orbot.git",
+      "name": "Orbot",
+      "tos_url": "",
+      "url": "https://guardianproject.info/apps/orbot/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Orbot",
+      "protocols": [
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            {
+              "name": "Anonymizing Networks",
+              "slug": "anonymizing-networks"
+            }
+          ],
+          "slug": "android"
+        }
+      ],
+      "slug": "orbot",
+      "protocolsSlugged": [
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "Cuentas de correo seguras y privadas.",
+      "license_url": "",
+      "logo": "riseup.png",
+      "notes": "Riseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
+      "privacy_url": "https://help.riseup.net/en/privacy-policy",
+      "source_url": "http://riseuplabs.org/",
+      "name": "Riseup",
+      "tos_url": "",
+      "url": "https://riseup.net/en",
+      "wikipedia_url": "",
+      "protocols": [
+        "SSL/TLS",
+        "Tor",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "Web",
+          "subcategories": [
+            {
+              "name": "Email Accounts",
+              "slug": "email-accounts"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "Productivity",
+              "slug": "productivity"
+            },
+            {
+              "name": "VPN Accounts",
+              "slug": "vpn-accounts"
+            }
+          ],
+          "slug": "web"
+        }
+      ],
+      "slug": "riseup",
+      "protocolsSlugged": [
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "CD/USB en vivo diseñado para asegurar la privacidad y el anonimato.",
+      "license_url": "https://tails.boum.org/doc/about/license/index.en.html",
+      "logo": "tails.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://tails.boum.org/contribute/git/",
+      "name": "Tails",
+      "tos_url": "",
+      "url": "https://tails.boum.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System",
+      "protocols": [
+        "GPG",
+        "SSL/TLS",
+        "OTR",
+        "Tor",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "tails",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "OTR",
+          "slug": "otr"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+      "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
+      "logo": "tor.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://gitweb.torproject.org/tor.git",
+      "name": "Tor",
+      "tos_url": "",
+      "url": "https://www.torproject.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
+      "protocols": [
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Anonymizing Networks",
+              "slug": "anonymizing-networks"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Anonymizing Networks",
+              "slug": "anonymizing-networks"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Anonymizing Networks",
+              "slug": "anonymizing-networks"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "Anonymizing Networks",
+              "slug": "anonymizing-networks"
+            }
+          ],
+          "slug": "servers"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Anonymizing Networks",
+              "slug": "anonymizing-networks"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "tor",
+      "protocolsSlugged": [
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "Navegación cifrada y anónima impulsada por la red Tor.",
+      "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
+      "logo": "tor-browser-bundle.png",
+      "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
+      "privacy_url": "https://www.torproject.org/about/overview.html.en",
+      "source_url": "https://gitweb.torproject.org/tor.git",
+      "name": "Tor Browser Bundle",
+      "tos_url": "",
+      "url": "https://www.torproject.org/projects/torbrowser.html.en",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+      "protocols": [
+        "SSL/TLS",
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Web Browsers",
+              "slug": "web-browsers"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "tor-browser-bundle",
+      "protocolsSlugged": [
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "Complemento para hacer que Thunderbird/Icedove se conecte a Tor.",
+      "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
+      "logo": "torbirdy.png",
+      "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the \"Before using TorBirdy\" and \"Known TorBirdy\" Issues sections on the project website.",
+      "privacy_url": "",
+      "source_url": "https://github.com/ioerror/torbirdy",
+      "name": "TorBirdy",
+      "tos_url": "",
+      "url": "https://trac.torproject.org/projects/tor/wiki/torbirdy",
+      "wikipedia_url": "",
+      "protocols": [
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "torbirdy",
+      "protocolsSlugged": [
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "Chat anónimo P2P construido sobre un servicio secreto de Tor (no es parte oficial del proyecto Tor).",
+      "license_url": "https://www.gnu.org/copyleft/gpl.html",
+      "logo": "torchat.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/prof7bit/TorChat",
+      "name": "TorChat",
+      "tos_url": "",
+      "url": "https://github.com/prof7bit/TorChat/wiki",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/TorChat",
+      "protocols": [
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "torchat",
+      "protocolsSlugged": [
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    },
+    {
+      "description": "S.O. amigable para máquinas virtuales, basado en Debian y Tor, enfocado en la anonimidad, privacidad y seguridad.",
+      "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
+      "logo": "whonix.png",
+      "notes": "Whonix is designed to be run inside of a virtualization package like [VirtualBox](https://www.virtualbox.org/). VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.",
+      "privacy_url": "",
+      "source_url": "https://github.com/Whonix/Whonix/",
+      "name": "Whonix",
+      "tos_url": "",
+      "url": "https://www.whonix.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
+      "protocols": [
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Operating Systems",
+              "slug": "operating-systems"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Operating Systems",
+              "slug": "operating-systems"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Operating Systems",
+              "slug": "operating-systems"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "whonix",
+      "protocolsSlugged": [
+        {
+          "name": "Tor",
+          "slug": "tor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "description": "Fedora/Xen-basert system designet for sikkerhet som følge av isolasjon.",
+  "license_url": "http://qubes-os.org/trac/wiki/QubesLicensing",
+  "logo": "qubes-os.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://git.qubes-os.org/",
+  "name": "Qubes",
+  "tos_url": "",
+  "url": "http://qubes-os.org/trac",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "qubes",
+  "protocolsSlugged": []
+}

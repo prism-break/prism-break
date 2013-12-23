@@ -1,0 +1,1406 @@
+{
+  "name": "GPG",
+  "full_name": "GNU Privacy Guard",
+  "description": "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
+  "categories": [
+    {
+      "name": "Encryption"
+    }
+  ],
+  "slug": "gpg",
+  "projects": [
+    {
+      "description": "OpenPGP implementation for Android.",
+      "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
+      "logo": "apg.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/thialfihar/apg",
+      "name": "APG",
+      "tos_url": "",
+      "url": "http://www.thialfihar.org/projects/apg/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Android_Privacy_Guard",
+      "protocols": [
+        "GPG"
+      ],
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "android"
+        }
+      ],
+      "slug": "apg",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        }
+      ]
+    },
+    {
+      "description": "برنامه ایمیل سبک با پشتیبانی از پی‌جی‌پی",
+      "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
+      "logo": "claws-mail.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://git.claws-mail.org/",
+      "name": "Claws Mail",
+      "tos_url": "",
+      "url": "http://www.claws-mail.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Claws_Mail",
+      "protocols": [
+        "GPG",
+        "RSS",
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "claws-mail",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        }
+      ]
+    },
+    {
+      "description": "افزونه پی‌جی‌پی برای تاندربرد و آیس‌داو",
+      "license_url": "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi",
+      "logo": "enigmail.png",
+      "notes": "[Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.",
+      "privacy_url": "",
+      "source_url": "https://www.enigmail.net/download/source.php",
+      "name": "Enigmail",
+      "tos_url": "",
+      "url": "https://www.enigmail.net/home/index.php",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Enigmail",
+      "protocols": [
+        "GPG"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "enigmail",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        }
+      ]
+    },
+    {
+      "description": "برنامه آزاد ایمیل و تقویم",
+      "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
+      "logo": "evolution.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://projects.gnome.org/evolution/git.shtml",
+      "name": "Evolution",
+      "tos_url": "",
+      "url": "https://projects.gnome.org/evolution/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
+      "protocols": [
+        "CalDAV",
+        "GPG",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS",
+        "WebDAV"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        }
+      ],
+      "slug": "evolution",
+      "protocolsSlugged": [
+        {
+          "name": "CalDAV",
+          "slug": "caldav"
+        },
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "WebDAV",
+          "slug": "webdav"
+        }
+      ]
+    },
+    {
+      "description": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.",
+      "license_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
+      "logo": "freedombox.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=tree",
+      "name": "FreedomBox",
+      "tos_url": "",
+      "url": "https://www.freedomboxfoundation.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox",
+      "protocols": [
+        "GPG",
+        "TOR",
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "Raspberry Pi",
+              "slug": "raspberry-pi"
+            },
+            {
+              "name": "Operating Systems",
+              "slug": "operating-systems"
+            }
+          ],
+          "slug": "servers"
+        }
+      ],
+      "slug": "freedombox",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "TOR",
+          "slug": "tor"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        }
+      ]
+    },
+    {
+      "description": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.",
+      "license_url": "https://trac.gajim.org/browser/COPYING",
+      "logo": "gajim.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://gajim.org/dev.php",
+      "name": "Gajim",
+      "tos_url": "",
+      "url": "http://gajim.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim",
+      "protocols": [
+        "GPG",
+        "OTR",
+        "SSL/TLS",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "gajim",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "OTR",
+          "slug": "otr"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "همزمان‌سازی فایل‌ها روی کامپیوترها و درایوها",
+      "license_url": "https://git-annex.branchable.com/license/",
+      "logo": "git-annex.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/joeyh/git-annex",
+      "name": "git-annex",
+      "tos_url": "",
+      "url": "https://git-annex.branchable.com/",
+      "wikipedia_url": "",
+      "protocols": [
+        "GPG"
+      ],
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            {
+              "name": "File Storage & Sync",
+              "slug": "file-storage-sync"
+            }
+          ],
+          "slug": "android"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "File Storage & Sync",
+              "slug": "file-storage-sync"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "File Storage & Sync",
+              "slug": "file-storage-sync"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "File Storage & Sync",
+              "slug": "file-storage-sync"
+            }
+          ],
+          "slug": "servers"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "File Storage & Sync",
+              "slug": "file-storage-sync"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "git-annex",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        }
+      ]
+    },
+    {
+      "description": "برنامه پی‌جی‌پی آزاد",
+      "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master",
+      "logo": "gnupg.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://www.gnupg.org/download/cvs_access.html",
+      "name": "GNU Privacy Guard",
+      "tos_url": "",
+      "url": "http://www.gnupg.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
+      "protocols": [
+        "GPG"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "gnu-privacy-guard",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        }
+      ]
+    },
+    {
+      "description": "A port of the whole GnuPG 2.1 suite to Android.\n\nGnu Privacy Guard (GPG) gives you access to the entire GnuPG suite of encryption software. GnuPG is GNU’s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. GnuPG 2.1 is the new modularized version of GnuPG that now supports OpenPGP and S/MIME.",
+      "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
+      "logo": "gnupg-for-android.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/guardianproject/gnupg-for-android",
+      "name": "GPG for Android",
+      "tos_url": "",
+      "url": "https://guardianproject.info/code/gnupg/",
+      "wikipedia_url": "",
+      "protocols": [
+        "GPG",
+        "S/MIME"
+      ],
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "android"
+        }
+      ],
+      "slug": "gpg-for-android",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        }
+      ]
+    },
+    {
+      "description": "Gpg4win is an installation package for Windows (XP, Vista, 7 and 8) with software tools and manuals for email and file encryption on behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.",
+      "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
+      "logo": "gpg4win.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary",
+      "name": "Gpg4win",
+      "tos_url": "",
+      "url": "http://www.gpg4win.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Gpg4win",
+      "protocols": [
+        "GPG"
+      ],
+      "categories": [
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "gpg4win",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        }
+      ]
+    },
+    {
+      "description": "OpenPGP add-on for Apple OS X Mail.",
+      "license_url": "https://github.com/GPGTools/MacGPG2/blob/dev/LICENSE.txt",
+      "logo": "gpgtools.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://gpgtools.org/opensource.html",
+      "name": "GPGTools",
+      "tos_url": "",
+      "url": "https://gpgtools.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/GPGTools",
+      "protocols": [
+        "GPG"
+      ],
+      "categories": [
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "mac"
+        }
+      ],
+      "slug": "gpgtools",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        }
+      ]
+    },
+    {
+      "description": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.",
+      "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
+      "logo": "jondonym.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://anonymous-proxy-servers.net/wiki/index.php/JonDo_sources",
+      "name": "JonDo Live CD",
+      "tos_url": "",
+      "url": "https://anonymous-proxy-servers.net/en/jondo-live-cd.html",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Anon_Proxy",
+      "protocols": [
+        "GPG",
+        "SSL/TLS",
+        "OTR",
+        "Tor",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "jondo-live-cd",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "OTR",
+          "slug": "otr"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "Open source email app for Android with PGP support.",
+      "license_url": "https://github.com/k9mail/k-9/blob/master/NOTICE",
+      "logo": "k9-mail.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/k9mail/k-9",
+      "name": "K-9 Mail",
+      "tos_url": "",
+      "url": "http://code.google.com/p/k9mail/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail",
+      "protocols": [
+        "GPG",
+        "SSL/TLS",
+        "WebDAV"
+      ],
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "android"
+        }
+      ],
+      "slug": "k-9-mail",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "WebDAV",
+          "slug": "webdav"
+        }
+      ]
+    },
+    {
+      "description": "برنامه ایمیل KDE با پشتیبانی از پی‌جی‌پی",
+      "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
+      "logo": "kontact.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://www.kde.org/applications/office/kontact/development",
+      "name": "Kontact",
+      "tos_url": "",
+      "url": "http://www.kontact.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact",
+      "protocols": [
+        "GPG",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "kontact",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        }
+      ]
+    },
+    {
+      "description": "Flexible and extensible multi-protocol IM client suitable for personal and enterprise use.",
+      "license_url": "http://docs.kde.org/development/en/kdenetwork/kopete/credits-and-license.html",
+      "logo": "kopete.png",
+      "notes": "Encrypted chat is available for Kopete through the 'Off-the-Record Messaging' plugin. GPG encryption is available through the Debian package `kopete-cryptography`",
+      "privacy_url": "",
+      "source_url": "http://kopete.kde.org/svnaccess.php",
+      "name": "Kopete",
+      "tos_url": "",
+      "url": "http://kopete.kde.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kopete",
+      "protocols": [
+        "GPG",
+        "OTR",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "linux"
+        }
+      ],
+      "slug": "kopete",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "OTR",
+          "slug": "otr"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "پی‌جی‌پی برای ایمیل",
+      "license_url": "https://github.com/toberndo/mailvelope/blob/master/LICENSE",
+      "logo": "mailvelope.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/toberndo/mailvelope",
+      "name": "Mailvelope",
+      "tos_url": "",
+      "url": "http://www.mailvelope.com/",
+      "wikipedia_url": "",
+      "protocols": [
+        "GPG"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            },
+            {
+              "name": "Web Browser Addons",
+              "slug": "web-browser-addons"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            },
+            {
+              "name": "Web Browser Addons",
+              "slug": "web-browser-addons"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            },
+            {
+              "name": "Web Browser Addons",
+              "slug": "web-browser-addons"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            },
+            {
+              "name": "Web Browser Addons",
+              "slug": "web-browser-addons"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "mailvelope",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        }
+      ]
+    },
+    {
+      "description": "برنامه متن‌باز ایمیل",
+      "license_url": "https://www.mozilla.org/MPL/",
+      "logo": "mozilla-thunderbird.png",
+      "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
+      "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
+      "name": "Mozilla Thunderbird",
+      "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+      "url": "https://www.mozilla.org/en-US/thunderbird/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
+      "protocols": [
+        "GPG",
+        "IRC",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS",
+        "Tor",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "IRC",
+              "slug": "irc"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "mozilla-thunderbird",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "OpenPGP Keychain is an OpenPGP implementation for Android.",
+      "license_url": "https://github.com/dschuermann/openpgp-keychain/blob/master/LICENSE",
+      "logo": "openpgp-keychain.png",
+      "notes": "OpenPGP Keychain is EXPERIMENTAL software. Use at your own risk!\r",
+      "privacy_url": "",
+      "source_url": "https://github.com/dschuermann/openpgp-keychain",
+      "name": "OpenPGP Keychain",
+      "tos_url": "",
+      "url": "http://sufficientlysecure.org/index.php/openpgp-keychain/",
+      "wikipedia_url": "",
+      "protocols": [
+        "GPG"
+      ],
+      "categories": [
+        {
+          "name": "Android",
+          "subcategories": [
+            {
+              "name": "Email Encryption",
+              "slug": "email-encryption"
+            }
+          ],
+          "slug": "android"
+        }
+      ],
+      "slug": "openpgp-keychain",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        }
+      ]
+    },
+    {
+      "description": "Multi-platform IM client for power users with built-in OTR support.",
+      "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
+      "logo": "psi-plus.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/psi-plus",
+      "name": "Psi+",
+      "tos_url": "",
+      "url": "http://psi-plus.com/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Psi_%28instant_messaging_client%29",
+      "protocols": [
+        "GPG",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "psi",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    },
+    {
+      "description": "سکوی ارتباطی دوطرفه، امن و آزاد",
+      "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
+      "logo": "retroshare.png",
+      "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
+      "privacy_url": "",
+      "source_url": "http://sourceforge.net/p/retroshare/code/HEAD/tree/",
+      "name": "RetroShare",
+      "tos_url": "",
+      "url": "http://retroshare.sourceforge.net/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
+      "protocols": [
+        "GPG",
+        "VoIP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Alternatives",
+              "slug": "email-alternatives"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "Social Networks",
+              "slug": "social-networks"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Alternatives",
+              "slug": "email-alternatives"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "Social Networks",
+              "slug": "social-networks"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Alternatives",
+              "slug": "email-alternatives"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "Social Networks",
+              "slug": "social-networks"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Alternatives",
+              "slug": "email-alternatives"
+            },
+            {
+              "name": "Instant Messaging",
+              "slug": "instant-messaging"
+            },
+            {
+              "name": "Social Networks",
+              "slug": "social-networks"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "retroshare",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "VoIP",
+          "slug": "voip"
+        }
+      ]
+    },
+    {
+      "description": "کلاینت ای‌میل سبک و کاربرپسند",
+      "license_url": "https://www.gnu.org/copyleft/gpl.html",
+      "logo": "sylpheed.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "http://sylpheed.sraoss.jp/en/svn.html",
+      "name": "Sylpheed",
+      "tos_url": "",
+      "url": "http://sylpheed.sraoss.jp/en/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed",
+      "protocols": [
+        "GPG",
+        "RSS",
+        "SSL/TLS"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "sylpheed",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        }
+      ]
+    },
+    {
+      "description": "دیسک/فلش زنده برای حریم شخصی بهتر",
+      "license_url": "https://tails.boum.org/doc/about/license/index.en.html",
+      "logo": "tails.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://tails.boum.org/contribute/git/",
+      "name": "Tails",
+      "tos_url": "",
+      "url": "https://tails.boum.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System",
+      "protocols": [
+        "GPG",
+        "SSL/TLS",
+        "OTR",
+        "Tor",
+        "XMPP"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "bsd"
+        },
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "linux"
+        },
+        {
+          "name": "Mac",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "mac"
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            {
+              "name": "Operating Systems (Live)",
+              "slug": "operating-systems-live"
+            }
+          ],
+          "slug": "windows"
+        }
+      ],
+      "slug": "tails",
+      "protocolsSlugged": [
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "OTR",
+          "slug": "otr"
+        },
+        {
+          "name": "Tor",
+          "slug": "tor"
+        },
+        {
+          "name": "XMPP",
+          "slug": "xmpp"
+        }
+      ]
+    }
+  ]
+}

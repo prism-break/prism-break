@@ -1,0 +1,81 @@
+{
+  "description": "Avoimen lähdekoodin pikaviestisovellus.",
+  "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
+  "logo": "pidgin.png",
+  "notes": "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like [TrueCrypt](http://www.truecrypt.org/), or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\n\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds.",
+  "privacy_url": "",
+  "source_url": "http://hg.pidgin.im/pidgin/main/",
+  "name": "Pidgin",
+  "tos_url": "",
+  "url": "https://www.pidgin.im/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pidgin_%28software%29",
+  "protocols": [
+    "IRC",
+    "OTR",
+    "SIP",
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "pidgin",
+  "protocolsSlugged": [
+    {
+      "name": "IRC",
+      "slug": "irc"
+    },
+    {
+      "name": "OTR",
+      "slug": "otr"
+    },
+    {
+      "name": "SIP",
+      "slug": "sip"
+    },
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

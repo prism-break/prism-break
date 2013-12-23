@@ -1,0 +1,47 @@
+{
+  "description": "أنيقة، خفيفة، ومرنة Linux&reg; توزيعة.",
+  "license_url": "https://wiki.archlinux.org/index.php/Licenses",
+  "logo": "arch-linux.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://projects.archlinux.org/",
+  "name": "Arch Linux",
+  "tos_url": "",
+  "url": "https://www.archlinux.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Arch_Linux",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "arch-linux",
+  "protocolsSlugged": []
+}

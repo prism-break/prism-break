@@ -1,0 +1,44 @@
+{
+  "description": "Email application for Android devices with built-in PGP support.",
+  "license_url": "https://github.com/k9mail/k-9/blob/master/NOTICE",
+  "logo": "k9-mail.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/k9mail/k-9",
+  "name": "K-9 Mail",
+  "tos_url": "",
+  "url": "http://code.google.com/p/k9mail/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail",
+  "protocols": [
+    "GPG",
+    "SSL/TLS",
+    "WebDAV"
+  ],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        }
+      ],
+      "slug": "android"
+    }
+  ],
+  "slug": "k-9-mail",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    },
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "WebDAV",
+      "slug": "webdav"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "description": "NetBSD is an open-source Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. ",
+  "license_url": "https://www.netbsd.org/about/redistribution.html",
+  "logo": "netbsd.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://cvsweb.netbsd.org/",
+  "name": "NetBSD",
+  "tos_url": "",
+  "url": "https://www.netbsd.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "netbsd",
+  "protocolsSlugged": []
+}

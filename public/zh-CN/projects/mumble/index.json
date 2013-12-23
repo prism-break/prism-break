@@ -1,0 +1,99 @@
+{
+  "description": "加密的低延迟的语音聊天",
+  "license_url": "http://mumble.sourceforge.net/License",
+  "logo": "mumble.png",
+  "notes": "",
+  "privacy_url": "http://mumble.sourceforge.net/Mumble:Privacy_policy",
+  "source_url": "https://github.com/mumble-voip/",
+  "name": "Mumble",
+  "tos_url": "",
+  "url": "http://mumble.sourceforge.net/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mumble_%28software%29",
+  "protocols": [
+    "VoIP",
+    "ZRTP"
+  ],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "android"
+    },
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "iOS",
+      "subcategories": [
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "ios"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Video & Voice",
+          "slug": "video-voice"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "mumble",
+  "protocolsSlugged": [
+    {
+      "name": "VoIP",
+      "slug": "voip"
+    },
+    {
+      "name": "ZRTP",
+      "slug": "zrtp"
+    }
+  ]
+}

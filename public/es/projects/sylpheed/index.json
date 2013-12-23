@@ -1,0 +1,74 @@
+{
+  "description": "Cliente ligero y amigable para múltiples sistemas operativos y con soporte integrado de PGP.",
+  "license_url": "https://www.gnu.org/copyleft/gpl.html",
+  "logo": "sylpheed.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://sylpheed.sraoss.jp/en/svn.html",
+  "name": "Sylpheed",
+  "tos_url": "",
+  "url": "http://sylpheed.sraoss.jp/en/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed",
+  "protocols": [
+    "GPG",
+    "RSS",
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Email Clients",
+          "slug": "email-clients"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "sylpheed",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    },
+    {
+      "name": "RSS",
+      "slug": "rss"
+    },
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "description": "令人舒适和易于使用的 GNU/Linux 发行版",
+  "license_url": "http://www.linuxmint.com/faq.php",
+  "logo": "linux-mint.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/linuxmint",
+  "name": "Linux Mint Debian",
+  "tos_url": "",
+  "url": "http://www.linuxmint.com/download_lmde.php",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Linux_Mint",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "linux-mint-debian",
+  "protocolsSlugged": []
+}

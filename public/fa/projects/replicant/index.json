@@ -1,0 +1,37 @@
+{
+  "description": "توزیع کاملا آزاد اندروید",
+  "license_url": "http://replicant.us/about/",
+  "logo": "replicant.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://gitorious.org/replicant",
+  "name": "Replicant",
+  "tos_url": "",
+  "url": "http://replicant.us/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "android"
+    },
+    {
+      "name": "iOS",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "ios"
+    }
+  ],
+  "slug": "replicant",
+  "protocolsSlugged": []
+}

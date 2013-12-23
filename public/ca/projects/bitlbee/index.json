@@ -1,0 +1,90 @@
+{
+  "description": "Pasarel·la IRC amb suport per una gran varietat de protocols.",
+  "license_url": "http://code.bitlbee.org/lh/bitlbee/view/head:/COPYING",
+  "logo": "bitlbee.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://code.bitlbee.org/",
+  "name": "BitlBee",
+  "tos_url": "",
+  "url": "http://www.bitlbee.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/BitlBee",
+  "protocols": [
+    "IRC",
+    "OTR",
+    "XMPP"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Instant Messaging",
+          "slug": "instant-messaging"
+        },
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "bitlbee",
+  "protocolsSlugged": [
+    {
+      "name": "IRC",
+      "slug": "irc"
+    },
+    {
+      "name": "OTR",
+      "slug": "otr"
+    },
+    {
+      "name": "XMPP",
+      "slug": "xmpp"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Višekorisnički kalkulacioni server.",
+  "license_url": "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt",
+  "logo": "ethercalc.png",
+  "notes": "The EtherCalc service does not encrypt your data transmission with HTTPS, and there's no privacy policy regarding what is done with your data either. Download and run your own EtherCalc server if you care about privacy.",
+  "privacy_url": "",
+  "source_url": "https://github.com/audreyt/ethercalc",
+  "name": "EtherCalc",
+  "tos_url": "",
+  "url": "http://ethercalc.net/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Productivity",
+          "slug": "productivity"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "ethercalc",
+  "protocolsSlugged": []
+}

@@ -1,0 +1,27 @@
+{
+  "description": "منصة لامركزية مفتوحة للبحث التعاوني.",
+  "license_url": "http://sourceforge.net/p/seeks/code/ci/master/tree/Licenses",
+  "logo": "seeks-project.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://sourceforge.net/p/seeks/code/ci/master/tree/",
+  "name": "Seeks Project",
+  "tos_url": "",
+  "url": "http://www.seeks-project.info/site/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Seeks",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Web Search",
+          "slug": "web-search"
+        }
+      ],
+      "slug": "linux"
+    }
+  ],
+  "slug": "seeks-project",
+  "protocolsSlugged": []
+}

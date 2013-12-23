@@ -1,0 +1,27 @@
+{
+  "description": "DNS מבוזר המבוסס על טכנולוגיית Bitcoin&#8206.",
+  "license_url": "https://github.com/namecoin/namecoin/blob/master/COPYING",
+  "logo": "namecoin.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/namecoin/namecoin",
+  "name": "Namecoin",
+  "tos_url": "",
+  "url": "http://dot-bit.org/Main_Page",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Namecoin",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "DNS",
+          "slug": "dns"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "namecoin",
+  "protocolsSlugged": []
+}

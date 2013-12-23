@@ -1,0 +1,34 @@
+{
+  "description": "OpenPGP implementatie voor Android.",
+  "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
+  "logo": "apg.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/thialfihar/apg",
+  "name": "APG",
+  "tos_url": "",
+  "url": "http://www.thialfihar.org/projects/apg/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Android_Privacy_Guard",
+  "protocols": [
+    "GPG"
+  ],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Email Encryption",
+          "slug": "email-encryption"
+        }
+      ],
+      "slug": "android"
+    }
+  ],
+  "slug": "apg",
+  "protocolsSlugged": [
+    {
+      "name": "GPG",
+      "slug": "gpg"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Una PaaS personal que tú mismo puedes hospedar, hackear y eliminar.",
+  "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
+  "logo": "cozy.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/mycozycloud/",
+  "name": "Cozy",
+  "tos_url": "",
+  "url": "http://cozy.io/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "cozy",
+  "protocolsSlugged": []
+}

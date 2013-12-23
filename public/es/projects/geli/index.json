@@ -1,0 +1,27 @@
+{
+  "description": "Subsistema de cifrado de disco incluido en el sistema operativo FreeBSD.",
+  "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
+  "logo": "geli.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
+  "name": "geli",
+  "tos_url": "",
+  "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "bsd"
+    }
+  ],
+  "slug": "geli",
+  "protocolsSlugged": []
+}

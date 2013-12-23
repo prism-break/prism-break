@@ -1,0 +1,160 @@
+{
+  "name": "CalDAV",
+  "full_name": "Calendaring Extensions to WebDAV",
+  "description": "Calendaring Extensions to WebDAV, or CalDAV, is an Internet standard allowing a client to access scheduling information on a remote server. It extends WebDAV (HTTP-based protocol for data manipulation) specification and uses iCalendar format for the data. The protocol is defined by RFC 4791. It allows multiple client access to the same information thus allowing cooperative planning and information sharing. Many server and client applications support the protocol.",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/CalDAV",
+  "categories": [
+    {
+      "name": "Synchronization"
+    }
+  ],
+  "slug": "caldav",
+  "projects": [
+    {
+      "description": "Ilmainen sähköposti- ja kalenterisovellus.",
+      "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
+      "logo": "evolution.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://projects.gnome.org/evolution/git.shtml",
+      "name": "Evolution",
+      "tos_url": "",
+      "url": "https://projects.gnome.org/evolution/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
+      "protocols": [
+        "CalDAV",
+        "GPG",
+        "RSS",
+        "S/MIME",
+        "SSL/TLS",
+        "WebDAV"
+      ],
+      "categories": [
+        {
+          "name": "Linux",
+          "subcategories": [
+            {
+              "name": "Email Clients",
+              "slug": "email-clients"
+            }
+          ],
+          "slug": "linux"
+        }
+      ],
+      "slug": "evolution",
+      "protocolsSlugged": [
+        {
+          "name": "CalDAV",
+          "slug": "caldav"
+        },
+        {
+          "name": "GPG",
+          "slug": "gpg"
+        },
+        {
+          "name": "RSS",
+          "slug": "rss"
+        },
+        {
+          "name": "S/MIME",
+          "slug": "s-mime"
+        },
+        {
+          "name": "SSL/TLS",
+          "slug": "ssl-tls"
+        },
+        {
+          "name": "WebDAV",
+          "slug": "webdav"
+        }
+      ]
+    },
+    {
+      "description": "Groupware solution for email, files, calendars, address books and mobile sync.",
+      "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
+      "logo": "kolab.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://git.kolab.org/",
+      "name": "Kolab",
+      "tos_url": "",
+      "url": "https://kolab.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab",
+      "protocols": [
+        "CalDAV",
+        "CardDAV",
+        "WebDAV"
+      ],
+      "categories": [
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "Mail Servers",
+              "slug": "mail-servers"
+            },
+            {
+              "name": "Groupware",
+              "slug": "groupware"
+            }
+          ],
+          "slug": "servers"
+        }
+      ],
+      "slug": "kolab",
+      "protocolsSlugged": [
+        {
+          "name": "CalDAV",
+          "slug": "caldav"
+        },
+        {
+          "name": "CardDAV",
+          "slug": "carddav"
+        },
+        {
+          "name": "WebDAV",
+          "slug": "webdav"
+        }
+      ]
+    },
+    {
+      "description": "Pilvidata tiukasti omassa hallinnassasi.",
+      "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
+      "logo": "owncloud.png",
+      "notes": "",
+      "privacy_url": "",
+      "source_url": "https://github.com/owncloud",
+      "name": "ownCloud",
+      "tos_url": "",
+      "url": "http://owncloud.org/",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
+      "protocols": [
+        "CalDAV",
+        "CardDAV"
+      ],
+      "categories": [
+        {
+          "name": "Servers",
+          "subcategories": [
+            {
+              "name": "File Storage & Sync",
+              "slug": "file-storage-sync"
+            }
+          ],
+          "slug": "servers"
+        }
+      ],
+      "slug": "owncloud",
+      "protocolsSlugged": [
+        {
+          "name": "CalDAV",
+          "slug": "caldav"
+        },
+        {
+          "name": "CardDAV",
+          "slug": "carddav"
+        }
+      ]
+    }
+  ]
+}

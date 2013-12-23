@@ -1,0 +1,27 @@
+{
+  "description": "मुक्त, सहयोगपूर्ण विश्वव्यापी मानचित्र.",
+  "license_url": "http://www.openstreetmap.org/copyright",
+  "logo": "openstreetmap.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://wiki.openstreetmap.org/wiki/Getting_The_Source",
+  "name": "OpenStreetMap",
+  "tos_url": "",
+  "url": "http://www.openstreetmap.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/OpenStreetMap",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "World Maps",
+          "slug": "world-maps"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "openstreetmap",
+  "protocolsSlugged": []
+}

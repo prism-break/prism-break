@@ -1,0 +1,69 @@
+{
+  "description": "Защищенный просмотр веб-страниц с сервисом анонимизации JonDo и профилем JonDoFox для Firefox.",
+  "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
+  "logo": "jondonym.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://anonymous-proxy-servers.net/wiki/index.php/JonDo_sources",
+  "name": "JonDoFox",
+  "tos_url": "",
+  "url": "https://anonymous-proxy-servers.net/en/jondofox.html",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Anon_Proxy",
+  "protocols": [
+    "SSL/TLS",
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Web Browsers",
+          "slug": "web-browsers"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "jondofox",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    },
+    {
+      "name": "Tor",
+      "slug": "tor"
+    }
+  ]
+}

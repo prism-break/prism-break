@@ -1,0 +1,47 @@
+{
+  "description": "LUKS es una capa conveniente y fácil de usar encima de dm-crypt.",
+  "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
+  "logo": "luks.png",
+  "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
+  "privacy_url": "",
+  "source_url": "https://code.google.com/p/cryptsetup/source/browse/",
+  "name": "cryptsetup",
+  "tos_url": "",
+  "url": "http://code.google.com/p/cryptsetup/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Disk Encryption",
+          "slug": "disk-encryption"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "cryptsetup",
+  "protocolsSlugged": []
+}

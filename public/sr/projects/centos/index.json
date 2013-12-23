@@ -1,0 +1,27 @@
+{
+  "description": "Enterprise klasa računarske platforme sa stopostotnom binarnom kompatibilnosti sa RHEL-om.",
+  "license_url": "http://mirror.centos.org/centos/6/os/x86_64/GPL",
+  "logo": "centos.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "http://mirror.centos.org/centos/",
+  "name": "CentOS",
+  "tos_url": "",
+  "url": "https://www.centos.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/CentOS",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "centos",
+  "protocolsSlugged": []
+}

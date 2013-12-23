@@ -1,0 +1,39 @@
+{
+  "description": "Cloud data in your control.",
+  "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
+  "logo": "owncloud.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/owncloud",
+  "name": "ownCloud",
+  "tos_url": "",
+  "url": "http://owncloud.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
+  "protocols": [
+    "CalDAV",
+    "CardDAV"
+  ],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "File Storage & Sync",
+          "slug": "file-storage-sync"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "owncloud",
+  "protocolsSlugged": [
+    {
+      "name": "CalDAV",
+      "slug": "caldav"
+    },
+    {
+      "name": "CardDAV",
+      "slug": "carddav"
+    }
+  ]
+}

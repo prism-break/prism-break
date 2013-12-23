@@ -1,0 +1,64 @@
+{
+  "description": "Višeplatformski IRC client.",
+  "license_url": "https://github.com/hexchat/hexchat/blob/master/COPYING",
+  "logo": "hexchat.png",
+  "notes": "HexChat does not offer encrypted IRC by default. You need to enable the FiSHLiM plugin for IRC message encryption.",
+  "privacy_url": "",
+  "source_url": "https://github.com/HexChat/hexchat",
+  "name": "HexChat",
+  "tos_url": "",
+  "url": "http://hexchat.github.io/",
+  "wikipedia_url": "",
+  "protocols": [
+    "IRC"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "bsd"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "IRC",
+          "slug": "irc"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "hexchat",
+  "protocolsSlugged": [
+    {
+      "name": "IRC",
+      "slug": "irc"
+    }
+  ]
+}

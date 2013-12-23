@@ -1,0 +1,37 @@
+{
+  "description": "Firmware alternativo para aparelhos com Android.",
+  "license_url": "https://source.android.com/source/licenses.html",
+  "logo": "cyanogenmod.png",
+  "notes": "",
+  "privacy_url": "http://www.cyanogenmod.org/docs/privacy",
+  "source_url": "https://github.com/CyanogenMod",
+  "name": "CyanogenMod",
+  "tos_url": "http://www.cyanogenmod.org/docs/terms",
+  "url": "http://www.cyanogenmod.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/CyanogenMod",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "android"
+    },
+    {
+      "name": "iOS",
+      "subcategories": [
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "ios"
+    }
+  ],
+  "slug": "cyanogenmod",
+  "protocolsSlugged": []
+}

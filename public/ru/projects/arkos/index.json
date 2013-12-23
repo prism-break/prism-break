@@ -1,0 +1,31 @@
+{
+  "description": "arkOS &mdash; легковесный сборник программного обеспечение для безопасного хостинга ваших вебсайтов, электронной почты, файлов и многого другого, запускающийся на Raspberry Pi.",
+  "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
+  "logo": "arkos.png",
+  "notes": "",
+  "privacy_url": "",
+  "source_url": "https://github.com/cznweb",
+  "name": "ArkOS",
+  "tos_url": "",
+  "url": "https://arkos.io/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Raspberry Pi",
+          "slug": "raspberry-pi"
+        },
+        {
+          "name": "Operating Systems",
+          "slug": "operating-systems"
+        }
+      ],
+      "slug": "servers"
+    }
+  ],
+  "slug": "arkos",
+  "protocolsSlugged": []
+}

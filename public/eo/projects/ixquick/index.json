@@ -1,0 +1,34 @@
+{
+  "description": "Ixquick is a metasearch engine based in New York and the Netherlands. ",
+  "license_url": "",
+  "logo": "ixquick.png",
+  "notes": "",
+  "privacy_url": "https://ixquick.com/eng/privacy-policy.html",
+  "source_url": "",
+  "name": "Ixquick",
+  "tos_url": "",
+  "url": "https://ixquick.com/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "Web",
+      "subcategories": [
+        {
+          "name": "Web Search",
+          "slug": "web-search"
+        }
+      ],
+      "slug": "web"
+    }
+  ],
+  "slug": "ixquick",
+  "protocolsSlugged": [
+    {
+      "name": "SSL/TLS",
+      "slug": "ssl-tls"
+    }
+  ]
+}

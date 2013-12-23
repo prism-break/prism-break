@@ -1,0 +1,77 @@
+{
+  "description": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.",
+  "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
+  "logo": "commotion.png",
+  "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
+  "privacy_url": "https://commotionwireless.net/about/license-privacy",
+  "source_url": "https://github.com/opentechinstitute",
+  "name": "Commotion",
+  "tos_url": "",
+  "url": "https://commotionwireless.net/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Commotion_Wireless",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "android"
+    },
+    {
+      "name": "Linux",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "linux"
+    },
+    {
+      "name": "Mac",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "mac"
+    },
+    {
+      "name": "Routers",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "routers"
+    },
+    {
+      "name": "Servers",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "servers"
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        {
+          "name": "Mesh Networks",
+          "slug": "mesh-networks"
+        }
+      ],
+      "slug": "windows"
+    }
+  ],
+  "slug": "commotion",
+  "protocolsSlugged": []
+}
