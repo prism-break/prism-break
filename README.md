@@ -6,14 +6,25 @@ Contributors are welcome.
 
 ## 1. Edit
 
-    vi ./source/db/en-projects.ls
+    # add the project information
+    vi ./source/db/en-projects.json
+
+    # add the project logo (60x60 PNG)
+    cp project-logo-60x60.png ./source/assets/images/medium/
 
 ## 2. Test
 
     npm install
     make test      # builds ./public/en for preview purposes
 
-If it looks good here, feel free to commit the changes and submit a pull request. Steps #3 and #4 are only necessary if you want to build your own copy of the site.
+## 3. Translate
+
+    # you don't have to translate the project yourself,
+    # but make it possible for someone else to do so
+    # by copying your edits to all of the language files:
+    ./source/db/*-projects.json
+
+At this point, feel free to commit the changes and submit a pull request. Steps #4 and #5 are only necessary if you want to build your own copy of the site.
 
 ## 3. Build
 
