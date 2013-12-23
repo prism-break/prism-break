@@ -4,8 +4,9 @@
 require! mkdirp
 require! '../functions/helpers.ls'
 {select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
-{view-path, write-html, write-json} = require '../functions/paths.ls'
+{write-html, write-json} = require '../functions/write-files.ls'
 {routes} = require '../functions/routes.ls'
+{view-path} = require '../functions/view-path.ls'
 
 
 ############################################################################
