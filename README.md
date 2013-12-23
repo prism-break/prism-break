@@ -82,11 +82,16 @@ Only the fields `name`, `description`, `logo`, `url`, and `categories` are requi
 
 # Localizations
 
-### Translating the Site
-For anyone who's interested in working on localizing the site, please look into the `./source/locales` directory of this repository. If your language doesn't exist, just make a copy of the en.json file and start translating!
+### Which Files to Edit
+If you want to edit project descriptions, URLs, or notes in your favorite language, this data resides in:
 
-### Translating Projects
-If you want to edit project descriptions or notes for your language, this data resides in the `./source/db/` directory.
+  `./source/db/*-projects.json`
+
+If you're interested in translating the site itself (all the nouns, verbs, and sentences that make up the static portion of the site), look here:
+
+    '`./source/locales/*.json`'
+
+If your language file doesn't exist yet, you can copy the en.json file and start translating from there.
 
 ### JSON Validation
 **Make sure your JSON validates by using either [JSONLint](http://jsonlint.com/) or your own validator.** A common mistake is putting unescaped quotation marks in a sentence. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
@@ -97,10 +102,10 @@ If you want to edit project descriptions or notes for your language, this data r
 
     "description": "Not escaping quotes will cause "an error".",
 
-### Testing It Live
+### Testing Your Translation
 When you're done with your translation, you should build the site in your language and see if it works. To do so, you'll have to temporarily edit the `./Makefile`.
 
-In ./Makefile (line #37), change the following:
+In `./Makefile` (line #37), change the following:
 
     $(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
 
@@ -109,9 +114,9 @@ To:
     $(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
 
 
-Run `make test` to make sure your translations compile properly into the site. It might take a little while (~minutes) if you're on a slower computer.
+Run `make test` to make sure your translations compile properly. It might take a little while (~minutes) if you're on a slower computer.
 
-### Publish
+### Publishing Your Changes
 Your newly translated site is available at './public/**language-code**/'. Visit it in your browser and check out your work. Looking good! 
 
 Remember to revert the `Makefile` change and then commit the changes and issue a pull request.
