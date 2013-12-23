@@ -18,7 +18,9 @@ If it looks good here, feel free to commit the changes and submit a pull request
 ## 3. Build
 
     make all       # get a drink, it'll take a while build all 27 languages
+
     make reset     # making a drastic change? run this instead of `make all`
+                   # this will vaporize /public before running `make all`
 
 ## 4. Serve
 
