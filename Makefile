@@ -81,10 +81,10 @@ clean_public:
 # copy ./public to another repository and commit changes
 sync:
 	rsync -azru --delete --stats public/ ../prism-break-static/public/
-	(cd ../prism-break-static; git add -A; git commit -m 'regenerate')
+	(cd ../prism-break-static; git add -A; git commit -m 'regenerate'; git push)
 
 # ORGANIZE
-build_all: build_css build_html sync_static
+build_all: build_css build_html sync
 
 # MAIN COMMANDS
 all: clean_tmp mkdirs copy_assets build_all
