@@ -78,8 +78,12 @@ clean_tmp:
 clean_public:
 	rm -rf public/
 
+sync:
+	rsync -azru --delete --stats public/ ../prism-break-static/public/
+	(cd ../prism-break-static; git add -A; git commit -m 'regenerate')
+
 # ORGANIZE
-build_all: build_css build_html
+build_all: build_css build_html sync_static
 
 # MAIN COMMANDS
 all: clean_tmp mkdirs copy_assets build_all
