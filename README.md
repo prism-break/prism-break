@@ -36,7 +36,7 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
 
 Serve the folder `./public` on your web server.
 
-# Guidelines for Project Inclusion
+# Project Inclusion Guidelines
 
 **Only F/OSS software is allowed to be featured on PRISM Break.** The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
 
@@ -90,20 +90,20 @@ Only the fields `name`, `description`, `logo`, `url`, and `categories` are requi
 
 ## Localizations
 
-For anyone who's interested in working on localizing this site, please look into the `./source/i18n` directory of this repository. There are some sample JSON translations there. To start, just make a copy of the en.ls file and start filling it out.
+For anyone who's interested in working on localizing the site, please look into the `./source/locales` directory of this repository. If your language doesn't exist, just make a copy of the en.json file and start translating!
 
-**Run `make reset` to make sure your translations compile properly.** A common mistake is putting unescaped quotation marks in a sentence. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
+If you want to edit project descriptions or notes for your language, this data resides in the `./source/db/` directory.
 
-    "description": "Use curly quotes &ldquo;like this&rdquo;."
+**Make sure your JSON compiles by using either [JSONLint](http://jsonlint.com/) or your own validator.** A common mistake is putting unescaped quotation marks in a sentence. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
 
-    "description": "Escape straight quotes \"like this\"."
+    "description": "Use curly quotes &ldquo;like this&rdquo;.",
 
-    "description": "Not escaping quotes will cause "an error"."
+    "description": "Escape straight quotes \"like this\".",
 
-Bear in mind that the site is being constantly updated, so you may want to check back every so often.
+    "description": "Not escaping quotes will cause "an error".",
+
+When you're done with your translation, you can run `make reset` to make sure your translations compile properly. **This can take a long time (30min+), especially if you're on a slower computer.**
 
 # License
 
-GPL.
-
-See `LICENSE.md` for more details.
+See `LICENSE.md`.
