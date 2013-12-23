@@ -1,0 +1,52 @@
+body
+  max-width 1200px
+
+  &.categories.show
+    #container
+      .content-side
+        w 192px !important
+        position fixed
+        top x*2 + 44px
+        margin-left 1008px
+        bg #fff
+        z-index 100
+      .content-main
+        w 1008px
+        .box
+          mb 3em
+
+  .sections
+    clearfi()
+
+    .section
+      fr()
+
+      &.free
+        w 70%
+        min-width 70%
+
+        .pipe
+          br 1px solid #ddd
+
+        .card
+          w 35%
+
+      &.prop
+        bl none
+        w 30%
+        min-width 30%
+        &.empty
+          d block
+
+      .pipe
+        i.fa
+          d none
+
+      .bar
+        w 100% !important
+        float none
+        br none
+
+      .filler-columns-two
+        d none
+

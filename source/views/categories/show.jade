@@ -19,7 +19,7 @@ block content
         mixin subcategory-title(category, subcategory)
 
         .sections
-          .section
+          .section.free
             .pipe.positive
 
               = t['Free Alternatives']
@@ -31,11 +31,10 @@ block content
             mixin filler-cards(subcategory.projects)
 
           if(subcategory.projectsRejected.length > 0)
-            .section
+            .section.prop
               .pipe.negative
                 = t.Proprietary
                 i.fa.fa-times
-
               - each project in subcategory.projectsRejected
                 .bar.negative
                   .label
@@ -44,6 +43,9 @@ block content
                   .icon: i.fa.fa-ban
 
               mixin filler-bars(subcategory.projectsRejected)
+          else
+            .section.prop.empty
+              .pipe= t.Proprietary
 
   .content-side
     .section
