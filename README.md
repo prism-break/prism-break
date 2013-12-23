@@ -142,5 +142,14 @@ Your newly translated site is available at './public/**language-code**/'. Visit 
 
 Remember to revert the `Makefile` change and then commit the changes and issue a pull request.
 
+# Contribute: Mirror
+If you wish to mirror this site, [nylira/prism-break-static](https://github.com/nylira/prism-break-static) is probably of interest to you. This is a complete static (but constantly updated) version of the site you can save to browse locally or serve over HTTP.
+
+### Mirrors
+
+etheralghost has provided a Tor mirror:
+
+    http://hrk2gpercx3p6apf.onion/
+
 # License
 See `LICENSE.md`.
