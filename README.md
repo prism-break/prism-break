@@ -43,10 +43,17 @@ Serve the folder `./public` on your web server.
 
 **Pull requests are prioritized over issues.** I will respond to them quicker and they will get an answer faster.
 
-# Contributing
+# Contribute: Projects
 
-### Editing Projects
-Project data is stored in `./source/db/*-projects.json`, where `*` is the two letter language code (ISO-639). Edit normally with your favorite text editor, and make sure the site still compiles correctly with `make reset`.
+### Which Files to Edit
+If you want to edit or add a project to PRISM Break, this data resides here:
+
+    ./source/db/*-projects.json
+
+If you want to edit or add to the project logos on this site, look here:
+
+    ./source/assets/images/medium/          # for images currently used
+    ./source/assets/images/original/        # for high res/svg versions
 
 ### Add the Project Data
 Append the sample project to the file `./source/db/en-projects.json`. Edit the values to fit your project. Repeat the process for the other languages (e.g. `./source/db/de-projects.json`).
@@ -80,16 +87,30 @@ Only the fields `name`, `description`, `logo`, `url`, and `categories` are requi
 ### Add the Project Thumbnail
 **Project thumbnails should be in the PNG format.** Try to get a 1024px x 1024px (or better) version of the logo for `./source/images/original` and rescale it to 60x60 and 120x120 for `./source/images/medium` and `./source/images/medium@2x`
 
-# Localizations
+### Testing Your Edits/Additions
+When you're done with your edits, you should build the site to see if it compiles properly. To do so, run:
+
+    make test
+
+Which will generate:
+
+    ./public/en/
+
+It might take a little while (~minutes) if you're on a slower computer.
+
+### Publishing Your Changes
+Visit `./public/en/` in your browser and check out your work. If it looks good, commit the changes and issue a pull request. Thanks for your contribution!
+
+# Contribute: Localizations
 
 ### Which Files to Edit
 If you want to edit project descriptions, URLs, or notes in your favorite language, this data resides in:
 
-  `./source/db/*-projects.json`
+    ./source/db/*-projects.json
 
 If you're interested in translating the site itself (all the nouns, verbs, and sentences that make up the static portion of the site), look here:
 
-    '`./source/locales/*.json`'
+    ./source/locales/*.json
 
 If your language file doesn't exist yet, you can copy the en.json file and start translating from there.
 
