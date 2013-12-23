@@ -91,7 +91,7 @@ For anyone who's interested in working on localizing the site, please look into 
 
 If you want to edit project descriptions or notes for your language, this data resides in the `./source/db/` directory.
 
-**Make sure your JSON compiles by using either [JSONLint](http://jsonlint.com/) or your own validator.** A common mistake is putting unescaped quotation marks in a sentence. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
+**Make sure your JSON validates by using either [JSONLint](http://jsonlint.com/) or your own validator.** A common mistake is putting unescaped quotation marks in a sentence. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
 
     "description": "Use curly quotes &ldquo;like this&rdquo;.",
 
@@ -99,7 +99,7 @@ If you want to edit project descriptions or notes for your language, this data r
 
     "description": "Not escaping quotes will cause "an error".",
 
-When you're done with your translation, you can run `make reset` to make sure your translations compile properly. **This can take a long time (30min+), especially if you're on a slower computer.**
+When you're done with your translation, you can run `make reset` to make sure your translations compile properly into the site. Note that this can take a long time (30min+), especially if you're on a slower computer.
 
 # License
 
