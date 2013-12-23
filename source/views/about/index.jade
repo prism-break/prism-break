@@ -3,9 +3,6 @@ block title
   = t.About
 block content
   
-  .content-side
-    .text-block.large!= h.marked(t['site-about-index'])
-
   .content-main
       
     .section
@@ -39,3 +36,6 @@ block content
         a.bar(href="https://github.com/nylira/prism-break")
           .label Source Code
           .icon: i.fa.fa-external-link-square
+
+  .content-side
+    .text-block.large!= h.marked(t['site-about-index'])
