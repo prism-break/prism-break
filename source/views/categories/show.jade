@@ -1,5 +1,7 @@
+include ../projects/mixins
 include ../layouts/mixins
 include ../categories/mixins
+include ../subcategories/mixins
 extends ../layouts/application
 block title
   = category.name + ' - '
@@ -9,49 +11,43 @@ block content
   .content-side
     .section
 
-      a.pipe(href=routes.root)
-        = t.Platforms
+      .pipe
+        = t.Categories
 
-      - each platformType in platformTypes
+      - each subcategory in category.subcategories
+        a.pipe.subtle(href="##{subcategory.slug}")= subcategory.name
 
-        .pipe.subtle= platformType.name
-
-        - each cat in platformType.categories
-
-          if cat.name === category.name
-            .bar.active.child
-              .label
-                if cat.fa === 'fa-mobile'
-                  i(class="fa #{cat.fa} large")
-                else
-                  i(class="fa #{cat.fa}")
-                = cat.name
-              .icon: i.fa.fa-dot-circle-o
-
-          else
-            a.bar.child(href=routes.categories + cat.slug)
-              .label
-                if cat.fa === 'fa-mobile'
-                  i(class="fa #{cat.fa} large")
-                else
-                  i(class="fa #{cat.fa}")
-                = cat.name
-              .icon
-                i.fa.fa-angle-right.ltr
-                i.fa.fa-angle-left.rtl
 
   .content-main
 
     mixin category-head(category)
 
-    .section
-      - each subcategory in category.subcategories
-        a.bar(href=routes.subcategories + category.slug + '-' + subcategory.slug)
-          .label
-            img.logo(src=routes.logos + subcategory.randomLogo)
-            = subcategory.name
-          .icon
-            i.fa.fa-angle-right.ltr
-            i.fa.fa-angle-left.rtl
+    - each subcategory in category.subcategories
 
-      mixin filler-bars(category.subcategories)
+      .area
+        mixin subcategory-title(category, subcategory)
+
+        .sections
+          .section
+            .pipe.positive
+
+              = t['Free Alternatives']
+              i.fa.fa-check
+
+            - each project in subcategory.projects
+              mixin project-card(project)
+
+          if(subcategory.projectsRejected.length > 0)
+            .section
+              .pipe.negative
+                = t.Proprietary
+                i.fa.fa-times
+
+              - each project in subcategory.projectsRejected
+                .bar.negative
+                  .label
+                    img.logo(src=routes.logosRejected + project.logo )
+                    = project.name
+                  .icon: i.fa.fa-ban
+
+              mixin filler-bars(subcategory.projectsRejected)

@@ -9,3 +9,7 @@ mixin subcategory-head(data)
           = data.category.name
         = ' / '
       .title= data.subcategory.name
+
+mixin subcategory-title(category, subcategory)
+  a.bar.title(id=subcategory.slug href="#{routes.subcategories}#{category.slug}-#{subcategory.slug}")
+    .label= subcategory.name

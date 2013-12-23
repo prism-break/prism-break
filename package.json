@@ -12,7 +12,8 @@
     "require-all": "~0.0.8",
     "stylus": "~0.40.3",
     "uglify-js": "~2.4.4",
-    "marked": "~0.2.10"
+    "marked": "~0.2.10",
+    "graceful-fs": "~2.0.1"
   },
   "devDependencies": {},
   "scripts": {

@@ -19,7 +19,7 @@ mixin project-card(project)
     a.btn-rectangle(href=routes.projects + project.slug)
       img.card-logo(src= routes.logos + project.logo)
       .title= project.name
-      .small= categories
+      .small= h.truncate(project.description, 140)
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square

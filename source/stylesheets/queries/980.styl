@@ -60,10 +60,22 @@ body
     #container
       .content-side
         fl()
-        m 0 0 1em
         w 20%
         .section
           m 0 1em 0 0
       .content-main
         fl()
         w 80%
+
+  &.categories.show
+    #container
+      .content-side
+        w 192px !important
+        position fixed
+        top x*2 + 44px
+        bg #fff
+        z-index 100
+      .content-main
+        ml 20%
+        .box
+          mb 3em
