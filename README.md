@@ -47,13 +47,13 @@ Serve the folder `./public` on your web server.
 
 ## Editing Projects
   
-Project data is stored in `./source/db/*-projects.ls`, where `*` is the two letter language code (ISO-639). Edit normally with your favorite text editor, and make sure the site still compiles correctly with `make reset`.
+Project data is stored in `./source/db/*-projects.json`, where `*` is the two letter language code (ISO-639). Edit normally with your favorite text editor, and make sure the site still compiles correctly with `make reset`.
 
 ## Adding A New Project
 
 ### Adding the Project Data
 
-Append the sample project to the file `./source/db/en-projects.ls`. Edit the values to fit your project. Repeat the process for the other languages (e.g. `./source/db/de-projects.ls`).
+Append the sample project to the file `./source/db/en-projects.json`. Edit the values to fit your project. Repeat the process for the other languages (e.g. `./source/db/de-projects.json`).
 
 **Sample Project:**
 
