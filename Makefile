@@ -73,10 +73,10 @@ build_html:
 	rm -rf tmp
 
 clean_tmp:
-	rm -rf tmp/
+	rm -rf tmp/*
 
 clean_public:
-	rm -rf public/
+	rm -rf public/*
 
 # copy ./public to another repository and commit changes
 sync:
