@@ -84,7 +84,7 @@ sync:
 	(cd ../prism-break-static; git add -A; git commit -m 'regenerate'; git push)
 
 # ORGANIZE
-build_all: build_css build_html sync
+build_all: build_css build_html
 
 # MAIN COMMANDS
 all: clean_tmp mkdirs copy_assets build_all
