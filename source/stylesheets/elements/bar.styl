@@ -9,6 +9,7 @@
   bg #fff
   b none
   bb 1px solid #ddd
+  relative()
   &.warning
     c #f00
   &.negative
@@ -27,6 +28,10 @@
 
   .label
     fl()
+    white-space nowrap
+    overflow hidden
+    text-overflow ellipsis
+    mr 44px
 
     .logo, i.fa
       d block
@@ -44,8 +49,9 @@
         s 30px
 
   .icon
-    fr()
-    margin-right -1em
+    absolute()
+    top 0
+    right 0
     w 44px
     ta center
     c dim
