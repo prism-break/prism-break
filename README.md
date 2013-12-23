@@ -29,7 +29,7 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
     make reset     # making a drastic change? run this instead of `make all`
                    # this will vaporize /public before running `make all`
 
-## 5. Serve
+### 5. Serve
 
 Serve the folder `./public` on your web server.
 
