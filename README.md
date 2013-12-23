@@ -98,13 +98,13 @@ If you want to edit project descriptions or notes for your language, this data r
     "description": "Not escaping quotes will cause "an error".",
 
 ### Testing It Live
-When you're done with your translation, you should build the site in your language and see if it works. To do so, you'll have to temporarily edit './Makefile'
+When you're done with your translation, you should build the site in your language and see if it works. To do so, you'll have to temporarily edit the `./Makefile`.
 
-    # in ./Makefile, line #37, change the following
+In ./Makefile (line #37), change the following:
 
     $(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
 
-    # to:
+To:
 
     $(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
 
@@ -112,7 +112,9 @@ When you're done with your translation, you should build the site in your langua
 Run `make test` to make sure your translations compile properly into the site. It might take a little while (~minutes) if you're on a slower computer.
 
 ### Publish
-Your newly translated site is available at './public/#{ISO}/'. Visit it in your browser and check out your work. If it looks good, commit the changes and issue a pull request.
+Your newly translated site is available at './public/**language-code**/'. Visit it in your browser and check out your work. Looking good! 
+
+Remember to revert the `Makefile` change and then commit the changes and issue a pull request.
 
 # License
 See `LICENSE.md`.
