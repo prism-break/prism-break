@@ -76,6 +76,9 @@ write-categories-show = (db) ->
   create = (category) ->
     data = category
 
+    for subcategory in data.subcategories
+      subcategory.projects-rejected = in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
+
     path = "categories/#{category.slug}/"
     view = view-path 'categories/show'
     options = 

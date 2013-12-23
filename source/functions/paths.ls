@@ -1,6 +1,6 @@
 'use strict'
 
-require! fs
+fs = require 'fs'
 require! jade
 
 view-path = (view-name) ->
