@@ -104,7 +104,7 @@ Visit `./public/en/` in your browser and check out your work. If it looks good, 
 # Contribute: Localizations
 
 ### Which Files to Edit
-If you want to edit project descriptions, URLs, or notes in your favorite language, this data resides in:
+If you want to translate project descriptions, URLs, or notes into your favorite language, this data resides in:
 
     ./source/db/*-projects.json
 
