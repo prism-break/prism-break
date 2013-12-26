@@ -5174,5 +5174,27 @@
       }
     ],
     "slug": "zenphoto"
+  },
+  {
+    "description": "Validating, recursive, and caching DNS server.",
+    "license_url": "http://unbound.nlnetlabs.nl/svn/trunk/LICENSE",
+    "logo": "unbound.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://unbound.nlnetlabs.nl/svn/",
+    "name": "Unbound",
+    "tos_url": "",
+    "url": "http://www.unbound.net/",
+    "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "DNS"
+        ]
+      }
+    ],
+    "slug": "unbound"
   }
 ]
