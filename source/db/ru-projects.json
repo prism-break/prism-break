@@ -4928,6 +4928,40 @@
     "slug": "torchat"
   },
   {
+    "description": "FSF endorsed GNU/Linux distribution oriented toward small enterprises, domestic users and educational centers.",
+    "license_url": "http://trisquel.info/en/wiki/trisquel-community-guidelines",
+    "logo": "trisquel.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://devel.trisquel.info/gitweb/",
+    "name": "Trisquel",
+    "tos_url": "",
+    "url": "http://trisquel.info/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Trisquel",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Linux",
+        "subcategories": [
+          "Operating Systems"
+        ]
+      },
+      {
+        "name": "Mac",
+        "subcategories": [
+          "Operating Systems"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Operating Systems"
+        ]
+      }
+    ],
+    "slug": "trisquel"
+  },
+  {
     "description": "Кроссплатформенное шифрование дисков и разделов в реальном времени.",
     "license_url": "http://www.truecrypt.org/legal/license",
     "logo": "truecrypt.png",
