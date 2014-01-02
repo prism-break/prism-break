@@ -900,7 +900,7 @@
   },
   {
     "description": "Visualize and block invisible tracking of your search and browsing history.",
-    "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
+    "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown#license",
     "logo": "disconnect.png",
     "notes": "",
     "privacy_url": "https://disconnect.me/privacy",
@@ -946,11 +946,11 @@
   },
   {
     "description": "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo.",
-    "license_url": "",
+    "license_url": "https://github.com/disconnectme/search/blob/master/README.markdown#license",
     "logo": "disconnect-search.png",
-    "notes": "The source code can be downloaded for viewing by right clicking \"Get Disconnect Search\" on the official website and selecting \"Save Link As...\".\n\nWith \"search.xpi\" downloaded, change the file extension to \".zip\" and extract it to view the source code.",
+    "notes": "",
     "privacy_url": "",
-    "source_url": "https://disconnect.me/search",
+    "source_url": "https://github.com/disconnectme/search",
     "name": "Disconnect Search",
     "tos_url": "",
     "url": "https://disconnect.me/search",
