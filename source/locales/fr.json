@@ -1,11 +1,11 @@
 { 
   "warning-android": "Warning: The Google Android operating system is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing Android with either either [Replicant](../../projects/replicant) or [Cyanogenmod](../../projects/cyanogenmod).",
 
-  "warning-ios": "Warning: Apple iOS devices are affected by PRISM. Using them may compromise your privacy. We strongly recommend replacing your iOS device with an Android-compatible device running either [Replicant](../../projects/replicant) or [Cyanogenmod](../../projects/cyanogenmod).",
+  "warning-ios": "Attention : Les appareils sous Apple iOS sont affectés par PRISM. Les utiliser risque de compromettre votre vie privée. Nous vous recommandons fortement de remplacer votre appareil sous iOS par un appareil compatible avec Android sur lequel on peut installer [Replicant](../../projects/replicant) ou [Cyanogenmod](../../projects/cyanogenmod).",
 
-  "warning-mac": "Warning: Apple OS X is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing OS X with either [Linux](../linux) or [BSD](../bsd).",
+  "warning-mac": "Attention : Apple OS X est affecté par PRISM. L'utiliser risque de compromettre votre vie privée. Nous vous recommandons fortement de remplacer OS X par [GNU/Linux](../linux) ou [BSD](../bsd).",
 
-  "warning-windows": "Warning: Microsoft Windows is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing Windows with either [Linux](../linux) or [BSD](../bsd).",
+  "warning-windows": "Attention : Microsoft Windows est affecté par PRISM. L'utiliser risque de compromettre votre vie privée. Nous vous recommandons fortement de remplacer Windows par [GNU/Linux](../linux) ou [BSD](../bsd).",
 
   "About": "À propos",
   "All": "Tout",
@@ -35,9 +35,9 @@
   "Terms of Service": "Conditions d'utilisation",
   "Wikipedia Article": "Article Wikipedia",
 
-  "site-protocols-index": "**Browse by Protocol**\n\nBrowse F/OSS projects by supported protocol.",
+  "site-protocols-index": "**Parcourir par protocole**\n\nBrowse F/OSS projects by supported protocol.",
 
-  "site-categories-index": "**Browse by Category**\n\nBrowse F/OSS projects by platform categories.",
+  "site-categories-index": "**Parcourir par categorie**\n\nBrowse F/OSS projects by platform categories.",
 
   "site-about-index": "**À propos**\n\nÀ propos du projet PRISM Break.",
 
@@ -129,8 +129,8 @@
   "Server Software": "Logiciel serveur",
   "Peer-to-Peer Software": "Logiciel pair-à-pair",
   "Privacy": "Vie privée",
-  "IP exposed": "ip-mis à nu",
-  "IP hidden": "ip-caché",
+  "IP exposed": "IP mis à nu",
+  "IP hidden": "IP caché",
   "advanced": "Avancé",
   "experimental": "Expérimental",
   "FSF endorsed": "Approuvée par la FSF",
@@ -167,12 +167,12 @@
   "Swedish": "Suédois",
   "Chinese (Simplified)": "Chinois (simplifié)",
   "Updated": "Mis à jour",
-  "By": "par",
+  "By": "Par",
   "Donate": "Faire un don",
   "Contribute": "Contribuer",
   "License": "Licence",
   "Changelog": "Changelog",
-  "site-disclaimer": "Avertissement&nbsp;: l'utilisation des projets et logiciels recommandés sur ce site ne garantit pas que la totalité de vos communications seront à l'abri de la surveillance par les États. Vous devez effectuer vos propres enquêtes avant de faire confiance à ces logiciels pour des informations sensibles.",
+  "site-disclaimer": "Avertissement : l'utilisation des projets et logiciels recommandés sur ce site ne garantit pas que la totalité de vos communications seront à l'abri de la surveillance par les États. Vous devez effectuer vos propres enquêtes avant de faire confiance à ces logiciels pour des informations sensibles.",
   "Privacy Policy": "Politique de confidentialité",
   "site-donate-index-title": "Soutenez le projet PRISM Break en donnant des Bitcoins.",
   "site-donate-index-content": "<p><a href='https://prism-break.org/'>PRISM Break</a> a été lancé le 10 juin 2013 à la suite des révélation d'Edward Snowden sur la surveillance de masse mise en place par la NSA. Depuis son lancement, plus de 1 million visiteurs concernés par les questions de vie privée ont visité ce site plus de 2 millions de fois depuis toute la planéte.</p><p>Bien que la première version de prism-break.org a été mise en place et lancée en seulement 2 jours, maintenir et améliorer le site ces deux dernier mois m'a pris presque tout mon temps. Au 3 Aout 2013, j'ai édité le site 1 208 fois et passé des heures à étudier de prés les solutions en matière de vie privée. J'ai fait cet effort afin que PRISM Break vous offre les meilleures méthodes pour combattre la surveillance gouvernementale.</p><p>Avec autant de personnes visitant prism-break.org, j'aimerais pouvoir consacrer toute mon attention à m'occuper des éventuels bugs de sécurité, améliorer la liste de projets et rendre les contenus plus accessibles pour les utilisateurs. Cependant, comme tout le monde, je dois aussi payer mon loyer et acheter à manger, et ce projet ne génère pas d'argent. C'est en cela que vous pouvez aider.</p><p>Si vous souhaitez soutenir PRISM Break, vous pouvez donner des Bitcoins pour financer nos dévelopements futurs. Je me permets de vous suggérer de donner au moins 0.05 BTC, mais tout montant sera apprécié. Si vous donnez 0.50 BTC ou plus et que vous laissez un nom, je vous ajouterais sur cette page dans la liste des sponsors de PRISM Break.</p><p>L'adresse de donation est:<br /><strong>1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw</strong></p><p>Je vous remercie de votre soutien.</p><p>Peng Zhong<br />Dévelopeur de PRISM Break</p><p>P.S. Les dévelopeurs des superbes projets listés sur <a href='https://prism-break.org'>PRISM Break</a> seraient aussi ravies de votre soutien. Si vous appréciez d'utiliser leurs applications, vous devriez sérieusement penser à leur envoyer de l'argent pour financer leur dévelopement.</p>"
