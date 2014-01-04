@@ -1,5 +1,5 @@
 { 
-  "warning-android": "Warning: The Google Android operating system is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing Android with either either [Replicant](../../projects/replicant) or [Cyanogenmod](../../projects/cyanogenmod).",
+  "warning-android": "Warning: The Android operating system provided with phones and tablets is often modified with the addition of proprietary applications from Google or others and may compromise your privacy. We strongly recommend replacing it with either [Replicant](../../projects/replicant) or [CyanogenMod](../../projects/cyanogenmod) (or compile Android from source for your device).",
 
   "warning-ios": "Warning: Apple iOS devices are affected by PRISM. Using them may compromise your privacy. We strongly recommend replacing your iOS device with an Android-compatible device running either [Replicant](../../projects/replicant) or [Cyanogenmod](../../projects/cyanogenmod).",
 
