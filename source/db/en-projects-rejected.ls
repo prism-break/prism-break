@@ -142,6 +142,17 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
+    logo: "blackberry.png"
+    name: "BlackBerry"
+    categories: [
+      * name: "Android"
+        subcategories: ["Operating Systems"]
+      * name: "iOS"
+        subcategories: ["Operating Systems"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
     logo: "cisco.png"
     name: "Cisco Systems VPN Client"
     categories: [
