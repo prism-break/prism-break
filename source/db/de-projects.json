@@ -589,7 +589,7 @@
     "description": "Benutzt Smartphones, Computer und WLAN-Router um ein dezentrales Mesh-Netzwerk aufzuspannen.",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
-    "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
+    "notes": "Bitte lies [Commotions Warnhinweise](https://commotionwireless.net/understanding-commotions-warning-label).",
     "privacy_url": "https://commotionwireless.net/about/license-privacy",
     "source_url": "https://github.com/opentechinstitute",
     "name": "Commotion",
@@ -1934,7 +1934,7 @@
     "slug": "gnunet"
   },
   {
-    "description": "A port of the whole GnuPG 2.1 suite to Android.\n\nGnu Privacy Guard (GPG) gives you access to the entire GnuPG suite of encryption software. GnuPG is GNU’s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. GnuPG 2.1 is the new modularized version of GnuPG that now supports OpenPGP and S/MIME.",
+    "description": "Eine Portierung der gesamten GnuPG-2.1-Suite für Android.\n\nGnu Privacy Guard (GPG) bietet Zugriff auf die vollständige Gruppe der GnuPG-Verschlüsselungssoftware. GnuPG ist GNUs Werkzeug für sichere, Ende-zu-Ende-verschlüsselte Kommunikation und verschüsselte Datenspeicherung. Das bewährte Protokoll stellt die freie Alternative zu PGP dar. Bei GnuPG 2.1 handelt es sich um die neue, modularisierte Version von GnuPG, die nun auch OpenPGP und S/MIME unterstützt.",
     "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
     "logo": "gnupg-for-android.png",
     "notes": "",
@@ -1959,7 +1959,7 @@
     "slug": "gpg-for-android"
   },
   {
-    "description": "Gpg4win is an installation package for Windows (XP, Vista, 7 and 8) with software tools and manuals for email and file encryption on behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.",
+    "description": "Gpg4win (GNU Privacy Guard for Windows) ist ein Kryptografie-Werkzeugpaket zum Verschlüsseln und Signieren unter Windows (XP, Vista, 7 und 8). Es beinhaltet Softwarewerkzeuge und Anleitungen für E-Mail- und Dateiverschlüsselung und wurde im Auftrag des Bundesamt für Sicherheit in der Informationstechnik (BSI) erstellt. Es benutzt vor allem Kryptografiemethoden auf Grundlage öffentlicher Schlüssel.",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
     "logo": "gpg4win.png",
     "notes": "",
@@ -2164,7 +2164,7 @@
     "description": "Image hosting with in-browser AES-256 encryption.",
     "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
     "logo": "imgbi.png",
-    "notes": "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
+    "notes": "Der img.bi-Dienst ist auch [via Tor ](http://imgbifwwqoixh7te.onion/) und als [I2P eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA) verfügbar.",
     "privacy_url": "https://img.bi/",
     "source_url": "https://github.com/imgbi",
     "name": "img.bi",
@@ -2237,7 +2237,7 @@
     "slug": "iredmail"
   },
   {
-    "description": "Ixquick is a metasearch engine based in New York and the Netherlands. ",
+    "description": "Ixquick ist eine Metasuchmaschine, angesiedelt in New York und den Niederlanden.",
     "license_url": "",
     "logo": "ixquick.png",
     "notes": "",
@@ -2595,7 +2595,7 @@
     "description": "Ein freies Netzwerk, das über andere Netzinfrastrukturen läuft.",
     "license_url": "https://github.com/fauno/librevpn/blob/master/LICENSE",
     "logo": "librevpn.png",
-    "notes": "This project is experimental, and the site is in Spanish only.",
+    "notes": "Dieses Projekt ist noch experimentell und hat nur eine Spanische Webseite.",
     "privacy_url": "",
     "source_url": "https://github.com/fauno/librevpn",
     "name": "LibreVPN",
@@ -2716,7 +2716,7 @@
     "slug": "linux-mint-debian"
   },
   {
-    "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
+    "description": "Litecoin (sign : Ł ; code : LTC) ist eine Peer-to-Peer-Kryptowährung und ein quelloffenes Softwareprojekt unter der MIT/X11-Lizens. Inspiriert von (und technisch nahezu identisch mit) Bitcoin (BTC), werden Litecoins auf Basis eines quelloffenen Protokolls erstellt und transferiert, anstatt von einer zentralen Autorität. Litecoin ist von seinen Entwicklern als Verbesserung von Bitcoin vorgesehen und bietet 3 wichtige Unterschiede: schnellere Transaktionen, 4 Mal mehr Geldeinheiten und langsamere Deflation.
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
     "notes": "Bitte sei Dir bewusst, dass neue digitale Währungen starken Wertschwankungen ausgesetzt sein können. Vollständiger Verlusst deiner Investitionen ist aus diversen Gründen möglich (Softwarefehler oder Angriffe, Identitätsdiebstahl, etc.). Sei vorsichtig!",
@@ -2881,7 +2881,7 @@
     "description": "Privatsphäreorientiertes, schnelles Medien (Bilder, Audio, Video) Hosting.",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
-    "notes": "Warning: MediaCrush includes Google Analytics and Google Adsense if you do not have Do Not Track enabled.",
+    "notes": "Warnung: MediaCrush beinhaltet Googles Analytics- und Adsense-Dienste wenn im Browser die Option "Nicht verfolgen" deaktiviert ist.",
     "privacy_url": "https://mediacru.sh/serious",
     "source_url": "https://github.com/MediaCrush/MediaCrush",
     "name": "MediaCrush",
@@ -4278,7 +4278,7 @@
     "description": "Sichere und private Kommunikationsmöglichkeiten für Menschen, die an einem freiheitlichen sozialen Wechsel arbeiten.",
     "license_url": "",
     "logo": "riseup.png",
-    "notes": "Warning: Riseup's email service currently has a bug regarding deleted emails ([follow the ticket](https://user.riseup.net/ticket/615275)).\n\nRiseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
+    "notes": "Warnung: Riseups E-Mail-Dienst hat zur Zeit einen Fehler in Sachen gelöschter E-Mails ([siehe](https://user.riseup.net/ticket/615275)).\n\nAuf Riseups E-Mail-Dienst kann auch über einen Tor Hidden Service zugegriffen werden, [siehe](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
     "privacy_url": "https://help.riseup.net/en/privacy-policy",
     "source_url": "http://riseuplabs.org/",
     "name": "Riseup",
