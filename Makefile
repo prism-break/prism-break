@@ -40,6 +40,9 @@ build_test:
 	cp -r tmp/* public/
 	rm -rf tmp
 
+build_de:
+	$(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
+
 build_html:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)ar.ls
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)ca.ls
