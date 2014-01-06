@@ -42,6 +42,10 @@ build_test:
 
 build_de:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
+	mkdir -p public
+	cp -r source/dotfiles/.htaccess public
+	cp -r tmp/* public/
+	rm -rf tmp
 
 build_html:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)ar.ls
@@ -92,6 +96,7 @@ build_all: build_css build_html
 # MAIN COMMANDS
 all: clean_tmp mkdirs copy_assets build_all
 test: clean_tmp mkdirs copy_assets build_test
+de: clean_tmp mkdirs copy_assets build_de
 clean: clean_tmp clean_public
 reset: clean_public all
 
