@@ -33,15 +33,15 @@ watch_css:
 build_css:
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
 
-build_test:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
+build_de:
+	$(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
 	mkdir -p public
 	cp -r source/dotfiles/.htaccess public
 	cp -r tmp/* public/
 	rm -rf tmp
-
-build_de:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
+	
+build_en:
+	$(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
 	mkdir -p public
 	cp -r source/dotfiles/.htaccess public
 	cp -r tmp/* public/
@@ -95,7 +95,7 @@ build_all: build_css build_html
 
 # MAIN COMMANDS
 all: clean_tmp mkdirs copy_assets build_all
-test: clean_tmp mkdirs copy_assets build_test
+test: clean_tmp mkdirs copy_assets build_en
 de: clean_tmp mkdirs copy_assets build_de
 clean: clean_tmp clean_public
 reset: clean_public all
