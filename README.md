@@ -148,10 +148,10 @@ If you wish to mirror this site, [nylira/prism-break-static](https://github.com/
 ### Mirrors
 
 [http://hrk2gpercx3p6apf.onion/](http://hrk2gpercx3p6apf.onion/)
-Credit: etheralghost
+(credit: etheralghost)
 
 [https://prism-break.ca](https://.prism-break.ca)
-Credit: Martin Lamothe
+(credit: Martin Lamothe)
 
 # License
 See `LICENSE.md`.
