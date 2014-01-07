@@ -147,9 +147,11 @@ If you wish to mirror this site, [nylira/prism-break-static](https://github.com/
 
 ### Mirrors
 
-etheralghost has provided a Tor mirror:
+    [http://hrk2gpercx3p6apf.onion/](http://hrk2gpercx3p6apf.onion/)
+    Credit: etheralghost
 
-    http://hrk2gpercx3p6apf.onion/
+    [https://prism-break.ca](https://.prism-break.ca)
+    Credit: Martin Lamothe
 
 # License
 See `LICENSE.md`.
