@@ -5196,5 +5196,29 @@
       }
     ],
     "slug": "unbound"
+  },
+  {
+    "description": "Self hosted git server.",
+    "license_url": "https://raw.github.com/gitlabhq/gitlabhq/master/LICENSE",
+    "logo": "gitlab.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/gitlabhq/gitlabhq",
+    "name": "GitLab",
+    "tos_url": "",
+    "url": "http://www.gitlab.org",
+    "wikipedia_url": "",
+    "protocols": [
+        "git"
+          ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "slug": "gitlab"
   }
 ]
