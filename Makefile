@@ -35,18 +35,13 @@ build_css:
 
 build_de:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
-	mkdir -p public
-	cp -r source/dotfiles/.htaccess public
-	cp -r tmp/* public/
-	rm -rf tmp
-	
+
 build_en:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
-	mkdir -p public
-	cp -r source/dotfiles/.htaccess public
-	cp -r tmp/* public/
-	rm -rf tmp
 
+build_it:
+	$(LIVESCRIPT_BIN) $(BUILD_DIR)it.ls
+	
 build_html:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)ar.ls
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)ca.ls
@@ -74,16 +69,18 @@ build_html:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)tr.ls
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-CN.ls
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-TW.ls
-	mkdir -p public
-	cp -r source/dotfiles/.htaccess public
-	cp -r tmp/* public/
-	rm -rf tmp
 
 clean_tmp:
 	rm -rf tmp/*
 
 clean_public:
 	rm -rf public/*
+
+finalize:
+	mkdir -p public
+	cp -r source/dotfiles/.htaccess public
+	cp -r tmp/* public/
+	rm -rf tmp
 
 # copy ./public to another repository and commit changes
 sync:
@@ -94,11 +91,15 @@ sync:
 build_all: build_css build_html
 
 # MAIN COMMANDS
-all: clean_tmp mkdirs copy_assets build_all
-test: clean_tmp mkdirs copy_assets build_en
-de: clean_tmp mkdirs copy_assets build_de
+all: clean_tmp mkdirs copy_assets build_all finalize
+test: clean_tmp mkdirs copy_assets build_en finalize
 clean: clean_tmp clean_public
 reset: clean_public all
+
+# LANGUAGE SPEIFIC
+de: clean_tmp mkdirs copy_assets build_de finalize
+en: clean_tmp mkdirs copy_assets build_en finalize
+it: clean_tmp mkdirs copy_assets build_it finalize
 
 # PHONY
 .PHONY: watch_css render_html clean_tmp clean_public
