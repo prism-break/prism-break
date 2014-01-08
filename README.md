@@ -152,8 +152,8 @@ If you wish to mirror this site, [nylira/prism-break-static](https://github.com/
 [http://hrk2gpercx3p6apf.onion/](http://hrk2gpercx3p6apf.onion/)
 (credit: etheralghost)
 
-[https://prism-break.ca](https://.prism-break.ca)
-(credit: Martin Lamothe)
+[https://prism-break.ca](https://prism-break.ca)
+(credit: wiserweb)
 
 # License
 See `LICENSE.md`.
