@@ -3,6 +3,7 @@
 # libraries
 require! mkdirp
 require! '../functions/helpers.ls'
+{sort-by} = require \prelude-ls
 {select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
 {write-html, write-json} = require '../functions/write-files.ls'
 {routes} = require '../functions/routes.ls'
@@ -78,7 +79,8 @@ write-categories-show = (db) ->
     data = category
 
     for subcategory in data.subcategories
-      subcategory.projects-rejected = in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
+      rejected = in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
+      subcategory.projects-rejected = sort-by (.name.to-lower-case!), rejected
 
     path = "categories/#{category.slug}/"
     view = view-path 'categories/show'
@@ -115,7 +117,7 @@ write-subcategories-show = (db) ->
       category: category
       subcategory: subcategory
       projects: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects))
-      projects-rejected: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
+      projects-rejected: sort-by (.name.to-lower-case!), in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
     view = view-path 'subcategories/show'
