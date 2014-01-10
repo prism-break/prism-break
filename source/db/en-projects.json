@@ -2881,7 +2881,7 @@
     "description": "Privacy-first fast media (image, audio, video) hosting",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
-    "notes": "Warning: MediaCrush includes Google Analytics and Google Adsense if you do not have Do Not Track enabled.",
+    "notes": "Warning: MediaCrush includes Google Analytics if you do not enable Do Not Track.",
     "privacy_url": "https://mediacru.sh/serious",
     "source_url": "https://github.com/MediaCrush/MediaCrush",
     "name": "MediaCrush",
