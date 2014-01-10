@@ -257,6 +257,15 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
+    logo: "google.png"
+    name: "Google Analytics"
+    categories: [
+      * name: "Servers"
+        subcategories: ["Web Analytics"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
     logo: "google-android.png"
     name: 'Google Android'
     categories: [
