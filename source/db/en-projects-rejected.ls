@@ -250,7 +250,7 @@ projects-rejected =
     name: "Facebook"
     categories: [
       * name: "Web"
-        subcategories: ["Email Accounts", "Instant Messaging", "Media Publishing", "Social Networks", "Video & Voice"]
+        subcategories: ["Email Accounts", "Instant Messaging", "Social Networks", "Video & Voice"]
       * name: "Servers"
         subcategories: ["Email Server", "Instant Messaging", "Media Publishing", "Social Networks", "Video & Voice"]
     ]
@@ -367,9 +367,9 @@ projects-rejected =
     name: "Google+"
     categories: [
       * name: "Web"
-        subcategories: ["Media Publishing", "Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks", "Video & Voice"]
       * name: "Servers"
-        subcategories: ["Media Publishing", "Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks", "Video & Voice"]
     ]
 
   * status: 'rejected'
