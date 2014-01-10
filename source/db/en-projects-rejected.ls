@@ -252,7 +252,7 @@ projects-rejected =
       * name: "Web"
         subcategories: ["Email Accounts", "Instant Messaging", "Social Networks", "Video & Voice"]
       * name: "Servers"
-        subcategories: ["Email Server", "Instant Messaging", "Media Publishing", "Social Networks", "Video & Voice"]
+        subcategories: ["Email Server", "Instant Messaging", "Social Networks", "Video & Voice"]
     ]
 
   * status: 'rejected'
