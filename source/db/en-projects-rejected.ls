@@ -2,6 +2,24 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
+    logo: "imgur.png"
+    name: "Imgur"
+    categories: [
+      * name: "Web"
+        subcategories: ["Media Publishing"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "minus.png"
+    name: "Minus"
+    categories: [
+      * name: "Web"
+        subcategories: ["Media Publishing"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
     logo: "aim.png"
     name: "AOL Instant Messenger"
     categories: [
