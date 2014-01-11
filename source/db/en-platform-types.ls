@@ -21,7 +21,7 @@ platform-types = (db) ->
       categories: [
         * name: 'BSD'
           fa: 'fa-lock'
-        * name: 'Linux'
+        * name: 'GNU/Linux'
           fa: 'fa-linux'
         * name: 'Mac'
           fa: 'fa-apple'

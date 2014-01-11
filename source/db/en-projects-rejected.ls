@@ -174,7 +174,7 @@ projects-rejected =
     logo: "cisco.png"
     name: "Cisco Systems VPN Client"
     categories: [
-      * name: "Linux"
+      * name: "GNU/Linux"
         subcategories: ["VPN Clients"]
       * name: "Mac"
         subcategories: ["VPN Clients"]
@@ -204,7 +204,7 @@ projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
-      * name: "Linux"
+      * name: "GNU/Linux"
         subcategories: ["File Storage & Sync"]
       * name: "Mac"
         subcategories: ["File Storage & Sync"]
@@ -283,7 +283,7 @@ projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "iOS"
         subcategories: ["Web Browsers"]
-      * name: "Linux"
+      * name: "GNU/Linux"
         subcategories: ["Web Browsers"]
       * name: "Mac"
         subcategories: ["Web Browsers"]
@@ -321,7 +321,7 @@ projects-rejected =
         subcategories: ["World Maps"]
       * name: "iOS"
         subcategories: ["World Maps"]
-      * name: "Linux"
+      * name: "GNU/Linux"
         subcategories: ["World Maps"]
       * name: "Mac"
         subcategories: ["World Maps"]
@@ -548,7 +548,7 @@ projects-rejected =
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "iOS"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Linux"
+      * name: "GNU/Linux"
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Mac"
         subcategories: ["Instant Messaging", "Video & Voice"]
@@ -598,7 +598,7 @@ projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "iOS"
         subcategories: ["Web Browsers"]
-      * name: "Linux"
+      * name: "GNU/Linux"
         subcategories: ["Web Browsers"]
       * name: "Mac"
         subcategories: ["Web Browsers"]
@@ -620,7 +620,7 @@ projects-rejected =
     logo: "steam.png"
     name: "Steam"
     categories: [
-      * name: "Linux"
+      * name: "GNU/Linux"
         subcategories: ["Digital Distribution"]
       * name: "Mac"
         subcategories: ["Digital Distribution"]
@@ -633,7 +633,7 @@ projects-rejected =
     logo: "symantec.png"
     name: "Symantec Drive Encryption"
     categories: [
-      * name: "Linux"
+      * name: "GNU/Linux"
         subcategories: ["Disk Encryption"]
       * name: "Mac"
         subcategories: ["Disk Encryption"]
