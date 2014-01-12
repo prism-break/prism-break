@@ -5,7 +5,7 @@ projects-rejected =
     logo: "imgur.png"
     name: "Imgur"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Media Publishing"]
     ]
 
@@ -14,7 +14,7 @@ projects-rejected =
     logo: "minus.png"
     name: "Minus"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Media Publishing"]
     ]
 
@@ -23,7 +23,7 @@ projects-rejected =
     logo: "aim.png"
     name: "AOL Instant Messenger"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Instant Messaging"]
       * name: "Android"
         subcategories: ["Instant Messaging"]
@@ -42,7 +42,7 @@ projects-rejected =
     logo: "apple-facetime.png"
     name: "Apple FaceTime"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Video & Voice"]
       * name: "iOS"
         subcategories: ["Video & Voice"]
@@ -90,7 +90,7 @@ projects-rejected =
     logo: "apple-mail.png"
     name: "Apple Mail"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Email Accounts"]
       * name: "iOS"
         subcategories: ["Email Clients"]
@@ -105,7 +105,7 @@ projects-rejected =
     logo: "apple-maps.png"
     name: "Apple Maps"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["World Maps"]
       * name: "iOS"
         subcategories: ["World Maps"]
@@ -118,7 +118,7 @@ projects-rejected =
     logo: "apple-messages.png"
     name: "Apple Messages"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
@@ -187,7 +187,7 @@ projects-rejected =
     logo: "doodle.png"
     name: "Doodle"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Productivity"]
       * name: "Servers"
         subcategories: ["Productivity"]
@@ -198,7 +198,7 @@ projects-rejected =
     logo: "dropbox.png"
     name: "Dropbox"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["File Storage & Sync"]
       * name: "Android"
         subcategories: ["File Storage & Sync"]
@@ -219,7 +219,7 @@ projects-rejected =
     logo: "evernote.png"
     name: "Evernote"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Productivity"]
       * name: "Android"
         subcategories: ["Productivity"]
@@ -238,7 +238,7 @@ projects-rejected =
     logo: "facebook-instagram.png"
     name: "Instagram"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Media Publishing"]
       * name: "Servers"
         subcategories: ["Media Publishing"]
@@ -249,7 +249,7 @@ projects-rejected =
     logo: "facebook.png"
     name: "Facebook"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Email Accounts", "Instant Messaging", "Social Networks", "Video & Voice"]
       * name: "Servers"
         subcategories: ["Email Server", "Instant Messaging", "Social Networks", "Video & Voice"]
@@ -296,7 +296,7 @@ projects-rejected =
     logo: "google-drive.png"
     name: "Google Drive"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["File Storage & Sync"]
       * name: "Android"
         subcategories: ["File Storage & Sync"]
@@ -315,7 +315,7 @@ projects-rejected =
     logo: "google-earth.png"
     name: "Google Earth"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["World Maps"]
       * name: "Android"
         subcategories: ["World Maps"]
@@ -336,7 +336,7 @@ projects-rejected =
     logo: "google-mail.png"
     name: "Gmail"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Email Accounts"]
       * name: "Servers"
         subcategories: ["Email Accounts"]
@@ -347,7 +347,7 @@ projects-rejected =
     logo: "google-picasa.png"
     name: "Picasa"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Media Publishing"]
       * name: "Android"
         subcategories: ["Media Publishing"]
@@ -375,7 +375,7 @@ projects-rejected =
     logo: "google-plus.png"
     name: "Google+"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Social Networks", "Video & Voice"]
       * name: "Servers"
         subcategories: ["Social Networks", "Video & Voice"]
@@ -386,7 +386,7 @@ projects-rejected =
     logo: "google-youtube.png"
     name: "YouTube"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Media Publishing"]
       * name: "Servers"
         subcategories: ["Media Publishing"]
@@ -397,7 +397,7 @@ projects-rejected =
     logo: "google.png"
     name: "Google Talk"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Instant Messaging"]
       * name: "Servers"
         subcategories: ["XMPP Servers"]
@@ -408,7 +408,7 @@ projects-rejected =
     logo: "google.png"
     name: "Google Search"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
@@ -426,7 +426,7 @@ projects-rejected =
     logo: "linkedin.png"
     name: "LinkedIn"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Social Networks"]
       * name: "Servers"
         subcategories: ["Social Networks"]
@@ -455,7 +455,7 @@ projects-rejected =
     logo: "ms-bing.png"
     name: "Microsoft Bing"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
@@ -492,7 +492,7 @@ projects-rejected =
     logo: "ms-office.png"
     name: "Microsoft Office Web Apps"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Productivity"]
       * name: "Servers"
         subcategories: ["Productivity"]
@@ -514,7 +514,7 @@ projects-rejected =
     logo: "ms-outlook.png"
     name: "Microsoft Outlook.com"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Email Accounts"]
     ]
 
@@ -523,7 +523,7 @@ projects-rejected =
     logo: "ms-skydrive.png"
     name: "Microsoft SkyDrive"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["File Storage & Sync"]
       * name: "Android"
         subcategories: ["File Storage & Sync"]
@@ -542,7 +542,7 @@ projects-rejected =
     logo: "ms-skype.png"
     name: "Skype"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Android"
         subcategories: ["Instant Messaging", "Video & Voice"]
@@ -611,7 +611,7 @@ projects-rejected =
     logo: "paypal.png"
     name: "PayPal"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Finance"]
     ]
 
@@ -663,7 +663,7 @@ projects-rejected =
     logo: "twitter.png"
     name: "Twitter"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Social Networks"]
       * name: "Servers"
         subcategories: ["Social Networks"]
@@ -689,7 +689,7 @@ projects-rejected =
     logo: "vimeo.png"
     name: "Vimeo"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Media Publishing"]
       * name: "Servers"
         subcategories: ["Media Publishing"]
@@ -722,7 +722,7 @@ projects-rejected =
     logo: "yahoo-flickr.png"
     name: "Flickr"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Media Publishing"]
       * name: "Servers"
         subcategories: ["Media Publishing"]
@@ -733,7 +733,7 @@ projects-rejected =
     logo: "yahoo-tumblr.png"
     name: "Tumblr"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Media Publishing"]
       * name: "Servers"
         subcategories: ["Media Publishing"]
@@ -744,7 +744,7 @@ projects-rejected =
     logo: "yahoo.png"
     name: "Yahoo! Mail"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Email Accounts"]
       * name: "Servers"
         subcategories: ["Email Accounts"]
@@ -755,7 +755,7 @@ projects-rejected =
     logo: "zoho.png"
     name: "Zoho Office Suite"
     categories: [
-      * name: "Web"
+      * name: "Web Services"
         subcategories: ["Productivity"]
       * name: "Servers"
         subcategories: ["Productivity"]
