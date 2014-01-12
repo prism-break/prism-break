@@ -7,7 +7,7 @@ platform-types = (db) ->
   types =
     * name: 'Services'
       categories: [
-        * name: 'Web'
+        * name: 'Web Services'
           fa: 'fa-globe'
       ]
     * name: 'Mobile'
