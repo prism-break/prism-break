@@ -2264,7 +2264,7 @@
     "description": "Encrypted text, voice, and  video messaging for multiple platforms.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
-    "notes": "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\n\nLastly, note that Jitsi records chat history in unencrypted form.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/jitsi",
     "name": "Jitsi",
