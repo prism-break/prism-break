@@ -120,4 +120,12 @@ protocols =
       * name: "Synchronization"
     ]
 
+  * name: "ActiveSync"
+    full_name: "Mobile data synchronization protocol developed by Microsoft"
+    description: "ActiveSync allows a mobile device to be synchronized with either a desktop PC or a server running a compatible software product. It is not an Open Standard but widely used and supported."
+    wikipedia_url: "https://en.wikipedia.org/wiki/ActiveSync"
+    categories: [
+      * name: "Synchronization"
+    ]
+
 exports.protocols = protocols

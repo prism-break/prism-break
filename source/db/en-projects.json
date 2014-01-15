@@ -3176,18 +3176,36 @@
     "slug": "mumble"
   },
   {
-    "description": "Secure, private Kolab accounts hosted in Switzerland for 10 CHF per month.",
+    "description": "Secure Kolab accounts hosted in Switzerland for 8.99 CHF per month or 4.55 CHF for email-only accounts.",
     "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
     "logo": "mykolab.png",
-    "notes": "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \nAlso, you can export all your data at any time.",
+    "notes": "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with Free Software and using the service supports the development of [Kolab](https://kolab.org).\n\nAlso, you can export all your data at any time and the terms of service received the best rating from [ToS;DR](http://tosdr.org/#mykolab-com).\n\nThe service uses [Perfect Forwarding Secrecy](https://mykolab.com/faq#pfs) and identifying information [is stripped](https://mykolab.com/faq#stripheader) from email headers.",
     "privacy_url": "https://mykolab.com/privacy",
     "source_url": "http://git.kolab.org/",
     "name": "MyKolab",
     "tos_url": "https://mykolab.com/tos",
     "url": "https://mykolab.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
-    "protocols": [],
+    "protocols": [
+      "SSL/TLS",
+      "WebDAV",
+      "CalDAV",
+      "CardDAV",
+      "ActiveSync"
+        ],
     "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
       {
         "name": "OS X",
         "subcategories": [

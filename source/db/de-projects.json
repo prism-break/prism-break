@@ -3176,18 +3176,36 @@
     "slug": "mumble"
   },
   {
-    "description": "Sichere, private Kolab-Konten aus der Schweiz für 10 CHF pro Monat.",
+    "description": "Sichere Kolab-Konten aus der Schweiz für 8.99 CHF pro Monat oder 4.55 CHF für reine E-Mail-Konten.",
     "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
     "logo": "mykolab.png",
-    "notes": "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \nAlso, you can export all your data at any time.",
-    "privacy_url": "https://mykolab.com/privacy",
+    "notes": "MyKolab ist in der Schweiz beheimatet und profitiert von den [starken Datenschutzgesetzen](https://MyKolab.com/de/privacy). Es wird ausschließlich mit Freier Software betrieben und die Benutzung unterstützt die Entwicklung von [Kolab](https://kolab.org).\n\nAlle Daten können jederzeit exportiert werden und die Allgemeinen Geschäftsbedingungen haben die beste Bewertung von [ToS;DR](http://tosdr.org/#mykolab-com) erhalten.\n\nDer Dienst benutzt [Perfect Forwarding Secrecy](https://mykolab.com/de/faq#pfs) und [entfernt private Daten](https://mykolab.com/de/faq#stripheader) aus den E-Mail-Metadaten.",
+    "privacy_url": "https://mykolab.com/de/privacy",
     "source_url": "http://git.kolab.org/",
     "name": "MyKolab",
-    "tos_url": "https://mykolab.com/tos",
-    "url": "https://mykolab.com/",
+    "tos_url": "https://mykolab.com/de/tos",
+    "url": "https://mykolab.com/de",
     "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
-    "protocols": [],
+    "protocols": [
+      "SSL/TLS",
+      "WebDAV",
+      "CalDAV",
+      "CardDAV",
+      "ActiveSync"
+        ],
     "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
       {
         "name": "OS X",
         "subcategories": [
