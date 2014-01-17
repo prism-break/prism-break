@@ -101,7 +101,10 @@ nested-categories-web = (db) ->
     category.subcategories = sort-by (.name.to-lower-case!), category.subcategories
 
     for subcategory in category.subcategories
-      subcategory.projects = in-this-subcategory(subcategory.name, in-this-category(category.name, db))
+      cat-projects = in-this-subcategory(subcategory.name, in-this-category(category.name, db))
+      web-projects = in-this-subcategory(subcategory.name, in-this-category('Web Services', db))
+      all-projects = unique cat-projects.concat web-projects
+      subcategory.projects = all-projects
       subcategory.project-logos = images-in(subcategory.projects)
       subcategory.random-logo = select-random(subcategory.project-logos)
   tree = sort-by (.name.to-lower-case!), tree

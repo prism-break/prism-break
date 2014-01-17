@@ -171,7 +171,7 @@
     }
   };
   nestedCategoriesWeb = function(db){
-    var tree, i$, len$, category, catSubcategories, webSubcategories, allSubcategories, j$, ref$, len1$, subcategory;
+    var tree, i$, len$, category, catSubcategories, webSubcategories, allSubcategories, j$, ref$, len1$, subcategory, catProjects, webProjects, allProjects;
     tree = categoriesIn(db);
     for (i$ = 0, len$ = tree.length; i$ < len$; ++i$) {
       category = tree[i$];
@@ -182,7 +182,10 @@
       category.subcategories = sortBy(fn$, category.subcategories);
       for (j$ = 0, len1$ = (ref$ = category.subcategories).length; j$ < len1$; ++j$) {
         subcategory = ref$[j$];
-        subcategory.projects = inThisSubcategory(subcategory.name, inThisCategory(category.name, db));
+        catProjects = inThisSubcategory(subcategory.name, inThisCategory(category.name, db));
+        webProjects = inThisSubcategory(subcategory.name, inThisCategory('Web Services', db));
+        allProjects = unique(catProjects.concat(webProjects));
+        subcategory.projects = allProjects;
         subcategory.projectLogos = imagesIn(subcategory.projects);
         subcategory.randomLogo = selectRandom(subcategory.projectLogos);
       }
