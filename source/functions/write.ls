@@ -4,7 +4,7 @@
 require! mkdirp
 require! '../functions/helpers.ls'
 {sort-by} = require \prelude-ls
-{select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, in-this-protocol, nested-categories, platform-types, protocol-types} = require '../functions/sort.ls'
+{select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, in-this-protocol, nested-categories, nested-categories-web, platform-types, protocol-types} = require '../functions/sort.ls'
 {write-html, write-json} = require '../functions/write-files.ls'
 {routes} = require '../functions/routes.ls'
 {view-path} = require '../functions/view-path.ls'
@@ -108,7 +108,7 @@ write-categories-show = (db) ->
       else
         write!
 
-  for category in nested-categories(db.projects)
+  for category in nested-categories-web(db.projects)
     create category
 
 write-subcategories-show = (db) ->

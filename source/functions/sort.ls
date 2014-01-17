@@ -38,6 +38,12 @@ subcategories-in = (category-name, db) ->
   list = slugify-list list
   list = sort-by (.name.to-lower-case!), list
 
+subcategories-in-raw = (category-name, db) ->
+  list = flatten map (.categories), db
+  list = filter (.name == category-name), list
+  list = map (.subcategories), list
+  list = unique flatten list
+
 subcategories-of = (project) ->
   list = flatten map (.subcategories), project.categories
   list = map (.name), list
@@ -84,6 +90,23 @@ nested-categories = (db) ->
       subcategory.random-logo = select-random(subcategory.project-logos)
   tree = sort-by (.name.to-lower-case!), tree
 
+nested-categories-web = (db) ->
+  tree = categories-in db
+  for category in tree
+
+    cat-subcategories = subcategories-in-raw(category.name, in-this-category(category.name, db))
+    web-subcategories = subcategories-in-raw('Web Services', in-this-category('Web Services', db))
+    all-subcategories = slugify-list unique cat-subcategories.concat web-subcategories
+    category.subcategories = all-subcategories
+    category.subcategories = sort-by (.name.to-lower-case!), category.subcategories
+
+    for subcategory in category.subcategories
+      subcategory.projects = in-this-subcategory(subcategory.name, in-this-category(category.name, db))
+      subcategory.project-logos = images-in(subcategory.projects)
+      subcategory.random-logo = select-random(subcategory.project-logos)
+  tree = sort-by (.name.to-lower-case!), tree
+
+
 protocol-types = (protocols) ->
   types = categories-in protocols
   for type in types
@@ -97,6 +120,7 @@ exports.slugify-list = slugify-list
 exports.slugify-project = slugify-project
 exports.categories-in = categories-in
 exports.subcategories-in = subcategories-in
+exports.subcategories-in-raw = subcategories-in-raw
 exports.subcategories-of = subcategories-of
 exports.images-in = images-in
 exports.in-this-category = in-this-category
@@ -104,4 +128,5 @@ exports.in-this-subcategory = in-this-subcategory
 exports.in-these-subcategories = in-these-subcategories
 exports.in-this-protocol = in-this-protocol
 exports.nested-categories = nested-categories
+exports.nested-categories-web = nested-categories-web
 exports.protocol-types = protocol-types
