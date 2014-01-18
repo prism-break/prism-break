@@ -8,17 +8,19 @@ mixin project-card(project)
     else
       - subcategories += subcategory.name + ', '
 
-  - var tags = []
+  - var tag = ""
   - each category in project.categories
     if category.name === 'Web Services'
-      - tags = t['Web Service']
+      - tag = t['Web Service']
 
   .card
     a.btn-rectangle(href=routes.projects + project.slug)
       img.card-logo(src= routes.logos + project.logo)
       .title= project.name
       .small= h.truncate(project.description, 140)
-      .small= tags
+      if tag !== ""
+        .tags
+         .tag= tag
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square

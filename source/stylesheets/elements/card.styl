@@ -45,21 +45,33 @@
     mr x*0.75
 
   .title
-    pt .5em
     c #333
     white-space nowrap
     overflow hidden
     text-overflow ellipsis
     mr 44px
 
+  .small, .tags
+    mr 44px
+    vertical-align top
+
   .small
+    h 1.5em
     f 80%/1.5 sans
     c dim
-    h 1.5em
+    mb 0.33em
     white-space nowrap
     overflow hidden
     text-overflow ellipsis
-    mr 44px
+
+  .tags
+    f 60%/1.5 sans
+
+  .tag
+    d inline-block
+    b 1px solid #eee
+    c light
+    p 0 0.33em
 
 .card.max
   .btn-rectangle
