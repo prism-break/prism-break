@@ -50,6 +50,15 @@ subcategories-of = (project) ->
   list = unique flatten list
   list = sort list
 
+subcategories-all = (db) ->
+  tree = categories-in db
+  subcategories = []
+  for category in tree
+    category.subcategories = subcategories-in(category.name, in-this-category(category.name, db))
+    for subcategory in category.subcategories
+      subcategories.push subcategory.name
+  subcategories = sort-by (.to-lower-case!), unique subcategories
+
 images-in = (db) ->
   list = map (.logo), db
 
@@ -133,6 +142,7 @@ exports.categories-in = categories-in
 exports.subcategories-in = subcategories-in
 exports.subcategories-in-raw = subcategories-in-raw
 exports.subcategories-of = subcategories-of
+exports.subcategories-all = subcategories-all
 exports.images-in = images-in
 exports.in-this-category = in-this-category
 exports.in-this-subcategory = in-this-subcategory
