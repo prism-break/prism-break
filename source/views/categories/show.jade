@@ -54,4 +54,4 @@ block content
         = t.Categories
 
       - each subcategory in category.subcategories
-        a.pipe.subtle(href="##{subcategory.slug}")= subcategory.name
+        a.pipe.subtle(href="##{subcategory.slug}")= t[subcategory.name]
