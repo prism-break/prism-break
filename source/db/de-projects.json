@@ -15,25 +15,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       }
     ],
@@ -59,7 +59,7 @@
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging",
+          "Kurznachrichten",
           "IRC"
         ]
       }
@@ -84,7 +84,7 @@
       {
         "name": "Android",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       }
     ],
@@ -106,19 +106,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -138,10 +138,10 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
           "Raspberry Pi",
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -164,9 +164,9 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "SIP Servers"
+          "SIP-Server"
         ]
       }
     ],
@@ -188,13 +188,13 @@
     ],
     "categories": [
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Email Accounts",
-          "Instant Messaging",
-          "Media Publishing",
-          "VPN Accounts",
-          "Web Hosting"
+          "E-Mail-Konten",
+          "Kurznachrichten",
+          "Medienveröffentlichung",
+          "VPN-Konten",
+          "Web-Hosting"
         ]
       }
     ],
@@ -246,7 +246,7 @@
       {
         "name": "Windows",
         "subcategories": [
-          "Finance"
+          "Finanzen"
         ]
       }
     ],
@@ -272,28 +272,28 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging",
+          "Kurznachrichten",
           "IRC"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
+          "Kurznachrichten",
           "IRC"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging",
+          "Kurznachrichten",
           "IRC"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
+          "Kurznachrichten",
           "IRC"
         ]
       }
@@ -318,19 +318,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Alternatives"
+          "E-Mail Alternatives"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Alternatives"
+          "E-Mail Alternatives"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Alternatives"
+          "E-Mail Alternatives"
         ]
       }
     ],
@@ -353,10 +353,10 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "File Storage & Sync",
-          "Social Networks"
+          "Dateiaufbewahrung & -synchronisierung",
+          "Soziale Netzwerke"
         ]
       }
     ],
@@ -384,31 +384,31 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
-        "name": "Routers",
+        "name": "Router",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       }
     ],
@@ -428,9 +428,9 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -455,13 +455,13 @@
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging"
+          "Kurznachrichten"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Instant Messaging"
+          "Kurznachrichten"
         ]
       }
     ],
@@ -489,25 +489,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
-        "name": "Routers",
+        "name": "Router",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       }
     ],
@@ -533,25 +533,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email Clients"
+          "E-Mail-Programme"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "E-Mail-Programme"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Clients"
+          "E-Mail-Programme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Clients"
+          "E-Mail-Programme"
         ]
       }
     ],
@@ -571,7 +571,7 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
           "DNS"
         ]
@@ -601,31 +601,31 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
-        "name": "Routers",
+        "name": "Router",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       }
     ],
@@ -645,9 +645,9 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "File Storage & Sync"
+          "Dateiaufbewahrung & -synchronisierung"
         ]
       }
     ],
@@ -671,35 +671,35 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
+          "Web-Browser-Addons",
+          "Kurznachrichten"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
+          "Web-Browser-Addons",
+          "Kurznachrichten"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
+          "Web-Browser-Addons",
+          "Kurznachrichten"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Instant Messaging"
+          "Kurznachrichten"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
+          "Web-Browser-Addons",
+          "Kurznachrichten"
         ]
       }
     ],
@@ -721,19 +721,19 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       }
     ],
@@ -759,8 +759,8 @@
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       }
     ],
@@ -782,13 +782,13 @@
       {
         "name": "Android",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -810,25 +810,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -878,15 +878,15 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Social Networks"
+          "Soziale Netzwerke"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Social Networks"
+          "Soziale Netzwerke"
         ]
       }
     ],
@@ -908,31 +908,31 @@
       {
         "name": "Android",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       }
     ],
@@ -954,9 +954,9 @@
     ],
     "categories": [
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Web Search"
+          "Web-Suche"
         ]
       }
     ],
@@ -978,7 +978,7 @@
       {
         "name": "Windows",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       }
     ],
@@ -998,7 +998,7 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
           "DNS"
         ]
@@ -1022,25 +1022,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -1063,9 +1063,9 @@
     ],
     "categories": [
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Web Search"
+          "Web-Suche"
         ]
       }
     ],
@@ -1085,22 +1085,22 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Productivity"
+          "Produktivität"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Productivity"
+          "Produktivität"
         ]
       }
     ],
     "slug": "dudle"
   },
   {
-    "description": "Von der DuckDuckGo Community betriebener privater XMPP-Dienst&mdash;Anleitung vorhanden.",
+    "description": "Von der DuckDuckGo Community betriebener privater XMPP-Dienst. Anleitung vorhanden.",
     "license_url": "",
     "logo": "duckduckgo.png",
     "notes": "",
@@ -1115,9 +1115,9 @@
     ],
     "categories": [
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Instant Messaging"
+          "Kurznachrichten"
         ]
       }
     ],
@@ -1139,7 +1139,7 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       }
     ],
@@ -1161,9 +1161,9 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "XMPP Servers"
+          "XMPP-Server"
         ]
       }
     ],
@@ -1185,31 +1185,31 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       }
     ],
@@ -1233,25 +1233,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       }
     ],
@@ -1271,15 +1271,15 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Productivity"
+          "Produktivität"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Productivity"
+          "Produktivität"
         ]
       }
     ],
@@ -1301,22 +1301,22 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Productivity"
+          "Produktivität"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Productivity"
+          "Produktivität"
         ]
       }
     ],
     "slug": "etherpad"
   },
   {
-    "description": "Email, Adressbuch und Kalenderanwendung für das GNOME-Desktop mit PGP-Unterstützung.",
+    "description": "E-Mail, Adressbuch und Kalenderanwendung für das GNOME-Desktop mit PGP-Unterstützung.",
     "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
     "logo": "evolution.png",
     "notes": "",
@@ -1338,14 +1338,14 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "E-Mail-Programme"
         ]
       }
     ],
     "slug": "evolution"
   },
   {
-    "description": "MTA, der auf etwa 43% aller E-Mail-Server benutzt wird&mdash;Standard auf Debian GNU/Linux.",
+    "description": "MTA, der auf etwa 43% aller E-Mail-Server benutzt wird. Standard auf Debian GNU/Linux.",
     "license_url": "https://github.com/Exim/exim/blob/master/src/LICENCE",
     "logo": "exim.png",
     "notes": "",
@@ -1358,7 +1358,7 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
           "Mail Transfer Agents"
         ]
@@ -1404,19 +1404,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -1438,13 +1438,13 @@
       {
         "name": "Android",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -1466,25 +1466,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -1508,10 +1508,10 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
           "Raspberry Pi",
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -1539,25 +1539,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       }
     ],
@@ -1580,9 +1580,9 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "SIP Servers"
+          "SIP-Server"
         ]
       }
     ],
@@ -1602,9 +1602,9 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Routers",
+        "name": "Router",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       }
     ],
@@ -1628,16 +1628,16 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Social Networks"
+          "Soziale Netzwerke"
         ]
       }
     ],
     "slug": "friendica"
   },
   {
-    "description": "Leichter und schneller IM-Client für GNU/Linux und Windows&mdash;OTR-Unterstützung durch eine Erweiterung.",
+    "description": "Leichter und schneller IM-Client für GNU/Linux und Windows. OTR-Unterstützung durch eine Erweiterung.",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.png",
     "notes": "",
@@ -1657,19 +1657,19 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging"
+          "Kurznachrichten"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging"
+          "Kurznachrichten"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging"
+          "Kurznachrichten"
         ]
       }
     ],
@@ -1691,7 +1691,7 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Disk Encryption"
+          "Festplattenverschlüsselung"
         ]
       }
     ],
@@ -1713,19 +1713,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -1749,31 +1749,31 @@
       {
         "name": "Android",
         "subcategories": [
-          "File Storage & Sync"
+          "Dateiaufbewahrung & -synchronisierung"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "File Storage & Sync"
+          "Dateiaufbewahrung & -synchronisierung"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "File Storage & Sync"
+          "Dateiaufbewahrung & -synchronisierung"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "File Storage & Sync"
+          "Dateiaufbewahrung & -synchronisierung"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "File Storage & Sync"
+          "Dateiaufbewahrung & -synchronisierung"
         ]
       }
     ],
@@ -1795,19 +1795,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Betriebssysteme"
         ]
       }
     ],
@@ -1831,25 +1831,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       }
     ],
@@ -1871,9 +1871,9 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Social Networks"
+          "Soziale Netzwerke"
         ]
       }
     ],
@@ -1903,25 +1903,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       }
     ],
@@ -1946,7 +1946,7 @@
       {
         "name": "Android",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       }
     ],
@@ -1970,7 +1970,7 @@
       {
         "name": "Windows",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       }
     ],
@@ -1994,7 +1994,7 @@
       {
         "name": "OS X",
         "subcategories": [
-          "Email Encryption"
+          "E-Mail-Verschlüsselung"
         ]
       }
     ],
@@ -2014,9 +2014,9 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Routers",
+        "name": "Router",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       }
     ],
@@ -2082,25 +2082,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "Web-Browser-Addons"
         ]
       }
     ],
@@ -2130,25 +2130,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks"
+          "Anonymisierungsnetzwerke"
         ]
       }
     ],
@@ -2172,15 +2172,15 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Media Publishing"
+          "Veröffentlichung"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Media Publishing"
+          "Veröffentlichung"
         ]
       }
     ],
@@ -2200,9 +2200,9 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Mail Servers"
+          "Mail Server"
         ]
       }
     ],
@@ -2222,9 +2222,9 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Mail Servers"
+          "Mail Server"
         ]
       }
     ],
@@ -2246,9 +2246,9 @@
     ],
     "categories": [
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Web Search"
+          "Web-Suche"
         ]
       }
     ],
@@ -2275,22 +2275,22 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       }
     ],
@@ -2318,25 +2318,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Betriebssysteme (live)"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Betriebssysteme (live)"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Betriebssysteme (live)"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Betriebssysteme (live)"
         ]
       }
     ],
@@ -2361,25 +2361,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browsers"
+          "Web-Browser"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browsers"
+          "Web-Browser"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browsers"
+          "Web-Browser"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browsers"
+          "Web-Browser"
         ]
       }
     ],
@@ -2405,7 +2405,7 @@
       {
         "name": "Android",
         "subcategories": [
-          "Email Clients"
+          "E-Mail-Programme"
         ]
       }
     ],
@@ -2429,9 +2429,9 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "SIP Servers"
+          "SIP-Server"
         ]
       }
     ],
@@ -2455,9 +2455,9 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Mail Servers",
+          "Mail-Server",
           "Groupware"
         ]
       }
@@ -2485,13 +2485,13 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "E-Mail-Programme"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Clients"
+          "E-Mail-Programme"
         ]
       }
     ],
@@ -2517,7 +2517,7 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging"
+          "Kurznachrichten"
         ]
       }
     ],
@@ -2539,25 +2539,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Betriebssysteme (live)"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Betriebssysteme (live)"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Betriebssysteme (live)"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Betriebssysteme (Live)"
         ]
       }
     ],
@@ -2577,9 +2577,9 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "VPN Servers"
+          "VPN-Server"
         ]
       }
     ],
@@ -2605,9 +2605,9 @@
         ]
       },
       {
-        "name": "Servers",
+        "name": "Server",
         "subcategories": [
-          "Mesh Networks"
+          "Mesh-Netze"
         ]
       }
     ],
@@ -2633,43 +2633,43 @@
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "Web-Dienste",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Kurznachrichten",
+          "Videotelefonie"
         ]
       }
     ],
@@ -2684,2523 +2684,4 @@
     "source_url": "https://github.com/linuxmint",
     "name": "Linux Mint Debian",
     "tos_url": "",
-    "url": "http://www.linuxmint.com/download_lmde.php",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linux_Mint",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "linux-mint-debian"
-  },
-  {
-    "description": "Litecoin (sign : Ł ; code : LTC) ist eine Peer-to-Peer-Kryptowährung und ein quelloffenes Softwareprojekt unter der MIT/X11-Lizens. Inspiriert von (und technisch nahezu identisch mit) Bitcoin (BTC), werden Litecoins auf Basis eines quelloffenen Protokolls erstellt und transferiert, anstatt von einer zentralen Autorität. Litecoin ist von seinen Entwicklern als Verbesserung von Bitcoin vorgesehen und bietet 3 wichtige Unterschiede: schnellere Transaktionen, 4 Mal mehr Geldeinheiten und langsamere Deflation.",
-    "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
-    "logo": "litecoin.png",
-    "notes": "Bitte sei Dir bewusst, dass neue digitale Währungen starken Wertschwankungen ausgesetzt sein können. Vollständiger Verlusst deiner Investitionen ist aus diversen Gründen möglich (Softwarefehler oder Angriffe, Identitätsdiebstahl, etc.). Sei vorsichtig!",
-    "privacy_url": "",
-    "source_url": "https://github.com/litecoin-project/litecoin",
-    "name": "Litecoin",
-    "tos_url": "",
-    "url": "https://litecoin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Finance"
-        ]
-      }
-    ],
-    "slug": "litecoin"
-  },
-  {
-    "description": "Verteilte und vereinigte soziale Knoten.",
-    "license_url": "https://github.com/lorea/Elgg/blob/master/LICENSE.txt",
-    "logo": "lorea.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/lorea",
-    "name": "Lorea",
-    "tos_url": "",
-    "url": "https://lorea.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "lorea"
-  },
-  {
-    "description": "OpenPGP Verschlüsselung Deiner E-Mails für vieler Webmailanbieter.",
-    "license_url": "https://github.com/toberndo/mailvelope/blob/master/LICENSE",
-    "logo": "mailvelope.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/toberndo/mailvelope",
-    "name": "Mailvelope",
-    "tos_url": "",
-    "url": "http://www.mailvelope.com/",
-    "wikipedia_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Email Encryption",
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Encryption",
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Email Encryption",
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Encryption",
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "mailvelope"
-  },
-  {
-    "description": "Freier, virtueller Globus und Welt-Atlas.",
-    "license_url": "https://projects.kde.org/projects/kde/kdeedu/marble/repository/revisions/master/entry/LICENSE.txt",
-    "logo": "marble.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.kde.org/projects/kde/kdeedu/marble/repository",
-    "name": "Marble",
-    "tos_url": "",
-    "url": "http://marble.kde.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "World Maps"
-        ]
-      }
-    ],
-    "slug": "marble"
-  },
-  {
-    "description": "Privatsphäreorientiertes, schnelles Medien (Bilder, Audio, Video) Hosting.",
-    "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
-    "logo": "mediacrush.png",
-    "notes": "Warnung: MediaCrush beinhaltet Googles Analytics- und Adsense-Dienste wenn im Browser die Option \"Nicht verfolgen\" deaktiviert ist.",
-    "privacy_url": "https://mediacru.sh/serious",
-    "source_url": "https://github.com/MediaCrush/MediaCrush",
-    "name": "MediaCrush",
-    "tos_url": "https://mediacru.sh/serious",
-    "url": "https://mediacru.sh/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "mediacrush"
-  },
-  {
-    "description": "Dezentralisierte Medienveröffentlichungs-Plattform.",
-    "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
-    "logo": "mediagoblin.png",
-    "notes": "MediaGoblin does not encrypt any of your data by default.",
-    "privacy_url": "",
-    "source_url": "https://gitorious.org/mediagoblin/mediagoblin",
-    "name": "MediaGoblin",
-    "tos_url": "",
-    "url": "http://mediagoblin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "mediagoblin"
-  },
-  {
-    "description": "Meta-Suchmaschine, die Deine Suchanfrage an verschiedene Suchanbieter weiterleitet.",
-    "license_url": "",
-    "logo": "metager.png",
-    "notes": "",
-    "privacy_url": "https://www.metager.de/en/privacy.html",
-    "source_url": "",
-    "name": "MetaGer",
-    "tos_url": "",
-    "url": "https://metager.de/en/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "metager"
-  },
-  {
-    "description": "Auf Prosody basierender XMPP-Server mit umfangreichen Management- und Microblogging-Funktionen.",
-    "license_url": "https://code.lightwitch.org/metronome/file/f9f76843539a/COPYING",
-    "logo": "metronome.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://code.lightwitch.org/metronome/file/f9f76843539a",
-    "name": "Metronome",
-    "tos_url": "",
-    "url": "http://www.lightwitch.org/metronome",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Metronome_IM",
-    "protocols": [
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "slug": "metronome"
-  },
-  {
-    "description": "Privater, dezentralisierter Sozialnetzwerk-Server.",
-    "license_url": "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING",
-    "logo": "movim.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://code.launchpad.net/movim",
-    "name": "Movim",
-    "tos_url": "",
-    "url": "http://movim.eu/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Movim",
-    "protocols": [
-      "SSL/TLS",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "movim"
-  },
-  {
-    "description": "Schneller, flexibler und sicherer Browser mit einem lebhaften Add-On Ökosystem.",
-    "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (OS X) if you don't want Mozilla to send reported URL hashes to Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
-    "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      }
-    ],
-    "slug": "mozilla-firefox"
-  },
-  {
-    "description": "E-Mail-Anwendung für mehrere Plattformen und E-Mail-Verschlüsselung durch das Enigmail-Addon.",
-    "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-thunderbird.png",
-    "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
-    "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/en-US/thunderbird/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
-    "protocols": [
-      "GPG",
-      "IRC",
-      "RSS",
-      "S/MIME",
-      "SSL/TLS",
-      "Tor",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Email Clients",
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Clients",
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Email Clients",
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Clients",
-          "Instant Messaging",
-          "IRC"
-        ]
-      }
-    ],
-    "slug": "mozilla-thunderbird"
-  },
-  {
-    "description": "Verschlüsselter Voicechat mit kurzer Latenzzeit für mehrere Benutzer.",
-    "license_url": "http://mumble.sourceforge.net/License",
-    "logo": "mumble.png",
-    "notes": "",
-    "privacy_url": "http://mumble.sourceforge.net/Mumble:Privacy_policy",
-    "source_url": "https://github.com/mumble-voip/",
-    "name": "Mumble",
-    "tos_url": "",
-    "url": "http://mumble.sourceforge.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mumble_%28software%29",
-    "protocols": [
-      "VoIP",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      }
-    ],
-    "slug": "mumble"
-  },
-  {
-    "description": "Sichere Kolab-Konten aus der Schweiz für 8.99 CHF pro Monat oder 4.55 CHF für reine E-Mail-Konten.",
-    "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
-    "logo": "mykolab.png",
-    "notes": "MyKolab ist in der Schweiz beheimatet und profitiert von den [starken Datenschutzgesetzen](https://MyKolab.com/de/privacy). Es wird ausschließlich mit Freier Software betrieben und die Benutzung unterstützt die Entwicklung von [Kolab](https://kolab.org).\n\nAlle Daten können jederzeit exportiert werden und die Allgemeinen Geschäftsbedingungen haben die beste Bewertung von [ToS;DR](http://tosdr.org/#mykolab-com) erhalten.\n\nDer Dienst benutzt [Perfect Forwarding Secrecy](https://mykolab.com/de/faq#pfs) und [entfernt private Daten](https://mykolab.com/de/faq#stripheader) aus den E-Mail-Metadaten.",
-    "privacy_url": "https://mykolab.com/de/privacy",
-    "source_url": "http://git.kolab.org/",
-    "name": "MyKolab",
-    "tos_url": "https://mykolab.com/de/tos",
-    "url": "https://mykolab.com/de",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
-    "protocols": [
-      "SSL/TLS",
-      "WebDAV",
-      "CalDAV",
-      "CardDAV",
-      "ActiveSync"
-        ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Email Accounts"
-        ]
-      }
-    ],
-    "slug": "mykolab"
-  },
-  {
-    "description": "Verteiltes DNS, basierend auf der Bitcoin-Technologie.",
-    "license_url": "https://github.com/namecoin/namecoin/blob/master/COPYING",
-    "logo": "namecoin.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/namecoin/namecoin",
-    "name": "Namecoin",
-    "tos_url": "",
-    "url": "http://dot-bit.org/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Namecoin",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "namecoin"
-  },
-  {
-    "description": "NetBSD is an open-source Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. ",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "description": "Anonymes I2P-Netzwerk für Android und den Desktop.",
-    "license_url": "https://github.com/oakes/Nightweb/blob/master/UNLICENSE",
-    "logo": "nightweb.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/oakes/Nightweb",
-    "name": "Nightweb",
-    "tos_url": "",
-    "url": "https://nightweb.net/",
-    "wikipedia_url": "",
-    "protocols": [
-      "I2P"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "nightweb"
-  },
-  {
-    "description": "Aktiviert JavaScript, Java und Flash nur für Seiten, denen Du vertraust.",
-    "license_url": "https://github.com/avian2/noscript",
-    "logo": "noscript.png",
-    "notes": "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
-    "privacy_url": "https://addons.mozilla.org/en-US/firefox/addon/noscript/privacy/",
-    "source_url": "https://github.com/avian2/noscript",
-    "name": "NoScript",
-    "tos_url": "",
-    "url": "http://noscript.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NoScript",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "noscript"
-  },
-  {
-    "description": "Installiere und aktiviere dieses Plugin in Pidgin, um verschlüsselt zu chatten.",
-    "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
-    "logo": "otr.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://otr.cypherpunks.ca/index.php#git",
-    "name": "Off-the-Record Messaging",
-    "tos_url": "",
-    "url": "https://otr.cypherpunks.ca/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
-    "protocols": [
-      "OTR"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "off-the-record-messaging"
-  },
-  {
-    "description": "Sicherer auf iOS-Geräten durch's Netz surfen mittels Tor.",
-    "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
-    "logo": "onion-browser.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/mtigas/iOS-OnionBrowser",
-    "name": "Onion Browser",
-    "tos_url": "",
-    "url": "https://mike.tig.as/onionbrowser/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      }
-    ],
-    "slug": "onion-browser"
-  },
-  {
-    "description": "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform.",
-    "license_url": "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT",
-    "logo": "osrm.png",
-    "notes": "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service.",
-    "privacy_url": "",
-    "source_url": "https://github.com/DennisOSRM/Project-OSRM",
-    "name": "Open Source Routing Machine",
-    "tos_url": "",
-    "url": "http://project-osrm.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "World Maps"
-        ]
-      }
-    ],
-    "slug": "open-source-routing-machine"
-  },
-  {
-    "description": "Alternative, quelloffene Webanalysen.",
-    "license_url": "http://wiki.openwebanalytics.com/index.php?title=License",
-    "logo": "open-web-analytics.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://trac.openwebanalytics.com/browser",
-    "name": "Open Web Analytics",
-    "tos_url": "",
-    "url": "http://www.openwebanalytics.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Web_Analytics",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Web Analytics"
-        ]
-      }
-    ],
-    "slug": "open-web-analytics"
-  },
-  {
-    "description": "Ein sicheres Betriebssystem auf BSD-Basis.",
-    "license_url": "http://openbsd.org/policy.html",
-    "logo": "openbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://www.openbsd.org/cgi-bin/cvsweb/",
-    "name": "OpenBSD",
-    "tos_url": "",
-    "url": "http://openbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Routers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "openbsd"
-  },
-  {
-    "description": "Plattformübergreifender, in Java geschriebener XMPP-Server.",
-    "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
-    "logo": "openfire.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk",
-    "name": "Openfire",
-    "tos_url": "",
-    "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire",
-    "protocols": [
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "slug": "openfire"
-  },
-  {
-    "description": "Offener, demokratischer und unzensierter DNS-Anbieter.",
-    "license_url": "",
-    "logo": "opennic.png",
-    "notes": "OpenNIC has not adopted an official policy concerning log query privacy/anonymization. More information [here](http://wiki.opennicproject.org/Tier2).",
-    "privacy_url": "http://wiki.opennicproject.org/Tier2",
-    "source_url": "http://wiki.opennicproject.org/opennicZoneScript",
-    "name": "OpenNIC",
-    "tos_url": "",
-    "url": "http://www.opennicproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "opennic"
-  },
-  {
-    "description": "OpenPGP Keychain is an OpenPGP implementation for Android.",
-    "license_url": "https://github.com/dschuermann/openpgp-keychain/blob/master/LICENSE",
-    "logo": "openpgp-keychain.png",
-    "notes": "OpenPGP Keychain is EXPERIMENTAL software. Use at your own risk!\r",
-    "privacy_url": "",
-    "source_url": "https://github.com/dschuermann/openpgp-keychain",
-    "name": "OpenPGP Keychain",
-    "tos_url": "",
-    "url": "http://sufficientlysecure.org/index.php/openpgp-keychain/",
-    "wikipedia_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "openpgp-keychain"
-  },
-  {
-    "description": "Freier und gemeinschaftlicher Kartendienst.",
-    "license_url": "http://www.openstreetmap.org/copyright",
-    "logo": "openstreetmap.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://wiki.openstreetmap.org/wiki/Getting_The_Source",
-    "name": "OpenStreetMap",
-    "tos_url": "",
-    "url": "http://www.openstreetmap.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenStreetMap",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "World Maps"
-        ]
-      }
-    ],
-    "slug": "openstreetmap"
-  },
-  {
-    "description": "Multifunktionale, stabile und einfach zu bedienende GNU/Linux-Distribution.",
-    "license_url": "https://en.opensuse.org/openSUSE:License",
-    "logo": "opensuse.png",
-    "notes": "",
-    "privacy_url": "https://www.suse.com/company/policies/privacy/",
-    "source_url": "https://en.opensuse.org/Source_code",
-    "name": "OpenSUSE",
-    "tos_url": "https://en.opensuse.org/Terms_of_site",
-    "url": "https://www.opensuse.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenSUSE",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "opensuse"
-  },
-  {
-    "description": "Freie VPN-Client-Software abgeleitet von FreeS/WAN.",
-    "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
-    "logo": "openswan.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/xelerance/Openswan",
-    "name": "Openswan",
-    "tos_url": "",
-    "url": "https://www.openswan.org/projects/openswan/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openswan",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "VPN Servers"
-        ]
-      }
-    ],
-    "slug": "openswan"
-  },
-  {
-    "description": "Freier VPN-Client-Software.",
-    "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
-    "logo": "openvpn.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/OpenVPN",
-    "name": "OpenVPN",
-    "tos_url": "",
-    "url": "http://openvpn.net/index.php/open-source.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "VPN Clients"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "VPN Clients"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "VPN Clients"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "VPN Clients"
-        ]
-      },
-      {
-        "name": "Routers",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "VPN Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "VPN Clients"
-        ]
-      }
-    ],
-    "slug": "openvpn"
-  },
-  {
-    "description": "Die Features und Funktionalitäten für Android.",
-    "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
-    "logo": "orbot.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitweb.torproject.org/orbot.git",
-    "name": "Orbot",
-    "tos_url": "",
-    "url": "https://guardianproject.info/apps/orbot/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Orbot",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      }
-    ],
-    "slug": "orbot"
-  },
-  {
-    "description": "OsmAnd (OSM Automated Navigation Directions) ist eine Karten- und Navigationsapp auf Basis der OpenStreetMap-Daten.",
-    "license_url": "https://github.com/osmandapp/Osmand/blob/master/LICENSE",
-    "logo": "osmand.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/osmandapp",
-    "name": "OsmAnd",
-    "tos_url": "",
-    "url": "http://osmand.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "World Maps"
-        ]
-      }
-    ],
-    "slug": "osmand"
-  },
-  {
-    "description": "Sichere SIP-Accounts, die zusammen mit CSipSimple, Jitsi etc. verwendet werden können",
-    "license_url": "",
-    "logo": "ostel.png",
-    "notes": "",
-    "privacy_url": "https://ostel.co/privacy",
-    "source_url": "https://github.com/guardianproject/OStel",
-    "name": "Ostel",
-    "tos_url": "",
-    "url": "https://ostel.co/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "VoIP",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      }
-    ],
-    "slug": "ostel"
-  },
-  {
-    "description": "Cloud-Daten unter Deiner Kontrolle.",
-    "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
-    "logo": "owncloud.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/owncloud",
-    "name": "ownCloud",
-    "tos_url": "",
-    "url": "http://owncloud.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
-    "protocols": [
-      "CalDAV",
-      "CardDAV"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "slug": "owncloud"
-  },
-  {
-    "description": "Freie, schlanke und flexible GNU/Linux-Distribution, die auf Arch Linux aufbaut.",
-    "license_url": "https://wiki.parabolagnulinux.org/Parabola/GNU_Linux_Social_Contract",
-    "logo": "parabola.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.parabolagnulinux.org/",
-    "name": "Parabola GNU/Linux-libre",
-    "tos_url": "",
-    "url": "https://parabolagnulinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Parabola_GNU/Linux-libre",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "parabola-gnu-linux-libre"
-  },
-  {
-    "description": "Freier universeller Sofortnachrichtenclient.",
-    "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
-    "logo": "pidgin.png",
-    "notes": "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like [TrueCrypt](http://www.truecrypt.org/), or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\n\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds.",
-    "privacy_url": "",
-    "source_url": "http://hg.pidgin.im/pidgin/main/",
-    "name": "Pidgin",
-    "tos_url": "",
-    "url": "https://www.pidgin.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pidgin_%28software%29",
-    "protocols": [
-      "IRC",
-      "OTR",
-      "SIP",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      }
-    ],
-    "slug": "pidgin"
-  },
-  {
-    "description": "Selbstgehostete Fotogalerie-Plattform.",
-    "license_url": "http://piwigo.org/basics/license",
-    "logo": "piwigo.png",
-    "notes": "Piwigo does not encrypt any of your data by default.",
-    "privacy_url": "",
-    "source_url": "http://piwigo.org/dev/browser",
-    "name": "Piwigo",
-    "tos_url": "",
-    "url": "http://piwigo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "piwigo"
-  },
-  {
-    "description": "Quelloffene, selbstgehostete Webanalysen.",
-    "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
-    "logo": "piwik.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/piwik/piwik",
-    "name": "Piwik",
-    "tos_url": "",
-    "url": "https://piwik.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwik",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Web Analytics"
-        ]
-      }
-    ],
-    "slug": "piwik"
-  },
-  {
-    "description": "Einfach einzurichtender MTA, der von etwa 23% aller E-Mail-Server benutzt wird.",
-    "license_url": "ftp://ftp.porcupine.org/mirrors/postfix-release/LICENSE",
-    "logo": "postfix.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "ftp://ftp.porcupine.org/mirrors/postfix-release/",
-    "name": "Postfix",
-    "tos_url": "",
-    "url": "http://www.postfix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Postfix_%28software%29",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Mail Transfer Agents"
-        ]
-      }
-    ],
-    "slug": "postfix"
-  },
-  {
-    "description": "Flexibler und leichter, in Lua geschriebener XMPP-Server.",
-    "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
-    "logo": "prosody.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://prosody.im/source/start",
-    "name": "Prosody",
-    "tos_url": "",
-    "url": "https://prosody.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29",
-    "protocols": [
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "slug": "prosody"
-  },
-  {
-    "description": "Verschlüsselte Notizen online abspeichern.",
-    "license_url": "",
-    "logo": "protextedtext.png",
-    "notes": "ProtectedText encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.",
-    "privacy_url": "",
-    "source_url": "https://www.protectedtext.com/js/main.js",
-    "name": "ProtectedText",
-    "tos_url": "",
-    "url": "https://www.protectedtext.com/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "protectedtext"
-  },
-  {
-    "description": "Multi-Plattform IM Client für erfahrene Benutzer mit eingebauter OTR-Unterstützung.",
-    "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
-    "logo": "psi-plus.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/psi-plus",
-    "name": "Psi+",
-    "tos_url": "",
-    "url": "http://psi-plus.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Psi_%28instant_messaging_client%29",
-    "protocols": [
-      "GPG",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "psi"
-  },
-  {
-    "description": "Selbst-gehosteter sozialer Streamserver.",
-    "license_url": "https://github.com/e14n/pump.io/blob/master/LICENSE",
-    "logo": "pumpio.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/e14n/pump.io",
-    "name": "pump.io",
-    "tos_url": "",
-    "url": "http://pump.io/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "pumpio"
-  },
-  {
-    "description": "Verwandelt jeden Server in eine File-Sharing-Plattform.",
-    "license_url": "https://github.com/pydio/pydio-core/blob/master/README.md",
-    "logo": "pydio.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/pydio/pydio-core",
-    "name": "Pydio",
-    "tos_url": "",
-    "url": "http://pyd.io/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "slug": "pydio"
-  },
-  {
-    "description": "Ein Fedora/Xen-basierendes Betriebssystem, das designt wurde, um starke Sicherheit durch Isolation zu bieten.",
-    "license_url": "http://qubes-os.org/trac/wiki/QubesLicensing",
-    "logo": "qubes-os.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://git.qubes-os.org/",
-    "name": "Qubes",
-    "tos_url": "",
-    "url": "http://qubes-os.org/trac",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "qubes"
-  },
-  {
-    "description": "Völlig freie Android-Distribution, die auf CyanogenMod aufbaut.",
-    "license_url": "http://replicant.us/about/",
-    "logo": "replicant.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitorious.org/replicant",
-    "name": "Replicant",
-    "tos_url": "",
-    "url": "http://replicant.us/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "replicant"
-  },
-  {
-    "description": "Kontrolliere Website-übergreifende Anfragen von Seiten, die Du besuchtst.",
-    "license_url": "https://github.com/RequestPolicy/requestpolicy/blob/master/src/LICENSE",
-    "logo": "request-policy.png",
-    "notes": "",
-    "privacy_url": "https://www.requestpolicy.com/privacy.html",
-    "source_url": "https://github.com/RequestPolicy/requestpolicy",
-    "name": "Request Policy",
-    "tos_url": "",
-    "url": "https://www.requestpolicy.com/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "request-policy"
-  },
-  {
-    "description": "Sichere P2P-Kommunikationsplattform, die IM, Foren, VoIP, File Sharing und mehr bietet.",
-    "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
-    "logo": "retroshare.png",
-    "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
-    "privacy_url": "",
-    "source_url": "http://sourceforge.net/p/retroshare/code/HEAD/tree/",
-    "name": "RetroShare",
-    "tos_url": "",
-    "url": "http://retroshare.sourceforge.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
-    "protocols": [
-      "GPG",
-      "VoIP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Email Alternatives",
-          "Instant Messaging",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Alternatives",
-          "Instant Messaging",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Email Alternatives",
-          "Instant Messaging",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Alternatives",
-          "Instant Messaging",
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "retroshare"
-  },
-  {
-    "description": "Sichere und private Kommunikationsmöglichkeiten für Menschen, die an einem freiheitlichen sozialen Wechsel arbeiten.",
-    "license_url": "",
-    "logo": "riseup.png",
-    "notes": "Warnung: Riseups E-Mail-Dienst hat zur Zeit einen Fehler in Sachen gelöschter E-Mails ([siehe](https://user.riseup.net/ticket/615275)).\n\nAuf Riseups E-Mail-Dienst kann auch über einen Tor Hidden Service zugegriffen werden, [siehe](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
-    "privacy_url": "https://help.riseup.net/en/privacy-policy",
-    "source_url": "http://riseuplabs.org/",
-    "name": "Riseup",
-    "tos_url": "",
-    "url": "https://riseup.net/en",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS",
-      "Tor",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Email Accounts",
-          "Instant Messaging",
-          "Productivity",
-          "VPN Accounts"
-        ]
-      }
-    ],
-    "slug": "riseup"
-  },
-  {
-    "description": "Modulares Mehrzweck-Kommunikationswerkzeug.",
-    "license_url": "http://repos.goffi.org/sat/file/6aa71c853bf5/COPYING",
-    "logo": "sat.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://sat.goffi.org/developers.html",
-    "name": "Salut à Toi",
-    "tos_url": "",
-    "url": "http://sat.goffi.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "salut-a-toi"
-  },
-  {
-    "description": "Scientific Linux (SL) is a Linux distribution produced by Fermi National Accelerator Laboratory and the European Organization for Nuclear Research (CERN). ",
-    "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
-    "logo": "scientific-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.scientificlinux.org/",
-    "name": "Scientific Linux",
-    "tos_url": "",
-    "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scientific_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "scientific-linux"
-  },
-  {
-    "description": "Offene, dezentrale Plattform für kollaborative Suche.",
-    "license_url": "http://sourceforge.net/p/seeks/code/ci/master/tree/Licenses",
-    "logo": "seeks-project.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://sourceforge.net/p/seeks/code/ci/master/tree/",
-    "name": "Seeks Project",
-    "tos_url": "",
-    "url": "http://www.seeks-project.info/site/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Seeks",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "seeks-project"
-  },
-  {
-    "description": "Löscht Cookies und lokale Website-Daten automatisch, wenn der Browser-Tab geschlossen wird.",
-    "license_url": "https://addons.mozilla.org/en-US/firefox/files/browse/235317/file/LICENSE",
-    "logo": "self-destructing-cookies.png",
-    "notes": "Only works with Firefox version 24 and above.\n\n The Android version is [available here](https://addons.mozilla.org/en-US/android/addon/self-destructing-cookies/).",
-    "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/en-US/firefox/files/browse/235317/",
-    "name": "Self-Destructing Cookies",
-    "tos_url": "",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "self-destructing-cookies"
-  },
-  {
-    "description": "Einfache Distro, basierend auf CentOS mit vorkonfiguriertem E-Mail, Dateitausch, Webserver und mehr.",
-    "license_url": "http://wiki.contribs.org/SME_Server:Documentation:Developers_Manual:Chapter14#Configuring_your_development_environment",
-    "logo": "sme-server.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://fisheye1.atlassian.com/browse/smeserver/",
-    "name": "SME Server",
-    "tos_url": "",
-    "url": "http://wiki.contribs.org/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/SME_Server",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "sme-server"
-  },
-  {
-    "description": "Selbst-gehostete Versionskontrolle und Dateisynchronisierung.",
-    "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
-    "logo": "sparkleshare.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/hbons/SparkleShare",
-    "name": "SparkleShare",
-    "tos_url": "",
-    "url": "http://sparkleshare.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/SparkleShare",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "slug": "sparkleshare"
-  },
-  {
-    "description": "Private, aufzeichnungsfreie Websuchen.",
-    "license_url": "",
-    "logo": "startpage.png",
-    "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy.",
-    "privacy_url": "https://startpage.com/eng/protect-privacy.html",
-    "source_url": "",
-    "name": "Startpage",
-    "tos_url": "",
-    "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "startpage"
-  },
-  {
-    "description": "Freie VPN-Client-Software abgeleitet von FreeS/WAN.",
-    "license_url": "http://git.strongswan.org/?p=strongswan.git;a=blob;f=COPYING;h=d159169d1050894d3ea3b98e1c965c4058208fe1;hb=HEAD",
-    "logo": "strongswan.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://git.strongswan.org/?p=strongswan.git;a=summary",
-    "name": "strongSwan",
-    "tos_url": "",
-    "url": "http://strongswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/StrongSwan",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "VPN Servers"
-        ]
-      }
-    ],
-    "slug": "strongswan"
-  },
-  {
-    "description": "Schlanker und benutzerfreundlicher E-Mail-Client für mehrere Plattformen mit eingebauter PGP-Unterstützung.",
-    "license_url": "https://www.gnu.org/copyleft/gpl.html",
-    "logo": "sylpheed.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://sylpheed.sraoss.jp/en/svn.html",
-    "name": "Sylpheed",
-    "tos_url": "",
-    "url": "http://sylpheed.sraoss.jp/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed",
-    "protocols": [
-      "GPG",
-      "RSS",
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Clients"
-        ]
-      }
-    ],
-    "slug": "sylpheed"
-  },
-  {
-    "description": "Verteilte, anonyme Forensoftware.",
-    "license_url": "https://github.com/i2p/i2p.syndie/blob/master/LICENSE",
-    "logo": "syndie.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/i2p/i2p.syndie",
-    "name": "Syndie",
-    "tos_url": "",
-    "url": "http://syndie.i2p2.de/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Syndie",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "syndie"
-  },
-  {
-    "description": "Freies und offenes Cloud-Speichersystem.",
-    "license_url": "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL",
-    "logo": "tahoe-lafs.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/tahoe-lafs/tahoe-lafs",
-    "name": "Tahoe-LAFS",
-    "tos_url": "",
-    "url": "https://tahoe-lafs.org/trac/tahoe-lafs",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tahoe-LAFS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "slug": "tahoe-lafs"
-  },
-  {
-    "description": "Live-CD/USB, entwickelt zum Schutz Deiner Privatsphäre.",
-    "license_url": "https://tails.boum.org/doc/about/license/index.en.html",
-    "logo": "tails.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://tails.boum.org/contribute/git/",
-    "name": "Tails",
-    "tos_url": "",
-    "url": "https://tails.boum.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System",
-    "protocols": [
-      "GPG",
-      "SSL/TLS",
-      "OTR",
-      "Tor",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      }
-    ],
-    "slug": "tails"
-  },
-  {
-    "description": "Ein Protokoll für dezentralisierte Echtzeitkommunikation und persönliche Datenspeicherung.",
-    "license_url": "https://github.com/tent/tentd/blob/master/README.md",
-    "logo": "tent.png",
-    "notes": "Tent mentions that it's still in alpha:\n*\"Remember, Tent is still in alpha, so it’s not safe to use with information you would not want to be public and should not be considered reliable.\"*",
-    "privacy_url": "",
-    "source_url": "https://github.com/tent",
-    "name": "Tent",
-    "tos_url": "",
-    "url": "https://tent.io/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Communication Protocols"
-        ]
-      }
-    ],
-    "slug": "tent"
-  },
-  {
-    "description": "Plattformübergreifender, in Java geschriebener XMPP-Server.",
-    "license_url": "https://projects.tigase.org/projects/tigase-server/repository/revisions/master/changes/COPYING",
-    "logo": "tigase.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.tigase.org/projects/tigase-server/repository",
-    "name": "Tigase",
-    "tos_url": "",
-    "url": "http://www.tigase.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase",
-    "protocols": [
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "slug": "tigase"
-  },
-  {
-    "description": "Freie VPN Lösung, die Tunnelung und Verschlüsselung verwendet, um ein sicheres privates Netzwerk zu erstellen, welches ohne zentralen Server auskommt.",
-    "license_url": "http://tinc-vpn.org/git/browse?p=tinc;a=blob;f=COPYING.README;h=2eb9c1facc212244a4103f9f9b81149c6f6a9d44;hb=HEAD",
-    "logo": "tinc.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://tinc-vpn.org/git/browse?p=tinc;a=tree",
-    "name": "tinc",
-    "tos_url": "",
-    "url": "http://tinc-vpn.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tinc_%28protocol%29",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "Routers",
-        "subcategories": [
-          "Mesh Networks",
-          "VPN Servers"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Mesh Networks",
-          "VPN Servers"
-        ]
-      }
-    ],
-    "slug": "tinc"
-  },
-  {
-    "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
-    "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
-    "logo": "tor.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor",
-    "tos_url": "",
-    "url": "https://www.torproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      }
-    ],
-    "slug": "tor"
-  },
-  {
-    "description": "Verschlüsseltes, anonymes Surfen, unterstützt durch das Tor-Netzwerk.",
-    "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser-bundle.png",
-    "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
-    "privacy_url": "https://www.torproject.org/about/overview.html.en",
-    "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor Browser Bundle",
-    "tos_url": "",
-    "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
-    "protocols": [
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      }
-    ],
-    "slug": "tor-browser-bundle"
-  },
-  {
-    "description": "Verbinde Dich mit Thunderbird/Icedove durch Tor.",
-    "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
-    "logo": "torbirdy.png",
-    "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the \"Before using TorBirdy\" and \"Known TorBirdy\" Issues sections on the project website.",
-    "privacy_url": "",
-    "source_url": "https://github.com/ioerror/torbirdy",
-    "name": "TorBirdy",
-    "tos_url": "",
-    "url": "https://trac.torproject.org/projects/tor/wiki/torbirdy",
-    "wikipedia_url": "",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "torbirdy"
-  },
-  {
-    "description": "Anonymer, dezentralisierter P2P-Chat, auf den versteckten Diensten von Tor basierend.",
-    "license_url": "https://www.gnu.org/copyleft/gpl.html",
-    "logo": "torchat.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/prof7bit/TorChat",
-    "name": "TorChat",
-    "tos_url": "",
-    "url": "https://github.com/prof7bit/TorChat/wiki",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/TorChat",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "torchat"
-  },
-  {
-    "description": "Vollständige oder teilweise Verschlüsselung von Festplatten, Partitionen und wechseldatenträgern unter Windows und Mac OS X.",
-    "license_url": "http://www.truecrypt.org/legal/license",
-    "logo": "truecrypt.png",
-    "notes": "While TrueCrypt is open source, it is developed in a closed fashion and may receive less review than a comparably openly developed project. That said, it is still probably the best option for file encryption on Windows and OS X.",
-    "privacy_url": "",
-    "source_url": "http://www.truecrypt.org/downloads2",
-    "name": "TrueCrypt",
-    "tos_url": "",
-    "url": "http://www.truecrypt.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/TrueCrypt",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "slug": "truecrypt"
-  },
-  {
-    "description": "Erweiterbarer und anpassbarer CLI Chat-Client für IRC und XMPP/Jabber.",
-    "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
-    "logo": "weechat.png",
-    "notes": "WeeChat does not offer encryption by default, but there is a FiSH encryption plugin available.",
-    "privacy_url": "",
-    "source_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=summary",
-    "name": "WeeChat",
-    "tos_url": "",
-    "url": "http://www.weechat.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat",
-    "protocols": [
-      "IRC"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "IRC"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "IRC"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "IRC"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "IRC"
-        ]
-      }
-    ],
-    "slug": "weechat"
-  },
-  {
-    "description": "Ein Betriebssystem, das auf Tor, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM-Images.",
-    "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
-    "logo": "whonix.png",
-    "notes": "Whonix is designed to be run inside of a virtualization package like [VirtualBox](https://www.virtualbox.org/). VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.",
-    "privacy_url": "",
-    "source_url": "https://github.com/Whonix/Whonix/",
-    "name": "Whonix",
-    "tos_url": "",
-    "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "whonix"
-  },
-  {
-    "description": "Selbstgehostetes Website-/Blog-CMS.",
-    "license_url": "http://wordpress.org/about/license/",
-    "logo": "wordpress.png",
-    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\r",
-    "privacy_url": "http://wordpress.org/about/privacy/",
-    "source_url": "http://core.trac.wordpress.org/browser",
-    "name": "WordPress",
-    "tos_url": "",
-    "url": "https://wordpress.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "wordpress"
-  },
-  {
-    "description": "OTR-verschlüsselter Nachrichtenversand für Android.",
-    "license_url": "https://github.com/redsolution/xabber-android/blob/master/LICENSE",
-    "logo": "xabber.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/redsolution/xabber-android",
-    "name": "Xabber",
-    "tos_url": "",
-    "url": "http://www.xabber.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "OTR",
-      "SSL/TLS",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "xabber"
-  },
-  {
-    "description": "Dezentralisierte Websuche.",
-    "license_url": "https://gitorious.org/yacy/rc1/source/234a974955c0ab4f7de63157738e4b00a8ffcae8:COPYRIGHT",
-    "logo": "yacy.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitorious.org/yacy",
-    "name": "YaCy",
-    "tos_url": "",
-    "url": "http://yacy.de/en/index.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/YaCy",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "yacy"
-  },
-  {
-    "description": "Persönliche Debian-basierte Distro mit vorkonfiguriertem E-Mail, IM und Webserver.",
-    "license_url": "https://github.com/YunoHost/admin_v1/blob/master/LICENCE",
-    "logo": "yunohost.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/YunoHost",
-    "name": "Yunohost",
-    "tos_url": "",
-    "url": "http://yunohost.org/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "yunohost"
-  },
-  {
-    "description": "Selbstgehostetes Medienmanagementsystem.",
-    "license_url": "http://www.zenphoto.org/pages/licenses",
-    "logo": "zenphoto.png",
-    "notes": "Zenphoto does not encrypt any of your data by default.",
-    "privacy_url": "http://www.zenphoto.org/pages/privacy",
-    "source_url": "https://github.com/zenphoto/zenphoto",
-    "name": "Zenphoto",
-    "tos_url": "http://www.zenphoto.org/support/?terms-of-service=display",
-    "url": "http://www.zenphoto.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "zenphoto"
-  },
-  {
-    "description": "Validating, recursive, and caching DNS server.",
-    "license_url": "http://unbound.nlnetlabs.nl/svn/trunk/LICENSE",
-    "logo": "unbound.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://unbound.nlnetlabs.nl/svn/",
-    "name": "Unbound",
-    "tos_url": "",
-    "url": "http://www.unbound.net/",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "unbound"
-  }
-]
+    "url": "http://www.linuxmint.com/download_lmde".
