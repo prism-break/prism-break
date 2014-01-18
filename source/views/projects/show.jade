@@ -23,4 +23,4 @@ block content
         - each subcat in cat.subcategories
 
           a.bar.child(href=routes.subcategories+cat.slug+'-'+subcat.slug)
-            .label= subcat.name
+            .label= t[subcat.name]

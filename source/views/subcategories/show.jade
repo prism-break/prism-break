@@ -3,7 +3,7 @@ include ../projects/mixins
 include ../subcategories/mixins
 extends ../layouts/application
 block title
-  = data.subcategory.name + ' - '
+  = t[data.subcategory.name] + ' - '
   = data.category.name
 block content
 
@@ -48,14 +48,14 @@ block content
             .bar.active
               .label
                 img.logo(src=routes.logos + subcat.randomLogo)
-                = subcat.name
+                = t[subcat.name]
               .icon: i.fa.fa-dot-circle-o
 
           else
             a.bar(href=routes.subcategories + data.category.slug + '-' + subcat.slug)
               .label
                 img.logo(src=routes.logos + subcat.randomLogo)
-                = subcat.name
+                = t[subcat.name]
               .icon
                 i.fa.fa-angle-right.ltr
                 i.fa.fa-angle-left.rtl
