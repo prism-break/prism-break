@@ -38,8 +38,7 @@
       t: db.locale
     };
     file = db.dir + path;
-    writeHtml(view, options, file);
-    return writeJson(data, file);
+    return writeHtml(view, options, file);
   };
   writeCategoriesIndex = function(db){
     var data, path, view, options, file, write;
@@ -59,8 +58,7 @@
     };
     file = db.dir + path;
     write = function(){
-      writeHtml(view, options, file);
-      return writeJson(data, file);
+      return writeHtml(view, options, file);
     };
     return mkdirp(db.dir + 'categories', function(err){
       if (err) {
@@ -99,8 +97,7 @@
       fullPath = db.dir + path;
       file = fullPath + 'index';
       write = function(){
-        writeHtml(view, options, file);
-        return writeJson(data, file);
+        return writeHtml(view, options, file);
       };
       return mkdirp(fullPath, function(err){
         if (err) {
@@ -150,8 +147,7 @@
       fullPath = db.dir + path;
       file = fullPath + 'index';
       write = function(){
-        writeHtml(view, options, file);
-        return writeJson(data, file);
+        return writeHtml(view, options, file);
       };
       return mkdirp(fullPath, function(err){
         if (err) {
@@ -190,8 +186,7 @@
     };
     file = db.dir + path;
     write = function(){
-      writeHtml(view, options, file);
-      return writeJson(data, file);
+      return writeHtml(view, options, file);
     };
     return mkdirp(db.dir + 'protocols', function(err){
       if (err) {
@@ -224,8 +219,7 @@
       fullPath = db.dir + path;
       file = fullPath + 'index';
       write = function(){
-        writeHtml(view, options, file);
-        return writeJson(data, file);
+        return writeHtml(view, options, file);
       };
       return mkdirp(fullPath, function(err){
         if (err) {
@@ -259,8 +253,7 @@
     };
     file = db.dir + path;
     write = function(){
-      writeHtml(view, options, file);
-      return writeJson(data, file);
+      return writeHtml(view, options, file);
     };
     return mkdirp(db.dir + 'projects', function(err){
       if (err) {
@@ -291,8 +284,7 @@
       fullPath = db.dir + path;
       file = fullPath + 'index';
       write = function(){
-        writeHtml(view, options, file);
-        return writeJson(data, file);
+        return writeHtml(view, options, file);
       };
       return mkdirp(fullPath, function(err){
         if (err) {

@@ -45,7 +45,7 @@ write-site-index = (db) ->
   file = db.dir + path
 
   write-html view, options, file
-  write-json data, file
+  #write-json data, file
 
 write-categories-index = (db) ->
   data = nested-categories db.projects
@@ -66,7 +66,7 @@ write-categories-index = (db) ->
 
   write = ->
     write-html view, options, file
-    write-json data, file
+    #write-json data, file
 
   mkdirp db.dir + 'categories', (err) ->
     if err
@@ -112,7 +112,7 @@ write-categories-show = (db) ->
 
     write = ->
       write-html view, options, file
-      write-json data, file
+      #write-json data, file
 
     mkdirp full-path, (err) ->
       if err
@@ -161,7 +161,7 @@ write-subcategories-show = (db) ->
 
     write = ->
       write-html view, options, file
-      write-json data, file
+      #write-json data, file
 
     mkdirp full-path, (err) ->
       if err
@@ -192,7 +192,7 @@ write-protocols-index = (db) ->
 
   write = ->
     write-html view, options, file
-    write-json data, file
+    #write-json data, file
 
   mkdirp db.dir + 'protocols', (err) ->
     if err
@@ -223,7 +223,7 @@ write-protocols-show = (db) ->
 
     write = ->
       write-html view, options, file
-      write-json data, file
+      #write-json data, file
 
     mkdirp full-path, (err) ->
       if err
@@ -253,7 +253,7 @@ write-projects-index = (db) ->
 
   write = ->
     write-html view, options, file
-    write-json data, file
+    #write-json data, file
 
   mkdirp db.dir + 'projects', (err) ->
     if err
@@ -282,7 +282,7 @@ write-projects-show = (db) ->
 
     write = ->
       write-html view, options, file
-      write-json data, file
+      #write-json data, file
 
     mkdirp full-path, (err) ->
       if err
