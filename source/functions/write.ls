@@ -116,7 +116,7 @@ write-subcategories-show = (db) ->
     data =
       category: category
       subcategory: subcategory
-      projects: in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects))
+      projects: subcategory.projects
       projects-rejected: sort-by (.name.to-lower-case!), in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
@@ -144,7 +144,7 @@ write-subcategories-show = (db) ->
       else
         write!
 
-  for category in nested-categories(db.projects)
+  for category in nested-categories-web(db.projects)
     for subcategory in category.subcategories
       create subcategory
 

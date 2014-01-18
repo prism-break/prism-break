@@ -124,7 +124,7 @@
       data = {
         category: category,
         subcategory: subcategory,
-        projects: inThisSubcategory(subcategory.name, inThisCategory(category.name, db.projects)),
+        projects: subcategory.projects,
         projectsRejected: sortBy(function(it){
           return it.name.toLowerCase();
         }, inThisSubcategory(subcategory.name, inThisCategory(category.name, db.projectsRejected)))
@@ -156,7 +156,7 @@
         }
       });
     };
-    for (i$ = 0, len$ = (ref$ = nestedCategories(db.projects)).length; i$ < len$; ++i$) {
+    for (i$ = 0, len$ = (ref$ = nestedCategoriesWeb(db.projects)).length; i$ < len$; ++i$) {
       category = ref$[i$];
       lresult$ = [];
       for (j$ = 0, len1$ = (ref1$ = category.subcategories).length; j$ < len1$; ++j$) {
