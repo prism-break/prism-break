@@ -68,7 +68,7 @@ Append the sample project to the file `./source/db/en-projects.json`. Edit the v
       wikipedia_url: "https://en.wikipedia.org/wiki/Awesome_Project"
       privacy_url: ""
       tos_url: ""
-      license_url: "https://git.awesome-project.org//master/LICENSE.txt"
+      license_url: "https://git.awesome-project.org/master/LICENSE.txt"
       source_url: "https://git.awesome-project.org/master/"
       protocols: ["GPG", "OTR", "XMPP"]
       categories: [
