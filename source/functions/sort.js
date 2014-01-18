@@ -171,23 +171,35 @@
     }
   };
   nestedCategoriesWeb = function(db){
-    var tree, i$, len$, category, catSubcategories, webSubcategories, allSubcategories, j$, ref$, len1$, subcategory, catProjects, webProjects, allProjects;
+    var tree, i$, len$, category, ref$, j$, len1$, subcategory, catSubcategories, webSubcategories, allSubcategories, catProjects, webProjects, allProjects;
     tree = categoriesIn(db);
     for (i$ = 0, len$ = tree.length; i$ < len$; ++i$) {
       category = tree[i$];
-      catSubcategories = subcategoriesInRaw(category.name, inThisCategory(category.name, db));
-      webSubcategories = subcategoriesInRaw('Web Services', inThisCategory('Web Services', db));
-      allSubcategories = slugifyList(unique(catSubcategories.concat(webSubcategories)));
-      category.subcategories = allSubcategories;
-      category.subcategories = sortBy(fn$, category.subcategories);
-      for (j$ = 0, len1$ = (ref$ = category.subcategories).length; j$ < len1$; ++j$) {
-        subcategory = ref$[j$];
-        catProjects = inThisSubcategory(subcategory.name, inThisCategory(category.name, db));
-        webProjects = inThisSubcategory(subcategory.name, inThisCategory('Web Services', db));
-        allProjects = sortBy(fn1$, unique(catProjects.concat(webProjects)));
-        subcategory.projects = allProjects;
-        subcategory.projectLogos = imagesIn(subcategory.projects);
-        subcategory.randomLogo = selectRandom(subcategory.projectLogos);
+      if ((ref$ = category.name) === 'Routers' || ref$ === 'Servers') {
+        category.subcategories = subcategoriesIn(category.name, inThisCategory(category.name, db));
+        category.subcategories = sortBy(fn$, category.subcategories);
+        for (j$ = 0, len1$ = (ref$ = category.subcategories).length; j$ < len1$; ++j$) {
+          subcategory = ref$[j$];
+          subcategory.projects = inThisSubcategory(subcategory.name, inThisCategory(category.name, db));
+          subcategory.projects = sortBy(fn1$, subcategory.projects);
+          subcategory.projectLogos = imagesIn(subcategory.projects);
+          subcategory.randomLogo = selectRandom(subcategory.projectLogos);
+        }
+      } else {
+        catSubcategories = subcategoriesInRaw(category.name, inThisCategory(category.name, db));
+        webSubcategories = subcategoriesInRaw('Web Services', inThisCategory('Web Services', db));
+        allSubcategories = slugifyList(unique(catSubcategories.concat(webSubcategories)));
+        category.subcategories = allSubcategories;
+        category.subcategories = sortBy(fn2$, category.subcategories);
+        for (j$ = 0, len1$ = (ref$ = category.subcategories).length; j$ < len1$; ++j$) {
+          subcategory = ref$[j$];
+          catProjects = inThisSubcategory(subcategory.name, inThisCategory(category.name, db));
+          webProjects = inThisSubcategory(subcategory.name, inThisCategory('Web Services', db));
+          allProjects = sortBy(fn3$, unique(catProjects.concat(webProjects)));
+          subcategory.projects = allProjects;
+          subcategory.projectLogos = imagesIn(subcategory.projects);
+          subcategory.randomLogo = selectRandom(subcategory.projectLogos);
+        }
       }
     }
     return tree = sortBy(function(it){
@@ -197,6 +209,12 @@
       return it.name.toLowerCase();
     }
     function fn1$(it){
+      return it.name.toLowerCase();
+    }
+    function fn2$(it){
+      return it.name.toLowerCase();
+    }
+    function fn3$(it){
       return it.name.toLowerCase();
     }
   };

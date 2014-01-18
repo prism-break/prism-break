@@ -1,7 +1,7 @@
 # COMMANDS (more in README.md)
 # make all					build /tmp and copy to /public
 # make clean				destroy built files
-# make uber					destroy built files and rebuild everything
+# make reset				destroy built files and rebuild everything
 # make watch_css		run "stylus --watch" for css edits
 
 # BINARIES

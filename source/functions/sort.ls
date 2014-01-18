@@ -93,20 +93,29 @@ nested-categories = (db) ->
 nested-categories-web = (db) ->
   tree = categories-in db
   for category in tree
+    if category.name in <[Routers Servers]>
+      category.subcategories = subcategories-in(category.name, in-this-category(category.name, db))
+      category.subcategories = sort-by (.name.to-lower-case!), category.subcategories
 
-    cat-subcategories = subcategories-in-raw(category.name, in-this-category(category.name, db))
-    web-subcategories = subcategories-in-raw('Web Services', in-this-category('Web Services', db))
-    all-subcategories = slugify-list unique cat-subcategories.concat web-subcategories
-    category.subcategories = all-subcategories
-    category.subcategories = sort-by (.name.to-lower-case!), category.subcategories
+      for subcategory in category.subcategories
+        subcategory.projects = in-this-subcategory(subcategory.name, in-this-category(category.name, db))
+        subcategory.projects = sort-by (.name.to-lower-case!), subcategory.projects
+        subcategory.project-logos = images-in(subcategory.projects)
+        subcategory.random-logo = select-random(subcategory.project-logos)
+    else
+      cat-subcategories = subcategories-in-raw(category.name, in-this-category(category.name, db))
+      web-subcategories = subcategories-in-raw('Web Services', in-this-category('Web Services', db))
+      all-subcategories = slugify-list unique cat-subcategories.concat web-subcategories
+      category.subcategories = all-subcategories
+      category.subcategories = sort-by (.name.to-lower-case!), category.subcategories
 
-    for subcategory in category.subcategories
-      cat-projects = in-this-subcategory(subcategory.name, in-this-category(category.name, db))
-      web-projects = in-this-subcategory(subcategory.name, in-this-category('Web Services', db))
-      all-projects = sort-by((.name.to-lower-case!), unique(cat-projects.concat(web-projects)))
-      subcategory.projects = all-projects
-      subcategory.project-logos = images-in(subcategory.projects)
-      subcategory.random-logo = select-random(subcategory.project-logos)
+      for subcategory in category.subcategories
+        cat-projects = in-this-subcategory(subcategory.name, in-this-category(category.name, db))
+        web-projects = in-this-subcategory(subcategory.name, in-this-category('Web Services', db))
+        all-projects = sort-by((.name.to-lower-case!), unique(cat-projects.concat(web-projects)))
+        subcategory.projects = all-projects
+        subcategory.project-logos = images-in(subcategory.projects)
+        subcategory.random-logo = select-random(subcategory.project-logos)
   tree = sort-by (.name.to-lower-case!), tree
 
 protocol-types = (protocols) ->
