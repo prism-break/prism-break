@@ -3,7 +3,7 @@
 # libraries
 require! mkdirp
 require! '../functions/helpers.ls'
-{sort-by} = require \prelude-ls
+{sort-by, unique} = require \prelude-ls
 {select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, in-this-protocol, nested-categories, nested-categories-web, platform-types, protocol-types} = require '../functions/sort.ls'
 {write-html, write-json} = require '../functions/write-files.ls'
 {routes} = require '../functions/routes.ls'
@@ -79,8 +79,20 @@ write-categories-show = (db) ->
     data = category
 
     for subcategory in data.subcategories
-      rejected = in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
-      subcategory.projects-rejected = sort-by (.name.to-lower-case!), rejected
+      projects-rejected = in-this-subcategory(
+        subcategory.name,
+        in-this-category(category.name, db.projects-rejected)
+      )
+      projects-rejected-web = in-this-subcategory(
+        subcategory.name,
+        in-this-category('Web Services', db.projects-rejected)
+      )
+      projects-rejected-all = sort-by(
+        (.name.to-lower-case!),
+        unique(projects-rejected.concat(projects-rejected-web))
+      )
+      #rejected = in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
+      subcategory.projects-rejected = projects-rejected-all
 
     path = "categories/#{category.slug}/"
     view = view-path 'categories/show'
@@ -113,11 +125,24 @@ write-categories-show = (db) ->
 
 write-subcategories-show = (db) ->
   create = (subcategory) ->
+
+    projects-rejected = in-this-subcategory(
+      subcategory.name,
+      in-this-category(category.name, db.projects-rejected)
+    )
+    projects-rejected-web = in-this-subcategory(
+      subcategory.name,
+      in-this-category('Web Services', db.projects-rejected)
+    )
+    projects-rejected-all = sort-by(
+      (.name.to-lower-case!),
+      unique(projects-rejected.concat(projects-rejected-web))
+    )
     data =
       category: category
       subcategory: subcategory
       projects: subcategory.projects
-      projects-rejected: sort-by (.name.to-lower-case!), in-this-subcategory(subcategory.name, in-this-category(category.name, db.projects-rejected))
+      projects-rejected: projects-rejected-all
 
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
     view = view-path 'subcategories/show'
