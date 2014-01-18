@@ -184,7 +184,7 @@
         subcategory = ref$[j$];
         catProjects = inThisSubcategory(subcategory.name, inThisCategory(category.name, db));
         webProjects = inThisSubcategory(subcategory.name, inThisCategory('Web Services', db));
-        allProjects = unique(catProjects.concat(webProjects));
+        allProjects = sortBy(fn1$, unique(catProjects.concat(webProjects)));
         subcategory.projects = allProjects;
         subcategory.projectLogos = imagesIn(subcategory.projects);
         subcategory.randomLogo = selectRandom(subcategory.projectLogos);
@@ -194,6 +194,9 @@
       return it.name.toLowerCase();
     }, tree);
     function fn$(it){
+      return it.name.toLowerCase();
+    }
+    function fn1$(it){
       return it.name.toLowerCase();
     }
   };
