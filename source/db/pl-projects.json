@@ -2676,40 +2676,6 @@
     "slug": "linphone"
   },
   {
-    "description": "Wygodna i &#322;atwa w u&#380;yciu dystrybucja Linuksa",
-    "license_url": "http://www.linuxmint.com/faq.php",
-    "logo": "linux-mint.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/linuxmint",
-    "name": "Linux Mint Debian",
-    "tos_url": "",
-    "url": "http://www.linuxmint.com/download_lmde.php",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linux_Mint",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "linux-mint-debian"
-  },
-  {
     "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
