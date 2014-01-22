@@ -94,33 +94,7 @@ build_zh-CN:
 build_zh-TW:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-TW.ls
 
-build_html:
-	build_ar
-	build_ca
-	build_de
-	build_el
-	build_en
-	build_eo
-	build_es
-	build_fa
-	build_fi
-	build_fr
-	build_he
-	build_hi
-	build_io
-	build_it
-	build_ja
-	build_nl
-	build_no
-	build_pl
-	build_pt
-	build_ru
-	build_sr-Cyrl
-	build_sr
-	build_sv
-	build_tr
-	build_zh-CN
-	build_zh-TW
+build_html:	build_ar build_ca build_de build_el build_en build_eo build_es build_fa build_fi build_fr build_he build_hi build_io build_it build_ja build_nl build_no build_pl build_pt build_ru build_sr-Cyrl build_sr build_sv build_tr build_zh-CN build_zh-TW
 
 clean_tmp:
 	rm -rf tmp/*
