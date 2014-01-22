@@ -102,7 +102,7 @@ reset: clean_public all
 # LANGUAGE SPEIFIC
 de: clean_tmp mkdirs copy_assets build_de finalize
 en: clean_tmp mkdirs copy_assets build_en finalize
-fr: clean_tmp mkdirs copy_assets build_it finalize
+fr: clean_tmp mkdirs copy_assets build_fr finalize
 it: clean_tmp mkdirs copy_assets build_it finalize
 
 # PHONY
