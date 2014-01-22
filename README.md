@@ -126,18 +126,7 @@ A common mistake is putting unescaped quotation marks in a sentence. Make sure t
     "description": "Not escaping quotes will cause "an error".",
 
 ### Testing Your Translation
-When you're done with your translation, you should build the site in your language and see if it works. To do so, you'll have to temporarily edit the `./Makefile`.
-
-In `./Makefile` (line #37), change the following:
-
-    $(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
-
-To:
-
-    $(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
-
-
-Run `make test` to make sure your translations compile properly. It might take a little while (~minutes) if you're on a slower computer.
+When you're done with your translation, you should build the site in your language to see if it works. If want to test out your French translations for example, run `make fr`. Traditional Chinese translations? Run `make zh-TW`. It might take a little while (~minutes) if you're on a slower computer.
 
 ### Publishing Your Changes
 Your newly translated site is available at './public/**language-code**/'. Visit it in your browser and check out your work. Looking good! 
