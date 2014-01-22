@@ -39,6 +39,9 @@ build_de:
 build_en:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
 
+build_fr:
+	$(LIVESCRIPT_BIN) $(BUILD_DIR)fr.ls
+
 build_it:
 	$(LIVESCRIPT_BIN) $(BUILD_DIR)it.ls
 	
