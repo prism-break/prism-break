@@ -1518,6 +1518,39 @@
     "slug": "freedombox"
   },
   {
+    "description": "Plug and Play Verschlüsselungsmaschine, welche verteilte und Ende-zu-Ende verschlüsselte Telefonie und E-Mail-Kommunikation ermöglicht.",
+    "license_url": "https://github.com/enigmagroup/enigmasuite/blob/master/LICENSE",
+    "logo": "enigmabox.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/enigmagroup/enigmasuite",
+    "name": "Enigmabox",
+    "tos_url": "",
+    "url": "http://enigmabox.net/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SIP",
+      "VoIP"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mesh Networks",
+          "Email Accounts",
+          "VPN Accounts"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      }
+    ],
+    "slug": "enigmabox"
+  },
+  {
     "description": "Dezentralisiertes, zensurresistentes Netzwerk.",
     "license_url": "https://github.com/freenet/fred-staging/blob/next/LICENSE",
     "logo": "freenet.png",
