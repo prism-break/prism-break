@@ -132,6 +132,7 @@
   "Online Office Suite": "Online office suite",
   "Online Office Suite-notes": "<p>Le projet <strong>etherpad</strong> maintient une liste de <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>sites qui proposent des services grâce à etherpad</a>. Please only choose from the services that use SSL, and research the site's background before trusting them with your data.</p><p><a href='#email-service'><strong>Riseup</strong></a> propose aussi des adresses email, XMPP, et un service de chat, tous accessible via <a href='#meshnet'>Tor Hidden Service</a> addresses. La liste de ces adresses est <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>disponible içi</a>.</p><p><strong>ProtectedText</strong> chiffre/déchiffre le texte dans le navigateur, et le mot de passe (ou il est hashé) n'est jamais envoyé au serveur - de telle sorte que le texte ne peut pas être déchiffré même si les autorités le demandent.</p>",
   "Media Publishing": "Publication média",
+  "media-publishing-notes": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr.</p>",
   "Online Transactions": "Transactions en ligne",
   "Alternative Cryptocurrencies": "Monnaies cryptographiques alternatives.",
   "cryptocoins": "Liste des monnaies numériques alternatives chiffrées.",
