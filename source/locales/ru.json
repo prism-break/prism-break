@@ -135,7 +135,7 @@
   "Online Office Suite": "Офисные приложения",
   "productivity-notes": "<p>Проект <strong>etherpad</strong> публикует список <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>сайтов, которые используют etherpad</a>. Выбирайте те сервисы, которые используют SSL и узнайте больше о сайте, перед тем как доверять ему свои данные.</p><p><a href='#email-service'><strong>Riseup</strong></a> также предлагает сервисы электронной почты, XMPP и чата, все они доступны также как <a href='#meshnet'>скрытые сервисы Tor/a>. Список адресов <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>доступен здесь</a>.</p><p><strong>ProtectedText</strong> шифрует/расшифровывает текст в браузере и пароль (или его хеш) никогда не отправляется на сервер, так что текст не может быть расшифрован даже если этого потребуют власти.</p>",
   "Media Publishing": "Публикация информации",
-  "media-publishing-notes": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr</p>",
+  "media-publishing-notes": "--",
   "Online Transactions": "Платежные системы",
   "Alternative Cryptocurrencies": "Альтернативные криптовалюты.",
   "cryptocoins": "Список альтернативных криптографических электронных валют.",

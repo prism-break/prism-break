@@ -135,7 +135,7 @@
   "Online Office Suite": "Online office suite",
   "productivity-notes": "<p><strong>Etherpad</strong> projesi <a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>etherpad çalıştıran siteler listesi</a> barındırıyor. Lütfen bu servisler arasından yalnızca SSL kullananları seçin, ve onlara verinizle güvenmeden önce geçmişlerini araştırın.</p><p><a href='#email-service'><strong>Riseup</strong></a> aynı zamanda e-posta, XMPP, ve sohbet servisleri sunmaktadır ve her biri <a href='#meshnet'>Tor Saklı Sunucu</a> adreslerinden erişilebilir. Bu adreslerin listesi <a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>burada mevcuttur</a>.</p><p><strong>ProtectedText</strong> encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.</p>",
   "Media Publishing": "Medya yayını",
-  "media-publishing-notes": "<p><strong>Self-hosted</strong> is important. Hosting your blog on Wordpress.com is no better for your data security than Blogger or Tumblr</p>",
+  "media-publishing-notes": "--",
   "Online Transactions": "Online alım-satım",
   "Alternative Cryptocurrencies": "Alternatif kripto-para birimleri",
   "cryptocoins": "Alternatif şifreli dijital para birimleri listesi.",
