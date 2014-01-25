@@ -30,6 +30,11 @@ block content
 
             mixin filler-cards(subcategory.projects)
 
+          .section.notes
+            .pipe= t.Notes
+            = subcategory.slug
+            .text-block!= t[subcategory.slug + '-note']
+
           if(subcategory.projectsRejected.length > 0)
             .section.prop
               .pipe.negative
