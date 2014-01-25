@@ -21,6 +21,12 @@ block content
 
       mixin filler-cards(data.projects)
 
+    - var notes = t[data.subcategory.slug + '-notes']
+    - if (notes !== "--" && notes !== undefined)
+      .section.notes
+        .pipe= t.Notes
+        .text-block!= notes
+
     if(data.projectsRejected.length > 0)
       .section
         .pipe.negative
@@ -35,12 +41,6 @@ block content
             .icon: i.fa.fa-ban
 
         mixin filler-bars(data.projectsRejected)
-
-    - var notes = t[data.subcategory.slug + '-notes']
-    - if (notes !== "--" && notes !== undefined)
-      .section.notes
-        .pipe= t.Notes
-        .text-block!= notes
 
   .content-side
     .section
