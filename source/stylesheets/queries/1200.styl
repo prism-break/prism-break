@@ -19,17 +19,11 @@ body
     clearfix()
 
     .section
-      fr()
-
-      &.free
-        w 75%
-
-        .pipe
-          br 1px solid #ddd
 
       &.prop
         bl none
         w 25%
+        fr()
 
         &.empty
           d block
@@ -48,3 +42,6 @@ body
       .filler-columns-two
         d none
 
+  .align-left
+    fr()
+    w 75%

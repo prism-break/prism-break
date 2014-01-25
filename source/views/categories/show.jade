@@ -19,21 +19,21 @@ block content
         mixin subcategory-title(category, subcategory)
 
         .sections
-          .section.free
-            .pipe.positive
+          .align-left
+            .section.free
+              .pipe.positive
 
-              = t['Free Recommendations']
-              i.fa.fa-check
+                = t['Free Recommendations']
+                i.fa.fa-check
 
-            - each project in subcategory.projects
-              mixin project-card(project)
+              - each project in subcategory.projects
+                mixin project-card(project)
 
-            mixin filler-cards(subcategory.projects)
+              mixin filler-cards(subcategory.projects)
 
-          .section.notes
-            .pipe= t.Notes
-            = subcategory.slug
-            .text-block!= t[subcategory.slug + '-notes']
+            .section.notes
+              .pipe= t.Notes
+              .text-block!= t[subcategory.slug + '-notes']
 
           if(subcategory.projectsRejected.length > 0)
             .section.prop
