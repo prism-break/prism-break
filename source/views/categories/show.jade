@@ -33,7 +33,7 @@ block content
           .section.notes
             .pipe= t.Notes
             = subcategory.slug
-            .text-block!= t[subcategory.slug + '-note']
+            .text-block!= t[subcategory.slug + '-notes']
 
           if(subcategory.projectsRejected.length > 0)
             .section.prop
