@@ -36,6 +36,12 @@ block content
 
         mixin filler-bars(data.projectsRejected)
 
+    - var notes = t[data.subcategory.slug + '-notes']
+    - if (notes !== "--" && notes !== undefined)
+      .section.notes
+        .pipe= t.Notes
+        .text-block!= notes
+
   .content-side
     .section
 
