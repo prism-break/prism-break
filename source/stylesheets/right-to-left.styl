@@ -17,6 +17,9 @@ body.he
       fl()
       .nav
         fr()
+
+  #footer ul.nav li
+    fr()
         
   .pipe
     &.positive, &.negative
@@ -32,15 +35,17 @@ body.he
 
     .label
       fr()
+      mr 0
 
       .logo, i.fa
         fr()
         m 8px 0 0 12px
 
     .icon
-      fl()
-      margin-left -1em
-      margin-right 0
+      left 0
+      right auto
+      margin-left 0
+      margin-right 1em
 
   .card
     .btn-rectangle
@@ -154,17 +159,17 @@ body.he
 
     .sections
 
+      .division
+        float left !important
       .section
-        fl()
 
         &.free
-          w 75%
-
           .pipe
             br none
             bl 1px solid #ddd
 
         &.prop
+          float left !important
           br none
           w 25%
           .bar
