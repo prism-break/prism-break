@@ -5190,5 +5190,45 @@
       }
     ],
     "slug": "gitlab"
+  },
+  {
+    "description": "Encrypted messaging system where the recipient can read the message only once. After being read, the message is deleted and cannot be retrieved anymore.",
+    "license_url": "",
+    "logo": "viacrypt.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/vialink/viacrypt",
+    "name": "ViaCRYPT",
+    "tos_url": "",
+    "url": "https://viacry.pt/en/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Encrypted Messaging"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Encrypted Messaging"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Encrypted Messaging"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Encrypted Messaging"
+        ]
+      }
+    ],
+    "slug": "viacrypt"
   }
 ]
