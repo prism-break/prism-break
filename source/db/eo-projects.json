@@ -1368,7 +1368,7 @@
   },
   {
     "description": "Liberaj kaj malfermitkodaj aplikaĵoj por Android.",
-    "license_url": "https://f-droid.org/about/",
+    "license_url": "https://gitorious.org/f-droid/fdroidserver/source/COPYING/",
     "logo": "f-droid.png",
     "notes": "",
     "privacy_url": "",
@@ -2108,14 +2108,14 @@
   },
   {
     "description": "La projekto por nevidebla interreto.",
-    "license_url": "https://www.i2p2.de/licenses",
+    "license_url": "https://geti2p.net/en/get-involved/develop/licenses",
     "logo": "i2p.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://www.i2p2.de/newdevelopers.html",
+    "source_url": "https://geti2p.net/en/get-involved/guides/new-developers",
     "name": "I2P",
     "tos_url": "",
-    "url": "https://www.i2p2.de/",
+    "url": "https://geti2p.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/I2P",
     "protocols": [
       "I2P"
