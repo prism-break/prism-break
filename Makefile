@@ -1,8 +1,10 @@
-# make all					build the entire site (all languages)
+# make    					build the entire site (all languages)
 # make en						build the English edition (replace 'en' with 'fr' for French)
 # make clean				destroy built files
 # make reset				destroy built files and build the entire site
 # make watch_css		watches for stylus (CSS) edits and compiles it
+
+default: clean_tmp mkdirs copy_assets build_all finalize
 
 #---------------------------------------------------------------------- 
 # ALIASES 
@@ -125,7 +127,6 @@ build_all: build_css build_html
 
 # General
 
-all: clean_tmp mkdirs copy_assets build_all finalize
 test: clean_tmp mkdirs copy_assets build_en finalize
 clean: clean_tmp clean_public
 reset: clean_public all

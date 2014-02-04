@@ -1,6 +1,10 @@
 # prism-break
 
-Contributors are welcome.
+Welcome to the PRISM Break project. Here's a quick overview of the code. Raw JSON data is filtered through [LiveScript](http://livescript.net/) and then compiled to plain HTML with [Jade](http://jade-lang.com/) templates. CSS is managed with [Stylus](http://learnboost.github.io/stylus/), a powerful CSS preprocessor.
+
+The prism-break build process relies on several Node.js packages. Make sure to have [Node.js](http://nodejs.org/) installed on your system if you want to contribute to the code.
+
+If you'd like to translate the project to your favorite language, there's no need to install Node.js. Just edit the appropriate JSON files and submit a pull request. More info in the 'Contribute: Localizations' section.
 
 # 30-Second Quick Start
 
@@ -24,10 +28,10 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
 
 ### 4. Build
 
-    make all       # get a drink, it'll take a while build all 27 languages
+    make           # get a drink, it'll take a while build all 27 languages
 
-    make reset     # making a drastic change? run this instead of `make all`
-                   # this will vaporize /public before running `make all`
+    make reset     # making a drastic change? run this instead of `make`
+                   # this will vaporize /public before running `make`
 
 ### 5. Serve
 
