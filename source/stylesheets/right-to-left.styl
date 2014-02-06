@@ -18,8 +18,12 @@ body.he
       .nav
         fr()
 
-  #footer ul.nav li
-    fr()
+  #footer
+    ul.nav li
+      fr()
+    p
+      pr 0
+      pl 1.5em
         
   .pipe
     &.positive, &.negative
@@ -124,8 +128,8 @@ body.he
       fr()
 
       .text-block
-        pl 0
-        pr 1.5em
+        pl 1.5em
+        pr .5em
 
       .section
         ml 0
@@ -141,6 +145,7 @@ body.he
     .content-main
       fr()
 
+    &.all.index
     &.categories.show
     &.subcategories.show
     &.protocols.show
@@ -171,7 +176,6 @@ body.he
         &.prop
           float left !important
           br none
-          w 25%
           .bar
             bl none
 
