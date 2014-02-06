@@ -59,9 +59,9 @@ subcategories-all = (db) ->
       subcategories.push subcategory.name
   subcategories = sort-by (.to-lower-case!), unique subcategories
 
-nested-subcategories = (db) ->
-  tree = subcategories-all db
-  tree = map ((it) -> name: it, projects: in-this-subcategory(it, db)), tree
+nested-subcategories = (db, rejected) ->
+  tree = slugify-list subcategories-all db
+  tree = map ((it) -> name: it.name, slug: it.slug, projects: in-this-subcategory(it.name, db), projects-rejected: in-this-subcategory(it.name, rejected)), tree
   tree = unique tree
 
 images-in = (db) ->

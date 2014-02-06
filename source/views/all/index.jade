@@ -1,27 +1,63 @@
+include ../projects/mixins
 include ../layouts/mixins
+include ../categories/mixins
+include ../subcategories/mixins
 extends ../layouts/application
 block title
-  = t['site-title']
+  = t.All
 block content
 
+
   .content-main
-    - each platformType in platformTypes
 
-      .section
-        .pipe= platformType.name
+    //mixin category-head(category)
 
-        .bars
-          - each category in platformType.categories
-            a.bar(href="./categories/#{category.slug}")
-              .label
-                if category.fa === 'fa-mobile'
-                  i(class="fa #{category.fa} large")
-                else
-                  i(class="fa #{category.fa}")
-                = category.name
-              .icon
-                i.fa.fa-angle-right.ltr
-                i.fa.fa-angle-left.rtl
+    - each subcategory in subcategories
+
+      .area
+        mixin subcategory-title-nolink(subcategory)
+
+        .sections
+          .division
+            .section.free
+              .pipe.positive
+
+                = t['Free Recommendations']
+                i.fa.fa-check
+
+              - each project in subcategory.projects
+                mixin project-card(project)
+
+              mixin filler-cards(subcategory.projects)
+
+            - var notes = t[subcategory.slug + '-notes']
+            - if (notes !== "--" && notes !== undefined)
+              .section.notes
+                .pipe= t.Notes
+                .text-block!= notes
+
+          if(subcategory.projectsRejected.length > 0)
+            .section.prop
+              .pipe.negative
+                = t.Proprietary
+                i.fa.fa-times
+              - each project in subcategory.projectsRejected
+                .bar.negative
+                  .label(title=project.name)
+                    img.logo(src=routes.logosRejected + project.logo )
+                    = project.name
+                  .icon: i.fa.fa-ban
+
+              mixin filler-bars(subcategory.projectsRejected)
+          else
+            .section.prop.empty
+              .pipe= t.Proprietary
 
   .content-side
-    .text-block.large!= h.marked(t['site-introduction'])
+    .section
+
+      .pipe
+        = t.Categories
+
+      - each subcategory in subcategories
+        a.pipe.subtle(href="##{subcategory.slug}")= t[subcategory.name]

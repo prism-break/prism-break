@@ -114,13 +114,15 @@
       return it.toLowerCase();
     }, unique(subcategories));
   };
-  nestedSubcategories = function(db){
+  nestedSubcategories = function(db, rejected){
     var tree;
-    tree = subcategoriesAll(db);
+    tree = slugifyList(subcategoriesAll(db));
     tree = map(function(it){
       return {
-        name: it,
-        projects: inThisSubcategory(it, db)
+        name: it.name,
+        slug: it.slug,
+        projects: inThisSubcategory(it.name, db),
+        projectsRejected: inThisSubcategory(it.name, rejected)
       };
     }, tree);
     return tree = unique(tree);

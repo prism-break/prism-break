@@ -4,7 +4,7 @@
 require! mkdirp
 require! '../functions/helpers.ls'
 {sort-by, unique} = require \prelude-ls
-{select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, in-this-protocol, nested-categories, nested-categories-web, platform-types, protocol-types} = require '../functions/sort.ls'
+{select-random, slugify-db, slugify-project, subcategories-of, images-in, in-this-category, in-this-subcategory, in-these-subcategories, nested-subcategories, in-this-protocol, nested-categories, nested-categories-web, platform-types, protocol-types} = require '../functions/sort.ls'
 {write-html, write-json} = require '../functions/write-files.ls'
 {routes} = require '../functions/routes.ls'
 {view-path} = require '../functions/view-path.ls'
@@ -49,7 +49,7 @@ write-site-index = (db) ->
   #write-json data, file
   
 write-all-index = (db) ->
-  data = db.platform-types db.projects
+  data = nested-subcategories db.projects, db.projects-rejected
 
   path = 'all/index'
   view = view-path path
@@ -58,7 +58,7 @@ write-all-index = (db) ->
     iso: db.iso
     body-class: "#{db.iso} all index"
     h: helpers
-    platform-types: data
+    subcategories: data
     path: 'all'
     routes: routes 'all', 1
     t: db.locale
