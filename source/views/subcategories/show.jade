@@ -10,37 +10,42 @@ block content
   .content-main
     mixin subcategory-head(data)
 
-    .section
-      .pipe.positive
+    .area
+      .sections
+        .division
 
-        = t['Free Recommendations']
-        i.fa.fa-check
+          .section.free
+            .pipe.positive
+              = t['Free Recommendations']
+              i.fa.fa-check
 
-      - each project in data.projects
-        mixin project-card(project)
+            - each project in data.projects
+              mixin project-card(project)
 
-      mixin filler-cards(data.projects)
+            mixin filler-cards(data.projects)
 
-    - var notes = t[data.subcategory.slug + '-notes']
-    - if (notes !== "--" && notes !== undefined)
-      .section.notes
-        .pipe= t.Notes
-        .text-block!= notes
+          - var notes = t[data.subcategory.slug + '-notes']
+          - if (notes !== "--" && notes !== undefined)
+            .section.notes
+              .pipe= t.Notes
+              .text-block!= notes
 
-    if(data.projectsRejected.length > 0)
-      .section
-        .pipe.negative
-          = t.Proprietary
-          i.fa.fa-times
+        if(data.projectsRejected.length > 0)
+          .section.prop
+            .pipe.negative
+              = t.Proprietary
+              i.fa.fa-times
 
-        - each project in data.projectsRejected
-          .bar.negative
-            .label
-              img.logo(src=routes.logosRejected + project.logo )
-              = project.name
-            .icon: i.fa.fa-ban
+            - each project in data.projectsRejected
+              .bar.negative
+                .label
+                  img.logo(src=routes.logosRejected + project.logo )
+                  = project.name
 
-        mixin filler-bars(data.projectsRejected)
+            mixin filler-bars(data.projectsRejected)
+        else
+          .section.prop.empty
+            .pipe= t.Proprietary
 
   .content-side
     .section
@@ -51,17 +56,7 @@ block content
       - each subcat in data.category.subcategories
 
           if subcat.name === data.subcategory.name
-            .bar.active
-              .label
-                img.logo(src=routes.logos + subcat.randomLogo)
-                = t[subcat.name]
-              .icon: i.fa.fa-dot-circle-o
+            .pipe.subtle.active= t[subcat.name]
 
           else
-            a.bar(href=routes.subcategories + data.category.slug + '-' + subcat.slug)
-              .label
-                img.logo(src=routes.logos + subcat.randomLogo)
-                = t[subcat.name]
-              .icon
-                i.fa.fa-angle-right.ltr
-                i.fa.fa-angle-left.rtl
+            a.pipe.subtle(href=routes.subcategories + data.category.slug + '-' + subcat.slug)= t[subcat.name]

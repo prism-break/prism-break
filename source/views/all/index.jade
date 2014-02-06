@@ -9,8 +9,6 @@ block content
 
   .content-main
 
-    //mixin category-head(category)
-
     - each subcategory in subcategories
 
       .area
@@ -20,7 +18,6 @@ block content
           .division
             .section.free
               .pipe.positive
-
                 = t['Free Recommendations']
                 i.fa.fa-check
 
@@ -45,7 +42,6 @@ block content
                   .label(title=project.name)
                     img.logo(src=routes.logosRejected + project.logo )
                     = project.name
-                  .icon: i.fa.fa-ban
 
               mixin filler-bars(subcategory.projectsRejected)
           else
@@ -54,9 +50,7 @@ block content
 
   .content-side
     .section
-
-      .pipe
-        = t.Categories
+      .pipe= t.Categories
 
       - each subcategory in subcategories
         a.pipe.subtle(href="##{subcategory.slug}")= t[subcategory.name]
