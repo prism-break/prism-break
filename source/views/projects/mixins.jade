@@ -14,7 +14,7 @@ mixin project-card(project)
       - tag = t['Web Service']
 
   .card
-    a.btn-rectangle(href=routes.projects + project.slug)
+    a.btn-rectangle(href=routes.projects + project.slug title=project.description)
       img.card-logo(src= routes.logos + project.logo)
       .title= project.name
       .small= h.truncate(project.description, 140)
@@ -28,7 +28,7 @@ mixin project-card(project)
 mixin project-card-all(project)
 
   .card
-    a.btn-rectangle(href=routes.projects + project.slug)
+    a.btn-rectangle(href=routes.projects + project.slug title=project.description)
       img.card-logo(src= routes.logos + project.logo)
       .title= project.name
       .small= h.truncate(project.description, 140)
