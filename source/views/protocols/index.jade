@@ -3,6 +3,9 @@ extends ../layouts/application
 block title
   = t.Protocols
 block content
+
+  .content-side
+    .text-block.large!= h.marked(t['site-protocols-index'])
   
   .content-main
     - each protocolType in protocolTypes
@@ -17,6 +20,3 @@ block content
               .icon
                 i.fa.fa-angle-right.ltr
                 i.fa.fa-angle-left.rtl
-
-  .content-side
-    .text-block.large!= h.marked(t['site-protocols-index'])
