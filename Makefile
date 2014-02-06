@@ -129,7 +129,7 @@ build_all: build_css build_html
 
 test: clean_tmp mkdirs copy_assets build_en finalize
 clean: clean_tmp clean_public
-reset: clean_public all
+reset: clean_public default
 
 # Language Specific
 
