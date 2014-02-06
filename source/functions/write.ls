@@ -46,6 +46,34 @@ write-site-index = (db) ->
 
   write-html view, options, file
   #write-json data, file
+  
+write-categories-index = (db) ->
+  data = db.platform-types db.projects
+
+  path = 'categories/index'
+  view = view-path path
+  options = 
+    pretty: true
+    iso: db.iso
+    body-class: "#{db.iso} categories index"
+    h: helpers
+    platform-types: data
+    path: 'categories'
+    routes: routes 'categories', 1
+    t: db.locale
+  file = db.dir + path
+
+  write = ->
+    write-html view, options, file
+    #write-json data, file
+
+  mkdirp db.dir + 'categories', (err) ->
+    if err
+      console.error err
+    else
+      write!
+
+/*
 
 write-categories-index = (db) ->
   data = nested-categories db.projects
@@ -73,6 +101,7 @@ write-categories-index = (db) ->
       console.error err
     else
       write!
+*/
 
 write-categories-show = (db) ->
   create = (category) ->

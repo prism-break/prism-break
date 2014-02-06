@@ -42,7 +42,7 @@
   };
   writeCategoriesIndex = function(db){
     var data, path, view, options, file, write;
-    data = nestedCategories(db.projects);
+    data = db.platformTypes(db.projects);
     path = 'categories/index';
     view = viewPath(path);
     options = {
@@ -50,10 +50,9 @@
       iso: db.iso,
       bodyClass: db.iso + " categories index",
       h: helpers,
-      categories: data,
+      platformTypes: data,
       path: 'categories',
       routes: routes('categories', 1),
-      language: db.iso,
       t: db.locale
     };
     file = db.dir + path;
@@ -68,6 +67,35 @@
       }
     });
   };
+  /*
+  
+  write-categories-index = (db) ->
+    data = nested-categories db.projects
+  
+    path = 'categories/index'
+    view = view-path path
+    options = 
+      pretty: true
+      iso: db.iso
+      body-class: "#{db.iso} categories index"
+      h: helpers
+      categories: data
+      path: 'categories'
+      routes: routes 'categories', 1
+      language: db.iso
+      t: db.locale
+    file = db.dir + path
+  
+    write = ->
+      write-html view, options, file
+      #write-json data, file
+  
+    mkdirp db.dir + 'categories', (err) ->
+      if err
+        console.error err
+      else
+        write!
+  */
   writeCategoriesShow = function(db){
     var create, i$, ref$, len$, category, results$ = [];
     create = function(category){
