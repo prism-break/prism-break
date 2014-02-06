@@ -25,6 +25,20 @@ mixin project-card(project)
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
 
+mixin project-card-all(project)
+
+  .card
+    a.btn-rectangle(href=routes.projects + project.slug)
+      img.card-logo(src= routes.logos + project.logo)
+      .title= project.name
+      .small= h.truncate(project.description, 140)
+      .tags
+        - each category in project.categories
+         .tag= category.name
+
+    a.btn-square(href=project.url)
+      i.fa.fa-external-link-square
+
 mixin project-head(project)
   - var subcategories = []
   - each subcategory, i in project.categories[0].subcategories
