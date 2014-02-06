@@ -14,6 +14,7 @@ routes = (subdirectory, depth)->
   bare-paths =
     css: '../assets/css/screen.css'
     about: 'about/'
+    all: 'all/'
     categories: 'categories/'
     icons: '../assets/ico/'
     images: '../assets/img/'

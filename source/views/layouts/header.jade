@@ -7,6 +7,12 @@
 
   .menu
 
+    .nav.nav-all
+      if path == 'all'
+        a.active(href=routes.all)= t['All Categories']
+      else
+        a(href=routes.all)= t['All Categories']
+
     .nav.nav-platforms
       if path == ''
         a.active(href=routes.root)= t.Platforms
