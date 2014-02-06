@@ -18,6 +18,7 @@ write-localized-site = (db) ->
   mkdirp db.dir
 
   write-site-index db
+  write-all-index db
   write-categories-index db
   write-categories-show db
   write-subcategories-show db
@@ -47,6 +48,28 @@ write-site-index = (db) ->
   write-html view, options, file
   #write-json data, file
   
+write-all-index = (db) ->
+  data = db.platform-types db.projects
+
+  path = 'all/index'
+  view = view-path path
+  options = 
+    pretty: true
+    iso: db.iso
+    body-class: "#{db.iso} all index"
+    h: helpers
+    platform-types: data
+    path: 'all'
+    routes: routes 'all', 1
+    t: db.locale
+  file = db.dir + path
+
+  write = -> write-html view, options, file
+
+  mkdirp db.dir + 'all', (err) ->
+    if err => console.error err
+    else write! 
+
 write-categories-index = (db) ->
   data = db.platform-types db.projects
 
@@ -68,13 +91,10 @@ write-categories-index = (db) ->
     #write-json data, file
 
   mkdirp db.dir + 'categories', (err) ->
-    if err
-      console.error err
-    else
-      write!
+    if err => console.error err
+    else write!
 
 /*
-
 write-categories-index = (db) ->
   data = nested-categories db.projects
 
@@ -88,7 +108,6 @@ write-categories-index = (db) ->
     categories: data
     path: 'categories'
     routes: routes 'categories', 1
-    language: db.iso
     t: db.locale
   file = db.dir + path
 
@@ -97,10 +116,8 @@ write-categories-index = (db) ->
     #write-json data, file
 
   mkdirp db.dir + 'categories', (err) ->
-    if err
-      console.error err
-    else
-      write!
+    if err => console.error err
+    else write!
 */
 
 write-categories-show = (db) ->
@@ -134,7 +151,6 @@ write-categories-show = (db) ->
       platform-types: db.platform-types db.projects
       path: path
       routes: routes 'categories', 2
-      language: db.iso
       t: db.locale
     full-path = db.dir + path
     file = full-path + 'index'
@@ -183,7 +199,6 @@ write-subcategories-show = (db) ->
       data: data
       path: path
       routes: routes 'subcategories', 2
-      language: db.iso
       t: db.locale
     full-path = db.dir + path
     file = full-path + 'index'
@@ -215,7 +230,6 @@ write-protocols-index = (db) ->
     protocol-types: data
     path: 'protocols'
     routes: routes 'protocols', 1
-    language: db.iso
     t: db.locale
   file = db.dir + path
 
@@ -245,7 +259,6 @@ write-protocols-show = (db) ->
       protocol-types: protocol-types db.protocols
       path: path
       routes: routes 'protocols', 2
-      language: db.iso
       t: db.locale
     full-path = db.dir + path
     file = full-path + 'index'
@@ -276,7 +289,6 @@ write-projects-index = (db) ->
     projects: data
     path: 'projects'
     routes: routes 'projects', 1
-    language: db.iso
     t: db.locale
   file = db.dir + path
 
@@ -303,7 +315,6 @@ write-projects-show = (db) ->
       h: helpers
       project: data
       routes: routes 'projects', 2
-      language: db.iso
       t: db.locale
       path: path
     full-path = db.dir + path
@@ -314,10 +325,8 @@ write-projects-show = (db) ->
       #write-json data, file
 
     mkdirp full-path, (err) ->
-      if err
-        console.error err
-      else
-        write!
+      if err => console.error err
+      else write!
 
   for project in db.projects
     create project
@@ -333,18 +342,14 @@ write-about-index = (db) ->
       h: helpers
       path: 'about'
       routes: routes 'about', 1
-      language: db.iso
       t: db.locale
     file = db.dir + path
 
-    write = ->
-      write-html view, options, file
+    write = -> write-html view, options, file
 
     mkdirp db.dir + 'about', (err) ->
-      if err
-        console.error err
-      else
-        write!
+      if err => console.error err
+      else write!
 
   create!
 
@@ -359,19 +364,15 @@ write-about-media = (db) ->
       h: helpers
       path: path
       routes: routes 'about', 2
-      language: db.iso
       t: db.locale
     full-path = db.dir + path
     file = full-path + 'index'
 
-    write = ->
-      write-html view, options, file
+    write = -> write-html view, options, file
 
     mkdirp full-path, (err) ->
-      if err
-        console.error err
-      else
-        write!
+      if err => console.error err
+      else write!
 
   create!
 

@@ -59,6 +59,11 @@ subcategories-all = (db) ->
       subcategories.push subcategory.name
   subcategories = sort-by (.to-lower-case!), unique subcategories
 
+nested-subcategories = (db) ->
+  tree = subcategories-all db
+  tree = map ((it) -> name: it, projects: in-this-subcategory(it, db)), tree
+  tree = unique tree
+
 images-in = (db) ->
   list = map (.logo), db
 
@@ -143,6 +148,7 @@ exports.subcategories-in = subcategories-in
 exports.subcategories-in-raw = subcategories-in-raw
 exports.subcategories-of = subcategories-of
 exports.subcategories-all = subcategories-all
+exports.nested-subcategories = nested-subcategories
 exports.images-in = images-in
 exports.in-this-category = in-this-category
 exports.in-this-subcategory = in-this-subcategory
