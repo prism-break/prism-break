@@ -5,5 +5,6 @@ truncate = (text, chars) ->
   else
     text
 
-exports.marked = require 'marked'
+exports.marked = require \marked
+exports.moment = require \moment
 exports.truncate = truncate

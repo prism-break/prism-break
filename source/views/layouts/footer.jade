@@ -1,11 +1,5 @@
 mixin footer(path)
 
-  - var d = new Date()
-  - var YY = d.getFullYear()
-  - var MM = d.getMonth() + 1
-  - var DD = d.getDate()
-  - var date = YY + '/' + MM + '/' + DD
-
   #footer
     .content-side
       .text-block
@@ -52,9 +46,9 @@ mixin footer(path)
           = t['Source Code']
       li
         a(href='https://github.com/nylira/prism-break/commits/master')
-          = t.Updated + ': ' + date
+          = t.Updated + ': ' + h.moment().format("YYYY-MM-DD")
 
       li.copyright
         != "&copy; "
         a(href="http://nylira.com") Peng Zhong 
-        | 2013&mdash;
+        = h.moment().format("YYYY")
