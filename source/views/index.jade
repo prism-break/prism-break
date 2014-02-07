@@ -11,7 +11,7 @@ block content
     - each platformType in platformTypes
 
       .section
-        .pipe= platformType.name
+        .pipe= t[platformType.name]
 
         .bars
           - each category in platformType.categories
