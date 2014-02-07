@@ -42,9 +42,9 @@
 
   "warning-ios": "Warning: Apple iOS devices are affected by PRISM. Using them may compromise your privacy. We strongly recommend replacing your iOS device with an Android-compatible device running either [Replicant](../../projects/replicant) or [Cyanogenmod](../../projects/cyanogenmod).",
 
-  "warning-mac": "Warning: Apple OS X is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing OS X with either [Linux](../linux) or [BSD](../bsd).",
+  "warning-mac": "Warning: Apple OS X is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing OS X with either [Linux](../gnu-linux) or [BSD](../bsd).",
 
-  "warning-windows": "Warning: Microsoft Windows is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing Windows with either [Linux](../linux) or [BSD](../bsd).",
+  "warning-windows": "Warning: Microsoft Windows is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing Windows with either [Linux](../gnu-linux) or [BSD](../bsd).",
 
   "About": "About",
   "All": "All",
