@@ -1518,6 +1518,39 @@
     "slug": "freedombox"
   },
   {
+    "description": "Plug and play cjdns appliance, offering a distributed and end-to-end encrypted telephony and email service.",
+    "license_url": "https://github.com/enigmagroup/enigmasuite/blob/master/LICENSE",
+    "logo": "enigmabox.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/enigmagroup/enigmasuite",
+    "name": "Enigmabox",
+    "tos_url": "",
+    "url": "http://enigmabox.net/en/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SIP",
+      "VoIP"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mesh Networks",
+          "Email Accounts",
+          "VPN Accounts"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      }
+    ],
+    "slug": "enigmabox"
+  },
+  {
     "description": "Decentralized censorship-resistant network.",
     "license_url": "https://github.com/freenet/fred-staging/blob/next/LICENSE",
     "logo": "freenet.png",
