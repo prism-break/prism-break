@@ -99,7 +99,7 @@ mixin project-tail(project)
       mixin filler-bars(project.protocolsSlugged)
 
   .section
-    .pipe= ['Source Code']
+    .pipe= t['Source Code']
 
     - if(project.license_url !== '')
       a.bar(href=project.license_url)
