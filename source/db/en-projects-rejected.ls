@@ -403,8 +403,8 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google.png"
-    name: "Google Talk"
+    logo: "google-hangouts.png"
+    name: "Google Hangouts"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
