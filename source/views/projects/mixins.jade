@@ -17,7 +17,7 @@ mixin project-card(project)
     a.btn-rectangle(href=routes.projects + project.slug title=project.description)
       img.card-logo(src= routes.logos + project.logo)
       .title= project.name
-      .small= h.truncate(project.description, 140)
+      .small!= h.truncate(project.description, 140)
       if tag !== ""
         .tags
          .tag= tag
@@ -31,7 +31,7 @@ mixin project-card-all(project)
     a.btn-rectangle(href=routes.projects + project.slug title=project.description)
       img.card-logo(src= routes.logos + project.logo)
       .title= project.name
-      .small= h.truncate(project.description, 140)
+      .small!= h.truncate(project.description, 140)
       .tags
         - each category in project.categories
          .tag= category.name
