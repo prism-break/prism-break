@@ -1897,14 +1897,20 @@
     "source_url": "http://gitorious.org/+socialites/statusnet/gnu-social",
     "name": "GNU social",
     "tos_url": "",
-    "url": "https://www.gnu.org/software/social/",
-    "wikipedia_url": "",
+    "url": "http://gnu.io/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Social",
     "protocols": [
       "SSL/TLS"
     ],
     "categories": [
       {
         "name": "Servers",
+        "subcategories": [
+          "Social Networks"
+        ]
+      },
+      {
+        "name": "Web Services",
         "subcategories": [
           "Social Networks"
         ]
@@ -2120,6 +2126,12 @@
       },
       {
         "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Android",
         "subcategories": [
           "Web Browser Addons"
         ]

@@ -363,6 +363,15 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
+    logo: "amazon-appstore.png"
+    name: "Amazon Appstore"
+    categories: [
+      * name: "Android"
+        subcategories: ["App Store"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
     logo: "google-play.png"
     name: "Google Play"
     categories: [
@@ -394,8 +403,8 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google.png"
-    name: "Google Talk"
+    logo: "google-hangouts.png"
+    name: "Google Hangouts"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
@@ -452,11 +461,31 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
+    logo: "yahoo.png"
+    name: "Yahoo Search"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Web Search"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-bing.png"
     name: "Microsoft Bing"
     categories: [
       * name: "Web Services"
         subcategories: ["Web Search"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "ms-bing.png"
+    name: "Bing Maps"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["World Maps"]
+      * name: "Servers"
+        subcategories: ["World Maps"]
     ]
 
   * status: 'rejected'
