@@ -461,6 +461,15 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
+    logo: "yahoo.png"
+    name: "Yahoo Search"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Web Search"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-bing.png"
     name: "Microsoft Bing"
     categories: [
