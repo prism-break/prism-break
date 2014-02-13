@@ -470,6 +470,17 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
+    logo: "ms-bing.png"
+    name: "Bing Maps"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["World Maps"]
+      * name: "Servers"
+        subcategories: ["World Maps"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
     logo: "ms-bitlocker.png"
     name: "BitLocker Drive Encryption"
     categories: [
