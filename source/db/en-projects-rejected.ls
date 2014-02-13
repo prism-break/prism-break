@@ -363,6 +363,15 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
+    logo: "amazon-appstore.png"
+    name: "Amazon Appstore"
+    categories: [
+      * name: "Android"
+        subcategories: ["App Store"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
     logo: "google-play.png"
     name: "Google Play"
     categories: [
