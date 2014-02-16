@@ -82,7 +82,7 @@ projects-rejected =
     name: "Apple iOS"
     categories: [
       * name: "iOS"
-        subcategories: ["Operating Systems"]
+        subcategories: ["Operating Systems (Mobile)"]
     ]
 
   * status: 'rejected'
@@ -164,9 +164,9 @@ projects-rejected =
     name: "BlackBerry"
     categories: [
       * name: "Android"
-        subcategories: ["Operating Systems"]
+        subcategories: ["Operating Systems (Mobile)"]
       * name: "iOS"
-        subcategories: ["Operating Systems"]
+        subcategories: ["Operating Systems (Mobile)"]
     ]
 
   * status: 'rejected'
@@ -270,7 +270,7 @@ projects-rejected =
     name: 'Google Android'
     categories: [
       * name: "Android"
-        subcategories: ['Operating Systems']
+        subcategories: ['Operating Systems (Mobile)']
     ]
 
   * status: 'rejected'
@@ -593,9 +593,9 @@ projects-rejected =
     name: "Microsoft Windows Phone"
     categories: [
       * name: "Android"
-        subcategories: ["Operating Systems"]
+        subcategories: ["Operating Systems (Mobile)"]
       * name: "iOS"
-        subcategories: ["Operating Systems"]
+        subcategories: ["Operating Systems (Mobile)"]
     ]
 
   * status: 'rejected'
