@@ -782,13 +782,13 @@
       {
         "name": "Android",
         "subcategories": [
-          "Operating Systems"
+          "Operating Systems (Mobile)"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Operating Systems"
+          "Operating Systems (Mobile)"
         ]
       }
     ],
@@ -2126,6 +2126,12 @@
       },
       {
         "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Android",
         "subcategories": [
           "Web Browser Addons"
         ]
