@@ -39,7 +39,7 @@ block content
             - each project in data.projectsRejected
               .bar.negative
                 .label
-                  img.logo(src=routes.logosRejected + project.logo )
+                  img.logo(src=routes.logosRejected + project.logo, alt=project.logo)
                   = project.name
 
             mixin filler-bars(data.projectsRejected)

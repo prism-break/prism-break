@@ -44,7 +44,7 @@ block content
               - each project in subcategory.projectsRejected
                 .bar.negative
                   .label(title=project.name)
-                    img.logo(src=routes.logosRejected + project.logo )
+                    img.logo(src=routes.logosRejected + project.logo, alt=project.logo)
                     = project.name
 
               mixin filler-bars(subcategory.projectsRejected)
