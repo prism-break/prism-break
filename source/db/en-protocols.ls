@@ -1,5 +1,13 @@
 protocols =
 
+  * name: "DNS"
+    full_name: "Domain Name System"
+    description: "The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates easily memorized domain names to the numerical IP addresses needed for the purpose of locating computer services and devices worldwide. The Domain Name System is an essential component of the functionality of the Internet."
+    wikipedia_url: "https://en.wikipedia.org/wiki/Domain_Name_System"
+    categories: [
+      * name: "Communication"
+    ]
+
   * name: "IRC"
     full_name: "Internet Relay Chat"
     description: "Internet Relay Chat (IRC) is a protocol for live interactive Internet text messaging (chat) or synchronous conferencing. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing."
