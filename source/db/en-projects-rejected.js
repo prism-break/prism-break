@@ -496,6 +496,32 @@
     }, {
       status: 'rejected',
       tags: ["Proprietary", "PRISM"],
+      logo: "google.png",
+      name: "Google Public DNS",
+      categories: [
+        {
+          name: "Web Services",
+          subcategories: ["DNS"]
+        }, {
+          name: "Android",
+          subcategories: ["DNS"]
+        }, {
+          name: "iOS",
+          subcategories: ["DNS"]
+        }, {
+          name: "OS X",
+          subcategories: ["DNS"]
+        }, {
+          name: "Windows",
+          subcategories: ["DNS"]
+        }, {
+          name: "Servers",
+          subcategories: ["DNS"]
+        }
+      ]
+    }, {
+      status: 'rejected',
+      tags: ["Proprietary", "PRISM"],
       logo: "google-youtube.png",
       name: "YouTube",
       categories: [
