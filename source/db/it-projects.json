@@ -568,7 +568,7 @@
     "tos_url": "",
     "url": "https://cloudns.com.au/",
     "wikipedia_url": "",
-    "protocols": [],
+    "protocols": ["DNS"],
     "categories": [
       {
         "name": "Web Services",
@@ -995,7 +995,7 @@
     "tos_url": "",
     "url": "http://dnscrypt.org/",
     "wikipedia_url": "",
-    "protocols": [],
+    "protocols": ["DNS"],
     "categories": [
       {
         "name": "Servers",
@@ -3237,7 +3237,7 @@
     "tos_url": "",
     "url": "http://dot-bit.org/Main_Page",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Namecoin",
-    "protocols": [],
+    "protocols": ["DNS"],
     "categories": [
       {
         "name": "Servers",
@@ -3592,7 +3592,7 @@
     "tos_url": "",
     "url": "http://www.opennicproject.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
-    "protocols": [],
+    "protocols": ["DNS"],
     "categories": [
       {
         "name": "Web Services",
@@ -5209,7 +5209,7 @@
     "tos_url": "",
     "url": "http://www.unbound.net/",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
-    "protocols": [],
+    "protocols": ["DNS"],
     "categories": [
       {
         "name": "Servers",
