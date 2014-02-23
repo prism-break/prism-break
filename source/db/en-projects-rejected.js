@@ -175,6 +175,15 @@
     }, {
       status: 'rejected',
       tags: ["Proprietary", "PRISM"],
+      logo: "apple.png",
+      name: "Apple OS X DNS (Default)",
+      categories: [{
+        "name": "OS X",
+        subcategories: ["DNS"]
+      }]
+    }, {
+      status: 'rejected',
+      tags: ["Proprietary", "PRISM"],
       logo: "apple-osx.png",
       name: "Apple OS X Server",
       categories: [{
@@ -777,6 +786,15 @@
           subcategories: ["Operating Systems"]
         }
       ]
+    }, {
+      status: 'rejected',
+      tags: ["Proprietary", "PRISM"],
+      logo: "ms-windows.png",
+      name: "Microsoft DNS (Default)",
+      categories: [{
+        name: "Windows",
+        subcategories: ["DNS"]
+      }]
     }, {
       status: 'rejected',
       tags: ["Proprietary", "PRISM"],
