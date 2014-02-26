@@ -39,7 +39,7 @@ Serve the folder `./public` on your web server.
 
 # Project Inclusion Guidelines
 
-**Only F/OSS software is allowed to be featured on PRISM Break.** The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
+**Only F/OSS software is allowed to be featured on PRISM Break.** PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
 
 **Quality over quantity.** PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
 
