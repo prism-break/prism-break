@@ -2886,7 +2886,7 @@
     "description": "Média d'hébergement privé et rapide (image, audio, vidéo)",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
-    "notes": "Warning: MediaCrush includes Google Analytics and Google Adsense if you do not have Do Not Track enabled.",
+    "notes": "Warning: MediaCrush includes Google Analytics if you do not enable Do Not Track.\n\nThe hidden service is available at [http://mediacrs5ujufxog.onion/](http://mediacrs5ujufxog.onion/).",
     "privacy_url": "https://mediacru.sh/serious",
     "source_url": "https://github.com/MediaCrush/MediaCrush",
     "name": "MediaCrush",
@@ -2894,7 +2894,8 @@
     "url": "https://mediacru.sh/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS",
+      "Tor"
     ],
     "categories": [
       {
