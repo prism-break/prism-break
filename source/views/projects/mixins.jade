@@ -1,26 +1,24 @@
 include ../layouts/mixins
 mixin project-card(project)
 
-  - var subcategories = []
-  - each subcategory, i in project.categories[0].subcategories
-    if i === project.categories[0].subcategories.length - 1
-      - subcategories += subcategory.name
-    else
-      - subcategories += subcategory.name + ', '
-
-  - var tag = ""
+  - var tagService = ""
   - each category in project.categories
     if category.name === 'Web Services'
-      - tag = t['Web Service']
+      - tagService = t['Web Service']
 
   .card
     a.btn-rectangle(href=routes.projects + project.slug title=project.description)
       img.card-logo(src= routes.logos + project.logo, alt=project.logo)
       .title= project.name
       .small!= h.truncate(project.description, 140)
-      if tag !== ""
-        .tags
-         .tag= tag
+      .tags
+        if tagService !== ""
+          .tag= tagService
+        if project.audit
+          if project.audit.rating == 1
+            .tag.yellow= t.Audited
+          else
+            .tag.green= t.Audited
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
@@ -33,6 +31,11 @@ mixin project-card-all(project)
       .title= project.name
       .small!= h.truncate(project.description, 140)
       .tags
+        if project.audit 
+          if project.audit.rating == 1
+            .tag.yellow= t.Audited
+          else
+            .tag.green= t.Audited
         - each category in project.categories
          .tag= category.name
 
@@ -85,6 +88,14 @@ mixin project-tail(project)
       .pipe= t['Security Notes']
       .text-block!= h.marked(project.notes)
 
+  - if(project.audit)
+    .section.audit
+      .pipe= t['Audit Notes']
+      .text-block
+        != h.marked(project.audit.description)
+        p
+          = t.Audited + ' ' + project.audit.date + ' ' + t.by + ' ' +  project.audit.author
+          a(href=project.audit.url)= " (" + t["Audit Report"] + ")"
 
   - if(project.protocolsSlugged.length > 0)
     .section
