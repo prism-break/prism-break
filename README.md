@@ -112,6 +112,8 @@ If you want to translate project descriptions, URLs, or notes into your favorite
 
     ./source/db/*-projects.json
 
+**Warning:** When doing a complete site translation, do not translate the `"protocols"`, `"categories"`, or `"slug"` values to your language. Translating the `"slug"` will break URLs when switching between languages. Translating `"protocols"` and `"categories"` should be done in the `./source/locales/*.json` file instead.
+
 If you're interested in translating the site itself (all the nouns, verbs, and sentences that make up the static portion of the site), look here:
 
     ./source/locales/*.json
