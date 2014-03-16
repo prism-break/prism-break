@@ -5229,5 +5229,50 @@
       }
     ],
     "slug": "gitlab"
-  }
+  },
+  {
+    "description": "A modern, fast web-mail client with user-friendly encryption and privacy features",
+    "license_url": "https://raw.github.com/pagekite/Mailpile/master/LICENSE-2.0.txt",
+    "logo": "mailpile.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/pagekite/mailpile",
+    "name": "Mailpile",
+    "tos_url": "",
+    "url": "https://mailpile.is",
+    "wikipedia_url": "https://wikipedia.org/wiki/Mailpile",
+    "protocols": [
+      "GPG",
+      "SSL/TLS",
+      "Tor",
+      "XMPP"
+    ],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Email Clients"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Email Clients"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Email Clients"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Email Clients"
+        ]
+      }
+    ],
+    "slug": "mailpile"
+  }  
 ]
