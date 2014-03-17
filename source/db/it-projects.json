@@ -5318,5 +5318,27 @@
       }
     ],
     "slug": "openwrt"
+  },
+  {
+    "description": "A GNU/Linux-libre distribution for embedded devices.",
+    "license_url": "http://websvn.librewrt.org/filedetails.php?repname=LibreWRT+Subversion+Repository&path=%2Flibrewrt%2Ftrunk%2FLICENSE",
+    "logo": "librewrt.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://websvn.librewrt.org/listing.php",
+    "name": "LibreWRT",
+    "tos_url": "",
+    "url": "http://librewrt.org/index.php?title=Main_Page",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/LibreWRT",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Routers",
+        "subcategories": [
+          "Firmware"
+        ]
+      }
+    ],
+    "slug": "librewrt"
   }
 ]
