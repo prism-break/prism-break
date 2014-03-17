@@ -98,7 +98,7 @@ protocols =
 
   * name: "RSS"
     full_name: "Rich Site Summary"
-    description: "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats[2] to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called \"feed\", \"web feed\",[3] or \"channel\") includes full or summarized text, and metadata, like publishing date and author's name."
+    description: "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called \"feed\", \"web feed\", or \"channel\") includes full or summarized text, and metadata, like publishing date and author's name."
     wikipedia_url: "https://en.wikipedia.org/wiki/RSS"
     categories: [
       * name: "Syndication"
