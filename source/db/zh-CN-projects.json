@@ -1,6 +1,6 @@
 [
   {
-    "description": "封锁web上面的广告。",
+    "description": "屏蔽互联网上的广告",
     "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
     "logo": "adblock-edge.png",
     "notes": "",
@@ -15,32 +15,32 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       }
     ],
     "slug": "adblock-edge"
   },
   {
-    "description": "用于OS X的免费的多协议的聊天软件",
+    "description": "用于苹果OS X操作系统的免费聊天软件，支持多种协议。",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
     "notes": "",
@@ -51,23 +51,23 @@
     "url": "https://adium.im/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Adium",
     "protocols": [
-      "IRC",
+      "IRC通讯工具",
       "OTR",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging",
-          "IRC"
+          "即时通讯",
+          "IRC通讯工具"
         ]
       }
     ],
     "slug": "adium"
   },
   {
-    "description": "OpenPGP implementation for Android.",
+    "description": "Android安卓平台上的OpenPGP加密工具。",
     "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
     "logo": "apg.png",
     "notes": "",
@@ -78,20 +78,20 @@
     "url": "http://www.thialfihar.org/projects/apg/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Android_Privacy_Guard",
     "protocols": [
-      "GPG"
+      "GPG加密"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       }
     ],
     "slug": "apg"
   },
   {
-    "description": "Elegant, minimal, and flexible Linux&reg; distribution.",
+    "description": "优雅和灵活的linux发行版。最小化原则，所有额外组件都由用户自行选配。",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
     "notes": "",
@@ -106,26 +106,26 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
     "slug": "arch-linux"
   },
   {
-    "description": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.",
+    "description": "ARKOS是一个基于Linux的服务器操作系统，可在小巧的Raspberry Pi硬件上运行，提供电子邮件、聊天、文件共享、虚拟主机等功能。",
     "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
     "logo": "arkos.png",
     "notes": "",
@@ -141,14 +141,14 @@
         "name": "Servers",
         "subcategories": [
           "Raspberry Pi",
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
     "slug": "arkos"
   },
   {
-    "description": "PBX implementation with VoIP/SIP support.",
+    "description": "开源的分组交换机(PBX)系统，支持VoIP/SIP通讯。另有中文化衍生品freeiris。",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
     "notes": "",
@@ -157,7 +157,7 @@
     "name": "Asterisk",
     "tos_url": "",
     "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Asterisk",
     "protocols": [
       "SIP",
       "VoIP"
@@ -173,7 +173,7 @@
     "slug": "asterisk"
   },
   {
-    "description": "A full range of free, privacy-aware services.",
+    "description": "全方位的隐私保护，提供主机、VPN、电子邮件、即时通讯等服务。 需要许可",
     "license_url": "",
     "logo": "autistici-inventati.png",
     "notes": "",
@@ -184,27 +184,27 @@
     "url": "http://www.autistici.org/en/index.html",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "Email Accounts",
-          "Instant Messaging",
-          "Media Publishing",
-          "VPN Accounts",
-          "Web Hosting"
+          "邮件账户",
+          "即时通讯",
+          "媒体发布",
+          "VPN账户",
+          "网站架设"
         ]
       }
     ],
     "slug": "autistici-inventati"
   },
   {
-    "description": "没有中央机构的P2P数字货币",
+    "description": "基于P2P技术的，没有中央机构的匿名数字货币。也支持匿名通讯。",
     "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
     "logo": "bitcoin.png",
-    "notes": "",
+    "notes": "请注意，电子加密货币与现实货币的兑换比率可能会波动得非常厉害。此外，软件错误，恶意攻击等也可能导致您的损失。请提前做好准备！",
     "privacy_url": "",
     "source_url": "https://github.com/bitcoin/bitcoin",
     "name": "Bitcoin",
@@ -216,44 +216,44 @@
       {
         "name": "Android",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       }
     ],
     "slug": "bitcoin"
   },
   {
-    "description": "IRC instant messaging gateway that supports a bunch of protocols.",
+    "description": "IRC即时通讯网关，支持多种协议。",
     "license_url": "http://code.bitlbee.org/lh/bitlbee/view/head:/COPYING",
     "logo": "bitlbee.png",
     "notes": "",
@@ -264,44 +264,44 @@
     "url": "http://www.bitlbee.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/BitlBee",
     "protocols": [
-      "IRC",
+      "IRC通讯工具",
       "OTR",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging",
-          "IRC"
+          "即时通讯",
+          "IRC通讯工具"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
-          "IRC"
+          "即时通讯",
+          "IRC通讯工具"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging",
-          "IRC"
+          "即时通讯",
+          "IRC通讯工具"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
-          "IRC"
+          "即时通讯",
+          "IRC通讯工具"
         ]
       }
     ],
     "slug": "bitlbee"
   },
   {
-    "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
+    "description": "比特信：加密的、去中心化的P2P交流工具，基于比特币技术。",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
@@ -318,26 +318,26 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Alternatives"
+          "电子邮件的替代品"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Alternatives"
+          "电子邮件的替代品"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Alternatives"
+          "电子邮件的替代品"
         ]
       }
     ],
     "slug": "bitmessage"
   },
   {
-    "description": "开源的联合社交网络",
+    "description": "开源的、联合的社交网络",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
     "logo": "buddycloud.png",
     "notes": "",
@@ -348,22 +348,22 @@
     "url": "http://buddycloud.com/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS",
-      "XMPP"
+      "SSL/TLS加密",
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync",
-          "Social Networks"
+          "文件存储与同步",
+          "社交网络"
         ]
       }
     ],
     "slug": "buddycloud"
   },
   {
-    "description": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
+    "description": "Byzantium（拜占庭）是一个提供易用的网状网络的Linux发行版。支持live启动（移动设备免安装启动）",
     "license_url": "https://github.com/Byzantium/Byzantium/blob/master/LICENSE",
     "logo": "byzantium.png",
     "notes": "",
@@ -378,44 +378,44 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Routers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       }
     ],
     "slug": "byzantium"
   },
   {
-    "description": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
+    "description": "企业级的计算平台，与REHL（红帽）兼容。",
     "license_url": "http://mirror.centos.org/centos/6/os/x86_64/GPL",
     "logo": "centos.png",
     "notes": "",
@@ -430,14 +430,14 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
     "slug": "centos"
   },
   {
-    "description": "加密的IM用于iOS",
+    "description": "IOS和安卓平台下的加密通讯工具，OTR无记录。",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
     "notes": "The Guardian Project hosts <a href='https://guardianproject.info/howto/chatsecurely/'>a fantastic how-to guide</a> to chatting securely on Android.",
@@ -449,26 +449,26 @@
     "wikipedia_url": "",
     "protocols": [
       "OTR",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       }
     ],
     "slug": "chatsecure"
   },
   {
-    "description": "Cjdns is a networking protocol, a system of digital rules for message exchange between computers. \"Instead of letting other computers connect to you through a shared IP address which anyone can use, cjdns only lets computers talk to one other after they have verified each other cryptographically. ",
+    "description": "Cjdns是一种网络协议，制定了计算机之间的信息交换方式 \"该系统只在加密效验双方身份之后才允许通信，而不是采用一个所有人都能使用的IP地址，让任意计算机都能与你连接。",
     "license_url": "https://github.com/cjdelisle/cjdns/blob/master/LICENSE",
     "logo": "cjdns.png",
     "notes": "",
@@ -483,38 +483,38 @@
       {
         "name": "Android",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Routers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       }
     ],
     "slug": "cjdns"
   },
   {
-    "description": "支持GPG的轻量email应用",
+    "description": "支持GPG加密的轻量级的Email桌面客户端应用",
     "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
     "logo": "claws-mail.png",
     "notes": "",
@@ -525,40 +525,40 @@
     "url": "http://www.claws-mail.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Claws_Mail",
     "protocols": [
-      "GPG",
+      "GPG加密",
       "RSS",
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       }
     ],
     "slug": "claws-mail"
   },
   {
-    "description": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+    "description": "支持DNSCrypt、DNSSec和Namecoin的DNS服务。",
     "license_url": "",
     "logo": "cloudns.png",
     "notes": "",
@@ -568,19 +568,19 @@
     "tos_url": "",
     "url": "https://cloudns.com.au/",
     "wikipedia_url": "",
-    "protocols": ["DNS"],
+    "protocols": ["DNS服务"],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       }
     ],
     "slug": "cloudns"
   },
   {
-    "description": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.",
+    "description": "使用手机、电脑和无线路由器等设备，独立地搭建起分布式网络！",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
     "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
@@ -595,44 +595,44 @@
       {
         "name": "Android",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Routers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       }
     ],
     "slug": "commotion"
   },
   {
-    "description": "A personal PaaS you can host, hack and delete",
+    "description": "一个私家云服务，个人自己搭建的PaaS（平台即服务），你可以建站，任意修改或删除。",
     "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
     "logo": "cozy.png",
     "notes": "",
@@ -647,14 +647,14 @@
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       }
     ],
     "slug": "cozy"
   },
   {
-    "description": "Private and encrypted instant messaging within the web browser.",
+    "description": "在浏览器中进行私下的加密通讯。",
     "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
     "logo": "cryptocat.png",
     "notes": "",
@@ -671,42 +671,42 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
+          "网络浏览器插件",
+          "即时通讯"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
+          "网络浏览器插件",
+          "即时通讯"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
+          "网络浏览器插件",
+          "即时通讯"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
+          "网络浏览器插件",
+          "即时通讯"
         ]
       }
     ],
     "slug": "cryptocat"
   },
   {
-    "description": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.",
+    "description": "LUKS是dm-crypt加密程序的一个简单易用的用户接口层。",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",
     "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
@@ -721,19 +721,19 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       }
     ],
@@ -752,14 +752,14 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/CSipSimple",
     "protocols": [
       "SIP",
-      "SSL/TLS",
+      "SSL/TLS加密",
       "ZRTP"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       }
@@ -810,25 +810,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -874,19 +874,19 @@
     "url": "https://diasporafoundation.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Diaspora_%28software%29",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       }
     ],
@@ -908,31 +908,31 @@
       {
         "name": "Android",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       }
     ],
@@ -950,13 +950,13 @@
     "url": "https://disconnect.me/search",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       }
     ],
@@ -978,7 +978,7 @@
       {
         "name": "Windows",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       }
     ],
@@ -995,18 +995,18 @@
     "tos_url": "",
     "url": "http://dnscrypt.org/",
     "wikipedia_url": "",
-    "protocols": ["DNS"],
+    "protocols": ["DNS服务"],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       }
     ],
@@ -1028,25 +1028,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -1064,14 +1064,14 @@
     "url": "https://duckduckgo.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo",
     "protocols": [
-      "SSL/TLS",
+      "SSL/TLS加密",
       "Tor"
     ],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       }
     ],
@@ -1117,13 +1117,13 @@
     "url": "https://duck.co/blog/using-pidgin-with-xmpp-jabber",
     "wikipedia_url": "",
     "protocols": [
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       }
     ],
@@ -1145,7 +1145,7 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       }
     ],
@@ -1163,13 +1163,13 @@
     "url": "http://www.ejabberd.im/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd",
     "protocols": [
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "XMPP Servers"
+          "XMPP服务"
         ]
       }
     ],
@@ -1191,42 +1191,35 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       }
     ],
-    "slug": "encfs",
-    "audit": {
-      "author": "Taylor Hornby",
-      "date": "2014-01-14",
-      "description": "EncFS is probably safe as long as the adversary only gets one copy of the ciphertext and nothing more. EncFS is not safe if the adversary has the opportunity to see two or more snapshots of the ciphertext at different times. EncFS attempts to protect files from malicious modification, but there are serious problems with this feature.",
-      "rating": "0",
-      "url": "https://defuse.ca/audits/encfs.htm"
-    }
+    "slug": "encfs"
   },
   {
     "description": "一个 OpenPGP 插件用于 Thunderbird/Icedove.",
@@ -1240,31 +1233,31 @@
     "url": "https://www.enigmail.net/home/index.php",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Enigmail",
     "protocols": [
-      "GPG"
+      "GPG加密"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       }
     ],
@@ -1310,7 +1303,7 @@
     "url": "http://etherpad.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Etherpad",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
@@ -1341,17 +1334,17 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
     "protocols": [
       "CalDAV",
-      "GPG",
+      "GPG加密",
       "RSS",
       "S/MIME",
-      "SSL/TLS",
+      "SSL/TLS加密",
       "WebDAV"
     ],
     "categories": [
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       }
     ],
@@ -1417,19 +1410,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -1479,25 +1472,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -1515,16 +1508,16 @@
     "url": "https://www.freedomboxfoundation.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox",
     "protocols": [
-      "GPG",
+      "GPG加密",
       "TOR",
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
           "Raspberry Pi",
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -1549,15 +1542,15 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks",
-          "Email Accounts",
-          "VPN Accounts"
+          "分布式网状网络",
+          "邮件账户",
+          "VPN账户"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       }
     ],
@@ -1579,31 +1572,31 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       }
     ],
@@ -1650,7 +1643,7 @@
       {
         "name": "Routers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       }
     ],
@@ -1669,14 +1662,14 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica",
     "protocols": [
       "RSS",
-      "SSL/TLS",
-      "XMPP"
+      "SSL/TLS加密",
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       }
     ],
@@ -1694,28 +1687,28 @@
     "url": "http://gajim.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim",
     "protocols": [
-      "GPG",
+      "GPG加密",
       "OTR",
-      "SSL/TLS",
-      "XMPP"
+      "SSL/TLS加密",
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       }
     ],
@@ -1737,7 +1730,7 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       }
     ],
@@ -1759,19 +1752,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -1789,37 +1782,37 @@
     "url": "https://git-annex.branchable.com/",
     "wikipedia_url": "",
     "protocols": [
-      "GPG"
+      "GPG加密"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       }
     ],
@@ -1841,19 +1834,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -1871,31 +1864,31 @@
     "url": "http://www.gnupg.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
     "protocols": [
-      "GPG"
+      "GPG加密"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       }
     ],
@@ -1913,19 +1906,19 @@
     "url": "https://www.gnu.org/software/social/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       }
     ],
@@ -1943,37 +1936,37 @@
     "url": "https://gnunet.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       }
     ],
@@ -1991,14 +1984,14 @@
     "url": "https://guardianproject.info/code/gnupg/",
     "wikipedia_url": "",
     "protocols": [
-      "GPG",
+      "GPG加密",
       "S/MIME"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       }
     ],
@@ -2016,13 +2009,13 @@
     "url": "http://www.gpg4win.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gpg4win",
     "protocols": [
-      "GPG"
+      "GPG加密"
     ],
     "categories": [
       {
         "name": "Windows",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       }
     ],
@@ -2040,13 +2033,13 @@
     "url": "https://gpgtools.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/GPGTools",
     "protocols": [
-      "GPG"
+      "GPG加密"
     ],
     "categories": [
       {
         "name": "OS X",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       }
     ],
@@ -2068,7 +2061,7 @@
       {
         "name": "Routers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       }
     ],
@@ -2086,31 +2079,31 @@
     "url": "http://hexchat.github.io/",
     "wikipedia_url": "",
     "protocols": [
-      "IRC"
+      "IRC通讯工具"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "IRC"
+          "IRC通讯工具"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "IRC"
+          "IRC通讯工具"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "IRC"
+          "IRC通讯工具"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "IRC"
+          "IRC通讯工具"
         ]
       }
     ],
@@ -2128,37 +2121,37 @@
     "url": "https://www.eff.org/https-everywhere",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "Android",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       }
     ],
@@ -2182,31 +2175,31 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       }
     ],
@@ -2225,20 +2218,20 @@
     "wikipedia_url": "",
     "protocols": [
       "I2P",
-      "SSL/TLS",
+      "SSL/TLS加密",
       "Tor"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Media Publishing"
+          "媒体发布"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Media Publishing"
+          "媒体发布"
         ]
       }
     ],
@@ -2300,13 +2293,13 @@
     "url": "https://ixquick.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       }
     ],
@@ -2326,28 +2319,28 @@
     "protocols": [
       "OTR",
       "SIP",
-      "XMPP",
+      "XMPP协议",
       "ZRTP"
     ],
     "categories": [
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       }
@@ -2366,35 +2359,35 @@
     "url": "https://anonymous-proxy-servers.net/en/jondo-live-cd.html",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Anon_Proxy",
     "protocols": [
-      "GPG",
-      "SSL/TLS",
+      "GPG加密",
+      "SSL/TLS加密",
       "OTR",
       "Tor",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       }
     ],
@@ -2412,32 +2405,32 @@
     "url": "https://anonymous-proxy-servers.net/en/jondofox.html",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Anon_Proxy",
     "protocols": [
-      "SSL/TLS",
+      "SSL/TLS加密",
       "Tor"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       }
     ],
@@ -2455,15 +2448,15 @@
     "url": "http://code.google.com/p/k9mail/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail",
     "protocols": [
-      "GPG",
-      "SSL/TLS",
+      "GPG加密",
+      "SSL/TLS加密",
       "WebDAV"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       }
     ],
@@ -2482,7 +2475,7 @@
     "wikipedia_url": "",
     "protocols": [
       "SIP",
-      "SSL/TLS",
+      "SSL/TLS加密",
       "VoIP"
     ],
     "categories": [
@@ -2534,22 +2527,22 @@
     "url": "http://www.kontact.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact",
     "protocols": [
-      "GPG",
+      "GPG加密",
       "RSS",
       "S/MIME",
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       }
     ],
@@ -2567,15 +2560,15 @@
     "url": "http://kopete.kde.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kopete",
     "protocols": [
-      "GPG",
+      "GPG加密",
       "OTR",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       }
     ],
@@ -2585,7 +2578,7 @@
     "description": "Live CD/USB 设计的用于敌对环境的通信辅助系统",
     "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
     "logo": "liberte-linux.png",
-    "notes": "Warning: The most recent Liberté Linux release is dated 2012-09-01. This means that packages may be potentially outdated and vulnerable to unpatched security bugs.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/mkdesu/liberte",
     "name": "Liberté Linux",
@@ -2597,25 +2590,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       }
     ],
@@ -2637,7 +2630,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "VPN Servers"
+          "VPN服务器"
         ]
       }
     ],
@@ -2659,13 +2652,13 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       }
     ],
@@ -2684,49 +2677,49 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone",
     "protocols": [
       "SIP",
-      "SSL/TLS",
+      "SSL/TLS加密",
       "ZRTP"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
+          "即时通讯",
           "Video & Voice"
         ]
       }
@@ -2734,7 +2727,7 @@
     "slug": "linphone"
   },
   {
-    "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
+    "description": "Litecoin (sign : ? ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
     "notes": "",
@@ -2749,37 +2742,37 @@
       {
         "name": "Android",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Finance"
+          "金融"
         ]
       }
     ],
@@ -2797,13 +2790,13 @@
     "url": "https://lorea.org/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       }
     ],
@@ -2821,35 +2814,35 @@
     "url": "http://www.mailvelope.com/",
     "wikipedia_url": "",
     "protocols": [
-      "GPG"
+      "GPG加密"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Email Encryption",
-          "Web Browser Addons"
+          "邮件加密",
+          "网络浏览器插件"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Encryption",
-          "Web Browser Addons"
+          "邮件加密",
+          "网络浏览器插件"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Encryption",
-          "Web Browser Addons"
+          "邮件加密",
+          "网络浏览器插件"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Encryption",
-          "Web Browser Addons"
+          "邮件加密",
+          "网络浏览器插件"
         ]
       }
     ],
@@ -2901,20 +2894,20 @@
     "url": "https://mediacru.sh/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS",
+      "SSL/TLS加密",
       "Tor"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Media Publishing"
+          "媒体发布"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Media Publishing"
+          "媒体发布"
         ]
       }
     ],
@@ -2932,13 +2925,13 @@
     "url": "http://mediagoblin.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Media Publishing"
+          "媒体发布"
         ]
       }
     ],
@@ -2956,13 +2949,13 @@
     "url": "https://metager.de/en/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       }
     ],
@@ -2980,13 +2973,13 @@
     "url": "http://www.lightwitch.org/metronome",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Metronome_IM",
     "protocols": [
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "XMPP Servers"
+          "XMPP服务"
         ]
       }
     ],
@@ -3004,20 +2997,20 @@
     "url": "http://movim.eu/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Movim",
     "protocols": [
-      "SSL/TLS",
-      "XMPP"
+      "SSL/TLS加密",
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       }
     ],
@@ -3035,37 +3028,37 @@
     "url": "https://mozilla.org/firefox",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       }
     ],
@@ -3083,45 +3076,45 @@
     "url": "https://www.mozilla.org/en-US/thunderbird/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
-      "GPG",
-      "IRC",
+      "GPG加密",
+      "IRC通讯工具",
       "RSS",
       "S/MIME",
-      "SSL/TLS",
+      "SSL/TLS加密",
       "Tor",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Email Clients",
-          "Instant Messaging",
-          "IRC"
+          "邮件客户端",
+          "即时通讯",
+          "IRC通讯工具"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients",
-          "Instant Messaging",
-          "IRC"
+          "邮件客户端",
+          "即时通讯",
+          "IRC通讯工具"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Clients",
-          "Instant Messaging",
-          "IRC"
+          "邮件客户端",
+          "即时通讯",
+          "IRC通讯工具"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Clients",
-          "Instant Messaging",
-          "IRC"
+          "邮件客户端",
+          "即时通讯",
+          "IRC通讯工具"
         ]
       }
     ],
@@ -3143,6 +3136,12 @@
       "ZRTP"
     ],
     "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Video & Voice"
+        ]
+      },
       {
         "name": "BSD",
         "subcategories": [
@@ -3194,7 +3193,7 @@
     "url": "https://mykolab.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
     "protocols": [
-      "SSL/TLS",
+      "SSL/TLS加密",
       "WebDAV",
       "CalDAV",
       "CardDAV",
@@ -3204,25 +3203,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Email Accounts"
+          "邮件账户"
         ]
       }
     ],
@@ -3239,30 +3238,30 @@
     "tos_url": "",
     "url": "http://dot-bit.org/Main_Page",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Namecoin",
-    "protocols": ["DNS"],
+    "protocols": ["DNS服务"],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       }
     ],
@@ -3284,25 +3283,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -3326,43 +3325,43 @@
       {
         "name": "Android",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       }
     ],
@@ -3384,25 +3383,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       }
     ],
@@ -3426,19 +3425,19 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       }
     ],
@@ -3456,14 +3455,14 @@
     "url": "https://mike.tig.as/onionbrowser/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS",
+      "SSL/TLS加密",
       "Tor"
     ],
     "categories": [
       {
         "name": "iOS",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       }
     ],
@@ -3553,31 +3552,19 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Routers",
         "subcategories": [
-          "Firmware"
+          "操作系统"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -3595,13 +3582,13 @@
     "url": "http://www.igniterealtime.org/projects/openfire/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire",
     "protocols": [
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "XMPP Servers"
+          "XMPP服务"
         ]
       }
     ],
@@ -3618,12 +3605,12 @@
     "tos_url": "",
     "url": "http://www.opennicproject.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
-    "protocols": ["DNS"],
+    "protocols": ["DNS服务"],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       }
     ],
@@ -3641,13 +3628,13 @@
     "url": "http://sufficientlysecure.org/index.php/openpgp-keychain/",
     "wikipedia_url": "",
     "protocols": [
-      "GPG"
+      "GPG加密"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       }
     ],
@@ -3691,25 +3678,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -3731,7 +3718,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "VPN Servers"
+          "VPN服务器"
         ]
       }
     ],
@@ -3749,7 +3736,7 @@
     "url": "http://openvpn.net/index.php/open-source.html",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
@@ -3779,7 +3766,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "VPN Servers"
+          "VPN服务器"
         ]
       },
       {
@@ -3809,7 +3796,7 @@
       {
         "name": "Android",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       }
     ],
@@ -3850,7 +3837,7 @@
     "wikipedia_url": "",
     "protocols": [
       "SIP",
-      "SSL/TLS",
+      "SSL/TLS加密",
       "VoIP",
       "ZRTP"
     ],
@@ -3877,14 +3864,13 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
     "protocols": [
       "CalDAV",
-      "CardDAV",
-      "RSS"
+      "CardDAV"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       }
     ],
@@ -3906,19 +3892,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -3936,31 +3922,31 @@
     "url": "https://www.pidgin.im/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pidgin_%28software%29",
     "protocols": [
-      "IRC",
+      "IRC通讯工具",
       "OTR",
       "SIP",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging",
-          "IRC"
+          "即时通讯",
+          "IRC通讯工具"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
-          "IRC"
+          "即时通讯",
+          "IRC通讯工具"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
-          "IRC"
+          "即时通讯",
+          "IRC通讯工具"
         ]
       }
     ],
@@ -3978,13 +3964,13 @@
     "url": "http://piwigo.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Media Publishing"
+          "媒体发布"
         ]
       }
     ],
@@ -4046,13 +4032,13 @@
     "url": "https://prosody.im/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29",
     "protocols": [
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "XMPP Servers"
+          "XMPP服务"
         ]
       }
     ],
@@ -4070,7 +4056,7 @@
     "url": "https://www.protectedtext.com/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
@@ -4094,32 +4080,32 @@
     "url": "http://psi-plus.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Psi_%28instant_messaging_client%29",
     "protocols": [
-      "GPG",
-      "XMPP"
+      "GPG加密",
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       }
     ],
@@ -4137,13 +4123,13 @@
     "url": "http://pump.io/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       }
     ],
@@ -4165,7 +4151,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       }
     ],
@@ -4187,19 +4173,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -4227,7 +4213,7 @@
       {
         "name": "iOS",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -4249,25 +4235,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       }
     ],
@@ -4285,40 +4271,40 @@
     "url": "http://retroshare.sourceforge.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
     "protocols": [
-      "GPG",
+      "GPG加密",
       "VoIP"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Email Alternatives",
-          "Instant Messaging",
-          "Social Networks"
+          "电子邮件的替代品",
+          "即时通讯",
+          "社交网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Alternatives",
-          "Instant Messaging",
-          "Social Networks"
+          "电子邮件的替代品",
+          "即时通讯",
+          "社交网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Alternatives",
-          "Instant Messaging",
-          "Social Networks"
+          "电子邮件的替代品",
+          "即时通讯",
+          "社交网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Alternatives",
-          "Instant Messaging",
-          "Social Networks"
+          "电子邮件的替代品",
+          "即时通讯",
+          "社交网络"
         ]
       }
     ],
@@ -4336,18 +4322,18 @@
     "url": "https://riseup.net/en",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS",
+      "SSL/TLS加密",
       "Tor",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "Email Accounts",
-          "Instant Messaging",
+          "邮件账户",
+          "即时通讯",
           "Productivity",
-          "VPN Accounts"
+          "VPN账户"
         ]
       }
     ],
@@ -4365,14 +4351,14 @@
     "url": "http://sat.goffi.org/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS",
-      "XMPP"
+      "SSL/TLS加密",
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks"
+          "社交网络"
         ]
       }
     ],
@@ -4394,7 +4380,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -4416,7 +4402,7 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       }
     ],
@@ -4438,31 +4424,31 @@
       {
         "name": "Android",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons"
+          "网络浏览器插件"
         ]
       }
     ],
@@ -4484,7 +4470,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -4506,25 +4492,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       }
     ],
@@ -4542,13 +4528,13 @@
     "url": "https://startpage.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Web Services",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       }
     ],
@@ -4570,7 +4556,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "VPN Servers"
+          "VPN服务器"
         ]
       }
     ],
@@ -4588,33 +4574,33 @@
     "url": "http://sylpheed.sraoss.jp/en/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed",
     "protocols": [
-      "GPG",
+      "GPG加密",
       "RSS",
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Clients"
+          "邮件客户端"
         ]
       }
     ],
@@ -4636,29 +4622,29 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
+          "匿名网络",
+          "社交网络"
         ]
       }
     ],
@@ -4680,7 +4666,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       }
     ],
@@ -4698,35 +4684,35 @@
     "url": "https://tails.boum.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System",
     "protocols": [
-      "GPG",
-      "SSL/TLS",
+      "GPG加密",
+      "SSL/TLS加密",
       "OTR",
       "Tor",
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems (Live)"
+          "即插即用操作系统"
         ]
       }
     ],
@@ -4748,7 +4734,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Communication Protocols"
+          "通讯协议"
         ]
       }
     ],
@@ -4766,13 +4752,13 @@
     "url": "http://www.tigase.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase",
     "protocols": [
-      "XMPP"
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "XMPP Servers"
+          "XMPP服务"
         ]
       }
     ],
@@ -4794,21 +4780,21 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Mesh Networks"
+          "分布式网状网络"
         ]
       },
       {
         "name": "Routers",
         "subcategories": [
-          "Mesh Networks",
-          "VPN Servers"
+          "分布式网状网络",
+          "VPN服务器"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Mesh Networks",
-          "VPN Servers"
+          "分布式网状网络",
+          "VPN服务器"
         ]
       }
     ],
@@ -4832,31 +4818,31 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Anonymizing Networks"
+          "匿名网络"
         ]
       }
     ],
@@ -4874,32 +4860,32 @@
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
     "protocols": [
-      "SSL/TLS",
+      "SSL/TLS加密",
       "Tor"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browsers"
+          "网络浏览器"
         ]
       }
     ],
@@ -4923,25 +4909,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Encryption"
+          "邮件加密"
         ]
       }
     ],
@@ -4965,13 +4951,13 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       }
     ],
@@ -4993,25 +4979,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Disk Encryption"
+          "磁盘加密"
         ]
       }
     ],
@@ -5029,31 +5015,31 @@
     "url": "http://www.weechat.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat",
     "protocols": [
-      "IRC"
+      "IRC通讯工具"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "IRC"
+          "IRC通讯工具"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "IRC"
+          "IRC通讯工具"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "IRC"
+          "IRC通讯工具"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "IRC"
+          "IRC通讯工具"
         ]
       }
     ],
@@ -5077,19 +5063,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -5107,13 +5093,13 @@
     "url": "https://wordpress.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Media Publishing"
+          "媒体发布"
         ]
       }
     ],
@@ -5132,14 +5118,14 @@
     "wikipedia_url": "",
     "protocols": [
       "OTR",
-      "SSL/TLS",
-      "XMPP"
+      "SSL/TLS加密",
+      "XMPP协议"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging"
+          "即时通讯"
         ]
       }
     ],
@@ -5161,19 +5147,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Web Search"
+          "网络搜索"
         ]
       }
     ],
@@ -5195,7 +5181,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "操作系统"
         ]
       }
     ],
@@ -5213,13 +5199,13 @@
     "url": "http://www.zenphoto.org/",
     "wikipedia_url": "",
     "protocols": [
-      "SSL/TLS"
+      "SSL/TLS加密"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Media Publishing"
+          "媒体发布"
         ]
       }
     ],
@@ -5236,18 +5222,18 @@
     "tos_url": "",
     "url": "http://www.unbound.net/",
     "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
-    "protocols": ["DNS"],
+    "protocols": ["DNS服务"],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "DNS"
+          "DNS服务"
         ]
       }
     ],
@@ -5269,7 +5255,7 @@
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "文件存储与同步"
         ]
       }
     ],
