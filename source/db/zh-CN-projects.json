@@ -1,6 +1,6 @@
 [
   {
-    "description": "封锁web上面的广告。",
+    "description": "屏蔽互联网上的广告",
     "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
     "logo": "adblock-edge.png",
     "notes": "",
@@ -40,7 +40,7 @@
     "slug": "adblock-edge"
   },
   {
-    "description": "用于OS X的免费的多协议的聊天软件",
+    "description": "用于苹果OS X操作系统的免费聊天软件，支持多种协议。",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
     "notes": "",
@@ -67,7 +67,7 @@
     "slug": "adium"
   },
   {
-    "description": "OpenPGP implementation for Android.",
+    "description": "Android安卓平台上的OpenPGP加密工具。",
     "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
     "logo": "apg.png",
     "notes": "",
@@ -91,7 +91,7 @@
     "slug": "apg"
   },
   {
-    "description": "Elegant, minimal, and flexible Linux&reg; distribution.",
+    "description": "优雅和灵活的linux发行版。最小化原则，所有额外组件都由用户自行选配。",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
     "notes": "",
@@ -125,7 +125,7 @@
     "slug": "arch-linux"
   },
   {
-    "description": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.",
+    "description": "ARKOS是一个基于Linux的服务器操作系统，可在小巧的Raspberry Pi硬件上运行，提供电子邮件、聊天、文件共享、虚拟主机等功能。",
     "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
     "logo": "arkos.png",
     "notes": "",
@@ -148,7 +148,7 @@
     "slug": "arkos"
   },
   {
-    "description": "PBX implementation with VoIP/SIP support.",
+    "description": "开源的分组交换机(PBX)系统，支持VoIP/SIP通讯。另有中文化衍生品freeiris。",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
     "notes": "",
@@ -173,7 +173,7 @@
     "slug": "asterisk"
   },
   {
-    "description": "A full range of free, privacy-aware services.",
+    "description": "全方位的隐私保护，提供主机、VPN、电子邮件、即时通讯等服务。 需要许可",
     "license_url": "",
     "logo": "autistici-inventati.png",
     "notes": "",
@@ -201,10 +201,10 @@
     "slug": "autistici-inventati"
   },
   {
-    "description": "没有中央机构的P2P数字货币",
+    "description": "基于P2P技术的，没有中央机构的匿名数字货币。也支持匿名通讯。",
     "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
     "logo": "bitcoin.png",
-    "notes": "",
+    "notes": "请注意，电子加密货币与现实货币的兑换比率可能会波动得非常厉害。此外，软件错误，恶意攻击等也可能导致您的损失。请提前做好准备！",
     "privacy_url": "",
     "source_url": "https://github.com/bitcoin/bitcoin",
     "name": "Bitcoin",
@@ -253,7 +253,7 @@
     "slug": "bitcoin"
   },
   {
-    "description": "IRC instant messaging gateway that supports a bunch of protocols.",
+    "description": "IRC即时通讯网关，支持多种协议。",
     "license_url": "http://code.bitlbee.org/lh/bitlbee/view/head:/COPYING",
     "logo": "bitlbee.png",
     "notes": "",
@@ -301,7 +301,7 @@
     "slug": "bitlbee"
   },
   {
-    "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
+    "description": "比特信：加密的、去中心化的P2P交流工具，基于比特币技术。",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
@@ -337,7 +337,7 @@
     "slug": "bitmessage"
   },
   {
-    "description": "开源的联合社交网络",
+    "description": "开源的、联合的社交网络",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
     "logo": "buddycloud.png",
     "notes": "",
@@ -363,7 +363,7 @@
     "slug": "buddycloud"
   },
   {
-    "description": "Byzantium is a live Linux distribution that delivers easy-to-use mesh networking.",
+    "description": "Byzantium（拜占庭）是一个提供易用的网状网络的Linux发行版。支持live启动（移动设备免安装启动）",
     "license_url": "https://github.com/Byzantium/Byzantium/blob/master/LICENSE",
     "logo": "byzantium.png",
     "notes": "",
@@ -415,7 +415,7 @@
     "slug": "byzantium"
   },
   {
-    "description": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
+    "description": "企业级的计算平台，与REHL（红帽）兼容。",
     "license_url": "http://mirror.centos.org/centos/6/os/x86_64/GPL",
     "logo": "centos.png",
     "notes": "",
@@ -437,7 +437,7 @@
     "slug": "centos"
   },
   {
-    "description": "加密的IM用于iOS",
+    "description": "IOS和安卓平台下的加密通讯工具，OTR无记录。",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
     "notes": "The Guardian Project hosts <a href='https://guardianproject.info/howto/chatsecurely/'>a fantastic how-to guide</a> to chatting securely on Android.",
@@ -468,7 +468,7 @@
     "slug": "chatsecure"
   },
   {
-    "description": "Cjdns is a networking protocol, a system of digital rules for message exchange between computers. \"Instead of letting other computers connect to you through a shared IP address which anyone can use, cjdns only lets computers talk to one other after they have verified each other cryptographically. ",
+    "description": "Cjdns是一种网络协议，制定了计算机之间的信息交换方式。 \"该系统只在加密效验双方身份之后才允许通信，而不是采用一个所有人都能使用的IP地址，让任意计算机都能与你连接。",
     "license_url": "https://github.com/cjdelisle/cjdns/blob/master/LICENSE",
     "logo": "cjdns.png",
     "notes": "",
@@ -514,7 +514,7 @@
     "slug": "cjdns"
   },
   {
-    "description": "支持GPG的轻量email应用",
+    "description": "支持GPG加密的轻量级的Email桌面客户端应用",
     "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
     "logo": "claws-mail.png",
     "notes": "",
@@ -558,7 +558,7 @@
     "slug": "claws-mail"
   },
   {
-    "description": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
+    "description": "支持DNSCrypt、DNSSec和Namecoin的DNS服务。",
     "license_url": "",
     "logo": "cloudns.png",
     "notes": "",
@@ -580,7 +580,7 @@
     "slug": "cloudns"
   },
   {
-    "description": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.",
+    "description": "使用手机、电脑和无线路由器等设备，独立地搭建起分布式网络！",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
     "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
@@ -632,7 +632,7 @@
     "slug": "commotion"
   },
   {
-    "description": "A personal PaaS you can host, hack and delete",
+    "description": "一个私家云服务，个人自己搭建的PaaS（平台即服务），你可以建站，任意修改或删除。",
     "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
     "logo": "cozy.png",
     "notes": "",
@@ -654,7 +654,7 @@
     "slug": "cozy"
   },
   {
-    "description": "Private and encrypted instant messaging within the web browser.",
+    "description": "在浏览器中进行私密的加密通讯。",
     "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
     "logo": "cryptocat.png",
     "notes": "",
@@ -706,10 +706,10 @@
     "slug": "cryptocat"
   },
   {
-    "description": "LUKS is a convenience and ease-of-use layer for use on top of dm-crypt.",
+    "description": "LUKS是dm-crypt加密程序的一个简单易用的用户接口层。",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",
-    "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
+    "notes": "Gentoo GNU/Linux 有一个[关于dm-crypt和LUKS的指南](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS). \n\n Arch GNU/Linux 有一个[关于dm-crypt和LUKS的指南](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) 对Parabola GNU/Linux也适用。\n\n dm-crypt在DragonFly BSD系统上也适用。",
     "privacy_url": "",
     "source_url": "https://code.google.com/p/cryptsetup/source/browse/",
     "name": "cryptsetup",
@@ -740,7 +740,7 @@
     "slug": "cryptsetup"
   },
   {
-    "description": "免费、加密的VoIP用于Android.",
+    "description": "免费、加密的IP电话，用于Android平台。",
     "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
     "logo": "csipsimple.png",
     "notes": "",
@@ -767,7 +767,7 @@
     "slug": "csipsimple"
   },
   {
-    "description": "Android 设备的售后固件",
+    "description": "Android 设备的开源固件",
     "license_url": "https://source.android.com/source/licenses.html",
     "logo": "cyanogenmod.png",
     "notes": "",
@@ -795,7 +795,7 @@
     "slug": "cyanogenmod"
   },
   {
-    "description": "流行的正派的 GNU/Linux 发行版",
+    "description": "完全免费，作风正派的 GNU/Linux 发行版",
     "license_url": "http://www.debian.org/legal/licenses/",
     "logo": "debian.png",
     "notes": "",
@@ -835,10 +835,10 @@
     "slug": "debian"
   },
   {
-    "description": "Free open source client for the Desura distribution service.",
+    "description": "免费开源的Desura distribution service客户端。",
     "license_url": "https://github.com/lindenlab/desura-app/blob/master/LICENSE.md",
     "logo": "desurium.png",
-    "notes": "Desura is client software. You will still have to trust and depend on the proprietary <a href='http://www.desura.com'>Desura service</a>.",
+    "notes": "Desurium只是一个客户端，你仍然必须依赖于闭源的 <a href='http://www.desura.com'>Desura service</a>。",
     "privacy_url": "",
     "source_url": "https://github.com/lindenlab/desura-app",
     "name": "Desura",
@@ -863,7 +863,7 @@
     "slug": "desurium"
   },
   {
-    "description": "社区运作的分布式社交网络",
+    "description": "由社区维护的分布式社交网络",
     "license_url": "https://github.com/diaspora/diaspora/blob/develop/COPYRIGHT",
     "logo": "diaspora.png",
     "notes": "",
@@ -893,7 +893,7 @@
     "slug": "diaspora"
   },
   {
-    "description": "阻止第三方网站跟踪你",
+    "description": "显示出并阻止网站对你搜索和网络历史的跟踪",
     "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
     "logo": "disconnect.png",
     "notes": "",
@@ -939,10 +939,10 @@
     "slug": "disconnect"
   },
   {
-    "description": "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo.",
+    "description": "匿名VPN服务，让你隐秘访问常用搜索引擎，如Google, Bing和Yahoo.",
     "license_url": "",
     "logo": "disconnect-search.png",
-    "notes": "The source code can be downloaded for viewing by right clicking \"Get Disconnect Search\" on the official website and selecting \"Save Link As...\".\n\nWith \"search.xpi\" downloaded, change the file extension to \".zip\" and extract it to view the source code.",
+    "notes": "在官网的\"Get Disconnect Search\"上点击“右键”-“链接另存为”，即可下载源代码。\n\n当你下载了\"search.xpi\"之后，把后缀名改成\".zip\"，解压即可。
     "privacy_url": "",
     "source_url": "https://disconnect.me/search",
     "name": "Disconnect Search",
@@ -963,7 +963,7 @@
     "slug": "disconnect-search"
   },
   {
-    "description": "High performance partition encryption software for Windows.",
+    "description": "Windows系统下高效的磁盘加密工具。",
     "license_url": "https://diskcryptor.net/wiki/Main_Page",
     "logo": "diskcryptor.png",
     "notes": "",
@@ -985,7 +985,7 @@
     "slug": "diskcryptor"
   },
   {
-    "description": "A tool to secure communications between a client and a DNS resolver.",
+    "description": "一个保障客户端与DNS服务器通讯安全的软件。",
     "license_url": "https://github.com/jedisct1/dnscrypt-proxy/blob/master/COPYING",
     "logo": "dnscrypt.png",
     "notes": "",
@@ -1013,7 +1013,7 @@
     "slug": "dnscrypt"
   },
   {
-    "description": "DragonFly BSD is a free Unix-like operating system created as a fork of FreeBSD 4.8. Matthew Dillon, an Amiga developer in the late 1980s and early 1990s and a FreeBSD developer between 1994 and 2003, began work on DragonFly BSD in June 2003 and announced it on the FreeBSD mailing lists on 16 July 2003.",
+    "description": "DragonFly BSD是一个自由授权的类UNIX操作系统，衍生自FreeBSD 4.8。开发者Matthew Dillon，在20世纪80年代后期到90年代前期曾是Amiga的开发者，1994年到2003年间参与FreeBSD的开发。2003年6月，他开始开发DragonFly BSD并在7月16号将其发布在FreeBSD的邮寄清单上。",
     "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
     "logo": "dragonfly-bsd.png",
     "notes": "",
@@ -1056,7 +1056,7 @@
     "description": "匿名、无记录的web搜索",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
-    "notes": "DuckDuckGo is a software-as-a-service (SaaS) hosted around the world that provides you with anonymous search results from [these sources](https://dukgo.com/help/en_US/results/sources). DDG open source components are [available here](https://github.com/duckduckgo).\n\nThere is also a DuckDuckGo hidden service at [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) for Tor users.",
+    "notes": "DuckDuckGo是一个“软件即服务”(SaaS)平台，它可以让你匿名地对[这些来源](https://dukgo.com/help/en_US/results/sources)进行搜索。 DDG开源组件可以在[这里](https://github.com/duckduckgo)得到。\n\n 对于Tor用户，同样有一个DuckDuckGo匿名服务器，地址是[3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) 。",
     "privacy_url": "https://duckduckgo.com/privacy",
     "source_url": "https://github.com/duckduckgo/duckduckgo",
     "name": "DuckDuckGo",
@@ -1078,7 +1078,7 @@
     "slug": "duckduckgo"
   },
   {
-    "description": "A free securely-hosted online poll, with a privacy-enhanced version.",
+    "description": "免费的私密在线日程表，还有隐私增强版。",
     "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
     "logo": "dudle.png",
     "notes": "",
@@ -1106,7 +1106,7 @@
     "slug": "dudle"
   },
   {
-    "description": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.",
+    "description": "私密的XMPP服务，运行在DuckDuckGo社区平台。&mdash;包含使用说明。",
     "license_url": "",
     "logo": "duckduckgo.png",
     "notes": "",
@@ -1130,7 +1130,7 @@
     "slug": "dukgocom"
   },
   {
-    "description": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
+    "description": "GNU/Linux平台下的可移植的企业级加密文件存储系统。",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
     "logo": "geli.png",
     "notes": "",
@@ -1152,7 +1152,7 @@
     "slug": "ecryptfs"
   },
   {
-    "description": "XMPP server written in Erlang/OTP for GNU/Linux and OS X.",
+    "description": "使用Erlang/OTPXMPP编写的，支持GNU/Linux和OS X。",
     "license_url": "https://github.com/processone/ejabberd/blob/master/COPYING",
     "logo": "ejabberd.png",
     "notes": "",
@@ -1176,10 +1176,10 @@
     "slug": "ejabberd"
   },
   {
-    "description": "File based encryption tool with support for Linux, Mac OS and Windows.",
+    "description": "基于文件的加密工具，支持Linux, Mac OS和Windows。",
     "license_url": "https://code.google.com/p/encfs/source/browse/trunk/COPYING",
     "logo": "encfs.png",
-    "notes": "EncFS is available for Windows through the \"encfs4win\" port.",
+    "notes": "Windows平台可以通过\"encfs4win\"来使用Encfs.",
     "privacy_url": "",
     "source_url": "https://code.google.com/p/encfs/source/browse/#svn%2Ftrunk",
     "name": "encfs",
@@ -1229,10 +1229,10 @@
     }
   },
   {
-    "description": "一个 OpenPGP 插件用于 Thunderbird/Icedove.",
+    "description": "雷鸟（Thunderbird）和冰鼬鼠（Icedove）上的一个 OpenPGP 加密插件。",
     "license_url": "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi",
     "logo": "enigmail.png",
-    "notes": "[Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.",
+    "notes": "[这里有一份Security In A Box提供的指南](https://securityinabox.org/en/thunderbird_main) ，指导你用Mozilla Thunderbird、GNU Privacy Guard (GPG)和Enigmail加密自己的邮件。",
     "privacy_url": "",
     "source_url": "https://www.enigmail.net/download/source.php",
     "name": "Enigmail",
@@ -1271,10 +1271,10 @@
     "slug": "enigmail"
   },
   {
-    "description": "多用户表格服务器",
+    "description": "共享编辑的电子表格服务器，也可以自行架设。",
     "license_url": "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt",
     "logo": "ethercalc.png",
-    "notes": "The EtherCalc online service encrypts your data transmission with HTTPS, but data may be read by anyone who can guess the URL. Download and run your own EtherCalc server if you care about privacy.",
+    "notes": "EtherCalc的在线服务器会使用HTTPS技术加密你传输的数据，但随便什么人只要猜到了你的URL地址就可以浏览那些内容。如果你在意私密性，建议下载源码，自己搭建一个EtherCalc平台。",
     "privacy_url": "https://ethercalc.org/privacy.png",
     "source_url": "https://github.com/audreyt/ethercalc",
     "name": "EtherCalc",
@@ -1299,10 +1299,10 @@
     "slug": "ethercalc"
   },
   {
-    "description": "自行架设的实时协作文档服务",
+    "description": "Riseup运营的共享编辑平台，也可以自行架设。",
     "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
     "logo": "etherpad.png",
-    "notes": "The etherpad project maintains a list of [sites that run etherpad services](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Please only choose from the services that use SSL, and research the site's background before trusting them with your data.",
+    "notes": "etherpad项目包含一个[提供共享编辑服务的网站清单](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite)。请选择支持SSL加密链接的站点，并且，在你把数据交给他们之前，最好查一下网站的背景。",
     "privacy_url": "",
     "source_url": "https://github.com/ether/etherpad-lite",
     "name": "Etherpad",
@@ -1358,7 +1358,7 @@
     "slug": "evolution"
   },
   {
-    "description": "MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.",
+    "description": "几乎有43%的邮件服务器使用它。它也是Debian GNU/Linux上的默认配置。",
     "license_url": "https://github.com/Exim/exim/blob/master/src/LICENCE",
     "logo": "exim.png",
     "notes": "",
@@ -1436,7 +1436,7 @@
     "slug": "fedora"
   },
   {
-    "description": "Firefox OS is a free open-source operating system for Android-compatible smartphones and tablet computers.",
+    "description": "Firefox OS是免费的开源操作系统，支持安卓智能手机和笔记本电脑。",
     "license_url": "https://www.mozilla.org/en-US/foundation/licensing/",
     "logo": "mozilla-firefox.png",
     "notes": "",
@@ -1464,7 +1464,7 @@
     "slug": "firefox-os"
   },
   {
-    "description": "A free BSD-derived operating system.",
+    "description": "免费的基于BSD的开源系统。",
     "license_url": "https://www.freebsd.org/copyright/freebsd-license.html",
     "logo": "freebsd.png",
     "notes": "",
@@ -1504,7 +1504,7 @@
     "slug": "freebsd"
   },
   {
-    "description": "FreedomBox integrates privacy protection on a cheap plug server so everybody can have privacy.",
+    "description": "FreedomBox是一套加密通信系统，由软件和硬件组成。他将私密通讯结合到一个廉价的设备上，以期全世界的人们都能拥有不被监控的通讯。",
     "license_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "freedombox.png",
     "notes": "",
@@ -1531,7 +1531,7 @@
     "slug": "freedombox"
   },
   {
-    "description": "Plug and play cjdns appliance, offering a distributed and end-to-end encrypted telephony and email service.",
+    "description": "即插即用的cjdns设备，提供分布式、端到端加密的电话与邮件服务。",
     "license_url": "https://github.com/enigmagroup/enigmasuite/blob/master/LICENSE",
     "logo": "enigmabox.png",
     "notes": "",
@@ -1610,7 +1610,7 @@
     "slug": "freenet"
   },
   {
-    "description": "Cross-platform soft switch software with VoIP/SIP support.",
+    "description": "跨平台的软切换软件，支持VoIP/SIP。",
     "license_url": "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true",
     "logo": "freeswitch.png",
     "notes": "",
@@ -1635,7 +1635,7 @@
     "slug": "freeswitch"
   },
   {
-    "description": "A non-commercial open grassroots initiative to support free radio networks around the world.",
+    "description": "一个非盈利的草根开源计划，支持在全球范围内建立无线网络。",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "freifunk.png",
     "notes": "",
@@ -1683,7 +1683,7 @@
     "slug": "friendica"
   },
   {
-    "description": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.",
+    "description": "轻量快速的即时通讯平台，支持GNU/Linux、Windows&mdash;使用插件后可支持OTR",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.png",
     "notes": "",
@@ -1722,7 +1722,7 @@
     "slug": "gajim"
   },
   {
-    "description": "Disk encryption subsystem included in the FreeBSD operating system.",
+    "description": "FreeBSD操作系统上的加密子系统。",
     "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
     "logo": "geli.png",
     "notes": "",
@@ -1744,7 +1744,7 @@
     "slug": "geli"
   },
   {
-    "description": "Distribution about choice, control and security.",
+    "description": "发行版，关注选择性，可控性和安全。",
     "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
     "logo": "gentoo.png",
     "notes": "",
@@ -1826,7 +1826,7 @@
     "slug": "git-annex"
   },
   {
-    "description": "Fully free software GNU/Linux distribution based on Debian.",
+    "description": "完全免费的GNU/Linux发行版，基于Debian。",
     "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
     "logo": "gnewsense.png",
     "notes": "",
@@ -1860,7 +1860,7 @@
     "slug": "gnewsense"
   },
   {
-    "description": "免费的 OpenPGP 实现",
+    "description": "免费的 OpenPGP 加密应用，支持大量客户端，包括Thunderbird/Icedove。",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master",
     "logo": "gnupg.png",
     "notes": "",
@@ -1932,7 +1932,7 @@
     "slug": "gnu-social"
   },
   {
-    "description": "GNUnet is a fully free P2P network.",
+    "description": "GNUnet是一个完全自由的P2P网络。",
     "license_url": "https://gnunet.org/svn/gnunet/COPYING",
     "logo": "gnunet.png",
     "notes": "",
