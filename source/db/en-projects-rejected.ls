@@ -90,8 +90,6 @@ projects-rejected =
     logo: "apple-mail.png"
     name: "Apple Mail"
     categories: [
-      * name: "Web Services"
-        subcategories: ["Email Accounts"]
       * name: "iOS"
         subcategories: ["Email Clients"]
       * "name": "OS X"

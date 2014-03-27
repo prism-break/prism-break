@@ -113,9 +113,6 @@
       name: "Apple Mail",
       categories: [
         {
-          name: "Web Services",
-          subcategories: ["Email Accounts"]
-        }, {
           name: "iOS",
           subcategories: ["Email Clients"]
         }, {
