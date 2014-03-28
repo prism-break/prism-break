@@ -838,7 +838,7 @@
     "description": "免费开源的Desura distribution service客户端。",
     "license_url": "https://github.com/lindenlab/desura-app/blob/master/LICENSE.md",
     "logo": "desurium.png",
-    "notes": "Desurium只是一个客户端，你仍然必须依赖于闭源的 <a href='http://www.desura.com'>Desura service</a>。",
+    "notes": "Desurium只是一个客户端，你仍然必须依赖于闭源的 <a href='http://www.desura.com'>Desura服务</a>。",
     "privacy_url": "",
     "source_url": "https://github.com/lindenlab/desura-app",
     "name": "Desura",
@@ -1152,7 +1152,7 @@
     "slug": "ecryptfs"
   },
   {
-    "description": "使用Erlang/OTPXMPP编写的，支持GNU/Linux和OS X。",
+    "description": "使用Erlang/OTPXMPP编写的，支持GNU/Linux和OS X的XMPP通讯工具。",
     "license_url": "https://github.com/processone/ejabberd/blob/master/COPYING",
     "logo": "ejabberd.png",
     "notes": "",
@@ -1635,7 +1635,7 @@
     "slug": "freeswitch"
   },
   {
-    "description": "一个非盈利的草根开源计划，支持在全球范围内建立无线网络。",
+    "description": "一个非盈利的草根开源计划，目标是在全球范围内建立点对点的无线网络。",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "freifunk.png",
     "notes": "",
@@ -1860,7 +1860,7 @@
     "slug": "gnewsense"
   },
   {
-    "description": "免费的 OpenPGP 加密应用，支持大量客户端，包括Thunderbird/Icedove。",
+    "description": "免费的 OpenPGP 加密应用，支持大量客户端，包括Thunderbird（雷鸟）/Icedove（冰鼬鼠）。",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master",
     "logo": "gnupg.png",
     "notes": "",
@@ -2029,7 +2029,7 @@
     "slug": "gpg4win"
   },
   {
-    "description": "OpenPGP add-on for Apple OS X Mail.",
+    "description": "苹果OS X Mail的OpenPGP插件。",
     "license_url": "https://github.com/GPGTools/MacGPG2/blob/dev/LICENSE.txt",
     "logo": "gpgtools.png",
     "notes": "",
@@ -2053,7 +2053,7 @@
     "slug": "gpgtools"
   },
   {
-    "description": "Open, free and neutral wireless network for everyone.",
+    "description": "面向所有人的开放、自由、中立的无线网络。",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "guifi.png",
     "notes": "",
@@ -2075,7 +2075,7 @@
     "slug": "guifinet"
   },
   {
-    "description": "Cross-platform IRC client.",
+    "description": "跨平台IRC客户端。",
     "license_url": "https://github.com/hexchat/hexchat/blob/master/COPYING",
     "logo": "hexchat.png",
     "notes": "HexChat does not offer encrypted IRC by default. You need to enable the FiSHLiM plugin for IRC message encryption.",
@@ -2165,10 +2165,10 @@
     "slug": "https-everywhere"
   },
   {
-    "description": "隐形因特网计划",
+    "description": "隐形因特网计划，采用大蒜路由，比Tor网络更优秀。",
     "license_url": "https://geti2p.net/en/get-involved/develop/licenses",
     "logo": "i2p.png",
-    "notes": "",
+    "notes": "首先，I2P的目的主要是建立一个独立于因特网的隐蔽网络，而不是翻墙——目前他的默认出口节点只有一个，我们使用的客户端默认只是中继而非出口节点。其次，I2P的安全性和健壮性要高过Tor，并且它针对中国等敏感地区做了额外设定，默认使用隐身模式。最后，首次使用I2P需要进行网络引导。在中国，你可能需要使用VPN或其他前置代理进行这一步骤——亦或是导入其他人提供的节点数据库。积累了一些节点信息之后，I2P就可以独立稳定工作了。记得时不时运行一下，帮助网络壮大的同时，更新你的节点资料库。",
     "privacy_url": "",
     "source_url": "https://geti2p.net/en/get-involved/guides/new-developers",
     "name": "I2P",
@@ -2245,7 +2245,7 @@
     "slug": "imgbi"
   },
   {
-    "description": "Highly scalable and configurable messaging platform based on the MTA qmail.",
+    "description": "高度计量和定制化的消息平台，基于MTA qmail。",
     "license_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING",
     "logo": "indimail.png",
     "notes": "",
@@ -2267,7 +2267,7 @@
     "slug": "indimail"
   },
   {
-    "description": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
+    "description": "自动安装并完成配置的邮件服务器。基于GNU/Linux和BSD。",
     "license_url": "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/README?at=default",
     "logo": "iredmail.png",
     "notes": "",
@@ -2289,10 +2289,10 @@
     "slug": "iredmail"
   },
   {
-    "description": "Ixquick is a metasearch engine based in New York and the Netherlands. ",
+    "description": "Ixquick是一个位于纽约和荷兰的元搜索引擎。",
     "license_url": "",
     "logo": "ixquick.png",
-    "notes": "",
+    "notes": "Ixquick与Startpage来自同一家公司，提供100多个数据源的搜索结果，包括google。",
     "privacy_url": "https://ixquick.com/eng/privacy-policy.html",
     "source_url": "",
     "name": "Ixquick",
@@ -2313,7 +2313,7 @@
     "slug": "ixquick"
   },
   {
-    "description": "加密的文本语音聊天",
+    "description": "加密的跨平台文本、语音、视频聊天工具。",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
     "notes": "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\n\nLastly, note that Jitsi records chat history in unencrypted form.",
@@ -2355,7 +2355,7 @@
     "slug": "jitsi"
   },
   {
-    "description": "Live CD/USB based on Debian with pre-configured tools for anonymous surfing and more.",
+    "description": "基于Debian的CD/USB即插即用便携系统，附带匿名浏览工具等预设。",
     "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
     "logo": "jondonym.png",
     "notes": "",
@@ -2401,7 +2401,7 @@
     "slug": "jondo-live-cd"
   },
   {
-    "description": "Private browsing with the JonDo IP anonymization service and JonDoFox profile for Firefox.",
+    "description": "使用JonDo的IP隐匿服务和JonDoFox个人信息的火狐。",
     "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
     "logo": "jondonym.png",
     "notes": "",
@@ -2444,7 +2444,7 @@
     "slug": "jondofox"
   },
   {
-    "description": "Open source email app for Android with PGP support.",
+    "description": "开源的安卓邮件应用，支持加密。",
     "license_url": "https://github.com/k9mail/k-9/blob/master/NOTICE",
     "logo": "k9-mail.png",
     "notes": "",
@@ -2470,7 +2470,7 @@
     "slug": "k-9-mail"
   },
   {
-    "description": "Open source VoIP/SIP server.",
+    "description": "开源的VoIP/SIP服务器。",
     "license_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD",
     "logo": "kamailio.png",
     "notes": "",
@@ -2523,7 +2523,7 @@
     "slug": "kolab"
   },
   {
-    "description": "支持GPG的 KDE 邮件客户端",
+    "description": "支持GPG的 KDE 邮件客户端，有地址簿、通讯录等诸多功能。",
     "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
     "logo": "kontact.png",
     "notes": "",
@@ -2582,7 +2582,7 @@
     "slug": "kopete"
   },
   {
-    "description": "Live CD/USB 设计的用于敌对环境的通信辅助系统",
+    "description": "基于Hardened Gentoo设计的CD/USB即插即用便携系统，用于敌对环境下的通信辅助。",
     "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
     "logo": "liberte-linux.png",
     "notes": "Warning: The most recent Liberté Linux release is dated 2012-09-01. This means that packages may be potentially outdated and vulnerable to unpatched security bugs.",
@@ -2622,7 +2622,7 @@
     "slug": "liberte-linux"
   },
   {
-    "description": "Free software VPN client (3rd generation) derived from Openswan.",
+    "description": "自由的VPN客户端 (3rd generation) ，是Openswan的衍生品。",
     "license_url": "https://github.com/libreswan/libreswan/blob/master/COPYING",
     "logo": "libreswan.png",
     "notes": "",
@@ -2644,7 +2644,7 @@
     "slug": "libreswan"
   },
   {
-    "description": "A free network that runs over other networks.",
+    "description": "一个借助其他网络运作的自由网络。",
     "license_url": "https://github.com/fauno/librevpn/blob/master/LICENSE",
     "logo": "librevpn.png",
     "notes": "This project is experimental, and the site is in Spanish only.",
@@ -2672,7 +2672,7 @@
     "slug": "librevpn"
   },
   {
-    "description": "加密的音视频客户端",
+    "description": "加密的跨平台音视频聊天客户端",
     "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
     "logo": "linphone.png",
     "notes": "",
@@ -2810,7 +2810,7 @@
     "slug": "lorea"
   },
   {
-    "description": "OpenPGP 加密用于 webmail",
+    "description": "OpenPGP 邮件加密，支持多数Email服务器。",
     "license_url": "https://github.com/toberndo/mailvelope/blob/master/LICENSE",
     "logo": "mailvelope.png",
     "notes": "",
@@ -2856,7 +2856,7 @@
     "slug": "mailvelope"
   },
   {
-    "description": "Free virtual globe and world atlas.",
+    "description": "免费的可视化全球地图。",
     "license_url": "https://projects.kde.org/projects/kde/kdeedu/marble/repository/revisions/master/entry/LICENSE.txt",
     "logo": "marble.png",
     "notes": "",
@@ -2890,7 +2890,7 @@
     "slug": "marble"
   },
   {
-    "description": "Privacy-first fast media (image, audio, video) hosting",
+    "description": "注重隐私的媒体（照片、视频和音频）发布平台，也可以自己搭建。",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
     "notes": "Warning: MediaCrush includes Google Analytics if you do not enable Do Not Track.\n\nThe hidden service is available at [http://mediacrs5ujufxog.onion/](http://mediacrs5ujufxog.onion/).",
@@ -2945,7 +2945,7 @@
     "slug": "mediagoblin"
   },
   {
-    "description": "Meta search engine that proxies your queries to multiple search providers.",
+    "description": "灵活的搜索引擎，将你的搜索请求经过代理发送到许多搜索服务提供商。",
     "license_url": "",
     "logo": "metager.png",
     "notes": "",
@@ -2993,7 +2993,7 @@
     "slug": "metronome"
   },
   {
-    "description": "私密、去中心化的社交网络服务器",
+    "description": "私密的、去中心化的社交网络服务器",
     "license_url": "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING",
     "logo": "movim.png",
     "notes": "",
@@ -3024,7 +3024,7 @@
     "slug": "movim"
   },
   {
-    "description": "开源的web浏览器",
+    "description": "开源的web浏览器，扩展丰富。",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (OS X) if you don't want Mozilla to send reported URL hashes to Google.",
@@ -3072,7 +3072,7 @@
     "slug": "mozilla-firefox"
   },
   {
-    "description": "开源email应用",
+    "description": "跨平台的开源email应用，使用Enigmail插件，你可以实现邮件加密。",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
@@ -3183,7 +3183,7 @@
     "slug": "mumble"
   },
   {
-    "description": "Secure and private Kolab accounts hosted in Switzerland.",
+    "description": "安全而私密的Kolab账号，服务器位于瑞士。",
     "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
     "logo": "mykolab.png",
     "notes": "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \nAlso, you can export all your data at any time.",
@@ -3229,7 +3229,7 @@
     "slug": "mykolab"
   },
   {
-    "description": "分布式DNS基于 Bitcoin 技术",
+    "description": "分布式DNS，基于Bitcoin 技术",
     "license_url": "https://github.com/namecoin/namecoin/blob/master/COPYING",
     "logo": "namecoin.png",
     "notes": "",
@@ -3309,7 +3309,7 @@
     "slug": "netbsd"
   },
   {
-    "description": "匿名I2P网络用于Android",
+    "description": "匿名的社交网络，基于I2P，可用于Android和桌面平台。",
     "license_url": "https://github.com/oakes/Nightweb/blob/master/UNLICENSE",
     "logo": "nightweb.png",
     "notes": "",
@@ -3445,7 +3445,7 @@
     "slug": "off-the-record-messaging"
   },
   {
-    "description": "Surf the web through the Tor network with this open source browser for iOS devices.",
+    "description": "IOS平台上的开源浏览器，基于Tor。",
     "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
     "logo": "onion-browser.png",
     "notes": "",
@@ -3516,7 +3516,7 @@
     "slug": "open-source-routing-machine"
   },
   {
-    "description": "Alternative open source web analytics.",
+    "description": "可选择的开源网络分析服务。",
     "license_url": "http://wiki.openwebanalytics.com/index.php?title=License",
     "logo": "open-web-analytics.png",
     "notes": "",
@@ -3538,7 +3538,7 @@
     "slug": "open-web-analytics"
   },
   {
-    "description": "A secure BSD operating system.",
+    "description": "安全的BSD操作系统。安全得近乎偏执。",
     "license_url": "http://openbsd.org/policy.html",
     "logo": "openbsd.png",
     "notes": "",
@@ -3584,7 +3584,7 @@
     "slug": "openbsd"
   },
   {
-    "description": "Cross-platform XMPP server written in Java.",
+    "description": "跨平台XMPP服务，基于java语言。",
     "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
     "logo": "openfire.png",
     "notes": "",
@@ -3608,7 +3608,7 @@
     "slug": "openfire"
   },
   {
-    "description": "Open, democratic, and anti-censorship DNS provider.",
+    "description": 开放，民主，反审查的DNS服务。",
     "license_url": "",
     "logo": "opennic.png",
     "notes": "OpenNIC has not adopted an official policy concerning log query privacy/anonymization. More information [here](http://wiki.opennicproject.org/Tier2).",
@@ -3630,7 +3630,7 @@
     "slug": "opennic"
   },
   {
-    "description": "OpenPGP Keychain is an OpenPGP implementation for Android.",
+    "description": "OpenPGP Keychain是安卓平台上的OpenPGP实现。",
     "license_url": "https://github.com/dschuermann/openpgp-keychain/blob/master/LICENSE",
     "logo": "openpgp-keychain.png",
     "notes": "OpenPGP Keychain is EXPERIMENTAL software. Use at your own risk!\r",
@@ -3676,7 +3676,7 @@
     "slug": "openstreetmap"
   },
   {
-    "description": "Stable, easy-to-use multi-purpose GNU/Linux distribution.",
+    "description": "稳定、易用的多用途 GNU/Linux distribution。",
     "license_url": "https://en.opensuse.org/openSUSE:License",
     "logo": "opensuse.png",
     "notes": "",
@@ -3716,7 +3716,7 @@
     "slug": "opensuse"
   },
   {
-    "description": "Free software VPN client derived from FreeS/WAN.",
+    "description": "自由的VPN客户端，FreeS/WAN的衍生品。",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",
     "notes": "",
@@ -3738,7 +3738,7 @@
     "slug": "openswan"
   },
   {
-    "description": "Free software VPN client.",
+    "description": "自由的VPN客户端。",
     "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
     "logo": "openvpn.png",
     "notes": "",
@@ -3792,7 +3792,7 @@
     "slug": "openvpn"
   },
   {
-    "description": "Tor代理用于Android.",
+    "description": "Tor代理用于安卓平台。",
     "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
     "logo": "orbot.png",
     "notes": "",
@@ -3816,7 +3816,7 @@
     "slug": "orbot"
   },
   {
-    "description": "OsmAnd (OSM Automated Navigation Directions) is a map and navigation app that uses OpenStreetMap data.",
+    "description": "OsmAnd (OSM Automated Navigation Directions) 是使用OpenStreetMap数据的开放的导航系统。",
     "license_url": "https://github.com/osmandapp/Osmand/blob/master/LICENSE",
     "logo": "osmand.png",
     "notes": "",
