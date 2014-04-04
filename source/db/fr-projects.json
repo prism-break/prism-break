@@ -3309,66 +3309,6 @@
     "slug": "netbsd"
   },
   {
-    "description": "Réseau I2P anonyme pour Android.",
-    "license_url": "https://github.com/oakes/Nightweb/blob/master/UNLICENSE",
-    "logo": "nightweb.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/oakes/Nightweb",
-    "name": "Nightweb",
-    "tos_url": "",
-    "url": "https://nightweb.net/",
-    "wikipedia_url": "",
-    "protocols": [
-      "I2P"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "nightweb"
-  },
-  {
     "description": "N'autorise JavaScript, Java et Flash que pour les sites en lesquels vous avez confiance.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",

@@ -3309,66 +3309,6 @@
     "slug": "netbsd"
   },
   {
-    "description": "匿名的社交网络，基于I2P，可用于Android和桌面平台。",
-    "license_url": "https://github.com/oakes/Nightweb/blob/master/UNLICENSE",
-    "logo": "nightweb.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/oakes/Nightweb",
-    "name": "Nightweb",
-    "tos_url": "",
-    "url": "https://nightweb.net/",
-    "wikipedia_url": "",
-    "protocols": [
-      "I2P"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "nightweb"
-  },
-  {
     "description": "只启用你信任的网站上面的 JavaScript、Java 和 Flash 内容",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
