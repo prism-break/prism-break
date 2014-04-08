@@ -704,7 +704,7 @@
       status: 'rejected',
       tags: ["Proprietary", "PRISM"],
       logo: "ms-skydrive.png",
-      name: "Microsoft SkyDrive",
+      name: "Microsoft OneDrive",
       categories: [
         {
           name: "Web Services",
