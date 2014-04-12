@@ -91,7 +91,7 @@
     "slug": "apg"
   },
   {
-    "description": "Elegant, minimal, and flexible Linux&reg; distribution.",
+    "description": "Arch Linux es una distribución GNU/Linux independiente, de propósito general, desarrollada para i686/x86-64 , lo suficientemente versátil como para adaptarse a cualquier función. Su desarrollo se centra en la simplicidad, el minimalismo y la elegancia de código. Arch se instala como un sistema de base mínimo, configurado por el usuario, sobre el que se monta su propio entorno ideal, mediante la instalación de sólo lo que se requiere o se desea para sus propósitos particulares. Las GUI de las utilidades de configuración no son proporcionadas oficialmente y la mayor parte de la configuración del sistema se realiza desde la shell, mediante la simple modificación de archivos de textos. Basado en un modelo rolling-release, Arch se esfuerza por mantenerse al dia y, por lo general, ofrece las últimas versiones estables de la mayoría del software.",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
     "notes": "",
@@ -2165,7 +2165,7 @@
     "slug": "https-everywhere"
   },
   {
-    "description": "El proyecto para un Internet Invisible.",
+    "description": "I2P es una red de capa anónima - una red dentro de una red. Está pensada para proteger la comunicación del seguimiento de las redes de vigilancia y la monitorización por terceras partes como los ISPs (proveedores de Internet).",
     "license_url": "https://geti2p.net/en/get-involved/develop/licenses",
     "logo": "i2p.png",
     "notes": "",
@@ -2173,8 +2173,8 @@
     "source_url": "https://geti2p.net/en/get-involved/guides/new-developers",
     "name": "I2P",
     "tos_url": "",
-    "url": "https://geti2p.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/I2P",
+    "url": "https://geti2p.net/es/",
+    "wikipedia_url": "https://es.wikipedia.org/wiki/I2P",
     "protocols": [
       "I2P"
     ],
@@ -2734,7 +2734,7 @@
     "slug": "linphone"
   },
   {
-    "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
+    "description": "Litecoin (signo: Ł; abr.: LTC) es una Criptodivisa sustentada por la red P2P, y un proyecto de software de código abierto publicado bajo la licencia MIT.1 Inspirada y prácticamente idéntica en su aspecto técnico2 a Bitcoin (BTC), la creación y transferencia de Litecoin se basa en un protocolo criptográfico de código abierto que no es administrado por ninguna autoridad central.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
     "notes": "",
@@ -4755,7 +4755,7 @@
     "slug": "tinc"
   },
   {
-    "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "The Onion Router, en su forma abreviada Tor, es un proyecto cuyo objetivo principal es el desarrollo de una red de comunicaciones distribuida de baja latencia y superpuesta sobre internet en la que el encaminamiento de los mensajes intercambiados entre los usuarios no revela su identidad, es decir, su dirección IP (anonimato a nivel de red) y que, además, mantiene la integridad y el secreto de la información que viaja por ella.",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.png",
     "notes": "",
