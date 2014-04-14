@@ -2556,32 +2556,6 @@
     "slug": "kontact"
   },
   {
-    "description": "Client multiprotocollo di messaggistica istantanea flessibile ed estensibile per uso personale o aziendale.",
-    "license_url": "http://docs.kde.org/development/en/kdenetwork/kopete/credits-and-license.html",
-    "logo": "kopete.png",
-    "notes": "La cifratura GPG &egrave; disponibile tramite il pacchetto Debian 'kopete-cryptography'",
-    "privacy_url": "",
-    "source_url": "https://community.kde.org/KTp/Getting_Set_Up",
-    "name": "KDE Telepathy",
-    "tos_url": "",
-    "url": "http://userbase.kde.org/Telepathy",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/KDE_Telepathy",
-    "protocols": [
-      "GPG",
-      "OTR",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "kopete"
-  },
-  {
     "description": "Live CD/USB progettato per aiutare la comunicazione in ambienti ostili.",
     "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
     "logo": "liberte-linux.png",

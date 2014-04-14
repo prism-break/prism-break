@@ -2556,32 +2556,6 @@
     "slug": "kontact"
   },
   {
-    "description": "Flexible and extensible multi-protocol IM client suitable for personal and enterprise use.",
-    "license_url": "http://docs.kde.org/development/en/kdenetwork/kopete/credits-and-license.html",
-    "logo": "kopete.png",
-    "notes": "Encrypted chat is currently not availabe for KDE Telepathy. GPG encryption is available through the Debian package `kopete-cryptography`",
-    "privacy_url": "",
-    "source_url": "https://community.kde.org/KTp/Getting_Set_Up",
-    "name": "KDE Telepathy",
-    "tos_url": "",
-    "url": "http://userbase.kde.org/Telepathy",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/KDE_Telepathy",
-    "protocols": [
-      "GPG",
-      "OTR",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "kopete"
-  },
-  {
     "description": "CD/USB en viu dissenyat com a ajuda per comunicar-se en ambients hostils.",
     "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
     "logo": "liberte-linux.png",
