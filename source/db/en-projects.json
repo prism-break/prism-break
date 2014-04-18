@@ -372,7 +372,7 @@
     "name": "Byzantium",
     "tos_url": "",
     "url": "http://project-byzantium.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
+    "wikipedia_url": "",
     "protocols": [],
     "categories": [
       {
@@ -1022,7 +1022,7 @@
     "name": "DragonFly BSD",
     "tos_url": "",
     "url": "https://www.dragonflybsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/PC-BSD",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/DragonFly_BSD",
     "protocols": [],
     "categories": [
       {
@@ -2627,7 +2627,7 @@
     "name": "LibreVPN",
     "tos_url": "",
     "url": "http://librevpn.org.ar/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
+    "wikipedia_url": "",
     "protocols": [],
     "categories": [
       {
@@ -5013,7 +5013,7 @@
     "description": "Self-hosted website publishing platform.",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
-    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>&ldquo;Disable Google Fonts&rdquo;</a> to remove this vulnerability.",
+    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>&ldquo;Disable Google Fonts&rdquo;</a> to remove this vulnerability.",
     "privacy_url": "http://wordpress.org/about/privacy/",
     "source_url": "http://core.trac.wordpress.org/browser",
     "name": "WordPress",
@@ -5149,7 +5149,7 @@
     "name": "Unbound",
     "tos_url": "",
     "url": "http://www.unbound.net/",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
     "protocols": ["DNS"],
     "categories": [
       {
@@ -5243,7 +5243,7 @@
     "name": "LibreWRT",
     "tos_url": "",
     "url": "http://librewrt.org/index.php?title=Main_Page",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/LibreWRT",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/LibreWRT",
     "protocols": [],
     "categories": [
       {
