@@ -4895,7 +4895,7 @@
     "description": "Real-time disk and partition encryption software for multiple platforms.",
     "license_url": "http://www.truecrypt.org/legal/license",
     "logo": "truecrypt.png",
-    "notes": "While TrueCrypt is open source, it is developed in a closed fashion and may receive less review than a comparably openly developed project. That said, it is still probably the best option for file encryption on Windows and OS X.",
+    "notes": "While TrueCrypt is open source, it is developed in a closed fashion and may receive less review than a comparably openly developed project. In addition, TrueCrypt has only been [partially audited](http://istruecryptauditedyet.com/) for errors or backdoors. Preliminary results indicate that TrueCrypt contains no deliberate backdoors; however, results also showed that code quality was not at the level expected from security software. The cryptographic parts of TrueCrypt that ensure its security have not yet undergone an audit, so their reliability cannot be proved. Finally, TrueCrypt's license needs to be reviewed by a competent attorney due to the fact that its compatibility with the definition of free and open source software is in question. All that being said, it is still probably the best option for file encryption on Windows and OS X.",
     "privacy_url": "",
     "source_url": "http://www.truecrypt.org/downloads2",
     "name": "TrueCrypt",
