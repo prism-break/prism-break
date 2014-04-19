@@ -127,7 +127,7 @@ build_all: build_css build_html
 
 # General
 
-test: clean_tmp mkdirs copy_assets build_en finalize
+test: clean_tmp mkdirs copy_assets build_css build_en finalize
 clean: clean_tmp clean_public
 reset: clean_public default
 
