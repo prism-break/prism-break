@@ -5254,5 +5254,33 @@
       }
     ],
     "slug": "librewrt"
+  },
+  {
+    "description": "A free software disk space cleaner, privacy manager, and computer system optimizer.",
+    "license_url": "https://github.com/az0/bleachbit/blob/master/COPYING",
+    "logo": "bleachbit.png",
+    "notes": "BleachBit does not encrypt any of your data by default.",
+    "privacy_url": "",
+    "source_url": "https://github.com/az0/bleachbit",
+    "name": "BleachBit",
+    "tos_url": "",
+    "url": "http://bleachbit.sourceforge.net/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/BleachBit",
+    "protocols": [],
+    "categories": [
+        {
+            "name": "Linux",
+            "subcategories": [
+                "Disk Encryption"
+            ]
+        },
+        {
+            "name": "Windows",
+            "subcategories": [
+                "Disk Encryption"
+            ]
+        }
+    ],
+    "slug": "bleachbit"
   }
 ]
