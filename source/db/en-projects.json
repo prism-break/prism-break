@@ -5268,18 +5268,18 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/BleachBit",
     "protocols": [],
     "categories": [
-        {
-            "name": "Linux",
-            "subcategories": [
-                "Disk Encryption"
-            ]
-        },
-        {
-            "name": "Windows",
-            "subcategories": [
-                "Disk Encryption"
-            ]
-        }
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      }
     ],
     "slug": "bleachbit"
   }
