@@ -1,6 +1,6 @@
 [
   {
-    "description": "Блокирует рекламу и трекеры по всему интернету по подпискам на фильтры.",
+    "description": "Блокирует рекламу и отслеживающие трекеры по всему интернету по подпискам на фильтры.",
     "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
     "logo": "adblock-edge.png",
     "notes": "",
@@ -8,7 +8,7 @@
     "source_url": "https://bitbucket.org/adstomper/adblockedge/",
     "name": "Adblock Edge",
     "tos_url": "",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/",
+    "url": "https://addons.mozilla.org/ru/firefox/addon/adblock-edge/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
@@ -49,7 +49,7 @@
     "name": "Adium",
     "tos_url": "",
     "url": "https://adium.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Adium",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Adium",
     "protocols": [
       "IRC",
       "OTR",
@@ -100,7 +100,7 @@
     "name": "Arch Linux",
     "tos_url": "",
     "url": "https://www.archlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Arch_Linux",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Arch_Linux",
     "protocols": [],
     "categories": [
       {
@@ -125,7 +125,7 @@
     "slug": "arch-linux"
   },
   {
-    "description": "arkOS &mdash; легковесный сборник программного обеспечение для безопасного хостинга ваших вебсайтов, электронной почты, файлов и многого другого, запускающийся на Raspberry Pi.",
+    "description": "Легковесный сборник программного обеспечение для безопасного хостинга ваших сайтов, электронной почты, файлов и многого другого, запускающийся на Raspberry Pi.",
     "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
     "logo": "arkos.png",
     "notes": "",
@@ -157,7 +157,7 @@
     "name": "Asterisk",
     "tos_url": "",
     "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Asterisk",
     "protocols": [
       "SIP",
       "VoIP"
@@ -209,8 +209,8 @@
     "source_url": "https://github.com/bitcoin/bitcoin",
     "name": "Bitcoin",
     "tos_url": "",
-    "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin",
+    "url": "http://bitcoin.org/ru/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Bitcoin",
     "protocols": [],
     "categories": [
       {
@@ -262,7 +262,7 @@
     "name": "BitlBee",
     "tos_url": "",
     "url": "http://www.bitlbee.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/BitlBee",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/BitlBee",
     "protocols": [
       "IRC",
       "OTR",
@@ -301,7 +301,7 @@
     "slug": "bitlbee"
   },
   {
-    "description": "Зашифрованные децентрализованные P2P сообщения, основанные на технологии Bitcoin.",
+    "description": "Децентрализованный P2P сервис передачи зашифрованных сообщений, основанный на технологии Bitcoin.",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
@@ -310,7 +310,7 @@
     "name": "Bitmessage",
     "tos_url": "",
     "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Bitmessage",
     "protocols": [
       "Tor"
     ],
@@ -363,7 +363,7 @@
     "slug": "buddycloud"
   },
   {
-    "description": "Byzantium &mdash;  Live CD дистрибутив Linux, предоставляющий простую для использования меш сеть.",
+    "description": "Live CD дистрибутив Linux, предоставляющий простую для использования меш сеть.",
     "license_url": "https://github.com/Byzantium/Byzantium/blob/master/LICENSE",
     "logo": "byzantium.png",
     "notes": "",
@@ -372,7 +372,7 @@
     "name": "Byzantium",
     "tos_url": "",
     "url": "http://project-byzantium.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
+    "wikipedia_url": "",
     "protocols": [],
     "categories": [
       {
@@ -415,7 +415,7 @@
     "slug": "byzantium"
   },
   {
-    "description": "Вычислительная платформа промышленного класса со 100% бинарной совместимостью с RHEL.",
+    "description": "Совместимая с RHEL вычислительная платформа промышленного класса.",
     "license_url": "http://mirror.centos.org/centos/6/os/x86_64/GPL",
     "logo": "centos.png",
     "notes": "",
@@ -424,7 +424,7 @@
     "name": "CentOS",
     "tos_url": "",
     "url": "https://www.centos.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CentOS",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/CentOS",
     "protocols": [],
     "categories": [
       {
@@ -437,10 +437,10 @@
     "slug": "centos"
   },
   {
-    "description": "IM-клиент с поддержкой шифрования для iOS.",
+    "description": "IM-клиент с поддержкой шифрования для iOS и Android.",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
-    "notes": "The Guardian Project hosts <a href='https://guardianproject.info/howto/chatsecurely/'>a fantastic how-to guide</a> to chatting securely on Android.",
+    "notes": "The Guardian Project предоставляет <a href='https://guardianproject.info/howto/chatsecurely/'>фантастическую инструкцию</a> о том, как общаться безопасно на Android.",
     "privacy_url": "",
     "source_url": "https://chatsecure.org/developers/",
     "name": "ChatSecure",
@@ -468,7 +468,7 @@
     "slug": "chatsecure"
   },
   {
-    "description": "Cjdns is a networking protocol, a system of digital rules for message exchange between computers. \"Instead of letting other computers connect to you through a shared IP address which anyone can use, cjdns only lets computers talk to one other after they have verified each other cryptographically. ",
+    "description": "Сетевой протокол, система цифровых правил для обмена сообщениями между компьютерами. \"Вместо того, чтобы позволять другим компьютерам соединяться с вами через через общеизвестный IP, cjdns позволяет компьютерам передавать сообщения только после того, как они криптографически верефицируют друг друга.",
     "license_url": "https://github.com/cjdelisle/cjdns/blob/master/LICENSE",
     "logo": "cjdns.png",
     "notes": "",
@@ -477,7 +477,7 @@
     "name": "Cjdns",
     "tos_url": "",
     "url": "http://cjdns.info/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cjdns",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Cjdns",
     "protocols": [],
     "categories": [
       {
@@ -523,7 +523,7 @@
     "name": "Claws Mail",
     "tos_url": "",
     "url": "http://www.claws-mail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Claws_Mail",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Claws_Mail",
     "protocols": [
       "GPG",
       "RSS",
@@ -580,10 +580,10 @@
     "slug": "cloudns"
   },
   {
-    "description": "Использует мобильные телефоны, компьютеры и беспроводные роутеры для создания децентрализованной меш-сети.",
+    "description": "Децентрализованная меш-сеть из мобильных телефонов, компьютеров и беспроводных роутеров.",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
-    "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
+    "notes": "Пожалуйста прочитайте [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
     "privacy_url": "https://commotionwireless.net/about/license-privacy",
     "source_url": "https://github.com/opentechinstitute",
     "name": "Commotion",
@@ -632,7 +632,7 @@
     "slug": "commotion"
   },
   {
-    "description": "Персональный PaaS (Платформа-как-Сервис) принадлежащий вам и с которым вы можете сделать все что захотите.",
+    "description": "Персональный PaaS (Платформа-как-Сервис) с которым вы можете сделать все, что захотите.",
     "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
     "logo": "cozy.png",
     "notes": "",
@@ -654,7 +654,7 @@
     "slug": "cozy"
   },
   {
-    "description": "Частные и зашифрованные мгновенные сообщения с помощью веб браузер.",
+    "description": "Зашифрованные мгновенные сообщения в браузере.",
     "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
     "logo": "cryptocat.png",
     "notes": "",
@@ -706,10 +706,10 @@
     "slug": "cryptocat"
   },
   {
-    "description": "LUKS &mdash; удобный и простой в использовании слой для использования поверх dm-crypt.",
+    "description": "Удобные и простые в использовании утилиты, работающие поверх dm-crypt.",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",
-    "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
+    "notes": "Gentoo Wiki [содержит инструкцию](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) по использованию dm-crypt с LUKS. \n\nArch Wiki тоже [содержит инструкцию](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) по использованию dm-crypt с LUKS. \n\nСообщество Slackware Linux [предоставляет инструкцию](http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT) по использованию dm-crypt с LUKS. \n\ndm-crypt также доступен для DragonFly BSD.",
     "privacy_url": "",
     "source_url": "https://code.google.com/p/cryptsetup/source/browse/",
     "name": "cryptsetup",
@@ -776,7 +776,7 @@
     "name": "CyanogenMod",
     "tos_url": "http://www.cyanogenmod.org/docs/terms",
     "url": "http://www.cyanogenmod.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CyanogenMod",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/CyanogenMod",
     "protocols": [],
     "categories": [
       {
@@ -803,8 +803,8 @@
     "source_url": "http://sources.debian.net/",
     "name": "Debian",
     "tos_url": "",
-    "url": "http://debian.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Debian",
+    "url": "https://www.debian.org/index.ru.html",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Debian",
     "protocols": [],
     "categories": [
       {
@@ -838,7 +838,7 @@
     "description": "Свободный клиент с открытым исходным кодом для сервиса дистрибуции Desura.",
     "license_url": "https://github.com/lindenlab/desura-app/blob/master/LICENSE.md",
     "logo": "desurium.png",
-    "notes": "Desura is client software. You will still have to trust and depend on the proprietary <a href='http://www.desura.com'>Desura service</a>.",
+    "notes": "Desura &mdash; это только клиент. Вы все равно должны будете зависеть от проприетарного [сервиса Desura](http://www.desura.com) и доверять ему.",
     "privacy_url": "",
     "source_url": "https://github.com/lindenlab/desura-app",
     "name": "Desura",
@@ -872,7 +872,7 @@
     "name": "diaspora*",
     "tos_url": "",
     "url": "https://diasporafoundation.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Diaspora_%28software%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Diaspora_%28%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C%29",
     "protocols": [
       "SSL/TLS"
     ],
@@ -893,7 +893,7 @@
     "slug": "diaspora"
   },
   {
-    "description": "Визуализует и блокирует невидимые трекеры вашего поиска и просмотра истории.",
+    "description": "Визуализует и блокирует невидимые трекеры.",
     "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
     "logo": "disconnect.png",
     "notes": "",
@@ -939,10 +939,10 @@
     "slug": "disconnect"
   },
   {
-    "description": "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo.",
+    "description": "Анонимный VPN сервис для популярных поисковых систем, таких как Google, Bing и Yahoo.",
     "license_url": "",
     "logo": "disconnect-search.png",
-    "notes": "The source code can be downloaded for viewing by right clicking \"Get Disconnect Search\" on the official website and selecting \"Save Link As...\".\n\nWith \"search.xpi\" downloaded, change the file extension to \".zip\" and extract it to view the source code.",
+    "notes": "Исходный код может быть скачан для просмотра нажатием правой кнопки мыши на \"Get Disconnect Search\" на официальном сайта и выбором в меню пункта \"Сохранить ссылку как...\".\n\nКогда \"search.xpi\" скачается, измените расширение на \".zip\" и извлеките содержание для просмотра исходного кода.",
     "privacy_url": "",
     "source_url": "https://disconnect.me/search",
     "name": "Disconnect Search",
@@ -964,15 +964,15 @@
   },
   {
     "description": "Высокопроизводительное программное обеспечение для шифрования разделов под Windows.",
-    "license_url": "https://diskcryptor.net/wiki/Main_Page",
+    "license_url": "https://diskcryptor.net/wiki/Main_Page/ru",
     "logo": "diskcryptor.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://diskcryptor.net/wiki/Downloads",
+    "source_url": "https://diskcryptor.net/wiki/Downloads/ru",
     "name": "DiskCryptor",
     "tos_url": "",
-    "url": "https://diskcryptor.net/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DiskCryptor",
+    "url": "https://diskcryptor.net/wiki/Main_Page/ru",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/DiskCryptor",
     "protocols": [],
     "categories": [
       {
@@ -1013,7 +1013,7 @@
     "slug": "dnscrypt"
   },
   {
-    "description": "DragonFly BSD is a free Unix-like operating system created as a fork of FreeBSD 4.8. Matthew Dillon, an Amiga developer in the late 1980s and early 1990s and a FreeBSD developer between 1994 and 2003, began work on DragonFly BSD in June 2003 and announced it on the FreeBSD mailing lists on 16 July 2003.",
+    "description": "Свободная юниксоподобная операционная система, созданная как форк FreeBSD 4.8. Мэтью Диллон, разработчик Amiga в конце 80-х — начале 90-х и разработчик FreeBSD с 1994 по 2003 год, начал работать над DragonFly BSD в Июне 2003 и анонсировал ее в списке рассылки FreeBSD 16 июля 2003 года.",
     "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
     "logo": "dragonfly-bsd.png",
     "notes": "",
@@ -1022,7 +1022,7 @@
     "name": "DragonFly BSD",
     "tos_url": "",
     "url": "https://www.dragonflybsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/PC-BSD",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/DragonFly_BSD",
     "protocols": [],
     "categories": [
       {
@@ -1056,13 +1056,13 @@
     "description": "Анонимный веб поиск, не ведущий логов.",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
-    "notes": "DuckDuckGo is a software-as-a-service (SaaS) hosted around the world that provides you with anonymous search results from [these sources](https://dukgo.com/help/en_US/results/sources). DDG open source components are [available here](https://github.com/duckduckgo).\n\nThere is also a DuckDuckGo hidden service at [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) for Tor users.",
+    "notes": "DuckDuckGo — сервис с серверами по всему миру, предоставляющий анонимные поисковые результаты из [этих источников](https://duck.co/help/results/sources). Компоненты DDG с открытым исходным кодом [доступны здесь](https://github.com/duckduckgo).\n\nТакже для пользователей Tor работает скрытый сервис DuckDuckGo [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion).",
     "privacy_url": "https://duckduckgo.com/privacy",
     "source_url": "https://github.com/duckduckgo/duckduckgo",
     "name": "DuckDuckGo",
     "tos_url": "",
     "url": "https://duckduckgo.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/DuckDuckGo",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -1078,7 +1078,7 @@
     "slug": "duckduckgo"
   },
   {
-    "description": "Бесплатный онлайн календарь с версией c улучшенной конфиденциальностью.",
+    "description": "Бесплатный онлайн сервис опросов с версией c улучшенной конфиденциальностью.",
     "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
     "logo": "dudle.png",
     "notes": "",
@@ -1106,7 +1106,7 @@
     "slug": "dudle"
   },
   {
-    "description": "Приватный XMPP сервис, запущенный на DuckDuckGo Community Platform&mdash;инструкция включена.",
+    "description": "XMPP сервис, запущенный на DuckDuckGo Community Platform.",
     "license_url": "",
     "logo": "duckduckgo.png",
     "notes": "",
@@ -1161,7 +1161,7 @@
     "name": "ejabberd",
     "tos_url": "",
     "url": "http://www.ejabberd.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Ejabberd",
     "protocols": [
       "XMPP"
     ],
@@ -1179,13 +1179,13 @@
     "description": "Утилита для шифрования файлов под Linux, Mac OS и Windows.",
     "license_url": "https://code.google.com/p/encfs/source/browse/trunk/COPYING",
     "logo": "encfs.png",
-    "notes": "EncFS is available for Windows through the \"encfs4win\" port.",
+    "notes": "EncFS доступна под Windows в рамках порта \"encfs4win\".",
     "privacy_url": "",
     "source_url": "https://code.google.com/p/encfs/source/browse/#svn%2Ftrunk",
     "name": "encfs",
     "tos_url": "",
     "url": "http://www.arg0.net/encfs",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/EncFS",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/EncFS",
     "protocols": [],
     "categories": [
       {
@@ -1223,22 +1223,22 @@
     "audit": {
       "author": "Taylor Hornby",
       "date": "2014-01-14",
-      "description": "EncFS is probably safe as long as the adversary only gets one copy of the ciphertext and nothing more. EncFS is not safe if the adversary has the opportunity to see two or more snapshots of the ciphertext at different times. EncFS attempts to protect files from malicious modification, but there are serious problems with this feature.",
+      "description": "EncFS вероятно безопасна, если атакующий получил только одну копию шифротекста и ничего более. EncFS не безопасна, если атакующий имеет возможность получить две или более копии шифротекста, сделанных в разное время. EncFS пытается защитить файлы от вредоносной модификации, но присутствуют серьезные проблемы с реализацией этой функции.",
       "rating": "0",
       "url": "https://defuse.ca/audits/encfs.htm"
     }
   },
   {
-    "description": "OpenPGP расширение для Thunderbird и Icedove",
+    "description": "Дополнение для OpenPGP шифрования почты для Thunderbird и Icedove",
     "license_url": "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi",
     "logo": "enigmail.png",
-    "notes": "[Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.",
+    "notes": "[Здесь находится инструкция](https://securityinabox.org/ru/thunderbird_main) от Security In A Box, описывающая как шифровать свою электронную почту с помощью Mozilla Thunderbird, GNU Privacy Guard (GPG) и Enigmail.",
     "privacy_url": "",
     "source_url": "https://www.enigmail.net/download/source.php",
     "name": "Enigmail",
     "tos_url": "",
     "url": "https://www.enigmail.net/home/index.php",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Enigmail",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Enigmail",
     "protocols": [
       "GPG"
     ],
@@ -1274,7 +1274,7 @@
     "description": "Многопользовательская работа с таблицами.",
     "license_url": "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt",
     "logo": "ethercalc.png",
-    "notes": "The EtherCalc online service encrypts your data transmission with HTTPS, but data may be read by anyone who can guess the URL. Download and run your own EtherCalc server if you care about privacy.",
+    "notes": "Онлайн сервис EtherCalc шифрует передачу ваших данных с помощью HTTPS, но данные могут быть прочитаны кем угодно, если он угадает URL. Скачайте и запустите собственный сервер EtherCalc если вы беспокоитесь о конфиденциальности.",
     "privacy_url": "https://ethercalc.org/privacy.png",
     "source_url": "https://github.com/audreyt/ethercalc",
     "name": "EtherCalc",
@@ -1299,10 +1299,10 @@
     "slug": "ethercalc"
   },
   {
-    "description": "Приложение для работы с документами в реальном времени с открытым исходным кодом.",
+    "description": "Приложение для работы с документами в реальном времени.",
     "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
     "logo": "etherpad.png",
-    "notes": "The etherpad project maintains a list of [sites that run etherpad services](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Please only choose from the services that use SSL, and research the site's background before trusting them with your data.",
+    "notes": "Проект etherpad публикует [список сайтов, которые используют etherpad](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Выбирайте те сервисы, которые используют SSL и узнайте больше о сайте, перед тем, как доверять ему свои данные.",
     "privacy_url": "",
     "source_url": "https://github.com/ether/etherpad-lite",
     "name": "Etherpad",
@@ -1338,7 +1338,7 @@
     "name": "Evolution",
     "tos_url": "",
     "url": "https://projects.gnome.org/evolution/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Evolution",
     "protocols": [
       "CalDAV",
       "GPG",
@@ -1367,7 +1367,7 @@
     "name": "Exim",
     "tos_url": "",
     "url": "http://www.exim.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Exim",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Exim",
     "protocols": [],
     "categories": [
       {
@@ -1380,7 +1380,7 @@
     "slug": "exim"
   },
   {
-    "description": "Свободная альтернатива Google Play с открытым исходным кодом для Android",
+    "description": "Альтернатива магазину приложений Google Play для Android",
     "license_url": "https://gitorious.org/f-droid/fdroidserver/source/COPYING/",
     "logo": "f-droid.png",
     "notes": "",
@@ -1407,11 +1407,11 @@
     "logo": "fedora.png",
     "notes": "",
     "privacy_url": "https://fedoraproject.org/wiki/Legal:PrivacyPolicy?rd=Legal/PrivacyPolicy",
-    "source_url": "https://fedoraproject.org/en/get-fedora-all",
+    "source_url": "https://fedoraproject.org/ru/get-fedora-all",
     "name": "Fedora",
     "tos_url": "",
-    "url": "https://fedoraproject.org/",
-    "wikipedia_url": "https://es.wikipedia.org/wiki/Fedora_%28distribuci%C3%B3n_Linux%29",
+    "url": "https://fedoraproject.org/ru/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Fedora",
     "protocols": [],
     "categories": [
       {
@@ -1436,7 +1436,7 @@
     "slug": "fedora"
   },
   {
-    "description": "Firefox OS &mdash; свободная операционная система с открытым исходным кодом для Android-совместимых смартфонов и планшетов.",
+    "description": "Операционная система с открытым исходным кодом для Android-совместимых устройств.",
     "license_url": "https://www.mozilla.org/en-US/foundation/licensing/",
     "logo": "mozilla-firefox.png",
     "notes": "",
@@ -1444,8 +1444,8 @@
     "source_url": "https://github.com/mozilla-b2g",
     "name": "Firefox OS",
     "tos_url": "",
-    "url": "https://www.mozilla.org/en-US/firefox/os/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_OS",
+    "url": "https://www.mozilla.org/firefox/os/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Firefox_OS",
     "protocols": [],
     "categories": [
       {
@@ -1472,8 +1472,8 @@
     "source_url": "http://svnweb.freebsd.org/",
     "name": "FreeBSD",
     "tos_url": "",
-    "url": "https://www.freebsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeBSD",
+    "url": "https://www.freebsd.org/ru/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/FreeBSD",
     "protocols": [],
     "categories": [
       {
@@ -1504,7 +1504,7 @@
     "slug": "freebsd"
   },
   {
-    "description": "FreedomBox предоставляет защиту конфиденциальности на дешевом плаг-сервере, так что каждый может хранить свои тайны.",
+    "description": "Защита конфиденциальности на дешевом плаг-сервере, что позволяет каждому хранить свои тайны.",
     "license_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "freedombox.png",
     "notes": "",
@@ -1513,7 +1513,7 @@
     "name": "FreedomBox",
     "tos_url": "",
     "url": "https://www.freedomboxfoundation.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/FreedomBox",
     "protocols": [
       "GPG",
       "TOR",
@@ -1531,7 +1531,7 @@
     "slug": "freedombox"
   },
   {
-    "description": "Plug and play cjdns appliance, offering a distributed and end-to-end encrypted telephony and email service.",
+    "description": "Работающее из коробки cjdns устройство, предоставляющее распределенные и зашифрованные звонки и сервис электронной почты.",
     "license_url": "https://github.com/enigmagroup/enigmasuite/blob/master/LICENSE",
     "logo": "enigmabox.png",
     "notes": "",
@@ -1564,7 +1564,7 @@
     "slug": "enigmabox"
   },
   {
-    "description": "Децентрализованная сеть, устойчивая к цензуре.",
+    "description": "Устойчивая к цензуре децентрализованная сеть.",
     "license_url": "https://github.com/freenet/fred-staging/blob/next/LICENSE",
     "logo": "freenet.png",
     "notes": "",
@@ -1572,8 +1572,8 @@
     "source_url": "https://github.com/freenet/",
     "name": "Freenet",
     "tos_url": "",
-    "url": "https://freenetproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Freenet",
+    "url": "https://freenetproject.org/?language=ru",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Freenet",
     "protocols": [],
     "categories": [
       {
@@ -1619,7 +1619,7 @@
     "name": "FreeSWITCH",
     "tos_url": "",
     "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/FreeSWITCH",
     "protocols": [
       "SIP",
       "VoIP"
@@ -1635,7 +1635,7 @@
     "slug": "freeswitch"
   },
   {
-    "description": "Некоммерческая инициатива снизу, направленная на поддержку независимых радио сетей по всему миру.",
+    "description": "Некоммерческая инициатива, направленная на поддержку независимых радио сетей по всему миру.",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "freifunk.png",
     "notes": "",
@@ -1644,7 +1644,7 @@
     "name": "Freifunk",
     "tos_url": "",
     "url": "http://wiki.freifunk.net/Kategorie:English",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Freifunk",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Freifunk",
     "protocols": [],
     "categories": [
       {
@@ -1657,7 +1657,7 @@
     "slug": "freifunk"
   },
   {
-    "description": "Распределенная социальная сеть, уважающая конфиденциальность.",
+    "description": "Распределенная федеративная социальная сеть.",
     "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
     "logo": "friendica.png",
     "notes": "",
@@ -1666,7 +1666,7 @@
     "name": "friendica",
     "tos_url": "",
     "url": "http://friendica.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Friendica",
     "protocols": [
       "RSS",
       "SSL/TLS",
@@ -1683,7 +1683,7 @@
     "slug": "friendica"
   },
   {
-    "description": "Легкий и быстрый IM клиент для GNU/Linux и Windows&mdash;поддержка OTR через.",
+    "description": "Легкий и быстрый IM клиент для GNU/Linux и Windows с поддержкой OTR через плагин.",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.png",
     "notes": "",
@@ -1691,8 +1691,8 @@
     "source_url": "https://gajim.org/dev.php",
     "name": "Gajim",
     "tos_url": "",
-    "url": "http://gajim.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim",
+    "url": "http://gajim.org/index.php?lang=ru",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Gajim",
     "protocols": [
       "GPG",
       "OTR",
@@ -1749,11 +1749,11 @@
     "logo": "gentoo.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://www.gentoo.org/main/en/where.xml",
+    "source_url": "https://www.gentoo.org/main/ru/where.xml",
     "name": "Gentoo",
     "tos_url": "",
     "url": "https://www.gentoo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gentoo_Linux",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Gentoo_Linux",
     "protocols": [],
     "categories": [
       {
@@ -1834,8 +1834,8 @@
     "source_url": "https://savannah.nongnu.org/bzr/?group=gnewsense",
     "name": "gNewSense",
     "tos_url": "",
-    "url": "http://www.gnewsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNewSense",
+    "url": "http://www.gnewsense.org/ru/Main/HomePage",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/GNewSense",
     "protocols": [],
     "categories": [
       {
@@ -1869,7 +1869,7 @@
     "name": "GNU Privacy Guard",
     "tos_url": "",
     "url": "http://www.gnupg.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/GnuPG",
     "protocols": [
       "GPG"
     ],
@@ -1910,8 +1910,8 @@
     "source_url": "http://gitorious.org/+socialites/statusnet/gnu-social",
     "name": "GNU social",
     "tos_url": "",
-    "url": "https://www.gnu.org/software/social/",
-    "wikipedia_url": "",
+    "url": "http://gnu.io",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Social",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1932,7 +1932,7 @@
     "slug": "gnu-social"
   },
   {
-    "description": "GNUnet &mdash; полностью свободная P2P сеть.",
+    "description": "Полностью свободная P2P сеть.",
     "license_url": "https://gnunet.org/svn/gnunet/COPYING",
     "logo": "gnunet.png",
     "notes": "",
@@ -1941,7 +1941,7 @@
     "name": "GNUnet",
     "tos_url": "",
     "url": "https://gnunet.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/GNUnet",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1980,7 +1980,7 @@
     "slug": "gnunet"
   },
   {
-    "description": "A port of the whole GnuPG 2.1 suite to Android.\n\nGnu Privacy Guard (GPG) gives you access to the entire GnuPG suite of encryption software. GnuPG is GNU’s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. GnuPG 2.1 is the new modularized version of GnuPG that now supports OpenPGP and S/MIME.",
+    "description": "Порт GnuPG 2.1 для Android.\n\nGnu Privacy Guard (GPG) предоставляет вам доступ к целому пакету криптографических приложений GnuPG. GnuPG — инструмент от GNU для безопасных коммуникаций, защищенных end-to-end шифрованием, и для хранения данных в зашифрованном виде. Этот протокол является свободной альтернативой для PGP. GnuPG 2.1 — это новая модульная версия GnuPG, которая теперь поддерживает OpenPGP и S/MIME.",
     "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
     "logo": "gnupg-for-android.png",
     "notes": "",
@@ -2005,7 +2005,7 @@
     "slug": "gpg-for-android"
   },
   {
-    "description": "Gpg4win is an installation package for Windows (XP, Vista, 7 and 8) with software tools and manuals for email and file encryption on behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.",
+    "description": "Gpg4win — установочный пакет для Windows (XP, Vista, 7 and 8) с программными инструментами и инструкциями по шифрованию почты и файлов от немецкого федерального управления по информационной безопасности. Сам Gpg4win и все инструменты, входящиее в его состав — свободное программное обеспечение с открытым исходным кодом. Это программное обеспеченье в основном использует криптографию с открытым ключом для шифрования данных и цифровых подписей.",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
     "logo": "gpg4win.png",
     "notes": "",
@@ -2053,7 +2053,7 @@
     "slug": "gpgtools"
   },
   {
-    "description": "Открытая, свободна и нейтральная беспроводная сеть для каждого.",
+    "description": "Открытая, свободная и нейтральная беспроводная сеть для каждого.",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "guifi.png",
     "notes": "",
@@ -2078,7 +2078,7 @@
     "description": "Кроссплатформенный IRC клиент.",
     "license_url": "https://github.com/hexchat/hexchat/blob/master/COPYING",
     "logo": "hexchat.png",
-    "notes": "HexChat does not offer encrypted IRC by default. You need to enable the FiSHLiM plugin for IRC message encryption.",
+    "notes": "HexChat не предоставляет шифрование IRC по умолчанию. Вам необходимо включить плагин FiSHLiM для этого.",
     "privacy_url": "",
     "source_url": "https://github.com/HexChat/hexchat",
     "name": "HexChat",
@@ -2117,7 +2117,7 @@
     "slug": "hexchat"
   },
   {
-    "description": "Шифрует ваши соединения на тысячах веб сайтов с помощью переключения на HTTPS везде.",
+    "description": "Шифрует ваши соединения на тысячах веб сайтов с помощью переключения на HTTPS.",
     "license_url": "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt",
     "logo": "https-everywhere.png",
     "notes": "",
@@ -2165,7 +2165,7 @@
     "slug": "https-everywhere"
   },
   {
-    "description": "Проект невидимого интернета.",
+    "description": "Проект невидимый интернет.",
     "license_url": "https://geti2p.net/en/get-involved/develop/licenses",
     "logo": "i2p.png",
     "notes": "",
@@ -2173,8 +2173,8 @@
     "source_url": "https://geti2p.net/en/get-involved/guides/new-developers",
     "name": "I2P",
     "tos_url": "",
-    "url": "https://geti2p.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/I2P",
+    "url": "https://geti2p.net/ru/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/I2P",
     "protocols": [
       "I2P"
     ],
@@ -2216,7 +2216,7 @@
     "description": "Хостинг изображений с AES-256 шифрованием в браузере.",
     "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
     "logo": "imgbi.png",
-    "notes": "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
+    "notes": "Сервис img.bi также доступен в Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\n В I2P img.bi доступен как [ипсайт](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
     "privacy_url": "https://img.bi/",
     "source_url": "https://github.com/imgbi",
     "name": "img.bi",
@@ -2289,7 +2289,7 @@
     "slug": "iredmail"
   },
   {
-    "description": "Ixquick is a metasearch engine based in New York and the Netherlands. ",
+    "description": "Метапоисковая система, основанная в Нью-Йорке и Нидерландах.",
     "license_url": "",
     "logo": "ixquick.png",
     "notes": "",
@@ -2298,7 +2298,7 @@
     "name": "Ixquick",
     "tos_url": "",
     "url": "https://ixquick.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Ixquick",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2313,16 +2313,16 @@
     "slug": "ixquick"
   },
   {
-    "description": "Кроссплатформенный клиент текстового чата, видеочата и видеосообщений с поддержкой шифрования.",
+    "description": "Кроссплатформенный клиент текстового и видеочата с поддержкой шифрования.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
-    "notes": "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\n\nLastly, note that Jitsi records chat history in unencrypted form.",
+    "notes": "Jitsi может [запрашивать небезопасную информацию во время зашифрованного чата](https://github.com/nylira/prism-break/issues/291) если вы вставите ссылку в него. \nТакже, если Jitsi настроен на использование Tor, то возможна [утечка DNS информации](https://trac.jitsi.org/ticket/1060) из-за DNS разрешения в обход Tor.\n\nИ последнее: помните, что Jitsi записывает историю чатов в незашифрованном виде.",
     "privacy_url": "",
     "source_url": "https://github.com/jitsi",
     "name": "Jitsi",
     "tos_url": "",
     "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Jitsi",
     "protocols": [
       "OTR",
       "SIP",
@@ -2355,7 +2355,7 @@
     "slug": "jitsi"
   },
   {
-    "description": "Live CD/USB, основанный на Debian, с настроенными инструментами для анонимного использования Интернета.",
+    "description": "Live CD/USB, основанный на Debian, с преднастроенными инструментами для анонимного использования Интернета.",
     "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
     "logo": "jondonym.png",
     "notes": "",
@@ -2496,7 +2496,7 @@
     "slug": "kamailio"
   },
   {
-    "description": "Программное обеспечение для совместной работы с электронной почтой, календарями, адресными книгами, а так же синхронизация для мобильных телефонов.",
+    "description": "Программное обеспечение совместной работы с электронной почтой, календарями, адресными книгами и синхронизацией с мобильными устройствами.",
     "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
     "logo": "kolab.png",
     "notes": "",
@@ -2532,7 +2532,7 @@
     "name": "Kontact",
     "tos_url": "",
     "url": "http://www.kontact.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Kontact",
     "protocols": [
       "GPG",
       "RSS",
@@ -2556,16 +2556,16 @@
     "slug": "kontact"
   },
   {
-    "description": "Live CD/USB операционная система, разработанная для безопасной коммуникации в враждебных средах.",
+    "description": "Live CD/USB операционная система, разработанная для безопасной коммуникации даже во враждебных средах.",
     "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
     "logo": "liberte-linux.png",
-    "notes": "Warning: The most recent Liberté Linux release is dated 2012-09-01. This means that packages may be potentially outdated and vulnerable to unpatched security bugs.",
+    "notes": "Внимание: Последний релиз Liberté Linux вышел 1.09.2012. Это значит, что пакеты могут быть устаревшими и уязвимыми к неисправленными в них ошибками безопасности.",
     "privacy_url": "",
     "source_url": "https://github.com/mkdesu/liberte",
     "name": "Liberté Linux",
     "tos_url": "",
     "url": "http://dee.su/liberte",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Security-focused_operating_system#Libert.C3.A9_Linux.5B7.5D",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Libert%C3%A9_Linux",
     "protocols": [],
     "categories": [
       {
@@ -2618,16 +2618,16 @@
     "slug": "libreswan"
   },
   {
-    "description": "Свободная сеть, запускающая поверх других сетей.",
+    "description": "Свободная оверлейная сеть.",
     "license_url": "https://github.com/fauno/librevpn/blob/master/LICENSE",
     "logo": "librevpn.png",
-    "notes": "This project is experimental, and the site is in Spanish only.",
+    "notes": "Этот проект экспериментальный и сайт доступен только на испанском.",
     "privacy_url": "",
     "source_url": "https://github.com/fauno/librevpn",
     "name": "LibreVPN",
     "tos_url": "",
     "url": "http://librevpn.org.ar/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
+    "wikipedia_url": "",
     "protocols": [],
     "categories": [
       {
@@ -2655,7 +2655,7 @@
     "name": "Linphone",
     "tos_url": "",
     "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Linphone",
     "protocols": [
       "SIP",
       "SSL/TLS",
@@ -2708,7 +2708,7 @@
     "slug": "linphone"
   },
   {
-    "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
+    "description": "Litecoin (знак : Ł ; код : LTC) — P2P криптовалюта и программное обеспечение с открытым исходным кодом, выпущенным под лицензией MIT/X11. Так как Litecoin был вдохновлен и технически практически идентичен Bitcoin (BTC), его эмиссия и передача основана на открытом протоколе и не управляется никаким центральным органом.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
     "notes": "",
@@ -2716,8 +2716,8 @@
     "source_url": "https://github.com/litecoin-project/litecoin",
     "name": "Litecoin",
     "tos_url": "",
-    "url": "https://litecoin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin",
+    "url": "https://litecoin.org/ru/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Litecoin",
     "protocols": [],
     "categories": [
       {
@@ -2760,7 +2760,7 @@
     "slug": "litecoin"
   },
   {
-    "description": "Распределенные социальные узлы.",
+    "description": "Распределенные и федеральные социальные узлы.",
     "license_url": "https://github.com/lorea/Elgg/blob/master/LICENSE.txt",
     "logo": "lorea.png",
     "notes": "",
@@ -2839,7 +2839,7 @@
     "name": "Marble",
     "tos_url": "",
     "url": "http://marble.kde.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Marble",
     "protocols": [],
     "categories": [
       {
@@ -2864,10 +2864,10 @@
     "slug": "marble"
   },
   {
-    "description": "Хостинг изображений, аудио и видео, защищающий конфидециальность.",
+    "description": "Быстрый хостинг изображений, аудио и видео.",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
-    "notes": "Warning: MediaCrush includes Google Analytics if you do not enable Do Not Track.\n\nThe hidden service is available at [http://mediacrs5ujufxog.onion/](http://mediacrs5ujufxog.onion/).",
+    "notes": "Внимание: MediaCrush будет использовать Google Analytics, если вы не включите Do Not Track.\n\nСкрытый сервис доступен по адресу [http://mediacrs5ujufxog.onion/](http://mediacrs5ujufxog.onion/).",
     "privacy_url": "https://mediacru.sh/serious",
     "source_url": "https://github.com/MediaCrush/MediaCrush",
     "name": "MediaCrush",
@@ -2898,13 +2898,13 @@
     "description": "Децентрализованная платформа для публикации.",
     "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
     "logo": "mediagoblin.png",
-    "notes": "MediaGoblin does not encrypt any of your data by default.",
+    "notes": "MediaGoblin не шифрует ваши данные по умолчанию.",
     "privacy_url": "",
     "source_url": "https://gitorious.org/mediagoblin/mediagoblin",
     "name": "MediaGoblin",
     "tos_url": "",
     "url": "http://mediagoblin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/MediaGoblin",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2919,7 +2919,7 @@
     "slug": "mediagoblin"
   },
   {
-    "description": "Метапоисковая система, проксирующая ваши запросы на несколько других поисковых систем.",
+    "description": "Проксирует ваши запросы к нескольким поисковым системам.",
     "license_url": "",
     "logo": "metager.png",
     "notes": "",
@@ -2998,16 +2998,16 @@
     "slug": "movim"
   },
   {
-    "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнеинй.",
+    "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (OS X) if you don't want Mozilla to send reported URL hashes to Google.",
+    "notes": "Firefox не прячет ваш IP адрес от третьих лиц по умолчанию. Если вы хотите анонимизировать свой IP, используйте вместо него Tor Browser Bundle.\n\nFirefox отправляет поисковые запросы через Google по умолчанию. Подумайте о смене его на DuckDuckGo или Startpage для анонимного веб поиска.\n\nПодумайте о выключении функций «Блокировать сайты, подозреваемые в атаках» и «Блокировать сайты, подозреваемые в мошенничестве», расположенных в меню Правка -> Настройки -> Безопасность (Windows & GNU/Linux) или Настройки -> Безопасность (OS X), если вы не хотите, чтобы Mozilla отправляла хеши URL в Google.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox",
+    "url": "https://www.mozilla.org/ru/firefox/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Firefox",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3049,13 +3049,13 @@
     "description": "Кроссплатформенное приложение электронной почты с шифрованием через дополнение Enigmail.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
-    "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
+    "notes": "Thunderbird не шифрует вашу электронную почту по умолчанию. [Здесь находится инструкция](https://securityinabox.org/ru/thunderbird_main) от Security In A Box, описывающая как шифровать свою электронную почту с помощью Mozilla Thunderbird, GNU Privacy Guard (GPG) и Enigmail.\n\nThunderbird опционально может соединяться через Tor с дополнением TorBirdy.\n\nХотя Thunderbird и может быть использован как клиент чата, он не поддерживает шифрование сообщений.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/en-US/thunderbird/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
+    "url": "https://www.mozilla.org/ru/thunderbird/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
       "GPG",
       "IRC",
@@ -3111,7 +3111,7 @@
     "name": "Mumble",
     "tos_url": "",
     "url": "http://mumble.sourceforge.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mumble_%28software%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Mumble",
     "protocols": [
       "VoIP",
       "ZRTP"
@@ -3157,10 +3157,10 @@
     "slug": "mumble"
   },
   {
-    "description": "Защищенные Kolab аккаунты, расположенные в Швейцарии, за 10 CHF в месяц.",
+    "description": "Защищенные аккаунты Kolab, на серверах, расположенных в Швейцарии, за 8.99 CHF в месяц или 4.55 CHF если требуется только электронная почта.",
     "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
     "logo": "mykolab.png",
-    "notes": "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \nAlso, you can export all your data at any time.",
+    "notes": "Сервера MyKolab находятся в Швейцарии, что позволяет им быть защищенными [сильным швейцарским законодательством в области конфиденциальности](https://MyKolab.com/privacy). MyKolab основывается только на свободном программном обеспечении, и его использование поддерживает разработку Kolab. \nТакже вы можете экспортировать все свои данные в любое время.",
     "privacy_url": "https://mykolab.com/privacy",
     "source_url": "http://git.kolab.org/",
     "name": "MyKolab",
@@ -3212,7 +3212,7 @@
     "name": "Namecoin",
     "tos_url": "",
     "url": "http://dot-bit.org/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Namecoin",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Namecoin",
     "protocols": ["DNS"],
     "categories": [
       {
@@ -3243,7 +3243,7 @@
     "slug": "namecoin"
   },
   {
-    "description": "NetBSD is an open-source Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. ",
+    "description": "Юниксоподобная операционная система, ответвление Berkeley Software Distribution (BSD), производной Unix, разрабатываемой в Калифорнийском университете в Беркли. Она была вторым официально выпущенным ответвление с открытыми исходными кодами после 386BSD, и до сих пор активно разрабатывается. Силы проекта NetBSD в первую очередь направлены на обеспечение высокого качества разработки, стабильность и безопасность.",
     "license_url": "https://www.netbsd.org/about/redistribution.html",
     "logo": "netbsd.png",
     "notes": "",
@@ -3252,7 +3252,7 @@
     "name": "NetBSD",
     "tos_url": "",
     "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/NetBSD",
     "protocols": [],
     "categories": [
       {
@@ -3283,16 +3283,16 @@
     "slug": "netbsd"
   },
   {
-    "description": "Разрешите Javascript, Java и Flash только тем сайтам, которым доверяете. ",
+    "description": "Разрешите Javascript, Java и Flash только тем сайтам, которым доверяете.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
-    "notes": "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
-    "privacy_url": "https://addons.mozilla.org/en-US/firefox/addon/noscript/privacy/",
+    "notes": "Установите **NoScript** и включите опцию «Запретить скрипты глобально», чтобы улучшить безопасность вашего браузера, предотвратив таким образом 0day JavaScript атаки. Это радикальное решение, и из-за этой опции некоторые сайты будет невозможно использовать, так как они в значительной степени зависят от JavaScript. NoScript предоставляет возможность ведения белого списка, и вы можете выборочно включить JavaScript только на тех сайтах, которым вы доверяете, но это [очень сильно ухудшит вашу анонимность](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled), если вы используете NoScript с **Tor Browser Bundle**.",
+    "privacy_url": "https://addons.mozilla.org/ru/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
     "tos_url": "",
     "url": "http://noscript.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NoScript",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/NoScript",
     "protocols": [],
     "categories": [
       {
@@ -3323,7 +3323,7 @@
     "slug": "noscript"
   },
   {
-    "description": "Установите и включите этот плагин в Pidgin для шифрованного чата.",
+    "description": "Установите и включите этот плагин в Pidgin для шифрования чата.",
     "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
     "logo": "otr.png",
     "notes": "",
@@ -3332,7 +3332,7 @@
     "name": "Off-the-Record Messaging",
     "tos_url": "",
     "url": "https://otr.cypherpunks.ca/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Off-the-Record_Messaging",
     "protocols": [
       "OTR"
     ],
@@ -3384,10 +3384,10 @@
     "slug": "onion-browser"
   },
   {
-    "description": "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform.",
+    "description": "Реализация на C++ высокопроизводительной системы навигации для поиска кратчайших путей в дорожных сетях. Лицензирована под пермиссивной 2-пунктовая лицензией BSD. OSRM поддерживает Linux, FreeBSD, Windows и Mac.",
     "license_url": "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT",
     "logo": "osrm.png",
-    "notes": "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service.",
+    "notes": "OSRM должен быть установлен и запущен локально на вашем компьютере, чтобы избежать потенциальных утечек данных с незашифрованных онлайн сервисов.",
     "privacy_url": "",
     "source_url": "https://github.com/DennisOSRM/Project-OSRM",
     "name": "Open Source Routing Machine",
@@ -3430,7 +3430,7 @@
     "slug": "open-source-routing-machine"
   },
   {
-    "description": "Альтернативная веб-аналитика с открытым исходным кодом",
+    "description": "Альтернативное ПО для веб-аналитики с открытым исходным кодом.",
     "license_url": "http://wiki.openwebanalytics.com/index.php?title=License",
     "logo": "open-web-analytics.png",
     "notes": "",
@@ -3452,7 +3452,7 @@
     "slug": "open-web-analytics"
   },
   {
-    "description": "Безопасная BSD операционная система.",
+    "description": "Безопасная операционная система BSD.",
     "license_url": "http://openbsd.org/policy.html",
     "logo": "openbsd.png",
     "notes": "",
@@ -3461,7 +3461,7 @@
     "name": "OpenBSD",
     "tos_url": "",
     "url": "http://openbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/OpenBSD",
     "protocols": [],
     "categories": [
       {
@@ -3498,7 +3498,7 @@
     "slug": "openbsd"
   },
   {
-    "description": "Кросс-платформенный XMPP сервер написанный на Java.",
+    "description": "Кроссплатформенный XMPP сервер, написанный на Java.",
     "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
     "logo": "openfire.png",
     "notes": "",
@@ -3507,7 +3507,7 @@
     "name": "Openfire",
     "tos_url": "",
     "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Openfire",
     "protocols": [
       "XMPP"
     ],
@@ -3525,7 +3525,7 @@
     "description": "Открытый, демократичный и противостоящий цензуре DNS провайдер.",
     "license_url": "",
     "logo": "opennic.png",
-    "notes": "OpenNIC has not adopted an official policy concerning log query privacy/anonymization. More information [here](http://wiki.opennicproject.org/Tier2).",
+    "notes": "OpenNIC не принял официальную политику, касающуюся конфиденциальности/анонимизации логирования запросов. Подробнее [здесь](http://wiki.opennicproject.org/Tier2).",
     "privacy_url": "http://wiki.opennicproject.org/Tier2",
     "source_url": "http://wiki.opennicproject.org/opennicZoneScript",
     "name": "OpenNIC",
@@ -3544,10 +3544,10 @@
     "slug": "opennic"
   },
   {
-    "description": "OpenPGP Keychain is an OpenPGP implementation for Android.",
+    "description": "Реализация OpenPGP для Android.",
     "license_url": "https://github.com/dschuermann/openpgp-keychain/blob/master/LICENSE",
     "logo": "openpgp-keychain.png",
-    "notes": "OpenPGP Keychain is EXPERIMENTAL software. Use at your own risk!\r",
+    "notes": "OpenPGP Keychain — ЭКСПЕРИМЕНТАЛЬНОЕ программное обеспечение. Используйте его на свой страх и риск!\r",
     "privacy_url": "",
     "source_url": "https://github.com/dschuermann/openpgp-keychain",
     "name": "OpenPGP Keychain",
@@ -3577,7 +3577,7 @@
     "name": "OpenStreetMap",
     "tos_url": "",
     "url": "http://www.openstreetmap.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenStreetMap",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/OpenStreetMap",
     "protocols": [],
     "categories": [
       {
@@ -3591,15 +3591,15 @@
   },
   {
     "description": "Стабильный и простой в использовании дистрибутив GNU/Linux для разных целей.",
-    "license_url": "https://en.opensuse.org/openSUSE:License",
+    "license_url": "https://ru.opensuse.org/openSUSE:%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F",
     "logo": "opensuse.png",
     "notes": "",
     "privacy_url": "https://www.suse.com/company/policies/privacy/",
-    "source_url": "https://en.opensuse.org/Source_code",
+    "source_url": "https://ru.opensuse.org/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%B4",
     "name": "OpenSUSE",
-    "tos_url": "https://en.opensuse.org/Terms_of_site",
-    "url": "https://www.opensuse.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenSUSE",
+    "tos_url": "https://ru.opensuse.org/%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D1%81%D0%B0%D0%B9%D1%82%D0%B0",
+    "url": "https://www.opensuse.org/ru/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/OpenSUSE",
     "protocols": [],
     "categories": [
       {
@@ -3660,8 +3660,8 @@
     "source_url": "https://github.com/OpenVPN",
     "name": "OpenVPN",
     "tos_url": "",
-    "url": "http://openvpn.net/index.php/open-source.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN",
+    "url": "https://openvpn.net/index.php/open-source.html",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/OpenVPN",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3706,7 +3706,7 @@
     "slug": "openvpn"
   },
   {
-    "description": "Функциональность и возможности Tor для Android.",
+    "description": "Все функции и возможности Tor для Android.",
     "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
     "logo": "orbot.png",
     "notes": "",
@@ -3730,7 +3730,7 @@
     "slug": "orbot"
   },
   {
-    "description": "OsmAnd (OSM Automated Navigation Directions) &mdash; карта и навигационное приложение, использующее данные OpenStreetMap.",
+    "description": "Карта и навигационное приложение, использующее данные OpenStreetMap.",
     "license_url": "https://github.com/osmandapp/Osmand/blob/master/LICENSE",
     "logo": "osmand.png",
     "notes": "",
@@ -3738,8 +3738,8 @@
     "source_url": "https://github.com/osmandapp",
     "name": "OsmAnd",
     "tos_url": "",
-    "url": "http://osmand.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd",
+    "url": "http://osmand.net/ru.html",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/OsmAnd",
     "protocols": [],
     "categories": [
       {
@@ -3788,7 +3788,7 @@
     "name": "ownCloud",
     "tos_url": "",
     "url": "http://owncloud.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/OwnCloud",
     "protocols": [
       "CalDAV",
       "CardDAV",
@@ -3805,7 +3805,7 @@
     "slug": "owncloud"
   },
   {
-    "description": "Гибкий легковестный дистрибутив GNU/Linux, основанный на Arch Linux.",
+    "description": "Гибкий и легковестный дистрибутив GNU/Linux, основанный на Arch Linux.",
     "license_url": "https://wiki.parabolagnulinux.org/Parabola/GNU_Linux_Social_Contract",
     "logo": "parabola.png",
     "notes": "",
@@ -3839,16 +3839,16 @@
     "slug": "parabola-gnu-linux-libre"
   },
   {
-    "description": "Универсальная программа для мгновенного обмена сообщениями с открытым исходным кодом.",
+    "description": "Свободная универсальная программа для мгновенного обмена сообщениями.",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
-    "notes": "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system with software like [TrueCrypt](http://www.truecrypt.org/), or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\n\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds.",
+    "notes": "Pidgin хранит пароли от ваших аккаунтов [в открытом виде](https://developer.pidgin.im/wiki/PlainTextPasswords). Вы можете избежать этого не сохраняя пароли в Pidgin, или зашифровав вашу файловую систему с помощью программного обеспечения, подобного [TrueCrypt](http://www.truecrypt.org/), или храня ваши пароли безопасно с помощью пакета для Debian [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\n\nPidgin с OTR и включенным dbus имеет локальный баг в безопасности. Смотрите [баг репорт](https://developer.pidgin.im/ticket/14830) для получения более подробной информации о баге и возможных способах обхода.",
     "privacy_url": "",
     "source_url": "http://hg.pidgin.im/pidgin/main/",
     "name": "Pidgin",
     "tos_url": "",
     "url": "https://www.pidgin.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pidgin_%28software%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Pidgin",
     "protocols": [
       "IRC",
       "OTR",
@@ -3881,16 +3881,16 @@
     "slug": "pidgin"
   },
   {
-    "description": "Платформа для публикации фото, которую можно установить на собственный сервер.",
+    "description": "Платформа для фотогалерей, которую можно установить на собственный сервер.",
     "license_url": "http://piwigo.org/basics/license",
     "logo": "piwigo.png",
-    "notes": "Piwigo does not encrypt any of your data by default.",
+    "notes": "Piwigo не шифрует ваши данные по умолчанию.",
     "privacy_url": "",
     "source_url": "http://piwigo.org/dev/browser",
     "name": "Piwigo",
     "tos_url": "",
-    "url": "http://piwigo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo",
+    "url": "http://ru.piwigo.org/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Piwigo",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3905,7 +3905,7 @@
     "slug": "piwigo"
   },
   {
-    "description": "Веб-аналитика для вашего сервера с открытым исходным кодом.",
+    "description": "Программное обеспечение для веб-аналитики с открытым исходным кодом, которое можно установить на собственный сервер.",
     "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
     "logo": "piwik.png",
     "notes": "",
@@ -3914,7 +3914,7 @@
     "name": "Piwik",
     "tos_url": "",
     "url": "https://piwik.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwik",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Piwik",
     "protocols": [],
     "categories": [
       {
@@ -3936,7 +3936,7 @@
     "name": "Postfix",
     "tos_url": "",
     "url": "http://www.postfix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Postfix_%28software%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Postfix",
     "protocols": [],
     "categories": [
       {
@@ -3949,7 +3949,7 @@
     "slug": "postfix"
   },
   {
-    "description": "Гибкий и легкий XMPP сервер написанный на Lua.",
+    "description": "Гибкий и легкий XMPP сервер, написанный на Lua.",
     "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
     "logo": "prosody.png",
     "notes": "",
@@ -3958,7 +3958,7 @@
     "name": "Prosody",
     "tos_url": "",
     "url": "https://prosody.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Prosody",
     "protocols": [
       "XMPP"
     ],
@@ -3976,7 +3976,7 @@
     "description": "Свободный зашифрованный онлайн блокнот.",
     "license_url": "",
     "logo": "protextedtext.png",
-    "notes": "ProtectedText encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.",
+    "notes": "ProtectedText шифрует/расшифровывает текст в браузере, и пароль (или его хеш) никогда не отправляется на сервер, так что текст не может быть расшифрован, даже если этого потребуют власти.",
     "privacy_url": "",
     "source_url": "https://www.protectedtext.com/js/main.js",
     "name": "ProtectedText",
@@ -4006,7 +4006,7 @@
     "name": "Psi+",
     "tos_url": "",
     "url": "http://psi-plus.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Psi_%28instant_messaging_client%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Psi",
     "protocols": [
       "GPG",
       "XMPP"
@@ -4064,7 +4064,7 @@
     "slug": "pumpio"
   },
   {
-    "description": "Мгновенно превратите любой сервер в платформу файлообмена.",
+    "description": "Мгновенно превращает любой сервер в платформу для файлообмена.",
     "license_url": "https://github.com/pydio/pydio-core/blob/master/README.md",
     "logo": "pydio.png",
     "notes": "",
@@ -4086,7 +4086,7 @@
     "slug": "pydio"
   },
   {
-    "description": "Основанная на Fedora/Xen операционная система созданная для обеспечения высокого уровня безопасности с помощью изоляции.",
+    "description": "Основанная на Fedora/Xen операционная система, созданная для обеспечения высокого уровня безопасности с помощью изоляции.",
     "license_url": "http://qubes-os.org/trac/wiki/QubesLicensing",
     "logo": "qubes-os.png",
     "notes": "",
@@ -4191,7 +4191,7 @@
     "description": "Свободная и безопасная P2P коммуникационная платформа, предоставляющая IM, форумы, VoIP, обмен файлами и многое другое.",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
     "logo": "retroshare.png",
-    "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
+    "notes": "RetroShare еще не был тщательно проверен экспертами по безопасности на возможные уязвимости.\n\nДля тех, у кого нету собственного сервера, RetroShare скорее всего будет самым простым способом создать собственную зашифрованную социальную сеть.",
     "privacy_url": "",
     "source_url": "http://sourceforge.net/p/retroshare/code/HEAD/tree/",
     "name": "RetroShare",
@@ -4239,10 +4239,10 @@
     "slug": "retroshare"
   },
   {
-    "description": "Безопасные коммуникационные инструменты для людей, работающих ради освободительных социальных перемен.",
+    "description": "Безопасные коммуникационные инструменты для активистов, работающих над освободительными социальными переменами.",
     "license_url": "",
     "logo": "riseup.png",
-    "notes": "Riseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
+    "notes": "Сервера Riseup также доступны как скрытые сервисы Tor. Список адресов [доступен здесь](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
     "privacy_url": "https://help.riseup.net/en/privacy-policy",
     "source_url": "http://riseuplabs.org/",
     "name": "Riseup",
@@ -4293,7 +4293,7 @@
     "slug": "salut-a-toi"
   },
   {
-    "description": "Scientific Linux (SL) is a Linux distribution produced by Fermi National Accelerator Laboratory and the European Organization for Nuclear Research (CERN). ",
+    "description": "Дистрибутив Linux, созданный в Национальной ускорительной лаборатории им. Энрико Ферми и Европейской организации по ядерным исследованиям (ЦЕРН).",
     "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
     "logo": "scientific-linux.png",
     "notes": "",
@@ -4302,7 +4302,7 @@
     "name": "Scientific Linux",
     "tos_url": "",
     "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scientific_Linux",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Scientific_Linux",
     "protocols": [],
     "categories": [
       {
@@ -4337,15 +4337,15 @@
     "slug": "seeks-project"
   },
   {
-    "description": "Automatically delete cookies and local storage when they are no longer used by open browser tabs.",
-    "license_url": "https://addons.mozilla.org/en-US/firefox/files/browse/235317/file/LICENSE",
+    "description": "Автоматически удаляет куки и local storage когда они больше не используются открытыми в браузере вкладками.",
+    "license_url": "https://addons.mozilla.org/ru/firefox/files/browse/235317/file/LICENSE",
     "logo": "self-destructing-cookies.png",
-    "notes": "Only works with Firefox version 24 and above.\n\n The Android version is [available here](https://addons.mozilla.org/en-US/android/addon/self-destructing-cookies/).",
+    "notes": "Работает только с Firefox версии 24 и выше.\n\n Версия для Android [доступна здесь](https://addons.mozilla.org/ru/android/addon/self-destructing-cookies/).",
     "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/en-US/firefox/files/browse/235317/",
+    "source_url": "https://addons.mozilla.org/ru/firefox/files/browse/235317/",
     "name": "Self-Destructing Cookies",
     "tos_url": "",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
+    "url": "https://addons.mozilla.org/ru/firefox/addon/self-destructing-cookies/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
@@ -4448,13 +4448,13 @@
     "description": "Приватный поиск без логов.",
     "license_url": "",
     "logo": "startpage.png",
-    "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy.",
+    "notes": "Startpage — SaaS, сервера которого находятся в США и Нидерландах, предоставляющий анонимный поиск Google по интернету и изображениям через бесплатный прокси.",
     "privacy_url": "https://startpage.com/eng/protect-privacy.html",
     "source_url": "",
     "name": "Startpage",
     "tos_url": "",
     "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Startpage#.D0.9F.D0.BE.D0.B8.D1.81.D0.BA.D0.BE.D0.B2.D0.B0.D1.8F_.D1.81.D0.B8.D1.81.D1.82.D0.B5.D0.BC.D0.B0_Startpage",
     "protocols": [
       "SSL/TLS"
     ],
@@ -4500,7 +4500,7 @@
     "name": "Sylpheed",
     "tos_url": "",
     "url": "http://sylpheed.sraoss.jp/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Sylpheed",
     "protocols": [
       "GPG",
       "RSS",
@@ -4543,7 +4543,7 @@
     "source_url": "https://github.com/i2p/i2p.syndie",
     "name": "Syndie",
     "tos_url": "",
-    "url": "http://syndie.i2p2.de/",
+    "url": "https://www.syndie.de/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Syndie",
     "protocols": [],
     "categories": [
@@ -4601,7 +4601,7 @@
     "slug": "tahoe-lafs"
   },
   {
-    "description": "Live CD/USB операционная система, разработанный для обеспечения конфиденциальности.",
+    "description": "Live CD/USB операционная система, разработанная для обеспечения конфиденциальности.",
     "license_url": "https://tails.boum.org/doc/about/license/index.en.html",
     "logo": "tails.png",
     "notes": "",
@@ -4610,7 +4610,7 @@
     "name": "Tails",
     "tos_url": "",
     "url": "https://tails.boum.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System",
     "protocols": [
       "GPG",
       "SSL/TLS",
@@ -4650,7 +4650,7 @@
     "description": "Протокол для децентрализованного обмена сообщениями в реальном времени и персонального хранилища данных.",
     "license_url": "https://github.com/tent/tentd/blob/master/README.md",
     "logo": "tent.png",
-    "notes": "Tent mentions that it's still in alpha:\n*\"Remember, Tent is still in alpha, so it’s not safe to use with information you would not want to be public and should not be considered reliable.\"*",
+    "notes": "Разработчики Tent напоминают, что это еще альфа версия:\n*\"Помните, Tent еще в альфе и не должен считаться надежным, так что это не безопасно использовать его с информацией, которую вы не хотите делать публичной\"*",
     "privacy_url": "",
     "source_url": "https://github.com/tent",
     "name": "Tent",
@@ -4669,7 +4669,7 @@
     "slug": "tent"
   },
   {
-    "description": "Кросс-платформенный XMPP сервер написанный Java.",
+    "description": "Кроссплатформенный XMPP сервер, написанный на Java.",
     "license_url": "https://projects.tigase.org/projects/tigase-server/repository/revisions/master/changes/COPYING",
     "logo": "tigase.png",
     "notes": "",
@@ -4729,7 +4729,7 @@
     "slug": "tinc"
   },
   {
-    "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "Свободное программное обеспечение для реализации второго поколения так называемой «луковой маршрутизации». Это система прокси-серверов, позволяющая устанавливать анонимное сетевое соединение, защищённое от прослушивания. Рассматривается как анонимная сеть виртуальных туннелей, предоставляющая передачу данных в зашифрованном виде.\n\nС помощью Tor пользователи могут сохранять анонимность в интернете при посещении сайтов, публикации материалов, отправке сообщений и при работе с другими приложениями, использующими протокол TCP. Анонимизация трафика обеспечивается за счёт использования распределённой сети серверов (нод — «узлов»), называемых многослойными маршрутизаторами. Технология Tor также обеспечивает защиту от механизмов анализа трафика, которые ставят под угрозу не только интернет-анонимность пользователя, но также конфиденциальность коммерческих тайн, деловых контактов и др. Tor оперирует сетевыми уровнями onion-маршрутизаторов, позволяя обеспечивать анонимные исходящие соединения и анонимные скрытые службы.",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.png",
     "notes": "",
@@ -4738,7 +4738,7 @@
     "name": "Tor",
     "tos_url": "",
     "url": "https://www.torproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Tor",
     "protocols": [
       "Tor"
     ],
@@ -4777,10 +4777,10 @@
     "slug": "tor"
   },
   {
-    "description": "Зашифрованный и анонимный просмотр веб-страниц благодаря сети Tor.",
+    "description": "Зашифрованный и анонимный просмотр веб-страниц через сеть Tor.",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
     "logo": "tor-browser-bundle.png",
-    "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
+    "notes": "Использование TBB для того, чтобы войти на вебсайты, которые содержат ваши реальные данные, бессмысленно, и это может заставить включиться защиту от мошенничества на сайте. Убедитесь, что открываете сайт через HTTPS до того, как войти на него через Tor. Вход на HTTP вебсайты может повлечь за собой захват ваших данных выходным узлом Tor.",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "source_url": "https://gitweb.torproject.org/tor.git",
     "name": "Tor Browser Bundle",
@@ -4820,10 +4820,10 @@
     "slug": "tor-browser-bundle"
   },
   {
-    "description": "Заставляет Thunderbird и Icedove использовать Tor.",
+    "description": "Дополнение, заставляющее Thunderbird и Icedove соединяться через Tor.",
     "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
     "logo": "torbirdy.png",
-    "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the \"Before using TorBirdy\" and \"Known TorBirdy\" Issues sections on the project website.",
+    "notes": " TorBirdy сейчас в бета-версии и должен считаться экспериментальным. Пожалуйста убедитесь, что вы в курсе известных проблем и утечек данных, прочитав \"Before using TorBirdy\" и \"Known TorBirdy\" разделы на сайте проекта.",
     "privacy_url": "",
     "source_url": "https://github.com/ioerror/torbirdy",
     "name": "TorBirdy",
@@ -4871,7 +4871,7 @@
     "name": "TorChat",
     "tos_url": "",
     "url": "https://github.com/prof7bit/TorChat/wiki",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/TorChat",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Be_nt_all/TorChat",
     "protocols": [
       "Tor"
     ],
@@ -4895,13 +4895,13 @@
     "description": "Кроссплатформенное шифрование дисков и разделов в реальном времени.",
     "license_url": "http://www.truecrypt.org/legal/license",
     "logo": "truecrypt.png",
-    "notes": "While TrueCrypt is open source, it is developed in a closed fashion and may receive less review than a comparably openly developed project. That said, it is still probably the best option for file encryption on Windows and OS X.",
+    "notes": "Несмотря на то, что TrueCrypt — программное обеспечение с открытым исходным кодом, стиль его разработки несколько непрозрачен, из-за чего его исходный код может содержать большее количество ошибок, чем у более открыто разрабатывающихся проектов. В дополнение, TrueCrypt был только [частично проверен](http://istruecryptauditedyet.com/) на ошибки и бэкдоры. Предварительные результаты говорят о том, что TrueCrypt не содержит преднамеренно встроенных бэкдоров, однако результаты также указывают на то, что качество кода находится на более низком уровне, чем ожидается от программного обеспечения, созданного для обеспечения безопасности. Криптографические части TrueCrypt еще не были проверены, так что их надежность пока еще не может быть доказана. В заключение, лицензия TrueCrypt нуждается в рассмотрении компетентным юристом так как ее совместимость с определением свободного и открытого программного обеспечения находится под вопросом. Тем не менее, это наилучший выбор для шифрования файлов под Windows и OS X.",
     "privacy_url": "",
     "source_url": "http://www.truecrypt.org/downloads2",
     "name": "TrueCrypt",
     "tos_url": "",
     "url": "http://www.truecrypt.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/TrueCrypt",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/TrueCrypt",
     "protocols": [],
     "categories": [
       {
@@ -4932,16 +4932,16 @@
     "slug": "truecrypt"
   },
   {
-    "description": "Расширяемый и настраиваемый чат, поддерживающий IRC и XMPP/Jabber.",
+    "description": "Расширяемый и настраиваемый консольный чат, поддерживающий IRC и XMPP/Jabber.",
     "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "weechat.png",
-    "notes": "WeeChat does not offer encryption by default, but there is a FiSH encryption plugin available.",
+    "notes": "WeeChat не поддерживает шифрование по умолчанию, но для этого существует плагин FiSH.",
     "privacy_url": "",
     "source_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=summary",
     "name": "WeeChat",
     "tos_url": "",
     "url": "http://www.weechat.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/WeeChat",
     "protocols": [
       "IRC"
     ],
@@ -4974,16 +4974,16 @@
     "slug": "weechat"
   },
   {
-    "description": "Форсирующая использование Tor операционная система, стремящаяся к анонимности, приватности и безопасности. Предлагает так-же готовые к использованию образы для виртуальных машин.",
+    "description": "Дружественная к виртуальным машинам операционная система, основанная на Tor и Debian, сфокусированная на анонимности, конфиденциальности и безопасности.",
     "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
     "logo": "whonix.png",
-    "notes": "Whonix is designed to be run inside of a virtualization package like [VirtualBox](https://www.virtualbox.org/). VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.",
+    "notes": "Whonix создан для использования в пакетах виртуализации, подобных [VirtualBox](https://www.virtualbox.org/). VirtualBox может быть установлен в Windows, Linux, OS X и Solaris. Это значит, что даже если вам приходится использовать Windows и OS X из-за любой причины, то все равно вы можете установить VirtualBox и использовать Whonix для усиления защиты конфиденциальности и безопасности.",
     "privacy_url": "",
     "source_url": "https://github.com/Whonix/Whonix/",
     "name": "Whonix",
     "tos_url": "",
     "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Whonix",
     "protocols": [
       "Tor"
     ],
@@ -5010,16 +5010,16 @@
     "slug": "whonix"
   },
   {
-    "description": "Серверное программное обеспечение для ведения блога.",
+    "description": "Программное обеспечение для ведения блога.",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
-    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>&ldquo;Disable Google Fonts&rdquo;</a> to remove this vulnerability.",
+    "notes": "WordPress не шифрует ваши данные по умолчанию.\n\nИспользование аватар в WordPress включит Gravatar, который отправит ваш адрес электронной почты на gravatar.com. Аватары включены по умолчанию и могут быть отключены в меню  \"Параметры > Обсуждение > Аватары\".\n\nСтандартная тема WordPress заставит ваших пользователей скачивать шрифты с серверов Google. Подумайте о переходе на тему без внешних запросов. Или вы можете установить плагин [Disable Google Fonts](http://wordpress.org/plugins/disable-google-fonts/) для устранения этой уязвимости.",
     "privacy_url": "http://wordpress.org/about/privacy/",
     "source_url": "http://core.trac.wordpress.org/browser",
     "name": "WordPress",
     "tos_url": "",
-    "url": "https://wordpress.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress",
+    "url": "https://ru.wordpress.org/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/WordPress",
     "protocols": [
       "SSL/TLS"
     ],
@@ -5069,7 +5069,7 @@
     "name": "YaCy",
     "tos_url": "",
     "url": "http://yacy.de/en/index.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/YaCy",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/YaCy",
     "protocols": [],
     "categories": [
       {
@@ -5094,7 +5094,7 @@
     "slug": "yacy"
   },
   {
-    "description": "Персональный дистрибутив, основанный на Debian, с предконфигурированной почтой, IM и веб сервером.",
+    "description": "Персональный дистрибутив, основанный на Debian, с преднастроенной почтой, IM и веб сервером.",
     "license_url": "https://github.com/YunoHost/admin_v1/blob/master/LICENCE",
     "logo": "yunohost.png",
     "notes": "",
@@ -5116,10 +5116,10 @@
     "slug": "yunohost"
   },
   {
-    "description": "Система управления контентом.",
+    "description": "Система управления медиаконтентом.",
     "license_url": "http://www.zenphoto.org/pages/licenses",
     "logo": "zenphoto.png",
-    "notes": "Zenphoto does not encrypt any of your data by default.",
+    "notes": "Zenphoto не шифрует ваши данные по умолчанию.",
     "privacy_url": "http://www.zenphoto.org/pages/privacy",
     "source_url": "https://github.com/zenphoto/zenphoto",
     "name": "Zenphoto",
@@ -5140,7 +5140,7 @@
     "slug": "zenphoto"
   },
   {
-    "description": "Validating, recursive, and caching DNS server.",
+    "description": "Рекурсивный и кеширующий DNS сервер.",
     "license_url": "http://unbound.nlnetlabs.nl/svn/trunk/LICENSE",
     "logo": "unbound.png",
     "notes": "",
@@ -5149,7 +5149,7 @@
     "name": "Unbound",
     "tos_url": "",
     "url": "http://www.unbound.net/",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
     "protocols": ["DNS"],
     "categories": [
       {
@@ -5168,7 +5168,7 @@
     "slug": "unbound"
   },
   {
-    "description": "Self hosted git server.",
+    "description": "Программное обеспечение для git сервера.",
     "license_url": "https://raw.github.com/gitlabhq/gitlabhq/master/LICENSE",
     "logo": "gitlab.png",
     "notes": "",
@@ -5190,7 +5190,7 @@
     "slug": "gitlab"
   },
   {
-    "description": "Firewall and router firmware based on FreeBSD.",
+    "description": "Дистрибутив для использования на межсетевых экранах и роутерах, основанный на FreeBSD.",
     "license_url": "https://www.pfsense.org/about-pfsense/index.html",
     "logo": "pfsense.png",
     "notes": "",
@@ -5199,7 +5199,7 @@
     "name": "pfSense",
     "tos_url": "",
     "url": "https://www.pfsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/PfSense",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/PfSense",
     "protocols": [],
     "categories": [
       {
@@ -5212,7 +5212,7 @@
     "slug": "pfsense"
   },
   {
-    "description": "A GNU/Linux distribution for embedded devices.",
+    "description": "Дистрибутив GNU/Linux для встраиваемых устройств.",
     "license_url": "https://dev.openwrt.org/browser/trunk/LICENSE",
     "logo": "openwrt.png",
     "notes": "",
@@ -5221,7 +5221,7 @@
     "name": "OpenWrt",
     "tos_url": "",
     "url": "https://openwrt.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenWrt",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/OpenWrt",
     "protocols": [],
     "categories": [
       {
@@ -5234,7 +5234,7 @@
     "slug": "openwrt"
   },
   {
-    "description": "A GNU/Linux-libre distribution for embedded devices.",
+    "description": "Свободный GNU/Linux дистрибутив для встраиваемых устройств.",
     "license_url": "http://websvn.librewrt.org/filedetails.php?repname=LibreWRT+Subversion+Repository&path=%2Flibrewrt%2Ftrunk%2FLICENSE",
     "logo": "librewrt.png",
     "notes": "",
@@ -5243,7 +5243,7 @@
     "name": "LibreWRT",
     "tos_url": "",
     "url": "http://librewrt.org/index.php?title=Main_Page",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/LibreWRT",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/LibreWRT",
     "protocols": [],
     "categories": [
       {
@@ -5256,10 +5256,10 @@
     "slug": "librewrt"
   },
   {
-    "description": "A free software disk space cleaner, privacy manager, and computer system optimizer.",
+    "description": "Свободный инструмент для очистки дискового пространства и оптимизации системы.",
     "license_url": "https://github.com/az0/bleachbit/blob/master/COPYING",
     "logo": "bleachbit.png",
-    "notes": "BleachBit does not encrypt any of your data by default.",
+    "notes": "BleachBit не шифрует ваши данные по умолчанию.",
     "privacy_url": "",
     "source_url": "https://github.com/az0/bleachbit",
     "name": "BleachBit",
