@@ -46,9 +46,9 @@ mixin project-head(project)
   - var subcategories = []
   - each subcategory, i in project.categories[0].subcategories
     if i === project.categories[0].subcategories.length - 1
-      - subcategories += subcategory.name
+      - subcategories += t[subcategory.name]
     else
-      - subcategories += subcategory.name + ', '
+      - subcategories += t[subcategory.name] + ', '
   .box
     .card.head.max
       .btn-rectangle

@@ -27,7 +27,7 @@ block content
 
       - each protocolType in protocolTypes
 
-        .pipe.subtle= protocolType.name
+        .pipe.subtle(title=t[protocolType.name])= t[protocolType.name]
 
         - each pro in protocolType.protocols
           if pro.name === protocol.name

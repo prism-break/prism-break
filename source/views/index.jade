@@ -11,7 +11,7 @@ block content
     - each platformType in platformTypes
 
       .section
-        .pipe= t[platformType.name]
+        .pipe(title=t[platformType.name])= t[platformType.name]
 
         .bars
           - each category in platformType.categories
@@ -21,7 +21,10 @@ block content
                   i(class="fa #{category.fa} large")
                 else
                   i(class="fa #{category.fa}")
-                = category.name
+                if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
+                  = t[category.name]
+                else
+                  = category.name
               .icon
                 i.fa.fa-angle-right.ltr
                 i.fa.fa-angle-left.rtl

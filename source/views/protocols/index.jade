@@ -11,7 +11,7 @@ block content
     - each protocolType in protocolTypes
 
       .section
-        .pipe= protocolType.name
+        .pipe= t[protocolType.name]
 
         .bars
           - each protocol in protocolType.protocols
