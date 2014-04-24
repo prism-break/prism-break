@@ -37,7 +37,11 @@ mixin project-card-all(project)
           else
             .tag.green= t.Audited
         - each category in project.categories
-         .tag= category.name
+         .tag
+           if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
+             = t[category.name]
+           else
+             = category.name
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square

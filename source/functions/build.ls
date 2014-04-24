@@ -7,9 +7,9 @@ build-site = (iso) ->
 
   locale =              require "../locales/#{iso}.json"
   projects =            require "../db/#{iso}-projects.json"
+  protocols =           require "../db/protocols/#{iso}-protocols.json"
   {projects-rejected} = require '../db/en-projects-rejected.ls'
   {platform-types} =    require '../db/en-platform-types.ls'
-  {protocols} =         require '../db/en-protocols.ls'
 
   db =
     dir: "tmp/#{iso}/"

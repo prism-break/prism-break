@@ -18,7 +18,11 @@ block content
       - each cat in project.categories
 
         a.bar.parent(href=routes.categories + cat.slug)
-          .label= cat.name
+          .label
+            if cat.name == "Routers" || cat.name == "Servers" || cat.name == "Web Services"
+              = t[cat.name]
+            else
+              = cat.name
 
         - each subcat in cat.subcategories
 

@@ -6,7 +6,10 @@ mixin category-head(category)
           a(href=routes.root)
             = t.Platforms
           = ' / '
-        .title= category.name
+        if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
+          .title= t[category.name]
+        else
+          .title= category.name
 
     if category.name == 'Android'
       .text-block.warning!= h.marked(t['warning-android'])
