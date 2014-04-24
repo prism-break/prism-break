@@ -4,8 +4,11 @@ include ../categories/mixins
 include ../subcategories/mixins
 extends ../layouts/application
 block title
-  = category.name + ' - '
-  = t.Platforms
+  if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
+    = t[category.name]
+  else
+    = category.name
+  = ' - ' + t.Platforms
 block content
 
   .content-main

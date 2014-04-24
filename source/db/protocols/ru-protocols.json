@@ -1,0 +1,155 @@
+[
+  {
+    "name": "DNS",
+    "full_name": "Domain Name System",
+    "description": "DNS (англ. Domain Name System — система доменных имён) — компьютерная распределённая система для получения информации о доменах. Чаще всего используется для получения IP-адреса по имени хоста (компьютера или устройства), получения информации о маршрутизации почты, обслуживающих узлах для протоколов в домене (SRV-запись).",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/DNS",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
+    "name": "IRC",
+    "full_name": "Internet Relay Chat",
+    "description": "IRC (англ. Internet Relay Chat) — протокол прикладного уровня для обмена сообщениями в режиме реального времени. Разработан в основном для группового общения, также позволяет общаться через личные сообщения и обмениваться данными, в том числе файлами.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/IRC",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
+    "name": "SIP",
+    "full_name": "Session Initiation Protocol",
+    "description": "SIP (англ. Session Initiation Protocol — протокол установления сеанса) — протокол передачи данных, который описывает способ установления и завершения пользовательского интернет-сеанса, включающего обмен мультимедийным содержимым (видео- и аудиоконференция, мгновенные сообщения, онлайн-игры).",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/SIP",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
+    "name": "VoIP",
+    "full_name": "Voice over Internet Protocol",
+    "description": "IP-телефония — телефонная связь по протоколу IP. Под IP-телефонией подразумевается набор коммуникационных протоколов, технологий и методов, обеспечивающих традиционные для телефонии набор номера, дозвон и двустороннее голосовое общение, а также видеообщение по сети Интернет или любым другим IP-сетям. ",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/IP-%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B8%D1%8F",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
+    "name": "XMPP",
+    "full_name": "Extensible Messaging and Presence Protocol",
+    "description": "XMPP (Extensible Messaging and Presence Protocol — расширяемый протокол обмена сообщениями и информацией о присутствии), ранее известный как Jabber) — основанный на XML, открытый, свободный для использования протокол для мгновенного обмена сообщениями и информацией о присутствии в режиме, близком к режиму реального времени. Изначально спроектированный легко расширяемым, протокол, помимо передачи текстовых сообщений, поддерживает передачу голоса, видео и файлов по сети.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/XMPP",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
+    "name": "GPG",
+    "full_name": "GNU Privacy Guard",
+    "description": "GNU Privacy Guard (GnuPG, GPG) — свободная программа для шифрования информации и создания электронных цифровых подписей. Разработана как альтернатива PGP и выпущена под свободной лицензией GNU General Public License. GnuPG полностью совместима со стандартом IETF OpenPGP. Текущие версии GnuPG могут взаимодействовать с PGP и другими OpenPGP-совместимыми системами.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/GnuPG",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
+    "name": "OTR",
+    "full_name": "Off-the-Record Messaging",
+    "description": "Off-the-Record Messaging (OTR) — криптографический протокол для систем мгновенного обмена сообщениями, созданный в 2004 году Никитой Борисовым и Ианом Голдбергом.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Off-the-Record_Messaging",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
+    "name": "S/MIME",
+    "full_name": "Secure/Multipurpose Internet Mail Extensions",
+    "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) — стандарт для шифрования и подписи в электронной почте с помощью открытого ключа.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/S/MIME",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
+    "name": "SSL/TLS",
+    "full_name": "Transport Layer Security",
+    "description": "TLS (англ. Transport Layer Security) — безопасность транспортного уровня, как и его предшественник SSL (англ. Secure Socket Layers — уровень защищённых сокетов) — криптографические протоколы, обеспечивающие защищённую передачу данных между узлами в сети Интернет. TLS и SSL используют асимметричную криптографию для аутентификации, симметричное шифрование для конфиденциальности и коды аутентичности сообщений для сохранения целостности сообщений.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/TLS",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
+    "name": "ZRTP",
+    "full_name": "Z Real-time Transport Protocol",
+    "description": "ZRTP — криптографический протокол согласования ключей шифрования, используемый в системах передачи голоса по IP-сетям (VoIP). ZRTP описывает метод получения ключей по алгоритму Диффи — Хелмана для организации Secure Real-time Transport Protocol (SRTP). ZRTP осуществляет согласование ключей в том же потоке RTP, по которому установлена аудио/видео связь, то есть не требует отдельного канала связи. Разработан Филипом Циммерманом (автором Pretty Good Privacy), Джоном Калласом и Аланом Джонстоном в 2006 году. Описание протокола было подано в IETF 5-го марта 2006.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/ZRTP",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
+    "name": "I2P",
+    "full_name": "Invisible Internet Project",
+    "description": "I2P (сокр. от англ.  «Invisible Internet Project», рус. «Проект Невидимый Интернет») — открытое программное обеспечение, созданное для организации сверхустойчивой анонимной, оверлейной, зашифрованной сети и применимое для веб-сёрфинга, анонимного хостинга (создания анонимных сайтов, форумов и чатов, файлообменных серверов и т. д.), систем обмена мгновенными сообщениями, ведения блогов, а также для файлообмена (в том числе P2P — Torrent, eDonkey, Kad, Gnutella и т. д.), электронной почты, VoIP и многого другого.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/I2P",
+    "categories": [{
+      "name": "Anonymity"
+    }]
+  },
+  {
+    "name": "Tor",
+    "full_name": "The Onion Router",
+    "description": "Tor (сокр. от англ. The Onion Router) — свободное программное обеспечение для реализации второго поколения так называемой «луковой маршрутизации». Это система прокси-серверов, позволяющая устанавливать анонимное сетевое соединение, защищённое от прослушивания. Рассматривается как анонимная сеть виртуальных туннелей, предоставляющая передачу данных в зашифрованном виде. С помощью Tor пользователи могут сохранять анонимность в интернете при посещении сайтов, публикации материалов, отправке сообщений и при работе с другими приложениями, использующими протокол TCP. Анонимизация трафика обеспечивается за счёт использования распределённой сети серверов (нод — «узлов»), называемых многослойными маршрутизаторами.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Tor",
+    "categories": [{
+      "name": "Anonymity"
+    }]
+  },
+  {
+    "name": "RSS",
+    "full_name": "Rich Site Summary",
+    "description": "RSS — семейство XML-форматов, предназначенных для описания лент новостей, анонсов статей, изменений в блогах и т. п.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/RSS",
+    "categories": [{
+      "name": "Syndication"
+    }]
+  },
+  {
+    "name": "CalDAV",
+    "full_name": "Calendaring Extensions to WebDAV",
+    "description": "CalDAV — интернет-стандарт, позволяющий клиенту получать доступ к информации календаря на удаленном сервере, описанный в RFC 4791. Он является расширением WebDAV (основанного на HTTP протокола для манипуляции данными) и использует формат iCalendar для данных. CalDAV разрешает доступ с нескольких клиентов к одной и той же информации, что позводяет использовать его для совместного планирования и обмена информацией. Поддерживается многими серверными и клиентскими приложениями.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CalDAV",
+    "categories": [{
+      "name": "Synchronization"
+    }]
+  },
+  {
+    "name": "CardDAV",
+    "full_name": "Contact Extensions to WebDAV",
+    "description": "CardDAV — клиент-серверный протокол адресной книги, разработанный для того, чтобы позволить пользователям получать и обмениваться контактными данными на сервере.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CardDAV",
+    "categories": [{
+      "name": "Synchronization"
+    }]
+  },
+  {
+    "name": "WebDAV",
+    "full_name": "Web Distributed Authoring and Versioning",
+    "description": "WebDAV (Web Distributed Authoring and Versioning) — защищённый сетевой протокол высокого уровня, работающий поверх HTTP. Используется для доступа к объектам и коллекциям.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/WebDAV",
+    "categories": [{
+      "name": "Synchronization"
+    }]
+  },
+  {
+    "name": "ActiveSync",
+    "full_name": "Exchange ActiveSync",
+    "description": "Exchange ActiveSync позволяет мобильному устройству синхронизироваться с компьютером или сервером. Он не является открытым стандартом, но широко используется и поддерживается.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync",
+    "categories": [{
+      "name": "Synchronization"
+    }]
+  }
+]
