@@ -1,6 +1,6 @@
 'use strict'
 
-chunk = (array, size) ->
+export chunk = (array, size) ->
   j = array.length
   chunks = []
 
@@ -8,5 +8,3 @@ chunk = (array, size) ->
     chunks.push array.slice(i - size, i)
 
   chunks
-
-exports.chunk = chunk

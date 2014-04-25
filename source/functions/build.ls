@@ -3,7 +3,7 @@
 {write-localized-site} = require './write.ls'
 {slugify-db} = require './sort.ls'
 
-build-site = (iso) ->
+export build-site = (iso) ->
 
   locale =              require "../locales/#{iso}.json"
   projects =            require "../db/#{iso}-projects.json"
@@ -21,5 +21,3 @@ build-site = (iso) ->
     protocols: slugify-db protocols
 
   write-localized-site(db)
-
-exports.build-site = build-site

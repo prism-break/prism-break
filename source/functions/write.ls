@@ -14,7 +14,7 @@ require! '../functions/helpers.ls'
 # WRITE FUNCTIONS
 # These functions write all of the HTML pages for the entire site.
 
-write-localized-site = (db) ->
+export write-localized-site = (db) ->
   mkdirp db.dir
 
   write-site-index db
@@ -375,9 +375,3 @@ write-about-media = (db) ->
       else write!
 
   create!
-
-############################################################################
-# WRITE SITE
-# This function will write all of the HTML pages per site iso.
-
-exports.write-localized-site = write-localized-site
