@@ -1,4 +1,4 @@
-routes = (subdirectory, depth)->
+export routes = (subdirectory, depth)->
   if depth?
     if depth == 0
       prefix = './'
@@ -36,5 +36,3 @@ routes = (subdirectory, depth)->
     else
       final-paths[key] = prefix + value
   final-paths
-
-exports.routes = routes

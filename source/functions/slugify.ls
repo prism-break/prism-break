@@ -1,5 +1,5 @@
 # source: http://stackoverflow.com/a/5782563
-slugify = (string) ->
+export slugify = (string) ->
   string = string.replace(/^\s+|\s+$/g, '')
   string = string.to-lower-case!
 
@@ -16,5 +16,3 @@ slugify = (string) ->
 
   # collapse dashes
   string = string.replace(/-+/g, '-'); 
-
-exports.slugify = slugify
