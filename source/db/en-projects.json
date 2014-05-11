@@ -3706,6 +3706,108 @@
     "slug": "openvpn"
   },
   {
+    "description": "SSL VPN client for Cisco AnyConnect (CLI).",
+    "license_url": "http://git.infradead.org/users/dwmw2/openconnect.git/blob/HEAD:/COPYING.LGPL",
+    "logo": "openconnect.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://git.infradead.org/users/dwmw2/openconnect.git",
+    "name": "OpenConnect",
+    "tos_url": "",
+    "url": "http://www.infradead.org/openconnect/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenConnect",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      }
+    ],
+    "slug": "openconnect"
+  },
+  {
+    "description": "Android GUI for OpenConnect.",
+    "license_url": "https://github.com/cernekee/ics-openconnect/blob/master/COPYING",
+    "logo": "ics-openconnect.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/cernekee/ics-openconnect",
+    "name": "OpenConnect for Android",
+    "tos_url": "",
+    "url": "https://github.com/cernekee/ics-openconnect",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      }
+    ],
+    "slug": "ics-openconnect"
+  },
+  {
+    "description": "OpenConnect VPN server.",
+    "license_url": "http://git.infradead.org/ocserv.git/blob/HEAD:/COPYING",
+    "logo": "ocserv.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://git.infradead.org/ocserv.git",
+    "name": "ocserv",
+    "tos_url": "",
+    "url": "http://www.infradead.org/ocserv/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "VPN Servers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "VPN Servers"
+        ]
+      }
+    ],
+    "slug": "ocserv"
+  },
+  {
     "description": "The features and functionality of Tor for Android.",
     "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
     "logo": "orbot.png",
