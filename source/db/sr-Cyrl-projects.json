@@ -3782,7 +3782,7 @@
     "description": "Облак складиште под вашом контролом.",
     "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
     "logo": "owncloud.png",
-    "notes": "",
+    "notes": "ownCloud provides a file sync and share solution that respects your privacy. Sync clients are available for all major platforms. ownCloud comes with a rich ecosystem of apps, which makes it possible to manage contacts, appointments, music and much more.",
     "privacy_url": "",
     "source_url": "https://github.com/owncloud",
     "name": "ownCloud",
@@ -3792,11 +3792,42 @@
     "protocols": [
       "CalDAV",
       "CardDAV",
+      "WebDAV",
       "RSS"
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Web Services",
         "subcategories": [
           "File Storage & Sync"
         ]
