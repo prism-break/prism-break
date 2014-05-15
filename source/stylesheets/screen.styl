@@ -16,5 +16,16 @@
 @media (min-width: 1200px)
   @import 'source/stylesheets/queries/1200'
 
+// solves fixed sidebar (all projects) being too long
+@media (max-height: 960px)
+  body.all.index #container .content-side
+    position absolute
+
+// solves fixed sidebar (category show) being too long
+@media (max-height: 720px)
+  body.categories.show #container .content-side
+    position absolute
+
+
 @import right-to-left
 
