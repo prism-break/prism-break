@@ -183,7 +183,7 @@
   "Server Operating System": "Server besturingssysteem",
   "server-os-notes": "--",
   "File Encryption": "File encryption",
-  "disk-encryption-notes": "<p>Als je gebruik maakt van GNU/Linux, is <strong>dm-crypt</strong> en <strong>LUKS</strong> de geprefereerde encryptie-methode.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>heeft een gids ter beschikking</a> voor <strong>dm-crypt</strong> met <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>heeft ook een gids ter beschikking</a> voor <strong>dm-crypt</strong> met <strong>LUKS</strong>. Ook van toepassing op Parabola GNU/Linux.</p>",
+  "disk-encryption-notes": "<p>2014-05-28: TrueCrypt currently has security issues and is not recommended.<p><p>Als je gebruik maakt van GNU/Linux, is <strong>dm-crypt</strong> en <strong>LUKS</strong> de geprefereerde encryptie-methode.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>heeft een gids ter beschikking</a> voor <strong>dm-crypt</strong> met <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>heeft ook een gids ter beschikking</a> voor <strong>dm-crypt</strong> met <strong>LUKS</strong>. Ook van toepassing op Parabola GNU/Linux.</p>",
   "Mail Server": "Mail server",
   "Groupware Server": "Groupware server",
   "Mail Transfer Agent": "Mail transfer agent (MTA)",

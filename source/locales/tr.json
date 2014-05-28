@@ -183,7 +183,7 @@
   "Server Operating System": "Sunucu işletim sistemi",
   "server-os-notes": "<p>Kişisel verilerinizin üstünde tamamen kontrole sahip olmanın tek yolu kendi sunucunuzu çalıştırmaktır. Yalnız bu herkes için uygun olmayabilir, zira dikkate değer miktarda zaman yatırımı ve teknik bilgi gerektirir.</p>",
   "File Encryption": "Dosya şifreleme",
-  "disk-encryption-notes": "<p> Eğer GNU/Linux kullanıyor iseniz, <strong>LUKS</strong> ile birlikte <strong>dm-crypt</strong> şiddetle tavsiye edilen seçenektir.</p> <p>Gentoo GNU/Linux sitesinde, <strong>LUKS</strong> ile birlikte <strong>dm-crypt</strong> için bir <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>klavuz</a> yer almaktadır.</p><p> Arch GNU/Linux sitesinde de benzer bir klavuz bulunmaktadır. Parabola GNU/Linux için'de geçerlidir.</p>",
+  "disk-encryption-notes": "<p>2014-05-28: TrueCrypt currently has security issues and is not recommended.<p><p> Eğer GNU/Linux kullanıyor iseniz, <strong>LUKS</strong> ile birlikte <strong>dm-crypt</strong> şiddetle tavsiye edilen seçenektir.</p> <p>Gentoo GNU/Linux sitesinde, <strong>LUKS</strong> ile birlikte <strong>dm-crypt</strong> için bir <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>klavuz</a> yer almaktadır.</p><p> Arch GNU/Linux sitesinde de benzer bir klavuz bulunmaktadır. Parabola GNU/Linux için'de geçerlidir.</p>",
   "Mail Server": "Mail sunucusu",
   "Groupware Server": "Groupware server",
   "Mail Transfer Agent": "Mail transfer agent (MTA)",
