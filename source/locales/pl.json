@@ -183,7 +183,7 @@
   "Server Operating System": "Serwer",
   "server-os-notes": "--",
   "File Encryption": "Szyfrowanie plików",
-  "disk-encryption-notes": "<p>O ile <strong>TrueCrypt</strong> jest projektem otwarto-źródłowym, o tyle jest rozwijany przez nieznaną grupę ludzi, jego pochodzenie może więc budzić obawy, jeśli porównamy go do innych projektów otwarto-źródłowych. TrueCrypt jest jednak nadal najlepszą opcją szyfrowania dysków na Windows i OS X.</p><p>Jeśli używasz Linuxa, dla Ciebie najlepsze i najwygodniejsze będzie użycie <strong>dm-crypt</strong> i <strong>LUKS</strong>.</p><p>Wiki Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>zawiera instrukcje instalacji</a> dla <strong>dm-crypt</strong> i <strong>LUKS</strong>.</p><p><a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>Podobne instrukcje</a> użycia <strong>dm-crypt</strong> z <strong>LUKS</strong> znajdziesz też dla Arch GNU/Linux. Instrukcje będą działały też na większości innych systemów Linux jak Parabola GNU/Linux.</p>",
+  "disk-encryption-notes": "<p>Jeśli używasz Linuxa, dla Ciebie najlepsze i najwygodniejsze będzie użycie <strong>dm-crypt</strong> i <strong>LUKS</strong>.</p><p>Wiki Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>zawiera instrukcje instalacji</a> dla <strong>dm-crypt</strong> i <strong>LUKS</strong>.</p><p><a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>Podobne instrukcje</a> użycia <strong>dm-crypt</strong> z <strong>LUKS</strong> znajdziesz też dla Arch GNU/Linux. Instrukcje będą działały też na większości innych systemów Linux jak Parabola GNU/Linux.</p>",
   "Mail Server": "Serwer pocztowy",
   "Groupware Server": "Serwer pracy grupowej",
   "Mail Transfer Agent": "Mail transfer agent (MTA)",

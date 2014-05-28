@@ -3873,7 +3873,7 @@
     "description": "Свободная универсальная программа для мгновенного обмена сообщениями.",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
-    "notes": "Pidgin хранит пароли от ваших аккаунтов [в открытом виде](https://developer.pidgin.im/wiki/PlainTextPasswords). Вы можете избежать этого не сохраняя пароли в Pidgin, или зашифровав вашу файловую систему с помощью программного обеспечения, подобного [TrueCrypt](http://www.truecrypt.org/), или храня ваши пароли безопасно с помощью пакета для Debian [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\n\nPidgin с OTR и включенным dbus имеет локальный баг в безопасности. Смотрите [баг репорт](https://developer.pidgin.im/ticket/14830) для получения более подробной информации о баге и возможных способах обхода.",
+    "notes": "Pidgin хранит пароли от ваших аккаунтов [в открытом виде](https://developer.pidgin.im/wiki/PlainTextPasswords). Вы можете избежать этого не сохраняя пароли в Pidgin, или зашифровав вашу файловую систему, или храня ваши пароли безопасно с помощью пакета для Debian [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\n\nPidgin с OTR и включенным dbus имеет локальный баг в безопасности. Смотрите [баг репорт](https://developer.pidgin.im/ticket/14830) для получения более подробной информации о баге и возможных способах обхода.",
     "privacy_url": "",
     "source_url": "http://hg.pidgin.im/pidgin/main/",
     "name": "Pidgin",
@@ -4921,46 +4921,6 @@
       }
     ],
     "slug": "torchat"
-  },
-  {
-    "description": "Кроссплатформенное шифрование дисков и разделов в реальном времени.",
-    "license_url": "http://www.truecrypt.org/legal/license",
-    "logo": "truecrypt.png",
-    "notes": "Несмотря на то, что TrueCrypt — программное обеспечение с открытым исходным кодом, стиль его разработки несколько непрозрачен, из-за чего его исходный код может содержать большее количество ошибок, чем у более открыто разрабатывающихся проектов. В дополнение, TrueCrypt был только [частично проверен](http://istruecryptauditedyet.com/) на ошибки и бэкдоры. Предварительные результаты говорят о том, что TrueCrypt не содержит преднамеренно встроенных бэкдоров, однако результаты также указывают на то, что качество кода находится на более низком уровне, чем ожидается от программного обеспечения, созданного для обеспечения безопасности. Криптографические части TrueCrypt еще не были проверены, так что их надежность пока еще не может быть доказана. В заключение, лицензия TrueCrypt нуждается в рассмотрении компетентным юристом так как ее совместимость с определением свободного и открытого программного обеспечения находится под вопросом. Тем не менее, это наилучший выбор для шифрования файлов под Windows и OS X.",
-    "privacy_url": "",
-    "source_url": "http://www.truecrypt.org/downloads2",
-    "name": "TrueCrypt",
-    "tos_url": "",
-    "url": "http://www.truecrypt.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/TrueCrypt",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "slug": "truecrypt"
   },
   {
     "description": "Расширяемый и настраиваемый консольный чат, поддерживающий IRC и XMPP/Jabber.",

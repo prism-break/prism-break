@@ -3873,7 +3873,7 @@
     "description": "Freier universeller Sofortnachrichtenclient.",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
-    "notes": "Pidgin speichert Passwörter im [Klartext](https://developer.pidgin.im/wiki/PlainTextPasswords). Du kannst dies verhindern, indem du (1) deine Passwörter nicht von Pidgin speichern lässt, (2) dein Dateisystem verschlüsselst (zum Beispiel mit [TrueCrypt](http://www.truecrypt.org/), oder (3) das Debian-Paket [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/) installierst, das Pidgin die sichere Speicherung deiner Passwörter ermöglicht.\n\nPidgin mit aktiviertem OTR und dbus hat ein Sicherheitsproblem. [Siehe diesen Problembericht](https://developer.pidgin.im/ticket/14830) für weitere Informationen und Umgehungsmöglichkeiten.",
+    "notes": "Pidgin speichert Passwörter im [Klartext](https://developer.pidgin.im/wiki/PlainTextPasswords). Du kannst dies verhindern, indem du (1) deine Passwörter nicht von Pidgin speichern lässt, (2) dein Dateisystem verschlüsselst, oder (3) das Debian-Paket [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/) installierst, das Pidgin die sichere Speicherung deiner Passwörter ermöglicht.\n\nPidgin mit aktiviertem OTR und dbus hat ein Sicherheitsproblem. [Siehe diesen Problembericht](https://developer.pidgin.im/ticket/14830) für weitere Informationen und Umgehungsmöglichkeiten.",
     "privacy_url": "",
     "source_url": "http://hg.pidgin.im/pidgin/main/",
     "name": "Pidgin",
@@ -4921,46 +4921,6 @@
       }
     ],
     "slug": "torchat"
-  },
-  {
-    "description": "Vollständige oder teilweise Verschlüsselung von Festplatten, Partitionen und wechseldatenträgern unter Windows und Mac OS X.",
-    "license_url": "http://www.truecrypt.org/legal/license",
-    "logo": "truecrypt.png",
-    "notes": "Obwohl TrueCrypts Quellcode offenliegt, wird er in einer geschlossenen Art und Weise weiter entwickelt. Dies führt evtl. zu weniger Überprüfung des Quellcodes als in vergleichbaren, offen entwickelten Projekten. Nichtsdestotrotz ist TrueCrypt vermutlich immer noch die beste Möglichkeit zur Dateiverschlüsselung unter Windows and OS X",
-    "privacy_url": "",
-    "source_url": "http://www.truecrypt.org/downloads2",
-    "name": "TrueCrypt",
-    "tos_url": "",
-    "url": "http://www.truecrypt.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/TrueCrypt",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "slug": "truecrypt"
   },
   {
     "description": "Erweiterbarer und anpassbarer CLI Chat-Client für IRC und XMPP/Jabber.",
