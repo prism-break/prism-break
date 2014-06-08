@@ -46,11 +46,11 @@
 
   "warning-android": "Warning: The Android operating system provided with phones and tablets is often modified with the addition of proprietary applications from Google or others and may compromise your privacy. We strongly recommend replacing it with either [Replicant](../../projects/replicant) or [CyanogenMod](../../projects/cyanogenmod) (or compile Android from source for your device).<br><br>A must read: [Mission Impossible: Hardening Android for Security and Privacy](https://blog.torproject.org/blog/mission-impossible-hardening-android-security-and-privacy), by Mike Perry at The Tor Blog.",
 
-  "warning-ios": "Warning: Apple iOS devices are affected by PRISM. Using them may compromise your privacy. We strongly recommend replacing your iOS device with an Android-compatible device running either [Replicant](../../projects/replicant) or [Cyanogenmod](../../projects/cyanogenmod).",
+  "warning-ios": "Warning: Apple iOS devices are affected by PRISM. Even using the software tools we recommend here, your privacy may be compromised by iOS itself. The operating system of any device can unfortunately lever out any privacy protection that a program tries to offer you. The latter has to run in the confides of the OS after all. We strongly recommend replacing your iOS device with an Android-compatible device running either [Replicant](../../projects/replicant) or [Cyanogenmod](../../projects/cyanogenmod).",
 
-  "warning-mac": "Warning: Apple OS X is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing OS X with either [Linux](../gnu-linux) or [BSD](../bsd).",
+  "warning-mac": "Warning: Apple OS X is affected by PRISM. Even using the software tools we recommend here, your privacy may be compromised by OS X itself.The operating system of any device can unfortunately lever out any privacy protection that a program tries to offer you. The latter has to run in the confides of the OS after all. We strongly recommend replacing OS X with either [Linux](../gnu-linux) or [BSD](../bsd).",
 
-  "warning-windows": "Warning: Microsoft Windows is affected by PRISM. Using it may compromise your privacy. We strongly recommend replacing Windows with either [Linux](../gnu-linux) or [BSD](../bsd).",
+  "warning-windows": "Warning: Microsoft Windows is affected by PRISM. Even using the software tools we recommend here, your privacy may be compromised by Windows. The operating system of any device can unfortunately lever out any privacy protection that a program tries to offer you. The latter has to run in the confides of the OS after all.  We strongly recommend replacing Windows with either [Linux](../gnu-linux) or [BSD](../bsd).",
 
   "Communication": "Communication",
   "Anonymity": "Anonymity",
