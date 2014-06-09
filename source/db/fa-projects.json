@@ -2496,7 +2496,7 @@
     "slug": "kamailio"
   },
   {
-    "description": "‫سرویس دهنده‌ی Groupware برای ای‌میل، تقویم، کتاب نشانی و هم‌گام سازی با گوشی‌های تلفن همراه",
+    "description": "‫سرویس دهنده‌ی Groupware برای ای‌میل، تقویم، کتاب نشانی و هم‌گام سازی با گوشی‌های تلفن همراه",‬
     "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
     "logo": "kolab.png",
     "notes": "",
@@ -5273,5 +5273,29 @@
       }
     ],
     "slug": "bleachbit"
+  },
+  {
+    "description": "account based notepad application with client-sided encryption",
+    "license_url": "",
+    "logo": "cryptonote.png",
+    "notes": "Cryptonote is a free account based notepad application with client-sided encryption and optional synchronization with a server, so you can synchronize between different clients. You can also set up your own server to synchronize with. But no matter how you do it, your data never leaves the client unencrypted. Accessible from clients supporting HTML and Javascript, Smartphone Apps also available.",
+    "privacy_url": "",
+    "source_url": "https://github.com/Mindbin/Cryptonote",
+    "name": "Cryptonote",
+    "tos_url": "",
+    "url": "http://www.mindbin.io",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Productivity"
+        ]
+      }
+    ],
+    "slug": "cryptonote"
   }
 ]
