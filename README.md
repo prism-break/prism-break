@@ -64,29 +64,52 @@ Append the sample project to the file `./source/db/en-projects.json`. Edit the v
 
 **Sample Project:**
 
-    * name: "Awesome Project"
-      logo: "awesome-project.png"
-      description: "A 3-4 sentence description of the project goes here."
-      notes: "Note that the project is in beta, has not been audited, etc."
-      url: "https://www.awesome-project.org"
-      wikipedia_url: "https://en.wikipedia.org/wiki/Awesome_Project"
-      privacy_url: ""
-      tos_url: ""
-      license_url: "https://git.awesome-project.org/master/LICENSE.txt"
-      source_url: "https://git.awesome-project.org/master/"
-      protocols: ["GPG", "OTR", "XMPP"]
-      categories: [
-        * name: "Web Services"
-          subcategories: ["Email Accounts", "Social Networks"]
-        * name: "Linux"
-          subcategories: ["Operating Systems"]
-        * name: "Mac OS X"
-          subcategories: ["Instant Messaging", "IRC"]
-        * name: "Windows"
-          subcategories: ["Disk Encryption", "VPN Clients"]
-      ]
+    {
+      "development_stage": "released",
+      "description": "Encrypted, anonymous web browsing powered by the Tor network.",
+      "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
+      "logo": "tor-browser-bundle.png",
+      "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
+      "privacy_url": "https://www.torproject.org/about/overview.html.en",
+      "source_url": "https://gitweb.torproject.org/tor.git",
+      "name": "Tor Browser Bundle",
+      "tos_url": "",
+      "url": "https://www.torproject.org/projects/torbrowser.html.en",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+      "protocols": [
+        "SSL/TLS",
+        "Tor"
+      ],
+      "categories": [
+        {
+          "name": "BSD",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "GNU/Linux",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "OS X",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        },
+        {
+          "name": "Windows",
+          "subcategories": [
+            "Web Browsers"
+          ]
+        }
+      ],
+      "slug": "tor-browser-bundle"
+    },
 
-Only the fields `name`, `description`, `logo`, `url`, and `categories` are required. The other fields can be left empty with a value of `""` (`[]` for `protocols`).
+Only the fields `name`, `description`, `logo`, `url`, `categories`, and `development_stage` are required. The other fields can be left empty with a value of `""` (`[]` for `protocols`).
 
 ### Add the Project Thumbnail
 **Project thumbnails should be in the PNG format.** Try to get a 1024px x 1024px (or better) version of the logo for `./source/assets/images/original` and rescale it to 60x60 and 120x120 for `./source/assets/images/medium` and `./source/assets/images/medium@2x`
