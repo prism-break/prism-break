@@ -5437,6 +5437,7 @@
     "slug": "bleachbit"
   },
   {
+    "development_stage": "released",
     "description": "A free dynamic DNS service. Use it to update an easy DNS name with your changing/hard-to-remember IP address. As we use the standard protocols, we support a lot of routers / update clients and we even actively help you to configure them. We care for your security, privacy and comfort. You can simply use the free service available on our homepage or, if you prefer, you can also run the software on your own server.",
     "license_url": "https://github.com/nsupdate-info/nsupdate.info/blob/master/LICENSE",
     "logo": "nsupdate-info.png",
