@@ -214,7 +214,7 @@
     "slug": "autistici-inventati"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Valuta digitale P2P senza un&#39;autorit&agrave; centrale.",
     "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
     "logo": "bitcoin.png",
@@ -316,7 +316,7 @@
     "slug": "bitlbee"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Servizio di messaggistica P2P criptato e decentralizzato, basato sulla tecnologia Bitcoin.",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
@@ -2791,7 +2791,7 @@
     "slug": "linphone"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Litecoin (simbolo : Ł ; codice : LTC) &egrave; una criptovaluta peer-to-peer e progetto open source pubblicato con licenza MIT/X11. Ispirato e tecnicamente quasi identico a Bitcoin (BTC), la creazione e il trasferimento di Litecoin sono basati su un protocollo open source e non sono gestiti da un&#39;autorit&agrave; centrale. Litecoin &egrave;, secondo i suoi sviluppatori, progettato per migliorare Bitcoin e offre tre differenze chiave.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",

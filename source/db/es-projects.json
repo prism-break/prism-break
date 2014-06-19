@@ -214,7 +214,7 @@
     "slug": "autistici-inventati"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Moneda P2P digital sin autoridad centralizada.",
     "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
     "logo": "bitcoin.png",
@@ -316,7 +316,7 @@
     "slug": "bitlbee"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Servicio de mensajería cifrada y descentralizada basada en tecnología bitcoin.",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
@@ -2791,7 +2791,7 @@
     "slug": "linphone"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Litecoin (signo: Ł; abr.: LTC) es una Criptodivisa sustentada por la red P2P, y un proyecto de software de código abierto publicado bajo la licencia MIT.1 Inspirada y prácticamente idéntica en su aspecto técnico2 a Bitcoin (BTC), la creación y transferencia de Litecoin se basa en un protocolo criptográfico de código abierto que no es administrado por ninguna autoridad central.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",

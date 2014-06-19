@@ -20,7 +20,7 @@ mixin project-card(project)
           else
             .tag.green= t.Audited
         if project.development_stage
-          if project.development_stage == "released"
+          if project.development_stage == "experimental"
             .tag.yellow= t.Experimental
 
     a.btn-square(href=project.url)
@@ -39,12 +39,16 @@ mixin project-card-all(project)
             .tag.yellow= t.Audited
           else
             .tag.green= t.Audited
+        if project.development_stage
+          if project.development_stage == "experimental"
+            .tag.yellow= t.Experimental
         - each category in project.categories
          .tag
            if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
              = t[category.name]
            else
              = category.name
+
 
     a.btn-square(href=project.url)
       i.fa.fa-external-link-square
