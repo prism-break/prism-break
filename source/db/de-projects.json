@@ -5273,5 +5273,57 @@
       }
     ],
     "slug": "bleachbit"
+  },
+  {
+    "description": "Ein freier Dynamic-DNS-Service. Nützlich, um einen einfachen DNS-Namen mit Deiner wechselnden / schlecht zu merkenden IP-Adresse zu aktualisieren. Da wir Standard-Protokolle nutzen, unterstützen wir viele Router / Update-Clients und helfen Dir sogar aktiv, diese zu konfigurieren. Wir achten auf Sicherheit, Privatsphäre und Komfort. Du kannst einfach den freien Service auf unserer Webseite benutzen oder, wenn Du das bevorzugst, auch die Software auf Deinem eigenen Server betreiben.",
+    "license_url": "https://github.com/nsupdate-info/nsupdate.info/blob/master/LICENSE",
+    "logo": "nsupdate-info.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/nsupdate-info/nsupdate.info",
+    "name": "nsupdate.info",
+    "tos_url": "",
+    "url": "https://nsupdate.info/",
+    "wikipedia_url": "",
+    "protocols": ["DNS", "SSL/TLS"],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "Routers",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "DNS"
+        ]
+      }
+    ],
+    "slug": "nsupdate-info"
   }
 ]
