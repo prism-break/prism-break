@@ -1,5 +1,6 @@
 [
   {
+    "development_stage": "released",
     "description": "Блокирует рекламу и отслеживающие трекеры по всему интернету по подпискам на фильтры.",
     "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
     "logo": "adblock-edge.png",
@@ -46,6 +47,7 @@
     "slug": "adblock-edge"
   },
   {
+    "development_stage": "released",
     "description": "Мультипротокольный чат для Apple OS X с OTR.",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
@@ -73,6 +75,7 @@
     "slug": "adium"
   },
   {
+    "development_stage": "released",
     "description": "Реализация OpenPGP для Android.",
     "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
     "logo": "apg.png",
@@ -97,6 +100,7 @@
     "slug": "apg"
   },
   {
+    "development_stage": "released",
     "description": "Элегантный, минималистичный и гибкий дистрибутив Linux.",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
@@ -131,6 +135,7 @@
     "slug": "arch-linux"
   },
   {
+    "development_stage": "released",
     "description": "Легковесный сборник программного обеспечение для безопасного хостинга ваших сайтов, электронной почты, файлов и многого другого, запускающийся на Raspberry Pi.",
     "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
     "logo": "arkos.png",
@@ -154,6 +159,7 @@
     "slug": "arkos"
   },
   {
+    "development_stage": "released",
     "description": "Реализация АТС с поддержкой VoIP/SIP.",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
@@ -179,6 +185,7 @@
     "slug": "asterisk"
   },
   {
+    "development_stage": "released",
     "description": "Полный спектр конфиденциальных сервисов, включая VPN, электронную почту, IM и многое другое.",
     "license_url": "",
     "logo": "autistici-inventati.png",
@@ -207,6 +214,7 @@
     "slug": "autistici-inventati"
   },
   {
+    "development_stage": "released",
     "description": "P2P электронная валюта без централизованного управления.",
     "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
     "logo": "bitcoin.png",
@@ -259,6 +267,7 @@
     "slug": "bitcoin"
   },
   {
+    "development_stage": "released",
     "description": "Шлюз в IRC, поддерживающий множество протоколов.",
     "license_url": "http://code.bitlbee.org/lh/bitlbee/view/head:/COPYING",
     "logo": "bitlbee.png",
@@ -307,6 +316,7 @@
     "slug": "bitlbee"
   },
   {
+    "development_stage": "released",
     "description": "Децентрализованный P2P сервис передачи зашифрованных сообщений, основанный на технологии Bitcoin.",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
@@ -343,6 +353,7 @@
     "slug": "bitmessage"
   },
   {
+    "development_stage": "released",
     "description": "Социальная сеть с открытым исходным кодом.",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
     "logo": "buddycloud.png",
@@ -369,6 +380,7 @@
     "slug": "buddycloud"
   },
   {
+    "development_stage": "released",
     "description": "Live CD дистрибутив Linux, предоставляющий простую для использования меш сеть.",
     "license_url": "https://github.com/Byzantium/Byzantium/blob/master/LICENSE",
     "logo": "byzantium.png",
@@ -421,6 +433,7 @@
     "slug": "byzantium"
   },
   {
+    "development_stage": "released",
     "description": "Совместимая с RHEL вычислительная платформа промышленного класса.",
     "license_url": "http://mirror.centos.org/centos/6/os/x86_64/GPL",
     "logo": "centos.png",
@@ -443,6 +456,7 @@
     "slug": "centos"
   },
   {
+    "development_stage": "released",
     "description": "IM-клиент с поддержкой шифрования для iOS и Android.",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
@@ -474,6 +488,7 @@
     "slug": "chatsecure"
   },
   {
+    "development_stage": "released",
     "description": "Сетевой протокол, система цифровых правил для обмена сообщениями между компьютерами. \"Вместо того, чтобы позволять другим компьютерам соединяться с вами через через общеизвестный IP, cjdns позволяет компьютерам передавать сообщения только после того, как они криптографически верефицируют друг друга.",
     "license_url": "https://github.com/cjdelisle/cjdns/blob/master/LICENSE",
     "logo": "cjdns.png",
@@ -520,6 +535,7 @@
     "slug": "cjdns"
   },
   {
+    "development_stage": "released",
     "description": "Быстрое и легковесное кроссплатформеное приложение электронной почты со встроенной поддержкой PGP.",
     "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
     "logo": "claws-mail.png",
@@ -564,6 +580,7 @@
     "slug": "claws-mail"
   },
   {
+    "development_stage": "released",
     "description": "DNS провайдер с поддержкой DNSCrypt, DNSSec и Namecoin.",
     "license_url": "",
     "logo": "cloudns.png",
@@ -586,6 +603,7 @@
     "slug": "cloudns"
   },
   {
+    "development_stage": "released",
     "description": "Децентрализованная меш-сеть из мобильных телефонов, компьютеров и беспроводных роутеров.",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
@@ -638,6 +656,7 @@
     "slug": "commotion"
   },
   {
+    "development_stage": "released",
     "description": "Персональный PaaS (Платформа-как-Сервис) с которым вы можете сделать все, что захотите.",
     "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
     "logo": "cozy.png",
@@ -660,6 +679,7 @@
     "slug": "cozy"
   },
   {
+    "development_stage": "released",
     "description": "Зашифрованные мгновенные сообщения в браузере.",
     "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
     "logo": "cryptocat.png",
@@ -712,6 +732,7 @@
     "slug": "cryptocat"
   },
   {
+    "development_stage": "released",
     "description": "Удобные и простые в использовании утилиты, работающие поверх dm-crypt.",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",
@@ -746,6 +767,7 @@
     "slug": "cryptsetup"
   },
   {
+    "development_stage": "released",
     "description": "Свободный VoIP клиент с поддержкой шифрования для Android.",
     "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
     "logo": "csipsimple.png",
@@ -773,6 +795,7 @@
     "slug": "csipsimple"
   },
   {
+    "development_stage": "released",
     "description": "Прошивка для телефонов на базе Android.",
     "license_url": "https://source.android.com/source/licenses.html",
     "logo": "cyanogenmod.png",
@@ -801,6 +824,7 @@
     "slug": "cyanogenmod"
   },
   {
+    "development_stage": "released",
     "description": "Популярный GNU/Linux дистрибутив.",
     "license_url": "http://www.debian.org/legal/licenses/",
     "logo": "debian.png",
@@ -841,6 +865,7 @@
     "slug": "debian"
   },
   {
+    "development_stage": "released",
     "description": "Свободный клиент с открытым исходным кодом для сервиса дистрибуции Desura.",
     "license_url": "https://github.com/lindenlab/desura-app/blob/master/LICENSE.md",
     "logo": "desurium.png",
@@ -869,6 +894,7 @@
     "slug": "desurium"
   },
   {
+    "development_stage": "released",
     "description": "Распределенная социальная сеть, поддерживаемая сообществом.",
     "license_url": "https://github.com/diaspora/diaspora/blob/develop/COPYRIGHT",
     "logo": "diaspora.png",
@@ -899,6 +925,7 @@
     "slug": "diaspora"
   },
   {
+    "development_stage": "released",
     "description": "Визуализует и блокирует невидимые трекеры.",
     "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
     "logo": "disconnect.png",
@@ -939,6 +966,7 @@
     "slug": "disconnect"
   },
   {
+    "development_stage": "released",
     "description": "Анонимный VPN сервис для популярных поисковых систем, таких как Google, Bing и Yahoo.",
     "license_url": "",
     "logo": "disconnect-search.png",
@@ -963,6 +991,7 @@
     "slug": "disconnect-search"
   },
   {
+    "development_stage": "released",
     "description": "Высокопроизводительное программное обеспечение для шифрования разделов под Windows.",
     "license_url": "https://diskcryptor.net/wiki/Main_Page/ru",
     "logo": "diskcryptor.png",
@@ -985,6 +1014,7 @@
     "slug": "diskcryptor"
   },
   {
+    "development_stage": "released",
     "description": "Утилита для безопасной коммуникации между клиентом и DNS резолвером.",
     "license_url": "https://github.com/jedisct1/dnscrypt-proxy/blob/master/COPYING",
     "logo": "dnscrypt.png",
@@ -1013,6 +1043,7 @@
     "slug": "dnscrypt"
   },
   {
+    "development_stage": "released",
     "description": "Свободная юниксоподобная операционная система, созданная как форк FreeBSD 4.8. Мэтью Диллон, разработчик Amiga в конце 80-х — начале 90-х и разработчик FreeBSD с 1994 по 2003 год, начал работать над DragonFly BSD в Июне 2003 и анонсировал ее в списке рассылки FreeBSD 16 июля 2003 года.",
     "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
     "logo": "dragonfly-bsd.png",
@@ -1053,6 +1084,7 @@
     "slug": "dragonfly-bsd"
   },
   {
+    "development_stage": "released",
     "description": "Анонимный веб поиск, не ведущий логов.",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
@@ -1078,6 +1110,7 @@
     "slug": "duckduckgo"
   },
   {
+    "development_stage": "released",
     "description": "Бесплатный онлайн сервис опросов с версией c улучшенной конфиденциальностью.",
     "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
     "logo": "dudle.png",
@@ -1106,6 +1139,7 @@
     "slug": "dudle"
   },
   {
+    "development_stage": "released",
     "description": "XMPP сервис, запущенный на DuckDuckGo Community Platform.",
     "license_url": "",
     "logo": "duckduckgo.png",
@@ -1130,6 +1164,7 @@
     "slug": "dukgocom"
   },
   {
+    "development_stage": "released",
     "description": "POSIX-совместимая промышленная стековая криптографическая файловая система для GNU/Linux.",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
     "logo": "geli.png",
@@ -1152,6 +1187,7 @@
     "slug": "ecryptfs"
   },
   {
+    "development_stage": "released",
     "description": "XMPP сервер написанный на Erlang/OTP для GNU/Linux и OS X.",
     "license_url": "https://github.com/processone/ejabberd/blob/master/COPYING",
     "logo": "ejabberd.png",
@@ -1176,6 +1212,7 @@
     "slug": "ejabberd"
   },
   {
+    "development_stage": "released",
     "description": "Утилита для шифрования файлов под Linux, Mac OS и Windows.",
     "license_url": "https://code.google.com/p/encfs/source/browse/trunk/COPYING",
     "logo": "encfs.png",
@@ -1223,12 +1260,14 @@
     "audit": {
       "author": "Taylor Hornby",
       "date": "2014-01-14",
-      "description": "EncFS вероятно безопасна, если атакующий получил только одну копию шифротекста и ничего более. EncFS не безопасна, если атакующий имеет возможность получить две или более копии шифротекста, сделанных в разное время. EncFS пытается защитить файлы от вредоносной модификации, но присутствуют серьезные проблемы с реализацией этой функции.",
+      "development_stage": "released",
+    "description": "EncFS вероятно безопасна, если атакующий получил только одну копию шифротекста и ничего более. EncFS не безопасна, если атакующий имеет возможность получить две или более копии шифротекста, сделанных в разное время. EncFS пытается защитить файлы от вредоносной модификации, но присутствуют серьезные проблемы с реализацией этой функции.",
       "rating": "0",
       "url": "https://defuse.ca/audits/encfs.htm"
     }
   },
   {
+    "development_stage": "released",
     "description": "Дополнение для OpenPGP шифрования почты для Thunderbird и Icedove",
     "license_url": "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi",
     "logo": "enigmail.png",
@@ -1271,6 +1310,7 @@
     "slug": "enigmail"
   },
   {
+    "development_stage": "released",
     "description": "Многопользовательская работа с таблицами.",
     "license_url": "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt",
     "logo": "ethercalc.png",
@@ -1299,6 +1339,7 @@
     "slug": "ethercalc"
   },
   {
+    "development_stage": "released",
     "description": "Приложение для работы с документами в реальном времени.",
     "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
     "logo": "etherpad.png",
@@ -1329,6 +1370,7 @@
     "slug": "etherpad"
   },
   {
+    "development_stage": "released",
     "description": "Приложение электронной почты, адресной книги и календаря для GNOME с поддержкой PGP.",
     "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
     "logo": "evolution.png",
@@ -1358,6 +1400,7 @@
     "slug": "evolution"
   },
   {
+    "development_stage": "released",
     "description": "Агент пересылки сообщений, использующийся на примерно 43% серверах электронной почты. Стандартный в Debian GNU/Linux.",
     "license_url": "https://github.com/Exim/exim/blob/master/src/LICENCE",
     "logo": "exim.png",
@@ -1380,6 +1423,7 @@
     "slug": "exim"
   },
   {
+    "development_stage": "released",
     "description": "Альтернатива магазину приложений Google Play для Android",
     "license_url": "https://gitorious.org/f-droid/fdroidserver/source/COPYING/",
     "logo": "f-droid.png",
@@ -1402,6 +1446,7 @@
     "slug": "f-droid"
   },
   {
+    "development_stage": "released",
     "description": "Быстрый, стабильный и мощный GNU/Linux дистрибутив.",
     "license_url": "https://fedoraproject.org/wiki/Licensing:Main",
     "logo": "fedora.png",
@@ -1436,6 +1481,7 @@
     "slug": "fedora"
   },
   {
+    "development_stage": "released",
     "description": "Операционная система с открытым исходным кодом для Android-совместимых устройств.",
     "license_url": "https://www.mozilla.org/en-US/foundation/licensing/",
     "logo": "mozilla-firefox.png",
@@ -1464,6 +1510,7 @@
     "slug": "firefox-os"
   },
   {
+    "development_stage": "released",
     "description": "Свободная операционная система, основанная на BSD.",
     "license_url": "https://www.freebsd.org/copyright/freebsd-license.html",
     "logo": "freebsd.png",
@@ -1504,6 +1551,7 @@
     "slug": "freebsd"
   },
   {
+    "development_stage": "released",
     "description": "Защита конфиденциальности на дешевом плаг-сервере, что позволяет каждому хранить свои тайны.",
     "license_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "freedombox.png",
@@ -1531,6 +1579,7 @@
     "slug": "freedombox"
   },
   {
+    "development_stage": "released",
     "description": "Работающее из коробки cjdns устройство, предоставляющее распределенные и зашифрованные звонки и сервис электронной почты.",
     "license_url": "https://github.com/enigmagroup/enigmasuite/blob/master/LICENSE",
     "logo": "enigmabox.png",
@@ -1564,6 +1613,7 @@
     "slug": "enigmabox"
   },
   {
+    "development_stage": "released",
     "description": "Устойчивая к цензуре децентрализованная сеть.",
     "license_url": "https://github.com/freenet/fred-staging/blob/next/LICENSE",
     "logo": "freenet.png",
@@ -1610,6 +1660,7 @@
     "slug": "freenet"
   },
   {
+    "development_stage": "released",
     "description": "Кросс-платформенный программный коммутатор с поддержкой VoIP/SIP.",
     "license_url": "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true",
     "logo": "freeswitch.png",
@@ -1635,6 +1686,7 @@
     "slug": "freeswitch"
   },
   {
+    "development_stage": "released",
     "description": "Некоммерческая инициатива, направленная на поддержку независимых радио сетей по всему миру.",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "freifunk.png",
@@ -1657,6 +1709,7 @@
     "slug": "freifunk"
   },
   {
+    "development_stage": "released",
     "description": "Распределенная федеративная социальная сеть.",
     "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
     "logo": "friendica.png",
@@ -1683,6 +1736,7 @@
     "slug": "friendica"
   },
   {
+    "development_stage": "released",
     "description": "Легкий и быстрый IM клиент для GNU/Linux и Windows с поддержкой OTR через плагин.",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.png",
@@ -1722,6 +1776,7 @@
     "slug": "gajim"
   },
   {
+    "development_stage": "released",
     "description": "Подсистема для шифрования дисков, включенная в операционную систему FreeBSD.",
     "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
     "logo": "geli.png",
@@ -1744,6 +1799,7 @@
     "slug": "geli"
   },
   {
+    "development_stage": "released",
     "description": "Дистрибутив для тех, кто любит контроль, свободу выбора и безопасность.",
     "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
     "logo": "gentoo.png",
@@ -1778,6 +1834,7 @@
     "slug": "gentoo"
   },
   {
+    "development_stage": "released",
     "description": "Синхронизация папок на ваших компьютерах и дисках.",
     "license_url": "https://git-annex.branchable.com/license/",
     "logo": "git-annex.png",
@@ -1826,6 +1883,7 @@
     "slug": "git-annex"
   },
   {
+    "development_stage": "released",
     "description": "Основанный на Debian дистрибутив GNU/Linux, включающий только свободное ПО.",
     "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
     "logo": "gnewsense.png",
@@ -1860,6 +1918,7 @@
     "slug": "gnewsense"
   },
   {
+    "development_stage": "released",
     "description": "Реализация OpenPGP для множества фронтэндов, включая Thunderbird/Icedove.",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master",
     "logo": "gnupg.png",
@@ -1902,6 +1961,7 @@
     "slug": "gnu-privacy-guard"
   },
   {
+    "development_stage": "released",
     "description": "Программное обеспечение децентрализованной социальной сети, которое вы можете установить на свой сервер.",
     "license_url": "https://gitorious.org/statusnet/gnu-social/source/5308e04e83f4a3f04e6d8bf80b177e7208dbac58:COPYING",
     "logo": "gnu-social.png",
@@ -1932,6 +1992,7 @@
     "slug": "gnu-social"
   },
   {
+    "development_stage": "released",
     "description": "Полностью свободная P2P сеть.",
     "license_url": "https://gnunet.org/svn/gnunet/COPYING",
     "logo": "gnunet.png",
@@ -1980,6 +2041,7 @@
     "slug": "gnunet"
   },
   {
+    "development_stage": "released",
     "description": "Порт GnuPG 2.1 для Android.\n\nGnu Privacy Guard (GPG) предоставляет вам доступ к целому пакету криптографических приложений GnuPG. GnuPG — инструмент от GNU для безопасных коммуникаций, защищенных end-to-end шифрованием, и для хранения данных в зашифрованном виде. Этот протокол является свободной альтернативой для PGP. GnuPG 2.1 — это новая модульная версия GnuPG, которая теперь поддерживает OpenPGP и S/MIME.",
     "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
     "logo": "gnupg-for-android.png",
@@ -2005,6 +2067,7 @@
     "slug": "gpg-for-android"
   },
   {
+    "development_stage": "released",
     "description": "Gpg4win — установочный пакет для Windows (XP, Vista, 7 and 8) с программными инструментами и инструкциями по шифрованию почты и файлов от немецкого федерального управления по информационной безопасности. Сам Gpg4win и все инструменты, входящиее в его состав — свободное программное обеспечение с открытым исходным кодом. Это программное обеспеченье в основном использует криптографию с открытым ключом для шифрования данных и цифровых подписей.",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
     "logo": "gpg4win.png",
@@ -2029,6 +2092,7 @@
     "slug": "gpg4win"
   },
   {
+    "development_stage": "released",
     "description": "OpenPGP расширение для Apple OS X Mail.",
     "license_url": "https://github.com/GPGTools/MacGPG2/blob/dev/LICENSE.txt",
     "logo": "gpgtools.png",
@@ -2053,6 +2117,7 @@
     "slug": "gpgtools"
   },
   {
+    "development_stage": "released",
     "description": "Открытая, свободная и нейтральная беспроводная сеть для каждого.",
     "license_url": "https://github.com/freifunk/meshkit/blob/master/LICENSE",
     "logo": "guifi.png",
@@ -2075,6 +2140,7 @@
     "slug": "guifinet"
   },
   {
+    "development_stage": "released",
     "description": "Кроссплатформенный IRC клиент.",
     "license_url": "https://github.com/hexchat/hexchat/blob/master/COPYING",
     "logo": "hexchat.png",
@@ -2117,6 +2183,7 @@
     "slug": "hexchat"
   },
   {
+    "development_stage": "released",
     "description": "Шифрует ваши соединения на тысячах веб сайтов с помощью переключения на HTTPS.",
     "license_url": "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt",
     "logo": "https-everywhere.png",
@@ -2165,6 +2232,7 @@
     "slug": "https-everywhere"
   },
   {
+    "development_stage": "released",
     "description": "Проект невидимый интернет.",
     "license_url": "https://geti2p.net/en/get-involved/develop/licenses",
     "logo": "i2p.png",
@@ -2213,6 +2281,7 @@
     "slug": "i2p"
   },
   {
+    "development_stage": "released",
     "description": "Хостинг изображений с AES-256 шифрованием в браузере.",
     "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
     "logo": "imgbi.png",
@@ -2245,6 +2314,7 @@
     "slug": "imgbi"
   },
   {
+    "development_stage": "released",
     "description": "Легко масштабируемая и настраиваемая платформа сообщени, основанная на агенте пересылки сообщений qmail.",
     "license_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING",
     "logo": "indimail.png",
@@ -2267,6 +2337,7 @@
     "slug": "indimail"
   },
   {
+    "development_stage": "released",
     "description": "Автоматическая установка и настройка пакетов сервера электронной почты в GNU/Linux и BSD.",
     "license_url": "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/README?at=default",
     "logo": "iredmail.png",
@@ -2289,6 +2360,7 @@
     "slug": "iredmail"
   },
   {
+    "development_stage": "released",
     "description": "Метапоисковая система, основанная в Нью-Йорке и Нидерландах.",
     "license_url": "",
     "logo": "ixquick.png",
@@ -2313,6 +2385,7 @@
     "slug": "ixquick"
   },
   {
+    "development_stage": "released",
     "description": "Кроссплатформенный клиент текстового и видеочата с поддержкой шифрования.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
@@ -2355,6 +2428,7 @@
     "slug": "jitsi"
   },
   {
+    "development_stage": "released",
     "description": "Live CD/USB, основанный на Debian, с преднастроенными инструментами для анонимного использования Интернета.",
     "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
     "logo": "jondonym.png",
@@ -2401,6 +2475,7 @@
     "slug": "jondo-live-cd"
   },
   {
+    "development_stage": "released",
     "description": "Защищенный просмотр веб-страниц с сервисом анонимизации JonDo и профилем JonDoFox для Firefox.",
     "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
     "logo": "jondonym.png",
@@ -2444,6 +2519,7 @@
     "slug": "jondofox"
   },
   {
+    "development_stage": "released",
     "description": "Приложение для Android устройств со встроенной поддержкой PGP.",
     "license_url": "https://github.com/k9mail/k-9/blob/master/NOTICE",
     "logo": "k9-mail.png",
@@ -2470,6 +2546,7 @@
     "slug": "k-9-mail"
   },
   {
+    "development_stage": "released",
     "description": "VoIP/SIP сервер с открытым исходным кодом.",
     "license_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD",
     "logo": "kamailio.png",
@@ -2496,6 +2573,7 @@
     "slug": "kamailio"
   },
   {
+    "development_stage": "released",
     "description": "Программное обеспечение совместной работы с электронной почтой, календарями, адресными книгами и синхронизацией с мобильными устройствами.",
     "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
     "logo": "kolab.png",
@@ -2523,6 +2601,7 @@
     "slug": "kolab"
   },
   {
+    "development_stage": "released",
     "description": "Электронная почта, адресная книга, календарь и многое другое для K Desktop Environment (KDE) с поддержкой PGP.",
     "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
     "logo": "kontact.png",
@@ -2556,6 +2635,7 @@
     "slug": "kontact"
   },
   {
+    "development_stage": "released",
     "description": "Live CD/USB операционная система, разработанная для безопасной коммуникации даже во враждебных средах.",
     "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
     "logo": "liberte-linux.png",
@@ -2596,6 +2676,7 @@
     "slug": "liberte-linux"
   },
   {
+    "development_stage": "released",
     "description": "Свободный VPN клиент третьего поколения, основанный на Openswan.",
     "license_url": "https://github.com/libreswan/libreswan/blob/master/COPYING",
     "logo": "libreswan.png",
@@ -2618,6 +2699,7 @@
     "slug": "libreswan"
   },
   {
+    "development_stage": "released",
     "description": "Свободная оверлейная сеть.",
     "license_url": "https://github.com/fauno/librevpn/blob/master/LICENSE",
     "logo": "librevpn.png",
@@ -2646,6 +2728,7 @@
     "slug": "librevpn"
   },
   {
+    "development_stage": "released",
     "description": "Кроссплатформенный клиент текстового и видеочата с поддержкой шифрования.",
     "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
     "logo": "linphone.png",
@@ -2708,6 +2791,7 @@
     "slug": "linphone"
   },
   {
+    "development_stage": "released",
     "description": "Litecoin (знак : Ł ; код : LTC) — P2P криптовалюта и программное обеспечение с открытым исходным кодом, выпущенным под лицензией MIT/X11. Так как Litecoin был вдохновлен и технически практически идентичен Bitcoin (BTC), его эмиссия и передача основана на открытом протоколе и не управляется никаким центральным органом.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
@@ -2760,6 +2844,7 @@
     "slug": "litecoin"
   },
   {
+    "development_stage": "released",
     "description": "Распределенные и федеральные социальные узлы.",
     "license_url": "https://github.com/lorea/Elgg/blob/master/LICENSE.txt",
     "logo": "lorea.png",
@@ -2784,6 +2869,7 @@
     "slug": "lorea"
   },
   {
+    "development_stage": "released",
     "description": "OpenPGP шифрование для популярных сервисов веб-почты.",
     "license_url": "https://github.com/toberndo/mailvelope/blob/master/LICENSE",
     "logo": "mailvelope.png",
@@ -2830,6 +2916,7 @@
     "slug": "mailvelope"
   },
   {
+    "development_stage": "released",
     "description": "Свободный виртуальный глобус и всемирный атлас.",
     "license_url": "https://projects.kde.org/projects/kde/kdeedu/marble/repository/revisions/master/entry/LICENSE.txt",
     "logo": "marble.png",
@@ -2864,6 +2951,7 @@
     "slug": "marble"
   },
   {
+    "development_stage": "released",
     "description": "Быстрый хостинг изображений, аудио и видео.",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
@@ -2895,6 +2983,7 @@
     "slug": "mediacrush"
   },
   {
+    "development_stage": "released",
     "description": "Децентрализованная платформа для публикации.",
     "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
     "logo": "mediagoblin.png",
@@ -2919,6 +3008,7 @@
     "slug": "mediagoblin"
   },
   {
+    "development_stage": "released",
     "description": "Проксирует ваши запросы к нескольким поисковым системам.",
     "license_url": "",
     "logo": "metager.png",
@@ -2943,6 +3033,7 @@
     "slug": "metager"
   },
   {
+    "development_stage": "released",
     "description": "XMPP сервер с расширенными возможностями управления и микроблоггинга, основанный на Prosody.",
     "license_url": "https://code.lightwitch.org/metronome/file/f9f76843539a/COPYING",
     "logo": "metronome.png",
@@ -2967,6 +3058,7 @@
     "slug": "metronome"
   },
   {
+    "development_stage": "released",
     "description": "Сервер приватной и децентрализованной социальной сети.",
     "license_url": "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING",
     "logo": "movim.png",
@@ -2998,6 +3090,7 @@
     "slug": "movim"
   },
   {
+    "development_stage": "released",
     "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
@@ -3046,6 +3139,7 @@
     "slug": "mozilla-firefox"
   },
   {
+    "development_stage": "released",
     "description": "Кроссплатформенное приложение электронной почты с шифрованием через дополнение Enigmail.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
@@ -3102,6 +3196,7 @@
     "slug": "mozilla-thunderbird"
   },
   {
+    "development_stage": "released",
     "description": "Многопользовательский голосовой чат с шифрованием и низкой задержкой.",
     "license_url": "http://mumble.sourceforge.net/License",
     "logo": "mumble.png",
@@ -3157,6 +3252,7 @@
     "slug": "mumble"
   },
   {
+    "development_stage": "released",
     "description": "Защищенные аккаунты Kolab, на серверах, расположенных в Швейцарии, за 8.99 CHF в месяц или 4.55 CHF если требуется только электронная почта.",
     "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
     "logo": "mykolab.png",
@@ -3203,6 +3299,7 @@
     "slug": "mykolab"
   },
   {
+    "development_stage": "released",
     "description": "Распределенная DNS для зоны .bit, созданная на основе технологии Bitcoin.",
     "license_url": "https://github.com/namecoin/namecoin/blob/master/COPYING",
     "logo": "namecoin.png",
@@ -3243,6 +3340,7 @@
     "slug": "namecoin"
   },
   {
+    "development_stage": "released",
     "description": "Юниксоподобная операционная система, ответвление Berkeley Software Distribution (BSD), производной Unix, разрабатываемой в Калифорнийском университете в Беркли. Она была вторым официально выпущенным ответвление с открытыми исходными кодами после 386BSD, и до сих пор активно разрабатывается. Силы проекта NetBSD в первую очередь направлены на обеспечение высокого качества разработки, стабильность и безопасность.",
     "license_url": "https://www.netbsd.org/about/redistribution.html",
     "logo": "netbsd.png",
@@ -3283,6 +3381,7 @@
     "slug": "netbsd"
   },
   {
+    "development_stage": "released",
     "description": "Разрешите Javascript, Java и Flash только тем сайтам, которым доверяете.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
@@ -3323,6 +3422,7 @@
     "slug": "noscript"
   },
   {
+    "development_stage": "released",
     "description": "Установите и включите этот плагин в Pidgin для шифрования чата.",
     "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
     "logo": "otr.png",
@@ -3359,6 +3459,7 @@
     "slug": "off-the-record-messaging"
   },
   {
+    "development_stage": "released",
     "description": "Просматривайте веб-страницы через сеть Tor используя этот браузер с открытым исходным кодом для устройств с iOS.",
     "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
     "logo": "onion-browser.png",
@@ -3384,6 +3485,7 @@
     "slug": "onion-browser"
   },
   {
+    "development_stage": "released",
     "description": "Реализация на C++ высокопроизводительной системы навигации для поиска кратчайших путей в дорожных сетях. Лицензирована под пермиссивной 2-пунктовой лицензией BSD. OSRM поддерживает Linux, FreeBSD, Windows и Mac.",
     "license_url": "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT",
     "logo": "osrm.png",
@@ -3430,6 +3532,7 @@
     "slug": "open-source-routing-machine"
   },
   {
+    "development_stage": "released",
     "description": "Альтернативное ПО для веб-аналитики с открытым исходным кодом.",
     "license_url": "http://wiki.openwebanalytics.com/index.php?title=License",
     "logo": "open-web-analytics.png",
@@ -3452,6 +3555,7 @@
     "slug": "open-web-analytics"
   },
   {
+    "development_stage": "released",
     "description": "Безопасная операционная система BSD.",
     "license_url": "http://openbsd.org/policy.html",
     "logo": "openbsd.png",
@@ -3498,6 +3602,7 @@
     "slug": "openbsd"
   },
   {
+    "development_stage": "released",
     "description": "Кроссплатформенный XMPP сервер, написанный на Java.",
     "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
     "logo": "openfire.png",
@@ -3522,6 +3627,7 @@
     "slug": "openfire"
   },
   {
+    "development_stage": "released",
     "description": "Открытый, демократичный и противостоящий цензуре DNS провайдер.",
     "license_url": "",
     "logo": "opennic.png",
@@ -3544,6 +3650,7 @@
     "slug": "opennic"
   },
   {
+    "development_stage": "released",
     "description": "Реализация OpenPGP для Android.",
     "license_url": "https://github.com/dschuermann/openpgp-keychain/blob/master/LICENSE",
     "logo": "openpgp-keychain.png",
@@ -3568,6 +3675,7 @@
     "slug": "openpgp-keychain"
   },
   {
+    "development_stage": "released",
     "description": "Свободная карта всего мира, создаваемая сообществом.",
     "license_url": "http://www.openstreetmap.org/copyright",
     "logo": "openstreetmap.png",
@@ -3590,6 +3698,7 @@
     "slug": "openstreetmap"
   },
   {
+    "development_stage": "released",
     "description": "Стабильный и простой в использовании дистрибутив GNU/Linux для разных целей.",
     "license_url": "https://ru.opensuse.org/openSUSE:%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F",
     "logo": "opensuse.png",
@@ -3630,6 +3739,7 @@
     "slug": "opensuse"
   },
   {
+    "development_stage": "released",
     "description": "Свободный VPN клиент, основанный на FreeS/WAN.",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",
@@ -3652,6 +3762,7 @@
     "slug": "openswan"
   },
   {
+    "development_stage": "released",
     "description": "Свободный VPN клиент.",
     "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
     "logo": "openvpn.png",
@@ -3706,6 +3817,7 @@
     "slug": "openvpn"
   },
   {
+    "development_stage": "released",
     "description": "Все функции и возможности Tor для Android.",
     "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
     "logo": "orbot.png",
@@ -3730,6 +3842,7 @@
     "slug": "orbot"
   },
   {
+    "development_stage": "released",
     "description": "Карта и навигационное приложение, использующее данные OpenStreetMap.",
     "license_url": "https://github.com/osmandapp/Osmand/blob/master/LICENSE",
     "logo": "osmand.png",
@@ -3752,6 +3865,7 @@
     "slug": "osmand"
   },
   {
+    "development_stage": "released",
     "description": "Безопасные SIP аккаунты от Guardian Project для использования с CSipSimple, Jitsi и другими SIP клиентами.",
     "license_url": "",
     "logo": "ostel.png",
@@ -3779,6 +3893,7 @@
     "slug": "ostel"
   },
   {
+    "development_stage": "released",
     "description": "Облачные данные под вашим контролем.",
     "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
     "logo": "owncloud.png",
@@ -3836,6 +3951,7 @@
     "slug": "owncloud"
   },
   {
+    "development_stage": "released",
     "description": "Гибкий и легковестный дистрибутив GNU/Linux, основанный на Arch Linux.",
     "license_url": "https://wiki.parabolagnulinux.org/Parabola/GNU_Linux_Social_Contract",
     "logo": "parabola.png",
@@ -3870,6 +3986,7 @@
     "slug": "parabola-gnu-linux-libre"
   },
   {
+    "development_stage": "released",
     "description": "Свободная универсальная программа для мгновенного обмена сообщениями.",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
@@ -3912,6 +4029,7 @@
     "slug": "pidgin"
   },
   {
+    "development_stage": "released",
     "description": "Платформа для фотогалерей, которую можно установить на собственный сервер.",
     "license_url": "http://piwigo.org/basics/license",
     "logo": "piwigo.png",
@@ -3936,6 +4054,7 @@
     "slug": "piwigo"
   },
   {
+    "development_stage": "released",
     "description": "Программное обеспечение для веб-аналитики с открытым исходным кодом, которое можно установить на собственный сервер.",
     "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
     "logo": "piwik.png",
@@ -3958,6 +4077,7 @@
     "slug": "piwik"
   },
   {
+    "development_stage": "released",
     "description": "Простой в установке агент пересылки сообщений, использующийся примерно на 23% серверах электронной почты.",
     "license_url": "ftp://ftp.porcupine.org/mirrors/postfix-release/LICENSE",
     "logo": "postfix.png",
@@ -3980,6 +4100,7 @@
     "slug": "postfix"
   },
   {
+    "development_stage": "released",
     "description": "Гибкий и легкий XMPP сервер, написанный на Lua.",
     "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
     "logo": "prosody.png",
@@ -4004,6 +4125,7 @@
     "slug": "prosody"
   },
   {
+    "development_stage": "released",
     "description": "Свободный онлайн блокнот с шифрованием.",
     "license_url": "",
     "logo": "protextedtext.png",
@@ -4028,6 +4150,7 @@
     "slug": "protectedtext"
   },
   {
+    "development_stage": "released",
     "description": "Кроссплатформенный IM клиент для опытных пользователей со встроенной поддержкой OTR.",
     "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
     "logo": "psi-plus.png",
@@ -4071,6 +4194,7 @@
     "slug": "psi"
   },
   {
+    "development_stage": "released",
     "description": "Социальный потоковый сервер для установки на собственный сервер.",
     "license_url": "https://github.com/e14n/pump.io/blob/master/LICENSE",
     "logo": "pumpio.png",
@@ -4095,6 +4219,7 @@
     "slug": "pumpio"
   },
   {
+    "development_stage": "released",
     "description": "Мгновенно превращает любой сервер в платформу для файлообмена.",
     "license_url": "https://github.com/pydio/pydio-core/blob/master/README.md",
     "logo": "pydio.png",
@@ -4117,6 +4242,7 @@
     "slug": "pydio"
   },
   {
+    "development_stage": "released",
     "description": "Основанная на Fedora/Xen операционная система, созданная для обеспечения высокого уровня безопасности с помощью изоляции.",
     "license_url": "http://qubes-os.org/trac/wiki/QubesLicensing",
     "logo": "qubes-os.png",
@@ -4151,6 +4277,7 @@
     "slug": "qubes"
   },
   {
+    "development_stage": "released",
     "description": "Полностью свободный дистрибутив Android, основанный на CyanogenMod.",
     "license_url": "http://replicant.us/about/",
     "logo": "replicant.png",
@@ -4179,6 +4306,7 @@
     "slug": "replicant"
   },
   {
+    "development_stage": "released",
     "description": "Контролируйте, какие межсайтовые запросы будут разрешены на сайтах, которые вы посещаете. ",
     "license_url": "https://github.com/RequestPolicy/requestpolicy/blob/master/src/LICENSE",
     "logo": "request-policy.png",
@@ -4219,6 +4347,7 @@
     "slug": "request-policy"
   },
   {
+    "development_stage": "released",
     "description": "Свободная и безопасная P2P коммуникационная платформа, предоставляющая IM, форумы, VoIP, обмен файлами и многое другое.",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
     "logo": "retroshare.png",
@@ -4270,6 +4399,7 @@
     "slug": "retroshare"
   },
   {
+    "development_stage": "released",
     "description": "Безопасные коммуникационные инструменты для активистов, работающих над освободительными социальными переменами.",
     "license_url": "",
     "logo": "riseup.png",
@@ -4299,6 +4429,7 @@
     "slug": "riseup"
   },
   {
+    "development_stage": "released",
     "description": "Многофункциональный инструмент общения.",
     "license_url": "http://repos.goffi.org/sat/file/6aa71c853bf5/COPYING",
     "logo": "sat.png",
@@ -4324,6 +4455,7 @@
     "slug": "salut-a-toi"
   },
   {
+    "development_stage": "released",
     "description": "Дистрибутив Linux, созданный в Национальной ускорительной лаборатории им. Энрико Ферми и Европейской организации по ядерным исследованиям (ЦЕРН).",
     "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
     "logo": "scientific-linux.png",
@@ -4346,6 +4478,7 @@
     "slug": "scientific-linux"
   },
   {
+    "development_stage": "released",
     "description": "Открытая децентрализованная платформа для совместного поиска.",
     "license_url": "http://sourceforge.net/p/seeks/code/ci/master/tree/Licenses",
     "logo": "seeks-project.png",
@@ -4368,6 +4501,7 @@
     "slug": "seeks-project"
   },
   {
+    "development_stage": "released",
     "description": "Автоматически удаляет куки и local storage когда они больше не используются открытыми в браузере вкладками.",
     "license_url": "https://addons.mozilla.org/ru/firefox/files/browse/235317/file/LICENSE",
     "logo": "self-destructing-cookies.png",
@@ -4414,6 +4548,7 @@
     "slug": "self-destructing-cookies"
   },
   {
+    "development_stage": "released",
     "description": "Простой дистрибутив, основанный на CentOS, с преднастроенной почтой, обменом файлами, веб сервером и многим другим.",
     "license_url": "http://wiki.contribs.org/SME_Server:Documentation:Developers_Manual:Chapter14#Configuring_your_development_environment",
     "logo": "sme-server.png",
@@ -4436,6 +4571,7 @@
     "slug": "sme-server"
   },
   {
+    "development_stage": "released",
     "description": "Система контроля версий и синхронизации файлов.",
     "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
     "logo": "sparkleshare.png",
@@ -4476,6 +4612,7 @@
     "slug": "sparkleshare"
   },
   {
+    "development_stage": "released",
     "description": "Приватный поиск без логов.",
     "license_url": "",
     "logo": "startpage.png",
@@ -4500,6 +4637,7 @@
     "slug": "startpage"
   },
   {
+    "development_stage": "released",
     "description": "Свободный VPN клиент, основанный на FreeS/WAN.",
     "license_url": "http://git.strongswan.org/?p=strongswan.git;a=blob;f=COPYING;h=d159169d1050894d3ea3b98e1c965c4058208fe1;hb=HEAD",
     "logo": "strongswan.png",
@@ -4522,6 +4660,7 @@
     "slug": "strongswan"
   },
   {
+    "development_stage": "released",
     "description": "Легковесный и дружелюбный к пользователю кроссплатформенный клиент электронной почты со встроенной поддержкой PGP.",
     "license_url": "https://www.gnu.org/copyleft/gpl.html",
     "logo": "sylpheed.png",
@@ -4566,6 +4705,7 @@
     "slug": "sylpheed"
   },
   {
+    "development_stage": "released",
     "description": "Программное обеспечение для анонимных распределенных форумов.",
     "license_url": "https://github.com/i2p/i2p.syndie/blob/master/LICENSE",
     "logo": "syndie.png",
@@ -4610,6 +4750,7 @@
     "slug": "syndie"
   },
   {
+    "development_stage": "released",
     "description": "Свободная и открытая облачная система хранения.",
     "license_url": "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL",
     "logo": "tahoe-lafs.png",
@@ -4632,6 +4773,7 @@
     "slug": "tahoe-lafs"
   },
   {
+    "development_stage": "released",
     "description": "Live CD/USB операционная система, разработанная для обеспечения конфиденциальности.",
     "license_url": "https://tails.boum.org/doc/about/license/index.en.html",
     "logo": "tails.png",
@@ -4678,6 +4820,7 @@
     "slug": "tails"
   },
   {
+    "development_stage": "released",
     "description": "Протокол для децентрализованного обмена сообщениями в реальном времени и персонального хранилища данных.",
     "license_url": "https://github.com/tent/tentd/blob/master/README.md",
     "logo": "tent.png",
@@ -4700,6 +4843,7 @@
     "slug": "tent"
   },
   {
+    "development_stage": "released",
     "description": "Кроссплатформенный XMPP сервер, написанный на Java.",
     "license_url": "https://projects.tigase.org/projects/tigase-server/repository/revisions/master/changes/COPYING",
     "logo": "tigase.png",
@@ -4724,6 +4868,7 @@
     "slug": "tigase"
   },
   {
+    "development_stage": "released",
     "description": "Свободное программное обеспечение, использующее туннелирование и шифрование для создания безопасной приватной сети.",
     "license_url": "http://tinc-vpn.org/git/browse?p=tinc;a=blob;f=COPYING.README;h=2eb9c1facc212244a4103f9f9b81149c6f6a9d44;hb=HEAD",
     "logo": "tinc.png",
@@ -4760,6 +4905,7 @@
     "slug": "tinc"
   },
   {
+    "development_stage": "released",
     "description": "Свободное программное обеспечение для реализации второго поколения так называемой «луковой маршрутизации». Это система прокси-серверов, позволяющая устанавливать анонимное сетевое соединение, защищённое от прослушивания. Рассматривается как анонимная сеть виртуальных туннелей, предоставляющая передачу данных в зашифрованном виде.\n\nС помощью Tor пользователи могут сохранять анонимность в интернете при посещении сайтов, публикации материалов, отправке сообщений и при работе с другими приложениями, использующими протокол TCP. Анонимизация трафика обеспечивается за счёт использования распределённой сети серверов (нод — «узлов»), называемых многослойными маршрутизаторами. Технология Tor также обеспечивает защиту от механизмов анализа трафика, которые ставят под угрозу не только интернет-анонимность пользователя, но также конфиденциальность коммерческих тайн, деловых контактов и др. Tor оперирует сетевыми уровнями onion-маршрутизаторов, позволяя обеспечивать анонимные исходящие соединения и анонимные скрытые службы.",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.png",
@@ -4808,6 +4954,7 @@
     "slug": "tor"
   },
   {
+    "development_stage": "released",
     "description": "Зашифрованный и анонимный просмотр веб-страниц через сеть Tor.",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
     "logo": "tor-browser-bundle.png",
@@ -4851,6 +4998,7 @@
     "slug": "tor-browser-bundle"
   },
   {
+    "development_stage": "released",
     "description": "Дополнение, заставляющее Thunderbird и Icedove соединяться через Tor.",
     "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
     "logo": "torbirdy.png",
@@ -4893,6 +5041,7 @@
     "slug": "torbirdy"
   },
   {
+    "development_stage": "released",
     "description": "Анонимный распределенный P2P чат, построенный на скрытых сервисах Tor.",
     "license_url": "https://www.gnu.org/copyleft/gpl.html",
     "logo": "torchat.png",
@@ -4923,6 +5072,7 @@
     "slug": "torchat"
   },
   {
+    "development_stage": "released",
     "description": "Расширяемый и настраиваемый консольный чат, поддерживающий IRC и XMPP/Jabber.",
     "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "weechat.png",
@@ -4965,6 +5115,7 @@
     "slug": "weechat"
   },
   {
+    "development_stage": "released",
     "description": "Дружественная к виртуальным машинам операционная система, основанная на Tor и Debian, сфокусированная на анонимности, конфиденциальности и безопасности.",
     "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
     "logo": "whonix.png",
@@ -5001,6 +5152,7 @@
     "slug": "whonix"
   },
   {
+    "development_stage": "released",
     "description": "Программное обеспечение для ведения блога.",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
@@ -5025,6 +5177,7 @@
     "slug": "wordpress"
   },
   {
+    "development_stage": "released",
     "description": "Мгновенные сообщения с поддержкой OTR для Android.",
     "license_url": "https://github.com/redsolution/xabber-android/blob/master/LICENSE",
     "logo": "xabber.png",
@@ -5051,6 +5204,7 @@
     "slug": "xabber"
   },
   {
+    "development_stage": "released",
     "description": "Децентрализованный веб поиск.",
     "license_url": "https://gitorious.org/yacy/rc1/source/234a974955c0ab4f7de63157738e4b00a8ffcae8:COPYRIGHT",
     "logo": "yacy.png",
@@ -5085,6 +5239,7 @@
     "slug": "yacy"
   },
   {
+    "development_stage": "released",
     "description": "Персональный дистрибутив, основанный на Debian, с преднастроенной почтой, IM и веб сервером.",
     "license_url": "https://github.com/YunoHost/admin_v1/blob/master/LICENCE",
     "logo": "yunohost.png",
@@ -5107,6 +5262,7 @@
     "slug": "yunohost"
   },
   {
+    "development_stage": "released",
     "description": "Система управления медиаконтентом.",
     "license_url": "http://www.zenphoto.org/pages/licenses",
     "logo": "zenphoto.png",
@@ -5131,6 +5287,7 @@
     "slug": "zenphoto"
   },
   {
+    "development_stage": "released",
     "description": "Рекурсивный и кеширующий DNS сервер.",
     "license_url": "http://unbound.nlnetlabs.nl/svn/trunk/LICENSE",
     "logo": "unbound.png",
@@ -5159,6 +5316,7 @@
     "slug": "unbound"
   },
   {
+    "development_stage": "released",
     "description": "Программное обеспечение для git сервера.",
     "license_url": "https://raw.github.com/gitlabhq/gitlabhq/master/LICENSE",
     "logo": "gitlab.png",
@@ -5181,6 +5339,7 @@
     "slug": "gitlab"
   },
   {
+    "development_stage": "released",
     "description": "Дистрибутив для использования на межсетевых экранах и роутерах, основанный на FreeBSD.",
     "license_url": "https://www.pfsense.org/about-pfsense/index.html",
     "logo": "pfsense.png",
@@ -5203,6 +5362,7 @@
     "slug": "pfsense"
   },
   {
+    "development_stage": "released",
     "description": "Дистрибутив GNU/Linux для встраиваемых устройств.",
     "license_url": "https://dev.openwrt.org/browser/trunk/LICENSE",
     "logo": "openwrt.png",
@@ -5225,6 +5385,7 @@
     "slug": "openwrt"
   },
   {
+    "development_stage": "released",
     "description": "Свободный GNU/Linux дистрибутив для встраиваемых устройств.",
     "license_url": "http://websvn.librewrt.org/filedetails.php?repname=LibreWRT+Subversion+Repository&path=%2Flibrewrt%2Ftrunk%2FLICENSE",
     "logo": "librewrt.png",
@@ -5247,6 +5408,7 @@
     "slug": "librewrt"
   },
   {
+    "development_stage": "released",
     "description": "Свободный инструмент для очистки дискового пространства и оптимизации системы.",
     "license_url": "https://github.com/az0/bleachbit/blob/master/COPYING",
     "logo": "bleachbit.png",
