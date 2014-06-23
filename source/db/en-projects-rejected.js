@@ -1022,6 +1022,49 @@
           subcategories: ["Productivity"]
         }
       ]
+    }, {
+      status: 'rejected',
+      tags: ["Proprietary"],
+      logo: "",
+      name: "Roboform",
+      categories: [
+        {
+          name: "Windows",
+          subcategories: ["Password Managers"]
+        }, {
+          name: "Android",
+          subcategories: ["Password Managers"]
+        }, {
+          name: "OS X",
+          subcategories: ["Password Managers"]
+        }, {
+          name: "iOS",
+          subcategories: ["Password Managers"]
+        }
+      ]
+    }, {
+      status: 'rejected',
+      tags: ["Proprietary"],
+      logo: "",
+      name: "LastPass",
+      categories: [
+        {
+          name: "Windows",
+          subcategories: ["Password Managers"]
+        }, {
+          name: "GNU/Linux",
+          subcategories: ["Password Managers"]
+        }, {
+          name: "Android",
+          subcategories: ["Password Managers"]
+        }, {
+          name: "OS X",
+          subcategories: ["Password Managers"]
+        }, {
+          name: "iOS",
+          subcategories: ["Password Managers"]
+        }
+      ]
     }
   ];
   exports.projectsRejected = projectsRejected;
