@@ -5553,5 +5553,48 @@
       }
     ],
     "slug": "passwdsafe"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "Free and open-source, peer-to-peer, encrypted instant messaging and video calling software. The stated goal of the project is to provide secure yet easily accessible communication for everyone.",
+    "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
+    "logo": "tox.png",
+    "notes": "Tox is a new encrypted communications system in the making. It is built upon a well known encryption library and has great potential, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Tox, be sure to leave them feedback.\n\nTox does not yet have an official GUI but [several are recommended by the development team](https://wiki.tox.im/Binaries).",
+    "privacy_url": "",
+    "source_url": "https://github.com/irungentoo/toxcore",
+    "name": "Tox",
+    "tos_url": "",
+    "url": "https://tox.im",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)",
+    "protocols": [
+      "Tox"
+    ],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "tox"
   }
 ]

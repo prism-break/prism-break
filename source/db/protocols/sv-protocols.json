@@ -45,6 +45,15 @@
     }]
   },
   {
+    "name": "Tox",
+    "full_name": "Tox",
+    "description": "Tox is a communications protocol behind the Tox instant messaging client. Alternative implementations of this protocol are around, such as Xot, but not widespread.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)#Protocol",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
     "name": "GPG",
     "full_name": "GNU Privacy Guard",
     "description": "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.",
