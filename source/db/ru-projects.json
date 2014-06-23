@@ -591,7 +591,9 @@
     "tos_url": "",
     "url": "https://cloudns.com.au/",
     "wikipedia_url": "",
-    "protocols": ["DNS"],
+    "protocols": [
+      "DNS"
+    ],
     "categories": [
       {
         "name": "Web Services",
@@ -1025,7 +1027,9 @@
     "tos_url": "",
     "url": "http://dnscrypt.org/",
     "wikipedia_url": "",
-    "protocols": ["DNS"],
+    "protocols": [
+      "DNS"
+    ],
     "categories": [
       {
         "name": "Servers",
@@ -1261,7 +1265,7 @@
       "author": "Taylor Hornby",
       "date": "2014-01-14",
       "development_stage": "released",
-    "description": "EncFS вероятно безопасна, если атакующий получил только одну копию шифротекста и ничего более. EncFS не безопасна, если атакующий имеет возможность получить две или более копии шифротекста, сделанных в разное время. EncFS пытается защитить файлы от вредоносной модификации, но присутствуют серьезные проблемы с реализацией этой функции.",
+      "description": "EncFS вероятно безопасна, если атакующий получил только одну копию шифротекста и ничего более. EncFS не безопасна, если атакующий имеет возможность получить две или более копии шифротекста, сделанных в разное время. EncFS пытается защитить файлы от вредоносной модификации, но присутствуют серьезные проблемы с реализацией этой функции.",
       "rating": "0",
       "url": "https://defuse.ca/audits/encfs.htm"
     }
@@ -3310,7 +3314,9 @@
     "tos_url": "",
     "url": "http://namecoin.info/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Namecoin",
-    "protocols": ["DNS"],
+    "protocols": [
+      "DNS"
+    ],
     "categories": [
       {
         "name": "Servers",
@@ -3638,7 +3644,9 @@
     "tos_url": "",
     "url": "http://www.opennicproject.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
-    "protocols": ["DNS"],
+    "protocols": [
+      "DNS"
+    ],
     "categories": [
       {
         "name": "Web Services",
@@ -5298,7 +5306,9 @@
     "tos_url": "",
     "url": "http://www.unbound.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
-    "protocols": ["DNS"],
+    "protocols": [
+      "DNS"
+    ],
     "categories": [
       {
         "name": "Servers",
@@ -5448,7 +5458,10 @@
     "tos_url": "",
     "url": "https://nsupdate.info/",
     "wikipedia_url": "",
-    "protocols": ["DNS", "SSL/TLS"],
+    "protocols": [
+      "DNS",
+      "SSL/TLS"
+    ],
     "categories": [
       {
         "name": "Web Services",
