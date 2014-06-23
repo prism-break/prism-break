@@ -827,7 +827,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: ""
+    logo: "roboform.png"
     name: "Roboform"
     categories: [
       * name: "Windows"
@@ -842,7 +842,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: ""
+    logo: "lastpass.png"
     name: "LastPass"
     categories: [
       * name: "Windows"

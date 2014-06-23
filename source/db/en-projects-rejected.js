@@ -1025,7 +1025,7 @@
     }, {
       status: 'rejected',
       tags: ["Proprietary"],
-      logo: "",
+      logo: "roboform.png",
       name: "Roboform",
       categories: [
         {
@@ -1045,7 +1045,7 @@
     }, {
       status: 'rejected',
       tags: ["Proprietary"],
-      logo: "",
+      logo: "lastpass.png",
       name: "LastPass",
       categories: [
         {
