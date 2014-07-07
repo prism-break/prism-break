@@ -176,6 +176,42 @@
     ],
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
         "name": "Servers",
         "subcategories": [
           "SIP Servers"
@@ -412,6 +448,12 @@
         ]
       },
       {
+        "name": "iOS",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "Routers",
         "subcategories": [
           "Mesh Networks"
@@ -425,6 +467,12 @@
       },
       {
         "name": "Windows",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Android",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -502,7 +550,7 @@
     "protocols": [],
     "categories": [
       {
-        "name": "Android",
+        "name": "BSD",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -520,6 +568,12 @@
         ]
       },
       {
+        "name": "iOS",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "Routers",
         "subcategories": [
           "Mesh Networks"
@@ -527,6 +581,24 @@
       },
       {
         "name": "Servers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Routers",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -631,7 +703,19 @@
         ]
       },
       {
+        "name": "BSD",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "OS X",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "iOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -1600,17 +1684,47 @@
     ],
     "categories": [
       {
-        "name": "GNU/Linux",
+        "name": "BSD",
         "subcategories": [
-          "Mesh Networks",
-          "Email Accounts",
-          "VPN Accounts"
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mesh Networks"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
           "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mesh Networks",
+          "Email Accounts",
+          "VPN Accounts"
         ]
       }
     ],
@@ -1680,6 +1794,42 @@
       "VoIP"
     ],
     "categories": [
+     {
+        "name": "Android",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
       {
         "name": "Servers",
         "subcategories": [
@@ -2332,6 +2482,42 @@
     "protocols": [],
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
         "name": "Servers",
         "subcategories": [
           "Mail Servers"
@@ -2354,6 +2540,42 @@
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
       {
         "name": "Servers",
         "subcategories": [
@@ -2567,6 +2789,42 @@
       "VoIP"
     ],
     "categories": [
+     {
+        "name": "Android",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
       {
         "name": "Servers",
         "subcategories": [
@@ -2594,11 +2852,46 @@
       "WebDAV"
     ],
     "categories": [
+     {
+        "name": "Android",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Mail Servers"
+        ]
+      },
       {
         "name": "Servers",
         "subcategories": [
-          "Mail Servers",
-          "Groupware"
+          "Mail Servers"
         ]
       }
     ],
@@ -2717,13 +3010,43 @@
     "protocols": [],
     "categories": [
       {
+        "name": "BSD",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "GNU/Linux",
         "subcategories": [
           "Mesh Networks"
         ]
       },
       {
+        "name": "OS X",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "Servers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Android",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -4890,7 +5213,37 @@
     "protocols": [],
     "categories": [
       {
+        "name": "BSD",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "GNU/Linux",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Android",
         "subcategories": [
           "Mesh Networks"
         ]
