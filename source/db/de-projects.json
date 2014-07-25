@@ -5988,5 +5988,66 @@
       }
     ],
     "slug": "tox"
-  }
+  },  
+  {
+    "development_stage": "released",
+    "description": "Websuche, die besonders neutrale Suchergebnisse liefert und die Privatsphäre schützt.",
+    "license_url": "",
+    "logo": "unbubble.png",
+    "notes": "Unbubble ist eine Internet-Suchmaschine aus Deutschland mit Unterstützung für 8 Sprachen. Sie hat zum Ziel, möglichst neutrale Suchergebnisse zu erzeugen. Datenschutz und Privatsphäre werden durch verschiedene Maßnahmen sichergestellt, über die auf der Website ausführlich informiert wird.",
+    "privacy_url": "https://unbubble.eu/info/terms#data",
+    "source_url": "",
+    "name": "Unbubble",
+    "tos_url": "https://unbubble.eu/info/terms",
+    "url": "https://unbubble.eu",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Web Search"
+        ]
+      }
+    ],
+    "slug": "unbubble"
+  }  
 ]

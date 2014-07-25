@@ -5980,5 +5980,66 @@
       }
     ],
     "slug": "tox"
-  }
+  },  
+  {
+    "development_stage": "released",
+    "description": "Meta search engine that protects privacy and intends to return neutral search results.",
+    "license_url": "",
+    "logo": "unbubble.png",
+    "notes": "Unbubble is a web search engine from Germany providing results in eight languages. Its primary goal is to create neutral search results. It takes strong measures to protect privacy.",
+    "privacy_url": "https://unbubble.eu/info/terms#data",
+    "source_url": "",
+    "name": "Unbubble",
+    "tos_url": "https://unbubble.eu/info/terms",
+    "url": "https://unbubble.eu",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Web Search"
+        ]
+      }
+    ],
+    "slug": "unbubble"
+  }  
 ]
