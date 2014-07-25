@@ -5988,9 +5988,9 @@
       }
     ],
     "slug": "tox"
-  },  
+  },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Meta search engine that protects privacy and intends to return neutral search results.",
     "license_url": "",
     "logo": "unbubble.png",
@@ -6005,42 +6005,6 @@
       "SSL/TLS"
     ],
     "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
       {
         "name": "Web Services",
         "subcategories": [
