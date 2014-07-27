@@ -5610,23 +5610,13 @@
     "url": "http://secupwn.github.io/Android-IMSI-Catcher-Detector",
     "wikipedia_url": "",
     "protocols": [],
-    "categories": [
-      {
-        "name": "Cellular",
-        "subcategories": [
-          "Network Protection"
-        ]
-      },
-      {
+     "categories": [
+       {
         "name": "Android",
         "subcategories": [
-          "IMSI-Catcher Detection"
-        ]
-      },
-      {
-        "name": "Android",
-        "subcategories": [
-          "Network Protection"
+          "IMSI-Catcher Detection",
+          "Network Protection",
+          "Cellular"
         ]
       },
     ],
