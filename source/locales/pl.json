@@ -185,7 +185,7 @@
   "Server Operating System": "Serwer",
   "server-os-notes": "--",
   "File Encryption": "Szyfrowanie plików",
-  "disk-encryption-notes": "<p>2014-05-28: TrueCrypt currently has security issues and is not recommended.<p><p>Jeśli używasz Linuxa, dla Ciebie najlepsze i najwygodniejsze będzie użycie <strong>dm-crypt</strong> i <strong>LUKS</strong>.</p><p>Wiki Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>zawiera instrukcje instalacji</a> dla <strong>dm-crypt</strong> i <strong>LUKS</strong>.</p><p><a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>Podobne instrukcje</a> użycia <strong>dm-crypt</strong> z <strong>LUKS</strong> znajdziesz też dla Arch GNU/Linux. Instrukcje będą działały też na większości innych systemów Linux jak Parabola GNU/Linux.</p>",
+  "disk-encryption-notes": "<p>2014-05-28: TrueCrypt currently has security issues and is not recommended.<p><p>Jeśli używasz Linuxa, dla Ciebie najlepsze i najwygodniejsze będzie użycie <strong>dm-crypt</strong> i <strong>LUKS</strong>.</p><p>Wiki Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>zawiera instrukcje instalacji</a> dla <strong>dm-crypt</strong> i <strong>LUKS</strong>.</p><p><a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>Podobne instrukcje</a> użycia <strong>dm-crypt</strong> z <strong>LUKS</strong> znajdziesz też dla Arch Linux. Instrukcje będą działały też na większości innych systemów Linux jak Parabola GNU/Linux.</p>",
   "Mail Server": "Serwer pocztowy",
   "Groupware Server": "Serwer pracy grupowej",
   "Mail Transfer Agent": "Mail transfer agent (MTA)",

@@ -822,7 +822,7 @@
     "description": "LUKS是dm-crypt加密程序的一个简单易用的用户接口层。",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",
-    "notes": "Gentoo GNU/Linux 有一个[关于dm-crypt和LUKS的指南](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS). \n\n Arch GNU/Linux 有一个[关于dm-crypt和LUKS的指南](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) 对Parabola GNU/Linux也适用。\n\n dm-crypt在DragonFly BSD系统上也适用。",
+    "notes": "Gentoo GNU/Linux 有一个[关于dm-crypt和LUKS的指南](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS). \n\n Arch Linux 有一个[关于dm-crypt和LUKS的指南](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) 对Parabola GNU/Linux也适用。\n\n dm-crypt在DragonFly BSD系统上也适用。",
     "privacy_url": "",
     "source_url": "https://code.google.com/p/cryptsetup/source/browse/",
     "name": "cryptsetup",
