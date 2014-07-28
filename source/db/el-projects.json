@@ -2793,6 +2793,42 @@
       "VoIP"
     ],
     "categories": [
+     {
+        "name": "Android",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "SIP Servers"
+        ]
+      },
       {
         "name": "Servers",
         "subcategories": [
