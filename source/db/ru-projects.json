@@ -1684,6 +1684,18 @@
     ],
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "BSD",
         "subcategories": [
           "Mesh Networks"
@@ -1702,6 +1714,12 @@
         ]
       },
       {
+        "name": "Routers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "Servers",
         "subcategories": [
           "Mesh Networks"
@@ -1711,20 +1729,6 @@
         "name": "Windows",
         "subcategories": [
           "Mesh Networks"
-        ]
-      },
-      {
-        "name": "Android",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Mesh Networks",
-          "Email Accounts",
-          "VPN Accounts"
         ]
       }
     ],
