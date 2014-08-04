@@ -4207,6 +4207,12 @@
     ],
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Video & Voice"
+        ]
+      },
+      {
         "name": "Web Services",
         "subcategories": [
           "Video & Voice"
@@ -6029,7 +6035,7 @@
         "subcategories": [
           "Cellular"
         ]
-      },
+      }
     ],
     "slug": "aimsicd"
   }

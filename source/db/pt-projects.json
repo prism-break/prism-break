@@ -703,7 +703,19 @@
         ]
       },
       {
+        "name": "BSD",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
         "name": "OS X",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "iOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -4207,6 +4219,12 @@
     ],
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Video & Voice"
+        ]
+      },
+      {
         "name": "Web Services",
         "subcategories": [
           "Video & Voice"
@@ -6029,7 +6047,7 @@
         "subcategories": [
           "Cellular"
         ]
-      },
+      }
     ],
     "slug": "aimsicd"
   }
