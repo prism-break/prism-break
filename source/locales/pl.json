@@ -4,7 +4,7 @@
   "Audit Report": "Audit Report",
   "Audited": "Audited",
   "by": "by",
-  "Cellular": "Cellular",  
+  "Cellular": "Cellular",
   "Communication Protocols": "Protokoły komunikacji",
   "Digital Distribution": "Digital Distribution",
   "Disk Encryption": "Szyfrowanie dysków",
@@ -45,15 +45,10 @@
   "Web Search": "Wyszukiwarki Web",
   "World Maps": "Mapy świata",
   "XMPP Servers": "Serwery XMPP",
-
   "warning-android": "Uwaga: System Android, który dostajesz zainstalowany na swoim telefonie lub tablecie jest często zmodyfikowany przez Twojego operatora komorkowego i zainstalowane są na nim własnościowe aplikacje Google, które zagrozić Twojej prywatności. Zdecydowanie radzimy zamianę go na [Replicant](../../projects/replicant) lub [CyanogenMod](../../projects/cyanogenmod) lub skompilowanie Androida ze źródeł.<br><br>A must read: [Mission Impossible: Hardening Android for Security and Privacy](https://blog.torproject.org/blog/mission-impossible-hardening-android-security-and-privacy), by Mike Perry at The Tor Blog.",
-
   "warning-ios": "Uwaga: Urządzenia z Apple iOS są objęte programem PRISM. Uzywanie ich zagraża Twojej prywatności. Zdecydowanie radzimy zamianę urządzenia Apple na urządzenie z kompatybilne z [Replicant](../../projects/replicant) lub [Cyanogenmod](../../projects/cyanogenmod).",
-
   "warning-mac": "Uwaga: Apple OS X jest objęty programem PRISM. Uzywanie tego systemu zagraża Twojej prywatności. Zdecydowanie radzimy używanie [Linux](../gnu-linux) lub [BSD](../bsd).",
-
   "warning-windows": "Uwaga: Microsoft Windows jest objęty programem PRISM. Uzywanie tego systemu zagraża Twojej prywatności. Zdecydowanie radzimy zamianę systemu Windows na [Linux](../gnu-linux) lub [BSD](../bsd).",
-
   "Communication": "Communication",
   "Anonymity": "Anonymity",
   "Encryption": "Encryption",
@@ -98,16 +93,10 @@
   "Terms of Service": "Regulamin usługi",
   "Wikipedia Article": "Artykuł na wiki",
   "Web Service": "Serwis Web",
-
   "site-protocols-index": "**Przeglądaj protokoły**\n\nPrzeglądaj projekt F/OSS po wspieranych protokołach.",
-
   "site-categories-index": "**Przegladaj kategorie**\n\nPrzeglądaj projekty F/OSS po kategoriach.",
-
   "site-about-index": "**O PRISM**\n\nO projekcie PRISM break.",
-
-  "site-about-privacy": "* Ta strona nie zapisuje żadnych informacji o Tobie. * Ta strona nie śledzi Twojego adresu IP. * Ta strona nie używa żadnych skryptów JavaScript.", 
-
-
+  "site-about-privacy": "* Ta strona nie zapisuje żadnych informacji o Tobie. * Ta strona nie śledzi Twojego adresu IP. * Ta strona nie używa żadnych skryptów JavaScript.",
   "site-title": "Nie daj się PRISM i nadzorowaniu danych - PRISM Break",
   "meta-description": "Nie daj się PRISM, globalnemu programowi NSA, którego zadaniem jest nadzorowanie danych. Wyeliminuj możliwość przeglądania Twojej internetowej aktywności przez rząd amerykański i służby, używając otwartego oprogramowania i usług.",
   "site-introduction": "<strong>Nie daj się PRISM, globalnemu programowi NSA, którego zadaniem jest nadzorowanie danych.</strong> Wyeliminuj możliwość przeglądania Twojej internetowej aktywności przez rząd amerykański i służby, używając otwartego oprogramowania i usług.",
