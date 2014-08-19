@@ -4,7 +4,7 @@
   "Audit Report": "审查报告",
   "Audited": "审查通过",
   "by": "by",
-  "Cellular": "Cellular",  
+  "Cellular": "Cellular",
   "Communication Protocols": "通信协议",
   "Digital Distribution": "数字分发",
   "Disk Encryption": "磁盘加密",
@@ -45,15 +45,10 @@
   "Web Search": "网络搜索",
   "World Maps": "电子地图",
   "XMPP Servers": "XMPP服务",
-
   "warning-android": "警告：手机和平板设备上的安卓系统常常被额外附加了来自谷歌或其他公司的非开源程序，这可能给你的隐私带来风险。我们强烈建议用诸如[Replicant](../../projects/replicant)或者[CyanogenMod](../../projects/cyanogenmod)之类的程序来替代他们。（当然，你也可以选择自己从源代码编译一个安卓系统）<br><br>A must read: [Mission Impossible: Hardening Android for Security and Privacy](https://blog.torproject.org/blog/mission-impossible-hardening-android-security-and-privacy), by Mike Perry at The Tor Blog.",
-
   "warning-ios": "警告：苹果的IOS设备受到了棱镜监控系统的控制。使用IOS设备可能会严重损害你的隐私。如果你有隐私需求，那么我们强烈建议你用运行[Replicant](../../projects/replicant) 或[Cyanogenmod](../../projects/cyanogenmod)的安卓设备替换苹果的IOS设备。",
-
   "warning-mac": "警告：苹果OS X系统受到了棱镜监控系统的控制。使用IOS设备可能会严重损害你的隐私。如果你有隐私需求，那么我们强烈建议你用[Linux](../gnu-linux) 或者[BSD](../bsd)操作系统替换OS X。",
-
   "warning-windows": "警告：微软windows系统受到了棱镜监控系统的控制。使用IOS设备可能会严重损害你的隐私。如果你有隐私需求，那么我们强烈建议你用[Linux](../gnu-linux) 或者[BSD](../bsd)操作系统替换它。",
-
   "Communication": "Communication",
   "Anonymity": "Anonymity",
   "Encryption": "Encryption",
@@ -98,16 +93,10 @@
   "Terms of Service": "服务条款",
   "Wikipedia Article": "维基百科此条",
   "Web Service": "网络服务",
-
   "site-protocols-index": "**Browse by Protocol**\n\nBrowse F/OSS projects by supported protocol.",
-
   "site-categories-index": "**Browse by Category**\n\nBrowse F/OSS projects by platform categories.",
-
   "site-about-index": "**About**\n\nAbout the PRISM Break project.",
-
   "site-about-privacy": "* 本网站不会搜集任何关于你的信息。 * 本网站不会追踪你的IP信息。 * 本网站不使用任何前端JavaScript脚本。",
-
-
   "site-title": "粉碎棱镜——安全、隐私、自由的选项。让我们逃离所有类似于棱镜项目、XKeyscore项目和Tempora项目的全球信息监控项目。",
   "meta-description": "粉碎棱镜——安全、隐私、自由的选项。让我们逃离所有类似于棱镜、XKeyscore和Tempora的全球信息监控项目。用自由软件替代闭源软件，再也无需向任何人汇报自己的隐私！",
   "site-introduction": "<strong>让我们逃离棱镜（美国国家安全局的全球信息监控工程）和所有其他类似的监控项目</strong>全民参与，让大规模监控变得昂贵而困难！所有人都有隐私权，现在，你可以从这里开始，从试着加密你的信息开始，从摆脱闭源软件开始！",
@@ -241,7 +230,7 @@
   "Chinese (Simplified)": "简体中文",
   "Updated": "更新于",
   "By": "By",
-  "Donate": "捐赠",
+  "Donate Bitcoin": "捐赠 Bitcoin",
   "Contribute": "贡献",
   "License": "许可",
   "Changelog": "更新日志",
