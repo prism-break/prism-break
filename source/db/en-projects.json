@@ -5451,23 +5451,29 @@
     "slug": "torbirdy"
   },
   {
-    "development_stage": "released",
-    "description": "Anonymous P2P chat built on Tor Hidden Services (not sponsored by the Tor Project).",
-    "license_url": "https://www.gnu.org/copyleft/gpl.html",
-    "logo": "torchat.png",
-    "notes": "",
+    "development_stage": "experimental",
+    "description": "Anonymous and serverless instant messaging designed to work out of the box.",
+    "license_url": "https://github.com/ricochet-im/ricochet/blob/master/LICENSE",
+    "logo": "ricochet-im.png",
+    "notes": "Ricochet is a peer-to-peer instant messaging system built on Tor hidden services. It uses hidden service addresses as logins. Contacts connect to each other (not an intermediate server) through Tor, which is bundled with the IM client. The rendezvous system makes it extremely hard for anyone to learn a user's identity from the address. Ricochet is not affiliated with or endorsed by The Tor Project. Ricochet is a substitute for the obsolote TorChat, which is no longer maintained.",
     "privacy_url": "",
-    "source_url": "https://github.com/prof7bit/TorChat",
-    "name": "TorChat",
+    "source_url": "https://github.com/ricochet-im/ricochet",
+    "name": "Ricochet-IM",
     "tos_url": "",
-    "url": "https://github.com/prof7bit/TorChat/wiki",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/TorChat",
+    "url": "https://ricochet.im/",
+    "wikipedia_url": "",
     "protocols": [
       "Tor"
     ],
     "categories": [
       {
         "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+        {
+        "name": "OS X",
         "subcategories": [
           "Instant Messaging"
         ]
@@ -5479,7 +5485,95 @@
         ]
       }
     ],
-    "slug": "torchat"
+    "slug": "ricochet"
+  },
+  {
+    "development_stage": "released",
+    "description": "Google Chrome browser addon to encrypt and share files easily.",
+    "license_url": "https://github.com/kaepora/miniLock/blob/master/LICENSE.txt",
+    "logo": "minilock.png",
+    "notes": "miniLock is a small, portable file encryption software. The idea behind its design is that a passphrase memorized by the user, along with their email address, can act as a complete, portable basis for a persistent public key identity and provide a full substitute for other key pair models, such as having the key pair stored on disk media (the PGP approach). miniLock has been audited.",
+    "privacy_url": "",
+    "source_url": "https://github.com/kaepora/miniLock",
+    "name": "miniLock",
+    "tos_url": "",
+    "url": "https://minilock.io/",
+    "wikipedia_url": "",
+    "protocols": [],
+  "categories": [   
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons",
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons",
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Web Browser Addons",
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons",
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "slug": "minilock"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "A hardware-software combination producing a messaging platform that is immune against attacks scalable to mass surveillance.",
+    "license_url": "https://github.com/maqp/tfc",
+    "logo": "tinfoilchat.png",
+    "notes": "Tinfoil Chat (TFC) is a sophisticated anonymity solution. However, it is not an off-the-shelf tool; its deployment requires some technical skill. The project is a combination of open circuit design hardware and free software that uses Pidgin IM client to carry messages between two parties. TFC functions as an additional no-compromise layer of security that addresses attacks mitigated by intelligence agencies. TFC is released under the GNU General Public License, v. 3.",
+    "privacy_url": "",
+    "source_url": "https://github.com/maqp/tfc",
+    "name": "Tinfoil Chat (TFC)",
+    "tos_url": "",
+    "url": "https://github.com/maqp/tfc",
+    "wikipedia_url": "",
+    "protocols": [
+      "OTR"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "tinfoilchat"
   },
   {
     "development_stage": "released",
@@ -6029,6 +6123,90 @@
     "slug": "unbubble"
   },
   {
+  "development_stage": "experimental",
+  "description": "Open source tool that lets you securely and anonymously share a file of any size over the Tor network.",
+  "license_url": "https://github.com/micahflee/onionshare/blob/master/LICENSE",
+  "logo": "onionshare.png",
+  "notes": "OnionShare lets you securely and anonymously share a file of any size with someone. It works by starting a web server, making it accessible as a Tor hidden service, and generating an unguessable URL to access and download the file. It doesn't require setting up a server on the internet somewhere or using a third party filesharing service. You host the file on your own computer and use a Tor hidden service to make it temporarily accessible over the internet. The other user just needs to use Tor Browser to download the file from you.",
+  "privacy_url": "",
+  "source_url": "https://github.com/micahflee/onionshare",
+  "name": "OnionShare",
+  "tos_url": "",
+  "url": "https://github.com/micahflee/onionshare",
+  "wikipedia_url": "",
+  "protocols": [
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "File Storage & Sync"
+      ]    
+    }
+  ],
+  "slug": "onionshare"
+  },
+  {
+  "development_stage": "released",
+  "description": "LocalBox is a safe, private cloud environment for file sharing.",
+  "license_url": "http://opensource.org/licenses/EUPL-1.1",
+  "logo": "localbox.png",
+  "notes": "Free, open source file-sharing cloud environment that provides end-to-end encryption. The code is written mostly in PHP. The project was commissioned by the Dutch government and produced by LiBBit under a European Union Public Licence v. 1.1.",
+  "privacy_url": "",
+  "source_url": "http://www.libbit.eu/downloads/localbox-v1.1.1.tar.gz",
+  "name": "LocalBox",
+  "tos_url": "",
+  "url": "http://www.libbit.eu/en/producten-en/localbox",
+  "wikipedia_url": "",
+  "protocols": [],    
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "File Storage & Sync"
+      ]    
+    }
+  ],
+  "slug": "localbox"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and (hopefully one day) avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969).",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
@@ -6050,5 +6228,358 @@
       }
     ],
     "slug": "aimsicd"
+  }, 
+ {
+  "development_stage": "released",
+  "description": "Decentralized, self-hosted, encrypted file-sharing cloud service.",
+  "license_url": "https://github.com/syncthing/syncthing/blob/master/LICENSE",
+  "logo": "syncthing.png",
+  "notes": "Syncthing is a self-hosted file sharing platform, so none of your data is ever stored anywhere other than on your computers. There is no central server that might be compromised, legally or illegally. All communication is secured using TLS. The encryption used includes perfect forward secrecy to prevent any eavesdropper from gaining access to your data. Every node is identified by a strong cryptographic certificate. Only nodes you have explicitly allowed can connect to your cluster.",
+  "privacy_url": "",
+  "source_url": "https://github.com/syncthing/syncthing/tree/master",
+  "name": "Syncthing",
+  "tos_url": "",
+  "url": "http://syncthing.net/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "File Storage & Sync"
+      ]    
+    }
+  ],
+  "slug": "searx"
+  },  
+  {
+  "development_stage": "released",
+  "description": "Browser-based, open source self-hosted invoicing system.",
+  "license_url": "https://github.com/simpleinvoices/simpleinvoices/blob/master/license.txt",
+  "logo": "simpleinvoices.png",
+  "notes": "Browser-based, open source application that can be downloaded and self-hosted in any server running PHP, Apache and MYSQL. Invoices can be saved to PDF, accessed online, emailed to clients, etc.",
+  "privacy_url": "",
+  "source_url": "https://github.com/simpleinvoices/simpleinvoices",
+  "name": "SimpleInvoices",
+  "tos_url": "",
+  "url": "http://simpleinvoices.org/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "Finance"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Finance"
+      ]
+    }    
+  ],
+  "slug": "simpleinvoices"
+  }, 
+     {
+  "development_stage": "released",
+  "description": "Open source personal and small-business financial-accounting software.",
+  "license_url": "https://github.com/Gnucash/gnucash/blob/master/LICENSE",
+  "logo": "gnucash.png",
+  "notes": "GNUCash is a powerful accounting software, including features such as double entry, checkbook-style register, scheduled transactions, reports & graphs, statement reconciliation, income / expense account types and more. Its open source nature makes it virtually impossible to insert backdoors or inbuilt surveillance mechanisms that might render your accounts vulnerable to industrial espionage.",
+  "privacy_url": "",
+  "source_url": "https://github.com/Gnucash",
+  "name": "GNUCash",
+  "tos_url": "",
+  "url": "http://gnucash.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/GnuCash",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Finance"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "Finance"
+      ]
+    },
+     {
+      "name": "Windows",
+      "subcategories": [
+        "Finance"
+      ]
+    }    
+  ],
+  "slug": "gnucash"
+  }, 
+  {
+  "development_stage": "released",
+  "description": "Free and open source self-hostable application for saving web pages.",
+  "license_url": "https://github.com/wallabag/wallabag/blob/master/COPYING.md",
+  "logo": "wallabag.png",
+  "notes": "Wallabag allows you to extract text and images from web pages and then store them, share them and display them offline, thus reducing your exposure to online tracking. You can easily migrate content from other proprietary services to Wallabag. As an open source project, exporting and sharing your downloaded data is also simple. Wallabag is designed as an extension for Firefox or Google Chrome. It is also available as an app for Android, Windows Phone and iOS. Although it is possible to create an online account, it is preferable to download the code and host the service in your own system.",
+  "privacy_url": "",
+  "source_url": "https://github.com/wallabag/wallabag",
+  "name": "Wallabag",
+  "tos_url": "",
+  "url": "https://www.wallabag.org/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+      {
+      "name": "Android",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },  
+    {
+      "name": "BSD",
+      "subcategories": [
+        "Web Browser Addons"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Web Browser Addons"
+      ]
+    },
+    {
+      "name": "iOS",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },      
+    {
+      "name": "OS X",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    }
+  ],
+  "slug": "wallabag"
+  },
+  {
+    "development_stage": "released",
+    "description": "End-to-end encrypted VoIP calls for iOS devices, by WhisperSystems.",
+    "license_url": "https://github.com/WhisperSystems/Signal-iOS/blob/master/README.md",
+    "logo": "signal.png",
+    "notes": "Signal allows users to establish encrypted voice connections using ZRTP through the phone's existing number. It automatically detects other users from the contact list that are reachable with Signal. Signal uses a jitter buffer tuned to the characteristics of mobile networks. It also uses push notifications to preserve battery life while still remaining responsive. Signal is licensed under the GPLv3.",
+    "privacy_url": "",
+    "source_url": "https://github.com/WhisperSystems/Signal-iOS",
+    "name": "Signal-iOS",
+    "tos_url": "",
+    "url": "https://whispersystems.org/blog/signal/",
+    "wikipedia_url": "",
+    "protocols": [
+      "ZRTP"
+    ],
+    "categories": [
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Video & Voice"
+        ]
+      }
+    ],
+    "slug": "signalios"
+  },  
+  {
+    "development_stage": "released",
+    "description": "Simple and small portable editor to encrypt and decrypt any text-message or -file.",
+    "license_url": "http://cpunk.de/svn/src/gpg4usb/trunk/README",
+    "logo": "gpg4usb.png",
+    "notes": "gpg4usb is a very easy to use portable-application, which combines a simple text-editor with a GnuPG-frontend to write, encrypt and decrypt your text-messages and files. gpg4usb should work on almost any computer you're working on, should it be a Linux-machine or even one with a Microsoft-OS running. Although the functionality is comparatively limited, it provides a simple, portable, cross-platform solution. Almost the only thing required is an available usb-port.",
+    "privacy_url": "",
+    "source_url": "http://cpunk.de/svn/src/",
+    "name": "gpg4usb",
+    "tos_url": "",
+    "url": "http://gpg4usb.org/index.html",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "slug": "gpg4usb"
+  },
+  {
+    "development_stage": "released",
+    "description": "DIY anonymous offline file-sharing and communications system built with free software and inexpensive off-the-shelf hardware.",
+    "license_url": "http://piratebox.cc/source",
+    "logo": "piratebox.png",
+    "notes": "PirateBox creates offline wireless networks designed for anonymous file sharing, chatting, message boarding, and media streaming. When users join the PirateBox wireless network and open a web browser, they are automatically redirected to the PirateBox welcome page. Users can anonymously chat, post images or comments on the bulletin board, watch or listen to streaming media, or upload and download files inside their web browser, without the need for a WAN / Internet connection.",
+    "privacy_url": "",
+    "source_url": "http://piratebox.cc/source",
+    "name": "PirateBox",
+    "tos_url": "",
+    "url": "http://piratebox.cc/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/PirateBox",
+    "protocols": [],
+    "categories": [
+       {
+        "name": "Android",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Routers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      }
+    ],
+    "slug": "piratebox"
+  },
+    {
+    "development_stage": "released",
+    "description": "Self-hosted, open source image display and sharing solution.",
+    "license_url": "https://github.com/ldidry/lutim/blob/master/LICENSE",
+    "logo": "lutim.png",
+    "notes": "Lutim is a self-hosted repository that stores images and allows you to view them, download them and share them. Automatic encryption and SSL/TLS connections are supported. Images are indefinitely stored in the server unless the uploader requests that they be deleted at first view or after 24 hours / one week / one month / one year.",
+    "privacy_url": "",
+    "source_url": "https://github.com/ldidry/lutim",
+    "name": "Lutim",
+    "tos_url": "",
+    "url": "https://github.com/ldidry/lutim",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "slug": "lutim"
+  },
+  {
+  "development_stage": "released",
+  "description": "A privacy-respecting, hackable metasearch engine.",
+  "license_url": "https://github.com/asciimoo/searx/blob/master/LICENSE",
+  "logo": "searx.png",
+  "notes": "Searx is a versatile, track-free metasearch engine. You can download the code, tweak it to suit your own needs and run it in your own system, or you can browse the author's website for instances of various pre-configured searx engines available online.",
+  "privacy_url": "",
+  "source_url": "https://github.com/asciimoo/searx",
+  "name": "Searx",
+  "tos_url": "",
+  "url": "https://github.com/asciimoo/searx",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "Web Search"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Web Search"
+      ]
+    },
+    {
+      "name": "Web Services",
+      "subcategories": [
+        "Web Search"
+      ]    
+    }
+  ],
+  "slug": "searx"
   }
 ]
