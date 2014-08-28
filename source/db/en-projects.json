@@ -6300,5 +6300,40 @@
     }    
   ],
   "slug": "simpleinvoices"
+  },
+  {
+  "development_stage": "released",
+  "description": "Open source personal and small-business financial-accounting software.",
+  "license_url": "https://github.com/Gnucash/gnucash/blob/master/LICENSE",
+  "logo": "gnucash.png",
+  "notes": "GNUCash is a powerful accounting software, including features such as double entry, checkbook-style register, scheduled transactions, reports & graphs, statement reconciliation, income / expense account types and more. Its open source nature makes it virtually impossible to insert backdoors or inbuilt surveillance mechanisms that might render your accounts vulnerable to industrial espionage.",
+  "privacy_url": "",
+  "source_url": "https://github.com/Gnucash",
+  "name": "GNUCash",
+  "tos_url": "",
+  "url": "http://gnucash.org/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/GnuCash",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Finance"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "Finance"
+      ]
+    },
+     {
+      "name": "Windows",
+      "subcategories": [
+        "Finance"
+      ]
+    }    
+  ],
+  "slug": "gnucash"
   }  
 ]
