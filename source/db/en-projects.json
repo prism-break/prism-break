@@ -6335,5 +6335,58 @@
     }    
   ],
   "slug": "gnucash"
+  },
+  {
+  "development_stage": "released",
+  "description": "Free and open source self-hostable application for saving web pages.",
+  "license_url": "https://github.com/wallabag/wallabag/blob/master/COPYING.md",
+  "logo": "wallabag.png",
+  "notes": "Wallabag allows you to extract text and images from web pages and then store them, share them and display them offline, thus reducing your exposure to online tracking. You can easily migrate content from other proprietary services to Wallabag. As an open source project, exporting and sharing your downloaded data is also simple. Wallabag is designed as an extension for Firefox or Google Chrome. It is also available as an app for Android, Windows Phone and iOS. Although it is possible to create an online account, it is preferable to download the code and host the service in your own system.",
+  "privacy_url": "",
+  "source_url": "https://github.com/wallabag/wallabag",
+  "name": "Wallabag",
+  "tos_url": "",
+  "url": "https://www.wallabag.org/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+      {
+      "name": "Android",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },  
+    {
+      "name": "BSD",
+      "subcategories": [
+        "Web Browser Addons"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Web Browser Addons"
+      ]
+    },
+    {
+      "name": "iOS",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },      
+    {
+      "name": "OS X",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    }
+  ],
+  "slug": "wallabag"
   }  
 ]
