@@ -6187,5 +6187,46 @@
     }
   ],
   "slug": "onionshare"
+  },
+  {
+  "development_stage": "released",
+  "description": "LocalBox is a safe, private cloud environment for file sharing.",
+  "license_url": "http://opensource.org/licenses/EUPL-1.1",
+  "logo": "localbox.png",
+  "notes": "Free, open source file-sharing cloud environment that provides end-to-end encryption. The code is written mostly in PHP. The project was commissioned by the Dutch government and produced by LiBBit under a European Union Public Licence v. 1.1.",
+  "privacy_url": "",
+  "source_url": "http://www.libbit.eu/downloads/localbox-v1.1.1.tar.gz",
+  "name": "LocalBox",
+  "tos_url": "",
+  "url": "http://www.libbit.eu/en/producten-en/localbox",
+  "wikipedia_url": "",
+  "protocols": [],    
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "File Storage & Sync"
+      ]    
+    }
+  ],
+  "slug": "localbox"
   }  
 ]
