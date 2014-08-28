@@ -6271,5 +6271,34 @@
     }
   ],
   "slug": "syncthing"
+  },
+  {
+  "development_stage": "released",
+  "description": "Browser-based, open source self-hosted invoicing system.",
+  "license_url": "https://github.com/simpleinvoices/simpleinvoices/blob/master/license.txt",
+  "logo": "simpleinvoices.png",
+  "notes": "Browser-based, open source application that can be downloaded and self-hosted in any server running PHP, Apache and MYSQL. Invoices can be saved to PDF, accessed online, emailed to clients, etc.",
+  "privacy_url": "",
+  "source_url": "https://github.com/simpleinvoices/simpleinvoices",
+  "name": "SimpleInvoices",
+  "tos_url": "",
+  "url": "http://simpleinvoices.org/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "Finance"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Finance"
+      ]
+    }    
+  ],
+  "slug": "simpleinvoices"
   }  
 ]
