@@ -6507,5 +6507,42 @@
       }
     ],
     "slug": "piratebox"
+  },
+  {
+    "development_stage": "released",
+    "description": "Self-hosted, open source image display and sharing solution.",
+    "license_url": "https://github.com/ldidry/lutim/blob/master/LICENSE",
+    "logo": "lutim.png",
+    "notes": "Lutim is a self-hosted repository that stores images and allows you to view them, download them and share them. Automatic encryption and SSL/TLS connections are supported. Images are indefinitely stored in the server unless the uploader requests that they be deleted at first view or after 24 hours / one week / one month / one year.",
+    "privacy_url": "",
+    "source_url": "https://github.com/ldidry/lutim",
+    "name": "Lutim",
+    "tos_url": "",
+    "url": "https://github.com/ldidry/lutim",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "slug": "lutim"
   }  
 ]
