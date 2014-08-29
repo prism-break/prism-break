@@ -6029,6 +6029,47 @@
     "slug": "unbubble"
   },
   {
+    "development_stage": "released",
+    "description": "Simple and small portable editor to encrypt and decrypt any text-message or -file.",
+    "license_url": "http://cpunk.de/svn/src/gpg4usb/trunk/README",
+    "logo": "gpg4usb.png",
+    "notes": "gpg4usb is a very easy to use portable-application, which combines a simple text-editor with a GnuPG-frontend to write, encrypt and decrypt your text-messages and files. gpg4usb should work on almost any computer you're working on, should it be a Linux-machine or even one with a Microsoft-OS running. Although the functionality is comparatively limited, it provides a simple, portable, cross-platform solution. Almost the only thing required is an available usb-port.",
+    "privacy_url": "",
+    "source_url": "http://cpunk.de/svn/src/",
+    "name": "gpg4usb",
+    "tos_url": "",
+    "url": "http://gpg4usb.org/index.html",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "slug": "gpg4usb"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and (hopefully one day) avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969).",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
