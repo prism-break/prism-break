@@ -6030,6 +6030,49 @@
   },
   {
     "development_stage": "experimental",
+    "description": "A hardware-software combination producing a messaging platform that is immune against attacks scalable to mass surveillance.",
+    "license_url": "https://github.com/maqp/tfc",
+    "logo": "tinfoilchat.png",
+    "notes": "Tinfoil Chat (TFC) is a sophisticated anonymity solution. However, it is not an off-the-shelf tool; its deployment requires some technical skill. The project is a combination of open circuit design hardware and free software that uses Pidgin IM client to carry messages between two parties. TFC functions as an additional no-compromise layer of security that addresses attacks mitigated by intelligence agencies. TFC is released under the GNU General Public License, v. 3.",
+    "privacy_url": "",
+    "source_url": "https://github.com/maqp/tfc",
+    "name": "Tinfoil Chat (TFC)",
+    "tos_url": "",
+    "url": "https://github.com/maqp/tfc",
+    "wikipedia_url": "",
+    "protocols": [
+      "OTR"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "tinfoilchat"
+  },
+  {
+    "development_stage": "experimental",
     "description": "Android open-source based project to detect and (hopefully one day) avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969).",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
     "logo": "aimsicd.png",
