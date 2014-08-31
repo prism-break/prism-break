@@ -12,7 +12,7 @@ If you'd like to translate the project to your favorite language, there's no nee
 
     vi ./source/db/en-projects.json                  # edit or add a project
 
-    cp project.png ./source/assets/images/medium/    # put 60x60 PNG here
+    cp project.png ./source/assets/images/logos/medium/    # put 60x60 PNG here
 
 ### 2. Test
 
@@ -56,8 +56,8 @@ If you want to edit or add a project to PRISM Break, this data resides here:
 
 If you want to edit or add to the project logos on this site, look here:
 
-    ./source/assets/images/medium/          # for images currently used
-    ./source/assets/images/original/        # for high res/svg versions
+    ./source/assets/images/logos/medium/          # for images currently used
+    ./source/assets/images/logos/original/        # for high res/svg versions
 
 ### Add the Project Data
 Append the sample project to the file `./source/db/en-projects.json`. Edit the values to fit your project. Repeat the process for the other languages (e.g. `./source/db/de-projects.json`).
@@ -112,7 +112,7 @@ Append the sample project to the file `./source/db/en-projects.json`. Edit the v
 Only the fields `name`, `description`, `logo`, `url`, `categories`, and `development_stage` are required. The other fields can be left empty with a value of `""` (`[]` for `protocols`).
 
 ### Add the Project Thumbnail
-**Project thumbnails should be in the PNG format.** Try to get a 1024px x 1024px (or better) version of the logo for `./source/assets/images/original` and rescale it to 60x60 and 120x120 for `./source/assets/images/medium` and `./source/assets/images/medium@2x`
+**Project thumbnails should be in the PNG format.** Try to get a 1024px x 1024px (or better) version of the logo for `./source/assets/images/logos/original` and rescale it to 60x60 and 120x120 for `./source/assets/images/logos/medium` and `./source/assets/images/logos/medium@2x`
 
 ### Testing Your Edits/Additions
 When you're done with your edits, you should build the site to see if it compiles properly. To do so, run:
