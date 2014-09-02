@@ -6029,6 +6029,29 @@
     "slug": "unbubble"
   },
   {
+    "development_stage": "released",
+    "description": "Self-hosted blogging/CMS platform.",
+    "license_url": "http://b2evolution.net/about/gnu-gpl-license",
+    "logo": "b2evolution.png",
+    "notes": "Versatile and low maintenance self-hosted blogging/CMS platform with built-in analytics and marketing tools. Free and open source, released under the GPL v2 license.",
+    "privacy_url": "",
+    "source_url": "https://github.com/b2evolution/b2evolution",
+    "name": "b2evolution",
+    "tos_url": "",
+    "url": "http://b2evolution.net/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/B2evolution",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "slug": "b2evolution"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and (hopefully one day) avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969).",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
