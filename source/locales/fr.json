@@ -45,15 +45,10 @@
   "Web Search": "Recherche sur la Toile",
   "World Maps": "Cartes mondiales",
   "XMPP Servers": "Serveurs XMPP",
-
   "warning-android": "Attention : Le système d’exploitation Android fourni avec les téléphones et les tablettes est souvent modifié avec l’ajout d’applications propriétaires de Google ou d’autres modifications qui risquent de compromettre votre vie privée. Nous vous recommandons fortement de le remplacer par [Replicant](../../projects/replicant) ou [CyanogenMod](../../projects/cyanogenmod) (ou par un Android compilé depuis les sources pour votre appareil).<br><br>A must read: [Mission Impossible: Hardening Android for Security and Privacy](https://blog.torproject.org/blog/mission-impossible-hardening-android-security-and-privacy), by Mike Perry at The Tor Blog.",
-
   "warning-ios": "Attention : Les appareils sous Apple iOS sont concernés par PRISM. Les utiliser risque de compromettre votre vie privée. Nous vous recommandons fortement de remplacer votre appareil sous iOS par un appareil compatible avec Android sur lequel on peut installer [Replicant](../../projects/replicant) ou [Cyanogenmod](../../projects/cyanogenmod).",
-
   "warning-mac": "Attention : Apple OS X est affecté par PRISM. L’utiliser risque de compromettre votre vie privée. Nous vous recommandons fortement de remplacer OS X par [GNU/Linux](../gnu-linux) ou [BSD](../bsd).",
-
   "warning-windows": "Attention : Microsoft Windows est affecté par PRISM. L’utiliser risque de compromettre votre vie privée. Nous vous recommandons fortement de remplacer Windows par [GNU/Linux](../gnu-linux) ou [BSD](../bsd)..",
-
   "Communication": "Communication",
   "Anonymity": "Anonymity",
   "Encryption": "Encryption",
@@ -98,16 +93,10 @@
   "Terms of Service": "Conditions d’utilisation",
   "Wikipedia Article": "Article Wikipédia",
   "Web Service": "Service en ligne",
-
   "site-protocols-index": "**Parcourir par protocole**\n\nExplorer les projets F/OSS en fonction des protocoles supportés.",
-
   "site-categories-index": "**Parcourir par catégorie**\n\nExplorer les projets F/OSS en fonction des catégories de plateformes.",
-  
   "site-about-index": "**À propos**\n\nÀ propos du projet PRISM Break.",
-
   "site-about-privacy": "* Ce site web ne collecte pas d’information sur vous. * Ce site web ne piste pas votre adresse IP. * Ce site Web n’utilise aucun Javascript dans votre navigateur Web.",
-
-
   "site-title": "Refusez les programmes de surveillance de données comme PRISM, XKeyscore etTempora - PRISM Break",
   "meta-description": "Refusez les programmes de surveillance des données comme PRISM, XKeyscore et Tempora. Nous avons tous le droit à la vie privée dès maintenant en chiffrant nos communications et en mettant fin à notre dépendance à l'égard des services propriétaires.",
   "site-introduction": "<strong>Refusez les programmes de surveillance des données comme <a href='https://fr.wikipedia.org/wiki/PRISM_%28programme_de_surveillance%29'>PRISM</a>, <a href='https://fr.wikipedia.org/wiki/XKeyscore'>XKeyscore</a> and <a href='https://fr.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Nous avons tous le droit à la vie privée dès maintenant en chiffrant nos communications et en mettant fin à notre dépendance à l'égard des services propriétaires.",
@@ -241,7 +230,7 @@
   "Chinese (Simplified)": "Chinois (Simplifié)",
   "Updated": "Mis à jour",
   "By": "Par",
-  "Donate": "Faire un don",
+  "Donate Bitcoin": "Faire un don Bitcoin",
   "Contribute": "Contribuer",
   "License": "Licence",
   "Changelog": "Journal des changements",
