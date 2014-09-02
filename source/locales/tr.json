@@ -45,15 +45,10 @@
   "Web Search": "Web Araması",
   "World Maps": "Haritalar",
   "XMPP Servers": "XMPP Sunucuları",
-
   "warning-android": "Uyarı: Android işletim sistemi genellikle Google ya da diğer üretici firmalar tarafından özel yazılmış kodlarla modifiye edilir ve bu durum gizliliğinizi tehdit eder. Bu yazılımları [Replicant](../../projects/replicant) ya da [CyanogenMod](../../projects/cyanogenmod) (ya da Android'in kaynak kodunu compile ederek) ile değiştirmenizi şiddetle tavsiye ediyoruz. <br><br>Kaçırmamanız gereken bir yazı: [Mission Impossible: Hardening Android for Security and Privacy](https://blog.torproject.org/blog/mission-impossible-hardening-android-security-and-privacy), by Mike Perry at The Tor Blog.",
-
   "warning-ios": "Uyarı: Apple iOS işletim sistemini kullanan cihazlar PRISM'den etkilenmiştir. Bu cihazları kullanmak gizliliğinizi tehlikeye atabilir. iOS kullanan cihazınızı Android işletim sistemiyle uyumlu bir cihazla değiştirip, [Replicant](../../projects/replicant) ya da [Cyanogenmod](../../projects/cyanogenmod) kurmanızı şiddetle tavsiye ediyoruz.",
-
   "warning-mac": "Uyarı: Apple OS X işletim sistemi PRISM'den etkilenmiştir. Bu işletim sistemini kullanmak gizliliğinizi tehlikeye atabilir. OS X işletim sistemini [Linux](../gnu-linux) ya da [BSD](../bsd) ile değiştirmenizi şiddetle tavsiye ediyoruz.",
-
   "warning-windows": "Uyarı: Microsoft Windows işletim sistemi PRISM'den etkilenmiştir. Bu işletim sistemini kullanmak gizliliğinizi tehlikeye atabilir. Windows işletim sistemini [Linux](../gnu-linux) ya da [BSD](../bsd) ile değiştirmenizi şiddetle tavsiye ediyoruz.",
-
   "Communication": "Communication",
   "Anonymity": "Anonimlik",
   "Encryption": "Şifreleme",
@@ -98,16 +93,10 @@
   "Terms of Service": "Kullanım Şartları",
   "Wikipedia Article": "Wikipedia Makalesi",
   "Web Service": "Web Servisi",
-
   "site-protocols-index": "**Protokole göre gözat**\n\nDesteklenen protokole göre F/OSS projeleri.",
-
   "site-categories-index": "**Kategoriye göre gözat**\n\nPlatform kategorilerine göre F/OSS projeleri.",
-
   "site-about-index": "**Hakkında**\n\nPRISM Break projesi hakkında.",
-
   "site-about-privacy": "* Bu website sizin hakkınızda hiç bir bilgi toplamaz. * Bu website IP adresinizi takip etmez. * Bu website hiç bir istemci-taraflı Javascript kullanmaz.",
-
-
   "site-title": "PRISM, XKeyscore ve Tempora gibi küresel veri izleme programlarının dışına çıkın - PRISM Break",
   "meta-description": "PRISM, XKeyscore ve Tempora gibi küresel veri izleme programlarının dışına çıkın. İletişiminizi şifreleyerek ve tescilli servislere güveninizi sonlandırarak devletlerin sizi gözetlemesine engel olun.",
   "site-introduction": "<strong><a href='https://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29'>PRISM</a>, <a href='https://en.wikipedia.org/wiki/XKeyscore'>XKeyscore</a> ve <a href='https://en.wikipedia.org/wiki/Tempora'>Tempora</a> gibi küresel veri izleme programlarının dışında kalın.</strong> İletişiminizi şifreleyerek ve tescilli servislere güveninizi sonlandırarak devletlerin sizi gözetlemesine engel olun.",
@@ -241,7 +230,7 @@
   "Chinese (Simplified)": "Çince (Basitleştirilmiş)",
   "Updated": "Güncelleyen",
   "By": "kişi",
-  "Donate": "Bağış yap",
+  "Donate Bitcoin": "Bitcoin'la bağışta bulun",
   "Contribute": "Katkıda bulun",
   "License": "Lisans",
   "Changelog": "Değişim kaydı",

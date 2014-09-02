@@ -4,7 +4,7 @@
   "Audit Report": "Отчет об аудите",
   "Audited": "Проведен аудит",
   "by": "от",
-  "Cellular": "Cellular",  
+  "Cellular": "Cellular",
   "Communication Protocols": "Протоколы связи",
   "Digital Distribution": "Цифровое распространение",
   "Disk Encryption": "Шифрование диска",
@@ -44,16 +44,10 @@
   "Web Search": "Поисковые системы",
   "World Maps": "Картографические сервисы",
   "XMPP Servers": "Серверы XMPP",
-  
-
   "warning-android": "Внимание: предустановленная операционная система Android на телефонах и планшетных компьютерах зачастую является модифицированной и включает проприетарные приложения от Google или других разработчиков и может скомпрометировать вашу конфиденциальность. Мы рекомендуем заменить ее на [Replicant](../../projects/replicant) или [CyanogenMod](../../projects/cyanogenmod) (или скомпилировать Android из исходных кодов для вашего устройства).<br><br>К прочтению: [Mission Impossible: Hardening Android for Security and Privacy](https://blog.torproject.org/blog/mission-impossible-hardening-android-security-and-privacy) от Майка Перри на Tor Blog.",
-
   "warning-ios": "Внимание: устройства на Apple iOS задеты скандалом с PRISM. Использование их может скомпрометировать вашу конфиденциальность. Мы рекомендуем заменить ваше iOS устройство на Android-совместимое с установленным [Replicant](../../projects/replicant) или [Cyanogenmod](../../projects/cyanogenmod).",
-
   "warning-mac": "Внимание: Apple OS X задета скандалом с PRISM. Использование ее может скомпрометировать вашу конфиденциальность. Мы рекомендуем заменить OS X на [Linux](../gnu-linux) или [BSD](../bsd).",
-
   "warning-windows": "Внимание: Microsoft Windows задета скандалом с PRISM.  Использование ее может скомпрометировать вашу конфиденциальность. Мы рекомендуем заменить Windows на [Linux](../gnu-linux) или [BSD](../bsd).",
-  
   "Communication": "Коммуникация",
   "Anonymity": "Анонимность",
   "Encryption": "Шифрование",
@@ -98,16 +92,10 @@
   "Terms of Service": "Условия предоставления услуг",
   "Wikipedia Article": "Статья в Википедии",
   "Web Service": "Веб-сервис",
-
   "site-protocols-index": "**Просмотр по протоколу**\n\nПросмотреть F/OSS проекты по поддерживаемому протоколу.",
-
   "site-categories-index": "**Просмотр по категориям**\n\nПросмотреть F/OSS проекты по категориям платформ.",
-
   "site-about-index": "**О проекте**\n\nО проекте PRISM Break.",
-
   "site-about-privacy": "* Этот сайт не собирает никакой информации о вас. * Этот сайт не отслеживает ваш IP адрес. * Этот сайт не использует какой-либо код на JavaScript, исполняемый на клиенте.",
-
-
   "site-title": "Защититесь от глобальных систем слежки, таких как СОРМ, PRISM, XKeyscore и Tempora",
   "meta-description": "Защититесь от глобальных систем слежки, таких как СОРМ, PRISM, XKeyscore и Tempora. Помогите сделать массовую слежку за всеми людьми неэкономичной! Все мы имеем право на конфиденциальность, которое сегодня вы можете реализовать через шифрование вашей информации и прекратив зависеть от проприетарных сервисов.",
   "site-introduction": "<strong>Защититесь от глобальных систем слежки, таких как <a href='https://ru.wikipedia.org/wiki/%D0%A1%D0%9E%D0%A0%D0%9C'>СОРМ</a>, <a href='https://ru.wikipedia.org/wiki/PRISM_%28%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0_%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%BA%D0%B8%29'>PRISM</a>, <a href='https://ru.wikipedia.org/wiki/X-Keyscore'>XKeyscore</a> и <a href='https://ru.wikipedia.org/wiki/Tempora'>Tempora</a>.</strong> Помогите сделать массовую слежку за всеми людьми неэкономичной! Все мы имеем право на конфиденциальность, которое сегодня вы можете реализовать через шифрование вашей информации и прекратив зависеть от проприетарных сервисов.",
@@ -241,7 +229,7 @@
   "Chinese (Simplified)": "Китайский (Упрощенный)",
   "Updated": "Обновлено",
   "By": "пользователем",
-  "Donate": "Пожертвовать",
+  "Donate Bitcoin": "Пожертвовать Bitcoin",
   "Contribute": "Сообщить об ошибке",
   "License": "Лицензия",
   "Changelog": "Журнал изменений",
