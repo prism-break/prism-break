@@ -4006,13 +4006,13 @@
     "development_stage": "released",
     "description": "OpenKeychain ist eine OpenPGP-Implementierung für Android.",
     "license_url": "https://github.com/dschuermann/open-keychain/blob/master/LICENSE",
-    "logo": "openpgp-keychain.png",
+    "logo": "open-keychain.png",
     "notes": "OpenKeychain ist EXPERIMENTELLE software. Benutzung auf eigene Gefahr!\r",
     "privacy_url": "",
     "source_url": "https://github.com/dschuermann/open-keychain",
     "name": "OpenKeychain",
     "tos_url": "",
-    "url": "http://www.openkeychain.org/",
+    "url": "http://www.open-keychain.org/",
     "wikipedia_url": "",
     "protocols": [
       "GPG"
@@ -4025,7 +4025,7 @@
         ]
       }
     ],
-    "slug": "openpgp-keychain"
+    "slug": "open-keychain"
   },
   {
     "development_stage": "released",
