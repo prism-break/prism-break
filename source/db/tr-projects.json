@@ -4676,6 +4676,35 @@
   },
   {
     "development_stage": "released",
+    "description": "Decentralised and distributed identity, communications and publication network.",
+    "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
+    "logo": "redmatrix.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/friendica/red",
+    "name": "RedMatrix",
+    "tos_url": "",
+    "url": "https://redmatrix.me/",
+    "wikipedia_url": "",
+    "protocols": [
+      "RSS",
+      "SSL/TLS",
+      "XMPP",
+      "WebDAV"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Social Networks",
+          "Media Publishing"
+        ]
+      }
+    ],
+    "slug": "redmatrix"
+  },
+  {
+    "development_stage": "released",
     "description": "CyanogenMod tabanlı, tamamen özgür Android dağıtımı.",
     "license_url": "http://replicant.us/about/",
     "logo": "replicant.png",
