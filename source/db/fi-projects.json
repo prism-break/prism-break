@@ -4677,7 +4677,7 @@
   {
     "development_stage": "released",
     "description": "Decentralised and distributed identity, communications and publication network.",
-    "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
+    "license_url": "https://github.com/friendica/red/blob/master/LICENSE",
     "logo": "redmatrix.png",
     "notes": "",
     "privacy_url": "",
@@ -4697,7 +4697,8 @@
         "name": "Servers",
         "subcategories": [
           "Social Networks",
-          "Media Publishing"
+          "Media Publishing",
+          "Communication Protocols"
         ]
       }
     ],
