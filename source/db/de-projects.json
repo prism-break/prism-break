@@ -6098,5 +6098,34 @@
       }
     ],
     "slug": "aimsicd"
+  },
+  {
+    "development_stage": "released",
+    "description": "Miranda NG ist eine Abspaltung des bekannten Multi-Protokoll-Messengers Miranda IM für Windows. Benötigt sehr wenig Systemressourcen und ist sehr schnell.",
+    "license_url": "http://trac.miranda-ng.org/browser/trunk/docs/license.txt",
+    "logo": "miranda_ng.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "",
+    "name": "Miranda NG",
+    "tos_url": "",
+    "url": "http://miranda-ng.org",
+    "wikipedia_url": "http://de.wikipedia.org/wiki/Miranda_NG",
+    "protocols": [ "OTR",
+     "GPG",
+     "IRC",
+     "XMPP",
+     "Tox"
+    ],
+    "categories": [
+      {
+        "name": "Windows",
+        "subcategories":  [
+          "Instant Messaging",
+          "IRC"
+        ]
+      }
+    ],
+    "slug": "miranda-ng"
   }
 ]
