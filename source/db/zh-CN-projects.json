@@ -784,59 +784,6 @@
   },
   {
     "development_stage": "released",
-    "description": "在浏览器中进行私密的加密通讯。",
-    "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
-    "logo": "cryptocat.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cryptocat/cryptocat",
-    "name": "Cryptocat",
-    "tos_url": "",
-    "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat",
-    "protocols": [
-      "OTR"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "cryptocat"
-  },
-  {
-    "development_stage": "released",
     "description": "LUKS是dm-crypt加密程序的一个简单易用的用户接口层。",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",

@@ -784,59 +784,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Messaggistica istantanea privata e criptata all&#39;interno del browser.",
-    "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
-    "logo": "cryptocat.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cryptocat/cryptocat",
-    "name": "Cryptocat",
-    "tos_url": "",
-    "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat",
-    "protocols": [
-      "OTR"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "cryptocat"
-  },
-  {
-    "development_stage": "released",
     "description": "LUKS &egrave; un layer conveniente e semplice da usare con dm-crypt.",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",

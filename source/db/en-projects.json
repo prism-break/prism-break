@@ -784,67 +784,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Encrypted instant messaging within your web browser.",
-    "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
-    "logo": "cryptocat.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cryptocat/cryptocat",
-    "name": "Cryptocat",
-    "tos_url": "",
-    "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat",
-    "protocols": [
-      "OTR"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "cryptocat",
-    "audit": {
-      "author": "iSECpartners",
-      "date": "2014-02-07",
-      "development_stage": "released",
-      "description": "The 2014 audit linked suggests that CryptoCat fails to meet the design goal of being both easy-to-use and secure. The findings summary suggests that use of CryptoCat provides no advantage over a standard XMPP client and is less secure than a normal XMPP client with OTR support. A [previous 2013 audit](https://leastauthority.com/static/publications/LeastAuthority-Cryptocat-audit-report.pdf) also revealed significant security issues.",
-      "rating": "0",
-      "url": "https://isecpartners.github.io/publications/iSEC_Cryptocat_iOS.pdf"
-    }
-  },
-  {
-    "development_stage": "released",
     "description": "A convenience and ease-of-use layer for use on top of dm-crypt.",
     "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
     "logo": "luks.png",
