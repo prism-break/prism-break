@@ -833,7 +833,15 @@
         ]
       }
     ],
-    "slug": "cryptocat"
+    "slug": "cryptocat",
+    "audit": {
+      "author": "iSECpartners",
+      "date": "2014-02-07",
+      "development_stage": "released",
+      "description": "The 2014 audit linked suggests that CryptoCat fails to meet the design goal of being both easy-to-use and secure. The findings summary suggests that use of CryptoCat provides no advantage over a standard XMPP client and is less secure than a normal XMPP client with OTR support. A [previous 2013 audit](https://leastauthority.com/static/publications/LeastAuthority-Cryptocat-audit-report.pdf) also revealed significant security issues.",
+      "rating": "0",
+      "url": "https://isecpartners.github.io/publications/iSEC_Cryptocat_iOS.pdf"
+    }
   },
   {
     "development_stage": "released",
