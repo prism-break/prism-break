@@ -6005,6 +6005,29 @@
     "slug": "passwdsafe"
   },
   {
+    "development_stage": "released",
+    "description": "Luotettavaan tietojenkäsittelyyn perustuva pikaviestin. Vapaaseen, avoimeen lähdekoodiin perustuva Pidgin-laajennus.\n\nInformaatioteoreettisen turvallinen kerta-avainsalaus ja kerta-avain-autentikointi takaavat viestien yksityisyyden sekä eheyden.\n\nAvointa piirisuunnittelua olevilla data-diodeilla eristetyt luotettavan tietojenkäsittelyn laitteet suojaavat salausavaimia ja viestejä kaikilta järjestelmässä ilmeneviltä nollapäivä-haavoittuvaisuuksilta, joiden verkosta käsin tapahtuva exploittaaminen renderöi perinteiset päästä päähän salatut (GPG/PGP/OTR/ZRTP+SRTP) viestintämenetelmät turvattomiksi. Avointa piirisuunnittelua oleva, estosuuntaisen transistorin kvantti-ilmiötä hyödyntävä, laitteistopohjainen satunnaislukugeneraattori takaa salausavainten luontiin ainakin yhden aidosti satunnaisen lähteen.",
+    "license_url": "https://github.com/maqp/tfc/blob/master/LICENSE.md",
+    "logo": "tfc.png",
+    "notes": "TFC:tä ei ole toistaiseksi ole auditoitu formaalisti.\n\nJärjestelmä on suunniteltu turvalliseksi, mutta huolellisesta testauksesta huolimatta bugit saattavat vaikuttaa vakauteen tai aiheuttaa tietojen häviämistä. Muistutuksena, tietoturva on prosessi, ei tuote: Lue ja sisäistä sekä paperi että manuaali ennen käyttöä.",
+    "privacy_url": "",
+    "source_url": "https://github.com/maqp/tfc",
+    "name": "Tinfoil Chat",
+    "tos_url": "",
+    "url": "https://github.com/maqp/tfc",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "TFC"
+  },
+  {
     "development_stage": "experimental",
     "description": "Vapaa ja avointa lähdekoodia oleva, peer-to-peer, salattu pikaviestiohjelma joka tukee videopuheluita. Projektin tavoitteena on tarjota turvallinen ja helppokäyttöinen viestintämenetelmä kaikille.",
     "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
