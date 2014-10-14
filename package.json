@@ -4,21 +4,19 @@
   "description": "A directory of free privacy-oriented software.",
   "main": "Makefile",
   "dependencies": {
-    "LiveScript": "~1.2.0",
-    "jade": "~0.35.0",
-    "mkdirp": "~0.3.5",
-    "nib": "~1.0.1",
-    "prelude-ls": "~1.0.3",
+    "LiveScript": "~1.3.0",
+    "jade": "~1.7.0",
+    "mkdirp": "~0.3.x",
+    "nib": "~1.0.4",
+    "prelude-ls": "~1.1.1",
     "require-all": "~0.0.8",
-    "stylus": "~0.40.3",
-    "uglify-js": "~2.4.4",
-    "marked": "~0.2.10",
-    "graceful-fs": "~2.0.1",
-    "moment": "~2.5.1"
+    "stylus": "~0.49.1",
+    "uglify-js": "~2.4.15",
+    "marked": "~0.3.2",
+    "graceful-fs": "~3.0.3",
+    "moment": "~2.8.3"
   },
-  "devDependencies": {
-    "grunt-lsc": "^1.0.1"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -44,3 +42,4 @@
   },
   "homepage": "https://github.com/nylira/prism-break"
 }
+
