@@ -16,7 +16,9 @@
     "graceful-fs": "~2.0.1",
     "moment": "~2.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-lsc": "^1.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
