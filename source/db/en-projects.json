@@ -5401,6 +5401,29 @@
   },
   {
     "development_stage": "released",
+    "description": "High assurance encrypted messaging system.",
+    "license_url": "https://github.com/maqp/tfc/blob/master/LICENSE.md",
+    "logo": "tfc.png",
+    "notes": "TFC has not yet been peer reviewed. The system is secure by design but despite extensive testing, bugs might still affect stability or cause data loss. Be reminded that security is a process, not a product: Please read the whitepaper and manual thoroughly before using.",
+    "privacy_url": "",
+    "source_url": "https://github.com/maqp/tfc",
+    "name": "Tinfoil Chat",
+    "tos_url": "",
+    "url": "https://github.com/maqp/tfc",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "tfc"
+  },
+  {
+    "development_stage": "released",
     "description": "Protocol for realtime decentralized communication and personal data storage.",
     "license_url": "https://github.com/tent/tentd/blob/master/README.md",
     "logo": "tent.png",
