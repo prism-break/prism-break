@@ -2637,7 +2637,7 @@
     "description": "Кроссплатформенный клиент текстового и видеочата с поддержкой шифрования.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
-    "notes": "Jitsi может [запрашивать небезопасную информацию во время зашифрованного чата](https://github.com/nylira/prism-break/issues/291) если вы вставите ссылку в него. \nТакже, если Jitsi настроен на использование Tor, то возможна [утечка DNS информации](https://trac.jitsi.org/ticket/1060) из-за DNS разрешения в обход Tor.\n\nИ последнее: помните, что Jitsi записывает историю чатов в незашифрованном виде.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/jitsi",
     "name": "Jitsi",

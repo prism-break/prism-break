@@ -2637,7 +2637,7 @@
     "description": "OTR ja ZRTP protokollilla päästä päähän salatut viesti-, ääni- ja videokeskustelut.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
-    "notes": "Jitsi saattaa [pyytää salaamatonta informaatiota salatun keskustelun aikana](https://github.com/nylira/prism-break/issues/291) jos lähetät linkin.\nMyös, jos Jitsi on konfiguroitu ohjaamaan liikenne Tor-verkon läpi, se saattaa [vuotaa DNS-informaatiota](https://trac.jitsi.org/ticket/1060), koska DNS kyselyt eivät ohjaudu Tor-verkon läpi.\n\nLopuksi, huomaa että Jitsi tallentaa keskusteluhistorian selkokielisenä.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/jitsi",
     "name": "Jitsi",
