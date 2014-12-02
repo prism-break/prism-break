@@ -2637,7 +2637,7 @@
     "description": "Chat e videoconferenze cifrate, multipiattaforma.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
-    "notes": "Jitsi potrebbe [richiedere informazioni non-sicure durante le chat cifrate](https://github.com/nylira/prism-break/issues/291) se incolli un link. \nInoltre, se Jitsi &egrave; configurato per usare Tor, potrebbe [rivelare le informazioni DNS](https://trac.jitsi.org/ticket/1060) non usando Tor per la risoluzione degli indirizzi.\n\nInfine, tieni presente che Jitsi registra la cronologia di chat in chiaro.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/jitsi",
     "name": "Jitsi",

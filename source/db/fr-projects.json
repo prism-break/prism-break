@@ -2637,7 +2637,7 @@
     "description": "Chiffrement des discussions texte et vidéo.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
-    "notes": "Jitsi  pourrait [demander des informations non-sécurisée pendant un tchat chiffré](https://github.com/nylira/prism-break/issues/291) si vous postez un lien aucours de la conversation. \nDe plus, si Jitsi est configuré pour utiliser Tor, le logiciel pourrait [laisser échapper des données DNS](https://trac.jitsi.org/ticket/1060) en ne recourrant pas à Tor pour la résolution DNS.\n\nEnfin, notez que Jitsi enregiste l'historique de clavardage sous une forme non chiffrée.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/jitsi",
     "name": "Jitsi",
