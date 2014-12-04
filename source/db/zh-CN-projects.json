@@ -2955,47 +2955,6 @@
   },
   {
     "development_stage": "released",
-    "description": "基于Hardened Gentoo设计的CD/USB即插即用便携系统，用于敌对环境下的通信辅助。",
-    "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
-    "logo": "liberte-linux.png",
-    "notes": "Warning: The most recent Liberté Linux release is dated 2012-09-01. This means that packages may be potentially outdated and vulnerable to unpatched security bugs.",
-    "privacy_url": "",
-    "source_url": "https://github.com/mkdesu/liberte",
-    "name": "Liberté Linux",
-    "tos_url": "",
-    "url": "http://dee.su/liberte",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Security-focused_operating_system#Libert.C3.A9_Linux.5B7.5D",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      }
-    ],
-    "slug": "liberte-linux"
-  },
-  {
-    "development_stage": "released",
     "description": "自由的VPN客户端 (3rd generation) ，是Openswan的衍生品。",
     "license_url": "https://github.com/libreswan/libreswan/blob/master/COPYING",
     "logo": "libreswan.png",
