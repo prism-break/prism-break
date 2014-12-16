@@ -6036,6 +6036,48 @@
     "slug": "unbubble"
   },
   {
+      "development_stage": "released",
+      "description": "A video chat client built right in Firefox.",
+      "license_url": "https://www.mozilla.org/MPL/",
+      "logo": "firefox-hello.png",
+      "notes": "Firefox Hello allows you to make video calls with anyone by using nothing more than your browser. It uses WebRTC technology. Video option is supported with anyone using Firefox, Chrome or Opera as their default browser. The add-on is into Firefox since the version 34.0.",
+      "privacy_url": "https://www.mozilla.org/en-US/privacy/firefox-hello/",
+      "source_url": "https://gitweb.torproject.org/tor.git",
+      "name": "Firefox Hello",
+      "tos_url": "https://www.mozilla.org/en-US/about/legal/terms/firefox-hello/",
+      "url": "https://www.mozilla.org/en-US/firefox/new/",
+      "protocols": [
+          "WebRTC"
+      ],
+      "categories": [
+          {
+              "name": "BSD",
+              "subcategories": [
+                  "Video & Voice"
+              ]
+          },
+          {
+              "name": "GNU/Linux",
+              "subcategories": [
+                  "Video & Voice"
+              ]
+          },
+          {
+              "name": "OS X",
+              "subcategories": [
+                  "Video & Voice"
+              ]
+          },
+          {
+              "name": "Windows",
+              "subcategories": [
+                  "Video & Voice"
+              ]
+          }
+      ],
+      "slug": "firefox-hello"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
@@ -6057,5 +6099,6 @@
       }
     ],
     "slug": "aimsicd"
-  }
+    }
+
 ]
