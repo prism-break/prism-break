@@ -6057,5 +6057,50 @@
       }
     ],
     "slug": "aimsicd"
-  }
+  },
+  {
+    "development_stage": "released",
+    "description": "Google Chrome browser addon to encrypt and share files easily.",
+    "license_url": "https://github.com/kaepora/miniLock/blob/master/LICENSE.txt",
+    "logo": "minilock.png",
+    "notes": "miniLock is a small, portable file encryption software. The idea behind its design is that a passphrase memorized by the user, along with their email address, can act as a complete, portable basis for a persistent public key identity and provide a full substitute for other key pair models, such as having the key pair stored on disk media (the PGP approach). miniLock has been audited.",
+    "privacy_url": "",
+    "source_url": "https://github.com/kaepora/miniLock",
+    "name": "miniLock",
+    "tos_url": "",
+    "url": "https://minilock.io/",
+    "wikipedia_url": "",
+    "protocols": [],
+  "categories": [   
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons",
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons",
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Web Browser Addons",
+          "Disk Encryption"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons",
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "slug": "minilock"
+  }  
 ]
