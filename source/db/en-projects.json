@@ -5458,23 +5458,29 @@
     "slug": "torbirdy"
   },
   {
-    "development_stage": "released",
-    "description": "Anonymous P2P chat built on Tor Hidden Services (not sponsored by the Tor Project).",
-    "license_url": "https://www.gnu.org/copyleft/gpl.html",
-    "logo": "torchat.png",
-    "notes": "",
+    "development_stage": "experimental",
+    "description": "Anonymous and serverless instant messaging designed to work out of the box.",
+    "license_url": "https://github.com/ricochet-im/ricochet/blob/master/LICENSE",
+    "logo": "ricochet-im.png",
+    "notes": "Ricochet is a peer-to-peer instant messaging system built on Tor hidden services. It uses hidden service addresses as logins. Contacts connect to each other (not an intermediate server) through Tor, which is bundled with the IM client. The rendezvous system makes it extremely hard for anyone to learn a user's identity from the address. Ricochet is not affiliated with or endorsed by The Tor Project. Ricochet is a substitute for the obsolote TorChat, which is no longer maintained.",
     "privacy_url": "",
-    "source_url": "https://github.com/prof7bit/TorChat",
-    "name": "TorChat",
+    "source_url": "https://github.com/ricochet-im/ricochet",
+    "name": "Ricochet-IM",
     "tos_url": "",
-    "url": "https://github.com/prof7bit/TorChat/wiki",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/TorChat",
+    "url": "https://ricochet.im/",
+    "wikipedia_url": "",
     "protocols": [
       "Tor"
     ],
     "categories": [
       {
         "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+        {
+        "name": "OS X",
         "subcategories": [
           "Instant Messaging"
         ]
@@ -5486,7 +5492,7 @@
         ]
       }
     ],
-    "slug": "torchat"
+    "slug": "ricochet"
   },
   {
     "development_stage": "released",
