@@ -6057,5 +6057,46 @@
       }
     ],
     "slug": "aimsicd"
+  },
+  {
+    "development_stage": "released",
+    "description": "An efficient blocker add-on for Firefox and Chromium. Fast, potent, and lean.",
+    "license_url": "https://github.com/gorhill/uBlock/blob/master/LICENSE.txt",
+    "logo": "ublock.png",
+    "notes": "uBlock does not currently support Firefox for Android. Watch for updates on this issue here: [https://github.com/gorhill/uBlock/issues/524](https://github.com/gorhill/uBlock/issues/524)",
+    "privacy_url": "",
+    "source_url": "https://github.com/gorhill/uBlock",
+    "name": "uBlock",
+    "tos_url": "",
+    "url": "https://github.com/gorhill/uBlock#installation",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      }
+    ],
+    "slug": "ublock"
   }
 ]
