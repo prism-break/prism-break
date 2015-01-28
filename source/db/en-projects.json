@@ -3239,12 +3239,11 @@
     "description": "Fast image, audio, and video hosting",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
-    "notes": "Warning: MediaCrush includes Google Analytics if you do not enable Do Not Track.\n\nThe hidden service is available at [http://mediacrs5ujufxog.onion/](http://mediacrs5ujufxog.onion/).",
     "privacy_url": "https://mediacru.sh/serious",
     "source_url": "https://github.com/MediaCrush/MediaCrush",
     "name": "MediaCrush",
     "tos_url": "https://mediacru.sh/serious",
-    "url": "https://mediacru.sh/",
+    "url": "https://github.com/MediaCrush/MediaCrush",
     "wikipedia_url": "",
     "protocols": [
       "SSL/TLS",
@@ -3253,12 +3252,6 @@
     "categories": [
       {
         "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
         "subcategories": [
           "Media Publishing"
         ]
