@@ -3239,12 +3239,12 @@
     "description": "Privatsphäreorientiertes, schnelles Medien (Bilder, Audio, Video) Hosting.",
     "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
     "logo": "mediacrush.png",
-    "notes": "Warnung: MediaCrush beinhaltet Google Analytics, solange du nicht die \"Do Not Track\"-Funktion aktivierst.\n\nEin mit Tor versteckter Dienst ist unter [http://mediacrs5ujufxog.onion/](http://mediacrs5ujufxog.onion/) verfügbar.",
-    "privacy_url": "https://mediacru.sh/serious",
+    "notes": "",
+    "privacy_url": "",
     "source_url": "https://github.com/MediaCrush/MediaCrush",
     "name": "MediaCrush",
-    "tos_url": "https://mediacru.sh/serious",
-    "url": "https://mediacru.sh/",
+    "tos_url": "",
+    "url": "https://github.com/MediaCrush/MediaCrush",
     "wikipedia_url": "",
     "protocols": [
       "SSL/TLS",
@@ -3253,12 +3253,6 @@
     "categories": [
       {
         "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
         "subcategories": [
           "Media Publishing"
         ]
