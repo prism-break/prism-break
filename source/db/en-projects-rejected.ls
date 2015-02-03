@@ -857,4 +857,21 @@ projects-rejected =
         subcategories: ["Password Managers"]
     ]
 
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "ghostery.png"
+    name: "Ghostery"
+    categories: [
+      * name: "Windows"
+        subcategories: ["Web Browser Addons"]
+      * name: "GNU/Linux"
+        subcategories: ["Web Browser Addons"]
+      * name: "Android"
+        subcategories: ["Web Browser Addons"]
+      * name: "OS X"
+        subcategories: ["Web Browser Addons"]
+      * name: "iOS"
+        subcategories: ["Web Browser Addons"]
+    ]
+
 exports.projects-rejected = projects-rejected
