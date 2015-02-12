@@ -3531,15 +3531,15 @@
   },
   {
     "development_stage": "released",
-    "description": "Secure and private Kolab accounts hosted in Switzerland.",
+    "description": "Säkra Kolab konton ut ur Schweis för 8.99 CHF per månad eller 4.55 CHF för konton med endast stöd för mejl.",
     "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
-    "logo": "mykolab.png",
-    "notes": "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \nAlso, you can export all your data at any time.",
-    "privacy_url": "https://mykolab.com/privacy",
+    "logo": "kolabnow.png",
+    "notes": "Kolab Now jobbar ut ur Schweiz och gynnas av dem [starka schweiziska sekretesslagar](https://kolabnow.com/privacy). Det drivs exklusivt med Free Software och att använda tjänsten stödjet utvecklingen av [Kolab](https://kolab.org).\n\nDessutom kan du exportera alla dina data när som helst och har tjänstens villkor fått det bästa betyget från [ToS;DR](http://tosdr.org/#mykolab-com).\n\nTjänsten använder [Perfect Forward Secrecy](https://kolabnow.com/faq?nid=189) och identifierande information [avlägsna](https://kolabnow.com/faq?nid=190) från mejl headers.",
+    "privacy_url": "https://kolabnow.com/privacy",
     "source_url": "http://git.kolab.org/",
-    "name": "MyKolab",
-    "tos_url": "https://mykolab.com/tos",
-    "url": "https://mykolab.com/",
+    "name": "Kolab Now",
+    "tos_url": "https://kolabnow.com/tos",
+    "url": "https://kolabnow.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
     "protocols": [
       "SSL/TLS",
@@ -3574,7 +3574,7 @@
         ]
       }
     ],
-    "slug": "mykolab"
+    "slug": "kolabnow"
   },
   {
     "development_stage": "released",

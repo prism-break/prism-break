@@ -857,4 +857,57 @@ projects-rejected =
         subcategories: ["Password Managers"]
     ]
 
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "ghostery.png"
+    name: "Ghostery"
+    categories: [
+      * name: "Windows"
+        subcategories: ["Web Browser Addons"]
+      * name: "GNU/Linux"
+        subcategories: ["Web Browser Addons"]
+      * name: "Android"
+        subcategories: ["Web Browser Addons"]
+      * name: "OS X"
+        subcategories: ["Web Browser Addons"]
+      * name: "iOS"
+        subcategories: ["Web Browser Addons"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "yandex.png"
+    name: "Yandex.Mail"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Email Accounts"]
+      * name: "Servers"
+        subcategories: ["Email Accounts"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "yandex.png"
+    name: "Yandex Search"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Web Search"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "yandex-browser.png"
+    name: "Yandex.Browser"
+    protocols: ["SSL/TLS"]
+    categories: [
+      * name: "Android"
+        subcategories: ["Web Browsers"]
+      * name: "iOS"
+        subcategories: ["Web Browsers"]
+      * "name": "OS X"
+        subcategories: ["Web Browsers"]
+      * name: "Windows"
+        subcategories: ["Web Browsers"]
+    ]
+
 exports.projects-rejected = projects-rejected
