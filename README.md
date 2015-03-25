@@ -1,14 +1,14 @@
-# prism-break
+# PRISM Break
 
 Welcome to the PRISM Break project. Here's a quick overview of the code. Raw JSON data is filtered through [LiveScript](http://livescript.net/) and then compiled to plain HTML with [Jade](http://jade-lang.com/) templates. CSS is managed with [Stylus](http://learnboost.github.io/stylus/), a powerful CSS preprocessor.
 
-The prism-break build process relies on several Node.js packages. Make sure to have [Node.js](http://nodejs.org/) installed on your system if you want to contribute to the code.
+The prism-break build process relies on several Node.js packages. Make sure to have [io.js](http://iojs.org) or [node.js](http://nodejs.org/) installed on your system if you want to contribute to the code.
 
 If you'd like to translate the project to your favorite language, there's no need to install Node.js. Just edit the appropriate JSON files and submit a pull request.
 
 More information for translators can be found in `CONTRIBUTING.md`.
 
-# Project Inclusion Guidelines
+## Project Inclusion Guidelines
 
 **Only F/OSS software is allowed to be featured on PRISM Break.** PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
 
@@ -19,7 +19,7 @@ More information for translators can be found in `CONTRIBUTING.md`.
 **Pull requests are prioritized over issues.** I will respond to them quicker and they will get an answer faster.
 
 
-# How to submit a project to PRISM Break (quick version)
+## Project Submission (quick version)
 
 ### 1. Edit
 
@@ -56,11 +56,11 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
 
 Serve the folder `./public` on your web server.
 
-### Need more detail?
+### Need more details on how to submit a project or a translation?
 
 Read `CONTRIBUTING.md` for more detail into the process.
 
-# License
+## License
 
 GPLv3.
 
