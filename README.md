@@ -6,11 +6,24 @@ The prism-break build process relies on several Node.js packages. Make sure to h
 
 If you'd like to translate the project to your favorite language, there's no need to install Node.js. Just edit the appropriate JSON files and submit a pull request.
 
-More info in `CONTRIBUTING.md`
+More information for translators can be found in `CONTRIBUTING.md`.
 
-# 30-Second Quick Start
+# Project Inclusion Guidelines
+
+**Only F/OSS software is allowed to be featured on PRISM Break.** PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
+
+**Quality over quantity.** PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
+
+**Before suggesting software, please first search this repository to see if your request has already been made.** If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
+
+**Pull requests are prioritized over issues.** I will respond to them quicker and they will get an answer faster.
+
+
+# How to submit a project to PRISM Break (quick version)
 
 ### 1. Edit
+
+Add the project you wish to get listed.
 
     vi ./source/db/en-projects.json                  # edit or add a project
 
@@ -18,12 +31,16 @@ More info in `CONTRIBUTING.md`
 
 ### 2. Test
 
+Make sure your edits do not break the site by building the English version of PRISM Break. Open the pages to make sure it all works.
+
     npm install
     make test      # builds ./public/en for preview purposes
 
 ### 3. Translate
 
-    # set up stubs by copying your edits to *-projects.json
+You edited the `en-projects.json` file earlier. This only creates a project description for the English version of PRISM Break. Please copy the project description to all the other language files, so translators work on it more easily.
+
+    # Copying your edits to *-projects.json
     ./source/db/*-projects.json
 
 At this point, feel free to commit the changes and submit a pull request. Steps #4 and #5 are only necessary if you want to build your own copy of the site.
@@ -39,15 +56,9 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
 
 Serve the folder `./public` on your web server.
 
-# Project Inclusion Guidelines
+### Need more detail?
 
-**Only F/OSS software is allowed to be featured on PRISM Break.** PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
-
-**Quality over quantity.** PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
-
-**Before suggesting software, please first search this repository to see if your request has already been made.** If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
-
-**Pull requests are prioritized over issues.** I will respond to them quicker and they will get an answer faster.
+Read `CONTRIBUTING.md` for more detail into the process.
 
 # License
 
