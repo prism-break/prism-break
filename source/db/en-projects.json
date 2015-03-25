@@ -6074,5 +6074,42 @@
       }
     ],
     "slug": "ublock"
-  }
+  },
+  {
+    "development_stage": "released",
+    "description": "Free of charge email service supporting end-to-end encryption.",
+    "license_url": "https://github.com/tutao/tutanota/blob/master/LICENSE.txt",
+    "logo": "tutanota.png",
+    "notes": "Tutanota supports end-to-end encrypted emails: Fully automated encryption to other Tutanota users and with password encryption to external users. Even non-end-to-end encrypted emails as well as contacts are stored encrypted on Tutanota servers. All user data is secured with a password. Tutanota supports DANE.\n\nThe web application is available at https://app.tutanota.de and as Android and iOS apps. The web application and the Android app can be built from the sources and run locally.",
+    "privacy_url": "https://tutanota.com/#!privacy",
+    "source_url": "https://github.com/tutao/tutanota",
+    "name": "Tutanota",
+    "tos_url": "https://tutanota.com/#!termsfree",
+    "url": "https://tutanota.com",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Email Accounts"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+            "Email Accounts"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+            "Email Accounts"
+        ]
+      }
+    ],
+    "slug": "tutanota"
+    }
 ]
