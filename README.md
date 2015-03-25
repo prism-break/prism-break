@@ -50,4 +50,7 @@ Serve the folder `./public` on your web server.
 **Pull requests are prioritized over issues.** I will respond to them quicker and they will get an answer faster.
 
 # License
+
+GPLv3.
+
 See `LICENSE.md`.
