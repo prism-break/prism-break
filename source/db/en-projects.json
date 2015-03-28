@@ -6074,5 +6074,58 @@
       }
     ],
     "slug": "ublock"
+  },
+  {
+    "development_stage": "released",
+    "description": "Zero setup, cross platform desktop to mobile file transfer tool",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0.html",
+    "logo": "filecast.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/onyxbits/filecast",
+    "name": "FileCast",
+    "tos_url": "",
+    "url": "http://www.onyxbits.de/filecast",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "slug": "filecast"
   }
 ]
