@@ -931,4 +931,21 @@ projects-rejected =
         subcategories: ["Video & Voice"]
     ]
 
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "ventrilo.png"
+    name: "Ventrilo"
+    categories: [
+      * name: "BSD"
+        subcategories: ["Video & Voice"]
+      * name: "GNU/Linux"
+        subcategories: ["Video & Voice"]
+      * "name": "OS X"
+        subcategories: ["Video & Voice"]
+      * name: "Windows"
+        subcategories: ["Video & Voice"]
+      * name: "Servers"
+        subcategories: ["Video & Voice"]
+    ]
+
 exports.projects-rejected = projects-rejected
