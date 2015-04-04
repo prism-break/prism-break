@@ -6,17 +6,25 @@ The prism-break build process relies on several npm packages. Make sure to have 
 
 If you'd like to translate the project to your favorite language, there's no need to install io.js or even download the code. Just edit the appropriate JSON files on GitHub and submit a pull request.
 
-More information for translators can be found in `CONTRIBUTING.md`.
+More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTIN.md).
 
 ## Project Inclusion Guidelines
 
-**Only F/OSS software is allowed to be featured on PRISM Break.** PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
+ - **Only F/OSS software is allowed to be featured on PRISM Break.**
 
-**Quality over quantity.** PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
+PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
 
-**Before suggesting software, please first search this repository to see if your request has already been made.** If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
+ - **Quality over quantity.**
 
-**Pull requests are prioritized over issues.** I will respond to them quicker and they will get an answer faster.
+PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
+
+ - **Before suggesting software, please first search this repository to see if your request has already been made.**
+
+If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
+
+ - **Pull requests are prioritized over issues.**
+
+I will respond to them quicker and they will get an answer faster.
 
 
 ## Project Submission (quick version)
@@ -54,14 +62,14 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
 
 ### 5. Serve
 
-Serve the folder `./public` on your web server.
+Serve the folder [`./public`](./public/) on your web server.
 
 ### Need more details on how to submit a project or a translation?
 
-Read `CONTRIBUTING.md` for more detail into the process.
+Read [`CONTRIBUTING.md`](CONTRIBUTIN.md) for more detail into the process.
 
 ## License
 
 GPLv3.
 
-See `LICENSE.md`.
+See [`LICENSE.md`](LICENSE.md).
