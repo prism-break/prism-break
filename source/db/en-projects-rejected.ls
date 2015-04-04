@@ -910,4 +910,42 @@ projects-rejected =
         subcategories: ["Web Browsers"]
     ]
 
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "teamspeak.png"
+    name: "TeamSpeak"
+    categories: [
+      * name: "Android"
+        subcategories: ["Video & Voice"]
+      * name: "BSD"
+        subcategories: ["Video & Voice"]
+      * name: "GNU/Linux"
+        subcategories: ["Video & Voice"]
+      * name: "iOS"
+        subcategories: ["Video & Voice"]
+      * "name": "OS X"
+        subcategories: ["Video & Voice"]
+      * name: "Windows"
+        subcategories: ["Video & Voice"]
+      * name: "Servers"
+        subcategories: ["Video & Voice"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "ventrilo.png"
+    name: "Ventrilo"
+    categories: [
+      * name: "BSD"
+        subcategories: ["Video & Voice"]
+      * name: "GNU/Linux"
+        subcategories: ["Video & Voice"]
+      * "name": "OS X"
+        subcategories: ["Video & Voice"]
+      * name: "Windows"
+        subcategories: ["Video & Voice"]
+      * name: "Servers"
+        subcategories: ["Video & Voice"]
+    ]
+
 exports.projects-rejected = projects-rejected
