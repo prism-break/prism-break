@@ -4125,6 +4125,31 @@
   },
   {
     "development_stage": "released",
+    "description": "Proxy-fähiger Web Browser, der auf die Privatsphäre achtet und für den Einsatz mit Orbot (HTTP Proxy auf localhost 8118) gedacht ist.",
+    "license_url": "https://github.com/guardianproject/Orweb/blob/master/LICENSE",
+    "logo": "orweb.png",
+    "notes": "Möglicherweise wird die IP Adresse beim Betrachten von HTML5 Videos oder Audios geleaked. Mehr Infos: https://guardianproject.info/2013/08/21/orweb-security-advisory-possible-ip-leakage-with-html5-videoaudio/",
+    "privacy_url": "",
+    "source_url": "https://github.com/guardianproject/Orweb.git",
+    "name": "Orweb",
+    "tos_url": "",
+    "url": "https://guardianproject.info/apps/orweb/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_%28software%29#Orweb",
+    "protocols": [
+      "Tor"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      }
+    ],
+    "slug": "orweb"
+  },
+  {
+    "development_stage": "released",
     "description": "OsmAnd (OSM Automated Navigation Directions) ist eine Karten- und Navigationsapp auf Basis der OpenStreetMap-Daten.",
     "license_url": "https://github.com/osmandapp/Osmand/blob/master/LICENSE",
     "logo": "osmand.png",
