@@ -3236,32 +3236,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Privacy-first fast media (image, audio, video) hosting",
-    "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
-    "logo": "mediacrush.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/MediaCrush/MediaCrush",
-    "name": "MediaCrush",
-    "tos_url": "",
-    "url": "https://github.com/MediaCrush/MediaCrush",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "mediacrush"
-  },
-  {
-    "development_stage": "released",
     "description": "Plataforma descentralizada de publicação de mídia.",
     "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
     "logo": "mediagoblin.png",
