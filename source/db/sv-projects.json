@@ -4929,6 +4929,29 @@
   },
   {
     "development_stage": "released",
+    "description": "A fork of TextSecure with SMS encryption.",
+    "license_url": "https://github.com/SMSSecure/SMSSecure/blob/master/LICENSE",
+    "logo": "smssecure.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/SMSSecure/SMSSecure.git",
+    "name": "SMSSecure",
+    "tos_url": "",
+    "url": "https://smssecure.org/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+	"name": "Android",
+	"subcategories": [
+	  "Instant Messaging"
+	]
+      }
+    ],
+    "slug": "smssecure"
+  },
+  {
+    "development_stage": "released",
     "description": "Lokal versions kontroll och filsynkronisering",
     "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
     "logo": "sparkleshare.png",
