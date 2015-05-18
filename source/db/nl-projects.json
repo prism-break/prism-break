@@ -737,6 +737,34 @@
   },
   {
     "development_stage": "released",
+    "description": "Conversations is an open source XMPP/Jabber client for Android 4.0+ smart phones.",
+    "license_url": "https://github.com/siacs/Conversations/blob/development/LICENSE",
+    "logo": "conversations.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/siacs/Conversations.git",
+    "name": "Conversations",
+    "tos_url": "",
+    "url": "https://github.com/siacs/Conversations",
+    "wikipedia_url": "",
+    "protocols": [
+      "XMPP",
+      "OTR",
+      "GPG",
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+	"name": "Android",
+	"subcategories": [
+          "Instant Messaging"
+	]
+      }
+    ],
+    "slug": "conversations"
+  },
+  {
+    "development_stage": "released",
     "description": "Een persoonlijke PaaS die je kan hosten, hacken en verwijderen.",
     "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
     "logo": "cozy.png",
