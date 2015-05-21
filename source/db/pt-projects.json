@@ -52,7 +52,7 @@
   },
   {
     "development_stage": "released",
-    "description": "OpenPGP implementation for Android.",
+    "description": "Implementação do OpenPGP para Android.",
     "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
     "logo": "apg.png",
     "notes": "",
@@ -77,7 +77,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Elegant, minimal, and flexible Linux&reg; distribution.",
+    "description": "Elegante, enxuta, e flexível distubuição Linux&reg;.",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
     "notes": "",
@@ -112,7 +112,7 @@
   },
   {
     "development_stage": "released",
-    "description": "arkOS is a lightweight software stack that runs on a Raspberry Pi to securely self-host your websites, email, files and more.",
+    "description": "arkOS é um leve conjunto de softwares que rodam em um Raspberry Pi para que você mesmo possa hospedar de forma segura seus sites, email e mais.",
     "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
     "logo": "arkos.png",
     "notes": "",
@@ -136,7 +136,7 @@
   },
   {
     "development_stage": "released",
-    "description": "PBX implementation with VoIP/SIP support.",
+    "description": "Implementação PBX com suporte a VoIP/SIP.",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
     "notes": "",
@@ -198,7 +198,7 @@
   },
   {
     "development_stage": "released",
-    "description": "A full range of free, privacy-aware services.",
+    "description": "Um conjunto completo de serviços gratúitos e com ênfase em privacidade.",
     "license_url": "",
     "logo": "autistici-inventati.png",
     "notes": "",
@@ -280,7 +280,7 @@
   },
   {
     "development_stage": "released",
-    "description": "IRC instant messaging gateway that supports a bunch of protocols.",
+    "description": "Gateway para mensagens instantâneas IRC que suporta diversos protocolos.",
     "license_url": "http://code.bitlbee.org/lh/bitlbee/view/head:/COPYING",
     "logo": "bitlbee.png",
     "notes": "",
@@ -329,7 +329,7 @@
   },
   {
     "development_stage": "experimental",
-    "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
+    "description": "Serviço de mensagens P2P criptografado, descentralizao e baseado em tecnologia Bitcoin.",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
