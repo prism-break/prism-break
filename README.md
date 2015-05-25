@@ -12,6 +12,9 @@ More information for translators can be found in `CONTRIBUTING.md`.
 
 **Only F/OSS software is allowed to be featured on PRISM Break.** PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
 
+**No suggestions that are related to proprietary operating systems. (WIP)**
+If you run MS Windows or another proprietary system, everything you do can most certainly be considered public. While it's not a "bad" thing to work on such a system for any reason, these do not qualify for running prism-break related tools, because all of them run on top of the kernel/libraries etc. which are closed source and can literally do anything (including compromised [RNG](https://en.wikipedia.org/wiki/Random_number_generation)).
+
 **Quality over quantity.** PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
 
 **Before suggesting software, please first search this repository to see if your request has already been made.** If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
