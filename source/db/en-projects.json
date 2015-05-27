@@ -6008,6 +6008,59 @@
     "slug": "unbubble"
   },
   {
+    "development_stage": "released",
+    "description": "DIY anonymous offline file-sharing and communications system built with free software and inexpensive off-the-shelf hardware.",
+    "license_url": "http://piratebox.cc/source",
+    "logo": "piratebox.png",
+    "notes": "PirateBox creates offline wireless networks designed for anonymous file sharing, chatting, message boarding, and media streaming. When users join the PirateBox wireless network and open a web browser, they are automatically redirected to the PirateBox welcome page. Users can anonymously chat, post images or comments on the bulletin board, watch or listen to streaming media, or upload and download files inside their web browser, without the need for a WAN / Internet connection.",
+    "privacy_url": "",
+    "source_url": "http://piratebox.cc/source",
+    "name": "PirateBox",
+    "tos_url": "",
+    "url": "http://piratebox.cc/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/PirateBox",
+    "protocols": [],
+    "categories": [
+       {
+        "name": "Android",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Routers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      }
+    ],
+    "slug": "piratebox"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
