@@ -6008,6 +6008,59 @@
     "slug": "unbubble"
   },
   {
+  "development_stage": "released",
+  "description": "Free and open source self-hostable application for saving web pages.",
+  "license_url": "https://github.com/wallabag/wallabag/blob/master/COPYING.md",
+  "logo": "wallabag.png",
+  "notes": "Wallabag allows you to extract text and images from web pages and then store them, share them and display them offline, thus reducing your exposure to online tracking. You can easily migrate content from other proprietary services to Wallabag. As an open source project, exporting and sharing your downloaded data is also simple. Wallabag is designed as an extension for Firefox or Google Chrome. It is also available as an app for Android, Windows Phone and iOS. Although it is possible to create an online account, it is preferable to download the code and host the service in your own system.",
+  "privacy_url": "",
+  "source_url": "https://github.com/wallabag/wallabag",
+  "name": "Wallabag",
+  "tos_url": "",
+  "url": "https://www.wallabag.org/",
+  "wikipedia_url": "",
+  "protocols": [],
+  "categories": [
+      {
+      "name": "Android",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },  
+    {
+      "name": "BSD",
+      "subcategories": [
+        "Web Browser Addons"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Web Browser Addons"
+      ]
+    },
+    {
+      "name": "iOS",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },      
+    {
+      "name": "OS X",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "Web Browser Addons"
+      ]    
+    }
+  ],
+  "slug": "wallabag"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
