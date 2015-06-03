@@ -4449,7 +4449,7 @@
   {
     "development_stage": "released",
     "description": "Free online encrypted notepad.",
-    "license_url": "",
+    "license_url": "https://www.protectedtext.com/js/main.js",
     "logo": "protextedtext.png",
     "notes": "ProtectedText encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.",
     "privacy_url": "",
