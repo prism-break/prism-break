@@ -5976,6 +5976,29 @@
     "slug": "tox"
   },
   {
+    "development_stage": "released",
+    "description": "Tunnelblick is a free, open source graphic user interface for OpenVPN on OS X. It provides easy control of OpenVPN client and/or server connections.",
+    "license_url": "https://code.google.com/p/tunnelblick/source/browse/trunk/tunnelblick/COPYING",
+    "logo": "tunnelblick.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://code.google.com/p/tunnelblick/source/checkout",
+    "name": "Tunnelblick",
+    "tos_url": "",
+    "url": "https://code.google.com/p/tunnelblick/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "OS X",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      }
+    ],
+    "slug": "tunnelblick"
+  },
+  {
     "development_stage": "experimental",
     "description": "Metahakukone joka suojaa yksityisyyttä ja pyrkii palauttamaan neutraaleja hakutuloksia.",
     "license_url": "",
