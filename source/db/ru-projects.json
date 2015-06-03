@@ -4449,7 +4449,7 @@
   {
     "development_stage": "released",
     "description": "Свободный онлайн блокнот с шифрованием.",
-    "license_url": "",
+    "license_url": "https://www.protectedtext.com/js/main.js",
     "logo": "protextedtext.png",
     "notes": "ProtectedText шифрует/расшифровывает текст в браузере, и пароль (или его хеш) никогда не отправляется на сервер, так что текст не может быть расшифрован, даже если этого потребуют власти.",
     "privacy_url": "",
