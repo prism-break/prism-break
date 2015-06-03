@@ -6024,6 +6024,49 @@
     "slug": "unbubble"
   },
   {
+  "development_stage": "experimental",
+  "description": "Open source tool that lets you securely and anonymously share a file of any size over the Tor network.",
+  "license_url": "https://github.com/micahflee/onionshare/blob/master/LICENSE",
+  "logo": "onionshare.png",
+  "notes": "OnionShare lets you securely and anonymously share a file of any size with someone. It works by starting a web server, making it accessible as a Tor hidden service, and generating an unguessable URL to access and download the file. It doesn't require setting up a server on the internet somewhere or using a third party filesharing service. You host the file on your own computer and use a Tor hidden service to make it temporarily accessible over the internet. The other user just needs to use Tor Browser to download the file from you.",
+  "privacy_url": "",
+  "source_url": "https://github.com/micahflee/onionshare",
+  "name": "OnionShare",
+  "tos_url": "",
+  "url": "https://github.com/micahflee/onionshare",
+  "wikipedia_url": "",
+  "protocols": [
+    "Tor"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "File Storage & Sync"
+      ]    
+    }
+  ],
+  "slug": "onionshare"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
