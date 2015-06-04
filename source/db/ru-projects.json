@@ -931,6 +931,32 @@
     "slug": "cyanogenmod"
   },
   {
+    "development_stage": "experimental",
+    "description": "DAVdroid is an open-source CalDAV/CardDAV synchronization app for Android 4+.",
+    "license_url": "https://github.com/bitfireAT/davdroid/blob/master/COPYING",
+    "logo": "davdroid.png",
+    "notes": "",
+    "privacy_url": "https://davdroid.bitfire.at/privacy",
+    "source_url": "https://github.com/bitfireAT/davdroid",
+    "name": "DAVdroid",
+    "tos_url": "",
+    "url": "http://davdroid.bitfire.at/",
+    "wikipedia_url": "",
+    "protocols": [
+      "CalDAV",
+      "CardDAV"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Productivity"
+        ]
+      }
+    ],
+    "slug": "davdroid"
+  },
+  {
     "development_stage": "released",
     "description": "Популярный GNU/Linux дистрибутив.",
     "license_url": "http://www.debian.org/legal/licenses/",
