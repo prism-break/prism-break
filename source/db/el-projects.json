@@ -5929,6 +5929,29 @@
     "slug": "passwdsafe"
   },
   {
+    "development_stage": "released",
+    "description": "High-assurance, HW based Pidgin-plugin \n\nInformation-theoretically secure encryption and authentication guarantee message privacy and integrity.\n\nData-diode enabled endpoint protects messages against system-wide 0-day vulnerabilities, the exploitation of which can be used to exfiltrate keys and plaintexts.",
+    "license_url": "https://github.com/maqp/tfc/blob/master/LICENSE.md",
+    "logo": "tfc.png",
+    "notes": "TFC has not yet been peer reviewed.\n\nThe system is secure by design but despite extensive testing, bugs might still affect stability or cause data loss. Be reminded that security is a process, not a product: Please read the whitepaper and manual thoroughly before using.",
+    "privacy_url": "",
+    "source_url": "https://github.com/maqp/tfc",
+    "name": "Tinfoil Chat",
+    "tos_url": "",
+    "url": "https://github.com/maqp/tfc",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "TFC"
+  },
+  {
     "development_stage": "experimental",
     "description": "Free and open-source, peer-to-peer, encrypted instant messaging and video calling software. The stated goal of the project is to provide secure yet easily accessible communication for everyone.",
     "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
