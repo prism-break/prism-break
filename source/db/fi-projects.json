@@ -1617,6 +1617,31 @@
   },
   {
     "development_stage": "released",
+    "description": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
+    "license_url": "https://www.mozilla.org/MPL/",
+    "logo": "fennec-fdroid.png",
+    "notes": "Firefox ei piilota IP-osoitettasi kolmansilta osapuolilta oletuksena. Jos haluat anonymisoida IP-osoitteesi, on suositeltavaa käyttää Orbot.\n\nFirefoxin oletushakukone on Google. On suositeltavaa vaihtaa tilalle Ixquick, Startpage tai DuckDuck go, tai jokin muu anonyymi hakukone.\n\nOn suositeltavaa poistaa valinta \"Block reported attack sites\" ja \"Block reported web forgeries\" menemällä jos et halua Mozillan lähettävän raportoitujen URL:ien tiivisteitä Googlelle. ",
+    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+    "source_url": "http://hg.mozilla.org/mobile-browser/",
+    "name": "Fennec FDroid",
+    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      }
+    ],
+    "slug": "fennec-fdroid"
+  },
+  {
+    "development_stage": "released",
     "description": "Firefox OS on vapaa avoimen lähdekoodin käyttöjärjestelmä android-yhteensopiville älypuhelimille ja tablet-tietokoneille.",
     "license_url": "https://www.mozilla.org/en-US/foundation/licensing/",
     "logo": "mozilla-firefox.png",
@@ -3404,12 +3429,6 @@
       "SSL/TLS"
     ],
     "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
       {
         "name": "BSD",
         "subcategories": [
