@@ -5769,6 +5769,29 @@
   },
   {
     "development_stage": "released",
+    "description": "Painless self hosted git service written in Go.",
+    "license_url": "https://github.com/gogits/gogs/blob/master/LICENSE",
+    "logo": "gogs.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/gogits/gogs",
+    "name": "Gogs",
+    "tos_url": "",
+    "url": "http://gogs.io/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "slug": "gogs"
+  },
+  {
+    "development_stage": "released",
     "description": "Дистрибутив для использования на межсетевых экранах и роутерах, основанный на FreeBSD.",
     "license_url": "https://www.pfsense.org/about-pfsense/index.html",
     "logo": "pfsense.png",
