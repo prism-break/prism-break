@@ -1591,6 +1591,31 @@
   },
   {
     "development_stage": "released",
+    "description": "Internet pregledač otvorenog koda.",
+    "license_url": "https://www.mozilla.org/MPL/",
+    "logo": "fennec-fdroid.png",
+    "notes": "Fennec FDroid does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" if you don't want Mozilla to send reported URL hashes to Google.",
+    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+    "source_url": "http://hg.mozilla.org/mobile-browser/",
+    "name": "Fennec FDroid",
+    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      }
+    ],
+    "slug": "fennec-fdroid"
+  },
+  {
+    "development_stage": "released",
     "description": "Firefox OS je besplatan operativni sistem otvorenog koda za smartfone kompatibilne sa Android-om i tablet računarima.",
     "license_url": "https://www.mozilla.org/en-US/foundation/licensing/",
     "logo": "mozilla-firefox.png",
@@ -3378,12 +3403,6 @@
       "SSL/TLS"
     ],
     "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
       {
         "name": "BSD",
         "subcategories": [
