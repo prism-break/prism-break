@@ -113,7 +113,7 @@ A common mistake is putting unescaped quotation marks in a sentence. Make sure t
 When you're done with your translation, you should build the site in your language to see if it works. If want to test out your French translations for example, run `make fr`. Traditional Chinese translations? Run `make zh-TW`. It might take a little while (~minutes) if you're on a slower computer.
 
 ### Publishing Your Changes
-Your newly translated site is available at './public/**language-code**/'. Visit it in your browser and check out your work. Looking good! 
+Your newly translated site is available at './public/**language-code**/'. Visit it in your browser and check out your work. Looking good!
 
 Remember to revert the `Makefile` change and then commit the changes and issue a pull request.
 
@@ -122,8 +122,11 @@ If you wish to mirror this site, [nylira/prism-break-static](https://github.com/
 
 ### Mirrors
 
-[http://hrk2gpercx3p6apf.onion/](http://hrk2gpercx3p6apf.onion/)
-(credit: etheralghost)
+ - [http://hrk2gpercx3p6apf.onion/](http://hrk2gpercx3p6apf.onion/)
+ (credit: etheralghost)
 
-[https://prism-break.ca](https://prism-break.ca)
-(credit: wiserweb)
+ - [https://prism-break.ca](https://prism-break.ca)
+ (credit: wiserweb)
+
+ - [https://www.sedrubal.de/service/prism-break/en/](https://www.sedrubal.de/service/prism-break/en/)
+ (credit: [sedrubal](https://github.com/sedrubal))
