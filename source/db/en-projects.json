@@ -6165,6 +6165,47 @@
     "slug": "unbubble"
   },
   {
+  "development_stage": "released",
+  "description": "LocalBox is a safe, private cloud environment for file sharing.",
+  "license_url": "http://opensource.org/licenses/EUPL-1.1",
+  "logo": "localbox.png",
+  "notes": "Free, open source file-sharing cloud environment that provides end-to-end encryption. The code is written mostly in PHP. The project was commissioned by the Dutch government and produced by LiBBit under a European Union Public Licence v. 1.1.",
+  "privacy_url": "",
+  "source_url": "http://www.libbit.eu/downloads/localbox-v1.1.1.tar.gz",
+  "name": "LocalBox",
+  "tos_url": "",
+  "url": "http://www.libbit.eu/en/producten-en/localbox",
+  "wikipedia_url": "",
+  "protocols": [],    
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "File Storage & Sync"
+      ]    
+    }
+  ],
+  "slug": "localbox"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
