@@ -6274,5 +6274,36 @@
       }
     ],
     "slug": "ras"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "Peer-to-peer microblogging software.",
+    "license_url": "https://github.com/miguelfreitas/twister-core/blob/master/COPYING",
+    "logo": "twister.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/miguelfreitas/twister-core",
+    "name": "twister",
+    "tos_url": "",
+    "url": "http://twister.net.co/",
+    "wikipedia_url": "",
+    "protocols": [
+      "DHT"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Social Networks"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Social Networks"
+        ]
+      }
+    ],
+    "slug": "twister"
   }
 ]
