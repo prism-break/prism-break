@@ -383,6 +383,65 @@
     "slug": "bitmessage"
   },
   {
+    "development_stage": "experimental",
+    "description": "Bookie is an open source bookmarking application.",
+    "license_url": "https://github.com/bookieio/Bookie/blob/develop/COPYING",
+    "logo": "bookie.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/bookieio/Bookie",
+    "name": "Bookie",
+    "tos_url": "",
+    "url": "https://bookie.io/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      }
+    ],
+    "slug": "bookie"
+  },
+  {
     "development_stage": "released",
     "description": "Социальная сеть с открытым исходным кодом.",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
@@ -6071,6 +6130,64 @@
   },
   {
     "development_stage": "experimental",
+    "description": "SemanticScuttle is a social bookmarking tool experimenting with features like structured tags and collaborative tag descriptions.",
+    "license_url": "https://github.com/cweiske/SemanticScuttle/blob/master/www/about.php",
+    "logo": "semanticscuttle.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/cweiske/SemanticScuttle",
+    "name": "SemanticScuttle",
+    "tos_url": "",
+    "url": "http://semanticscuttle.sourceforge.net/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Scuttle_(software)",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      }
+    ],
+    "slug": "semanticscuttle"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "The personal, minimalist, super-fast, no-database delicious clone.",
+    "license_url": "https://github.com/shaarli/Shaarli/blob/master/COPYING",
+    "logo": "shaarli.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/shaarli/Shaarli/",
+    "name": "Shaarli",
+    "tos_url": "",
+    "url": "https://github.com/shaarli/Shaarli/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      }
+    ],
+    "slug": "shaarli"
+  },
+  {
+    "development_stage": "experimental",
     "description": "Free and open-source, peer-to-peer, encrypted instant messaging and video calling software. The stated goal of the project is to provide secure yet easily accessible communication for everyone.",
     "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
     "logo": "tox.png",
@@ -6233,6 +6350,65 @@
       }
     ],
     "slug": "ublock"
+  },
+  {
+    "development_stage": "released",
+    "description": "wallabag is a self hostable application for saving web pages. Unlike other services, wallabag is free (as in freedom) and open source.",
+    "license_url": "https://github.com/wallabag/wallabag/blob/master/COPYING.md",
+    "logo": "wallabag.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/wallabag/wallabag",
+    "name": "wallabag",
+    "tos_url": "",
+    "url": "https://www.wallabag.org/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      }
+    ],
+    "slug": "wallabag"
   },
   {
     "development_stage": "released",
