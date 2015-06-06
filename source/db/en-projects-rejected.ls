@@ -252,6 +252,19 @@ projects-rejected =
     ]
 
   * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "instapaper.png"
+    name: "Instapaper"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Bookmark Sync"]
+      * name: "Android"
+        subcategories: ["Bookmark Sync"]
+      * name: "iOS"
+        subcategories: ["Bookmark Sync"]
+    ]
+
+  * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "facebook.png"
     name: "Facebook"
@@ -681,6 +694,21 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
+    logo: "pocket.png"
+    name: "Pocket"
+    categories: [
+      * name: "Android"
+        subcategories: ["Bookmark Sync"]
+      * name: "iOS"
+        subcategories: ["Bookmark Sync"]
+      * name: "OS X"
+        subcategories: ["Bookmark Sync"]
+      * name: "Web Services"
+        subcategories: ["Bookmark Sync"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
     logo: "steam.png"
     name: "Steam"
     categories: [
@@ -872,6 +900,21 @@ projects-rejected =
         subcategories: ["Web Browser Addons"]
       * name: "iOS"
         subcategories: ["Web Browser Addons"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "xmarks.png"
+    name: "Xmarks"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Bookmark Sync"]
+      * name: "OS X"
+        subcategories: ["Bookmark Sync"]
+      * name: "Web Services"
+        subcategories: ["Bookmark Sync"]
+      * name: "Windows"
+        subcategories: ["Bookmark Sync"]
     ]
 
   * status: 'rejected'
