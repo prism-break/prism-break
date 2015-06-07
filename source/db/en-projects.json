@@ -6456,5 +6456,44 @@
       }
     ],
     "slug": "ras"
+  },
+  {
+    "development_stage": "Beta",
+    "description": "TOR based File sharing tool inspired by Onion Share",
+    "license_url": "https://github.com/rpgeeganage/web-pizza-file-share/blob/master/LICENSE.md",
+    "logo": "webpizza.png",
+    "notes": "Visit http://secu.link for more tools",
+    "privacy_url": "",
+    "source_url": "https://github.com/rpgeeganage/web-pizza-file-share",
+    "name": "Web Pizza - TOR based file sharing application",
+    "tos_url": "",
+    "url": "https://github.com/rpgeeganage/web-pizza-file-share/",
+    "wikipedia_url": "",
+    "protocols": [
+      "Tor"
+    ],
+    "categories": [{
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync",
+          "Social Networks"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "File Storage & Sync",
+          "Social Networks"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync",
+          "Social Networks"
+        ]
+      }
+    ],
+    "slug": "web-pizza"
   }
 ]
