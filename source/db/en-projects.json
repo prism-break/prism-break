@@ -6288,6 +6288,31 @@
     "slug": "unbubble"
   },
   {
+    "development_stage": "released",
+    "description": "End-to-end encrypted VoIP calls for iOS devices, by WhisperSystems.",
+    "license_url": "https://github.com/WhisperSystems/Signal-iOS/blob/master/README.md",
+    "logo": "signal.png",
+    "notes": "Signal allows users to establish encrypted voice connections using ZRTP through the phone's existing number. It automatically detects other users from the contact list that are reachable with Signal. Signal uses a jitter buffer tuned to the characteristics of mobile networks. It also uses push notifications to preserve battery life while still remaining responsive. Signal is licensed under the GPLv3.",
+    "privacy_url": "",
+    "source_url": "https://github.com/WhisperSystems/Signal-iOS",
+    "name": "Signal-iOS",
+    "tos_url": "",
+    "url": "https://whispersystems.org/blog/signal/",
+    "wikipedia_url": "",
+    "protocols": [
+      "ZRTP"
+    ],
+    "categories": [
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Video & Voice"
+        ]
+      }
+    ],
+    "slug": "signalios"
+  },
+  {
     "development_stage": "experimental",
     "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
