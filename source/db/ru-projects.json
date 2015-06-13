@@ -3429,31 +3429,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Распределенные и федеральные социальные узлы.",
-    "license_url": "https://github.com/lorea/Elgg/blob/master/LICENSE.txt",
-    "logo": "lorea.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/lorea",
-    "name": "Lorea",
-    "tos_url": "",
-    "url": "https://lorea.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "lorea"
-  },
-  {
-    "development_stage": "released",
     "description": "OpenPGP шифрование для популярных сервисов веб-почты.",
     "license_url": "https://github.com/toberndo/mailvelope/blob/master/LICENSE",
     "logo": "mailvelope.png",
