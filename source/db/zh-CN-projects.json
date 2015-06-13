@@ -5645,6 +5645,55 @@
     "slug": "sylpheed"
   },
   {
+  "development_stage": "released",
+  "description": "Continuous decentralized file synchronization.",
+  "license_url": "https://github.com/syncthing/syncthing/blob/master/LICENSE",
+  "logo": "syncthing.png",
+  "notes": "Syncthing is a self-hosted file sharing platform, so none of your data is ever stored anywhere other than on your computers. There is no central server that might be compromised, legally or illegally. All communication is secured using TLS. The encryption used includes perfect forward secrecy to prevent any eavesdropper from gaining access to your data. Every node is identified by a strong cryptographic certificate. Only nodes you have explicitly allowed can connect to your cluster.",
+  "privacy_url": "",
+  "source_url": "https://github.com/syncthing/syncthing",
+  "name": "Syncthing",
+  "tos_url": "",
+  "url": "https://syncthing.net/",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "Android",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "BSD",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "OS X",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    },
+    {
+      "name": "Windows",
+      "subcategories": [
+        "File Storage & Sync"
+      ]
+    }
+  ],
+  "slug": "syncthing"
+  },
+  {
     "development_stage": "released",
     "description": "分布式匿名讨论区软件",
     "license_url": "https://github.com/i2p/i2p.syndie/blob/master/LICENSE",
