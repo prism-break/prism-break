@@ -66,7 +66,7 @@ Serve the folder [`./public`](./public/) on your web server.
 
 ### Need more details on how to submit a project or a translation?
 
-Read [`CONTRIBUTING.md`](CONTRIBUTIN.md) for more detail into the process.
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for more detail into the process.
 
 ### Want to help contribute to pending work?
 
