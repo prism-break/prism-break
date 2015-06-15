@@ -313,6 +313,29 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
+    logo: "google-docs.png"
+    name: "Google Docs"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Productivity"]
+      * name: "Android"
+        subcategories: ["Productivity"]
+      * name: "BSD"
+        subcategories: ["Productivity"]
+      * name: "GNU/Linux"
+        subcategories: ["Productivity"]
+      * name: "iOS"
+        subcategories: ["Productivity"]
+      * "name": "OS X"
+        subcategories: ["Productivity"]
+      * name: "Windows"
+        subcategories: ["Productivity"]
+      * name: "Servers"
+        subcategories: ["Productivity"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
     logo: "google-drive.png"
     name: "Google Drive"
     categories: [
