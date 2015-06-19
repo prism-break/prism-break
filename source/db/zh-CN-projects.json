@@ -3214,6 +3214,29 @@
   },
   {
     "development_stage": "released",
+    "description": "A GNU/Linux-libre distribution for embedded devices.",
+    "license_url": "https://librecmc.org/librecmc/artifact/dfac199a7539a404",
+    "logo": "librecmc.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://librecmc.org/librecmc/dir?ci=5e69e4fd8b5aa721&name=trunk",
+    "name": "libreCMC",
+    "tos_url": "",
+    "url": "https://librecmc.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Routers",
+        "subcategories": [
+          "Firmware"
+        ]
+      }
+    ],
+    "slug": "librecmc"
+  },
+  {
+    "development_stage": "released",
     "description": "自由的VPN客户端 (3rd generation) ，是Openswan的衍生品。",
     "license_url": "https://github.com/libreswan/libreswan/blob/master/COPYING",
     "logo": "libreswan.png",
@@ -3293,29 +3316,6 @@
       }
     ],
     "slug": "librevpn"
-  },
-  {
-    "development_stage": "released",
-    "description": "A GNU/Linux-libre distribution for embedded devices.",
-    "license_url": "http://websvn.librewrt.org/filedetails.php?repname=LibreWRT+Subversion+Repository&path=%2Flibrewrt%2Ftrunk%2FLICENSE",
-    "logo": "librewrt.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://websvn.librewrt.org/listing.php",
-    "name": "LibreWRT",
-    "tos_url": "",
-    "url": "http://librewrt.org/index.php?title=Main_Page",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/LibreWRT",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Routers",
-        "subcategories": [
-          "Firmware"
-        ]
-      }
-    ],
-    "slug": "librewrt"
   },
   {
     "development_stage": "released",
