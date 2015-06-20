@@ -3070,6 +3070,47 @@
   },
   {
     "development_stage": "released",
+    "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
+    "license_url": "https://github.com/keepassx/keepassx/blob/master/COPYING",
+    "logo": "keepassx.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/keepassx/keepassx",
+    "name": "KeePassX",
+    "tos_url": "",
+    "url": "https://www.keepassx.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassX",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Password Managers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Password Managers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Password Managers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Password Managers"
+        ]
+      }
+    ],
+    "slug": "keepassx"
+  },
+  {
+    "development_stage": "released",
     "description": "Software collaborativi per email, file, calendari, rubriche e sincronizzazione mobile.",
     "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
     "logo": "kolab.png",
