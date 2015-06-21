@@ -1,7 +1,7 @@
 [
   {
     "development_stage": "released",
-    "description": "屏蔽互联网上的广告",
+    "description": "根据你订阅的过滤器，屏蔽互联网上的广告和跟踪脚本。",
     "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
     "logo": "adblock-edge.png",
     "notes": "",
@@ -9,7 +9,7 @@
     "source_url": "https://bitbucket.org/adstomper/adblockedge/",
     "name": "Adblock Edge",
     "tos_url": "",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/",
+    "url": "https://addons.mozilla.org/zh-CN/firefox/addon/adblock-edge/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
@@ -24,7 +24,7 @@
   },
   {
     "development_stage": "released",
-    "description": "用于苹果OS X操作系统的免费聊天软件，支持多种协议。",
+    "description": "用于苹果OS X操作系统的免费聊天软件，支持多种协议。记得开启OTR加密。",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
     "notes": "",
@@ -33,7 +33,7 @@
     "name": "Adium",
     "tos_url": "",
     "url": "https://adium.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Adium",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Adium",
     "protocols": [
       "IRC",
       "OTR",
@@ -52,13 +52,13 @@
   },
   {
     "development_stage": "experimental",
-    "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
+    "description": "基于开源安卓项目，帮助用户检测和避开伪基站（IMSI捕捉器）或其他无加密/弱加密基站。本项目旨在协助用户了解加密和其他一些保护机制是否处于启用状态。事物总是在发展，我们永远欢迎测试志愿者以及关注信息安全的程序员志士。不必害羞，你可以做任何你能做的贡献。我们的Github：https://github.com/SecUpwN/Android-IMSI-Catcher-Detector。我们的XDA：https://forum.xda-developers.com/showthread.php?t=1422969。谢谢你们的参与！",
     "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
     "logo": "aimsicd.png",
-    "notes": "This App is highly experimental. Please read and fully understand our [DISCLAIMER](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER).",
+    "notes": "这个程序目前处于测试阶段，清一定认真阅读我们的【免责声明】：https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER",
     "privacy_url": "",
     "source_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector",
-    "name": "Android IMSI-Catcher Detector (AIMSICD)",
+    "name": "安卓伪基站探测器 (AIMSICD)",
     "tos_url": "",
     "url": "https://secupwn.github.io/Android-IMSI-Catcher-Detector/",
     "wikipedia_url": "",
@@ -109,7 +109,7 @@
     "name": "Arch Linux",
     "tos_url": "",
     "url": "https://www.archlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Arch_Linux",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Arch_Linux",
     "protocols": [],
     "categories": [
       {
@@ -144,7 +144,7 @@
     "name": "ArkOS",
     "tos_url": "",
     "url": "https://arkos.io/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/ArkOS",
     "protocols": [],
     "categories": [
       {
@@ -168,7 +168,7 @@
     "name": "Asterisk",
     "tos_url": "",
     "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Asterisk",
     "protocols": [
       "SIP",
       "VoIP"
@@ -221,7 +221,7 @@
   },
   {
     "development_stage": "released",
-    "description": "全方位的隐私保护，提供主机、VPN、电子邮件、即时通讯等服务。 需要许可",
+    "description": "全方位的隐私保护，提供主机、VPN、电子邮件、即时通讯等服务。",
     "license_url": "",
     "logo": "autistici-inventati.png",
     "notes": "",
@@ -259,7 +259,7 @@
     "name": "Bitcoin",
     "tos_url": "",
     "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E7%89%B9%E5%B8%81",
     "protocols": [],
     "categories": [
       {
@@ -531,7 +531,7 @@
     "name": "Byzantium",
     "tos_url": "",
     "url": "http://project-byzantium.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Byzantium_(Linux_distribution)",
     "protocols": [],
     "categories": [
       {
@@ -610,7 +610,7 @@
   },
   {
     "development_stage": "released",
-    "description": "IOS和安卓平台下的加密通讯工具，OTR无记录。",
+    "description": "IOS和安卓平台下的加密通讯工具，OTR加密。",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
     "notes": "The Guardian Project hosts <a href='https://guardianproject.info/howto/chatsecurely/'>a fantastic how-to guide</a> to chatting securely on Android.",
@@ -619,7 +619,7 @@
     "name": "ChatSecure",
     "tos_url": "",
     "url": "https://chatsecure.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure",
     "protocols": [
       "OTR",
       "XMPP"
@@ -713,7 +713,7 @@
   },
   {
     "development_stage": "released",
-    "description": "支持GPG加密的轻量级的Email桌面客户端应用",
+    "description": "快速、轻便，内建GPG加密的跨平台Email桌面客户端应用",
     "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
     "logo": "claws-mail.png",
     "notes": "",
@@ -987,7 +987,7 @@
   },
   {
     "development_stage": "released",
-    "description": "免费、加密的IP电话，用于Android平台。",
+    "description": "用于Android平台的端到端加密的VoIP电话。",
     "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
     "logo": "csipsimple.png",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
@@ -1120,7 +1120,7 @@
     "name": "Desura",
     "tos_url": "",
     "url": "http://www.desura.com/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Desura",
     "protocols": [],
     "categories": [
       {
@@ -1172,7 +1172,7 @@
   {
     "development_stage": "released",
     "description": "显示出并阻止网站对你搜索和网络历史的跟踪",
-    "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
+    "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown#license",
     "logo": "disconnect.png",
     "notes": "",
     "privacy_url": "https://disconnect.me/privacy",
@@ -1213,11 +1213,11 @@
   {
     "development_stage": "released",
     "description": "匿名VPN服务，让你隐秘访问常用搜索引擎，如Google, Bing和Yahoo.",
-    "license_url": "",
+    "license_url": "https://github.com/disconnectme/search/blob/master/README.markdown#license",
     "logo": "disconnect-search.png",
-    "notes": "在官网的\"Get Disconnect Search\"上点击“右键”-“链接另存为”，即可下载源代码。\n\n当你下载了\"search.xpi\"之后，把后缀名改成\".zip\"，解压即可。",
+    "notes": "",
     "privacy_url": "",
-    "source_url": "https://disconnect.me/search",
+    "source_url": "https://github.com/disconnectme/search",
     "name": "Disconnect Search",
     "tos_url": "",
     "url": "https://disconnect.me/search",
@@ -1358,7 +1358,7 @@
   },
   {
     "development_stage": "released",
-    "description": "免费的私密在线日程表，还有隐私增强版。",
+    "description": "免费的私密在线表单（提供日程表、投票等功能），还有隐私增强版。",
     "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
     "logo": "dudle.png",
     "notes": "",
@@ -1686,7 +1686,7 @@
   },
   {
     "development_stage": "released",
-    "description": "支持GPG的免费邮件和日历应用",
+    "description": "支持GPG加密的GNOME桌面程序，包括Email、通讯录、日历等。",
     "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
     "logo": "evolution.png",
     "notes": "",
@@ -2119,7 +2119,7 @@
   },
   {
     "development_stage": "released",
-    "description": "FreeBSD操作系统上的加密子系统。",
+    "description": "FreeBSD操作系统上的磁盘加密子系统。",
     "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
     "logo": "geli.png",
     "notes": "",
@@ -2142,7 +2142,7 @@
   },
   {
     "development_stage": "released",
-    "description": "发行版，关注选择性，可控性和安全。",
+    "description": "Linux 发行版，关注选择性，可控性和安全。",
     "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
     "logo": "gentoo.png",
     "notes": "",
@@ -2235,7 +2235,7 @@
     "name": "GitLab",
     "tos_url": "",
     "url": "https://about.gitlab.com/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Gitlab",
     "protocols": [],
     "categories": [
       {
@@ -2332,11 +2332,11 @@
     "logo": "gnu-social.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "http://gitorious.org/+socialites/statusnet/gnu-social",
+    "source_url": "http://gnu.io/",
     "name": "GNU social",
     "tos_url": "",
     "url": "https://www.gnu.org/software/social/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/StatusNet",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2430,7 +2430,7 @@
   },
   {
     "development_stage": "released",
-    "description": "A port of the whole GnuPG 2.1 suite to Android.\n\nGnu Privacy Guard (GPG) gives you access to the entire GnuPG suite of encryption software. GnuPG is GNU’s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. GnuPG 2.1 is the new modularized version of GnuPG that now supports OpenPGP and S/MIME.",
+    "description": "A port of GnuPG 2.1 to Android.\n\nGnu Privacy Guard (GPG) gives you access to the entire GnuPG suite of encryption software. GnuPG is GNU鈥檚 tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. GnuPG 2.1 is the new modularized version of GnuPG that now supports OpenPGP and S/MIME.",
     "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
     "logo": "gnupg-for-android.png",
     "notes": "",
@@ -2456,7 +2456,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Gpg4win is an installation package for Windows (XP, Vista, 7 and 8) with software tools and manuals for email and file encryption on behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.",
+    "description": "Email and file encryption for Windows (XP, Vista, 7 and 8) behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
     "logo": "gpg4win.png",
     "notes": "",
@@ -2572,7 +2572,7 @@
   },
   {
     "development_stage": "released",
-    "description": "能为你和数千个网站间的通信加密",
+    "description": "强制启用https，为你和数千个网站间的通信加密",
     "license_url": "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt",
     "logo": "https-everywhere.png",
     "notes": "",
@@ -2581,7 +2581,7 @@
     "name": "HTTPS Everywhere",
     "tos_url": "",
     "url": "https://www.eff.org/https-everywhere",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2670,7 +2670,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Image hosting with in-browser AES-256 encryption.",
+    "description": "Client-side encrypted image hosting",
     "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
     "logo": "imgbi.png",
     "notes": "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
@@ -2980,7 +2980,7 @@
   },
   {
     "development_stage": "released",
-    "description": "开源的安卓邮件应用，支持加密。",
+    "description": "开源的安卓邮件应用，内建支持PGP加密。",
     "license_url": "https://github.com/k9mail/k-9/blob/master/NOTICE",
     "logo": "k9-mail.png",
     "notes": "",
@@ -3221,7 +3221,7 @@
   },
   {
     "development_stage": "released",
-    "description": "支持GPG的 KDE 邮件客户端，有地址簿、通讯录等诸多功能。",
+    "description": "支持GPG的KDE桌面程序，包括邮件客户端、日历、通讯录等诸多功能。",
     "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
     "logo": "kontact.png",
     "notes": "",
@@ -3417,10 +3417,10 @@
   },
   {
     "development_stage": "experimental",
-    "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
+    "description": "Peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
-    "notes": "",
+    "notes": "请注意，电子加密货币与现实货币的兑换比率可能会波动得非常厉害。此外，软件错误，恶意攻击等也可能导致您的损失。请提前做好准备！",
     "privacy_url": "",
     "source_url": "https://github.com/litecoin-project/litecoin",
     "name": "Litecoin",
@@ -3815,7 +3815,7 @@
   },
   {
     "development_stage": "released",
-    "description": "分布式DNS，基于Bitcoin 技术",
+    "description": ".bit顶级域名所使用的分布式DNS，基于Bitcoin技术",
     "license_url": "https://github.com/namecoin/namecoin/blob/master/COPYING",
     "logo": "namecoin.png",
     "notes": "",
@@ -3858,7 +3858,7 @@
   },
   {
     "development_stage": "released",
-    "description": "NetBSD is an open-source Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. ",
+    "description": "Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. ",
     "license_url": "https://www.netbsd.org/about/redistribution.html",
     "logo": "netbsd.png",
     "notes": "",
@@ -3949,7 +3949,7 @@
     "name": "nsupdate.info",
     "tos_url": "",
     "url": "https://nsupdate.info/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nsupdate",
     "protocols": [
       "DNS",
       "SSL/TLS"
@@ -4084,7 +4084,7 @@
   },
   {
     "development_stage": "released",
-    "description": "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform.",
+    "description": "C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform.",
     "license_url": "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT",
     "logo": "osrm.png",
     "notes": "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service.",
@@ -4274,7 +4274,7 @@
   },
   {
     "development_stage": "released",
-    "description": "稳定、易用的多用途 GNU/Linux distribution。",
+    "description": "稳定、易用的多用途GNU/Linux发行版。",
     "license_url": "https://en.opensuse.org/openSUSE:License",
     "logo": "opensuse.png",
     "notes": "",
@@ -4416,7 +4416,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Tor代理用于安卓平台。",
+    "description": "拥有丰富特性和功能的安卓版Tor。",
     "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
     "logo": "orbot.png",
     "notes": "",
@@ -4782,7 +4782,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Easy-to-setup MTA used by approximately 23% of all mail servers.",
+    "description": "Easy-to-setup MTA used by approximately 23% of all email servers.",
     "license_url": "ftp://ftp.porcupine.org/mirrors/postfix-release/LICENSE",
     "logo": "postfix.png",
     "notes": "",
@@ -4985,7 +4985,7 @@
   },
   {
     "development_stage": "released",
-    "description": "自行假设的社交信息流服务器",
+    "description": "自行架设的社交信息流服务器",
     "license_url": "https://github.com/e14n/pump.io/blob/master/LICENSE",
     "logo": "pumpio.png",
     "notes": "",
@@ -4994,7 +4994,7 @@
     "name": "pump.io",
     "tos_url": "",
     "url": "http://pump.io/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pump.io",
     "protocols": [
       "SSL/TLS"
     ],
@@ -5160,7 +5160,7 @@
       {
         "name": "iOS",
         "subcategories": [
-          "Operating Systems"
+          "Operating Systems (Mobile)"
         ]
       }
     ],
@@ -5209,7 +5209,7 @@
   },
   {
     "development_stage": "released",
-    "description": "免费安全的 P2P 交流平台",
+    "description": "安全的P2P通讯平台，提供即时通讯，论坛，网络电话，文件共享等功能。",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
     "logo": "retroshare.png",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
@@ -5298,7 +5298,7 @@
   },
   {
     "development_stage": "released",
-    "description": "安全私密的email账户",
+    "description": "安全私密的Email账户，为那些社会活动人士、政治异议人士等设计。",
     "license_url": "",
     "logo": "riseup.png",
     "notes": "Riseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
@@ -5354,7 +5354,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Scientific Linux (SL) is a Linux distribution produced by Fermi National Accelerator Laboratory and the European Organization for Nuclear Research (CERN). ",
+    "description": "Linux distribution produced by Fermi National Accelerator Laboratory and the European Organization for Nuclear Research (CERN). ",
     "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
     "logo": "scientific-linux.png",
     "notes": "",
@@ -5617,7 +5617,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Lightweight and user-friendly e-mail client.",
+    "description": "Lightweight, user-friendly email application for multiple platforms with built-in PGP support.",
     "license_url": "https://www.gnu.org/copyleft/gpl.html",
     "logo": "sylpheed.png",
     "notes": "",
@@ -5835,7 +5835,7 @@
     "name": "Tent",
     "tos_url": "",
     "url": "https://tent.io/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tent_%28protocol%29",
     "protocols": [],
     "categories": [
       {
@@ -5941,7 +5941,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "Free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.png",
     "notes": "",
@@ -5990,7 +5990,7 @@
   },
   {
     "development_stage": "released",
-    "description": "以加密、匿名的方式浏览",
+    "description": "通过Tor网络，以加密、匿名的方式浏览",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
     "logo": "tor-browser-bundle.png",
     "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
@@ -6034,7 +6034,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Add-on that makes Thunderbird/Icedove connect through Tor.",
+    "description": "这个插件让火狐/冰鼬鼠能通过Tor联网。",
     "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
     "logo": "torbirdy.png",
     "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the \"Before using TorBirdy\" and \"Known TorBirdy\" Issues sections on the project website.",
@@ -6203,7 +6203,7 @@
     "name": "Unbound",
     "tos_url": "",
     "url": "http://www.unbound.net/",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
     "protocols": [
       "DNS"
     ],
@@ -6309,7 +6309,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
+    "description": "Extensible and customisable CLI chat client for IRC and XMPP/Jabber.",
     "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "weechat.png",
     "notes": "WeeChat does not offer encryption by default, but there is a FiSH encryption plugin available.",
@@ -6392,7 +6392,7 @@
     "description": "自行架设的网站发布平台",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
-    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>&ldquo;Disable Google Fonts&rdquo;</a> to remove this vulnerability.",
+    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>&ldquo;Disable Google Fonts&rdquo;</a> to remove this vulnerability.",
     "privacy_url": "http://wordpress.org/about/privacy/",
     "source_url": "http://core.trac.wordpress.org/browser",
     "name": "WordPress",
@@ -6485,7 +6485,7 @@
     "name": "Yunohost",
     "tos_url": "",
     "url": "http://yunohost.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/YunoHost",",
     "protocols": [],
     "categories": [
       {
