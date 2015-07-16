@@ -6148,15 +6148,15 @@
   {
     "development_stage": "released",
     "description": "Firefox和Chromium浏览器中的一个有效的拦截插件，快速、有效、轻便。",
-    "license_url": "https://github.com/chrisaljoudi/uBlock/blob/master/LICENSE.txt",
-    "logo": "ublock.png",
+    "license_url": "https://github.com/gorhill/uBlock/blob/master/LICENSE.txt",
+    "logo": "ublock-origin.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://github.com/chrisaljoudi/uBlock/",
-    "name": "uBlock",
+    "source_url": "https://github.com/gorhill/uBlock",
+    "name": "uBlock Origin",
     "tos_url": "",
-    "url": "https://chrismatic.io/ublock/",
-    "wikipedia_url": "",
+    "url": "https://github.com/gorhill/uBlock",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin",
     "protocols": [],
     "categories": [
       {
@@ -6190,7 +6190,7 @@
         ]
       }
     ],
-    "slug": "ublock"
+    "slug": "ublock-origin"
   },
   {
     "development_stage": "released",
