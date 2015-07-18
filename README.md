@@ -6,7 +6,7 @@ The prism-break build process relies on several npm packages. Make sure to have 
 
 If you'd like to translate the project to your favorite language, there's no need to install io.js or even download the code. Just edit the appropriate JSON files on GitHub and submit a pull request.
 
-More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTIN.md).
+More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Project Inclusion Guidelines
 
