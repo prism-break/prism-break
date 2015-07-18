@@ -6080,12 +6080,12 @@
     "description": "Vapaa ja avointa lähdekoodia oleva, peer-to-peer, salattu pikaviestiohjelma joka tukee videopuheluita. Projektin tavoitteena on tarjota turvallinen ja helppokäyttöinen viestintämenetelmä kaikille.",
     "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
     "logo": "tox.png",
-    "notes": "Tox on uusi, rakenteilla oleva viestintäjärjestelmä. Se on rakennettu hyvin tunnetun salauskirjaston ympärille jolla on paljon potentiaalia, mutta tietoturva-alan asiantuntijat eivät ole vielä auditoineet sitä. Käytä ohjelmaa omalla vastuullasi. Jos päätät kokeilla Tox:ia, muista jättää kehittäjille palautetta.\n\nTox:illa ei ole vielä virallista graafista käyttöliittymää (GUI), mutta kehittäjätiimi suosittelee [lukuisia](https://wiki.tox.im/Binaries).",
+    "notes": "Tox on uusi, rakenteilla oleva viestintäjärjestelmä. Se on rakennettu hyvin tunnetun salauskirjaston ympärille jolla on paljon potentiaalia, mutta tietoturva-alan asiantuntijat eivät ole vielä auditoineet sitä. Käytä ohjelmaa omalla vastuullasi. Jos päätät kokeilla Tox:ia, muista jättää kehittäjille palautetta.\n\nTox:illa ei ole vielä virallista graafista käyttöliittymää (GUI), mutta kehittäjätiimi suosittelee [lukuisia](https://wiki.tox.chat/Binaries).",
     "privacy_url": "",
     "source_url": "https://github.com/irungentoo/toxcore",
     "name": "Tox",
     "tos_url": "",
-    "url": "https://tox.im",
+    "url": "https://tox.chat",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)",
     "protocols": [
       "Tox"

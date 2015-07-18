@@ -6080,12 +6080,12 @@
     "description": "免费、开源、点对点的加密即时通讯、视频聊天软件。该项目的目标是为大家提供安全且便利的沟通。",
     "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
     "logo": "tox.png",
-    "notes": "TOX是一个正在建设中的全新的加密通讯系统，它基于一些众所周知的加密库，具有很大的潜力，但尚未通过专业的安全审核。使用请自担风险。\n\nTox目前还没有一个官方的GUI，但开发团队推荐了[一些备选方案](https://wiki.tox.im/Binaries)。",
+    "notes": "TOX是一个正在建设中的全新的加密通讯系统，它基于一些众所周知的加密库，具有很大的潜力，但尚未通过专业的安全审核。使用请自担风险。\n\nTox目前还没有一个官方的GUI，但开发团队推荐了[一些备选方案](https://wiki.tox.chat/Binaries)。",
     "privacy_url": "",
     "source_url": "https://github.com/irungentoo/toxcore",
     "name": "Tox",
     "tos_url": "",
-    "url": "https://tox.im",
+    "url": "https://tox.chat",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)",
     "protocols": [
       "Tox"
