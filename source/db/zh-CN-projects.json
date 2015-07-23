@@ -6125,14 +6125,14 @@
   {
     "development_stage": "released",
     "description": "Tunnelblick是OS X平台上一个免费开源的OpenVPN图形用户界面。它提供了方便控制的OpenVPN客户端和/或服务器连接。",
-    "license_url": "https://code.google.com/p/tunnelblick/source/browse/trunk/tunnelblick/COPYING",
+    "license_url": "https://raw.githubusercontent.com/Tunnelblick/Tunnelblick/master/tunnelblick/COPYING",
     "logo": "tunnelblick.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://code.google.com/p/tunnelblick/source/checkout",
+    "source_url": "https://github.com/Tunnelblick/Tunnelblick",
     "name": "Tunnelblick",
     "tos_url": "",
-    "url": "https://code.google.com/p/tunnelblick/",
+    "url": "https://tunnelblick.net/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
