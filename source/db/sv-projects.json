@@ -2328,15 +2328,15 @@
   {
     "development_stage": "released",
     "description": "Lokalt, decentraliserat socialt nätverk",
-    "license_url": "https://gitorious.org/statusnet/gnu-social/source/5308e04e83f4a3f04e6d8bf80b177e7208dbac58:COPYING",
+    "license_url": "https://gitlab.com/gnu-social-statusnet/gnu-social/blob/master/COPYING",
     "logo": "gnu-social.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "http://gitorious.org/+socialites/statusnet/gnu-social",
+    "source_url": "https://gitlab.com/gnu-social-statusnet/gnu-social",
     "name": "GNU social",
     "tos_url": "",
-    "url": "https://www.gnu.org/software/social/",
-    "wikipedia_url": "",
+    "url": "https://gnu.io/social/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Social",
     "protocols": [
       "SSL/TLS"
     ],

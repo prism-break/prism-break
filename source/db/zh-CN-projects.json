@@ -2328,15 +2328,15 @@
   {
     "development_stage": "released",
     "description": "自行架设的去中心化社交网络",
-    "license_url": "https://gitorious.org/statusnet/gnu-social/source/5308e04e83f4a3f04e6d8bf80b177e7208dbac58:COPYING",
+    "license_url": "https://gitlab.com/gnu-social-statusnet/gnu-social/blob/master/COPYING",
     "logo": "gnu-social.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "http://gnu.io/",
+    "source_url": "https://gitlab.com/gnu-social-statusnet/gnu-social",
     "name": "GNU social",
     "tos_url": "",
-    "url": "https://www.gnu.org/software/social/",
-    "wikipedia_url": "https://zh.wikipedia.org/wiki/StatusNet",
+    "url": "https://gnu.io/social/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Social",
     "protocols": [
       "SSL/TLS"
     ],
