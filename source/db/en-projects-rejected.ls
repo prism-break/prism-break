@@ -555,6 +555,8 @@ projects-rejected =
     logo: "ms-bitlocker.png"
     name: "BitLocker Drive Encryption"
     categories: [
+      * name: "Servers"
+        subcategories: ["Disk Encryption"]
       * name: "Windows"
         subcategories: ["Disk Encryption"]
     ]
