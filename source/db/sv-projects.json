@@ -3628,14 +3628,14 @@
   {
     "development_stage": "released",
     "description": "Privat socialt nätverk.",
-    "license_url": "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING",
+    "license_url": "https://github.com/edhelas/movim/blob/master/COPYING",
     "logo": "movim.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://code.launchpad.net/movim",
+    "source_url": "https://github.com/edhelas/movim",
     "name": "Movim",
     "tos_url": "",
-    "url": "http://movim.eu/",
+    "url": "https://movim.eu/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Movim",
     "protocols": [
       "SSL/TLS",
