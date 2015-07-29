@@ -144,7 +144,7 @@
     "name": "ArkOS",
     "tos_url": "",
     "url": "https://arkos.io/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/ArkOS",
     "protocols": [],
     "categories": [
       {
@@ -253,7 +253,7 @@
     "description": "Moeda digital P2P, sem autoridade central.",
     "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
     "logo": "bitcoin.png",
-    "notes": "",
+    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
     "privacy_url": "",
     "source_url": "https://github.com/bitcoin/bitcoin",
     "name": "Bitcoin",
@@ -531,7 +531,7 @@
     "name": "Byzantium",
     "tos_url": "",
     "url": "http://project-byzantium.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Byzantium_(Linux_distribution)",
     "protocols": [],
     "categories": [
       {
@@ -619,7 +619,7 @@
     "name": "ChatSecure",
     "tos_url": "",
     "url": "https://chatsecure.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure",
     "protocols": [
       "OTR",
       "XMPP"
@@ -2235,7 +2235,7 @@
     "name": "GitLab",
     "tos_url": "",
     "url": "https://about.gitlab.com/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GitLab",
     "protocols": [],
     "categories": [
       {
@@ -2581,7 +2581,7 @@
     "name": "HTTPS Everywhere",
     "tos_url": "",
     "url": "https://www.eff.org/https-everywhere",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3287,7 +3287,7 @@
     "name": "Libreswan",
     "tos_url": "",
     "url": "https://libreswan.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
     "protocols": [],
     "categories": [
       {
@@ -3420,7 +3420,7 @@
     "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
-    "notes": "",
+    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
     "privacy_url": "",
     "source_url": "https://github.com/litecoin-project/litecoin",
     "name": "Litecoin",
@@ -3949,7 +3949,7 @@
     "name": "nsupdate.info",
     "tos_url": "",
     "url": "https://nsupdate.info/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nsupdate",
     "protocols": [
       "DNS",
       "SSL/TLS"
@@ -4994,7 +4994,7 @@
     "name": "pump.io",
     "tos_url": "",
     "url": "http://pump.io/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pump.io",
     "protocols": [
       "SSL/TLS"
     ],
@@ -5661,53 +5661,53 @@
     "slug": "sylpheed"
   },
   {
-  "development_stage": "released",
-  "description": "Continuous decentralized file synchronization.",
-  "license_url": "https://github.com/syncthing/syncthing/blob/master/LICENSE",
-  "logo": "syncthing.png",
-  "notes": "Syncthing is a self-hosted file sharing platform, so none of your data is ever stored anywhere other than on your computers. There is no central server that might be compromised, legally or illegally. All communication is secured using TLS. The encryption used includes perfect forward secrecy to prevent any eavesdropper from gaining access to your data. Every node is identified by a strong cryptographic certificate. Only nodes you have explicitly allowed can connect to your cluster.",
-  "privacy_url": "",
-  "source_url": "https://github.com/syncthing/syncthing",
-  "name": "Syncthing",
-  "tos_url": "",
-  "url": "https://syncthing.net/",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
-  "protocols": [
-    "SSL/TLS"
-  ],
-  "categories": [
-    {
-      "name": "Android",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    },
-    {
-      "name": "BSD",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    },
-    {
-      "name": "GNU/Linux",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    },
-    {
-      "name": "OS X",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    },
-    {
-      "name": "Windows",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    }
-  ],
-  "slug": "syncthing"
+    "development_stage": "released",
+    "description": "Continuous decentralized file synchronization.",
+    "license_url": "https://github.com/syncthing/syncthing/blob/master/LICENSE",
+    "logo": "syncthing.png",
+    "notes": "Syncthing is a self-hosted file sharing platform, so none of your data is ever stored anywhere other than on your computers. There is no central server that might be compromised, legally or illegally. All communication is secured using TLS. The encryption used includes perfect forward secrecy to prevent any eavesdropper from gaining access to your data. Every node is identified by a strong cryptographic certificate. Only nodes you have explicitly allowed can connect to your cluster.",
+    "privacy_url": "",
+    "source_url": "https://github.com/syncthing/syncthing",
+    "name": "Syncthing",
+    "tos_url": "",
+    "url": "https://syncthing.net/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "slug": "syncthing"
   },
   {
     "development_stage": "released",
@@ -5835,7 +5835,7 @@
     "name": "Tent",
     "tos_url": "",
     "url": "https://tent.io/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tent_%28protocol%29",
     "protocols": [],
     "categories": [
       {
@@ -6485,7 +6485,7 @@
     "name": "Yunohost",
     "tos_url": "",
     "url": "http://yunohost.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/YunoHost",
     "protocols": [],
     "categories": [
       {

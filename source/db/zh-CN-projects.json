@@ -3287,7 +3287,7 @@
     "name": "Libreswan",
     "tos_url": "",
     "url": "https://libreswan.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
     "protocols": [],
     "categories": [
       {
@@ -5661,53 +5661,53 @@
     "slug": "sylpheed"
   },
   {
-  "development_stage": "released",
-  "description": "持续、分布式的文件同步工具。",
-  "license_url": "https://github.com/syncthing/syncthing/blob/master/LICENSE",
-  "logo": "syncthing.png",
-  "notes": "Syncthing是一个自架设的文件分享平台，所以你所有的数据都存储在你自己的电脑里。没有中央服务器会干坏事，不管是合法还是非法的。所有通信都使用TLS保护。所使用的加密包括完全向前保密（perfect forward secrecy），以防止任何窃听者获取你的数据访问。每个节点由一个强大的加密证书识别。只有您明确允许的节点才可以连接到群集。",
-  "privacy_url": "",
-  "source_url": "https://github.com/syncthing/syncthing",
-  "name": "Syncthing",
-  "tos_url": "",
-  "url": "https://syncthing.net/",
-  "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
-  "protocols": [
-    "SSL/TLS"
-  ],
-  "categories": [
-    {
-      "name": "Android",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    },
-    {
-      "name": "BSD",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    },
-    {
-      "name": "GNU/Linux",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    },
-    {
-      "name": "OS X",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    },
-    {
-      "name": "Windows",
-      "subcategories": [
-        "File Storage & Sync"
-      ]
-    }
-  ],
-  "slug": "syncthing"
+    "development_stage": "released",
+    "description": "持续、分布式的文件同步工具。",
+    "license_url": "https://github.com/syncthing/syncthing/blob/master/LICENSE",
+    "logo": "syncthing.png",
+    "notes": "Syncthing是一个自架设的文件分享平台，所以你所有的数据都存储在你自己的电脑里。没有中央服务器会干坏事，不管是合法还是非法的。所有通信都使用TLS保护。所使用的加密包括完全向前保密（perfect forward secrecy），以防止任何窃听者获取你的数据访问。每个节点由一个强大的加密证书识别。只有您明确允许的节点才可以连接到群集。",
+    "privacy_url": "",
+    "source_url": "https://github.com/syncthing/syncthing",
+    "name": "Syncthing",
+    "tos_url": "",
+    "url": "https://syncthing.net/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "slug": "syncthing"
   },
   {
     "development_stage": "released",
