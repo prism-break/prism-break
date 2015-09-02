@@ -6550,5 +6550,86 @@
       }
     ],
     "slug": "zenphoto"
+  },
+  {
+    "development_stage": "released",
+    "description": "Free private messaging and calls to iOS",
+    "license_url": "https://github.com/WhisperSystems/Signal-iOS#license",
+    "logo": "signal.png",
+    "notes": "Forward secrecy for messaging and calls, compatible with TextSecure and RedPhone for Android",
+    "privacy_url": "https://whispersystems.org/#page-top",
+    "source_url": "https://github.com/WhisperSystems/Signal-iOS",
+    "name": "Signal",
+    "tos_url": "",
+    "url": "https://whispersystems.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Whisper_Systems",
+    "protocols": [
+      "OTR, ZRTP"
+    ],
+    "categories": [
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Video & Voice"
+        ]
+      }
+    ],
+    "slug": "signal"
+  },
+  {
+    "development_stage": "released",
+    "description": "An application that provides encrypted voice calls for Android.",
+    "license_url": "https://github.com/WhisperSystems/RedPhone#license",
+    "logo": "redphone.png",
+    "notes": "Compatibe with Signal for iOS",
+    "privacy_url": "https://whispersystems.org/#page-top",
+    "source_url": "https://github.com/WhisperSystems/RedPhone",
+    "name": "RedPhone",
+    "tos_url": "",
+    "url": "https://whispersystems.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Whisper_Systems",
+    "protocols": [
+      "ZRTP"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Video & Voice"
+        ]
+      }
+    ],
+    "slug": "redphone"
+  },
+  {
+    "development_stage": "released",
+    "description": "TextSecure is a messaging app for simple private communication with friends.",
+    "license_url": "https://github.com/WhisperSystems/RedPhone#license",
+    "logo": "textsecure.png",
+    "notes": "Compatibe with Signal for iOS",
+    "privacy_url": "https://whispersystems.org/#page-top",
+    "source_url": "https://github.com/WhisperSystems/TextSecure",
+    "name": "TextSecure",
+    "tos_url": "",
+    "url": "https://whispersystems.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Whisper_Systems",
+    "protocols": [
+      "OTR"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "textsecure"
   }
 ]
