@@ -1613,7 +1613,7 @@
   {
     "development_stage": "released",
     "description": "雷鸟（Thunderbird）和冰鼬鼠（Icedove）上的一个 OpenPGP 加密插件。",
-    "license_url": "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi",
+    "license_url": "https://www.enigmail.net/home/license.php",
     "logo": "enigmail.png",
     "notes": "[这里有一份Security In A Box提供的指南](https://securityinabox.org/en/thunderbird_main) ，指导你用Mozilla Thunderbird、GNU Privacy Guard (GPG)和Enigmail加密自己的邮件。 Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
     "privacy_url": "",
