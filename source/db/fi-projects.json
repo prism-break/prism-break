@@ -5196,16 +5196,16 @@
     "slug": "replicant"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Hallitse, mitkä cross-site requestit sallitaan sivuilla, joilla vierailet.",
-    "license_url": "https://github.com/RequestPolicy/requestpolicy/blob/master/src/LICENSE",
+    "license_url": "https://github.com/RequestPolicyContinued/requestpolicy/blob/dev-1.0/LICENSE",
     "logo": "request-policy.png",
     "notes": "",
-    "privacy_url": "https://www.requestpolicy.com/privacy.html",
-    "source_url": "https://github.com/RequestPolicy/requestpolicy",
+    "privacy_url": "https://requestpolicycontinued.github.io/Privacy.html",
+    "source_url": "https://github.com/RequestPolicyContinued/requestpolicy",
     "name": "Request Policy",
     "tos_url": "",
-    "url": "https://www.requestpolicy.com/",
+    "url": "https://requestpolicycontinued.github.io/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
