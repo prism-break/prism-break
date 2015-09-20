@@ -1,0 +1,53 @@
+#footer
+  clear both
+  p 1em 0
+  f .8em/1.5 sans
+  bg #fff
+  clearfix()
+  relative()
+  z-index 100
+
+  ul.languages
+    mb 1em
+    clearfix()
+    bt 1px solid #ddd
+    bl 1px solid #ddd
+    li
+      fl()
+      w 25%
+      br 1px solid #ddd
+      bb 1px solid #ddd
+      a
+        d block
+        p 0 .5em
+        f 1em/2 sans
+
+        &:hover
+          bg hover
+          c #fff
+
+  ul.nav
+    clear both
+    clearfix()
+    p .75em 1em
+    li
+      float left
+      f 1em/2 sans
+      mr 1em
+      a
+        d block
+        &:hover
+          td underline
+      &.copyright
+        c dim
+        a
+          d inline
+
+  .text-block
+    pt 0
+    f 1em/1.5 sans
+    bb none
+  p
+    f italic 0.9em/1.5 sans
+    c dim
+    pr 1.5em

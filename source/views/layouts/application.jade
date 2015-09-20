@@ -1,0 +1,14 @@
+include footer
+
+doctype html
+html(lang=iso)
+  head
+    include head
+
+  body(class=bodyClass)
+    include header
+
+    #container
+      block content
+
+    mixin footer(path)

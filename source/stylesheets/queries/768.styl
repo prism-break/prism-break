@@ -1,0 +1,83 @@
+body
+  d block
+
+  .filler-columns-two
+    d block
+
+  #header .menu .nav a
+    f 16px/43px sans
+
+  #container
+    p 1em 0 0
+  
+  .content-main
+    m 0 1em
+
+  .section
+    mb 1em
+    bt 1px solid #ddd
+    bl 1px solid #ddd
+    .bar, .card
+      w 50% !important
+      fl()
+      br 1px solid #ddd
+
+  .card.text.max
+    mb 1em
+    b 1px solid #ddd
+
+  .text-block.large
+    bb none
+    m .5em 0
+
+  .box
+    mb 1em
+    b 1px solid #ddd
+    .card.text
+    .card.head
+      bb none
+    .text-block
+      bb none
+      bt 1px solid #ddd
+
+  &.root.index
+    #container
+      p 0
+
+  &.root.index
+  &.protocols.index
+  &.categories.index
+  &.about.index
+
+    .section
+      b 1px solid #ddd
+
+    .pipe
+      w 25%
+      fl()
+      f 16px/44px sans
+      lhh 44px
+      bg #fff
+      bb none
+
+    .bars
+      w 75%
+      fl()
+      bl 1px solid #ddd
+
+    .bar
+      w 100% !important
+      br none
+      &:last-of-type
+        bb none
+      .label
+        fw bold
+    &.ru
+      .pipe
+        w 33%
+
+      .bars
+        w 67%
+
+  #footer
+    bt 1px solid #ddd

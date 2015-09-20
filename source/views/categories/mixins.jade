@@ -1,0 +1,23 @@
+mixin category-head(category)
+  .box
+    .card.text
+      .btn-rectangle
+        .small
+          a(href=routes.root)
+            = t.Platforms
+          = ' / '
+        if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
+          .title= t[category.name]
+        else
+          .title= category.name
+
+    if category.name == 'Android'
+      .text-block.warning!= h.marked(t['warning-android'])
+    else if category.name == 'iOS'
+      .text-block.warning!= h.marked(t['warning-ios'])
+    else if category.name == 'Mac'
+      .text-block.warning!= h.marked(t['warning-mac'])
+    else if category.name == 'Windows'
+      .text-block.warning!= h.marked(t['warning-windows'])
+    else if category.name == 'Servers'
+      .text-block.warning!= h.marked(t['server-os-notes'])

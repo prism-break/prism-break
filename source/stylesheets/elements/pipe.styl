@@ -1,0 +1,49 @@
+.pipe
+  d block
+  h 22px
+  f bold .75em/21px sans
+  c #333
+  p 0 1em
+  bb 1px solid #ddd
+  bg bg2
+  white-space nowrap
+  overflow hidden
+  text-overflow ellipsis
+
+  &.positive, &.negative
+    i.fa
+      fr()
+      mr -1em
+      ml .5em
+      w 44px
+      lhh 21px
+      ta center
+      c #fff
+      c w90
+      bl 1px solid #ddd
+  &.positive i.fa
+    bg hsla(210,100,50,.80)
+  &.negative i.fa
+    bg hsla(340,100,50,.80)
+
+
+  &.subtle
+    font-weight normal
+
+    &.active
+      bg link !important
+      c #fff
+
+body.all.index
+  .pipe.subtle
+    bb 1px dotted #ddd
+    lhh 19px
+
+a.pipe
+  c #333
+  &:hover
+    c hover
+    bg m245
+  &:active
+    c hover
+    bg m235

@@ -1,0 +1,181 @@
+body.ar
+body.fa
+body.he
+
+  direction: rtl
+
+  .ltr
+    d none
+  .rtl
+    d block
+
+  #header
+    a#brand
+      fr()
+
+    .menu
+      fl()
+      .nav
+        fr()
+
+  #footer
+    ul.nav li
+      fr()
+    p
+      pr 0
+      pl 1.5em
+        
+  .pipe
+    &.positive, &.negative
+      i.fa
+        fl()
+        ml -1em
+        mr .5em
+        bl none
+        br 1px solid #ddd
+
+  .bar
+    ta right
+
+    .label
+      fr()
+      mr 0
+
+      .logo, i.fa
+        fr()
+        m 8px 0 0 12px
+
+    .icon
+      left 0
+      right auto
+      margin-left 0
+      margin-right 1em
+
+  .card
+    .btn-rectangle
+      fr()
+
+    .btn-square
+      absolute()
+      top 0
+      left 0
+      right inherit
+      bl none
+      br 1px solid #eee
+
+    .card-logo
+      mr 0
+      ml x*0.75
+
+    .title
+      mr 0
+      ml 44px
+
+    .small
+      mr 0
+      ml 44px
+
+  .card.head, .card.text
+    .card-logo
+      mr 0
+      ml x*0.875
+
+  .card-logo
+    fr()
+    mr 0
+    ml x*0.75
+
+@media (min-width: 481px)
+  body.ar
+  body.fa
+  body.he
+    .section
+      .bar, .card
+        fr()
+        br none
+        bl 1px solid #ddd
+
+@media (min-width: 768px)
+  body.ar
+  body.fa
+  body.he
+    .section
+      bl none
+      br 1px solid #ddd
+
+    &.root.index
+    &.protocols.index
+    &.categories.index
+    &.about.index
+
+      .pipe
+        fr()
+
+      .bars
+        fr()
+        bl none
+        br 1px solid #ddd
+
+      .bar
+        bl none
+
+@media (min-width: 980px)
+  body.ar
+  body.fa
+  body.he
+
+    .content-side
+      fr()
+
+      .text-block
+        pl 1.5em
+        pr .5em
+
+      .section
+        ml 0
+        mr 1em
+        br none
+        .bar
+          bl none
+          &.child
+            pl 0
+            pr 2em
+
+
+    .content-main
+      fr()
+
+    &.all.index
+    &.categories.show
+    &.subcategories.show
+    &.protocols.show
+    &.projects.show
+      #container
+        .content-side
+          .section
+            m 0 0 0 1em
+        .content-main
+          fl()
+
+@media (min-width: 1200px)
+  body.ar
+  body.fa
+  body.he
+
+    .sections
+
+      .division
+        float left !important
+      .section
+
+        &.free
+          .pipe
+            br none
+            bl 1px solid #ddd
+
+        &.prop
+          float left !important
+          br none
+          .bar
+            bl none
+

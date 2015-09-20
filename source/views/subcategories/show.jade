@@ -1,0 +1,62 @@
+include ../layouts/mixins
+include ../projects/mixins
+include ../subcategories/mixins
+extends ../layouts/application
+block title
+  = t[data.subcategory.name] + ' - '
+  = data.category.name
+block content
+
+  .content-main
+    mixin subcategory-head(data)
+
+    .area
+      .sections
+        .division
+
+          .section.free
+            .pipe.positive
+              = t['Free Recommendations']
+              i.fa.fa-check
+
+            - each project in data.projects
+              mixin project-card(project)
+
+            mixin filler-cards(data.projects)
+
+          - var notes = t[data.subcategory.slug + '-notes']
+          - if (notes !== "--" && notes !== undefined)
+            .section.notes
+              .pipe= t.Notes
+              .text-block!= notes
+
+        if(data.projectsRejected.length > 0)
+          .section.prop
+            .pipe.negative
+              = t.Proprietary
+              i.fa.fa-times
+
+            - each project in data.projectsRejected
+              .bar.negative
+                .label
+                  img.logo(src=routes.logosRejected + project.logo, alt=project.logo)
+                  = project.name
+
+            mixin filler-bars(data.projectsRejected)
+        else
+          .section.prop.empty
+            .pipe= t.Proprietary
+
+  .content-side
+    .section
+
+      a.pipe(href=routes.categories + data.category.slug)
+        = data.category.name + ' '
+
+      - each subcat in data.category.subcategories
+
+          if subcat.name === data.subcategory.name
+            .pipe.subtle.active= t[subcat.name]
+
+          else
+            a.pipe.subtle(href=routes.subcategories + data.category.slug + '-' + subcat.slug)= t[subcat.name]

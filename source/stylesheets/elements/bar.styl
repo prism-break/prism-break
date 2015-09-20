@@ -1,0 +1,81 @@
+.bar
+  d block
+  h 44px
+  w 100%
+  p 0 1em
+  ta left
+  f 1em/43px sans
+  c #333
+  bg #fff
+  b none
+  bb 1px solid #ddd
+  relative()
+  &.warning
+    c #f00
+  &.negative
+    c dim
+    .icon
+      c light
+
+  &.active
+    bg link
+    .label
+      c #fff
+      i.fa
+        c #fff
+    .icon
+      c hsl(lhue,100,75) !important
+
+  &.title
+    bb none
+    bt 1px solid txt
+    c txt
+    p 0 .6em
+    .label
+      c txt
+
+  .label
+    fl()
+    white-space nowrap
+    overflow hidden
+    text-overflow ellipsis
+
+    .logo, i.fa
+      d block
+      w 28px
+      h 28px
+      fl()
+      m 8px 12px 0 0
+
+    i.fa
+      s 24px
+      lh 28px
+      ta center
+      c link
+      &.large
+        s 30px
+
+  .icon
+    absolute()
+    top 0
+    right 0
+    w 44px
+    ta center
+    c dim
+    i.fa
+      lh 43px
+
+a.bar
+  cursor pointer
+  .label
+    c link
+  &:hover
+    c #000
+    bg m245
+  &:active
+    c #000
+    bg m235
+  &.title
+    .label
+      &:hover
+        bg #eee

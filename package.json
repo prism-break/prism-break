@@ -1,11 +1,44 @@
 {
   "name": "prism-break",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-stylus": "~0.5.1",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-watch": "~0.4.4"
-  }
+  "version": "0.2.5",
+  "description": "A directory of free privacy-oriented software.",
+  "main": "Makefile",
+  "dependencies": {
+    "LiveScript": "~1.3.0",
+    "jade": "~1.7.0",
+    "mkdirp": "~0.3.x",
+    "nib": "~1.0.4",
+    "prelude-ls": "~1.1.1",
+    "require-all": "~0.0.8",
+    "stylus": "~0.49.1",
+    "uglify-js": "~2.4.15",
+    "marked": "~0.3.2",
+    "graceful-fs": "~3.0.3",
+    "moment": "~2.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nylira/prism-break.git"
+  },
+  "keywords": [
+    "prism",
+    "nsa",
+    "surveillance",
+    "privacy",
+    "xkeyscore",
+    "tempora",
+    "foss",
+    "alternatives",
+    "software"
+  ],
+  "author": "Peng Zhong",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nylira/prism-break/issues"
+  },
+  "homepage": "https://github.com/nylira/prism-break"
 }

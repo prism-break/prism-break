@@ -1,0 +1,65 @@
+include ../projects/mixins
+include ../layouts/mixins
+include ../categories/mixins
+include ../subcategories/mixins
+extends ../layouts/application
+block title
+  if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
+    = t[category.name]
+  else
+    = category.name
+  = ' - ' + t.Platforms
+block content
+
+  .content-main
+
+    mixin category-head(category)
+
+    - each subcategory in category.subcategories
+
+      .area
+        mixin subcategory-title(category, subcategory)
+
+        .sections
+          .division
+            .section.free
+              .pipe.positive
+
+                = t['Free Recommendations']
+                i.fa.fa-check
+
+              - each project in subcategory.projects
+                mixin project-card(project)
+
+              mixin filler-cards(subcategory.projects)
+
+            - var notes = t[subcategory.slug + '-notes']
+            - if (notes !== "--" && notes !== undefined)
+              .section.notes
+                .pipe= t.Notes
+                .text-block!= notes
+
+          if(subcategory.projectsRejected.length > 0)
+            .section.prop
+              .pipe.negative
+                = t.Proprietary
+                i.fa.fa-times
+              - each project in subcategory.projectsRejected
+                .bar.negative
+                  .label(title=project.name)
+                    img.logo(src=routes.logosRejected + project.logo, alt=project.logo)
+                    = project.name
+
+              mixin filler-bars(subcategory.projectsRejected)
+          else
+            .section.prop.empty
+              .pipe= t.Proprietary
+
+  .content-side
+    .section
+
+      .pipe
+        = t.Categories
+
+      - each subcategory in category.subcategories
+        a.pipe.subtle(href="##{subcategory.slug}" title=t[subcategory.name])= t[subcategory.name]

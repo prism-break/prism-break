@@ -1,0 +1,40 @@
+extends ../layouts/application
+block title
+  = t.About
+block content
+  .content-side
+    .text-block.large!= h.marked(t['site-about-index'])
+
+  .content-main
+    .section
+      .pipe= t.About
+      .bars
+        a.bar(href="./media")
+          .label= t['Media Mentions']
+          .icon
+            i.fa.fa-angle-right.ltr
+            i.fa.fa-angle-left.rtl
+
+        //-
+          a.bar(href="./privacy")
+            .label= t['Privacy Policy']
+            .icon
+              i.fa.fa-angle-right.ltr
+              i.fa.fa-angle-left.rtl
+
+    .section
+      .pipe= t.Development
+
+      .bars
+        a.bar(href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw")
+          .label= t['Donate Bitcoin']
+          .icon: i.fa.fa-bitcoin
+
+        a.bar(href="https://github.com/nylira/prism-break/issues")
+          .label= t['Issues Tracker']
+          .icon: i.fa.fa-external-link-square
+
+        a.bar(href="https://github.com/nylira/prism-break")
+          .label= t['Source Code']
+          .icon: i.fa.fa-external-link-square
+

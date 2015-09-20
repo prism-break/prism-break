@@ -1,0 +1,19 @@
+mixin subcategory-head(data)
+  .card.text.max
+    .btn-rectangle
+      .small
+        a(href=routes.root)
+          = t.Platforms
+        = ' / '
+        a(href=routes.categories + data.category.slug)
+          = data.category.name
+        = ' / '
+      .title= t[data.subcategory.name]
+
+mixin subcategory-title(category, subcategory)
+  a.bar.title(id=subcategory.slug href="#{routes.subcategories}#{category.slug}-#{subcategory.slug}")
+    .label= t[subcategory.name]
+
+mixin subcategory-title-nolink(subcategory)
+  .bar.title(id=subcategory.slug)
+    .label= t[subcategory.name]

@@ -1,0 +1,36 @@
+#header
+  
+  a#brand(href=routes.root)
+    strong PRISM
+    span.lightning  &#9889; 
+    | Break 
+
+  .menu
+
+    .nav.nav-all
+      if path == 'all'
+        a.active(href=routes.all)= t['All Projects']
+      else
+        a(href=routes.all)= t['All Projects']
+
+    .nav.nav-platforms
+      if path == ''
+        a.active(href=routes.root)= t.Platforms
+      else
+        a(href=routes.root)= t.Platforms
+
+    .nav.nav-protocols
+      if path == 'protocols'
+        a.active(href=routes.protocols)= t.Protocols
+      else
+        a(href=routes.protocols)= t.Protocols
+
+    .nav.nav-about
+      if path == 'about'
+        a.active(href=routes.about)= t.About
+      else
+        a(href=routes.about)= t.About
+
+    .nav.nav-donate
+      a#donate(href="bitcoin:1NAfx5GEZHR8t69LjxTeShPP4XXaxeUqQw")
+        = t['Donate Bitcoin']

@@ -1,0 +1,30 @@
+include ../projects/mixins
+extends ../layouts/application
+block title
+  = project.name + ' - '
+  = t.Projects
+block content
+
+  .content-main
+    mixin project-head(project)
+    mixin project-tail(project)
+
+  .content-side
+
+    .section
+      a.pipe(href=routes.root)
+        = t['Platform Support']
+
+      - each cat in project.categories
+
+        a.bar.parent(href=routes.categories + cat.slug)
+          .label
+            if cat.name == "Routers" || cat.name == "Servers" || cat.name == "Web Services"
+              = t[cat.name]
+            else
+              = cat.name
+
+        - each subcat in cat.subcategories
+
+          a.bar.child(href=routes.subcategories+cat.slug+'-'+subcat.slug)
+            .label= t[subcat.name]

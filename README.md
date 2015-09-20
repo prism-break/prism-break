@@ -1,56 +1,79 @@
-# https://prism-break.org
+# PRISM Break
 
-Contributors are welcome.
+Welcome to the PRISM Break project. Here's a quick overview of the code. JSON containing all of the project data is filtered through [LiveScript](http://livescript.net/) and then compiled to plain HTML with [Jade](http://jade-lang.com/) templates. Stylesheets are managed with [Stylus](http://learnboost.github.io/stylus/), a CSS preprocessor.
 
-## App inclusion guidelines
+The prism-break build process relies on several npm packages. Make sure to have [io.js](http://iojs.org) or [node.js](http://nodejs.org/) installed on your system if you want to contribute to the code.
 
-* **In almost all cases, only free software is allowed to be featured on PRISM Break.** The only exception is when free software offers no viable alternative to proprietary software. "Web search" is the only category with this exception currently.
-* **Quality over quantity.** PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
-* **Before suggesting software, please first search this repository to see if your request has already been made.** If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
-* **Pull requests are heavily prioritized over issues.** I will respond to them quicker and they will get an answer faster.
-* **Software thumbnails should be 256-color, non-transparent PNGs.** A 50x50 png in the `lib/img/free` directory is good.
-* **If you have the time, please include translation stubs in all of the language JSON files.** You'll save us a lot of time, and make translators happy. If you're adding the project Whonix for example, add the following line to every single JSON file in `lang/`:
+If you'd like to translate the project to your favorite language, there's no need to install io.js or even download the code. Just edit the appropriate JSON files on GitHub and submit a pull request.
 
-    `"i18n-whonix-desc": "Tor-enforcing OS focused on anonymity, privacy and security. Offers ready-to-use VM images.",`
+More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-## Localizations
+## Project Inclusion Guidelines
 
-For anyone who's interested in working on localizing this site, please look into the `lang/` directory of this repository. There are some sample translation JSON files there. To start, just make a copy of the en.json file and start filling it out.
+ - **Only F/OSS software is allowed to be featured on PRISM Break.**
 
-**Please note:** The canonical version of the site text is contained in `./index.html` and `./lang/en.json`. The strings contained in the `xx.json` files may be out of date, as they need to be updated manually by volunteer translators. Please refer to the text contained in `./lang/en.json` when developing your translations to ensure your translation file is 100% up-to-date.
+PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
 
-**Test to make sure your [JSON validates](http://jsonformatter.curiousconcept.com/).** A common mistake when editing JSON is putting unescaped quotation marks in a string. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
+ - **Quality over quantity.**
 
-    "i18n-web-browser-note": "Add curly quotes &ldquo;like this&rdquo;.",
+PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
 
-    "i18n-web-browser-note": "Add straight quotes \"like this\".",
+ - **Before suggesting software, please first search this repository to see if your request has already been made.**
 
-    "i18n-web-browser-note": "You should never add quotes "like this".",
+If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
 
-Bear in mind that the site is being constantly updated, so you may want to check back every so often.
+ - **Pull requests are prioritized over issues.**
 
-### Adding your own JSON stubs
+I will respond to them quicker and they will get an answer faster.
 
-You may find that a particular string of text, e.g. `"i18n-whonix-desc"`, does not exist in your preferred language's JSON file. Feel free to add it to your file, just like this:
 
-    "i18n-whonix-desc": "Your fantastic translation here.",
+## Project Submission (quick version)
 
-## HTML edits
+### 1. Edit
 
-Just edit the HTML.
-    
-## CSS & JS edits
+Add the project you wish to get listed.
 
-Please edit the files in the `src` directory, not `lib`. This project relies on Grunt for CSS and JS concatenation and minification. 
+    vi ./source/db/en-projects.json                  # edit or add a project
 
-    # Install Grunt
+    cp project.png ./source/assets/images/logos/medium/    # put 60x60 PNG here
 
-    npm install -g grunt-cli
+### 2. Test
 
-    # Watch for changes
+Make sure your edits do not break the site by building the English version of PRISM Break. Open the pages to make sure it all works.
 
-    grunt watch
+    npm install
+    make test      # builds ./public/en for preview purposes
+
+### 3. Translate
+
+You edited the `en-projects.json` file earlier. This only creates a project description for the English version of PRISM Break. Please copy the project description to all the other language files, so translators work on it more easily.
+
+    # Copying your edits to *-projects.json
+    ./source/db/*-projects.json
+
+At this point, feel free to commit the changes and submit a pull request. Steps #4 and #5 are only necessary if you want to build your own copy of the site.
+
+### 4. Build
+
+    make           # get a drink, it'll take a while build all 27 languages
+
+    make reset     # making a drastic change? run this instead of `make`
+                   # this will vaporize /public before running `make`
+
+### 5. Serve
+
+Serve the folder [`./public`](./public/) on your web server.
+
+### Need more details on how to submit a project or a translation?
+
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for more detail into the process.
+
+### Want to help contribute to pending work?
+
+Search for open issues with the ["pull requested accepted"](https://github.com/nylira/prism-break/labels/pull%20request%20accepted) label.
 
 ## License
 
-See `LICENSE.md`
+GPLv3.
+
+See [`LICENSE.md`](LICENSE.md).

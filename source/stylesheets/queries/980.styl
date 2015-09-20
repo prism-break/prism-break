@@ -1,0 +1,86 @@
+body
+  max-width 960px
+
+  #container
+    p 2em 0 1em
+
+  .content-side
+    d block
+    fl()
+    w 33.33%
+
+    .text-block
+      bb none
+      pt 0
+      pl .5em
+      pr 1.5em
+
+    .section
+      ml 1em
+      bl none
+      .pipe
+        &.subtle
+          bg #fff
+      .bar
+        float none !important
+        w 100% !important
+        f .75em sans
+        lhh 2em
+        br none
+        .logo, i.fa, .icon
+          d none
+        &.parent
+          fw bold
+        &.child
+          pl 2em
+
+
+  .content-main
+    fl()
+    m 0
+    w 66.67%
+
+  .text-block.large 
+    m 0
+    strong
+      pb .75em
+      mb .75em
+      bb 1px solid #ddd
+
+  #footer
+    p 2em 0
+    .content-main
+      m 0
+    ul.nav
+      p 0 .5em 1em
+
+  &.root.index
+    #container
+      p 2em 0 1em
+
+  &.categories.show
+  &.subcategories.show
+  &.protocols.show
+  &.projects.show
+  &.all.index
+    #container
+      .content-side
+        w 20%
+      .content-main
+        w 80%
+
+  &.categories.show
+  &.subcategories.show
+  &.all.index
+    #container
+      .content-side
+        w 192px !important
+        position fixed
+        top x*2 + 44px
+        margin-left 768px
+        bg #fff
+        z-index 100
+      .content-main
+        mr 20%
+        .box
+          mb 3em

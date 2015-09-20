@@ -1,0 +1,41 @@
+#header
+  border-bottom 1px solid #ddd
+  bg #fff
+  h 44px
+  clearfix()
+
+  a#brand
+    p 0 .75em
+    fl()
+    text-transform uppercase
+    font 1em/43px sans
+    c txt
+
+    .lightning
+      c light
+
+    &:hover,
+    &:hover .lightning
+      color #09c
+
+  .menu
+    fr()
+    .nav
+      fl()
+      &.nav-all
+      &.nav-donate
+      &.nav-platforms
+        d none
+
+      a
+        d block
+        p 0 (.75/.8em)
+        f .8em/43px sans
+        &:hover
+          c hover
+        &:active
+          c link
+        &.active
+          fw bold
+          c txt
+          cursor default

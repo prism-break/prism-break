@@ -1,0 +1,45 @@
+include mixins
+include ../layouts/mixins
+include ../projects/mixins
+extends ../layouts/application
+block title
+  = protocol.name + ' - '
+  = t.Protocols
+block content
+
+  .content-main
+    mixin protocol-head(protocol)
+
+    .section
+      .pipe.positive
+        = t['Projects Supported']
+        i.fa.fa-check
+      - each project in protocol.projects
+        mixin project-card-all(project)
+
+      mixin filler-cards(protocol.projects)
+
+  .content-side
+    .section
+
+      a.pipe(href=routes.protocols)
+        = t.Protocols
+
+      - each protocolType in protocolTypes
+
+        .pipe.subtle(title=t[protocolType.name])= t[protocolType.name]
+
+        - each pro in protocolType.protocols
+          if pro.name === protocol.name
+            .bar.active.child
+              .label
+                = pro.name
+              .icon: i.fa.fa-dot-circle-o
+
+          else
+            a.bar.child(href=routes.protocols + pro.slug)
+              .label
+                = pro.name
+              .icon
+                i.fa.fa-angle-right.ltr
+                i.fa.fa-angle-left.rtl
