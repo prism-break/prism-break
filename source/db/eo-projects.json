@@ -1140,35 +1140,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Free open source client for the Desura distribution service.",
-    "license_url": "https://github.com/lindenlab/desura-app/blob/master/LICENSE.md",
-    "logo": "desurium.png",
-    "notes": "Desura is client software. You will still have to trust and depend on the proprietary <a href='http://www.desura.com'>Desura service</a>.",
-    "privacy_url": "",
-    "source_url": "https://github.com/lindenlab/desura-app",
-    "name": "Desura",
-    "tos_url": "",
-    "url": "http://www.desura.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Desura",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Digital Distribution"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Digital Distribution"
-        ]
-      }
-    ],
-    "slug": "desurium"
-  },
-  {
-    "development_stage": "released",
     "description": "Disa socia reto subtenita per la komunumo.",
     "license_url": "https://github.com/diaspora/diaspora/blob/develop/COPYRIGHT",
     "logo": "diaspora.png",
