@@ -734,19 +734,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "steam.png"
-    name: "Steam"
-    categories: [
-      * name: "GNU/Linux"
-        subcategories: ["Digital Distribution"]
-      * "name": "OS X"
-        subcategories: ["Digital Distribution"]
-      * name: "Windows"
-        subcategories: ["Digital Distribution"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
     logo: "symantec.png"
     name: "Symantec Drive Encryption"
     categories: [
