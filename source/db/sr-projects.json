@@ -5109,33 +5109,93 @@
   },
   {
     "development_stage": "released",
-    "description": "Decentralised and distributed identity, communications and publication network.",
-    "license_url": "https://github.com/redmatrix/redmatrix/blob/master/LICENSE",
-    "logo": "redmatrix.png",
+    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "license_url": "https://github.com/redmatrix/hubzilla/blob/master/LICENSE",
+    "logo": "hubzilla.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://github.com/redmatrix/redmatrix",
-    "name": "RedMatrix",
+    "source_url": "https://github.com/redmatrix/hubzilla",
+    "name": "Hubzilla",
     "tos_url": "",
-    "url": "https://redmatrix.me/",
+    "url": "https://hubzilla.org/",
     "wikipedia_url": "",
     "protocols": [
-      "RSS",
+      "Zot",
+	  "RSS",
       "SSL/TLS",
-      "XMPP",
       "WebDAV"
     ],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks",
+		  "Bookmark Sync",
+		  "Communication Protocols",
+		  "File Storage & Sync",
           "Media Publishing",
-          "Communication Protocols"
+		  "Productivity",
+          "Social Networks"      
         ]
-      }
+      },
+     {
+        "name": "BSD",
+        "subcategories": [
+		  "Bookmark Sync",
+		  "File Storage & Sync",
+          "Media Publishing",
+		  "Productivity",
+          "Social Networks"
+        ]
+      },
+     {
+        "name": "GNU/Linux",
+        "subcategories": [
+		  "Bookmark Sync",
+		  "File Storage & Sync",
+          "Media Publishing",
+		  "Productivity",
+          "Social Networks"
+        ]
+      },
+     {
+        "name": "OS X",
+        "subcategories": [
+		  "Bookmark Sync",
+		  "File Storage & Sync",
+          "Media Publishing",
+		  "Productivity",
+          "Social Networks"
+        ]
+      },
+     {
+        "name": "Windows",
+        "subcategories": [
+		  "Bookmark Sync",
+		  "File Storage & Sync",
+          "Media Publishing",
+		  "Productivity",
+          "Social Networks"
+        ]
+      },
+     {
+        "name": "Android",
+        "subcategories": [
+		  "File Storage & Sync",
+          "Media Publishing",
+		  "Productivity",
+          "Social Networks"
+        ]
+      },
+     {
+        "name": "iOS",
+        "subcategories": [
+          "Media Publishing",
+		  "Productivity",
+          "Social Networks"
+        ]
+      },
     ],
-    "slug": "redmatrix"
+    "slug": "hubzilla"
   },
   {
     "development_stage": "released",
