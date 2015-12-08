@@ -6544,5 +6544,58 @@
       }
     ],
     "slug": "zenphoto"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "Decentralized P2P digital currency based in Bitcoin that offers increased privacy, instant transactions and a built-in decentralized governance system. All the additional features are possible thanks to an innovative network structure that incentivizes nodes run by volunteers around the globe.",
+    "license_url": "https://github.com/dashpay/dash/blob/master/COPYING",
+    "logo": "dash.png",
+    "notes": "Dash has a public blockchain like Bitcoin, but the wallet lets users mix their funds with other users to make transactions private. This is done securely because Dash uses the fact that transactions can be formed by multiple parties. The user is really paying himself, but no third party can know for sure because at least three users do the same in that specific transaction. Previously, the funds are splitted in common denominations, so the amounts are all the same and that information cannot be used to follow the funds. Mixing sessions are chained one after another for added security. More details available <a href='https://www.dash.org/darksend/'>here</a>.\n\nPlease note that privacy is not a switch you can turn on and off at will, no technology can do everything and you need to be always be in control of your information and understand how it moves around.\n\nAlso note that the price of new, digital currencies may be very volatile and the technology is in experimental phase. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, market manipulation etc.).",
+    "privacy_url": "",
+    "source_url": "https://github.com/dashpay/dash",
+    "name": "Dash",
+    "tos_url": "",
+    "url": "http://dash.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Finance"
+        ]
+      }
+    ],
+    "slug": "dash"
   }
 ]
