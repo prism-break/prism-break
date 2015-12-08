@@ -153,15 +153,6 @@
     }]
   },
   {
-    "name": "Zot",
-    "full_name": "Zot",
-    "description": "Zot is the protocol that currently powers Hubzilla and the now defunct Redmatrix. It provides three core capabilities: Communications, Identity, and Access Control. Zot is a protocol which provides decentralised communications and identity management across the grid, like (but not limited to) social networking. Any channel (and any services provided by that channel) can make full use of feature-rich social communications on a global scale. These communications may be public or private - and private communications comprise not only fully encrypted transport, but also encrypted storage to help protect against accidental snooping and disclosure by rogue system administrators and internet service providers.",
-    "wikipedia_url": "",
-    "categories": [{
-      "name": "Communication"
-    }]
-  },
-  {
     "name": "ActiveSync",
     "full_name": "Exchange ActiveSync",
     "description": "Exchange ActiveSync allows a mobile device to be synchronized with either a desktop PC or a server running a compatible software product. It is not an Open Standard but widely used and supported.",
