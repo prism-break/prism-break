@@ -5117,7 +5117,7 @@
     "source_url": "https://github.com/redmatrix/hubzilla",
     "name": "Hubzilla",
     "tos_url": "",
-    "url": "https://hubzilla.org/",
+    "url": "http://hubzilla.org/",
     "wikipedia_url": "",
     "protocols": [
 	  "RSS",
@@ -5137,57 +5137,10 @@
         ]
       },
      {
-        "name": "BSD",
+        "name": "Web Services",
         "subcategories": [
 		  "Bookmark Sync",
 		  "File Storage & Sync",
-          "Media Publishing",
-		  "Productivity",
-          "Social Networks"
-        ]
-      },
-     {
-        "name": "GNU/Linux",
-        "subcategories": [
-		  "Bookmark Sync",
-		  "File Storage & Sync",
-          "Media Publishing",
-		  "Productivity",
-          "Social Networks"
-        ]
-      },
-     {
-        "name": "OS X",
-        "subcategories": [
-		  "Bookmark Sync",
-		  "File Storage & Sync",
-          "Media Publishing",
-		  "Productivity",
-          "Social Networks"
-        ]
-      },
-     {
-        "name": "Windows",
-        "subcategories": [
-		  "Bookmark Sync",
-		  "File Storage & Sync",
-          "Media Publishing",
-		  "Productivity",
-          "Social Networks"
-        ]
-      },
-     {
-        "name": "Android",
-        "subcategories": [
-		  "File Storage & Sync",
-          "Media Publishing",
-		  "Productivity",
-          "Social Networks"
-        ]
-      },
-     {
-        "name": "iOS",
-        "subcategories": [
           "Media Publishing",
 		  "Productivity",
           "Social Networks"
