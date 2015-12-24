@@ -1,83 +1,87 @@
 RewriteEngine On
 
 
+RewriteCond %{REQUEST_URI} ^/(assets|ar|ca|de|el|en|eo|es|fa|fi|fr|he|hi|io|it|ja|nl|no|pl|pt|ru|sr-Cyrl|sr|sv|tr|zh-CN|zh-TW)/
+RewriteRule ^.*$ - [L]
+
+
 RewriteCond %{HTTP:Accept-Language} ^ar [NC]
-RewriteRule ^$ ./ar [L]
+RewriteRule ^.*$ /ar%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^ca [NC]
-RewriteRule ^$ ./ca [L]
+RewriteRule ^.*$ /ca%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^de [NC]
-RewriteRule ^$ ./de [L]
+RewriteRule ^.*$ /de%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^el [NC]
-RewriteRule ^$ ./el [L]
+RewriteRule ^.*$ /el%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^en [NC]
-RewriteRule ^$ ./en [L]
+RewriteRule ^.*$ /en%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^eo [NC]
-RewriteRule ^$ ./eo [L]
+RewriteRule ^.*$ /eo%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^es [NC]
-RewriteRule ^$ ./es [L]
+RewriteRule ^.*$ /es%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^fa [NC]
-RewriteRule ^$ ./fa [L]
+RewriteRule ^.*$ /fa%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^fi [NC]
-RewriteRule ^$ ./fi [L]
+RewriteRule ^.*$ /fi%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^fr [NC]
-RewriteRule ^$ ./fr [L]
+RewriteRule ^.*$ /fr%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^he [NC]
-RewriteRule ^$ ./he [L]
+RewriteRule ^.*$ /he%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^hi [NC]
-RewriteRule ^$ ./hi [L]
+RewriteRule ^.*$ /hi%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^io [NC]
-RewriteRule ^$ ./io [L]
+RewriteRule ^.*$ /io%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^it [NC]
-RewriteRule ^$ ./it [L]
+RewriteRule ^.*$ /it%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^ja [NC]
-RewriteRule ^$ ./ja [L]
+RewriteRule ^.*$ /ja%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^nl [NC]
-RewriteRule ^$ ./nl [L]
+RewriteRule ^.*$ /nl%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^no [NC]
-RewriteRule ^$ ./no [L]
+RewriteRule ^.*$ /no%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^pl [NC]
-RewriteRule ^$ ./pl [L]
+RewriteRule ^.*$ /pl%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^pt [NC]
-RewriteRule ^$ ./pt [L]
+RewriteRule ^.*$ /pt%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^ru [NC]
-RewriteRule ^$ ./ru [L]
+RewriteRule ^.*$ /ru%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^sr-Cyrl [NC]
-RewriteRule ^$ ./sr-Cyrl [L]
+RewriteRule ^.*$ /sr-Cyrl%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^sr [NC]
-RewriteRule ^$ ./sr [L]
+RewriteRule ^.*$ /sr%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^sv [NC]
-RewriteRule ^$ ./sv [L]
+RewriteRule ^.*$ /sv%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^tr [NC]
-RewriteRule ^$ ./tr [L]
+RewriteRule ^.*$ /tr%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^zh-TW [NC]
-RewriteRule ^$ ./zh-TW [L]
+RewriteRule ^.*$ /zh-TW%{REQUEST_URI} [R,L]
 
 RewriteCond %{HTTP:Accept-Language} ^zh [NC]
-RewriteRule ^$ ./zh-CN [L]
+RewriteRule ^.*$ /zh-CN%{REQUEST_URI} [R,L]
 
 
-RewriteRule ^$ ./en [L]
+RewriteRule ^.*$ /en%{REQUEST_URI} [R,L]
