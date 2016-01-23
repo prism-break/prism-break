@@ -1291,6 +1291,31 @@
   },
   {
     "development_stage": "released",
+    "description": "A free DNSCrypt enabled, non-logging, uncensored, recursive DNS server with DNSSEC support based in Iceland.",
+    "license_url": "",
+    "logo": "dnscryptis.png",
+    "notes": "",
+    "privacy_url": "https://dnscrypt.is",
+    "source_url": "",
+    "name": "DNSCrypt.is",
+    "tos_url": "",
+    "url": "https://dnscrypt.is",
+    "wikipedia_url": "",
+    "protocols": [
+      "DNS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "DNS"
+        ]
+      }
+    ],
+    "slug": "dnscryptis"
+  },
+  {
+    "development_stage": "released",
     "description": "DragonFly BSD是一个自由授权的类UNIX操作系统，衍生自FreeBSD 4.8。开发者Matthew Dillon，在20世纪80年代后期到90年代前期曾是Amiga的开发者，1994年到2003年间参与FreeBSD的开发。2003年6月，他开始开发DragonFly BSD并在7月16号将其发布在FreeBSD的邮寄清单上。",
     "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
     "logo": "dragonfly-bsd.png",

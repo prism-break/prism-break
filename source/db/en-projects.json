@@ -1291,6 +1291,56 @@
   },
   {
     "development_stage": "released",
+    "description": "A free DNSCrypt enabled, non-logging, uncensored, recursive DNS server with DNSSEC support based in Iceland.",
+    "license_url": "",
+    "logo": "dnscryptis.png",
+    "notes": "",
+    "privacy_url": "https://dnscrypt.is",
+    "source_url": "",
+    "name": "DNSCrypt.is",
+    "tos_url": "",
+    "url": "https://dnscrypt.is",
+    "wikipedia_url": "",
+    "protocols": [
+      "DNS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "DNS"
+        ]
+      }
+    ],
+    "slug": "dnscryptis"
+  },
+  {
+    "development_stage": "released",
+    "description": "A free DNSCrypt enabled, non-logging, uncensored, recursive DNS server with DNSSEC support based in Iceland.",
+    "license_url": "",
+    "logo": "dnscryptis.png",
+    "notes": "",
+    "privacy_url": "https://dnscrypt.is",
+    "source_url": "",
+    "name": "DNSCrypt.is",
+    "tos_url": "",
+    "url": "https://dnscrypt.is",
+    "wikipedia_url": "",
+    "protocols": [
+      "DNS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "DNS"
+        ]
+      }
+    ],
+    "slug": "dnscryptis"
+  },
+  {
+    "development_stage": "released",
     "description": "Free Unix-like operating system created as a fork of FreeBSD 4.8. Matthew Dillon, an Amiga developer in the late 1980s and early 1990s and a FreeBSD developer between 1994 and 2003, began work on DragonFly BSD in June 2003 and announced it on the FreeBSD mailing lists on 16 July 2003.",
     "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
     "logo": "dragonfly-bsd.png",

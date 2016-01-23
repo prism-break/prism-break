@@ -1291,6 +1291,31 @@
   },
   {
     "development_stage": "released",
+    "description": "A free DNSCrypt enabled, non-logging, uncensored, recursive DNS server with DNSSEC support based in Iceland.",
+    "license_url": "",
+    "logo": "dnscryptis.png",
+    "notes": "",
+    "privacy_url": "https://dnscrypt.is",
+    "source_url": "",
+    "name": "DNSCrypt.is",
+    "tos_url": "",
+    "url": "https://dnscrypt.is",
+    "wikipedia_url": "",
+    "protocols": [
+      "DNS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "DNS"
+        ]
+      }
+    ],
+    "slug": "dnscryptis"
+  },
+  {
+    "development_stage": "released",
     "description": "Свободная юниксоподобная операционная система, созданная как форк FreeBSD 4.8. Мэтью Диллон, разработчик Amiga в конце 80-х — начале 90-х и разработчик FreeBSD с 1994 по 2003 год, начал работать над DragonFly BSD в Июне 2003 и анонсировал ее в списке рассылки FreeBSD 16 июля 2003 года.",
     "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
     "logo": "dragonfly-bsd.png",
