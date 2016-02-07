@@ -6556,5 +6556,44 @@
       }
     ],
     "slug": "zenphoto"
+  },
+  {
+    "development_stage": "released",
+    "description": "Telefonnummer basierter Messegingclient für die Masse, unter Verwendung von XMPP und OpenPGP Verschlüsselung. Unterstützt von Communitybetrieben Servern.",
+    "license_url": "https://github.com/kontalk/androidclient/blob/master/COPYING",
+    "logo": "kontalk.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/kontalk",
+    "name": "Kontalk",
+    "tos_url": "",
+    "url": "https://kontalk.org/",
+    "wikipedia_url": "",
+    "protocols": [
+      "XMPP",
+      "GPG",
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "kontalk"
   }
 ]
