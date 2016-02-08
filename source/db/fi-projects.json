@@ -3302,6 +3302,45 @@
   },
   {
     "development_stage": "released",
+    "description": "Phone number based messaging client for the masses, using XMPP and OpenPGP encryption. Backed by community-driven servers.",
+    "license_url": "https://github.com/kontalk/androidclient/blob/master/COPYING",
+    "logo": "kontalk.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/kontalk",
+    "name": "Kontalk",
+    "tos_url": "",
+    "url": "https://kontalk.org/",
+    "wikipedia_url": "",
+    "protocols": [
+      "XMPP",
+      "GPG",
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "kontalk"
+  },
+  {
+    "development_stage": "released",
     "description": "Sulautettuihin järjestelmiin tarkoitettu GNU/Linux-libre jakelu.",
     "license_url": "https://librecmc.org/librecmc/artifact/dfac199a7539a404",
     "logo": "librecmc.png",
