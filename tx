@@ -1,0 +1,25 @@
+for file in source/db/*-projects.json; do
+	sed -i -- '
+		s/""/"--"/g
+		s/\[\]/\[\n"---"\n    \]/g
+	' $file
+done
+tx "$@"
+for file in source/db/*-projects.json; do
+	[[ "$(head -1 $file)" == "{" ]] && sed -i -- '
+		1d
+		$d
+		s/^    //g
+		s/    /  /g
+	' $file
+	sed -i -- '
+		s/"--"/""/g
+		/"---"/ d
+		s/"null": \[/\[/g
+	' $file
+done
+for file in source/locales/*.json; do
+	sed -i -- '
+		s/    /  /g
+	' $file
+done

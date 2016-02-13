@@ -1,0 +1,13 @@
+[main]
+host = https://www.transifex.com/prism-break/prism-break/
+lang_map = sr@latin: sr, sr: sr-Cyrl, zh_CN: zh-CN, zh_TW: zh-TW
+
+[prism-break.locales-en-json]
+file_filter = source/locales/<lang>.json
+type = KEYVALUEJSON
+source_lang = en
+
+[prism-break.db-projects-en-json]
+file_filter = source/db/<lang>-projects.json
+type = KEYVALUEJSON
+source_lang = en

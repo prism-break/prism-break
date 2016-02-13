@@ -17,3 +17,16 @@ mixin subcategory-title(category, subcategory)
 mixin subcategory-title-nolink(subcategory)
   .bar.title(id=subcategory.slug)
     .label= t[subcategory.name]
+
+mixin subcategory-notes(subcategory)
+  - var categoryNotes = t[subcategory.slug + '-notes']
+  - var projectNotes = subcategory.projects.map(function(project) { return project.notes !== "" ? project.notes.replace(/\n/g, " ").replace(project.name, "**$&**") + "\n\n" : ""; }).join("")
+  - if ((categoryNotes !== "--" && categoryNotes !== undefined) || projectNotes !== "")
+    .section.notes 
+      .pipe= t.Notes
+
+      - if (categoryNotes !== "--" && categoryNotes !== undefined)
+        .text-block!= categoryNotes
+
+      - if (projectNotes !== "")
+        .text-block!= h.marked(projectNotes)

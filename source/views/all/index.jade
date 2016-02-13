@@ -26,11 +26,7 @@ block content
 
               mixin filler-cards(subcategory.projects)
 
-            - var notes = t[subcategory.slug + '-notes']
-            - if (notes !== "--" && notes !== undefined)
-              .section.notes
-                .pipe= t.Notes
-                .text-block!= notes
+            mixin subcategory-notes(subcategory)
 
           if(subcategory.projectsRejected.length > 0)
             .section.prop
