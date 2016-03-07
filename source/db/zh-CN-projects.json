@@ -2717,39 +2717,6 @@
   },
   {
     "development_stage": "released",
-    "description": "浏览器端加密的云图床。",
-    "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
-    "logo": "imgbi.png",
-    "notes": "img.bi支持Tor网络访问: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\n也支持I2P网络[eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
-    "privacy_url": "https://img.bi/",
-    "source_url": "https://github.com/imgbi",
-    "name": "img.bi",
-    "tos_url": "",
-    "url": "https://img.bi/",
-    "wikipedia_url": "",
-    "protocols": [
-      "I2P",
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "imgbi"
-  },
-  {
-    "development_stage": "released",
     "description": "高度计量和定制化的消息平台，基于MTA qmail。",
     "license_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING",
     "logo": "indimail.png",
@@ -5002,31 +4969,6 @@
   },
   {
     "development_stage": "released",
-    "description": "免费的在线加密笔记本。",
-    "license_url": "https://www.protectedtext.com/js/main.js",
-    "logo": "protextedtext.png",
-    "notes": "ProtectedText在你的浏览器中进行加解密操作，密码或者密码的哈希不会被发送到服务器，因此即使当局有所想法，它们也不能解密你的文本。",
-    "privacy_url": "",
-    "source_url": "https://www.protectedtext.com/js/main.js",
-    "name": "ProtectedText",
-    "tos_url": "",
-    "url": "https://www.protectedtext.com/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "protectedtext"
-  },
-  {
-    "development_stage": "released",
     "description": "跨平台的即时通讯（IM）客户端，内建OTR。",
     "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
     "logo": "psi-plus.png",
@@ -6368,6 +6310,40 @@
       }
     ],
     "slug": "unbubble"
+  },
+  {
+    "development_stage": "released",
+    "description": "Client-side encrypted image host web server.",
+    "license_url": "https://github.com/Upload/Up1/blob/master/LICENSE",
+    "logo": "up1.png",
+    "notes": "Up1 is a simple host that client-side encrypts images, text, and other data, and stores them, with the server knowing nothing about the contents. It has the ability to view images, text with syntax highlighting, short videos, and arbitrary binaries as downloadables.",
+    "privacy_url": "",
+    "source_url": "https://github.com/Upload/Up1",
+    "name": "Up1",
+    "tos_url": "",
+    "url": "https://up1.ca/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS",
+      "Tor"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing",
+          "Productivity"
+        ]
+      }
+    ],
+    "slug": "up1"
   },
   {
     "development_stage": "released",
