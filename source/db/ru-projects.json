@@ -4969,31 +4969,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Свободный онлайн блокнот с шифрованием.",
-    "license_url": "https://www.protectedtext.com/js/main.js",
-    "logo": "protextedtext.png",
-    "notes": "ProtectedText шифрует/расшифровывает текст в браузере, и пароль (или его хеш) никогда не отправляется на сервер, так что текст не может быть расшифрован, даже если этого потребуют власти.",
-    "privacy_url": "",
-    "source_url": "https://www.protectedtext.com/js/main.js",
-    "name": "ProtectedText",
-    "tos_url": "",
-    "url": "https://www.protectedtext.com/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "protectedtext"
-  },
-  {
-    "development_stage": "released",
     "description": "Кроссплатформенный IM клиент для опытных пользователей со встроенной поддержкой OTR.",
     "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
     "logo": "psi-plus.png",

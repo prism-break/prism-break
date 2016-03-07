@@ -143,7 +143,7 @@
   "file-storage-sync-notes": "<p>为什么不用MEGA? 虽然MEGA也是免费的，但软件是专有的。</p><p>为什么不用SpiderOak? SpiderOak是专有软件</p><p>为什么不用Tarsnap? Tarsnap部分是专有的并且把你的数据放在Amazon Web Services.</p>",
   "Scheduling": "日程安排",
   "Online Office Suite": "云办公",
-  "productivity-notes": "<p><strong>以太白板</strong>（etherpad）项目维护了一个<a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>提供以太白板服务的网站的列表</a>。请仅选择那些启用了https的网站，同时请考虑是否信任它们的网站后台。</p><p><a href='#email-accounts'><strong>Riseup</strong></a>同样也提供电子邮件，XMPP和聊天服务，都可以通过<a href='#mesh-networks'>Tor暗网服务</a>访问。相应的地址列表<a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>在这里</a>。</p><p><strong>ProtectedText</strong>在你的浏览器中进行加解密操作，密码或者密码的哈希不会被发送到服务器，因此即使当局有所想法，它们也不能解密你的文本。</p>",
+  "productivity-notes": "<p><strong>以太白板</strong>（etherpad）项目维护了一个<a href='https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite'>提供以太白板服务的网站的列表</a>。请仅选择那些启用了https的网站，同时请考虑是否信任它们的网站后台。</p><p><a href='#email-accounts'><strong>Riseup</strong></a>同样也提供电子邮件，XMPP和聊天服务，都可以通过<a href='#mesh-networks'>Tor暗网服务</a>访问。相应的地址列表<a href='https://www.riseup.net/en/tor#riseups-tor-hidden-services'>在这里</a>。</p>",
   "Media Publishing": "媒体发布",
   "media-publishing-notes": "--",
   "Online Transactions": "在线交易",

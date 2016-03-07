@@ -4969,31 +4969,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Free online encrypted notepad.",
-    "license_url": "https://www.protectedtext.com/js/main.js",
-    "logo": "protextedtext.png",
-    "notes": "ProtectedText encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.",
-    "privacy_url": "",
-    "source_url": "https://www.protectedtext.com/js/main.js",
-    "name": "ProtectedText",
-    "tos_url": "",
-    "url": "https://www.protectedtext.com/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "protectedtext"
-  },
-  {
-    "development_stage": "released",
     "description": "תוכנת מסרים מידיים חוצת פלפורמות בדביל משתמשים מתקדמים עם תמיכה מובנת ב-OTR&#8206.",
     "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
     "logo": "psi-plus.png",

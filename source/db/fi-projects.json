@@ -4969,31 +4969,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Vapaa ja salattu online-muistio.",
-    "license_url": "https://www.protectedtext.com/js/main.js",
-    "logo": "protextedtext.png",
-    "notes": "ProtectedText salaa ja purkaa tekstin selaimessa ja on samalla Zero-Knowledge: Salasanaa (tai sen tiivistettä) ei koskaan lähetetä palvelimelle, eli palveluntarjoa ei viranomaisen määräyksestä pysty luovuttamaan sisältöä.",
-    "privacy_url": "",
-    "source_url": "https://www.protectedtext.com/js/main.js",
-    "name": "ProtectedText",
-    "tos_url": "",
-    "url": "https://www.protectedtext.com/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "protectedtext"
-  },
-  {
-    "development_stage": "released",
     "description": "Useampaa alustaa tukeva pikaviestialusta tehokäyttäjille. Sisäänrakennetulla OTR-tuella.",
     "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
     "logo": "psi-plus.png",
