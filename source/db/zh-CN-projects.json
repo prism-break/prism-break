@@ -1140,10 +1140,10 @@
   },
   {
     "development_stage": "released",
-    "description": "Protects you against tracking through \"free\", centralized, content delivery. It prevents a lot of requests from reaching networks like Google Hosted Libraries, and serves local files to keep sites from breaking. Complements regular content blockers.",
+    "description": "保护您免受集中式的内容交付网络（CDN）的跟踪。它可以拦截许多种链向 CDN 的请求，转而指向本地提供的文件，从而防止网站功能受损。内容拦截规则会定期补充。",
     "license_url": "https://github.com/Synzvato/decentraleyes/blob/master/LICENSE.txt",
     "logo": "decentraleyes.png",
-    "notes": "Decentraleyes is a Firefox add-on that emulates Content Delivery Networks locally by intercepting requests, finding the required resource and injecting it into the environment. This all happens instantaneously, automatically, and no prior configuration is required.\n\nDecentraleyes is no silver bullet, but it does prevent a lot of websites from making you send these kinds of requests. Ultimately, you can make Decentraleyes block requests for any missing CDN resources, too.",
+    "notes": "- 回避声称保护隐私并免费服务的大型交付网络以保护您的隐私。\n- 辅助常规过滤器，例如 uBlock Origin，Request Policy 等。\n- 即装即用；使用前绝对不需要任何配置。\n\nDecentraleyes 不是万灵药，但它的确能防止许多网站让你发送此类请求。 最后，你还可以让 Decentraleyes 屏蔽任何缺失的 CDN 资源。",
     "privacy_url": "",
     "source_url": "https://github.com/Synzvato/decentraleyes",
     "name": "Decentraleyes",

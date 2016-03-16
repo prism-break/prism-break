@@ -1140,10 +1140,10 @@
   },
   {
     "development_stage": "released",
-    "description": "Protects you against tracking through \"free\", centralized, content delivery. It prevents a lot of requests from reaching networks like Google Hosted Libraries, and serves local files to keep sites from breaking. Complements regular content blockers.",
+    "description": "Protégete contra rastreo a través de entrega de contenido centralizado \"gratis\". Previene interferencia de redes como Google Hosted Libraries, sirve archivos locales para prevenir que sitios se rompan. Complementa bloqueadores regulares.",
     "license_url": "https://github.com/Synzvato/decentraleyes/blob/master/LICENSE.txt",
     "logo": "decentraleyes.png",
-    "notes": "Decentraleyes is a Firefox add-on that emulates Content Delivery Networks locally by intercepting requests, finding the required resource and injecting it into the environment. This all happens instantaneously, automatically, and no prior configuration is required.\n\nDecentraleyes is no silver bullet, but it does prevent a lot of websites from making you send these kinds of requests. Ultimately, you can make Decentraleyes block requests for any missing CDN resources, too.",
+    "notes": "- Protege la privacidad al evadir una larga red de entrega que dice ofrecer sus servicios gratuitamente.\n- Complementa las aplicaciones de bloqueo regulares tales como uBlock Origin, Request Policy, y otros.\n- Funciona directamente al ser instalado; Absolutamente ninguna configuración previamente requerida.\n\nDecentraleyes no es una bala de plata, pero sí previene que muchos sitios web envíen este tipo de peticiones. Así también, Decentraleyes puede bloquear peticiones para cualquier recurso CDN que no se pueda encontrar.",
     "privacy_url": "",
     "source_url": "https://github.com/Synzvato/decentraleyes",
     "name": "Decentraleyes",
