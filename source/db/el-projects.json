@@ -6618,5 +6618,42 @@
       }
     ],
     "slug": "zenphoto"
+  },
+  {
+    "development_stage": "released",
+    "description": "Simple password manager using gpg and ordinary unix directories.",
+    "license_url": "https://git.zx2c4.com/password-store/tree/COPYING",
+    "logo": "pass.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://git.zx2c4.com/password-store/",
+    "name": "pass",
+    "tos_url": "",
+    "url": "https://www.passwordstore.org/",
+    "wikipedia_url": "",
+    "protocols": [
+      "GPG"
+    ],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Password Managers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Password Managers"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Password Managers"
+        ]
+      }
+    ],
+    "slug": "password-store"
   }
 ]
