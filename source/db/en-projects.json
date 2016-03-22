@@ -6618,5 +6618,28 @@
       }
     ],
     "slug": "zenphoto"
+  },
+  {
+    "development_stage": "released",
+    "description": "privacyIDEA is an open solution for strong two-factor authentication like OTP tokens, SMS, Smartphones or SSH keys.",
+    "license_url": "https://github.com/privacyidea/privacyidea/blob/master/LICENSE",
+    "logo": "privacyidea.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/privacyidea/privacyidea",
+    "name": "privacyIDEA",
+    "tos_url": "",
+    "url": "https://privacyidea.org/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Authentication"
+        ]
+      }
+    ],
+    "slug": "privacyidea"
   }
 ]
