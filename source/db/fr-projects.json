@@ -33,7 +33,7 @@
     "name": "Adium",
     "tos_url": "",
     "url": "https://adium.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Adium",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Adium",
     "protocols": [
       "IRC",
       "OTR",
@@ -83,7 +83,7 @@
     "source_url": "https://github.com/antiprismca/OpenELEC-Antiprism",
     "name": "AntiPrism",
     "tos_url": "",
-    "url": "https://www.antiprism.ca/",
+    "url": "https://antiprism.ca/index_fr.html",
     "wikipedia_url": "",
     "protocols": [
       "Tor",
@@ -138,7 +138,7 @@
     "name": "Arch Linux",
     "tos_url": "",
     "url": "https://www.archlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Arch_Linux",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Arch_Linux",
     "protocols": [],
     "categories": [
       {
@@ -197,7 +197,7 @@
     "name": "Asterisk",
     "tos_url": "",
     "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Asterisk_%28logiciel%29",
     "protocols": [
       "SIP",
       "VoIP"
@@ -258,7 +258,7 @@
     "source_url": "",
     "name": "Autistici/Inventati",
     "tos_url": "",
-    "url": "http://www.autistici.org/en/index.html",
+    "url": "https://www.autistici.org/fr/index.html",
     "wikipedia_url": "",
     "protocols": [
       "SSL/TLS"
@@ -287,8 +287,8 @@
     "source_url": "https://github.com/bitcoin/bitcoin",
     "name": "Bitcoin",
     "tos_url": "",
-    "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin",
+    "url": "https://bitcoin.org/fr/",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Bitcoin",
     "protocols": [],
     "categories": [
       {
@@ -341,7 +341,7 @@
     "name": "BitlBee",
     "tos_url": "",
     "url": "http://www.bitlbee.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/BitlBee",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/BitlBee",
     "protocols": [
       "IRC",
       "OTR",
@@ -390,7 +390,7 @@
     "name": "Bitmessage",
     "tos_url": "",
     "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Bitmessage",
     "protocols": [
       "Tor"
     ],
@@ -625,7 +625,7 @@
     "name": "CentOS",
     "tos_url": "",
     "url": "https://www.centos.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CentOS",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/CentOS",
     "protocols": [],
     "categories": [
       {
@@ -751,7 +751,7 @@
     "name": "Claws Mail",
     "tos_url": "",
     "url": "http://www.claws-mail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Claws_Mail",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Claws_Mail",
     "protocols": [
       "GPG",
       "RSS",
@@ -913,7 +913,7 @@
     "source_url": "https://github.com/mycozycloud/",
     "name": "Cozy",
     "tos_url": "",
-    "url": "http://cozy.io/",
+    "url": "http://cozy.io/fr/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
@@ -936,8 +936,8 @@
     "source_url": "https://github.com/cryptocat/cryptocat",
     "name": "Cryptocat",
     "tos_url": "",
-    "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat",
+    "url": "https://crypto.cat/fr.html",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Cryptocat",
     "protocols": [
       "OTR"
     ],
@@ -990,7 +990,7 @@
     "name": "cryptsetup",
     "tos_url": "",
     "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Dm-crypt",
     "protocols": [],
     "categories": [
       {
@@ -1052,7 +1052,7 @@
     "name": "CyanogenMod",
     "tos_url": "http://www.cyanogenmod.org/docs/terms",
     "url": "http://www.cyanogenmod.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CyanogenMod",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/CyanogenMod",
     "protocols": [],
     "categories": [
       {
@@ -1107,8 +1107,8 @@
     "source_url": "http://sources.debian.net/",
     "name": "Debian",
     "tos_url": "",
-    "url": "http://debian.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Debian",
+    "url": "https://www.debian.org/index.fr.html",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Debian",
     "protocols": [],
     "categories": [
       {
@@ -1196,7 +1196,7 @@
     "name": "diaspora*",
     "tos_url": "",
     "url": "https://diasporafoundation.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Diaspora_%28software%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Diaspora*",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1388,7 +1388,7 @@
     "name": "DuckDuckGo",
     "tos_url": "",
     "url": "https://duckduckgo.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/DuckDuckGo",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -1491,7 +1491,7 @@
     "name": "ejabberd",
     "tos_url": "",
     "url": "http://www.ejabberd.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Ejabberd",
     "protocols": [
       "XMPP"
     ],
@@ -1639,7 +1639,7 @@
     "name": "Enigmail",
     "tos_url": "",
     "url": "https://www.enigmail.net/home/index.php",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Enigmail",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Enigmail",
     "protocols": [
       "GPG"
     ],
@@ -1742,7 +1742,7 @@
     "name": "Evolution",
     "tos_url": "",
     "url": "https://projects.gnome.org/evolution/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Evolution_%28logiciel%29",
     "protocols": [
       "CalDAV",
       "GPG",
@@ -1772,7 +1772,7 @@
     "name": "Exim",
     "tos_url": "",
     "url": "http://www.exim.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Exim",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Exim",
     "protocols": [],
     "categories": [
       {
@@ -1795,7 +1795,7 @@
     "name": "F-Droid",
     "tos_url": "",
     "url": "https://f-droid.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/F-Droid",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/F-Droid",
     "protocols": [],
     "categories": [
       {
@@ -1818,7 +1818,7 @@
     "name": "Fedora",
     "tos_url": "",
     "url": "https://fedoraproject.org/",
-    "wikipedia_url": "https://es.wikipedia.org/wiki/Fedora_%28distribuci%C3%B3n_Linux%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Fedora_%28GNU/Linux%29",
     "protocols": [],
     "categories": [
       {
@@ -1853,7 +1853,7 @@
     "name": "Fennec FDroid",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Firefox_Mobile",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1877,8 +1877,8 @@
     "source_url": "https://github.com/mozilla-b2g",
     "name": "Firefox OS",
     "tos_url": "",
-    "url": "https://www.mozilla.org/en-US/firefox/os/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_OS",
+    "url": "https://www.mozilla.org/fr/firefox/os/",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Firefox_OS",
     "protocols": [],
     "categories": [
       {
@@ -1907,7 +1907,7 @@
     "name": "FreeBSD",
     "tos_url": "",
     "url": "https://www.freebsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeBSD",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/FreeBSD",
     "protocols": [],
     "categories": [
       {
@@ -1948,7 +1948,7 @@
     "name": "FreedomBox",
     "tos_url": "",
     "url": "https://www.freedomboxfoundation.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/FreedomBox",
     "protocols": [
       "GPG",
       "TOR",
@@ -1976,7 +1976,7 @@
     "name": "Freenet",
     "tos_url": "",
     "url": "https://freenetproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Freenet",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Freenet",
     "protocols": [],
     "categories": [
       {
@@ -2023,7 +2023,7 @@
     "name": "FreeSWITCH",
     "tos_url": "",
     "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/FreeSWITCH",
     "protocols": [
       "SIP",
       "VoIP"
@@ -2108,7 +2108,7 @@
     "name": "friendica",
     "tos_url": "",
     "url": "http://friendica.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Friendica",
     "protocols": [
       "RSS",
       "SSL/TLS",
@@ -2135,7 +2135,7 @@
     "name": "Gajim",
     "tos_url": "",
     "url": "http://gajim.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Gajim",
     "protocols": [
       "GPG",
       "OTR",
@@ -2175,7 +2175,7 @@
     "name": "geli",
     "tos_url": "",
     "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Geli",
     "protocols": [],
     "categories": [
       {
@@ -2198,7 +2198,7 @@
     "name": "Gentoo",
     "tos_url": "",
     "url": "https://www.gentoo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gentoo_Linux",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Gentoo_Linux",
     "protocols": [],
     "categories": [
       {
@@ -2305,7 +2305,7 @@
     "name": "gNewSense",
     "tos_url": "",
     "url": "http://www.gnewsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNewSense",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/GNewSense",
     "protocols": [],
     "categories": [
       {
@@ -2340,7 +2340,7 @@
     "name": "GNU Privacy Guard",
     "tos_url": "",
     "url": "http://www.gnupg.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/GNU_Privacy_Guard",
     "protocols": [
       "GPG"
     ],
@@ -2414,7 +2414,7 @@
     "name": "GNUnet",
     "tos_url": "",
     "url": "https://gnunet.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/GNUnet",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2512,7 +2512,7 @@
     "name": "Gpg4win",
     "tos_url": "",
     "url": "http://www.gpg4win.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gpg4win",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Gpg4win",
     "protocols": [
       "GPG"
     ],
@@ -2537,7 +2537,7 @@
     "name": "GPGTools",
     "tos_url": "",
     "url": "https://gpgtools.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GPGTools",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/GPGTools",
     "protocols": [
       "GPG"
     ],
@@ -2562,7 +2562,7 @@
     "name": "guifi.net",
     "tos_url": "",
     "url": "https://guifi.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Guifi.net",
     "protocols": [],
     "categories": [
       {
@@ -2677,7 +2677,7 @@
     "name": "I2P",
     "tos_url": "",
     "url": "https://geti2p.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/I2P",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/I2P",
     "protocols": [
       "I2P"
     ],
@@ -2844,7 +2844,7 @@
     "name": "Ixquick",
     "tos_url": "",
     "url": "https://ixquick.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Ixquick",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2869,7 +2869,7 @@
     "name": "Jitsi",
     "tos_url": "",
     "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Jitsi",
     "protocols": [
       "OTR",
       "SIP",
@@ -2912,7 +2912,7 @@
     "name": "JonDo Live CD",
     "tos_url": "",
     "url": "https://anonymous-proxy-servers.net/en/jondo-live-cd.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Anon_Proxy",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Java_Anon_Proxy",
     "protocols": [
       "GPG",
       "SSL/TLS",
@@ -2959,7 +2959,7 @@
     "name": "JonDoFox",
     "tos_url": "",
     "url": "https://anonymous-proxy-servers.net/en/jondofox.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Java_Anon_Proxy",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Java_Anon_Proxy",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -3134,7 +3134,7 @@
     "name": "Kolab",
     "tos_url": "",
     "url": "https://kolab.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Kolab",
     "protocols": [
       "CalDAV",
       "CardDAV",
@@ -3244,7 +3244,7 @@
     "name": "Kontact",
     "tos_url": "",
     "url": "http://www.kontact.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Kontact",
     "protocols": [
       "GPG",
       "RSS",
@@ -3317,7 +3317,7 @@
     "name": "libreCMC",
     "tos_url": "",
     "url": "https://librecmc.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/LibreCMC",
     "protocols": [],
     "categories": [
       {
@@ -3422,7 +3422,7 @@
     "name": "Linphone",
     "tos_url": "",
     "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Linphone",
     "protocols": [
       "SIP",
       "SSL/TLS",
@@ -3479,7 +3479,7 @@
     "name": "Litecoin",
     "tos_url": "",
     "url": "https://litecoin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Litecoin",
     "protocols": [],
     "categories": [
       {
@@ -3579,7 +3579,7 @@
     "name": "Marble",
     "tos_url": "",
     "url": "http://marble.kde.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Marble",
     "protocols": [],
     "categories": [
       {
@@ -3614,7 +3614,7 @@
     "name": "MediaGoblin",
     "tos_url": "",
     "url": "http://mediagoblin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/MediaGoblin",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3721,7 +3721,7 @@
     "name": "Mozilla Firefox",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://mozilla.org/firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Mozilla_Firefox",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3764,7 +3764,7 @@
     "name": "Mozilla Thunderbird",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/en-US/thunderbird/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
       "GPG",
       "IRC",
@@ -3821,7 +3821,7 @@
     "name": "Mumble",
     "tos_url": "",
     "url": "http://www.mumble.info/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mumble_%28software%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Mumble",
     "protocols": [
       "VoIP",
       "ZRTP"
@@ -3920,7 +3920,7 @@
     "name": "NetBSD",
     "tos_url": "",
     "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/NetBSD",
     "protocols": [],
     "categories": [
       {
@@ -3961,7 +3961,7 @@
     "name": "NoScript",
     "tos_url": "",
     "url": "http://noscript.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NoScript",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/NoScript",
     "protocols": [],
     "categories": [
       {
@@ -4058,7 +4058,7 @@
     "name": "Off-the-Record Messaging",
     "tos_url": "",
     "url": "https://otr.cypherpunks.ca/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Off-the-Record_Messaging",
     "protocols": [
       "OTR"
     ],
@@ -4216,7 +4216,7 @@
     "name": "OpenBSD",
     "tos_url": "",
     "url": "http://openbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/OpenBSD",
     "protocols": [],
     "categories": [
       {
@@ -4263,7 +4263,7 @@
     "name": "Openfire",
     "tos_url": "",
     "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Openfire",
     "protocols": [
       "XMPP"
     ],
@@ -4288,7 +4288,7 @@
     "name": "OpenNIC",
     "tos_url": "",
     "url": "http://www.opennicproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/OpenNIC",
     "protocols": [
       "DNS"
     ],
@@ -4313,7 +4313,7 @@
     "name": "OpenStreetMap",
     "tos_url": "",
     "url": "http://www.openstreetmap.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenStreetMap",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/OpenStreetMap",
     "protocols": [],
     "categories": [
       {
@@ -4336,7 +4336,7 @@
     "name": "OpenSUSE",
     "tos_url": "https://en.opensuse.org/Terms_of_site",
     "url": "https://www.opensuse.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenSUSE",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/OpenSUSE",
     "protocols": [],
     "categories": [
       {
@@ -4400,7 +4400,7 @@
     "name": "OpenVPN",
     "tos_url": "",
     "url": "http://openvpn.net/index.php/open-source.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/OpenVPN",
     "protocols": [
       "SSL/TLS"
     ],
@@ -4455,7 +4455,7 @@
     "name": "OpenWrt",
     "tos_url": "",
     "url": "https://openwrt.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenWrt",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/OpenWrt",
     "protocols": [],
     "categories": [
       {
@@ -4585,7 +4585,7 @@
     "name": "ownCloud",
     "tos_url": "",
     "url": "http://owncloud.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/OwnCloud",
     "protocols": [
       "CalDAV",
       "CardDAV",
@@ -4643,7 +4643,7 @@
     "name": "Parabola GNU/Linux-libre",
     "tos_url": "",
     "url": "https://parabolagnulinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Parabola_GNU/Linux-libre",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Parabola_GNU/Linux-libre",
     "protocols": [],
     "categories": [
       {
@@ -4730,7 +4730,7 @@
     "name": "pfSense",
     "tos_url": "",
     "url": "https://www.pfsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/PfSense",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Pfsense",
     "protocols": [],
     "categories": [
       {
@@ -4753,7 +4753,7 @@
     "name": "Pidgin",
     "tos_url": "",
     "url": "https://www.pidgin.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pidgin_%28software%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Pidgin_%28logiciel%29",
     "protocols": [
       "IRC",
       "OTR",
@@ -4796,7 +4796,7 @@
     "name": "Piwigo",
     "tos_url": "",
     "url": "http://piwigo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Piwigo",
     "protocols": [
       "SSL/TLS"
     ],
@@ -4821,7 +4821,7 @@
     "name": "Piwik",
     "tos_url": "",
     "url": "https://piwik.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwik",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Piwik",
     "protocols": [],
     "categories": [
       {
@@ -4844,7 +4844,7 @@
     "name": "Postfix",
     "tos_url": "",
     "url": "http://www.postfix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Postfix_%28software%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Postfix",
     "protocols": [],
     "categories": [
       {
@@ -4867,7 +4867,7 @@
     "name": "Privacy Badger",
     "tos_url": "",
     "url": "https://www.eff.org/privacybadger",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Privacy_Badger",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Privacy_Badger",
     "protocols": [],
     "categories": [
       {
@@ -4953,7 +4953,7 @@
     "name": "Prosody",
     "tos_url": "",
     "url": "https://prosody.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Prosody",
     "protocols": [
       "XMPP"
     ],
@@ -4978,7 +4978,7 @@
     "name": "Psi+",
     "tos_url": "",
     "url": "http://psi-plus.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Psi_%28instant_messaging_client%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Psi_%28messagerie_instantan%C3%A9e%29",
     "protocols": [
       "GPG",
       "XMPP"
@@ -5188,7 +5188,7 @@
     "name": "Replicant",
     "tos_url": "",
     "url": "http://replicant.us/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Replicant_%28syst%C3%A8me_d%27exploitation%29",
     "protocols": [],
     "categories": [
       {
@@ -5258,7 +5258,7 @@
     "name": "RetroShare",
     "tos_url": "",
     "url": "http://retroshare.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/RetroShare",
     "protocols": [
       "GPG",
       "VoIP"
@@ -5346,7 +5346,7 @@
     "source_url": "http://riseuplabs.org/",
     "name": "Riseup",
     "tos_url": "",
-    "url": "https://riseup.net/en",
+    "url": "https://riseup.net/fr",
     "wikipedia_url": "",
     "protocols": [
       "SSL/TLS",
@@ -5403,7 +5403,7 @@
     "name": "Scientific Linux",
     "tos_url": "",
     "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scientific_Linux",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Scientific_Linux",
     "protocols": [],
     "categories": [
       {
@@ -5426,7 +5426,7 @@
     "name": "Seeks Project",
     "tos_url": "",
     "url": "https://beniz.github.io/seeks/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Seeks",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Seeks",
     "protocols": [],
     "categories": [
       {
@@ -5554,7 +5554,7 @@
     "name": "SME Server",
     "tos_url": "",
     "url": "http://wiki.contribs.org/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/SME_Server",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/SME_Server",
     "protocols": [],
     "categories": [
       {
@@ -5641,7 +5641,7 @@
     "name": "Startpage",
     "tos_url": "",
     "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Ixquick#Startpage",
     "protocols": [
       "SSL/TLS"
     ],
@@ -5689,7 +5689,7 @@
     "name": "Sylpheed",
     "tos_url": "",
     "url": "http://sylpheed.sraoss.jp/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Sylpheed",
     "protocols": [
       "GPG",
       "RSS",
@@ -5734,7 +5734,7 @@
     "name": "Syncthing",
     "tos_url": "",
     "url": "https://syncthing.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Syncthing",
     "protocols": [
       "SSL/TLS"
     ],
@@ -5783,7 +5783,7 @@
     "name": "Syndie",
     "tos_url": "",
     "url": "http://syndie.i2p2.de/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Syndie",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Syndie",
     "protocols": [],
     "categories": [
       {
@@ -5850,8 +5850,8 @@
     "source_url": "https://tails.boum.org/contribute/git/",
     "name": "Tails",
     "tos_url": "",
-    "url": "https://tails.boum.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System",
+    "url": "https://tails.boum.org/index.fr.html",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tails_%28syst%C3%A8me_d%27exploitation%29",
     "protocols": [
       "GPG",
       "SSL/TLS",
@@ -5921,7 +5921,7 @@
     "name": "Tigase",
     "tos_url": "",
     "url": "http://www.tigase.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tigase",
     "protocols": [
       "XMPP"
     ],
@@ -6013,7 +6013,7 @@
     "name": "Tor",
     "tos_url": "",
     "url": "https://www.torproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tor_%28r%C3%A9seau%29",
     "protocols": [
       "Tor"
     ],
@@ -6062,7 +6062,7 @@
     "name": "Tor Browser Bundle",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tor_Browser",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -6149,7 +6149,7 @@
     "name": "Tox",
     "tos_url": "",
     "url": "https://tox.chat",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tox_%28logiciel%29",
     "protocols": [
       "Tox"
     ],
@@ -6415,7 +6415,7 @@
     "name": "WeeChat",
     "tos_url": "",
     "url": "http://www.weechat.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/WeeChat",
     "protocols": [
       "IRC"
     ],
@@ -6495,7 +6495,7 @@
     "name": "WordPress",
     "tos_url": "",
     "url": "https://wordpress.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/WordPress",
     "protocols": [
       "SSL/TLS"
     ],
@@ -6546,8 +6546,8 @@
     "source_url": "https://gitorious.org/yacy",
     "name": "YaCy",
     "tos_url": "",
-    "url": "http://yacy.de/en/index.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/YaCy",
+    "url": "http://yacy.de/fr/",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/YaCy",
     "protocols": [],
     "categories": [
       {
