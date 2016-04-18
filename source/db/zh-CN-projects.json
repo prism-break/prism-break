@@ -6257,6 +6257,30 @@
   },
   {
     "development_stage": "released",
+    "description": "Umbrella is an Android app with easy to use guides to help people manage their physical and digital security. Includes topics ranging from sending a secure email to dealing with a kidnapping.",
+    "license_url": "https://secfirst.org/legal.html",
+    "logo": "umbrella.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/securityfirst/Umbrella_android",
+    "name": "Umbrella",
+    "tos_url": "",
+    "url": "https://www.secfirst.org",
+    "wikipedia_url": "",
+    "protocols": [
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Security"
+        ]
+      }
+    ],
+    "slug": "umbrella"
+  },
+  {
+    "development_stage": "released",
     "description": "验证，递归和缓存DNS服务器。",
     "license_url": "http://unbound.nlnetlabs.nl/svn/trunk/LICENSE",
     "logo": "unbound.png",
