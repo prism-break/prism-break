@@ -1,7 +1,7 @@
 [
   {
     "development_stage": "released",
-    "description": "Bloque publicités et mouchards sur le web.",
+    "description": "Bloque les publicités et les mouchards sur le web avec abonnement à des filtres.",
     "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
     "logo": "adblock-edge.png",
     "notes": "",
@@ -384,7 +384,7 @@
     "description": "Le service de messagerie P2P décentralisé et chiffré basé sur la technologie Bitcoin.",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
-    "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
+    "notes": "Bitmessage est une alternative au courrier électronique prométteuse, mais il n'a pas été audité par des professionels en sécurité. A utiliser à vos risques et périls. Si vous décidez d'essayer Bitmessage, soyez sûre de générer un ID complètement aléatoire afin de grandement réduire le risque de collision des ID.",
     "privacy_url": "",
     "source_url": "https://github.com/Bitmessage/PyBitmessage",
     "name": "Bitmessage",
@@ -436,10 +436,10 @@
   },
   {
     "development_stage": "released",
-    "description": "A free software disk space cleaner, privacy manager, and computer system optimizer.",
+    "description": "Un logiciel libre pour nettoyer l'espace disque, gérer la vie privée et optimiser le système de l'ordinateur.",
     "license_url": "https://github.com/az0/bleachbit/blob/master/COPYING",
     "logo": "bleachbit.png",
-    "notes": "BleachBit does not encrypt any of your data by default.",
+    "notes": "BleachBit ne chiffre aucune de vos données par défaut.",
     "privacy_url": "",
     "source_url": "https://github.com/az0/bleachbit",
     "name": "BleachBit",
@@ -465,10 +465,10 @@
   },
   {
     "development_stage": "experimental",
-    "description": "Bookie is an open source bookmarking application.",
+    "description": "Bookie est une application open source de gestion de marque-page.",
     "license_url": "https://github.com/bookieio/Bookie/blob/develop/COPYING",
     "logo": "bookie.png",
-    "notes": "Bookie.io hosting has shut down but the application can still be self-hosted. See <a href='http://docs.bmark.us/en/latest/hosting.html'>their documentation</a> for more details.",
+    "notes": "L'hébergement Bookie.io a fermé mais l'application peut toujours être auto-hébergé. Voir <a href='http://docs.bmark.us/en/latest/hosting.html'>leur documentation</a> pour plus de détails.",
     "privacy_url": "",
     "source_url": "https://github.com/bookieio/Bookie",
     "name": "Bookie",
@@ -616,7 +616,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Plate-forme informatique entreprise avec 100% des binaires compatible avec RHEL.",
+    "description": "Plate-forme informatique entreprise compatible avec RHEL.",
     "license_url": "http://mirror.centos.org/centos/6/os/x86_64/GPL",
     "logo": "centos.png",
     "notes": "",
@@ -639,10 +639,10 @@
   },
   {
     "development_stage": "released",
-    "description": "IM chiffré pour iOS.",
+    "description": "Messagerie instantanée chiffrée avec OTR pour Android et iOS.",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
-    "notes": "The Guardian Project hosts <a href='https://guardianproject.info/howto/chatsecurely/'>a fantastic how-to guide</a> to chatting securely on Android.",
+    "notes": "The Guardian Project héberge <a href='https://guardianproject.info/howto/chatsecurely/'>un fantastiquue guide pratique</a> pour chatter de façon sécurisé sur Android.",
     "privacy_url": "",
     "source_url": "https://chatsecure.org/developers/",
     "name": "ChatSecure",
@@ -742,7 +742,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Application de messagerie légère avec le support de GnuPG.",
+    "description": "Application de messagerie rapide et légère multi-plateforme avec le support de GnuPG.",
     "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
     "logo": "claws-mail.png",
     "notes": "",
@@ -812,10 +812,10 @@
   },
   {
     "development_stage": "released",
-    "description": "Utilise les téléphones, ordinateurs et routeurs sans fil pour créer un réseau mesh décentralisé.",
+    "description": "Utilise les téléphones mobiles, les ordinateurs et les routeurs sans fil pour créer un réseau mesh décentralisé.",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
-    "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
+    "notes": "Veuillez lire les [avertissements de Commotion](https://commotionwireless.net/understanding-commotions-warning-label).",
     "privacy_url": "https://commotionwireless.net/about/license-privacy",
     "source_url": "https://github.com/opentechinstitute",
     "name": "Commotion",
@@ -877,7 +877,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Conversations is an open source XMPP/Jabber client for Android 4.0+ smart phones.",
+    "description": "Conversations est un client XMPP/Jabber open source pour les smartphones Android 4.0+.",
     "license_url": "https://github.com/siacs/Conversations/blob/development/LICENSE",
     "logo": "conversations.png",
     "notes": "",
@@ -981,10 +981,10 @@
   },
   {
     "development_stage": "released",
-    "description": "LUKS est une couche pratique et facile à utiliser au dessus de dm-crypt.",
+    "description": "Une couche pratique et facile à utiliser au dessus de dm-crypt.",
     "license_url": "https://gitlab.com/cryptsetup/cryptsetup/blob/master/COPYING",
     "logo": "luks.png",
-    "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\nSlackware Linux also maintains [a guide](http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
+    "notes": "Gentoo maintient [un guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) pour dm-crypt avec LUKS.\n\nArch Linux maintient également [un guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) pour dm-crypt avec LUKS.\n\nSlackware Linux maintient également [un guide](http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT) pour dm-crypt avec LUKS.\n\ndm-crypt est disponible pour DragonFly BSD.",
     "privacy_url": "",
     "source_url": "https://gitlab.com/cryptsetup/cryptsetup/tree/master",
     "name": "cryptsetup",
@@ -1016,10 +1016,10 @@
   },
   {
     "development_stage": "released",
-    "description": "VoIP libre et chiffrée pour Android.",
+    "description": "Appels VoIP chiffrés de bout-en-bout pour les appareils Android.",
     "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
     "logo": "csipsimple.png",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
+    "notes": "Le chiffrement supporte uniquement la voix et la vidéo, pas la messagerie instantanée.",
     "privacy_url": "",
     "source_url": "https://code.google.com/p/csipsimple/source/checkout",
     "name": "CSipSimple",
@@ -1072,7 +1072,7 @@
   },
   {
     "development_stage": "released",
-    "description": "DAVdroid is an open-source CalDAV/CardDAV synchronization app for Android 4+.",
+    "description": "DAVdroid est une application open-source de synchronisation CalDAV/CardDAV pour Android 4+.",
     "license_url": "https://github.com/bitfireAT/davdroid/blob/master/COPYING",
     "logo": "davdroid.png",
     "notes": "",
@@ -1259,7 +1259,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo.",
+    "description": "Service VPN anonyme pour des moteurs de recherche populaires comme Google, Bing et Yahoo.",
     "license_url": "",
     "logo": "disconnect-search.png",
     "notes": "The source code can be downloaded for viewing by right clicking \"Get Disconnect Search\" on the official website and selecting \"Save Link As...\".\n\nWith \"search.xpi\" downloaded, change the file extension to \".zip\" and extract it to view the source code.",
@@ -1405,7 +1405,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Un scrutin libre en toute sécurité, hébergée en ligne, avec une version de confidentialité avancé.",
+    "description": "Un sondage libre hébergée en ligne avec une version optionnelle avec confidentialité avancée.",
     "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
     "logo": "dudle.png",
     "notes": "",
@@ -1510,7 +1510,7 @@
     "description": "Outil de chiffrement de fichiers avec support pour GNU/Linux, OS X et Windows.",
     "license_url": "https://github.com/vgough/encfs/blob/master/COPYING",
     "logo": "encfs.png",
-    "notes": "EncFS is available for Windows through the \"encfs4win\" port.",
+    "notes": "EncFS  est disponible pour Windows grace au portage \"encfs4win\".",
     "privacy_url": "",
     "source_url": "https://github.com/vgough/encfs",
     "name": "encfs",
@@ -1763,7 +1763,7 @@
   },
   {
     "development_stage": "released",
-    "description": "MTA est utilisé sur à peu près 43%  des serveurs email&mdash;c'est celui par défaut sous Debian GNU/Linux.",
+    "description": "MTA utilisé sur à peu près 43% des serveurs email&mdash;c'est celui par défaut sous Debian GNU/Linux.",
     "license_url": "https://github.com/Exim/exim/blob/master/src/LICENCE",
     "logo": "exim.png",
     "notes": "",
@@ -2273,7 +2273,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Self hosted git server.",
+    "description": "Serveur git auto-hébergé.",
     "license_url": "https://raw.github.com/gitlabhq/gitlabhq/master/LICENSE",
     "logo": "gitlab.png",
     "notes": "",
@@ -2296,7 +2296,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Distribution GNU/Linux entièrement libre basé sur Debian.",
+    "description": "Distribution GNU/Linux entièrement libre basée sur Debian.",
     "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
     "logo": "gnewsense.png",
     "notes": "",
@@ -2405,7 +2405,7 @@
   },
   {
     "development_stage": "released",
-    "description": "GNUnet et un réseau P2P entièrement libre.",
+    "description": "GNUnet est un réseau P2P entièrement libre.",
     "license_url": "https://gnunet.org/svn/gnunet/COPYING",
     "logo": "gnunet.png",
     "notes": "",
@@ -2454,7 +2454,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Painless self hosted git service written in Go.",
+    "description": "Service git auto-hébergé sans peine écrit en Go.",
     "license_url": "https://github.com/gogits/gogs/blob/master/LICENSE",
     "logo": "gogs.png",
     "notes": "",
@@ -2669,14 +2669,14 @@
   {
     "development_stage": "released",
     "description": "Le projet internet invisible.",
-    "license_url": "https://geti2p.net/en/get-involved/develop/licenses",
+    "license_url": "https://geti2p.net/fr/get-involved/develop/licenses",
     "logo": "i2p.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://geti2p.net/en/get-involved/guides/new-developers",
+    "source_url": "https://geti2p.net/fr/get-involved/guides/new-developers",
     "name": "I2P",
     "tos_url": "",
-    "url": "https://geti2p.net/",
+    "url": "https://geti2p.net/fr/",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/I2P",
     "protocols": [
       "I2P"
@@ -2717,7 +2717,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Plateforme de messagerie très scalable et configurable basé sur le MTA qmail.",
+    "description": "Plateforme de messagerie très évolutive et configurable basé sur le MTA qmail.",
     "license_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING",
     "logo": "indimail.png",
     "notes": "",
@@ -2835,15 +2835,15 @@
   },
   {
     "development_stage": "released",
-    "description": "Ixquick is a metasearch engine based in New York and the Netherlands. ",
+    "description": "Ixquick est un métamoteur de recherche basé à New York et aux Pays-Bas.",
     "license_url": "",
     "logo": "ixquick.png",
     "notes": "Ixquick returns the top ten results from multiple search engines.\n\n In contrast to ixquick.com, its sibling project Startpage.com offer results from the Google search engine.\n\n It also provides the stand-alone Ixquick Proxy service that allows users to open search results via proxy.",
-    "privacy_url": "https://ixquick.com/eng/privacy-policy.html",
+    "privacy_url": "https://ixquick.com/fra/privacy-policy.html",
     "source_url": "",
     "name": "Ixquick",
     "tos_url": "",
-    "url": "https://ixquick.com/",
+    "url": "https://ixquick.com/fra/",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/Ixquick",
     "protocols": [
       "SSL/TLS"
@@ -5843,7 +5843,7 @@
   {
     "development_stage": "released",
     "description": "Live CD/USB conçu pour protéger votre anonymat et votre vie privée.",
-    "license_url": "https://tails.boum.org/doc/about/license/index.en.html",
+    "license_url": "https://tails.boum.org/doc/about/license/index.fr.html",
     "logo": "tails.png",
     "notes": "",
     "privacy_url": "",
