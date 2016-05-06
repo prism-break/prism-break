@@ -16,7 +16,7 @@ LIVESCRIPT_BIN = $(BIN)lsc
 LIVESCRIPT_PARAMS = -cob
 STYLUS_BIN = $(BIN)stylus
 STYLUS_PARAMS = -c -u ./node_modules/nib/
-STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u ./node_modules/nib/ -o public/assets/css/
+STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
 
 # Inputs
 BUILD_DIR = ./source/functions/build/site-
