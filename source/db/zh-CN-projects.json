@@ -3084,6 +3084,29 @@
   },
   {
     "development_stage": "released",
+    "description": "KeePassDroid is an implementation of the KeePass Password Safe for Android. Read/write support for .kdb and KeePass 1.x. Read/write support for .kdbx and KeePass 2.x.",
+    "license_url": "https://github.com/bpellin/keepassdroid/blob/master/LICENSE",
+    "logo": "keepassdroid.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/bpellin/keepassdroid",
+    "name": "KeePassDroid",
+    "tos_url": "",
+    "url": "http://www.keepassdroid.com/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePass#Unofficial_KeePass_releases",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Password Managers"
+        ]
+      }
+    ],
+    "slug": "keepassdroid"
+  },
+  {
+    "development_stage": "released",
     "description": "这个程序是为那些极其重视个人数据安全管理的人设计的，可以在一个数据库里保存用户名，密码，网址，附件和注释等各种内容。",
     "license_url": "https://github.com/keepassx/keepassx/blob/master/COPYING",
     "logo": "keepassx.png",
