@@ -927,9 +927,9 @@
     "slug": "cozy"
   },
   {
-    "development_stage": "released",
-    "description": "Encrypted instant messaging within your web browser.",
-    "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
+    "development_stage": "experimental",
+    "description": "Chat with your friends, privately.",
+    "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.md",
     "logo": "cryptocat.png",
     "notes": "",
     "privacy_url": "",
@@ -939,27 +939,18 @@
     "url": "https://crypto.cat/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat",
     "protocols": [
-      "OTR"
+      "OMEMO"
     ],
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       },
@@ -972,7 +963,6 @@
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       }
