@@ -927,7 +927,7 @@
     "slug": "cozy"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "Messaggistica istantanea privata e criptata all&#39;interno del browser.",
     "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
     "logo": "cryptocat.png",
@@ -939,27 +939,18 @@
     "url": "https://crypto.cat/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat",
     "protocols": [
-      "OTR"
+      "OMEMO"
     ],
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       },
       {
         "name": "OS X",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       },
@@ -972,7 +963,6 @@
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       }
