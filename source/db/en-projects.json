@@ -943,14 +943,23 @@
     ],
     "categories": [
       {
+        "name": "GNU/Linux",
         "subcategories": [
           "Instant Messaging"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Instant Messaging"
+        ]
       },
       {
         "name": "Web Services",
         "subcategories": [
           "Instant Messaging"
         ]
+      },
       {
         "name": "Windows",
         "subcategories": [
