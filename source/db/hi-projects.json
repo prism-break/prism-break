@@ -5582,14 +5582,14 @@
   {
     "development_stage": "released",
     "description": "A fork of TextSecure with SMS encryption.",
-    "license_url": "https://github.com/SMSSecure/SMSSecure/blob/master/LICENSE",
-    "logo": "smssecure.png",
+    "license_url": "https://github.com/SilenceIM/Silence/blob/master/LICENSE",
+    "logo": "silence.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://github.com/SMSSecure/SMSSecure.git",
-    "name": "SMSSecure",
+    "source_url": "https://github.com/SilenceIM/Silence",
+    "name": "Silence",
     "tos_url": "",
-    "url": "https://smssecure.org/",
+    "url": "https://silence.im/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
@@ -5600,7 +5600,7 @@
         ]
       }
     ],
-    "slug": "smssecure"
+    "slug": "silence"
   },
   {
     "development_stage": "released",
