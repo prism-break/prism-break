@@ -435,35 +435,6 @@
     "slug": "bitmessage"
   },
   {
-    "development_stage": "released",
-    "description": "Un logiciel libre pour nettoyer l'espace disque, gérer la vie privée et optimiser le système de l'ordinateur.",
-    "license_url": "https://github.com/az0/bleachbit/blob/master/COPYING",
-    "logo": "bleachbit.png",
-    "notes": "BleachBit ne chiffre aucune de vos données par défaut.",
-    "privacy_url": "",
-    "source_url": "https://github.com/az0/bleachbit",
-    "name": "BleachBit",
-    "tos_url": "",
-    "url": "http://bleachbit.sourceforge.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/BleachBit",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "slug": "bleachbit"
-  },
-  {
     "development_stage": "experimental",
     "description": "Bookie est une application open source de gestion de marque-page.",
     "license_url": "https://github.com/bookieio/Bookie/blob/develop/COPYING",

@@ -435,35 +435,6 @@
     "slug": "bitmessage"
   },
   {
-    "development_stage": "released",
-    "description": "一个提供磁盘清理、隐私管理和系统优化的自由软件。",
-    "license_url": "https://github.com/az0/bleachbit/blob/master/COPYING",
-    "logo": "bleachbit.png",
-    "notes": "默认设定下BleachBit不会加密你的任何数据。",
-    "privacy_url": "",
-    "source_url": "https://github.com/az0/bleachbit",
-    "name": "BleachBit",
-    "tos_url": "",
-    "url": "http://bleachbit.sourceforge.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/BleachBit",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "slug": "bleachbit"
-  },
-  {
     "development_stage": "experimental",
     "description": "Bookie是一个开源的收藏夹程序。",
     "license_url": "https://github.com/bookieio/Bookie/blob/develop/COPYING",
