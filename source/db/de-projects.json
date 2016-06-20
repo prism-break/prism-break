@@ -2004,6 +2004,35 @@
   },
   {
     "development_stage": "released",
+    "description": "FreeOTP is a two-factor authentication application for systems utilizing one-time password protocols.",
+    "license_url": "https://fedorahosted.org/freeotp/browser/android/COPYING",
+    "logo": "freeotp.png",
+    "notes": "FreeOTP adds a second layer of security for your online accounts. This works by generating one-time passwords on your mobile devices which can be used in conjunction with your normal password to make your login nearly impossible to hack.",
+    "privacy_url": "",
+    "source_url": "https://fedorahosted.org/freeotp/browser/android",
+    "name": "FreeOTP",
+    "tos_url": "",
+    "url": "https://fedorahosted.org/freeotp/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeOTP",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Authentication"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Authentication"
+        ]
+      }
+    ],
+    "slug": "freeotp"
+  },
+  {
+    "development_stage": "released",
     "description": "Plattformübergreifende Soft-Switch-Software mit VoIP/SIP-Unterstützung.",
     "license_url": "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true",
     "logo": "freeswitch.png",

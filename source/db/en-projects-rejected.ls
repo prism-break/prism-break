@@ -177,6 +177,15 @@ projects-rejected =
     ]
 
   * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "authy.png"
+    name: 'Authy'
+    categories: [
+      * name: "Android"
+        subcategories: ['Authentication']
+    ]
+
+  * status: 'rejected'
     tags: ["Proprietary"]
     logo: "blackberry.png"
     name: "BlackBerry"
@@ -302,6 +311,15 @@ projects-rejected =
     categories: [
       * name: "Android"
         subcategories: ['Operating Systems (Mobile)']
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "google-authenticator.png"
+    name: 'Google Authenticator'
+    categories: [
+      * name: "Android"
+        subcategories: ['Authentication']
     ]
 
   * status: 'rejected'
