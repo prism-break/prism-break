@@ -5350,6 +5350,51 @@
     "slug": "ricochet"
   },
   {
+    "development_stage": "experimental",
+    "description": "Ring is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.",
+    "license_url": "https://github.com/savoirfairelinux/ring-project/blob/master/COPYING",
+    "logo": "ring.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/savoirfairelinux/ring-project",
+    "name": "Ring",
+    "tos_url": "",
+    "url": "https://ring.cx/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ring_(software)",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      }
+    ],
+    "slug": "ring"
+  },
+  {
     "development_stage": "released",
     "description": "Sigurni i privatni email nalozi.",
     "license_url": "",
