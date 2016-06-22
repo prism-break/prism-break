@@ -18,6 +18,30 @@
         "subcategories": [
           "Web Browser Addons"
         ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
       }
     ],
     "slug": "adblock-edge"
@@ -2702,6 +2726,12 @@
     ],
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Anonymizing Networks"
+        ]
+      },
+      {
         "name": "BSD",
         "subcategories": [
           "Anonymizing Networks"
@@ -4007,6 +4037,12 @@
     "protocols": [],
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
         "name": "BSD",
         "subcategories": [
           "Web Browser Addons"
@@ -4335,6 +4371,12 @@
       "DNS"
     ],
     "categories": [
+      {
+        "name": "Routers",
+        "subcategories": [
+          "DNS"
+        ]
+      },
       {
         "name": "Web Services",
         "subcategories": [
