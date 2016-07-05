@@ -1831,13 +1831,13 @@
     "development_stage": "released",
     "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "fennec-fdroid.png",
+    "logo": "mozilla-firefox.png",
     "notes": "Firefox не прячет ваш IP адрес от третьих лиц по умолчанию. Если вы хотите анонимизировать свой IP, используйте вместо него Orbot.\n\nFirefox отправляет поисковые запросы через Google по умолчанию. Подумайте о смене его на DuckDuckGo или Startpage для анонимного веб поиска.\n\nПодумайте о выключении функций «Блокировать сайты, подозреваемые в атаках» и «Блокировать сайты, подозреваемые в мошенничестве», расположенных в меню если вы не хотите, чтобы Mozilla отправляла хеши URL в Google.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "http://hg.mozilla.org/mobile-browser/",
-    "name": "Fennec FDroid",
+    "name": "Firefox Mobile",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid",
+    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
@@ -1850,7 +1850,7 @@
         ]
       }
     ],
-    "slug": "fennec-fdroid"
+    "slug": "firefox-mobile"
   },
   {
     "development_stage": "released",

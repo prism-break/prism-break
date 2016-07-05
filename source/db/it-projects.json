@@ -1831,13 +1831,13 @@
     "development_stage": "released",
     "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "fennec-fdroid.png",
+    "logo": "mozilla-firefox.png",
     "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Orbot.\n\nIl motore di ricerca predefinito di Firefox &egrave; Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" if you don't want Mozilla to send reported URL hashes to Google.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "http://hg.mozilla.org/mobile-browser/",
-    "name": "Fennec FDroid",
+    "name": "Firefox Mobile",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.fennec_fdroid",
+    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
@@ -1850,7 +1850,7 @@
         ]
       }
     ],
-    "slug": "fennec-fdroid"
+    "slug": "firefox-mobile"
   },
   {
     "development_stage": "released",
