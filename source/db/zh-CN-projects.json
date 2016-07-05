@@ -1999,10 +1999,10 @@
   },
   {
     "development_stage": "released",
-    "description": "FreeOTP is a two-factor authentication application for systems utilizing one-time password protocols.",
+    "description": "FreeOTP是一个使用动态密码的两步验证应用。 ",
     "license_url": "https://fedorahosted.org/freeotp/browser/android/COPYING",
     "logo": "freeotp.png",
-    "notes": "FreeOTP adds a second layer of security for your online accounts. This works by generating one-time passwords on your mobile devices which can be used in conjunction with your normal password to make your login nearly impossible to hack.",
+    "notes": "FreeOTP为你的网络账号安全增加了第二层保护。它的工作原理是应用在你的手机设备上生成动态密码，登录网络账号时输入正常密码并配合使用动态密码，这使得你的账号几乎不可能被入侵。",
     "privacy_url": "",
     "source_url": "https://fedorahosted.org/freeotp/browser/android",
     "name": "FreeOTP",
