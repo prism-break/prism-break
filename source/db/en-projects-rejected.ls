@@ -928,6 +928,21 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
+    logo: "1password.png"
+    name: "1Password"
+    categories: [
+      * name: "Windows"
+        subcategories: ["Password Managers"]
+      * name: "Android"
+        subcategories: ["Password Managers"]
+      * name: "OS X"
+        subcategories: ["Password Managers"]
+      * name: "iOS"
+        subcategories: ["Password Managers"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
     logo: "ghostery.png"
     name: "Ghostery"
     categories: [
