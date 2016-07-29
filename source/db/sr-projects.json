@@ -6756,5 +6756,32 @@
       }
     ],
     "slug": "password-store"
+  },
+  {
+   "development_stage": "released",
+   "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
+   "license_url": "http://wikisuite.org/License",
+   "logo": "wikisuiteorg-logo.png",
+   "notes": "",
+   "privacy_url": "",
+   "source_url": "http://wikisuite.org/Source",
+   "name": "WikiSuite",
+   "tos_url": "",
+   "url": "http://wikisuite.org/",
+   "wikipedia_url": "",
+   "protocols": [
+     "XMPP",
+     "CardDAV",
+     "SIP"
+   ],
+   "categories": [
+     {
+       "name": "Servers",
+       "subcategories": [
+         "Enterprise Suite"
+       ]
+     }
+   ],
+   "slug": "wikisuite"
   }
 ]
