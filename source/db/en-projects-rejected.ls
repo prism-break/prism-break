@@ -888,12 +888,21 @@ projects-rejected =
     logo: "zoho.png"
     name: "Zoho Office Suite"
     categories: [
+      * name: "Servers"
+        subcategories: ["Enterprise Suite"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "zoho.png"
+    name: "Zoho Docs"
+    categories: [
       * name: "Web Services"
         subcategories: ["Productivity"]
       * name: "Servers"
         subcategories: ["Productivity"]
     ]
-
+	
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "roboform.png"
@@ -1031,5 +1040,22 @@ projects-rejected =
       * name: "Servers"
         subcategories: ["Video & Voice"]
     ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "office365.png"
+    name: "Office 365 Enterprise E5"
+    categories: [
+      * name: "Servers"
+        subcategories: ["Enterprise Suite"]
+    ]
 
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "google-apps-for-work.png"
+    name: "Google Apps for Work"
+    categories: [
+      * name: "Servers"
+        subcategories: ["Enterprise Suite"]
+    ]
+	
 exports.projects-rejected = projects-rejected
