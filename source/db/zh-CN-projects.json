@@ -782,31 +782,6 @@
   },
   {
     "development_stage": "released",
-    "description": "支持DNSCrypt、DNSSec和Namecoin的DNS服务。",
-    "license_url": "",
-    "logo": "cloudns.png",
-    "notes": "",
-    "privacy_url": "https://cloudns.com.au/",
-    "source_url": "",
-    "name": "CloudNS",
-    "tos_url": "",
-    "url": "https://cloudns.com.au/",
-    "wikipedia_url": "",
-    "protocols": [
-      "DNS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "cloudns"
-  },
-  {
-    "development_stage": "released",
     "description": "使用手机、电脑和无线路由器等设备，独立地搭建起分布式网络！",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",

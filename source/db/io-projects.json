@@ -782,31 +782,6 @@
   },
   {
     "development_stage": "released",
-    "description": "DNS hosting service with DNSCrypt, DNSSec, and Namecoin support.",
-    "license_url": "",
-    "logo": "cloudns.png",
-    "notes": "",
-    "privacy_url": "https://cloudns.com.au/",
-    "source_url": "",
-    "name": "CloudNS",
-    "tos_url": "",
-    "url": "https://cloudns.com.au/",
-    "wikipedia_url": "",
-    "protocols": [
-      "DNS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "cloudns"
-  },
-  {
-    "development_stage": "released",
     "description": "Uses mobile phones, computers, and wireless routers to create decentralized mesh networks.",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",

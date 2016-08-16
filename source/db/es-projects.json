@@ -782,31 +782,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Servicio de hospedaje DNS con capacidades para DNSCrypt, DNSSec, y Namecoin.",
-    "license_url": "",
-    "logo": "cloudns.png",
-    "notes": "",
-    "privacy_url": "https://cloudns.com.au/",
-    "source_url": "",
-    "name": "CloudNS",
-    "tos_url": "",
-    "url": "https://cloudns.com.au/",
-    "wikipedia_url": "",
-    "protocols": [
-      "DNS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "cloudns"
-  },
-  {
-    "development_stage": "released",
     "description": "Usa teléfonos móviles, computadoras y enrutadores inalámbricos para crear redes en malla descentralizadas.",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
