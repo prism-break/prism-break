@@ -6783,5 +6783,30 @@
      }
    ],
    "slug": "wikisuite"
+  },
+  {
+   "development_stage": "released",
+   "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
+   "license_url": "https://github.com/xwiki-labs/cryptpad/blob/master/LICENSE",
+   "logo": "cryptpad.png",
+   "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
+   "privacy_url": "https://cryptpad.fr/privacy.html",
+   "source_url": "https://github.com/xwiki-labs/cryptpad",
+   "name": "Cryptpad",
+   "tos_url": "https://cryptpad.fr/terms.html",
+   "url": "https://cryptpad.fr",
+   "wikipedia_url": "",
+   "protocols": [
+     "SSL/TLS"
+   ],
+   "categories": [
+     {
+       "name": "Web Services",
+       "subcategories": [
+         "Productivity"
+       ]
+     }
+   ],
+   "slug": "cryptpad"
   }
 ]
