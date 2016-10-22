@@ -1072,5 +1072,103 @@ projects-rejected =
       * name: "Servers"
         subcategories: ["Enterprise Suite"]
     ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "google-allo.png"
+    name: "Google Allo"
+    categories: [
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "icq.png"
+    name: "ICQ"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * "name": "GNU/Linux"
+        subcategories: ["Instant Messaging"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
+      * name: "Servers"
+        subcategories: ["Instant Messaging"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "line.png"
+    name: "LINE"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
+      * name: "Servers"
+        subcategories: ["Instant Messaging"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "tencent-qq.png"
+    name: "Tencent QQ"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
+      * name: "Servers"
+        subcategories: ["Instant Messaging"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "wechat.png"
+    name: "WeChat"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
+      * name: "Servers"
+        subcategories: ["Instant Messaging"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "apple-imessage.png"
+    name: "iMessage"
+    categories: [
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+    ]
 	
 exports.projects-rejected = projects-rejected
