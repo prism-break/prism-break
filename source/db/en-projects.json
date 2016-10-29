@@ -2118,7 +2118,7 @@
     "description": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.png",
-    "notes": "",
+    "notes": "Gajim also stores your passwords in plaintext. You can avoid this by installing gnome-keyring and python-gnome2-desktop on GNOME or kwalletcli for Kwallet on KDE.",
     "privacy_url": "",
     "source_url": "https://gajim.org/dev.php",
     "name": "Gajim",
