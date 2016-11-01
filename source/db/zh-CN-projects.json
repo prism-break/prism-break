@@ -32,7 +32,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -48,7 +48,7 @@
   },
   {
     "development_stage": "released",
-    "description": "用于苹果OS X操作系统的免费聊天软件，支持多种协议。记得开启OTR加密。",
+    "description": "用于苹果macOS操作系统的免费聊天软件，支持多种协议。记得开启OTR加密。",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
     "notes": "",
@@ -65,7 +65,7 @@
     ],
     "categories": [
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging",
           "IRC"
@@ -172,7 +172,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -252,7 +252,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "SIP Servers"
         ]
@@ -340,7 +340,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Finance"
         ]
@@ -387,7 +387,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging",
           "IRC"
@@ -426,7 +426,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Alternatives"
         ]
@@ -497,7 +497,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Bookmark Sync"
         ]
@@ -571,7 +571,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -691,7 +691,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -766,7 +766,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Clients"
         ]
@@ -813,7 +813,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -919,7 +919,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging"
         ]
@@ -1078,7 +1078,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -1131,7 +1131,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -1203,7 +1203,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -1317,7 +1317,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -1442,7 +1442,7 @@
   },
   {
     "development_stage": "released",
-    "description": "使用Erlang/OTPXMPP编写的，支持GNU/Linux和OS X的XMPP通讯工具。",
+    "description": "使用Erlang/OTPXMPP编写的，支持GNU/Linux和macOS的XMPP通讯工具。",
     "license_url": "https://github.com/processone/ejabberd/blob/master/COPYING",
     "logo": "ejabberd.png",
     "notes": "",
@@ -1492,7 +1492,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Disk Encryption"
         ]
@@ -1556,7 +1556,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -1617,7 +1617,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption"
         ]
@@ -1788,7 +1788,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -1877,7 +1877,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -1952,7 +1952,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks"
         ]
@@ -2043,7 +2043,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "SIP Servers"
         ]
@@ -2197,7 +2197,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -2240,7 +2240,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "File Storage & Sync"
         ]
@@ -2304,7 +2304,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -2347,7 +2347,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption"
         ]
@@ -2421,7 +2421,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks"
         ]
@@ -2517,7 +2517,7 @@
   },
   {
     "development_stage": "released",
-    "description": "苹果OS X Mail的OpenPGP插件。",
+    "description": "苹果macOS Mail的OpenPGP插件。",
     "license_url": "https://github.com/GPGTools/MacGPG2/blob/dev/LICENSE.txt",
     "logo": "gpgtools.png",
     "notes": "",
@@ -2532,7 +2532,7 @@
     ],
     "categories": [
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption"
         ]
@@ -2592,7 +2592,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "IRC"
         ]
@@ -2641,7 +2641,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -2690,7 +2690,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks"
         ]
@@ -2749,7 +2749,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mail Servers"
         ]
@@ -2808,7 +2808,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mail Servers"
         ]
@@ -2880,7 +2880,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging",
           "Video & Voice"
@@ -2929,7 +2929,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems (Live)"
         ]
@@ -2973,7 +2973,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browsers"
         ]
@@ -3057,7 +3057,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "SIP Servers"
         ]
@@ -3127,7 +3127,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Password Managers"
         ]
@@ -3184,7 +3184,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mail Servers"
         ]
@@ -3237,7 +3237,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "File Storage & Sync"
         ]
@@ -3397,7 +3397,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -3466,7 +3466,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Video & Voice"
         ]
@@ -3525,7 +3525,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Finance"
         ]
@@ -3570,7 +3570,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption",
           "Web Browser Addons"
@@ -3607,7 +3607,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "World Maps"
         ]
@@ -3757,7 +3757,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browsers"
         ]
@@ -3810,7 +3810,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Clients",
           "Instant Messaging",
@@ -3864,7 +3864,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Video & Voice"
         ]
@@ -3913,7 +3913,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "DNS"
         ]
@@ -3948,7 +3948,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -4001,7 +4001,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -4063,7 +4063,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "DNS"
         ]
@@ -4186,7 +4186,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "World Maps"
         ]
@@ -4250,7 +4250,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -4376,7 +4376,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -4454,7 +4454,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "VPN Clients"
         ]
@@ -4642,7 +4642,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "File Storage & Sync"
         ]
@@ -4683,7 +4683,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -4919,7 +4919,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -4958,7 +4958,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging"
         ]
@@ -5027,7 +5027,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging"
         ]
@@ -5110,7 +5110,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -5151,7 +5151,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -5263,7 +5263,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -5311,7 +5311,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Alternatives",
           "Instant Messaging",
@@ -5352,7 +5352,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging"
         ]
@@ -5395,7 +5395,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging",
           "Video & Voice"
@@ -5546,7 +5546,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -5685,7 +5685,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "File Storage & Sync"
         ]
@@ -5784,7 +5784,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Clients"
         ]
@@ -5833,7 +5833,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "File Storage & Sync"
         ]
@@ -5869,7 +5869,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks",
           "Social Networks"
@@ -5949,7 +5949,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems (Live)"
         ]
@@ -6038,7 +6038,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -6107,7 +6107,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks"
         ]
@@ -6157,7 +6157,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browsers"
         ]
@@ -6200,7 +6200,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption"
         ]
@@ -6245,7 +6245,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging",
           "Video & Voice"
@@ -6263,7 +6263,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Tunnelblick是OS X平台上一个免费开源的OpenVPN图形用户界面。它提供了方便控制的OpenVPN客户端和/或服务器连接。",
+    "description": "Tunnelblick是macOS平台上一个免费开源的OpenVPN图形用户界面。它提供了方便控制的OpenVPN客户端和/或服务器连接。",
     "license_url": "https://github.com/Tunnelblick/Tunnelblick/blob/master/tunnelblick/COPYING",
     "logo": "tunnelblick.png",
     "notes": "",
@@ -6276,7 +6276,7 @@
     "protocols": [],
     "categories": [
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "VPN Clients"
         ]
@@ -6311,7 +6311,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -6460,7 +6460,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Bookmark Sync"
         ]
@@ -6509,7 +6509,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "IRC"
         ]
@@ -6528,7 +6528,7 @@
     "description": "虚拟机友好的操作系统，基于Debian和Tor，致力于匿名、隐私和安全。",
     "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
     "logo": "whonix.png",
-    "notes": "Whonix被设计用来运行在虚拟化环境下，例如[VirtualBox](https://www.virtualbox.org/)。VirtualBox可以安装在Windows, Linux, OS X和Solaris等操作系统上。这意味着如果你不得不使用Windows或OS X，你可以用VirtualBox和Whonix来（有限地）增强你的安全性和匿名性。",
+    "notes": "Whonix被设计用来运行在虚拟化环境下，例如[VirtualBox](https://www.virtualbox.org/)。VirtualBox可以安装在Windows, Linux, macOS和Solaris等操作系统上。这意味着如果你不得不使用Windows或macOS，你可以用VirtualBox和Whonix来（有限地）增强你的安全性和匿名性。",
     "privacy_url": "",
     "source_url": "https://github.com/Whonix/Whonix/",
     "name": "Whonix",
@@ -6546,7 +6546,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -6633,7 +6633,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Search"
         ]
@@ -6724,7 +6724,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Password Managers"
         ]
