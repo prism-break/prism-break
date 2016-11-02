@@ -1854,35 +1854,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Операционная система с открытым исходным кодом для Android-совместимых устройств.",
-    "license_url": "https://www.mozilla.org/en-US/foundation/licensing/",
-    "logo": "mozilla-firefox.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/mozilla-b2g",
-    "name": "Firefox OS",
-    "tos_url": "",
-    "url": "https://www.mozilla.org/firefox/os/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Firefox_OS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      }
-    ],
-    "slug": "firefox-os"
-  },
-  {
-    "development_stage": "released",
     "description": "Свободная операционная система, основанная на BSD.",
     "license_url": "https://www.freebsd.org/copyright/freebsd-license.html",
     "logo": "freebsd.png",
