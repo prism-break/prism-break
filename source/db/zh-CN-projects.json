@@ -1028,35 +1028,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Android设备的开源固件（俗称CM系统）",
-    "license_url": "https://source.android.com/source/licenses.html",
-    "logo": "cyanogenmod.png",
-    "notes": "",
-    "privacy_url": "http://www.cyanogenmod.org/docs/privacy",
-    "source_url": "https://github.com/CyanogenMod",
-    "name": "CyanogenMod",
-    "tos_url": "http://www.cyanogenmod.org/docs/terms",
-    "url": "http://www.cyanogenmod.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CyanogenMod",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      }
-    ],
-    "slug": "cyanogenmod"
-  },
-  {
-    "development_stage": "released",
     "description": "DAVdroid是一个开源的CalDAV/CardDAV同步APP，支持4.0以上的安卓系统。",
     "license_url": "https://github.com/bitfireAT/davdroid/blob/master/COPYING",
     "logo": "davdroid.png",
