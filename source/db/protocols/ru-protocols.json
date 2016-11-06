@@ -18,6 +18,15 @@
     }]
   },
   {
+    "name": "Matrix",
+    "full_name": "Matrix",
+    "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
     "name": "SIP",
     "full_name": "Session Initiation Protocol",
     "description": "SIP (англ. Session Initiation Protocol — протокол установления сеанса) — протокол передачи данных, который описывает способ установления и завершения пользовательского интернет-сеанса, включающего обмен мультимедийным содержимым (видео- и аудиоконференция, мгновенные сообщения, онлайн-игры).",
