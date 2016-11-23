@@ -1028,35 +1028,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Nieoficjalne oprogramowanie dla urz&#261;dze&#324; z Androidem (bez aplikacji Google na starcie).",
-    "license_url": "https://source.android.com/source/licenses.html",
-    "logo": "cyanogenmod.png",
-    "notes": "",
-    "privacy_url": "http://www.cyanogenmod.org/docs/privacy",
-    "source_url": "https://github.com/CyanogenMod",
-    "name": "CyanogenMod",
-    "tos_url": "http://www.cyanogenmod.org/docs/terms",
-    "url": "http://www.cyanogenmod.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CyanogenMod",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      }
-    ],
-    "slug": "cyanogenmod"
-  },
-  {
-    "development_stage": "released",
     "description": "DAVdroid is an open-source CalDAV/CardDAV synchronization app for Android 4+.",
     "license_url": "https://github.com/bitfireAT/davdroid/blob/master/COPYING",
     "logo": "davdroid.png",
