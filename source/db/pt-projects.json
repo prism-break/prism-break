@@ -1800,6 +1800,31 @@
   },
   {
     "development_stage": "released",
+    "description": "Fast, flexible and secure web browser with a vibrant add-on ecosystem.",
+    "license_url": "https://www.mozilla.org/MPL/",
+    "logo": "mozilla-firefox.png",
+    "notes": "Firefox Mobile does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
+    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
+    "name": "Firefox Mobile",
+    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+    "url": "https://www.mozilla.org/firefox/ios/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      }
+    ],
+    "slug": "firefox-ios"
+  },
+  {
+    "development_stage": "released",
     "description": "Navegador web de código aberto.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
