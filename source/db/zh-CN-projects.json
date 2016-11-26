@@ -1877,6 +1877,31 @@
     "description": "开源的web浏览器，扩展丰富。",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
+    "notes": "默认情况下Firefox Mobile并不会对第三方隐藏你的IP地址，如果你想要隐藏IP，建议使用Onion Browser。\n\n火狐默认情况下使用Google作为搜索引擎，建议改成DuckDuckGo或者Startpage以提升匿名性。",
+    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
+    "name": "Firefox Mobile",
+    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+    "url": "https://www.mozilla.org/firefox/ios/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      }
+    ],
+    "slug": "firefox-ios"
+  },
+  {
+    "development_stage": "released",
+    "description": "开源的web浏览器，扩展丰富。",
+    "license_url": "https://www.mozilla.org/MPL/",
+    "logo": "mozilla-firefox.png",
     "notes": "默认情况下Firefox Mobile并不会对第三方隐藏你的IP地址，如果你想要隐藏IP，建议使用Orbot。\n\n火狐默认情况下使用Google作为搜索引擎，建议改成DuckDuckGo或者Startpage以提升匿名性。\n\n建议取消选中\"Block reported attack sites\"和\"Block reported web forgeries\"选项，以避免火狐向Google发送网址的哈希特征值。",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "http://hg.mozilla.org/mobile-browser/",
