@@ -1,8 +1,8 @@
 # PRISM Break
 
-Welcome to the PRISM Break project. Here's a quick overview of the code. JSON containing all of the project data is filtered through [LiveScript](http://livescript.net/) and then compiled to plain HTML with [Jade](http://jade-lang.com/) templates. Stylesheets are managed with [Stylus](http://learnboost.github.io/stylus/), a CSS preprocessor.
+Welcome to the PRISM Break project. Here's a quick overview of the code. JSON containing all of the project data is filtered through [LiveScript](https://livescript.net/) and then compiled to plain HTML with [Jade](https://pugjs.org/) templates. Stylesheets are managed with [Stylus](http://stylus-lang.com/), a CSS preprocessor.
 
-The prism-break build process relies on several npm packages. Make sure to have [io.js](http://iojs.org) or [node.js](http://nodejs.org/) installed on your system if you want to contribute to the code.
+The prism-break build process relies on several npm packages. Make sure to have [io.js](https://iojs.org/) or [node.js](https://nodejs.org/) installed on your system if you want to contribute to the code.
 
 If you'd like to translate the project to your favorite language, there's no need to install io.js or even download the code. Just edit the appropriate JSON files on GitHub and submit a pull request.
 
@@ -12,7 +12,7 @@ More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTIN
 
  - **Only F/OSS software is allowed to be featured on PRISM Break.**
 
-PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](http://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
+PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](https://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
 
  - **Quality over quantity.**
 
