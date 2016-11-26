@@ -1,4 +1,4 @@
-# source: http://stackoverflow.com/a/5782563
+# source: https://stackoverflow.com/a/5782563
 export slugify = (string) ->
   string = string.replace(/^\s+|\s+$/g, '')
   string = string.to-lower-case!
