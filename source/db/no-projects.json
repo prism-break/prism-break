@@ -1,53 +1,6 @@
 [
   {
     "development_stage": "released",
-    "description": "Blokker reklame på Web.",
-    "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
-    "logo": "adblock-edge.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://bitbucket.org/adstomper/adblockedge/",
-    "name": "Adblock Edge",
-    "tos_url": "",
-    "url": "https://addons.mozilla.org/firefox/addon/adblock-edge/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "adblock-edge"
-  },
-  {
-    "development_stage": "released",
     "description": "Pidgin for macOS (husk å aktivere OTR).",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
