@@ -3642,6 +3642,59 @@
     "slug": "metronome"
   },
   {
+    "development_stage": "experimental",
+    "description": "Monero is a secure, private, untraceable P2P currency.",
+    "license_url": "https://github.com/monero-project/monero/blob/master/LICENSE",
+    "logo": "monero.png",
+    "notes": "Please note that new, digital currencies may be volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
+    "privacy_url": "https://getmonero.org/legal/privacy",
+    "source_url": "https://github.com/monero-project/monero",
+    "name": "Monero",
+    "tos_url": "",
+    "url": "https://getmonero.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Monero_(cryptocurrency)",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Finance"
+        ]
+      }
+    ],
+    "slug": "monero"
+  },
+  {
     "development_stage": "released",
     "description": "Приватни, децентрализовани сервер за друштвене мреже.",
     "license_url": "https://github.com/edhelas/movim/blob/master/COPYING",
