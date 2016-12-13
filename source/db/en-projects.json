@@ -52,31 +52,6 @@
   },
   {
     "development_stage": "released",
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "license_url": "https://github.com/zeapo/Android-Password-Store/blob/master/LICENSE.txt",
-    "logo": "android-password-store.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/zeapo/Android-Password-Store",
-    "name": "Password Store",
-    "tos_url": "",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
-    "wikipedia_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Password Managers"
-        ]
-      }
-    ],
-    "slug": "android-password-store"
-  },
-  {
-    "development_stage": "released",
     "description": "Live USB/memory card OpenELEC-based media server toolbox platform for securing the online presence, web browsing and communications.",
     "license_url": "https://www.antiprism.ca/manual_en.html#LICENSE",
     "logo": "antiprism.png",
@@ -1756,10 +1731,10 @@
     "description": "Fast, flexible and secure web browser with a vibrant add-on ecosystem.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
-    "notes": "Firefox Mobile does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
+    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://github.com/mozilla-mobile/firefox-ios",
-    "name": "Firefox Mobile",
+    "name": "Firefox for iOS",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/firefox/ios/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
@@ -1781,10 +1756,10 @@
     "description": "Fast, flexible and secure web browser with a vibrant add-on ecosystem.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
-    "notes": "Firefox Mobile does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" if you don't want Mozilla to send reported URL hashes to Google.",
+    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" if you don't want Mozilla to send reported URL hashes to Google.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "http://hg.mozilla.org/mobile-browser/",
-    "name": "Firefox Mobile",
+    "name": "Firefox for Android",
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
@@ -5170,7 +5145,7 @@
     "url": "http://hubzilla.org/",
     "wikipedia_url": "",
     "protocols": [
-	  "RSS",
+    "RSS",
       "SSL/TLS",
       "WebDAV"
     ],
@@ -5178,21 +5153,21 @@
       {
         "name": "Servers",
         "subcategories": [
-		  "Bookmark Sync",
-		  "Communication Protocols",
-		  "File Storage & Sync",
+      "Bookmark Sync",
+      "Communication Protocols",
+      "File Storage & Sync",
           "Media Publishing",
-		  "Productivity",
+      "Productivity",
           "Social Networks"      
         ]
       },
      {
         "name": "Web Services",
         "subcategories": [
-		  "Bookmark Sync",
-		  "File Storage & Sync",
+      "Bookmark Sync",
+      "File Storage & Sync",
           "Media Publishing",
-		  "Productivity",
+      "Productivity",
           "Social Networks"
         ]
       }
@@ -5722,10 +5697,10 @@
     "protocols": [],
     "categories": [
       {
-	"name": "Android",
-	"subcategories": [
-	  "Instant Messaging"
-	]
+  "name": "Android",
+  "subcategories": [
+    "Instant Messaging"
+  ]
       }
     ],
     "slug": "silence"
@@ -6849,5 +6824,30 @@
      }
    ],
    "slug": "cryptpad"
+  },
+  {
+    "development_stage": "released",
+    "description": " Android application compatible with ZX2C4's Pass command line application.",
+    "license_url": "https://github.com/zeapo/Android-Password-Store/blob/master/LICENSE.txt",
+    "logo": "android-password-store.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/zeapo/Android-Password-Store",
+    "name": "Password Store",
+    "tos_url": "",
+    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
+    "wikipedia_url": "",
+    "protocols": [
+      "GPG"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Password Managers"
+        ]
+      }
+    ],
+    "slug": "android-password-store"
   }
 ]
