@@ -52,31 +52,6 @@
   },
   {
     "development_stage": "released",
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "license_url": "https://github.com/zeapo/Android-Password-Store/blob/master/LICENSE.txt",
-    "logo": "android-password-store.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/zeapo/Android-Password-Store",
-    "name": "Password Store",
-    "tos_url": "",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
-    "wikipedia_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Password Managers"
-        ]
-      }
-    ],
-    "slug": "android-password-store"
-  },
-  {
-    "development_stage": "released",
     "description": "Live USB/memory card OpenELEC-based media server toolbox platform for securing the online presence, web browsing and communications.",
     "license_url": "https://www.antiprism.ca/manual_en.html#LICENSE",
     "logo": "antiprism.png",
