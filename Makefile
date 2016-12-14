@@ -43,58 +43,8 @@ watch_css:
 build_css:
 	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
 
-build_ar:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)ar.ls
-build_ca:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)ca.ls
-build_de:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)de.ls
-build_el:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)el.ls
-build_en:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)en.ls
-build_eo:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)eo.ls
-build_es:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)es.ls
-build_fa:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)fa.ls
-build_fi:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)fi.ls
-build_fr:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)fr.ls
-build_he:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)he.ls
-build_hi:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)hi.ls
-build_io:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)io.ls
-build_it:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)it.ls
-build_ja:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)ja.ls
-build_nl:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)nl.ls
-build_no:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)no.ls
-build_pl:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)pl.ls
-build_pt:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)pt.ls
-build_ru:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)ru.ls
-build_sr-Cyrl:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)sr-Cyrl.ls
-build_sr:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)sr.ls
-build_sv:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)sv.ls
-build_tr:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)tr.ls
-build_zh-CN:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-CN.ls
-build_zh-TW:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)zh-TW.ls
+build_%:
+	$(LIVESCRIPT_BIN) $(BUILD_DIR)$*.ls
 
 build_html:	build_ar build_ca build_de build_el build_en build_eo build_es build_fa build_fi build_fr build_he build_hi build_io build_it build_ja build_nl build_no build_pl build_pt build_ru build_sr-Cyrl build_sr build_sv build_tr build_zh-CN build_zh-TW
 
