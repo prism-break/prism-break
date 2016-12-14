@@ -16,7 +16,7 @@ LANGUAGES := $(notdir $(basename $(wildcard source/locales/*.json)))
 ASSETS := $(notdir $(wildcard source/assets/*))
 
 # Mark all rules that don’t actually check whether they need building
-.PHONY: default test init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync
+.PHONY: default test init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync localize_%
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
@@ -105,6 +105,10 @@ clean:
 public/.htaccess: source/dotfiles/.htaccess
 	mkdir -p $(dir $@)
 	cp $< $@
+
+# Localizations
+localize_%:
+	lsc ./source/functions/find-missing-localizations.ls $*
 
 #----------------------------------------------------------------------
 # CONVENIENCE FUNCTIONS

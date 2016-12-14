@@ -2,7 +2,7 @@
 
 assign = require 'lodash.assign'
 
-module.exports = load-data = (path, iso) ->
+module.exports = load-data = (path, iso, find-missing = false) ->
   en-data = require path.replace('/' + iso, '/en')
   localized-data = require path
 
@@ -15,5 +15,9 @@ module.exports = load-data = (path, iso) ->
       if localized-obj.name is obj.name
         potential-localized-obj = assign {}, obj, localized-obj
         break
+
+    if find-missing and not potential-localized-obj
+      console.log 'Missing ' + iso + ' localization for ' + obj.name
+      continue
 
     potential-localized-obj or obj
