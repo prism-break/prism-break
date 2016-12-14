@@ -6,8 +6,6 @@ module.exports = load-data = (path, iso, find-missing = false) ->
   en-data = require path.replace('/' + iso, '/en')
   localized-data = require path
 
-  data = []
-
   for obj in en-data
     # Look for a localized version
     potential-localized-obj = null
