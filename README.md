@@ -2,9 +2,9 @@
 
 Welcome to the PRISM Break project. Here's a quick overview of the code. JSON containing all of the project data is filtered through [LiveScript](https://livescript.net/) and then compiled to plain HTML with [Jade](https://pugjs.org/) templates. Stylesheets are managed with [Stylus](http://stylus-lang.com/), a CSS preprocessor.
 
-The prism-break build process relies on several npm packages. Make sure to have [io.js](https://iojs.org/) or [node.js](https://nodejs.org/) installed on your system if you want to contribute to the code.
+The prism-break build process relies on several npm packages. Make sure to have [node.js](https://nodejs.org/) installed on your system if you want to contribute to the code.
 
-If you'd like to translate the project to your favorite language, there's no need to install io.js or even download the code. Just edit the appropriate JSON files on GitHub and submit a pull request.
+If you'd like to translate the project to your favorite language, there's no need to install node.js or even download the code. Just edit the appropriate JSON files on GitHub and submit a pull request.
 
 More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
