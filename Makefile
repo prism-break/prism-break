@@ -65,8 +65,8 @@ tmp/assets/css tmp/assets/js:
 
 copy_assets:
 	cp -r source/assets/fonts tmp/assets/fonts
-	cp -r source/assets/icons tmp/assets/ico
-	cp -r source/assets/images tmp/assets/img
+	cp -r source/assets/icons tmp/assets/icons
+	cp -r source/assets/images tmp/assets/images
 
 watch_css:
 	stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
