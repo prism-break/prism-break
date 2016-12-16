@@ -21,26 +21,14 @@ default: clean_tmp mkdirs deps copy_assets build_all finalize
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
 
-#----------------------------------------------------------------------
-# ALIASES
-#----------------------------------------------------------------------
+# Figure out the absolute path to the directory where this Makefile is
+BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))/../" && pwd)
 
-# Binaries
-BIN = ./node_modules/.bin/
-LIVESCRIPT_BIN = $(BIN)lsc
-LIVESCRIPT_PARAMS = -cob
-STYLUS_BIN = $(BIN)stylus
-STYLUS_PARAMS = -c -u ./node_modules/nib/
-STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
+# Prepend the local NPM bin dir to the path for the scope of this Makefile
+export PATH := $(BASE)/node_modules/.bin:$(PATH)
+
+# Use yarn if the system has it, otherwise npm
 NPM_HANDLER = $(shell hash yarn && echo yarn || echo npm)
-
-# Inputs
-BUILD_DIR = ./source/functions/build/site-
-STYL = ./source/stylesheets/screen.styl
-
-# Outputs
-CSS = ./tmp/assets/css/screen.css
-
 
 #----------------------------------------------------------------------
 # FUNCTIONS
@@ -58,13 +46,13 @@ copy_assets:
 	cp -r source/assets/images tmp/assets/img
 
 watch_css:
-	$(STYLUS_BIN) $(STYLUS_WATCH_PARAMS)
+	stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
 
 build_css:
-	$(STYLUS_BIN) $(STYLUS_PARAMS) <$(STYL) >$(CSS)
+	stylus -c -u ./node_modules/nib/ < ./source/stylesheets/screen.styl > ./tmp/assets/css/screen.css
 
 build_%:
-	$(LIVESCRIPT_BIN) $(BUILD_DIR)$*.ls
+	lsc /source/functions/build/site-$*.ls
 
 build_html: $(foreach LANGUAGE,$(LANGUAGES),build_$(LANGUAGE))
 
