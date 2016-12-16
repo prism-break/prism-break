@@ -1,5 +1,5 @@
 # make	 					build the entire site (all languages)
-# make deps					install NPM dependencies
+# make init					install NPM dependencies
 # make en					build the English edition (replace 'en' with 'fr' for French)
 # make clean				destroy built files
 # make reset				destroy built files and build the entire site
@@ -13,7 +13,7 @@
 LANGUAGES = $(shell find ./source/locales/ -name '*.json' -execdir basename -s .json {} \;)
 
 # Mark all rules that don’t actually check whether they need building
-.PHONY: default deps mkdirs copy_assets watch_css build_css build_lang_% build_html clean_tmp clean_public finalize sync build_all test clean reset $(LANGUAGES)
+.PHONY: default init mkdirs copy_assets watch_css build_css build_lang_% build_html clean_tmp clean_public finalize sync build_all test clean reset $(LANGUAGES)
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
@@ -32,7 +32,7 @@ NPM_HANDLER = $(shell hash yarn && echo yarn || echo npm)
 #----------------------------------------------------------------------
 
 # Explicitly set the default make target
-default: clean_tmp mkdirs deps copy_assets build_all finalize ;
+default: clean_tmp init mkdirs init copy_assets build_all finalize ;
 
 # Use building one language as a check to see if everything works
 test: en ;
@@ -47,14 +47,17 @@ build_all: build_css build_html ;
 build_html: $(foreach LANGUAGE,$(LANGUAGES),build_$(LANGUAGE)) ;
 
 # Targets for rebuilding a single language
-$(LANGUAGES): clean_tmp mkdirs deps copy_assets build_css build_lang_$$@ finalize ;
+$(LANGUAGES): clean_tmp mkdirs init copy_assets build_css build_lang_$$@ finalize ;
 
 #----------------------------------------------------------------------
 # FUNCTIONS
 #----------------------------------------------------------------------
 
-deps:
+init: node_modules ;
+
+node_modules: package.json
 	$(NPM_HANDLER) install
+	touch node_modules
 
 mkdirs:
 	mkdir -p tmp/assets/css tmp/assets/js
