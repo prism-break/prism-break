@@ -30,7 +30,7 @@ export PATH := $(BASE)/node_modules/.bin:$(PATH)
 # Use yarn if the system has it, otherwise npm
 NPM_HANDLER = $(shell hash yarn && echo yarn || echo npm)
 
-ASSETS = css js fonts icons images
+ASSETS = fonts icons images
 
 #----------------------------------------------------------------------
 # COMMANDS
@@ -72,17 +72,14 @@ node_modules: package.json
 	$(NPM_HANDLER) install
 	touch node_modules
 
-
-# These assets will always be generated
-tmp/assets/css tmp/assets/js:
-	mkdir -p $@
-
-# All other assets just get copied from the source tree (if newer files exist)
+# Copy fixed assets from the source tree (if newer files exist)
 tmp/assets/%: source/assets/% | $$(shell find source/assets/$$* -type f)
+	mkdir -p $(dir $@)
 	rsync -r $</ $@/
 
 # Rebuild stylesheet if any of the input templates change
 tmp/assets/css/%.css: source/stylesheets/%.styl | $(shell git ls-files *.styl)
+	mkdir -p $(dir $@)
 	stylus -c -u nib < $< > $@
 
 clean_tmp:
