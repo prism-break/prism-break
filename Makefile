@@ -1,10 +1,11 @@
-# make    					build the entire site (all languages)
-# make en						build the English edition (replace 'en' with 'fr' for French)
+# make	 					build the entire site (all languages)
+# make deps					install NPM dependencies
+# make en					build the English edition (replace 'en' with 'fr' for French)
 # make clean				destroy built files
 # make reset				destroy built files and build the entire site
-# make watch_css		watches for stylus (CSS) edits and compiles it
+# make watch_css			watches for stylus (CSS) edits and compiles it
 
-default: clean_tmp mkdirs copy_assets build_all finalize
+default: clean_tmp mkdirs deps copy_assets build_all finalize
 
 #---------------------------------------------------------------------- 
 # ALIASES 
@@ -17,6 +18,7 @@ LIVESCRIPT_PARAMS = -cob
 STYLUS_BIN = $(BIN)stylus
 STYLUS_PARAMS = -c -u ./node_modules/nib/
 STYLUS_WATCH_PARAMS = -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
+NPM_HANDLER = $(shell hash yarn && echo yarn || echo npm)
 
 # Inputs
 BUILD_DIR = ./source/functions/build/site-
@@ -28,6 +30,9 @@ CSS = ./tmp/assets/css/screen.css
 #---------------------------------------------------------------------- 
 # FUNCTIONS 
 #---------------------------------------------------------------------- 
+
+deps:
+	$(NPM_HANDLER) install
 
 mkdirs:
 	mkdir -p tmp/assets/css tmp/assets/js
