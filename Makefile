@@ -13,7 +13,7 @@
 LANGUAGES = $(shell find ./source/locales/ -name '*.json' -execdir basename -s .json {} \;)
 
 # Mark all rules that don’t actually check whether they need building
-.PHONY: default init assets watch_css css build_lang_% build_html clean_tmp clean_public finalize sync build_all test clean reset $(LANGUAGES)
+.PHONY: default init assets watch_css css html_% html clean_tmp clean_public sync all test clean reset $(LANGUAGES)
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
@@ -37,7 +37,7 @@ ASSETS = fonts icons images
 #----------------------------------------------------------------------
 
 # Explicitly set the default make target
-default: clean_tmp init build_all finalize ;
+default: clean_tmp init all public ;
 
 # Use building one language as a check to see if everything works
 test: en ;
@@ -49,12 +49,12 @@ reset: clean default ;
 init: node_modules assets ;
 
 # Targets to build all languages
-build_all: css build_html ;
+all: css html ;
 
-build_html: $(foreach LANGUAGE,$(LANGUAGES),build_$(LANGUAGE)) ;
+html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE)) ;
 
 # Targets for rebuilding a single language
-$(LANGUAGES): clean_tmp init css build_lang_$$@ finalize ;
+$(LANGUAGES): clean_tmp init css html_$$@ public ;
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
@@ -63,6 +63,8 @@ $(LANGUAGES): clean_tmp init css build_lang_$$@ finalize ;
 assets: $(foreach ASSET,$(ASSETS),tmp/assets/$(ASSET)) ;
 
 css: tmp/assets/css/screen.css ;
+
+html_%: tmp/%/index.html ;
 
 #----------------------------------------------------------------------
 # FUNCTIONS
@@ -82,17 +84,23 @@ tmp/assets/css/%.css: source/stylesheets/%.styl | $(shell git ls-files *.styl)
 	mkdir -p $(dir $@)
 	stylus -c -u nib < $< > $@
 
+# Use script to rebuild index if index is older than any files with this locale in the name
+tmp/%/index.html: source/functions/build/site-%.ls | $$(shell git ls-files | grep '\b$$*\b')
+	lsc $<
+
 clean_tmp:
 	rm -rf tmp/*
 
 clean_public:
 	rm -rf public/*
 
-finalize:
-	mkdir -p public
-	cp -r source/dotfiles/.htaccess public
-	cp -r tmp/* public/
-	rm -rf tmp
+# Copy the scratch workspace into the final output directory if anything files in there are new
+public: tmp public/.htaccess | $(shell find tmp -type f)
+	rsync -r $</ $@/
+
+public/.htacces: source/dotfiles/.htaccess
+	mkdir -p $(dir $@)
+	cp $< $@
 
 #----------------------------------------------------------------------
 # CONVENIENCE FUNCTIONS
@@ -106,6 +114,3 @@ watch_css:
 sync:
 	rsync -azru --delete --stats public/ ../prism-break-static/public/
 	(cd ../prism-break-static; git add -A; git commit -m 'regenerate'; git push)
-
-build_lang_%:
-	lsc /source/functions/build/site-$*.ls
