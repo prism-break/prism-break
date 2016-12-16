@@ -102,6 +102,9 @@ public/.htaccess: source/dotfiles/.htaccess
 # CONVENIENCE FUNCTIONS
 #----------------------------------------------------------------------
 
+watch:
+	git ls-files | entr -p make
+
 # Rebuild CSS live on input changes
 watch_css:
 	stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
