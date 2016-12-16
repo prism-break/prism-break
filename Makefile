@@ -5,11 +5,19 @@
 # make reset				destroy built files and build the entire site
 # make watch_css			watches for stylus (CSS) edits and compiles it
 
+#----------------------------------------------------------------------
+# CONFIGURATION
+#----------------------------------------------------------------------
+
+# Explicitly set the default make target
 default: clean_tmp mkdirs deps copy_assets build_all finalize
 
-#---------------------------------------------------------------------- 
-# ALIASES 
-#---------------------------------------------------------------------- 
+# Mark all rules that don’t actually check whether they need building
+.PHONY: default deps mkdirs copy_assets watch_css build_css build_% build_html clean_tmp clean_public finalize sync build_all test clean reset
+
+#----------------------------------------------------------------------
+# ALIASES
+#----------------------------------------------------------------------
 
 # Binaries
 BIN = ./node_modules/.bin/
@@ -27,9 +35,10 @@ STYL = ./source/stylesheets/screen.styl
 # Outputs
 CSS = ./tmp/assets/css/screen.css
 
-#---------------------------------------------------------------------- 
-# FUNCTIONS 
-#---------------------------------------------------------------------- 
+
+#----------------------------------------------------------------------
+# FUNCTIONS
+#----------------------------------------------------------------------
 
 deps:
 	$(NPM_HANDLER) install
@@ -73,12 +82,9 @@ sync:
 # Organize
 build_all: build_css build_html
 
-# PHONY
-.PHONY: watch_css render_html clean_tmp clean_public
-
-#---------------------------------------------------------------------- 
+#----------------------------------------------------------------------
 # COMMANDS
-#---------------------------------------------------------------------- 
+#----------------------------------------------------------------------
 
 # General
 
