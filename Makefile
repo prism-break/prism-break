@@ -10,10 +10,10 @@
 #----------------------------------------------------------------------
 
 # Collect list of languages based on available locale files
-LANGUAGES = $(shell find ./source/locales/ -name '*.json' -execdir basename -s .json {} \;)
+LANGUAGES := $(notdir $(basename $(wildcard source/locales/*.json)))
 
 # Collect list of static assets that get copied over
-ASSETS = $(shell ls source/assets)
+ASSETS := $(notdir $(wildcard source/assets/*))
 
 # Mark all rules that don’t actually check whether they need building
 .PHONY: default test init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync
@@ -31,7 +31,7 @@ BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))" && pwd)
 export PATH := $(BASE)/node_modules/.bin:$(PATH)
 
 # Use yarn if the system has it, otherwise npm
-NPM_HANDLER = $(shell hash yarn && echo yarn || echo npm)
+NPM_HANDLER ?= $(shell hash yarn && echo yarn || echo npm)
 
 #----------------------------------------------------------------------
 # COMMANDS
