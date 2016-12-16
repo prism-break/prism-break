@@ -12,7 +12,7 @@ export build-site = (iso) ->
   {platform-types} =    require '../db/en-platform-types.ls'
 
   db =
-    dir: "tmp/#{iso}/"
+    dir: "public/#{iso}/"
     iso: iso
     locale: locale
     platform-types: platform-types

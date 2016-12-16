@@ -13,7 +13,7 @@
 LANGUAGES = $(shell find ./source/locales/ -name '*.json' -execdir basename -s .json {} \;)
 
 # Mark all rules that don’t actually check whether they need building
-.PHONY: default init assets watch_css css html_% html clean_tmp clean_public sync all test clean reset $(LANGUAGES)
+.PHONY: default init assets watch_css css html_% html sync all test clean reset $(LANGUAGES)
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
@@ -37,12 +37,10 @@ ASSETS = fonts icons images
 #----------------------------------------------------------------------
 
 # Explicitly set the default make target
-default: clean_tmp init all public ;
+default: clean init all public ;
 
 # Use building one language as a check to see if everything works
 test: en ;
-
-clean: clean_tmp clean_public ;
 
 reset: clean default ;
 
@@ -54,17 +52,19 @@ all: css html ;
 html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE)) ;
 
 # Targets for rebuilding a single language
-$(LANGUAGES): clean_tmp init css html_$$@ public ;
+$(LANGUAGES): clean init css html_$$@ public ;
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
 #----------------------------------------------------------------------
 
-assets: $(foreach ASSET,$(ASSETS),tmp/assets/$(ASSET)) ;
+assets: $(foreach ASSET,$(ASSETS),public/assets/$(ASSET)) ;
 
-css: tmp/assets/css/screen.css ;
+css: public/assets/css/screen.css ;
 
-html_%: tmp/%/index.html ;
+html_%: public/%/index.html ;
+
+public: public/.htaccess ;
 
 #----------------------------------------------------------------------
 # FUNCTIONS
@@ -75,30 +75,23 @@ node_modules: package.json
 	touch node_modules
 
 # Copy fixed assets from the source tree (if newer files exist)
-tmp/assets/%: source/assets/% | $$(shell find source/assets/$$* -type f)
+public/assets/%: source/assets/% $$(shell find source/assets/$$* -type f)
 	mkdir -p $(dir $@)
 	rsync -r $</ $@/
 
 # Rebuild stylesheet if any of the input templates change
-tmp/assets/css/%.css: source/stylesheets/%.styl | $(shell git ls-files *.styl)
+public/assets/css/%.css: source/stylesheets/%.styl $(shell git ls-files *.styl)
 	mkdir -p $(dir $@)
 	stylus -c -u nib < $< > $@
 
 # Use script to rebuild index if index is older than any files with this locale in the name
-tmp/%/index.html: source/functions/build/site-%.ls | $$(shell git ls-files | grep '\b$$*\b')
+public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | grep '\b$$*\b')
 	lsc $<
 
-clean_tmp:
-	rm -rf tmp/*
-
-clean_public:
+clean:
 	rm -rf public/*
 
-# Copy the scratch workspace into the final output directory if anything files in there are new
-public: tmp public/.htaccess | $(shell find tmp -type f)
-	rsync -r $</ $@/
-
-public/.htacces: source/dotfiles/.htaccess
+public/.htaccess: source/dotfiles/.htaccess
 	mkdir -p $(dir $@)
 	cp $< $@
 
