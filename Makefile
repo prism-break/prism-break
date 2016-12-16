@@ -13,10 +13,13 @@
 LANGUAGES = $(shell find ./source/locales/ -name '*.json' -execdir basename -s .json {} \;)
 
 # Mark all rules that don’t actually check whether they need building
-.PHONY: default init assets watch_css build_css build_lang_% build_html clean_tmp clean_public finalize sync build_all test clean reset $(LANGUAGES)
+.PHONY: default init assets watch_css css build_lang_% build_html clean_tmp clean_public finalize sync build_all test clean reset $(LANGUAGES)
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
+
+# Don’t delete intermediary targets after building
+.SECONDARY:
 
 # Figure out the absolute path to the directory where this Makefile is
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))" && pwd)
@@ -45,15 +48,21 @@ reset: clean default ;
 
 init: node_modules assets ;
 
-assets: $(foreach ASSET,$(ASSETS),tmp/assets/$(ASSET)) ;
-
 # Targets to build all languages
-build_all: build_css build_html ;
+build_all: css build_html ;
 
 build_html: $(foreach LANGUAGE,$(LANGUAGES),build_$(LANGUAGE)) ;
 
 # Targets for rebuilding a single language
-$(LANGUAGES): clean_tmp init build_css build_lang_$$@ finalize ;
+$(LANGUAGES): clean_tmp init css build_lang_$$@ finalize ;
+
+#----------------------------------------------------------------------
+# CONVENIENCE ALIASES
+#----------------------------------------------------------------------
+
+assets: $(foreach ASSET,$(ASSETS),tmp/assets/$(ASSET)) ;
+
+css: tmp/assets/css/screen.css ;
 
 #----------------------------------------------------------------------
 # FUNCTIONS
@@ -63,6 +72,7 @@ node_modules: package.json
 	$(NPM_HANDLER) install
 	touch node_modules
 
+
 # These assets will always be generated
 tmp/assets/css tmp/assets/js:
 	mkdir -p $@
@@ -71,11 +81,9 @@ tmp/assets/css tmp/assets/js:
 tmp/assets/%: source/assets/% | $$(shell find source/assets/$$* -type f)
 	rsync -r $</ $@/
 
-watch_css:
-	stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
-
-build_css:
-	stylus -c -u nib < ./source/stylesheets/screen.styl > ./tmp/assets/css/screen.css
+# Rebuild stylesheet if any of the input templates change
+tmp/assets/css/%.css: source/stylesheets/%.styl | $(shell git ls-files *.styl)
+	stylus -c -u nib < $< > $@
 
 clean_tmp:
 	rm -rf tmp/*
@@ -88,6 +96,14 @@ finalize:
 	cp -r source/dotfiles/.htaccess public
 	cp -r tmp/* public/
 	rm -rf tmp
+
+#----------------------------------------------------------------------
+# CONVENIENCE FUNCTIONS
+#----------------------------------------------------------------------
+
+# Rebuild CSS live on input changes
+watch_css:
+	stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
 
 # copy ./public to another repository and commit changes
 sync:
