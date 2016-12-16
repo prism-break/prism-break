@@ -1,8 +1,8 @@
 # make	 					build the entire site (all languages)
-# make init					install NPM dependencies
-# make en					build the English edition (replace 'en' with 'fr' for French)
+# make init					just install NPM dependencies
+# make en					build just the English edition (replace 'en' with 'fr' for French, etc.)
 # make clean				destroy built files
-# make reset				destroy built files and build the entire site
+# make reset				destroy built files and build all languages from scratch
 # make watch_css			watches for stylus (CSS) edits and compiles it
 
 #----------------------------------------------------------------------
@@ -12,8 +12,11 @@
 # Collect list of languages based on available locale files
 LANGUAGES = $(shell find ./source/locales/ -name '*.json' -execdir basename -s .json {} \;)
 
+# Collect list of static assets that get copied over
+ASSETS = $(shell ls source/assets)
+
 # Mark all rules that don’t actually check whether they need building
-.PHONY: default init assets watch_css css html_% html sync all test clean reset $(LANGUAGES)
+.PHONY: default test init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
@@ -30,29 +33,27 @@ export PATH := $(BASE)/node_modules/.bin:$(PATH)
 # Use yarn if the system has it, otherwise npm
 NPM_HANDLER = $(shell hash yarn && echo yarn || echo npm)
 
-ASSETS = fonts icons images
-
 #----------------------------------------------------------------------
 # COMMANDS
 #----------------------------------------------------------------------
 
-# Explicitly set the default make target
-default: clean init all public ;
+# Explicitly set the default target to do everything that isn’t already done
+default: init assets all public ;
 
-# Use building one language as a check to see if everything works
+# Run anything that needs doing post-checkout to make this buildable
+init: node_modules ;
+
+# Use building English language as a check to see if everything works
 test: en ;
 
+# Start fresh and rebuild everything
 reset: clean default ;
 
-init: node_modules assets ;
-
-# Targets to build all languages
+# Targets to build all the dynamically generated stuff for all languages
 all: css html ;
 
-html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE)) ;
-
-# Targets for rebuilding a single language
-$(LANGUAGES): clean init css html_$$@ public ;
+# Targets for rebuilding only single language and only what isn’t already done
+$(LANGUAGES): init assets css html_$$@ public ;
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
@@ -61,6 +62,8 @@ $(LANGUAGES): clean init css html_$$@ public ;
 assets: $(foreach ASSET,$(ASSETS),public/assets/$(ASSET)) ;
 
 css: public/assets/css/screen.css ;
+
+html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE)) ;
 
 html_%: public/%/index.html ;
 
