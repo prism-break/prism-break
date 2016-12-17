@@ -1,7 +1,7 @@
 [
   {
     "development_stage": "released",
-    "description": "Wieloprotokołowy klient czatu dla macOS (pamiętaj aby wł&#261;czy&#263; OTR).",
+    "description": "Wieloprotokołowy klient czatu dla macOS (pamiętaj aby włączy&#263; OTR).",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
     "notes": "",
@@ -927,7 +927,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Popularna dystrybucja GNU/Linux, bardzo stabilna i z etyk&#261; wsp&oacute;łpracy.",
+    "description": "Popularna dystrybucja GNU/Linux, bardzo stabilna i z etyką wsp&oacute;łpracy.",
     "license_url": "http://www.debian.org/legal/licenses/",
     "logo": "debian.png",
     "notes": "",
@@ -1046,7 +1046,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Niepo&#380;&#261;dane strony nie będ&#261; Cię &#347;ledzi&#263;",
+    "description": "Niepo&#380;ądane strony nie będą Cię &#347;ledzi&#263;",
     "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
     "logo": "disconnect.png",
     "notes": "",
@@ -1647,7 +1647,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przegl&#261;darka z otwartym kodem &#378;r&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem &#378;r&oacute;dłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
@@ -1672,7 +1672,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przegl&#261;darka z otwartym kodem &#378;r&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem &#378;r&oacute;dłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" if you don't want Mozilla to send reported URL hashes to Google.",
@@ -2448,7 +2448,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Wymusza HTTPS, szyfruj&#261;c dane na odwiedzanych stronach.",
+    "description": "Wymusza HTTPS, szyfrując dane na odwiedzanych stronach.",
     "license_url": "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt",
     "logo": "https-everywhere.png",
     "notes": "",
@@ -3623,7 +3623,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przegl&#261;darka z otwartym kodem &#378;r&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem &#378;r&oacute;dłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don't want Mozilla to send reported URL hashes to Google.",
@@ -3863,7 +3863,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Wł&#261;cza JavaScript, Java i Flash tylko na stronach, kt&oacute;rym ufasz",
+    "description": "Włącza JavaScript, Java i Flash tylko na stronach, kt&oacute;rym ufasz",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
     "notes": "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
@@ -3966,7 +3966,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Wtyczka dla Pidgina zapewniaj&#261;ca szyfrowanie czatu.",
+    "description": "Wtyczka dla Pidgina zapewniająca szyfrowanie czatu.",
     "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
     "logo": "otr.png",
     "notes": "",
@@ -4227,7 +4227,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Darmowa mapa &#347;wiata tworzona ze społeczno&#347;ci&#261;.",
+    "description": "Darmowa mapa &#347;wiata tworzona ze społeczno&#347;cią.",
     "license_url": "http://www.openstreetmap.org/copyright",
     "logo": "openstreetmap.png",
     "notes": "",
@@ -4499,7 +4499,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Dane pod Twoj&#261; kontrol&#261;, na Twojej chmurze.",
+    "description": "Dane pod Twoją kontrolą, na Twojej chmurze.",
     "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
     "logo": "owncloud.png",
     "notes": "ownCloud provides a file sync and share solution that respects your privacy. Sync clients are available for all major platforms. ownCloud comes with a rich ecosystem of apps, which makes it possible to manage contacts, appointments, music and much more.",
@@ -5627,7 +5627,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Usługa na własnym hostingu, z wersjonowaniem plik&oacute;w i synchronizacj&#261; ich.",
+    "description": "Usługa na własnym hostingu, z wersjonowaniem plik&oacute;w i synchronizacją ich.",
     "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
     "logo": "sparkleshare.png",
     "notes": "",
