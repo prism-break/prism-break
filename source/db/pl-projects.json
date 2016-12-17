@@ -447,7 +447,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Stowarzyszona, otwarto&#378;r&oacute;dłowa sieć społeczno&#347;ciowa",
+    "description": "Stowarzyszona, otwartoźr&oacute;dłowa sieć społeczno&#347;ciowa",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
     "logo": "buddycloud.png",
     "notes": "",
@@ -1589,7 +1589,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Sklep z aplikacjami otwarto-&#378;r&oacute;dłowymi dla Androida.",
+    "description": "Sklep z aplikacjami otwarto-źr&oacute;dłowymi dla Androida.",
     "license_url": "https://gitorious.org/f-droid/fdroidserver/source/COPYING/",
     "logo": "f-droid.png",
     "notes": "",
@@ -1647,7 +1647,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przeglądarka z otwartym kodem &#378;r&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem źr&oacute;dłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
@@ -1672,7 +1672,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przeglądarka z otwartym kodem &#378;r&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem źr&oacute;dłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" if you don't want Mozilla to send reported URL hashes to Google.",
@@ -1927,7 +1927,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarto&#378;r&oacute;dłowy serwer serwis&oacute;w społeczno&#347;ciowych.",
+    "description": "Otwartoźr&oacute;dłowy serwer serwis&oacute;w społeczno&#347;ciowych.",
     "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
     "logo": "friendica.png",
     "notes": "",
@@ -3623,7 +3623,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przeglądarka z otwartym kodem &#378;r&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem źr&oacute;dłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don't want Mozilla to send reported URL hashes to Google.",
@@ -3666,7 +3666,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarto&#378;r&oacute;dłowa aplikacja e-mail.",
+    "description": "Otwartoźr&oacute;dłowa aplikacja e-mail.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
@@ -4667,7 +4667,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarto&#378;r&oacute;dłowy program do chatu.",
+    "description": "Otwartoźr&oacute;dłowy program do chatu.",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
     "notes": "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system, or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://github.com/aebrahim/pidgin-gnome-keyring).\n\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds.",
@@ -4735,7 +4735,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarto&#378;r&oacute;dłowe analizy sieci WWW.",
+    "description": "Otwartoźr&oacute;dłowe analizy sieci WWW.",
     "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
     "logo": "piwik.png",
     "notes": "",
