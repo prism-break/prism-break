@@ -46,7 +46,7 @@ endif
 #----------------------------------------------------------------------
 
 # Explicitly set the default target to do everything that isn’t already done
-default: init assets all public ;
+default: | init assets all public ;
 
 # Run anything that needs doing post-checkout to make this buildable
 init: node_modules ;
@@ -55,13 +55,13 @@ init: node_modules ;
 test: en ;
 
 # Start fresh and rebuild everything
-reset: clean default ;
+reset: | clean default ;
 
 # Targets to build all the dynamically generated stuff for all languages
 all: css html ;
 
 # Targets for rebuilding only single language and only what isn’t already done
-$(LANGUAGES): init assets css html_$$@ public ;
+$(LANGUAGES): | init assets css html_$$@ public ;
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
