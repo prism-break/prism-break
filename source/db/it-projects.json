@@ -4054,7 +4054,7 @@
   },
   {
     "development_stage": "released",
-    "description": "La Open Source Routing Machine (OSRM) è un&#39;implementazione in C++ di un motore per mappe ad alte prestazioni per trovare i percorsi pi&ugrave; brevi nelle reti stradali. Dotata di una licenza permissiva con doppia clausola BSD, OSRM è un servizio di rete libero. OSRM supporta Linux, FreeBSD, Windows e Mac.",
+    "description": "La Open Source Routing Machine (OSRM) è un&#39;implementazione in C++ di un motore per mappe ad alte prestazioni per trovare i percorsi più brevi nelle reti stradali. Dotata di una licenza permissiva con doppia clausola BSD, OSRM è un servizio di rete libero. OSRM supporta Linux, FreeBSD, Windows e Mac.",
     "license_url": "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT",
     "logo": "osrm.png",
     "notes": "OSRM dovrebbe essere installato e usato localmente sul tuo PC per evitare possibili fughe di dati dalla versione online del servizio in chiaro.",
@@ -5169,7 +5169,7 @@
     "description": "Piattaforma di comunicazione P2P sicura per chat, forum, VoIP, condivisione di file e altro.",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
     "logo": "retroshare.png",
-    "notes": "Da notare che RetroShare non è stato controllato da esperti di sicurezza per eventuali problemi di sicurezza.\n\nPer chi non ha un server, RetroShare è probabilmente il mezzo pi&ugrave; semplice per creare il tuo social network criptato.",
+    "notes": "Da notare che RetroShare non è stato controllato da esperti di sicurezza per eventuali problemi di sicurezza.\n\nPer chi non ha un server, RetroShare è probabilmente il mezzo più semplice per creare il tuo social network criptato.",
     "privacy_url": "",
     "source_url": "https://github.com/RetroShare/RetroShare",
     "name": "RetroShare",
@@ -5374,7 +5374,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Strumenti di comunicazione sicuri per coloro che desiderano una societè pi&ugrave; libera.",
+    "description": "Strumenti di comunicazione sicuri per coloro che desiderano una societè più libera.",
     "license_url": "",
     "logo": "riseup.png",
     "notes": "I servizi di Riseup possono essere usati anche tramite i loro indirizzi nascosti su Tor. Una lista è [disponibile qui](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
@@ -5476,7 +5476,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Elimina automaticamente i cookie e il LocalStorage quando non vengono pi&ugrave; usati dalle schede aperte del browser.",
+    "description": "Elimina automaticamente i cookie e il LocalStorage quando non vengono più usati dalle schede aperte del browser.",
     "license_url": "https://addons.mozilla.org/it/firefox/files/browse/235317/file/LICENSE",
     "logo": "self-destructing-cookies.png",
     "notes": "Funziona solo con le versione 24 di Firefox e superiori.\n\n La verione per Android è [disponibile qui](https://addons.mozilla.org/it/android/addon/self-destructing-cookies/).",
@@ -6041,7 +6041,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Tor (precedentemente TOR, acronimo di The Onion Router)[citazione non necessaria] è un software libero per una navigazione anonima online. Tor indirizza il traffico attraverso una rete libera, mondiale, volontaria, formata da pi&ugrave; di quattromila relay per nascondere la posizione dell&#39;utente da chiunque conduca una sorveglianza della rete o un&#39;analisi del traffico. L&#39;uso di Tor rende pi&ugrave; difficoltoso il tracciamento dell&#39;attivitè online, incluse \"le visite ai siti, i post online, i messaggi istantanei e altre forme di comunicazione\", ed è destinato a proteggere la privacy degli utenti, così come la loro libertè e la capacitè di condurre attivitè riservate evitando di essere monitorati.",
+    "description": "Tor (precedentemente TOR, acronimo di The Onion Router)[citazione non necessaria] è un software libero per una navigazione anonima online. Tor indirizza il traffico attraverso una rete libera, mondiale, volontaria, formata da più di quattromila relay per nascondere la posizione dell&#39;utente da chiunque conduca una sorveglianza della rete o un&#39;analisi del traffico. L&#39;uso di Tor rende più difficoltoso il tracciamento dell&#39;attivitè online, incluse \"le visite ai siti, i post online, i messaggi istantanei e altre forme di comunicazione\", ed è destinato a proteggere la privacy degli utenti, così come la loro libertè e la capacitè di condurre attivitè riservate evitando di essere monitorati.",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.png",
     "notes": "",
