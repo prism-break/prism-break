@@ -33,6 +33,14 @@ export PATH := $(BASE)/node_modules/.bin:$(PATH)
 # Use yarn if the system has it, otherwise npm
 NPM_HANDLER ?= $(shell hash yarn && echo yarn || echo npm)
 
+# This is a hack for the ‘watch’ targets later on. It has to be
+# early to nullify any targets that might otherwise run, but in
+# the end allows extra parameters to be passed on to the next make
+ifeq (watch,$(firstword $(MAKECMDGOALS)))
+  WATCH_ARGS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
+  $(eval $(WATCH_ARGS):;@:)
+endif
+
 #----------------------------------------------------------------------
 # COMMANDS
 #----------------------------------------------------------------------
@@ -103,7 +111,7 @@ public/.htaccess: source/dotfiles/.htaccess
 #----------------------------------------------------------------------
 
 watch:
-	git ls-files | entr -p make
+	git ls-files | entr -p make $(WATCH_ARGS)
 
 # Rebuild CSS live on input changes
 watch_css:
