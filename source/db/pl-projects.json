@@ -447,7 +447,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Stowarzyszona, otwartoźr&oacute;dłowa sieć społecznościowa",
+    "description": "Stowarzyszona, otwartoźródłowa sieć społecznościowa",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
     "logo": "buddycloud.png",
     "notes": "",
@@ -927,7 +927,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Popularna dystrybucja GNU/Linux, bardzo stabilna i z etyką wsp&oacute;łpracy.",
+    "description": "Popularna dystrybucja GNU/Linux, bardzo stabilna i z etyką współpracy.",
     "license_url": "http://www.debian.org/legal/licenses/",
     "logo": "debian.png",
     "notes": "",
@@ -1505,7 +1505,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Serwer edytora test&oacute;w z multilogowaniem.",
+    "description": "Serwer edytora testów z multilogowaniem.",
     "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
     "logo": "etherpad.png",
     "notes": "The etherpad project maintains a list of [sites that run etherpad services](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Please only choose from the services that use SSL, and research the site's background before trusting them with your data.",
@@ -1589,7 +1589,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Sklep z aplikacjami otwarto-źr&oacute;dłowymi dla Androida.",
+    "description": "Sklep z aplikacjami otwarto-źródłowymi dla Androida.",
     "license_url": "https://gitorious.org/f-droid/fdroidserver/source/COPYING/",
     "logo": "f-droid.png",
     "notes": "",
@@ -1647,7 +1647,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przeglądarka z otwartym kodem źr&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem źródłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
@@ -1672,7 +1672,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przeglądarka z otwartym kodem źr&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem źródłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" if you don't want Mozilla to send reported URL hashes to Google.",
@@ -1927,7 +1927,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwartoźr&oacute;dłowy serwer serwis&oacute;w społecznościowych.",
+    "description": "Otwartoźródłowy serwer serwisów społecznościowych.",
     "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
     "logo": "friendica.png",
     "notes": "",
@@ -3463,7 +3463,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Zdecentralizowana platforma publikacji medi&oacute;w.",
+    "description": "Zdecentralizowana platforma publikacji mediów.",
     "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
     "logo": "mediagoblin.png",
     "notes": "MediaGoblin does not encrypt any of your data by default.",
@@ -3623,7 +3623,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przeglądarka z otwartym kodem źr&oacute;dłowym.",
+    "description": "Przeglądarka z otwartym kodem źródłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don't want Mozilla to send reported URL hashes to Google.",
@@ -3666,7 +3666,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwartoźr&oacute;dłowa aplikacja e-mail.",
+    "description": "Otwartoźródłowa aplikacja e-mail.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
@@ -3863,7 +3863,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Włącza JavaScript, Java i Flash tylko na stronach, kt&oacute;rym ufasz",
+    "description": "Włącza JavaScript, Java i Flash tylko na stronach, którym ufasz",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
     "notes": "Install **NoScript** and enable ‘Forbid scripts globally’ to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
@@ -4667,7 +4667,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwartoźr&oacute;dłowy program do chatu.",
+    "description": "Otwartoźródłowy program do chatu.",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
     "notes": "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system, or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://github.com/aebrahim/pidgin-gnome-keyring).\n\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds.",
@@ -4735,7 +4735,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwartoźr&oacute;dłowe analizy sieci WWW.",
+    "description": "Otwartoźródłowe analizy sieci WWW.",
     "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
     "logo": "piwik.png",
     "notes": "",
@@ -4930,7 +4930,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Serwer przesyłania multimedi&oacute;w.",
+    "description": "Serwer przesyłania multimediów.",
     "license_url": "https://github.com/e14n/pump.io/blob/master/LICENSE",
     "logo": "pumpio.png",
     "notes": "",
@@ -5166,7 +5166,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Bezpieczna i darmowa platforma rozm&oacute;w poprzez protok&oacute;ł P2P.",
+    "description": "Bezpieczna i darmowa platforma rozmów poprzez protokół P2P.",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
     "logo": "retroshare.png",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
@@ -5453,7 +5453,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarta, zdecentralizowana platforma dla wsp&oacute;lnego wyszukiwania.",
+    "description": "Otwarta, zdecentralizowana platforma dla wspólnego wyszukiwania.",
     "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
     "logo": "seeks-project.png",
     "notes": "",
@@ -5627,7 +5627,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Usługa na własnym hostingu, z wersjonowaniem plik&oacute;w i synchronizacją ich.",
+    "description": "Usługa na własnym hostingu, z wersjonowaniem plików i synchronizacją ich.",
     "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
     "logo": "sparkleshare.png",
     "notes": "",
@@ -6523,7 +6523,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Darmowy system CMS dla blog&oacute;w i stron WWW.",
+    "description": "Darmowy system CMS dla blogów i stron WWW.",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
     "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>“Disable Google Fonts”</a> to remove this vulnerability.",
