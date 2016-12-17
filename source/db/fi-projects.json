@@ -3866,7 +3866,7 @@
     "description": "Salli JavaScript, Java, ja Flash vain sivuilla, joihin luotat.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
-    "notes": "Asenna **NoScript** ja valitse asetus ‘Forbid scripts globally&rsquo; parantaaksesi selaimesi turvallisuuta, estämällä JavaScript pohjaiset 0-päivähaavoittuvaisuudet. Tämä repivä asetus tekee monista verkkosivuista kätyttökelvottomia sillä ne ovat merkittävissä määrin JavaScript-pohjaisia.\n\nNoScript antaa mahdollisuuden whitelistata luotetut sivut joille JavaScript sallitaan, mutta tätä pidetään [haitallisena anonymiteetille](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) jos käytät NoScript:iä **Tor Browser Bundle**:n kanssa.",
+    "notes": "Asenna **NoScript** ja valitse asetus ‘Forbid scripts globally’ parantaaksesi selaimesi turvallisuuta, estämällä JavaScript pohjaiset 0-päivähaavoittuvaisuudet. Tämä repivä asetus tekee monista verkkosivuista kätyttökelvottomia sillä ne ovat merkittävissä määrin JavaScript-pohjaisia.\n\nNoScript antaa mahdollisuuden whitelistata luotetut sivut joille JavaScript sallitaan, mutta tätä pidetään [haitallisena anonymiteetille](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) jos käytät NoScript:iä **Tor Browser Bundle**:n kanssa.",
     "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",

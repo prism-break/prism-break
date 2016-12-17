@@ -3965,7 +3965,7 @@
     "description": "只启用你信任的网站上面的 JavaScript、Java 和 Flash 内容",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
-    "notes": "安装**NoScript**并启用 ‘全局禁用脚本&rsquo; 以提高你浏览器的安全性。这主要可以避免 JavaScript 的零日漏洞攻击。这是一个激进的做法，因为很多网站会因此无法使用，因为它们非常依赖 JavaScript。\n\nNoScript 提供了一个白名单功能，你可以在你信任的网站上选择性地启用 JavaScript，但如果你在**Tor Browser Bundle**（Tor 浏览器）上也这么做，这会被认为是[对你的匿名性非常有害](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled)的。",
+    "notes": "安装**NoScript**并启用 ‘全局禁用脚本’ 以提高你浏览器的安全性。这主要可以避免 JavaScript 的零日漏洞攻击。这是一个激进的做法，因为很多网站会因此无法使用，因为它们非常依赖 JavaScript。\n\nNoScript 提供了一个白名单功能，你可以在你信任的网站上选择性地启用 JavaScript，但如果你在**Tor Browser Bundle**（Tor 浏览器）上也这么做，这会被认为是[对你的匿名性非常有害](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled)的。",
     "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
