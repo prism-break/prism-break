@@ -3866,7 +3866,7 @@
     "description": "Abilita JavaScript, Java e Flash solo per i siti fidati.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
-    "notes": "Installa **NoScript** e attiva &lsquo;Disabilita gli script globalmente&rsquo; per incrementare la sicurezza del tuo browser prevenendo gli attacchi 0day in JavaScript. Questa &egrave; un&#39;opzione drastica dato che molti siti non saranno mostrati correttamente visto che dipendono molto da JavaScript.\n\nNoScript offre una lista fidata che puoi usare per abilitare JavaScript specificamente per i siti di cui ti fidi, ma ci&ograve; &egrave; considerato [controproducente per la tua anonimit&agrave;](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) se usi NoScript con il **Tor Browser Bundle**.",
+    "notes": "Installa **NoScript** e attiva ‘Disabilita gli script globalmente&rsquo; per incrementare la sicurezza del tuo browser prevenendo gli attacchi 0day in JavaScript. Questa &egrave; un&#39;opzione drastica dato che molti siti non saranno mostrati correttamente visto che dipendono molto da JavaScript.\n\nNoScript offre una lista fidata che puoi usare per abilitare JavaScript specificamente per i siti di cui ti fidi, ma ci&ograve; &egrave; considerato [controproducente per la tua anonimit&agrave;](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) se usi NoScript con il **Tor Browser Bundle**.",
     "privacy_url": "https://addons.mozilla.org/it/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
