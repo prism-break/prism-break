@@ -6526,7 +6526,7 @@
     "description": "Selbstgehostetes Website-/Blog-CMS.",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
-    "notes": "WordPress verschlüsselt standardmäßig keine deiner Daten.\n\nDie Benutzung von Avataren in WordPress aktiviert Gravatar, was deine E-Mail-Adresse an gravatar.com sendet. Diese Standardverhalten kann unter \"Einstellungen > Diskussionen > Avatare\".\n\nDas Standardtheme von WordPress zwingt deine Benutzer zum Download von Google Schriftarten. Überlege dire darum, auf ein selbst-gehostetes Theme zu wechseln. Du kannst zum Beispiel auch das Plugin<a href='http://wordpress.org/plugins/disable-google-fonts/'>“Disable Google Fonts&rdquo;</a> installieren um dieses Datenleck abzustellen.",
+    "notes": "WordPress verschlüsselt standardmäßig keine deiner Daten.\n\nDie Benutzung von Avataren in WordPress aktiviert Gravatar, was deine E-Mail-Adresse an gravatar.com sendet. Diese Standardverhalten kann unter \"Einstellungen > Diskussionen > Avatare\".\n\nDas Standardtheme von WordPress zwingt deine Benutzer zum Download von Google Schriftarten. Überlege dire darum, auf ein selbst-gehostetes Theme zu wechseln. Du kannst zum Beispiel auch das Plugin<a href='http://wordpress.org/plugins/disable-google-fonts/'>“Disable Google Fonts”</a> installieren um dieses Datenleck abzustellen.",
     "privacy_url": "http://wordpress.org/about/privacy/",
     "source_url": "http://core.trac.wordpress.org/browser",
     "name": "WordPress",
