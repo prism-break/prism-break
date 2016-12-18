@@ -41,7 +41,6 @@ Add the project you wish to get listed.
 
 Make sure your edits do not break the site by building the English version of PRISM Break. Open the pages to make sure it all works.
 
-    npm install
     make test      # builds ./public/en for preview purposes
 
 ### 3. Translate
