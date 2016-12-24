@@ -4,7 +4,7 @@ Welcome to the PRISM Break project. Here's a quick overview of the code. JSON co
 
 The prism-break build process relies on several npm packages. Make sure to have [node.js](https://nodejs.org/) installed on your system if you want to contribute to the code.
 
-If you'd like to translate the project to your favorite language, there's no need to install node.js or even download the code. Just edit the appropriate JSON files on GitHub and submit a pull request.
+If you'd like to translate the project to your favorite language, there's no need to install node.js or even download the code. Just add translated data to the appropriate JSON files on GitHub and submit a Pull Request - if anything's missing, the English version will be used instead. That being said, setting up the project locally will allow you to run `make localize_LANG` (where `LANG` is a language code) to get a nice list of things for you to translate.
 
 More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
