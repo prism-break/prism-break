@@ -1180,4 +1180,12 @@ projects-rejected =
         subcategories: ["Instant Messaging"]
     ]
 	
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "mIRC.png"
+    name: "mIRC"
+    categories: [
+      * name: "Windows"
+        subcategories: ["IRC"]
+    ]
 exports.projects-rejected = projects-rejected
