@@ -81,31 +81,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Implementación de OpenPGP para Android.",
-    "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
-    "logo": "apg.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/thialfihar/apg",
-    "name": "APG",
-    "tos_url": "",
-    "url": "http://www.thialfihar.org/projects/apg/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Android_Privacy_Guard",
-    "protocols": [
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "apg"
-  },
-  {
-    "development_stage": "released",
     "description": "Arch Linux es una distribución GNU/Linux independiente, de propósito general, desarrollada para i686/x86-64 , lo suficientemente versátil como para adaptarse a cualquier función. Su desarrollo se centra en la simplicidad, el minimalismo y la elegancia de código. Arch se instala como un sistema de base mínimo, configurado por el usuario, sobre el que se monta su propio entorno ideal, mediante la instalación de sólo lo que se requiere o se desea para sus propósitos particulares. Las GUI de las utilidades de configuración no son proporcionadas oficialmente y la mayor parte de la configuración del sistema se realiza desde la shell, mediante la simple modificación de archivos de textos. Basado en un modelo rolling-release, Arch se esfuerza por mantenerse al dia y, por lo general, ofrece las últimas versiones estables de la mayoría del software.",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
