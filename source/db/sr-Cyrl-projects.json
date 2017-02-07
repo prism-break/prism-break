@@ -81,31 +81,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Реализация OpenPGP для Android.",
-    "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
-    "logo": "apg.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/thialfihar/apg",
-    "name": "APG",
-    "tos_url": "",
-    "url": "http://www.thialfihar.org/projects/apg/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Android_Privacy_Guard",
-    "protocols": [
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "apg"
-  },
-  {
-    "development_stage": "released",
     "description": "Elegant, minimal, and flexible Linux&reg; distribution.",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
