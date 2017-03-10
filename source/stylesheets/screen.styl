@@ -1,20 +1,20 @@
-@import nib
-@import 'source/stylesheets/font-awesome'
-@import 'source/stylesheets/defaults/index'
-@import 'source/stylesheets/mixins/index'
-@import 'source/stylesheets/elements/index'
+@require 'nib'
+@require 'source/stylesheets/font-awesome'
+@require 'source/stylesheets/defaults/index'
+@require 'source/stylesheets/mixins/index'
+@require 'source/stylesheets/elements/index'
 
 @media (min-width: 581px)
-  @import 'source/stylesheets/queries/581'
+  @require 'source/stylesheets/queries/581'
 
 @media (min-width: 768px)
-  @import 'source/stylesheets/queries/768'
+  @require 'source/stylesheets/queries/768'
 
 @media (min-width: 980px)
-  @import 'source/stylesheets/queries/980'
+  @require 'source/stylesheets/queries/980'
 
 @media (min-width: 1200px)
-  @import 'source/stylesheets/queries/1200'
+  @require 'source/stylesheets/queries/1200'
 
 // solves fixed sidebar (all projects) being too long
 @media (max-height: 960px)
@@ -26,6 +26,4 @@
   body.categories.show #container .content-side
     position absolute
 
-
-@import right-to-left
-
+@require 'source/stylesheets/right-to-left'

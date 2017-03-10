@@ -18,7 +18,7 @@ platform-types = (db) ->
           fa: 'fa-lock'
         * name: 'GNU/Linux'
           fa: 'fa-linux'
-        * name: 'OS X'
+        * name: 'macOS'
           fa: 'fa-apple'
         * name: 'Windows'
           fa: 'fa-windows'
