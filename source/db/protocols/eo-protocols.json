@@ -72,6 +72,15 @@
     }]
   },
   {
+    "name": "Signal Protocol",
+    "full_name": "",
+    "description": "The Signal Protocol is a non-federated cryptographic protocol that provides end-to-end encryption for instant messaging conversations.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Signal_Protocol",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
     "name": "S/MIME",
     "full_name": "Secure/Multipurpose Internet Mail Extensions",
     "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME was originally developed by RSA Data Security Inc. S/MIME functionality is built into the majority of modern email software and interoperates between them.",
