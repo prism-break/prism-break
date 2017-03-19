@@ -5662,7 +5662,7 @@
     "description": "Private messaging and voice/video calling.",
     "license_url": "https://github.com/WhisperSystems/Signal-Android/blob/master/LICENSE",
     "logo": "signal.png",
-    "notes": "Uses standard phone numbers as identifiers. Official Android APK is available [here](https://signal.org/android/apk/).",
+    "notes": "Uses phone numbers as identifiers. For people who do not have Google Play, the official Android APK is available [here](https://signal.org/android/apk/).",
     "privacy_url": "https://whispersystems.org/signal/privacy/",
     "source_url": "https://github.com/WhisperSystems/",
     "name": "Signal",
