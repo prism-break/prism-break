@@ -5636,29 +5636,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
-    "license_url": "http://wiki.contribs.org/SME_Server:Documentation:Developers_Manual:Chapter14#Configuring_your_development_environment",
-    "logo": "sme-server.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://fisheye1.atlassian.com/browse/smeserver/",
-    "name": "SME Server",
-    "tos_url": "",
-    "url": "http://wiki.contribs.org/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/SME_Server",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "sme-server"
-  },
-  {
-    "development_stage": "released",
     "description": "Private messaging and voice/video calling.",
     "license_url": "https://github.com/WhisperSystems/Signal-Android/blob/master/LICENSE",
     "logo": "signal.png",
@@ -5712,6 +5689,29 @@
       }
     ],
     "slug": "silence"
+  },
+  {
+    "development_stage": "released",
+    "description": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
+    "license_url": "http://wiki.contribs.org/SME_Server:Documentation:Developers_Manual:Chapter14#Configuring_your_development_environment",
+    "logo": "sme-server.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://fisheye1.atlassian.com/browse/smeserver/",
+    "name": "SME Server",
+    "tos_url": "",
+    "url": "http://wiki.contribs.org/Main_Page",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/SME_Server",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Operating Systems"
+        ]
+      }
+    ],
+    "slug": "sme-server"
   },
   {
     "development_stage": "released",
