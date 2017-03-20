@@ -5659,39 +5659,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Private messaging and voice/video calling.",
-    "license_url": "https://github.com/WhisperSystems/Signal-Android/blob/master/LICENSE",
-    "logo": "signal.png",
-    "notes": "Uses standard phone numbers as identifiers. Official Android APK is available [here](https://signal.org/android/apk/).",
-    "privacy_url": "https://whispersystems.org/signal/privacy/",
-    "source_url": "https://github.com/WhisperSystems/",
-    "name": "Signal",
-    "tos_url": "",
-    "url": "https://signal.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Signal_(software)",
-    "protocols": [
-      "Signal Protocol"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging",
-	  "Video & Voice"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Instant Messaging",
-	  "Video & Voice"
-        ]
-      }
-    ],
-    "slug": "signal"
-  },
-  {
-    "development_stage": "released",
     "description": "Ein Fork von TextSecure mit SMS Verschlüsselung.",
     "license_url": "https://github.com/SilenceIM/Silence/blob/master/LICENSE",
     "logo": "silence.png",
