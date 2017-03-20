@@ -81,6 +81,15 @@
     }]
   },
   {
+    "name": "Signal Protocol",
+    "full_name": "",
+    "description": "",
+    "wikipedia_url": "https://de.wikipedia.org/wiki/Signal-Protokoll",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
     "name": "S/MIME",
     "full_name": "Secure/Multipurpose Internet Mail Extensions",
     "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME was originally developed by RSA Data Security Inc. S/MIME functionality is built into the majority of modern email software and interoperates between them.",
