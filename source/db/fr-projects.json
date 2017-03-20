@@ -5659,16 +5659,16 @@
   },
   {
     "development_stage": "released",
-    "description": "",
+    "description": "Private messaging and voice/video calling.",
     "license_url": "https://github.com/WhisperSystems/Signal-Android/blob/master/LICENSE",
     "logo": "signal.png",
-    "notes": "",
+    "notes": "Uses phone numbers as identifiers. For people who do not have Google Play, the official Android APK is available [here](https://signal.org/android/apk/).",
     "privacy_url": "https://whispersystems.org/signal/privacy/",
     "source_url": "https://github.com/WhisperSystems/",
     "name": "Signal",
     "tos_url": "",
     "url": "https://signal.org",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Signal_(application)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Signal_(software)",
     "protocols": [
       "Signal Protocol"
     ],
