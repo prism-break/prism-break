@@ -1287,31 +1287,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.",
-    "license_url": "",
-    "logo": "duckduckgo.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "",
-    "name": "dukgo.com",
-    "tos_url": "",
-    "url": "https://duck.co/blog/using-pidgin-with-xmpp-jabber",
-    "wikipedia_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "dukgocom"
-  },
-  {
-    "development_stage": "released",
     "description": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
     "logo": "geli.png",
