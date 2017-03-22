@@ -11,7 +11,7 @@ If you want to edit or add to the project logos on this site, look here:
     ./source/assets/images/logos/original/        # for high res/svg versions
 
 ### Add the Project Data
-Append the sample project to the file `./source/db/en-projects.json`. Edit the values to fit your project. Repeat the process for the other languages (e.g. `./source/db/de-projects.json`).
+Append the sample project to the file `./source/db/en-projects.json`. Edit the values to fit your project.
 
 **Sample Project:**
 

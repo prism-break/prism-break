@@ -578,12 +578,6 @@
     ],
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
         "name": "iOS",
         "subcategories": [
           "Instant Messaging"
@@ -1290,31 +1284,6 @@
       }
     ],
     "slug": "dudle"
-  },
-  {
-    "development_stage": "released",
-    "description": "Private XMPP service run on the DuckDuckGo Community Platform&mdash;guide included.",
-    "license_url": "",
-    "logo": "duckduckgo.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "",
-    "name": "dukgo.com",
-    "tos_url": "",
-    "url": "https://duck.co/blog/using-pidgin-with-xmpp-jabber",
-    "wikipedia_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "dukgocom"
   },
   {
     "development_stage": "released",
@@ -3546,8 +3515,8 @@
     "description": "Meta search engine that proxies your queries to multiple search providers.",
     "logo": "metager.png",
     "license_url": "https://gitlab.metager3.de/open-source/MetaGer/blob/development/LICENSE",
-    "source_url": "https://gitlab.metager3.de/open-source/MetaGer", 
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.", 
+    "source_url": "https://gitlab.metager3.de/open-source/MetaGer",
+    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
     "privacy_url": "https://metager.de/en/datenschutz",
     "name": "MetaGer",
     "tos_url": "",
@@ -3915,6 +3884,116 @@
       }
     ],
     "slug": "netbsd"
+  },
+  {
+    "development_stage": "released",
+    "description": "A safe home for all your data",
+    "license_url": "https://github.com/nextcloud/server/blob/master/COPYING-README",
+    "logo": "nextcloud.png",
+    "notes": "Nextcloud provides a file sync & share solution that respects your privacy and is fully open source. Sync clients are available for all major platforms. Nextcloud comes with a rich ecosystem of apps including Contacts, Calendar, Video calls, Mail, Newsreader and much more.",
+    "privacy_url": "",
+    "source_url": "https://github.com/nextcloud",
+    "name": "Nextcloud",
+    "tos_url": "",
+    "url": "https://nextcloud.com",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nextcloud",
+    "protocols": [
+      "CalDAV",
+      "CardDAV",
+      "RSS",
+      "SSL/TLS",
+      "WebDAV",
+      "WebRTC",
+      "XMPP"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Bookmark Sync",
+          "Email Clients",
+          "Enterprise Suite",
+          "File Storage & Sync",
+          "Media Publishing",
+          "Password Managers",
+          "Productivity",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Bookmark Sync",
+          "Email Clients",
+          "Enterprise Suite",
+          "File Storage & Sync",
+          "Media Publishing",
+          "Password Managers",
+          "Productivity",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Bookmark Sync",
+          "Email Clients",
+          "Enterprise Suite",
+          "File Storage & Sync",
+          "Media Publishing",
+          "Password Managers",
+          "Productivity",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Bookmark Sync",
+          "Email Clients",
+          "Enterprise Suite",
+          "File Storage & Sync",
+          "Media Publishing",
+          "Password Managers",
+          "Productivity",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "Enterprise Suite",
+          "File Storage & Sync",
+          "Media Publishing",
+          "Productivity",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Enterprise Suite",
+          "File Storage & Sync",
+          "Media Publishing",
+          "Productivity",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Bookmark Sync",
+          "Email Clients",
+          "Enterprise Suite",
+          "File Storage & Sync",
+          "Media Publishing",
+          "Password Managers",
+          "Productivity",
+          "Video & Voice"
+        ]
+      }
+    ],
+    "slug": "nextcloud"
   },
   {
     "development_stage": "released",
@@ -5133,7 +5212,7 @@
       "File Storage & Sync",
           "Media Publishing",
       "Productivity",
-          "Social Networks"      
+          "Social Networks"
         ]
       },
      {
