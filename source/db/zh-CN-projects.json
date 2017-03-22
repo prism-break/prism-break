@@ -562,7 +562,7 @@
   },
   {
     "development_stage": "released",
-    "description": "IOS 和安卓平台下的加密通讯工具，OTR 加密。",
+    "description": "OMEMO or OTR encrypted IM for iOS.",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
     "notes": "卫士项目（The Guardian Project）提供了<a href='https://guardianproject.info/howto/chatsecurely/'>一份极好的指南</a>来指导你如何安全地用安卓通信。",
@@ -573,6 +573,7 @@
     "url": "https://chatsecure.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure",
     "protocols": [
+      "OMEMO",
       "OTR",
       "XMPP"
     ],
@@ -781,6 +782,7 @@
     "wikipedia_url": "",
     "protocols": [
       "XMPP",
+      "OMEMO",
       "OTR",
       "GPG",
       "SSL/TLS"
@@ -2090,6 +2092,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim",
     "protocols": [
       "GPG",
+      "OMEMO",
       "OTR",
       "SSL/TLS",
       "XMPP"

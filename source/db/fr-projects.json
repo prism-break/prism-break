@@ -562,7 +562,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Messagerie instantanée chiffrée avec OTR pour Android et iOS.",
+    "description": "Messagerie instantanée chiffrée avec OMEMO ou OTR pour iOS.",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
     "notes": "The Guardian Project héberge <a href='https://guardianproject.info/howto/chatsecurely/'>un fantastiquue guide pratique</a> pour chatter de façon sécurisé sur Android.",
@@ -573,6 +573,7 @@
     "url": "https://chatsecure.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure",
     "protocols": [
+      "OMEMO",
       "OTR",
       "XMPP"
     ],
@@ -781,6 +782,7 @@
     "wikipedia_url": "",
     "protocols": [
       "XMPP",
+      "OMEMO",
       "OTR",
       "GPG",
       "SSL/TLS"
@@ -1991,6 +1993,7 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/Gajim",
     "protocols": [
       "GPG",
+      "OMEMO",
       "OTR",
       "SSL/TLS",
       "XMPP"
