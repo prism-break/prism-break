@@ -562,7 +562,7 @@
   },
   {
     "development_stage": "released",
-    "description": "OTR-salattu pikaviestintä iOS:lle ja Androidille.",
+    "description": "OMEMO or OTR encrypted IM for iOS.",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
     "notes": "The Guardian Project ylläpitää <a href='https://guardianproject.info/howto/chatsecurely/'> fantastista opasta </a> turvalliseen keskusteluun Androidilla.",
@@ -573,6 +573,7 @@
     "url": "https://chatsecure.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure",
     "protocols": [
+      "OMEMO",
       "OTR",
       "XMPP"
     ],
@@ -781,6 +782,7 @@
     "wikipedia_url": "",
     "protocols": [
       "XMPP",
+      "OMEMO",
       "OTR",
       "GPG",
       "SSL/TLS"
@@ -1991,6 +1993,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim",
     "protocols": [
       "GPG",
+      "OMEMO",
       "OTR",
       "SSL/TLS",
       "XMPP"

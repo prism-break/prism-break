@@ -81,6 +81,15 @@
     }]
   },
   {
+    "name": "OMEMO",
+    "full_name": "OMEMO Multi-End Message and Object Encryption",
+    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
     "name": "S/MIME",
     "full_name": "Secure/Multipurpose Internet Mail Extensions",
     "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) — стандарт для шифрования и подписи в электронной почте с помощью открытого ключа.",
