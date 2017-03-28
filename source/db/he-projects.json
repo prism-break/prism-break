@@ -900,33 +900,6 @@
   },
   {
     "development_stage": "released",
-    "description": "VoIP מוצפן וחופשי עבור אנדרואיד.",
-    "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
-    "logo": "csipsimple.png",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "privacy_url": "",
-    "source_url": "https://code.google.com/p/csipsimple/source/checkout",
-    "name": "CSipSimple",
-    "tos_url": "",
-    "url": "https://code.google.com/p/csipsimple/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CSipSimple",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      }
-    ],
-    "slug": "csipsimple"
-  },
-  {
-    "development_stage": "released",
     "description": "DAVdroid is an open-source CalDAV/CardDAV synchronization app for Android 4+.",
     "license_url": "https://github.com/bitfireAT/davdroid/blob/master/COPYING",
     "logo": "davdroid.png",
