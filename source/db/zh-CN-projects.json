@@ -900,33 +900,6 @@
   },
   {
     "development_stage": "released",
-    "description": "用于 Android 平台的端到端加密的 VoIP 电话。",
-    "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
-    "logo": "csipsimple.png",
-    "notes": "加密只对语音和视频有效，即时通信的文字不会被加密。",
-    "privacy_url": "",
-    "source_url": "https://code.google.com/p/csipsimple/source/checkout",
-    "name": "CSipSimple",
-    "tos_url": "",
-    "url": "https://code.google.com/p/csipsimple/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CSipSimple",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      }
-    ],
-    "slug": "csipsimple"
-  },
-  {
-    "development_stage": "released",
     "description": "DAVdroid 是一个开源的 CalDAV/CardDAV 同步 APP，支持 Android 4+。",
     "license_url": "https://github.com/bitfireAT/davdroid/blob/master/COPYING",
     "logo": "davdroid.png",
