@@ -1404,6 +1404,60 @@
   },
   {
     "development_stage": "released",
+    "description": "Secure, journaled contacts/calendar cloud sync",
+    "license_url": "https://github.com/etesync/android/blob/master/LICENSE",
+    "logo": "etesync.png",
+    "notes": "Secure, end-to-end encrypted and journaled personal information synchronization. Everything is encrypted on the client-side and all the code (client and server) is open source.",
+    "privacy_url": "https://www.etesync.com/tos/#privacy",
+    "source_url": "https://github.com/etesync/",
+    "name": "EteSync",
+    "tos_url": "https://www.etesync.com/tos/",
+    "url": "https://www.etesync.com/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "File Storage & Sync",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Storage & Sync",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "File Storage & Sync",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync",
+          "Productivity"
+        ]
+      }
+    ],
+    "slug": "etesync"
+  },
+  {
+    "development_stage": "released",
     "description": "Multi-user spreadsheet server.",
     "license_url": "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt",
     "logo": "ethercalc.png",
