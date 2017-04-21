@@ -101,9 +101,9 @@ If your language file doesn't exist yet, you can copy the en.json file and start
 ### JSON Validation
 **Make sure your JSON validates.** You can use either use [JSONLint](http://jsonlint.com/) online or install it locally with `npm install jsonlint -g`.
 
-A common mistake is putting unescaped quotation marks in a sentence. Make sure to escape them with either HTML entities (curly quotes) or a backslash (straight quotes).
+A common mistake is putting unescaped quotation marks in a sentence. Make sure to use Unicode typographic marks (curly quotes) or escape regular (straight) quotes with a backslash.
 
-    "description": "Use curly quotes &ldquo;like this&rdquo;.",
+    "description": "Use curly quotes “like this”.",
 
     "description": "Escape straight quotes \"like this\".",
 

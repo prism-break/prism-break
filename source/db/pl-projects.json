@@ -1,7 +1,7 @@
 [
   {
     "development_stage": "released",
-    "description": "Wieloprotoko&#322;owy klient czatu dla macOS (pami&#281;taj aby w&#322;&#261;czy&#263; OTR).",
+    "description": "Wieloprotokołowy klient czatu dla macOS (pamiętaj aby włączyć OTR).",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
     "notes": "",
@@ -81,7 +81,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Elegant, minimal, and flexible Linux&reg; distribution.",
+    "description": "Elegant, minimal, and flexible Linux® distribution.",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
     "notes": "",
@@ -447,7 +447,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Stowarzyszona, otwarto&#378;r&oacute;d&#322;owa sie&#263; spo&#322;eczno&#347;ciowa",
+    "description": "Stowarzyszona, otwartoźródłowa sieć społecznościowa",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
     "logo": "buddycloud.png",
     "notes": "",
@@ -562,7 +562,7 @@
   },
   {
     "development_stage": "released",
-    "description": "OMEMO or OTR encrypted IM for iOS.",
+    "description": "Szyfrowany klient wiadomości błyskawicznych dla iOS.",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
     "notes": "",
@@ -589,7 +589,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Cjdns is a networking protocol, a system of digital rules for message exchange between computers. \"Instead of letting other computers connect to you through a shared IP address which anyone can use, cjdns only lets computers talk to one other after they have verified each other cryptographically. ",
+    "description": "Cjdns is a networking protocol, a system of digital rules for message exchange between computers. “Instead of letting other computers connect to you through a shared IP address which anyone can use, cjdns only lets computers talk to one other after they have verified each other cryptographically. ",
     "license_url": "https://github.com/cjdelisle/cjdns/blob/master/LICENSE",
     "logo": "cjdns.png",
     "notes": "",
@@ -927,7 +927,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Popularna dystrybucja GNU/Linux, bardzo stabilna i z etyk&#261; wsp&oacute;&#322;pracy.",
+    "description": "Popularna dystrybucja GNU/Linux, bardzo stabilna i z etyką współpracy.",
     "license_url": "http://www.debian.org/legal/licenses/",
     "logo": "debian.png",
     "notes": "",
@@ -1015,7 +1015,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Uruchomiona przez spo&#322;eczno&#347;&#263;, rozproszona sie&#263;.",
+    "description": "Uruchomiona przez społeczność, rozproszona sieć.",
     "license_url": "https://github.com/diaspora/diaspora/blob/develop/COPYRIGHT",
     "logo": "diaspora.png",
     "notes": "",
@@ -1046,7 +1046,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Niepo&#380;&#261;dane strony nie b&#281;d&#261; Ci&#281; &#347;ledzi&#263;",
+    "description": "Niepożądane strony nie będą Cię śledzić",
     "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
     "logo": "disconnect.png",
     "notes": "",
@@ -1090,7 +1090,7 @@
     "description": "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo.",
     "license_url": "",
     "logo": "disconnect-search.png",
-    "notes": "The source code can be downloaded for viewing by right clicking \"Get Disconnect Search\" on the official website and selecting \"Save Link As...\".\n\nWith \"search.xpi\" downloaded, change the file extension to \".zip\" and extract it to view the source code.",
+    "notes": "The source code can be downloaded for viewing by right clicking “Get Disconnect Search” on the official website and selecting “Save Link As...”.\n\nWith “search.xpi” downloaded, change the file extension to “.zip” and extract it to view the source code.",
     "privacy_url": "",
     "source_url": "https://disconnect.me/search",
     "name": "Disconnect Search",
@@ -1313,7 +1313,7 @@
     "description": "File based encryption tool with support for Linux, Mac OS and Windows.",
     "license_url": "https://github.com/vgough/encfs/blob/master/COPYING",
     "logo": "encfs.png",
-    "notes": "EncFS is available for Windows through the \"encfs4win\" port.",
+    "notes": "EncFS is available for Windows through the “encfs4win” port.",
     "privacy_url": "",
     "source_url": "https://github.com/vgough/encfs",
     "name": "encfs",
@@ -1505,7 +1505,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Serwer edytora test&oacute;w z multilogowaniem.",
+    "description": "Serwer edytora testów z multilogowaniem.",
     "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
     "logo": "etherpad.png",
     "notes": "The etherpad project maintains a list of [sites that run etherpad services](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Please only choose from the services that use SSL, and research the site's background before trusting them with your data.",
@@ -1566,7 +1566,7 @@
   },
   {
     "development_stage": "released",
-    "description": "MTA used on approximately 43% of all mail servers&mdash;the default on Debian GNU/Linux.",
+    "description": "MTA used on approximately 43% of all mail servers—the default on Debian GNU/Linux.",
     "license_url": "https://github.com/Exim/exim/blob/master/src/LICENCE",
     "logo": "exim.png",
     "notes": "",
@@ -1589,7 +1589,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Sklep z aplikacjami otwarto-&#378;r&oacute;d&#322;owymi dla Androida.",
+    "description": "Sklep z aplikacjami otwarto-źródłowymi dla Androida.",
     "license_url": "https://gitorious.org/f-droid/fdroidserver/source/COPYING/",
     "logo": "f-droid.png",
     "notes": "",
@@ -1647,7 +1647,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Przegl&#261;darka z otwartym kodem &#378;r&oacute;d&#322;owym.",
+    "description": "Przeglądarka z otwartym kodem źródłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
     "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
@@ -1672,10 +1672,10 @@
   },
   {
     "development_stage": "released",
-    "description": "Przegl&#261;darka z otwartym kodem &#378;r&oacute;d&#322;owym.",
+    "description": "Przeglądarka z otwartym kodem źródłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" if you don't want Mozilla to send reported URL hashes to Google.",
+    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” if you don't want Mozilla to send reported URL hashes to Google.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox for Android",
@@ -1766,7 +1766,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Zdecentralizowana sie&#263; odporna na cenzur&#281;.",
+    "description": "Zdecentralizowana sieć odporna na cenzurę.",
     "license_url": "https://github.com/freenet/fred-staging/blob/next/LICENSE",
     "logo": "freenet.png",
     "notes": "",
@@ -1927,7 +1927,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarto&#378;r&oacute;d&#322;owy serwer serwis&oacute;w spo&#322;eczno&#347;ciowych.",
+    "description": "Otwartoźródłowy serwer serwisów społecznościowych.",
     "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
     "logo": "friendica.png",
     "notes": "",
@@ -1954,7 +1954,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Light and fast IM client for GNU/Linux and Windows&mdash;OTR support via plugin.",
+    "description": "Light and fast IM client for GNU/Linux and Windows—OTR support via plugin.",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.png",
     "notes": "",
@@ -2203,7 +2203,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Zdecentralizowana sie&#263; spo&#322;eczno&#347;ciowa na w&#322;asnym hostingu.",
+    "description": "Zdecentralizowana sieć społecznościowa na własnym hostingu.",
     "license_url": "https://gitlab.com/gnu-social-statusnet/gnu-social/blob/master/COPYING",
     "logo": "gnu-social.png",
     "notes": "",
@@ -2448,7 +2448,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Wymusza HTTPS, szyfruj&#261;c dane na odwiedzanych stronach.",
+    "description": "Wymusza HTTPS, szyfrując dane na odwiedzanych stronach.",
     "license_url": "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt",
     "logo": "https-everywhere.png",
     "notes": "",
@@ -3093,7 +3093,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Klient e-mail dla &#347;rodowiska KDE, ze wsparciem dla GPG.",
+    "description": "Klient e-mail dla środowiska KDE, ze wsparciem dla GPG.",
     "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
     "logo": "kontact.png",
     "notes": "",
@@ -3271,7 +3271,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Szyfrowany czat wideo i g&#322;osowy.",
+    "description": "Szyfrowany czat wideo i głosowy.",
     "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
     "logo": "linphone.png",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
@@ -3463,7 +3463,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Zdecentralizowana platforma publikacji medi&oacute;w.",
+    "description": "Zdecentralizowana platforma publikacji mediów.",
     "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
     "logo": "mediagoblin.png",
     "notes": "MediaGoblin does not encrypt any of your data by default.",
@@ -3591,7 +3591,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Prywatny, zdecentralizowany serwer sieci spo&#322;eczno&#347;ciowych.",
+    "description": "Prywatny, zdecentralizowany serwer sieci społecznościowych.",
     "license_url": "https://github.com/edhelas/movim/blob/master/COPYING",
     "logo": "movim.png",
     "notes": "",
@@ -3623,10 +3623,10 @@
   },
   {
     "development_stage": "released",
-    "description": "Przegl&#261;darka z otwartym kodem &#378;r&oacute;d&#322;owym.",
+    "description": "Przeglądarka z otwartym kodem źródłowym.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don't want Mozilla to send reported URL hashes to Google.",
+    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don't want Mozilla to send reported URL hashes to Google.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
@@ -3666,7 +3666,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarto&#378;r&oacute;d&#322;owa aplikacja e-mail.",
+    "description": "Otwartoźródłowa aplikacja e-mail.",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
@@ -3723,7 +3723,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Szyfrowany czat g&#322;osowy low-latency.",
+    "description": "Szyfrowany czat głosowy low-latency.",
     "license_url": "https://github.com/mumble-voip/mumble/blob/master/LICENSE",
     "logo": "mumble.png",
     "notes": "",
@@ -3863,10 +3863,10 @@
   },
   {
     "development_stage": "released",
-    "description": "W&#322;&#261;cza JavaScript, Java i Flash tylko na stronach, kt&oacute;rym ufasz",
+    "description": "Włącza JavaScript, Java i Flash tylko na stronach, którym ufasz",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
-    "notes": "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
+    "notes": "Install **NoScript** and enable ‘Forbid scripts globally’ to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
     "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
@@ -3966,7 +3966,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Wtyczka dla Pidgina zapewniaj&#261;ca szyfrowanie czatu.",
+    "description": "Wtyczka dla Pidgina zapewniająca szyfrowanie czatu.",
     "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
     "logo": "otr.png",
     "notes": "",
@@ -4227,7 +4227,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Darmowa mapa &#347;wiata tworzona ze spo&#322;eczno&#347;ci&#261;.",
+    "description": "Darmowa mapa świata tworzona ze społecznością.",
     "license_url": "http://www.openstreetmap.org/copyright",
     "logo": "openstreetmap.png",
     "notes": "",
@@ -4499,7 +4499,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Dane pod Twoj&#261; kontrol&#261;, na Twojej chmurze.",
+    "description": "Dane pod Twoją kontrolą, na Twojej chmurze.",
     "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
     "logo": "owncloud.png",
     "notes": "ownCloud provides a file sync and share solution that respects your privacy. Sync clients are available for all major platforms. ownCloud comes with a rich ecosystem of apps, which makes it possible to manage contacts, appointments, music and much more.",
@@ -4667,7 +4667,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarto&#378;r&oacute;d&#322;owy program do chatu.",
+    "description": "Otwartoźródłowy program do chatu.",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
     "notes": "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system, or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://github.com/aebrahim/pidgin-gnome-keyring).\n\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds.",
@@ -4735,7 +4735,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarto&#378;r&oacute;d&#322;owe analizy sieci WWW.",
+    "description": "Otwartoźródłowe analizy sieci WWW.",
     "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
     "logo": "piwik.png",
     "notes": "",
@@ -4930,7 +4930,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Serwer przesy&#322;ania multimedi&oacute;w.",
+    "description": "Serwer przesyłania multimediów.",
     "license_url": "https://github.com/e14n/pump.io/blob/master/LICENSE",
     "logo": "pumpio.png",
     "notes": "",
@@ -5096,7 +5096,7 @@
   },
   {
     "development_stage": "released",
-    "description": "W pe&#322;ni wolna dystrybucja Androida, z otwartymi sterownikami i programami.",
+    "description": "W pełni wolna dystrybucja Androida, z otwartymi sterownikami i programami.",
     "license_url": "https://git.replicant.us/replicant/manifest/blob/replicant-6.0-dev/README.mkdn",
     "logo": "replicant.png",
     "notes": "",
@@ -5166,7 +5166,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Bezpieczna i darmowa platforma rozm&oacute;w poprzez protok&oacute;&#322; P2P.",
+    "description": "Bezpieczna i darmowa platforma rozmów poprzez protokół P2P.",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
     "logo": "retroshare.png",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
@@ -5374,7 +5374,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Bezpieczne i w pe&#322;ni prywatne konta e-mail.",
+    "description": "Bezpieczne i w pełni prywatne konta e-mail.",
     "license_url": "",
     "logo": "riseup.png",
     "notes": "Riseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
@@ -5404,7 +5404,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Narz&#281;dzie do komunikacji z wieloma zastosowaniami i interfejsami.",
+    "description": "Narzędzie do komunikacji z wieloma zastosowaniami i interfejsami.",
     "license_url": "http://repos.goffi.org/sat/file/6aa71c853bf5/COPYING",
     "logo": "sat.png",
     "notes": "",
@@ -5453,7 +5453,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Otwarta, zdecentralizowana platforma dla wsp&oacute;lnego wyszukiwania.",
+    "description": "Otwarta, zdecentralizowana platforma dla wspólnego wyszukiwania.",
     "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
     "logo": "seeks-project.png",
     "notes": "",
@@ -5627,7 +5627,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Us&#322;uga na w&#322;asnym hostingu, z wersjonowaniem plik&oacute;w i synchronizacj&#261; ich.",
+    "description": "Usługa na własnym hostingu, z wersjonowaniem plików i synchronizacją ich.",
     "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
     "logo": "sparkleshare.png",
     "notes": "",
@@ -5878,7 +5878,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Live CD/USB dla prywatno&#347;ci w dowolnym miejscu.",
+    "description": "Live CD/USB dla prywatności w dowolnym miejscu.",
     "license_url": "https://tails.boum.org/doc/about/license/index.en.html",
     "logo": "tails.png",
     "notes": "",
@@ -5929,7 +5929,7 @@
     "description": "Protocol for realtime decentralized communication and personal data storage.",
     "license_url": "https://github.com/tent/tentd/blob/master/README.md",
     "logo": "tent.png",
-    "notes": "Tent mentions that it's still in alpha:\n*\"Remember, Tent is still in alpha, so it’s not safe to use with information you would not want to be public and should not be considered reliable.\"*",
+    "notes": "Tent mentions that it's still in alpha:\n*”Remember, Tent is still in alpha, so it’s not safe to use with information you would not want to be public and should not be considered reliable.”*",
     "privacy_url": "",
     "source_url": "https://github.com/tent",
     "name": "Tent",
@@ -6041,7 +6041,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.png",
     "notes": "",
@@ -6137,7 +6137,7 @@
     "description": "Add-on that makes Thunderbird/Icedove connect through Tor.",
     "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
     "logo": "torbirdy.png",
-    "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the \"Before using TorBirdy\" and \"Known TorBirdy\" Issues sections on the project website.",
+    "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the “Before using TorBirdy” and “Known TorBirdy” Issues sections on the project website.",
     "privacy_url": "",
     "source_url": "https://github.com/ioerror/torbirdy",
     "name": "TorBirdy",
@@ -6523,10 +6523,10 @@
   },
   {
     "development_stage": "released",
-    "description": "Darmowy system CMS dla blog&oacute;w i stron WWW.",
+    "description": "Darmowy system CMS dla blogów i stron WWW.",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
-    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>&ldquo;Disable Google Fonts&rdquo;</a> to remove this vulnerability.",
+    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under “Settings > Discussion > Avatars”.\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>“Disable Google Fonts”</a> to remove this vulnerability.",
     "privacy_url": "http://wordpress.org/about/privacy/",
     "source_url": "http://core.trac.wordpress.org/browser",
     "name": "WordPress",
@@ -6548,7 +6548,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Klient wiadomo&#347;ci szyfrowanych przez OTR dla Androida.",
+    "description": "Klient wiadomości szyfrowanych przez OTR dla Androida.",
     "license_url": "https://github.com/redsolution/xabber-android/blob/master/LICENSE",
     "logo": "xabber.png",
     "notes": "",
