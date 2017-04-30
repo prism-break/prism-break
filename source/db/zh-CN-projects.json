@@ -1913,14 +1913,14 @@
   {
     "development_stage": "released",
     "description": "FreeOTP 是一个使用动态密码的两步验证应用。",
-    "license_url": "https://fedorahosted.org/freeotp/browser/android/COPYING",
+    "license_url": "https://github.com/freeotp/freeotp-android/blob/master/COPYING",
     "logo": "freeotp.png",
     "notes": "FreeOTP 为你的网络账号安全增加了第二层保护。它的工作原理是应用在你的手机设备上生成动态密码，登录网络账号时输入正常密码并配合使用动态密码，这使得你的账号几乎不可能被入侵。",
     "privacy_url": "",
-    "source_url": "https://fedorahosted.org/freeotp/browser/android",
+    "source_url": "https://github.com/freeotp",
     "name": "FreeOTP",
     "tos_url": "",
-    "url": "https://fedorahosted.org/freeotp/",
+    "url": "https://freeotp.github.io/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreeOTP",
     "protocols": [],
     "categories": [
