@@ -4199,12 +4199,12 @@
     "description": "Provider DNS aperto, democratico e contro la censura.",
     "license_url": "",
     "logo": "opennic.png",
-    "notes": "OpenNIC non ha adottato una politica ufficiale sulla privacy/anonimizzazione delle richieste inviate. Maggiori informazioni [qui](http://wiki.opennicproject.org/Tier2).",
-    "privacy_url": "http://wiki.opennicproject.org/Tier2",
-    "source_url": "http://wiki.opennicproject.org/opennicZoneScript",
+    "notes": "OpenNIC non ha adottato una politica ufficiale sulla privacy/anonimizzazione delle richieste inviate. Maggiori informazioni [qui](https://wiki.opennic.org/opennic:tier2).",
+    "privacy_url": "https://wiki.opennic.org/opennic:tier2",
+    "source_url": "https://wiki.opennic.org/opennic:srvzone",
     "name": "OpenNIC",
     "tos_url": "",
-    "url": "http://www.opennicproject.org/",
+    "url": "https://www.opennic.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
     "protocols": [
       "DNS"

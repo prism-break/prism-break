@@ -4298,12 +4298,12 @@
     "description": "开放，民主，抗审查的 DNS 服务。",
     "license_url": "",
     "logo": "opennic.png",
-    "notes": "OpenNIC 还没有关于日志查询隐私和匿名性的官方政策。更多信息参见[这个页面](http://wiki.opennicproject.org/Tier2)。",
-    "privacy_url": "http://wiki.opennicproject.org/Tier2",
-    "source_url": "http://wiki.opennicproject.org/opennicZoneScript",
+    "notes": "OpenNIC 还没有关于日志查询隐私和匿名性的官方政策。更多信息参见[这个页面](https://wiki.opennic.org/opennic:tier2)。",
+    "privacy_url": "https://wiki.opennic.org/opennic:tier2",
+    "source_url": "https://wiki.opennic.org/opennic:srvzone",
     "name": "OpenNIC",
     "tos_url": "",
-    "url": "http://www.opennicproject.org/",
+    "url": "https://www.opennic.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
     "protocols": [
       "DNS"
