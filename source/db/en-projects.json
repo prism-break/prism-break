@@ -1,4 +1,39 @@
 [
+   {
+    "development_stage": "experimental",
+    "description": "An OS that is designed to be resistant to network-borne exploit and malware attacks.",
+    "license_url": "https://github.com/subgraph/oz/blob/master/LICENSE",
+    "logo": "subgraph-os.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/subgraph",
+    "name": "Subgraph OS",
+    "tos_url": "",
+    "url": "https://subgraph.com",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Subgraph_(operating_system)",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Operating Systems"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Operating Systems"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Operating Systems"
+        ]
+      }
+    ],
+    "slug": "subgraph-os"
+  },
   {
     "development_stage": "released",
     "description": "Multiprotocol chat client for Apple macOS with OTR features.",
