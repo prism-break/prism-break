@@ -6743,6 +6743,31 @@
   },
   {
     "development_stage": "released",
+    "description": "Effortlessly self-host web apps on your server.",
+    "license_url": "https://git.cloudron.io/cloudron/box/blob/master/LICENSE",
+    "logo": "cloudron.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://git.cloudron.io/cloudron/",
+    "name": "Cloudron",
+    "tos_url": "",
+    "url": "https://cloudron.io/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Operating Systems"
+        ]
+      }
+    ],
+    "slug": "cloudron"
+  },
+  {
+    "development_stage": "released",
     "description": "Self-hosted media management system.",
     "license_url": "http://www.zenphoto.org/pages/licenses",
     "logo": "zenphoto.png",
