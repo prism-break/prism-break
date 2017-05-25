@@ -2201,6 +2201,7 @@
     ],
     "slug": "gnu-privacy-guard"
   },
+
   {
     "development_stage": "released",
     "description": "Self-hosted, decentralized social network.",
@@ -2232,6 +2233,34 @@
     ],
     "slug": "gnu-social"
   },
+  
+  {
+    "development_stage": "released",
+    "description": "Web-service: Protected social networks",
+    "license_url": "https://github.com/evgenyigumnov/protectednet/blob/master/LICENSE",
+    "logo": "protectednet.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/evgenyigumnov/protectednet",
+    "name": "ProtectedNet",
+    "tos_url": "",
+    "url": "https://protectednet.io/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Social Networks"
+        ]
+      }
+    ],
+    "slug": "protectednet"
+  },
+  
+  
   {
     "development_stage": "released",
     "description": "GNUnet is a fully free P2P network.",
