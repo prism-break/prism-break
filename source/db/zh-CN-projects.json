@@ -115,30 +115,6 @@
     "slug": "arch-linux"
   },
   {
-    "development_stage": "experimental",
-    "description": "ARKOS 是一个基于 Linux 的服务器操作系统，可在小巧的 Raspberry Pi 硬件上运行，提供电子邮件、聊天、文件共享、虚拟主机等功能。",
-    "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
-    "logo": "arkos.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cznweb",
-    "name": "ArkOS",
-    "tos_url": "",
-    "url": "https://arkos.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ArkOS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arkos"
-  },
-  {
     "development_stage": "released",
     "description": "开源的分组交换机（PBX）系统，支持 VoIP/SIP 通讯。另有中文化衍生品 freeiris。",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",

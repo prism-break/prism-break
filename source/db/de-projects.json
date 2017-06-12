@@ -115,30 +115,6 @@
     "slug": "arch-linux"
   },
   {
-    "development_stage": "experimental",
-    "description": "arkOS ist ein schlanker Software-Stack für den Raspberry Pi, auf dem Du Deine Websites, E-Mails, Daten, etc. sicher selbst hosten kannst.",
-    "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
-    "logo": "arkos.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cznweb",
-    "name": "ArkOS",
-    "tos_url": "",
-    "url": "https://arkos.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ArkOS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arkos"
-  },
-  {
     "development_stage": "released",
     "description": "PBX-Implementation mit VoIP/SIP-Unterstützung.",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
