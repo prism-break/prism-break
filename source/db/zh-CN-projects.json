@@ -4109,47 +4109,6 @@
   },
   {
     "development_stage": "released",
-    "description": "稳定、易用的多用途 GNU/Linux 发行版。",
-    "license_url": "https://en.opensuse.org/openSUSE:License",
-    "logo": "opensuse.png",
-    "notes": "",
-    "privacy_url": "https://www.suse.com/company/policies/privacy/",
-    "source_url": "https://en.opensuse.org/Source_code",
-    "name": "OpenSUSE",
-    "tos_url": "https://en.opensuse.org/Terms_of_site",
-    "url": "https://www.opensuse.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenSUSE",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "opensuse"
-  },
-  {
-    "development_stage": "released",
     "description": "自由的 VPN 客户端，FreeS/WAN 的衍生品。",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",

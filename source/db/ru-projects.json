@@ -4010,47 +4010,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Стабильный и простой в использовании дистрибутив GNU/Linux для разных целей.",
-    "license_url": "https://ru.opensuse.org/openSUSE:%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F",
-    "logo": "opensuse.png",
-    "notes": "",
-    "privacy_url": "https://www.suse.com/company/policies/privacy/",
-    "source_url": "https://ru.opensuse.org/%D0%98%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%B4",
-    "name": "OpenSUSE",
-    "tos_url": "https://ru.opensuse.org/%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F_%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D1%81%D0%B0%D0%B9%D1%82%D0%B0",
-    "url": "https://www.opensuse.org/ru/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/OpenSUSE",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "opensuse"
-  },
-  {
-    "development_stage": "released",
     "description": "Свободный VPN клиент, основанный на FreeS/WAN.",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",
