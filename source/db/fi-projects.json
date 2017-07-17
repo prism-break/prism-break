@@ -3623,47 +3623,6 @@
   },
   {
     "development_stage": "released",
-    "description": "NetBSD on avoimen lähdekoodin Unixin kaltainen käyttöjärjestelmä joka polveutuu Berkeley Software Distribution:ista (BSD), Unix johdannaisesta, joka on kehitetty Kaliforniassa, Berkeleyn yliopistossa. Se oli toinen avoimen lähdekoodin BSD johdannainen, heti 386BSD:n jälkeen, ja on yhä aktiivisesti kehitetty. The NetBSD projekti perustuu pääasiassa korkeatasoiseen suunnitteluun, vakauteen ja suorituskykyyn. ",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "development_stage": "released",
     "description": "Salli JavaScript, Java, ja Flash vain sivuilla, joihin luotat.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",

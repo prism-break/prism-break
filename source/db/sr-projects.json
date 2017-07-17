@@ -3623,47 +3623,6 @@
   },
   {
     "development_stage": "released",
-    "description": "NetBSD is an open-source Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. ",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "development_stage": "released",
     "description": "Uključi JavaScript, Java i Flash samo na web stranicama kojima veruješ.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",

@@ -3722,47 +3722,6 @@
   },
   {
     "development_stage": "released",
-    "description": "这是一个根据伯克利软件分发协议（BSD）发布的类 Unix 操作系统，是加州大学伯克利分校开发的 Unix 衍生品。它也是第二个正式发布的开源 BSD 后裔，在 386BSD 之后，它的开发持续活跃。NetBSD 项目主要致力于高品质的设计、稳定性和卓越的系统性能。",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "development_stage": "released",
     "description": "只启用你信任的网站上面的 JavaScript、Java 和 Flash 内容",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",

@@ -3623,47 +3623,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Юниксоподобная операционная система, ответвление Berkeley Software Distribution (BSD), производной Unix, разрабатываемой в Калифорнийском университете в Беркли. Она была вторым официально выпущенным ответвление с открытыми исходными кодами после 386BSD, и до сих пор активно разрабатывается. Силы проекта NetBSD в первую очередь направлены на обеспечение высокого качества разработки, стабильность и безопасность.",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "development_stage": "released",
     "description": "Разрешите Javascript, Java и Flash только тем сайтам, которым доверяете.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
