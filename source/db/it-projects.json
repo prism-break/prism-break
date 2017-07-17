@@ -52,41 +52,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Distribuzione GNU/Linux elegante, minimale e flessibile.",
-    "license_url": "https://wiki.archlinux.org/index.php/Licenses",
-    "logo": "arch-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.archlinux.org/",
-    "name": "Arch Linux",
-    "tos_url": "",
-    "url": "https://www.archlinux.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/Arch_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arch-linux"
-  },
-  {
-    "development_stage": "released",
     "description": "Implementazione PBX con supporto VoIP/SIP.",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
