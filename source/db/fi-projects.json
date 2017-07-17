@@ -5114,29 +5114,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Scientific Linux (SL) on European Organization for Nuclear Research:in (CERN) ja Fermi National Accelerator Laboratory:n tuottama GNU/Linux jakelu. ",
-    "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
-    "logo": "scientific-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.scientificlinux.org/",
-    "name": "Scientific Linux",
-    "tos_url": "",
-    "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scientific_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "scientific-linux"
-  },
-  {
-    "development_stage": "released",
     "description": "Avoin yhteisön luoma hakukone, jonka palvelimet sijaitsevat eri puolilla maailmaa.",
     "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
     "logo": "seeks-project.png",

@@ -5139,29 +5139,6 @@
   },
   {
     "development_stage": "released",
-    "description": "由费米实验室和欧洲原子核研究组织（CERN）提供的 Linux 发行版。",
-    "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
-    "logo": "scientific-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.scientificlinux.org/",
-    "name": "Scientific Linux",
-    "tos_url": "",
-    "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scientific_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "scientific-linux"
-  },
-  {
-    "development_stage": "released",
     "description": "开放的去中心化的协作搜索平台。",
     "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
     "logo": "seeks-project.png",

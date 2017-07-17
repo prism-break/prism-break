@@ -5114,29 +5114,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Дистрибутив Linux, созданный в Национальной ускорительной лаборатории им. Энрико Ферми и Европейской организации по ядерным исследованиям (ЦЕРН).",
-    "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
-    "logo": "scientific-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.scientificlinux.org/",
-    "name": "Scientific Linux",
-    "tos_url": "",
-    "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Scientific_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "scientific-linux"
-  },
-  {
-    "development_stage": "released",
     "description": "Открытая децентрализованная платформа для совместного поиска.",
     "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
     "logo": "seeks-project.png",
