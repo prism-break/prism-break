@@ -52,35 +52,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Live USB/memory card OpenELEC-based media server toolbox platform for securing the online presence, web browsing and communications.",
-    "license_url": "https://www.antiprism.ca/manual_en.html#LICENSE",
-    "logo": "antiprism.png",
-    "notes": "AntiPrism is a toolbox platform for securing the online presence, web browsing and communications. It is implemented as a set of extensions to the OpenELEC-derived media center software providing a universal and seamlessly integrated web privacy solution for home and small office. It runs from a read-only file system within a secure Linux operating environment bootable from a USB flash drive, SD memory card, or installable on a HDD/SSD. AntiPrism is activated with a password used as an encryption key to a hidden file system. Once deactivated, it leaves no traces of its operations. The computer device running AntiPrism can serve as a media center for watching movies, streaming music and games, and general web surfing with the included basic web browser, because the basic XBMC/Kodi external plug-ins functionalities are preserved and acting as an anonymizing tool in the background. Current AntiPrism version supports i386, x86_64 and ARM-compatible processors running on a wide range of Intel-compatible PCs and Raspberry Pi.",
-    "privacy_url": "",
-    "source_url": "https://github.com/antiprismca/OpenELEC-Antiprism",
-    "name": "AntiPrism",
-    "tos_url": "",
-    "url": "https://www.antiprism.ca/",
-    "wikipedia_url": "",
-    "protocols": [
-      "Tor",
-      "I2P",
-      "OTR",
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "antiprism"
-  },
-  {
-    "development_stage": "released",
     "description": "Elegante, minimale und flexible Linux® distribution.",
     "license_url": "https://wiki.archlinux.org/index.php/Licenses",
     "logo": "arch-linux.png",
