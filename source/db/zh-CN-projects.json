@@ -1078,47 +1078,6 @@
   },
   {
     "development_stage": "released",
-    "description": "DragonFly BSD 是一个自由授权的类 UNIX 操作系统，衍生自 FreeBSD 4.8。开发者 Matthew Dillon，在20世纪80年代后期到90年代前期曾是 Amiga 的开发者，1994年到2003年间参与 FreeBSD 的开发。2003年6月，他开始开发 DragonFly BSD 并在7月16号将其发布在 FreeBSD 的邮件列表里。",
-    "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
-    "logo": "dragonfly-bsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=summary",
-    "name": "DragonFly BSD",
-    "tos_url": "",
-    "url": "https://www.dragonflybsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DragonFly_BSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "dragonfly-bsd"
-  },
-  {
-    "development_stage": "released",
     "description": "匿名、无记录的 Web 搜索",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",

@@ -1078,47 +1078,6 @@
   },
   {
     "development_stage": "released",
-    "description": "DragonFly BSD è un sistema operativo libero Unix-like creato come fork di FreeBSD 4.8. Matthew Dillon, sviluppatore Amiga tra fine anni '80 e inizio anni '90 e sviluppatore FreeBSD tra il 1994 e il 2003, iniziò a lavorare a DragonFly BSD nel giugno 2003 e lo annunciò nella mailing list di FreeBSD il 16 luglio 2003.",
-    "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
-    "logo": "dragonfly-bsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=summary",
-    "name": "DragonFly BSD",
-    "tos_url": "",
-    "url": "https://www.dragonflybsd.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/DragonFly_BSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "dragonfly-bsd"
-  },
-  {
-    "development_stage": "released",
     "description": "Ricerche anonime e non registrate.",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
