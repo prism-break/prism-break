@@ -6486,41 +6486,9 @@
     "slug": "weechat"
   },
   {
-    "development_stage": "released",
     "description": "虚拟机友好的操作系统，基于 Debian 和 Tor，致力于匿名、隐私和安全。",
-    "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
-    "logo": "whonix.png",
     "notes": "Whonix 被设计用来运行在虚拟化环境下，例如 [VirtualBox](https://www.virtualbox.org/)。VirtualBox 可以安装在 Windows, Linux, macOS 和 Solaris 等操作系统上。这意味着如果你不得不使用 Windows 或 macOS，你可以用 VirtualBox 和 Whonix 来增强你的隐私和安全。",
-    "privacy_url": "",
-    "source_url": "https://github.com/Whonix/Whonix/",
-    "name": "Whonix",
-    "tos_url": "",
-    "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "whonix"
+    "name": "Whonix"
   },
   {
     "development_stage": "released",

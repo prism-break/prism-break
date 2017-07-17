@@ -6461,41 +6461,9 @@
     "slug": "weechat"
   },
   {
-    "development_stage": "released",
     "description": "Ein Betriebssystem, das auf Tor, Anonymität, Privatsphäre und Sicherheit setzt. Es bietet anwendungsbereite VM-Images.",
-    "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
-    "logo": "whonix.png",
     "notes": "Whonix ist dafür vorgesehen, in einer virtuellen Maschine wie z.V. [VirtualBox](https://www.virtualbox.org/) zu laufen. VirtualBox kann auf Windows, Linux, macOS, und Solaris installiert werden. Solltest du also aus welchen Gründen auch immer auf Windows oder macOS angewiesen sein, kannst du innerhalb einer VirtualBox mit Whonix trotzdem mehr Privatssphäre und Sicherheit genießen.",
-    "privacy_url": "",
-    "source_url": "https://github.com/Whonix/Whonix/",
-    "name": "Whonix",
-    "tos_url": "",
-    "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "whonix"
+    "name": "Whonix"
   },
   {
     "development_stage": "released",

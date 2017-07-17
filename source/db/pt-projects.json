@@ -6462,43 +6462,6 @@
   },
   {
     "development_stage": "released",
-    "description": "VM-friendly OS based on Debian and Tor focused on anonymity, privacy and security.",
-    "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
-    "logo": "whonix.png",
-    "notes": "Whonix is designed to be run inside of a virtualization package like [VirtualBox](https://www.virtualbox.org/). VirtualBox can be installed on Windows, Linux, macOS, and Solaris. This means that if you're stuck using Windows or macOS for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.",
-    "privacy_url": "",
-    "source_url": "https://github.com/Whonix/Whonix/",
-    "name": "Whonix",
-    "tos_url": "",
-    "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "whonix"
-  },
-  {
-    "development_stage": "released",
     "description": "Site/blog live e CMS.",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",

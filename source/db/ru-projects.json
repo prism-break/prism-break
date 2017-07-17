@@ -6461,41 +6461,10 @@
     "slug": "weechat"
   },
   {
-    "development_stage": "released",
     "description": "Дружественная к виртуальным машинам операционная система, основанная на Tor и Debian, сфокусированная на анонимности, конфиденциальности и безопасности.",
-    "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
-    "logo": "whonix.png",
     "notes": "Whonix создан для использования в пакетах виртуализации, подобных [VirtualBox](https://www.virtualbox.org/). VirtualBox может быть установлен в Windows, Linux, macOS и Solaris. Это значит, что даже если вам приходится использовать Windows и macOS из-за любой причины, то все равно вы можете установить VirtualBox и использовать Whonix для усиления защиты конфиденциальности и безопасности.",
-    "privacy_url": "",
-    "source_url": "https://github.com/Whonix/Whonix/",
     "name": "Whonix",
-    "tos_url": "",
-    "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Whonix",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "whonix"
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Whonix"
   },
   {
     "development_stage": "released",
