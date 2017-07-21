@@ -52,94 +52,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Live USB/memory card OpenELEC-based media server toolbox platform for securing the online presence, web browsing and communications.",
-    "license_url": "https://www.antiprism.ca/manual_en.html#LICENSE",
-    "logo": "antiprism.png",
-    "notes": "AntiPrism is a toolbox platform for securing the online presence, web browsing and communications. It is implemented as a set of extensions to the OpenELEC-derived media center software providing a universal and seamlessly integrated web privacy solution for home and small office. It runs from a read-only file system within a secure Linux operating environment bootable from a USB flash drive, SD memory card, or installable on a HDD/SSD. AntiPrism is activated with a password used as an encryption key to a hidden file system. Once deactivated, it leaves no traces of its operations. The computer device running AntiPrism can serve as a media center for watching movies, streaming music and games, and general web surfing with the included basic web browser, because the basic XBMC/Kodi external plug-ins functionalities are preserved and acting as an anonymizing tool in the background. Current AntiPrism version supports i386, x86_64 and ARM-compatible processors running on a wide range of Intel-compatible PCs and Raspberry Pi.",
-    "privacy_url": "",
-    "source_url": "https://github.com/antiprismca/OpenELEC-Antiprism",
-    "name": "AntiPrism",
-    "tos_url": "",
-    "url": "https://www.antiprism.ca/",
-    "wikipedia_url": "",
-    "protocols": [
-      "Tor",
-      "I2P",
-      "OTR",
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "antiprism"
-  },
-  {
-    "development_stage": "released",
-    "description": "优雅和灵活的 linux 发行版。最小化原则，所有额外组件都由用户自行选配。",
-    "license_url": "https://wiki.archlinux.org/index.php/Licenses",
-    "logo": "arch-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.archlinux.org/",
-    "name": "Arch Linux",
-    "tos_url": "",
-    "url": "https://www.archlinux.org/",
-    "wikipedia_url": "https://zh.wikipedia.org/wiki/Arch_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arch-linux"
-  },
-  {
-    "development_stage": "experimental",
-    "description": "ARKOS 是一个基于 Linux 的服务器操作系统，可在小巧的 Raspberry Pi 硬件上运行，提供电子邮件、聊天、文件共享、虚拟主机等功能。",
-    "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
-    "logo": "arkos.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cznweb",
-    "name": "ArkOS",
-    "tos_url": "",
-    "url": "https://arkos.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ArkOS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arkos"
-  },
-  {
-    "development_stage": "released",
     "description": "开源的分组交换机（PBX）系统，支持 VoIP/SIP 通讯。另有中文化衍生品 freeiris。",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
@@ -1166,47 +1078,6 @@
   },
   {
     "development_stage": "released",
-    "description": "DragonFly BSD 是一个自由授权的类 UNIX 操作系统，衍生自 FreeBSD 4.8。开发者 Matthew Dillon，在20世纪80年代后期到90年代前期曾是 Amiga 的开发者，1994年到2003年间参与 FreeBSD 的开发。2003年6月，他开始开发 DragonFly BSD 并在7月16号将其发布在 FreeBSD 的邮件列表里。",
-    "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
-    "logo": "dragonfly-bsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=summary",
-    "name": "DragonFly BSD",
-    "tos_url": "",
-    "url": "https://www.dragonflybsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DragonFly_BSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "dragonfly-bsd"
-  },
-  {
-    "development_stage": "released",
     "description": "匿名、无记录的 Web 搜索",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
@@ -2117,41 +1988,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Linux 发行版，关注选择性，可控性和安全。",
-    "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
-    "logo": "gentoo.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.gentoo.org/main/en/where.xml",
-    "name": "Gentoo",
-    "tos_url": "",
-    "url": "https://www.gentoo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gentoo_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "gentoo"
-  },
-  {
-    "development_stage": "released",
     "description": "同步计算机上的文件夹。",
     "license_url": "https://git-annex.branchable.com/license/",
     "logo": "git-annex.png",
@@ -2221,41 +2057,6 @@
       }
     ],
     "slug": "gitlab"
-  },
-  {
-    "development_stage": "released",
-    "description": "完全免费的 GNU/Linux 发行版，基于 Debian。",
-    "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
-    "logo": "gnewsense.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://savannah.nongnu.org/bzr/?group=gnewsense",
-    "name": "gNewSense",
-    "tos_url": "",
-    "url": "http://www.gnewsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNewSense",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "gnewsense"
   },
   {
     "development_stage": "released",
@@ -3921,47 +3722,6 @@
   },
   {
     "development_stage": "released",
-    "description": "这是一个根据伯克利软件分发协议（BSD）发布的类 Unix 操作系统，是加州大学伯克利分校开发的 Unix 衍生品。它也是第二个正式发布的开源 BSD 后裔，在 386BSD 之后，它的开发持续活跃。NetBSD 项目主要致力于高品质的设计、稳定性和卓越的系统性能。",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "development_stage": "released",
     "description": "只启用你信任的网站上面的 JavaScript、Java 和 Flash 内容",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
@@ -4349,47 +4109,6 @@
   },
   {
     "development_stage": "released",
-    "description": "稳定、易用的多用途 GNU/Linux 发行版。",
-    "license_url": "https://en.opensuse.org/openSUSE:License",
-    "logo": "opensuse.png",
-    "notes": "",
-    "privacy_url": "https://www.suse.com/company/policies/privacy/",
-    "source_url": "https://en.opensuse.org/Source_code",
-    "name": "OpenSUSE",
-    "tos_url": "https://en.opensuse.org/Terms_of_site",
-    "url": "https://www.opensuse.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenSUSE",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "opensuse"
-  },
-  {
-    "development_stage": "released",
     "description": "自由的 VPN 客户端，FreeS/WAN 的衍生品。",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",
@@ -4653,41 +4372,6 @@
       }
     ],
     "slug": "owncloud"
-  },
-  {
-    "development_stage": "released",
-    "description": "自由、轻量、灵活的 GNU/Linux 发行版，基于 Arch Linux。",
-    "license_url": "https://wiki.parabolagnulinux.org/Parabola/GNU_Linux_Social_Contract",
-    "logo": "parabola.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.parabolagnulinux.org/",
-    "name": "Parabola GNU/Linux-libre",
-    "tos_url": "",
-    "url": "https://parabolagnulinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Parabola_GNU/Linux-libre",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "parabola-gnu-linux-libre"
   },
   {
     "development_stage": "released",
@@ -5452,29 +5136,6 @@
       }
     ],
     "slug": "salut-a-toi"
-  },
-  {
-    "development_stage": "released",
-    "description": "由费米实验室和欧洲原子核研究组织（CERN）提供的 Linux 发行版。",
-    "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
-    "logo": "scientific-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.scientificlinux.org/",
-    "name": "Scientific Linux",
-    "tos_url": "",
-    "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scientific_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "scientific-linux"
   },
   {
     "development_stage": "released",
@@ -6510,41 +6171,9 @@
     "slug": "weechat"
   },
   {
-    "development_stage": "released",
     "description": "虚拟机友好的操作系统，基于 Debian 和 Tor，致力于匿名、隐私和安全。",
-    "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
-    "logo": "whonix.png",
     "notes": "Whonix 被设计用来运行在虚拟化环境下，例如 [VirtualBox](https://www.virtualbox.org/)。VirtualBox 可以安装在 Windows, Linux, macOS 和 Solaris 等操作系统上。这意味着如果你不得不使用 Windows 或 macOS，你可以用 VirtualBox 和 Whonix 来增强你的隐私和安全。",
-    "privacy_url": "",
-    "source_url": "https://github.com/Whonix/Whonix/",
-    "name": "Whonix",
-    "tos_url": "",
-    "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "whonix"
+    "name": "Whonix"
   },
   {
     "development_stage": "released",

@@ -73,70 +73,11 @@
         "name": "Servers",
         "subcategories": [
           "Raspberry Pi",
-          "Operating Systems"
+          "Operating Systems (Live)"
         ]
       }
     ],
     "slug": "antiprism"
-  },
-  {
-    "development_stage": "released",
-    "description": "Elegant, minimal, and flexible GNU/Linux distribution.",
-    "license_url": "https://wiki.archlinux.org/index.php/Licenses",
-    "logo": "arch-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.archlinux.org/",
-    "name": "Arch Linux",
-    "tos_url": "",
-    "url": "https://www.archlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Arch_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arch-linux"
-  },
-  {
-    "development_stage": "experimental",
-    "description": "Lightweight self-hosting for websites, email, files, and more on Raspberry Pi",
-    "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
-    "logo": "arkos.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cznweb",
-    "name": "ArkOS",
-    "tos_url": "",
-    "url": "https://arkos.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ArkOS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arkos"
   },
   {
     "development_stage": "released",
@@ -1166,47 +1107,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Free Unix-like operating system created as a fork of FreeBSD 4.8. Matthew Dillon, an Amiga developer in the late 1980s and early 1990s and a FreeBSD developer between 1994 and 2003, began work on DragonFly BSD in June 2003 and announced it on the FreeBSD mailing lists on 16 July 2003.",
-    "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
-    "logo": "dragonfly-bsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=summary",
-    "name": "DragonFly BSD",
-    "tos_url": "",
-    "url": "https://www.dragonflybsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DragonFly_BSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "dragonfly-bsd"
-  },
-  {
-    "development_stage": "released",
     "description": "Anonymous, unlogged web searches.",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
@@ -2018,41 +1918,6 @@
   },
   {
     "development_stage": "released",
-    "description": "GNU/Linux distribution about choice, control and security.",
-    "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
-    "logo": "gentoo.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.gentoo.org/main/en/where.xml",
-    "name": "Gentoo",
-    "tos_url": "",
-    "url": "https://www.gentoo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gentoo_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "gentoo"
-  },
-  {
-    "development_stage": "released",
     "description": "Synchronize folders on your computers and drives.",
     "license_url": "https://git-annex.branchable.com/license/",
     "logo": "git-annex.png",
@@ -2122,41 +1987,6 @@
       }
     ],
     "slug": "gitlab"
-  },
-  {
-    "development_stage": "released",
-    "description": "Fully free software GNU/Linux distribution based on Debian.",
-    "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
-    "logo": "gnewsense.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://savannah.nongnu.org/bzr/?group=gnewsense",
-    "name": "gNewSense",
-    "tos_url": "",
-    "url": "http://www.gnewsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNewSense",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "gnewsense"
   },
   {
     "development_stage": "released",
@@ -3822,47 +3652,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. ",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "development_stage": "released",
     "description": "A safe home for all your data",
     "license_url": "https://github.com/nextcloud/server/blob/master/COPYING-README",
     "logo": "nextcloud.png",
@@ -4360,47 +4149,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Stable, easy-to-use multi-purpose GNU/Linux distribution.",
-    "license_url": "https://en.opensuse.org/openSUSE:License",
-    "logo": "opensuse.png",
-    "notes": "",
-    "privacy_url": "https://www.suse.com/company/policies/privacy/",
-    "source_url": "https://en.opensuse.org/Source_code",
-    "name": "OpenSUSE",
-    "tos_url": "https://en.opensuse.org/Terms_of_site",
-    "url": "https://www.opensuse.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenSUSE",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "opensuse"
-  },
-  {
-    "development_stage": "released",
     "description": "Free software VPN client derived from FreeS/WAN.",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",
@@ -4664,41 +4412,6 @@
       }
     ],
     "slug": "owncloud"
-  },
-  {
-    "development_stage": "released",
-    "description": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.",
-    "license_url": "https://wiki.parabolagnulinux.org/Parabola/GNU_Linux_Social_Contract",
-    "logo": "parabola.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.parabolagnulinux.org/",
-    "name": "Parabola GNU/Linux-libre",
-    "tos_url": "",
-    "url": "https://parabolagnulinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Parabola_GNU/Linux-libre",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "parabola-gnu-linux-libre"
   },
   {
     "development_stage": "released",
@@ -5537,29 +5250,6 @@
       }
     ],
     "slug": "salut-a-toi"
-  },
-  {
-    "development_stage": "released",
-    "description": "Linux distribution produced by Fermi National Accelerator Laboratory and the European Organization for Nuclear Research (CERN). ",
-    "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
-    "logo": "scientific-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.scientificlinux.org/",
-    "name": "Scientific Linux",
-    "tos_url": "",
-    "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scientific_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "scientific-linux"
   },
   {
     "development_stage": "released",
@@ -6613,19 +6303,19 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
+          "Operating Systems (Live)"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Operating Systems"
+          "Operating Systems (Live)"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Operating Systems (Live)"
         ]
       }
     ],

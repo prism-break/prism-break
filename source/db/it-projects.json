@@ -52,94 +52,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Live USB/memory card OpenELEC-based media server toolbox platform for securing the online presence, web browsing and communications.",
-    "license_url": "https://www.antiprism.ca/manual_en.html#LICENSE",
-    "logo": "antiprism.png",
-    "notes": "AntiPrism is a toolbox platform for securing the online presence, web browsing and communications. It is implemented as a set of extensions to the OpenELEC-derived media center software providing a universal and seamlessly integrated web privacy solution for home and small office. It runs from a read-only file system within a secure Linux operating environment bootable from a USB flash drive, SD memory card, or installable on a HDD/SSD. AntiPrism is activated with a password used as an encryption key to a hidden file system. Once deactivated, it leaves no traces of its operations. The computer device running AntiPrism can serve as a media center for watching movies, streaming music and games, and general web surfing with the included basic web browser, because the basic XBMC/Kodi external plug-ins functionalities are preserved and acting as an anonymizing tool in the background. Current AntiPrism version supports i386, x86_64 and ARM-compatible processors running on a wide range of Intel-compatible PCs and Raspberry Pi.",
-    "privacy_url": "",
-    "source_url": "https://github.com/antiprismca/OpenELEC-Antiprism",
-    "name": "AntiPrism",
-    "tos_url": "",
-    "url": "https://www.antiprism.ca/",
-    "wikipedia_url": "",
-    "protocols": [
-      "Tor",
-      "I2P",
-      "OTR",
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "antiprism"
-  },
-  {
-    "development_stage": "released",
-    "description": "Distribuzione GNU/Linux elegante, minimale e flessibile.",
-    "license_url": "https://wiki.archlinux.org/index.php/Licenses",
-    "logo": "arch-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.archlinux.org/",
-    "name": "Arch Linux",
-    "tos_url": "",
-    "url": "https://www.archlinux.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/Arch_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arch-linux"
-  },
-  {
-    "development_stage": "experimental",
-    "description": "arkOS è un sistema operativo leggero per Raspberry Pi per ospitare in modo sicuro i tuoi siti, email, file e altro.",
-    "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
-    "logo": "arkos.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cznweb",
-    "name": "ArkOS",
-    "tos_url": "",
-    "url": "https://arkos.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ArkOS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arkos"
-  },
-  {
-    "development_stage": "released",
     "description": "Implementazione PBX con supporto VoIP/SIP.",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
@@ -1166,47 +1078,6 @@
   },
   {
     "development_stage": "released",
-    "description": "DragonFly BSD è un sistema operativo libero Unix-like creato come fork di FreeBSD 4.8. Matthew Dillon, sviluppatore Amiga tra fine anni '80 e inizio anni '90 e sviluppatore FreeBSD tra il 1994 e il 2003, iniziò a lavorare a DragonFly BSD nel giugno 2003 e lo annunciò nella mailing list di FreeBSD il 16 luglio 2003.",
-    "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
-    "logo": "dragonfly-bsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=summary",
-    "name": "DragonFly BSD",
-    "tos_url": "",
-    "url": "https://www.dragonflybsd.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/DragonFly_BSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "dragonfly-bsd"
-  },
-  {
-    "development_stage": "released",
     "description": "Ricerche anonime e non registrate.",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
@@ -2018,41 +1889,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Distribuzione GNU/Linux orientata alla personalizzazione, controllo e sicurezza.",
-    "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
-    "logo": "gentoo.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.gentoo.org/main/it/where.xml",
-    "name": "Gentoo",
-    "tos_url": "",
-    "url": "https://www.gentoo.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/Gentoo_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "gentoo"
-  },
-  {
-    "development_stage": "released",
     "description": "Sincronizza le cartelle su tutti i tuoi computer.",
     "license_url": "https://git-annex.branchable.com/license/",
     "logo": "git-annex.png",
@@ -2122,41 +1958,6 @@
       }
     ],
     "slug": "gitlab"
-  },
-  {
-    "development_stage": "released",
-    "description": "Distribuzione GNU/Linux completamente libera basata su Debian.",
-    "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
-    "logo": "gnewsense.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://savannah.nongnu.org/bzr/?group=gnewsense",
-    "name": "gNewSense",
-    "tos_url": "",
-    "url": "http://www.gnewsense.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/GNewSense",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "gnewsense"
   },
   {
     "development_stage": "released",
@@ -3822,47 +3623,6 @@
   },
   {
     "development_stage": "released",
-    "description": "NetBSD è un sistema operativo Unix-like open source che discende dalla Berkeley Software Distribution (BSD), una derivata di Unix sviluppata nell’Universitè della California, Berkeley. &Egrave; stato il secondo discendente BSD open source ad essere pubblicato ufficialmente, dopo 386BSD, e il suo sviluppo continua tuttora. Il progetto NetBSD è incentrato principalmente su un design accattivante, stabilitè e prestazioni del sistema. ",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "development_stage": "released",
     "description": "Abilita JavaScript, Java e Flash solo per i siti fidati.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
@@ -4250,47 +4010,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Distribuzione GNU/Linux multiuso, stabile e di facile utilizzo",
-    "license_url": "https://en.opensuse.org/openSUSE:License",
-    "logo": "opensuse.png",
-    "notes": "",
-    "privacy_url": "https://www.suse.com/company/policies/privacy/",
-    "source_url": "https://en.opensuse.org/Source_code",
-    "name": "OpenSUSE",
-    "tos_url": "https://en.opensuse.org/Terms_of_site",
-    "url": "https://www.opensuse.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/OpenSUSE",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "opensuse"
-  },
-  {
-    "development_stage": "released",
     "description": "Client VPN libero derivato da FreeS/WAN.",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",
@@ -4554,41 +4273,6 @@
       }
     ],
     "slug": "owncloud"
-  },
-  {
-    "development_stage": "released",
-    "description": "Distribuzione GNU/Linux libera, leggera e flessibile basata su Arch Linux.",
-    "license_url": "https://wiki.parabolagnulinux.org/Parabola/GNU_Linux_Social_Contract",
-    "logo": "parabola.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.parabolagnulinux.org/",
-    "name": "Parabola GNU/Linux-libre",
-    "tos_url": "",
-    "url": "https://parabolagnulinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Parabola_GNU/Linux-libre",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "parabola-gnu-linux-libre"
   },
   {
     "development_stage": "released",
@@ -5427,29 +5111,6 @@
       }
     ],
     "slug": "salut-a-toi"
-  },
-  {
-    "development_stage": "released",
-    "description": "Scientific Linux (SL) è una distribuzione Linux prodotta dal Fermi National Accelerator Laboratory (Fermilab) e l’Organizzazione Europea per la Ricerca Nucleare (CERN). ",
-    "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
-    "logo": "scientific-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.scientificlinux.org/",
-    "name": "Scientific Linux",
-    "tos_url": "",
-    "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/Scientific_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "scientific-linux"
   },
   {
     "development_stage": "released",
@@ -6485,41 +6146,9 @@
     "slug": "weechat"
   },
   {
-    "development_stage": "released",
     "description": "Sistema operativo VM-compatibile basato su Debian e Tor incentrato sull’anonimato, privacy e sicurezza.",
-    "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
-    "logo": "whonix.png",
     "notes": "Whonix è progettato per essere eseguito all’interno di un pacchetto di virtualizzazione come [VirtualBox](https://www.virtualbox.org/). VirtualBox può essere installato su Windows, Linux, macOS e Solaris. Quindi se sarai obbligato ad usare Windows o macOS per qualsiasi ragione, potrai installare VirtualBox e usare Whonix per aumentare la tua privacy e sicurezza.",
-    "privacy_url": "",
-    "source_url": "https://github.com/Whonix/Whonix/",
-    "name": "Whonix",
-    "tos_url": "",
-    "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "whonix"
+    "name": "Whonix"
   },
   {
     "development_stage": "released",
