@@ -211,6 +211,25 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
+    logo: "discord.png"
+    name: "Discord"
+    categories: [
+      * name: "Android"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "GNU/Linux"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Web Services"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
     logo: "doodle.png"
     name: "Doodle"
     categories: [
