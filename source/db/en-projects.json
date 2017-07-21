@@ -3655,7 +3655,7 @@
     "description": "A safe home for all your data",
     "license_url": "https://github.com/nextcloud/server/blob/master/COPYING-README",
     "logo": "nextcloud.png",
-    "notes": "Nextcloud provides a file sync & share solution that respects your privacy and is fully open source. Sync clients are available for all major platforms. Nextcloud comes with a rich ecosystem of apps including Contacts, Calendar, Video calls, Mail, Newsreader and much more.",
+    "notes": "Nextcloud provides a file sync & share solution that respects your privacy and is fully open source. Sync clients are available for all major platforms. Nextcloud comes with a rich ecosystem of apps including Contacts, Calendar, Video calls, Mail, Newsreader and much more.\n\nNextcloud originated as a fork of ownCloud. It is preferred because ownCloud has an \"open core\" product model and lacks some security features Nextcloud has.",
     "privacy_url": "",
     "source_url": "https://github.com/nextcloud",
     "name": "Nextcloud",
