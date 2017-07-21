@@ -4218,64 +4218,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Pilvidata tiukasti omassa hallinnassasi.",
-    "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
-    "logo": "owncloud.png",
-    "notes": "ownCloud on tiedoston synkronointi- ja jakoalusta joka kunnioittaa yksityisyyttäsi. Asiakasohjelmat synkronointiin on saatavilla kaikille isoille alustoille. ownCloud käsittää laajan kokoelman ohjelmia, joten kontaktien, tapaamisten, musiikin jne. hallinnointi on helppoa.",
-    "privacy_url": "",
-    "source_url": "https://github.com/owncloud",
-    "name": "ownCloud",
-    "tos_url": "",
-    "url": "http://owncloud.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
-    "protocols": [
-      "CalDAV",
-      "CardDAV",
-      "WebDAV",
-      "RSS"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Android",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "slug": "owncloud"
-  },
-  {
-    "development_stage": "released",
     "description": "Password Safe (Android Porttaus). Tallentaa salasanat, verkkosivujen URLit, sähköpostiosoitteet, muistiinpanot ja paljon muuta salattuun tiedostoon, eli sinun tarvitsee muistaa ainoastaan yksi salasana. Voit luoda satunnaisia korkean entropian salasanoja ja mukauttaa ohjelmaa sopimaan eri sivujen asettamiin salasanakäytänteisiin.",
     "license_url": "http://sourceforge.net/p/passwdsafe/code/ci/default/tree/LICENSE",
     "logo": "passwordsafe.png",

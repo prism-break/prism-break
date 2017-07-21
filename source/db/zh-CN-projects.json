@@ -4317,64 +4317,6 @@
   },
   {
     "development_stage": "released",
-    "description": "你能掌控的云端数据。",
-    "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
-    "logo": "owncloud.png",
-    "notes": "ownCloud 提供了尊重您隐私的文件同步和分享解决方案。同步客户端支持大多数主流平台，ownCloud 自带的应用程序有着丰富的生态系统，这使得它具有管理联系人、日程和音乐等功能。",
-    "privacy_url": "",
-    "source_url": "https://github.com/owncloud",
-    "name": "ownCloud",
-    "tos_url": "",
-    "url": "http://owncloud.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
-    "protocols": [
-      "CalDAV",
-      "CardDAV",
-      "WebDAV",
-      "RSS"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Android",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "slug": "owncloud"
-  },
-  {
-    "development_stage": "released",
     "description": "安卓端密码管理器，使用加密的容器文件来储存密码，网址，电子邮箱地址，笔记等信息。你只需要记住主密码即可。提供自定义的随机密码生成功能。",
     "license_url": "http://sourceforge.net/p/passwdsafe/code/ci/default/tree/LICENSE",
     "logo": "passwordsafe.png",
