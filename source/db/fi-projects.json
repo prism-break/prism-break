@@ -5753,14 +5753,14 @@
     "development_stage": "released",
     "description": "Tor Browser bundle on Mozillan Firefoxiin perustuva verkkoselain, joka mahdollistaa anonyymin verkkoselaamisen GNU/Linux, Windows ja OSX käyttöjärjestelmillä.",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser-bundle.png",
+    "logo": "tor-browser.png",
     "notes": "Tor Browser Bundle ei anonymisoi käyttäjää, mikäli hän kirjautuu tosielämän sähköpostiin. Lisäksi, viimeinen Tor-rele (exit-node) pystyy tarkkailemaan kaikkea salaamatonta verkkoliikennettä, ja se saattaa myös pyrkiä lähettämään käyttäjälle phishing-sivun, tai alkuperäisen sivun, jonka TLS-salaus on purettu. Pyri käyttämään HTTPS-everywhere laajennusta, varmista että yhteys palvelimelle on salattu ja että sertifikaattiketju on kunnossa. Älä kirjaudu Tor-verkon kautta HTTP verkkosivuille: Käyttäjätunnuksesi ja salasanasi on helppo varastaa.",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor Browser Bundle",
+    "name": "Tor Browser",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -5791,7 +5791,7 @@
         ]
       }
     ],
-    "slug": "tor-browser-bundle"
+    "slug": "tor-browser"
   },
   {
     "development_stage": "released",

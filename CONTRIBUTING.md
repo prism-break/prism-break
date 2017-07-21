@@ -19,14 +19,14 @@ Append the sample project to the file `./source/db/en-projects.json`. Edit the v
       "development_stage": "released",
       "description": "Encrypted, anonymous web browsing powered by the Tor network.",
       "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-      "logo": "tor-browser-bundle.png",
-      "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
+      "logo": "tor-browser.png",
+      "notes": "Using Tor Browser to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
       "privacy_url": "https://www.torproject.org/about/overview.html.en",
       "source_url": "https://gitweb.torproject.org/tor.git",
-      "name": "Tor Browser Bundle",
+      "name": "Tor Browser",
       "tos_url": "",
       "url": "https://www.torproject.org/projects/torbrowser.html.en",
-      "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
       "protocols": [
         "SSL/TLS",
         "Tor"
@@ -57,7 +57,7 @@ Append the sample project to the file `./source/db/en-projects.json`. Edit the v
           ]
         }
       ],
-      "slug": "tor-browser-bundle"
+      "slug": "tor-browser"
     },
 
 Only the fields `name`, `description`, `logo`, `url`, `categories`, and `development_stage` are required. The other fields can be left empty with a value of `""` (`[]` for `protocols`).

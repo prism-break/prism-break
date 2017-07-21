@@ -5778,14 +5778,14 @@
     "development_stage": "released",
     "description": "通过Tor网络，以加密、匿名的方式浏览。",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser-bundle.png",
+    "logo": "tor-browser.png",
     "notes": "使用 Tor 浏览器（TBB）登录包含你真实信息的 ID 只会适得其反，还会触发网站的欺诈保护机制。在登录网站之前，你还需要检查是否是 HTTPS，因为通过 HTTP 登录可能导致您的信息被恶意 Tor 出口节点捕获。",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor Browser Bundle",
+    "name": "Tor Browser",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -5816,7 +5816,7 @@
         ]
       }
     ],
-    "slug": "tor-browser-bundle"
+    "slug": "tor-browser"
   },
   {
     "development_stage": "released",
