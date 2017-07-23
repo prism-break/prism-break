@@ -69,7 +69,7 @@ Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for more detail into the process.
 
 ### Want to help contribute to pending work?
 
-Search for open issues with the ["pull requested accepted"](https://github.com/nylira/prism-break/labels/pull%20request%20accepted) label.
+Search for open issues with the ["Status: Accepting PRs"](https://github.com/nylira/prism-break/labels/Status:%20Accepting%20PRs) label.
 
 ## License
 
