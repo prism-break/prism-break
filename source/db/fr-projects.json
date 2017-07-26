@@ -1520,14 +1520,7 @@
     "development_stage": "released",
     "description": "Navigateur web libre.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
     "name": "Firefox for iOS",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/firefox/ios/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1545,13 +1538,7 @@
     "development_stage": "released",
     "description": "Navigateur web libre.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” if you don't want Mozilla to send reported URL hashes to Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox for Android",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/Firefox_Mobile",
     "protocols": [
       "SSL/TLS"
@@ -3426,12 +3413,8 @@
     "development_stage": "released",
     "description": "Navigateur web libre.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/Mozilla_Firefox",
     "protocols": [
       "SSL/TLS"
@@ -3470,10 +3453,8 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Par défaut, Thunderbird ne chiffre pas votre courrier électronique. [Voici un guide](https://securityinabox.org/fr/thunderbird_principale) byppar le collectif Security In A Box  pour chiffrer votre courriel avec Mozilla Thunderbird, GNU Privacy Guard (GPG), et Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nBien que Thunderbird peut être utilisé comme client de clavardage ou client IRC, il n'offre pas la messagerie chiffrée.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/en-US/thunderbird/",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
@@ -3625,7 +3606,6 @@
     "description": "N'autorise JavaScript, Java et Flash que pour les sites en lesquels vous avez confiance.",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
-    "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
     "tos_url": "",
@@ -5078,14 +5058,11 @@
   {
     "development_stage": "released",
     "description": "Supprimer automatiquement les cookies et le stockage local quand ils ne sont plus utilisés par les onglets du navigateur ouvertes.",
-    "license_url": "https://addons.mozilla.org/firefox/files/browse/235317/file/LICENSE",
     "logo": "self-destructing-cookies.png",
     "notes": "Only works with Firefox version 24 and above.\n\n The Android version is [available here](https://addons.mozilla.org/android/addon/self-destructing-cookies/).",
     "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/firefox/files/browse/235317/",
     "name": "Self-Destructing Cookies",
     "tos_url": "",
-    "url": "https://addons.mozilla.org/firefox/addon/self-destructing-cookies/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [

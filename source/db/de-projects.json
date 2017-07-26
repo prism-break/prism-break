@@ -1520,14 +1520,7 @@
     "development_stage": "released",
     "description": "Schneller, flexibler und sicherer Browser mit einem lebhaften Add-On Ökosystem.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Onion Browser.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
     "name": "Firefox for iOS",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/firefox/ios/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1545,14 +1538,7 @@
     "development_stage": "released",
     "description": "Schneller, flexibler und sicherer Browser mit einem lebhaften Add-On Ökosystem.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Orbot.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” if you don't want Mozilla to send reported URL hashes to Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox for Android",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3426,13 +3412,8 @@
     "development_stage": "released",
     "description": "Schneller, flexibler und sicherer Browser mit einem lebhaften Add-On Ökosystem.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3470,10 +3451,8 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird verschlüsselt deine E-Mails nicht automatisch. [Hier gibt es eine Anleitung](https://securityinabox.org/en/thunderbird_main) von Security In A Box für die E-Mail-Verschlüsselung mit Mozilla Thunderbird, GNU Privacy Guard (GPG) und Enigmail.\n\nThunderbird kann optinal mit dem Tor-Netzwerk über das Addon [TorBirdy](https://prism-break.org/de/projects/torbirdy/) verbunden werden.\n\nAuch wenn Thunderbird als Chat- und IRC-Client verwendet werden kann, bietet es dafür keine Verschlüssleung der Chat-Nachrichten.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/en-US/thunderbird/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
@@ -3626,7 +3605,6 @@
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
     "notes": "Installiere **NoScript** und aktiviere ‘Skripte global verbieteny’ um die Sicherheit deines Browser zu maximieren und ihn für 0day-Angriffen über JavaScript zu schützen. Diese drastische Option wird allerdings viele Webseiten unbenutzbar machen, die viel JavaScript einsetzen.\n\nNoScript bietet darum eine Whitelist an, auf die vertrauenswürdige Webseiten setzen kannst, um JavaScript für sie wieder zu aktivieren. Dies kann allerdings deine [Anonymität gefährden](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) wenn du NoScript im **Tor Browser Bundle** benutzt.",
-    "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
     "tos_url": "",
@@ -5079,14 +5057,11 @@
   {
     "development_stage": "released",
     "description": "Löscht Cookies und lokale Website-Daten automatisch, wenn der Browser-Tab geschlossen wird.",
-    "license_url": "https://addons.mozilla.org/firefox/files/browse/235317/file/LICENSE",
     "logo": "self-destructing-cookies.png",
     "notes": "Funktioniert in Firefox ab Version 24.\n\nDie Android-Version ist [hier verfügbar](https://addons.mozilla.org/android/addon/self-destructing-cookies/).",
     "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/firefox/files/browse/235317/",
     "name": "Self-Destructing Cookies",
     "tos_url": "",
-    "url": "https://addons.mozilla.org/firefox/addon/self-destructing-cookies/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [

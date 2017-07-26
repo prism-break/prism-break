@@ -1520,14 +1520,8 @@
     "development_stage": "released",
     "description": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox ei piilota IP-osoitettasi kolmansilta osapuolilta oletuksena. Jos haluat anonymisoida IP-osoitteesi, on suositeltavaa käyttää Onion Browser.\n\nFirefoxin oletushakukone on Google. On suositeltavaa vaihtaa tilalle Ixquick, Startpage tai DuckDuck go, tai jokin muu anonyymi hakukone.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
     "name": "Firefox for iOS",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/firefox/ios/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1545,14 +1539,8 @@
     "development_stage": "released",
     "description": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox ei piilota IP-osoitettasi kolmansilta osapuolilta oletuksena. Jos haluat anonymisoida IP-osoitteesi, on suositeltavaa käyttää Orbot.\n\nFirefoxin oletushakukone on Google. On suositeltavaa vaihtaa tilalle Ixquick, Startpage tai DuckDuck go, tai jokin muu anonyymi hakukone.\n\nOn suositeltavaa poistaa valinta “Block reported attack sites” ja “Block reported web forgeries” menemällä jos et halua Mozillan lähettävän raportoitujen URL:ien tiivisteitä Googlelle. ",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox for Android",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3426,14 +3414,9 @@
     "development_stage": "released",
     "description": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox ei piilota IP-osoitettasi kolmansilta osapuolilta oletuksena. Jos haluat anonymisoida IP-osoitteesi, on suositeltavaa käyttää Tor Browser Bundlea.\n\nFirefoxin oletushakukone on Google. On suositeltavaa vaihtaa tilalle Ixquick, Startpage tai DuckDuck go, tai jokin muu anonyymi hakukone.\n\nOn suositeltavaa poistaa valinta “Block reported attack sites” ja “Block reported web forgeries” menemällä  Tools -> Options -> Security (Windows & GNU/Linux) tai Preferences -> Security (macOS) jos et halua Mozillan lähettävän raportoitujen URL:ien tiivisteitä Googlelle. ",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3471,10 +3454,8 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird ei oletuksena salaa sähköposteja. [Tässä](https://securityinabox.org/en/thunderbird_main) on Security In A Box:in opas sähköpostien salaamiseen Mozilla Thunderbird:illa, GNU Privacy Guard:illa (GPG) ja Enigmail laajennuksella.\n\nThunderbird voi valinnaisesti yhdistää Tor-verkon yli TorBirdy laajennuksella.\n\nVaikka Thunderbirdia voi käyttää pikaviesti- ja IRC-asiakasohjelmana, se ei tarjoa salausta.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/en-US/thunderbird/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
@@ -3627,7 +3608,6 @@
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
     "notes": "Asenna **NoScript** ja valitse asetus ‘Forbid scripts globally’ parantaaksesi selaimesi turvallisuuta, estämällä JavaScript pohjaiset 0-päivähaavoittuvaisuudet. Tämä repivä asetus tekee monista verkkosivuista kätyttökelvottomia sillä ne ovat merkittävissä määrin JavaScript-pohjaisia.\n\nNoScript antaa mahdollisuuden whitelistata luotetut sivut joille JavaScript sallitaan, mutta tätä pidetään [haitallisena anonymiteetille](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) jos käytät NoScript:iä **Tor Browser Bundle**:n kanssa.",
-    "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
     "tos_url": "",
@@ -5080,14 +5060,11 @@
   {
     "development_stage": "released",
     "description": "Automaattisesti poistaa evästeet ja paikalliset tiedostot, kun niitä käyttävät välilehdet selaimessa suljetaan.",
-    "license_url": "https://addons.mozilla.org/firefox/files/browse/235317/file/LICENSE",
     "logo": "self-destructing-cookies.png",
     "notes": "Toimii ainoastaan Firefoxin versiossa 24 ja sitä uudemmissa.\n\n Android-versio on saatavilla [täältä](https://addons.mozilla.org/android/addon/self-destructing-cookies/).",
     "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/firefox/files/browse/235317/",
     "name": "Self-Destructing Cookies",
     "tos_url": "",
-    "url": "https://addons.mozilla.org/firefox/addon/self-destructing-cookies/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [

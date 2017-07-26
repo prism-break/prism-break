@@ -1520,14 +1520,8 @@
     "development_stage": "released",
     "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Onion Browser.\n\nIl motore di ricerca predefinito di Firefox è Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
     "name": "Firefox for iOS",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/firefox/ios/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1545,14 +1539,8 @@
     "development_stage": "released",
     "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Orbot.\n\nIl motore di ricerca predefinito di Firefox è Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” if you don’t want Mozilla to send reported URL hashes to Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox for Android",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3426,13 +3414,9 @@
     "development_stage": "released",
     "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Tor Browser Bundle.\n\nIl motore di ricerca predefinito di Firefox è Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don’t want Mozilla to send reported URL hashes to Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/it/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
     "wikipedia_url": "https://it.wikipedia.org/wiki/Mozilla_Firefox",
     "protocols": [
       "SSL/TLS"
@@ -3471,10 +3455,8 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird non cifra le email in modo predefinito. [Qui si trova una guida](https://securityinabox.org/en/thunderbird_main) di Security In A Box per cifrare le tue email con Mozilla Thunderbird, GNU Privacy Guard (GPG) ed Enigmail.\n\nThunderbird può anche connettersi a Tor con l’addon TorBirdy.\n\nSebbene Thunderbird possa essere usato anche come client di chat e IRC, non permette la cifratura dei messaggi.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/it/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/it/thunderbird/",
     "wikipedia_url": "https://it.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
