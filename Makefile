@@ -16,7 +16,7 @@ LANGUAGES := $(notdir $(basename $(wildcard source/locales/*.json)))
 ASSETS := $(notdir $(wildcard source/assets/*))
 
 # Mark all rules that don’t actually check whether they need building
-.PHONY: default test init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync localize_%
+.PHONY: default test lint init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync localize_%
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
@@ -53,6 +53,9 @@ init: node_modules ;
 
 # Use building English language as a check to see if everything works
 test: en ;
+
+lint:
+	find source -name '*.json' | xargs -n 1 jsonlint -q
 
 # Start fresh and rebuild everything
 reset: | clean default ;

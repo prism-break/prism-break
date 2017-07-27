@@ -19,7 +19,9 @@
     "stylus": "~0.54.5",
     "uglify-js": "^2.7.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jsonlint": "^1.6.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
