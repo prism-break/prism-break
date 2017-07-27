@@ -139,7 +139,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-osx.png"
+    logo: "apple-macos.png"
     name: "Apple macOS"
     categories: [
       * "name": "macOS"
@@ -157,7 +157,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-osx.png"
+    logo: "apple-macos.png"
     name: "Apple macOS Server"
     categories: [
       * name: "Servers"
@@ -290,14 +290,14 @@ projects-rejected =
     name: "Facebook"
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Social Networks", "Video & Voice"]
+        subcategories: ["Email Accounts", "Social Networks", "Video & Voice"]
       * name: "Servers"
-        subcategories: ["Email Server", "Instant Messaging", "Social Networks", "Video & Voice"]
+        subcategories: ["Email Server", "Social Networks", "Video & Voice"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google.png"
+    logo: "google-analytics.png"
     name: "Google Analytics"
     categories: [
       * name: "Servers"
@@ -524,7 +524,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "groupwise.png"
-    name: "Novell Groupwise"
+    name: "Micro Focus Groupwise"
     categories: [
       * name: "Servers"
         subcategories: ["Email Servers", "Productivity"]
@@ -850,7 +850,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "whatsapp-android.png"
+    logo: "whatsapp.png"
     name: "WhatsApp"
     categories: [
       * name: "Android"
@@ -872,7 +872,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "yahoo-tumblr.png"
+    logo: "tumblr.png"
     name: "Tumblr"
     categories: [
       * name: "Web Services"
@@ -1177,6 +1177,25 @@ projects-rejected =
     name: "iMessage"
     categories: [
       * name: "iOS"
+        subcategories: ["Instant Messaging"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "facebook-messenger.png"
+    name: "Facebook Messenger"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
+      * name: "Servers"
         subcategories: ["Instant Messaging"]
     ]
 	
