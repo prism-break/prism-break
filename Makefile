@@ -55,7 +55,7 @@ init: node_modules ;
 test: en ;
 
 lint:
-	find source -name '*.json' | xargs -n 1 jsonlint -q
+	find source -type f -name '*.json' | xargs -n 1 jsonlint -q
 
 # Start fresh and rebuild everything
 reset: | clean default ;
