@@ -46,7 +46,7 @@ endif
 #----------------------------------------------------------------------
 
 # Explicitly set the default target to do everything that isn’t already done
-default: | init assets all public ;
+default: | init lint assets all public ;
 
 # Run anything that needs doing post-checkout to make this buildable
 init: node_modules ;
