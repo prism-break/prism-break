@@ -5672,14 +5672,14 @@
     "development_stage": "released",
     "description": "Зашифрованный и анонимный просмотр веб-страниц через сеть Tor.",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser-bundle.png",
+    "logo": "tor-browser.png",
     "notes": "Использование TBB для того, чтобы войти на вебсайты, которые содержат ваши реальные данные, бессмысленно, и это может заставить включиться защиту от мошенничества на сайте. Убедитесь, что открываете сайт через HTTPS до того, как войти на него через Tor. Вход на HTTP вебсайты может повлечь за собой захват ваших данных выходным узлом Tor.",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor Browser Bundle",
+    "name": "Tor Browser",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -5710,7 +5710,7 @@
         ]
       }
     ],
-    "slug": "tor-browser-bundle"
+    "slug": "tor-browser"
   },
   {
     "development_stage": "released",
