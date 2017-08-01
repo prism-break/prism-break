@@ -1180,4 +1180,51 @@ projects-rejected =
         subcategories: ["Instant Messaging"]
     ]
 	
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "mIRC.png"
+    name: "mIRC"
+    categories: [
+      * name: "Windows"
+        subcategories: ["IRC"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "cyberghost.png"
+    name: "CyberGhost"
+    categories: [
+      * name: "Android"
+        subcategories: ["VPN Accounts"]
+      * name: "iOS"
+        subcategories: ["VPN Accounts"]
+      * name: "macOS"
+        subcategories: ["VPN Accounts"]
+      * name: "Windows"
+        subcategories: ["VPN Accounts"]
+      * name: "GNU/Linux"
+        subcategories: ["VPN Accounts"]
+      * name: "BSD"
+        subcategories: ["VPN Accounts"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "hotspot-shield.png"
+    name: "Hotspot Shield"
+    categories: [
+      * name: "Android"
+        subcategories: ["VPN Accounts"]
+      * name: "iOS"
+        subcategories: ["VPN Accounts"]
+      * name: "macOS"
+        subcategories: ["VPN Accounts"]
+      * name: "Windows"
+        subcategories: ["VPN Accounts"]
+      * name: "GNU/Linux"
+        subcategories: ["VPN Accounts"]
+      * name: "BSD"
+        subcategories: ["VPN Accounts"]
+    ]
+
 exports.projects-rejected = projects-rejected
