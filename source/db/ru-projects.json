@@ -1520,14 +1520,8 @@
     "development_stage": "released",
     "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox не прячет ваш IP адрес от третьих лиц по умолчанию. Если вы хотите анонимизировать свой IP, используйте вместо него Onion Browser.\n\nFirefox отправляет поисковые запросы через Google по умолчанию. Подумайте о смене его на DuckDuckGo или Startpage для анонимного веб поиска.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
     "name": "Firefox for iOS",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/firefox/ios/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1545,14 +1539,8 @@
     "development_stage": "released",
     "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox не прячет ваш IP адрес от третьих лиц по умолчанию. Если вы хотите анонимизировать свой IP, используйте вместо него Orbot.\n\nFirefox отправляет поисковые запросы через Google по умолчанию. Подумайте о смене его на DuckDuckGo или Startpage для анонимного веб поиска.\n\nПодумайте о выключении функций «Блокировать сайты, подозреваемые в атаках» и «Блокировать сайты, подозреваемые в мошенничестве», расположенных в меню если вы не хотите, чтобы Mozilla отправляла хеши URL в Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox for Android",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3426,12 +3414,9 @@
     "development_stage": "released",
     "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox не прячет ваш IP адрес от третьих лиц по умолчанию. Если вы хотите анонимизировать свой IP, используйте вместо него Tor Browser Bundle.\n\nFirefox отправляет поисковые запросы через Google по умолчанию. Подумайте о смене его на DuckDuckGo или Startpage для анонимного веб поиска.\n\nПодумайте о выключении функций «Блокировать сайты, подозреваемые в атаках» и «Блокировать сайты, подозреваемые в мошенничестве», расположенных в меню Правка -> Настройки -> Безопасность (Windows & GNU/Linux) или Настройки -> Безопасность (macOS), если вы не хотите, чтобы Mozilla отправляла хеши URL в Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/ru/firefox/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Firefox",
     "protocols": [
@@ -3471,10 +3456,8 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird не шифрует вашу электронную почту по умолчанию. [Здесь находится инструкция](https://securityinabox.org/ru/thunderbird_main) от Security In A Box, описывающая как шифровать свою электронную почту с помощью Mozilla Thunderbird, GNU Privacy Guard (GPG) и Enigmail.\n\nThunderbird опционально может соединяться через Tor с дополнением TorBirdy.\n\nХотя Thunderbird и может быть использован как клиент чата, он не поддерживает шифрование сообщений.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/ru/thunderbird/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
