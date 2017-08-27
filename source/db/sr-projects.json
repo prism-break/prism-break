@@ -4158,40 +4158,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Безопасные SIP аккаунты от Guardian Project для использования с CSipSimple, Jitsi и другими SIP клиентами.",
-    "license_url": "",
-    "logo": "ostel.png",
-    "notes": "",
-    "privacy_url": "https://ostel.co/privacy",
-    "source_url": "https://github.com/guardianproject/OStel",
-    "name": "Ostel",
-    "tos_url": "",
-    "url": "https://ostel.co/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "VoIP",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "slug": "ostel"
-  },
-  {
-    "development_stage": "released",
     "description": "Password Safe (Android Port). Stores passwords, site URLs, email addresses, notes and much more into encrypted container file, so you only need to remember one master password. Can generate random passwords (with optional site-specific policies).",
     "license_url": "http://sourceforge.net/p/passwdsafe/code/ci/default/tree/LICENSE",
     "logo": "passwordsafe.png",

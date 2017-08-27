@@ -4162,40 +4162,6 @@
   },
   {
     "development_stage": "released",
-    "description": " Guardian Projectin tarjoamia, turvallisia SIP-tunnuksia ohjelmille kuten CSipSimple, Jitsi jne.",
-    "license_url": "",
-    "logo": "ostel.png",
-    "notes": "",
-    "privacy_url": "https://ostel.co/privacy",
-    "source_url": "https://github.com/guardianproject/OStel",
-    "name": "Ostel",
-    "tos_url": "",
-    "url": "https://ostel.co/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "VoIP",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "slug": "ostel"
-  },
-  {
-    "development_stage": "released",
     "description": "Password Safe (Android Porttaus). Tallentaa salasanat, verkkosivujen URLit, sähköpostiosoitteet, muistiinpanot ja paljon muuta salattuun tiedostoon, eli sinun tarvitsee muistaa ainoastaan yksi salasana. Voit luoda satunnaisia korkean entropian salasanoja ja mukauttaa ohjelmaa sopimaan eri sivujen asettamiin salasanakäytänteisiin.",
     "license_url": "http://sourceforge.net/p/passwdsafe/code/ci/default/tree/LICENSE",
     "logo": "passwordsafe.png",
