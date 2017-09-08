@@ -46,40 +46,40 @@ endif
 #----------------------------------------------------------------------
 
 # Explicitly set the default target that does the minimum possible
-default: | init assets full public ;
+default: | init assets full public
 
 # This is the kitchen-sink build that does everything
-all: | init lint assets full public ;
+all: | init lint assets full public
 
 # Run anything that needs doing post-checkout to make this buildable
-init: node_modules ;
+init: node_modules
 
 # Use building English language as a check to see if everything works
-test: lint en ;
+test: lint en
 
 lint:
 	find source -type f -name '*.json' -print -exec jsonlint -q '{}' \;
 
 # Start fresh and rebuild everything
-reset: | clean default ;
+reset: | clean default
 
 # Targets to build all the dynamically generated stuff for all languages
-full: css html ;
+full: css html
 
 # Targets for rebuilding only single language and only what isn’t already done
-$(LANGUAGES): | init assets css html_$$@ public ;
+$(LANGUAGES): | init assets css html_$$@ public
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
 #----------------------------------------------------------------------
 
-assets: $(foreach ASSET,$(ASSETS),public/assets/$(ASSET)) ;
+assets: $(foreach ASSET,$(ASSETS),public/assets/$(ASSET))
 
-css: public/assets/css/screen.css ;
+css: public/assets/css/screen.css
 
-html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE)) ;
+html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
 
-html_%: public/%/index.html ;
+html_%: public/%/index.html
 
 public: public/.htaccess ;
 
