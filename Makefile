@@ -1,9 +1,12 @@
 # make	 					build the entire site (all languages)
+# make test					run internal tests such as linting the source
+# make all 					test and build the entire site (all languages)
 # make init					just install NPM dependencies
 # make en					build just the English edition (replace 'en' with 'fr' for French, etc.)
 # make clean				destroy built files
 # make reset				destroy built files and build all languages from scratch
-# make watch_css			watches for stylus (CSS) edits and compiles it
+# make watch [...]			watch for any source changes and rebuild everything
+# make watch_css			watch for stylus changes and rebuild just CSS
 
 #----------------------------------------------------------------------
 # CONFIGURATION
