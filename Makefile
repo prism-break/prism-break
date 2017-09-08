@@ -55,7 +55,7 @@ all: | init lint assets full public ;
 init: node_modules ;
 
 # Use building English language as a check to see if everything works
-test: en ;
+test: lint en ;
 
 lint:
 	find source -type f -name '*.json' -print -exec jsonlint -q '{}' \;
