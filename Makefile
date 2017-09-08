@@ -44,11 +44,11 @@ endif
 
 # Explicitly set the default target that does the minimum possible
 .PHONY: default
-default: | init assets full public
+default: assets full public
 
 # This is the kitchen-sink build that does everything
 .PHONY: all
-all: | init lint assets full public
+all: lint assets full public
 
 # Run anything that needs doing post-checkout to make this buildable
 .PHONY: init
@@ -64,7 +64,7 @@ lint:
 
 # Start fresh and rebuild everything
 .PHONY: reset
-reset: | clean default
+reset: clean default
 
 # Targets to build all the dynamically generated stuff for all languages
 .PHONY: full
@@ -72,20 +72,20 @@ full: css html
 
 # Targets for rebuilding only single language and only what isn’t already done
 .PHONY: $(LANGUAGES)
-$(LANGUAGES): | init assets css html_$$@ public
+$(LANGUAGES): assets css html_$$@ public
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
 #----------------------------------------------------------------------
 
 .PHONY: assets
-assets: $(foreach ASSET,$(ASSETS),public/assets/$(ASSET))
+assets: init $(foreach ASSET,$(ASSETS),public/assets/$(ASSET))
 
 .PHONY: css
-css: public/assets/css/screen.css
+css: init public/assets/css/screen.css
 
 .PHONY: html
-html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
+html: init $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
 
 .PHONY: html_%
 html_%: public/%/index.html
