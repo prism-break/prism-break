@@ -16,7 +16,7 @@ LANGUAGES := $(notdir $(basename $(wildcard source/locales/*.json)))
 ASSETS := $(notdir $(wildcard source/assets/*))
 
 # Mark all rules that don’t actually check whether they need building
-.PHONY: default test lint init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync localize_%
+.PHONY: default all test lint init reset full $(LANGUAGES) assets css html html_% clean watch watch_css sync localize_%
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
@@ -45,8 +45,11 @@ endif
 # COMMANDS
 #----------------------------------------------------------------------
 
-# Explicitly set the default target to do everything that isn’t already done
-default: | init lint assets all public ;
+# Explicitly set the default target that does the minimum possible
+default: | init assets full public ;
+
+# This is the kitchen-sink build that does everything
+all: | init lint assets full public ;
 
 # Run anything that needs doing post-checkout to make this buildable
 init: node_modules ;
@@ -61,7 +64,7 @@ lint:
 reset: | clean default ;
 
 # Targets to build all the dynamically generated stuff for all languages
-all: css html ;
+full: css html ;
 
 # Targets for rebuilding only single language and only what isn’t already done
 $(LANGUAGES): | init assets css html_$$@ public ;
