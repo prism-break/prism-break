@@ -87,8 +87,9 @@ css: init public/assets/css/screen.css
 .PHONY: html
 html: init $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
 
-.PHONY: html_%
-html_%: public/%/index.html
+HTMLLANGS = $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
+.PHONY: $(HTMLLANGS)
+$(HTMLLANGS): html_%: public/%/index.html
 
 public: public/.htaccess ;
 
@@ -123,8 +124,9 @@ public/.htaccess: source/dotfiles/.htaccess
 	cp $< $@
 
 # Localizations
-.PHONY: localize_%
-localize_%:
+LOCALLANGS = $(foreach LANGUAGE,$(LANGUAGES),localize_$(LANGUAGE))
+.PHONY: $(LOCALLANGS)
+$(LOCALLANGS): localize_%:
 	lsc ./source/functions/find-missing-localizations.ls $*
 
 #----------------------------------------------------------------------
