@@ -138,7 +138,7 @@
   "instant-messaging-notes": "<p>“Off-the-Record Messaging 协议，常常缩写为 OTR，是一种强大的即时通讯加密协议。OTR 使用 AES 对称密钥算法，Diffie-Hellman 密钥交换，以及SHA-1散列函数的组合。除了身份验证和加密，OTR提供完全正向保密和延展性加密。</p><p>这个协议的主要目的是为谈话参与者提供/“不可抵赖的/”（不可伪造的）、保密的即时通讯。就好像现实中的私下密谈，或者新闻学中的/“无记录/”一样。”</p><p>— 维基百科<a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>（英文）</a></p><p>请注意<strong>Pidgin</strong>使用<a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>明文存储你的 IM 账户和密码</a>。你可以通过如下方法来避免：（1）不要在Pidgin中保存账户密码 （2）加密你的文件系统 （3）使用 Debian 软件包 <a href='https://github.com/aebrahim/pidgin-gnome-keyring'>pidgin-gnome-keyring</a> 安全地保存你的 Pidgin 密码。</p><p>启用来 OTR 和 dbus 的 Pidgin 存在本地安全漏洞，请参阅 <a href='https://developer.pidgin.im/ticket/14830'>upstream bug report</a> 获得更多信息和可能的解决方案。</p>",
   "irc-notes": "--",
   "Video and VoIP": "视频通话和 VoIP 网络电话",
-  "video-voice-notes": "<p><strong>Jitsi</strong> 是一个插入式的、加密的 skype 替代，几乎可以实现后者的所有功能。</p><p><strong>Mumble</strong> 是一个开源的语音聊天客户端，采用 Ventrilo 和 TeamSpeak 风格。</p><p><a href='http://www.webrtc.org/'>WebRTC</a> 是一个即将推出的很有前景的基于浏览器的通讯 API。",
+  "video-voice-notes": "--",
   "Social Networking": "社交网络",
   "Protocol": "协议",
   "social-networks-notes": "<p><strong><a href='https://identi.ca/'>identi.ca</a></strong>是一个在自由和开源软件社区很流行的类似推特（Twitter）的社交网络。这个这个网站本周将切换到 <strong>pump.io</strong> 软件平台。</p>",

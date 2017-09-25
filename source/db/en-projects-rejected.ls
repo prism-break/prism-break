@@ -139,7 +139,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-osx.png"
+    logo: "apple-macos.png"
     name: "Apple macOS"
     categories: [
       * "name": "macOS"
@@ -157,7 +157,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-osx.png"
+    logo: "apple-macos.png"
     name: "Apple macOS Server"
     categories: [
       * name: "Servers"
@@ -207,6 +207,25 @@ projects-rejected =
         subcategories: ["VPN Clients"]
       * name: "Windows"
         subcategories: ["VPN Clients"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "discord.png"
+    name: "Discord"
+    categories: [
+      * name: "Android"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "GNU/Linux"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Web Services"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
   * status: 'rejected'
@@ -290,14 +309,14 @@ projects-rejected =
     name: "Facebook"
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts", "Instant Messaging", "Social Networks", "Video & Voice"]
+        subcategories: ["Email Accounts", "Social Networks", "Video & Voice"]
       * name: "Servers"
-        subcategories: ["Email Server", "Instant Messaging", "Social Networks", "Video & Voice"]
+        subcategories: ["Email Server", "Social Networks", "Video & Voice"]
     ]
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google.png"
+    logo: "google-analytics.png"
     name: "Google Analytics"
     categories: [
       * name: "Servers"
@@ -524,7 +543,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "groupwise.png"
-    name: "Novell Groupwise"
+    name: "Micro Focus Groupwise"
     categories: [
       * name: "Servers"
         subcategories: ["Email Servers", "Productivity"]
@@ -850,7 +869,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "whatsapp-android.png"
+    logo: "whatsapp.png"
     name: "WhatsApp"
     categories: [
       * name: "Android"
@@ -872,7 +891,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "yahoo-tumblr.png"
+    logo: "tumblr.png"
     name: "Tumblr"
     categories: [
       * name: "Web Services"
@@ -1179,5 +1198,71 @@ projects-rejected =
       * name: "iOS"
         subcategories: ["Instant Messaging"]
     ]
+
+  * status: 'rejected'
+    tags: ["Proprietary", "PRISM"]
+    logo: "facebook-messenger.png"
+    name: "Facebook Messenger"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
+      * name: "Servers"
+        subcategories: ["Instant Messaging"]
+    ]
 	
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "mIRC.png"
+    name: "mIRC"
+    categories: [
+      * name: "Windows"
+        subcategories: ["IRC"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "cyberghost.png"
+    name: "CyberGhost"
+    categories: [
+      * name: "Android"
+        subcategories: ["VPN Accounts"]
+      * name: "iOS"
+        subcategories: ["VPN Accounts"]
+      * name: "macOS"
+        subcategories: ["VPN Accounts"]
+      * name: "Windows"
+        subcategories: ["VPN Accounts"]
+      * name: "GNU/Linux"
+        subcategories: ["VPN Accounts"]
+      * name: "BSD"
+        subcategories: ["VPN Accounts"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "hotspot-shield.png"
+    name: "Hotspot Shield"
+    categories: [
+      * name: "Android"
+        subcategories: ["VPN Accounts"]
+      * name: "iOS"
+        subcategories: ["VPN Accounts"]
+      * name: "macOS"
+        subcategories: ["VPN Accounts"]
+      * name: "Windows"
+        subcategories: ["VPN Accounts"]
+      * name: "GNU/Linux"
+        subcategories: ["VPN Accounts"]
+      * name: "BSD"
+        subcategories: ["VPN Accounts"]
+    ]
+
 exports.projects-rejected = projects-rejected

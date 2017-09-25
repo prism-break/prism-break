@@ -1160,7 +1160,6 @@
     "development_stage": "released",
     "description": "GNU/Linux 平台下的可移植的企业级加密文件存储系统。",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
-    "logo": "geli.png",
     "notes": "",
     "privacy_url": "",
     "source_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/",
@@ -1619,14 +1618,8 @@
     "development_stage": "released",
     "description": "开源的 Web 浏览器，扩展丰富。",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "默认情况下 Firefox Mobile 并不会对第三方隐藏你的IP地址，如果你想要隐藏 IP，建议使用 Onion Browser。\n\n火狐默认情况下使用 Google 作为搜索引擎，建议改成 DuckDuckGo 或者 Startpage 以提升匿名性。",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
     "name": "Firefox Mobile",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/firefox/ios/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1644,14 +1637,8 @@
     "development_stage": "released",
     "description": "开源的 Web 浏览器，扩展丰富。",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "默认情况下 Firefox Mobile 并不会对第三方隐藏你的 IP 地址，如果你想要隐藏 IP，建议使用 Orbot。\n\n火狐默认情况下使用 Google 作为搜索引擎，建议改成 DuckDuckGo 或者 Startpage 以提升匿名性。\n\n建议取消选中\"Block reported attack sites\"和\"Block reported web forgeries\"选项，以避免火狐向 Google 发送网址的哈希值。",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox Mobile",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3525,14 +3512,9 @@
     "development_stage": "released",
     "description": "开源的 Web 浏览器，扩展丰富。",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "默认情况下火狐并不会对第三方隐藏你的 IP 地址，如果你想要隐藏 IP，建议使用 Tor Browser Bundle。\n\n火狐默认情况下使用 Google 作为搜索引擎，建议改成 DuckDuckGo 或者 Startpage 以提升匿名性。\n\n建议在工具-选项-安全（或 偏好设置-隐私）中取消选中\"Block reported attack sites\"和\"Block reported web forgeries\"选项，以避免火狐向 Google 发送网址的哈希值。",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3570,10 +3552,8 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "默认情况下雷鸟不会加密你的电子邮件。Security In A Box 提供了[一份指南](https://securityinabox.org/en/thunderbird_main)来指导你用雷鸟、GNU 隐私卫士（GNU Privacy Guard, GPG）和 Enigmail 插件来加密自己的电子邮件。\n\n经过设置，雷鸟可以在 TorBirdy 插件下连接 Tor 网络。\n\n尽管雷鸟可以作为通讯和 IRC 的客户端，但它并不提供对这些通讯内容的加密。",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/en-US/thunderbird/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
@@ -3582,8 +3562,7 @@
       "RSS",
       "S/MIME",
       "SSL/TLS",
-      "Tor",
-      "XMPP"
+      "Tor"
     ],
     "categories": [
       {
@@ -3726,7 +3705,6 @@
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
     "notes": "安装**NoScript**并启用 ‘全局禁用脚本’ 以提高你浏览器的安全性。这主要可以避免 JavaScript 的零日漏洞攻击。这是一个激进的做法，因为很多网站会因此无法使用，因为它们非常依赖 JavaScript。\n\nNoScript 提供了一个白名单功能，你可以在你信任的网站上选择性地启用 JavaScript，但如果你在**Tor Browser Bundle**（Tor 浏览器）上也这么做，这会被认为是[对你的匿名性非常有害](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled)的。",
-    "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
     "tos_url": "",
@@ -4280,40 +4258,6 @@
       }
     ],
     "slug": "osmand"
-  },
-  {
-    "development_stage": "released",
-    "description": "卫士项目（Guardian Project）提供的安全的SIP账户，可以用于 CSipSimple，Jitsi 等。",
-    "license_url": "",
-    "logo": "ostel.png",
-    "notes": "",
-    "privacy_url": "https://ostel.co/privacy",
-    "source_url": "https://github.com/guardianproject/OStel",
-    "name": "Ostel",
-    "tos_url": "",
-    "url": "https://ostel.co/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "VoIP",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "slug": "ostel"
   },
   {
     "development_stage": "released",
@@ -5105,14 +5049,11 @@
   {
     "development_stage": "released",
     "description": "自动删除那些不再被使用的 cookies 和 local storage。",
-    "license_url": "https://addons.mozilla.org/firefox/files/browse/235317/file/LICENSE",
     "logo": "self-destructing-cookies.png",
     "notes": "只能在版本高于 24 的 Firefox 上使用\n\n 在[这里](https://addons.mozilla.org/android/addon/self-destructing-cookies/)可以找到安卓版。",
     "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/firefox/files/browse/235317/",
     "name": "Self-Destructing Cookies",
     "tos_url": "",
-    "url": "https://addons.mozilla.org/firefox/addon/self-destructing-cookies/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
@@ -5697,14 +5638,14 @@
     "development_stage": "released",
     "description": "通过Tor网络，以加密、匿名的方式浏览。",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser-bundle.png",
+    "logo": "tor-browser.png",
     "notes": "使用 Tor 浏览器（TBB）登录包含你真实信息的 ID 只会适得其反，还会触发网站的欺诈保护机制。在登录网站之前，你还需要检查是否是 HTTPS，因为通过 HTTP 登录可能导致您的信息被恶意 Tor 出口节点捕获。",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor Browser Bundle",
+    "name": "Tor Browser",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -5735,7 +5676,7 @@
         ]
       }
     ],
-    "slug": "tor-browser-bundle"
+    "slug": "tor-browser"
   },
   {
     "development_stage": "released",

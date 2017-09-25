@@ -1135,7 +1135,6 @@
     "development_stage": "released",
     "description": "Stacked filesystem per GNU/Linux in ambito enterprise, criptato e conforme agli standard POSIX.",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
-    "logo": "geli.png",
     "notes": "",
     "privacy_url": "",
     "source_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/",
@@ -1520,14 +1519,8 @@
     "development_stage": "released",
     "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Onion Browser.\n\nIl motore di ricerca predefinito di Firefox è Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
     "name": "Firefox for iOS",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/firefox/ios/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1545,14 +1538,8 @@
     "development_stage": "released",
     "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Orbot.\n\nIl motore di ricerca predefinito di Firefox è Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” if you don’t want Mozilla to send reported URL hashes to Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox for Android",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3426,13 +3413,9 @@
     "development_stage": "released",
     "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Tor Browser Bundle.\n\nIl motore di ricerca predefinito di Firefox è Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don’t want Mozilla to send reported URL hashes to Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/it/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
     "wikipedia_url": "https://it.wikipedia.org/wiki/Mozilla_Firefox",
     "protocols": [
       "SSL/TLS"
@@ -3471,10 +3454,8 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird non cifra le email in modo predefinito. [Qui si trova una guida](https://securityinabox.org/en/thunderbird_main) di Security In A Box per cifrare le tue email con Mozilla Thunderbird, GNU Privacy Guard (GPG) ed Enigmail.\n\nThunderbird può anche connettersi a Tor con l’addon TorBirdy.\n\nSebbene Thunderbird possa essere usato anche come client di chat e IRC, non permette la cifratura dei messaggi.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/it/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/it/thunderbird/",
     "wikipedia_url": "https://it.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
@@ -3483,8 +3464,7 @@
       "RSS",
       "S/MIME",
       "SSL/TLS",
-      "Tor",
-      "XMPP"
+      "Tor"
     ],
     "categories": [
       {
@@ -4181,40 +4161,6 @@
       }
     ],
     "slug": "osmand"
-  },
-  {
-    "development_stage": "released",
-    "description": "Account SIP sicuri del Guardian Project da usare con CSipSimple, Jitsi e altri.",
-    "license_url": "",
-    "logo": "ostel.png",
-    "notes": "",
-    "privacy_url": "https://ostel.co/privacy",
-    "source_url": "https://github.com/guardianproject/OStel",
-    "name": "Ostel",
-    "tos_url": "",
-    "url": "https://ostel.co/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "VoIP",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "slug": "ostel"
   },
   {
     "development_stage": "released",
@@ -5672,14 +5618,14 @@
     "development_stage": "released",
     "description": "Navigazione anonima e criptata grazie alla rete Tor.",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser-bundle.png",
+    "logo": "tor-browser.png",
     "notes": "Usare TBB per accedere a siti che contengono la tua vera identitè è controproducente e può far saltare la protezione contro le frodi del sito. Accertati di una connessione HTTPS prima di accedere ad un sito con Tor.\n\nAccedere ai siti in HTTP può portare alla rilevazione della tua identitè da un nodo di uscita di Tor.",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor Browser Bundle",
+    "name": "Tor Browser",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -5710,7 +5656,7 @@
         ]
       }
     ],
-    "slug": "tor-browser-bundle"
+    "slug": "tor-browser"
   },
   {
     "development_stage": "released",

@@ -1135,7 +1135,6 @@
     "development_stage": "released",
     "description": "POSIX-совместимая промышленная стековая криптографическая файловая система для GNU/Linux.",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
-    "logo": "geli.png",
     "notes": "",
     "privacy_url": "",
     "source_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/",
@@ -1520,14 +1519,8 @@
     "development_stage": "released",
     "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox не прячет ваш IP адрес от третьих лиц по умолчанию. Если вы хотите анонимизировать свой IP, используйте вместо него Onion Browser.\n\nFirefox отправляет поисковые запросы через Google по умолчанию. Подумайте о смене его на DuckDuckGo или Startpage для анонимного веб поиска.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "https://github.com/mozilla-mobile/firefox-ios",
     "name": "Firefox for iOS",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://www.mozilla.org/firefox/ios/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_iOS",
     "protocols": [
       "SSL/TLS"
     ],
@@ -1545,14 +1538,8 @@
     "development_stage": "released",
     "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox не прячет ваш IP адрес от третьих лиц по умолчанию. Если вы хотите анонимизировать свой IP, используйте вместо него Orbot.\n\nFirefox отправляет поисковые запросы через Google по умолчанию. Подумайте о смене его на DuckDuckGo или Startpage для анонимного веб поиска.\n\nПодумайте о выключении функций «Блокировать сайты, подозреваемые в атаках» и «Блокировать сайты, подозреваемые в мошенничестве», расположенных в меню если вы не хотите, чтобы Mozilla отправляла хеши URL в Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "source_url": "http://hg.mozilla.org/mobile-browser/",
     "name": "Firefox for Android",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/repository/browse/?fdid=org.mozilla.firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_for_mobile",
     "protocols": [
       "SSL/TLS"
     ],
@@ -3426,12 +3413,9 @@
     "development_stage": "released",
     "description": "Быстрый, гибкий и безопасный браузер с огромным выбором дополнений.",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
     "notes": "Firefox не прячет ваш IP адрес от третьих лиц по умолчанию. Если вы хотите анонимизировать свой IP, используйте вместо него Tor Browser Bundle.\n\nFirefox отправляет поисковые запросы через Google по умолчанию. Подумайте о смене его на DuckDuckGo или Startpage для анонимного веб поиска.\n\nПодумайте о выключении функций «Блокировать сайты, подозреваемые в атаках» и «Блокировать сайты, подозреваемые в мошенничестве», расположенных в меню Правка -> Настройки -> Безопасность (Windows & GNU/Linux) или Настройки -> Безопасность (macOS), если вы не хотите, чтобы Mozilla отправляла хеши URL в Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/ru/firefox/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Firefox",
     "protocols": [
@@ -3471,10 +3455,8 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
     "notes": "Thunderbird не шифрует вашу электронную почту по умолчанию. [Здесь находится инструкция](https://securityinabox.org/ru/thunderbird_main) от Security In A Box, описывающая как шифровать свою электронную почту с помощью Mozilla Thunderbird, GNU Privacy Guard (GPG) и Enigmail.\n\nThunderbird опционально может соединяться через Tor с дополнением TorBirdy.\n\nХотя Thunderbird и может быть использован как клиент чата, он не поддерживает шифрование сообщений.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/ru/thunderbird/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
@@ -3483,8 +3465,7 @@
       "RSS",
       "S/MIME",
       "SSL/TLS",
-      "Tor",
-      "XMPP"
+      "Tor"
     ],
     "categories": [
       {
@@ -4181,40 +4162,6 @@
       }
     ],
     "slug": "osmand"
-  },
-  {
-    "development_stage": "released",
-    "description": "Безопасные SIP аккаунты от Guardian Project для использования с CSipSimple, Jitsi и другими SIP клиентами.",
-    "license_url": "",
-    "logo": "ostel.png",
-    "notes": "",
-    "privacy_url": "https://ostel.co/privacy",
-    "source_url": "https://github.com/guardianproject/OStel",
-    "name": "Ostel",
-    "tos_url": "",
-    "url": "https://ostel.co/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "VoIP",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "slug": "ostel"
   },
   {
     "development_stage": "released",
@@ -5672,14 +5619,14 @@
     "development_stage": "released",
     "description": "Зашифрованный и анонимный просмотр веб-страниц через сеть Tor.",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser-bundle.png",
+    "logo": "tor-browser.png",
     "notes": "Использование TBB для того, чтобы войти на вебсайты, которые содержат ваши реальные данные, бессмысленно, и это может заставить включиться защиту от мошенничества на сайте. Убедитесь, что открываете сайт через HTTPS до того, как войти на него через Tor. Вход на HTTP вебсайты может повлечь за собой захват ваших данных выходным узлом Tor.",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor Browser Bundle",
+    "name": "Tor Browser",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -5710,7 +5657,7 @@
         ]
       }
     ],
-    "slug": "tor-browser-bundle"
+    "slug": "tor-browser"
   },
   {
     "development_stage": "released",
