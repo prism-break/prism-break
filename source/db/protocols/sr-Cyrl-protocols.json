@@ -18,6 +18,15 @@
     }]
   },
   {
+    "name": "Matrix",
+    "full_name": "Matrix",
+    "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
     "name": "SIP",
     "full_name": "Session Initiation Protocol",
     "description": "The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.",
@@ -72,6 +81,15 @@
     }]
   },
   {
+    "name": "OMEMO",
+    "full_name": "OMEMO Multi-End Message and Object Encryption",
+    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
     "name": "S/MIME",
     "full_name": "Secure/Multipurpose Internet Mail Extensions",
     "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME was originally developed by RSA Data Security Inc. S/MIME functionality is built into the majority of modern email software and interoperates between them.",
@@ -110,7 +128,7 @@
   {
     "name": "Tor",
     "full_name": "The Onion Router",
-    "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
     "categories": [{
       "name": "Anonymity"
@@ -119,7 +137,7 @@
   {
     "name": "RSS",
     "full_name": "Rich Site Summary",
-    "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called \"feed\", \"web feed\", or \"channel\") includes full or summarized text, and metadata, like publishing date and author's name.",
+    "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called “feed”, “web feed”, or “channel”) includes full or summarized text, and metadata, like publishing date and author's name.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/RSS",
     "categories": [{
       "name": "Syndication"

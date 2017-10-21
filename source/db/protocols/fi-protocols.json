@@ -18,6 +18,15 @@
     }]
   },
   {
+    "name": "Matrix",
+    "full_name": "Matrix",
+    "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
     "name": "SIP",
     "full_name": "Session Initiation Protocol",
     "description": "The Session Initiation Protocol (SIP) on viestintäprotokolla jota käytetään IP-puhelinyteyksien luontiin Internetissä.",
@@ -67,6 +76,15 @@
     "full_name": "Off-the-Record Messaging",
     "description": "Off-the-Record viestintä (lyh. OTR) on kryptografinen protokolla, joka tarjoaa vahvan salauksen pikaviestinnälle. OTR käyttää symmetristä AES-salausta, Diffie-Hellman avaintenvaihto-protokollaa ja SHA-1 tiivistefunktiota. Lisäyksenä autentikoinnille ja salaukselle, OTR tarjoaa perfect-forward secrecy:n, eli asiakaslaitteet tallentavat salausavaimen sijaan ainoastaan uuden salausavainparin luonnin aikana henkilön tunnistavan digitaalisen allekirjoitusavaimen: OTR-keskustelun päättyessä salausavain tuhoutuu eikä vanhoja kryptogrammeja pysty enää purkamaan. Lisäksi keskustelun viestiautentikointiavaimet julkaistaan keskustelun päättyessä, eli hyökkääjä voi jälkikäteen halutessaan väärentää keskustelun sisällön. Keskustelun aidoksi todistaminen ei ole jälkikäteen mahdollista.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
+    "name": "OMEMO",
+    "full_name": "OMEMO Multi-End Message and Object Encryption",
+    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO",
     "categories": [{
       "name": "Encryption"
     }]

@@ -2,8 +2,8 @@
   {
     "name": "DNS",
     "full_name": "Domain Name System",
-    "description": "The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates easily memorized domain names to the numerical IP addresses needed for the purpose of locating computer services and devices worldwide. The Domain Name System is an essential component of the functionality of the Internet.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Domain_Name_System",
+    "description": "O Domain Name System (DNS) é um sistema de gerenciamento de nomes hierárquico e distribuído para computadores, serviços ou qualquer recurso conectado à Internet ou em uma rede privada. Ele baseia-se em nomes hierárquicos e permite a inscrição de vários dados digitados além do nome do host e seu IP. O DNS é conhecido por traduzir nomes de domínio em endereços IP numéricos necessários para localizar computadores e dispositivos. O DNS é um componente essencial paa o funcionamento da Internet.",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Domain_Name_System",
     "categories": [{
       "name": "Communication"
     }]
@@ -11,8 +11,17 @@
   {
     "name": "IRC",
     "full_name": "Internet Relay Chat",
-    "description": "Internet Relay Chat (IRC) is a protocol for live interactive Internet text messaging (chat) or synchronous conferencing. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Internet_Relay_Chat",
+    "description": "Internet Relay Chat (IRC) é um protocolo de comunicação utilizado na Internet. Ele é utilizado basicamente como bate-papo (chat) e troca de arquivos, permitindo a conversa em grupo ou privada.",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Internet_Relay_Chat",
+    "categories": [{
+      "name": "Communication"
+    }]
+  },
+  {
+    "name": "Matrix",
+    "full_name": "Matrix",
+    "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
     "categories": [{
       "name": "Communication"
     }]
@@ -20,8 +29,8 @@
   {
     "name": "SIP",
     "full_name": "Session Initiation Protocol",
-    "description": "The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Session_Initiation_Protocol",
+    "description": "O Protocolo de Iniciação de Sessão (Session Initiation Protocol - SIP) é um protocolo de código aberto de aplicação, que utiliza o modelo 'requisição-resposta', similar ao HTTP, para iniciar sessões de comunicação interativa entre utilizadores.",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Session_Initiation_Protocol",
     "categories": [{
       "name": "Communication"
     }]
@@ -29,8 +38,8 @@
   {
     "name": "VoIP",
     "full_name": "Voice over Internet Protocol",
-    "description": "Voice over Internet Protocol (VoIP) is a methodology and group of technologies for the delivery of voice communications and multimedia sessions over Internet Protocol (IP) networks, such as the Internet. Other terms commonly associated with VoIP are IP telephony, Internet telephony, voice over broadband (VoBB), broadband telephony, IP communications, and broadband phone service.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Voice_over_IP",
+    "description": "Voz sobre IP também chamada de VoIP (Voice over Internet Protocol) é uma metodologia e grupo de tecnologias para a entrega de comunicações de voz a entrega de comunicações de voz e sessões multimídia através de redes de Internet Protocol (IP), como a Internet. Outros termos comumente associadas com VoIP são telefonia IP, telefonia Internet, telefonia em banda larga ou voz sobre banda larga tornando a transmissão de voz mais um dos serviços suportados pela rede de dados.",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Voz_sobre_IP",
     "categories": [{
       "name": "Communication"
     }]
@@ -38,8 +47,8 @@
   {
     "name": "XMPP",
     "full_name": "Extensible Messaging and Presence Protocol",
-    "description": "Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/XMPP",
+    "description": "Extensible Messaging and Presence Protocol (XMPP) (conhecido anteriormente como Jabber ) é um protocolo aberto, extensível, baseado em XML, para sistemas de mensagens instantâneas, desenvolvido originalmente para mensagens instantâneas e informação de presença formalizado pelo IETF. Softwares com base XMPP são distribuídos em milhares de servidores através da internet, e usados por cerca de dez milhões de pessoas em todo mundo, de acordo com a XMPP Standards Foundation.",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/XMPP",
     "categories": [{
       "name": "Communication"
     }]
@@ -47,8 +56,8 @@
   {
     "name": "Tox",
     "full_name": "Tox",
-    "description": "Tox is a communications protocol behind the Tox instant messaging client. Alternative implementations of this protocol are around, such as Xot, but not widespread.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)#Protocol",
+    "description": "Tox é o protocolo de comunicação por trás do Tox instant messaging client, um software livre, multiplataforma e peer-to-peer para troca de mensagens instantâneas e vídeo-chamadas. O objetivo primário do projeto Tox é oferecer um meio de comunicação acessível e seguro à todos. Existem outras alternativas ao Tox, como o Xot, mas ainda não foram adotadas amplamente.",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Tox",
     "categories": [{
       "name": "Communication"
     }]
@@ -56,7 +65,7 @@
   {
     "name": "GPG",
     "full_name": "GNU Privacy Guard",
-    "description": "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.",
+    "description": "GNU Privacy Guard (GnuPG or GPG) é uma alternativa GPL ao aplicativo PGP de criptografia. GnuPG é compatível com a RFC 4880, o padrão da IETF para a especificação do OpenPGP.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
     "categories": [{
       "name": "Encryption"
@@ -65,8 +74,17 @@
   {
     "name": "OTR",
     "full_name": "Off-the-Record Messaging",
-    "description": "Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.",
+    "description": "O 'Off-the-Record Messaging', conhecido como OTR, é um protocolo que oferece forte criptografia para troca de mensagens instantâneas. OTR utiliza a combinação do algorítimo AES de chaves simétricas, a troca de chaves Diffie–Hellman e a função de hash SHA-1. Além de autenticação e criptografia, o OTR também oferece PFS (Perfect Forward Secrecy) e criptografia maleável.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
+    "categories": [{
+      "name": "Encryption"
+    }]
+  },
+  {
+    "name": "OMEMO",
+    "full_name": "OMEMO Multi-End Message and Object Encryption",
+    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO",
     "categories": [{
       "name": "Encryption"
     }]
@@ -110,7 +128,7 @@
   {
     "name": "Tor",
     "full_name": "The Onion Router",
-    "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
     "categories": [{
       "name": "Anonymity"
@@ -119,7 +137,7 @@
   {
     "name": "RSS",
     "full_name": "Rich Site Summary",
-    "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called \"feed\", \"web feed\", or \"channel\") includes full or summarized text, and metadata, like publishing date and author's name.",
+    "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called “feed”, “web feed”, or “channel”) includes full or summarized text, and metadata, like publishing date and author's name.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/RSS",
     "categories": [{
       "name": "Syndication"

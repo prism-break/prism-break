@@ -1,22 +1,27 @@
 {
   "name": "prism-break",
-  "version": "0.2.0",
+  "version": "0.2.5",
   "description": "A directory of free privacy-oriented software.",
   "main": "Makefile",
   "dependencies": {
-    "LiveScript": "~1.3.0",
-    "jade": "~1.7.0",
-    "mkdirp": "~0.3.x",
-    "nib": "~1.0.4",
-    "prelude-ls": "~1.1.1",
-    "require-all": "~0.0.8",
-    "stylus": "~0.49.1",
-    "uglify-js": "~2.4.15",
-    "marked": "~0.3.2",
-    "graceful-fs": "~3.0.3",
-    "moment": "~2.8.3"
+    "es7-array.prototype.includes": "^2.0.0",
+    "graceful-fs": "~4.1.4",
+    "jade": "~1.11.0",
+    "livescript": "~1.5.0",
+    "lodash.assign": "^4.2.0",
+    "lodash.isequal": "^4.4.0",
+    "marked": "~0.3.5",
+    "mkdirp": "~0.5.x",
+    "moment": "^2.17.1",
+    "nib": "~1.1.0",
+    "prelude-ls": "~1.1.2",
+    "require-all": "^2.1.0",
+    "stylus": "~0.54.5",
+    "uglify-js": "^2.7.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jsonlint": "^1.6.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -36,7 +41,7 @@
     "software"
   ],
   "author": "Peng Zhong",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/nylira/prism-break/issues"
   },

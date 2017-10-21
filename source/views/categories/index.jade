@@ -12,7 +12,7 @@ block content
 
         .bars
           - each category in platformType.categories
-            a.bar(href="./categories/#{category.slug}")
+            a.bar(href="./#{category.slug}")
               .label
                 if category.fa === 'fa-mobile'
                   i(class="fa #{category.fa} large")

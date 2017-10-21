@@ -1,54 +1,7 @@
 [
   {
     "development_stage": "released",
-    "description": "屏蔽互联网上的广告",
-    "license_url": "https://bitbucket.org/adstomper/adblockedge/src/a7aaa868e017c1cd35b400813319d2084da3d418/LICENSE?at=default",
-    "logo": "adblock-edge.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://bitbucket.org/adstomper/adblockedge/",
-    "name": "Adblock Edge",
-    "tos_url": "",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/adblock-edge/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "adblock-edge"
-  },
-  {
-    "development_stage": "released",
-    "description": "用于苹果OS X操作系统的免费聊天软件，支持多种协议。",
+    "description": "用于苹果 macOS 操作系统的免费聊天软件，支持多种协议。记得开启 OTR 加密。",
     "license_url": "https://trac.adium.im/wiki/Development",
     "logo": "adium.png",
     "notes": "",
@@ -57,7 +10,7 @@
     "name": "Adium",
     "tos_url": "",
     "url": "https://adium.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Adium",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Adium",
     "protocols": [
       "IRC",
       "OTR",
@@ -65,7 +18,7 @@
     ],
     "categories": [
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging",
           "IRC"
@@ -75,92 +28,31 @@
     "slug": "adium"
   },
   {
-    "development_stage": "released",
-    "description": "Android安卓平台上的OpenPGP加密工具。",
-    "license_url": "https://github.com/thialfihar/apg/blob/master/AndroidManifest.xml",
-    "logo": "apg.png",
-    "notes": "",
+    "development_stage": "experimental",
+    "description": "基于开源安卓项目，帮助用户检测和避开伪基站（IMSI 捕捉器）或其他无加密/弱加密基站。本项目旨在协助用户了解加密和其他一些保护机制是否处于启用状态。事物总是在发展，我们永远欢迎测试者以及热衷信息安全的开发者。不必拘束，你可以做任何你能做的贡献。我们的 [GitHub](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector)。我们的 [XDA](https://forum.xda-developers.com/showthread.php?t=1422969)。感谢你的参与！",
+    "license_url": "https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
+    "logo": "aimsicd.png",
+    "notes": "该应用具有很强的试验性功能，请阅读并充分理解我们的[免责声明](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER)",
     "privacy_url": "",
-    "source_url": "https://github.com/thialfihar/apg",
-    "name": "APG",
+    "source_url": "https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector",
+    "name": "Android IMSI-Catcher Detector (AIMSICD)",
     "tos_url": "",
-    "url": "http://www.thialfihar.org/projects/apg/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Android_Privacy_Guard",
-    "protocols": [
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "apg"
-  },
-  {
-    "development_stage": "released",
-    "description": "优雅和灵活的linux发行版。最小化原则，所有额外组件都由用户自行选配。",
-    "license_url": "https://wiki.archlinux.org/index.php/Licenses",
-    "logo": "arch-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://projects.archlinux.org/",
-    "name": "Arch Linux",
-    "tos_url": "",
-    "url": "https://www.archlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Arch_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "arch-linux"
-  },
-  {
-    "development_stage": "released",
-    "description": "ARKOS是一个基于Linux的服务器操作系统，可在小巧的Raspberry Pi硬件上运行，提供电子邮件、聊天、文件共享、虚拟主机等功能。",
-    "license_url": "https://github.com/cznweb/genesis/blob/master/LICENSE",
-    "logo": "arkos.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cznweb",
-    "name": "ArkOS",
-    "tos_url": "",
-    "url": "https://arkos.io/",
+    "url": "https://cellularprivacy.github.io/Android-IMSI-Catcher-Detector/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
       {
-        "name": "Servers",
+        "name": "Android",
         "subcategories": [
-          "Raspberry Pi",
-          "Operating Systems"
+          "Cellular"
         ]
       }
     ],
-    "slug": "arkos"
+    "slug": "aimsicd"
   },
   {
     "development_stage": "released",
-    "description": "开源的分组交换机(PBX)系统，支持VoIP/SIP通讯。另有中文化衍生品freeiris。",
+    "description": "开源的分组交换机（PBX）系统，支持 VoIP/SIP 通讯。另有中文化衍生品 freeiris。",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.png",
     "notes": "",
@@ -169,7 +61,7 @@
     "name": "Asterisk",
     "tos_url": "",
     "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Asterisk",
     "protocols": [
       "SIP",
       "VoIP"
@@ -200,7 +92,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "SIP Servers"
         ]
@@ -222,7 +114,7 @@
   },
   {
     "development_stage": "released",
-    "description": "全方位的隐私保护，提供主机、VPN、电子邮件、即时通讯等服务。 需要许可",
+    "description": "全方位的隐私保护，提供主机、VPN、电子邮件、即时通讯等服务。",
     "license_url": "",
     "logo": "autistici-inventati.png",
     "notes": "",
@@ -251,16 +143,16 @@
   },
   {
     "development_stage": "experimental",
-    "description": "基于P2P技术的，没有中央机构的匿名数字货币。也支持匿名通讯。",
+    "description": "基于 P2P 技术的，去中心化的匿名数字货币。",
     "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
     "logo": "bitcoin.png",
-    "notes": "请注意，电子加密货币与现实货币的兑换比率可能会波动得非常厉害。此外，软件错误，恶意攻击等也可能导致您的损失。请提前做好准备！",
+    "notes": "请注意，数字货币汇率可能会波动很大。此外，软件错误，恶意攻击等也可能导致你的损失。请做好准备！",
     "privacy_url": "",
     "source_url": "https://github.com/bitcoin/bitcoin",
     "name": "Bitcoin",
     "tos_url": "",
     "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E7%89%B9%E5%B8%81",
     "protocols": [],
     "categories": [
       {
@@ -288,7 +180,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Finance"
         ]
@@ -304,7 +196,7 @@
   },
   {
     "development_stage": "released",
-    "description": "IRC即时通讯网关，支持多种协议。",
+    "description": "IRC 即时通讯网关，支持多种协议。",
     "license_url": "http://code.bitlbee.org/lh/bitlbee/view/head:/COPYING",
     "logo": "bitlbee.png",
     "notes": "",
@@ -335,7 +227,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging",
           "IRC"
@@ -353,10 +245,10 @@
   },
   {
     "development_stage": "experimental",
-    "description": "比特信：加密的、去中心化的P2P交流工具，基于比特币技术。",
+    "description": "比特信：加密、去中心化的 P2P 交流工具，基于比特币技术。",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.png",
-    "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
+    "notes": "比特信是一个很有前途的 Email 的替代品，但是还没有安全专家对其进行完整的代码审计。使用时需自担风险。如果你决定使用比特信，请确保生成一个完全随机的 ID，以避免 ID 碰撞。",
     "privacy_url": "",
     "source_url": "https://github.com/Bitmessage/PyBitmessage",
     "name": "Bitmessage",
@@ -374,7 +266,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Alternatives"
         ]
@@ -407,8 +299,67 @@
     "slug": "bitmessage"
   },
   {
+    "development_stage": "experimental",
+    "description": "Bookie 是一个开源的收藏夹程序。",
+    "license_url": "https://github.com/bookieio/Bookie/blob/develop/COPYING",
+    "logo": "bookie.png",
+    "notes": "Bookie.io 主机已经于2015年7月5日<strong>关闭</strong>。但你仍然可以自行架设这个应用。在[他们的文档里](http://docs.bmark.us/en/latest/hosting.html)可以了解到更多细节。",
+    "privacy_url": "",
+    "source_url": "https://github.com/bookieio/Bookie",
+    "name": "Bookie",
+    "tos_url": "",
+    "url": "https://github.com/bookieio/Bookie",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      }
+    ],
+    "slug": "bookie"
+  },
+  {
     "development_stage": "released",
-    "description": "开源的、联合的社交网络",
+    "description": "开源的、联合的社交网络。",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
     "logo": "buddycloud.png",
     "notes": "",
@@ -435,7 +386,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Byzantium（拜占庭）是一个提供易用的网状网络的Linux发行版。支持live启动（移动设备免安装启动）",
+    "description": "Byzantium（拜占庭）是一个提供易用的网状网络的 Linux 发行版。支持 live 启动。",
     "license_url": "https://github.com/Byzantium/Byzantium/blob/master/LICENSE",
     "logo": "byzantium.png",
     "notes": "",
@@ -444,7 +395,7 @@
     "name": "Byzantium",
     "tos_url": "",
     "url": "http://project-byzantium.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Byzantium_(Linux_distribution)",
     "protocols": [],
     "categories": [
       {
@@ -460,7 +411,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -500,7 +451,7 @@
   },
   {
     "development_stage": "released",
-    "description": "企业级的计算平台，与REHL（红帽）兼容。",
+    "description": "企业级的计算平台，与 REHL（红帽）兼容。",
     "license_url": "http://mirror.centos.org/centos/6/os/x86_64/GPL",
     "logo": "centos.png",
     "notes": "",
@@ -523,27 +474,22 @@
   },
   {
     "development_stage": "released",
-    "description": "IOS和安卓平台下的加密通讯工具，OTR无记录。",
+    "description": "OMEMO or OTR encrypted IM for iOS.",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.png",
-    "notes": "The Guardian Project hosts <a href='https://guardianproject.info/howto/chatsecurely/'>a fantastic how-to guide</a> to chatting securely on Android.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://chatsecure.org/developers/",
     "name": "ChatSecure",
     "tos_url": "",
     "url": "https://chatsecure.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure",
     "protocols": [
+      "OMEMO",
       "OTR",
       "XMPP"
     ],
     "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
       {
         "name": "iOS",
         "subcategories": [
@@ -555,7 +501,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Cjdns是一种网络协议，制定了计算机之间的信息交换方式。 \"该系统只在加密效验双方身份之后才允许通信，而不是采用一个所有人都能使用的IP地址，让任意计算机都能与你连接。",
+    "description": "Cjdns 是一种网络协议，制定了计算机之间的信息交换方式。 \"该系统只在加密效验双方身份之后才允许通信，而不是采用一个所有人都能使用的 IP 地址，让任意计算机都能与你连接。",
     "license_url": "https://github.com/cjdelisle/cjdns/blob/master/LICENSE",
     "logo": "cjdns.png",
     "notes": "",
@@ -580,7 +526,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -626,7 +572,7 @@
   },
   {
     "development_stage": "released",
-    "description": "支持GPG加密的轻量级的Email桌面客户端应用",
+    "description": "快速、轻便，内建 GPG 加密的跨平台 Email 桌面客户端应用",
     "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
     "logo": "claws-mail.png",
     "notes": "",
@@ -655,7 +601,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Clients"
         ]
@@ -671,35 +617,10 @@
   },
   {
     "development_stage": "released",
-    "description": "支持DNSCrypt、DNSSec和Namecoin的DNS服务。",
-    "license_url": "",
-    "logo": "cloudns.png",
-    "notes": "",
-    "privacy_url": "https://cloudns.com.au/",
-    "source_url": "",
-    "name": "CloudNS",
-    "tos_url": "",
-    "url": "https://cloudns.com.au/",
-    "wikipedia_url": "",
-    "protocols": [
-      "DNS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "cloudns"
-  },
-  {
-    "development_stage": "released",
     "description": "使用手机、电脑和无线路由器等设备，独立地搭建起分布式网络！",
     "license_url": "https://github.com/opentechinstitute/commotion-openwrt/blob/master/LICENSE",
     "logo": "commotion.png",
-    "notes": "Please read [Commotion's Warning Label](https://commotionwireless.net/understanding-commotions-warning-label).",
+    "notes": "请先阅读 [Commotion 的警告](https://commotionwireless.net/understanding-commotions-warning-label).",
     "privacy_url": "https://commotionwireless.net/about/license-privacy",
     "source_url": "https://github.com/opentechinstitute",
     "name": "Commotion",
@@ -727,7 +648,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -761,7 +682,36 @@
   },
   {
     "development_stage": "released",
-    "description": "一个私家云服务，个人自己搭建的PaaS（平台即服务），你可以建站，任意修改或删除。",
+    "description": "Conversations 是一个开源的 XMPP/Jabber 客户端，支持 Android 4.0+。",
+    "license_url": "https://github.com/siacs/Conversations/blob/development/LICENSE",
+    "logo": "conversations.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/siacs/Conversations.git",
+    "name": "Conversations",
+    "tos_url": "",
+    "url": "https://github.com/siacs/Conversations",
+    "wikipedia_url": "",
+    "protocols": [
+      "XMPP",
+      "OMEMO",
+      "OTR",
+      "GPG",
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "conversations"
+  },
+  {
+    "development_stage": "released",
+    "description": "一个私家云服务，个人自己搭建的 PaaS（平台即服务），你可以建站，任意修改或删除。",
     "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
     "logo": "cozy.png",
     "notes": "",
@@ -783,7 +733,7 @@
     "slug": "cozy"
   },
   {
-    "development_stage": "released",
+    "development_stage": "experimental",
     "description": "在浏览器中进行私密的加密通讯。",
     "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.txt",
     "logo": "cryptocat.png",
@@ -795,27 +745,18 @@
     "url": "https://crypto.cat/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat",
     "protocols": [
-      "OTR"
+      "OMEMO"
     ],
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons",
-          "Instant Messaging"
-        ]
-      },
-      {
         "name": "GNU/Linux",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       },
@@ -828,7 +769,6 @@
       {
         "name": "Windows",
         "subcategories": [
-          "Web Browser Addons",
           "Instant Messaging"
         ]
       }
@@ -837,15 +777,15 @@
   },
   {
     "development_stage": "released",
-    "description": "LUKS是dm-crypt加密程序的一个简单易用的用户接口层。",
-    "license_url": "https://code.google.com/p/cryptsetup/source/browse/COPYING",
+    "description": "LUKS 是 dm-crypt 加密程序的一个简单易用的用户接口层。",
+    "license_url": "https://gitlab.com/cryptsetup/cryptsetup/blob/master/COPYING",
     "logo": "luks.png",
-    "notes": "Gentoo GNU/Linux 有一个[关于dm-crypt和LUKS的指南](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS). \n\n Arch GNU/Linux 有一个[关于dm-crypt和LUKS的指南](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) 对Parabola GNU/Linux也适用。\n\n dm-crypt在DragonFly BSD系统上也适用。",
+    "notes": "Gentoo GNU/Linux 有一个[关于 dm-crypt 和 LUKS 的指南](https://wiki.gentoo.org/wiki/DM-Cry. \n\n Arch GNU/Linux 有一个[关于 dm-crypt 和 LUKS 的指南](https://wiki.archlinux.org/index.php/Dm-cryptKS) 对 Parabola GNU/Linux 也适用。\n\n dm-crypt 在 DragonFly BSD 系统上也适用。",
     "privacy_url": "",
-    "source_url": "https://code.google.com/p/cryptsetup/source/browse/",
+    "source_url": "https://gitlab.com/cryptsetup/cryptsetup/tree/master",
     "name": "cryptsetup",
     "tos_url": "",
-    "url": "http://code.google.com/p/cryptsetup/",
+    "url": "https://gitlab.com/cryptsetup/cryptsetup",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt",
     "protocols": [],
     "categories": [
@@ -872,64 +812,34 @@
   },
   {
     "development_stage": "released",
-    "description": "免费、加密的IP电话，用于Android平台。",
-    "license_url": "https://code.google.com/p/csipsimple/source/browse/trunk/CSipSimple/COPYING_GPL",
-    "logo": "csipsimple.png",
+    "description": "DAVdroid 是一个开源的 CalDAV/CardDAV 同步 APP，支持 Android 4+。",
+    "license_url": "https://github.com/bitfireAT/davdroid/blob/master/COPYING",
+    "logo": "davdroid.png",
     "notes": "",
-    "privacy_url": "",
-    "source_url": "https://code.google.com/p/csipsimple/source/checkout",
-    "name": "CSipSimple",
+    "privacy_url": "https://davdroid.bitfire.at/privacy",
+    "source_url": "https://github.com/bitfireAT/davdroid",
+    "name": "DAVdroid",
     "tos_url": "",
-    "url": "https://code.google.com/p/csipsimple/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CSipSimple",
+    "url": "http://davdroid.bitfire.at/",
+    "wikipedia_url": "",
     "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "ZRTP"
+      "CalDAV",
+      "CardDAV"
     ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "File Storage & Sync",
+          "Productivity"
         ]
       }
     ],
-    "slug": "csipsimple"
+    "slug": "davdroid"
   },
   {
     "development_stage": "released",
-    "description": "Android 设备的开源固件",
-    "license_url": "https://source.android.com/source/licenses.html",
-    "logo": "cyanogenmod.png",
-    "notes": "",
-    "privacy_url": "http://www.cyanogenmod.org/docs/privacy",
-    "source_url": "https://github.com/CyanogenMod",
-    "name": "CyanogenMod",
-    "tos_url": "http://www.cyanogenmod.org/docs/terms",
-    "url": "http://www.cyanogenmod.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CyanogenMod",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      }
-    ],
-    "slug": "cyanogenmod"
-  },
-  {
-    "development_stage": "released",
-    "description": "完全免费，作风正派的 GNU/Linux 发行版",
+    "description": "流行的，作风正派的 GNU/Linux 发行版",
     "license_url": "http://www.debian.org/legal/licenses/",
     "logo": "debian.png",
     "notes": "",
@@ -948,7 +858,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -970,32 +880,50 @@
   },
   {
     "development_stage": "released",
-    "description": "免费开源的Desura distribution service客户端。",
-    "license_url": "https://github.com/lindenlab/desura-app/blob/master/LICENSE.md",
-    "logo": "desurium.png",
-    "notes": "Desurium只是一个客户端，你仍然必须依赖于闭源的 <a href='http://www.desura.com'>Desura服务</a>。",
+    "description": "保护你免受集中式的内容分发网络（CDN）的跟踪。它可以拦截到达诸如 Google Hosted Libraries 的请求，并在本地提供相应的文件。内容拦截规则会定期补充。",
+    "license_url": "https://github.com/Synzvato/decentraleyes/blob/master/LICENSE.txt",
+    "logo": "decentraleyes.png",
+    "notes": "- 不使用提供免费服务的内容分发网络以保护你的隐私。\n- 辅助正则屏蔽器，例如 uBlock Origin，Request Policy 等。\n- 即装即用；使用前绝对不需要任何配置。\n\nDecentraleyes 不是什么银弹，但它的确能防止许多网站让你发送此类请求。 最后，你还可以让 Decentraleyes 屏蔽任何缺失的 CDN 资源。",
     "privacy_url": "",
-    "source_url": "https://github.com/lindenlab/desura-app",
-    "name": "Desura",
+    "source_url": "https://github.com/Synzvato/decentraleyes",
+    "name": "Decentraleyes",
     "tos_url": "",
-    "url": "http://www.desura.com/",
+    "url": "https://decentraleyes.org",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
         "name": "GNU/Linux",
         "subcategories": [
-          "Digital Distribution"
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Web Browser Addons"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Digital Distribution"
+          "Web Browser Addons"
         ]
       }
     ],
-    "slug": "desurium"
+    "slug": "decentraleyes"
   },
   {
     "development_stage": "released",
@@ -1031,7 +959,7 @@
   {
     "development_stage": "released",
     "description": "显示出并阻止网站对你搜索和网络历史的跟踪",
-    "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown",
+    "license_url": "https://github.com/disconnectme/disconnect/blob/master/README.markdown#license",
     "logo": "disconnect.png",
     "notes": "",
     "privacy_url": "https://disconnect.me/privacy",
@@ -1055,7 +983,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -1071,12 +999,12 @@
   },
   {
     "development_stage": "released",
-    "description": "匿名VPN服务，让你隐秘访问常用搜索引擎，如Google, Bing和Yahoo.",
-    "license_url": "",
+    "description": "匿名 VPN 服务，让你隐秘访问常用搜索引擎，如 Google，Bing 和 Yahoo。",
+    "license_url": "https://github.com/disconnectme/search/blob/master/README.markdown#license",
     "logo": "disconnect-search.png",
-    "notes": "在官网的\"Get Disconnect Search\"上点击“右键”-“链接另存为”，即可下载源代码。\n\n当你下载了\"search.xpi\"之后，把后缀名改成\".zip\"，解压即可。",
+    "notes": "",
     "privacy_url": "",
-    "source_url": "https://disconnect.me/search",
+    "source_url": "https://github.com/disconnectme/search",
     "name": "Disconnect Search",
     "tos_url": "",
     "url": "https://disconnect.me/search",
@@ -1096,7 +1024,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Windows系统下高效的磁盘加密工具。",
+    "description": "Windows 系统下高效的磁盘加密工具。",
     "license_url": "https://diskcryptor.net/wiki/Main_Page",
     "logo": "diskcryptor.png",
     "notes": "",
@@ -1119,7 +1047,7 @@
   },
   {
     "development_stage": "released",
-    "description": "一个保障客户端与DNS服务器通讯安全的软件。",
+    "description": "一个保障客户端与 DNS 服务器通讯安全的软件。",
     "license_url": "https://github.com/jedisct1/dnscrypt-proxy/blob/master/COPYING",
     "logo": "dnscrypt.png",
     "notes": "",
@@ -1150,51 +1078,10 @@
   },
   {
     "development_stage": "released",
-    "description": "DragonFly BSD是一个自由授权的类UNIX操作系统，衍生自FreeBSD 4.8。开发者Matthew Dillon，在20世纪80年代后期到90年代前期曾是Amiga的开发者，1994年到2003年间参与FreeBSD的开发。2003年6月，他开始开发DragonFly BSD并在7月16号将其发布在FreeBSD的邮寄清单上。",
-    "license_url": "https://www.dragonflybsd.org/docs/developer/DragonFly_BSD_License/",
-    "logo": "dragonfly-bsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=summary",
-    "name": "DragonFly BSD",
-    "tos_url": "",
-    "url": "https://www.dragonflybsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DragonFly_BSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "dragonfly-bsd"
-  },
-  {
-    "development_stage": "released",
-    "description": "匿名、无记录的web搜索",
+    "description": "匿名、无记录的 Web 搜索",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.png",
-    "notes": "DuckDuckGo是一个“软件即服务”(SaaS)平台，它可以让你匿名地对[这些来源](https://dukgo.com/help/en_US/results/sources)进行搜索。 DDG开源组件可以在[这里](https://github.com/duckduckgo)得到。\n\n 对于Tor用户，同样有一个DuckDuckGo匿名服务器，地址是[3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) 。",
+    "notes": "DuckDuckGo 是一个“软件即服务”（SaaS）平台，它可以让你匿名地对[这些来源](https://dukgo.com/help/en_US/results/sources)进行搜索。 DDG 开源组件可以在[这里](https://github.com/duckduckgo)得到。\n\n 对于 Tor 用户，同样有一个 DuckDuckGo 匿名服务器，地址是 [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) 。",
     "privacy_url": "https://duckduckgo.com/privacy",
     "source_url": "https://github.com/duckduckgo/duckduckgo",
     "name": "DuckDuckGo",
@@ -1217,7 +1104,7 @@
   },
   {
     "development_stage": "released",
-    "description": "免费的私密在线日程表，还有隐私增强版。",
+    "description": "免费的私密在线表单（提供日程表、投票等功能），还有隐私增强版。",
     "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
     "logo": "dudle.png",
     "notes": "",
@@ -1246,7 +1133,7 @@
   },
   {
     "development_stage": "released",
-    "description": "私密的XMPP服务，运行在DuckDuckGo社区平台。&mdash;包含使用说明。",
+    "description": "私密的 XMPP 服务，运行在 DuckDuckGo 社区平台。—包含使用说明。",
     "license_url": "",
     "logo": "duckduckgo.png",
     "notes": "",
@@ -1271,9 +1158,8 @@
   },
   {
     "development_stage": "released",
-    "description": "GNU/Linux平台下的可移植的企业级加密文件存储系统。",
+    "description": "GNU/Linux 平台下的可移植的企业级加密文件存储系统。",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
-    "logo": "geli.png",
     "notes": "",
     "privacy_url": "",
     "source_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/",
@@ -1294,7 +1180,7 @@
   },
   {
     "development_stage": "released",
-    "description": "使用Erlang/OTPXMPP编写的，支持GNU/Linux和OS X的XMPP通讯工具。",
+    "description": "使用 Erlang/OTPXMPP 编写的，支持 GNU/Linux 和 macOS 的 XMPP 通讯工具。",
     "license_url": "https://github.com/processone/ejabberd/blob/master/COPYING",
     "logo": "ejabberd.png",
     "notes": "",
@@ -1319,15 +1205,15 @@
   },
   {
     "development_stage": "released",
-    "description": "基于文件的加密工具，支持Linux, Mac OS和Windows。",
-    "license_url": "https://code.google.com/p/encfs/source/browse/trunk/COPYING",
+    "description": "基于文件的加密工具，支持 Linux，Mac OS 和 Windows。",
+    "license_url": "https://github.com/vgough/encfs/blob/master/COPYING",
     "logo": "encfs.png",
-    "notes": "Windows平台可以通过\"encfs4win\"来使用Encfs.",
+    "notes": "Windows平台可以通过“encfs4win”来使用 Encfs。",
     "privacy_url": "",
-    "source_url": "https://code.google.com/p/encfs/source/browse/#svn%2Ftrunk",
+    "source_url": "https://github.com/vgough/encfs",
     "name": "encfs",
     "tos_url": "",
-    "url": "http://www.arg0.net/encfs",
+    "url": "https://vgough.github.io/encfs/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/EncFS",
     "protocols": [],
     "categories": [
@@ -1344,7 +1230,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Disk Encryption"
         ]
@@ -1367,17 +1253,85 @@
       "author": "Taylor Hornby",
       "date": "2014-01-14",
       "development_stage": "released",
-      "description": "EncFS is probably safe as long as the adversary only gets one copy of the ciphertext and nothing more. EncFS is not safe if the adversary has the opportunity to see two or more snapshots of the ciphertext at different times. EncFS attempts to protect files from malicious modification, but there are serious problems with this feature.",
+      "description": "当对方只拿到一个密文副本时，EncFS 是安全的。但如果对方拿到了密文在两个不同时间的快照，EncFS 就不安全了。EncFS 试图避免文件被篡改，但这个功能同样也有一些严重的问题。",
       "rating": "0",
       "url": "https://defuse.ca/audits/encfs.htm"
     }
   },
   {
     "development_stage": "released",
+    "description": "即插即用的 cjdns 设备，提供分布式、端到端加密的电话与邮件服务。",
+    "license_url": "https://github.com/enigmagroup/enigmasuite/blob/master/LICENSE",
+    "logo": "enigmabox.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/enigmagroup/enigmasuite",
+    "name": "Enigmabox",
+    "tos_url": "",
+    "url": "http://enigmabox.net/en/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SIP",
+      "VoIP"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Routers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Mesh Networks"
+        ]
+      }
+    ],
+    "slug": "enigmabox"
+  },
+  {
+    "development_stage": "released",
     "description": "雷鸟（Thunderbird）和冰鼬鼠（Icedove）上的一个 OpenPGP 加密插件。",
-    "license_url": "http://sourceforge.net/p/enigmail/source/ci/master/tree/genxpi",
+    "license_url": "https://www.enigmail.net/home/license.php",
     "logo": "enigmail.png",
-    "notes": "[这里有一份Security In A Box提供的指南](https://securityinabox.org/en/thunderbird_main) ，指导你用Mozilla Thunderbird、GNU Privacy Guard (GPG)和Enigmail加密自己的邮件。 Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
+    "notes": "[这里有一份 Security In A Box 提供的指南](https://securityinabox.org/en/thunderbird_main) ，指导你用 Mozilla Thunderbird、GNU Privacy Guard （GPG）和 Enigmail 加密自己的邮件。 Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
     "privacy_url": "",
     "source_url": "https://www.enigmail.net/download/source.php",
     "name": "Enigmail",
@@ -1401,7 +1355,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption"
         ]
@@ -1420,7 +1374,7 @@
     "description": "共享编辑的电子表格服务器，也可以自行架设。",
     "license_url": "https://github.com/audreyt/ethercalc/blob/master/LICENSE.txt",
     "logo": "ethercalc.png",
-    "notes": "EtherCalc的在线服务器会使用HTTPS技术加密你传输的数据，但随便什么人只要猜到了你的URL地址就可以浏览那些内容。如果你在意私密性，建议下载源码，自己搭建一个EtherCalc平台。",
+    "notes": "EtherCalc 的在线服务器会使用 HTTPS 技术加密你传输的数据，但随便什么人只要猜到了你的 URL 地址就可以浏览那些内容。如果你在意私密性，建议下载源码，自己搭建一个 EtherCalc 平台。",
     "privacy_url": "https://ethercalc.org/privacy.png",
     "source_url": "https://github.com/audreyt/ethercalc",
     "name": "EtherCalc",
@@ -1445,11 +1399,85 @@
     "slug": "ethercalc"
   },
   {
+    "development_stage": "experimental",
+    "description": "Riot is a secure collaboration app for group chat, file transfer and voice/video conferencing built on the decentralized Matrix ecosystem, providing bridges and integrations to centralized services such as IRC, Slack, Gitter, etc",
+    "license_url": "https://github.com/vector-im/vector-web/blob/master/LICENSE",
+    "logo": "riot.png",
+    "notes": "End-to-end encryption is in beta on Web as of Nov 5th 2016, with other platforms following week of Nov 14th",
+    "privacy_url": "",
+    "source_url": "https://github.com/vector-im",
+    "name": "Riot",
+    "tos_url": "",
+    "url": "https://riot.im/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
+    "protocols": [
+      "SSL/TLS",
+      "Matrix"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging",
+          "IRC",
+          "Email Alternatives",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Instant Messaging",
+          "IRC",
+          "Email Alternatives",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Instant Messaging",
+          "IRC",
+          "Email Alternatives",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging",
+          "IRC",
+          "Email Alternatives",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Instant Messaging",
+          "IRC",
+          "Email Alternatives",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging",
+          "IRC",
+          "Email Alternatives",
+          "Video & Voice"
+        ]
+      }
+    ],
+    "slug": "riot"
+  },
+  {
     "development_stage": "released",
-    "description": "Riseup运营的共享编辑平台，也可以自行架设。",
+    "description": "Riseup 运营的共享编辑平台，也可以自行架设。",
     "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
     "logo": "etherpad.png",
-    "notes": "etherpad项目包含一个[提供共享编辑服务的网站清单](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite)。请选择支持SSL加密链接的站点，并且，在你把数据交给他们之前，最好查一下网站的背景。",
+    "notes": "etherpad项目包含一个[提供共享编辑服务的网站清单](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite)。请选择支持 SSL 加密链接的站点，并且，在你把数据交给他们之前，最好查一下网站的背景。",
     "privacy_url": "",
     "source_url": "https://github.com/ether/etherpad-lite",
     "name": "Etherpad",
@@ -1477,7 +1505,7 @@
   },
   {
     "development_stage": "released",
-    "description": "支持GPG的免费邮件和日历应用",
+    "description": "支持 GPG 加密的 GNOME 桌面程序，包括 Email、通讯录、日历等。",
     "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
     "logo": "evolution.png",
     "notes": "",
@@ -1507,7 +1535,7 @@
   },
   {
     "development_stage": "released",
-    "description": "几乎有43%的邮件服务器使用它。它也是Debian GNU/Linux上的默认配置。",
+    "description": "几乎有 43% 的邮件服务器使用它。它也是 Debian GNU/Linux 上的默认配置。",
     "license_url": "https://github.com/Exim/exim/blob/master/src/LICENCE",
     "logo": "exim.png",
     "notes": "",
@@ -1530,7 +1558,7 @@
   },
   {
     "development_stage": "released",
-    "description": "自由开源的Android应用商店",
+    "description": "自由开源的 Android 应用商店",
     "license_url": "https://gitorious.org/f-droid/fdroidserver/source/COPYING/",
     "logo": "f-droid.png",
     "notes": "",
@@ -1572,7 +1600,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -1588,36 +1616,45 @@
   },
   {
     "development_stage": "released",
-    "description": "Firefox OS是免费的开源操作系统，支持安卓智能手机和笔记本电脑。",
-    "license_url": "https://www.mozilla.org/en-US/foundation/licensing/",
-    "logo": "mozilla-firefox.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/mozilla-b2g",
-    "name": "Firefox OS",
-    "tos_url": "",
-    "url": "https://www.mozilla.org/en-US/firefox/os/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox_OS",
-    "protocols": [],
+    "description": "开源的 Web 浏览器，扩展丰富。",
+    "license_url": "https://www.mozilla.org/MPL/",
+    "notes": "默认情况下 Firefox Mobile 并不会对第三方隐藏你的IP地址，如果你想要隐藏 IP，建议使用 Onion Browser。\n\n火狐默认情况下使用 Google 作为搜索引擎，建议改成 DuckDuckGo 或者 Startpage 以提升匿名性。",
+    "name": "Firefox Mobile",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      }
+    ],
+    "slug": "firefox-ios"
+  },
+  {
+    "development_stage": "released",
+    "description": "开源的 Web 浏览器，扩展丰富。",
+    "license_url": "https://www.mozilla.org/MPL/",
+    "notes": "默认情况下 Firefox Mobile 并不会对第三方隐藏你的 IP 地址，如果你想要隐藏 IP，建议使用 Orbot。\n\n火狐默认情况下使用 Google 作为搜索引擎，建议改成 DuckDuckGo 或者 Startpage 以提升匿名性。\n\n建议取消选中\"Block reported attack sites\"和\"Block reported web forgeries\"选项，以避免火狐向 Google 发送网址的哈希值。",
+    "name": "Firefox Mobile",
+    "protocols": [
+      "SSL/TLS"
+    ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Operating Systems (Mobile)"
+          "Web Browsers"
         ]
       }
     ],
-    "slug": "firefox-os"
+    "slug": "firefox-mobile"
   },
   {
     "development_stage": "released",
-    "description": "免费的基于BSD的开源系统。",
+    "description": "免费的基于 BSD 的开源系统。",
     "license_url": "https://www.freebsd.org/copyright/freebsd-license.html",
     "logo": "freebsd.png",
     "notes": "",
@@ -1636,7 +1673,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -1658,7 +1695,7 @@
   },
   {
     "development_stage": "released",
-    "description": "FreedomBox是一套加密通信系统，由软件和硬件组成。他将私密通讯结合到一个廉价的设备上，以期全世界的人们都能拥有不被监控的通讯。",
+    "description": "FreedomBox 是一套加密通信系统，由软件和硬件组成。他将私密通讯结合到一个廉价的设备上，以期全世界的人们都能拥有不被监控的通讯。",
     "license_url": "http://anonscm.debian.org/gitweb/?p=freedombox/freedom-maker.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "freedombox.png",
     "notes": "",
@@ -1686,75 +1723,7 @@
   },
   {
     "development_stage": "released",
-    "description": "即插即用的cjdns设备，提供分布式、端到端加密的电话与邮件服务。",
-    "license_url": "https://github.com/enigmagroup/enigmasuite/blob/master/LICENSE",
-    "logo": "enigmabox.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/enigmagroup/enigmasuite",
-    "name": "Enigmabox",
-    "tos_url": "",
-    "url": "http://enigmabox.net/en/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SIP",
-      "VoIP"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "Routers",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      }
-    ],
-    "slug": "enigmabox"
-  },
-  {
-    "development_stage": "released",
-    "description": "去中心化的抗审查网络",
+    "description": "去中心化的抗审查网络。",
     "license_url": "https://github.com/freenet/fred-staging/blob/next/LICENSE",
     "logo": "freenet.png",
     "notes": "",
@@ -1779,7 +1748,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks"
         ]
@@ -1801,7 +1770,36 @@
   },
   {
     "development_stage": "released",
-    "description": "跨平台的软切换软件，支持VoIP/SIP。",
+    "description": "FreeOTP 是一个使用动态密码的两步验证应用。",
+    "license_url": "https://github.com/freeotp/freeotp-android/blob/master/COPYING",
+    "logo": "freeotp.png",
+    "notes": "FreeOTP 为你的网络账号安全增加了第二层保护。它的工作原理是应用在你的手机设备上生成动态密码，登录网络账号时输入正常密码并配合使用动态密码，这使得你的账号几乎不可能被入侵。",
+    "privacy_url": "",
+    "source_url": "https://github.com/freeotp",
+    "name": "FreeOTP",
+    "tos_url": "",
+    "url": "https://freeotp.github.io/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeOTP",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Authentication"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Authentication"
+        ]
+      }
+    ],
+    "slug": "freeotp"
+  },
+  {
+    "development_stage": "released",
+    "description": "跨平台的软切换软件，支持 VoIP/SIP。",
     "license_url": "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true",
     "logo": "freeswitch.png",
     "notes": "",
@@ -1841,7 +1839,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "SIP Servers"
         ]
@@ -1886,7 +1884,7 @@
   },
   {
     "development_stage": "released",
-    "description": "尊重隐私的分布式联合社交网络",
+    "description": "分布式联合社交网络。",
     "license_url": "https://github.com/friendica/friendica/blob/master/LICENSE",
     "logo": "friendica.png",
     "notes": "",
@@ -1913,7 +1911,7 @@
   },
   {
     "development_stage": "released",
-    "description": "轻量快速的即时通讯平台，支持GNU/Linux、Windows&mdash;使用插件后可支持OTR",
+    "description": "轻量快速的即时通讯平台，支持 GNU/Linux、Windows— 使用插件后可支持 OTR。",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.png",
     "notes": "",
@@ -1925,6 +1923,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim",
     "protocols": [
       "GPG",
+      "OMEMO",
       "OTR",
       "SSL/TLS",
       "XMPP"
@@ -1953,7 +1952,7 @@
   },
   {
     "development_stage": "released",
-    "description": "FreeBSD操作系统上的加密子系统。",
+    "description": "FreeBSD 操作系统上的磁盘加密子系统。",
     "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
     "logo": "geli.png",
     "notes": "",
@@ -1976,42 +1975,7 @@
   },
   {
     "development_stage": "released",
-    "description": "发行版，关注选择性，可控性和安全。",
-    "license_url": "https://wiki.gentoo.org/wiki/License_Groups",
-    "logo": "gentoo.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.gentoo.org/main/en/where.xml",
-    "name": "Gentoo",
-    "tos_url": "",
-    "url": "https://www.gentoo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gentoo_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "gentoo"
-  },
-  {
-    "development_stage": "released",
-    "description": "在你的电脑和驱动器之间同步文件夹",
+    "description": "同步计算机上的文件夹。",
     "license_url": "https://git-annex.branchable.com/license/",
     "logo": "git-annex.png",
     "notes": "",
@@ -2038,7 +2002,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "File Storage & Sync"
         ]
@@ -2060,42 +2024,30 @@
   },
   {
     "development_stage": "released",
-    "description": "完全免费的GNU/Linux发行版，基于Debian。",
-    "license_url": "http://www.gnewsense.org/Documentation/3/AboutgNewSense/WhatIsgNewSense#Community_Guidelines",
-    "logo": "gnewsense.png",
+    "description": "可自行架设的 Git 服务器。",
+    "license_url": "https://raw.github.com/gitlabhq/gitlabhq/master/LICENSE",
+    "logo": "gitlab.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://savannah.nongnu.org/bzr/?group=gnewsense",
-    "name": "gNewSense",
+    "source_url": "https://github.com/gitlabhq/gitlabhq",
+    "name": "GitLab",
     "tos_url": "",
-    "url": "http://www.gnewsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNewSense",
+    "url": "https://about.gitlab.com/",
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Gitlab",
     "protocols": [],
     "categories": [
       {
-        "name": "GNU/Linux",
+        "name": "Servers",
         "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
+          "File Storage & Sync"
         ]
       }
     ],
-    "slug": "gnewsense"
+    "slug": "gitlab"
   },
   {
     "development_stage": "released",
-    "description": "免费的 OpenPGP 加密应用，支持大量客户端，包括Thunderbird（雷鸟）/Icedove（冰鼬鼠）。",
+    "description": "免费的 OpenPGP 加密应用，支持大量客户端，包括 Thunderbird（雷鸟）和 Icedove（冰鼬鼠）。",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master",
     "logo": "gnupg.png",
     "notes": "",
@@ -2122,7 +2074,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption"
         ]
@@ -2138,16 +2090,16 @@
   },
   {
     "development_stage": "released",
-    "description": "自行架设的去中心化社交网络",
-    "license_url": "https://gitorious.org/statusnet/gnu-social/source/5308e04e83f4a3f04e6d8bf80b177e7208dbac58:COPYING",
+    "description": "可自行架设的去中心化社交网络",
+    "license_url": "https://gitlab.com/gnu-social-statusnet/gnu-social/blob/master/COPYING",
     "logo": "gnu-social.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "http://gitorious.org/+socialites/statusnet/gnu-social",
+    "source_url": "https://git.gnu.io/gnu/gnu-social",
     "name": "GNU social",
     "tos_url": "",
-    "url": "https://www.gnu.org/software/social/",
-    "wikipedia_url": "",
+    "url": "https://gnu.io/social/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Social",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2169,7 +2121,7 @@
   },
   {
     "development_stage": "released",
-    "description": "GNUnet是一个完全自由的P2P网络。",
+    "description": "GNUnet 是一个完全自由的 P2P 网络。",
     "license_url": "https://gnunet.org/svn/gnunet/COPYING",
     "logo": "gnunet.png",
     "notes": "",
@@ -2196,7 +2148,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks"
         ]
@@ -2218,7 +2170,30 @@
   },
   {
     "development_stage": "released",
-    "description": "A port of the whole GnuPG 2.1 suite to Android.\n\nGnu Privacy Guard (GPG) gives you access to the entire GnuPG suite of encryption software. GnuPG is GNU’s tool for end-to-end secure communication and encrypted data storage. This trusted protocol is the free software alternative to PGP. GnuPG 2.1 is the new modularized version of GnuPG that now supports OpenPGP and S/MIME.",
+    "description": "可以轻松建立的你自己的用 Go 语言写的 Git 服务器。",
+    "license_url": "https://github.com/gogits/gogs/blob/master/LICENSE",
+    "logo": "gogs.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/gogits/gogs",
+    "name": "Gogs",
+    "tos_url": "",
+    "url": "http://gogs.io/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "slug": "gogs"
+  },
+  {
+    "development_stage": "released",
+    "description": "GnuPG 2.1 到安卓系统的端口。\n\nGnu隐私卫士（Gnu Privacy Guard，GPG）为你提供全功能的 GnuPG 加密服务。GnuPG 是一个 GNU 工具，提供端到端的安全通讯和数据加密。这个广受信任的协议是 PGP 的自由软件替代，GnuPG 2.1 是最新的模块化版本，支持 OpenPGP 和 S/MIME。",
     "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
     "logo": "gnupg-for-android.png",
     "notes": "",
@@ -2244,7 +2219,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Gpg4win is an installation package for Windows (XP, Vista, 7 and 8) with software tools and manuals for email and file encryption on behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.",
+    "description": "出自德国信息安全局的 Windows 下的信息和文件加密工具（支持 XP，Vista，win7 和 win8）。Gpg4win 本身和 Gpg4win 所有的工具均是自由和开源软件。该软件主要用于数据加密和数字签名的公钥加密。",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
     "logo": "gpg4win.png",
     "notes": "",
@@ -2269,7 +2244,7 @@
   },
   {
     "development_stage": "released",
-    "description": "苹果OS X Mail的OpenPGP插件。",
+    "description": "苹果 macOS Mail 的 OpenPGP 插件。",
     "license_url": "https://github.com/GPGTools/MacGPG2/blob/dev/LICENSE.txt",
     "logo": "gpgtools.png",
     "notes": "",
@@ -2284,7 +2259,7 @@
     ],
     "categories": [
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption"
         ]
@@ -2317,7 +2292,7 @@
   },
   {
     "development_stage": "released",
-    "description": "跨平台IRC客户端。",
+    "description": "跨平台 IRC 客户端。",
     "license_url": "https://github.com/hexchat/hexchat/blob/master/COPYING",
     "logo": "hexchat.png",
     "notes": "HexChat does not offer encrypted IRC by default. You need to enable the FiSHLiM plugin for IRC message encryption.",
@@ -2344,7 +2319,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "IRC"
         ]
@@ -2360,7 +2335,7 @@
   },
   {
     "development_stage": "released",
-    "description": "能为你和数千个网站间的通信加密",
+    "description": "强制使用 HTTPS，为你和数千个网站间建立加密通信",
     "license_url": "https://gitweb.torproject.org/https-everywhere.git/blob_plain/HEAD:/LICENSE.txt",
     "logo": "https-everywhere.png",
     "notes": "",
@@ -2369,7 +2344,7 @@
     "name": "HTTPS Everywhere",
     "tos_url": "",
     "url": "https://www.eff.org/https-everywhere",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2393,7 +2368,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -2409,10 +2384,10 @@
   },
   {
     "development_stage": "released",
-    "description": "隐形因特网计划，采用大蒜路由，比Tor网络更优秀。",
+    "description": "隐形因特网计划。",
     "license_url": "https://geti2p.net/en/get-involved/develop/licenses",
     "logo": "i2p.png",
-    "notes": "首先，I2P的目的主要是建立一个独立于因特网的隐蔽网络，而不是翻墙——目前他的默认出口节点只有一个，我们使用的客户端默认只是中继而非出口节点。其次，I2P的安全性和健壮性要高过Tor，并且它针对中国等敏感地区做了额外设定，默认使用隐身模式。最后，首次使用I2P需要进行网络引导。在中国，你可能需要使用VPN或其他前置代理进行这一步骤——亦或是导入其他人提供的节点数据库。积累了一些节点信息之后，I2P就可以独立稳定工作了。记得时不时运行一下，帮助网络壮大的同时，更新你的节点资料库。",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://geti2p.net/en/get-involved/guides/new-developers",
     "name": "I2P",
@@ -2423,6 +2398,12 @@
       "I2P"
     ],
     "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Anonymizing Networks"
+        ]
+      },
       {
         "name": "BSD",
         "subcategories": [
@@ -2436,7 +2417,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks"
         ]
@@ -2458,40 +2439,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Image hosting with in-browser AES-256 encryption.",
-    "license_url": "https://github.com/imgbi/img.bi/blob/master/LICENSE",
-    "logo": "imgbi.png",
-    "notes": "The img.bi service is also available on Tor: [http://imgbifwwqoixh7te.onion/](http://imgbifwwqoixh7te.onion/).\n\nAnd I2P as an [eepsite](http://imgbi.i2p/?i2paddresshelper=HlMhQ2p~WB9WiehsAa2IDfndqXTMTOeYfOIxpeQH5hSeXLxtwUhd9FsaYmXM-hq66jRREcTpBqNmbILwQsInuBnQ7PZTgLel4tdKMrKhUlxDout4eZ6uRRN6QMWX9YzDCV0cmLBWHRcZlFaBirs3RbF5neUXgdnNqgcvdanQEt5-XN05I5JrIe~Dld9vQ1Z0WSn10BcOtXDm7uxnaHqJUbhtfOgmFoGAxF~di220GpRCzDP6Eg9NRIwAGGFxH8Y7PEOmlqiUCOn5aHwxk2msqrFLzBy6aVWq-e8etrhDxckPvJby7G13QCmVCO-cOOYOObP6bk51t99t5DNxIsGEuoEaUHyVNqAf9jvMjAcqpt6Gdk8slcV528rnSXJ6Vu2gcYYnb~kmt7wtvgm46xTE0OXxdDAmbtsRu~U6oSxRROkw02Q7hdnMmiF86dTYxx-dQ6H8aPQJV1SM5cNlv3XfqBl-V0-TounGNPcj4279s4DUs7-FfhuKYJjbZj5KOlPNAAAA)",
-    "privacy_url": "https://img.bi/",
-    "source_url": "https://github.com/imgbi",
-    "name": "img.bi",
-    "tos_url": "",
-    "url": "https://img.bi/",
-    "wikipedia_url": "",
-    "protocols": [
-      "I2P",
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "imgbi"
-  },
-  {
-    "development_stage": "released",
-    "description": "高度计量和定制化的消息平台，基于MTA qmail。",
+    "description": "高度计量和定制化的消息平台，基于 MTA qmail。",
     "license_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING",
     "logo": "indimail.png",
     "notes": "",
@@ -2528,7 +2476,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mail Servers"
         ]
@@ -2550,7 +2498,7 @@
   },
   {
     "development_stage": "released",
-    "description": "自动安装并完成配置的邮件服务器。基于GNU/Linux和BSD。",
+    "description": "自动安装并完成配置的邮件服务器。基于 GNU/Linux 和 BSD。",
     "license_url": "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/README?at=default",
     "logo": "iredmail.png",
     "notes": "",
@@ -2587,7 +2535,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mail Servers"
         ]
@@ -2609,16 +2557,16 @@
   },
   {
     "development_stage": "released",
-    "description": "Ixquick是一个位于纽约和荷兰的元搜索引擎。",
+    "description": "Ixquick 是一个位于纽约和荷兰的元搜索引擎。",
     "license_url": "",
     "logo": "ixquick.png",
-    "notes": "Ixquick与Startpage来自同一家公司，提供100多个数据源的搜索结果，包括google。",
-    "privacy_url": "https://ixquick.com/eng/privacy-policy.html",
+    "notes": "Ixquick 与 Startpage 来自同一家公司。Ixquick 提供 100 多个数据源的搜索结果，但不包括 Google。",
+    "privacy_url": "https://ixquick.eu/eng/privacy-policy.html",
     "source_url": "",
     "name": "Ixquick",
     "tos_url": "",
-    "url": "https://ixquick.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
+    "url": "https://ixquick.eu/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick",
     "protocols": [
       "SSL/TLS"
     ],
@@ -2637,7 +2585,7 @@
     "description": "加密的跨平台文本、语音、视频聊天工具。",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
-    "notes": "Jitsi may [request non-secure information during encrypted chat](https://github.com/nylira/prism-break/issues/291) if you paste a link into it. \nAlso, if Jitsi is set up to use Tor, it may [leak DNS information](https://trac.jitsi.org/ticket/1060) by not using Tor for DNS resolution.\n\nLastly, note that Jitsi records chat history in unencrypted form.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/jitsi",
     "name": "Jitsi",
@@ -2659,7 +2607,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging",
           "Video & Voice"
@@ -2677,7 +2625,7 @@
   },
   {
     "development_stage": "released",
-    "description": "基于Debian的CD/USB即插即用便携系统，附带匿名浏览工具等预设。",
+    "description": "基于 Debian 的 CD/USB 即插即用便携系统，附带匿名浏览工具等预设。",
     "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
     "logo": "jondonym.png",
     "notes": "",
@@ -2708,7 +2656,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems (Live)"
         ]
@@ -2724,7 +2672,7 @@
   },
   {
     "development_stage": "released",
-    "description": "使用JonDo的IP隐匿服务和JonDoFox个人信息的火狐。",
+    "description": "使用 JonDo 的 IP 隐匿服务和 JonDoFox 个人信息的火狐。",
     "license_url": "https://anonymous-proxy-servers.net/en/help/credits.html",
     "logo": "jondonym.png",
     "notes": "",
@@ -2752,7 +2700,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browsers"
         ]
@@ -2768,15 +2716,15 @@
   },
   {
     "development_stage": "released",
-    "description": "开源的安卓邮件应用，支持加密。",
-    "license_url": "https://github.com/k9mail/k-9/blob/master/NOTICE",
+    "description": "开源的安卓邮件应用，内建支持 PGP 加密。",
+    "license_url": "https://github.com/k9mail/k-9/blob/master/LICENSE",
     "logo": "k9-mail.png",
     "notes": "",
     "privacy_url": "",
     "source_url": "https://github.com/k9mail/k-9",
     "name": "K-9 Mail",
     "tos_url": "",
-    "url": "http://code.google.com/p/k9mail/",
+    "url": "https://github.com/k9mail/k-9",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail",
     "protocols": [
       "GPG",
@@ -2795,7 +2743,7 @@
   },
   {
     "development_stage": "released",
-    "description": "开源的VoIP/SIP服务器。",
+    "description": "开源的 VoIP/SIP 服务器。",
     "license_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD",
     "logo": "kamailio.png",
     "notes": "",
@@ -2836,7 +2784,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "SIP Servers"
         ]
@@ -2858,7 +2806,71 @@
   },
   {
     "development_stage": "released",
-    "description": "Groupware solution for email, files, calendars, address books and mobile sync.",
+    "description": "KeePassDroid is an implementation of the KeePass Password Safe for Android. Read/write support for .kdb and KeePass 1.x. Read/write support for .kdbx and KeePass 2.x.",
+    "license_url": "https://github.com/bpellin/keepassdroid/blob/master/LICENSE",
+    "logo": "keepassdroid.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/bpellin/keepassdroid",
+    "name": "KeePassDroid",
+    "tos_url": "",
+    "url": "http://www.keepassdroid.com/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePass#Unofficial_KeePass_releases",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Password Managers"
+        ]
+      }
+    ],
+    "slug": "keepassdroid"
+  },
+  {
+    "development_stage": "released",
+    "description": "这个程序是为那些极其重视个人数据安全管理的人设计的，可以在一个数据库里保存用户名，密码，网址，附件和注释等各种内容。",
+    "license_url": "https://github.com/keepassx/keepassx/blob/master/COPYING",
+    "logo": "keepassx.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/keepassx/keepassx",
+    "name": "KeePassX",
+    "tos_url": "",
+    "url": "https://www.keepassx.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassX",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Password Managers"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Password Managers"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Password Managers"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Password Managers"
+        ]
+      }
+    ],
+    "slug": "keepassx"
+  },
+  {
+    "development_stage": "released",
+    "description": "电子邮件、文件、日历、地址簿和手机同步的组件解决方案。",
     "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
     "logo": "kolab.png",
     "notes": "",
@@ -2899,7 +2911,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mail Servers"
         ]
@@ -2921,7 +2933,54 @@
   },
   {
     "development_stage": "released",
-    "description": "支持GPG的 KDE 邮件客户端，有地址簿、通讯录等诸多功能。",
+    "description": "托管在瑞士的安全 kolab 账户，月费 8.99 瑞朗，纯粹的 Email 账户则收费 4.55 瑞朗每月。",
+    "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
+    "logo": "kolabnow.png",
+    "notes": "Kolab Now 托管在瑞士，受到[强大的瑞士隐私法律](https://KolabNow.com/privacy)的保护。它的运行完全使用自由软件，使用服务来支持[Kolab](https://kolab.org)的开发。\n\n此外，你可以随时导出你的所有数据，它的用户许可协议也在[ToSDR](http://tosdr.org/#mykolab-com)得到了很高的评价。\n\n该服务使用[完全正向保密（perfect forward secrecy）](https://kolabnow.com/faq?nid=189)，并且并[抹掉](https://kolabnow.com/faq?nid=190)邮件头中的身份信息。",
+    "privacy_url": "https://kolabnow.com/privacy",
+    "source_url": "http://git.kolab.org/",
+    "name": "Kolab Now",
+    "tos_url": "https://kolabnow.com/tos",
+    "url": "https://kolabnow.com/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
+    "protocols": [
+      "SSL/TLS",
+      "WebDAV",
+      "CalDAV",
+      "CardDAV",
+      "ActiveSync"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Email Accounts"
+        ]
+      }
+    ],
+    "slug": "kolabnow"
+  },
+  {
+    "development_stage": "released",
+    "description": "支持 GPG 的 KDE 桌面程序，包括邮件客户端、日历、通讯录等诸多功能。",
     "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
     "logo": "kontact.png",
     "notes": "",
@@ -2955,48 +3014,69 @@
   },
   {
     "development_stage": "released",
-    "description": "基于Hardened Gentoo设计的CD/USB即插即用便携系统，用于敌对环境下的通信辅助。",
-    "license_url": "https://github.com/mkdesu/liberte/blob/master/README.md",
-    "logo": "liberte-linux.png",
-    "notes": "Warning: The most recent Liberté Linux release is dated 2012-09-01. This means that packages may be potentially outdated and vulnerable to unpatched security bugs.",
+    "description": "Phone number based messaging client for the masses, using XMPP and OpenPGP encryption. Backed by community-driven servers.",
+    "license_url": "https://github.com/kontalk/androidclient/blob/master/COPYING",
+    "logo": "kontalk.png",
+    "notes": "",
     "privacy_url": "",
-    "source_url": "https://github.com/mkdesu/liberte",
-    "name": "Liberté Linux",
+    "source_url": "https://github.com/kontalk",
+    "name": "Kontalk",
     "tos_url": "",
-    "url": "http://dee.su/liberte",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Security-focused_operating_system#Libert.C3.A9_Linux.5B7.5D",
-    "protocols": [],
+    "url": "https://kontalk.org/",
+    "wikipedia_url": "",
+    "protocols": [
+      "XMPP",
+      "GPG",
+      "SSL/TLS"
+    ],
     "categories": [
       {
-        "name": "BSD",
+        "name": "Android",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Instant Messaging"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems (Live)"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems (Live)"
+          "Instant Messaging"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems (Live)"
+          "Instant Messaging"
         ]
       }
     ],
-    "slug": "liberte-linux"
+    "slug": "kontalk"
   },
   {
     "development_stage": "released",
-    "description": "自由的VPN客户端 (3rd generation) ，是Openswan的衍生品。",
+    "description": "一个为嵌入式设备设计的 GNU/Linux-libre 发行版。",
+    "license_url": "https://librecmc.org/librecmc/artifact/dfac199a7539a404",
+    "logo": "librecmc.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://librecmc.org/librecmc/dir?ci=5e69e4fd8b5aa721&name=trunk",
+    "name": "libreCMC",
+    "tos_url": "",
+    "url": "https://librecmc.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Routers",
+        "subcategories": [
+          "Firmware"
+        ]
+      }
+    ],
+    "slug": "librecmc"
+  },
+  {
+    "development_stage": "released",
+    "description": "自由的 VPN 客户端（第三代），是 Openswan 的衍生品。",
     "license_url": "https://github.com/libreswan/libreswan/blob/master/COPYING",
     "logo": "libreswan.png",
     "notes": "",
@@ -3005,7 +3085,7 @@
     "name": "Libreswan",
     "tos_url": "",
     "url": "https://libreswan.org/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
     "protocols": [],
     "categories": [
       {
@@ -3022,7 +3102,7 @@
     "description": "一个借助其他网络运作的自由网络。",
     "license_url": "https://github.com/fauno/librevpn/blob/master/LICENSE",
     "logo": "librevpn.png",
-    "notes": "This project is experimental, and the site is in Spanish only.",
+    "notes": "这个项目尚在试验阶段，网站仅有西班牙语版本。",
     "privacy_url": "",
     "source_url": "https://github.com/fauno/librevpn",
     "name": "LibreVPN",
@@ -3044,7 +3124,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -3078,10 +3158,10 @@
   },
   {
     "development_stage": "released",
-    "description": "加密的跨平台音视频聊天客户端",
+    "description": "加密的跨平台音视频聊天客户端。",
     "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
     "logo": "linphone.png",
-    "notes": "",
+    "notes": "加密只对语音和视频有效，即时通信的文字不会被加密。",
     "privacy_url": "",
     "source_url": "https://www.linphone.org/eng/download/git.html",
     "name": "Linphone",
@@ -3097,42 +3177,36 @@
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       }
@@ -3141,10 +3215,10 @@
   },
   {
     "development_stage": "experimental",
-    "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
+    "description": "这是点对点的数字加密货币，同时也是一个依据 MIT/X11 license 协议发布的自由软件。受到比特币（BTC）的启发并借鉴了它的技术，莱特币基于一个开源的协议被创造和转手，不受任何中央机构管理。莱特币项目致力于改进比特币，并作出了三个很关键的改变。",
     "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
     "logo": "litecoin.png",
-    "notes": "",
+    "notes": "请注意，数字货币汇率可能会波动很大。此外，软件错误，恶意攻击等也可能导致你的损失。请做好准备！",
     "privacy_url": "",
     "source_url": "https://github.com/litecoin-project/litecoin",
     "name": "Litecoin",
@@ -3178,7 +3252,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Finance"
         ]
@@ -3194,32 +3268,7 @@
   },
   {
     "development_stage": "released",
-    "description": "分布式联合社交网络",
-    "license_url": "https://github.com/lorea/Elgg/blob/master/LICENSE.txt",
-    "logo": "lorea.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/lorea",
-    "name": "Lorea",
-    "tos_url": "",
-    "url": "https://lorea.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "lorea"
-  },
-  {
-    "development_stage": "released",
-    "description": "OpenPGP 邮件加密，支持多数Email服务器。",
+    "description": "OpenPGP 邮件加密，支持多数 Email 服务器。",
     "license_url": "https://github.com/toberndo/mailvelope/blob/master/LICENSE",
     "logo": "mailvelope.png",
     "notes": "",
@@ -3248,7 +3297,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption",
           "Web Browser Addons"
@@ -3266,7 +3315,7 @@
   },
   {
     "development_stage": "released",
-    "description": "免费的可视化全球地图。",
+    "description": "自由的可视化全球地图。",
     "license_url": "https://projects.kde.org/projects/kde/kdeedu/marble/repository/revisions/master/entry/LICENSE.txt",
     "logo": "marble.png",
     "notes": "",
@@ -3285,7 +3334,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "World Maps"
         ]
@@ -3301,42 +3350,10 @@
   },
   {
     "development_stage": "released",
-    "description": "注重隐私的媒体（照片、视频和音频）发布平台，也可以自己搭建。",
-    "license_url": "https://github.com/MediaCrush/MediaCrush/blob/master/LICENSE",
-    "logo": "mediacrush.png",
-    "notes": "Warning: MediaCrush includes Google Analytics if you do not enable Do Not Track.\n\nThe hidden service is available at [http://mediacrs5ujufxog.onion/](http://mediacrs5ujufxog.onion/).",
-    "privacy_url": "https://mediacru.sh/serious",
-    "source_url": "https://github.com/MediaCrush/MediaCrush",
-    "name": "MediaCrush",
-    "tos_url": "https://mediacru.sh/serious",
-    "url": "https://mediacru.sh/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "slug": "mediacrush"
-  },
-  {
-    "development_stage": "released",
-    "description": "去中心化的媒体发布平台",
+    "description": "去中心化的媒体发布平台。",
     "license_url": "https://gitorious.org/mediagoblin/mediagoblin/source/a442823bc1d8bc4946749a036a5460ceea456a9b:COPYING",
     "logo": "mediagoblin.png",
-    "notes": "MediaGoblin does not encrypt any of your data by default.",
+    "notes": "MediaGoblin 在默认设定下不会加密你的数据。",
     "privacy_url": "",
     "source_url": "https://gitorious.org/mediagoblin/mediagoblin",
     "name": "MediaGoblin",
@@ -3358,12 +3375,12 @@
   },
   {
     "development_stage": "released",
-    "description": "灵活的搜索引擎，将你的搜索请求经过代理发送到许多搜索服务提供商。",
-    "license_url": "",
+    "description": "元搜索引擎，代理你的请求到多个搜索服务提供商。",
     "logo": "metager.png",
-    "notes": "",
-    "privacy_url": "https://www.metager.de/en/privacy.html",
-    "source_url": "",
+    "license_url": "https://gitlab.metager3.de/open-source/MetaGer/blob/development/LICENSE",
+    "source_url": "https://gitlab.metager3.de/open-source/MetaGer", 
+    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.", 
+    "privacy_url": "https://metager.de/en/datenschutz",
     "name": "MetaGer",
     "tos_url": "",
     "url": "https://metager.de/en/",
@@ -3383,7 +3400,7 @@
   },
   {
     "development_stage": "released",
-    "description": "XMPP server based on Prosody, with advanced management/microblogging features.",
+    "description": "基于 Prosody 的 XMPP 服务端，有许多高级的管理和微博客功能。",
     "license_url": "https://code.lightwitch.org/metronome/file/f9f76843539a/COPYING",
     "logo": "metronome.png",
     "notes": "",
@@ -3407,16 +3424,69 @@
     "slug": "metronome"
   },
   {
+    "development_stage": "experimental",
+    "description": "Monero is a secure, private, untraceable P2P currency.",
+    "license_url": "https://github.com/monero-project/monero/blob/master/LICENSE",
+    "logo": "monero.png",
+    "notes": "Please note that new, digital currencies may be volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
+    "privacy_url": "https://getmonero.org/legal/privacy",
+    "source_url": "https://github.com/monero-project/monero",
+    "name": "Monero",
+    "tos_url": "",
+    "url": "https://getmonero.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Monero_(cryptocurrency)",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Finance"
+        ]
+      }
+    ],
+    "slug": "monero"
+  },
+  {
     "development_stage": "released",
     "description": "私密的、去中心化的社交网络服务器",
-    "license_url": "https://bazaar.launchpad.net/~movim/movim/trunk/view/head:/COPYING",
+    "license_url": "https://github.com/edhelas/movim/blob/master/COPYING",
     "logo": "movim.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://code.launchpad.net/movim",
+    "source_url": "https://github.com/edhelas/movim",
     "name": "Movim",
     "tos_url": "",
-    "url": "http://movim.eu/",
+    "url": "https://movim.eu/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Movim",
     "protocols": [
       "SSL/TLS",
@@ -3440,26 +3510,15 @@
   },
   {
     "development_stage": "released",
-    "description": "开源的web浏览器，扩展丰富。",
+    "description": "开源的 Web 浏览器，扩展丰富。",
     "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "mozilla-firefox.png",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser Bundle instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo or Startpage for anonymous web searches.\n\nConsidering unchecking \"Block reported attack sites\" and \"Block reported web forgeries\" in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (OS X) if you don't want Mozilla to send reported URL hashes to Google.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+    "notes": "默认情况下火狐并不会对第三方隐藏你的 IP 地址，如果你想要隐藏 IP，建议使用 Tor Browser Bundle。\n\n火狐默认情况下使用 Google 作为搜索引擎，建议改成 DuckDuckGo 或者 Startpage 以提升匿名性。\n\n建议在工具-选项-安全（或 偏好设置-隐私）中取消选中\"Block reported attack sites\"和\"Block reported web forgeries\"选项，以避免火狐向 Google 发送网址的哈希值。",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Firefox",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://mozilla.org/firefox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Firefox",
     "protocols": [
       "SSL/TLS"
     ],
     "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      },
       {
         "name": "BSD",
         "subcategories": [
@@ -3473,7 +3532,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browsers"
         ]
@@ -3489,14 +3548,12 @@
   },
   {
     "development_stage": "released",
-    "description": "跨平台的开源email应用，使用Enigmail插件，你可以实现邮件加密。",
+    "description": "跨平台的开源电子邮件应用，使用 Enigmail 插件，你可以实现邮件加密。",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.png",
-    "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/thunderbird_main) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+    "notes": "默认情况下雷鸟不会加密你的电子邮件。Security In A Box 提供了[一份指南](https://securityinabox.org/en/thunderbird_main)来指导你用雷鸟、GNU 隐私卫士（GNU Privacy Guard, GPG）和 Enigmail 插件来加密自己的电子邮件。\n\n经过设置，雷鸟可以在 TorBirdy 插件下连接 Tor 网络。\n\n尽管雷鸟可以作为通讯和 IRC 的客户端，但它并不提供对这些通讯内容的加密。",
     "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
     "name": "Mozilla Thunderbird",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/en-US/thunderbird/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
     "protocols": [
@@ -3505,8 +3562,7 @@
       "RSS",
       "S/MIME",
       "SSL/TLS",
-      "Tor",
-      "XMPP"
+      "Tor"
     ],
     "categories": [
       {
@@ -3526,7 +3582,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Clients",
           "Instant Messaging",
@@ -3547,14 +3603,14 @@
   {
     "development_stage": "released",
     "description": "加密的低延迟的语音聊天",
-    "license_url": "http://mumble.sourceforge.net/License",
+    "license_url": "https://github.com/mumble-voip/mumble/blob/master/LICENSE",
     "logo": "mumble.png",
     "notes": "",
-    "privacy_url": "http://mumble.sourceforge.net/Mumble:Privacy_policy",
-    "source_url": "https://github.com/mumble-voip/",
+    "privacy_url": "http://wiki.mumble.info/wiki/Mumble_Wiki:Privacy_policy",
+    "source_url": "https://github.com/mumble-voip/mumble",
     "name": "Mumble",
     "tos_url": "",
-    "url": "http://mumble.sourceforge.net/",
+    "url": "http://www.mumble.info/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mumble_%28software%29",
     "protocols": [
       "VoIP",
@@ -3580,7 +3636,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Video & Voice"
         ]
@@ -3602,54 +3658,7 @@
   },
   {
     "development_stage": "released",
-    "description": "安全而私密的Kolab账号，服务器位于瑞士。",
-    "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
-    "logo": "mykolab.png",
-    "notes": "MyKolab is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://MyKolab.com/privacy). It is run exclusively with free software and using the service supports the development of Kolab. \nAlso, you can export all your data at any time.",
-    "privacy_url": "https://mykolab.com/privacy",
-    "source_url": "http://git.kolab.org/",
-    "name": "MyKolab",
-    "tos_url": "https://mykolab.com/tos",
-    "url": "https://mykolab.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
-    "protocols": [
-      "SSL/TLS",
-      "WebDAV",
-      "CalDAV",
-      "CardDAV",
-      "ActiveSync"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Email Accounts"
-        ]
-      }
-    ],
-    "slug": "mykolab"
-  },
-  {
-    "development_stage": "released",
-    "description": "分布式DNS，基于Bitcoin 技术",
+    "description": ".bit 顶级域名所使用的分布式 DNS，基于 Bitcoin 技术",
     "license_url": "https://github.com/namecoin/namecoin/blob/master/COPYING",
     "logo": "namecoin.png",
     "notes": "",
@@ -3676,7 +3685,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "DNS"
         ]
@@ -3692,52 +3701,10 @@
   },
   {
     "development_stage": "released",
-    "description": "NetBSD is an open-source Unix-like operating system descended from Berkeley Software Distribution (BSD), a Unix derivative developed at the University of California, Berkeley. It was the second open-source BSD descendant to be formally released, after 386BSD, and it continues to be actively developed. The NetBSD project is primarily focused on high-quality design, stability and performance of the system. ",
-    "license_url": "https://www.netbsd.org/about/redistribution.html",
-    "logo": "netbsd.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://cvsweb.netbsd.org/",
-    "name": "NetBSD",
-    "tos_url": "",
-    "url": "https://www.netbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NetBSD",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "netbsd"
-  },
-  {
-    "development_stage": "released",
     "description": "只启用你信任的网站上面的 JavaScript、Java 和 Flash 内容",
     "license_url": "https://github.com/avian2/noscript",
     "logo": "noscript.png",
-    "notes": "Install **NoScript** and enable &lsquo;Forbid scripts globally&rsquo; to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with the **Tor Browser Bundle**.",
-    "privacy_url": "https://addons.mozilla.org/en-US/firefox/addon/noscript/privacy/",
+    "notes": "安装**NoScript**并启用 ‘全局禁用脚本’ 以提高你浏览器的安全性。这主要可以避免 JavaScript 的零日漏洞攻击。这是一个激进的做法，因为很多网站会因此无法使用，因为它们非常依赖 JavaScript。\n\nNoScript 提供了一个白名单功能，你可以在你信任的网站上选择性地启用 JavaScript，但如果你在**Tor Browser Bundle**（Tor 浏览器）上也这么做，这会被认为是[对你的匿名性非常有害](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled)的。",
     "source_url": "https://github.com/avian2/noscript",
     "name": "NoScript",
     "tos_url": "",
@@ -3745,6 +3712,12 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/NoScript",
     "protocols": [],
     "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
       {
         "name": "BSD",
         "subcategories": [
@@ -3758,7 +3731,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -3774,7 +3747,63 @@
   },
   {
     "development_stage": "released",
-    "description": "安装并启用这个插件来加密在Pidgin中的聊天",
+    "description": "这是一个自由的动态 DNS 解析服务。通过它，你可以用一个简单好记的 DNS 名称来代替你变化的、难记的 IP 地址。由于我们使用标准协议，我们支持大多数路由器和客户端，我们甚至可以主动帮您配置它们。我们关心您的安全，隐私和舒适。您可以在我们的网站简单地使用免费服务。当然，如果您愿意，您还可以在自己的服务器上搭建解析服务。",
+    "license_url": "https://github.com/nsupdate-info/nsupdate.info/blob/master/LICENSE",
+    "logo": "nsupdate-info.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/nsupdate-info/nsupdate.info",
+    "name": "nsupdate.info",
+    "tos_url": "",
+    "url": "https://nsupdate.info/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nsupdate",
+    "protocols": [
+      "DNS",
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "Routers",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "DNS"
+        ]
+      }
+    ],
+    "slug": "nsupdate-info"
+  },
+  {
+    "development_stage": "released",
+    "description": "安装并启用这个插件来加密在 Pidgin 中的聊天",
     "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
     "logo": "otr.png",
     "notes": "",
@@ -3811,7 +3840,7 @@
   },
   {
     "development_stage": "released",
-    "description": "IOS平台上的开源浏览器，基于Tor。",
+    "description": "IOS 平台上的开源浏览器，基于 Tor。",
     "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
     "logo": "onion-browser.png",
     "notes": "",
@@ -3837,10 +3866,35 @@
   },
   {
     "development_stage": "released",
-    "description": "The Open Source Routing Machine or OSRM is a C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform.",
+    "description": "OpenKeychain 是安卓平台上的 OpenPGP 实现。",
+    "license_url": "https://github.com/open-keychain/open-keychain/blob/master/LICENSE",
+    "logo": "open-keychain.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/open-keychain/open-keychain",
+    "name": "OpenKeychain",
+    "tos_url": "",
+    "url": "https://www.openkeychain.org/",
+    "wikipedia_url": "",
+    "protocols": [
+      "GPG"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Email Encryption"
+        ]
+      }
+    ],
+    "slug": "open-keychain"
+  },
+  {
+    "development_stage": "released",
+    "description": "OSRM 是一个高性能的最短路径导航引擎的 C++ 实现，是使用 permissive 2-clause BSD license 协议发布的自由网络服务。OSRM 支持 Linux、FreeBSD、Windows 和 Mac 平台。",
     "license_url": "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT",
     "logo": "osrm.png",
-    "notes": "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service.",
+    "notes": "OSRM 应该被安装在你的本地计算机，以避免未加密的网络泄漏您的信息。",
     "privacy_url": "",
     "source_url": "https://github.com/DennisOSRM/Project-OSRM",
     "name": "Open Source Routing Machine",
@@ -3862,7 +3916,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "World Maps"
         ]
@@ -3884,7 +3938,7 @@
   },
   {
     "development_stage": "released",
-    "description": "可选择的开源网络分析服务。",
+    "description": "可选择的开源网络统计服务。",
     "license_url": "http://wiki.openwebanalytics.com/index.php?title=License",
     "logo": "open-web-analytics.png",
     "notes": "",
@@ -3907,7 +3961,7 @@
   },
   {
     "development_stage": "released",
-    "description": "安全的BSD操作系统。安全得近乎偏执。",
+    "description": "安全的 BSD 操作系统。安全得近乎偏执。",
     "license_url": "http://openbsd.org/policy.html",
     "logo": "openbsd.png",
     "notes": "",
@@ -3926,7 +3980,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -3954,7 +4008,7 @@
   },
   {
     "development_stage": "released",
-    "description": "跨平台XMPP服务，基于java语言。",
+    "description": "跨平台 XMPP 服务，基于 Java 语言。",
     "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
     "logo": "openfire.png",
     "notes": "",
@@ -3979,20 +4033,26 @@
   },
   {
     "development_stage": "released",
-    "description": "开放，民主，反审查的DNS服务。",
+    "description": "开放，民主，抗审查的 DNS 服务。",
     "license_url": "",
     "logo": "opennic.png",
-    "notes": "OpenNIC has not adopted an official policy concerning log query privacy/anonymization. More information [here](http://wiki.opennicproject.org/Tier2).",
-    "privacy_url": "http://wiki.opennicproject.org/Tier2",
-    "source_url": "http://wiki.opennicproject.org/opennicZoneScript",
+    "notes": "OpenNIC 还没有关于日志查询隐私和匿名性的官方政策。更多信息参见[这个页面](https://wiki.opennic.org/opennic:tier2)。",
+    "privacy_url": "https://wiki.opennic.org/opennic:tier2",
+    "source_url": "https://wiki.opennic.org/opennic:srvzone",
     "name": "OpenNIC",
     "tos_url": "",
-    "url": "http://www.opennicproject.org/",
+    "url": "https://www.opennic.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
     "protocols": [
       "DNS"
     ],
     "categories": [
+      {
+        "name": "Routers",
+        "subcategories": [
+          "DNS"
+        ]
+      },
       {
         "name": "Web Services",
         "subcategories": [
@@ -4001,31 +4061,6 @@
       }
     ],
     "slug": "opennic"
-  },
-  {
-    "development_stage": "released",
-    "description": "OpenKeychain是安卓平台上的OpenPGP实现。",
-    "license_url": "https://github.com/open-keychain/open-keychain/blob/master/LICENSE",
-    "logo": "open-keychain.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/open-keychain/open-keychain",
-    "name": "OpenKeychain",
-    "tos_url": "",
-    "url": "http://www.openkeychain.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "open-keychain"
   },
   {
     "development_stage": "released",
@@ -4052,48 +4087,7 @@
   },
   {
     "development_stage": "released",
-    "description": "稳定、易用的多用途 GNU/Linux distribution。",
-    "license_url": "https://en.opensuse.org/openSUSE:License",
-    "logo": "opensuse.png",
-    "notes": "",
-    "privacy_url": "https://www.suse.com/company/policies/privacy/",
-    "source_url": "https://en.opensuse.org/Source_code",
-    "name": "OpenSUSE",
-    "tos_url": "https://en.opensuse.org/Terms_of_site",
-    "url": "https://www.opensuse.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenSUSE",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "opensuse"
-  },
-  {
-    "development_stage": "released",
-    "description": "自由的VPN客户端，FreeS/WAN的衍生品。",
+    "description": "自由的 VPN 客户端，FreeS/WAN 的衍生品。",
     "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
     "logo": "openswan.png",
     "notes": "",
@@ -4116,7 +4110,7 @@
   },
   {
     "development_stage": "released",
-    "description": "自由的VPN客户端。",
+    "description": "自由的 VPN 客户端。",
     "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
     "logo": "openvpn.png",
     "notes": "",
@@ -4149,7 +4143,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "VPN Clients"
         ]
@@ -4171,7 +4165,30 @@
   },
   {
     "development_stage": "released",
-    "description": "Tor代理用于安卓平台。",
+    "description": "为嵌入式设备设计的 GNU/Linux 发行版。",
+    "license_url": "https://dev.openwrt.org/browser/trunk/LICENSE",
+    "logo": "openwrt.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://dev.openwrt.org/browser/trunk",
+    "name": "OpenWrt",
+    "tos_url": "",
+    "url": "https://openwrt.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenWrt",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Routers",
+        "subcategories": [
+          "Firmware"
+        ]
+      }
+    ],
+    "slug": "openwrt"
+  },
+  {
+    "development_stage": "released",
+    "description": "拥有丰富特性和功能的安卓版 Tor。",
     "license_url": "https://gitweb.torproject.org/orbot.git/blob/HEAD:/LICENSE",
     "logo": "orbot.png",
     "notes": "",
@@ -4196,7 +4213,32 @@
   },
   {
     "development_stage": "released",
-    "description": "OsmAnd (OSM Automated Navigation Directions) 是使用OpenStreetMap数据的开放的导航系统。",
+    "description": "适应代理环境并且注重隐私的网页浏览器，通过 Orbot 的 localhost 8118 端口进行代理，也可以使用任何别的 HTTP 代理服务器。",
+    "license_url": "https://github.com/guardianproject/Orweb/blob/master/LICENSE",
+    "logo": "orweb.png",
+    "notes": "HTML5 的音频和视频可能带来潜在的 IP 地址泄漏问题。更多信息:  https://guardianproject.info/2013/08/21/orweb-security-advisory-possible-ip-leakage-with-html5-videoaudio/",
+    "privacy_url": "",
+    "source_url": "https://github.com/guardianproject/Orweb.git",
+    "name": "Orweb",
+    "tos_url": "",
+    "url": "https://guardianproject.info/apps/orweb/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_%28software%29#Orweb",
+    "protocols": [
+      "Tor"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      }
+    ],
+    "slug": "orweb"
+  },
+  {
+    "development_stage": "released",
+    "description": "OsmAnd (OSM Automated Navigation Directions) 是使用 OpenStreetMap 数据的开放的导航系统。",
     "license_url": "https://github.com/osmandapp/Osmand/blob/master/LICENSE",
     "logo": "osmand.png",
     "notes": "",
@@ -4219,137 +4261,85 @@
   },
   {
     "development_stage": "released",
-    "description": "Secure SIP accounts by the Guardian Project for use with CSipSimple, Jitsi, et al.",
-    "license_url": "",
-    "logo": "ostel.png",
+    "description": "安卓端密码管理器，使用加密的容器文件来储存密码，网址，电子邮箱地址，笔记等信息。你只需要记住主密码即可。提供自定义的随机密码生成功能。",
+    "license_url": "http://sourceforge.net/p/passwdsafe/code/ci/default/tree/LICENSE",
+    "logo": "passwordsafe.png",
     "notes": "",
-    "privacy_url": "https://ostel.co/privacy",
-    "source_url": "https://github.com/guardianproject/OStel",
-    "name": "Ostel",
-    "tos_url": "",
-    "url": "https://ostel.co/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "VoIP",
-      "ZRTP"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "slug": "ostel"
-  },
-  {
-    "development_stage": "released",
-    "description": "你能掌控的云端数据",
-    "license_url": "https://github.com/owncloud/core/blob/master/COPYING-README",
-    "logo": "owncloud.png",
-    "notes": "ownCloud provides a file sync and share solution that respects your privacy. Sync clients are available for all major platforms. ownCloud comes with a rich ecosystem of apps, which makes it possible to manage contacts, appointments, music and much more.",
     "privacy_url": "",
-    "source_url": "https://github.com/owncloud",
-    "name": "ownCloud",
+    "source_url": "http://sourceforge.net/p/passwdsafe/code/ci/default/tree/",
+    "name": "PasswdSafe",
     "tos_url": "",
-    "url": "http://owncloud.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OwnCloud",
-    "protocols": [
-      "CalDAV",
-      "CardDAV",
-      "WebDAV",
-      "RSS"
-    ],
+    "url": "http://passwdsafe.sourceforge.net/",
+    "wikipedia_url": "",
+    "protocols": [],
     "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
       {
         "name": "Android",
         "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
+          "Password Managers"
         ]
       }
     ],
-    "slug": "owncloud"
+    "slug": "passwdsafe"
   },
   {
     "development_stage": "released",
-    "description": "Libre, lightweight, and flexible GNU/Linux distribution based on Arch Linux.",
-    "license_url": "https://wiki.parabolagnulinux.org/Parabola/GNU_Linux_Social_Contract",
-    "logo": "parabola.png",
+    "description": "Windows/Linux 下的密码管理器，由 Bruce Schneier 设计。使用加密的容器文件来储存密码，网址，电子邮箱地址，笔记等信息。你只需要记住主密码即可。提供自定义的随机密码生成功能。",
+    "license_url": "http://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/LICENSE",
+    "logo": "passwordsafe.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://projects.parabolagnulinux.org/",
-    "name": "Parabola GNU/Linux-libre",
+    "source_url": "http://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/",
+    "name": "Password Safe",
     "tos_url": "",
-    "url": "https://parabolagnulinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Parabola_GNU/Linux-libre",
+    "url": "http://pwsafe.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Password_Safe",
     "protocols": [],
     "categories": [
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
+          "Password Managers"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Operating Systems"
+          "Password Managers"
         ]
       }
     ],
-    "slug": "parabola-gnu-linux-libre"
+    "slug": "passwordsafe"
+  },
+  {
+    "development_stage": "released",
+    "description": "基于 FreeBSD 的防火墙和路由器固件。",
+    "license_url": "https://www.pfsense.org/about-pfsense/index.html",
+    "logo": "pfsense.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://redmine.pfsense.org/projects/pfsense/repository",
+    "name": "pfSense",
+    "tos_url": "",
+    "url": "https://www.pfsense.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/PfSense",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Routers",
+        "subcategories": [
+          "Firmware"
+        ]
+      }
+    ],
+    "slug": "pfsense"
   },
   {
     "development_stage": "released",
     "description": "开源聊天程序",
     "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
     "logo": "pidgin.png",
-    "notes": "Pidgin stores your IM account passwords in [plain text](https://developer.pidgin.im/wiki/PlainTextPasswords). You can avoid this by (1) not saving your password in Pidgin, (2) encrypting your file system, or (3) storing your Pidgin password securely with the Debian package [pidgin-gnome-keyring](https://code.google.com/p/pidgin-gnome-keyring/).\n\nPidgin with OTR and dbus enabled has a local security bug. See the [upstream bug report](https://developer.pidgin.im/ticket/14830) for more information and possible workarounds.",
+    "notes": "Pidgin 使用[明文存储你的 IM 账户和密码](https://developer.pidgin.im/wiki/PlainTextPasswords)。你可以通过如下方法来避免：（1）不要在 Pidgin 中保存账户密码 （2）加密你的文件系统 （3）使用 Debian 软件包 [pidgin-gnome-keyring](https://github.com/aebrahim/pidgin-gnome-keyring) 安全地保存你的 Pidgin 密码。\n\n启用来 OTR 和 dbus 的 Pidgin 存在本地安全漏洞，请参阅 [upstream bug report](https://developer.pidgin.im/ticket/14830) 获得更多信息和可能的解决方案。",
     "privacy_url": "",
     "source_url": "http://hg.pidgin.im/pidgin/main/",
     "name": "Pidgin",
@@ -4392,7 +4382,7 @@
     "description": "自行架设的照片库平台",
     "license_url": "http://piwigo.org/basics/license",
     "logo": "piwigo.png",
-    "notes": "Piwigo does not encrypt any of your data by default.",
+    "notes": "Piwigo 默认不会进行加密。",
     "privacy_url": "",
     "source_url": "http://piwigo.org/dev/browser",
     "name": "Piwigo",
@@ -4414,7 +4404,7 @@
   },
   {
     "development_stage": "released",
-    "description": "开放源代码、自行架设的web分析服务",
+    "description": "开放源代码、自行架设的 Web 分析服务",
     "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
     "logo": "piwik.png",
     "notes": "",
@@ -4437,7 +4427,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Easy-to-setup MTA used by approximately 23% of all mail servers.",
+    "description": "多达 23% 的邮件服务器使用的易于搭建的服务端。",
     "license_url": "ftp://ftp.porcupine.org/mirrors/postfix-release/LICENSE",
     "logo": "postfix.png",
     "notes": "",
@@ -4460,7 +4450,48 @@
   },
   {
     "development_stage": "released",
-    "description": "Console based XMPP client.",
+    "description": "这是一个跟踪屏蔽器，它会试着了解是谁在监视你，并屏蔽这些广告和跟踪器。",
+    "license_url": "https://github.com/EFForg/privacybadgerfirefox/blob/master/LICENSE",
+    "logo": "privacy-badger.png",
+    "notes": "隐私獾（Privacy Badger）可能不如传统的基于黑名单的 uBlock 或 Disconnect 等解决方案更有效。因为广告主可以通过宣称不对你进行跟踪而获得解封。",
+    "privacy_url": "",
+    "source_url": "https://github.com/EFForg/privacybadgerfirefox",
+    "name": "Privacy Badger",
+    "tos_url": "",
+    "url": "https://www.eff.org/privacybadger",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Privacy_Badger",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      }
+    ],
+    "slug": "privacy-badger"
+  },
+  {
+    "development_stage": "released",
+    "description": "命令行版本的 XMPP 客户端。",
     "license_url": "https://raw.githubusercontent.com/boothj5/profanity/master/COPYING",
     "logo": "profanity.png",
     "notes": "",
@@ -4483,7 +4514,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging"
         ]
@@ -4499,7 +4530,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Flexible lightweight XMPP server written in Lua.",
+    "description": "灵活轻量的 XMPP 服务端，使用 Lua 语言编写。",
     "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
     "logo": "prosody.png",
     "notes": "",
@@ -4524,32 +4555,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Free online encrypted notepad.",
-    "license_url": "",
-    "logo": "protextedtext.png",
-    "notes": "ProtectedText encrypts/decrypts text in the browser, and password (or it's hash) is never sent to the server - so that text can't be decrypted even if requested by authorities.",
-    "privacy_url": "",
-    "source_url": "https://www.protectedtext.com/js/main.js",
-    "name": "ProtectedText",
-    "tos_url": "",
-    "url": "https://www.protectedtext.com/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "protectedtext"
-  },
-  {
-    "development_stage": "released",
-    "description": "Multi-platform IM client for power users with built-in OTR support.",
+    "description": "跨平台的即时通讯（IM）客户端，内建 OTR。",
     "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
     "logo": "psi-plus.png",
     "notes": "",
@@ -4577,7 +4583,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Instant Messaging"
         ]
@@ -4593,7 +4599,7 @@
   },
   {
     "development_stage": "released",
-    "description": "自行假设的社交信息流服务器",
+    "description": "自行架设的社交信息流服务器。",
     "license_url": "https://github.com/e14n/pump.io/blob/master/LICENSE",
     "logo": "pumpio.png",
     "notes": "",
@@ -4602,7 +4608,7 @@
     "name": "pump.io",
     "tos_url": "",
     "url": "http://pump.io/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pump.io",
     "protocols": [
       "SSL/TLS"
     ],
@@ -4618,7 +4624,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Instantly turn any server into a file sharing platform.",
+    "description": "可以立即把一个服务器变成文件共享平台。",
     "license_url": "https://github.com/pydio/pydio-core/blob/master/README.md",
     "logo": "pydio.png",
     "notes": "",
@@ -4641,7 +4647,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Fedora/Xen-based OS designed to provide strong security through isolation.",
+    "description": "基于 Fedora 和 Xen 的操作系统，旨在通过隔离来增强安全性。",
     "license_url": "http://qubes-os.org/trac/wiki/QubesLicensing",
     "logo": "qubes-os.png",
     "notes": "",
@@ -4660,7 +4666,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems"
         ]
@@ -4676,74 +4682,15 @@
   },
   {
     "development_stage": "released",
-    "description": "Decentralised and distributed identity, communications and publication network.",
-    "license_url": "https://github.com/friendica/red/blob/master/LICENSE",
-    "logo": "redmatrix.png",
-    "notes": "",
+    "description": "增强隐私的 Firefox 插件，旨在防御“浏览器指纹”跟踪。",
+    "license_url": "https://github.com/dillbyrne/random-agent-spoofer/blob/master/LICENSE",
+    "logo": "ras.png",
+    "notes": "**Random Agent Spoofer** 应从他们的 [GitHub releases 页](https://github.com/dillbyrne/random-agent-spoofer/releases) 来获得，Mozilla 的附加组件版本的功能有限。",
     "privacy_url": "",
-    "source_url": "https://github.com/friendica/red",
-    "name": "RedMatrix",
+    "source_url": "https://github.com/dillbyrne/random-agent-spoofer",
+    "name": "Random Agent Spoofer",
     "tos_url": "",
-    "url": "https://redmatrix.me/",
-    "wikipedia_url": "",
-    "protocols": [
-      "RSS",
-      "SSL/TLS",
-      "XMPP",
-      "WebDAV"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Social Networks",
-          "Media Publishing",
-          "Communication Protocols"
-        ]
-      }
-    ],
-    "slug": "redmatrix"
-  },
-  {
-    "development_stage": "released",
-    "description": "完全免费的Android发行版",
-    "license_url": "http://replicant.us/about/",
-    "logo": "replicant.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://gitorious.org/replicant",
-    "name": "Replicant",
-    "tos_url": "",
-    "url": "http://replicant.us/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "replicant"
-  },
-  {
-    "development_stage": "released",
-    "description": "Control which cross-site requests are allowed by sites you visit.",
-    "license_url": "https://github.com/RequestPolicy/requestpolicy/blob/master/src/LICENSE",
-    "logo": "request-policy.png",
-    "notes": "",
-    "privacy_url": "https://www.requestpolicy.com/privacy.html",
-    "source_url": "https://github.com/RequestPolicy/requestpolicy",
-    "name": "Request Policy",
-    "tos_url": "",
-    "url": "https://www.requestpolicy.com/",
+    "url": "https://github.com/dillbyrne/random-agent-spoofer#readme",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
@@ -4760,7 +4707,119 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      }
+    ],
+    "slug": "ras"
+  },
+  {
+    "development_stage": "released",
+    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "license_url": "https://github.com/redmatrix/hubzilla/blob/master/LICENSE",
+    "logo": "hubzilla.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/redmatrix/hubzilla",
+    "name": "Hubzilla",
+    "tos_url": "",
+    "url": "http://hubzilla.org/",
+    "wikipedia_url": "",
+    "protocols": [
+	  "RSS",
+      "SSL/TLS",
+      "WebDAV"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+		  "Bookmark Sync",
+		  "Communication Protocols",
+		  "File Storage & Sync",
+          "Media Publishing",
+		  "Productivity",
+          "Social Networks"      
+        ]
+      },
+     {
+        "name": "Web Services",
+        "subcategories": [
+		  "Bookmark Sync",
+		  "File Storage & Sync",
+          "Media Publishing",
+		  "Productivity",
+          "Social Networks"
+        ]
+      }
+    ],
+    "slug": "hubzilla"
+  },
+  {
+    "development_stage": "released",
+    "description": "基于 LineageOS 的，完全免费的 Android 版本",
+    "license_url": "https://git.replicant.us/replicant/manifest/blob/replicant-6.0-dev/README.mkdn",
+    "logo": "replicant.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://git.replicant.us/replicant",
+    "name": "Replicant",
+    "tos_url": "",
+    "url": "http://replicant.us/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Operating Systems (Mobile)"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Operating Systems (Mobile)"
+        ]
+      }
+    ],
+    "slug": "replicant"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "根据你访问的网站来控制哪些跨站请求是被允许的。",
+    "license_url": "https://github.com/RequestPolicyContinued/requestpolicy/blob/dev-1.0/LICENSE",
+    "logo": "request-policy.png",
+    "notes": "",
+    "privacy_url": "https://requestpolicycontinued.github.io/Privacy.html",
+    "source_url": "https://github.com/RequestPolicyContinued/requestpolicy",
+    "name": "Request Policy",
+    "tos_url": "",
+    "url": "https://requestpolicycontinued.github.io/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -4776,15 +4835,15 @@
   },
   {
     "development_stage": "released",
-    "description": "免费安全的 P2P 交流平台",
+    "description": "安全的 P2P 通讯平台，提供即时通讯，论坛，网络电话，文件共享等功能。",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
     "logo": "retroshare.png",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
     "privacy_url": "",
-    "source_url": "http://sourceforge.net/p/retroshare/code/HEAD/tree/",
+    "source_url": "https://github.com/RetroShare/RetroShare",
     "name": "RetroShare",
     "tos_url": "",
-    "url": "http://retroshare.sourceforge.net/",
+    "url": "http://retroshare.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
     "protocols": [
       "GPG",
@@ -4808,7 +4867,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Alternatives",
           "Instant Messaging",
@@ -4828,10 +4887,92 @@
   },
   {
     "development_stage": "released",
-    "description": "安全私密的email账户",
+    "description": "开箱即用的匿名和无服务的即时通讯工具。",
+    "license_url": "https://github.com/ricochet-im/ricochet/blob/master/LICENSE",
+    "logo": "ricochet.png",
+    "notes": "Ricochet 是一个建立在 Tor 网络中的点对点即时通讯系统，它采用隐匿服务地址登录，通过捆绑的 Tor 在用户间建立直接的联系（而不是与服务器建立联系）。交会系统使得第三方非常难以识别一个用户的身份。\n\nRicochet 不属于也不被 Tor 项目认可。\n\nRicochet 是不再维护的 TorChat 的替代方案。",
+    "privacy_url": "",
+    "source_url": "https://github.com/ricochet-im/ricochet",
+    "name": "Ricochet",
+    "tos_url": "",
+    "url": "https://ricochet.im/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ricochet_(software)",
+    "protocols": [
+      "Tor"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "slug": "ricochet"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "Ring is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.",
+    "license_url": "https://github.com/savoirfairelinux/ring-project/blob/master/COPYING",
+    "logo": "ring.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/savoirfairelinux/ring-project",
+    "name": "Ring",
+    "tos_url": "",
+    "url": "https://ring.cx/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ring_(software)",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      }
+    ],
+    "slug": "ring"
+  },
+  {
+    "development_stage": "released",
+    "description": "安全私密的电子邮件账户，为那些社会活动人士设计。",
     "license_url": "",
     "logo": "riseup.png",
-    "notes": "Riseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
+    "notes": "Riseup 的服务也可以通过 Tor 网络访问。清单 [在此](https://www.riseup.net/en/tor#riseups-tor-hidden-services)。",
     "privacy_url": "https://help.riseup.net/en/privacy-policy",
     "source_url": "http://riseuplabs.org/",
     "name": "Riseup",
@@ -4884,38 +5025,15 @@
   },
   {
     "development_stage": "released",
-    "description": "Scientific Linux (SL) is a Linux distribution produced by Fermi National Accelerator Laboratory and the European Organization for Nuclear Research (CERN). ",
-    "license_url": "https://www.scientificlinux.org/documentation/faq/legal",
-    "logo": "scientific-linux.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://www.scientificlinux.org/",
-    "name": "Scientific Linux",
-    "tos_url": "",
-    "url": "https://www.scientificlinux.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scientific_Linux",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "scientific-linux"
-  },
-  {
-    "development_stage": "released",
-    "description": "开放的去中心化的协作搜索平台",
-    "license_url": "http://sourceforge.net/p/seeks/code/ci/master/tree/Licenses",
+    "description": "开放的去中心化的协作搜索平台。",
+    "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
     "logo": "seeks-project.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "http://sourceforge.net/p/seeks/code/ci/master/tree/",
+    "source_url": "https://github.com/beniz/seeks",
     "name": "Seeks Project",
     "tos_url": "",
-    "url": "http://www.seeks-project.info/",
+    "url": "https://beniz.github.io/seeks/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Seeks",
     "protocols": [],
     "categories": [
@@ -4930,15 +5048,12 @@
   },
   {
     "development_stage": "released",
-    "description": "Automatically delete cookies and local storage when they are no longer used by open browser tabs.",
-    "license_url": "https://addons.mozilla.org/en-US/firefox/files/browse/235317/file/LICENSE",
+    "description": "自动删除那些不再被使用的 cookies 和 local storage。",
     "logo": "self-destructing-cookies.png",
-    "notes": "Only works with Firefox version 24 and above.\n\n The Android version is [available here](https://addons.mozilla.org/en-US/android/addon/self-destructing-cookies/).",
+    "notes": "只能在版本高于 24 的 Firefox 上使用\n\n 在[这里](https://addons.mozilla.org/android/addon/self-destructing-cookies/)可以找到安卓版。",
     "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/en-US/firefox/files/browse/235317/",
     "name": "Self-Destructing Cookies",
     "tos_url": "",
-    "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/",
     "wikipedia_url": "",
     "protocols": [],
     "categories": [
@@ -4961,7 +5076,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browser Addons"
         ]
@@ -4976,31 +5091,89 @@
     "slug": "self-destructing-cookies"
   },
   {
-    "development_stage": "released",
-    "description": "Simple distro based on CentOS with preconfigured mail, file sharing, web server, and more.",
-    "license_url": "http://wiki.contribs.org/SME_Server:Documentation:Developers_Manual:Chapter14#Configuring_your_development_environment",
-    "logo": "sme-server.png",
+    "development_stage": "experimental",
+    "description": "SemanticScuttle 是一个社会书签工具，提供结构化标签和协作标签描述之类的试验性功能。",
+    "license_url": "https://github.com/cweiske/SemanticScuttle/blob/master/www/about.php",
+    "logo": "semanticscuttle.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "https://fisheye1.atlassian.com/browse/smeserver/",
-    "name": "SME Server",
+    "source_url": "https://github.com/cweiske/SemanticScuttle",
+    "name": "SemanticScuttle",
     "tos_url": "",
-    "url": "http://wiki.contribs.org/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/SME_Server",
+    "url": "http://semanticscuttle.sourceforge.net/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Scuttle_(software)",
     "protocols": [],
     "categories": [
       {
         "name": "Servers",
         "subcategories": [
-          "Operating Systems"
+          "Bookmark Sync"
         ]
       }
     ],
-    "slug": "sme-server"
+    "slug": "semanticscuttle"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "个人的、最小化的、超快的无数据库的书签同步工具。",
+    "license_url": "https://github.com/shaarli/Shaarli/blob/master/COPYING",
+    "logo": "shaarli.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/shaarli/Shaarli/",
+    "name": "Shaarli",
+    "tos_url": "",
+    "url": "https://github.com/shaarli/Shaarli/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      }
+    ],
+    "slug": "shaarli"
   },
   {
     "development_stage": "released",
-    "description": "自行架设的版本控制和文件同步",
+    "description": "这是 TextSecure 的一个分支，提供短信加密功能。",
+    "license_url": "https://github.com/SilenceIM/Silence/blob/master/LICENSE",
+    "logo": "silence.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/SilenceIM/Silence",
+    "name": "Silence",
+    "tos_url": "",
+    "url": "https://silence.im/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+	"name": "Android",
+	"subcategories": [
+	  "Instant Messaging"
+	]
+      }
+    ],
+    "slug": "silence"
+  },
+  {
+    "development_stage": "released",
+    "description": "自行架设的版本控制和文件同步系统。",
     "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
     "logo": "sparkleshare.png",
     "notes": "",
@@ -5019,7 +5192,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "File Storage & Sync"
         ]
@@ -5041,10 +5214,10 @@
   },
   {
     "development_stage": "released",
-    "description": "私密、无记录的web搜索",
+    "description": "私密、无记录的 Web 搜索引擎。",
     "license_url": "",
     "logo": "startpage.png",
-    "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy.",
+    "notes": "Startpage 是一个托管在美国和荷兰的 SaaS（软件即服务），通过免费匿名代理为你提供谷歌搜索和图片搜索结果。",
     "privacy_url": "https://startpage.com/eng/protect-privacy.html",
     "source_url": "",
     "name": "Startpage",
@@ -5066,7 +5239,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Free software VPN client derived from FreeS/WAN.",
+    "description": "源自 FreeS/WAN 的自由的 VPN 客户端。",
     "license_url": "http://git.strongswan.org/?p=strongswan.git;a=blob;f=COPYING;h=d159169d1050894d3ea3b98e1c965c4058208fe1;hb=HEAD",
     "logo": "strongswan.png",
     "notes": "",
@@ -5089,7 +5262,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Lightweight and user-friendly e-mail client.",
+    "description": "轻量、友好的电子邮件程序，跨平台，内建 PGP 支持。",
     "license_url": "https://www.gnu.org/copyleft/gpl.html",
     "logo": "sylpheed.png",
     "notes": "",
@@ -5118,7 +5291,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Clients"
         ]
@@ -5134,7 +5307,56 @@
   },
   {
     "development_stage": "released",
-    "description": "分布式匿名讨论区软件",
+    "description": "持续、分布式的文件同步工具。",
+    "license_url": "https://github.com/syncthing/syncthing/blob/master/LICENSE",
+    "logo": "syncthing.png",
+    "notes": "Syncthing是一个自架设的文件分享平台，所以你所有的数据都存储在你自己的电脑里。没有中央服务器会干坏事，不管是合法还是非法的。所有通信都使用 TLS 保护。所使用的加密包括完全正向保密（perfect forward secrecy），以防止任何窃听者获取你的数据访问。每个节点由一个强大的加密证书识别。只有您明确允许的节点才可以连接到群集。",
+    "privacy_url": "",
+    "source_url": "https://github.com/syncthing/syncthing",
+    "name": "Syncthing",
+    "tos_url": "",
+    "url": "https://syncthing.net/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "slug": "syncthing"
+  },
+  {
+    "development_stage": "released",
+    "description": "分布式匿名讨论区软件。",
     "license_url": "https://github.com/i2p/i2p.syndie/blob/master/LICENSE",
     "logo": "syndie.png",
     "notes": "",
@@ -5154,7 +5376,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks",
           "Social Networks"
@@ -5179,7 +5401,7 @@
   },
   {
     "development_stage": "released",
-    "description": "自由和开放的云存储系统",
+    "description": "自由和开放的云存储系统。",
     "license_url": "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL",
     "logo": "tahoe-lafs.png",
     "notes": "",
@@ -5217,6 +5439,7 @@
       "SSL/TLS",
       "OTR",
       "Tor",
+      "I2P",
       "XMPP"
     ],
     "categories": [
@@ -5233,7 +5456,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Operating Systems (Live)"
         ]
@@ -5249,16 +5472,16 @@
   },
   {
     "development_stage": "released",
-    "description": "Protocol for realtime decentralized communication and personal data storage.",
+    "description": "进行分布式实时通讯和个人数据存储的协议。",
     "license_url": "https://github.com/tent/tentd/blob/master/README.md",
     "logo": "tent.png",
-    "notes": "Tent mentions that it's still in alpha:\n*\"Remember, Tent is still in alpha, so it’s not safe to use with information you would not want to be public and should not be considered reliable.\"*",
+    "notes": "Tent 提到，它仍处于 alpha 测试阶段:\n*\"记住，Tent 仍处于 alpha 测试阶段，所以不应该用它来传递敏感信息，它也不应该被视为可靠的。\"*",
     "privacy_url": "",
     "source_url": "https://github.com/tent",
     "name": "Tent",
     "tos_url": "",
     "url": "https://tent.io/",
-    "wikipedia_url": "",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tent_%28protocol%29",
     "protocols": [],
     "categories": [
       {
@@ -5272,7 +5495,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Cross-platform XMPP server written in Java.",
+    "description": "跨平台的 XMPP 服务端，使用 Java 语言编写。",
     "license_url": "https://projects.tigase.org/projects/tigase-server/repository/revisions/master/changes/COPYING",
     "logo": "tigase.png",
     "notes": "",
@@ -5297,7 +5520,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Free software daemon that uses tunnelling and encryption to create a secure private network",
+    "description": "这个自由软件使用守护进程使用隧道和创建一个加密安全的网络。",
     "license_url": "http://tinc-vpn.org/git/browse?p=tinc;a=blob;f=COPYING.README;h=2eb9c1facc212244a4103f9f9b81149c6f6a9d44;hb=HEAD",
     "logo": "tinc.png",
     "notes": "",
@@ -5322,7 +5545,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Mesh Networks"
         ]
@@ -5364,7 +5587,7 @@
   },
   {
     "development_stage": "released",
-    "description": "Tor (previously TOR, an acronym for The Onion Router)[not in citation given] is free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including \"visits to Web sites, online posts, instant messages, and other communication forms\", back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "用于实现在线匿名的自由软件。Tor 将网络流量通过一个由超过 4000 个中继志愿者组成的全球性自由网络转发，使用户免于受到网络监控或流量分析，避免泄漏地理位置等信息。使用 Tor 让网络活动更难以追踪，包括\"访问网站、发帖、即时通讯和其他通讯形式\"。Tor 致力于保护用户隐私，同时保护他们通过网络开展秘密活动的自由和能力。",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.png",
     "notes": "",
@@ -5391,7 +5614,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Anonymizing Networks"
         ]
@@ -5413,16 +5636,16 @@
   },
   {
     "development_stage": "released",
-    "description": "以加密、匿名的方式浏览",
+    "description": "通过Tor网络，以加密、匿名的方式浏览。",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser-bundle.png",
-    "notes": "Using the TBB to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
+    "logo": "tor-browser.png",
+    "notes": "使用 Tor 浏览器（TBB）登录包含你真实信息的 ID 只会适得其反，还会触发网站的欺诈保护机制。在登录网站之前，你还需要检查是否是 HTTPS，因为通过 HTTP 登录可能导致您的信息被恶意 Tor 出口节点捕获。",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "source_url": "https://gitweb.torproject.org/tor.git",
-    "name": "Tor Browser Bundle",
+    "name": "Tor Browser",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser_Bundle",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
     "protocols": [
       "SSL/TLS",
       "Tor"
@@ -5441,7 +5664,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Browsers"
         ]
@@ -5453,14 +5676,14 @@
         ]
       }
     ],
-    "slug": "tor-browser-bundle"
+    "slug": "tor-browser"
   },
   {
     "development_stage": "released",
-    "description": "Add-on that makes Thunderbird/Icedove connect through Tor.",
+    "description": "这个插件让火狐/冰鼬鼠能通过 Tor 联网。",
     "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
     "logo": "torbirdy.png",
-    "notes": " TorBirdy is in beta and should be considered experimental. Please make sure that before using it, you are aware of the known issues and leaks by reading the \"Before using TorBirdy\" and \"Known TorBirdy\" Issues sections on the project website.",
+    "notes": "TorBirdy 目前是测试版，应慎重考虑其试验性功能。在使用前请认真阅读项目网站上的\"Before using TorBirdy\"和\"Known TorBirdy\"部分，以确保你了解目前已知的问题和可能存在的泄漏。",
     "privacy_url": "",
     "source_url": "https://github.com/ioerror/torbirdy",
     "name": "TorBirdy",
@@ -5484,7 +5707,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Email Encryption"
         ]
@@ -5499,42 +5722,277 @@
     "slug": "torbirdy"
   },
   {
-    "development_stage": "released",
-    "description": "Anonymous, decentralized P2P chat built on Tor Hidden Services.",
-    "license_url": "https://www.gnu.org/copyleft/gpl.html",
-    "logo": "torchat.png",
-    "notes": "",
+    "development_stage": "experimental",
+    "description": "免费、开源、点对点的加密即时通讯、视频聊天软件。该项目的目标是为大家提供安全且便利的沟通。",
+    "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
+    "logo": "tox.png",
+    "notes": "TOX是一个正在建设中的全新的加密通讯系统，它基于一些众所周知的加密库，具有很大的潜力，但尚未通过专业的安全审核。使用请自担风险。\n\nTox 目前还没有一个官方的 GUI，但开发团队推荐了[一些备选方案](https://wiki.tox.chat/Binaries)。",
     "privacy_url": "",
-    "source_url": "https://github.com/prof7bit/TorChat",
-    "name": "TorChat",
+    "source_url": "https://github.com/irungentoo/toxcore",
+    "name": "Tox",
     "tos_url": "",
-    "url": "https://github.com/prof7bit/TorChat/wiki",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/TorChat",
+    "url": "https://tox.chat",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)",
     "protocols": [
-      "Tor"
+      "Tox"
     ],
     "categories": [
       {
+        "name": "BSD",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging"
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging"
+          "Instant Messaging",
+          "Video & Voice"
         ]
       }
     ],
-    "slug": "torchat"
+    "slug": "tox"
   },
   {
     "development_stage": "released",
-    "description": "Extensible and customisable chat client for IRC and XMPP/Jabber.",
+    "description": "Tunnelblick 是 macOS 平台上一个免费开源的 OpenVPN 图形用户界面。它提供了方便控制的 OpenVPN 客户端和/或服务器连接。",
+    "license_url": "https://github.com/Tunnelblick/Tunnelblick/blob/master/tunnelblick/COPYING",
+    "logo": "tunnelblick.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/Tunnelblick/Tunnelblick",
+    "name": "Tunnelblick",
+    "tos_url": "",
+    "url": "https://tunnelblick.net/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "macOS",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      }
+    ],
+    "slug": "tunnelblick"
+  },
+  {
+    "development_stage": "released",
+    "description": "Firefox 和 Chromium 浏览器中的一个有效的拦截插件，快速、有效、轻便。",
+    "license_url": "https://github.com/gorhill/uBlock/blob/master/LICENSE.txt",
+    "logo": "ublock-origin.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/gorhill/uBlock",
+    "name": "uBlock Origin",
+    "tos_url": "",
+    "url": "https://github.com/gorhill/uBlock",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      }
+    ],
+    "slug": "ublock-origin"
+  },
+  {
+    "development_stage": "released",
+    "description": "验证，递归和缓存 DNS 服务器。",
+    "license_url": "http://unbound.nlnetlabs.nl/svn/trunk/LICENSE",
+    "logo": "unbound.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://unbound.nlnetlabs.nl/svn/",
+    "name": "Unbound",
+    "tos_url": "",
+    "url": "http://www.unbound.net/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
+    "protocols": [
+      "DNS"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "DNS"
+        ]
+      }
+    ],
+    "slug": "unbound"
+  },
+  {
+    "development_stage": "experimental",
+    "description": "保护隐私，并返回中立的搜索结果的元搜索引擎。",
+    "license_url": "",
+    "logo": "unbubble.png",
+    "notes": "Unbubble 是来自德国的搜索引擎，提供八种语言的结果。它的主要目标是提供中立的搜索结果。它采用强有力的措施来保护隐私。",
+    "privacy_url": "https://unbubble.eu/info/terms#data",
+    "source_url": "",
+    "name": "Unbubble",
+    "tos_url": "https://unbubble.eu/info/terms",
+    "url": "https://unbubble.eu",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Web Search"
+        ]
+      }
+    ],
+    "slug": "unbubble"
+  },
+  {
+    "development_stage": "released",
+    "description": "Client-side encrypted image host web server.",
+    "license_url": "https://github.com/Upload/Up1/blob/master/LICENSE",
+    "logo": "up1.png",
+    "notes": "Up1 is a simple host that client-side encrypts images, text, and other data, and stores them, with the server knowing nothing about the contents. It has the ability to view images, text with syntax highlighting, short videos, and arbitrary binaries as downloadables.",
+    "privacy_url": "",
+    "source_url": "https://github.com/Upload/Up1",
+    "name": "Up1",
+    "tos_url": "",
+    "url": "https://github.com/Upload/Up1/blob/master/README.md",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS",
+      "Tor"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing",
+          "Productivity"
+        ]
+      }
+    ],
+    "slug": "up1"
+  },
+  {
+    "development_stage": "released",
+    "description": "wallabag 是一个可以自行架设的用于保存网页的程序。与其他的服务不同，他是免费、自由和开源的。",
+    "license_url": "https://github.com/wallabag/wallabag/blob/master/COPYING.md",
+    "logo": "wallabag.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/wallabag/wallabag",
+    "name": "wallabag",
+    "tos_url": "",
+    "url": "https://www.wallabag.org/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      }
+    ],
+    "slug": "wallabag"
+  },
+  {
+    "development_stage": "released",
+    "description": "可扩展和高度定制化的 CLI 通讯客户端，用于 IRC 和 XMPP/Jabber 协议。",
     "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "weechat.png",
-    "notes": "WeeChat does not offer encryption by default, but there is a FiSH encryption plugin available.",
+    "notes": "WeeChat 默认并不提供加密，但有一个可用的 FiSH 加密插件。",
     "privacy_url": "",
     "source_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=summary",
     "name": "WeeChat",
@@ -5558,7 +6016,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "IRC"
         ]
@@ -5573,48 +6031,16 @@
     "slug": "weechat"
   },
   {
-    "development_stage": "released",
-    "description": "VM-friendly OS based on Debian and Tor focused on anonymity, privacy and security.",
-    "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
-    "logo": "whonix.png",
-    "notes": "Whonix is designed to be run inside of a virtualization package like [VirtualBox](https://www.virtualbox.org/). VirtualBox can be installed on Windows, Linux, OS X, and Solaris. This means that if you're stuck using Windows or OS X for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.",
-    "privacy_url": "",
-    "source_url": "https://github.com/Whonix/Whonix/",
-    "name": "Whonix",
-    "tos_url": "",
-    "url": "https://www.whonix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Whonix",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "whonix"
+    "description": "虚拟机友好的操作系统，基于 Debian 和 Tor，致力于匿名、隐私和安全。",
+    "notes": "Whonix 被设计用来运行在虚拟化环境下，例如 [VirtualBox](https://www.virtualbox.org/)。VirtualBox 可以安装在 Windows, Linux, macOS 和 Solaris 等操作系统上。这意味着如果你不得不使用 Windows 或 macOS，你可以用 VirtualBox 和 Whonix 来增强你的隐私和安全。",
+    "name": "Whonix"
   },
   {
     "development_stage": "released",
-    "description": "自行架设的网站发布平台",
+    "description": "自行架设的网站发布平台。",
     "license_url": "http://wordpress.org/about/license/",
     "logo": "wordpress.png",
-    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under \"Settings > Discussion > Avatars\".\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>&ldquo;Disable Google Fonts&rdquo;</a> to remove this vulnerability.",
+    "notes": "WordPress 的默认情况下不加密您的任何数据。\n\n在其中使用头像会激活 Gravatar，这将发送您的电子邮件地址 gravatar.com。头像默认激活，并在/“设置>讨论>头像/”可以被关闭。\n\n默认主题强制访问者下载 Google 字体，建议切换到一个完全自架设的主题。你也可以安装[禁用 Google 字体](http://wordpress.org/plugins/disable-google-fonts/)的插件来修复此问题。",
     "privacy_url": "http://wordpress.org/about/privacy/",
     "source_url": "http://core.trac.wordpress.org/browser",
     "name": "WordPress",
@@ -5636,7 +6062,7 @@
   },
   {
     "development_stage": "released",
-    "description": "OTR加密的即时通讯用于Android.",
+    "description": "OTR 加密的即时通讯用于 Android。",
     "license_url": "https://github.com/redsolution/xabber-android/blob/master/LICENSE",
     "logo": "xabber.png",
     "notes": "",
@@ -5663,7 +6089,7 @@
   },
   {
     "development_stage": "released",
-    "description": "其中心化的web搜索",
+    "description": "去中心化的 Web 搜索。",
     "license_url": "https://gitorious.org/yacy/rc1/source/234a974955c0ab4f7de63157738e4b00a8ffcae8:COPYRIGHT",
     "logo": "yacy.png",
     "notes": "",
@@ -5682,7 +6108,7 @@
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
           "Web Search"
         ]
@@ -5698,33 +6124,10 @@
   },
   {
     "development_stage": "released",
-    "description": "Personal distribution based on Debian with preconfigured mail, IM, and web server.",
-    "license_url": "https://github.com/YunoHost/admin_v1/blob/master/LICENCE",
-    "logo": "yunohost.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/YunoHost",
-    "name": "Yunohost",
-    "tos_url": "",
-    "url": "http://yunohost.org/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "yunohost"
-  },
-  {
-    "development_stage": "released",
-    "description": "自行架设的媒体管理系统",
+    "description": "自行架设的媒体管理系统。",
     "license_url": "http://www.zenphoto.org/pages/licenses",
     "logo": "zenphoto.png",
-    "notes": "Zenphoto does not encrypt any of your data by default.",
+    "notes": "Zenphoto 不会默认加密你的数据。",
     "privacy_url": "http://www.zenphoto.org/pages/privacy",
     "source_url": "https://github.com/zenphoto/zenphoto",
     "name": "Zenphoto",
@@ -5746,322 +6149,79 @@
   },
   {
     "development_stage": "released",
-    "description": "Validating, recursive, and caching DNS server.",
-    "license_url": "http://unbound.nlnetlabs.nl/svn/trunk/LICENSE",
-    "logo": "unbound.png",
+    "description": "Simple password manager using gpg and ordinary unix directories.",
+    "license_url": "https://git.zx2c4.com/password-store/tree/COPYING",
+    "logo": "pass.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "http://unbound.nlnetlabs.nl/svn/",
-    "name": "Unbound",
+    "source_url": "https://git.zx2c4.com/password-store/",
+    "name": "pass",
     "tos_url": "",
-    "url": "http://www.unbound.net/",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
-    "protocols": [
-      "DNS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "DNS"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "unbound"
-  },
-  {
-    "development_stage": "released",
-    "description": "Self hosted git server.",
-    "license_url": "https://raw.github.com/gitlabhq/gitlabhq/master/LICENSE",
-    "logo": "gitlab.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/gitlabhq/gitlabhq",
-    "name": "GitLab",
-    "tos_url": "",
-    "url": "http://www.gitlab.org",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "slug": "gitlab"
-  },
-  {
-    "development_stage": "released",
-    "description": "Firewall and router firmware based on FreeBSD.",
-    "license_url": "https://www.pfsense.org/about-pfsense/index.html",
-    "logo": "pfsense.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://redmine.pfsense.org/projects/pfsense/repository",
-    "name": "pfSense",
-    "tos_url": "",
-    "url": "https://www.pfsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/PfSense",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Routers",
-        "subcategories": [
-          "Firmware"
-        ]
-      }
-    ],
-    "slug": "pfsense"
-  },
-  {
-    "development_stage": "released",
-    "description": "A GNU/Linux distribution for embedded devices.",
-    "license_url": "https://dev.openwrt.org/browser/trunk/LICENSE",
-    "logo": "openwrt.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://dev.openwrt.org/browser/trunk",
-    "name": "OpenWrt",
-    "tos_url": "",
-    "url": "https://openwrt.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenWrt",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Routers",
-        "subcategories": [
-          "Firmware"
-        ]
-      }
-    ],
-    "slug": "openwrt"
-  },
-  {
-    "development_stage": "released",
-    "description": "A GNU/Linux-libre distribution for embedded devices.",
-    "license_url": "http://websvn.librewrt.org/filedetails.php?repname=LibreWRT+Subversion+Repository&path=%2Flibrewrt%2Ftrunk%2FLICENSE",
-    "logo": "librewrt.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://websvn.librewrt.org/listing.php",
-    "name": "LibreWRT",
-    "tos_url": "",
-    "url": "http://librewrt.org/index.php?title=Main_Page",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/LibreWRT",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Routers",
-        "subcategories": [
-          "Firmware"
-        ]
-      }
-    ],
-    "slug": "librewrt"
-  },
-  {
-    "development_stage": "released",
-    "description": "A free software disk space cleaner, privacy manager, and computer system optimizer.",
-    "license_url": "https://github.com/az0/bleachbit/blob/master/COPYING",
-    "logo": "bleachbit.png",
-    "notes": "BleachBit does not encrypt any of your data by default.",
-    "privacy_url": "",
-    "source_url": "https://github.com/az0/bleachbit",
-    "name": "BleachBit",
-    "tos_url": "",
-    "url": "http://bleachbit.sourceforge.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/BleachBit",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "slug": "bleachbit"
-  },
-  {
-    "development_stage": "released",
-    "description": "A free dynamic DNS service. Use it to update an easy DNS name with your changing/hard-to-remember IP address. As we use the standard protocols, we support a lot of routers / update clients and we even actively help you to configure them. We care for your security, privacy and comfort. You can simply use the free service available on our homepage or, if you prefer, you can also run the software on your own server.",
-    "license_url": "https://github.com/nsupdate-info/nsupdate.info/blob/master/LICENSE",
-    "logo": "nsupdate-info.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/nsupdate-info/nsupdate.info",
-    "name": "nsupdate.info",
-    "tos_url": "",
-    "url": "https://nsupdate.info/",
+    "url": "https://www.passwordstore.org/",
     "wikipedia_url": "",
     "protocols": [
-      "DNS",
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "DNS"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "DNS"
-        ]
-      },
-      {
-        "name": "Routers",
-        "subcategories": [
-          "DNS"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "DNS"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "DNS"
-        ]
-      },
-      {
-        "name": "OS X",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "slug": "nsupdate-info"
-  },
-  {
-    "development_stage": "released",
-    "description": "Password Safe (Windows/Linux), designed by Bruce Schneier. Stores passwords, site URLs, email addresses, notes and much more into encrypted container file, so you only need to remember one master password. Can generate random passwords (with optional site-specific policies).",
-    "license_url": "http://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/LICENSE",
-    "logo": "passwordsafe.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/",
-    "name": "Password Safe",
-    "tos_url": "",
-    "url": "http://pwsafe.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Password_Safe",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Password Managers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Password Managers"
-        ]
-      }
-    ],
-    "slug": "passwordsafe"
-  },
-  {
-    "development_stage": "released",
-    "description": "Password Safe (Android Port). Stores passwords, site URLs, email addresses, notes and much more into encrypted container file, so you only need to remember one master password. Can generate random passwords (with optional site-specific policies).",
-    "license_url": "http://sourceforge.net/p/passwdsafe/code/ci/default/tree/LICENSE",
-    "logo": "passwordsafe.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://sourceforge.net/p/passwdsafe/code/ci/default/tree/",
-    "name": "PasswdSafe",
-    "tos_url": "",
-    "url": "http://passwdsafe.sourceforge.net/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Password Managers"
-        ]
-      }
-    ],
-    "slug": "passwdsafe"
-  },
-  {
-    "development_stage": "experimental",
-    "description": "Free and open-source, peer-to-peer, encrypted instant messaging and video calling software. The stated goal of the project is to provide secure yet easily accessible communication for everyone.",
-    "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
-    "logo": "tox.png",
-    "notes": "Tox is a new encrypted communications system in the making. It is built upon a well known encryption library and has great potential, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Tox, be sure to leave them feedback.\n\nTox does not yet have an official GUI but [several are recommended by the development team](https://wiki.tox.im/Binaries).",
-    "privacy_url": "",
-    "source_url": "https://github.com/irungentoo/toxcore",
-    "name": "Tox",
-    "tos_url": "",
-    "url": "https://tox.im",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)",
-    "protocols": [
-      "Tox"
+      "GPG"
     ],
     "categories": [
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Password Managers"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Password Managers"
         ]
       },
       {
-        "name": "OS X",
+        "name": "macOS",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Password Managers"
         ]
       }
     ],
-    "slug": "tox"
+    "slug": "password-store"
   },
   {
-    "development_stage": "experimental",
-    "description": "Meta search engine that protects privacy and intends to return neutral search results.",
-    "license_url": "",
-    "logo": "unbubble.png",
-    "notes": "Unbubble is a web search engine from Germany providing results in eight languages. Its primary goal is to create neutral search results. It takes strong measures to protect privacy.",
-    "privacy_url": "https://unbubble.eu/info/terms#data",
-    "source_url": "",
-    "name": "Unbubble",
-    "tos_url": "https://unbubble.eu/info/terms",
-    "url": "https://unbubble.eu",
+   "development_stage": "released",
+   "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
+   "license_url": "http://wikisuite.org/License",
+   "logo": "wikisuiteorg-logo.png",
+   "notes": "",
+   "privacy_url": "",
+   "source_url": "http://wikisuite.org/Source",
+   "name": "WikiSuite",
+   "tos_url": "",
+   "url": "http://wikisuite.org/",
+   "wikipedia_url": "",
+   "protocols": [
+     "XMPP",
+     "CardDAV",
+     "SIP"
+   ],
+   "categories": [
+     {
+       "name": "Servers",
+       "subcategories": [
+         "Enterprise Suite"
+       ]
+     }
+   ],
+   "slug": "wikisuite"
+  },
+  {
+    "development_stage": "released",
+    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
+    "license_url": "https://github.com/xwiki-labs/cryptpad/blob/master/LICENSE",
+    "logo": "cryptpad.png",
+    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
+    "privacy_url": "https://cryptpad.fr/privacy.html",
+    "source_url": "https://github.com/xwiki-labs/cryptpad",
+    "name": "Cryptpad",
+    "tos_url": "https://cryptpad.fr/terms.html",
+    "url": "https://cryptpad.fr",
     "wikipedia_url": "",
     "protocols": [
       "SSL/TLS"
@@ -6070,33 +6230,35 @@
       {
         "name": "Web Services",
         "subcategories": [
-          "Web Search"
+          "Productivity"
         ]
       }
     ],
-    "slug": "unbubble"
+    "slug": "cryptpad"
   },
   {
-    "development_stage": "experimental",
-    "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for testers and security-enthusiastic developers with balls. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
-    "license_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
-    "logo": "aimsicd.png",
-    "notes": "This App is highly experimental. Please read and fully understand our [DISCLAIMER](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER).",
+    "development_stage": "released",
+    "description": " Android application compatible with ZX2C4's Pass command line application.",
+    "license_url": "https://github.com/zeapo/Android-Password-Store/blob/master/LICENSE.txt",
+    "logo": "android-password-store.png",
+    "notes": "",
     "privacy_url": "",
-    "source_url": "https://github.com/SecUpwN/Android-IMSI-Catcher-Detector",
-    "name": "Android IMSI-Catcher Detector (AIMSICD)",
+    "source_url": "https://github.com/zeapo/Android-Password-Store",
+    "name": "Password Store",
     "tos_url": "",
-    "url": "https://secupwn.github.io/Android-IMSI-Catcher-Detector/",
+    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
     "wikipedia_url": "",
-    "protocols": [],
+    "protocols": [
+      "GPG"
+    ],
     "categories": [
       {
         "name": "Android",
         "subcategories": [
-          "Cellular"
+          "Password Managers"
         ]
       }
     ],
-    "slug": "aimsicd"
+    "slug": "android-password-store"
   }
 ]
