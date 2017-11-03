@@ -1,9 +1,12 @@
 # make	 					build the entire site (all languages)
+# make test					run internal tests such as linting the source
+# make all 					test and build the entire site (all languages)
 # make init					just install NPM dependencies
 # make en					build just the English edition (replace 'en' with 'fr' for French, etc.)
 # make clean				destroy built files
 # make reset				destroy built files and build all languages from scratch
-# make watch_css			watches for stylus (CSS) edits and compiles it
+# make watch [...]			watch for any source changes and rebuild everything
+# make watch_css			watch for stylus changes and rebuild just CSS
 
 #----------------------------------------------------------------------
 # CONFIGURATION
@@ -14,9 +17,6 @@ LANGUAGES := $(notdir $(basename $(wildcard source/locales/*.json)))
 
 # Collect list of static assets that get copied over
 ASSETS := $(notdir $(wildcard source/assets/*))
-
-# Mark all rules that don’t actually check whether they need building
-.PHONY: default test lint init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync localize_%
 
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
@@ -45,38 +45,54 @@ endif
 # COMMANDS
 #----------------------------------------------------------------------
 
-# Explicitly set the default target to do everything that isn’t already done
-default: | init lint assets all public ;
+# Explicitly set the default target that does the minimum possible
+.PHONY: default
+default: assets full public
+
+# This is the kitchen-sink build that does everything
+.PHONY: all
+all: lint assets full public
 
 # Run anything that needs doing post-checkout to make this buildable
-init: node_modules ;
+.PHONY: init
+init: node_modules
 
 # Use building English language as a check to see if everything works
-test: en ;
+.PHONY: test
+test: lint en
 
+.PHONY: lint
 lint:
 	find source -type f -name '*.json' -print -exec jsonlint -q '{}' \;
 
 # Start fresh and rebuild everything
-reset: | clean default ;
+.PHONY: reset
+reset: clean default
 
 # Targets to build all the dynamically generated stuff for all languages
-all: css html ;
+.PHONY: full
+full: css html
 
 # Targets for rebuilding only single language and only what isn’t already done
-$(LANGUAGES): | init assets css html_$$@ public ;
+.PHONY: $(LANGUAGES)
+$(LANGUAGES): assets css html_$$@ public
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
 #----------------------------------------------------------------------
 
-assets: $(foreach ASSET,$(ASSETS),public/assets/$(ASSET)) ;
+.PHONY: assets
+assets: init $(foreach ASSET,$(ASSETS),public/assets/$(ASSET))
 
-css: public/assets/css/screen.css ;
+.PHONY: css
+css: init public/assets/css/screen.css
 
-html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE)) ;
+.PHONY: html
+html: init $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
 
-html_%: public/%/index.html ;
+HTMLLANGS = $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
+.PHONY: $(HTMLLANGS)
+$(HTMLLANGS): html_%: public/%/index.html
 
 public: public/.htaccess ;
 
@@ -102,6 +118,7 @@ public/assets/css/%.css: source/stylesheets/%.styl $(shell git ls-files *.styl)
 public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | grep '\b$$*\b')
 	lsc $<
 
+.PHONY: clean
 clean:
 	rm -rf public/*
 
@@ -110,21 +127,26 @@ public/.htaccess: source/dotfiles/.htaccess
 	cp $< $@
 
 # Localizations
-localize_%:
+LOCALLANGS = $(foreach LANGUAGE,$(LANGUAGES),localize_$(LANGUAGE))
+.PHONY: $(LOCALLANGS)
+$(LOCALLANGS): localize_%:
 	lsc ./source/functions/find-missing-localizations.ls $*
 
 #----------------------------------------------------------------------
 # CONVENIENCE FUNCTIONS
 #----------------------------------------------------------------------
 
+.PHONY: watch
 watch:
 	git ls-files | entr -p make $(WATCH_ARGS)
 
 # Rebuild CSS live on input changes
+.PHONY: watch_css
 watch_css:
 	stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
 
 # copy ./public to another repository and commit changes
+.PHONY: sync
 sync:
 	rsync -azru --delete --stats public/ ../prism-break-static/public/
 	(cd ../prism-break-static; git add -A; git commit -m 'regenerate'; git push)
