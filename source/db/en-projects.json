@@ -740,6 +740,53 @@
   },
   {
     "development_stage": "released",
+    "description": "Control your cookies! This WebExtension is inspired by Self Destructing Cookies. When a tab closes, any cookies not being used are automatically deleted. Whitelist the ones you trust while deleting the rest. Support for Container Tabs.",
+    "license_url": "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/blob/2.X.X-Branch/LICENSE",
+    "logo": "cookie-autodelete.png",
+    "notes": "The Android version is [available here](https://addons.mozilla.org/en-US/android/addon/cookie-autodelete/).",
+    "privacy_url": "",
+    "source_url": "https://github.com/Cookie-AutoDelete/Cookie-AutoDelete",
+    "name": "Cookie AutoDelete",
+    "tos_url": "",
+    "url": "https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      }
+    ],
+    "slug": "cookie-autodelete"
+  },
+  {
+    "development_stage": "released",
     "description": "A personal PaaS you can host, hack and delete",
     "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
     "logo": "cozy.png",
@@ -5180,53 +5227,6 @@
       }
     ],
     "slug": "seeks-project"
-  },
-  {
-    "development_stage": "released",
-    "description": "Automatically delete cookies and local storage when they are no longer used by open browser tabs.",
-    "license_url": "https://addons.mozilla.org/firefox/files/browse/235317/file/LICENSE",
-    "logo": "self-destructing-cookies.png",
-    "notes": "Only works with Firefox version 24 and above.\n\n The Android version is [available here](https://addons.mozilla.org/android/addon/self-destructing-cookies/).",
-    "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/firefox/files/browse/235317/",
-    "name": "Self-Destructing Cookies",
-    "tos_url": "",
-    "url": "https://addons.mozilla.org/firefox/addon/self-destructing-cookies/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "self-destructing-cookies"
   },
   {
     "development_stage": "experimental",
