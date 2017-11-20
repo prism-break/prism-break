@@ -5025,53 +5025,6 @@
     "slug": "seeks-project"
   },
   {
-    "development_stage": "released",
-    "description": "Автоматически удаляет куки и local storage когда они больше не используются открытыми в браузере вкладками.",
-    "license_url": "https://addons.mozilla.org/ru/firefox/files/browse/235317/file/LICENSE",
-    "logo": "self-destructing-cookies.png",
-    "notes": "Работает только с Firefox версии 24 и выше.\n\n Версия для Android [доступна здесь](https://addons.mozilla.org/ru/android/addon/self-destructing-cookies/).",
-    "privacy_url": "",
-    "source_url": "https://addons.mozilla.org/ru/firefox/files/browse/235317/",
-    "name": "Self-Destructing Cookies",
-    "tos_url": "",
-    "url": "https://addons.mozilla.org/ru/firefox/addon/self-destructing-cookies/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "self-destructing-cookies"
-  },
-  {
     "development_stage": "experimental",
     "description": "SemanticScuttle is a social bookmarking tool experimenting with features like structured tags and collaborative tag descriptions.",
     "license_url": "https://github.com/cweiske/SemanticScuttle/blob/master/www/about.php",
