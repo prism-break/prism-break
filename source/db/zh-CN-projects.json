@@ -5047,50 +5047,6 @@
     "slug": "seeks-project"
   },
   {
-    "development_stage": "released",
-    "description": "自动删除那些不再被使用的 cookies 和 local storage。",
-    "logo": "self-destructing-cookies.png",
-    "notes": "只能在版本高于 24 的 Firefox 上使用\n\n 在[这里](https://addons.mozilla.org/android/addon/self-destructing-cookies/)可以找到安卓版。",
-    "privacy_url": "",
-    "name": "Self-Destructing Cookies",
-    "tos_url": "",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "self-destructing-cookies"
-  },
-  {
     "development_stage": "experimental",
     "description": "SemanticScuttle 是一个社会书签工具，提供结构化标签和协作标签描述之类的试验性功能。",
     "license_url": "https://github.com/cweiske/SemanticScuttle/blob/master/www/about.php",
