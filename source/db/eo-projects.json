@@ -4544,41 +4544,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Fedora/Xen-based OS designed to provide strong security through isolation.",
-    "license_url": "http://qubes-os.org/trac/wiki/QubesLicensing",
-    "logo": "qubes-os.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://git.qubes-os.org/",
-    "name": "Qubes",
-    "tos_url": "",
-    "url": "http://qubes-os.org/trac",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "slug": "qubes"
-  },
-  {
-    "development_stage": "released",
     "description": "A privacy enhancing firefox add-on which aims to hinder browser fingerprinting.",
     "license_url": "https://github.com/dillbyrne/random-agent-spoofer/blob/master/LICENSE",
     "logo": "ras.png",

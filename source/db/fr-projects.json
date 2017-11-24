@@ -4547,14 +4547,14 @@
   {
     "development_stage": "released",
     "description": "Système d'exploitation basé sur Fedora/Xen qui permet une grande sécurité grâce à l'isolation.",
-    "license_url": "http://qubes-os.org/trac/wiki/QubesLicensing",
+    "license_url": "https://www.qubes-os.org/doc/license/",
     "logo": "qubes-os.png",
     "notes": "",
     "privacy_url": "",
-    "source_url": "http://git.qubes-os.org/",
+    "source_url": "https://www.qubes-os.org/doc/source-code/",
     "name": "Qubes",
     "tos_url": "",
-    "url": "http://qubes-os.org/trac",
+    "url": "https://www.qubes-os.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS",
     "protocols": [],
     "categories": [
