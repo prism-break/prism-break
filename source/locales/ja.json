@@ -140,7 +140,7 @@
   "video-voice-notes": "--",
   "Social Networking": "ソーシャルネットワーキング",
   "Protocol": "プロトコル",
-  "social-networks-notes": "<p>システム管理に関する知識をお持ちの場合は、あなたの友達、家族、またはお気に入りのコミュニティのために <strong>pump.io</strong> (または他の何か) インスタンスの実行を強く検討してください。 それらを提供すると、彼らの多くは喜んで Facebook から脱出して感謝することでしょう。</p><p>独自のサーバーを持たないあなたにとって、 <strong>RetroShare</strong> はあなた独自の暗号化されたソーシャルネットワークを始める最も簡単な方法です。</p><p><strong><a href='https://identi.ca/'>identi.ca</a></strong> は <strong>pump.io</strong> ソフトウェアプラットフォームを実行する、フリーでオープンソースのソフトウェアコミュニティ向けの、人気のある Twitter ライクのソーシャルネットワーキング ハブです。</p>",
+  "social-networks-notes": "--",
   "Cloud Storage": "クラウドストレージ",
   "file-storage-sync-notes": "<p>クラウドファイルストレージは <strong>Kolab</strong> の <a href='https://git.kolab.org/kolab-chwala/'>Chwala</a>/<a href='https://git.kolab.org/iRony/'>iRony</a> コンポーネントを介して利用することができ、 <a href='https://kolab.org/news/2013/08/07/community-news-meet-chwala-kolabs-new-files-component'>さまざまなストレージバックエンド</a> と統合することができます。 ファイルは、ストレージアクセスオプション、WebDAV、Roundcube を統合した Kolab Web インターフェイスを介してアクセスすることができます。</p><p>Tarsnap が停止した場合にサービスを置き換えることが困難な <a href='https://github.com/nylira/prism-break/issues/555#issuecomment-23216365'>クライアントに対する厳格な著作権</a> のため、PRISM Break で Tarsnap はお勧めしません。</p><p>BitTorrent Sync, MEGA, SpiderOak は、部分的または完全にプロプライエタリのソフトウェアで構築されたサービスです。 彼らがコードベース全体のソースをオープンにするまで、PRISM Break ではお勧めしません。</p><p> クローズドソースソフトウェアでは、個人情報漏洩に関してモラル以外には何もないので、ベンダーを 100% 信頼する必要があります。 あなたが完全性を保証することができたとしても、プロプライエタリなソフトウェアは、ソースコードを調べる目が少ないため、常に不正なセキュリティバグや悪用があります。</p><p>クラウドストレージのもう 1 つの選択肢は、外付けハードドライブと USB フラッシュドライブによるローカルバックアップです。 この方法は、データをネットワークに格納するよりも確実に安全ですが、利便性の面でコストがかかります。</p>",
   "Scheduling": "スケジュール",
