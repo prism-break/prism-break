@@ -1,33 +1,5 @@
 [
   {
-    "development_stage": "released",
-    "description": "用于苹果 macOS 操作系统的免费聊天软件，支持多种协议。记得开启 OTR 加密。",
-    "license_url": "https://trac.adium.im/wiki/Development",
-    "logo": "adium.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://trac.adium.im/wiki/GettingAdiumSource",
-    "name": "Adium",
-    "tos_url": "",
-    "url": "https://adium.im/",
-    "wikipedia_url": "https://zh.wikipedia.org/wiki/Adium",
-    "protocols": [
-      "IRC",
-      "OTR",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      }
-    ],
-    "slug": "adium"
-  },
-  {
     "development_stage": "experimental",
     "description": "基于开源安卓项目，帮助用户检测和避开伪基站（IMSI 捕捉器）或其他无加密/弱加密基站。本项目旨在协助用户了解加密和其他一些保护机制是否处于启用状态。事物总是在发展，我们永远欢迎测试者以及热衷信息安全的开发者。不必拘束，你可以做任何你能做的贡献。我们的 [GitHub](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector)。我们的 [XDA](https://forum.xda-developers.com/showthread.php?t=1422969)。感谢你的参与！",
     "license_url": "https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/blob/master/LICENSE",
