@@ -22,10 +22,9 @@ PRISM Break strives to promote the best open source applications. Ease of use, s
 
 This can vary case-to-case, but generally here are the attributes we look for:
 
+ ** Can keep up with security events
  ** Understand security and take it seriously (this is very broad, but can range from "don't invent your own crypto" to "think about and design against metadata leaks")
  ** Offers security advantages that other projects don't
- ** Can keep up with security events
- ** Doesn't depend on, imply or promote insecure things including and especially things in the "proprietary" column
 
  - **Before suggesting software, please first search this repository to see if your request has already been made.**
 
