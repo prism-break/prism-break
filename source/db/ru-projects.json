@@ -3707,43 +3707,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Установите и включите этот плагин в Pidgin для шифрования чата.",
-    "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
-    "logo": "otr.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://otr.cypherpunks.ca/index.php#git",
-    "name": "Off-the-Record Messaging",
-    "tos_url": "",
-    "url": "https://otr.cypherpunks.ca/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Off-the-Record_Messaging",
-    "protocols": [
-      "OTR"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "off-the-record-messaging"
-  },
-  {
-    "development_stage": "released",
     "description": "Просматривайте веб-страницы через сеть Tor используя этот браузер с открытым исходным кодом для устройств с iOS.",
     "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
     "logo": "onion-browser.png",
@@ -4237,49 +4200,6 @@
       }
     ],
     "slug": "pfsense"
-  },
-  {
-    "development_stage": "released",
-    "description": "Свободная универсальная программа для мгновенного обмена сообщениями.",
-    "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
-    "logo": "pidgin.png",
-    "notes": "Pidgin хранит пароли от ваших аккаунтов [в открытом виде](https://developer.pidgin.im/wiki/PlainTextPasswords). Вы можете избежать этого не сохраняя пароли в Pidgin, или зашифровав вашу файловую систему, или храня ваши пароли безопасно с помощью пакета для Debian [pidgin-gnome-keyring](https://github.com/aebrahim/pidgin-gnome-keyring).\n\nPidgin с OTR и включенным dbus имеет локальный баг в безопасности. Смотрите [баг репорт](https://developer.pidgin.im/ticket/14830) для получения более подробной информации о баге и возможных способах обхода.",
-    "privacy_url": "",
-    "source_url": "http://hg.pidgin.im/pidgin/main/",
-    "name": "Pidgin",
-    "tos_url": "",
-    "url": "https://www.pidgin.im/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Pidgin",
-    "protocols": [
-      "IRC",
-      "OTR",
-      "SIP",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      }
-    ],
-    "slug": "pidgin"
   },
   {
     "development_stage": "released",

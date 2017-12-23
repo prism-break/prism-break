@@ -3803,43 +3803,6 @@
   },
   {
     "development_stage": "released",
-    "description": "安装并启用这个插件来加密在 Pidgin 中的聊天",
-    "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
-    "logo": "otr.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://otr.cypherpunks.ca/index.php#git",
-    "name": "Off-the-Record Messaging",
-    "tos_url": "",
-    "url": "https://otr.cypherpunks.ca/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
-    "protocols": [
-      "OTR"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "off-the-record-messaging"
-  },
-  {
-    "development_stage": "released",
     "description": "IOS 平台上的开源浏览器，基于 Tor。",
     "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
     "logo": "onion-browser.png",
@@ -4333,49 +4296,6 @@
       }
     ],
     "slug": "pfsense"
-  },
-  {
-    "development_stage": "released",
-    "description": "开源聊天程序",
-    "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
-    "logo": "pidgin.png",
-    "notes": "Pidgin 使用[明文存储你的 IM 账户和密码](https://developer.pidgin.im/wiki/PlainTextPasswords)。你可以通过如下方法来避免：（1）不要在 Pidgin 中保存账户密码 （2）加密你的文件系统 （3）使用 Debian 软件包 [pidgin-gnome-keyring](https://github.com/aebrahim/pidgin-gnome-keyring) 安全地保存你的 Pidgin 密码。\n\n启用来 OTR 和 dbus 的 Pidgin 存在本地安全漏洞，请参阅 [upstream bug report](https://developer.pidgin.im/ticket/14830) 获得更多信息和可能的解决方案。",
-    "privacy_url": "",
-    "source_url": "http://hg.pidgin.im/pidgin/main/",
-    "name": "Pidgin",
-    "tos_url": "",
-    "url": "https://www.pidgin.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pidgin_%28software%29",
-    "protocols": [
-      "IRC",
-      "OTR",
-      "SIP",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      }
-    ],
-    "slug": "pidgin"
   },
   {
     "development_stage": "released",

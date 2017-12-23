@@ -3706,43 +3706,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Da installare e abilitare su Pidgin per cifrare le proprie chat.",
-    "license_url": "http://sourceforge.net/p/otr/pidgin-otr/ci/master/tree/COPYING",
-    "logo": "otr.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://otr.cypherpunks.ca/index.php#git",
-    "name": "Off-the-Record Messaging",
-    "tos_url": "",
-    "url": "https://otr.cypherpunks.ca/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
-    "protocols": [
-      "OTR"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "off-the-record-messaging"
-  },
-  {
-    "development_stage": "released",
     "description": "Naviga in internet attraverso la rete Tor con questo browser open source per iOS.",
     "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
     "logo": "onion-browser.png",
@@ -4236,49 +4199,6 @@
       }
     ],
     "slug": "pfsense"
-  },
-  {
-    "development_stage": "released",
-    "description": "Programma libero per messaggistica istantanea multiprotocollo.",
-    "license_url": "http://hg.pidgin.im/pidgin/main/file/cefaf531281e/COPYING",
-    "logo": "pidgin.png",
-    "notes": "Pidgin memorizza le password dei tuoi account di chat [in chiaro](https://developer.pidgin.im/wiki/PlainTextPasswords). Se vuoi evitarlo puoi (1) non salvare le password in Pidgin, (2) criptare il tuo file system, oppure (3) salvare le tue password di Pidgin in modo sicuro con il pacchetto Debian [pidgin-gnome-keyring](https://github.com/aebrahim/pidgin-gnome-keyring).\n\nPidgin con OTR e dbus attivi ha un bug di sicurezza locale. Vedi la [segnalazione del bug](https://developer.pidgin.im/ticket/14830) per maggiori informazioni e possibili soluzioni.",
-    "privacy_url": "",
-    "source_url": "http://hg.pidgin.im/pidgin/main/",
-    "name": "Pidgin",
-    "tos_url": "",
-    "url": "https://www.pidgin.im/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/Pidgin_%28software%29",
-    "protocols": [
-      "IRC",
-      "OTR",
-      "SIP",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      }
-    ],
-    "slug": "pidgin"
   },
   {
     "development_stage": "released",
