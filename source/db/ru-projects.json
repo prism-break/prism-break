@@ -4389,47 +4389,6 @@
   },
   {
     "development_stage": "released",
-    "description": "A privacy enhancing firefox add-on which aims to hinder browser fingerprinting.",
-    "license_url": "https://github.com/dillbyrne/random-agent-spoofer/blob/master/LICENSE",
-    "logo": "ras.png",
-    "notes": "**Random Agent Spoofer** should be obtained from their [GitHub releases page](https://github.com/dillbyrne/random-agent-spoofer/releases), the Mozilla Add-ons version has limited functionality.",
-    "privacy_url": "",
-    "source_url": "https://github.com/dillbyrne/random-agent-spoofer",
-    "name": "Random Agent Spoofer",
-    "tos_url": "",
-    "url": "https://github.com/dillbyrne/random-agent-spoofer#readme",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "ras"
-  },
-  {
-    "development_stage": "released",
     "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
     "license_url": "https://github.com/redmatrix/hubzilla/blob/master/LICENSE",
     "logo": "hubzilla.png",
