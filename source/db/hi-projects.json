@@ -3249,8 +3249,8 @@
     "description": "Meta search engine that proxies your queries to multiple search providers.",
     "logo": "metager.png",
     "license_url": "https://gitlab.metager3.de/open-source/MetaGer/blob/development/LICENSE",
-    "source_url": "https://gitlab.metager3.de/open-source/MetaGer", 
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.", 
+    "source_url": "https://gitlab.metager3.de/open-source/MetaGer",
+    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
     "privacy_url": "https://metager.de/en/datenschutz",
     "name": "MetaGer",
     "tos_url": "",
@@ -4501,7 +4501,7 @@
           "File Storage & Sync",
           "Media Publishing",
           "Productivity",
-          "Social Networks"      
+          "Social Networks"
         ]
       },
       {
@@ -5963,31 +5963,31 @@
     "slug": "password-store"
   },
   {
-   "development_stage": "released",
-   "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
-   "license_url": "http://wikisuite.org/License",
-   "logo": "wikisuiteorg-logo.png",
-   "notes": "",
-   "privacy_url": "",
-   "source_url": "http://wikisuite.org/Source",
-   "name": "WikiSuite",
-   "tos_url": "",
-   "url": "http://wikisuite.org/",
-   "wikipedia_url": "",
-   "protocols": [
-     "XMPP",
-     "CardDAV",
-     "SIP"
-   ],
-   "categories": [
-     {
-       "name": "Servers",
-       "subcategories": [
-         "Enterprise Suite"
-       ]
-     }
-   ],
-   "slug": "wikisuite"
+    "development_stage": "released",
+    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
+    "license_url": "http://wikisuite.org/License",
+    "logo": "wikisuiteorg-logo.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "http://wikisuite.org/Source",
+    "name": "WikiSuite",
+    "tos_url": "",
+    "url": "http://wikisuite.org/",
+    "wikipedia_url": "",
+    "protocols": [
+      "XMPP",
+      "CardDAV",
+      "SIP"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Enterprise Suite"
+        ]
+      }
+    ],
+    "slug": "wikisuite"
   },
   {
     "development_stage": "released",
