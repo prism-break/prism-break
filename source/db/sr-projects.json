@@ -5767,32 +5767,6 @@
   },
   {
     "development_stage": "released",
-    "description": "OTR-šifrovano dopisivanje za Android.",
-    "license_url": "https://github.com/redsolution/xabber-android/blob/master/LICENSE",
-    "logo": "xabber.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/redsolution/xabber-android",
-    "name": "Xabber",
-    "tos_url": "",
-    "url": "http://www.xabber.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "OTR",
-      "SSL/TLS",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "xabber"
-  },
-  {
-    "development_stage": "released",
     "description": "Decentralizovana internet pretraga.",
     "license_url": "https://github.com/yacy/yacy_search_server/blob/master/COPYRIGHT",
     "logo": "yacy.png",
