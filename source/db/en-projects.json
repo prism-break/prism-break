@@ -686,7 +686,7 @@
     "description": "Conversations is an open source XMPP/Jabber client for Android 4.0+ smart phones.",
     "license_url": "https://github.com/siacs/Conversations/blob/development/LICENSE",
     "logo": "conversations.png",
-    "notes": "",
+    "notes": "Conversations' one native code dependency on iNPUTmice is [discussed here](https://github.com/nylira/prism-break/issues/1659#issuecomment-269921269).",
     "privacy_url": "",
     "source_url": "https://github.com/siacs/Conversations.git",
     "name": "Conversations",
