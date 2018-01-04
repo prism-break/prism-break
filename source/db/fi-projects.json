@@ -5815,7 +5815,7 @@
     "description": "Laajennettava ja muokattava chat-asiakasohjelma, joka tukee IRC- ja XMPP-protokollia.",
     "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
     "logo": "weechat.png",
-    "notes": "WeeChat does ei salaa viestejä oletuksena, mutta salaus on mahdollista tehdä FiSH salauslaajennoksella.",
+    "notes": "",
     "privacy_url": "",
     "source_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=summary",
     "name": "WeeChat",
