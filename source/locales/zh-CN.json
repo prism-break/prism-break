@@ -135,7 +135,7 @@
   "Email Encryption": "电子邮件加密",
   "email-encryption-notes": "<p>“良好隐私加密算法（PGP）是用于数据加密和解密的程序，它提供了通信数据的加密和验证。 PGP常被用于数字签名、加密和解密，可用于文本、电子邮件、文件、目录和整个磁盘分区，以增加电子邮件通信的安全性。”</p><p>— 维基百科（<a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>英文</a> | <a href='https://zh.wikipedia.org/wiki/%E8%89%AF%E5%A5%BD%E9%9A%B1%E7%A7%81%E5%AF%86%E7%A2%BC%E6%B3%95'>中文</a>）</p><p>阅读自由软件基金会撰写的<a href='https://emailselfdefense.fsf.org/'>电子邮件自我保护教程</a>，了解更多关于加密电邮的信息。</p>",
   "Instant Messaging": "即时通讯",
-  "instant-messaging-notes": "<p>“Off-the-Record Messaging 协议，常常缩写为 OTR，是一种强大的即时通讯加密协议。OTR 使用 AES 对称密钥算法，Diffie-Hellman 密钥交换，以及SHA-1散列函数的组合。除了身份验证和加密，OTR提供完全正向保密和延展性加密。</p><p>这个协议的主要目的是为谈话参与者提供/“不可抵赖的/”（不可伪造的）、保密的即时通讯。就好像现实中的私下密谈，或者新闻学中的/“无记录/”一样。”</p><p>— 维基百科<a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>（英文）</a></p><p>请注意<strong>Pidgin</strong>使用<a href='https://developer.pidgin.im/wiki/PlainTextPasswords'>明文存储你的 IM 账户和密码</a>。你可以通过如下方法来避免：（1）不要在Pidgin中保存账户密码 （2）加密你的文件系统 （3）使用 Debian 软件包 <a href='https://github.com/aebrahim/pidgin-gnome-keyring'>pidgin-gnome-keyring</a> 安全地保存你的 Pidgin 密码。</p><p>启用来 OTR 和 dbus 的 Pidgin 存在本地安全漏洞，请参阅 <a href='https://developer.pidgin.im/ticket/14830'>upstream bug report</a> 获得更多信息和可能的解决方案。</p>",
+  "instant-messaging-notes": "<p>“Off-the-Record Messaging 协议，常常缩写为 OTR，是一种强大的即时通讯加密协议。OTR 使用 AES 对称密钥算法，Diffie-Hellman 密钥交换，以及SHA-1散列函数的组合。除了身份验证和加密，OTR提供完全正向保密和延展性加密。</p><p>这个协议的主要目的是为谈话参与者提供/“不可抵赖的/”（不可伪造的）、保密的即时通讯。就好像现实中的私下密谈，或者新闻学中的/“无记录/”一样。”</p><p>— 维基百科<a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>（英文）</a></p>",
   "irc-notes": "--",
   "Video and VoIP": "视频通话和 VoIP 网络电话",
   "video-voice-notes": "--",
