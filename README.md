@@ -18,7 +18,7 @@ PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.or
 
 PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
 
- - **The software must actually be secure.**
+ - **The software must have a strong security focus.**
 
 This can vary case-to-case, but generally here are the attributes we look for:
 
