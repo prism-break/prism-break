@@ -4450,46 +4450,6 @@
     "slug": "replicant"
   },
   {
-    "development_stage": "experimental",
-    "description": "Hangi siteler-arası isteklere izin verildiğini ziyaret edilen sitelere göre kontrol edin.",
-    "license_url": "https://github.com/RequestPolicyContinued/requestpolicy/blob/dev-1.0/LICENSE",
-    "logo": "request-policy.png",
-    "privacy_url": "https://requestpolicycontinued.github.io/Privacy.html",
-    "source_url": "https://github.com/RequestPolicyContinued/requestpolicy",
-    "name": "Request Policy",
-    "tos_url": "",
-    "url": "https://requestpolicycontinued.github.io/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Browser Addons"
-        ]
-      }
-    ],
-    "slug": "request-policy"
-  },
-  {
     "development_stage": "released",
     "description": "IM, forumlar, VoIP, dosya paylaşımı ve fazlasını sunan güvenli P2P iletişim platformu.",
     "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
