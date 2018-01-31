@@ -27,9 +27,6 @@ ASSETS := $(notdir $(wildcard source/assets/*))
 # Figure out the absolute path to the directory where this Makefile is
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))" && pwd)
 
-# Prepend the local NPM bin dir to the path for the scope of this Makefile
-export PATH := $(BASE)/node_modules/.bin:$(PATH)
-
 # This is a hack for the ‘watch’ targets later on. It has to be
 # early to nullify any targets that might otherwise run, but in
 # the end allows extra parameters to be passed on to the next make
@@ -60,7 +57,7 @@ test: lint en
 
 .PHONY: lint
 lint:
-	find source -type f -name '*.json' -print -exec jsonlint -q '{}' \;
+	find source -type f -name '*.json' -print -exec yarn run jsonlint -q '{}' \;
 
 # Start fresh and rebuild everything
 .PHONY: reset
@@ -97,9 +94,12 @@ public: public/.htaccess ;
 # FUNCTIONS
 #----------------------------------------------------------------------
 
-node_modules: package.json
+yarn.lock: package.json
 	yarn install
-	touch node_modules
+
+node_modules: yarn.lock
+	yarn install --check-files
+	touch $@
 
 # Copy fixed assets from the source tree (if newer files exist)
 public/assets/%: source/assets/% $$(shell find source/assets/$$* -type f)
@@ -109,11 +109,11 @@ public/assets/%: source/assets/% $$(shell find source/assets/$$* -type f)
 # Rebuild stylesheet if any of the input templates change
 public/assets/css/%.css: source/stylesheets/%.styl $(shell git ls-files *.styl)
 	mkdir -p $(dir $@)
-	stylus -c -u nib < $< > $@
+	yarn -s run stylus -c -u nib < $< > $@
 
 # Use script to rebuild index if index is older than any files with this locale in the name
 public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | grep '\b$$*\b')
-	lsc $<
+	yarn -s run lsc $<
 
 .PHONY: clean
 clean:
@@ -127,7 +127,7 @@ public/.htaccess: source/dotfiles/.htaccess
 LOCALLANGS = $(foreach LANGUAGE,$(LANGUAGES),localize_$(LANGUAGE))
 .PHONY: $(LOCALLANGS)
 $(LOCALLANGS): localize_%:
-	lsc ./source/functions/find-missing-localizations.ls $*
+	yarn -s run lsc ./source/functions/find-missing-localizations.ls $*
 
 #----------------------------------------------------------------------
 # CONVENIENCE FUNCTIONS
@@ -140,7 +140,7 @@ watch:
 # Rebuild CSS live on input changes
 .PHONY: watch_css
 watch_css:
-	stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
+	yarn -s run stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
 
 # copy ./public to another repository and commit changes
 .PHONY: sync
