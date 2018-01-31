@@ -121,6 +121,7 @@ public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | gr
 .PHONY: clean
 clean:
 	rm -rf public/*
+	find -type f -name '*.json.lint' -delete
 
 public/.htaccess: source/dotfiles/.htaccess
 	mkdir -p $(dir $@)
