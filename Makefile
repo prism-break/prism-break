@@ -30,9 +30,6 @@ BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))" && pwd)
 # Prepend the local NPM bin dir to the path for the scope of this Makefile
 export PATH := $(BASE)/node_modules/.bin:$(PATH)
 
-# Use yarn if the system has it, otherwise npm
-NPM_HANDLER ?= $(shell hash yarn && echo yarn || echo npm)
-
 # This is a hack for the ‘watch’ targets later on. It has to be
 # early to nullify any targets that might otherwise run, but in
 # the end allows extra parameters to be passed on to the next make
@@ -101,7 +98,7 @@ public: public/.htaccess ;
 #----------------------------------------------------------------------
 
 node_modules: package.json
-	$(NPM_HANDLER) install
+	yarn install
 	touch node_modules
 
 # Copy fixed assets from the source tree (if newer files exist)
