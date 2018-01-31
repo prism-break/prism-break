@@ -56,8 +56,11 @@ init: node_modules
 test: lint en
 
 .PHONY: lint
-lint:
-	find source -type f -name '*.json' -print -exec yarn run jsonlint -q '{}' \;
+lint: $(foreach SOURCE,$(shell find source -type f -name '*.json'),$(SOURCE).lint)
+
+%.lint: %
+	yarn -s run jsonlint -q $<
+	touch $@
 
 # Start fresh and rebuild everything
 .PHONY: reset
