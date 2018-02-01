@@ -4113,14 +4113,14 @@
   {
     "development_stage": "released",
     "description": "Análisis de estadísticas web, libre y auto-hospedado.",
-    "license_url": "https://github.com/piwik/piwik/blob/master/LEGALNOTICE",
-    "logo": "piwik.png",
+    "license_url": "https://github.com/matomo-org/matomo/blob/master/LEGALNOTICE",
+    "logo": "matomo.png",
     "privacy_url": "",
-    "source_url": "https://github.com/piwik/piwik",
-    "name": "Piwik",
+    "source_url": "https://github.com/matomo-org/matomo",
+    "name": "Matomo",
     "tos_url": "",
-    "url": "https://piwik.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwik",
+    "url": "https://matomo.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)",
     "protocols": [],
     "categories": [
       {
@@ -4130,7 +4130,7 @@
         ]
       }
     ],
-    "slug": "piwik"
+    "slug": "matomo"
   },
   {
     "development_stage": "released",
