@@ -6254,5 +6254,37 @@
       }
     ],
     "slug": "android-password-store"
+  },
+  {
+    "development_stage": "released",
+    "description": "Self-hosted, decentralized OStatus-compatible social network.",
+    "license_url": "https://github.com/tootsuite/mastodon/blob/master/LICENSE",
+    "logo": "mastodon.svg",
+    "notes": "Policies may vary between instances, choose one that fits you.",
+    "privacy_url": "",
+    "source_url": "https://github.com/tootsuite/mastodon",
+    "name": "Mastodon",
+    "tos_url": "",
+    "url": "https://joinmastodon.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mastodon_(software)",
+    "protocols": [
+      "OStatus",
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Social Networks"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Social Networks"
+        ]
+      }
+    ],
+    "slug": "mastodon"
   }
 ]
