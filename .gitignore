@@ -2,6 +2,7 @@
 *~
 *.log
 .*.s[a-w][a-z]
+*.json.lint
 
 log/
 node_modules/
