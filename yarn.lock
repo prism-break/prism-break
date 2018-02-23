@@ -215,12 +215,12 @@ jade@~1.11.0:
     void-elements "~2.0.1"
     with "~4.0.0"
 
-jsonlint@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/jsonlint/-/jsonlint-1.6.2.tgz#5737045085f55eb455c68b1ff4ebc01bd50e8830"
+jsonlint2@^1.7.0:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/jsonlint2/-/jsonlint2-1.7.1.tgz#9245d18cb5512e3ac95828d4d777340ed5e82ad7"
   dependencies:
     JSV ">= 4.0.x"
-    nomnom ">= 1.5.x"
+    nomnom "1.8.1"
 
 jstransformer@0.0.2:
   version "0.0.2"
@@ -300,7 +300,7 @@ nib@~1.1.0:
   dependencies:
     stylus "0.54.5"
 
-"nomnom@>= 1.5.x":
+nomnom@1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/nomnom/-/nomnom-1.8.1.tgz#2151f722472ba79e50a76fc125bb8c8f2e4dc2a7"
   dependencies:
