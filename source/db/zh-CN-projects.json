@@ -2479,31 +2479,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Ixquick 是一个位于纽约和荷兰的元搜索引擎。",
-    "license_url": "",
-    "logo": "ixquick.png",
-    "notes": "Ixquick 与 Startpage 来自同一家公司。Ixquick 提供 100 多个数据源的搜索结果，但不包括 Google。",
-    "privacy_url": "https://ixquick.eu/eng/privacy-policy.html",
-    "source_url": "",
-    "name": "Ixquick",
-    "tos_url": "",
-    "url": "https://ixquick.eu/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "ixquick"
-  },
-  {
-    "development_stage": "released",
     "description": "加密的跨平台文本、语音、视频聊天工具。",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",

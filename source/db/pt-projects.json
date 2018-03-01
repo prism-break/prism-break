@@ -2380,31 +2380,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Ixquick is a metasearch engine based in New York and the Netherlands. ",
-    "license_url": "",
-    "logo": "ixquick.png",
-    "notes": "Ixquick returns the top ten results from multiple search engines.\n\n In contrast to ixquick.eu, its sibling project Startpage.com offer results from the Google search engine.\n\n It also provides the stand-alone Ixquick Proxy service that allows users to open search results via proxy.",
-    "privacy_url": "https://ixquick.eu/eng/privacy-policy.html",
-    "source_url": "",
-    "name": "Ixquick",
-    "tos_url": "",
-    "url": "https://ixquick.eu/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "ixquick"
-  },
-  {
-    "development_stage": "released",
     "description": "Conversas criptografadas de text e video.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
@@ -4862,7 +4837,7 @@
     "description": "Pesquisas privadas, sem histórico salvo.",
     "license_url": "",
     "logo": "startpage.png",
-    "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy. Its sibling project ixquick.eu, however, offer results from other search engine.\n\n Ixquick also provides the stand-alone Ixquick Proxy service that allows users to open search results via proxy.\n\n As of February 19, 2015, Startpage.com is the default search engine in the Tor Browser.",
+    "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy. As of February 19, 2015, Startpage.com is the default search engine in the Tor Browser.",
     "privacy_url": "https://startpage.com/eng/protect-privacy.html",
     "source_url": "",
     "name": "Startpage",
