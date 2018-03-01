@@ -3464,13 +3464,13 @@
   {
     "development_stage": "released",
     "description": "Distribuirani DNS baziran na Bitcoin tehnologiji.",
-    "license_url": "https://github.com/namecoin/namecoin/blob/master/COPYING",
+    "license_url": "https://github.com/namecoin/namecoin-core/blob/master/COPYING",
     "logo": "namecoin.png",
     "privacy_url": "",
-    "source_url": "https://github.com/namecoin/namecoin",
+    "source_url": "https://github.com/namecoin/namecoin-core",
     "name": "Namecoin",
     "tos_url": "",
-    "url": "http://namecoin.info/",
+    "url": "https://namecoin.org",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Namecoin",
     "protocols": [
       "DNS"
