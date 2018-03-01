@@ -5581,14 +5581,35 @@
     ],
     "categories": [
       {
-        "name": "Servers",
+        "name": "GNU/Linux",
         "subcategories": [
           "Media Publishing",
           "Productivity"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "BSD",
+        "subcategories": [
+          "Media Publishing",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Media Publishing",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Media Publishing",
+          "Productivity"
+        ]
+      },
+      {
+        "name": "Servers",
         "subcategories": [
           "Media Publishing",
           "Productivity"
