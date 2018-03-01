@@ -1003,13 +1003,13 @@
   {
     "development_stage": "released",
     "description": "Un outil pour sécuriser les communications entre un client et un résolveur DNS.",
-    "license_url": "https://github.com/jedisct1/dnscrypt-proxy/blob/master/COPYING",
+    "license_url": "https://github.com/jedisct1/dnscrypt-proxy/blob/master/LICENSE",
     "logo": "dnscrypt.png",
     "privacy_url": "",
     "source_url": "https://github.com/jedisct1/dnscrypt-proxy",
     "name": "DNSCrypt",
     "tos_url": "",
-    "url": "http://dnscrypt.org/",
+    "url": "https://dnscrypt.info",
     "wikipedia_url": "",
     "protocols": [
       "DNS"

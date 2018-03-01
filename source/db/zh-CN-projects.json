@@ -1002,13 +1002,13 @@
   {
     "development_stage": "released",
     "description": "一个保障客户端与 DNS 服务器通讯安全的软件。",
-    "license_url": "https://github.com/jedisct1/dnscrypt-proxy/blob/master/COPYING",
+    "license_url": "https://github.com/jedisct1/dnscrypt-proxy/blob/master/LICENSE",
     "logo": "dnscrypt.png",
     "privacy_url": "",
     "source_url": "https://github.com/jedisct1/dnscrypt-proxy",
     "name": "DNSCrypt",
     "tos_url": "",
-    "url": "http://dnscrypt.org/",
+    "url": "https://dnscrypt.info",
     "wikipedia_url": "",
     "protocols": [
       "DNS"
