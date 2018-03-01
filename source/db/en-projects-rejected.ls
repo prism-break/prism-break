@@ -309,9 +309,9 @@ projects-rejected =
     name: "Facebook"
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts", "Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks", "Video & Voice"]
       * name: "Servers"
-        subcategories: ["Email Server", "Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks", "Video & Voice"]
     ]
 
   * status: 'rejected'
@@ -930,7 +930,7 @@ projects-rejected =
       * name: "Servers"
         subcategories: ["Productivity"]
     ]
-	
+
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "roboform.png"
@@ -1217,7 +1217,7 @@ projects-rejected =
       * name: "Servers"
         subcategories: ["Instant Messaging"]
     ]
-	
+
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "mIRC.png"
