@@ -1200,7 +1200,15 @@
         ]
       }
     ],
-    "slug": "ecryptfs"
+    "slug": "ecryptfs",
+    "audit": {
+      "author": "Taylor Hornby",
+      "date": "2014-01-22",
+      "development_stage": "released",
+      "description": "eCryptfs appears to have a better crypto design than EncFS, but there are some red flags indicating that it was not designed by a cryptographer, and has not received enough security review. It should be safe to use, but more auditing would be a good idea.",
+      "rating": "0",
+      "url": "https://defuse.ca/audits/ecryptfs.htm"
+    }
   },
   {
     "development_stage": "released",
