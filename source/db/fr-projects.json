@@ -268,65 +268,6 @@
     "slug": "bitmessage"
   },
   {
-    "development_stage": "experimental",
-    "description": "Bookie est une application open source de gestion de marque-page.",
-    "license_url": "https://github.com/bookieio/Bookie/blob/develop/COPYING",
-    "logo": "bookie.png",
-    "notes": "L'hébergement Bookie.io a fermé mais l'application peut toujours être auto-hébergé. Voir <a href='http://docs.bmark.us/en/latest/hosting.html'>leur documentation</a> pour plus de détails.",
-    "privacy_url": "",
-    "source_url": "https://github.com/bookieio/Bookie",
-    "name": "Bookie",
-    "tos_url": "",
-    "url": "https://github.com/bookieio/Bookie",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      }
-    ],
-    "slug": "bookie"
-  },
-  {
     "development_stage": "released",
     "description": "Réseau social fédéré open-source.",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
