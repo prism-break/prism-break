@@ -1085,30 +1085,6 @@
   },
   {
     "development_stage": "released",
-    "description": "私密的 XMPP 服务，运行在 DuckDuckGo 社区平台。—包含使用说明。",
-    "license_url": "",
-    "logo": "duckduckgo.png",
-    "privacy_url": "",
-    "source_url": "",
-    "name": "dukgo.com",
-    "tos_url": "",
-    "url": "https://duck.co/blog/using-pidgin-with-xmpp-jabber",
-    "wikipedia_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "dukgocom"
-  },
-  {
-    "development_stage": "released",
     "description": "GNU/Linux 平台下的可移植的企业级加密文件存储系统。",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
     "privacy_url": "",
