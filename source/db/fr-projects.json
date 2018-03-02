@@ -4494,14 +4494,14 @@
   {
     "development_stage": "released",
     "description": "Plate-forme libre et sécurisée de communications pair-à-pair.",
-    "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
+    "license_url": "https://github.com/RetroShare/RetroShare/blob/master/LICENSE.txt",
     "logo": "retroshare.png",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nPOur celles et ceux d'entre vous qui n'ont pas de serveur, RetroShare est sans doute la manière la plus simple de débuter votre propre réseau social chiffré.",
     "privacy_url": "",
     "source_url": "https://github.com/RetroShare/RetroShare",
     "name": "RetroShare",
     "tos_url": "",
-    "url": "http://retroshare.org/",
+    "url": "http://retroshare.net",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/RetroShare",
     "protocols": [
       "GPG",

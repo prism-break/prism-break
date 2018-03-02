@@ -4458,14 +4458,14 @@
   {
     "development_stage": "released",
     "description": "Ελεύθερη, ασφαλής, πλατφόρμα επικοινωνιών P2P.",
-    "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
+    "license_url": "https://github.com/RetroShare/RetroShare/blob/master/LICENSE.txt",
     "logo": "retroshare.png",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
     "privacy_url": "",
     "source_url": "https://github.com/RetroShare/RetroShare",
     "name": "RetroShare",
     "tos_url": "",
-    "url": "http://retroshare.org/",
+    "url": "http://retroshare.net",
     "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
     "protocols": [
       "GPG",
