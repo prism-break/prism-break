@@ -6045,5 +6045,60 @@
       }
     ],
     "slug": "android-password-store"
+  },
+  {
+    "development_stage": "released",
+    "description": "Privacy-respecting, hackable metasearch engine.",
+    "license_url": "https://github.com/asciimoo/searx/blob/master/LICENSE",
+    "logo": "searx.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/asciimoo/searx",
+    "name": "searx",
+    "tos_url": "",
+    "url": "https://asciimoo.github.io/searx/",
+    "wikipedia_url": "",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Web Search"
+        ]
+      }
+    ],
+    "slug": "searx"
   }
 ]
