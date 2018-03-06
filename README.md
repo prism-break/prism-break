@@ -1,5 +1,7 @@
 # PRISM Break
 
+[![Build Status](https://travis-ci.org/nylira/prism-break.svg?branch=master)](https://travis-ci.org/nylira/prism-break)
+
 Welcome to the PRISM Break project. Here's a quick overview of the code. JSON containing all of the project data is filtered through [LiveScript](https://livescript.net/) and then compiled to plain HTML with [Jade](https://pugjs.org/) templates. Stylesheets are managed with [Stylus](http://stylus-lang.com/), a CSS preprocessor.
 
 The prism-break build process relies on several npm packages. Make sure to have [node.js](https://nodejs.org/) installed on your system if you want to contribute to the code.
