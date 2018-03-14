@@ -99,7 +99,6 @@ If you're interested in translating the site itself (all the nouns, verbs, and s
 If your language file doesn't exist yet, you can copy the en.json file and start translating from there.
 
 ### JSON Validation
-**Make sure your JSON validates.** You can use either use [JSONLint](http://jsonlint.com/) online or install it locally with `npm install jsonlint -g`.
 
 A common mistake is putting unescaped quotation marks in a sentence. Make sure to use Unicode typographic marks (curly quotes) or escape regular (straight) quotes with a backslash.
 
