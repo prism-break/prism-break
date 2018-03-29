@@ -14,7 +14,7 @@ More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTIN
 
  - **Only F/OSS software is allowed to be featured on PRISM Break.**
 
-PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](https://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
+PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](https://opensource.org/licenses).
 
  - **Quality over quantity.**
 

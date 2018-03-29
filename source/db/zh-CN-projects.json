@@ -955,30 +955,6 @@
   },
   {
     "development_stage": "released",
-    "description": "匿名 VPN 服务，让你隐秘访问常用搜索引擎，如 Google，Bing 和 Yahoo。",
-    "license_url": "https://github.com/disconnectme/search/blob/master/README.markdown#license",
-    "logo": "disconnect-search.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/disconnectme/search",
-    "name": "Disconnect Search",
-    "tos_url": "",
-    "url": "https://disconnect.me/search",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "disconnect-search"
-  },
-  {
-    "development_stage": "released",
     "description": "Windows 系统下高效的磁盘加密工具。",
     "license_url": "https://diskcryptor.net/wiki/Main_Page",
     "logo": "diskcryptor.png",
@@ -1028,32 +1004,6 @@
       }
     ],
     "slug": "dnscrypt"
-  },
-  {
-    "development_stage": "released",
-    "description": "匿名、无记录的 Web 搜索",
-    "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
-    "logo": "duckduckgo.png",
-    "notes": "DuckDuckGo 是一个“软件即服务”（SaaS）平台，它可以让你匿名地对[这些来源](https://dukgo.com/help/en_US/results/sources)进行搜索。 DDG 开源组件可以在[这里](https://github.com/duckduckgo)得到。\n\n 对于 Tor 用户，同样有一个 DuckDuckGo 匿名服务器，地址是 [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) 。",
-    "privacy_url": "https://duckduckgo.com/privacy",
-    "source_url": "https://github.com/duckduckgo/duckduckgo",
-    "name": "DuckDuckGo",
-    "tos_url": "",
-    "url": "https://duckduckgo.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo",
-    "protocols": [
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "duckduckgo"
   },
   {
     "development_stage": "released",
@@ -2455,31 +2405,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Ixquick 是一个位于纽约和荷兰的元搜索引擎。",
-    "license_url": "",
-    "logo": "ixquick.png",
-    "notes": "Ixquick 与 Startpage 来自同一家公司。Ixquick 提供 100 多个数据源的搜索结果，但不包括 Google。",
-    "privacy_url": "https://ixquick.eu/eng/privacy-policy.html",
-    "source_url": "",
-    "name": "Ixquick",
-    "tos_url": "",
-    "url": "https://ixquick.eu/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "ixquick"
-  },
-  {
-    "development_stage": "released",
     "description": "加密的跨平台文本、语音、视频聊天工具。",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
@@ -3256,31 +3181,6 @@
       }
     ],
     "slug": "mediagoblin"
-  },
-  {
-    "development_stage": "released",
-    "description": "元搜索引擎，代理你的请求到多个搜索服务提供商。",
-    "logo": "metager.png",
-    "license_url": "https://gitlab.metager3.de/open-source/MetaGer/blob/development/LICENSE",
-    "source_url": "https://gitlab.metager3.de/open-source/MetaGer",
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
-    "privacy_url": "https://metager.de/en/datenschutz",
-    "name": "MetaGer",
-    "tos_url": "",
-    "url": "https://metager.de/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "metager"
   },
   {
     "development_stage": "released",
@@ -4715,28 +4615,6 @@
     "slug": "salut-a-toi"
   },
   {
-    "development_stage": "released",
-    "description": "开放的去中心化的协作搜索平台。",
-    "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
-    "logo": "seeks-project.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/beniz/seeks",
-    "name": "Seeks Project",
-    "tos_url": "",
-    "url": "https://beniz.github.io/seeks/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Seeks",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "seeks-project"
-  },
-  {
     "development_stage": "experimental",
     "description": "SemanticScuttle 是一个社会书签工具，提供结构化标签和协作标签描述之类的试验性功能。",
     "license_url": "https://github.com/cweiske/SemanticScuttle/blob/master/www/about.php",
@@ -4853,31 +4731,6 @@
       }
     ],
     "slug": "sparkleshare"
-  },
-  {
-    "development_stage": "released",
-    "description": "私密、无记录的 Web 搜索引擎。",
-    "license_url": "",
-    "logo": "startpage.png",
-    "notes": "Startpage 是一个托管在美国和荷兰的 SaaS（软件即服务），通过免费匿名代理为你提供谷歌搜索和图片搜索结果。",
-    "privacy_url": "https://startpage.com/eng/protect-privacy.html",
-    "source_url": "",
-    "name": "Startpage",
-    "tos_url": "",
-    "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "startpage"
   },
   {
     "development_stage": "released",
@@ -5501,31 +5354,6 @@
     "slug": "unbound"
   },
   {
-    "development_stage": "experimental",
-    "description": "保护隐私，并返回中立的搜索结果的元搜索引擎。",
-    "license_url": "",
-    "logo": "unbubble.png",
-    "notes": "Unbubble 是来自德国的搜索引擎，提供八种语言的结果。它的主要目标是提供中立的搜索结果。它采用强有力的措施来保护隐私。",
-    "privacy_url": "https://unbubble.eu/info/terms#data",
-    "source_url": "",
-    "name": "Unbubble",
-    "tos_url": "https://unbubble.eu/info/terms",
-    "url": "https://unbubble.eu",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "unbubble"
-  },
-  {
     "development_stage": "released",
     "description": "Client-side encrypted image host web server.",
     "license_url": "https://github.com/Upload/Up1/blob/master/LICENSE",
@@ -5688,40 +5516,6 @@
       }
     ],
     "slug": "wordpress"
-  },
-  {
-    "development_stage": "released",
-    "description": "去中心化的 Web 搜索。",
-    "license_url": "https://github.com/yacy/yacy_search_server/blob/master/COPYRIGHT",
-    "logo": "yacy.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/yacy/yacy_search_server",
-    "name": "YaCy",
-    "tos_url": "",
-    "url": "https://yacy.net/en/index.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/YaCy",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "yacy"
   },
   {
     "development_stage": "released",

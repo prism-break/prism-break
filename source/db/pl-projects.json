@@ -955,31 +955,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo.",
-    "license_url": "",
-    "logo": "disconnect-search.png",
-    "notes": "The source code can be downloaded for viewing by right clicking “Get Disconnect Search” on the official website and selecting “Save Link As...”.\n\nWith “search.xpi” downloaded, change the file extension to “.zip” and extract it to view the source code.",
-    "privacy_url": "",
-    "source_url": "https://disconnect.me/search",
-    "name": "Disconnect Search",
-    "tos_url": "",
-    "url": "https://disconnect.me/search",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "disconnect-search"
-  },
-  {
-    "development_stage": "released",
     "description": "High performance partition encryption software for Windows.",
     "license_url": "https://diskcryptor.net/wiki/Main_Page",
     "logo": "diskcryptor.png",
@@ -1029,32 +1004,6 @@
       }
     ],
     "slug": "dnscrypt"
-  },
-  {
-    "development_stage": "released",
-    "description": "Anonimowe wyszukiwanie bez zapisywania historii.",
-    "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
-    "logo": "duckduckgo.png",
-    "notes": "DuckDuckGo is a software-as-a-service (SaaS) hosted around the world that provides you with anonymous search results from [these sources](https://dukgo.com/help/en_US/results/sources). DDG open source components are [available here](https://github.com/duckduckgo).\n\nThere is also a DuckDuckGo hidden service at [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) for Tor users.",
-    "privacy_url": "https://duckduckgo.com/privacy",
-    "source_url": "https://github.com/duckduckgo/duckduckgo",
-    "name": "DuckDuckGo",
-    "tos_url": "",
-    "url": "https://duckduckgo.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo",
-    "protocols": [
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "duckduckgo"
   },
   {
     "development_stage": "released",
@@ -2380,31 +2329,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Ixquick is a metasearch engine based in New York and the Netherlands. ",
-    "license_url": "",
-    "logo": "ixquick.png",
-    "notes": "Ixquick returns the top ten results from multiple search engines.\n\n In contrast to ixquick.eu, its sibling project Startpage.com offer results from the Google search engine.\n\n It also provides the stand-alone Ixquick Proxy service that allows users to open search results via proxy.",
-    "privacy_url": "https://ixquick.eu/eng/privacy-policy.html",
-    "source_url": "",
-    "name": "Ixquick",
-    "tos_url": "",
-    "url": "https://ixquick.eu/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "ixquick"
-  },
-  {
-    "development_stage": "released",
     "description": "Szyfrowany czat wideo i tekstowy.",
     "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
     "logo": "jitsi.png",
@@ -3181,31 +3105,6 @@
       }
     ],
     "slug": "mediagoblin"
-  },
-  {
-    "development_stage": "released",
-    "description": "Meta search engine that proxies your queries to multiple search providers.",
-    "logo": "metager.png",
-    "license_url": "https://gitlab.metager3.de/open-source/MetaGer/blob/development/LICENSE",
-    "source_url": "https://gitlab.metager3.de/open-source/MetaGer",
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
-    "privacy_url": "https://metager.de/en/datenschutz",
-    "name": "MetaGer",
-    "tos_url": "",
-    "url": "https://metager.de/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "metager"
   },
   {
     "development_stage": "released",
@@ -4678,28 +4577,6 @@
     "slug": "salut-a-toi"
   },
   {
-    "development_stage": "released",
-    "description": "Otwarta, zdecentralizowana platforma dla wspólnego wyszukiwania.",
-    "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
-    "logo": "seeks-project.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/beniz/seeks",
-    "name": "Seeks Project",
-    "tos_url": "",
-    "url": "https://beniz.github.io/seeks/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Seeks",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "seeks-project"
-  },
-  {
     "development_stage": "experimental",
     "description": "SemanticScuttle is a social bookmarking tool experimenting with features like structured tags and collaborative tag descriptions.",
     "license_url": "https://github.com/cweiske/SemanticScuttle/blob/master/www/about.php",
@@ -4816,31 +4693,6 @@
       }
     ],
     "slug": "sparkleshare"
-  },
-  {
-    "development_stage": "released",
-    "description": "Anonimowe wyszukiwanie bez zapisywania historii.",
-    "license_url": "",
-    "logo": "startpage.png",
-    "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy. Its sibling project ixquick.eu, however, offer results from other search engine.\n\n Ixquick also provides the stand-alone Ixquick Proxy service that allows users to open search results via proxy.\n\n As of February 19, 2015, Startpage.com is the default search engine in the Tor Browser.",
-    "privacy_url": "https://startpage.com/eng/protect-privacy.html",
-    "source_url": "",
-    "name": "Startpage",
-    "tos_url": "",
-    "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "startpage"
   },
   {
     "development_stage": "released",
@@ -5463,31 +5315,6 @@
     "slug": "unbound"
   },
   {
-    "development_stage": "experimental",
-    "description": "Meta search engine that protects privacy and intends to return neutral search results.",
-    "license_url": "",
-    "logo": "unbubble.png",
-    "notes": "Unbubble is a web search engine from Germany providing results in eight languages. Its primary goal is to create neutral search results. It takes strong measures to protect privacy.",
-    "privacy_url": "https://unbubble.eu/info/terms#data",
-    "source_url": "",
-    "name": "Unbubble",
-    "tos_url": "https://unbubble.eu/info/terms",
-    "url": "https://unbubble.eu",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "unbubble"
-  },
-  {
     "development_stage": "released",
     "description": "Client-side encrypted image host web server.",
     "license_url": "https://github.com/Upload/Up1/blob/master/LICENSE",
@@ -5645,40 +5472,6 @@
       }
     ],
     "slug": "wordpress"
-  },
-  {
-    "development_stage": "released",
-    "description": "Zdecentralizowana wyszukiwarka.",
-    "license_url": "https://github.com/yacy/yacy_search_server/blob/master/COPYRIGHT",
-    "logo": "yacy.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/yacy/yacy_search_server",
-    "name": "YaCy",
-    "tos_url": "",
-    "url": "https://yacy.net/en/index.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/YaCy",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "yacy"
   },
   {
     "development_stage": "released",
