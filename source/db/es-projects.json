@@ -2799,10 +2799,10 @@
     "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
     "logo": "kontact.png",
     "privacy_url": "",
-    "source_url": "http://www.kde.org/applications/office/kontact/development",
+    "source_url": "https://www.kde.org/applications/office/kontact/development",
     "name": "Kontact",
     "tos_url": "",
-    "url": "http://www.kontact.org/",
+    "url": "https://userbase.kde.org/Kontact",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact",
     "protocols": [
       "GPG",
@@ -3210,13 +3210,13 @@
   {
     "development_stage": "released",
     "description": "Servidor XMPP basado en Prosody, con características avanzadas de administración y microblog.",
-    "license_url": "https://code.lightwitch.org/metronome/file/f9f76843539a/COPYING",
+    "license_url": "https://github.com/maranda/metronome/blob/master/LICENSE",
     "logo": "metronome.png",
     "privacy_url": "",
-    "source_url": "https://code.lightwitch.org/metronome/file/f9f76843539a",
+    "source_url": "https://github.com/maranda/metronome",
     "name": "Metronome",
     "tos_url": "",
-    "url": "http://www.lightwitch.org/metronome",
+    "url": "https://metronome.im",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Metronome_IM",
     "protocols": [
       "XMPP"
