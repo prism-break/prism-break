@@ -5855,5 +5855,58 @@
       }
     ],
     "slug": "android-password-store"
+  },
+  {
+    "development_stage": "released",
+    "description": "Secure, anonymous and free browser/bookmark syncing.",
+    "license_url": "https://github.com/xBrowserSync/App/blob/master/LICENSE.md",
+    "logo": "xbrowsersync.png",
+    "notes": "",
+    "privacy_url": "https://www.xbrowsersync.org/privacypolicy.php",
+    "source_url": "https://github.com/xBrowserSync/",
+    "name": "xBrowserSync",
+    "tos_url": "",
+    "url": "https://www.xbrowsersync.org/",
+    "wikipedia_url": "",
+    "protocols": [],
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Bookmark Sync"
+        ]
+      }
+    ],
+    "slug": "xbrowsersync"
   }
 ]
