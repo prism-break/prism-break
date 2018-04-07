@@ -1,3 +1,10 @@
+# Code of Conduct
+
+* Participants will be tolerant of opposing views.
+* Participants must ensure that their language and actions are free of personal attacks and disparaging personal remarks.
+* When interpreting the words and actions of others, participants should always assume good intentions.
+* Behaviour which can be reasonably considered harassment will not be tolerated.
+
 # Contribute: Projects
 
 ### Which Files to Edit
@@ -130,9 +137,3 @@ If you wish to mirror this site, [nylira/prism-break-static](https://github.com/
 
  - [https://www.sedrubal.de/service/prism-break/en/](https://www.sedrubal.de/service/prism-break/en/)
  (credit: [sedrubal](https://github.com/sedrubal))
-
-# Code of Conduct
-
-This project adheres to the [Open Code of Conduct][code-of-conduct]. By participating, you are expected to honor this code.
-
-[code-of-conduct]: http://todogroup.org/opencodeofconduct/#PRISM-Break/abuse@prism-break.org
