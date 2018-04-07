@@ -34,7 +34,7 @@ mixin project-card-all(project)
       .title= project.name
       .small!= h.truncate(project.description, 140)
       .tags
-        if project.audit 
+        if project.audit
           if project.audit.rating == 1
             .tag.yellow= t.Audited
           else
@@ -78,6 +78,11 @@ mixin project-tail(project)
     a.bar(href=project.url)
       .label= t['Official Website']
       .icon: i.fa.fa-external-link
+
+    - if(project.onion_url !== '')
+      a.bar(href=project.onion_url)
+        .label= t['Onion service']
+        .icon: i.fa.fa-external-link
 
     - if(project.wikipedia_url !== '')
       a.bar(href=project.wikipedia_url)
