@@ -4625,28 +4625,6 @@
     "slug": "salut-a-toi"
   },
   {
-    "development_stage": "released",
-    "description": "开放的去中心化的协作搜索平台。",
-    "license_url": "https://github.com/beniz/seeks/blob/master/COPYING",
-    "logo": "seeks-project.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/beniz/seeks",
-    "name": "Seeks Project",
-    "tos_url": "",
-    "url": "https://beniz.github.io/seeks/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Seeks",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "seeks-project"
-  },
-  {
     "development_stage": "experimental",
     "description": "SemanticScuttle 是一个社会书签工具，提供结构化标签和协作标签描述之类的试验性功能。",
     "license_url": "https://github.com/cweiske/SemanticScuttle/blob/master/www/about.php",
