@@ -1924,36 +1924,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Αυτοφιλοξενούμενο, Διανεμημένο κοινωνικό δίκτυο.",
-    "license_url": "https://gitlab.com/gnu-social-statusnet/gnu-social/blob/master/COPYING",
-    "logo": "gnu-social.png",
-    "privacy_url": "",
-    "source_url": "https://git.gnu.io/gnu/gnu-social",
-    "name": "GNU social",
-    "tos_url": "",
-    "url": "https://gnu.io/social/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Social",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "gnu-social"
-  },
-  {
-    "development_stage": "released",
     "description": "GNUnet is a fully free P2P network.",
     "license_url": "https://gnunet.org/svn/gnunet/COPYING",
     "logo": "gnunet.png",
