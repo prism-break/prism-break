@@ -791,6 +791,15 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
+    logo: "snapchat.png"
+    name: "Snapchat"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging", "Social Networks"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
     logo: "symantec.png"
     name: "Symantec Drive Encryption"
     categories: [
@@ -930,7 +939,7 @@ projects-rejected =
       * name: "Servers"
         subcategories: ["Productivity"]
     ]
-	
+
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "roboform.png"
@@ -1217,7 +1226,7 @@ projects-rejected =
       * name: "Servers"
         subcategories: ["Instant Messaging"]
     ]
-	
+
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "mIRC.png"
