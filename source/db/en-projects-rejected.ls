@@ -467,7 +467,7 @@ projects-rejected =
     name: "Amazon Appstore"
     categories: [
       * name: "Android"
-        subcategories: ["App Store"]
+        subcategories: ["Web hosting"]
     ]
 
   * status: 'rejected'
@@ -1265,4 +1265,135 @@ projects-rejected =
         subcategories: ["VPN Accounts"]
     ]
 
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "BibleBox.png"
+    name: "BibleBox"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Raspberry Pi"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "LogMeln-Hamachi.png"
+    name: "LogMeln Hamachi"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["VPN Servers"]
+      * "name": "MacOS"
+        subcategories: ["VPN Servers"]
+      * name: "Windows"
+        subcategories: ["VPN Servers"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "mikrotik.png"
+    name: "MikroTik Router OS"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Firmware"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "PowerMTA.png"
+    name: "PowerMTA"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Mail Transfer Agents"]
+      * name: "Windows"
+        subcategories: ["Mail Transfer Agents"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "ZenMate.png"
+    name: "ZenMate"
+    categories: [
+      * name: "Windows"
+        subcategories: ["VPN Servers"]
+      * name: "Android"
+        subcategories: ["VPN Servers"]
+      * "name": "macOS"
+        subcategories: ["VPN Servers"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "amazonEC2.png"
+    name: "Amazon EC2"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Web Hosting"]
+      * name: "Windows"
+        subcategories: ["Web Hosting"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "amigaOS.png"
+    name: "Amiga OS"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Operating Systems (Live)"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "azure.png"
+    name: "Microsoft Azure"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Web Hosting"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "cell-spy-catcher-anti-spy.png"
+    name: "Cell Spy Cather (Anti Spy)"
+    categories: [
+      * name: "Android"
+        subcategories: ["Cellular"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "gsm-spy-finder.png"
+    name: "GSM Spy Finder"
+    categories: [
+      * name: "Android"
+        subcategories: ["Cellular"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "lantern.png"
+    name: "Lantern"
+    categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Anonymizing Networks"]
+      * name: "Android"
+        subcategories: ["Anonymizing Networks"]
+      * name: "iOS"
+        subcategories: ["Anonymizing Networks"]
+      * name: "Windows"
+        subcategories: ["Anonymizing Networks"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "mailbox.png"
+    name: "MailBox.org"
+    categories: [
+      * name: "Android"
+        subcategories: ["Email Alternatives"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "threema.png"
+    name: "Threema"
+    categories: [
+      * name: "Android"
+        subcategories: ["Email Alternatives"]
+    ]
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "zentIO.png"
+    name: "Zent.IO"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["SIP Servers"]
+    ]
 exports.projects-rejected = projects-rejected
