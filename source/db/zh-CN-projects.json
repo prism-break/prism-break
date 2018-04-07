@@ -268,65 +268,6 @@
     "slug": "bitmessage"
   },
   {
-    "development_stage": "experimental",
-    "description": "Bookie 是一个开源的收藏夹程序。",
-    "license_url": "https://github.com/bookieio/Bookie/blob/develop/COPYING",
-    "logo": "bookie.png",
-    "notes": "Bookie.io 主机已经于2015年7月5日<strong>关闭</strong>。但你仍然可以自行架设这个应用。在[他们的文档里](http://docs.bmark.us/en/latest/hosting.html)可以了解到更多细节。",
-    "privacy_url": "",
-    "source_url": "https://github.com/bookieio/Bookie",
-    "name": "Bookie",
-    "tos_url": "",
-    "url": "https://github.com/bookieio/Bookie",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      }
-    ],
-    "slug": "bookie"
-  },
-  {
     "development_stage": "released",
     "description": "开源的、联合的社交网络。",
     "license_url": "https://github.com/buddycloud/buddycloud-server-java/blob/master/LICENSE",
