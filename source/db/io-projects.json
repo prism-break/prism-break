@@ -2647,14 +2647,14 @@
   {
     "development_stage": "released",
     "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
-    "license_url": "https://github.com/keepassx/keepassx/blob/master/COPYING",
-    "logo": "keepassx.png",
+    "license_url": "https://github.com/keepassxreboot/keepassxc/blob/master/COPYING",
+    "logo": "keepassxc.png",
     "privacy_url": "",
-    "source_url": "https://github.com/keepassx/keepassx",
-    "name": "KeePassX",
+    "source_url": "https://github.com/keepassxreboot/keepassxc",
+    "name": "KeePassXC",
     "tos_url": "",
-    "url": "https://www.keepassx.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassX",
+    "url": "https://keepassxc.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC",
     "protocols": [],
     "categories": [
       {
@@ -2682,7 +2682,7 @@
         ]
       }
     ],
-    "slug": "keepassx"
+    "slug": "keepassxc"
   },
   {
     "development_stage": "released",
