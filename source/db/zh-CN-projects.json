@@ -4112,28 +4112,6 @@
   },
   {
     "development_stage": "released",
-    "description": "基于 FreeBSD 的防火墙和路由器固件。",
-    "license_url": "https://www.pfsense.org/about-pfsense/index.html",
-    "logo": "pfsense.png",
-    "privacy_url": "",
-    "source_url": "https://redmine.pfsense.org/projects/pfsense/repository",
-    "name": "pfSense",
-    "tos_url": "",
-    "url": "https://www.pfsense.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/PfSense",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Routers",
-        "subcategories": [
-          "Firmware"
-        ]
-      }
-    ],
-    "slug": "pfsense"
-  },
-  {
-    "development_stage": "released",
     "description": "自行架设的照片库平台。",
     "license_url": "http://piwigo.org/basics/license",
     "logo": "piwigo.png",
