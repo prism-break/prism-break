@@ -2722,14 +2722,14 @@
   {
     "development_stage": "released",
     "description": "这个程序是为那些极其重视个人数据安全管理的人设计的，可以在一个数据库里保存用户名，密码，网址，附件和注释等各种内容。",
-    "license_url": "https://github.com/keepassx/keepassx/blob/master/COPYING",
-    "logo": "keepassx.png",
+    "license_url": "https://github.com/keepassxreboot/keepassxc/blob/master/COPYING",
+    "logo": "keepassxc.png",
     "privacy_url": "",
-    "source_url": "https://github.com/keepassx/keepassx",
-    "name": "KeePassX",
+    "source_url": "https://github.com/keepassxreboot/keepassxc",
+    "name": "KeePassXC",
     "tos_url": "",
-    "url": "https://www.keepassx.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassX",
+    "url": "https://keepassxc.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC",
     "protocols": [],
     "categories": [
       {
@@ -2757,7 +2757,7 @@
         ]
       }
     ],
-    "slug": "keepassx"
+    "slug": "keepassxc"
   },
   {
     "development_stage": "released",
