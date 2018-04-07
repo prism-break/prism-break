@@ -1274,4 +1274,23 @@ projects-rejected =
         subcategories: ["VPN Accounts"]
     ]
 
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "opendns.png"
+    name: "OpenDNS"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["DNS"]
+      * name: "Android"
+        subcategories: ["DNS"]
+      * name: "iOS"
+        subcategories: ["DNS"]
+      * name: "macOS"
+        subcategories: ["DNS"]
+      * name: "Windows"
+        subcategories: ["DNS"]
+      * name: "Servers"
+        subcategories: ["DNS"]
+    ]
+
 exports.projects-rejected = projects-rejected
