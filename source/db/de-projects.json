@@ -4453,14 +4453,14 @@
   {
     "development_stage": "released",
     "description": "Sichere P2P-Kommunikationsplattform, die IM, Foren, VoIP, File Sharing und mehr bietet.",
-    "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
+    "license_url": "https://github.com/RetroShare/RetroShare/blob/master/LICENSE.txt",
     "logo": "retroshare.png",
     "notes": "Bitte beachte, dass RetroShare bisher nicht von professionellen Computersicherheitsexperten auf mögliche Sicherheitslücken hin überprüft wurde.\n\nJedoch ist es die vermutlich einfachste Lösung um ein verschlüsseltes soziales Netzwerk zu starten, ohne einen eigenen Server betreiben zu müssen.",
     "privacy_url": "",
     "source_url": "https://github.com/RetroShare/RetroShare",
     "name": "RetroShare",
     "tos_url": "",
-    "url": "http://retroshare.org/",
+    "url": "http://retroshare.net",
     "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
     "protocols": [
       "GPG",

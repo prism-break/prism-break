@@ -4456,14 +4456,14 @@
   {
     "development_stage": "released",
     "description": "Ilmainen ja turvallinen P2P-keskustelualusta.",
-    "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
+    "license_url": "https://github.com/RetroShare/RetroShare/blob/master/LICENSE.txt",
     "logo": "retroshare.png",
     "notes": "Huomaa, ettei RetroSharea ole auditoitu tietoturva-asiantuntijoiden toimesta, joten se saattaa sisältää tietoturva-aukkoja.\n\nNiille, joilla ei ole palvelinta, Retroshare on luultavasti helpoin tapa aloittaa oma salattu sosiaalinen media.",
     "privacy_url": "",
     "source_url": "https://github.com/RetroShare/RetroShare",
     "name": "RetroShare",
     "tos_url": "",
-    "url": "http://retroshare.org/",
+    "url": "http://retroshare.net",
     "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
     "protocols": [
       "GPG",

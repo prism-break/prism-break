@@ -4458,14 +4458,14 @@
   {
     "development_stage": "released",
     "description": "Piattaforma di comunicazione P2P sicura per chat, forum, VoIP, condivisione di file e altro.",
-    "license_url": "http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions#Is_RetroShare_Open_source.3F",
+    "license_url": "https://github.com/RetroShare/RetroShare/blob/master/LICENSE.txt",
     "logo": "retroshare.png",
     "notes": "Da notare che RetroShare non è stato controllato da esperti di sicurezza per eventuali problemi di sicurezza.\n\nPer chi non ha un server, RetroShare è probabilmente il mezzo più semplice per creare il tuo social network criptato.",
     "privacy_url": "",
     "source_url": "https://github.com/RetroShare/RetroShare",
     "name": "RetroShare",
     "tos_url": "",
-    "url": "http://retroshare.org/",
+    "url": "http://retroshare.net",
     "wikipedia_url": "https://it.wikipedia.org/wiki/RetroShare",
     "protocols": [
       "GPG",
