@@ -3942,6 +3942,14 @@
         ]
       }
     ],
+    "audit": {
+      "author": "Cure53",
+      "date": "2015-08-01",
+      "development_stage": "released",
+      "description": "Aside from the issues mentioned in this report, the software makes a robust impression. More importantly, it appears to be well-maintained, which is definitely something that the OpenKeychain team should be praised for. As it has already been underlined, it needs to be reiterated that none of the spotted issues were considered to be of a critical severity in terms of security implications.",
+      "rating": "0",
+      "url": "https://cure53.de/pentest-report_openkeychain.pdf"
+    },
     "slug": "open-keychain"
   },
   {
