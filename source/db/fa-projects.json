@@ -5648,40 +5648,6 @@
   },
   {
     "development_stage": "released",
-    "description": "جستجوی غیرمتمرکز وب",
-    "license_url": "https://github.com/yacy/yacy_search_server/blob/master/COPYRIGHT",
-    "logo": "yacy.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/yacy/yacy_search_server",
-    "name": "YaCy",
-    "tos_url": "",
-    "url": "https://yacy.net/en/index.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/YaCy",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "yacy"
-  },
-  {
-    "development_stage": "released",
     "description": "وبسایت فیلم و عکس آزاد",
     "license_url": "http://www.zenphoto.org/pages/licenses",
     "logo": "zenphoto.png",
