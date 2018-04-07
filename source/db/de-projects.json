@@ -5856,5 +5856,34 @@
       }
     ],
     "slug": "android-password-store"
+  },
+  {
+    "development_stage": "released",
+    "description": "Miranda NG ist eine Abspaltung des bekannten Multi-Protokoll-Messengers Miranda IM für Windows. Benötigt sehr wenig Systemressourcen und ist sehr schnell.",
+    "license_url": "https://github.com/miranda-ng/miranda-ng/blob/master/LICENSE",
+    "logo": "miranda_ng.png",
+    "notes": "",
+    "privacy_url": "",
+    "source_url": "https://github.com/miranda-ng/miranda-ng",
+    "name": "Miranda NG",
+    "tos_url": "",
+    "url": "https://miranda-ng.org",
+    "wikipedia_url": "https://de.wikipedia.org/wiki/Miranda_NG",
+    "protocols": [ "OTR",
+     "GPG",
+     "IRC",
+     "XMPP",
+     "Tox"
+    ],
+    "categories": [
+      {
+        "name": "Windows",
+        "subcategories":  [
+          "Instant Messaging",
+          "IRC"
+        ]
+      }
+    ],
+    "slug": "miranda-ng"
   }
 ]
