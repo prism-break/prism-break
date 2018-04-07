@@ -4197,44 +4197,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Console based XMPP client.",
-    "license_url": "https://raw.githubusercontent.com/boothj5/profanity/master/COPYING",
-    "logo": "profanity.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/boothj5/profanity",
-    "name": "Profanity",
-    "tos_url": "",
-    "url": "http://www.profanity.im",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Profanity_(instant_messaging_client)",
-    "protocols": [
-      "OTR",
-      "SSL/TLS",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "profanity"
-  },
-  {
-    "development_stage": "released",
     "description": "Fleksibel XMPP tjener.",
     "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
     "logo": "prosody.png",
