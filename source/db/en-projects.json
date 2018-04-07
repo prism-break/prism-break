@@ -1,5 +1,5 @@
 [
-   {
+  {
     "development_stage": "experimental",
     "description": "An OS that is designed to be resistant to network-borne exploit and malware attacks.",
     "license_url": "https://github.com/subgraph/oz/blob/master/LICENSE",
@@ -6082,41 +6082,6 @@
       }
     ],
     "slug": "wordpress"
-  },
-  {
-    "development_stage": "released",
-    "description": "Decentralized web search.",
-    "license_url": "https://github.com/yacy/yacy_search_server/blob/master/COPYRIGHT",
-    "logo": "yacy.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/yacy/yacy_search_server",
-    "name": "YaCy",
-    "tos_url": "",
-    "url": "https://yacy.net/en/index.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/YaCy",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Web Search"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "yacy"
   },
   {
     "development_stage": "released",
