@@ -19,25 +19,6 @@ projects-rejected =
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "aim.png"
-    name: "AOL Instant Messenger"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Instant Messaging"]
-      * name: "Android"
-        subcategories: ["Instant Messaging"]
-      * name: "iOS"
-        subcategories: ["Instant Messaging"]
-      * "name": "macOS"
-        subcategories: ["Instant Messaging"]
-      * name: "Windows"
-        subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["Instant Messaging"]
-    ]
-
-  * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-facetime.png"
     name: "Apple FaceTime"
