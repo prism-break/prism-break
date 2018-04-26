@@ -19,25 +19,6 @@ projects-rejected =
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "aim.png"
-    name: "AOL Instant Messenger"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Instant Messaging"]
-      * name: "Android"
-        subcategories: ["Instant Messaging"]
-      * name: "iOS"
-        subcategories: ["Instant Messaging"]
-      * "name": "macOS"
-        subcategories: ["Instant Messaging"]
-      * name: "Windows"
-        subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["Instant Messaging"]
-    ]
-
-  * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-facetime.png"
     name: "Apple FaceTime"
@@ -207,6 +188,25 @@ projects-rejected =
         subcategories: ["VPN Clients"]
       * name: "Windows"
         subcategories: ["VPN Clients"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "discord.png"
+    name: "Discord"
+    categories: [
+      * name: "Android"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "GNU/Linux"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * "name": "macOS"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Web Services"
+        subcategories: ["Instant Messaging", "Video & Voice"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
   * status: 'rejected'
@@ -772,6 +772,15 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
+    logo: "snapchat.png"
+    name: "Snapchat"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging", "Social Networks"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
     logo: "symantec.png"
     name: "Symantec Drive Encryption"
     categories: [
@@ -911,7 +920,7 @@ projects-rejected =
       * name: "Servers"
         subcategories: ["Productivity"]
     ]
-	
+
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "roboform.png"
@@ -1198,7 +1207,7 @@ projects-rejected =
       * name: "Servers"
         subcategories: ["Instant Messaging"]
     ]
-	
+
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "mIRC.png"
@@ -1244,6 +1253,25 @@ projects-rejected =
         subcategories: ["VPN Accounts"]
       * name: "BSD"
         subcategories: ["VPN Accounts"]
+    ]
+
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "opendns.png"
+    name: "OpenDNS"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["DNS"]
+      * name: "Android"
+        subcategories: ["DNS"]
+      * name: "iOS"
+        subcategories: ["DNS"]
+      * name: "macOS"
+        subcategories: ["DNS"]
+      * name: "Windows"
+        subcategories: ["DNS"]
+      * name: "Servers"
+        subcategories: ["DNS"]
     ]
 
 exports.projects-rejected = projects-rejected

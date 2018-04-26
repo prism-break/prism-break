@@ -1,9 +1,12 @@
 # make	 					build the entire site (all languages)
+# make test					run internal tests such as linting the source
+# make all 					test and build the entire site (all languages)
 # make init					just install NPM dependencies
 # make en					build just the English edition (replace 'en' with 'fr' for French, etc.)
 # make clean				destroy built files
 # make reset				destroy built files and build all languages from scratch
-# make watch_css			watches for stylus (CSS) edits and compiles it
+# make watch [...]			watch for any source changes and rebuild everything
+# make watch_css			watch for stylus changes and rebuild just CSS
 
 #----------------------------------------------------------------------
 # CONFIGURATION
@@ -15,9 +18,6 @@ LANGUAGES := $(notdir $(basename $(wildcard source/locales/*.json)))
 # Collect list of static assets that get copied over
 ASSETS := $(notdir $(wildcard source/assets/*))
 
-# Mark all rules that don’t actually check whether they need building
-.PHONY: default test lint init reset all $(LANGUAGES) assets css html html_% clean watch watch_css sync localize_%
-
 # Turn on expansion so we can reference target patterns in our dependencies list
 .SECONDEXPANSION:
 
@@ -26,12 +26,6 @@ ASSETS := $(notdir $(wildcard source/assets/*))
 
 # Figure out the absolute path to the directory where this Makefile is
 BASE := $(shell cd "$(shell dirname $(lastword $(MAKEFILE_LIST)))" && pwd)
-
-# Prepend the local NPM bin dir to the path for the scope of this Makefile
-export PATH := $(BASE)/node_modules/.bin:$(PATH)
-
-# Use yarn if the system has it, otherwise npm
-NPM_HANDLER ?= $(shell hash yarn && echo yarn || echo npm)
 
 # This is a hack for the ‘watch’ targets later on. It has to be
 # early to nullify any targets that might otherwise run, but in
@@ -45,38 +39,57 @@ endif
 # COMMANDS
 #----------------------------------------------------------------------
 
-# Explicitly set the default target to do everything that isn’t already done
-default: | init lint assets all public ;
+# Explicitly set the default target that does the minimum possible
+.PHONY: default
+default: assets full public
+
+# This is the kitchen-sink build that does everything
+.PHONY: all
+all: lint assets full public
 
 # Run anything that needs doing post-checkout to make this buildable
-init: node_modules ;
+.PHONY: init
+init: node_modules
 
 # Use building English language as a check to see if everything works
-test: en ;
+.PHONY: test
+test: lint en
 
-lint:
-	find source -type f -name '*.json' -print -exec jsonlint -q '{}' \;
+.PHONY: lint
+lint: $(foreach SOURCE,$(shell find source -type f -name '*.json'),$(SOURCE).lint)
+
+%.lint: %
+	yarn -s run jsonlint -q $<
+	touch $@
 
 # Start fresh and rebuild everything
-reset: | clean default ;
+.PHONY: reset
+reset: clean default
 
 # Targets to build all the dynamically generated stuff for all languages
-all: css html ;
+.PHONY: full
+full: css html
 
 # Targets for rebuilding only single language and only what isn’t already done
-$(LANGUAGES): | init assets css html_$$@ public ;
+.PHONY: $(LANGUAGES)
+$(LANGUAGES): assets css html_$$@ public
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
 #----------------------------------------------------------------------
 
-assets: $(foreach ASSET,$(ASSETS),public/assets/$(ASSET)) ;
+.PHONY: assets
+assets: init $(foreach ASSET,$(ASSETS),public/assets/$(ASSET))
 
-css: public/assets/css/screen.css ;
+.PHONY: css
+css: init public/assets/css/screen.css
 
-html: $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE)) ;
+.PHONY: html
+html: init $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
 
-html_%: public/%/index.html ;
+HTMLLANGS = $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
+.PHONY: $(HTMLLANGS)
+$(HTMLLANGS): html_%: public/%/index.html
 
 public: public/.htaccess ;
 
@@ -84,9 +97,12 @@ public: public/.htaccess ;
 # FUNCTIONS
 #----------------------------------------------------------------------
 
-node_modules: package.json
-	$(NPM_HANDLER) install
-	touch node_modules
+yarn.lock: package.json
+	yarn install
+
+node_modules: yarn.lock
+	yarn install --check-files
+	touch $@
 
 # Copy fixed assets from the source tree (if newer files exist)
 public/assets/%: source/assets/% $$(shell find source/assets/$$* -type f)
@@ -96,35 +112,42 @@ public/assets/%: source/assets/% $$(shell find source/assets/$$* -type f)
 # Rebuild stylesheet if any of the input templates change
 public/assets/css/%.css: source/stylesheets/%.styl $(shell git ls-files *.styl)
 	mkdir -p $(dir $@)
-	stylus -c -u nib < $< > $@
+	yarn -s run stylus -c -u nib < $< > $@
 
 # Use script to rebuild index if index is older than any files with this locale in the name
 public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | grep '\b$$*\b')
-	lsc $<
+	yarn -s run lsc $<
 
+.PHONY: clean
 clean:
 	rm -rf public/*
+	find -type f -name '*.json.lint' -delete
 
 public/.htaccess: source/dotfiles/.htaccess
 	mkdir -p $(dir $@)
 	cp $< $@
 
 # Localizations
-localize_%:
-	lsc ./source/functions/find-missing-localizations.ls $*
+LOCALLANGS = $(foreach LANGUAGE,$(LANGUAGES),localize_$(LANGUAGE))
+.PHONY: $(LOCALLANGS)
+$(LOCALLANGS): localize_%:
+	yarn -s run lsc ./source/functions/find-missing-localizations.ls $*
 
 #----------------------------------------------------------------------
 # CONVENIENCE FUNCTIONS
 #----------------------------------------------------------------------
 
+.PHONY: watch
 watch:
 	git ls-files | entr -p make $(WATCH_ARGS)
 
 # Rebuild CSS live on input changes
+.PHONY: watch_css
 watch_css:
-	stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
+	yarn -s run stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
 
 # copy ./public to another repository and commit changes
-sync:
+.PHONY: sync
+sync: all
 	rsync -azru --delete --stats public/ ../prism-break-static/public/
 	(cd ../prism-break-static; git add -A; git commit -m 'regenerate'; git push)

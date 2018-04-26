@@ -20,7 +20,7 @@
     "uglify-js": "^2.7.5"
   },
   "devDependencies": {
-    "jsonlint": "^1.6.2"
+    "jsonlint2": "^1.7.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
