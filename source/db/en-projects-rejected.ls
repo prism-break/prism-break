@@ -192,7 +192,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "discord.png"
+    logo: "disc0rd.png"
     name: "Discord"
     categories: [
       * name: "Android"
