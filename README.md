@@ -10,7 +10,8 @@ If you'd like to translate the project to your favorite language, there's no nee
 
 More information for translators can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Join us on IRC [at #fairphone channel on Freenode](https://webchat.freenode.net/?channels=prism-break)!
+Join us on IRC [at #prism-break channel on Freenode](https://webchat.freenode.net/?channels=prism-break)!
+Feel free to ask any questions.
 
 ## Project Inclusion Guidelines
 
