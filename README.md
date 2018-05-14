@@ -73,10 +73,6 @@ Serve the folder [`./public`](./public/) on your web server.
 
 Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for more detail into the process.
 
-### Want to help contribute to pending work?
-
-Search for open issues with the ["Status: Accepting PRs"](https://github.com/nylira/prism-break/labels/Status:%20Accepting%20PRs) label.
-
 ## License
 
 GPLv3.

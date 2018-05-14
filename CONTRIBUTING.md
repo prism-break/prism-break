@@ -4,6 +4,14 @@ ask to ask, just send your question and someone will get back to you soon.
 
 [#freenode]: https://webchat.freenode.net/?channels=prism-break
 
+## Help wanted
+
+If you just want to help, consider checking out issues that have [help wanted][]
+label. Pull requests that resolve this issues will be merged without additional
+discussion.
+
+[help wanted]: https://github.com/nylira/prism-break/labels/help%20wanted
+
 ## Projects
 
 ### Which Files to Edit
