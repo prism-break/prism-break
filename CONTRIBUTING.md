@@ -1,4 +1,10 @@
-# Contribute: Projects
+If you want to contribute and have any questions whatsoever, join us
+[at #prism-break on Freenode][#freenode]. It's a great place to get help. Don't
+ask to ask, just send your question and someone will get back to you soon.
+
+[#freenode]: https://webchat.freenode.net/?channels=prism-break
+
+## Projects
 
 ### Which Files to Edit
 If you want to edit or add a project to PRISM Break, this data resides here:
@@ -117,7 +123,8 @@ Your newly translated site is available at './public/**language-code**/'. Visit 
 
 Remember to revert the `Makefile` change and then commit the changes and issue a pull request.
 
-# Contribute: Mirror
+## Mirrors
+
 If you wish to mirror this site, [nylira/prism-break-static](https://github.com/nylira/prism-break-static) is probably of interest to you. This is a completely static (but constantly updated) version of the site you can save to browse locally or serve over HTTP.
 
 ### Mirrors
