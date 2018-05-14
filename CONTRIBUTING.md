@@ -127,13 +127,4 @@ Remember to revert the `Makefile` change and then commit the changes and issue a
 
 If you wish to mirror this site, [nylira/prism-break-static](https://github.com/nylira/prism-break-static) is probably of interest to you. This is a completely static (but constantly updated) version of the site you can save to browse locally or serve over HTTP.
 
-### Mirrors
-
- - [http://hrk2gpercx3p6apf.onion/](http://hrk2gpercx3p6apf.onion/)
- (credit: etheralghost)
-
- - [https://prism-break.ca](https://prism-break.ca)
- (credit: wiserweb)
-
- - [https://www.sedrubal.de/service/prism-break/en/](https://www.sedrubal.de/service/prism-break/en/)
- (credit: [sedrubal](https://github.com/sedrubal))
+There are no known mirrors yet. If you make one, please tell us and we'll link it here.
