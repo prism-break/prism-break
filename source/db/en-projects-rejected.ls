@@ -290,9 +290,9 @@ projects-rejected =
     name: "Facebook"
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts", "Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks", "Video & Voice"]
       * name: "Servers"
-        subcategories: ["Email Server", "Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks", "Video & Voice"]
     ]
 
   * status: 'rejected'
