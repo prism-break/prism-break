@@ -1866,54 +1866,6 @@
   },
   {
     "development_stage": "released",
-    "description": "GNUnet est un réseau P2P entièrement libre.",
-    "license_url": "https://gnunet.org/svn/gnunet/COPYING",
-    "logo": "gnunet.png",
-    "privacy_url": "",
-    "source_url": "https://gnunet.org/subversion",
-    "name": "GNUnet",
-    "tos_url": "",
-    "url": "https://gnunet.org/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/GNUnet",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      }
-    ],
-    "slug": "gnunet"
-  },
-  {
-    "development_stage": "released",
     "description": "Service git auto-hébergé sans peine écrit en Go.",
     "license_url": "https://github.com/gogits/gogs/blob/master/LICENSE",
     "logo": "gogs.png",
