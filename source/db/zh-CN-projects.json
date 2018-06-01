@@ -2010,31 +2010,6 @@
   },
   {
     "development_stage": "released",
-    "description": "GnuPG 2.1 到安卓系统的端口。\n\nGnu隐私卫士（Gnu Privacy Guard，GPG）为你提供全功能的 GnuPG 加密服务。GnuPG 是一个 GNU 工具，提供端到端的安全通讯和数据加密。这个广受信任的协议是 PGP 的自由软件替代，GnuPG 2.1 是最新的模块化版本，支持 OpenPGP 和 S/MIME。",
-    "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
-    "logo": "gnupg-for-android.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/guardianproject/gnupg-for-android",
-    "name": "GPG for Android",
-    "tos_url": "",
-    "url": "https://guardianproject.info/code/gnupg/",
-    "wikipedia_url": "",
-    "protocols": [
-      "GPG",
-      "S/MIME"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "gpg-for-android"
-  },
-  {
-    "development_stage": "released",
     "description": "出自德国信息安全局的 Windows 下的信息和文件加密工具（支持 XP，Vista，win7 和 win8）。Gpg4win 本身和 Gpg4win 所有的工具均是自由和开源软件。该软件主要用于数据加密和数字签名的公钥加密。",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
     "logo": "gpg4win.png",

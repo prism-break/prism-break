@@ -1937,31 +1937,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Porttaus GnuPG 2.1: työkaluista Androidille.\n\nGnu Privacy Guard (GPG) antaa mahdollisuuden hallita koko GnuPG salausohjelmistoa. GnuPG on GNU:n työkalu päästä päähän salattuun viestintään ja suojattuun tiedoston säilytykseen. Tämä luotettu protokolla on vapaa vaihtoehto PGP:lle. GnuPG 2.1 on uusi, modularisoitu versio GnuPG:stä, joka tukee nyt OpenPGP:tä ja S/MIMEa.",
-    "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
-    "logo": "gnupg-for-android.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/guardianproject/gnupg-for-android",
-    "name": "GPG for Android",
-    "tos_url": "",
-    "url": "https://guardianproject.info/code/gnupg/",
-    "wikipedia_url": "",
-    "protocols": [
-      "GPG",
-      "S/MIME"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "gpg-for-android"
-  },
-  {
-    "development_stage": "released",
     "description": "Gpg4win on asennuspaketti Windowsille (XP, Vista, 7 and 8), joka sisältää työkaluja sekä Saksan tietoturvaviraston käyttöohjeita sähköpostin ja tiedostojen salaamiseen. Gpg4win ja sen kaikki työkalut ovat vapaita ja avointa lähdekoodia. Ohjelmisto käyttää pääasiallisesti julkisen avaimen kryptografiaa tiedostojen salaamiseen sekä digitaalisiin allekirjoituksiin.",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
     "logo": "gpg4win.png",

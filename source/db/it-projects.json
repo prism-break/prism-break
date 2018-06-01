@@ -1937,31 +1937,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Un port per Android dell’intera suite GnuPG 2.1 .\n\nGnu Privacy Guard (GPG) ti dè accesso all’intera suite di crittografia GnuPG. GnuPG è lo strumento di GNU per comunicazioni e memorizzazione di dati in modo sicuro. Questo protocollo fidato è l’alternativa libera a PGP. GnuPG 2.1 è la nuova versione modulare di GnuPG che ora supporta OpenPGP e S/MIME.",
-    "license_url": "https://github.com/guardianproject/gnupg-for-android/blob/master/LICENSE.txt",
-    "logo": "gnupg-for-android.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/guardianproject/gnupg-for-android",
-    "name": "GPG for Android",
-    "tos_url": "",
-    "url": "https://guardianproject.info/code/gnupg/",
-    "wikipedia_url": "",
-    "protocols": [
-      "GPG",
-      "S/MIME"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "slug": "gpg-for-android"
-  },
-  {
-    "development_stage": "released",
     "description": "Gpg4win è un pacchetto di installazione per Windows (XP, Vista, 7 e 8) con strumenti e manuali per cifrare email e file a nome della German Information Security Agency. Lo stesso Gpg4win e tutti i suoi strumenti sono programmi liberi e open source. Il software usa principalmente la crittografia a chiave pubblica per i dati e le firme digitali.",
     "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
     "logo": "gpg4win.png",
