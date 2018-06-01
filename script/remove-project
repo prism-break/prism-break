@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ -z "$1" -o -z "$(command -v jq)" ]; then
+  echo "Usage: $0 <slug>" >&2
+  echo "Dependencies: jq" >&2
+  exit 1
+fi
+
+for f in source/db/*-projects.json; do
+  jq "[.[] | select(any(.; .slug == \"$1\") | not)]" $f > $f.bak
+  mv $f.bak $f
+done
