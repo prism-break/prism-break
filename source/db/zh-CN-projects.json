@@ -896,30 +896,6 @@
   },
   {
     "development_stage": "released",
-    "description": "匿名 VPN 服务，让你隐秘访问常用搜索引擎，如 Google，Bing 和 Yahoo。",
-    "license_url": "https://github.com/disconnectme/search/blob/master/README.markdown#license",
-    "logo": "disconnect-search.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/disconnectme/search",
-    "name": "Disconnect Search",
-    "tos_url": "",
-    "url": "https://disconnect.me/search",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "disconnect-search"
-  },
-  {
-    "development_stage": "released",
     "description": "Windows 系统下高效的磁盘加密工具。",
     "license_url": "https://diskcryptor.net/wiki/Main_Page",
     "logo": "diskcryptor.png",

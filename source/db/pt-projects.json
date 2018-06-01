@@ -896,31 +896,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Anonymous VPN service for popular search engines like Google, Bing, and Yahoo.",
-    "license_url": "",
-    "logo": "disconnect-search.png",
-    "notes": "The source code can be downloaded for viewing by right clicking “Get Disconnect Search” on the official website and selecting “Save Link As...”.\n\nWith “search.xpi” downloaded, change the file extension to “.zip” and extract it to view the source code.",
-    "privacy_url": "",
-    "source_url": "https://disconnect.me/search",
-    "name": "Disconnect Search",
-    "tos_url": "",
-    "url": "https://disconnect.me/search",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "disconnect-search"
-  },
-  {
-    "development_stage": "released",
     "description": "High performance partition encryption software for Windows.",
     "license_url": "https://diskcryptor.net/wiki/Main_Page",
     "logo": "diskcryptor.png",

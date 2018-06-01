@@ -896,31 +896,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Anonyymi VPN-palvelu suosituille hakukoneille kuten Google, Bing, and Yahoo.",
-    "license_url": "",
-    "logo": "disconnect-search.png",
-    "notes": "Lähdekoodi voidaan ladata right-klikkaamalla “Get Disconnect Search” painiketta virallisella verkkosivulla ja valitsemalla “Save Link As...”.\n\nKun “search.xpi” on ladattu, vaihda tiedostopäätteeksi “.zip” ja pura se nähdäksesi lähdekoodin.",
-    "privacy_url": "",
-    "source_url": "https://disconnect.me/search",
-    "name": "Disconnect Search",
-    "tos_url": "",
-    "url": "https://disconnect.me/search",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "slug": "disconnect-search"
-  },
-  {
-    "development_stage": "released",
     "description": "Suorituskykyinen osioita salaava ohjelmisto Windows:ille.",
     "license_url": "https://diskcryptor.net/wiki/Main_Page",
     "logo": "diskcryptor.png",
