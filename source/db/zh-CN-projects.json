@@ -4430,43 +4430,6 @@
     "slug": "retroshare"
   },
   {
-    "development_stage": "released",
-    "description": "开箱即用的匿名和无服务的即时通讯工具。",
-    "license_url": "https://github.com/ricochet-im/ricochet/blob/master/LICENSE",
-    "logo": "ricochet.png",
-    "notes": "Ricochet 是一个建立在 Tor 网络中的点对点即时通讯系统，它采用隐匿服务地址登录，通过捆绑的 Tor 在用户间建立直接的联系（而不是与服务器建立联系）。交会系统使得第三方非常难以识别一个用户的身份。\n\nRicochet 不属于也不被 Tor 项目认可。\n\nRicochet 是不再维护的 TorChat 的替代方案。",
-    "privacy_url": "",
-    "source_url": "https://github.com/ricochet-im/ricochet",
-    "name": "Ricochet",
-    "tos_url": "",
-    "url": "https://ricochet.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ricochet_(software)",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "ricochet"
-  },
-  {
     "development_stage": "experimental",
     "description": "Ring is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.",
     "license_url": "https://github.com/savoirfairelinux/ring-project/blob/master/COPYING",

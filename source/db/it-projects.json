@@ -4359,43 +4359,6 @@
     "slug": "retroshare"
   },
   {
-    "development_stage": "released",
-    "description": "Anonymous and serverless instant messaging designed to work out of the box.",
-    "license_url": "https://github.com/ricochet-im/ricochet/blob/master/LICENSE",
-    "logo": "ricochet.png",
-    "notes": "Ricochet is a peer-to-peer instant messaging system built on Tor hidden services. It uses hidden service addresses as logins. Contacts connect to each other (not an intermediate server) through Tor, which is bundled with the IM client. The rendezvous system makes it extremely hard for anyone to learn a user’s identity from the address.\n\nRicochet is not affiliated with or endorsed by The Tor Project.\n\nRicochet is a substitute for the obsolete TorChat, which is no longer maintained.",
-    "privacy_url": "",
-    "source_url": "https://github.com/ricochet-im/ricochet",
-    "name": "Ricochet",
-    "tos_url": "",
-    "url": "https://ricochet.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ricochet_(software)",
-    "protocols": [
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "ricochet"
-  },
-  {
     "development_stage": "experimental",
     "description": "Ring is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.",
     "license_url": "https://github.com/savoirfairelinux/ring-project/blob/master/COPYING",
