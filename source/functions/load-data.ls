@@ -17,29 +17,29 @@ module.exports = load-data = (path, iso, find-missing = false) ->
     # Look for a localized version
     potential-localized-obj = null
     for localized-obj in localized-data
-      if localized-obj.name is obj.name
+      if localized-obj.slug is obj.slug
         potential-localized-obj = assign {}, obj, localized-obj
         break
 
     if find-missing
       if not potential-localized-obj
-        console.log 'Missing ' + iso + ' localization for ' + obj.name
+        console.log 'Missing ' + iso + ' localization for ' + obj.slug
         continue
       else
         # First we check if entire objects are duplicated
         # We use localized-obj because potential-localized-obj has already been filled in by lodash.assign
         if isequal obj, localized-obj
-          console.log iso + ' localization of ' + obj.name + ' duplicates the English version'
+          console.log iso + ' localization of ' + obj.slug + ' duplicates the English version'
         # Then we check for per-key problems
         else
           # For each (non-empty) localizable key in the English version...
           for key of obj when translatable.includes key and obj[key] is not ''
               # ...check if it hasn't been localized at all
               if not localized-obj[key]
-                console.log 'Missing ' + iso + ' localization for key `' + key + '` in project ' + obj.name
+                console.log 'Missing ' + iso + ' localization for key `' + key + '` in project ' + obj.slug
               # ...check if the localized version is a duplicate
               else if isequal obj[key], localized-obj[key]
-                console.log iso + ' localization of key `' + key + '` in project ' + obj.name + ' duplicates the English version'
+                console.log iso + ' localization of key `' + key + '` in project ' + obj.slug + ' duplicates the English version'
 
         continue
 
