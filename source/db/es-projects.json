@@ -3441,31 +3441,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Navega la web a través de la red de Tor con este navegador de software libre para iOS.",
-    "license_url": "https://github.com/mtigas/iOS-OnionBrowser/blob/master/LICENSE",
-    "logo": "onion-browser.png",
-    "privacy_url": "",
-    "source_url": "https://github.com/mtigas/iOS-OnionBrowser",
-    "name": "Onion Browser",
-    "tos_url": "",
-    "url": "https://mike.tig.as/onionbrowser/",
-    "wikipedia_url": "",
-    "protocols": [
-      "SSL/TLS",
-      "Tor"
-    ],
-    "categories": [
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      }
-    ],
-    "slug": "onion-browser"
-  },
-  {
-    "development_stage": "released",
     "description": "OpenKeychain is an OpenPGP implementation for Android.",
     "license_url": "https://github.com/open-keychain/open-keychain/blob/master/LICENSE",
     "logo": "open-keychain.png",
