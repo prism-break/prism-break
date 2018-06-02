@@ -1,182 +1,102 @@
 [
   {
-    "name": "DNS",
-    "full_name": "Domain Name System",
     "description": "The Domain Name System (DNS) is a hierarkkinen hajautettu nimeämisjärjestelmä tietokoneille, palveluille tai mille tahansa Internetiin tai yksityiseen verkkoon kytkettyyn resurrssiin. DNS assosioi verkkotunnuksiin monenlaista informaatiota. Tärkeinpänä, nimipalvelujärjestelmä muuntaa helposti muistettavat verkkotunnukset numeerisiksi IP-osoitteiksi, jotta tietojenkäsittelypalvelut ympäri maailmaa voitaisiin tavoittaa. Nimipalvelujärjestelmä on Internetin toiminnallisuuden kannalta olennainen komponentti.",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/DNS",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "dns",
+    "wikipedia_url": "https://fi.wikipedia.org/wiki/DNS"
   },
   {
-    "name": "IRC",
-    "full_name": "Internet Relay Chat",
     "description": "Internet Relay Chat (IRC) on protokolla reaaliaikaiseen Internetin läpi tapahtuvaan pikaviestintään. IRC on pääasiassa suunniteltu ryhmäkeskusteluun kanaviksi kutsutuilla keskustelufoorumeilla, mutta mahdollistaa myös kahdenkeskiset keskustelut yksityisviestien kautta sekä tiedonsiirron, mukaanlukien tiedostonjaon.",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/IRC",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "irc",
+    "wikipedia_url": "https://fi.wikipedia.org/wiki/IRC"
   },
   {
-    "name": "Matrix",
-    "full_name": "Matrix",
     "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "matrix",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
   },
   {
-    "name": "SIP",
-    "full_name": "Session Initiation Protocol",
     "description": "The Session Initiation Protocol (SIP) on viestintäprotokolla jota käytetään IP-puhelinyteyksien luontiin Internetissä.",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/SIP",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "sip",
+    "wikipedia_url": "https://fi.wikipedia.org/wiki/SIP"
   },
   {
-    "name": "VoIP",
-    "full_name": "Voice over Internet Protocol",
     "description": "VoIP eli IP-puhe (lyhenne sanoista Voice over Internet Protocol, engl. Voice over IP, IP telephony tai Internet telephony) on kattotermi tekniikalle, jonka avulla ääntä voidaan siirtää reaaliaikaisesti Internetin tai muun IP-protokollaa käyttävän verkon välityksellä.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Voice_over_IP",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "voip",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Voice_over_IP"
   },
   {
-    "name": "XMPP",
-    "full_name": "Extensible Messaging and Presence Protocol",
     "description": "Extensible Messaging and Presence Protocol (XMPP) (tunnettu aiemmin nimellä Jabber) on pikaviestintään ja läsnäolon seurantaan kehitetty avoin teknologia. XMPP-protokolla on laajennettava, ja tukee nykyään pikaviestinnän lisäksi muun muassa VoIP-puheluita ja tiedostonsiirtoa. Sähköpostin tavoin XMPP-järjestelmällä ei ole yhtä keskitettyä palvelinta, vaan järjestelmä tunnistaa käyttäjän palveluntarjoajan domain-tunnuksen avulla. ",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/XMPP",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "xmpp",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/XMPP"
   },
   {
-    "name": "Tox",
-    "full_name": "Tox",
     "description": "Tox on Tox pikaviestiohjelman alla toimiva viestntäprotokolla. Vaihtoehtoisia implementaatioita tälle protokollalle on, esimerkiksi Xot, mutta niiden käyttö on vähäistä.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)#Protocol",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "tox",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)#Protocol"
   },
   {
-    "name": "GPG",
-    "full_name": "GNU Privacy Guard",
     "description": "GNU Privacy Guard (GnuPG or GPG) on GPL-lisensoitu vaihtoehto PGP:lle, kokoelmalle kryptografisia ohjelmia. GnuPG on yhteensopiva RFC 4880:n kanssa, joka on tämänhetkinen IETF standardimääritelmä OpenPGP:lle. Nykyisen PGP:n versiot ja Veridisin Filecrypt ovat yhteensopivia GnuPG:n ja muiden OpenPGPG-yhteensopivien ohjelmien kanssa.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "gpg",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
   },
   {
-    "name": "OTR",
-    "full_name": "Off-the-Record Messaging",
     "description": "Off-the-Record viestintä (lyh. OTR) on kryptografinen protokolla, joka tarjoaa vahvan salauksen pikaviestinnälle. OTR käyttää symmetristä AES-salausta, Diffie-Hellman avaintenvaihto-protokollaa ja SHA-1 tiivistefunktiota. Lisäyksenä autentikoinnille ja salaukselle, OTR tarjoaa perfect-forward secrecy:n, eli asiakaslaitteet tallentavat salausavaimen sijaan ainoastaan uuden salausavainparin luonnin aikana henkilön tunnistavan digitaalisen allekirjoitusavaimen: OTR-keskustelun päättyessä salausavain tuhoutuu eikä vanhoja kryptogrammeja pysty enää purkamaan. Lisäksi keskustelun viestiautentikointiavaimet julkaistaan keskustelun päättyessä, eli hyökkääjä voi jälkikäteen halutessaan väärentää keskustelun sisällön. Keskustelun aidoksi todistaminen ei ole jälkikäteen mahdollista.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "otr",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging"
   },
   {
-    "name": "OMEMO",
-    "full_name": "OMEMO Multi-End Message and Object Encryption",
     "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "omemo",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO"
   },
   {
-    "name": "S/MIME",
-    "full_name": "Secure/Multipurpose Internet Mail Extensions",
     "description": "Secure MIME eli S/MIME on standardi, joka määrittelee sähköpostin salauksen ja allekirjoittamisen julkisen avaimen salausta käyttäen. Sen avulla voidaan varmistaa viestin luottamuksellisuus (ei sivullisten tietoon), alkuperäisyys (kuka on viestin laatija) ja muuttumattomuus. Jotta kaksi käyttäjää voisivat luotettavasti vaihtaa viestejä S/MIME-standardin mukaisesti, kummallakin on oltava tunnustetun julkisen tahon allekirjoittama varmenne.",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/S/MIME",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "s-mime",
+    "wikipedia_url": "https://fi.wikipedia.org/wiki/S/MIME"
   },
   {
-    "name": "SSL/TLS",
-    "full_name": "Transport Layer Security",
     "description": "Transport Layer Security (TLS), aiemmin tunnettu nimellä Secure Sockets Layer (SSL), on salausprotokolla, jolla voidaan suojata Internet-sovellusten tietoliikenne IP-verkkojen yli. Se on nykyisin yksi tavallisimpia tapoja suojata tietoliikennettä. Tavallisin TLS:n käyttötapa on suojata WWW-sivujen siirtoa HTTPS-protokollalla. Uusin TLS-versio 1.2 (korvaa vanhemmat SSL-versiot) määritellään standardissa RFC 5246.",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/TLS",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "ssl-tls",
+    "wikipedia_url": "https://fi.wikipedia.org/wiki/TLS"
   },
   {
-    "name": "ZRTP",
-    "full_name": "Z Real-time Transport Protocol",
     "description": "ZRTP (yhdistelmä kirjaimesta Z ja termistä Real-time Transport Protocol) on kryptografinen avaintenvaihtoprotokolla, jota käytetään salausavainten muodostamiseen kahden päätelaitteen välillä Real-time Transport protokollissa. ZRTP käyttää Diffie-Hellman avaintenvaihtoa ja Secure Real-time Transport Porotokollaa (SRTP) salaamiseen. ZRTP on Phil Zimmermannin yhdessä Bryce Wilcox-O'Hearnin, Colin Plumbin, Jon Callasin ja Alan Johnstonin kanssa suunnittelema, ja Internet Engineering Task Forcelle (IETF) Marraskuun 5. 2006 jättämä protokolla. ZRTP spesifikaatio (RFC6189) julkaistiin 11.4.2011.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ZRTP",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "zrtp",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/ZRTP"
   },
   {
-    "name": "I2P",
-    "full_name": "Invisible Internet Project",
     "description": "I2P (alun perin lyhenne nyt käytöstä poistuneesta nimestä Invisible Internet Project, lyhyesti I2P) on vapaan ja avoimen lähdekoodin projekti, jonka tavoitteena on luoda anonyymi verkko. I2P on internetin päällä toimiva verkkokerros, jota käyttämällä ohjelmat voivat lähettää viestejä toisilleen anonyymisti ja turvallisesti. Mahdollisia käyttötapoja ovat muun muassa anonyymi verkossa surffailu, chatti, blogaaminen ja tiedostonsiirto. Itse ohjelmaa kutsutaan nimellä I2P router (I2P-reititin) ja tietokonetta, jossa ohjelma on käynnissä nimellä I2P node (I2P-solmu).",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/I2P",
-    "categories": [{
-      "name": "Anonymity"
-    }]
+    "slug": "i2p",
+    "wikipedia_url": "https://fi.wikipedia.org/wiki/I2P"
   },
   {
-    "name": "Tor",
-    "full_name": "The Onion Router",
     "description": "Tor (aiemmin lyhenne sanoista The Onion Router [4]) on vapaa ohjelmisto, joka mahdollistaa Internetin anonyymin käytön ja sensuurin kiertämisen. Se on suunniteltu mahdollistamaan sitä käyttävien henkilöiden anonyymin internetselaamisen niin, että valtion virastot, yritykset tai muut tahot eivät voi havaita heidän tekemisiä tai sijaintia.",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/Tor_%28verkko%29",
-    "categories": [{
-      "name": "Anonymity"
-    }]
+    "slug": "tor",
+    "wikipedia_url": "https://fi.wikipedia.org/wiki/Tor_%28verkko%29"
   },
   {
-    "name": "RSS",
-    "full_name": "Rich Site Summary",
     "description": "RSS (lyhenne sanoista Really Simple Syndication) on XML-kieleen perustuva verkkosyötemuoto. Sitä käytetään usein päivittyvän digitaalisen sisällön julkaisemiseen. Sen kehittämisen aloitti Dave Winer vuonna 1997.",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/RSS",
-    "categories": [{
-      "name": "Syndication"
-    }]
+    "slug": "rss",
+    "wikipedia_url": "https://fi.wikipedia.org/wiki/RSS"
   },
   {
-    "name": "CalDAV",
-    "full_name": "Calendaring Extensions to WebDAV",
     "description": "Calendaring Extensions to WebDAV, or CalDAV, on Internet-standardi, joka mahdollistaa asiakkaan pääsyn etäpalvelimen aikataulutusinfomraatioon. Se laajentaa WebDAV:n (HTTP-pohjaista protokollaa datan muokkaamiseen) spesifikaatiota ja käyttä iCalendar muotoa datalle. Protokolla on määritelty RFC 4791:ssä. CalDAV mahdollistaa useiden asiakasohjelmien pääsyn tietoon samanaikaisesti, mahdollistaen samanaikaisen suunnittelun ja informaationjaon. Monet palvelimet ja asiakasohjelmat tukevat CalDAV-protokollaa.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CalDAV",
-    "categories": [{
-      "name": "Synchronization"
-    }]
+    "slug": "caldav",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CalDAV"
   },
   {
-    "name": "CardDAV",
-    "full_name": "Contact Extensions to WebDAV",
     "description": "CardDAV on osoitekirja prptokolla palvelimen ja asiakasohjelman välillä, joka mahdollistaa yhteystietojen jakamisen ja hakemisen palvelimelta.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CardDAV",
-    "categories": [{
-      "name": "Synchronization"
-    }]
+    "slug": "carddav",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CardDAV"
   },
   {
-    "name": "WebDAV",
-    "full_name": "Web Distributed Authoring and Versioning",
     "description": "Web Distributed Authoring and Versioning (WebDAV) on laajennus Hypertext Transfer Protokollaan (HTTP) joka mahdollistaa yhteistyön dokumenttien ja tiedostojen luonnissa ja muokkaamisessa, kun tiedostot on tallennettu palvelimille. Internet Engineering Task Forcen (IETF) työryhmä määritteli WebDAV:n dokumentissa RFC 4918.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WebDAV",
-    "categories": [{
-      "name": "Synchronization"
-    }]
+    "slug": "webdav",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/WebDAV"
   },
   {
-    "name": "ActiveSync",
-    "full_name": "Exchange ActiveSync",
     "description": "Exchange ActiveSync mahdollistaa mobiililaitteen synkronoinnin joko pöytäkoneen tai palvelimen kanssa. ActiveSync ei ole avoin standardi, mutta on laajalti käytetty ja tuettu.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync",
-    "categories": [{
-      "name": "Synchronization"
-    }]
+    "slug": "activesync",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync"
   }
 ]

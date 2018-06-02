@@ -1,182 +1,102 @@
 [
   {
-    "name": "DNS",
-    "full_name": "Domain Name System",
     "description": "O Domain Name System (DNS) é um sistema de gerenciamento de nomes hierárquico e distribuído para computadores, serviços ou qualquer recurso conectado à Internet ou em uma rede privada. Ele baseia-se em nomes hierárquicos e permite a inscrição de vários dados digitados além do nome do host e seu IP. O DNS é conhecido por traduzir nomes de domínio em endereços IP numéricos necessários para localizar computadores e dispositivos. O DNS é um componente essencial paa o funcionamento da Internet.",
-    "wikipedia_url": "https://pt.wikipedia.org/wiki/Domain_Name_System",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "dns",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Domain_Name_System"
   },
   {
-    "name": "IRC",
-    "full_name": "Internet Relay Chat",
     "description": "Internet Relay Chat (IRC) é um protocolo de comunicação utilizado na Internet. Ele é utilizado basicamente como bate-papo (chat) e troca de arquivos, permitindo a conversa em grupo ou privada.",
-    "wikipedia_url": "https://pt.wikipedia.org/wiki/Internet_Relay_Chat",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "irc",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Internet_Relay_Chat"
   },
   {
-    "name": "Matrix",
-    "full_name": "Matrix",
     "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "matrix",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
   },
   {
-    "name": "SIP",
-    "full_name": "Session Initiation Protocol",
     "description": "O Protocolo de Iniciação de Sessão (Session Initiation Protocol - SIP) é um protocolo de código aberto de aplicação, que utiliza o modelo 'requisição-resposta', similar ao HTTP, para iniciar sessões de comunicação interativa entre utilizadores.",
-    "wikipedia_url": "https://pt.wikipedia.org/wiki/Session_Initiation_Protocol",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "sip",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Session_Initiation_Protocol"
   },
   {
-    "name": "VoIP",
-    "full_name": "Voice over Internet Protocol",
     "description": "Voz sobre IP também chamada de VoIP (Voice over Internet Protocol) é uma metodologia e grupo de tecnologias para a entrega de comunicações de voz a entrega de comunicações de voz e sessões multimídia através de redes de Internet Protocol (IP), como a Internet. Outros termos comumente associadas com VoIP são telefonia IP, telefonia Internet, telefonia em banda larga ou voz sobre banda larga tornando a transmissão de voz mais um dos serviços suportados pela rede de dados.",
-    "wikipedia_url": "https://pt.wikipedia.org/wiki/Voz_sobre_IP",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "voip",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Voz_sobre_IP"
   },
   {
-    "name": "XMPP",
-    "full_name": "Extensible Messaging and Presence Protocol",
     "description": "Extensible Messaging and Presence Protocol (XMPP) (conhecido anteriormente como Jabber ) é um protocolo aberto, extensível, baseado em XML, para sistemas de mensagens instantâneas, desenvolvido originalmente para mensagens instantâneas e informação de presença formalizado pelo IETF. Softwares com base XMPP são distribuídos em milhares de servidores através da internet, e usados por cerca de dez milhões de pessoas em todo mundo, de acordo com a XMPP Standards Foundation.",
-    "wikipedia_url": "https://pt.wikipedia.org/wiki/XMPP",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "xmpp",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/XMPP"
   },
   {
-    "name": "Tox",
-    "full_name": "Tox",
     "description": "Tox é o protocolo de comunicação por trás do Tox instant messaging client, um software livre, multiplataforma e peer-to-peer para troca de mensagens instantâneas e vídeo-chamadas. O objetivo primário do projeto Tox é oferecer um meio de comunicação acessível e seguro à todos. Existem outras alternativas ao Tox, como o Xot, mas ainda não foram adotadas amplamente.",
-    "wikipedia_url": "https://pt.wikipedia.org/wiki/Tox",
-    "categories": [{
-      "name": "Communication"
-    }]
+    "slug": "tox",
+    "wikipedia_url": "https://pt.wikipedia.org/wiki/Tox"
   },
   {
-    "name": "GPG",
-    "full_name": "GNU Privacy Guard",
     "description": "GNU Privacy Guard (GnuPG or GPG) é uma alternativa GPL ao aplicativo PGP de criptografia. GnuPG é compatível com a RFC 4880, o padrão da IETF para a especificação do OpenPGP.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "gpg",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
   },
   {
-    "name": "OTR",
-    "full_name": "Off-the-Record Messaging",
     "description": "O 'Off-the-Record Messaging', conhecido como OTR, é um protocolo que oferece forte criptografia para troca de mensagens instantâneas. OTR utiliza a combinação do algorítimo AES de chaves simétricas, a troca de chaves Diffie–Hellman e a função de hash SHA-1. Além de autenticação e criptografia, o OTR também oferece PFS (Perfect Forward Secrecy) e criptografia maleável.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "otr",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Off-the-Record_Messaging"
   },
   {
-    "name": "OMEMO",
-    "full_name": "OMEMO Multi-End Message and Object Encryption",
     "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "omemo",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO"
   },
   {
-    "name": "S/MIME",
-    "full_name": "Secure/Multipurpose Internet Mail Extensions",
     "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME was originally developed by RSA Data Security Inc. S/MIME functionality is built into the majority of modern email software and interoperates between them.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/S/MIME",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "s-mime",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/S/MIME"
   },
   {
-    "name": "SSL/TLS",
-    "full_name": "Transport Layer Security",
     "description": "Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), are cryptographic protocols which are designed to provide communication security over the Internet. They use X.509 certificates and hence asymmetric cryptography to assure the counterparty whom they are talking with, and to exchange a symmetric key. This session key is then used to encrypt data flowing between the parties. This allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Transport_Layer_Security",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "ssl-tls",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Transport_Layer_Security"
   },
   {
-    "name": "ZRTP",
-    "full_name": "Z Real-time Transport Protocol",
     "description": "ZRTP (composed of Z and Real-time Transport Protocol) is a cryptographic key-agreement protocol to negotiate the keys for encryption between two end points in a Voice over Internet Protocol (VoIP) phone telephony call based on the Real-time Transport Protocol. It uses Diffie–Hellman key exchange and the Secure Real-time Transport Protocol (SRTP) for encryption. ZRTP was developed by Phil Zimmermann, with help from Bryce Wilcox-O'Hearn, Colin Plumb, Jon Callas and Alan Johnston and was submitted to the Internet Engineering Task Force (IETF) by Phil Zimmermann, Jon Callas and Alan Johnston on March 5, 2006 and published on April 11, 2011 as RFC 6189.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ZRTP",
-    "categories": [{
-      "name": "Encryption"
-    }]
+    "slug": "zrtp",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/ZRTP"
   },
   {
-    "name": "I2P",
-    "full_name": "Invisible Internet Project",
     "description": "I2P (Invisible Internet Project) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous web surfing, chatting, blogging and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/I2P",
-    "categories": [{
-      "name": "Anonymity"
-    }]
+    "slug": "i2p",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/I2P"
   },
   {
-    "name": "Tor",
-    "full_name": "The Onion Router",
     "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
-    "categories": [{
-      "name": "Anonymity"
-    }]
+    "slug": "tor",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29"
   },
   {
-    "name": "RSS",
-    "full_name": "Rich Site Summary",
     "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called “feed”, “web feed”, or “channel”) includes full or summarized text, and metadata, like publishing date and author's name.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/RSS",
-    "categories": [{
-      "name": "Syndication"
-    }]
+    "slug": "rss",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/RSS"
   },
   {
-    "name": "CalDAV",
-    "full_name": "Calendaring Extensions to WebDAV",
     "description": "Calendaring Extensions to WebDAV, or CalDAV, is an Internet standard allowing a client to access scheduling information on a remote server. It extends WebDAV (HTTP-based protocol for data manipulation) specification and uses iCalendar format for the data. The protocol is defined by RFC 4791. It allows multiple client access to the same information thus allowing cooperative planning and information sharing. Many server and client applications support the protocol.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CalDAV",
-    "categories": [{
-      "name": "Synchronization"
-    }]
+    "slug": "caldav",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CalDAV"
   },
   {
-    "name": "CardDAV",
-    "full_name": "Contact Extensions to WebDAV",
     "description": "CardDAV is an address book client/server protocol designed to allow users to access and share contact data on a server.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CardDAV",
-    "categories": [{
-      "name": "Synchronization"
-    }]
+    "slug": "carddav",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CardDAV"
   },
   {
-    "name": "WebDAV",
-    "full_name": "Web Distributed Authoring and Versioning",
     "description": "Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol (HTTP) that facilitates collaboration between users in editing and managing documents and files stored on World Wide Web servers. A working group of the Internet Engineering Task Force (IETF) defined WebDAV in RFC 4918.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WebDAV",
-    "categories": [{
-      "name": "Synchronization"
-    }]
+    "slug": "webdav",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/WebDAV"
   },
   {
-    "name": "ActiveSync",
-    "full_name": "Exchange ActiveSync",
     "description": "Exchange ActiveSync allows a mobile device to be synchronized with either a desktop PC or a server running a compatible software product. It is not an Open Standard but widely used and supported.",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync",
-    "categories": [{
-      "name": "Synchronization"
-    }]
+    "slug": "activesync",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync"
   }
 ]
