@@ -1241,37 +1241,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Quelloffenes, gemeinsames Arbeiten an Textdokumenten in Echtzeit.",
-    "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
-    "logo": "etherpad.png",
-    "notes": "Das Etherpad-Projekt unterhält eine Liste von [Seiten, die Etherpad-Dienste](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite) anbieten. Bitte wähle daraus nur Dienste, die SSL/HTTPS anbieten und informiere dich über den Hintergrund des Anbieters, bevor du ihm deine Daten anvertraust.",
-    "privacy_url": "",
-    "source_url": "https://github.com/ether/etherpad-lite",
-    "name": "Etherpad",
-    "tos_url": "",
-    "url": "http://etherpad.org/",
-    "wikipedia_url": "https://de.wikipedia.org/wiki/EtherPad",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Productivity"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "etherpad"
-  },
-  {
-    "development_stage": "released",
     "description": "Email, Adressbuch und Kalenderanwendung für das GNOME-Desktop mit PGP-Unterstützung.",
     "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
     "logo": "evolution.png",
