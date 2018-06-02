@@ -1241,37 +1241,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Sistema autogestito per documenti collaborativi in tempo reale.",
-    "license_url": "https://github.com/ether/etherpad-lite/blob/develop/LICENSE",
-    "logo": "etherpad.png",
-    "notes": "Il progetto etherpad mantiene una lista di [siti che ospitano servizi etherpad](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Si consiglia di scegliere solo servizi che usano SSL e controllare la storia del sito prima di affidare loro i tuoi dati.",
-    "privacy_url": "",
-    "source_url": "https://github.com/ether/etherpad-lite",
-    "name": "Etherpad",
-    "tos_url": "",
-    "url": "http://etherpad.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Etherpad",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Productivity"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "etherpad"
-  },
-  {
-    "development_stage": "released",
     "description": "Client email, rubrica e calendario per desktop GNOME, con supporto PGP.",
     "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
     "logo": "evolution.png",
