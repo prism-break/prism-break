@@ -254,55 +254,6 @@
     "slug": "bitcoin"
   },
   {
-    "development_stage": "released",
-    "description": "IRC instant messaging gateway that supports a bunch of protocols.",
-    "license_url": "http://code.bitlbee.org/lh/bitlbee/view/head:/COPYING",
-    "logo": "bitlbee.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "http://code.bitlbee.org/",
-    "name": "BitlBee",
-    "tos_url": "",
-    "url": "http://www.bitlbee.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/BitlBee",
-    "protocols": [
-      "IRC",
-      "OTR",
-      "XMPP"
-    ],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging",
-          "IRC"
-        ]
-      }
-    ],
-    "slug": "bitlbee"
-  },
-  {
     "development_stage": "experimental",
     "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
@@ -2520,21 +2471,18 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       }
@@ -2929,45 +2877,6 @@
       }
     ],
     "slug": "kontact"
-  },
-  {
-    "development_stage": "released",
-    "description": "Phone number based messaging client for the masses, using XMPP and OpenPGP encryption. Backed by community-driven servers.",
-    "license_url": "https://github.com/kontalk/androidclient/blob/master/COPYING",
-    "logo": "kontalk.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/kontalk",
-    "name": "Kontalk",
-    "tos_url": "",
-    "url": "https://kontalk.org/",
-    "wikipedia_url": "",
-    "protocols": [
-      "XMPP",
-      "GPG",
-      "SSL/TLS"
-    ],
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "slug": "kontalk"
   },
   {
     "development_stage": "released",
@@ -3494,7 +3403,6 @@
         "name": "BSD",
         "subcategories": [
           "Email Clients",
-          "Instant Messaging",
           "IRC"
         ]
       },
@@ -3502,7 +3410,6 @@
         "name": "GNU/Linux",
         "subcategories": [
           "Email Clients",
-          "Instant Messaging",
           "IRC"
         ]
       },
@@ -3510,7 +3417,6 @@
         "name": "macOS",
         "subcategories": [
           "Email Clients",
-          "Instant Messaging",
           "IRC"
         ]
       },
@@ -3518,7 +3424,6 @@
         "name": "Windows",
         "subcategories": [
           "Email Clients",
-          "Instant Messaging",
           "IRC"
         ]
       }
@@ -4848,7 +4753,6 @@
         "name": "Web Services",
         "subcategories": [
           "Email Accounts",
-          "Instant Messaging",
           "Productivity",
           "VPN Accounts"
         ]
