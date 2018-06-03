@@ -67,7 +67,7 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
 
 ### 5. Serve
 
-Serve the folder [`./public`](./public/) on your web server.
+    make serve     # starts HTTP server on http://127.0.0.1:8080
 
 ### Need more details on how to submit a project or a translation?
 
