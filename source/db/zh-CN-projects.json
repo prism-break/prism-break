@@ -815,13 +815,6 @@
     "slug": "tails"
   },
   {
-    "description": "进行分布式实时通讯和个人数据存储的协议。",
-    "notes": "Tent 提到，它仍处于 alpha 测试阶段:\n*\"记住，Tent 仍处于 alpha 测试阶段，所以不应该用它来传递敏感信息，它也不应该被视为可靠的。\"*",
-    "url": "https://tent.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tent_%28protocol%29",
-    "slug": "tent"
-  },
-  {
     "description": "跨平台的 XMPP 服务端，使用 Java 语言编写。",
     "url": "http://www.tigase.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase",
