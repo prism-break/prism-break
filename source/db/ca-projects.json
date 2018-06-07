@@ -157,12 +157,6 @@
     "slug": "encfs"
   },
   {
-    "description": "Plug and play cjdns appliance, offering a distributed and end-to-end encrypted telephony and email service.",
-    "url": "http://enigmabox.net/en/",
-    "wikipedia_url": "",
-    "slug": "enigmabox"
-  },
-  {
     "description": "Connector d'OpenPGP per a Thunderbird/Icedove.",
     "notes": "[Here is a guide](https://securityinabox.org/en/guide/thunderbird/linux/) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail. Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
     "url": "https://www.enigmail.net/home/index.php",

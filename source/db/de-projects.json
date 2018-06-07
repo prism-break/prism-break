@@ -157,12 +157,6 @@
     "slug": "encfs"
   },
   {
-    "description": "Plug and Play Verschlüsselungsmaschine, welche verteilte und Ende-zu-Ende verschlüsselte Telefonie und E-Mail-Kommunikation ermöglicht.",
-    "url": "http://enigmabox.net/",
-    "wikipedia_url": "",
-    "slug": "enigmabox"
-  },
-  {
     "description": "Ein OpenPGP-Add-on für Thunderbird/Icedove.",
     "notes": "[Hier findest du eine Anleitung](https://securityinabox.org/en/guide/thunderbird/linux/) von Security In A Box für die Verschlüsselung deiner E-Mail mit Mozilla Thunderbird, GNU Privacy Guard (GPG) und Enigmail. Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
     "url": "https://www.enigmail.net/home/index.php",
