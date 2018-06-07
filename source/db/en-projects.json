@@ -2660,65 +2660,6 @@
   },
   {
     "development_stage": "released",
-    "description": "A free network that runs over other networks.",
-    "license_url": "https://github.com/fauno/librevpn/blob/master/LICENSE",
-    "logo": "librevpn.png",
-    "notes": "This project is experimental, and the site is in Spanish only.",
-    "privacy_url": "",
-    "source_url": "https://github.com/fauno/librevpn",
-    "name": "LibreVPN",
-    "tos_url": "",
-    "url": "http://librevpn.org.ar/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      },
-      {
-        "name": "Android",
-        "subcategories": [
-          "Mesh Networks"
-        ]
-      }
-    ],
-    "slug": "librevpn"
-  },
-  {
-    "development_stage": "released",
     "description": "Encrypted voice and video client for multiple platforms.",
     "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
     "logo": "linphone.png",
