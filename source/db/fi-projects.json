@@ -157,12 +157,6 @@
     "slug": "encfs"
   },
   {
-    "description": "Plug and play cjdns ohjelmisto. Tarjoaa hajautetun, päästä päähän salatun VoIP ja sähköpostipalvelun.",
-    "url": "http://enigmabox.net/en/",
-    "wikipedia_url": "",
-    "slug": "enigmabox"
-  },
-  {
     "description": "OpenPGP-lisäosa Thunderbirdille ja Icedovelle.",
     "notes": "[Tässä](https://securityinabox.org/en/guide/thunderbird/linux/) on Security In A Box:n opas sähköpostin salaamiseen Mozilla Thunderbird:illa yhdessä GNU Privacy Guard:in (GPG) ja and Enigmail:in kanssa. Lue myös Free Software Foundation toimittama [sähköpostin itsepuolustusopas](https://emailselfdefense.fsf.org) oppiaksesi miten sähköpostit salataan.",
     "url": "https://www.enigmail.net/home/index.php",
