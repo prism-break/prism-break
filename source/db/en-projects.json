@@ -3999,29 +3999,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Free software VPN client derived from FreeS/WAN.",
-    "license_url": "https://github.com/xelerance/Openswan/blob/master/COPYING",
-    "logo": "openswan.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/xelerance/Openswan",
-    "name": "Openswan",
-    "tos_url": "",
-    "url": "https://www.openswan.org/projects/openswan/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openswan",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "VPN Servers"
-        ]
-      }
-    ],
-    "slug": "openswan"
-  },
-  {
-    "development_stage": "released",
     "description": "Free software VPN client.",
     "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
     "logo": "openvpn.png",
