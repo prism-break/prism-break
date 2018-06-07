@@ -141,6 +141,10 @@ $(LOCALLANGS): localize_%:
 watch:
 	git ls-files | entr -p make $(WATCH_ARGS)
 
+.PHONY: serve
+serve:
+	yarn -s run http-server
+
 # Rebuild CSS live on input changes
 .PHONY: watch_css
 watch_css:
