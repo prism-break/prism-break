@@ -1,5 +1,6 @@
 'use strict'
 
+{sort-by} = require 'prelude-ls'
 load-data = require './load-data.ls'
 {write-localized-site} = require './write.ls'
 {slugify-db} = require './sort.ls'
@@ -18,7 +19,7 @@ export build-site = (iso) ->
     locale: locale
     platform-types: platform-types
     projects: slugify-db projects
-    projects-rejected: projects-rejected
+    projects-rejected: sort-by (.name.to-lower-case!), projects-rejected
     protocols: slugify-db protocols
 
   write-localized-site(db)
