@@ -611,7 +611,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "ms-outlook.png"
-    name: "Microsoft Office Outlook"
+    name: "Microsoft Outlook"
     categories: [
       * "name": "macOS"
         subcategories: ["Email Clients", "Productivity"]
@@ -622,7 +622,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "ms-outlook.png"
-    name: "Microsoft Outlook.com"
+    name: "Outlook.com"
     categories: [
       * name: "Web Services"
         subcategories: ["Email Accounts"]
