@@ -471,8 +471,6 @@ projects-rejected =
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["XMPP Servers"]
     ]
 
   * status: 'rejected'
