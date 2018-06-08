@@ -150,7 +150,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "blackberry.png"
-    name: "BlackBerry"
+    name: "BlackBerry 10"
     categories: [
       * name: "Android"
         subcategories: ["Operating Systems (Mobile)"]
