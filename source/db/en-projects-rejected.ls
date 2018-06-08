@@ -551,15 +551,6 @@ projects-rejected =
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "mcafee.png"
-    name: "McAfee Endpoint Encryption"
-    categories: [
-      * name: "Windows"
-        subcategories: ["Disk Encryption"]
-    ]
-
-  * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "yahoo.png"
     name: "Yahoo Search"
