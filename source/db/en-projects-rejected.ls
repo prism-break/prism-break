@@ -1041,27 +1041,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "icq.png"
-    name: "ICQ"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Instant Messaging"]
-      * name: "Android"
-        subcategories: ["Instant Messaging"]
-      * name: "iOS"
-        subcategories: ["Instant Messaging"]
-      * "name": "GNU/Linux"
-        subcategories: ["Instant Messaging"]
-      * "name": "macOS"
-        subcategories: ["Instant Messaging"]
-      * name: "Windows"
-        subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["Instant Messaging"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
     logo: "line.png"
     name: "LINE"
     categories: [
