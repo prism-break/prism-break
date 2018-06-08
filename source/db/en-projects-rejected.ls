@@ -1,5 +1,4 @@
 projects-rejected =
-
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "imgur.png"
@@ -125,15 +124,6 @@ projects-rejected =
     categories: [
       * "name": "macOS"
         subcategories: ["Operating Systems"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple.png"
-    name: "Apple macOS DNS (Default)"
-    categories: [
-      * "name": "macOS"
-        subcategories: ["DNS"]
     ]
 
   * status: 'rejected'
@@ -698,15 +688,6 @@ projects-rejected =
         subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-windows.png"
-    name: "Microsoft DNS (Default)"
-    categories: [
-      * name: "Windows"
-        subcategories: ["DNS"]
     ]
 
   * status: 'rejected'
