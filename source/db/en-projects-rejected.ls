@@ -46,7 +46,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-icloud.png"
-    name: "Apple iCloud"
+    name: "iCloud"
     categories: [
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
