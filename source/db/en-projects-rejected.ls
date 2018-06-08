@@ -129,7 +129,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
     logo: "apple-safari.png"
-    name: "Apple Safari"
+    name: "Safari"
     protocols: ["SSL/TLS"]
     categories: [
       * name: "iOS"
