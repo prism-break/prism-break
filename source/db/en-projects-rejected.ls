@@ -127,15 +127,6 @@ projects-rejected =
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-macos.png"
-    name: "Apple macOS Server"
-    categories: [
-      * name: "Servers"
-        subcategories: ["Operating Systems"]
-    ]
-
-  * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
     logo: "apple-safari.png"
     name: "Apple Safari"
@@ -687,15 +678,6 @@ projects-rejected =
       * "name": "macOS"
         subcategories: ["Operating Systems"]
       * name: "Windows"
-        subcategories: ["Operating Systems"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-windows.png"
-    name: "Microsoft Windows Server"
-    categories: [
-      * name: "Servers"
         subcategories: ["Operating Systems"]
     ]
 
