@@ -68,7 +68,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-iwork-for-icloud.png"
-    name: "Apple iWork for iCloud"
+    name: "iWork"
     categories: [
       * name: "Web Services"
         subcategories: ["Productivity"]
