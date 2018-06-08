@@ -572,17 +572,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-office.png"
-    name: "Microsoft Office Web Apps"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Productivity"]
-      * name: "Servers"
-        subcategories: ["Productivity"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
     logo: "ms-outlook.png"
     name: "Microsoft Outlook"
     categories: [
