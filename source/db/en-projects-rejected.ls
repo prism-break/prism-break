@@ -160,19 +160,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "cisco.png"
-    name: "Cisco Systems VPN Client"
-    categories: [
-      * name: "GNU/Linux"
-        subcategories: ["VPN Clients"]
-      * "name": "macOS"
-        subcategories: ["VPN Clients"]
-      * name: "Windows"
-        subcategories: ["VPN Clients"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
     logo: "disc0rd.png"
     name: "Discord"
     categories: [
