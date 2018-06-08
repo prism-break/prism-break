@@ -4388,29 +4388,6 @@
   },
   {
     "development_stage": "experimental",
-    "description": "SemanticScuttle is a social bookmarking tool experimenting with features like structured tags and collaborative tag descriptions.",
-    "license_url": "https://github.com/cweiske/SemanticScuttle/blob/master/www/about.php",
-    "logo": "semanticscuttle.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/cweiske/SemanticScuttle",
-    "name": "SemanticScuttle",
-    "tos_url": "",
-    "url": "http://semanticscuttle.sourceforge.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Scuttle_(software)",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Bookmark Sync"
-        ]
-      }
-    ],
-    "slug": "semanticscuttle"
-  },
-  {
-    "development_stage": "experimental",
     "description": "The personal, minimalist, super-fast, no-database delicious clone.",
     "license_url": "https://github.com/shaarli/Shaarli/blob/master/COPYING",
     "logo": "shaarli.png",
