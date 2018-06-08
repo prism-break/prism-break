@@ -1031,7 +1031,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "office365.png"
-    name: "Office 365 Enterprise E5"
+    name: "Office 365"
     categories: [
       * name: "Servers"
         subcategories: ["Enterprise Suite"]
