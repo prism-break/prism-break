@@ -582,10 +582,8 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "ms-bitlocker.png"
-    name: "BitLocker Drive Encryption"
+    name: "BitLocker"
     categories: [
-      * name: "Servers"
-        subcategories: ["Disk Encryption"]
       * name: "Windows"
         subcategories: ["Disk Encryption"]
     ]
