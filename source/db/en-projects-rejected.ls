@@ -643,17 +643,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-windows-phone.png"
-    name: "Microsoft Windows Phone"
-    categories: [
-      * name: "Android"
-        subcategories: ["Operating Systems (Mobile)"]
-      * name: "iOS"
-        subcategories: ["Operating Systems (Mobile)"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
     logo: "ms-windows.png"
     name: "Windows"
     categories: [
