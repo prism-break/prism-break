@@ -59,7 +59,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-ios.png"
-    name: "Apple iOS"
+    name: "iOS"
     categories: [
       * name: "iOS"
         subcategories: ["Operating Systems (Mobile)"]
