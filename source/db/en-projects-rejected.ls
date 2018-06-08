@@ -36,7 +36,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-filevault.png"
-    name: "Apple FileVault"
+    name: "FileVault"
     categories: [
       * "name": "macOS"
         subcategories: ["Disk Encryption"]
