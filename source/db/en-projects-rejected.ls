@@ -987,21 +987,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "xmarks.png"
-    name: "Xmarks"
-    categories: [
-      * name: "GNU/Linux"
-        subcategories: ["Bookmark Sync"]
-      * name: "macOS"
-        subcategories: ["Bookmark Sync"]
-      * name: "Web Services"
-        subcategories: ["Bookmark Sync"]
-      * name: "Windows"
-        subcategories: ["Bookmark Sync"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
     logo: "yandex.png"
     name: "Yandex.Mail"
     categories: [
