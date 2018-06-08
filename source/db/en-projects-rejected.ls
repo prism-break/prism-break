@@ -429,9 +429,9 @@ projects-rejected =
     name: "Google+"
     categories: [
       * name: "Web Services"
-        subcategories: ["Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks"]
       * name: "Servers"
-        subcategories: ["Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks"]
     ]
 
   * status: 'rejected'
