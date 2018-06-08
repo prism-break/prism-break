@@ -563,7 +563,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
     logo: "ms-ie.png"
-    name: "Microsoft Internet Explorer"
+    name: "Microsoft Edge"
     protocols: ["SSL/TLS"]
     categories: [
       * name: "Windows"
