@@ -287,15 +287,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "cyanogenmod.png"
-    name: 'CyanogenMod'
-    categories: [
-      * name: "Android"
-        subcategories: ['Operating Systems (Mobile)']
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
     logo: "google-authenticator.png"
     name: 'Google Authenticator'
     categories: [
