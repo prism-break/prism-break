@@ -120,7 +120,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-macos.png"
-    name: "Apple macOS"
+    name: "macOS"
     categories: [
       * "name": "macOS"
         subcategories: ["Operating Systems"]
@@ -673,7 +673,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "ms-windows.png"
-    name: "Microsoft Windows"
+    name: "Windows"
     categories: [
       * "name": "macOS"
         subcategories: ["Operating Systems"]
