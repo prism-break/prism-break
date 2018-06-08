@@ -105,7 +105,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-messages.png"
-    name: "Apple Messages"
+    name: "iMessage"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
@@ -1114,15 +1114,6 @@ projects-rejected =
       * name: "Windows"
         subcategories: ["Instant Messaging"]
       * name: "Servers"
-        subcategories: ["Instant Messaging"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "apple-imessage.png"
-    name: "iMessage"
-    categories: [
-      * name: "iOS"
         subcategories: ["Instant Messaging"]
     ]
 
