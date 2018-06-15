@@ -1,5 +1,4 @@
 projects-rejected =
-
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "imgur.png"
@@ -36,7 +35,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-filevault.png"
-    name: "Apple FileVault"
+    name: "FileVault"
     categories: [
       * "name": "macOS"
         subcategories: ["Disk Encryption"]
@@ -47,7 +46,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-icloud.png"
-    name: "Apple iCloud"
+    name: "iCloud"
     categories: [
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
@@ -60,7 +59,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-ios.png"
-    name: "Apple iOS"
+    name: "iOS"
     categories: [
       * name: "iOS"
         subcategories: ["Operating Systems (Mobile)"]
@@ -69,7 +68,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-iwork-for-icloud.png"
-    name: "Apple iWork for iCloud"
+    name: "iWork"
     categories: [
       * name: "Web Services"
         subcategories: ["Productivity"]
@@ -106,7 +105,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-messages.png"
-    name: "Apple Messages"
+    name: "iMessage"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
@@ -121,34 +120,16 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-macos.png"
-    name: "Apple macOS"
+    name: "macOS"
     categories: [
       * "name": "macOS"
-        subcategories: ["Operating Systems"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple.png"
-    name: "Apple macOS DNS (Default)"
-    categories: [
-      * "name": "macOS"
-        subcategories: ["DNS"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-macos.png"
-    name: "Apple macOS Server"
-    categories: [
-      * name: "Servers"
         subcategories: ["Operating Systems"]
     ]
 
   * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
     logo: "apple-safari.png"
-    name: "Apple Safari"
+    name: "Safari"
     protocols: ["SSL/TLS"]
     categories: [
       * name: "iOS"
@@ -169,25 +150,12 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "blackberry.png"
-    name: "BlackBerry"
+    name: "BlackBerry 10"
     categories: [
       * name: "Android"
         subcategories: ["Operating Systems (Mobile)"]
       * name: "iOS"
         subcategories: ["Operating Systems (Mobile)"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "cisco.png"
-    name: "Cisco Systems VPN Client"
-    categories: [
-      * name: "GNU/Linux"
-        subcategories: ["VPN Clients"]
-      * "name": "macOS"
-        subcategories: ["VPN Clients"]
-      * name: "Windows"
-        subcategories: ["VPN Clients"]
     ]
 
   * status: 'rejected'
@@ -302,24 +270,6 @@ projects-rejected =
     categories: [
       * name: "Servers"
         subcategories: ["Web Analytics"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-android.png"
-    name: 'Google Android'
-    categories: [
-      * name: "Android"
-        subcategories: ['Operating Systems (Mobile)']
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "cyanogenmod.png"
-    name: 'CyanogenMod'
-    categories: [
-      * name: "Android"
-        subcategories: ['Operating Systems (Mobile)']
     ]
 
   * status: 'rejected'
@@ -466,9 +416,9 @@ projects-rejected =
     name: "Google+"
     categories: [
       * name: "Web Services"
-        subcategories: ["Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks"]
       * name: "Servers"
-        subcategories: ["Social Networks", "Video & Voice"]
+        subcategories: ["Social Networks"]
     ]
 
   * status: 'rejected'
@@ -508,8 +458,6 @@ projects-rejected =
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["XMPP Servers"]
     ]
 
   * status: 'rejected'
@@ -551,15 +499,6 @@ projects-rejected =
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "mcafee.png"
-    name: "McAfee Endpoint Encryption"
-    categories: [
-      * name: "Windows"
-        subcategories: ["Disk Encryption"]
-    ]
-
-  * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "yahoo.png"
     name: "Yahoo Search"
@@ -591,10 +530,8 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "ms-bitlocker.png"
-    name: "BitLocker Drive Encryption"
+    name: "BitLocker"
     categories: [
-      * name: "Servers"
-        subcategories: ["Disk Encryption"]
       * name: "Windows"
         subcategories: ["Disk Encryption"]
     ]
@@ -611,7 +548,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
     logo: "ms-ie.png"
-    name: "Microsoft Internet Explorer"
+    name: "Microsoft Edge"
     protocols: ["SSL/TLS"]
     categories: [
       * name: "Windows"
@@ -620,19 +557,8 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-office.png"
-    name: "Microsoft Office Web Apps"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Productivity"]
-      * name: "Servers"
-        subcategories: ["Productivity"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
     logo: "ms-outlook.png"
-    name: "Microsoft Office Outlook"
+    name: "Microsoft Outlook"
     categories: [
       * "name": "macOS"
         subcategories: ["Email Clients", "Productivity"]
@@ -643,7 +569,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "ms-outlook.png"
-    name: "Microsoft Outlook.com"
+    name: "Outlook.com"
     categories: [
       * name: "Web Services"
         subcategories: ["Email Accounts"]
@@ -691,41 +617,12 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-windows-phone.png"
-    name: "Microsoft Windows Phone"
-    categories: [
-      * name: "Android"
-        subcategories: ["Operating Systems (Mobile)"]
-      * name: "iOS"
-        subcategories: ["Operating Systems (Mobile)"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
     logo: "ms-windows.png"
-    name: "Microsoft Windows"
+    name: "Windows"
     categories: [
       * "name": "macOS"
         subcategories: ["Operating Systems"]
       * name: "Windows"
-        subcategories: ["Operating Systems"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-windows.png"
-    name: "Microsoft DNS (Default)"
-    categories: [
-      * name: "Windows"
-        subcategories: ["DNS"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-windows.png"
-    name: "Microsoft Windows Server"
-    categories: [
-      * name: "Servers"
         subcategories: ["Operating Systems"]
     ]
 
@@ -987,21 +884,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "xmarks.png"
-    name: "Xmarks"
-    categories: [
-      * name: "GNU/Linux"
-        subcategories: ["Bookmark Sync"]
-      * name: "macOS"
-        subcategories: ["Bookmark Sync"]
-      * name: "Web Services"
-        subcategories: ["Bookmark Sync"]
-      * name: "Windows"
-        subcategories: ["Bookmark Sync"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
     logo: "yandex.png"
     name: "Yandex.Mail"
     categories: [
@@ -1076,7 +958,7 @@ projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "office365.png"
-    name: "Office 365 Enterprise E5"
+    name: "Office 365"
     categories: [
       * name: "Servers"
         subcategories: ["Enterprise Suite"]
@@ -1099,27 +981,6 @@ projects-rejected =
       * name: "Android"
         subcategories: ["Instant Messaging"]
       * name: "iOS"
-        subcategories: ["Instant Messaging"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "icq.png"
-    name: "ICQ"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Instant Messaging"]
-      * name: "Android"
-        subcategories: ["Instant Messaging"]
-      * name: "iOS"
-        subcategories: ["Instant Messaging"]
-      * "name": "GNU/Linux"
-        subcategories: ["Instant Messaging"]
-      * "name": "macOS"
-        subcategories: ["Instant Messaging"]
-      * name: "Windows"
-        subcategories: ["Instant Messaging"]
-      * name: "Servers"
         subcategories: ["Instant Messaging"]
     ]
 
@@ -1177,15 +1038,6 @@ projects-rejected =
       * name: "Windows"
         subcategories: ["Instant Messaging"]
       * name: "Servers"
-        subcategories: ["Instant Messaging"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "apple-imessage.png"
-    name: "iMessage"
-    categories: [
-      * name: "iOS"
         subcategories: ["Instant Messaging"]
     ]
 
