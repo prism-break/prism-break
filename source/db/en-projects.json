@@ -4511,51 +4511,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Distributed, anonymous forum software.",
-    "license_url": "https://github.com/i2p/i2p.syndie/blob/master/LICENSE",
-    "logo": "syndie.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/i2p/i2p.syndie",
-    "name": "Syndie",
-    "tos_url": "",
-    "url": "http://syndie.i2p2.de/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Syndie",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Anonymizing Networks",
-          "Social Networks"
-        ]
-      }
-    ],
-    "slug": "syndie"
-  },
-  {
-    "development_stage": "released",
     "description": "Free and open cloud storage system.",
     "license_url": "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL",
     "logo": "tahoe-lafs.png",
