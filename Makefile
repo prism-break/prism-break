@@ -41,11 +41,11 @@ endif
 
 # Explicitly set the default target that does the minimum possible
 .PHONY: default
-default: assets full public
+default: assets full
 
 # This is the kitchen-sink build that does everything
 .PHONY: all
-all: lint assets full public
+all: lint assets full
 
 # Run anything that needs doing post-checkout to make this buildable
 .PHONY: init
@@ -68,11 +68,11 @@ reset: clean default
 
 # Targets to build all the dynamically generated stuff for all languages
 .PHONY: full
-full: css html
+full: css html public/index.html
 
 # Targets for rebuilding only single language and only what isn’t already done
 .PHONY: $(LANGUAGES)
-$(LANGUAGES): assets css html_$$@ public
+$(LANGUAGES): assets css html_$$@
 
 #----------------------------------------------------------------------
 # CONVENIENCE ALIASES
@@ -90,8 +90,6 @@ html: init $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
 HTMLLANGS = $(foreach LANGUAGE,$(LANGUAGES),html_$(LANGUAGE))
 .PHONY: $(HTMLLANGS)
 $(HTMLLANGS): html_%: public/%/index.html
-
-public: public/.htaccess ;
 
 #----------------------------------------------------------------------
 # FUNCTIONS
@@ -114,6 +112,9 @@ public/assets/css/%.css: source/stylesheets/%.styl $(shell git ls-files *.styl)
 	mkdir -p $(dir $@)
 	yarn -s run stylus -c -u nib < $< > $@
 
+public/index.html: source/index.html
+	cp $< $@
+
 # Use script to rebuild index if index is older than any files with this locale in the name
 public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | grep '\b$$*\b')
 	yarn -s run lsc $<
@@ -122,10 +123,6 @@ public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | gr
 clean:
 	rm -rf public/*
 	find -type f -name '*.json.lint' -delete
-
-public/.htaccess: source/dotfiles/.htaccess
-	mkdir -p $(dir $@)
-	cp $< $@
 
 # Localizations
 LOCALLANGS = $(foreach LANGUAGE,$(LANGUAGES),localize_$(LANGUAGE))
