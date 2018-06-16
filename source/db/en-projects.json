@@ -5316,6 +5316,43 @@
     ],
     "slug": "cryptpad"
   },
+{
+  "development_stage": "released",
+  "description": "A privacy-respecting, hackable metasearch engine.",
+  "license_url": "https://github.com/asciimoo/searx/blob/master/LICENSE",
+  "logo": "searx.png",
+  "notes": "Searx is a versatile, track-free metasearch engine. You can download the code, tweak it to suit your own needs and run it in your own system, or you can browse the author's website for instances of various pre-configured searx engines available online.",
+  "privacy_url": "",
+  "source_url": "https://github.com/asciimoo/searx",
+  "name": "Searx",
+  "tos_url": "",
+  "url": "https://github.com/asciimoo/searx",
+  "wikipedia_url": "",
+  "protocols": [
+    "SSL/TLS"
+  ],
+  "categories": [
+    {
+      "name": "BSD",
+      "subcategories": [
+        "Web Search"
+      ]
+    },
+    {
+      "name": "GNU/Linux",
+      "subcategories": [
+        "Web Search"
+      ]
+    },
+    {
+      "name": "Web Services",
+      "subcategories": [
+        "Web Search"
+      ]    
+    }
+  ],
+  "slug": "searx"
+  },
   {
     "development_stage": "released",
     "description": " Android application compatible with ZX2C4's Pass command line application.",
