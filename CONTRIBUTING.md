@@ -10,7 +10,7 @@ If you just want to help, consider checking out issues that have [help wanted][]
 label. Pull requests that resolve this issues will be merged without additional
 discussion.
 
-[help wanted]: https://github.com/nylira/prism-break/labels/help%20wanted
+[help wanted]: https://gitlab.com/prism-break/prism-break/issues?label_name%5B%5D=help+wanted
 
 ## Projects
 
