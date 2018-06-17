@@ -589,12 +589,6 @@
     "slug": "matomo"
   },
   {
-    "description": "Easy-to-setup MTA used by approximately 23% of all mail servers.",
-    "url": "http://www.postfix.org/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Postfix",
-    "slug": "postfix"
-  },
-  {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
     "notes": "Privacy Badger may be less effective than a classic blacklist based solution such as uBlock or Disconnect. Advertisers can automatically unblock themselves by claiming not to track you.",
     "url": "https://www.eff.org/privacybadger",

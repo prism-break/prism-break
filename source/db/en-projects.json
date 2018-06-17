@@ -3755,29 +3755,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Easy-to-setup MTA used by approximately 23% of all email servers.",
-    "license_url": "ftp://ftp.porcupine.org/mirrors/postfix-release/LICENSE",
-    "logo": "postfix.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "ftp://ftp.porcupine.org/mirrors/postfix-release/",
-    "name": "Postfix",
-    "tos_url": "",
-    "url": "http://www.postfix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Postfix_%28software%29",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Mail Transfer Agents"
-        ]
-      }
-    ],
-    "slug": "postfix"
-  },
-  {
-    "development_stage": "released",
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
     "license_url": "https://github.com/EFForg/privacybadgerfirefox/blob/master/LICENSE",
     "logo": "privacy-badger.png",

@@ -587,12 +587,6 @@
     "slug": "matomo"
   },
   {
-    "description": "Tüm posta sunucularının, yaklaşık %23'ü tarafından kullanılan, basitçe kurulabilen Posta Aktarım Aracısı (Mail Transfer Agent - MTA).",
-    "url": "http://www.postfix.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Postfix_%28software%29",
-    "slug": "postfix"
-  },
-  {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
     "notes": "Privacy Badger may be less effective than a classic blacklist based solution such as uBlock or Disconnect. Advertisers can automatically unblock themselves by claiming not to track you.",
     "url": "https://www.eff.org/privacybadger",
