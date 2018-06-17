@@ -381,12 +381,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "Özgür yazılım VPN istemcisi (3. nesil) Openswan devşirmesi.",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "Şifreli ses ve görüntü uygulaması.",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
     "url": "https://www.linphone.org/",

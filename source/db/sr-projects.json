@@ -381,12 +381,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "Свободный VPN клиент третьего поколения, основанный на Openswan.",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "Šifrovani klijent za razgovore i video pozive.",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
     "url": "https://www.linphone.org/",

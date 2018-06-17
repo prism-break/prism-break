@@ -2467,29 +2467,6 @@
   },
   {
     "development_stage": "released",
-    "description": "Free software VPN client (3<sup>rd</sup> generation) derived from Openswan.",
-    "license_url": "https://github.com/libreswan/libreswan/blob/master/COPYING",
-    "logo": "libreswan.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://github.com/libreswan/libreswan",
-    "name": "Libreswan",
-    "tos_url": "",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "VPN Servers"
-        ]
-      }
-    ],
-    "slug": "libreswan"
-  },
-  {
-    "development_stage": "released",
     "description": "Encrypted voice and video client for multiple platforms.",
     "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
     "logo": "linphone.png",

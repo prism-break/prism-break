@@ -383,12 +383,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "Client VPN libero (terza generazione) derivato da Openswan.",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "Client per VoIP e videoconferenze cifrate multipiattaforma.",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
     "url": "https://www.linphone.org/",
