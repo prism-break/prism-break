@@ -79,27 +79,27 @@ mixin project-tail(project)
       .label= t['Official Website']
       .icon: i.fa.fa-external-link
 
-    - if(project.onion_url !== '')
+    - if(project.onion_url && project.onion_url !== '')
       a.bar(href=project.onion_url)
         .label= t['Onion service']
         .icon: i.fa.fa-external-link
 
-    - if(project.wikipedia_url !== '')
+    - if(project.wikipedia_url && project.wikipedia_url !== '')
       a.bar(href=project.wikipedia_url)
         .label= t['Wikipedia Article']
         .icon: i.fa.fa-external-link
 
-    - if(project.privacy_url !== '')
+    - if(project.privacy_url && project.privacy_url !== '')
       a.bar(href=project.privacy_url)
         .label= t['Privacy Policy']
         .icon: i.fa.fa-external-link
 
-    - if(project.tos_url !== '')
+    - if(project.tos_url && project.tos_url !== '')
       a.bar(href=project.tos_url)
         .label= t['Terms of Service']
         .icon: i.fa.fa-external-link
 
-  - if(project.notes !== "")
+  - if(project.notes && project.notes !== "")
     .section
       .pipe= t['Security Notes']
       .text-block!= h.marked(project.notes)
