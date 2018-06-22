@@ -166,12 +166,6 @@
     "slug": "evolution"
   },
   {
-    "description": "MTA usato su circa il 43% di tutti i server email—predefinito su Debian GNU/Linux.",
-    "url": "http://www.exim.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Exim",
-    "slug": "exim"
-  },
-  {
     "description": "Alternativa libera e open source allo store Google Play per Android.",
     "url": "https://f-droid.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/F-Droid",
@@ -584,12 +578,6 @@
     "url": "https://matomo.org/",
     "wikipedia_url": "https://it.wikipedia.org/wiki/Matomo_(software)",
     "slug": "matomo"
-  },
-  {
-    "description": "MTA facile da configurare usato su circa il 23% di tutti i server email.",
-    "url": "http://www.postfix.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/Postfix",
-    "slug": "postfix"
   },
   {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
