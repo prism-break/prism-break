@@ -383,12 +383,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "Свободный VPN клиент третьего поколения, основанный на Openswan.",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "Кроссплатформенный клиент текстового и видеочата с поддержкой шифрования.",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
     "url": "https://www.linphone.org/",
@@ -704,12 +698,6 @@
     "url": "https://startpage.com/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Startpage#.D0.9F.D0.BE.D0.B8.D1.81.D0.BA.D0.BE.D0.B2.D0.B0.D1.8F_.D1.81.D0.B8.D1.81.D1.82.D0.B5.D0.BC.D0.B0_Startpage",
     "slug": "startpage"
-  },
-  {
-    "description": "Свободный VPN клиент, основанный на FreeS/WAN.",
-    "url": "http://strongswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/StrongSwan",
-    "slug": "strongswan"
   },
   {
     "description": "Легковесный и дружелюбный к пользователю кроссплатформенный клиент электронной почты со встроенной поддержкой PGP.",

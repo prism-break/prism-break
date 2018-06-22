@@ -390,12 +390,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "自由的 VPN 客户端（第三代），是 Openswan 的衍生品。",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "加密的跨平台音视频聊天客户端。",
     "notes": "加密只对语音和视频有效，即时通信的文字不会被加密。",
     "url": "https://www.linphone.org/",
@@ -702,12 +696,6 @@
     "url": "https://startpage.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
     "slug": "startpage"
-  },
-  {
-    "description": "源自 FreeS/WAN 的自由的 VPN 客户端。",
-    "url": "http://strongswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/StrongSwan",
-    "slug": "strongswan"
   },
   {
     "description": "轻量、友好的电子邮件程序，跨平台，内建 PGP 支持。",

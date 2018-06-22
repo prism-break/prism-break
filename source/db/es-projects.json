@@ -381,12 +381,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "Cliente VPN libre (tercera generación) derivado de Openswan.",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "Telefonía en línea (VoIP) cifrada, con soporte para audio y video.",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
     "url": "https://www.linphone.org/",
@@ -698,12 +692,6 @@
     "url": "https://startpage.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
     "slug": "startpage"
-  },
-  {
-    "description": "Cliente VPN libre derivado de FreeS/WAN.",
-    "url": "http://strongswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/StrongSwan",
-    "slug": "strongswan"
   },
   {
     "description": "Cliente ligero y amigable para múltiples sistemas operativos y con soporte integrado de PGP.",

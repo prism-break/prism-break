@@ -381,12 +381,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "לקוח VPN חופשי (דור שלישי) הנגזר מ-Openswan.",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "תוכנת לקוח עבור וידאו וקול מוצפנים.",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
     "url": "https://www.linphone.org/",
@@ -698,12 +692,6 @@
     "url": "https://startpage.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
     "slug": "startpage"
-  },
-  {
-    "description": "לקוח VPN חופשי הנגזר מ-FreeS/WAN.",
-    "url": "http://strongswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/StrongSwan",
-    "slug": "strongswan"
   },
   {
     "description": "תוכנת לקוח אי-מייל קלה וידידותית למשתמש.",

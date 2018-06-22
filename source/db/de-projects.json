@@ -381,12 +381,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "Freie VPN-Client-Software (3. Generation), abgeleitet von Openswan.",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "Verschlüsselter Audio- und Video.",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
     "url": "https://www.linphone.org/",
@@ -699,12 +693,6 @@
     "url": "https://startpage.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
     "slug": "startpage"
-  },
-  {
-    "description": "Freie VPN-Client-Software abgeleitet von FreeS/WAN.",
-    "url": "http://strongswan.org/",
-    "wikipedia_url": "https://de.wikipedia.org/wiki/StrongSwan",
-    "slug": "strongswan"
   },
   {
     "description": "Schlanker und benutzerfreundlicher E-Mail-Client für mehrere Plattformen mit eingebauter PGP-Unterstützung.",

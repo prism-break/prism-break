@@ -381,12 +381,6 @@
     "slug": "librecmc"
   },
   {
-    "description": "Vrije software VPN client (3e generatie) afgeleid van Openswan.",
-    "url": "https://libreswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Libreswan",
-    "slug": "libreswan"
-  },
-  {
     "description": "Versleutelde communicatie met beeld en geluid.",
     "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
     "url": "https://www.linphone.org/",
@@ -698,12 +692,6 @@
     "url": "https://startpage.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
     "slug": "startpage"
-  },
-  {
-    "description": "Vrije software VPN client afgeleid van FreeS/WAN.",
-    "url": "http://strongswan.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/StrongSwan",
-    "slug": "strongswan"
   },
   {
     "description": "Lichtgewicht en gebruikersvriendelijke e-mail applicatie.",
