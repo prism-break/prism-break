@@ -541,13 +541,6 @@
     "slug": "orbot"
   },
   {
-    "description": "Proxy-capable and Privacy-aware Web Browser for use with Orbot's localhost 8118 proxy, or any HTTP proxy server.",
-    "notes": "Possible IP leakage with HTML5 video/audio. More information:  https://guardianproject.info/2013/08/21/orweb-security-advisory-possible-ip-leakage-with-html5-videoaudio/",
-    "url": "https://guardianproject.info/apps/orweb/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_%28software%29#Orweb",
-    "slug": "orweb"
-  },
-  {
     "description": "OsmAnd (OSM Automated Navigation Directions) on kartta ja navigointiohjelma joka käyttää OpenStreetMapin dataa.",
     "url": "http://osmand.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd",

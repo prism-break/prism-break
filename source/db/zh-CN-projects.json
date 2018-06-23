@@ -548,13 +548,6 @@
     "slug": "orbot"
   },
   {
-    "description": "适应代理环境并且注重隐私的网页浏览器，通过 Orbot 的 localhost 8118 端口进行代理，也可以使用任何别的 HTTP 代理服务器。",
-    "notes": "HTML5 的音频和视频可能带来潜在的 IP 地址泄漏问题。更多信息:  https://guardianproject.info/2013/08/21/orweb-security-advisory-possible-ip-leakage-with-html5-videoaudio/",
-    "url": "https://guardianproject.info/apps/orweb/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_%28software%29#Orweb",
-    "slug": "orweb"
-  },
-  {
     "description": "OsmAnd (OSM Automated Navigation Directions) 是使用 OpenStreetMap 数据的开放的导航系统。",
     "url": "http://osmand.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd",

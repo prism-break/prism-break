@@ -538,13 +538,6 @@
     "slug": "orbot"
   },
   {
-    "description": "Proxy-fähiger Web Browser, der auf die Privatsphäre achtet und für den Einsatz mit Orbot (HTTP Proxy auf localhost 8118) gedacht ist.",
-    "notes": "Möglicherweise wird die IP Adresse beim Betrachten von HTML5 Videos oder Audios geleaked. Mehr Infos: https://guardianproject.info/2013/08/21/orweb-security-advisory-possible-ip-leakage-with-html5-videoaudio/",
-    "url": "https://guardianproject.info/apps/orweb/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_%28software%29#Orweb",
-    "slug": "orweb"
-  },
-  {
     "description": "OsmAnd (OSM Automated Navigation Directions) ist eine Karten- und Navigationsapp auf Basis der OpenStreetMap-Daten.",
     "url": "http://osmand.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd",
