@@ -9,15 +9,6 @@ projects-rejected =
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "minus.png"
-    name: "Minus"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Media Publishing"]
-    ]
-
-  * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
     logo: "apple-facetime.png"
     name: "Apple FaceTime"
