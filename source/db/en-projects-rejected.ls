@@ -366,25 +366,6 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-picasa.png"
-    name: "Picasa"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Media Publishing"]
-      * name: "Android"
-        subcategories: ["Media Publishing"]
-      * name: "iOS"
-        subcategories: ["Media Publishing"]
-      * "name": "macOS"
-        subcategories: ["Media Publishing"]
-      * name: "Windows"
-        subcategories: ["Media Publishing"]
-      * name: "Servers"
-        subcategories: ["Media Publishing"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
     logo: "amazon-appstore.png"
     name: "Amazon Appstore"
     categories: [
