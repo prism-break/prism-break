@@ -2301,31 +2301,9 @@
     "url": "https://kolabnow.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
     "protocols": [
-      "SSL/TLS",
-      "WebDAV",
-      "CalDAV",
-      "CardDAV",
-      "ActiveSync"
+      "SSL/TLS"
     ],
     "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
       {
         "name": "Web Services",
         "subcategories": [
