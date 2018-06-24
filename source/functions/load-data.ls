@@ -2,7 +2,6 @@
 
 assign = require 'lodash.assign'
 isequal = require 'lodash.isequal'
-if not Array.prototype.includes then require 'es7-array.prototype.includes'
 
 # TODO: support overrides
 # Then we can expand this list to include e.g. wikipedia_url, but not warn in situations where there isn't a translated Wikipedia article
