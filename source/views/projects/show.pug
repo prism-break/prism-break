@@ -1,13 +1,13 @@
-include ../projects/mixins
 extends ../layouts/application
+include ../projects/mixins
 block title
   = project.name + ' - '
   = t.Projects
 block content
 
   .content-main
-    mixin project-head(project)
-    mixin project-tail(project)
+    +project-head(project)
+    +project-tail(project)
 
   .content-side
 
@@ -15,7 +15,7 @@ block content
       a.pipe(href=routes.root)
         = t['Platform Support']
 
-      - each cat in project.categories
+      each cat in project.categories
 
         a.bar.parent(href=routes.categories + cat.slug)
           .label
@@ -24,7 +24,7 @@ block content
             else
               = cat.name
 
-        - each subcat in cat.subcategories
+        each subcat in cat.subcategories
 
           a.bar.child(href=routes.subcategories+cat.slug+'-'+subcat.slug)
             .label= t[subcat.name]

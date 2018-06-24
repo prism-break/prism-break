@@ -1,0 +1,8 @@
+extends ../layouts/application
+include ../projects/mixins
+block title
+  = t.Projects
+block content
+
+  each project in projects
+    +project-card(project)

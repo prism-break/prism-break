@@ -1,5 +1,5 @@
-include layouts/mixins
 extends layouts/application
+include layouts/mixins
 
 block title
   = t['site-title']
@@ -10,19 +10,19 @@ block content
     .text-block.large!= h.marked(t['site-introduction'])
 
   .content-main
-    - each platformType in platformTypes
+    each platformType in platformTypes
 
       .section
         .pipe(title=t[platformType.name])= t[platformType.name]
 
         .bars
-          - each category in platformType.categories
-            a.bar(href="./categories/#{category.slug}")
+          each category in platformType.categories
+            a.bar(href=`./categories/${category.slug}`)
               .label
                 if category.fa === 'fa-mobile'
-                  i(class="fa #{category.fa} large")
+                  i(class=`fa ${category.fa} large`)
                 else
-                  i(class="fa #{category.fa}")
+                  i(class=`fa ${category.fa}`)
                 if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
                   = t[category.name]
                 else

@@ -2,7 +2,7 @@ include ../layouts/mixins
 mixin project-card(project)
 
   - var tagService = ""
-  - each category in project.categories
+  each category in project.categories
     if category.name === 'Web Services'
       - tagService = t['Web Service']
 
@@ -42,7 +42,7 @@ mixin project-card-all(project)
         if project.development_stage
           if project.development_stage == "experimental"
             .tag.yellow= t.Experimental
-        - each category in project.categories
+        each category in project.categories
          .tag
            if category.name == "Routers" || category.name == "Servers" || category.name == "Web Services"
              = t[category.name]
@@ -55,7 +55,7 @@ mixin project-card-all(project)
 
 mixin project-head(project)
   - var subcategories = []
-  - each subcategory, i in project.categories[0].subcategories
+  each subcategory, i in project.categories[0].subcategories
     if i === project.categories[0].subcategories.length - 1
       - subcategories += t[subcategory.name]
     else
@@ -116,14 +116,14 @@ mixin project-tail(project)
   - if(project.protocolsSlugged.length > 0)
     .section
       .pipe= t['Supported Protocols']
-      - for protocol in project.protocolsSlugged
-        a.bar(href="../../protocols/#{protocol.slug}")
+      for protocol in project.protocolsSlugged
+        a.bar(href=`../../protocols/${protocol.slug}`)
           .label= protocol.name
           .icon
             i.fa.fa-angle-right.ltr
             i.fa.fa-angle-left.rtl
 
-      mixin filler-bars(project.protocolsSlugged)
+      +filler-bars(project.protocolsSlugged)
 
   .section
     .pipe= t['Development Info']

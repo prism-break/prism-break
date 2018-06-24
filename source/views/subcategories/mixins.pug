@@ -11,7 +11,7 @@ mixin subcategory-head(data)
       .title= t[data.subcategory.name]
 
 mixin subcategory-title(category, subcategory)
-  a.bar.title(id=subcategory.slug href="#{routes.subcategories}#{category.slug}-#{subcategory.slug}")
+  a.bar.title(id=subcategory.slug href=`${routes.subcategories}${category.slug}-${subcategory.slug}`)
     .label= t[subcategory.name]
 
 mixin subcategory-title-nolink(subcategory)
