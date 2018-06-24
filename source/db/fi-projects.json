@@ -158,16 +158,6 @@
     "slug": "fedora"
   },
   {
-    "description": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
-    "notes": "Firefox ei piilota IP-osoitettasi kolmansilta osapuolilta oletuksena. Jos haluat anonymisoida IP-osoitteesi, on suositeltavaa käyttää Onion Browser.\n\nFirefoxin oletushakukone on Google. On suositeltavaa vaihtaa tilalle Ixquick, Startpage tai DuckDuck go, tai jokin muu anonyymi hakukone.",
-    "slug": "firefox-ios"
-  },
-  {
-    "description": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
-    "notes": "Firefox ei piilota IP-osoitettasi kolmansilta osapuolilta oletuksena. Jos haluat anonymisoida IP-osoitteesi, on suositeltavaa käyttää Orbot.\n\nFirefoxin oletushakukone on Google. On suositeltavaa vaihtaa tilalle Ixquick, Startpage tai DuckDuck go, tai jokin muu anonyymi hakukone.\n\nOn suositeltavaa poistaa valinta “Block reported attack sites” ja “Block reported web forgeries” menemällä jos et halua Mozillan lähettävän raportoitujen URL:ien tiivisteitä Googlelle. ",
-    "slug": "firefox-mobile"
-  },
-  {
     "description": "Vapaa, erittäin turvallinen BSD-pohjainen käyttöjärjestelmä.",
     "url": "https://www.freebsd.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreeBSD",

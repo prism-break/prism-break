@@ -165,16 +165,6 @@
     "slug": "fedora"
   },
   {
-    "description": "开源的 Web 浏览器，扩展丰富。",
-    "notes": "默认情况下 Firefox Mobile 并不会对第三方隐藏你的IP地址，如果你想要隐藏 IP，建议使用 Onion Browser。\n\n火狐默认情况下使用 Google 作为搜索引擎，建议改成 DuckDuckGo 或者 Startpage 以提升匿名性。",
-    "slug": "firefox-ios"
-  },
-  {
-    "description": "开源的 Web 浏览器，扩展丰富。",
-    "notes": "默认情况下 Firefox Mobile 并不会对第三方隐藏你的 IP 地址，如果你想要隐藏 IP，建议使用 Orbot。\n\n火狐默认情况下使用 Google 作为搜索引擎，建议改成 DuckDuckGo 或者 Startpage 以提升匿名性。\n\n建议取消选中\"Block reported attack sites\"和\"Block reported web forgeries\"选项，以避免火狐向 Google 发送网址的哈希值。",
-    "slug": "firefox-mobile"
-  },
-  {
     "description": "免费的基于 BSD 的开源系统。",
     "url": "https://www.freebsd.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreeBSD",

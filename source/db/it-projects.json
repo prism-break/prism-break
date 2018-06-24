@@ -158,16 +158,6 @@
     "slug": "fedora"
   },
   {
-    "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
-    "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Onion Browser.\n\nIl motore di ricerca predefinito di Firefox è Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.",
-    "slug": "firefox-ios"
-  },
-  {
-    "description": "Browser web veloce, flessibile e sicuro con un vivace ecosistema di componenti aggiuntivi.",
-    "notes": "Firefox non nasconde il tuo indirizzo IP a terze parti in modo predefinito. Se vuoi nasconderlo, dovresti usare Orbot.\n\nIl motore di ricerca predefinito di Firefox è Google. Si consiglia di cambiarlo con DuckDuckGo o Startpage per effettuare ricerche anonime.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” if you don’t want Mozilla to send reported URL hashes to Google.",
-    "slug": "firefox-mobile"
-  },
-  {
     "description": "Un sistema operativo libero derivato da BSD.",
     "url": "https://www.freebsd.org/",
     "wikipedia_url": "https://it.wikipedia.org/wiki/FreeBSD",
