@@ -1,7 +1,7 @@
 projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "imgur.png"
+    logo: "imgur.svg"
     name: "Imgur"
     categories: [
       * name: "Web Services"
@@ -9,17 +9,8 @@ projects-rejected =
     ]
 
   * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "minus.png"
-    name: "Minus"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Media Publishing"]
-    ]
-
-  * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-facetime.png"
+    logo: "apple-facetime.svg"
     name: "Apple FaceTime"
     categories: [
       * name: "Web Services"
@@ -45,7 +36,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-icloud.png"
+    logo: "apple-icloud.svg"
     name: "iCloud"
     categories: [
       * name: "iOS"
@@ -58,7 +49,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-ios.png"
+    logo: "apple-ios.svg"
     name: "iOS"
     categories: [
       * name: "iOS"
@@ -67,7 +58,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-iwork-for-icloud.png"
+    logo: "apple-icloud.svg"
     name: "iWork"
     categories: [
       * name: "Web Services"
@@ -91,7 +82,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-maps.png"
+    logo: "apple-maps.svg"
     name: "Apple Maps"
     categories: [
       * name: "Web Services"
@@ -104,7 +95,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-messages.png"
+    logo: "apple-imessage.svg"
     name: "iMessage"
     categories: [
       * name: "Web Services"
@@ -119,7 +110,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "apple-macos.png"
+    logo: "apple-macos.svg"
     name: "macOS"
     categories: [
       * "name": "macOS"
@@ -128,7 +119,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
-    logo: "apple-safari.png"
+    logo: "apple-safari.svg"
     name: "Safari"
     protocols: ["SSL/TLS"]
     categories: [
@@ -140,7 +131,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "authy.png"
+    logo: "authy.svg"
     name: 'Authy'
     categories: [
       * name: "Android"
@@ -149,7 +140,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "blackberry.png"
+    logo: "blackberry.svg"
     name: "BlackBerry 10"
     categories: [
       * name: "Android"
@@ -160,7 +151,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "disc0rd.png"
+    logo: "discord.svg"
     name: "Discord"
     categories: [
       * name: "Android"
@@ -179,7 +170,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "doodle.png"
+    logo: "doodle.svg"
     name: "Doodle"
     categories: [
       * name: "Web Services"
@@ -190,7 +181,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "dropbox.png"
+    logo: "dropbox.svg"
     name: "Dropbox"
     categories: [
       * name: "Web Services"
@@ -211,7 +202,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "evernote.png"
+    logo: "evernote.svg"
     name: "Evernote"
     categories: [
       * name: "Web Services"
@@ -230,7 +221,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "facebook-instagram.png"
+    logo: "facebook-instagram.svg"
     name: "Instagram"
     categories: [
       * name: "Web Services"
@@ -254,7 +245,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "facebook.png"
+    logo: "facebook.svg"
     name: "Facebook"
     categories: [
       * name: "Web Services"
@@ -265,7 +256,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-analytics.png"
+    logo: "google-analytics.svg"
     name: "Google Analytics"
     categories: [
       * name: "Servers"
@@ -283,7 +274,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
-    logo: "google-chrome.png"
+    logo: "google-chrome.svg"
     name: "Google Chrome"
     protocols: ["SSL/TLS"]
     categories: [
@@ -301,7 +292,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-docs.png"
+    logo: "google-docs.svg"
     name: "Google Docs"
     categories: [
       * name: "Web Services"
@@ -324,7 +315,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-drive.png"
+    logo: "google-drive.svg"
     name: "Google Drive"
     categories: [
       * name: "Web Services"
@@ -343,7 +334,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-earth.png"
+    logo: "google-earth.svg"
     name: "Google Earth"
     categories: [
       * name: "Web Services"
@@ -364,7 +355,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-mail.png"
+    logo: "google-mail.svg"
     name: "Gmail"
     categories: [
       * name: "Web Services"
@@ -375,26 +366,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-picasa.png"
-    name: "Picasa"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Media Publishing"]
-      * name: "Android"
-        subcategories: ["Media Publishing"]
-      * name: "iOS"
-        subcategories: ["Media Publishing"]
-      * "name": "macOS"
-        subcategories: ["Media Publishing"]
-      * name: "Windows"
-        subcategories: ["Media Publishing"]
-      * name: "Servers"
-        subcategories: ["Media Publishing"]
-    ]
-
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "amazon-appstore.png"
+    logo: "amazon-appstore.svg"
     name: "Amazon Appstore"
     categories: [
       * name: "Android"
@@ -403,7 +375,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-play.png"
+    logo: "google-play.svg"
     name: "Google Play"
     categories: [
       * name: "Android"
@@ -412,7 +384,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-plus.png"
+    logo: "google-plus.svg"
     name: "Google+"
     categories: [
       * name: "Web Services"
@@ -423,7 +395,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google.png"
+    logo: "google.svg"
     name: "Google Public DNS"
     categories: [
       * name: "Web Services"
@@ -442,7 +414,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-youtube.png"
+    logo: "google-youtube.svg"
     name: "YouTube"
     categories: [
       * name: "Web Services"
@@ -453,7 +425,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google-hangouts.png"
+    logo: "google-hangouts.svg"
     name: "Google Hangouts"
     categories: [
       * name: "Web Services"
@@ -462,7 +434,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "google.png"
+    logo: "google.svg"
     name: "Google Search"
     categories: [
       * name: "Web Services"
@@ -471,7 +443,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "groupwise.png"
+    logo: "groupwise.svg"
     name: "Micro Focus Groupwise"
     categories: [
       * name: "Servers"
@@ -480,7 +452,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "linkedin.png"
+    logo: "linkedin.svg"
     name: "LinkedIn"
     categories: [
       * name: "Web Services"
@@ -491,7 +463,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "lotus-notes.png"
+    logo: "lotus-notes.svg"
     name: "IBM Notes"
     categories: [
       * name: "Servers"
@@ -500,7 +472,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "yahoo.png"
+    logo: "yahoo.svg"
     name: "Yahoo Search"
     categories: [
       * name: "Web Services"
@@ -509,7 +481,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-bing.png"
+    logo: "ms-bing.svg"
     name: "Microsoft Bing"
     categories: [
       * name: "Web Services"
@@ -518,7 +490,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-bing.png"
+    logo: "ms-bing.svg"
     name: "Bing Maps"
     categories: [
       * name: "Web Services"
@@ -538,7 +510,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-exchange.png"
+    logo: "ms-exchange.svg"
     name: "Microsoft Exchange"
     categories: [
       * name: "Servers"
@@ -547,7 +519,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ['PRISM', 'USA', 'Proprietary']
-    logo: "ms-ie.png"
+    logo: "ms-ie.svg"
     name: "Microsoft Edge"
     protocols: ["SSL/TLS"]
     categories: [
@@ -557,7 +529,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-outlook.png"
+    logo: "ms-outlook.svg"
     name: "Microsoft Outlook"
     categories: [
       * "name": "macOS"
@@ -568,7 +540,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-outlook.png"
+    logo: "ms-outlook.svg"
     name: "Outlook.com"
     categories: [
       * name: "Web Services"
@@ -577,7 +549,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-skydrive.png"
+    logo: "ms-skydrive.svg"
     name: "Microsoft OneDrive"
     categories: [
       * name: "Web Services"
@@ -596,7 +568,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-skype.png"
+    logo: "ms-skype.svg"
     name: "Skype"
     categories: [
       * name: "Web Services"
@@ -617,7 +589,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "ms-windows.png"
+    logo: "ms-windows.svg"
     name: "Windows"
     categories: [
       * "name": "macOS"
@@ -628,7 +600,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "opera.png"
+    logo: "opera.svg"
     name: "Opera"
     categories: [
       * name: "Android"
@@ -645,7 +617,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "paypal.png"
+    logo: "paypal.svg"
     name: "PayPal"
     categories: [
       * name: "Web Services"
@@ -654,7 +626,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "pocket.png"
+    logo: "pocket.svg"
     name: "Pocket"
     categories: [
       * name: "Android"
@@ -669,7 +641,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "snapchat.png"
+    logo: "snapchat.svg"
     name: "Snapchat"
     categories: [
       * name: "Web Services"
@@ -678,7 +650,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "symantec.png"
+    logo: "symantec.svg"
     name: "Symantec Drive Encryption"
     categories: [
       * name: "GNU/Linux"
@@ -708,7 +680,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "twitter.png"
+    logo: "twitter.svg"
     name: "Twitter"
     categories: [
       * name: "Web Services"
@@ -719,7 +691,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "viber.png"
+    logo: "viber.svg"
     name: "Viber Messenger"
     categories: [
       * name: "Android"
@@ -734,7 +706,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "vimeo.png"
+    logo: "vimeo.svg"
     name: "Vimeo"
     categories: [
       * name: "Web Services"
@@ -756,7 +728,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "whatsapp.png"
+    logo: "whatsapp.svg"
     name: "WhatsApp"
     categories: [
       * name: "Android"
@@ -767,7 +739,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "yahoo-flickr.png"
+    logo: "yahoo-flickr.svg"
     name: "Flickr"
     categories: [
       * name: "Web Services"
@@ -778,7 +750,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "tumblr.png"
+    logo: "tumblr.svg"
     name: "Tumblr"
     categories: [
       * name: "Web Services"
@@ -789,7 +761,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "yahoo.png"
+    logo: "yahoo.svg"
     name: "Yahoo! Mail"
     categories: [
       * name: "Web Services"
@@ -800,7 +772,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "zoho.png"
+    logo: "zoho.svg"
     name: "Zoho Office Suite"
     categories: [
       * name: "Servers"
@@ -809,7 +781,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "zoho.png"
+    logo: "zoho.svg"
     name: "Zoho Docs"
     categories: [
       * name: "Web Services"
@@ -835,7 +807,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "lastpass.png"
+    logo: "lastpass.svg"
     name: "LastPass"
     categories: [
       * name: "Windows"
@@ -852,7 +824,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "1password.png"
+    logo: "1password.svg"
     name: "1Password"
     categories: [
       * name: "Windows"
@@ -867,7 +839,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "ghostery.png"
+    logo: "ghostery.svg"
     name: "Ghostery"
     categories: [
       * name: "Windows"
@@ -884,7 +856,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "yandex.png"
+    logo: "yandex.svg"
     name: "Yandex.Mail"
     categories: [
       * name: "Web Services"
@@ -895,7 +867,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "yandex.png"
+    logo: "yandex.svg"
     name: "Yandex Search"
     categories: [
       * name: "Web Services"
@@ -904,7 +876,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "yandex-browser.png"
+    logo: "yandex-browser.svg"
     name: "Yandex.Browser"
     protocols: ["SSL/TLS"]
     categories: [
@@ -920,7 +892,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "teamspeak.png"
+    logo: "teamspeak.svg"
     name: "TeamSpeak"
     categories: [
       * name: "Android"
@@ -957,7 +929,7 @@ projects-rejected =
     ]
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "office365.png"
+    logo: "ms-office.svg"
     name: "Office 365"
     categories: [
       * name: "Servers"
@@ -966,8 +938,8 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "google-apps-for-work.png"
-    name: "Google Apps for Work"
+    logo: "g-suite.svg"
+    name: "G Suite"
     categories: [
       * name: "Servers"
         subcategories: ["Enterprise Suite"]
@@ -975,7 +947,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "google-allo.png"
+    logo: "google-allo.svg"
     name: "Google Allo"
     categories: [
       * name: "Android"
@@ -986,7 +958,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "line.png"
+    logo: "line.svg"
     name: "LINE"
     categories: [
       * name: "Web Services"
@@ -1005,7 +977,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "tencent-qq.png"
+    logo: "tencent-qq.svg"
     name: "Tencent QQ"
     categories: [
       * name: "Web Services"
@@ -1024,7 +996,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "wechat.png"
+    logo: "wechat.svg"
     name: "WeChat"
     categories: [
       * name: "Web Services"
@@ -1043,7 +1015,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary", "PRISM"]
-    logo: "facebook-messenger.png"
+    logo: "facebook-messenger.svg"
     name: "Facebook Messenger"
     categories: [
       * name: "Web Services"
@@ -1062,7 +1034,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "mIRC.png"
+    logo: "mirc.svg"
     name: "mIRC"
     categories: [
       * name: "Windows"
@@ -1071,7 +1043,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "cyberghost.png"
+    logo: "cyberghost.svg"
     name: "CyberGhost"
     categories: [
       * name: "Android"
@@ -1109,7 +1081,7 @@ projects-rejected =
 
   * status: 'rejected'
     tags: ["Proprietary"]
-    logo: "opendns.png"
+    logo: "opendns.svg"
     name: "OpenDNS"
     categories: [
       * name: "Web Services"

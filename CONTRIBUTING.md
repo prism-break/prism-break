@@ -15,17 +15,36 @@ discussion.
 ## Projects
 
 ### Which Files to Edit
-If you want to edit or add a project to PRISM Break, this data resides here:
 
-    ./source/db/*-projects.json
+If you want to edit or add a project to PRISM Break, see
+`source/db/en-projects.json`.
 
-If you want to edit or add to the project logos on this site, look here:
+If you want to add a project logo, see `source/assets/logos`. SVG is highly
+preferred. Make sure that there is no inappropriate white background or
+margins, and that logo's aspect ratio is 1:1. In Inkscape, go to File ->
+Document Properties -> Page Size -> Custom size and make sure that Width and
+Height are identical.
 
-    ./source/assets/images/logos/medium/          # for images currently used
-    ./source/assets/images/logos/original/        # for high res/svg versions
+To remove white margins, go to File -> Document Properties -> Page Size ->
+Custom size -> Resize page to connect... -> Resize page to drawing or
+selection. Then set Width/Height to the highest value of the two to get back to
+1:1 aspect ratio. Particular value is not important.
+
+To re-center the logo, press Ctrl+A to select all objects, press Ctrl+Shift+A
+to open "Align and Distribute" menu, choose to align relative to page, tick
+"treat selection as group", and then press "Center on horizontal axis" and
+"Center on vertical axis" buttons.
+
+If possible, please also run [svgcleaner][] on SVG logos and [zopflipng][] on
+PNG logos. If you haven't done that, make sure to say that in merge request so
+that reviewer can do that for you.
+
+[svgcleaner]: https://github.com/RazrFalcon/svgcleaner
+[zopflipng]: https://github.com/google/zopfli
 
 ### Add the Project Data
-Append the sample project to the file `./source/db/en-projects.json`. Edit the values to fit your project.
+
+Append the sample project to the file `source/db/en-projects.json`. Edit the values to fit your project.
 
 **Sample Project:**
 

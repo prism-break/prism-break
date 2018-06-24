@@ -1,12 +1,5 @@
 [
   {
-    "description": "基于开源安卓项目，帮助用户检测和避开伪基站（IMSI 捕捉器）或其他无加密/弱加密基站。本项目旨在协助用户了解加密和其他一些保护机制是否处于启用状态。事物总是在发展，我们永远欢迎测试者以及热衷信息安全的开发者。不必拘束，你可以做任何你能做的贡献。我们的 [GitHub](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector)。我们的 [XDA](https://forum.xda-developers.com/showthread.php?t=1422969)。感谢你的参与！",
-    "notes": "该应用具有很强的试验性功能，请阅读并充分理解我们的[免责声明](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER)",
-    "url": "https://cellularprivacy.github.io/Android-IMSI-Catcher-Detector/",
-    "wikipedia_url": "",
-    "slug": "aimsicd"
-  },
-  {
     "description": "开源的分组交换机（PBX）系统，支持 VoIP/SIP 通讯。另有中文化衍生品 freeiris。",
     "url": "http://www.asterisk.org/",
     "wikipedia_url": "https://zh.wikipedia.org/wiki/Asterisk",
@@ -114,12 +107,6 @@
     "slug": "duckduckgo"
   },
   {
-    "description": "免费的私密在线表单（提供日程表、投票等功能），还有隐私增强版。",
-    "url": "https://dudle.inf.tu-dresden.de/",
-    "wikipedia_url": "",
-    "slug": "dudle"
-  },
-  {
     "description": "GNU/Linux 平台下的可移植的企业级加密文件存储系统。",
     "url": "http://ecryptfs.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs",
@@ -158,13 +145,6 @@
     "url": "https://riot.im/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
     "slug": "riot"
-  },
-  {
-    "description": "Riseup 运营的共享编辑平台，也可以自行架设。",
-    "notes": "etherpad项目包含一个[提供共享编辑服务的网站清单](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite)。请选择支持 SSL 加密链接的站点，并且，在你把数据交给他们之前，最好查一下网站的背景。",
-    "url": "http://etherpad.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Etherpad",
-    "slug": "etherpad"
   },
   {
     "description": "支持 GPG 加密的 GNOME 桌面程序，包括 Email、通讯录、日历等。",

@@ -1,12 +1,5 @@
 [
   {
-    "description": "Android open-source based project to detect and avoid fake base stations (IMSI-Catchers) or other base-stations (mobile antennas) with poor/no encryption. This project aims to warn users if the ciphering is turned off and also enables several other protection-mechanisms. Since it is under constant development, we constantly search for courageous testers and security-enthusiastic developers. Don't be shy, feel free to contribute, in any way you can. We're on [GitHub](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector) and [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Thank you for participating in development! ;-)",
-    "notes": "This App is highly experimental. Please read and fully understand our [DISCLAIMER](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER).",
-    "url": "https://cellularprivacy.github.io/Android-IMSI-Catcher-Detector/",
-    "wikipedia_url": "",
-    "slug": "aimsicd"
-  },
-  {
     "description": "PBX implementation with VoIP/SIP support.",
     "url": "http://www.asterisk.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
@@ -114,12 +107,6 @@
     "slug": "duckduckgo"
   },
   {
-    "description": "A free securely-hosted online poll, with a privacy-enhanced version.",
-    "url": "https://dudle.inf.tu-dresden.de/",
-    "wikipedia_url": "",
-    "slug": "dudle"
-  },
-  {
     "description": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
     "url": "http://ecryptfs.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs",
@@ -151,13 +138,6 @@
     "url": "http://ethercalc.net/",
     "wikipedia_url": "",
     "slug": "ethercalc"
-  },
-  {
-    "description": "Kunlaboral dokumenti de apertita fontokodo en reala tempo.",
-    "notes": "The etherpad project maintains a list of [sites that run etherpad services](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite). Please only choose from the services that use SSL, and research the site's background before trusting them with your data.",
-    "url": "http://etherpad.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Etherpad",
-    "slug": "etherpad"
   },
   {
     "description": "Libera programo por retposhti e kalendari kun suporto por GPG.",
