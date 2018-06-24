@@ -779,35 +779,6 @@
   },
   {
     "development_stage": "released",
-    "description": "A free online poll with an optional privacy-enhanced version.",
-    "license_url": "https://dudle.inf.tu-dresden.de/about.cgi",
-    "logo": "dudle.png",
-    "notes": "",
-    "privacy_url": "",
-    "source_url": "https://dudle.inf.tu-dresden.de/about.cgi",
-    "name": "dudle",
-    "tos_url": "",
-    "url": "https://dudle.inf.tu-dresden.de/",
-    "wikipedia_url": "",
-    "protocols": [],
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Productivity"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Productivity"
-        ]
-      }
-    ],
-    "slug": "dudle"
-  },
-  {
-    "development_stage": "released",
     "description": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
     "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
     "logo": "ecryptfs.svg",
