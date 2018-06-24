@@ -153,13 +153,6 @@
     "slug": "riot"
   },
   {
-    "description": "Riseup 运营的共享编辑平台，也可以自行架设。",
-    "notes": "etherpad项目包含一个[提供共享编辑服务的网站清单](https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad-Lite)。请选择支持 SSL 加密链接的站点，并且，在你把数据交给他们之前，最好查一下网站的背景。",
-    "url": "http://etherpad.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Etherpad",
-    "slug": "etherpad"
-  },
-  {
     "description": "支持 GPG 加密的 GNOME 桌面程序，包括 Email、通讯录、日历等。",
     "url": "https://projects.gnome.org/evolution/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
