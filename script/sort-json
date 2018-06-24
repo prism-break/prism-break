@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ -z "$(command -v jq)" ]; then
+  echo "Usage: $0" >&2
+  echo "Dependencies: jq" >&2
+  exit 1
+fi
+
+for f in $(find source -name \*.json); do
+  jq -S . $f > $f.bak
+  mv $f.bak $f
+done

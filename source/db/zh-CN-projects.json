@@ -1,416 +1,416 @@
 [
   {
     "description": "开源的分组交换机（PBX）系统，支持 VoIP/SIP 通讯。另有中文化衍生品 freeiris。",
+    "slug": "asterisk",
     "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://zh.wikipedia.org/wiki/Asterisk",
-    "slug": "asterisk"
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Asterisk"
   },
   {
     "description": "全方位的隐私保护，提供主机、VPN、电子邮件、即时通讯等服务。",
+    "slug": "autistici-inventati",
     "url": "https://www.autistici.org/",
-    "wikipedia_url": "",
-    "slug": "autistici-inventati"
+    "wikipedia_url": ""
   },
   {
     "description": "基于 P2P 技术的，去中心化的匿名数字货币。",
     "notes": "请注意，数字货币汇率可能会波动很大。此外，软件错误，恶意攻击等也可能导致你的损失。请做好准备！",
+    "slug": "bitcoin",
     "url": "http://bitcoin.org",
-    "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E7%89%B9%E5%B8%81",
-    "slug": "bitcoin"
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E7%89%B9%E5%B8%81"
   },
   {
     "description": "比特信：加密、去中心化的 P2P 交流工具，基于比特币技术。",
     "notes": "比特信是一个很有前途的 Email 的替代品，但是还没有安全专家对其进行完整的代码审计。使用时需自担风险。如果你决定使用比特信，请确保生成一个完全随机的 ID，以避免 ID 碰撞。",
+    "slug": "bitmessage",
     "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage",
-    "slug": "bitmessage"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage"
   },
   {
     "description": "企业级的计算平台，与 REHL（红帽）兼容。",
+    "slug": "centos",
     "url": "https://www.centos.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/CentOS",
-    "slug": "centos"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CentOS"
   },
   {
     "description": "OMEMO or OTR encrypted IM for iOS.",
+    "slug": "chatsecure",
     "url": "https://chatsecure.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure",
-    "slug": "chatsecure"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure"
   },
   {
     "description": "Cjdns 是一种网络协议，制定了计算机之间的信息交换方式。 \"该系统只在加密效验双方身份之后才允许通信，而不是采用一个所有人都能使用的 IP 地址，让任意计算机都能与你连接。",
+    "slug": "cjdns",
     "url": "https://github.com/cjdelisle/cjdns",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cjdns",
-    "slug": "cjdns"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cjdns"
   },
   {
     "description": "快速、轻便，内建 GPG 加密的跨平台 Email 桌面客户端应用。",
+    "slug": "claws-mail",
     "url": "http://www.claws-mail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Claws_Mail",
-    "slug": "claws-mail"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Claws_Mail"
   },
   {
     "description": "Conversations 是一个开源的 XMPP/Jabber 客户端，支持 Android 4.0+。",
+    "slug": "conversations",
     "url": "https://github.com/siacs/Conversations",
-    "wikipedia_url": "",
-    "slug": "conversations"
+    "wikipedia_url": ""
   },
   {
     "description": "一个私家云服务，个人自己搭建的 PaaS（平台即服务），你可以建站，任意修改或删除。",
+    "slug": "cozy",
     "url": "http://cozy.io/",
-    "wikipedia_url": "",
-    "slug": "cozy"
+    "wikipedia_url": ""
   },
   {
     "description": "在浏览器中进行私密的加密通讯。",
+    "slug": "cryptocat",
     "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat",
-    "slug": "cryptocat"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
   },
   {
     "description": "LUKS 是 dm-crypt 加密程序的一个简单易用的用户接口层。",
     "notes": "Gentoo GNU/Linux 有一个[关于 dm-crypt 和 LUKS 的指南](https://wiki.gentoo.org/wiki/DM-Cry). \n\n Arch GNU/Linux 有一个[关于 dm-crypt 和 LUKS 的指南](https://wiki.archlinux.org/index.php/Dm-cryptKS) 对 Parabola GNU/Linux 也适用。\n\n dm-crypt 在 DragonFly BSD 系统上也适用。",
+    "slug": "cryptsetup",
     "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt",
-    "slug": "cryptsetup"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt"
   },
   {
     "description": "流行的，作风正派的 GNU/Linux 发行版。",
+    "slug": "debian",
     "url": "http://debian.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Debian",
-    "slug": "debian"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Debian"
   },
   {
     "description": "保护你免受集中式的内容分发网络（CDN）的跟踪。它可以拦截到达诸如 Google Hosted Libraries 的请求，并在本地提供相应的文件。内容拦截规则会定期补充。",
     "notes": "- 不使用提供免费服务的内容分发网络以保护你的隐私。\n- 辅助正则屏蔽器，例如 uBlock Origin，Request Policy 等。\n- 即装即用；使用前绝对不需要任何配置。\n\nDecentraleyes 不是什么银弹，但它的确能防止许多网站让你发送此类请求。 最后，你还可以让 Decentraleyes 屏蔽任何缺失的 CDN 资源。",
+    "slug": "decentraleyes",
     "url": "https://decentraleyes.org",
-    "wikipedia_url": "",
-    "slug": "decentraleyes"
+    "wikipedia_url": ""
   },
   {
     "description": "由社区维护的分布式社交网络。",
+    "slug": "diaspora",
     "url": "https://diasporafoundation.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Diaspora_%28software%29",
-    "slug": "diaspora"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Diaspora_%28software%29"
   },
   {
     "description": "一个保障客户端与 DNS 服务器通讯安全的软件。",
+    "slug": "dnscrypt",
     "url": "https://dnscrypt.info",
-    "wikipedia_url": "",
-    "slug": "dnscrypt"
+    "wikipedia_url": ""
   },
   {
     "description": "匿名、无记录的 Web 搜索",
     "notes": "DuckDuckGo 是一个“软件即服务”（SaaS）平台，它可以让你匿名地对[这些来源](https://dukgo.com/help/en_US/results/sources)进行搜索。 DDG 开源组件可以在[这里](https://github.com/duckduckgo)得到。\n\n 对于 Tor 用户，同样有一个 DuckDuckGo 匿名服务器，地址是 [3g2upl4pq6kufc4m.onion](http://3g2upl4pq6kufc4m.onion) 。",
+    "slug": "duckduckgo",
     "url": "https://duckduckgo.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo",
-    "slug": "duckduckgo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo"
   },
   {
     "description": "GNU/Linux 平台下的可移植的企业级加密文件存储系统。",
+    "slug": "ecryptfs",
     "url": "http://ecryptfs.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs",
-    "slug": "ecryptfs"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
   },
   {
     "description": "使用 Erlang/OTPXMPP 编写的，支持 GNU/Linux 和 macOS 的 XMPP 通讯工具。",
+    "slug": "ejabberd",
     "url": "http://www.ejabberd.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd",
-    "slug": "ejabberd"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd"
   },
   {
     "description": "基于文件的加密工具，支持 Linux，Mac OS 和 Windows。",
     "notes": "Windows平台可以通过 encfs4win 来使用 Encfs。",
+    "slug": "encfs",
     "url": "https://vgough.github.io/encfs/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/EncFS",
-    "slug": "encfs"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/EncFS"
   },
   {
     "description": "雷鸟（Thunderbird）和冰鼬鼠（Icedove）上的一个 OpenPGP 加密插件。",
     "notes": "[这里有一份 Security In A Box 提供的指南](https://securityinabox.org/en/guide/thunderbird/linux/) ，指导你用 Mozilla Thunderbird、GNU Privacy Guard （GPG）和 Enigmail 加密自己的邮件。你也可以阅读自由软件基金会的[电子邮件加密指南](https://emailselfdefense.fsf.org)来了解如何加密你的电子邮件内容。",
+    "slug": "enigmail",
     "url": "https://www.enigmail.net/home/index.php",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Enigmail",
-    "slug": "enigmail"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Enigmail"
   },
   {
     "description": "共享编辑的电子表格服务器，也可以自行架设。",
     "notes": "EtherCalc 的在线服务器会使用 HTTPS 技术加密你传输的数据，但随便什么人只要猜到了你的 URL 地址就可以浏览那些内容。如果你在意私密性，建议下载源码，自己搭建一个 EtherCalc 平台。",
+    "slug": "ethercalc",
     "url": "http://ethercalc.net/",
-    "wikipedia_url": "",
-    "slug": "ethercalc"
+    "wikipedia_url": ""
   },
   {
     "description": "Riot is a secure collaboration app for group chat, file transfer and voice/video conferencing built on the decentralized Matrix ecosystem, providing bridges and integrations to centralized services such as IRC, Slack, Gitter, etc",
     "notes": "End-to-end encryption is in beta on Web as of Nov 5th 2016, with other platforms following week of Nov 14th",
+    "slug": "riot",
     "url": "https://riot.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)",
-    "slug": "riot"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
   },
   {
     "description": "支持 GPG 加密的 GNOME 桌面程序，包括 Email、通讯录、日历等。",
+    "slug": "evolution",
     "url": "https://projects.gnome.org/evolution/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29",
-    "slug": "evolution"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29"
   },
   {
     "description": "自由开源的 Android 应用商店。",
+    "slug": "f-droid",
     "url": "https://f-droid.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/F-Droid",
-    "slug": "f-droid"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/F-Droid"
   },
   {
     "description": "快捷、稳定、强大的 GNU/Linux 发行版",
+    "slug": "fedora",
     "url": "https://fedoraproject.org/",
-    "wikipedia_url": "https://es.wikipedia.org/wiki/Fedora_%28distribuci%C3%B3n_Linux%29",
-    "slug": "fedora"
+    "wikipedia_url": "https://es.wikipedia.org/wiki/Fedora_%28distribuci%C3%B3n_Linux%29"
   },
   {
     "description": "免费的基于 BSD 的开源系统。",
+    "slug": "freebsd",
     "url": "https://www.freebsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeBSD",
-    "slug": "freebsd"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeBSD"
   },
   {
     "description": "FreedomBox 是一套加密通信系统，由软件和硬件组成。他将私密通讯结合到一个廉价的设备上，以期全世界的人们都能拥有不被监控的通讯。",
+    "slug": "freedombox",
     "url": "https://www.freedomboxfoundation.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox",
-    "slug": "freedombox"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox"
   },
   {
     "description": "去中心化的抗审查网络。",
+    "slug": "freenet",
     "url": "https://freenetproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Freenet",
-    "slug": "freenet"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Freenet"
   },
   {
     "description": "FreeOTP 是一个使用动态密码的两步验证应用。",
     "notes": "FreeOTP 为你的网络账号安全增加了第二层保护。它的工作原理是应用在你的手机设备上生成动态密码，登录网络账号时输入正常密码并配合使用动态密码，这使得你的账号几乎不可能被入侵。",
+    "slug": "freeotp",
     "url": "https://freeotp.github.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeOTP",
-    "slug": "freeotp"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeOTP"
   },
   {
     "description": "跨平台的软切换软件，支持 VoIP/SIP。",
+    "slug": "freeswitch",
     "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH",
-    "slug": "freeswitch"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH"
   },
   {
     "description": "一个非盈利的草根开源计划，目标是在全球范围内建立点对点的无线网络。",
+    "slug": "freifunk",
     "url": "http://wiki.freifunk.net/Kategorie:English",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Freifunk",
-    "slug": "freifunk"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Freifunk"
   },
   {
     "description": "分布式联合社交网络。",
+    "slug": "friendica",
     "url": "http://friendica.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica",
-    "slug": "friendica"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica"
   },
   {
     "description": "轻量快速的即时通讯平台，支持 GNU/Linux、Windows— 使用插件后可支持 OTR。",
+    "slug": "gajim",
     "url": "http://gajim.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim",
-    "slug": "gajim"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim"
   },
   {
     "description": "FreeBSD 操作系统上的磁盘加密子系统。",
+    "slug": "geli",
     "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29",
-    "slug": "geli"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29"
   },
   {
     "description": "同步计算机上的文件夹。",
+    "slug": "git-annex",
     "url": "https://git-annex.branchable.com/",
-    "wikipedia_url": "",
-    "slug": "git-annex"
+    "wikipedia_url": ""
   },
   {
     "description": "可自行架设的 Git 服务器。",
+    "slug": "gitlab",
     "url": "https://about.gitlab.com/",
-    "wikipedia_url": "https://zh.wikipedia.org/wiki/Gitlab",
-    "slug": "gitlab"
+    "wikipedia_url": "https://zh.wikipedia.org/wiki/Gitlab"
   },
   {
     "description": "免费的 OpenPGP 加密应用，支持大量客户端，包括 Thunderbird（雷鸟）和 Icedove（冰鼬鼠）。",
+    "slug": "gnu-privacy-guard",
     "url": "http://www.gnupg.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard",
-    "slug": "gnu-privacy-guard"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
   },
   {
     "description": "GNUnet 是一个完全自由的 P2P 网络。",
+    "slug": "gnunet",
     "url": "https://gnunet.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet",
-    "slug": "gnunet"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet"
   },
   {
     "description": "可以轻松建立的你自己的用 Go 语言写的 Git 服务器。",
+    "slug": "gogs",
     "url": "http://gogs.io/",
-    "wikipedia_url": "",
-    "slug": "gogs"
+    "wikipedia_url": ""
   },
   {
     "description": "出自德国信息安全局的 Windows 下的信息和文件加密工具（支持 XP，Vista，win7 和 win8）。Gpg4win 本身和 Gpg4win 所有的工具均是自由和开源软件。该软件主要用于数据加密和数字签名的公钥加密。",
+    "slug": "gpg4win",
     "url": "http://www.gpg4win.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gpg4win",
-    "slug": "gpg4win"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gpg4win"
   },
   {
     "description": "苹果 macOS Mail 的 OpenPGP 插件。",
+    "slug": "gpgtools",
     "url": "https://gpgtools.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GPGTools",
-    "slug": "gpgtools"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/GPGTools"
   },
   {
     "description": "面向所有人的开放、自由、中立的无线网络。",
+    "slug": "guifinet",
     "url": "https://guifi.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net",
-    "slug": "guifinet"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net"
   },
   {
     "description": "跨平台 IRC 客户端。",
     "notes": "HexChat does not offer encrypted IRC by default. You need to enable the FiSHLiM plugin for IRC message encryption.",
+    "slug": "hexchat",
     "url": "http://hexchat.github.io/",
-    "wikipedia_url": "",
-    "slug": "hexchat"
+    "wikipedia_url": ""
   },
   {
     "description": "强制使用 HTTPS，为你和数千个网站间建立加密通信。",
+    "slug": "https-everywhere",
     "url": "https://www.eff.org/https-everywhere",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere",
-    "slug": "https-everywhere"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere"
   },
   {
     "description": "隐形因特网计划。",
+    "slug": "i2p",
     "url": "https://geti2p.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/I2P",
-    "slug": "i2p"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/I2P"
   },
   {
     "description": "高度计量和定制化的消息平台，基于 MTA qmail。",
+    "slug": "indimail",
     "url": "http://www.indimail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail",
-    "slug": "indimail"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail"
   },
   {
     "description": "自动安装并完成配置的邮件服务器。基于 GNU/Linux 和 BSD。",
+    "slug": "iredmail",
     "url": "http://www.iredmail.org/",
-    "wikipedia_url": "",
-    "slug": "iredmail"
+    "wikipedia_url": ""
   },
   {
     "description": "加密的跨平台文本、语音、视频聊天工具。",
+    "slug": "jitsi",
     "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi",
-    "slug": "jitsi"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi"
   },
   {
     "description": "开源的安卓邮件应用，内建支持 PGP 加密。",
+    "slug": "k-9-mail",
     "url": "https://github.com/k9mail/k-9",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail",
-    "slug": "k-9-mail"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
   },
   {
     "description": "开源的 VoIP/SIP 服务器。",
+    "slug": "kamailio",
     "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": "",
-    "slug": "kamailio"
+    "wikipedia_url": ""
   },
   {
     "description": "KeePassDroid is an implementation of the KeePass Password Safe for Android. Read/write support for .kdb and KeePass 1.x. Read/write support for .kdbx and KeePass 2.x.",
+    "slug": "keepassdroid",
     "url": "http://www.keepassdroid.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePass#Unofficial_KeePass_releases",
-    "slug": "keepassdroid"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePass#Unofficial_KeePass_releases"
   },
   {
     "description": "这个程序是为那些极其重视个人数据安全管理的人设计的，可以在一个数据库里保存用户名，密码，网址，附件和注释等各种内容。",
+    "slug": "keepassxc",
     "url": "https://keepassxc.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC",
-    "slug": "keepassxc"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC"
   },
   {
     "description": "电子邮件、文件、日历、地址簿和手机同步的组件解决方案。",
+    "slug": "kolab",
     "url": "https://kolab.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab",
-    "slug": "kolab"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab"
   },
   {
     "description": "托管在瑞士的安全 kolab 账户，月费 8.99 瑞朗，纯粹的 Email 账户则收费 4.55 瑞朗每月。",
     "notes": "Kolab Now 托管在瑞士，受到[强大的瑞士隐私法律](https://KolabNow.com/privacy)的保护。它的运行完全使用自由软件，使用服务来支持 [Kolab](https://kolab.org) 的开发。\n\n此外，你可以随时导出你的所有数据，它的用户许可协议也在 [ToSDR](http://tosdr.org/#mykolab-com) 得到了很高的评价。\n\n该服务使用[完全正向保密（perfect forward secrecy）](https://kolabnow.com/faq?nid=189)，并且并[抹掉](https://kolabnow.com/faq?nid=190)邮件头中的身份信息。",
+    "slug": "kolabnow",
     "url": "https://kolabnow.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab",
-    "slug": "kolabnow"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab"
   },
   {
     "description": "支持 GPG 的 KDE 桌面程序，包括邮件客户端、日历、通讯录等诸多功能。",
+    "slug": "kontact",
     "url": "https://userbase.kde.org/Kontact",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact",
-    "slug": "kontact"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact"
   },
   {
     "description": "一个为嵌入式设备设计的 GNU/Linux-libre 发行版。",
+    "slug": "librecmc",
     "url": "https://librecmc.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC",
-    "slug": "librecmc"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
   },
   {
     "description": "加密的跨平台音视频聊天客户端。",
     "notes": "加密只对语音和视频有效，即时通信的文字不会被加密。",
+    "slug": "linphone",
     "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone",
-    "slug": "linphone"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
   },
   {
     "description": "这是点对点的数字加密货币，同时也是一个依据 MIT/X11 license 协议发布的自由软件。受到比特币（BTC）的启发并借鉴了它的技术，莱特币基于一个开源的协议被创造和转手，不受任何中央机构管理。莱特币项目致力于改进比特币，并作出了三个很关键的改变。",
     "notes": "请注意，数字货币汇率可能会波动很大。此外，软件错误，恶意攻击等也可能导致你的损失。请做好准备！",
+    "slug": "litecoin",
     "url": "https://litecoin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin",
-    "slug": "litecoin"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin"
   },
   {
     "description": "OpenPGP 邮件加密，支持多数 Email 服务器。",
+    "slug": "mailvelope",
     "url": "http://www.mailvelope.com/",
-    "wikipedia_url": "",
-    "slug": "mailvelope"
+    "wikipedia_url": ""
   },
   {
     "description": "自由的可视化全球地图。",
+    "slug": "marble",
     "url": "http://marble.kde.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29",
-    "slug": "marble"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29"
   },
   {
     "description": "去中心化的媒体发布平台。",
     "notes": "MediaGoblin 在默认设定下不会加密你的数据。",
+    "slug": "mediagoblin",
     "url": "http://mediagoblin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin",
-    "slug": "mediagoblin"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin"
   },
   {
     "description": "元搜索引擎，代理你的请求到多个搜索服务提供商。",
     "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
+    "slug": "metager",
     "url": "https://metager.de/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer",
-    "slug": "metager"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer"
   },
   {
     "description": "基于 Prosody 的 XMPP 服务端，有许多高级的管理和微博客功能。",
+    "slug": "metronome",
     "url": "https://metronome.im",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Metronome_IM",
-    "slug": "metronome"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Metronome_IM"
   },
   {
     "description": "Monero 是一种安全、隐私和不可追踪的 P2P 货币。",
     "notes": "请注意，数字货币汇率可能会波动很大。此外，软件错误，恶意攻击等也可能导致你的损失。请做好准备！",
+    "slug": "monero",
     "url": "https://getmonero.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Monero_(cryptocurrency)",
-    "slug": "monero"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Monero_(cryptocurrency)"
   },
   {
     "description": "私密的、去中心化的社交网络服务器。",
+    "slug": "movim",
     "url": "https://movim.eu/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Movim",
-    "slug": "movim"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Movim"
   },
   {
     "description": "开源的 Web 浏览器，扩展丰富。",
@@ -420,341 +420,341 @@
   {
     "description": "跨平台的开源电子邮件应用，使用 Enigmail 插件，你可以实现邮件加密。",
     "notes": "默认情况下雷鸟不会加密你的电子邮件。Security In A Box 提供了[一份指南](https://securityinabox.org/en/guide/thunderbird/linux/)来指导你用雷鸟、GNU 隐私卫士（GNU Privacy Guard, GPG）和 Enigmail 插件来加密自己的电子邮件。\n\n经过设置，雷鸟可以在 TorBirdy 插件下连接 Tor 网络。\n\n尽管雷鸟可以作为通讯和 IRC 的客户端，但它并不提供对这些通讯内容的加密。",
+    "slug": "mozilla-thunderbird",
     "url": "https://www.mozilla.org/en-US/thunderbird/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird",
-    "slug": "mozilla-thunderbird"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird"
   },
   {
     "description": "加密的低延迟的语音聊天。",
+    "slug": "mumble",
     "url": "http://www.mumble.info/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mumble_%28software%29",
-    "slug": "mumble"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mumble_%28software%29"
   },
   {
     "description": ".bit 顶级域名所使用的分布式 DNS，基于 Bitcoin 技术。",
+    "slug": "namecoin",
     "url": "https://namecoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Namecoin",
-    "slug": "namecoin"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Namecoin"
   },
   {
     "description": "只启用你信任的网站上面的 JavaScript、Java 和 Flash 内容",
     "notes": "安装**NoScript**并启用 ‘全局禁用脚本’ 以提高你浏览器的安全性。这主要可以避免 JavaScript 的零日漏洞攻击。这是一个激进的做法，因为很多网站会因此无法使用，因为它们非常依赖 JavaScript。\n\nNoScript 提供了一个白名单功能，你可以在你信任的网站上选择性地启用 JavaScript，但如果你在**Tor Browser Bundle**（Tor 浏览器）上也这么做，这会被认为是[对你的匿名性非常有害](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled)的。",
+    "slug": "noscript",
     "url": "http://noscript.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/NoScript",
-    "slug": "noscript"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/NoScript"
   },
   {
     "description": "这是一个自由的动态 DNS 解析服务。通过它，你可以用一个简单好记的 DNS 名称来代替你变化的、难记的 IP 地址。由于我们使用标准协议，我们支持大多数路由器和客户端，我们甚至可以主动帮您配置它们。我们关心您的安全，隐私和舒适。您可以在我们的网站简单地使用免费服务。当然，如果您愿意，您还可以在自己的服务器上搭建解析服务。",
+    "slug": "nsupdate-info",
     "url": "https://nsupdate.info/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Nsupdate",
-    "slug": "nsupdate-info"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nsupdate"
   },
   {
     "description": "IOS 平台上的开源浏览器，基于 Tor。",
+    "slug": "onion-browser",
     "url": "https://mike.tig.as/onionbrowser/",
-    "wikipedia_url": "",
-    "slug": "onion-browser"
+    "wikipedia_url": ""
   },
   {
     "description": "OpenKeychain 是安卓平台上的 OpenPGP 实现。",
+    "slug": "open-keychain",
     "url": "https://www.openkeychain.org/",
-    "wikipedia_url": "",
-    "slug": "open-keychain"
+    "wikipedia_url": ""
   },
   {
     "description": "OSRM 是一个高性能的最短路径导航引擎的 C++ 实现，是使用 permissive 2-clause BSD license 协议发布的自由网络服务。OSRM 支持 Linux、FreeBSD、Windows 和 Mac 平台。",
     "notes": "OSRM 应该被安装在你的本地计算机，以避免未加密的网络泄漏您的信息。",
+    "slug": "open-source-routing-machine",
     "url": "http://project-osrm.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine",
-    "slug": "open-source-routing-machine"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
   },
   {
     "description": "可选择的开源网络统计服务。",
+    "slug": "open-web-analytics",
     "url": "http://www.openwebanalytics.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Web_Analytics",
-    "slug": "open-web-analytics"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Web_Analytics"
   },
   {
     "description": "安全的 BSD 操作系统。安全得近乎偏执。",
+    "slug": "openbsd",
     "url": "http://openbsd.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD",
-    "slug": "openbsd"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD"
   },
   {
     "description": "跨平台 XMPP 服务，基于 Java 语言。",
+    "slug": "openfire",
     "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire",
-    "slug": "openfire"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire"
   },
   {
     "description": "开放，民主，抗审查的 DNS 服务。",
     "notes": "OpenNIC 还没有关于日志查询隐私和匿名性的官方政策。更多信息参见[这个页面](https://wiki.opennic.org/opennic:tier2)。",
+    "slug": "opennic",
     "url": "https://www.opennic.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC",
-    "slug": "opennic"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC"
   },
   {
     "description": "自由、世界性的协作地图。",
+    "slug": "openstreetmap",
     "url": "http://www.openstreetmap.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenStreetMap",
-    "slug": "openstreetmap"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenStreetMap"
   },
   {
     "description": "自由的 VPN 客户端。",
+    "slug": "openvpn",
     "url": "http://openvpn.net/index.php/open-source.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN",
-    "slug": "openvpn"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN"
   },
   {
     "description": "为嵌入式设备设计的 GNU/Linux 发行版。",
+    "slug": "openwrt",
     "url": "https://openwrt.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenWrt",
-    "slug": "openwrt"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenWrt"
   },
   {
     "description": "拥有丰富特性和功能的安卓版 Tor。",
+    "slug": "orbot",
     "url": "https://guardianproject.info/apps/orbot/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Orbot",
-    "slug": "orbot"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Orbot"
   },
   {
     "description": "OsmAnd (OSM Automated Navigation Directions) 是使用 OpenStreetMap 数据的开放的导航系统。",
+    "slug": "osmand",
     "url": "http://osmand.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd",
-    "slug": "osmand"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd"
   },
   {
     "description": "安卓端密码管理器，使用加密的容器文件来储存密码，网址，电子邮箱地址，笔记等信息。你只需要记住主密码即可。提供自定义的随机密码生成功能。",
+    "slug": "passwdsafe",
     "url": "http://passwdsafe.sourceforge.net/",
-    "wikipedia_url": "",
-    "slug": "passwdsafe"
+    "wikipedia_url": ""
   },
   {
     "description": "Windows/Linux 下的密码管理器，由 Bruce Schneier 设计。使用加密的容器文件来储存密码，网址，电子邮箱地址，笔记等信息。你只需要记住主密码即可。提供自定义的随机密码生成功能。",
+    "slug": "passwordsafe",
     "url": "http://pwsafe.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Password_Safe",
-    "slug": "passwordsafe"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Password_Safe"
   },
   {
     "description": "自行架设的照片库平台。",
     "notes": "Piwigo 默认不会进行加密。",
+    "slug": "piwigo",
     "url": "http://piwigo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo",
-    "slug": "piwigo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo"
   },
   {
     "description": "开放源代码、自行架设的 Web 分析服务。",
+    "slug": "matomo",
     "url": "https://matomo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)",
-    "slug": "matomo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "这是一个跟踪屏蔽器，它会试着了解是谁在监视你，并屏蔽这些广告和跟踪器。",
     "notes": "隐私獾（Privacy Badger）可能不如传统的基于黑名单的 uBlock 或 Disconnect 等解决方案更有效。因为广告主可以通过宣称不对你进行跟踪而获得解封。",
+    "slug": "privacy-badger",
     "url": "https://www.eff.org/privacybadger",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Privacy_Badger",
-    "slug": "privacy-badger"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Privacy_Badger"
   },
   {
     "description": "灵活轻量的 XMPP 服务端，使用 Lua 语言编写。",
+    "slug": "prosody",
     "url": "https://prosody.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29",
-    "slug": "prosody"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29"
   },
   {
     "description": "跨平台的即时通讯（IM）客户端，内建 OTR。",
+    "slug": "psi",
     "url": "http://psi-plus.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Psi_%28instant_messaging_client%29",
-    "slug": "psi"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Psi_%28instant_messaging_client%29"
   },
   {
     "description": "自行架设的社交信息流服务器。",
+    "slug": "pumpio",
     "url": "http://pump.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pump.io",
-    "slug": "pumpio"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pump.io"
   },
   {
     "description": "可以立即把一个服务器变成文件共享平台。",
+    "slug": "pydio",
     "url": "http://pyd.io/",
-    "wikipedia_url": "",
-    "slug": "pydio"
+    "wikipedia_url": ""
   },
   {
     "description": "基于 Fedora 和 Xen 的操作系统，旨在通过隔离来增强安全性。",
+    "slug": "qubes",
     "url": "https://www.qubes-os.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS",
-    "slug": "qubes"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS"
   },
   {
     "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "slug": "hubzilla",
     "url": "http://hubzilla.org/",
-    "wikipedia_url": "",
-    "slug": "hubzilla"
+    "wikipedia_url": ""
   },
   {
     "description": "基于 LineageOS 的，完全免费的 Android 版本",
+    "slug": "replicant",
     "url": "http://replicant.us/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29",
-    "slug": "replicant"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29"
   },
   {
     "description": "安全的 P2P 通讯平台，提供即时通讯，论坛，网络电话，文件共享等功能。",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
+    "slug": "retroshare",
     "url": "http://retroshare.net",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare",
-    "slug": "retroshare"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare"
   },
   {
     "description": "Ring is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.",
+    "slug": "ring",
     "url": "https://ring.cx/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ring_(software)",
-    "slug": "ring"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ring_(software)"
   },
   {
     "description": "安全私密的电子邮件账户，为那些社会活动人士设计。",
     "notes": "Riseup 的服务也可以通过 Tor 网络访问。清单 [在此](https://www.riseup.net/en/tor#riseups-tor-hidden-services)。",
+    "slug": "riseup",
     "url": "https://riseup.net/en",
-    "wikipedia_url": "",
-    "slug": "riseup"
+    "wikipedia_url": ""
   },
   {
     "description": "多前端多用途的通信工具",
+    "slug": "salut-a-toi",
     "url": "http://sat.goffi.org/",
-    "wikipedia_url": "",
-    "slug": "salut-a-toi"
+    "wikipedia_url": ""
   },
   {
     "description": "个人的、最小化的、超快的无数据库的书签同步工具。",
+    "slug": "shaarli",
     "url": "https://github.com/shaarli/Shaarli/",
-    "wikipedia_url": "",
-    "slug": "shaarli"
+    "wikipedia_url": ""
   },
   {
     "description": "这是 TextSecure 的一个分支，提供短信加密功能。",
+    "slug": "silence",
     "url": "https://silence.im/",
-    "wikipedia_url": "",
-    "slug": "silence"
+    "wikipedia_url": ""
   },
   {
     "description": "自行架设的版本控制和文件同步系统。",
+    "slug": "sparkleshare",
     "url": "http://sparkleshare.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/SparkleShare",
-    "slug": "sparkleshare"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/SparkleShare"
   },
   {
     "description": "私密、无记录的 Web 搜索引擎。",
     "notes": "Startpage 是一个托管在美国和荷兰的 SaaS（软件即服务），通过免费匿名代理为你提供谷歌搜索和图片搜索结果。",
+    "slug": "startpage",
     "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com",
-    "slug": "startpage"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com"
   },
   {
     "description": "轻量、友好的电子邮件程序，跨平台，内建 PGP 支持。",
+    "slug": "sylpheed",
     "url": "http://sylpheed.sraoss.jp/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed",
-    "slug": "sylpheed"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed"
   },
   {
     "description": "持续、分布式的文件同步工具。",
     "notes": "Syncthing是一个自架设的文件分享平台，所以你所有的数据都存储在你自己的电脑里。没有中央服务器会干坏事，不管是合法还是非法的。所有通信都使用 TLS 保护。所使用的加密包括完全正向保密（perfect forward secrecy），以防止任何窃听者获取你的数据访问。每个节点由一个强大的加密证书识别。只有您明确允许的节点才可以连接到群集。",
+    "slug": "syncthing",
     "url": "https://syncthing.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing",
-    "slug": "syncthing"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing"
   },
   {
     "description": "自由和开放的云存储系统。",
+    "slug": "tahoe-lafs",
     "url": "https://tahoe-lafs.org/trac/tahoe-lafs",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tahoe-LAFS",
-    "slug": "tahoe-lafs"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tahoe-LAFS"
   },
   {
     "description": "Live CD/USB 设计的致力于保护你的隐私和匿名性的系统。",
+    "slug": "tails",
     "url": "https://tails.boum.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System",
-    "slug": "tails"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System"
   },
   {
     "description": "跨平台的 XMPP 服务端，使用 Java 语言编写。",
+    "slug": "tigase",
     "url": "http://www.tigase.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase",
-    "slug": "tigase"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase"
   },
   {
     "description": "这个自由软件使用守护进程使用隧道和创建一个加密安全的网络。",
+    "slug": "tinc",
     "url": "http://tinc-vpn.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tinc_%28protocol%29",
-    "slug": "tinc"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tinc_%28protocol%29"
   },
   {
     "description": "用于实现在线匿名的自由软件。Tor 将网络流量通过一个由超过 4000 个中继志愿者组成的全球性自由网络转发，使用户免于受到网络监控或流量分析，避免泄漏地理位置等信息。使用 Tor 让网络活动更难以追踪，包括\"访问网站、发帖、即时通讯和其他通讯形式\"。Tor 致力于保护用户隐私，同时保护他们通过网络开展秘密活动的自由和能力。",
+    "slug": "tor",
     "url": "https://www.torproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29",
-    "slug": "tor"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29"
   },
   {
     "description": "通过Tor网络，以加密、匿名的方式浏览。",
     "notes": "使用 Tor 浏览器（TBB）登录包含你真实信息的 ID 只会适得其反，还会触发网站的欺诈保护机制。在登录网站之前，你还需要检查是否是 HTTPS，因为通过 HTTP 登录可能导致您的信息被恶意 Tor 出口节点捕获。",
+    "slug": "tor-browser",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser",
-    "slug": "tor-browser"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser"
   },
   {
     "description": "这个插件让火狐/冰鼬鼠能通过 Tor 联网。",
     "notes": "TorBirdy 目前是测试版，应慎重考虑其试验性功能。在使用前请认真阅读项目网站上的\"Before using TorBirdy\"和\"Known TorBirdy\"部分，以确保你了解目前已知的问题和可能存在的泄漏。",
+    "slug": "torbirdy",
     "url": "https://trac.torproject.org/projects/tor/wiki/torbirdy",
-    "wikipedia_url": "",
-    "slug": "torbirdy"
+    "wikipedia_url": ""
   },
   {
     "description": "免费、开源、点对点的加密即时通讯、视频聊天软件。该项目的目标是为大家提供安全且便利的沟通。",
     "notes": "TOX是一个正在建设中的全新的加密通讯系统，它基于一些众所周知的加密库，具有很大的潜力，但尚未通过专业的安全审核。使用请自担风险。\n\nTox 目前还没有一个官方的 GUI，但开发团队推荐了[一些备选方案](https://wiki.tox.chat/Binaries)。",
+    "slug": "tox",
     "url": "https://tox.chat",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)",
-    "slug": "tox"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)"
   },
   {
     "description": "Tunnelblick 是 macOS 平台上一个免费开源的 OpenVPN 图形用户界面。它提供了方便控制的 OpenVPN 客户端和/或服务器连接。",
+    "slug": "tunnelblick",
     "url": "https://tunnelblick.net/",
-    "wikipedia_url": "",
-    "slug": "tunnelblick"
+    "wikipedia_url": ""
   },
   {
     "description": "Firefox 和 Chromium 浏览器中的一个有效的拦截插件，快速、有效、轻便。",
+    "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin",
-    "slug": "ublock-origin"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
   },
   {
     "description": "验证，递归和缓存 DNS 服务器。",
+    "slug": "unbound",
     "url": "http://www.unbound.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29",
-    "slug": "unbound"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29"
   },
   {
     "description": "保护隐私，并返回中立的搜索结果的元搜索引擎。",
     "notes": "Unbubble 是来自德国的搜索引擎，提供八种语言的结果。它的主要目标是提供中立的搜索结果。它采用强有力的措施来保护隐私。",
+    "slug": "unbubble",
     "url": "https://unbubble.eu",
-    "wikipedia_url": "",
-    "slug": "unbubble"
+    "wikipedia_url": ""
   },
   {
     "description": "Client-side encrypted image host web server.",
     "notes": "Up1 is a simple host that client-side encrypts images, text, and other data, and stores them, with the server knowing nothing about the contents. It has the ability to view images, text with syntax highlighting, short videos, and arbitrary binaries as downloadables.",
+    "slug": "up1",
     "url": "https://github.com/Upload/Up1/blob/master/README.md",
-    "wikipedia_url": "",
-    "slug": "up1"
+    "wikipedia_url": ""
   },
   {
     "description": "wallabag 是一个可以自行架设的用于保存网页的程序。与其他的服务不同，他是免费、自由和开源的。",
+    "slug": "wallabag",
     "url": "https://www.wallabag.org/",
-    "wikipedia_url": "",
-    "slug": "wallabag"
+    "wikipedia_url": ""
   },
   {
     "description": "可扩展和高度定制化的 CLI 通讯客户端，用于 IRC 和 XMPP/Jabber 协议。",
+    "slug": "weechat",
     "url": "http://www.weechat.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat",
-    "slug": "weechat"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat"
   },
   {
     "description": "虚拟机友好的操作系统，基于 Debian 和 Tor，致力于匿名、隐私和安全。",
@@ -763,40 +763,40 @@
   {
     "description": "自行架设的网站发布平台。",
     "notes": "WordPress 的默认情况下不加密您的任何数据。\n\n在其中使用头像会激活 Gravatar，这将发送您的电子邮件地址 gravatar.com。头像默认激活，并在/“设置>讨论>头像/”可以被关闭。\n\n默认主题强制访问者下载 Google 字体，建议切换到一个完全自架设的主题。你也可以安装[禁用 Google 字体](http://wordpress.org/plugins/disable-google-fonts/)的插件来修复此问题。",
+    "slug": "wordpress",
     "url": "https://wordpress.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress",
-    "slug": "wordpress"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress"
   },
   {
     "description": "自行架设的媒体管理系统。",
     "notes": "Zenphoto 不会默认加密你的数据。",
+    "slug": "zenphoto",
     "url": "http://www.zenphoto.org/",
-    "wikipedia_url": "",
-    "slug": "zenphoto"
+    "wikipedia_url": ""
   },
   {
     "description": "Simple password manager using gpg and ordinary unix directories.",
+    "slug": "password-store",
     "url": "https://www.passwordstore.org/",
-    "wikipedia_url": "",
-    "slug": "password-store"
+    "wikipedia_url": ""
   },
   {
     "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
+    "slug": "wikisuite",
     "url": "http://wikisuite.org/",
-    "wikipedia_url": "",
-    "slug": "wikisuite"
+    "wikipedia_url": ""
   },
   {
     "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
     "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
+    "slug": "cryptpad",
     "url": "https://cryptpad.fr",
-    "wikipedia_url": "",
-    "slug": "cryptpad"
+    "wikipedia_url": ""
   },
   {
     "description": " Android application compatible with ZX2C4's Pass command line application.",
+    "slug": "android-password-store",
     "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
-    "wikipedia_url": "",
-    "slug": "android-password-store"
+    "wikipedia_url": ""
   }
 ]
