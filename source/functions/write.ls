@@ -35,7 +35,6 @@ write-site-index = (db) ->
   path = 'index'
   view = view-path path
   options = 
-    pretty: true
     iso: db.iso
     body-class: "#{db.iso} root index"
     h: helpers
@@ -54,7 +53,6 @@ write-all-index = (db) ->
   path = 'all/index'
   view = view-path path
   options = 
-    pretty: true
     iso: db.iso
     body-class: "#{db.iso} all index"
     h: helpers
@@ -76,7 +74,6 @@ write-categories-index = (db) ->
   path = 'categories/index'
   view = view-path path
   options = 
-    pretty: true
     iso: db.iso
     body-class: "#{db.iso} categories index"
     h: helpers
@@ -101,7 +98,6 @@ write-categories-index = (db) ->
   path = 'categories/index'
   view = view-path path
   options = 
-    pretty: true
     iso: db.iso
     body-class: "#{db.iso} categories index"
     h: helpers
@@ -143,7 +139,6 @@ write-categories-show = (db) ->
     path = "categories/#{category.slug}/"
     view = view-path 'categories/show'
     options = 
-      pretty: true
       iso: db.iso
       body-class: "#{db.iso} categories show"
       h: helpers
@@ -192,7 +187,6 @@ write-subcategories-show = (db) ->
     path = "subcategories/#{category.slug}-#{subcategory.slug}/"
     view = view-path 'subcategories/show'
     options = 
-      pretty: true
       iso: db.iso
       body-class: "#{db.iso} subcategories show"
       h: helpers
@@ -223,7 +217,6 @@ write-protocols-index = (db) ->
   path = 'protocols/index'
   view = view-path path
   options = 
-    pretty: true
     iso: db.iso
     body-class: "#{db.iso} protocols index"
     h: helpers
@@ -251,7 +244,6 @@ write-protocols-show = (db) ->
     path = "protocols/#{protocol.slug}/"
     view = view-path 'protocols/show'
     options = 
-      pretty: true
       iso: db.iso
       body-class: "#{db.iso} protocols show"
       h: helpers
@@ -282,7 +274,6 @@ write-projects-index = (db) ->
   path = 'projects/index'
   view = view-path path
   options = 
-    pretty: true
     iso: db.iso
     body-class: "#{db.iso} projects index"
     h: helpers
@@ -309,7 +300,6 @@ write-projects-show = (db) ->
     path = "projects/#{project.slug}/"
     view = view-path 'projects/show'
     options = 
-      pretty: true
       iso: db.iso
       body-class: "#{db.iso} projects show"
       h: helpers
@@ -336,7 +326,6 @@ write-about-index = (db) ->
     path = 'about/index'
     view = view-path path
     options =
-      pretty: true
       iso: db.iso
       body-class: "#{db.iso} about index"
       h: helpers
@@ -358,7 +347,6 @@ write-about-media = (db) ->
     path = 'about/media/'
     view = view-path 'about/media'
     options =
-      pretty: true
       iso: db.iso
       body-class: "#{db.iso} about media"
       h: helpers
