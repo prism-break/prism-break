@@ -1,83 +1,8 @@
 [
   {
-    "description": "DNS (англ. Domain Name System — система доменных имён) — компьютерная распределённая система для получения информации о доменах. Чаще всего используется для получения IP-адреса по имени хоста (компьютера или устройства), получения информации о маршрутизации почты, обслуживающих узлах для протоколов в домене (SRV-запись).",
-    "slug": "dns",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/DNS"
-  },
-  {
-    "description": "IRC (англ. Internet Relay Chat) — протокол прикладного уровня для обмена сообщениями в режиме реального времени. Разработан в основном для группового общения, также позволяет общаться через личные сообщения и обмениваться данными, в том числе файлами.",
-    "slug": "irc",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/IRC"
-  },
-  {
-    "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
-    "slug": "matrix",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
-  },
-  {
-    "description": "SIP (англ. Session Initiation Protocol — протокол установления сеанса) — протокол передачи данных, который описывает способ установления и завершения пользовательского интернет-сеанса, включающего обмен мультимедийным содержимым (видео- и аудиоконференция, мгновенные сообщения, онлайн-игры).",
-    "slug": "sip",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/SIP"
-  },
-  {
-    "description": "IP-телефония — телефонная связь по протоколу IP. Под IP-телефонией подразумевается набор коммуникационных протоколов, технологий и методов, обеспечивающих традиционные для телефонии набор номера, дозвон и двустороннее голосовое общение, а также видеообщение по сети Интернет или любым другим IP-сетям. ",
-    "slug": "voip",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/IP-%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B8%D1%8F"
-  },
-  {
-    "description": "XMPP (Extensible Messaging and Presence Protocol — расширяемый протокол обмена сообщениями и информацией о присутствии), ранее известный как Jabber) — основанный на XML, открытый, свободный для использования протокол для мгновенного обмена сообщениями и информацией о присутствии в режиме, близком к режиму реального времени. Изначально спроектированный легко расширяемым, протокол, помимо передачи текстовых сообщений, поддерживает передачу голоса, видео и файлов по сети.",
-    "slug": "xmpp",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/XMPP"
-  },
-  {
-    "description": "Tox is a communications protocol behind the Tox instant messaging client. Alternative implementations of this protocol are around, such as Xot, but not widespread.",
-    "slug": "tox",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)#Protocol"
-  },
-  {
-    "description": "GNU Privacy Guard (GnuPG, GPG) — свободная программа для шифрования информации и создания электронных цифровых подписей. Разработана как альтернатива PGP и выпущена под свободной лицензией GNU General Public License. GnuPG полностью совместима со стандартом IETF OpenPGP. Текущие версии GnuPG могут взаимодействовать с PGP и другими OpenPGP-совместимыми системами.",
-    "slug": "gpg",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/GnuPG"
-  },
-  {
-    "description": "Off-the-Record Messaging (OTR) — криптографический протокол для систем мгновенного обмена сообщениями, созданный в 2004 году Никитой Борисовым и Ианом Голдбергом.",
-    "slug": "otr",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Off-the-Record_Messaging"
-  },
-  {
-    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
-    "slug": "omemo",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO"
-  },
-  {
-    "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) — стандарт для шифрования и подписи в электронной почте с помощью открытого ключа.",
-    "slug": "s-mime",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/S/MIME"
-  },
-  {
-    "description": "TLS (англ. Transport Layer Security) — безопасность транспортного уровня, как и его предшественник SSL (англ. Secure Socket Layers — уровень защищённых сокетов) — криптографические протоколы, обеспечивающие защищённую передачу данных между узлами в сети Интернет. TLS и SSL используют асимметричную криптографию для аутентификации, симметричное шифрование для конфиденциальности и коды аутентичности сообщений для сохранения целостности сообщений.",
-    "slug": "ssl-tls",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/TLS"
-  },
-  {
-    "description": "ZRTP — криптографический протокол согласования ключей шифрования, используемый в системах передачи голоса по IP-сетям (VoIP). ZRTP описывает метод получения ключей по алгоритму Диффи — Хелмана для организации Secure Real-time Transport Protocol (SRTP). ZRTP осуществляет согласование ключей в том же потоке RTP, по которому установлена аудио/видео связь, то есть не требует отдельного канала связи. Разработан Филипом Циммерманом (автором Pretty Good Privacy), Джоном Калласом и Аланом Джонстоном в 2006 году. Описание протокола было подано в IETF 5-го марта 2006.",
-    "slug": "zrtp",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/ZRTP"
-  },
-  {
-    "description": "I2P (сокр. от англ.  «Invisible Internet Project», рус. «Проект Невидимый Интернет») — открытое программное обеспечение, созданное для организации сверхустойчивой анонимной, оверлейной, зашифрованной сети и применимое для веб-сёрфинга, анонимного хостинга (создания анонимных сайтов, форумов и чатов, файлообменных серверов и т. д.), систем обмена мгновенными сообщениями, ведения блогов, а также для файлообмена (в том числе P2P — Torrent, eDonkey, Kad, Gnutella и т. д.), электронной почты, VoIP и многого другого.",
-    "slug": "i2p",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/I2P"
-  },
-  {
-    "description": "Tor (сокр. от англ. The Onion Router) — свободное программное обеспечение для реализации второго поколения так называемой «луковой маршрутизации». Это система прокси-серверов, позволяющая устанавливать анонимное сетевое соединение, защищённое от прослушивания. Рассматривается как анонимная сеть виртуальных туннелей, предоставляющая передачу данных в зашифрованном виде. С помощью Tor пользователи могут сохранять анонимность в интернете при посещении сайтов, публикации материалов, отправке сообщений и при работе с другими приложениями, использующими протокол TCP. Анонимизация трафика обеспечивается за счёт использования распределённой сети серверов (нод — «узлов»), называемых многослойными маршрутизаторами.",
-    "slug": "tor",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Tor"
-  },
-  {
-    "description": "RSS — семейство XML-форматов, предназначенных для описания лент новостей, анонсов статей, изменений в блогах и т. п.",
-    "slug": "rss",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/RSS"
+    "description": "Exchange ActiveSync позволяет мобильному устройству синхронизироваться с компьютером или сервером. Он не является открытым стандартом, но широко используется и поддерживается.",
+    "slug": "activesync",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync"
   },
   {
     "description": "CalDAV — интернет-стандарт, позволяющий клиенту получать доступ к информации календаря на удаленном сервере, описанный в RFC 4791. Он является расширением WebDAV (основанного на HTTP протокола для манипуляции данными) и использует формат iCalendar для данных. CalDAV разрешает доступ с нескольких клиентов к одной и той же информации, что позводяет использовать его для совместного планирования и обмена информацией. Поддерживается многими серверными и клиентскими приложениями.",
@@ -90,13 +15,88 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/CardDAV"
   },
   {
+    "description": "DNS (англ. Domain Name System — система доменных имён) — компьютерная распределённая система для получения информации о доменах. Чаще всего используется для получения IP-адреса по имени хоста (компьютера или устройства), получения информации о маршрутизации почты, обслуживающих узлах для протоколов в домене (SRV-запись).",
+    "slug": "dns",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/DNS"
+  },
+  {
+    "description": "GNU Privacy Guard (GnuPG, GPG) — свободная программа для шифрования информации и создания электронных цифровых подписей. Разработана как альтернатива PGP и выпущена под свободной лицензией GNU General Public License. GnuPG полностью совместима со стандартом IETF OpenPGP. Текущие версии GnuPG могут взаимодействовать с PGP и другими OpenPGP-совместимыми системами.",
+    "slug": "gpg",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/GnuPG"
+  },
+  {
+    "description": "I2P (сокр. от англ.  «Invisible Internet Project», рус. «Проект Невидимый Интернет») — открытое программное обеспечение, созданное для организации сверхустойчивой анонимной, оверлейной, зашифрованной сети и применимое для веб-сёрфинга, анонимного хостинга (создания анонимных сайтов, форумов и чатов, файлообменных серверов и т. д.), систем обмена мгновенными сообщениями, ведения блогов, а также для файлообмена (в том числе P2P — Torrent, eDonkey, Kad, Gnutella и т. д.), электронной почты, VoIP и многого другого.",
+    "slug": "i2p",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/I2P"
+  },
+  {
+    "description": "IRC (англ. Internet Relay Chat) — протокол прикладного уровня для обмена сообщениями в режиме реального времени. Разработан в основном для группового общения, также позволяет общаться через личные сообщения и обмениваться данными, в том числе файлами.",
+    "slug": "irc",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/IRC"
+  },
+  {
+    "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
+    "slug": "matrix",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
+  },
+  {
+    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
+    "slug": "omemo",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO"
+  },
+  {
+    "description": "Off-the-Record Messaging (OTR) — криптографический протокол для систем мгновенного обмена сообщениями, созданный в 2004 году Никитой Борисовым и Ианом Голдбергом.",
+    "slug": "otr",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Off-the-Record_Messaging"
+  },
+  {
+    "description": "RSS — семейство XML-форматов, предназначенных для описания лент новостей, анонсов статей, изменений в блогах и т. п.",
+    "slug": "rss",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/RSS"
+  },
+  {
+    "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) — стандарт для шифрования и подписи в электронной почте с помощью открытого ключа.",
+    "slug": "s-mime",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/S/MIME"
+  },
+  {
+    "description": "SIP (англ. Session Initiation Protocol — протокол установления сеанса) — протокол передачи данных, который описывает способ установления и завершения пользовательского интернет-сеанса, включающего обмен мультимедийным содержимым (видео- и аудиоконференция, мгновенные сообщения, онлайн-игры).",
+    "slug": "sip",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/SIP"
+  },
+  {
+    "description": "TLS (англ. Transport Layer Security) — безопасность транспортного уровня, как и его предшественник SSL (англ. Secure Socket Layers — уровень защищённых сокетов) — криптографические протоколы, обеспечивающие защищённую передачу данных между узлами в сети Интернет. TLS и SSL используют асимметричную криптографию для аутентификации, симметричное шифрование для конфиденциальности и коды аутентичности сообщений для сохранения целостности сообщений.",
+    "slug": "ssl-tls",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/TLS"
+  },
+  {
+    "description": "Tor (сокр. от англ. The Onion Router) — свободное программное обеспечение для реализации второго поколения так называемой «луковой маршрутизации». Это система прокси-серверов, позволяющая устанавливать анонимное сетевое соединение, защищённое от прослушивания. Рассматривается как анонимная сеть виртуальных туннелей, предоставляющая передачу данных в зашифрованном виде. С помощью Tor пользователи могут сохранять анонимность в интернете при посещении сайтов, публикации материалов, отправке сообщений и при работе с другими приложениями, использующими протокол TCP. Анонимизация трафика обеспечивается за счёт использования распределённой сети серверов (нод — «узлов»), называемых многослойными маршрутизаторами.",
+    "slug": "tor",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Tor"
+  },
+  {
+    "description": "Tox is a communications protocol behind the Tox instant messaging client. Alternative implementations of this protocol are around, such as Xot, but not widespread.",
+    "slug": "tox",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)#Protocol"
+  },
+  {
+    "description": "IP-телефония — телефонная связь по протоколу IP. Под IP-телефонией подразумевается набор коммуникационных протоколов, технологий и методов, обеспечивающих традиционные для телефонии набор номера, дозвон и двустороннее голосовое общение, а также видеообщение по сети Интернет или любым другим IP-сетям. ",
+    "slug": "voip",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/IP-%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B8%D1%8F"
+  },
+  {
     "description": "WebDAV (Web Distributed Authoring and Versioning) — защищённый сетевой протокол высокого уровня, работающий поверх HTTP. Используется для доступа к объектам и коллекциям.",
     "slug": "webdav",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/WebDAV"
   },
   {
-    "description": "Exchange ActiveSync позволяет мобильному устройству синхронизироваться с компьютером или сервером. Он не является открытым стандартом, но широко используется и поддерживается.",
-    "slug": "activesync",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync"
+    "description": "XMPP (Extensible Messaging and Presence Protocol — расширяемый протокол обмена сообщениями и информацией о присутствии), ранее известный как Jabber) — основанный на XML, открытый, свободный для использования протокол для мгновенного обмена сообщениями и информацией о присутствии в режиме, близком к режиму реального времени. Изначально спроектированный легко расширяемым, протокол, помимо передачи текстовых сообщений, поддерживает передачу голоса, видео и файлов по сети.",
+    "slug": "xmpp",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/XMPP"
+  },
+  {
+    "description": "ZRTP — криптографический протокол согласования ключей шифрования, используемый в системах передачи голоса по IP-сетям (VoIP). ZRTP описывает метод получения ключей по алгоритму Диффи — Хелмана для организации Secure Real-time Transport Protocol (SRTP). ZRTP осуществляет согласование ключей в том же потоке RTP, по которому установлена аудио/видео связь, то есть не требует отдельного канала связи. Разработан Филипом Циммерманом (автором Pretty Good Privacy), Джоном Калласом и Аланом Джонстоном в 2006 году. Описание протокола было подано в IETF 5-го марта 2006.",
+    "slug": "zrtp",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/ZRTP"
   }
 ]

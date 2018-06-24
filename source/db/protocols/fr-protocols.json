@@ -1,83 +1,8 @@
 [
   {
-    "description": "The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates easily memorized domain names to the numerical IP addresses needed for the purpose of locating computer services and devices worldwide. The Domain Name System is an essential component of the functionality of the Internet.",
-    "slug": "dns",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Domain_Name_System"
-  },
-  {
-    "description": "Internet Relay Chat (IRC) is a protocol for live interactive Internet text messaging (chat) or synchronous conferencing. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing.",
-    "slug": "irc",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Internet_Relay_Chat"
-  },
-  {
-    "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
-    "slug": "matrix",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
-  },
-  {
-    "description": "The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.",
-    "slug": "sip",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Session_Initiation_Protocol"
-  },
-  {
-    "description": "Voice over Internet Protocol (VoIP) is a methodology and group of technologies for the delivery of voice communications and multimedia sessions over Internet Protocol (IP) networks, such as the Internet. Other terms commonly associated with VoIP are IP telephony, Internet telephony, voice over broadband (VoBB), broadband telephony, IP communications, and broadband phone service.",
-    "slug": "voip",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Voix_sur_IP"
-  },
-  {
-    "description": "Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.",
-    "slug": "xmpp",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol"
-  },
-  {
-    "description": "Tox is a communications protocol behind the Tox instant messaging client. Alternative implementations of this protocol are around, such as Xot, but not widespread.",
-    "slug": "tox",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tox_%28logiciel%29#Protocole"
-  },
-  {
-    "description": "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.",
-    "slug": "gpg",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/GNU_Privacy_Guard"
-  },
-  {
-    "description": "Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.",
-    "slug": "otr",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Off-the-Record_Messaging"
-  },
-  {
-    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
-    "slug": "omemo",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO"
-  },
-  {
-    "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME was originally developed by RSA Data Security Inc. S/MIME functionality is built into the majority of modern email software and interoperates between them.",
-    "slug": "s-mime",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/S/MIME"
-  },
-  {
-    "description": "Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), are cryptographic protocols which are designed to provide communication security over the Internet. They use X.509 certificates and hence asymmetric cryptography to assure the counterparty whom they are talking with, and to exchange a symmetric key. This session key is then used to encrypt data flowing between the parties. This allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication.",
-    "slug": "ssl-tls",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Transport_Layer_Security"
-  },
-  {
-    "description": "ZRTP (composed of Z and Real-time Transport Protocol) is a cryptographic key-agreement protocol to negotiate the keys for encryption between two end points in a Voice over Internet Protocol (VoIP) phone telephony call based on the Real-time Transport Protocol. It uses Diffie–Hellman key exchange and the Secure Real-time Transport Protocol (SRTP) for encryption. ZRTP was developed by Phil Zimmermann, with help from Bryce Wilcox-O'Hearn, Colin Plumb, Jon Callas and Alan Johnston and was submitted to the Internet Engineering Task Force (IETF) by Phil Zimmermann, Jon Callas and Alan Johnston on March 5, 2006 and published on April 11, 2011 as RFC 6189.",
-    "slug": "zrtp",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/ZRTP"
-  },
-  {
-    "description": "I2P (Invisible Internet Project) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous web surfing, chatting, blogging and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node.",
-    "slug": "i2p",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/I2P"
-  },
-  {
-    "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
-    "slug": "tor",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tor_%28r%C3%A9seau%29"
-  },
-  {
-    "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called “feed”, “web feed”, or “channel”) includes full or summarized text, and metadata, like publishing date and author's name.",
-    "slug": "rss",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/RSS"
+    "description": "Exchange ActiveSync allows a mobile device to be synchronized with either a desktop PC or a server running a compatible software product. It is not an Open Standard but widely used and supported.",
+    "slug": "activesync",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync"
   },
   {
     "description": "Calendaring Extensions to WebDAV, or CalDAV, is an Internet standard allowing a client to access scheduling information on a remote server. It extends WebDAV (HTTP-based protocol for data manipulation) specification and uses iCalendar format for the data. The protocol is defined by RFC 4791. It allows multiple client access to the same information thus allowing cooperative planning and information sharing. Many server and client applications support the protocol.",
@@ -90,13 +15,88 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/CardDAV"
   },
   {
+    "description": "The Domain Name System (DNS) is a hierarchical distributed naming system for computers, services, or any resource connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates easily memorized domain names to the numerical IP addresses needed for the purpose of locating computer services and devices worldwide. The Domain Name System is an essential component of the functionality of the Internet.",
+    "slug": "dns",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Domain_Name_System"
+  },
+  {
+    "description": "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.",
+    "slug": "gpg",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/GNU_Privacy_Guard"
+  },
+  {
+    "description": "I2P (Invisible Internet Project) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous web surfing, chatting, blogging and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node.",
+    "slug": "i2p",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/I2P"
+  },
+  {
+    "description": "Internet Relay Chat (IRC) is a protocol for live interactive Internet text messaging (chat) or synchronous conferencing. It is mainly designed for group communication in discussion forums, called channels, but also allows one-to-one communication via private message as well as chat and data transfer, including file sharing.",
+    "slug": "irc",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Internet_Relay_Chat"
+  },
+  {
+    "description": "Matrix is a open standard for decentralised real-time communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.  Matrix is designed to defragment all the existing communication silos, and the ecosystem provides bridges into IRC, Slack, Gitter and other systems.  Typical uses include group chat (with no single point of control), voice/video calling and conferencing, file transfer and IoT data transfer.",
+    "slug": "matrix",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
+  },
+  {
+    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
+    "slug": "omemo",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/OMEMO"
+  },
+  {
+    "description": "Off-the-Record Messaging, commonly referred to as OTR, is a cryptographic protocol that provides strong encryption for instant messaging conversations. OTR uses a combination of the AES symmetric-key algorithm, the Diffie–Hellman key exchange, and the SHA-1 hash function. In addition to authentication and encryption, OTR provides perfect forward secrecy and malleable encryption.",
+    "slug": "otr",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Off-the-Record_Messaging"
+  },
+  {
+    "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called “feed”, “web feed”, or “channel”) includes full or summarized text, and metadata, like publishing date and author's name.",
+    "slug": "rss",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/RSS"
+  },
+  {
+    "description": "S/MIME (Secure/Multipurpose Internet Mail Extensions) is a standard for public key encryption and signing of MIME data. S/MIME was originally developed by RSA Data Security Inc. S/MIME functionality is built into the majority of modern email software and interoperates between them.",
+    "slug": "s-mime",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/S/MIME"
+  },
+  {
+    "description": "The Session Initiation Protocol (SIP) is a signaling communications protocol, widely used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol (IP) networks.",
+    "slug": "sip",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Session_Initiation_Protocol"
+  },
+  {
+    "description": "Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), are cryptographic protocols which are designed to provide communication security over the Internet. They use X.509 certificates and hence asymmetric cryptography to assure the counterparty whom they are talking with, and to exchange a symmetric key. This session key is then used to encrypt data flowing between the parties. This allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication.",
+    "slug": "ssl-tls",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Transport_Layer_Security"
+  },
+  {
+    "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "slug": "tor",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tor_%28r%C3%A9seau%29"
+  },
+  {
+    "description": "Tox is a communications protocol behind the Tox instant messaging client. Alternative implementations of this protocol are around, such as Xot, but not widespread.",
+    "slug": "tox",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Tox_%28logiciel%29#Protocole"
+  },
+  {
+    "description": "Voice over Internet Protocol (VoIP) is a methodology and group of technologies for the delivery of voice communications and multimedia sessions over Internet Protocol (IP) networks, such as the Internet. Other terms commonly associated with VoIP are IP telephony, Internet telephony, voice over broadband (VoBB), broadband telephony, IP communications, and broadband phone service.",
+    "slug": "voip",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Voix_sur_IP"
+  },
+  {
     "description": "Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol (HTTP) that facilitates collaboration between users in editing and managing documents and files stored on World Wide Web servers. A working group of the Internet Engineering Task Force (IETF) defined WebDAV in RFC 4918.",
     "slug": "webdav",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/WebDAV"
   },
   {
-    "description": "Exchange ActiveSync allows a mobile device to be synchronized with either a desktop PC or a server running a compatible software product. It is not an Open Standard but widely used and supported.",
-    "slug": "activesync",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Exchange_ActiveSync"
+    "description": "Extensible Messaging and Presence Protocol (XMPP) is a communications protocol for message-oriented middleware based on XML (Extensible Markup Language). The protocol was originally named Jabber, and was developed by the Jabber open-source community in 1999 for near real-time, instant messaging (IM), presence information, and contact list maintenance. Designed to be extensible, the protocol has also been used for publish-subscribe systems, signalling for VoIP, video, file transfer, gaming, Internet of Things applications such as the smart grid, and social networking services.",
+    "slug": "xmpp",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol"
+  },
+  {
+    "description": "ZRTP (composed of Z and Real-time Transport Protocol) is a cryptographic key-agreement protocol to negotiate the keys for encryption between two end points in a Voice over Internet Protocol (VoIP) phone telephony call based on the Real-time Transport Protocol. It uses Diffie–Hellman key exchange and the Secure Real-time Transport Protocol (SRTP) for encryption. ZRTP was developed by Phil Zimmermann, with help from Bryce Wilcox-O'Hearn, Colin Plumb, Jon Callas and Alan Johnston and was submitted to the Internet Engineering Task Force (IETF) by Phil Zimmermann, Jon Callas and Alan Johnston on March 5, 2006 and published on April 11, 2011 as RFC 6189.",
+    "slug": "zrtp",
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/ZRTP"
   }
 ]
