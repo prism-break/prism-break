@@ -4,6 +4,7 @@ fs = require 'fs'
 pug = require 'pug'
 
 export write-html = (view, options, file) ->
+  options.cache = true;
   options.compileDebug = false;
   fs.writeFileSync(file + ".html", (pug.renderFile view, options))
 
