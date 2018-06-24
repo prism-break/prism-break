@@ -6,7 +6,12 @@ if [ -z "$(command -v jq)" ]; then
   exit 1
 fi
 
-for f in $(find source -name \*.json); do
+for f in $(find source/db -name \*.json); do
+  jq -S 'sort_by(.slug)' $f > $f.bak
+  mv $f.bak $f
+done
+
+for f in $(find source/locales -name \*.json); do
   jq -S . $f > $f.bak
   mv $f.bak $f
 done
