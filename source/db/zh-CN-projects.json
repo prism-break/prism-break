@@ -1,12 +1,5 @@
 [
   {
-    "description": "基于开源安卓项目，帮助用户检测和避开伪基站（IMSI 捕捉器）或其他无加密/弱加密基站。本项目旨在协助用户了解加密和其他一些保护机制是否处于启用状态。事物总是在发展，我们永远欢迎测试者以及热衷信息安全的开发者。不必拘束，你可以做任何你能做的贡献。我们的 [GitHub](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector)。我们的 [XDA](https://forum.xda-developers.com/showthread.php?t=1422969)。感谢你的参与！",
-    "notes": "该应用具有很强的试验性功能，请阅读并充分理解我们的[免责声明](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER)",
-    "url": "https://cellularprivacy.github.io/Android-IMSI-Catcher-Detector/",
-    "wikipedia_url": "",
-    "slug": "aimsicd"
-  },
-  {
     "description": "开源的分组交换机（PBX）系统，支持 VoIP/SIP 通讯。另有中文化衍生品 freeiris。",
     "url": "http://www.asterisk.org/",
     "wikipedia_url": "https://zh.wikipedia.org/wiki/Asterisk",

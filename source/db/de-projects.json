@@ -1,12 +1,5 @@
 [
   {
-    "description": "Android basiertes und quelloffenes Projekt zur Erkennung und Abwehr gefälschter Basisstationen (IMSI-Catcher) oder anderer Basisstationen (mobile Antennen) mit schlechter bzw. nicht vorhandener Verschlüsselung. Dieses Projekt hat sich zum Ziel gemacht, Nutzer zu warnen wenn die Verschlüsselung ausgeschaltet ist und ermöglicht weitere Schutzmechanismen. Einen sehr guten Artikel über unser Projekt findet Ihr auf dem [Kuketz IT-Security Blog](http://www.kuketz-blog.de/imsi-catcher-erkennung-fuer-android-aimsicd/). Da es sich in konstanter Entwicklung befindet sind wir immer auf der Suche nach Testern und Sicherheits-Enthusiasten die sich was trauen. Seid nicht schüchtern, sondern fühlt Euch eingeladen mitzuwirken wie es Euch gerade möglich ist. Wir sind auf [GitHub](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector) und [XDA](https://forum.xda-developers.com/showthread.php?t=1422969). Herzlichen Dank für Eure Mithilfe bei der Entwicklung! ;-)",
-    "notes": "Diese App ist hochgradig experimentell. Bitte lies und verstehe den kompletten [HAFTUNGSAUSSCHLUSS](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER).",
-    "url": "https://cellularprivacy.github.io/Android-IMSI-Catcher-Detector/",
-    "wikipedia_url": "",
-    "slug": "aimsicd"
-  },
-  {
     "description": "PBX-Implementation mit VoIP/SIP-Unterstützung.",
     "url": "http://www.asterisk.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",

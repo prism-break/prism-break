@@ -1,12 +1,5 @@
 [
   {
-    "description": "Androidille tarkoitettu avoimen lähdekoodin projekti joka pyrkii havaitsemaan ja välttämään valetukiasemia (IMSI-Catcher) tai muita tukiasemia (mobiiliantenneja) jotka tarjoavat ainoastaan heikkoa salausta tai ei lainkaan salausta. Tämä projekti pyrkii varoittamaan käyttäjiä jos salaus sammutetaan, ja se tarjoaa myös lukuisia muita suojausmekanismeja. Koska ohjelmistoa kehitetään aktiivisesti, etsimme jatkuvasti testaajia ja tietoturvaintoilijoita joilla on 'munaa'. Älä ujostele, osallistu vapaasti, miten pystytkin. Löydät meidät [GitHubista](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector) ja  [XDA:sta](https://forum.xda-developers.com/showthread.php?t=1422969). Kiitos osallistumisestasi kehittämiseen! ;-)",
-    "notes": "Tämä ohjelmisto on erittäin kokeellinen. Ole hyvä, ja lue ja ymmärrä täydellisesti [VAROITUKSET](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/blob/master/DISCLAIMER).",
-    "url": "https://cellularprivacy.github.io/Android-IMSI-Catcher-Detector/",
-    "wikipedia_url": "",
-    "slug": "aimsicd"
-  },
-  {
     "description": "PBX implementaatio VoIP/SIP tuella.",
     "url": "http://www.asterisk.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29",
