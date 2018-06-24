@@ -5133,5 +5133,31 @@
     "tos_url": "",
     "url": "https://joinmastodon.org",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mastodon_(software)"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Web Search"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Web Search"
+        ]
+      }
+    ],
+    "description": "Privacy-respecting self-hostable metasearch engine.",
+    "license_url": "https://github.com/asciimoo/searx/blob/master/LICENSE",
+    "logo": "searx.svg",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "slug": "searx",
+    "source_url": "https://github.com/asciimoo/searx",
+    "url": "https://github.com/asciimoo/searx",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Searx"
   }
 ]
