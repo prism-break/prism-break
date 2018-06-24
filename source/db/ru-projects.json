@@ -1,5 +1,16 @@
 [
   {
+    "description": "Дружественная к виртуальным машинам операционная система, основанная на Tor и Debian, сфокусированная на анонимности, конфиденциальности и безопасности.",
+    "notes": "Whonix создан для использования в пакетах виртуализации, подобных [VirtualBox](https://www.virtualbox.org/). VirtualBox может быть установлен в Windows, Linux, macOS и Solaris. Это значит, что даже если вам приходится использовать Windows и macOS из-за любой причины, то все равно вы можете установить VirtualBox и использовать Whonix для усиления защиты конфиденциальности и безопасности.",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Whonix"
+  },
+  {
+    "description": " Android application compatible with ZX2C4's Pass command line application.",
+    "slug": "android-password-store",
+    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
+    "wikipedia_url": ""
+  },
+  {
     "description": "Реализация АТС с поддержкой VoIP/SIP.",
     "slug": "asterisk",
     "url": "http://www.asterisk.org/",
@@ -66,6 +77,13 @@
     "slug": "cryptocat",
     "url": "https://crypto.cat/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
+  },
+  {
+    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
+    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
+    "slug": "cryptpad",
+    "url": "https://cryptpad.fr",
+    "wikipedia_url": ""
   },
   {
     "description": "Удобные и простые в использовании утилиты, работающие поверх dm-crypt.",
@@ -274,6 +292,12 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere"
   },
   {
+    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "slug": "hubzilla",
+    "url": "http://hubzilla.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "Проект невидимый интернет.",
     "slug": "i2p",
     "url": "https://geti2p.net/ru/",
@@ -371,6 +395,12 @@
     "slug": "marble",
     "url": "http://marble.kde.org/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Marble"
+  },
+  {
+    "description": "Программное обеспечение для веб-аналитики с открытым исходным кодом, которое можно установить на собственный сервер.",
+    "slug": "matomo",
+    "url": "https://matomo.org/",
+    "wikipedia_url": "https://ru.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "Децентрализованная платформа для публикации.",
@@ -525,6 +555,12 @@
     "wikipedia_url": ""
   },
   {
+    "description": "Simple password manager using gpg and ordinary unix directories.",
+    "slug": "password-store",
+    "url": "https://www.passwordstore.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "Password Safe (Windows/Linux), designed by Bruce Schneier. Stores passwords, site URLs, email addresses, notes and much more into encrypted container file, so you only need to remember one master password. Can generate random passwords (with optional site-specific policies).",
     "slug": "passwordsafe",
     "url": "http://pwsafe.org/",
@@ -536,12 +572,6 @@
     "slug": "piwigo",
     "url": "http://ru.piwigo.org/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Piwigo"
-  },
-  {
-    "description": "Программное обеспечение для веб-аналитики с открытым исходным кодом, которое можно установить на собственный сервер.",
-    "slug": "matomo",
-    "url": "https://matomo.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
@@ -579,12 +609,6 @@
     "slug": "qubes",
     "url": "https://www.qubes-os.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS"
-  },
-  {
-    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
-    "slug": "hubzilla",
-    "url": "http://hubzilla.org/",
-    "wikipedia_url": ""
   },
   {
     "description": "Полностью свободный дистрибутив Android, основанный на LineageOS.",
@@ -759,9 +783,10 @@
     "wikipedia_url": "https://ru.wikipedia.org/wiki/WeeChat"
   },
   {
-    "description": "Дружественная к виртуальным машинам операционная система, основанная на Tor и Debian, сфокусированная на анонимности, конфиденциальности и безопасности.",
-    "notes": "Whonix создан для использования в пакетах виртуализации, подобных [VirtualBox](https://www.virtualbox.org/). VirtualBox может быть установлен в Windows, Linux, macOS и Solaris. Это значит, что даже если вам приходится использовать Windows и macOS из-за любой причины, то все равно вы можете установить VirtualBox и использовать Whonix для усиления защиты конфиденциальности и безопасности.",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Whonix"
+    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
+    "slug": "wikisuite",
+    "url": "http://wikisuite.org/",
+    "wikipedia_url": ""
   },
   {
     "description": "Программное обеспечение для ведения блога.",
@@ -775,31 +800,6 @@
     "notes": "Zenphoto не шифрует ваши данные по умолчанию.",
     "slug": "zenphoto",
     "url": "http://www.zenphoto.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "slug": "password-store",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
-    "slug": "wikisuite",
-    "url": "http://wikisuite.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
-    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
-    "slug": "cryptpad",
-    "url": "https://cryptpad.fr",
-    "wikipedia_url": ""
-  },
-  {
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "slug": "android-password-store",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
     "wikipedia_url": ""
   }
 ]

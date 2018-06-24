@@ -1,5 +1,11 @@
 [
   {
+    "description": " Android application compatible with ZX2C4's Pass command line application.",
+    "slug": "android-password-store",
+    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
+    "wikipedia_url": ""
+  },
+  {
     "description": "PBX implementation with VoIP/SIP support.",
     "slug": "asterisk",
     "url": "http://www.asterisk.org/",
@@ -66,6 +72,13 @@
     "slug": "cryptocat",
     "url": "https://crypto.cat/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
+  },
+  {
+    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
+    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
+    "slug": "cryptpad",
+    "url": "https://cryptpad.fr",
+    "wikipedia_url": ""
   },
   {
     "description": "A convenience and ease-of-use layer for use on top of dm-crypt.",
@@ -274,6 +287,12 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere"
   },
   {
+    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "slug": "hubzilla",
+    "url": "http://hubzilla.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "अदृश्य इंटरनेट प्रकल्प.",
     "slug": "i2p",
     "url": "https://geti2p.net/",
@@ -371,6 +390,12 @@
     "slug": "marble",
     "url": "http://marble.kde.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29"
+  },
+  {
+    "description": "आेपन सोर्स, स्व-होस्ट वेब विश्लेषिकी.",
+    "slug": "matomo",
+    "url": "https://matomo.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "विकेन्द्रीत मीडिया प्रकाशन मंच.",
@@ -521,6 +546,12 @@
     "wikipedia_url": ""
   },
   {
+    "description": "Simple password manager using gpg and ordinary unix directories.",
+    "slug": "password-store",
+    "url": "https://www.passwordstore.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "Password Safe (Windows/Linux), designed by Bruce Schneier. Stores passwords, site URLs, email addresses, notes and much more into encrypted container file, so you only need to remember one master password. Can generate random passwords (with optional site-specific policies).",
     "slug": "passwordsafe",
     "url": "http://pwsafe.org/",
@@ -532,12 +563,6 @@
     "slug": "piwigo",
     "url": "http://piwigo.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo"
-  },
-  {
-    "description": "आेपन सोर्स, स्व-होस्ट वेब विश्लेषिकी.",
-    "slug": "matomo",
-    "url": "https://matomo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
@@ -568,12 +593,6 @@
     "description": "Instantly turn any server into a file sharing platform.",
     "slug": "pydio",
     "url": "http://pyd.io/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
-    "slug": "hubzilla",
-    "url": "http://hubzilla.org/",
     "wikipedia_url": ""
   },
   {
@@ -748,6 +767,12 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat"
   },
   {
+    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
+    "slug": "wikisuite",
+    "url": "http://wikisuite.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "स्व-होस्ट वेबसाईट प्रकाशन मंच.",
     "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under “Settings > Discussion > Avatars”.\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>“Disable Google Fonts”</a> to remove this vulnerability.",
     "slug": "wordpress",
@@ -759,31 +784,6 @@
     "notes": "Zenphoto does not encrypt any of your data by default.",
     "slug": "zenphoto",
     "url": "http://www.zenphoto.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "slug": "password-store",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
-    "slug": "wikisuite",
-    "url": "http://wikisuite.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
-    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
-    "slug": "cryptpad",
-    "url": "https://cryptpad.fr",
-    "wikipedia_url": ""
-  },
-  {
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "slug": "android-password-store",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
     "wikipedia_url": ""
   }
 ]

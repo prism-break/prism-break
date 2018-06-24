@@ -1,5 +1,15 @@
 [
   {
+    "description": "VM-ystävällinen Debian-pohjainen GNU/Linux-jakelu. Järjestelmä pyrkii olemaan turvallinen ja yksityinen mm. Tor-reititystä tukemalla.",
+    "notes": "Whonix on suunniteltu toimimaan virtuaalikoneena, ohjelmassa kuten [VirtualBox](https://www.virtualbox.org/). VirtualBox on mahdollista asentaa Windows, Linux, macOS, and Solaris käyttöjärjestelmiin. Tämä tarkoittaa, että jos joudut jostain syystä käyttämään Windowsia tai macOS:ää, voit asentaa VirtualBoxin ja käyttää sitä vahvistaaksesi yksityisyyttäsi ja turvallisuuttasi. Huomaa, että järjestelmän tietoturva ja yksityisyys voivat riippua hypervisorin isäntäkäyttöjärjestelmästä."
+  },
+  {
+    "description": " Android application compatible with ZX2C4's Pass command line application.",
+    "slug": "android-password-store",
+    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
+    "wikipedia_url": ""
+  },
+  {
     "description": "PBX implementaatio VoIP/SIP tuella.",
     "slug": "asterisk",
     "url": "http://www.asterisk.org/",
@@ -66,6 +76,13 @@
     "slug": "cryptocat",
     "url": "https://crypto.cat/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
+  },
+  {
+    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
+    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
+    "slug": "cryptpad",
+    "url": "https://cryptpad.fr",
+    "wikipedia_url": ""
   },
   {
     "description": "LUKS on mukavuutta ja helppokäyttöisyyttä tarjoava kerros dm-crypt salaukselle.",
@@ -274,6 +291,12 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere"
   },
   {
+    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "slug": "hubzilla",
+    "url": "http://hubzilla.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "I2P on anonyymi verkko, joka antaa ohjelmien kommunikoida keskenään salatusti ja anonyymisti. Kaikki viestintä on päästä päähän salattu. I2P:ssä asiakasohjelmat muodostavat tunneleita I2P reitittimen läpi, joiden kautta viestit välittyvät lopulta perille. Verkkoon osallistuvat voivat lisätä tunnelin pituutta vahvistaakseen anonymiteettiä latenssin ja kaistanleveyden kustannuksella.",
     "slug": "i2p",
     "url": "https://geti2p.net/",
@@ -371,6 +394,12 @@
     "slug": "marble",
     "url": "http://marble.kde.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29"
+  },
+  {
+    "description": "Avoimen lähdekoodin omalta tietokoneelta suoritettavat verkkotilastot.",
+    "slug": "matomo",
+    "url": "https://matomo.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "Hajautettu medianjakopalvelin.",
@@ -523,6 +552,12 @@
     "wikipedia_url": ""
   },
   {
+    "description": "Simple password manager using gpg and ordinary unix directories.",
+    "slug": "password-store",
+    "url": "https://www.passwordstore.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "Bruce Schneierin suunnittelema Password Safe (Windows/Linux) tallentaa salasanat, verkkosivujen URLit, sähköpostiosoitteet, muistiinpanot ja paljon muuta salattuun tiedostoon, eli sinun tarvitsee muistaa ainoastaan yksi salasana. Voit luoda satunnaisia korkean entropian salasanoja ja mukauttaa ohjelmaa sopimaan eri sivujen asettamiin salasanakäytänteisiin.",
     "slug": "passwordsafe",
     "url": "http://pwsafe.org/",
@@ -534,12 +569,6 @@
     "slug": "piwigo",
     "url": "http://piwigo.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo"
-  },
-  {
-    "description": "Avoimen lähdekoodin omalta tietokoneelta suoritettavat verkkotilastot.",
-    "slug": "matomo",
-    "url": "https://matomo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
@@ -577,12 +606,6 @@
     "slug": "qubes",
     "url": "https://www.qubes-os.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS"
-  },
-  {
-    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
-    "slug": "hubzilla",
-    "url": "http://hubzilla.org/",
-    "wikipedia_url": ""
   },
   {
     "description": "Täysin vapaa Android-jakelu.",
@@ -757,8 +780,10 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat"
   },
   {
-    "description": "VM-ystävällinen Debian-pohjainen GNU/Linux-jakelu. Järjestelmä pyrkii olemaan turvallinen ja yksityinen mm. Tor-reititystä tukemalla.",
-    "notes": "Whonix on suunniteltu toimimaan virtuaalikoneena, ohjelmassa kuten [VirtualBox](https://www.virtualbox.org/). VirtualBox on mahdollista asentaa Windows, Linux, macOS, and Solaris käyttöjärjestelmiin. Tämä tarkoittaa, että jos joudut jostain syystä käyttämään Windowsia tai macOS:ää, voit asentaa VirtualBoxin ja käyttää sitä vahvistaaksesi yksityisyyttäsi ja turvallisuuttasi. Huomaa, että järjestelmän tietoturva ja yksityisyys voivat riippua hypervisorin isäntäkäyttöjärjestelmästä."
+    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
+    "slug": "wikisuite",
+    "url": "http://wikisuite.org/",
+    "wikipedia_url": ""
   },
   {
     "description": "Ilmainen verkkosivun ja blogin julkaisujärjestelmä.",
@@ -772,31 +797,6 @@
     "notes": "Zenphoto ei salaa liikennettä tai tietojasi oletuksena.",
     "slug": "zenphoto",
     "url": "http://www.zenphoto.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "slug": "password-store",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
-    "slug": "wikisuite",
-    "url": "http://wikisuite.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
-    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
-    "slug": "cryptpad",
-    "url": "https://cryptpad.fr",
-    "wikipedia_url": ""
-  },
-  {
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "slug": "android-password-store",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
     "wikipedia_url": ""
   }
 ]

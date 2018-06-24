@@ -1,5 +1,15 @@
 [
   {
+    "description": "虚拟机友好的操作系统，基于 Debian 和 Tor，致力于匿名、隐私和安全。",
+    "notes": "Whonix 被设计用来运行在虚拟化环境下，例如 [VirtualBox](https://www.virtualbox.org/)。VirtualBox 可以安装在 Windows, Linux, macOS 和 Solaris 等操作系统上。这意味着如果你不得不使用 Windows 或 macOS，你可以用 VirtualBox 和 Whonix 来增强你的隐私和安全。"
+  },
+  {
+    "description": " Android application compatible with ZX2C4's Pass command line application.",
+    "slug": "android-password-store",
+    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
+    "wikipedia_url": ""
+  },
+  {
     "description": "开源的分组交换机（PBX）系统，支持 VoIP/SIP 通讯。另有中文化衍生品 freeiris。",
     "slug": "asterisk",
     "url": "http://www.asterisk.org/",
@@ -66,6 +76,13 @@
     "slug": "cryptocat",
     "url": "https://crypto.cat/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
+  },
+  {
+    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
+    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
+    "slug": "cryptpad",
+    "url": "https://cryptpad.fr",
+    "wikipedia_url": ""
   },
   {
     "description": "LUKS 是 dm-crypt 加密程序的一个简单易用的用户接口层。",
@@ -138,13 +155,6 @@
     "slug": "ethercalc",
     "url": "http://ethercalc.net/",
     "wikipedia_url": ""
-  },
-  {
-    "description": "Riot is a secure collaboration app for group chat, file transfer and voice/video conferencing built on the decentralized Matrix ecosystem, providing bridges and integrations to centralized services such as IRC, Slack, Gitter, etc",
-    "notes": "End-to-end encryption is in beta on Web as of Nov 5th 2016, with other platforms following week of Nov 14th",
-    "slug": "riot",
-    "url": "https://riot.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
   },
   {
     "description": "支持 GPG 加密的 GNOME 桌面程序，包括 Email、通讯录、日历等。",
@@ -281,6 +291,12 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere"
   },
   {
+    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "slug": "hubzilla",
+    "url": "http://hubzilla.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "隐形因特网计划。",
     "slug": "i2p",
     "url": "https://geti2p.net/",
@@ -378,6 +394,12 @@
     "slug": "marble",
     "url": "http://marble.kde.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29"
+  },
+  {
+    "description": "开放源代码、自行架设的 Web 分析服务。",
+    "slug": "matomo",
+    "url": "https://matomo.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "去中心化的媒体发布平台。",
@@ -530,6 +552,12 @@
     "wikipedia_url": ""
   },
   {
+    "description": "Simple password manager using gpg and ordinary unix directories.",
+    "slug": "password-store",
+    "url": "https://www.passwordstore.org/",
+    "wikipedia_url": ""
+  },
+  {
     "description": "Windows/Linux 下的密码管理器，由 Bruce Schneier 设计。使用加密的容器文件来储存密码，网址，电子邮箱地址，笔记等信息。你只需要记住主密码即可。提供自定义的随机密码生成功能。",
     "slug": "passwordsafe",
     "url": "http://pwsafe.org/",
@@ -541,12 +569,6 @@
     "slug": "piwigo",
     "url": "http://piwigo.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo"
-  },
-  {
-    "description": "开放源代码、自行架设的 Web 分析服务。",
-    "slug": "matomo",
-    "url": "https://matomo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
   },
   {
     "description": "这是一个跟踪屏蔽器，它会试着了解是谁在监视你，并屏蔽这些广告和跟踪器。",
@@ -586,12 +608,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS"
   },
   {
-    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
-    "slug": "hubzilla",
-    "url": "http://hubzilla.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "基于 LineageOS 的，完全免费的 Android 版本",
     "slug": "replicant",
     "url": "http://replicant.us/",
@@ -609,6 +625,13 @@
     "slug": "ring",
     "url": "https://ring.cx/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ring_(software)"
+  },
+  {
+    "description": "Riot is a secure collaboration app for group chat, file transfer and voice/video conferencing built on the decentralized Matrix ecosystem, providing bridges and integrations to centralized services such as IRC, Slack, Gitter, etc",
+    "notes": "End-to-end encryption is in beta on Web as of Nov 5th 2016, with other platforms following week of Nov 14th",
+    "slug": "riot",
+    "url": "https://riot.im/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
   },
   {
     "description": "安全私密的电子邮件账户，为那些社会活动人士设计。",
@@ -757,8 +780,10 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat"
   },
   {
-    "description": "虚拟机友好的操作系统，基于 Debian 和 Tor，致力于匿名、隐私和安全。",
-    "notes": "Whonix 被设计用来运行在虚拟化环境下，例如 [VirtualBox](https://www.virtualbox.org/)。VirtualBox 可以安装在 Windows, Linux, macOS 和 Solaris 等操作系统上。这意味着如果你不得不使用 Windows 或 macOS，你可以用 VirtualBox 和 Whonix 来增强你的隐私和安全。"
+    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
+    "slug": "wikisuite",
+    "url": "http://wikisuite.org/",
+    "wikipedia_url": ""
   },
   {
     "description": "自行架设的网站发布平台。",
@@ -772,31 +797,6 @@
     "notes": "Zenphoto 不会默认加密你的数据。",
     "slug": "zenphoto",
     "url": "http://www.zenphoto.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "slug": "password-store",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
-    "slug": "wikisuite",
-    "url": "http://wikisuite.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
-    "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
-    "slug": "cryptpad",
-    "url": "https://cryptpad.fr",
-    "wikipedia_url": ""
-  },
-  {
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "slug": "android-password-store",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
     "wikipedia_url": ""
   }
 ]
