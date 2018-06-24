@@ -1,14 +1,14 @@
+extends ../layouts/application
 include ../layouts/mixins
 include ../projects/mixins
 include ../subcategories/mixins
-extends ../layouts/application
 block title
   = t[data.subcategory.name] + ' - '
   = data.category.name
 block content
 
   .content-main
-    mixin subcategory-head(data)
+    +subcategory-head(data)
 
     .area
       .sections
@@ -19,10 +19,10 @@ block content
               = t['Free Recommendations']
               i.fa.fa-check
 
-            - each project in data.projects
-              mixin project-card(project)
+            each project in data.projects
+              +project-card(project)
 
-            mixin filler-cards(data.projects)
+            +filler-cards(data.projects)
 
           - var notes = t[data.subcategory.slug + '-notes']
           - if (notes !== "--" && notes !== undefined)
@@ -36,13 +36,13 @@ block content
               = t.Proprietary
               i.fa.fa-times
 
-            - each project in data.projectsRejected
+            each project in data.projectsRejected
               .bar.negative
                 .label
                   img.logo(src=routes.logosRejected + project.logo, alt=project.logo)
                   = project.name
 
-            mixin filler-bars(data.projectsRejected)
+            +filler-bars(data.projectsRejected)
         else
           .section.prop.empty
             .pipe= t.Proprietary
@@ -53,7 +53,7 @@ block content
       a.pipe(href=routes.categories + data.category.slug)
         = data.category.name + ' '
 
-      - each subcat in data.category.subcategories
+      each subcat in data.category.subcategories
 
           if subcat.name === data.subcategory.name
             .pipe.subtle.active= t[subcat.name]

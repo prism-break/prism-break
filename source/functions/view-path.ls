@@ -1,2 +1,2 @@
 export view-path = (view-name) ->
-  'source/views/' + view-name + '.jade'
+  'source/views/' + view-name + '.pug'

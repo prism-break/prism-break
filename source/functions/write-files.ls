@@ -1,12 +1,12 @@
 'use strict'
 
 fs = require 'fs'
-require! jade
+pug = require 'pug'
 
 export write-html = (view, options, file) ->
-  file = file + '.html'
-  jade.render-file view, options, (err, html) ->
-    fs.write-file-sync file, html
+  options.cache = true;
+  options.compileDebug = false;
+  fs.writeFileSync(file + ".html", (pug.renderFile view, options))
 
 export write-json = (db, path) ->
   file = path + '.json'
