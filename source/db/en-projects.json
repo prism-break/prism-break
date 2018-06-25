@@ -5116,6 +5116,49 @@
       {
         "name": "Servers",
         "subcategories": [
+          "VPN Servers"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "VPN Clients"
+        ]
+      }
+    ],
+    "description": "Fast, modern, secure VPN tunnel.",
+    "development_stage": "experimental",
+    "license_url": "https://git.zx2c4.com/WireGuard/tree/COPYING",
+    "logo": "wireguard.svg",
+    "name": "WireGuard",
+    "protocols": [],
+    "slug": "wireguard",
+    "source_url": "https://git.zx2c4.com/WireGuard/",
+    "url": "https://www.wireguard.com"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
           "Media Publishing"
         ]
       }
