@@ -1,5 +1,3 @@
-'use strict'
-
 assign = require 'lodash.assign'
 isequal = require 'lodash.isequal'
 

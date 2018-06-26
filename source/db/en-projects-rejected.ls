@@ -1,4 +1,4 @@
-projects-rejected =
+exports.projects-rejected =
   * status: 'rejected'
     tags: ["Proprietary"]
     logo: "imgur.svg"
@@ -1106,5 +1106,3 @@ projects-rejected =
       * name: "Windows"
         subcategories: ["VPN Clients"]
     ]
-
-exports.projects-rejected = projects-rejected
