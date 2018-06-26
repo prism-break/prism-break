@@ -1098,4 +1098,13 @@ projects-rejected =
         subcategories: ["DNS"]
     ]
 
+  * status: 'rejected'
+    tags: ["Proprietary"]
+    logo: "tunsafe.svg"
+    name: "TunSafe"
+    categories: [
+      * name: "Windows"
+        subcategories: ["VPN Clients"]
+    ]
+
 exports.projects-rejected = projects-rejected
