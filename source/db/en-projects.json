@@ -2,6 +2,31 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Productivity"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Productivity"
+        ]
+      }
+    ],
+    "description": "Web application that helps groups of people to make decisions together.",
+    "license_url": "https://github.com/loomio/loomio/blob/master/LICENSE.txt",
+    "logo": "loomio.svg",
+    "name": "Loomio",
+    "protocols": [],
+    "slug": "loomio",
+    "source_url": "https://github.com/loomio/loomio",
+    "url": "https://www.loomio.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Loomio"
+  },
+  {
+    "categories": [
+      {
         "name": "Android",
         "subcategories": [
           "Authentication"
