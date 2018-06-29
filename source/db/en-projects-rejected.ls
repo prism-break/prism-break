@@ -136,6 +136,8 @@ exports.projects-rejected =
     categories: [
       * name: "Android"
         subcategories: ['Authentication']
+      * name: "iOS"
+        subcategories: ['Authentication']
     ]
 
   * status: 'rejected'
@@ -269,6 +271,8 @@ exports.projects-rejected =
     name: 'Google Authenticator'
     categories: [
       * name: "Android"
+        subcategories: ['Authentication']
+      * name: "iOS"
         subcategories: ['Authentication']
     ]
 
