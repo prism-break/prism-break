@@ -1,42 +1,28 @@
 exports.projects-rejected =
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "imgur.svg"
+  * logo: "imgur.svg"
     name: "Imgur"
     categories: [
       * name: "Web Services"
         subcategories: ["Media Publishing"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-facetime.svg"
+  * logo: "apple-facetime.svg"
     name: "Apple FaceTime"
     categories: [
-      * name: "Web Services"
-        subcategories: ["Video & Voice"]
       * name: "iOS"
         subcategories: ["Video & Voice"]
       * "name": "macOS"
         subcategories: ["Video & Voice"]
-      * name: "Servers"
-        subcategories: ["Video & Voice"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-filevault.png"
+  * logo: "apple-filevault.png"
     name: "FileVault"
     categories: [
       * "name": "macOS"
         subcategories: ["Disk Encryption"]
-      * name: "Servers"
-        subcategories: ["Disk Encryption"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-icloud.svg"
+  * logo: "apple-icloud.svg"
     name: "iCloud"
     categories: [
       * name: "iOS"
@@ -47,79 +33,55 @@ exports.projects-rejected =
         subcategories: ["File Storage & Sync"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-ios.svg"
+  * logo: "apple-ios.svg"
     name: "iOS"
     categories: [
       * name: "iOS"
         subcategories: ["Operating Systems (Mobile)"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-icloud.svg"
+  * logo: "apple-icloud.svg"
     name: "iWork"
     categories: [
-      * name: "Web Services"
-        subcategories: ["Productivity"]
-      * name: "Servers"
+      * name: "macOS"
         subcategories: ["Productivity"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-mail.png"
+  * logo: "apple-mail.png"
     name: "Apple Mail"
     categories: [
       * name: "iOS"
         subcategories: ["Email Clients"]
       * "name": "macOS"
         subcategories: ["Email Clients"]
-      * name: "Servers"
-        subcategories: ["Email Servers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-maps.svg"
+  * logo: "apple-maps.svg"
     name: "Apple Maps"
     categories: [
-      * name: "Web Services"
-        subcategories: ["World Maps"]
       * name: "iOS"
         subcategories: ["World Maps"]
       * "name": "macOS"
         subcategories: ["World Maps"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-imessage.svg"
+  * logo: "apple-imessage.svg"
     name: "iMessage"
     categories: [
-      * name: "Web Services"
-        subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
       * "name": "macOS"
         subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "apple-macos.svg"
+  * logo: "apple-macos.svg"
     name: "macOS"
     categories: [
       * "name": "macOS"
         subcategories: ["Operating Systems"]
     ]
 
-  * status: 'rejected'
-    tags: ['PRISM', 'USA', 'Proprietary']
-    logo: "apple-safari.svg"
+  * logo: "apple-safari.svg"
     name: "Safari"
     protocols: ["SSL/TLS"]
     categories: [
@@ -129,9 +91,7 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "authy.svg"
+  * logo: "authy.svg"
     name: 'Authy'
     categories: [
       * name: "Android"
@@ -140,9 +100,7 @@ exports.projects-rejected =
         subcategories: ['Authentication']
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "blackberry.svg"
+  * logo: "blackberry.svg"
     name: "BlackBerry 10"
     categories: [
       * name: "Android"
@@ -151,39 +109,21 @@ exports.projects-rejected =
         subcategories: ["Operating Systems (Mobile)"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "discord.svg"
+  * logo: "discord.svg"
     name: "Discord"
     categories: [
-      * name: "Android"
-        subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "iOS"
-        subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "GNU/Linux"
-        subcategories: ["Instant Messaging", "Video & Voice"]
-      * "name": "macOS"
-        subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Web Services"
-        subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "doodle.svg"
+  * logo: "doodle.svg"
     name: "Doodle"
     categories: [
       * name: "Web Services"
         subcategories: ["Productivity"]
-      * name: "Servers"
-        subcategories: ["Productivity"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "dropbox.svg"
+  * logo: "dropbox.svg"
     name: "Dropbox"
     categories: [
       * name: "Web Services"
@@ -198,13 +138,9 @@ exports.projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
-      * name: "Servers"
-        subcategories: ["File Storage & Sync"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "evernote.svg"
+  * logo: "evernote.svg"
     name: "Evernote"
     categories: [
       * name: "Web Services"
@@ -217,24 +153,16 @@ exports.projects-rejected =
         subcategories: ["Productivity"]
       * name: "Windows"
         subcategories: ["Productivity"]
-      * name: "Servers"
-        subcategories: ["Productivity"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "facebook-instagram.svg"
+  * logo: "facebook-instagram.svg"
     name: "Instagram"
     categories: [
       * name: "Web Services"
         subcategories: ["Media Publishing"]
-      * name: "Servers"
-        subcategories: ["Media Publishing"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "instapaper.png"
+  * logo: "instapaper.png"
     name: "Instapaper"
     categories: [
       * name: "Web Services"
@@ -245,29 +173,21 @@ exports.projects-rejected =
         subcategories: ["Bookmark Sync"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "facebook.svg"
+  * logo: "facebook.svg"
     name: "Facebook"
     categories: [
       * name: "Web Services"
         subcategories: ["Social Networks", "Video & Voice"]
-      * name: "Servers"
-        subcategories: ["Social Networks", "Video & Voice"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-analytics.svg"
+  * logo: "google-analytics.svg"
     name: "Google Analytics"
     categories: [
-      * name: "Servers"
+      * name: "Web Services"
         subcategories: ["Web Analytics"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-authenticator.png"
+  * logo: "google-authenticator.png"
     name: 'Google Authenticator'
     categories: [
       * name: "Android"
@@ -276,9 +196,7 @@ exports.projects-rejected =
         subcategories: ['Authentication']
     ]
 
-  * status: 'rejected'
-    tags: ['PRISM', 'USA', 'Proprietary']
-    logo: "google-chrome.svg"
+  * logo: "google-chrome.svg"
     name: "Google Chrome"
     protocols: ["SSL/TLS"]
     categories: [
@@ -286,6 +204,8 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "iOS"
         subcategories: ["Web Browsers"]
+      * name: "BSD"
+        subcategories: ["Web Browsers"]
       * name: "GNU/Linux"
         subcategories: ["Web Browsers"]
       * "name": "macOS"
@@ -294,32 +214,18 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-docs.svg"
+  * logo: "google-docs.svg"
     name: "Google Docs"
     categories: [
       * name: "Web Services"
         subcategories: ["Productivity"]
       * name: "Android"
         subcategories: ["Productivity"]
-      * name: "BSD"
-        subcategories: ["Productivity"]
-      * name: "GNU/Linux"
-        subcategories: ["Productivity"]
       * name: "iOS"
-        subcategories: ["Productivity"]
-      * "name": "macOS"
-        subcategories: ["Productivity"]
-      * name: "Windows"
-        subcategories: ["Productivity"]
-      * name: "Servers"
         subcategories: ["Productivity"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-drive.svg"
+  * logo: "google-drive.svg"
     name: "Google Drive"
     categories: [
       * name: "Web Services"
@@ -332,13 +238,9 @@ exports.projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
-      * name: "Servers"
-        subcategories: ["File Storage & Sync"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-earth.svg"
+  * logo: "google-earth.svg"
     name: "Google Earth"
     categories: [
       * name: "Web Services"
@@ -353,177 +255,127 @@ exports.projects-rejected =
         subcategories: ["World Maps"]
       * name: "Windows"
         subcategories: ["World Maps"]
-      * name: "Servers"
-        subcategories: ["World Maps"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-mail.svg"
+  * logo: "google-mail.svg"
     name: "Gmail"
     categories: [
       * name: "Web Services"
         subcategories: ["Email Accounts"]
-      * name: "Servers"
-        subcategories: ["Email Accounts"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "amazon-appstore.svg"
+  * logo: "amazon-appstore.svg"
     name: "Amazon Appstore"
     categories: [
       * name: "Android"
         subcategories: ["App Store"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-play.svg"
+  * logo: "google-play.svg"
     name: "Google Play"
     categories: [
       * name: "Android"
         subcategories: ["App Store"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-plus.svg"
+  * logo: "google-plus.svg"
     name: "Google+"
     categories: [
       * name: "Web Services"
         subcategories: ["Social Networks"]
-      * name: "Servers"
-        subcategories: ["Social Networks"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google.svg"
+  * logo: "google.svg"
     name: "Google Public DNS"
     categories: [
       * name: "Web Services"
         subcategories: ["DNS"]
-      * name: "Android"
-        subcategories: ["DNS"]
-      * name: "iOS"
-        subcategories: ["DNS"]
-      * name: "macOS"
-        subcategories: ["DNS"]
-      * name: "Windows"
-        subcategories: ["DNS"]
-      * name: "Servers"
-        subcategories: ["DNS"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-youtube.svg"
+  * logo: "google-youtube.svg"
     name: "YouTube"
     categories: [
       * name: "Web Services"
         subcategories: ["Media Publishing"]
-      * name: "Servers"
-        subcategories: ["Media Publishing"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google-hangouts.svg"
+  * logo: "google-hangouts.svg"
     name: "Google Hangouts"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "google.svg"
+  * logo: "google.svg"
     name: "Google Search"
     categories: [
       * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "groupwise.svg"
+  * logo: "groupwise.svg"
     name: "Micro Focus Groupwise"
     categories: [
+      * name: "GNU/Linux"
+        subcategories: ["Email Servers", "Productivity"]
+      * name: "macOS"
+        subcategories: ["Email Servers", "Productivity"]
+      * name: "Windows"
+        subcategories: ["Email Servers", "Productivity"]
       * name: "Servers"
         subcategories: ["Email Servers", "Productivity"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "linkedin.svg"
+  * logo: "linkedin.svg"
     name: "LinkedIn"
     categories: [
       * name: "Web Services"
         subcategories: ["Social Networks"]
-      * name: "Servers"
-        subcategories: ["Social Networks"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "lotus-notes.svg"
+  * logo: "lotus-notes.svg"
     name: "IBM Notes"
     categories: [
       * name: "Servers"
         subcategories: ["Email Servers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "yahoo.svg"
+  * logo: "yahoo.svg"
     name: "Yahoo Search"
     categories: [
       * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-bing.svg"
+  * logo: "ms-bing.svg"
     name: "Microsoft Bing"
     categories: [
       * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-bing.svg"
+  * logo: "ms-bing.svg"
     name: "Bing Maps"
     categories: [
       * name: "Web Services"
         subcategories: ["World Maps"]
-      * name: "Servers"
-        subcategories: ["World Maps"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-bitlocker.png"
+  * logo: "ms-bitlocker.png"
     name: "BitLocker"
     categories: [
       * name: "Windows"
         subcategories: ["Disk Encryption"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-exchange.svg"
+  * logo: "ms-exchange.svg"
     name: "Microsoft Exchange"
     categories: [
       * name: "Servers"
         subcategories: ["Email Servers"]
     ]
 
-  * status: 'rejected'
-    tags: ['PRISM', 'USA', 'Proprietary']
-    logo: "ms-ie.svg"
+  * logo: "ms-ie.svg"
     name: "Microsoft Edge"
     protocols: ["SSL/TLS"]
     categories: [
@@ -531,9 +383,7 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-outlook.svg"
+  * logo: "ms-outlook.svg"
     name: "Microsoft Outlook"
     categories: [
       * "name": "macOS"
@@ -542,18 +392,14 @@ exports.projects-rejected =
         subcategories: ["Email Clients", "Productivity"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-outlook.svg"
+  * logo: "ms-outlook.svg"
     name: "Outlook.com"
     categories: [
       * name: "Web Services"
         subcategories: ["Email Accounts"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-skydrive.svg"
+  * logo: "ms-skydrive.svg"
     name: "Microsoft OneDrive"
     categories: [
       * name: "Web Services"
@@ -566,13 +412,9 @@ exports.projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
-      * name: "Servers"
-        subcategories: ["File Storage & Sync"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-skype.svg"
+  * logo: "ms-skype.svg"
     name: "Skype"
     categories: [
       * name: "Web Services"
@@ -587,24 +429,16 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * name: "Servers"
-        subcategories: ["Instant Messaging", "Video & Voice"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "ms-windows.svg"
+  * logo: "ms-windows.svg"
     name: "Windows"
     categories: [
-      * "name": "macOS"
-        subcategories: ["Operating Systems"]
       * name: "Windows"
         subcategories: ["Operating Systems"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "opera.svg"
+  * logo: "opera.svg"
     name: "Opera"
     categories: [
       * name: "Android"
@@ -619,18 +453,14 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "paypal.svg"
+  * logo: "paypal.svg"
     name: "PayPal"
     categories: [
       * name: "Web Services"
         subcategories: ["Finance"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "pocket.svg"
+  * logo: "pocket.svg"
     name: "Pocket"
     categories: [
       * name: "Android"
@@ -643,18 +473,18 @@ exports.projects-rejected =
         subcategories: ["Bookmark Sync"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "snapchat.svg"
+  * logo: "snapchat.svg"
     name: "Snapchat"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging", "Social Networks"]
+      * name: "Android"
+        subcategories: ["Instant Messaging", "Social Networks"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging", "Social Networks"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "symantec.svg"
+  * logo: "symantec.svg"
     name: "Symantec Drive Encryption"
     categories: [
       * name: "GNU/Linux"
@@ -663,44 +493,40 @@ exports.projects-rejected =
         subcategories: ["Disk Encryption"]
       * name: "Windows"
         subcategories: ["Disk Encryption"]
-      * name: "Servers"
-        subcategories: ["Disk Encryption"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "trillian.png"
+  * logo: "trillian.png"
     name: "Trillian"
     categories: [
       * name: "Android"
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
+      * "name": "GNU/Linux"
+        subcategories: ["Instant Messaging"]
       * "name": "macOS"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "twitter.svg"
+  * logo: "twitter.svg"
     name: "Twitter"
     categories: [
       * name: "Web Services"
         subcategories: ["Social Networks"]
-      * name: "Servers"
-        subcategories: ["Social Networks"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "viber.svg"
+  * logo: "viber.svg"
     name: "Viber Messenger"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
       * name: "Android"
         subcategories: ["Instant Messaging"]
       * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * "name": "GNU/Linux"
         subcategories: ["Instant Messaging"]
       * "name": "macOS"
         subcategories: ["Instant Messaging"]
@@ -708,20 +534,14 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "vimeo.svg"
+  * logo: "vimeo.svg"
     name: "Vimeo"
     categories: [
       * name: "Web Services"
         subcategories: ["Media Publishing"]
-      * name: "Servers"
-        subcategories: ["Media Publishing"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "viscosity.png"
+  * logo: "viscosity.png"
     name: "Viscosity"
     categories: [
       * "name": "macOS"
@@ -730,73 +550,53 @@ exports.projects-rejected =
         subcategories: ["VPN Clients"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "whatsapp.svg"
+  * logo: "whatsapp.svg"
     name: "WhatsApp"
     categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
       * name: "Android"
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "yahoo-flickr.svg"
+  * logo: "yahoo-flickr.svg"
     name: "Flickr"
     categories: [
       * name: "Web Services"
         subcategories: ["Media Publishing"]
-      * name: "Servers"
-        subcategories: ["Media Publishing"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "tumblr.svg"
+  * logo: "tumblr.svg"
     name: "Tumblr"
     categories: [
       * name: "Web Services"
         subcategories: ["Media Publishing"]
-      * name: "Servers"
-        subcategories: ["Media Publishing"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "yahoo.svg"
+  * logo: "yahoo.svg"
     name: "Yahoo! Mail"
     categories: [
       * name: "Web Services"
         subcategories: ["Email Accounts"]
-      * name: "Servers"
-        subcategories: ["Email Accounts"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "zoho.svg"
+  * logo: "zoho.svg"
     name: "Zoho Office Suite"
     categories: [
-      * name: "Servers"
+      * name: "Web Services"
         subcategories: ["Enterprise Suite"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "zoho.svg"
+  * logo: "zoho.svg"
     name: "Zoho Docs"
     categories: [
       * name: "Web Services"
         subcategories: ["Productivity"]
-      * name: "Servers"
-        subcategories: ["Productivity"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "roboform.png"
+  * logo: "roboform.png"
     name: "Roboform"
     categories: [
       * name: "Windows"
@@ -809,26 +609,18 @@ exports.projects-rejected =
         subcategories: ["Password Managers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "lastpass.svg"
+  * logo: "lastpass.svg"
     name: "LastPass"
     categories: [
-      * name: "Windows"
-        subcategories: ["Password Managers"]
-      * name: "GNU/Linux"
+      * name: "Web Services"
         subcategories: ["Password Managers"]
       * name: "Android"
-        subcategories: ["Password Managers"]
-      * name: "macOS"
         subcategories: ["Password Managers"]
       * name: "iOS"
         subcategories: ["Password Managers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "1password.svg"
+  * logo: "1password.svg"
     name: "1Password"
     categories: [
       * name: "Windows"
@@ -841,9 +633,7 @@ exports.projects-rejected =
         subcategories: ["Password Managers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "ghostery.svg"
+  * logo: "ghostery.svg"
     name: "Ghostery"
     categories: [
       * name: "Windows"
@@ -858,29 +648,21 @@ exports.projects-rejected =
         subcategories: ["Web Browser Addons"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "yandex.svg"
+  * logo: "yandex.svg"
     name: "Yandex.Mail"
     categories: [
       * name: "Web Services"
         subcategories: ["Email Accounts"]
-      * name: "Servers"
-        subcategories: ["Email Accounts"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "yandex.svg"
+  * logo: "yandex.svg"
     name: "Yandex Search"
     categories: [
       * name: "Web Services"
         subcategories: ["Web Search"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "yandex-browser.svg"
+  * logo: "yandex-browser.svg"
     name: "Yandex.Browser"
     protocols: ["SSL/TLS"]
     categories: [
@@ -888,20 +670,18 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "iOS"
         subcategories: ["Web Browsers"]
+      * name: "GNU/Linux"
+        subcategories: ["Web Browsers"]
       * "name": "macOS"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "teamspeak.svg"
+  * logo: "teamspeak.svg"
     name: "TeamSpeak"
     categories: [
       * name: "Android"
-        subcategories: ["Video & Voice"]
-      * name: "BSD"
         subcategories: ["Video & Voice"]
       * name: "GNU/Linux"
         subcategories: ["Video & Voice"]
@@ -915,15 +695,9 @@ exports.projects-rejected =
         subcategories: ["Video & Voice"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "ventrilo.png"
+  * logo: "ventrilo.png"
     name: "Ventrilo"
     categories: [
-      * name: "BSD"
-        subcategories: ["Video & Voice"]
-      * name: "GNU/Linux"
-        subcategories: ["Video & Voice"]
       * "name": "macOS"
         subcategories: ["Video & Voice"]
       * name: "Windows"
@@ -931,27 +705,22 @@ exports.projects-rejected =
       * name: "Servers"
         subcategories: ["Video & Voice"]
     ]
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "ms-office.svg"
+
+  * logo: "ms-office.svg"
     name: "Office 365"
     categories: [
       * name: "Servers"
         subcategories: ["Enterprise Suite"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "g-suite.svg"
+  * logo: "g-suite.svg"
     name: "G Suite"
     categories: [
       * name: "Servers"
         subcategories: ["Enterprise Suite"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "google-allo.svg"
+  * logo: "google-allo.svg"
     name: "Google Allo"
     categories: [
       * name: "Android"
@@ -960,9 +729,7 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "line.svg"
+  * logo: "line.svg"
     name: "LINE"
     categories: [
       * name: "Web Services"
@@ -975,13 +742,9 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "tencent-qq.svg"
+  * logo: "tencent-qq.svg"
     name: "Tencent QQ"
     categories: [
       * name: "Web Services"
@@ -994,13 +757,9 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "wechat.svg"
+  * logo: "wechat.svg"
     name: "WeChat"
     categories: [
       * name: "Web Services"
@@ -1013,13 +772,9 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
-      * name: "Servers"
-        subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary", "PRISM"]
-    logo: "facebook-messenger.svg"
+  * logo: "facebook-messenger.svg"
     name: "Facebook Messenger"
     categories: [
       * name: "Web Services"
@@ -1028,83 +783,39 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * "name": "macOS"
-        subcategories: ["Instant Messaging"]
       * name: "Windows"
-        subcategories: ["Instant Messaging"]
-      * name: "Servers"
         subcategories: ["Instant Messaging"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "mirc.svg"
+  * logo: "mirc.svg"
     name: "mIRC"
     categories: [
       * name: "Windows"
         subcategories: ["IRC"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "cyberghost.svg"
+  * logo: "cyberghost.svg"
     name: "CyberGhost"
     categories: [
-      * name: "Android"
-        subcategories: ["VPN Accounts"]
-      * name: "iOS"
-        subcategories: ["VPN Accounts"]
-      * name: "macOS"
-        subcategories: ["VPN Accounts"]
-      * name: "Windows"
-        subcategories: ["VPN Accounts"]
-      * name: "GNU/Linux"
-        subcategories: ["VPN Accounts"]
-      * name: "BSD"
+      * name: "Web Services"
         subcategories: ["VPN Accounts"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "hotspot-shield.png"
+  * logo: "hotspot-shield.png"
     name: "Hotspot Shield"
     categories: [
-      * name: "Android"
-        subcategories: ["VPN Accounts"]
-      * name: "iOS"
-        subcategories: ["VPN Accounts"]
-      * name: "macOS"
-        subcategories: ["VPN Accounts"]
-      * name: "Windows"
-        subcategories: ["VPN Accounts"]
-      * name: "GNU/Linux"
-        subcategories: ["VPN Accounts"]
-      * name: "BSD"
+      * name: "Web Services"
         subcategories: ["VPN Accounts"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "opendns.svg"
+  * logo: "opendns.svg"
     name: "OpenDNS"
     categories: [
       * name: "Web Services"
         subcategories: ["DNS"]
-      * name: "Android"
-        subcategories: ["DNS"]
-      * name: "iOS"
-        subcategories: ["DNS"]
-      * name: "macOS"
-        subcategories: ["DNS"]
-      * name: "Windows"
-        subcategories: ["DNS"]
-      * name: "Servers"
-        subcategories: ["DNS"]
     ]
 
-  * status: 'rejected'
-    tags: ["Proprietary"]
-    logo: "tunsafe.svg"
+  * logo: "tunsafe.svg"
     name: "TunSafe"
     categories: [
       * name: "Windows"
