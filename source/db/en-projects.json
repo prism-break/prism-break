@@ -5222,5 +5222,34 @@
     "tos_url": "http://www.zenphoto.org/support/?terms-of-service=display",
     "url": "http://www.zenphoto.org/",
     "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Email Clients"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Email Clients"
+        ]
+      }
+    ],
+    "description": "Secure, private, user-friendly email client.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/mailpile/Mailpile/blob/master/COPYING.md",
+    "logo": "mailpile.svg",
+    "name": "Mailpile",
+    "protocols": [
+      "GPG",
+      "Tor"
+    ],
+    "slug": "mailpile",
+    "source_url": "https://github.com/mailpile/Mailpile",
+    "url": "https://www.mailpile.is/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mailpile"
   }
 ]
