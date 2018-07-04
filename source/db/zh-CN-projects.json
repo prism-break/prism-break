@@ -672,12 +672,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com"
   },
   {
-    "description": "轻量、友好的电子邮件程序，跨平台，内建 PGP 支持。",
-    "slug": "sylpheed",
-    "url": "http://sylpheed.sraoss.jp/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed"
-  },
-  {
     "description": "持续、分布式的文件同步工具。",
     "notes": "Syncthing是一个自架设的文件分享平台，所以你所有的数据都存储在你自己的电脑里。没有中央服务器会干坏事，不管是合法还是非法的。所有通信都使用 TLS 保护。所使用的加密包括完全正向保密（perfect forward secrecy），以防止任何窃听者获取你的数据访问。每个节点由一个强大的加密证书识别。只有您明确允许的节点才可以连接到群集。",
     "slug": "syncthing",

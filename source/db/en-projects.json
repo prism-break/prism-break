@@ -4344,51 +4344,6 @@
   {
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Clients"
-        ]
-      }
-    ],
-    "description": "Lightweight, user-friendly email application for multiple platforms with built-in PGP support.",
-    "development_stage": "released",
-    "license_url": "https://www.gnu.org/copyleft/gpl.html",
-    "logo": "sylpheed.png",
-    "name": "Sylpheed",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG",
-      "RSS",
-      "SSL/TLS"
-    ],
-    "slug": "sylpheed",
-    "source_url": "http://sylpheed.sraoss.jp/en/svn.html",
-    "tos_url": "",
-    "url": "http://sylpheed.sraoss.jp/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sylpheed"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "File Storage & Sync"
