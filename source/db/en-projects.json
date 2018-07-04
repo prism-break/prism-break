@@ -3171,10 +3171,10 @@
         ]
       }
     ],
-    "description": "A free dynamic DNS service. Use it to update an easy DNS name with your changing/hard-to-remember IP address. As we use the standard protocols, we support a lot of routers / update clients and we even actively help you to configure them. We care for your security, privacy and comfort. You can simply use the free service available on our homepage or, if you prefer, you can also run the software on your own server.",
+    "description": "Dynamic DNS service.",
     "development_stage": "released",
     "license_url": "https://github.com/nsupdate-info/nsupdate.info/blob/master/LICENSE",
-    "logo": "",
+    "logo": "nsupdate-info.svg",
     "name": "nsupdate.info",
     "notes": "",
     "privacy_url": "",
@@ -3185,7 +3185,7 @@
     "slug": "nsupdate-info",
     "source_url": "https://github.com/nsupdate-info/nsupdate.info",
     "tos_url": "",
-    "url": "https://nsupdate.info/",
+    "url": "https://nsupdate.info",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Nsupdate"
   },
   {
