@@ -709,14 +709,14 @@ exports.projects-rejected =
   * logo: "ms-office.svg"
     name: "Office 365"
     categories: [
-      * name: "Servers"
+      * name: "Web Services"
         subcategories: ["Enterprise Suite"]
     ]
 
   * logo: "g-suite.svg"
     name: "G Suite"
     categories: [
-      * name: "Servers"
+      * name: "Web Services"
         subcategories: ["Enterprise Suite"]
     ]
 
