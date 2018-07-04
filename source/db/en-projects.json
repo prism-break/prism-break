@@ -768,20 +768,20 @@
         ]
       }
     ],
-    "description": "Secure communications between a client and a DNS resolver.",
+    "description": "Encrypted DNS proxy.",
     "development_stage": "released",
     "license_url": "https://github.com/jedisct1/dnscrypt-proxy/blob/master/LICENSE",
-    "logo": "dnscrypt.png",
-    "name": "DNSCrypt",
+    "logo": "dnscrypt-proxy.svg",
+    "name": "dnscrypt-proxy",
     "notes": "",
     "privacy_url": "",
     "protocols": [
       "DNS"
     ],
-    "slug": "dnscrypt",
+    "slug": "dnscrypt-proxy",
     "source_url": "https://github.com/jedisct1/dnscrypt-proxy",
     "tos_url": "",
-    "url": "https://dnscrypt.info",
+    "url": "https://github.com/jedisct1/dnscrypt-proxy",
     "wikipedia_url": ""
   },
   {
