@@ -395,51 +395,6 @@
   {
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Clients"
-        ]
-      }
-    ],
-    "description": "Fast, lightweight email application for multiple platforms with built-in PGP support.",
-    "development_stage": "released",
-    "license_url": "http://git.claws-mail.org/?p=claws.git;a=blob;f=COPYING;h=bd673f83dcf2a113448b2adfaf8b72cea97fe0d0;hb=HEAD",
-    "logo": "claws-mail.png",
-    "name": "Claws Mail",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG",
-      "RSS",
-      "SSL/TLS"
-    ],
-    "slug": "claws-mail",
-    "source_url": "http://git.claws-mail.org/",
-    "tos_url": "",
-    "url": "http://www.claws-mail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Claws_Mail"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "Instant Messaging"
