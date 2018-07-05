@@ -2161,19 +2161,15 @@
         ]
       }
     ],
-    "description": "KeePassDroid is an implementation of the KeePass Password Safe for Android. Read/write support for .kdb and KeePass 1.x. Read/write support for .kdbx and KeePass 2.x.",
+    "description": "KeePass manager for Android.",
     "development_stage": "released",
-    "license_url": "https://github.com/bpellin/keepassdroid/blob/master/LICENSE",
-    "logo": "keepassdroid.png",
-    "name": "KeePassDroid",
-    "notes": "",
-    "privacy_url": "",
+    "license_url": "https://github.com/Kunzisoft/KeePassDX/blob/master/LICENSE",
+    "logo": "keepassdx.svg",
+    "name": "KeePass DX",
     "protocols": [],
-    "slug": "keepassdroid",
-    "source_url": "https://github.com/bpellin/keepassdroid",
-    "tos_url": "",
-    "url": "http://www.keepassdroid.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/KeePass#Unofficial_KeePass_releases"
+    "slug": "keepassdx",
+    "source_url": "https://github.com/Kunzisoft/KeePassDX",
+    "url": "https://www.kunzisoft.com/KeepassDX/"
   },
   {
     "categories": [
