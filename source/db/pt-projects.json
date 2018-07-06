@@ -95,7 +95,7 @@
   },
   {
     "description": "Protege contra monitorização através de entrega de conteúdo centralizado. Previne pedidos de chegar a redes como Google Hosted Libraries e serve ficheiros locais para que os sites não quebrem. Complementa bloqueadores de conteúdo regulares.",
-    "notes": "- Protege a privacidade ao evitar grandes redes de entrega que dizem oferecer serviços gratuitos.\n- Complementa bloqueadores regulares como o uBlock Origin, Request Policy, et al.\n- Funciona diretamente fora da caixa; absolutamente nenhuma configuração prévia necessária.\n\nDecentraleyes não é nenhuma bala de prata, mas previne muitos sites de fazê-lo enviar estes tipos de pedidos. Por fim, também pode fazer com que o Decentraleyes bloqueie pedidos para quaisquer recursos CDN ausentes.",
+    "notes": "- Protege a privacidade ao evitar grandes redes de entrega que dizem oferecer serviços gratuitos.\n- Complementa bloqueadores regulares como o uBlock Origin, Privacy Badger, et al.\n- Funciona diretamente fora da caixa; absolutamente nenhuma configuração prévia necessária.\n\nDecentraleyes não é nenhuma bala de prata, mas previne muitos sites de fazê-lo enviar estes tipos de pedidos. Por fim, também pode fazer com que o Decentraleyes bloqueie pedidos para quaisquer recursos CDN ausentes.",
     "slug": "decentraleyes",
     "url": "https://decentraleyes.org",
     "wikipedia_url": ""

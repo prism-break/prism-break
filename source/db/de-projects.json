@@ -99,7 +99,7 @@
   },
   {
     "description": "Schützt vor Tracking durch “gratis”, zentralisiertes, Abliefern von Content. Es sorgt dafür, dass Anfragen Netzwerke wie “Google Hosted Libraries” nicht erreichen, aber imitiert sie, sodass die Seiten intakt bleiben. Ergänzt reguläre Contentsperren.",
-    "notes": "- Kappt zum Schutze deiner Privatsphäre Verbindungen zu CDNs, die ihre Dienste kostenlos anbieten.\n- Ergänzt schon installierte Blocker wie uBlock Origin oder Request Policy etc.\n- Vorkonfiguriert und sofort einsatzbereit (kein Neustart notwendig).\n\nDecentraleyes ist kein Patentrezept, aber es schützt bei einer Vielzahl von Websiten vor Tracking. Letztlich kannst du Decentraleyes anweisen, Anfragen für nicht anwesende CDN-Dateien zu blockieren.",
+    "notes": "- Kappt zum Schutze deiner Privatsphäre Verbindungen zu CDNs, die ihre Dienste kostenlos anbieten.\n- Ergänzt schon installierte Blocker wie uBlock Origin oder Privacy Badger etc.\n- Vorkonfiguriert und sofort einsatzbereit (kein Neustart notwendig).\n\nDecentraleyes ist kein Patentrezept, aber es schützt bei einer Vielzahl von Websiten vor Tracking. Letztlich kannst du Decentraleyes anweisen, Anfragen für nicht anwesende CDN-Dateien zu blockieren.",
     "slug": "decentraleyes",
     "url": "https://decentraleyes.org",
     "wikipedia_url": ""

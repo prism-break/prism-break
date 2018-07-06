@@ -99,7 +99,7 @@
   },
   {
     "description": "Suojaa sinua “ilmaisten” keskitettyjen sisällön jakeluverkkojen jäljitykseltä. Estää useita sisältöpyyntöjä moniin jakeluverkkoihin ja korvaa ne paikallisilla tiedostoilla estäkseen sivujen hajoamisen. Täydentää muita estolisäosia.",
-    "notes": "- Suojaa yksityisyyttä välttämällä isoja jakeluverkkoja jotka väittävät tarjoavansa ilmaisia palveluita.\n- Täydentää muita lisäosia kuten uBlock Origin, Request Policy jne.\n- Toimii asennuksen jälkeen ilman tarvetta jälkisäädölle.\n\nDecentraleyes ei ratkaise kaikkea, mutta se suojaa monilta nettisivujen tekemiltä sisältöpyynnöiltä. Halutessasi Decentraleyes estää kaikki pyynnöt joille ei ole tarjolla korvaavaa sisältöä.",
+    "notes": "- Suojaa yksityisyyttä välttämällä isoja jakeluverkkoja jotka väittävät tarjoavansa ilmaisia palveluita.\n- Täydentää muita lisäosia kuten uBlock Origin, Privacy Badger jne.\n- Toimii asennuksen jälkeen ilman tarvetta jälkisäädölle.\n\nDecentraleyes ei ratkaise kaikkea, mutta se suojaa monilta nettisivujen tekemiltä sisältöpyynnöiltä. Halutessasi Decentraleyes estää kaikki pyynnöt joille ei ole tarjolla korvaavaa sisältöä.",
     "slug": "decentraleyes",
     "url": "https://decentraleyes.org",
     "wikipedia_url": ""
