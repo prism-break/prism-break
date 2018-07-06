@@ -94,8 +94,8 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Debian"
   },
   {
-    "description": "Protects you against tracking through “free”, centralized, content delivery. It prevents a lot of requests from reaching networks like Google Hosted Libraries, and serves local files to keep sites from breaking. Complements regular content blockers.",
-    "notes": "Decentraleyes is a Firefox add-on that emulates Content Delivery Networks locally by intercepting requests, finding the required resource and injecting it into the environment. This all happens instantaneously, automatically, and no prior configuration is required.\n\nDecentraleyes is no silver bullet, but it does prevent a lot of websites from making you send these kinds of requests. Ultimately, you can make Decentraleyes block requests for any missing CDN resources, too.",
+    "description": "「無料」と称してあなたを追跡する大規模なCDNを迂回して、プライバシーを守ります。 Google Hosted Libraries などへのリクエストをブロックします。また、ページの表示を壊さないよう、ローカルにこれらのライブラリを保存しています。 一般的なコンテンツブロッカーを補助します。",
+    "notes": "- 無料のサービスを提供すると主張する大規模CDNを回避することで、プライバシーを保護します。\n- uBlock OriginやPrivacy Badgerなどの一般的な広告ブロッカーを補助します。\n- インストールするだけですぐに使えます。何かを設定する必要はありません。\n\nDecentraleyesは万全のプライバシー保護対策ではありません。多くのウェブサイトがあなたに様々なリクエストを送らせようとするのをブロックするだけです。 Decentraleyesにリソースが含まれないすべてのCDNをブロックするように設定することもできます。",
     "slug": "decentraleyes",
     "url": "https://decentraleyes.org",
     "wikipedia_url": ""

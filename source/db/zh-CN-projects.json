@@ -99,7 +99,7 @@
   },
   {
     "description": "保护你免受集中式的内容分发网络（CDN）的跟踪。它可以拦截到达诸如 Google Hosted Libraries 的请求，并在本地提供相应的文件。内容拦截规则会定期补充。",
-    "notes": "- 不使用提供免费服务的内容分发网络以保护你的隐私。\n- 辅助正则屏蔽器，例如 uBlock Origin，Request Policy 等。\n- 即装即用；使用前绝对不需要任何配置。\n\nDecentraleyes 不是什么银弹，但它的确能防止许多网站让你发送此类请求。 最后，你还可以让 Decentraleyes 屏蔽任何缺失的 CDN 资源。",
+    "notes": "- 不使用提供免费服务的内容分发网络以保护你的隐私。\n- 辅助正则屏蔽器，例如 uBlock Origin，Privacy Badger 等。\n- 即装即用；使用前绝对不需要任何配置。\n\nDecentraleyes 不是什么银弹，但它的确能防止许多网站让你发送此类请求。 最后，你还可以让 Decentraleyes 屏蔽任何缺失的 CDN 资源。",
     "slug": "decentraleyes",
     "url": "https://decentraleyes.org",
     "wikipedia_url": ""

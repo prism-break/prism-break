@@ -98,7 +98,7 @@
   },
   {
     "description": "Protège du pistage lié à l'accès à des contenus “gratuits”, centralisés. Accélère de nombreuses requêtes (“Google Hosted Libraries” et autres) en les servant localement, allégeant la charge des sites. Complète les bloqueurs de contenus habituels.",
-    "notes": "- Protège la confidentialité en contournant les diffuseurs de contenus prétendant offrir des services gratuits.\n- Complète les bloqueurs connus tels que uBlock origin, Request Policy et autres.\n- Fonctionne directement tel quel ne nécessitant aucune configuration préalable.\n\nDecentraleyes n'est pas une panacée mais il empêche de nombreux sites de vous contraindre à l'envoi de telles requêtes. Il est possible aussi d'indiquer à Decentraleyes de bloquer les requêtes manquantes.",
+    "notes": "- Protège la confidentialité en contournant les diffuseurs de contenus prétendant offrir des services gratuits.\n- Complète les bloqueurs connus tels que uBlock origin, Privacy Badger et autres.\n- Fonctionne directement tel quel ne nécessitant aucune configuration préalable.\n\nDecentraleyes n'est pas une panacée mais il empêche de nombreux sites de vous contraindre à l'envoi de telles requêtes. Il est possible aussi d'indiquer à Decentraleyes de bloquer les requêtes manquantes.",
     "slug": "decentraleyes",
     "url": "https://decentraleyes.org",
     "wikipedia_url": ""
