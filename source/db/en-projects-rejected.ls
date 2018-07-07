@@ -821,3 +821,18 @@ exports.projects-rejected =
       * name: "Windows"
         subcategories: ["VPN Clients"]
     ]
+
+  * logo: "cisco.svg"
+    name: "Cisco VPN"
+    categories: [
+      * name: "Android"
+        subcategories: ["VPN Clients"]
+      * name: "GNU/Linux"
+        subcategories: ["VPN Clients"]
+      * name: "iOS"
+        subcategories: ["VPN Clients"]
+      * name: "macOS"
+        subcategories: ["VPN Clients"]
+      * name: "Windows"
+        subcategories: ["VPN Clients"]
+    ]
