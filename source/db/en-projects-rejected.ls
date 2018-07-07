@@ -11,14 +11,14 @@ exports.projects-rejected =
     categories: [
       * name: "iOS"
         subcategories: ["Video & Voice"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Video & Voice"]
     ]
 
   * logo: "apple-filevault.png"
     name: "FileVault"
     categories: [
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Disk Encryption"]
     ]
 
@@ -27,7 +27,7 @@ exports.projects-rejected =
     categories: [
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -52,7 +52,7 @@ exports.projects-rejected =
     categories: [
       * name: "iOS"
         subcategories: ["Email Clients"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Email Clients"]
     ]
 
@@ -61,7 +61,7 @@ exports.projects-rejected =
     categories: [
       * name: "iOS"
         subcategories: ["World Maps"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["World Maps"]
     ]
 
@@ -70,14 +70,14 @@ exports.projects-rejected =
     categories: [
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Instant Messaging"]
     ]
 
   * logo: "apple-macos.svg"
     name: "macOS"
     categories: [
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Operating Systems"]
     ]
 
@@ -87,7 +87,7 @@ exports.projects-rejected =
     categories: [
       * name: "iOS"
         subcategories: ["Web Browsers"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Web Browsers"]
     ]
 
@@ -134,7 +134,7 @@ exports.projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "GNU/Linux"
         subcategories: ["File Storage & Sync"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -149,7 +149,7 @@ exports.projects-rejected =
         subcategories: ["Productivity"]
       * name: "iOS"
         subcategories: ["Productivity"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Productivity"]
       * name: "Windows"
         subcategories: ["Productivity"]
@@ -208,7 +208,7 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "GNU/Linux"
         subcategories: ["Web Browsers"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
@@ -234,7 +234,7 @@ exports.projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -251,7 +251,7 @@ exports.projects-rejected =
         subcategories: ["World Maps"]
       * name: "GNU/Linux"
         subcategories: ["World Maps"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["World Maps"]
       * name: "Windows"
         subcategories: ["World Maps"]
@@ -386,7 +386,7 @@ exports.projects-rejected =
   * logo: "ms-outlook.svg"
     name: "Microsoft Outlook"
     categories: [
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Email Clients", "Productivity"]
       * name: "Windows"
         subcategories: ["Email Clients", "Productivity"]
@@ -408,7 +408,7 @@ exports.projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "iOS"
         subcategories: ["File Storage & Sync"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
@@ -425,7 +425,7 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "GNU/Linux"
         subcategories: ["Instant Messaging", "Video & Voice"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Instant Messaging", "Video & Voice"]
       * name: "Windows"
         subcategories: ["Instant Messaging", "Video & Voice"]
@@ -447,7 +447,7 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "GNU/Linux"
         subcategories: ["Web Browsers"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
@@ -489,7 +489,7 @@ exports.projects-rejected =
     categories: [
       * name: "GNU/Linux"
         subcategories: ["Disk Encryption"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Disk Encryption"]
       * name: "Windows"
         subcategories: ["Disk Encryption"]
@@ -502,9 +502,9 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * "name": "GNU/Linux"
+      * name: "GNU/Linux"
         subcategories: ["Instant Messaging"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
@@ -526,9 +526,9 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * "name": "GNU/Linux"
+      * name: "GNU/Linux"
         subcategories: ["Instant Messaging"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
@@ -544,7 +544,7 @@ exports.projects-rejected =
   * logo: "viscosity.png"
     name: "Viscosity"
     categories: [
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["VPN Clients"]
       * name: "Windows"
         subcategories: ["VPN Clients"]
@@ -672,7 +672,7 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
       * name: "GNU/Linux"
         subcategories: ["Web Browsers"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Web Browsers"]
       * name: "Windows"
         subcategories: ["Web Browsers"]
@@ -687,7 +687,7 @@ exports.projects-rejected =
         subcategories: ["Video & Voice"]
       * name: "iOS"
         subcategories: ["Video & Voice"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Video & Voice"]
       * name: "Windows"
         subcategories: ["Video & Voice"]
@@ -698,7 +698,7 @@ exports.projects-rejected =
   * logo: "ventrilo.png"
     name: "Ventrilo"
     categories: [
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Video & Voice"]
       * name: "Windows"
         subcategories: ["Video & Voice"]
@@ -738,7 +738,7 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
@@ -753,7 +753,7 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
@@ -768,7 +768,7 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
       * name: "iOS"
         subcategories: ["Instant Messaging"]
-      * "name": "macOS"
+      * name: "macOS"
         subcategories: ["Instant Messaging"]
       * name: "Windows"
         subcategories: ["Instant Messaging"]
