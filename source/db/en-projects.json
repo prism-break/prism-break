@@ -2542,6 +2542,34 @@
       {
         "name": "Servers",
         "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "description": "Federated video hosting.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE",
+    "logo": "peertube.svg",
+    "name": "PeerTube",
+    "protocols": [
+      "ActivityPub"
+    ],
+    "slug": "peertube",
+    "source_url": "https://github.com/Chocobozzz/PeerTube",
+    "url": "https://joinpeertube.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/PeerTube"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
           "Web Analytics"
         ]
       }
