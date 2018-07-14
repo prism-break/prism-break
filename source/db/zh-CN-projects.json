@@ -730,12 +730,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
   },
   {
-    "description": "验证，递归和缓存 DNS 服务器。",
-    "slug": "unbound",
-    "url": "http://www.unbound.net/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29"
-  },
-  {
     "description": "保护隐私，并返回中立的搜索结果的元搜索引擎。",
     "notes": "Unbubble 是来自德国的搜索引擎，提供八种语言的结果。它的主要目标是提供中立的搜索结果。它采用强有力的措施来保护隐私。",
     "slug": "unbubble",
