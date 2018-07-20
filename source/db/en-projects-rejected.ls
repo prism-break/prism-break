@@ -264,6 +264,23 @@ exports.projects-rejected =
         subcategories: ["Email Accounts"]
     ]
 
+  * logo: "google-maps.svg"
+    name: "Google Maps"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["World Maps"]
+      * name: "Android"
+        subcategories: ["World Maps"]
+      * name: "iOS"
+        subcategories: ["World Maps"]
+      * name: "GNU/Linux"
+        subcategories: ["World Maps"]
+      * name: "macOS"
+        subcategories: ["World Maps"]
+      * name: "Windows"
+        subcategories: ["World Maps"]
+    ]
+
   * logo: "amazon-appstore.svg"
     name: "Amazon Appstore"
     categories: [
