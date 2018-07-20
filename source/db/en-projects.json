@@ -117,7 +117,7 @@
         ]
       }
     ],
-    "description": "PBX implementation with VoIP/SIP support.",
+    "description": "PBX implementation with SIP support.",
     "development_stage": "released",
     "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
     "logo": "asterisk.svg",
@@ -125,8 +125,7 @@
     "notes": "",
     "privacy_url": "",
     "protocols": [
-      "SIP",
-      "VoIP"
+      "SIP"
     ],
     "slug": "asterisk",
     "source_url": "http://www.asterisk.org/downloads/source-code",
@@ -1280,7 +1279,7 @@
         ]
       }
     ],
-    "description": "Cross-platform soft switch software with VoIP/SIP support.",
+    "description": "Cross-platform soft switch software with SIP support.",
     "development_stage": "released",
     "license_url": "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true",
     "logo": "freeswitch.png",
@@ -1288,8 +1287,7 @@
     "notes": "",
     "privacy_url": "",
     "protocols": [
-      "SIP",
-      "VoIP"
+      "SIP"
     ],
     "slug": "freeswitch",
     "source_url": "http://fisheye.freeswitch.org/browse/freeswitch.git",
@@ -2089,7 +2087,7 @@
         ]
       }
     ],
-    "description": "Open source VoIP/SIP server.",
+    "description": "Open source SIP server.",
     "development_stage": "released",
     "license_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD",
     "logo": "kamailio.svg",
@@ -2098,8 +2096,7 @@
     "privacy_url": "",
     "protocols": [
       "SIP",
-      "SSL/TLS",
-      "VoIP"
+      "SSL/TLS"
     ],
     "slug": "kamailio",
     "source_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=tree",
@@ -2901,10 +2898,7 @@
     "name": "Mumble",
     "notes": "",
     "privacy_url": "http://wiki.mumble.info/wiki/Mumble_Wiki:Privacy_policy",
-    "protocols": [
-      "VoIP",
-      "ZRTP"
-    ],
+    "protocols": [],
     "slug": "mumble",
     "source_url": "https://github.com/mumble-voip/mumble",
     "tos_url": "",
@@ -3913,8 +3907,7 @@
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
     "privacy_url": "",
     "protocols": [
-      "GPG",
-      "VoIP"
+      "GPG"
     ],
     "slug": "retroshare",
     "source_url": "https://github.com/RetroShare/RetroShare",
