@@ -1,11 +1,18 @@
 image: nixos/nix
 
 before_script:
-  - nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
+  - nix-channel --add https://nixos.org/channels/nixpkgs-unstable
   - nix-channel --update
 
-pages:
+build:
+  stage: build
   script: nix-shell --run make
+
+pages:
+  stage: deploy
+  script: ":"
   artifacts:
     paths:
     - public
+  only:
+  - master
