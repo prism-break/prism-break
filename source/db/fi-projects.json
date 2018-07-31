@@ -730,12 +730,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
   },
   {
-    "description": "Validoiva, rekursiivinen ja sivuttava DNS-palvelin.",
-    "slug": "unbound",
-    "url": "http://www.unbound.net/",
-    "wikipedia_url": "http://en.wikipedia.org/wiki/Unbound_%28DNS_Server%29"
-  },
-  {
     "description": "Metahakukone joka suojaa yksityisyyttä ja pyrkii palauttamaan neutraaleja hakutuloksia.",
     "notes": "Unbubble on salsalainen verkkohakukone, joka tarjoaa tuloksia kahdeksalla kielellä. Sen pääasiallinen tavoite on luoda neutraaleja hakutuloksia. Unbubble ei omien sanojensa mukaan kerää käyttäjistään lainkaan tietoa.",
     "slug": "unbubble",
