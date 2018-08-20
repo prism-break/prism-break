@@ -2,5 +2,5 @@ with import <nixpkgs> {};
 
 stdenvNoCC.mkDerivation {
   name = "prism-break";
-  buildInputs = [ git jq nodejs rsync yarn ];
+  buildInputs = [ git jq nodejs rsync ];
 }

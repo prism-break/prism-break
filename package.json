@@ -1,8 +1,4 @@
 {
-  "name": "prism-break",
-  "version": "0.2.5",
-  "description": "A directory of free privacy-oriented software.",
-  "main": "Makefile",
   "dependencies": {
     "http-server": "0.11.1",
     "livescript": "1.5.0",
@@ -19,28 +15,12 @@
   "devDependencies": {
     "jsonlint2": "^1.7.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://gitlab.com/prism-break/prism-break.git"
-  },
-  "keywords": [
-    "prism",
-    "nsa",
-    "surveillance",
-    "privacy",
-    "xkeyscore",
-    "tempora",
-    "foss",
-    "alternatives",
-    "software"
-  ],
-  "author": "Peng Zhong",
   "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://gitlab.com/prism-break/prism-break/issues"
-  },
-  "homepage": "https://gitlab.com/prism-break/prism-break"
+  "repository": "gitlab:prism-break/prism-break",
+  "scripts": {
+    "build_livescript": "lsc",
+    "build_stylus": "stylus -c -u nib",
+    "lint": "jsonlint -q",
+    "serve": "http-server"
+  }
 }

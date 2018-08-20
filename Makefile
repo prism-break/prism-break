@@ -59,7 +59,7 @@ test: lint en
 lint: $(foreach SOURCE,$(shell find source -type f -name '*.json'),$(SOURCE).lint)
 
 %.lint: %
-	yarn -s run jsonlint -q $<
+	npm run lint -- $<
 	touch $@
 
 # Start fresh and rebuild everything
@@ -95,12 +95,8 @@ $(HTMLLANGS): html_%: public/%/index.html
 # FUNCTIONS
 #----------------------------------------------------------------------
 
-yarn.lock: package.json
-	yarn install
-
-node_modules: yarn.lock
-	yarn install --check-files
-	touch $@
+node_modules package-lock.json: package.json
+	npm install
 
 # Copy fixed assets from the source tree (if newer files exist)
 public/assets/%: source/assets/% $$(shell find source/assets/$$* -type f)
@@ -110,14 +106,14 @@ public/assets/%: source/assets/% $$(shell find source/assets/$$* -type f)
 # Rebuild stylesheet if any of the input templates change
 public/assets/css/%.css: source/stylesheets/%.styl $(shell git ls-files *.styl)
 	mkdir -p $(dir $@)
-	yarn -s run stylus -c -u nib < $< > $@
+	npm run build_stylus -- $< -o $@
 
 public/index.html: source/index.html
 	cp $< $@
 
 # Use script to rebuild index if index is older than any files with this locale in the name
 public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | grep '\b$$*\b')
-	yarn -s run lsc $<
+	npm run build_livescript -- $<
 
 .PHONY: clean
 clean:
@@ -128,7 +124,7 @@ clean:
 LOCALLANGS = $(foreach LANGUAGE,$(LANGUAGES),localize_$(LANGUAGE))
 .PHONY: $(LOCALLANGS)
 $(LOCALLANGS): localize_%:
-	yarn -s run lsc ./source/functions/find-missing-localizations.ls $*
+	npm run build_livescript -- ./source/functions/find-missing-localizations.ls $*
 
 #----------------------------------------------------------------------
 # CONVENIENCE FUNCTIONS
@@ -140,12 +136,12 @@ watch:
 
 .PHONY: serve
 serve:
-	yarn -s run http-server
+	npm run serve
 
 # Rebuild CSS live on input changes
 .PHONY: watch_css
 watch_css:
-	yarn -s run stylus -c -w source/stylesheets/screen.styl -u nib -o public/assets/css/
+	npm run build_stylus -- -w source/stylesheets/screen.styl -o public/assets/css/
 
 # copy ./public to another repository and commit changes
 .PHONY: sync
