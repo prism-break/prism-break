@@ -96,7 +96,7 @@ Append the sample project to the file `source/db/en-projects.json`. Edit the val
 Only the fields `name`, `description`, `logo`, `url`, `categories`, and `development_stage` are required. The other fields can be left empty with a value of `""` (`[]` for `protocols`).
 
 ### Add the Project Thumbnail
-**Project thumbnails should be in the PNG format.** Try to get a 1024px x 1024px (or better) version of the logo for `./source/assets/images/logos/original` and rescale it to 60x60 and 120x120 for `./source/assets/images/logos/medium` and `./source/assets/images/logos/medium@2x`
+**Project thumbnails should be in the SVG or PNG format.** Get a SVG version or a 1024px x 1024px (or better) PNG version of the logo for `./source/assets/logos`.
 
 ### Testing Your Edits/Additions
 When you're done with your edits, you should build the site to see if it compiles properly. To do so, run:
