@@ -4,12 +4,6 @@
     "notes": "Whonix ist dafür vorgesehen, in einer virtuellen Maschine wie z.V. [VirtualBox](https://www.virtualbox.org/) zu laufen. VirtualBox kann auf Windows, Linux, macOS, und Solaris installiert werden. Solltest du also aus welchen Gründen auch immer auf Windows oder macOS angewiesen sein, kannst du innerhalb einer VirtualBox mit Whonix trotzdem mehr Privatssphäre und Sicherheit genießen."
   },
   {
-    "description": "PBX-Implementation mit VoIP/SIP-Unterstützung.",
-    "slug": "asterisk",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
-  },
-  {
     "description": "Verschlüsselter, dezentraler P2P-Nachrichtenservice basierend auf der Bitcoin-Technologie.",
     "notes": "Bitmessage ist eine vielversprechende Alternative zu E-Mail, wurde allerdings noch nicht von Computersicherheitsexperten auditiert. Benutze es auf deine eigene Verantwortung. Wenn du dich dazu entschließt, stelle bitte sicher, dass du eine wirklich zufällige ID generierst. So wird die Wahrscheinlichkeit von ID-Kollisionen reduziert.",
     "slug": "bitmessage",

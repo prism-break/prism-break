@@ -3,12 +3,6 @@
     "description": "Форсирующая использование Tor операционная система, стремящаяся к анонимности, приватности и безопасности. Предлагает так-же готовые к использованию образы для виртуальных машин."
   },
   {
-    "description": "PBX implementation with VoIP/SIP support.",
-    "slug": "asterisk",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
-  },
-  {
     "description": "Шифровани, децентрализован емаил сервер.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
