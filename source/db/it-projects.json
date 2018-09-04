@@ -655,10 +655,8 @@
   },
   {
     "description": "Ricerche web private e non registrate.",
-    "notes": "Startpage è un SaaS situato in USA e nei Paesi Bassi che offre ricerche Google anonime attraverso un proxy. Its sibling project ixquick.eu, however, offer results from other search engine.\n\n Ixquick also provides the stand-alone Ixquick Proxy service that allows users to open search results via proxy.\n\n As of February 19, 2015, Startpage.com is the default search engine in the Tor Browser.",
-    "slug": "startpage",
-    "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com"
+    "notes": "Startpage è un SaaS situato in USA e nei Paesi Bassi che offre ricerche Google anonime attraverso un proxy.",
+    "slug": "startpage"
   },
   {
     "description": "Continuous decentralized file synchronization.",

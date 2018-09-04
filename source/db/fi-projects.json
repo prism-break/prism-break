@@ -424,7 +424,7 @@
   },
   {
     "description": "Yksi maailman suosituimmista verkkoselaimista, avointa lähdekoodia.",
-    "notes": "Firefox ei piilota IP-osoitettasi kolmansilta osapuolilta oletuksena. Jos haluat anonymisoida IP-osoitteesi, on suositeltavaa käyttää Tor Browser Bundlea.\n\nFirefoxin oletushakukone on Google. On suositeltavaa vaihtaa tilalle Ixquick, Startpage tai DuckDuck go, tai jokin muu anonyymi hakukone.\n\nOn suositeltavaa poistaa valinta “Block reported attack sites” ja “Block reported web forgeries” menemällä  Tools -> Options -> Security (Windows & GNU/Linux) tai Preferences -> Security (macOS) jos et halua Mozillan lähettävän raportoitujen URL:ien tiivisteitä Googlelle. ",
+    "notes": "Firefox ei piilota IP-osoitettasi kolmansilta osapuolilta oletuksena.",
     "slug": "mozilla-firefox"
   },
   {
@@ -654,10 +654,8 @@
   },
   {
     "description": "Yksityisyyttä arvostava hakukone, joka ei kerää tietoja.",
-    "notes": "Startpage on Yhdysvalloissa ja Alankomaissa ylläpidetty SaaS joka tarjoaa anonyymit Googlehaut ja kuvat ilmaisen väliyspalvelimen kautta. Its sibling project ixquick.eu, however, offer results from other search engine.\n\n Ixquick also provides the stand-alone Ixquick Proxy service that allows users to open search results via proxy.\n\n As of February 19, 2015, Startpage.com is the default search engine in the Tor Browser.",
-    "slug": "startpage",
-    "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com"
+    "notes": "Startpage on Yhdysvalloissa ja Alankomaissa ylläpidetty SaaS joka tarjoaa anonyymit Googlehaut ja kuvat ilmaisen väliyspalvelimen kautta.",
+    "slug": "startpage"
   },
   {
     "description": "Continuous decentralized file synchronization.",
