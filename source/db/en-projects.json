@@ -2611,31 +2611,6 @@
   {
     "categories": [
       {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "description": "Meta search engine that proxies your queries to multiple search providers.",
-    "development_stage": "released",
-    "license_url": "https://gitlab.metager3.de/open-source/MetaGer/blob/development/LICENSE",
-    "logo": "metager.svg",
-    "name": "MetaGer",
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
-    "privacy_url": "https://metager.de/en/datenschutz",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "metager",
-    "source_url": "https://gitlab.metager3.de/open-source/MetaGer",
-    "tos_url": "",
-    "url": "https://metager.de/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "XMPP Servers"
