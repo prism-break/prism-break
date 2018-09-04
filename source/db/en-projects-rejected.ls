@@ -187,7 +187,7 @@ exports.projects-rejected =
         subcategories: ["Web Analytics"]
     ]
 
-  * logo: "google-authenticator.png"
+  * logo: "google-authenticator.svg"
     name: 'Google Authenticator'
     categories: [
       * name: "Android"
