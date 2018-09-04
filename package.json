@@ -16,11 +16,5 @@
     "jsonlint2": "^1.7.0"
   },
   "license": "GPL-3.0",
-  "repository": "gitlab:prism-break/prism-break",
-  "scripts": {
-    "build_livescript": "lsc",
-    "build_stylus": "stylus -c -u nib",
-    "lint": "jsonlint -q",
-    "serve": "http-server"
-  }
+  "repository": "gitlab:prism-break/prism-break"
 }

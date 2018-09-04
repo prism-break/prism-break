@@ -59,7 +59,7 @@ test: lint en
 lint: $(foreach SOURCE,$(shell find source -type f -name '*.json'),$(SOURCE).lint)
 
 %.lint: %
-	npm run lint -- $<
+	npx jsonlint -q $<
 	touch $@
 
 # Start fresh and rebuild everything
@@ -106,14 +106,14 @@ public/assets/%: source/assets/% $$(shell find source/assets/$$* -type f)
 # Rebuild stylesheet if any of the input templates change
 public/assets/css/%.css: source/stylesheets/%.styl $(shell git ls-files *.styl)
 	mkdir -p $(dir $@)
-	npm run build_stylus -- $< -o $@
+	npx stylus -c -u nib $< -o $@
 
 public/index.html: source/index.html
 	cp $< $@
 
 # Use script to rebuild index if index is older than any files with this locale in the name
 public/%/index.html: source/functions/build/site-%.ls $$(shell git ls-files | grep '\b$$*\b')
-	npm run build_livescript -- $<
+	npx lsc $<
 
 .PHONY: clean
 clean:
@@ -124,7 +124,7 @@ clean:
 LOCALLANGS = $(foreach LANGUAGE,$(LANGUAGES),localize_$(LANGUAGE))
 .PHONY: $(LOCALLANGS)
 $(LOCALLANGS): localize_%:
-	npm run build_livescript -- ./source/functions/find-missing-localizations.ls $*
+	npx lsc ./source/functions/find-missing-localizations.ls $*
 
 #----------------------------------------------------------------------
 # CONVENIENCE FUNCTIONS
@@ -136,12 +136,12 @@ watch:
 
 .PHONY: serve
 serve:
-	npm run serve
+	npx http-server
 
 # Rebuild CSS live on input changes
 .PHONY: watch_css
 watch_css:
-	npm run build_stylus -- -w source/stylesheets/screen.styl -o public/assets/css/
+	npx stylus -c -u nib -w source/stylesheets/screen.styl -o public/assets/css/
 
 # copy ./public to another repository and commit changes
 .PHONY: sync
