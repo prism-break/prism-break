@@ -7,6 +7,9 @@ before_script:
 build:
   stage: build
   script: nix-shell --run make
+  artifacts:
+    paths:
+    - public
 
 pages:
   stage: deploy
