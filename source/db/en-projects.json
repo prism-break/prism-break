@@ -1544,68 +1544,6 @@
       {
         "name": "Android",
         "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "description": "Open source SIP server.",
-    "development_stage": "released",
-    "license_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD",
-    "logo": "kamailio.svg",
-    "name": "Kamailio",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS"
-    ],
-    "slug": "kamailio",
-    "source_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=tree",
-    "tos_url": "",
-    "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
           "Password Managers"
         ]
       }
