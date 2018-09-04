@@ -818,6 +818,13 @@ exports.projects-rejected =
         subcategories: ["VPN Accounts"]
     ]
 
+  * logo: "hola.svg"
+    name: "Hola!"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["VPN Accounts"]
+    ]
+
   * logo: "hotspot-shield.png"
     name: "Hotspot Shield"
     categories: [
