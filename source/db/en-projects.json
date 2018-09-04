@@ -1005,36 +1005,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Clients"
-        ]
-      }
-    ],
-    "description": "Email, address book, and calendar application for the GNOME desktop with PGP support.",
-    "development_stage": "released",
-    "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
-    "logo": "evolution.svg",
-    "name": "Evolution",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "CalDAV",
-      "GPG",
-      "RSS",
-      "S/MIME",
-      "SSL/TLS",
-      "WebDAV"
-    ],
-    "slug": "evolution",
-    "source_url": "https://projects.gnome.org/evolution/git.shtml",
-    "tos_url": "",
-    "url": "https://projects.gnome.org/evolution/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "App Store"
