@@ -727,13 +727,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
   },
   {
-    "description": "Websuche, die besonders neutrale Suchergebnisse liefert und die Privatsphäre schützt.",
-    "notes": "Unbubble ist eine Internet-Suchmaschine aus Deutschland mit Unterstützung für 8 Sprachen. Sie hat zum Ziel, möglichst neutrale Suchergebnisse zu erzeugen. Datenschutz und Privatsphäre werden durch verschiedene Maßnahmen sichergestellt, über die auf der Website ausführlich informiert wird.",
-    "slug": "unbubble",
-    "url": "https://unbubble.eu",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Client-side encrypted image host web server.",
     "notes": "Up1 is a simple host that client-side encrypts images, text, and other data, and stores them, with the server knowing nothing about the contents. It has the ability to view images, text with syntax highlighting, short videos, and arbitrary binaries as downloadables.",
     "slug": "up1",
