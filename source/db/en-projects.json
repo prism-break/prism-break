@@ -1574,18 +1574,18 @@
         ]
       }
     ],
-    "description": "Painless self hosted git service written in Go.",
+    "description": "Painless self-hosted Git forge.",
     "development_stage": "released",
-    "license_url": "https://github.com/gogits/gogs/blob/master/LICENSE",
-    "logo": "gogs.svg",
-    "name": "Gogs",
+    "license_url": "https://github.com/go-gitea/gitea/blob/master/LICENSE",
+    "logo": "gitea.svg",
+    "name": "Gitea",
     "notes": "",
     "privacy_url": "",
     "protocols": [],
-    "slug": "gogs",
-    "source_url": "https://github.com/gogits/gogs",
+    "slug": "gitea",
+    "source_url": "https://github.com/go-gitea/gitea",
     "tos_url": "",
-    "url": "http://gogs.io/",
+    "url": "http://gitea.io",
     "wikipedia_url": ""
   },
   {
