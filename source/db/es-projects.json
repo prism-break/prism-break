@@ -208,13 +208,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
   },
   {
-    "description": "Telefonía en línea (VoIP) cifrada, con soporte para audio y video.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
-  },
-  {
     "description": "Cifrado OpenPGP para servicios webmail.",
     "slug": "mailvelope",
     "url": "http://www.mailvelope.com/",

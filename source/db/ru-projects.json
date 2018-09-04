@@ -210,13 +210,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
   },
   {
-    "description": "Кроссплатформенный клиент текстового и видеочата с поддержкой шифрования.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Linphone"
-  },
-  {
     "description": "OpenPGP шифрование для популярных сервисов веб-почты.",
     "slug": "mailvelope",
     "url": "http://www.mailvelope.com/",

@@ -205,13 +205,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
   },
   {
-    "description": "暗号化されたボイスおよびビデオクライアント。",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
-  },
-  {
     "description": "ウェブメール向けのOpenPGPによる暗号化。",
     "slug": "mailvelope",
     "url": "http://www.mailvelope.com/",

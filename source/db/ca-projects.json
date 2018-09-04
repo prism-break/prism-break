@@ -204,13 +204,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
   },
   {
-    "description": "Telefonia IP (VoIP) xifrada, amb suport per a àudio i vídeo.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
-  },
-  {
     "description": "Xifrat OpenPGP per webmail.",
     "slug": "mailvelope",
     "url": "http://www.mailvelope.com/",

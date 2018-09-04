@@ -207,13 +207,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
   },
   {
-    "description": "Šifrovani klijent za razgovore i video pozive.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
-  },
-  {
     "description": "OpenPGP šifrovanje za webmail.",
     "slug": "mailvelope",
     "url": "http://www.mailvelope.com/",

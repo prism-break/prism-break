@@ -208,13 +208,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
   },
   {
-    "description": "Versleutelde communicatie met beeld en geluid.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
-  },
-  {
     "description": "OpenPGP Firefox/IceCat plugin voor webmail.",
     "slug": "mailvelope",
     "url": "http://www.mailvelope.com/",

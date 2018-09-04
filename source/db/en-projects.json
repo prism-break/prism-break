@@ -1650,63 +1650,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      }
-    ],
-    "description": "Encrypted voice and video client for multiple platforms.",
-    "development_stage": "released",
-    "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
-    "logo": "linphone.svg",
-    "name": "Linphone",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "privacy_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "ZRTP"
-    ],
-    "slug": "linphone",
-    "source_url": "https://www.linphone.org/eng/download/git.html",
-    "tos_url": "",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
-  },
-  {
-    "categories": [
-      {
         "name": "BSD",
         "subcategories": [
           "Email Addons",

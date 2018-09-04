@@ -208,13 +208,6 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/LibreCMC"
   },
   {
-    "description": "Client vidéo et audio chiffré.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Linphone"
-  },
-  {
     "description": "Chiffrement OpenPGP pour webmail.",
     "slug": "mailvelope",
     "url": "http://www.mailvelope.com/",
