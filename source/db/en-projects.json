@@ -1086,67 +1086,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "description": "Cross-platform soft switch software with SIP support.",
-    "development_stage": "released",
-    "license_url": "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true",
-    "logo": "freeswitch.png",
-    "name": "FreeSWITCH",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SIP"
-    ],
-    "slug": "freeswitch",
-    "source_url": "http://fisheye.freeswitch.org/browse/freeswitch.git",
-    "tos_url": "",
-    "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Mesh Networks"
