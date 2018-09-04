@@ -512,7 +512,7 @@ exports.projects-rejected =
         subcategories: ["Disk Encryption"]
     ]
 
-  * logo: "trillian.png"
+  * logo: "trillian.svg"
     name: "Trillian"
     categories: [
       * name: "Android"
