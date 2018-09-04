@@ -60,11 +60,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/S/MIME"
   },
   {
-    "description": "O Protocolo de Iniciação de Sessão (Session Initiation Protocol - SIP) é um protocolo de código aberto de aplicação, que utiliza o modelo 'requisição-resposta', similar ao HTTP, para iniciar sessões de comunicação interativa entre utilizadores.",
-    "slug": "sip",
-    "wikipedia_url": "https://pt.wikipedia.org/wiki/Session_Initiation_Protocol"
-  },
-  {
     "description": "Transport Layer Security (TLS) and its predecessor, Secure Sockets Layer (SSL), are cryptographic protocols which are designed to provide communication security over the Internet. They use X.509 certificates and hence asymmetric cryptography to assure the counterparty whom they are talking with, and to exchange a symmetric key. This session key is then used to encrypt data flowing between the parties. This allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication.",
     "slug": "ssl-tls",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Transport_Layer_Security"
