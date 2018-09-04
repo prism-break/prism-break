@@ -142,9 +142,3 @@ serve:
 .PHONY: watch_css
 watch_css:
 	npx stylus -c -u nib -w source/stylesheets/screen.styl -o public/assets/css/
-
-# copy ./public to another repository and commit changes
-.PHONY: sync
-sync: all
-	rsync -azru --delete --stats public/ ../prism-break-static/public/
-	(cd ../prism-break-static; git add -A; git commit -m 'regenerate'; git push)
