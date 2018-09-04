@@ -613,7 +613,7 @@ exports.projects-rejected =
         subcategories: ["Productivity"]
     ]
 
-  * logo: "roboform.png"
+  * logo: "roboform.svg"
     name: "Roboform"
     categories: [
       * name: "Windows"
