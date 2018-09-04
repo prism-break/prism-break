@@ -130,13 +130,6 @@
     "wikipedia_url": "https://it.wikipedia.org/wiki/Ejabberd"
   },
   {
-    "description": "Strumento di crittografia basato sui file con supporto per Linux, Mac OS e Windows.",
-    "notes": "EncFS è disponibile per Windows grazie al port “encfs4win”.",
-    "slug": "encfs",
-    "url": "https://vgough.github.io/encfs/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/EncFS"
-  },
-  {
     "description": "Plugin per Thunderbird e Icedove con supporto OpenPGP.",
     "notes": "[Qua si trova una guida](https://securityinabox.org/en/guide/thunderbird/linux/) di Security In A Box per cifrare le tue email con Mozilla Thunderbird, GNU Privacy Guard (GPG) ed Enigmail. Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
     "slug": "enigmail",

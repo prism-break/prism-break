@@ -822,61 +822,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd"
   },
   {
-    "audit": {
-      "author": "Taylor Hornby",
-      "date": "2014-01-14",
-      "description": "EncFS is probably safe as long as the adversary only gets one copy of the ciphertext and nothing more. EncFS is not safe if the adversary has the opportunity to see two or more snapshots of the ciphertext at different times. EncFS attempts to protect files from malicious modification, but there are serious problems with this feature.",
-      "development_stage": "released",
-      "rating": "0",
-      "url": "https://defuse.ca/audits/encfs.htm"
-    },
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "description": "File based encryption tool with support for GNU/Linux, macOS and Windows.",
-    "development_stage": "released",
-    "license_url": "https://github.com/vgough/encfs/blob/master/COPYING",
-    "logo": "encfs.png",
-    "name": "encfs",
-    "notes": "EncFS is available for Windows through the “encfs4win” port.",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "encfs",
-    "source_url": "https://github.com/vgough/encfs",
-    "tos_url": "",
-    "url": "https://vgough.github.io/encfs/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/EncFS"
-  },
-  {
     "categories": [
       {
         "name": "BSD",

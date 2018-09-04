@@ -130,13 +130,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd"
   },
   {
-    "description": "Tiedostopohjainen salaustyökalu Linux, Mac OS ja Windows käyttöjärjestelmiin.",
-    "notes": "EncFS on saatavilla Windowsille “encfs4win” portattuna.",
-    "slug": "encfs",
-    "url": "https://vgough.github.io/encfs/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/EncFS"
-  },
-  {
     "description": "OpenPGP-lisäosa Thunderbirdille ja Icedovelle.",
     "notes": "[Tässä](https://securityinabox.org/en/guide/thunderbird/linux/) on Security In A Box:n opas sähköpostin salaamiseen Mozilla Thunderbird:illa yhdessä GNU Privacy Guard:in (GPG) ja and Enigmail:in kanssa. Lue myös Free Software Foundation toimittama [sähköpostin itsepuolustusopas](https://emailselfdefense.fsf.org) oppiaksesi miten sähköpostit salataan.",
     "slug": "enigmail",
