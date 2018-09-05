@@ -83,13 +83,13 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Productivity"
+          "Collaboration"
         ]
       },
       {
         "name": "Web Services",
         "subcategories": [
-          "Productivity"
+          "Collaboration"
         ]
       }
     ],
@@ -607,13 +607,19 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Collaboration"
+        ]
+      },
+      {
         "name": "Web Services",
         "subcategories": [
-          "Productivity"
+          "Collaboration"
         ]
       }
     ],
-    "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
+    "description": "Real-time collaborative docs.",
     "development_stage": "released",
     "license_url": "https://github.com/xwiki-labs/cryptpad/blob/master/LICENSE",
     "logo": "cryptpad.svg",
@@ -1479,11 +1485,11 @@
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "Collaboration"
         ]
       }
     ],
-    "description": "Self hosted git server.",
+    "description": "Complete Git forge suite.",
     "development_stage": "released",
     "license_url": "https://raw.github.com/gitlabhq/gitlabhq/master/LICENSE",
     "logo": "gitlab.svg",
@@ -1594,11 +1600,11 @@
       {
         "name": "Servers",
         "subcategories": [
-          "File Storage & Sync"
+          "Collaboration"
         ]
       }
     ],
-    "description": "Painless self-hosted Git forge.",
+    "description": "Painless GitHub-like Git forge.",
     "development_stage": "released",
     "license_url": "https://github.com/go-gitea/gitea/blob/master/LICENSE",
     "logo": "gitea.svg",
