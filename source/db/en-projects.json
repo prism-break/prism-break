@@ -4764,6 +4764,45 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "OS X",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "description": "Anonymous file transfer.",
+    "development_stage": "released",
+    "license_url": "https://github.com/micahflee/onionshare/blob/develop/LICENSE",
+    "logo": "onionshare.svg",
+    "name": "OnionShare",
+    "protocols": [
+      "Tor"
+    ],
+    "slug": "onionshare",
+    "source_url": "https://github.com/micahflee/onionshare",
+    "url": "https://onionshare.org"
+  },
+  {
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
           "Media Publishing",
           "Productivity"
         ]
