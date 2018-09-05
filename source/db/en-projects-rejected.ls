@@ -569,9 +569,9 @@ exports.projects-rejected =
     name: "Viscosity"
     categories: [
       * name: "macOS"
-        subcategories: ["VPN Clients"]
+        subcategories: ["VPN"]
       * name: "Windows"
-        subcategories: ["VPN Clients"]
+        subcategories: ["VPN"]
     ]
 
   * logo: "whatsapp.svg"
@@ -850,20 +850,20 @@ exports.projects-rejected =
     name: "TunSafe"
     categories: [
       * name: "Windows"
-        subcategories: ["VPN Clients"]
+        subcategories: ["VPN"]
     ]
 
   * logo: "cisco.svg"
     name: "Cisco VPN"
     categories: [
       * name: "Android"
-        subcategories: ["VPN Clients"]
+        subcategories: ["VPN"]
       * name: "GNU/Linux"
-        subcategories: ["VPN Clients"]
+        subcategories: ["VPN"]
       * name: "iOS"
-        subcategories: ["VPN Clients"]
+        subcategories: ["VPN"]
       * name: "macOS"
-        subcategories: ["VPN Clients"]
+        subcategories: ["VPN"]
       * name: "Windows"
-        subcategories: ["VPN Clients"]
+        subcategories: ["VPN"]
     ]
