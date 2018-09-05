@@ -5027,6 +5027,25 @@
   {
     "categories": [
       {
+        "name": "Windows",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "description": "Deniable disk encryption.",
+    "development_stage": "released",
+    "license_url": "https://www.veracrypt.fr/code/VeraCrypt/tree/License.txt",
+    "logo": "veracrypt.svg",
+    "name": "VeraCrypt",
+    "protocols": [],
+    "slug": "veracrypt",
+    "source_url": "https://www.veracrypt.fr/code/",
+    "url": "https://www.veracrypt.fr"
+  },
+  {
+    "categories": [
+      {
         "name": "Servers",
         "subcategories": [
           "Media Publishing"
