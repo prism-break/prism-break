@@ -131,13 +131,6 @@
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Ejabberd"
   },
   {
-    "description": "Утилита для шифрования файлов под Linux, Mac OS и Windows.",
-    "notes": "EncFS доступна под Windows в рамках порта “encfs4win”.",
-    "slug": "encfs",
-    "url": "https://vgough.github.io/encfs/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/EncFS"
-  },
-  {
     "description": "Дополнение для OpenPGP шифрования почты для Thunderbird и Icedove",
     "notes": "[Здесь находится инструкция](https://securityinabox.org/ru/thunderbird_main) от Security In A Box, описывающая как шифровать свою электронную почту с помощью Mozilla Thunderbird, GNU Privacy Guard (GPG) и Enigmail. Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
     "slug": "enigmail",
