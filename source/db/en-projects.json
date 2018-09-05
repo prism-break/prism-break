@@ -1027,36 +1027,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Clients"
-        ]
-      }
-    ],
-    "description": "Email, address book, and calendar application for the GNOME desktop with PGP support.",
-    "development_stage": "released",
-    "license_url": "https://git.gnome.org/browse/evolution/tree/COPYING",
-    "logo": "evolution.svg",
-    "name": "Evolution",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "CalDAV",
-      "GPG",
-      "RSS",
-      "S/MIME",
-      "SSL/TLS",
-      "WebDAV"
-    ],
-    "slug": "evolution",
-    "source_url": "https://projects.gnome.org/evolution/git.shtml",
-    "tos_url": "",
-    "url": "https://projects.gnome.org/evolution/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Evolution_%28software%29"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "App Store"
@@ -2273,40 +2243,6 @@
     "tos_url": "https://kolabnow.com/tos",
     "url": "https://kolabnow.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab"
-  },
-  {
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Clients"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Clients"
-        ]
-      }
-    ],
-    "description": "Email, address books, calendars, and more for the K Desktop Environment (KDE) with PGP support.",
-    "development_stage": "released",
-    "license_url": "https://projects.kde.org/projects/kde/kdepim/repository/revisions/master/entry/COPYING",
-    "logo": "kontact.svg",
-    "name": "Kontact",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG",
-      "RSS",
-      "S/MIME",
-      "SSL/TLS"
-    ],
-    "slug": "kontact",
-    "source_url": "https://www.kde.org/applications/office/kontact/development",
-    "tos_url": "",
-    "url": "https://userbase.kde.org/Kontact",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kontact"
   },
   {
     "categories": [
