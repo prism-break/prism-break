@@ -372,13 +372,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin"
   },
   {
-    "description": "元搜索引擎，代理你的请求到多个搜索服务提供商。",
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
-    "slug": "metager",
-    "url": "https://metager.de/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer"
-  },
-  {
     "description": "基于 Prosody 的 XMPP 服务端，有许多高级的管理和微博客功能。",
     "slug": "metronome",
     "url": "https://metronome.im",
@@ -701,13 +694,6 @@
     "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
-  },
-  {
-    "description": "保护隐私，并返回中立的搜索结果的元搜索引擎。",
-    "notes": "Unbubble 是来自德国的搜索引擎，提供八种语言的结果。它的主要目标是提供中立的搜索结果。它采用强有力的措施来保护隐私。",
-    "slug": "unbubble",
-    "url": "https://unbubble.eu",
-    "wikipedia_url": ""
   },
   {
     "description": "Client-side encrypted image host web server.",

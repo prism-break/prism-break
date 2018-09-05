@@ -371,13 +371,6 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/MediaGoblin"
   },
   {
-    "description": "Moteur de recherche qui effectue vos requête sur plusieurs fournisseurs de recherches.",
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
-    "slug": "metager",
-    "url": "https://metager.de/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer"
-  },
-  {
     "description": "Serveur XMPP basé sur Prosody avec des fonctionnalités avancées de gestion/microblogging.",
     "slug": "metronome",
     "url": "https://metronome.im",
@@ -698,13 +691,6 @@
     "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
-  },
-  {
-    "description": "Meta search engine that protects privacy and intends to return neutral search results.",
-    "notes": "Unbubble is a web search engine from Germany providing results in eight languages. Its primary goal is to create neutral search results. It takes strong measures to protect privacy.",
-    "slug": "unbubble",
-    "url": "https://unbubble.eu",
-    "wikipedia_url": ""
   },
   {
     "description": "Client-side encrypted image host web server.",

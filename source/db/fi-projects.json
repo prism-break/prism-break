@@ -372,13 +372,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin"
   },
   {
-    "description": "Metahakukone joka toimii välityspalveluna lukuisten palveluiden hakutuloksille.",
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
-    "slug": "metager",
-    "url": "https://metager.de/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer"
-  },
-  {
     "description": "Prosodyyn perustuva XMPP palvelin, edistyneillä hallinta- ja mikrobloggausominaisuuksilla.",
     "slug": "metronome",
     "url": "https://metronome.im",
@@ -701,13 +694,6 @@
     "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
-  },
-  {
-    "description": "Metahakukone joka suojaa yksityisyyttä ja pyrkii palauttamaan neutraaleja hakutuloksia.",
-    "notes": "Unbubble on salsalainen verkkohakukone, joka tarjoaa tuloksia kahdeksalla kielellä. Sen pääasiallinen tavoite on luoda neutraaleja hakutuloksia. Unbubble ei omien sanojensa mukaan kerää käyttäjistään lainkaan tietoa.",
-    "slug": "unbubble",
-    "url": "https://unbubble.eu",
-    "wikipedia_url": ""
   },
   {
     "description": "Client-side encrypted image host web server.",

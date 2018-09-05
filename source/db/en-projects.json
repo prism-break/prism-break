@@ -2572,31 +2572,6 @@
   {
     "categories": [
       {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "description": "Meta search engine that proxies your queries to multiple search providers.",
-    "development_stage": "released",
-    "license_url": "https://gitlab.metager3.de/open-source/MetaGer/blob/development/LICENSE",
-    "logo": "metager.svg",
-    "name": "MetaGer",
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
-    "privacy_url": "https://metager.de/en/datenschutz",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "metager",
-    "source_url": "https://gitlab.metager3.de/open-source/MetaGer",
-    "tos_url": "",
-    "url": "https://metager.de/en/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MetaGer"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "XMPP Servers"
@@ -4702,31 +4677,6 @@
     "tos_url": "",
     "url": "https://github.com/gorhill/uBlock",
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
-  },
-  {
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "description": "Meta search engine that protects privacy and intends to return neutral search results.",
-    "development_stage": "experimental",
-    "license_url": "",
-    "logo": "unbubble.png",
-    "name": "Unbubble",
-    "notes": "Unbubble is a web search engine from Germany providing results in eight languages. Its primary goal is to create neutral search results. It takes strong measures to protect privacy.",
-    "privacy_url": "https://unbubble.eu/info/terms#data",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "unbubble",
-    "source_url": "",
-    "tos_url": "https://unbubble.eu/info/terms",
-    "url": "https://unbubble.eu",
-    "wikipedia_url": ""
   },
   {
     "categories": [

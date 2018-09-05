@@ -372,13 +372,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin"
   },
   {
-    "description": "Meta-Suchmaschine, die Deine Suchanfrage an verschiedene Suchanbieter weiterleitet.",
-    "notes": "No use of Cookies, Session IDs or anything else. Free Proxy, server side anonymisation of IP addresses, Tor branch.",
-    "slug": "metager",
-    "url": "https://metager.de",
-    "wikipedia_url": "https://de.wikipedia.org/wiki/MetaGer"
-  },
-  {
     "description": "Auf Prosody basierender XMPP-Server mit umfangreichen Management- und Microblogging-Funktionen.",
     "slug": "metronome",
     "url": "https://metronome.im",
@@ -700,13 +693,6 @@
     "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
-  },
-  {
-    "description": "Websuche, die besonders neutrale Suchergebnisse liefert und die Privatsphäre schützt.",
-    "notes": "Unbubble ist eine Internet-Suchmaschine aus Deutschland mit Unterstützung für 8 Sprachen. Sie hat zum Ziel, möglichst neutrale Suchergebnisse zu erzeugen. Datenschutz und Privatsphäre werden durch verschiedene Maßnahmen sichergestellt, über die auf der Website ausführlich informiert wird.",
-    "slug": "unbubble",
-    "url": "https://unbubble.eu",
-    "wikipedia_url": ""
   },
   {
     "description": "Client-side encrypted image host web server.",
