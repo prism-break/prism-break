@@ -2,6 +2,37 @@
   {
     "categories": [
       {
+        "name": "macOS",
+        "subcategories": [
+	  "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+	  "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+	  "File Storage & Sync"
+        ]
+      }
+    ],
+    "description": "Client-side encrypted Tahoe-LAFS file sync.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/gridsync/gridsync/blob/master/LICENSE",
+    "logo": "gridsync.svg",
+    "name": "Gridsync",
+    "protocols": [],
+    "slug": "gridsync",
+    "source_url": "https://github.com/gridsync/gridsync",
+    "url": "https://github.com/gridsync/gridsync"
+  },
+  {
+    "categories": [
+      {
         "name": "Android",
         "subcategories": [
           "News"
