@@ -2,6 +2,37 @@
   {
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "News"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "News"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "News"
+        ]
+      }
+    ],
+    "description": "RSS feed reader.",
+    "license_url": "",
+    "logo": "tt-rss.svg",
+    "name": "Tiny Tiny RSS",
+    "protocols": [],
+    "slug": "tt-rss",
+    "source_url": "https://git.tt-rss.org/fox",
+    "url": "https://tt-rss.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tiny_Tiny_RSS"
+  },
+  {
+    "categories": [
+      {
         "name": "Servers",
         "subcategories": [
           "Productivity"

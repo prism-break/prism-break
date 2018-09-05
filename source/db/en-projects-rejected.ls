@@ -281,6 +281,13 @@ exports.projects-rejected =
         subcategories: ["World Maps"]
     ]
 
+  * logo: "google-news.svg"
+    name: "Google News"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["News"]
+    ]
+
   * logo: "amazon-appstore.svg"
     name: "Amazon Appstore"
     categories: [
