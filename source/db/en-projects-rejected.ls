@@ -7,7 +7,7 @@ exports.projects-rejected =
     ]
 
   * logo: "apple-facetime.svg"
-    name: "Apple FaceTime"
+    name: "FaceTime"
     categories: [
       * name: "iOS"
         subcategories: ["Video & Voice"]
