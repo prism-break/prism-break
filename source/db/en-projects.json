@@ -2,6 +2,35 @@
   {
     "categories": [
       {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "description": "Backup tool with client-side encryption.",
+    "development_stage": "released",
+    "logo": "borgbackup.svg",
+    "name": "Borg",
+    "protocols": [],
+    "slug": "borgbackup",
+    "url": "https://www.borgbackup.org"
+  },
+  {
+    "categories": [
+      {
         "name": "Web Services",
         "subcategories": [
           "File Storage & Sync"
