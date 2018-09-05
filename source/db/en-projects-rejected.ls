@@ -818,25 +818,11 @@ exports.projects-rejected =
         subcategories: ["IRC"]
     ]
 
-  * logo: "cyberghost.svg"
-    name: "CyberGhost"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["VPN Accounts"]
-    ]
-
   * logo: "hola.svg"
     name: "Hola!"
     categories: [
       * name: "Web Services"
-        subcategories: ["VPN Accounts"]
-    ]
-
-  * logo: "hotspot-shield.svg"
-    name: "Hotspot Shield"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["VPN Accounts"]
+        subcategories: ["VPN"]
     ]
 
   * logo: "opendns.svg"
