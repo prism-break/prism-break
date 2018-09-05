@@ -14,6 +14,8 @@ mixin project-card(project)
       .tags
         if tagService !== ""
           .tag= tagService
+        if project.nonfree
+          .tag.red= t.Nonfree
         if project.audit
           if project.audit.rating == 1
             .tag.yellow= t.Audited
@@ -34,6 +36,8 @@ mixin project-card-all(project)
       .title= project.name
       .small!= h.truncate(project.description, 140)
       .tags
+        if project.nonfree
+          .tag.red= t.Nonfree
         if project.audit
           if project.audit.rating == 1
             .tag.yellow= t.Audited
