@@ -4,7 +4,7 @@
       {
         "name": "Web Services",
         "subcategories": [
-	  "File Storage & Sync"
+          "File Storage & Sync"
         ]
       }
     ],
@@ -21,19 +21,19 @@
       {
         "name": "macOS",
         "subcategories": [
-	  "File Storage & Sync"
+          "File Storage & Sync"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-	  "File Storage & Sync"
+          "File Storage & Sync"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-	  "File Storage & Sync"
+          "File Storage & Sync"
         ]
       }
     ],
@@ -3713,29 +3713,6 @@
     "tos_url": "",
     "url": "http://pump.io/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pump.io"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "Instantly turn any server into a file sharing platform.",
-    "development_stage": "released",
-    "license_url": "https://github.com/pydio/pydio-core/blob/master/README.md",
-    "logo": "pydio.svg",
-    "name": "Pydio",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "pydio",
-    "source_url": "https://github.com/pydio/pydio-core",
-    "tos_url": "",
-    "url": "http://pyd.io/",
-    "wikipedia_url": ""
   },
   {
     "categories": [
