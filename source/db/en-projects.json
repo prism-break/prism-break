@@ -379,7 +379,7 @@
         ]
       }
     ],
-    "description": "OMEMO or OTR encrypted IM for iOS.",
+    "description": "XMPP client for iOS.",
     "development_stage": "released",
     "license_url": "https://chatsecure.org/developers/",
     "logo": "chatsecure.svg",
@@ -477,25 +477,21 @@
         ]
       }
     ],
-    "description": "Conversations is an open source XMPP/Jabber client for Android 4.0+ smart phones.",
+    "description": "XMPP client for Android.",
     "development_stage": "released",
     "license_url": "https://github.com/siacs/Conversations/blob/development/LICENSE",
     "logo": "conversations.svg",
     "name": "Conversations",
     "notes": "Conversations' one native code dependency on iNPUTmice is [discussed here](https://github.com/nylira/prism-break/issues/1659#issuecomment-269921269).",
-    "privacy_url": "",
     "protocols": [
       "XMPP",
       "OMEMO",
-      "OTR",
       "GPG",
       "SSL/TLS"
     ],
     "slug": "conversations",
     "source_url": "https://github.com/siacs/Conversations.git",
-    "tos_url": "",
-    "url": "https://github.com/siacs/Conversations",
-    "wikipedia_url": ""
+    "url": "https://github.com/siacs/Conversations"
   },
   {
     "categories": [
@@ -1359,7 +1355,7 @@
         ]
       }
     ],
-    "description": "Light and fast IM client for GNU/Linux and Windows—OTR support via plugin.",
+    "description": "XMPP client for desktop.",
     "development_stage": "released",
     "license_url": "https://trac.gajim.org/browser/COPYING",
     "logo": "gajim.svg",
@@ -3676,7 +3672,7 @@
         ]
       }
     ],
-    "description": "Multi-platform IM client for power users with built-in OTR support.",
+    "description": "XMPP client for power users.",
     "development_stage": "released",
     "license_url": "https://github.com/psi-plus/main/blob/master/copying-psi.txt",
     "logo": "psi-plus.svg",
@@ -4103,7 +4099,7 @@
         ]
       }
     ],
-    "description": "A fork of TextSecure with SMS encryption.",
+    "description": "SMS app with end-to-end encryption.",
     "development_stage": "released",
     "license_url": "https://github.com/SilenceIM/Silence/blob/master/LICENSE",
     "logo": "silence.svg",
