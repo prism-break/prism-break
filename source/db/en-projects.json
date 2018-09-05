@@ -4097,47 +4097,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "Self-hosted version control and file sync.",
-    "development_stage": "released",
-    "license_url": "https://github.com/hbons/SparkleShare/tree/master/legal",
-    "logo": "sparkleshare.svg",
-    "name": "SparkleShare",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "sparkleshare",
-    "source_url": "https://github.com/hbons/SparkleShare",
-    "tos_url": "",
-    "url": "http://sparkleshare.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/SparkleShare"
-  },
-  {
-    "categories": [
-      {
         "name": "Web Services",
         "subcategories": [
           "Web Search"
