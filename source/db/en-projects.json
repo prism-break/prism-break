@@ -572,29 +572,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "A personal PaaS you can host, hack and delete",
-    "development_stage": "released",
-    "license_url": "https://github.com/mycozycloud/cozy-setup/blob/master/LICENSE",
-    "logo": "cozy.svg",
-    "name": "Cozy",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "cozy",
-    "source_url": "https://github.com/mycozycloud/",
-    "tos_url": "",
-    "url": "http://cozy.io/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
         "name": "GNU/Linux",
         "subcategories": [
           "Instant Messaging"
