@@ -2,6 +2,23 @@
   {
     "categories": [
       {
+        "name": "Web Services",
+        "subcategories": [
+	  "File Storage & Sync"
+        ]
+      }
+    ],
+    "description": "S3-backed unlimited Tahoe-LAFS grid.",
+    "development_stage": "experimental",
+    "logo": "least-authority-s4.svg",
+    "name": "Least Authority S4",
+    "protocols": [],
+    "slug": "least-authority-s4.svg",
+    "url": "https://leastauthority.com/how-it-works"
+  },
+  {
+    "categories": [
+      {
         "name": "macOS",
         "subcategories": [
 	  "File Storage & Sync"
