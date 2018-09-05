@@ -824,7 +824,7 @@
         ]
       }
     ],
-    "description": "Anonymous, unlogged web searches.",
+    "description": "Independent no-tracking search engine.",
     "development_stage": "released",
     "license_url": "https://github.com/duckduckgo/duckduckgo/blob/master/LICENSE",
     "logo": "duckduckgo.svg",
@@ -4047,7 +4047,7 @@
         ]
       }
     ],
-    "description": "Privacy-respecting self-hostable metasearch engine.",
+    "description": "Metasearch engine.",
     "license_url": "https://github.com/asciimoo/searx/blob/master/LICENSE",
     "logo": "searx.svg",
     "name": "Searx",
@@ -4167,13 +4167,12 @@
         ]
       }
     ],
-    "description": "Private, unlogged web searches.",
+    "description": "No-tracking Google Search proxy.",
     "development_stage": "released",
     "license_url": "",
     "logo": "startpage.svg",
     "name": "StartPage",
     "nonfree": true,
-    "notes": "Startpage is a SaaS hosted in the USA and the Netherlands that provides you with anonymous Google search and image results through a free proxy.",
     "privacy_url": "https://startpage.com/eng/protect-privacy.html",
     "protocols": [
       "SSL/TLS"

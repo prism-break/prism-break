@@ -12,10 +12,10 @@ mixin project-card(project)
       .title= project.name
       .small!= h.truncate(project.description, 140)
       .tags
-        if tagService !== ""
-          .tag= tagService
         if project.nonfree
           .tag.red= t.Nonfree
+        if tagService !== ""
+          .tag= tagService
         if project.audit
           if project.audit.rating == 1
             .tag.yellow= t.Audited
