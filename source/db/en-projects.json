@@ -49,6 +49,7 @@
     "license_url": "",
     "logo": "least-authority-s4.svg",
     "name": "Least Authority S4",
+    "notes": "See <a href='/en/projects/tahoe-lafs'>Tahoe-LAFS security notes</a>.",
     "protocols": [],
     "slug": "least-authority-s4.svg",
     "source_url": "",
@@ -4218,17 +4219,15 @@
         ]
       }
     ],
-    "description": "Distributed least authority data store.",
+    "description": "Distributed least authority file store.",
     "development_stage": "released",
     "license_url": "https://github.com/tahoe-lafs/tahoe-lafs/blob/master/COPYING.GPL",
     "logo": "tahoe-lafs.svg",
     "name": "Tahoe-LAFS",
-    "notes": "",
-    "privacy_url": "",
+    "notes": "<a href='https://leastauthority.com/blog/least-authority-presents-a-new-comic/'>Read a comic</a> that explains security model of Tahoe-LAFS and <a href='https://en.wikipedia.org/wiki/Principle_of_least_privilege'>principle of least authority</a>.",
     "protocols": [],
     "slug": "tahoe-lafs",
     "source_url": "https://github.com/tahoe-lafs/tahoe-lafs",
-    "tos_url": "",
     "url": "https://tahoe-lafs.org/trac/tahoe-lafs",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tahoe-LAFS"
   },
