@@ -1484,55 +1484,6 @@
   {
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Anonymizing Networks"
-        ]
-      }
-    ],
-    "description": "GNUnet is a fully free P2P network.",
-    "development_stage": "released",
-    "license_url": "https://gnunet.org/svn/gnunet/COPYING",
-    "logo": "gnunet.svg",
-    "name": "GNUnet",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "gnunet",
-    "source_url": "https://gnunet.org/subversion",
-    "tos_url": "",
-    "url": "https://gnunet.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Collaboration"
