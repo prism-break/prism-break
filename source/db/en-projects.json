@@ -1550,31 +1550,6 @@
   {
     "categories": [
       {
-        "name": "macOS",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "description": "OpenPGP add-on for Apple macOS Mail.",
-    "development_stage": "released",
-    "license_url": "https://github.com/GPGTools/MacGPG2/blob/dev/LICENSE.txt",
-    "logo": "gpgtools.png",
-    "name": "GPGTools",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "slug": "gpgtools",
-    "source_url": "https://gpgtools.org/opensource.html",
-    "tos_url": "",
-    "url": "https://gpgtools.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GPGTools"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Mesh Networks"
