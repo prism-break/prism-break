@@ -2,6 +2,24 @@
   {
     "categories": [
       {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "description": "Localhost tunneling service.",
+    "license_url": "https://github.com/pagekite/PyPagekite/blob/main/COPYING",
+    "logo": "pagekite.svg",
+    "name": "PageKite",
+    "protocols": [],
+    "slug": "pagekite",
+    "source_url": "https://github.com/pagekite",
+    "url": "https://pagekite.net"
+  },
+  {
+    "categories": [
+      {
         "name": "Servers",
         "subcategories": [
           "File Storage & Sync"
