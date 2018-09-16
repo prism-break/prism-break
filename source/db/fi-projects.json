@@ -162,12 +162,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "Freenet on vapaa ohjelmisto jolla voi jakaa anonyymisti tiedostoja, ja jolla voi selata ja julkaista verkkosivuja Freenetin sisällä, sekä keskustella foorumeilla, sensuurivapaasti. Freenet on hajautettu ja “darknet” asetuksella, jossa ystävät yhdistävät toisiinsa, erittäin vaikea havaita.",
-    "slug": "freenet",
-    "url": "https://freenetproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Freenet"
-  },
-  {
     "description": "FreeOTP is a two-factor authentication application for systems utilizing one-time password protocols.",
     "notes": "FreeOTP adds a second layer of security for your online accounts. This works by generating one-time passwords on your mobile devices which can be used in conjunction with your normal password to make your login nearly impossible to hack.",
     "slug": "freeotp",
@@ -221,12 +215,6 @@
     "slug": "gnu-privacy-guard",
     "url": "http://www.gnupg.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
-  },
-  {
-    "description": "GNUnet on täysin vapaa P2P verkko.",
-    "slug": "gnunet",
-    "url": "https://gnunet.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet"
   },
   {
     "description": "Gpg4win on asennuspaketti Windowsille (XP, Vista, 7 and 8), joka sisältää työkaluja sekä Saksan tietoturvaviraston käyttöohjeita sähköpostin ja tiedostojen salaamiseen. Gpg4win ja sen kaikki työkalut ovat vapaita ja avointa lähdekoodia. Ohjelmisto käyttää pääasiallisesti julkisen avaimen kryptografiaa tiedostojen salaamiseen sekä digitaalisiin allekirjoituksiin.",

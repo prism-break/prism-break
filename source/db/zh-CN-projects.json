@@ -162,12 +162,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "去中心化的抗审查网络。",
-    "slug": "freenet",
-    "url": "https://freenetproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Freenet"
-  },
-  {
     "description": "FreeOTP 是一个使用动态密码的两步验证应用。",
     "notes": "FreeOTP 为你的网络账号安全增加了第二层保护。它的工作原理是应用在你的手机设备上生成动态密码，登录网络账号时输入正常密码并配合使用动态密码，这使得你的账号几乎不可能被入侵。",
     "slug": "freeotp",
@@ -221,12 +215,6 @@
     "slug": "gnu-privacy-guard",
     "url": "http://www.gnupg.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
-  },
-  {
-    "description": "GNUnet 是一个完全自由的 P2P 网络。",
-    "slug": "gnunet",
-    "url": "https://gnunet.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet"
   },
   {
     "description": "出自德国信息安全局的 Windows 下的信息和文件加密工具（支持 XP，Vista，win7 和 win8）。Gpg4win 本身和 Gpg4win 所有的工具均是自由和开源软件。该软件主要用于数据加密和数字签名的公钥加密。",

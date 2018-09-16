@@ -157,12 +157,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "विकेन्द्रित सेंसरशिप प्रतिरोधी नेटवर्क.",
-    "slug": "freenet",
-    "url": "https://freenetproject.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Freenet"
-  },
-  {
     "description": "FreeOTP is a two-factor authentication application for systems utilizing one-time password protocols.",
     "notes": "FreeOTP adds a second layer of security for your online accounts. This works by generating one-time passwords on your mobile devices which can be used in conjunction with your normal password to make your login nearly impossible to hack.",
     "slug": "freeotp",
@@ -216,12 +210,6 @@
     "slug": "gnu-privacy-guard",
     "url": "http://www.gnupg.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
-  },
-  {
-    "description": "GNUnet is a fully free P2P network.",
-    "slug": "gnunet",
-    "url": "https://gnunet.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNUnet"
   },
   {
     "description": "Gpg4win is an installation package for Windows (XP, Vista, 7 and 8) with software tools and manuals for email and file encryption on behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.",
