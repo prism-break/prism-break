@@ -4068,41 +4068,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Operating Systems"
-        ]
-      }
-    ],
-    "description": "An OS that is designed to be resistant to network-borne exploit and malware attacks.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/subgraph/oz/blob/master/LICENSE",
-    "logo": "subgraph-os.png",
-    "name": "Subgraph OS",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "subgraph-os",
-    "source_url": "https://github.com/subgraph",
-    "tos_url": "",
-    "url": "https://subgraph.com",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Subgraph_(operating_system)"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "File Storage & Sync"
