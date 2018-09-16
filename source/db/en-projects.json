@@ -2480,31 +2480,6 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "description": "Decentralized media publishing platform.",
-    "development_stage": "released",
-    "license_url": "https://git.savannah.gnu.org/cgit/mediagoblin.git/tree/COPYING",
-    "logo": "mediagoblin.svg",
-    "name": "MediaGoblin",
-    "notes": "MediaGoblin does not encrypt any of your data by default.",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "mediagoblin",
-    "source_url": "https://git.savannah.gnu.org/cgit/mediagoblin.git",
-    "tos_url": "",
-    "url": "http://mediagoblin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MediaGoblin"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
           "XMPP Servers"
         ]
       }
