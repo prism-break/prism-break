@@ -2,6 +2,30 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+	  "Video & Voice"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+	  "Video & Voice"
+        ]
+      }
+    ],
+    "description": "In-browser video conferences.",
+    "license_url": "https://github.com/jitsi/jitsi-meet/blob/master/LICENSE",
+    "logo": "jitsi-meet.svg",
+    "name": "Jitsi Meet",
+    "protocols": [],
+    "slug": "jitsi-meet",
+    "source_url": "https://github.com/jitsi/jitsi-meet",
+    "url": "https://meet.jit.si"
+  },
+  {
+    "categories": [
+      {
         "name": "Web Services",
         "subcategories": [
           "Media Publishing"
