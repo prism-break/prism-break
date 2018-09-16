@@ -1525,31 +1525,6 @@
   {
     "categories": [
       {
-        "name": "Windows",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "description": "Email and file encryption for Windows (XP, Vista, 7 and 8) behalf of the German Information Security Agency. Gpg4win itself and all tools of Gpg4win are free and open source software. The software mainly uses public-key cryptography for data encryption and digital signatures.",
-    "development_stage": "released",
-    "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=COPYING;h=623b6258a134210f0b0ada106fdaab7f0370d9c5;hb=HEAD",
-    "logo": "gpg4win.svg",
-    "name": "Gpg4win",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "slug": "gpg4win",
-    "source_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary",
-    "tos_url": "",
-    "url": "http://www.gpg4win.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gpg4win"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Mesh Networks"
