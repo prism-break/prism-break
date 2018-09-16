@@ -4449,25 +4449,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Media Publishing"
+	  "File Sharing"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Media Publishing"
+	  "File Sharing"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Media Publishing"
+	  "File Sharing"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Media Publishing"
+	  "File Sharing"
         ]
       }
     ],
@@ -4488,36 +4488,31 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Media Publishing",
-          "Productivity"
+	  "File Sharing"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Media Publishing",
-          "Productivity"
+	  "File Sharing"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Media Publishing",
-          "Productivity"
+	  "File Sharing"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Media Publishing",
-          "Productivity"
+	  "File Sharing"
         ]
       },
       {
         "name": "Servers",
         "subcategories": [
-          "Media Publishing",
-          "Productivity"
+          "File Sharing"
         ]
       }
     ],
