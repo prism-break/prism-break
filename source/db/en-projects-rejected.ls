@@ -832,13 +832,6 @@ exports.projects-rejected =
         subcategories: ["DNS"]
     ]
 
-  * logo: "tunsafe.svg"
-    name: "TunSafe"
-    categories: [
-      * name: "Windows"
-        subcategories: ["VPN"]
-    ]
-
   * logo: "cisco.svg"
     name: "Cisco VPN"
     categories: [
