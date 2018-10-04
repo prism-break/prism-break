@@ -2156,59 +2156,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Finance"
-        ]
-      }
-    ],
-    "description": "Peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
-    "logo": "litecoin.svg",
-    "name": "Litecoin",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "litecoin",
-    "source_url": "https://github.com/litecoin-project/litecoin",
-    "tos_url": "",
-    "url": "https://litecoin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin"
-  },
-  {
-    "categories": [
-      {
         "name": "BSD",
         "subcategories": [
           "Email Encryption",
