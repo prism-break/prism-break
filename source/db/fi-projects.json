@@ -22,13 +22,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "P2P-pohjainen, maailmanlaajuisesti hajautettu valuutta.",
-    "notes": "Huomaa, että uudet digitaaliset valuutat saattavat olla arvaamattomia. Investointi saatetaan menettää monista syistä (ohjelmistovirheet, identiteettivarkaudet jne). Ole varuillasi!",
-    "slug": "bitcoin",
-    "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin"
-  },
-  {
     "description": "Salattu, ja hajautettu P2P viestintäpalvelu, jonka teknologia pohjautuu Bitcoiniin.",
     "notes": "Bitmessage on lupaava vaihtoehto sähköpostille, mutta tietoturva-alan asiantuntijat eivät ole vielä auditoineet sitä. Käytä ohjelmaa omalla vastuulla. Jos päätät kokeilla Bitmessagea, varmista että luot täysin satunnaisen ID:n välttääksesi ID-tunnusten yhteentörmäyksen.",
     "slug": "bitmessage",

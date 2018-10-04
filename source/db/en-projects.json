@@ -300,59 +300,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Finance"
-        ]
-      }
-    ],
-    "description": "P2P digital currency with no central authority.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
-    "logo": "bitcoin.svg",
-    "name": "Bitcoin",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "bitcoin",
-    "source_url": "https://github.com/bitcoin/bitcoin",
-    "tos_url": "",
-    "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin"
-  },
-  {
-    "categories": [
-      {
         "name": "GNU/Linux",
         "subcategories": [
           "Email Alternatives"
@@ -4449,25 +4396,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       }
     ],
@@ -4488,25 +4435,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {

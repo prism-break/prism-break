@@ -21,13 +21,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Merkezi otoritesi olmayan P2P dijital para birimi.",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "slug": "bitcoin",
-    "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin"
-  },
-  {
     "description": "Bitcoin teknolojisi tabanlı şifreli, merkezsiz P2P mesajlaşma servisi.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
