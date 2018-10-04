@@ -2383,17 +2383,15 @@
         ]
       }
     ],
-    "description": "Monero is a secure, private, untraceable P2P currency.",
+    "description": "Secure, private, untraceable P2P currency.",
     "development_stage": "experimental",
     "license_url": "https://github.com/monero-project/monero/blob/master/LICENSE",
     "logo": "monero.svg",
     "name": "Monero",
-    "notes": "Please note that new, digital currencies may be volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "privacy_url": "https://getmonero.org/legal/privacy",
+    "notes": "New digital currencies may be volatile. Complete loss of your investment is possible for a number of reasons (such as software errors, attacks, identity theft). Be prepared!",
     "protocols": [],
     "slug": "monero",
     "source_url": "https://github.com/monero-project/monero",
-    "tos_url": "",
     "url": "https://getmonero.org",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Monero_(cryptocurrency)"
   },
