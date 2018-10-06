@@ -1425,7 +1425,7 @@
     "license_url": "https://git-annex.branchable.com/license/",
     "logo": "git-annex.svg",
     "name": "git-annex",
-    "notes": "Read about <a href='https://git-annex.branchable.com/encryption/'>encryption on git-annex wiki</a> for details. MAC algorithm defaults to SHA-1, which is insecure: make sure to pass <code>mac=HMACSHA384</code> when initializing a new remote.",
+    "notes": "Read about <a href='https://git-annex.branchable.com/encryption/'>encryption on git-annex wiki</a> for details. MAC algorithm defaults to SHA-1, which is insecure: make sure to pass <code>mac=HMACSHA512</code> when initializing a new remote.",
     "protocols": [
       "GPG"
     ],
