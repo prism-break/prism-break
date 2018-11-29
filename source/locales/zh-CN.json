@@ -171,7 +171,7 @@
   "email-encryption-notes": "<p>“良好隐私加密算法（PGP）是用于数据加密和解密的程序，它提供了通信数据的加密和验证。 PGP常被用于数字签名、加密和解密，可用于文本、电子邮件、文件、目录和整个磁盘分区，以增加电子邮件通信的安全性。”</p><p>— 维基百科（<a href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy'>英文</a> | <a href='https://zh.wikipedia.org/wiki/%E8%89%AF%E5%A5%BD%E9%9A%B1%E7%A7%81%E5%AF%86%E7%A2%BC%E6%B3%95'>中文</a>）</p><p>阅读自由软件基金会撰写的<a href='https://emailselfdefense.fsf.org/'>电子邮件自我保护教程</a>，了解更多关于加密电邮的信息。</p>",
   "enterprise-suite-notes": "“企业套件”分类中列出了一些适合公司或组织使用的软件套装，往往是包含了10种以上不同种类工具的合集（大都支持统一登录等特性）。",
   "file-storage-sync-notes": "<p>为什么不用 MEGA？虽然 MEGA 也是免费的，但软件是专有的。</p><p>为什么不用 SpiderOak？SpiderOak 是专有软件。</p><p>为什么不用 Tarsnap？Tarsnap 部分是专有的并且把你的数据放在 Amazon Web Services。</p>",
-  "finance-notes": "<p><strong>Bitcoin</strong> 数据库链是去中心化的，比特币网络中所有交易都是公开的。</p><p>“这是 TCP/ip-网络里面的钱” —Paul Buchheit</p>",
+  "finance-notes": "",
   "firmware-notes": "libreCMC 是由自由软件基金会支持的 OpenWrt 衍生产品，移除了其中的非自由授权的部件。如果你的设备支持 libreCMC，那没有任何疑问，赶紧换掉 OpenWrt 吧！",
   "friendly defaults": "设定友好",
   "fsf-definition-title": "*本网站使用 <strong>自由软件基金会</strong> 的自由软件定义",
