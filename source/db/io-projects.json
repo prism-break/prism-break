@@ -18,13 +18,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Digitala samtavola pekunio sen centrala autoritato.",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "slug": "bitcoin",
-    "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin"
-  },
-  {
     "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
@@ -303,13 +296,6 @@
     "slug": "linphone",
     "url": "https://www.linphone.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
-  },
-  {
-    "description": "Litecoin (sign : Ł ; code : LTC) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "slug": "litecoin",
-    "url": "https://litecoin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin"
   },
   {
     "description": "Chifrado OpenPGP por enlinea e-posti.",

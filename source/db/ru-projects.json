@@ -23,13 +23,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "P2P электронная валюта без централизованного управления.",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "slug": "bitcoin",
-    "url": "http://bitcoin.org/ru/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Bitcoin"
-  },
-  {
     "description": "Децентрализованный P2P сервис передачи зашифрованных сообщений, основанный на технологии Bitcoin.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
@@ -309,13 +302,6 @@
     "slug": "linphone",
     "url": "https://www.linphone.org/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Linphone"
-  },
-  {
-    "description": "Litecoin (знак : Ł ; код : LTC) — P2P криптовалюта и программное обеспечение с открытым исходным кодом, выпущенным под лицензией MIT/X11. Так как Litecoin был вдохновлен и технически практически идентичен Bitcoin (BTC), его эмиссия и передача основана на открытом протоколе и не управляется никаким центральным органом.",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "slug": "litecoin",
-    "url": "https://litecoin.org/ru/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Litecoin"
   },
   {
     "description": "OpenPGP шифрование для популярных сервисов веб-почты.",

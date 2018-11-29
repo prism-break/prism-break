@@ -300,59 +300,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Finance"
-        ]
-      }
-    ],
-    "description": "P2P digital currency with no central authority.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING",
-    "logo": "bitcoin.svg",
-    "name": "Bitcoin",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "bitcoin",
-    "source_url": "https://github.com/bitcoin/bitcoin",
-    "tos_url": "",
-    "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin"
-  },
-  {
-    "categories": [
-      {
         "name": "GNU/Linux",
         "subcategories": [
           "Email Alternatives"
@@ -2209,59 +2156,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Finance"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Finance"
-        ]
-      }
-    ],
-    "description": "Peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Inspired by and technically nearly identical to Bitcoin (BTC), Litecoin creation and transfer is based on an open source protocol and is not managed by any central authority. Litecoin is intended by its developers to improve upon Bitcoin and offers three key differences.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/litecoin-project/litecoin/blob/master-0.8/COPYING",
-    "logo": "litecoin.svg",
-    "name": "Litecoin",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "litecoin",
-    "source_url": "https://github.com/litecoin-project/litecoin",
-    "tos_url": "",
-    "url": "https://litecoin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin"
-  },
-  {
-    "categories": [
-      {
         "name": "BSD",
         "subcategories": [
           "Email Encryption",
@@ -2489,17 +2383,15 @@
         ]
       }
     ],
-    "description": "Monero is a secure, private, untraceable P2P currency.",
+    "description": "Secure, private, untraceable P2P currency.",
     "development_stage": "experimental",
     "license_url": "https://github.com/monero-project/monero/blob/master/LICENSE",
     "logo": "monero.svg",
     "name": "Monero",
-    "notes": "Please note that new, digital currencies may be volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "privacy_url": "https://getmonero.org/legal/privacy",
+    "notes": "New digital currencies may be volatile. Complete loss of your investment is possible for a number of reasons (such as software errors, attacks, identity theft). Be prepared!",
     "protocols": [],
     "slug": "monero",
     "source_url": "https://github.com/monero-project/monero",
-    "tos_url": "",
     "url": "https://getmonero.org",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Monero_(cryptocurrency)"
   },
@@ -4449,25 +4341,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       }
     ],
@@ -4488,25 +4380,25 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-	  "File Sharing"
+          "File Sharing"
         ]
       },
       {

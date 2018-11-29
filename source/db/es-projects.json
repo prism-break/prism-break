@@ -21,13 +21,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Moneda P2P digital sin autoridad centralizada.",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "slug": "bitcoin",
-    "url": "http://bitcoin.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin"
-  },
-  {
     "description": "Servicio de mensajería cifrada y descentralizada basada en tecnología bitcoin.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
@@ -307,13 +300,6 @@
     "slug": "linphone",
     "url": "https://www.linphone.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
-  },
-  {
-    "description": "Litecoin (signo: Ł; abr.: LTC) es una Criptodivisa sustentada por la red P2P, y un proyecto de software de código abierto publicado bajo la licencia MIT.1 Inspirada y prácticamente idéntica en su aspecto técnico2 a Bitcoin (BTC), la creación y transferencia de Litecoin se basa en un protocolo criptográfico de código abierto que no es administrado por ninguna autoridad central.",
-    "notes": "Please note that new, digital currencies may be very volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
-    "slug": "litecoin",
-    "url": "https://litecoin.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Litecoin"
   },
   {
     "description": "Cifrado OpenPGP para servicios webmail.",
