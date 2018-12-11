@@ -1865,7 +1865,7 @@
         ]
       }
     ],
-    "description": "Email application for Android devices with built-in PGP support.",
+    "description": "Email client for Android with OpenKeychain support.",
     "development_stage": "released",
     "license_url": "https://github.com/k9mail/k-9/blob/master/LICENSE",
     "logo": "k9-mail.svg",
@@ -2548,11 +2548,11 @@
         ]
       }
     ],
-    "description": "OpenPGP addon for Thunderbird.",
+    "description": "Extensible, cross-platform email client.",
     "development_stage": "released",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.svg",
-    "name": "Mozilla Thunderbird",
+    "name": "Thunderbird",
     "notes": "Thunderbird does not encrypt your email by default. [Here is a guide](https://securityinabox.org/en/guide/thunderbird/linux/) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail.\n\nThunderbird can optionally connect over Tor with the TorBirdy addon.\n\nWhile Thunderbird can be used as a chat and IRC client, it does not offer encrypted messaging.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "protocols": [
@@ -4713,7 +4713,7 @@
         ]
       }
     ],
-    "description": "Secure-by-default, user-friendly email client.",
+    "description": "User-friendly, secure-by-default email client.",
     "development_stage": "experimental",
     "license_url": "https://github.com/mailpile/Mailpile/blob/master/COPYING.md",
     "logo": "mailpile.svg",
