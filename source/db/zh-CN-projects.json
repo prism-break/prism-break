@@ -155,13 +155,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "FreeOTP 是一个使用动态密码的两步验证应用。",
-    "notes": "FreeOTP 为你的网络账号安全增加了第二层保护。它的工作原理是应用在你的手机设备上生成动态密码，登录网络账号时输入正常密码并配合使用动态密码，这使得你的账号几乎不可能被入侵。",
-    "slug": "freeotp",
-    "url": "https://freeotp.github.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeOTP"
-  },
-  {
     "description": "跨平台的软切换软件，支持 VoIP/SIP。",
     "slug": "freeswitch",
     "url": "https://www.freeswitch.org/",

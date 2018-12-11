@@ -1164,35 +1164,6 @@
       {
         "name": "Android",
         "subcategories": [
-          "Authentication"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Authentication"
-        ]
-      }
-    ],
-    "description": "FreeOTP is a two-factor authentication application for systems utilizing one-time password protocols.",
-    "development_stage": "released",
-    "license_url": "https://github.com/freeotp/freeotp-android/blob/master/COPYING",
-    "logo": "freeotp.svg",
-    "name": "FreeOTP",
-    "notes": "FreeOTP adds a second layer of security for your online accounts. This works by generating one-time passwords on your mobile devices which can be used in conjunction with your normal password to make your login nearly impossible to hack.",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "freeotp",
-    "source_url": "https://github.com/freeotp",
-    "tos_url": "",
-    "url": "https://freeotp.github.io/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeOTP"
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
           "SIP Servers"
         ]
       },
