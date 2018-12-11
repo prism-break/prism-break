@@ -251,13 +251,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab"
   },
   {
-    "description": "托管在瑞士的安全 kolab 账户，月费 8.99 瑞朗，纯粹的 Email 账户则收费 4.55 瑞朗每月。",
-    "notes": "Kolab Now 托管在瑞士，受到[强大的瑞士隐私法律](https://KolabNow.com/privacy)的保护。它的运行完全使用自由软件，使用服务来支持 [Kolab](https://kolab.org) 的开发。\n\n此外，你可以随时导出你的所有数据，它的用户许可协议也在 [ToSDR](http://tosdr.org/#mykolab-com) 得到了很高的评价。\n\n该服务使用[完全正向保密（perfect forward secrecy）](https://kolabnow.com/faq?nid=189)，并且并[抹掉](https://kolabnow.com/faq?nid=190)邮件头中的身份信息。",
-    "slug": "kolabnow",
-    "url": "https://kolabnow.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab"
-  },
-  {
     "description": "一个为嵌入式设备设计的 GNU/Linux-libre 发行版。",
     "slug": "librecmc",
     "url": "https://librecmc.org/",
