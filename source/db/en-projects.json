@@ -1990,6 +1990,30 @@
         ]
       }
     ],
+    "description": "Magma-based encrypted email service.",
+    "development_stage": "released",
+    "logo": "lavabit.svg",
+    "name": "Lavabit",
+    "notes": "",
+    "privacy_url": "https://lavabit.com/privacy.html",
+    "protocols": [
+      "SSL/TLS"
+    ],
+    "slug": "lavabit",
+    "source_url": "https://github.com/lavabit/",
+    "tos_url": "https://lavabit.com/terms.html",
+    "url": "https://lavabit.com",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lavabit"
+  },
+  {
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Email Accounts"
+        ]
+      }
+    ],
     "description": "Secure Kolab accounts hosted in Switzerland for 8.99 CHF per month or 4.55 CHF for email-only accounts.",
     "development_stage": "released",
     "license_url": "http://git.kolab.org/libkolab/tree/COPYING",
