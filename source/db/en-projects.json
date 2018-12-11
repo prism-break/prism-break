@@ -187,6 +187,29 @@
   {
     "categories": [
       {
+        "name": "iOS",
+        "subcategories": [
+          "Authentication"
+        ]
+      }
+    ],
+    "description": "Two-factor authenticator for iOS.",
+    "development_stage": "released",
+    "license_url": "https://github.com/calleerlandsson/Tofu/blob/master/LICENSE.txt",
+    "logo": "tofu.svg",
+    "name": "Tofu",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [],
+    "slug": "tofu",
+    "source_url": "https://github.com/calleerlandsson/Tofu",
+    "tos_url": "",
+    "url": "https://tofuauth.com",
+    "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
         "name": "Android",
         "subcategories": [
           "Password Managers"
