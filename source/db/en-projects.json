@@ -1400,49 +1400,6 @@
   {
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email Encryption"
-        ]
-      }
-    ],
-    "description": "OpenPGP implementation for numerous frontends, including Thunderbird/Icedove.",
-    "development_stage": "released",
-    "license_url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=blob;f=COPYING;h=443254047416efc10bc53cb1adb5421680d5a647;hb=refs/heads/master",
-    "logo": "gnupg.svg",
-    "name": "GnuPG",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "slug": "gnu-privacy-guard",
-    "source_url": "http://www.gnupg.org/download/cvs_access.html",
-    "tos_url": "",
-    "url": "http://www.gnupg.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/GNU_Privacy_Guard"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Collaboration"
