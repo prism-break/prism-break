@@ -2,6 +2,43 @@
   {
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Finance"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Finance"
+        ]
+      }
+    ],
+    "description": "Decentralized Bitcoin exchange.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/bisq-network/bisq/blob/master/LICENSE",
+    "logo": "bisq.svg",
+    "name": "Bisq",
+    "protocols": [],
+    "slug": "bisq",
+    "source_url": "https://github.com/bisq-network/bisq",
+    "url": "https://bisq.network"
+  },
+  {
+    "categories": [
+      {
         "name": "Web Services",
         "subcategories": [
           "Media Publishing"
