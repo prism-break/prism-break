@@ -3771,32 +3771,6 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Social Networks"
-        ]
-      }
-    ],
-    "description": "Multi-frontend, multipurpose communication tool.",
-    "development_stage": "released",
-    "license_url": "http://repos.goffi.org/sat/file/6aa71c853bf5/COPYING",
-    "logo": "sat.svg",
-    "name": "Salut à Toi",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS",
-      "XMPP"
-    ],
-    "slug": "salut-a-toi",
-    "source_url": "http://sat.goffi.org/developers.html",
-    "tos_url": "",
-    "url": "http://sat.goffi.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
           "Web Search"
         ]
       },
