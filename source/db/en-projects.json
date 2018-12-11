@@ -996,7 +996,7 @@
         ]
       }
     ],
-    "description": "OpenPGP email encryption add-on for Thunderbird and Icedove.",
+    "description": "OpenPGP add-on for Thunderbird.",
     "development_stage": "released",
     "license_url": "https://www.enigmail.net/home/license.php",
     "logo": "enigmail.svg",
@@ -2204,7 +2204,7 @@
         ]
       }
     ],
-    "description": "OpenPGP email encryption tool for major webmail services.",
+    "description": "OpenPGP browser add-on for webmail.",
     "development_stage": "released",
     "license_url": "https://github.com/toberndo/mailvelope/blob/master/LICENSE",
     "logo": "mailvelope.svg",
@@ -2548,7 +2548,7 @@
         ]
       }
     ],
-    "description": "Multi-platform email application with mail encryption through the Enigmail add-on.",
+    "description": "OpenPGP addon for Thunderbird.",
     "development_stage": "released",
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-thunderbird.svg",
@@ -2879,7 +2879,7 @@
         ]
       }
     ],
-    "description": "OpenPGP implementation for Android.",
+    "description": "OpenPGP app for Android.",
     "development_stage": "released",
     "license_url": "https://github.com/open-keychain/open-keychain/blob/master/LICENSE",
     "logo": "open-keychain.svg",
@@ -4197,7 +4197,7 @@
         ]
       }
     ],
-    "description": "Add-on that makes Thunderbird and Icedove connect through Tor.",
+    "description": "Tor add-on for Thunderbird.",
     "development_stage": "released",
     "license_url": "https://github.com/ioerror/torbirdy/blob/master/LICENSE",
     "logo": "torbirdy.svg",
