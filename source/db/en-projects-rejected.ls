@@ -744,15 +744,6 @@ exports.projects-rejected =
         subcategories: ["Enterprise Suite"]
     ]
 
-  * logo: "google-allo.svg"
-    name: "Google Allo"
-    categories: [
-      * name: "Android"
-        subcategories: ["Instant Messaging"]
-      * name: "iOS"
-        subcategories: ["Instant Messaging"]
-    ]
-
   * logo: "icq.png"
     name: "ICQ"
     categories: [
