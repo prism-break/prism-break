@@ -383,33 +383,6 @@
   {
     "categories": [
       {
-        "name": "Web Services",
-        "subcategories": [
-          "Email",
-          "Instant Messaging",
-          "VPN"
-        ]
-      }
-    ],
-    "description": "A full range of privacy-aware services including hosting, VPNs, email, IM, and more.",
-    "development_stage": "released",
-    "license_url": "",
-    "logo": "autistici-inventati.svg",
-    "name": "Autistici/Inventati",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "autistici-inventati",
-    "source_url": "",
-    "tos_url": "",
-    "url": "https://www.autistici.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
         "name": "GNU/Linux",
         "subcategories": [
           "Email Alternatives"
