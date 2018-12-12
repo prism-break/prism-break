@@ -1620,29 +1620,6 @@
         ]
       }
     ],
-    "description": "Highly scalable and configurable messaging platform based on the MTA qmail.",
-    "development_stage": "released",
-    "license_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/indimail-1.8.8/doc/COPYING",
-    "logo": "",
-    "name": "IndiMail",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "indimail",
-    "source_url": "http://sourceforge.net/p/indimail/code/ci/master/tree/",
-    "tos_url": "",
-    "url": "http://www.indimail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Email"
-        ]
-      }
-    ],
     "description": "Encrypted email system.",
     "development_stage": "experimental",
     "license_url": "https://github.com/lavabit/magma/blob/develop/LICENSE",
