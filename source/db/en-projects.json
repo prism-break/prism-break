@@ -3945,31 +3945,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "description": "Cross-platform XMPP server written in Java.",
-    "development_stage": "released",
-    "license_url": "https://projects.tigase.org/projects/tigase-server/repository/revisions/master/changes/COPYING",
-    "logo": "tigase.png",
-    "name": "Tigase",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "slug": "tigase",
-    "source_url": "https://projects.tigase.org/projects/tigase-server/repository",
-    "tos_url": "",
-    "url": "http://www.tigase.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase"
-  },
-  {
-    "categories": [
-      {
         "name": "BSD",
         "subcategories": [
           "Mesh Networks"
