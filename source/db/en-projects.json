@@ -2,6 +2,24 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "description": "Secure-by-default XMPP server installer.",
+    "license_url": "",
+    "logo": "aenigma.svg",
+    "name": "Aenigma",
+    "protocols": [],
+    "slug": "aenigma",
+    "source_url": "https://github.com/openspace42/aenigma",
+    "url": "https://aenigma.xyz"
+  },
+  {
+    "categories": [
+      {
         "name": "Android",
         "subcategories": [
           "Finance"
