@@ -805,7 +805,25 @@
         ]
       },
       {
+        "name": "BSD",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
         "name": "GNU/Linux",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "DNS"
+        ]
+      },
+      {
+        "name": "Windows",
         "subcategories": [
           "DNS"
         ]
