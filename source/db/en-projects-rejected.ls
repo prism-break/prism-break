@@ -412,15 +412,10 @@ exports.projects-rejected =
     categories: [
       * name: "macOS"
         subcategories: ["Email", "Productivity"]
+      * name: "Web Services"
+        subcategories: ["Email", "Productivity"]
       * name: "Windows"
         subcategories: ["Email", "Productivity"]
-    ]
-
-  * logo: "ms-outlook.svg"
-    name: "Outlook.com"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Email"]
     ]
 
   * logo: "ms-skydrive.svg"
