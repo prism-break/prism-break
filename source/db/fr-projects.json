@@ -190,13 +190,6 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/Guifi.net"
   },
   {
-    "description": "Cross-platform IRC client.",
-    "notes": "HexChat ne porpose par défaut pas d'IRC chiffré. Vous devez activer le greffon (plugin) FiSHLiM pour le chiffrement de message IRC.",
-    "slug": "hexchat",
-    "url": "http://hexchat.github.io/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Chiffre vos communications pour des milliers de sites web.",
     "slug": "https-everywhere",
     "url": "https://www.eff.org/https-everywhere",

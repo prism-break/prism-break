@@ -191,13 +191,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net"
   },
   {
-    "description": "跨平台 IRC 客户端。",
-    "notes": "HexChat does not offer encrypted IRC by default. You need to enable the FiSHLiM plugin for IRC message encryption.",
-    "slug": "hexchat",
-    "url": "http://hexchat.github.io/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "强制使用 HTTPS，为你和数千个网站间建立加密通信。",
     "slug": "https-everywhere",
     "url": "https://www.eff.org/https-everywhere",

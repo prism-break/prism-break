@@ -191,13 +191,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net"
   },
   {
-    "description": "Cross-platform IRC-asiakasohjelmisto.",
-    "notes": "HexChat ei salaa IRC-keskustelua oletuksena. IRC-viestien salaamista varten on kytkettävä päälle FisHLiM laajennus.",
-    "slug": "hexchat",
-    "url": "http://hexchat.github.io/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Pyrkii käyttämään salattua yhteyttä verkkosivustoon jos sellainen on ylipäätään tarjolla.",
     "slug": "https-everywhere",
     "url": "https://www.eff.org/https-everywhere",

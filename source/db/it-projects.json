@@ -191,13 +191,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net"
   },
   {
-    "description": "Client IRC multipiattaforma.",
-    "notes": "HexChat non offre una chat criptata in modo predefinito. Devi abilitare il plugin FiSHLiM per cifrare i messaggi IRC.",
-    "slug": "hexchat",
-    "url": "http://hexchat.github.io/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Cripta le tue comunicazioni con molti siti internet forzando una connessione HTTPS.",
     "slug": "https-everywhere",
     "url": "https://www.eff.org/https-everywhere",

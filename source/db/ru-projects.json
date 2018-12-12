@@ -192,13 +192,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guifi.net"
   },
   {
-    "description": "Кроссплатформенный IRC клиент.",
-    "notes": "HexChat не предоставляет шифрование IRC по умолчанию. Вам необходимо включить плагин FiSHLiM для этого.",
-    "slug": "hexchat",
-    "url": "http://hexchat.github.io/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Шифрует ваши соединения на тысячах веб сайтов с помощью переключения на HTTPS.",
     "slug": "https-everywhere",
     "url": "https://www.eff.org/https-everywhere",
