@@ -385,41 +385,41 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Alternatives"
+          "Email"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Email Alternatives"
+          "Email"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Alternatives"
+          "Email"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Email Alternatives"
+          "Email"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Email Alternatives"
+          "Email"
         ]
       },
       {
         "name": "Android",
         "subcategories": [
-          "Email Alternatives"
+          "Email"
         ]
       }
     ],
-    "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
+    "description": "Decentralized messaging application.",
     "development_stage": "experimental",
     "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
     "logo": "bitmessage.svg",
@@ -3218,7 +3218,6 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email Alternatives",
           "Instant Messaging",
           "Social Networks"
         ]
@@ -3226,7 +3225,6 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Alternatives",
           "Instant Messaging",
           "Social Networks"
         ]
@@ -3234,7 +3232,6 @@
       {
         "name": "macOS",
         "subcategories": [
-          "Email Alternatives",
           "Instant Messaging",
           "Social Networks"
         ]
@@ -3242,7 +3239,6 @@
       {
         "name": "Windows",
         "subcategories": [
-          "Email Alternatives",
           "Instant Messaging",
           "Social Networks"
         ]
@@ -3315,7 +3311,6 @@
         "name": "Android",
         "subcategories": [
           "Instant Messaging",
-          "Email Alternatives",
           "Video & Voice"
         ]
       },
@@ -3323,7 +3318,6 @@
         "name": "iOS",
         "subcategories": [
           "Instant Messaging",
-          "Email Alternatives",
           "Video & Voice"
         ]
       },
@@ -3331,7 +3325,6 @@
         "name": "BSD",
         "subcategories": [
           "Instant Messaging",
-          "Email Alternatives",
           "Video & Voice"
         ]
       },
@@ -3339,7 +3332,6 @@
         "name": "GNU/Linux",
         "subcategories": [
           "Instant Messaging",
-          "Email Alternatives",
           "Video & Voice"
         ]
       },
@@ -3347,7 +3339,6 @@
         "name": "macOS",
         "subcategories": [
           "Instant Messaging",
-          "Email Alternatives",
           "Video & Voice"
         ]
       },
@@ -3355,7 +3346,6 @@
         "name": "Windows",
         "subcategories": [
           "Instant Messaging",
-          "Email Alternatives",
           "Video & Voice"
         ]
       }
