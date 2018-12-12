@@ -389,12 +389,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD"
   },
   {
-    "description": "Useaa alustaa tukeva, Javalla kirjoitettu XMPP-palvelin.",
-    "slug": "openfire",
-    "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire"
-  },
-  {
     "description": "Avoin, demokraattinen, sensuurivapaa DNS-palvelin.",
     "notes": "OpenNIC ei ole vielä laatinut virallisia käytänteitä liittyen lokien yksityisyyteen ja anonymisointiin. Lisää tietoa [täällä](https://wiki.opennic.org/opennic:tier2).",
     "slug": "opennic",

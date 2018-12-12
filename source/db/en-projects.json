@@ -2990,31 +2990,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "description": "Cross-platform XMPP server written in Java.",
-    "development_stage": "released",
-    "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
-    "logo": "openfire.svg",
-    "name": "Openfire",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "slug": "openfire",
-    "source_url": "https://github.com/igniterealtime/Openfire/",
-    "tos_url": "",
-    "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "DNS"

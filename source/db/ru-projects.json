@@ -392,12 +392,6 @@
     "wikipedia_url": "https://ru.wikipedia.org/wiki/OpenBSD"
   },
   {
-    "description": "Кроссплатформенный XMPP сервер, написанный на Java.",
-    "slug": "openfire",
-    "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Openfire"
-  },
-  {
     "description": "Открытый, демократичный и противостоящий цензуре DNS провайдер.",
     "notes": "OpenNIC не принял официальную политику, касающуюся конфиденциальности/анонимизации логирования запросов. Подробнее [здесь](https://wiki.opennic.org/opennic:tier2).",
     "slug": "opennic",

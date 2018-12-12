@@ -386,12 +386,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD"
   },
   {
-    "description": "Servidor XMPP multiplataforma escrito en Java.",
-    "slug": "openfire",
-    "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire"
-  },
-  {
     "description": "Proveedor de DNS abierto, democrático y anti-censura.",
     "notes": "OpenNIC has not adopted an official policy concerning log query privacy/anonymization. More information [here](https://wiki.opennic.org/opennic:tier2).",
     "slug": "opennic",
