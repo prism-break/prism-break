@@ -4308,49 +4308,6 @@
   {
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "IRC"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "IRC"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "IRC"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "IRC"
-        ]
-      }
-    ],
-    "description": "Extensible and customisable CLI chat client for IRC and XMPP/Jabber.",
-    "development_stage": "released",
-    "license_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=blob;f=COPYING;h=94a9ed024d3859793618152ea559a168bbcbb5e2;hb=HEAD",
-    "logo": "weechat.svg",
-    "name": "WeeChat",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "IRC"
-    ],
-    "slug": "weechat",
-    "source_url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git;a=summary",
-    "tos_url": "",
-    "url": "http://www.weechat.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WeeChat"
-  },
-  {
-    "categories": [
-      {
         "name": "GNU/Linux",
         "subcategories": [
           "Operating Systems (Live)"
