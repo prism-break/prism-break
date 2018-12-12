@@ -1643,29 +1643,6 @@
         ]
       }
     ],
-    "description": "Install and configure email server packages automatically in GNU/Linux and BSD.",
-    "development_stage": "released",
-    "license_url": "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/README?at=default",
-    "logo": "iredmail.svg",
-    "name": "iRedMail",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "iredmail",
-    "source_url": "https://bitbucket.org/zhb/iredmail/src/25104d946d9531c7f8a423183cc3d3325eedb23f/iRedMail/?at=default",
-    "tos_url": "",
-    "url": "http://www.iredmail.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Email"
-        ]
-      }
-    ],
     "description": "Encrypted email system.",
     "development_stage": "experimental",
     "license_url": "https://github.com/lavabit/magma/blob/develop/LICENSE",
