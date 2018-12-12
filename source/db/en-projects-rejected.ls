@@ -357,7 +357,7 @@ exports.projects-rejected =
         subcategories: ["Social Networks"]
     ]
 
-  * logo: "lotus-notes.svg"
+  * logo: "ibm-notes.png"
     name: "IBM Notes"
     categories: [
       * name: "Servers"
