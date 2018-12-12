@@ -1587,29 +1587,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "Email"
-        ]
-      }
-    ],
-    "description": "Encrypted email system.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/lavabit/magma/blob/develop/LICENSE",
-    "logo": "magma.svg",
-    "name": "Magma",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "magma",
-    "source_url": "https://github.com/lavabit/magma",
-    "tos_url": "",
-    "url": "https://magmadaemon.org",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
         "name": "GNU/Linux",
         "subcategories": [
           "Video & Voice"
