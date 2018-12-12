@@ -16,12 +16,6 @@
     "wikipedia_url": "https://it.wikipedia.org/wiki/Asterisk_PBX"
   },
   {
-    "description": "Una vasta gamma di servizi per la privacy, inclusi hosting, VPN, email, IM e altro.",
-    "slug": "autistici-inventati",
-    "url": "https://www.autistici.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Servizio di messaggistica P2P criptato e decentralizzato, basato sulla tecnologia Bitcoin.",
     "notes": "Bitmessage è una promettente alternativa all’email, ma non è ancora stato revisionato da professionisti di sicurezza. Usare a proprio rischio. Se decidi di provare Bitmessage, assicurati di generare un ID completamente casuale per ridurre notevolmente la possibilitè di collisioni tra ID.",
     "slug": "bitmessage",
@@ -209,18 +203,6 @@
     "wikipedia_url": "https://it.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "Piattaforma di messaggistica molto scalabile e configurabile basata sull’MTA qmail.",
-    "slug": "indimail",
-    "url": "http://www.indimail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail"
-  },
-  {
-    "description": "Installa e configura pacchetti per mail server automaticamente in GNU/Linux e BSD.",
-    "slug": "iredmail",
-    "url": "http://www.iredmail.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Chat e videoconferenze cifrate, multipiattaforma.",
     "slug": "jitsi",
     "url": "https://jitsi.org/",
@@ -243,19 +225,6 @@
     "slug": "keepassxc",
     "url": "https://keepassxc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC"
-  },
-  {
-    "description": "Software collaborativi per email, file, calendari, rubriche e sincronizzazione mobile.",
-    "slug": "kolab",
-    "url": "https://kolab.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab"
-  },
-  {
-    "description": "Secure Kolab accounts hosted in Switzerland for 8.99 CHF per month or 4.55 CHF for email-only accounts.",
-    "notes": "Kolab Now is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://KolabNow.com/privacy). It is run exclusively with Free Software and using the service supports the development of [Kolab](https://kolab.org).\n\nAlso, you can export all your data at any time and the terms of service received the best rating from [ToS;DR](http://tosdr.org/#mykolab-com).\n\nThe service uses [Perfect Forward Secrecy](https://kolabnow.com/faq?nid=189) and identifying information [is stripped](https://kolabnow.com/faq?nid=190) from email headers.",
-    "slug": "kolabnow",
-    "url": "https://kolabnow.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab"
   },
   {
     "description": "A GNU/Linux-libre distribution for embedded devices.",

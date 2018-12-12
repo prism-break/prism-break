@@ -15,12 +15,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
   },
   {
-    "description": "Een volledige verzameling van vrije, privacy-respecterende services.",
-    "slug": "autistici-inventati",
-    "url": "https://www.autistici.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
@@ -208,18 +202,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "Highly scalable and configurable messaging platform based on the MTA qmail.",
-    "slug": "indimail",
-    "url": "http://www.indimail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail"
-  },
-  {
-    "description": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
-    "slug": "iredmail",
-    "url": "http://www.iredmail.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Versleutelde communicatie met beeld en geluid.",
     "slug": "jitsi",
     "url": "https://jitsi.org/",
@@ -242,19 +224,6 @@
     "slug": "keepassxc",
     "url": "https://keepassxc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC"
-  },
-  {
-    "description": "Groupware server voor email, kalenders, adresboeken en synchronisatie naar mobiele telefoons.",
-    "slug": "kolab",
-    "url": "https://kolab.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab"
-  },
-  {
-    "description": "Veilige Kolab accounts gehost in Zwitserland voor 8.99 CHF per maand of 4.55 CHF voor email accounts.",
-    "notes": "Kolab Now wordt gehost in Zwitserland en geniet van [strenge Zwitserse privacywetgeving](https://kolabnow.com/privacy). Het draait exclusief op Free Software en het gebruiken van de dienst steunt de ontwikkeling van [Kolab](https://kolab.org).\n\nOok kun je te allen tijde al jou data exporteren en heeft de gebruiksvoorwaarden de hoogst mogelijke waardering van [ToS;DR](http://tosdr.org/#mykolab-com) verkregen.\n\nDe dienst maakt gebrik van [Perfect Forward Secrecy](https://kolabnow.com/faq?nid=189) en wordt identificerende informatie [verwijderd](https://kolabnow.com/faq?nid=190) uit email headers.",
-    "slug": "kolabnow",
-    "url": "https://kolabnow.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab"
   },
   {
     "description": "A GNU/Linux-libre distribution for embedded devices.",

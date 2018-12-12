@@ -51,9 +51,26 @@ exports.projects-rejected =
     name: "Apple Mail"
     categories: [
       * name: "iOS"
-        subcategories: ["Email Clients"]
+        subcategories: ["Email"]
       * name: "macOS"
-        subcategories: ["Email Clients"]
+        subcategories: ["Email"]
+    ]
+
+  * logo: "em-client.svg"
+    name: "eM Client"
+    categories: [
+      * name: "macOS"
+        subcategories: ["Email"]
+      * name: "Windows"
+        subcategories: ["Email"]
+
+    ]
+
+  * logo: "the-bat.svg"
+    name: "The Bat!"
+    categories: [
+      * name: "Windows"
+        subcategories: ["Email"]
     ]
 
   * logo: "apple-maps.svg"
@@ -261,7 +278,7 @@ exports.projects-rejected =
     name: "Gmail"
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts"]
+        subcategories: ["Email"]
     ]
 
   * logo: "google-maps.svg"
@@ -338,16 +355,16 @@ exports.projects-rejected =
     ]
 
   * logo: "groupwise.svg"
-    name: "Micro Focus Groupwise"
+    name: "GroupWise"
     categories: [
       * name: "GNU/Linux"
-        subcategories: ["Email Servers", "Productivity"]
+        subcategories: ["Email", "Productivity"]
       * name: "macOS"
-        subcategories: ["Email Servers", "Productivity"]
+        subcategories: ["Email", "Productivity"]
       * name: "Windows"
-        subcategories: ["Email Servers", "Productivity"]
+        subcategories: ["Email", "Productivity"]
       * name: "Servers"
-        subcategories: ["Email Servers", "Productivity"]
+        subcategories: ["Email", "Productivity"]
     ]
 
   * logo: "linkedin.svg"
@@ -357,11 +374,11 @@ exports.projects-rejected =
         subcategories: ["Social Networks"]
     ]
 
-  * logo: "lotus-notes.svg"
+  * logo: "ibm-notes.png"
     name: "IBM Notes"
     categories: [
       * name: "Servers"
-        subcategories: ["Email Servers"]
+        subcategories: ["Email"]
     ]
 
   * logo: "yahoo.svg"
@@ -396,7 +413,7 @@ exports.projects-rejected =
     name: "Microsoft Exchange"
     categories: [
       * name: "Servers"
-        subcategories: ["Email Servers"]
+        subcategories: ["Email"]
     ]
 
   * logo: "ms-ie.svg"
@@ -411,16 +428,11 @@ exports.projects-rejected =
     name: "Microsoft Outlook"
     categories: [
       * name: "macOS"
-        subcategories: ["Email Clients", "Productivity"]
-      * name: "Windows"
-        subcategories: ["Email Clients", "Productivity"]
-    ]
-
-  * logo: "ms-outlook.svg"
-    name: "Outlook.com"
-    categories: [
+        subcategories: ["Email", "Productivity"]
       * name: "Web Services"
-        subcategories: ["Email Accounts"]
+        subcategories: ["Email", "Productivity"]
+      * name: "Windows"
+        subcategories: ["Email", "Productivity"]
     ]
 
   * logo: "ms-skydrive.svg"
@@ -603,7 +615,7 @@ exports.projects-rejected =
     name: "Yahoo! Mail"
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts"]
+        subcategories: ["Email"]
     ]
 
   * logo: "zoho.svg"
@@ -676,7 +688,7 @@ exports.projects-rejected =
     name: "Yandex.Mail"
     categories: [
       * name: "Web Services"
-        subcategories: ["Email Accounts"]
+        subcategories: ["Email"]
     ]
 
   * logo: "yandex.svg"

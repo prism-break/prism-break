@@ -15,12 +15,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
   },
   {
-    "description": "A full range of free, privacy-aware services.",
-    "slug": "autistici-inventati",
-    "url": "https://www.autistici.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
@@ -208,18 +202,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "Highly scalable and configurable messaging platform based on the MTA qmail.",
-    "slug": "indimail",
-    "url": "http://www.indimail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail"
-  },
-  {
-    "description": "Install and configure mail server packages automatically in GNU/Linux and BSD.",
-    "slug": "iredmail",
-    "url": "http://www.iredmail.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Krypterad chatt och video-klient.",
     "slug": "jitsi",
     "url": "https://jitsi.org/",
@@ -242,19 +224,6 @@
     "slug": "keepassxc",
     "url": "https://keepassxc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC"
-  },
-  {
-    "description": "Groupware solution for email, files, calendars, address books and mobile sync.",
-    "slug": "kolab",
-    "url": "https://kolab.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab"
-  },
-  {
-    "description": "Säkra Kolab konton ut ur Schweis för 8.99 CHF per månad eller 4.55 CHF för konton med endast stöd för mejl.",
-    "notes": "Kolab Now jobbar ut ur Schweiz och gynnas av dem [starka schweiziska sekretesslagar](https://kolabnow.com/privacy). Det drivs exklusivt med Free Software och att använda tjänsten stödjet utvecklingen av [Kolab](https://kolab.org).\n\nDessutom kan du exportera alla dina data när som helst och har tjänstens villkor fått det bästa betyget från [ToS;DR](http://tosdr.org/#mykolab-com).\n\nTjänsten använder [Perfect Forward Secrecy](https://kolabnow.com/faq?nid=189) och identifierande information [avlägsna](https://kolabnow.com/faq?nid=190) från mejl headers.",
-    "slug": "kolabnow",
-    "url": "https://kolabnow.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab"
   },
   {
     "description": "A GNU/Linux-libre distribution for embedded devices.",

@@ -16,12 +16,6 @@
     "wikipedia_url": "https://zh.wikipedia.org/wiki/Asterisk"
   },
   {
-    "description": "全方位的隐私保护，提供主机、VPN、电子邮件、即时通讯等服务。",
-    "slug": "autistici-inventati",
-    "url": "https://www.autistici.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "比特信：加密、去中心化的 P2P 交流工具，基于比特币技术。",
     "notes": "比特信是一个很有前途的 Email 的替代品，但是还没有安全专家对其进行完整的代码审计。使用时需自担风险。如果你决定使用比特信，请确保生成一个完全随机的 ID，以避免 ID 碰撞。",
     "slug": "bitmessage",
@@ -209,18 +203,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "高度计量和定制化的消息平台，基于 MTA qmail。",
-    "slug": "indimail",
-    "url": "http://www.indimail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail"
-  },
-  {
-    "description": "自动安装并完成配置的邮件服务器。基于 GNU/Linux 和 BSD。",
-    "slug": "iredmail",
-    "url": "http://www.iredmail.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "加密的跨平台文本、语音、视频聊天工具。",
     "slug": "jitsi",
     "url": "https://jitsi.org/",
@@ -243,19 +225,6 @@
     "slug": "keepassxc",
     "url": "https://keepassxc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC"
-  },
-  {
-    "description": "电子邮件、文件、日历、地址簿和手机同步的组件解决方案。",
-    "slug": "kolab",
-    "url": "https://kolab.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab"
-  },
-  {
-    "description": "托管在瑞士的安全 kolab 账户，月费 8.99 瑞朗，纯粹的 Email 账户则收费 4.55 瑞朗每月。",
-    "notes": "Kolab Now 托管在瑞士，受到[强大的瑞士隐私法律](https://KolabNow.com/privacy)的保护。它的运行完全使用自由软件，使用服务来支持 [Kolab](https://kolab.org) 的开发。\n\n此外，你可以随时导出你的所有数据，它的用户许可协议也在 [ToSDR](http://tosdr.org/#mykolab-com) 得到了很高的评价。\n\n该服务使用[完全正向保密（perfect forward secrecy）](https://kolabnow.com/faq?nid=189)，并且并[抹掉](https://kolabnow.com/faq?nid=190)邮件头中的身份信息。",
-    "slug": "kolabnow",
-    "url": "https://kolabnow.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab"
   },
   {
     "description": "一个为嵌入式设备设计的 GNU/Linux-libre 发行版。",

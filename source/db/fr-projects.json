@@ -15,12 +15,6 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/Asterisk_%28logiciel%29"
   },
   {
-    "description": "Un panel complet de services gratuits et soucieux de la vie privée.",
-    "slug": "autistici-inventati",
-    "url": "https://www.autistici.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Le service de messagerie P2P décentralisé et chiffré basé sur la technologie Bitcoin.",
     "notes": "Bitmessage est une alternative au courrier électronique prometteuse, mais il n'a pas été audité par des professionels en sécurité. A utiliser à vos risques et périls. Si vous décidez d'essayer Bitmessage, soyez sûre de générer un ID complètement aléatoire afin de grandement réduire le risque de collision des ID.",
     "slug": "bitmessage",
@@ -208,18 +202,6 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "Plateforme de messagerie très évolutive et configurable basé sur le MTA qmail.",
-    "slug": "indimail",
-    "url": "http://www.indimail.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/User:Mbhangui/IndiMail"
-  },
-  {
-    "description": "Installer er configurer des packages de serveur email automaticaquement dans GNU/Linux et BSD.",
-    "slug": "iredmail",
-    "url": "http://www.iredmail.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Chiffrement des discussions texte et vidéo.",
     "slug": "jitsi",
     "url": "https://jitsi.org/",
@@ -242,19 +224,6 @@
     "slug": "keepassxc",
     "url": "https://keepassxc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC"
-  },
-  {
-    "description": "Serveur groupware (logiciel de groupe de travail) pour les mails, calendriers et carnets d'adresses incluant la possibilité de synchroniser les données vers des téléphones portables.",
-    "slug": "kolab",
-    "url": "https://kolab.org/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Kolab"
-  },
-  {
-    "description": "Secure Kolab accounts hosted in Switzerland for 8.99 CHF per month or 4.55 CHF for email-only accounts.",
-    "notes": "Kolab Now is hosted in Switzerland and benefits from the [strong Swiss privacy laws](https://KolabNow.com/privacy). It is run exclusively with Free Software and using the service supports the development of [Kolab](https://kolab.org).\n\nAlso, you can export all your data at any time and the terms of service received the best rating from [ToS;DR](http://tosdr.org/#mykolab-com).\n\nThe service uses [Perfect Forward Secrecy](https://kolabnow.com/faq?nid=189) and identifying information [is stripped](https://kolabnow.com/faq?nid=190) from email headers.",
-    "slug": "kolabnow",
-    "url": "https://kolabnow.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/MyKolab"
   },
   {
     "description": "A GNU/Linux-libre distribution for embedded devices.",
