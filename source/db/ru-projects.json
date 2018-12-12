@@ -54,12 +54,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Разговаривай со своими друзьями, приватно.",
-    "slug": "cryptocat",
-    "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
-  },
-  {
     "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
     "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
     "slug": "cryptpad",
@@ -110,12 +104,6 @@
     "slug": "ecryptfs",
     "url": "http://ecryptfs.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
-  },
-  {
-    "description": "XMPP сервер написанный на Erlang/OTP для GNU/Linux и macOS.",
-    "slug": "ejabberd",
-    "url": "http://www.ejabberd.im/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Ejabberd"
   },
   {
     "description": "Дополнение для OpenPGP шифрования почты для Thunderbird и Icedove",
@@ -309,12 +297,6 @@
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Matomo_(software)"
   },
   {
-    "description": "XMPP сервер с расширенными возможностями управления и микроблоггинга, основанный на Prosody.",
-    "slug": "metronome",
-    "url": "https://metronome.im",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Metronome_IM"
-  },
-  {
     "description": "Monero is a secure, private, untraceable P2P currency.",
     "notes": "Please note that new, digital currencies may be volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
     "slug": "monero",
@@ -398,12 +380,6 @@
     "wikipedia_url": "https://ru.wikipedia.org/wiki/OpenBSD"
   },
   {
-    "description": "Кроссплатформенный XMPP сервер, написанный на Java.",
-    "slug": "openfire",
-    "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Openfire"
-  },
-  {
     "description": "Открытый, демократичный и противостоящий цензуре DNS провайдер.",
     "notes": "OpenNIC не принял официальную политику, касающуюся конфиденциальности/анонимизации логирования запросов. Подробнее [здесь](https://wiki.opennic.org/opennic:tier2).",
     "slug": "opennic",
@@ -471,12 +447,6 @@
     "slug": "privacy-badger",
     "url": "https://www.eff.org/privacybadger",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Privacy_Badger"
-  },
-  {
-    "description": "Гибкий и легкий XMPP сервер, написанный на Lua.",
-    "slug": "prosody",
-    "url": "https://prosody.im/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Prosody"
   },
   {
     "description": "Кроссплатформенный IM клиент для опытных пользователей со встроенной поддержкой OTR.",
@@ -565,12 +535,6 @@
     "slug": "tails",
     "url": "https://tails.boum.org/",
     "wikipedia_url": "https://ru.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System"
-  },
-  {
-    "description": "Кроссплатформенный XMPP сервер, написанный на Java.",
-    "slug": "tigase",
-    "url": "http://www.tigase.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase"
   },
   {
     "description": "Свободное программное обеспечение, использующее туннелирование и шифрование для создания безопасной приватной сети.",

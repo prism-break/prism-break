@@ -2,6 +2,24 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "description": "Secure-by-default XMPP server installer.",
+    "license_url": "",
+    "logo": "aenigma.svg",
+    "name": "Aenigma",
+    "protocols": [],
+    "slug": "aenigma",
+    "source_url": "https://github.com/openspace42/aenigma",
+    "url": "https://aenigma.xyz"
+  },
+  {
+    "categories": [
+      {
         "name": "Android",
         "subcategories": [
           "Finance"
@@ -640,43 +658,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "description": "Chat with your friends, privately.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.md",
-    "logo": "cryptocat.svg",
-    "name": "Cryptocat",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "OMEMO"
-    ],
-    "slug": "cryptocat",
-    "source_url": "https://github.com/cryptocat/cryptocat",
-    "tos_url": "",
-    "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Collaboration"
@@ -943,31 +924,6 @@
     "tos_url": "",
     "url": "https://ecryptfs.org",
     "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "description": "XMPP server written in Erlang/OTP for GNU/Linux and macOS.",
-    "development_stage": "released",
-    "license_url": "https://github.com/processone/ejabberd/blob/master/COPYING",
-    "logo": "ejabberd.svg",
-    "name": "ejabberd",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "slug": "ejabberd",
-    "source_url": "https://github.com/processone/ejabberd",
-    "tos_url": "",
-    "url": "http://www.ejabberd.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd"
   },
   {
     "categories": [
@@ -2342,31 +2298,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "description": "XMPP server based on Prosody, with advanced management/microblogging features.",
-    "development_stage": "released",
-    "license_url": "https://github.com/maranda/metronome/blob/master/LICENSE",
-    "logo": "metronome.svg",
-    "name": "Metronome",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "slug": "metronome",
-    "source_url": "https://github.com/maranda/metronome",
-    "tos_url": "",
-    "url": "https://metronome.im",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Metronome_IM"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "Finance"
@@ -3015,31 +2946,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "description": "Cross-platform XMPP server written in Java.",
-    "development_stage": "released",
-    "license_url": "http://fisheye.igniterealtime.org/browse/openfire/trunk/documentation/docs/licenses",
-    "logo": "openfire.svg",
-    "name": "Openfire",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "slug": "openfire",
-    "source_url": "https://github.com/igniterealtime/Openfire/",
-    "tos_url": "",
-    "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "DNS"
@@ -3406,31 +3312,6 @@
     "tos_url": "",
     "url": "https://www.eff.org/privacybadger",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Privacy_Badger"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "description": "Flexible lightweight XMPP server written in Lua.",
-    "development_stage": "released",
-    "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
-    "logo": "prosody.svg",
-    "name": "Prosody",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "slug": "prosody",
-    "source_url": "https://prosody.im/source/start",
-    "tos_url": "",
-    "url": "https://prosody.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29"
   },
   {
     "categories": [
@@ -3991,31 +3872,6 @@
     "tos_url": "",
     "url": "https://tails.boum.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "description": "Cross-platform XMPP server written in Java.",
-    "development_stage": "released",
-    "license_url": "https://projects.tigase.org/projects/tigase-server/repository/revisions/master/changes/COPYING",
-    "logo": "tigase.png",
-    "name": "Tigase",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "slug": "tigase",
-    "source_url": "https://projects.tigase.org/projects/tigase-server/repository",
-    "tos_url": "",
-    "url": "http://www.tigase.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase"
   },
   {
     "categories": [

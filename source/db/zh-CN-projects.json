@@ -53,12 +53,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "在浏览器中进行私密的加密通讯。",
-    "slug": "cryptocat",
-    "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
-  },
-  {
     "description": "Self-hosted, zero-knowledge, real-time collaborative documents.",
     "notes": "Encryption carried out in your web browser protects the data from the server, the cloud, and the NSA. The secret encryption key is stored in the URL fragment identifier which is never sent to the server but is available to javascript, so by sharing the URL, you give authorization to others who want to participate. Users must still take care to share links over an end-to-end-encrypted medium for best effect.",
     "slug": "cryptpad",
@@ -109,12 +103,6 @@
     "slug": "ecryptfs",
     "url": "http://ecryptfs.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
-  },
-  {
-    "description": "使用 Erlang/OTPXMPP 编写的，支持 GNU/Linux 和 macOS 的 XMPP 通讯工具。",
-    "slug": "ejabberd",
-    "url": "http://www.ejabberd.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd"
   },
   {
     "description": "雷鸟（Thunderbird）和冰鼬鼠（Icedove）上的一个 OpenPGP 加密插件。",
@@ -308,12 +296,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
   },
   {
-    "description": "基于 Prosody 的 XMPP 服务端，有许多高级的管理和微博客功能。",
-    "slug": "metronome",
-    "url": "https://metronome.im",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Metronome_IM"
-  },
-  {
     "description": "Monero 是一种安全、隐私和不可追踪的 P2P 货币。",
     "notes": "请注意，数字货币汇率可能会波动很大。此外，软件错误，恶意攻击等也可能导致你的损失。请做好准备！",
     "slug": "monero",
@@ -395,12 +377,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenBSD"
   },
   {
-    "description": "跨平台 XMPP 服务，基于 Java 语言。",
-    "slug": "openfire",
-    "url": "http://www.igniterealtime.org/projects/openfire/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Openfire"
-  },
-  {
     "description": "开放，民主，抗审查的 DNS 服务。",
     "notes": "OpenNIC 还没有关于日志查询隐私和匿名性的官方政策。更多信息参见[这个页面](https://wiki.opennic.org/opennic:tier2)。",
     "slug": "opennic",
@@ -468,12 +444,6 @@
     "slug": "privacy-badger",
     "url": "https://www.eff.org/privacybadger",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Privacy_Badger"
-  },
-  {
-    "description": "灵活轻量的 XMPP 服务端，使用 Lua 语言编写。",
-    "slug": "prosody",
-    "url": "https://prosody.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29"
   },
   {
     "description": "跨平台的即时通讯（IM）客户端，内建 OTR。",
@@ -561,12 +531,6 @@
     "slug": "tails",
     "url": "https://tails.boum.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System"
-  },
-  {
-    "description": "跨平台的 XMPP 服务端，使用 Java 语言编写。",
-    "slug": "tigase",
-    "url": "http://www.tigase.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tigase"
   },
   {
     "description": "这个自由软件使用守护进程使用隧道和创建一个加密安全的网络。",
