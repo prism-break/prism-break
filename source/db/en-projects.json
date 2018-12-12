@@ -658,43 +658,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "description": "Chat with your friends, privately.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/cryptocat/cryptocat/blob/master/LICENSE.md",
-    "logo": "cryptocat.svg",
-    "name": "Cryptocat",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "OMEMO"
-    ],
-    "slug": "cryptocat",
-    "source_url": "https://github.com/cryptocat/cryptocat",
-    "tos_url": "",
-    "url": "https://crypto.cat/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cryptocat"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Collaboration"
