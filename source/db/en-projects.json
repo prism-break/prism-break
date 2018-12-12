@@ -4072,6 +4072,20 @@
   {
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
         "name": "BSD",
         "subcategories": [
           "Instant Messaging",
@@ -4100,7 +4114,7 @@
         ]
       }
     ],
-    "description": "Free and open-source, peer-to-peer, encrypted instant messaging and video calling software. The stated goal of the project is to provide secure yet easily accessible communication for everyone.",
+    "description": "Peer-to-peer chat ecosystem.",
     "development_stage": "experimental",
     "license_url": "https://github.com/irungentoo/toxcore/blob/master/COPYING",
     "logo": "tox.svg",
