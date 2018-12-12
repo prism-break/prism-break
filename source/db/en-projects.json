@@ -2037,6 +2037,33 @@
         ]
       }
     ],
+    "description": "Federated image sharing.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/pixelfed/pixelfed/blob/dev/LICENSE",
+    "logo": "pixelfed.svg",
+    "name": "PixelFed",
+    "protocols": [
+      "ActivityPub"
+    ],
+    "slug": "pixelfed",
+    "source_url": "https://github.com/pixelfed/pixelfed",
+    "url": "https://pixelfed.org"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
     "description": "Federated video hosting.",
     "development_stage": "experimental",
     "license_url": "https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE",
