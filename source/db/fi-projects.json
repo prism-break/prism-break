@@ -111,12 +111,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
   },
   {
-    "description": "Erlang/OTP:llä kirjoitettu XMPP-palvelin GNU/Linux ja macOS käyttöjärjestelmiin.",
-    "slug": "ejabberd",
-    "url": "http://www.ejabberd.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd"
-  },
-  {
     "description": "OpenPGP-lisäosa Thunderbirdille ja Icedovelle.",
     "notes": "[Tässä](https://securityinabox.org/en/guide/thunderbird/linux/) on Security In A Box:n opas sähköpostin salaamiseen Mozilla Thunderbird:illa yhdessä GNU Privacy Guard:in (GPG) ja and Enigmail:in kanssa. Lue myös Free Software Foundation toimittama [sähköpostin itsepuolustusopas](https://emailselfdefense.fsf.org) oppiaksesi miten sähköpostit salataan.",
     "slug": "enigmail",

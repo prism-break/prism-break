@@ -106,12 +106,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
   },
   {
-    "description": "XMPP server written in Erlang/OTP for GNU/Linux and macOS.",
-    "slug": "ejabberd",
-    "url": "http://www.ejabberd.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ejabberd"
-  },
-  {
     "description": "Komplemento OpenPGP por Thunderbird/Icedove.",
     "notes": "[Here is a guide](https://securityinabox.org/en/guide/thunderbird/linux/) by Security In A Box to encrypting your email with Mozilla Thunderbird, GNU Privacy Guard (GPG), and Enigmail. Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
     "slug": "enigmail",
