@@ -385,7 +385,7 @@
       {
         "name": "Web Services",
         "subcategories": [
-          "Email Accounts",
+          "Email",
           "Instant Messaging",
           "VPN"
         ]
@@ -1614,45 +1614,9 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
         "name": "Servers",
         "subcategories": [
-          "Mail Servers"
+          "Email"
         ]
       }
     ],
@@ -1673,45 +1637,9 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
         "name": "Servers",
         "subcategories": [
-          "Mail Servers"
+          "Email"
         ]
       }
     ],
@@ -1774,7 +1702,7 @@
       {
         "name": "Android",
         "subcategories": [
-          "Email Clients"
+          "Email"
         ]
       }
     ],
@@ -1921,45 +1849,9 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Mail Servers"
-        ]
-      },
-      {
         "name": "Servers",
         "subcategories": [
-          "Mail Servers"
+          "Email"
         ]
       }
     ],
@@ -1986,7 +1878,7 @@
       {
         "name": "Web Services",
         "subcategories": [
-          "Email Accounts"
+          "Email"
         ]
       }
     ],
@@ -2409,25 +2301,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email Clients"
+          "Email"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "Email"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Email Clients"
+          "Email"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Clients"
+          "Email"
         ]
       }
     ],
@@ -3567,9 +3459,9 @@
       {
         "name": "Web Services",
         "subcategories": [
-          "Email Accounts",
-          "Productivity",
-          "VPN"
+          "Email",
+	  "Productivity",
+	  "VPN"
         ]
       }
     ],
@@ -4475,13 +4367,13 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email Clients"
+          "Email"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients"
+          "Email"
         ]
       }
     ],
