@@ -1776,30 +1776,6 @@
   {
     "categories": [
       {
-        "name": "Web Services",
-        "subcategories": [
-          "Email"
-        ]
-      }
-    ],
-    "description": "Magma-based encrypted email service.",
-    "development_stage": "released",
-    "logo": "lavabit.svg",
-    "name": "Lavabit",
-    "notes": "",
-    "privacy_url": "https://lavabit.com/privacy.html",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "lavabit",
-    "source_url": "https://github.com/lavabit/",
-    "tos_url": "https://lavabit.com/terms.html",
-    "url": "https://lavabit.com",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Lavabit"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Firmware"
