@@ -56,6 +56,13 @@ exports.projects-rejected =
         subcategories: ["Email"]
     ]
 
+  * logo: "the-bat.svg"
+    name: "The Bat!"
+    categories: [
+      * name: "Windows"
+        subcategories: ["Email"]
+    ]
+
   * logo: "apple-maps.svg"
     name: "Apple Maps"
     categories: [
@@ -338,7 +345,7 @@ exports.projects-rejected =
     ]
 
   * logo: "groupwise.svg"
-    name: "Micro Focus Groupwise"
+    name: "GroupWise"
     categories: [
       * name: "GNU/Linux"
         subcategories: ["Email", "Productivity"]
