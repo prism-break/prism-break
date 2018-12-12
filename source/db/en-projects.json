@@ -2410,29 +2410,25 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email Clients",
-          "IRC"
+          "Email Clients"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Email Clients",
-          "IRC"
+          "Email Clients"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Email Clients",
-          "IRC"
+          "Email Clients"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Email Clients",
-          "IRC"
+          "Email Clients"
         ]
       }
     ],
@@ -2445,7 +2441,6 @@
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "protocols": [
       "GPG",
-      "IRC",
       "RSS",
       "S/MIME",
       "SSL/TLS",
@@ -3506,7 +3501,6 @@
         "name": "Android",
         "subcategories": [
           "Instant Messaging",
-          "IRC",
           "Email Alternatives",
           "Video & Voice"
         ]
@@ -3515,7 +3509,6 @@
         "name": "iOS",
         "subcategories": [
           "Instant Messaging",
-          "IRC",
           "Email Alternatives",
           "Video & Voice"
         ]
@@ -3524,7 +3517,6 @@
         "name": "BSD",
         "subcategories": [
           "Instant Messaging",
-          "IRC",
           "Email Alternatives",
           "Video & Voice"
         ]
@@ -3533,7 +3525,6 @@
         "name": "GNU/Linux",
         "subcategories": [
           "Instant Messaging",
-          "IRC",
           "Email Alternatives",
           "Video & Voice"
         ]
@@ -3542,7 +3533,6 @@
         "name": "macOS",
         "subcategories": [
           "Instant Messaging",
-          "IRC",
           "Email Alternatives",
           "Video & Voice"
         ]
@@ -3551,7 +3541,6 @@
         "name": "Windows",
         "subcategories": [
           "Instant Messaging",
-          "IRC",
           "Email Alternatives",
           "Video & Voice"
         ]
