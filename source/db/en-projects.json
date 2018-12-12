@@ -1849,33 +1849,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "Email"
-        ]
-      }
-    ],
-    "description": "Groupware solution for email, files, calendars, address books and mobile sync.",
-    "development_stage": "released",
-    "license_url": "http://git.kolab.org/kolab-wap/tree/doc/LICENSE",
-    "logo": "kolab.svg",
-    "name": "Kolab",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "CalDAV",
-      "CardDAV",
-      "WebDAV"
-    ],
-    "slug": "kolab",
-    "source_url": "https://git.kolab.org/",
-    "tos_url": "",
-    "url": "https://kolab.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kolab"
-  },
-  {
-    "categories": [
-      {
         "name": "Web Services",
         "subcategories": [
           "Email"
@@ -3460,8 +3433,8 @@
         "name": "Web Services",
         "subcategories": [
           "Email",
-	  "Productivity",
-	  "VPN"
+          "Productivity",
+          "VPN"
         ]
       }
     ],
