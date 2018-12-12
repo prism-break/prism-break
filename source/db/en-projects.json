@@ -3360,31 +3360,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "XMPP Servers"
-        ]
-      }
-    ],
-    "description": "Flexible lightweight XMPP server written in Lua.",
-    "development_stage": "released",
-    "license_url": "https://hg.prosody.im/trunk/file/b3d5aa57c454/COPYING",
-    "logo": "prosody.svg",
-    "name": "Prosody",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP"
-    ],
-    "slug": "prosody",
-    "source_url": "https://prosody.im/source/start",
-    "tos_url": "",
-    "url": "https://prosody.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Prosody_%28software%29"
-  },
-  {
-    "categories": [
-      {
         "name": "BSD",
         "subcategories": [
           "Instant Messaging"
