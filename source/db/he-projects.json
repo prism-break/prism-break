@@ -390,13 +390,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Password_Safe"
   },
   {
-    "description": "גלריית תמונות באחסון עצמאי.",
-    "notes": "Piwigo does not encrypt any of your data by default.",
-    "slug": "piwigo",
-    "url": "http://piwigo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo"
-  },
-  {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
     "notes": "Privacy Badger may be less effective than a classic blacklist based solution such as uBlock or Disconnect. Advertisers can automatically unblock themselves by claiming not to track you.",
     "slug": "privacy-badger",

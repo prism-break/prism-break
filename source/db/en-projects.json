@@ -3020,31 +3020,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "description": "Self-hosted photo gallery platform.",
-    "development_stage": "released",
-    "license_url": "http://piwigo.org/basics/license",
-    "logo": "piwigo.svg",
-    "name": "Piwigo",
-    "notes": "Piwigo does not encrypt any of your data by default.",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "piwigo",
-    "source_url": "http://piwigo.org/dev/browser",
-    "tos_url": "",
-    "url": "http://piwigo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "Web Browser Addons"
