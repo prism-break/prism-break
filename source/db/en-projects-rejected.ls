@@ -56,6 +56,16 @@ exports.projects-rejected =
         subcategories: ["Email"]
     ]
 
+  * logo: "em-client.svg"
+    name: "eM Client"
+    categories: [
+      * name: "macOS"
+        subcategories: ["Email"]
+      * name: "Windows"
+        subcategories: ["Email"]
+
+    ]
+
   * logo: "the-bat.svg"
     name: "The Bat!"
     categories: [
