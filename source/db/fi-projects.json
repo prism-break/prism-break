@@ -471,11 +471,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Yksityisyyttä arvostava hakukone, joka ei kerää tietoja.",
-    "notes": "Startpage on Yhdysvalloissa ja Alankomaissa ylläpidetty SaaS joka tarjoaa anonyymit Googlehaut ja kuvat ilmaisen väliyspalvelimen kautta.",
-    "slug": "startpage"
-  },
-  {
     "description": "Continuous decentralized file synchronization.",
     "notes": "Syncthing is a self-hosted file sharing platform, so none of your data is ever stored anywhere other than on your computers. There is no central server that might be compromised, legally or illegally. All communication is secured using TLS. The encryption used includes perfect forward secrecy to prevent any eavesdropper from gaining access to your data. Every node is identified by a strong cryptographic certificate. Only nodes you have explicitly allowed can connect to your cluster.",
     "slug": "syncthing",

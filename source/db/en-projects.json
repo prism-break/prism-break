@@ -3468,31 +3468,6 @@
   {
     "categories": [
       {
-        "name": "Web Services",
-        "subcategories": [
-          "Web Search"
-        ]
-      }
-    ],
-    "description": "No-tracking Google Search proxy.",
-    "development_stage": "released",
-    "license_url": "",
-    "logo": "startpage.svg",
-    "name": "StartPage",
-    "nonfree": true,
-    "privacy_url": "https://startpage.com/eng/protect-privacy.html",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "startpage",
-    "source_url": "",
-    "tos_url": "",
-    "url": "https://startpage.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ixquick#Startpage.com"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "File Storage & Sync"

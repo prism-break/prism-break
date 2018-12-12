@@ -470,11 +470,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Private, aufzeichnungsfreie Websuchen.",
-    "notes": "Startpage ist ein Softwaredienst ([SaaS](https://de.wikipedia.org/wiki/SaaS)), der in den USA und den Niederlanden gehostet wird. Er bietet anonymisierte Google Web- und Bildersuche durch einen freien Proxy.",
-    "slug": "startpage"
-  },
-  {
     "description": "Continuous decentralized file synchronization.",
     "notes": "Syncthing is a self-hosted file sharing platform, so none of your data is ever stored anywhere other than on your computers. There is no central server that might be compromised, legally or illegally. All communication is secured using TLS. The encryption used includes perfect forward secrecy to prevent any eavesdropper from gaining access to your data. Every node is identified by a strong cryptographic certificate. Only nodes you have explicitly allowed can connect to your cluster.",
     "slug": "syncthing",
