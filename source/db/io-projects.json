@@ -387,13 +387,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Password_Safe"
   },
   {
-    "description": "Libera platformo por galerii de fotografuri.",
-    "notes": "Piwigo does not encrypt any of your data by default.",
-    "slug": "piwigo",
-    "url": "http://piwigo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo"
-  },
-  {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
     "notes": "Privacy Badger may be less effective than a classic blacklist based solution such as uBlock or Disconnect. Advertisers can automatically unblock themselves by claiming not to track you.",
     "slug": "privacy-badger",
@@ -545,12 +538,5 @@
     "slug": "wordpress",
     "url": "https://wordpress.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress"
-  },
-  {
-    "description": "Libera audvideal kontenadministrilo por retloki.",
-    "notes": "Zenphoto does not encrypt any of your data by default.",
-    "slug": "zenphoto",
-    "url": "http://www.zenphoto.org/",
-    "wikipedia_url": ""
   }
 ]

@@ -57,6 +57,12 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
         "name": "Web Services",
         "subcategories": [
           "Media Publishing"
@@ -1517,7 +1523,7 @@
         ]
       }
     ],
-    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "description": "Platform for creating interconnected websites.",
     "development_stage": "released",
     "license_url": "https://framagit.org/hubzilla/core/blob/master/LICENSE",
     "logo": "hubzilla.svg",
@@ -2021,6 +2027,33 @@
     "tos_url": "",
     "url": "https://joinmastodon.org",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mastodon_(software)"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "description": "Federated image sharing.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/pixelfed/pixelfed/blob/dev/LICENSE",
+    "logo": "pixelfed.svg",
+    "name": "PixelFed",
+    "protocols": [
+      "ActivityPub"
+    ],
+    "slug": "pixelfed",
+    "source_url": "https://github.com/pixelfed/pixelfed",
+    "url": "https://pixelfed.org"
   },
   {
     "categories": [
@@ -2989,31 +3022,6 @@
     "tos_url": "",
     "url": "http://pwsafe.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Password_Safe"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "description": "Self-hosted photo gallery platform.",
-    "development_stage": "released",
-    "license_url": "http://piwigo.org/basics/license",
-    "logo": "piwigo.svg",
-    "name": "Piwigo",
-    "notes": "Piwigo does not encrypt any of your data by default.",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "piwigo",
-    "source_url": "http://piwigo.org/dev/browser",
-    "tos_url": "",
-    "url": "http://piwigo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piwigo"
   },
   {
     "categories": [
@@ -4207,31 +4215,6 @@
     "tos_url": "",
     "url": "https://wordpress.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "description": "Self-hosted media management system.",
-    "development_stage": "released",
-    "license_url": "http://www.zenphoto.org/pages/licenses",
-    "logo": "zenphoto.svg",
-    "name": "Zenphoto",
-    "notes": "Zenphoto does not encrypt any of your data by default.",
-    "privacy_url": "http://www.zenphoto.org/pages/privacy",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "zenphoto",
-    "source_url": "https://github.com/zenphoto/zenphoto",
-    "tos_url": "http://www.zenphoto.org/support/?terms-of-service=display",
-    "url": "http://www.zenphoto.org/",
-    "wikipedia_url": ""
   },
   {
     "categories": [
