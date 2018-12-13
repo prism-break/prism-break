@@ -3818,29 +3818,6 @@
   {
     "categories": [
       {
-        "name": "macOS",
-        "subcategories": [
-          "VPN"
-        ]
-      }
-    ],
-    "description": "OpenVPN GUI for macOS.",
-    "development_stage": "released",
-    "license_url": "https://github.com/Tunnelblick/Tunnelblick/blob/master/tunnelblick/COPYING",
-    "logo": "tunnelblick.svg",
-    "name": "Tunnelblick",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "tunnelblick",
-    "source_url": "https://github.com/Tunnelblick/Tunnelblick",
-    "tos_url": "",
-    "url": "https://tunnelblick.net/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
         "name": "BSD",
         "subcategories": [
           "Web Browser Addons"
