@@ -2,6 +2,24 @@
   {
     "categories": [
       {
+        "name": "Web Services",
+        "subcategories": [
+          "VPN"
+        ]
+      }
+    ],
+    "description": "No-log WireGuard VPN provider.",
+    "development_stage": "released",
+    "logo": "mullvad.svg",
+    "name": "Mullvad",
+    "protocols": [],
+    "slug": "mullvad",
+    "source_url": "https://github.com/mullvad",
+    "url": "https://mullvad.net"
+  },
+  {
+    "categories": [
+      {
         "name": "Android",
         "subcategories": [
           "VPN"
