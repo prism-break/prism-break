@@ -2813,25 +2813,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "VPN"
-        ]
-      }
-    ],
-    "description": "OpenVPN client for Android.",
-    "development_stage": "released",
-    "license_url": "https://github.com/schwabe/ics-openvpn/blob/master/doc/LICENSE.txt",
-    "logo": "openvpn-for-android.svg",
-    "name": "OpenVPN for Android",
-    "protocols": [],
-    "slug": "openvpn-for-android",
-    "source_url": "https://github.com/schwabe/ics-openvpn",
-    "url": "https://github.com/schwabe/ics-openvpn"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Firmware"
