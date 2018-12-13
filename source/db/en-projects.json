@@ -2832,49 +2832,6 @@
   {
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "VPN"
-        ]
-      }
-    ],
-    "description": "Free software VPN client.",
-    "development_stage": "released",
-    "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
-    "logo": "openvpn.svg",
-    "name": "OpenVPN",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "openvpn",
-    "source_url": "https://github.com/OpenVPN",
-    "tos_url": "",
-    "url": "http://openvpn.net/index.php/open-source.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Firmware"
