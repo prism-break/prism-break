@@ -2918,6 +2918,12 @@
         "subcategories": [
           "World Maps"
         ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "World Maps"
+        ]
       }
     ],
     "description": "Map and navigation app that uses OpenStreetMap data.",
@@ -2931,7 +2937,7 @@
     "slug": "osmand",
     "source_url": "https://github.com/osmandapp",
     "tos_url": "",
-    "url": "http://osmand.net/",
+    "url": "https://osmand.net",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd"
   },
   {
