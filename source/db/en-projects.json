@@ -4124,7 +4124,14 @@
         "subcategories": [
           "VPN"
         ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "VPN"
+        ]
       }
+
     ],
     "description": "Fast, modern, secure VPN tunnel.",
     "development_stage": "experimental",
