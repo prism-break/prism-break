@@ -4,12 +4,6 @@
     "notes": "Whonix è progettato per essere eseguito all’interno di un pacchetto di virtualizzazione come [VirtualBox](https://www.virtualbox.org/). VirtualBox può essere installato su Windows, Linux, macOS e Solaris. Quindi se sarai obbligato ad usare Windows o macOS per qualsiasi ragione, potrai installare VirtualBox e usare Whonix per aumentare la tua privacy e sicurezza."
   },
   {
-    "description": " Android application compatible with ZX2C4’s Pass command line application.",
-    "slug": "android-password-store",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
-    "wikipedia_url": ""
-  },
-  {
     "description": "Implementazione PBX con supporto VoIP/SIP.",
     "slug": "asterisk",
     "url": "http://www.asterisk.org/",

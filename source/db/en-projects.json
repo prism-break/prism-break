@@ -305,31 +305,6 @@
       {
         "name": "Android",
         "subcategories": [
-          "Password Managers"
-        ]
-      }
-    ],
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "development_stage": "released",
-    "license_url": "https://github.com/zeapo/Android-Password-Store/blob/master/LICENSE.txt",
-    "logo": "android-password-store.svg",
-    "name": "Password Store",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "slug": "android-password-store",
-    "source_url": "https://github.com/zeapo/Android-Password-Store",
-    "tos_url": "",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
           "SIP Servers"
         ]
       },
