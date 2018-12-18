@@ -382,12 +382,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Bruce Schneierin suunnittelema Password Safe (Windows/Linux) tallentaa salasanat, verkkosivujen URLit, sähköpostiosoitteet, muistiinpanot ja paljon muuta salattuun tiedostoon, eli sinun tarvitsee muistaa ainoastaan yksi salasana. Voit luoda satunnaisia korkean entropian salasanoja ja mukauttaa ohjelmaa sopimaan eri sivujen asettamiin salasanakäytänteisiin.",
-    "slug": "passwordsafe",
-    "url": "http://pwsafe.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Password_Safe"
-  },
-  {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
     "notes": "Privacy Badger may be less effective than a classic blacklist based solution such as uBlock or Disconnect. Advertisers can automatically unblock themselves by claiming not to track you.",
     "slug": "privacy-badger",
