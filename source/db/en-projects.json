@@ -2943,43 +2943,6 @@
   {
     "categories": [
       {
-        "name": "BSD",
-        "subcategories": [
-          "Password Managers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Password Managers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Password Managers"
-        ]
-      }
-    ],
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "development_stage": "released",
-    "license_url": "https://git.zx2c4.com/password-store/tree/COPYING",
-    "logo": "",
-    "name": "pass",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "slug": "password-store",
-    "source_url": "https://git.zx2c4.com/password-store/",
-    "tos_url": "",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "Web Browser Addons"

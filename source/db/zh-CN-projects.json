@@ -376,12 +376,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd"
   },
   {
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "slug": "password-store",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
-  },
-  {
     "description": "这是一个跟踪屏蔽器，它会试着了解是谁在监视你，并屏蔽这些广告和跟踪器。",
     "notes": "隐私獾（Privacy Badger）可能不如传统的基于黑名单的 uBlock 或 Disconnect 等解决方案更有效。因为广告主可以通过宣称不对你进行跟踪而获得解封。",
     "slug": "privacy-badger",
