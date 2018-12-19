@@ -1780,29 +1780,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "Web Analytics"
-        ]
-      }
-    ],
-    "description": "Open source, self-hosted web analytics.",
-    "development_stage": "released",
-    "license_url": "https://github.com/matomo-org/matomo/blob/master/LEGALNOTICE",
-    "logo": "matomo.svg",
-    "name": "Matomo",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "matomo",
-    "source_url": "https://github.com/matomo-org/matomo",
-    "tos_url": "",
-    "url": "https://matomo.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matomo_(software)"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "Finance"
@@ -2348,29 +2325,6 @@
     "tos_url": "",
     "url": "http://project-osrm.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Web Analytics"
-        ]
-      }
-    ],
-    "description": "Alternative open source web analytics.",
-    "development_stage": "released",
-    "license_url": "http://wiki.openwebanalytics.com/index.php?title=License",
-    "logo": "open-web-analytics.svg",
-    "name": "Open Web Analytics",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "open-web-analytics",
-    "source_url": "http://trac.openwebanalytics.com/browser",
-    "tos_url": "",
-    "url": "http://www.openwebanalytics.com/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Web_Analytics"
   },
   {
     "categories": [
