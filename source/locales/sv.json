@@ -159,7 +159,6 @@
   "communication-protocols-notes": "--",
   "cryptocoins": "Lista på alternativa krypterade valutor.",
   "disk-encryption-notes": "<p>2014-05-28: TrueCrypt currently has security issues and is not recommended.<p><p>If you’re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>",
-  "dns-notes": "<p>Google Public DNS loggar din ISP och platsinformation permanent för analys. Din ip-adress lagras också i 24 timmar.</p><p><strong>OpenNIC</strong> har inte adopterat en officiell policy om loggning/integritet/anonymisering. Mer information <a href='https://wiki.opennic.org/opennic:tier2'>här</a>.</p>",
   "editor's choice": "editor’s choice",
   "eff-quote-1": "<strong>MASSIV ÖVERVAKNING AVSLÖJAD</strong>",
   "eff-quote-2": "Nyliga rapporter av Guardian och Washington Post bekräftar hemliga spionprogram på telefondata och Internet aktivitet. Det är dags för ett fullt utlägg av Amerikas hemliga spionprogram-och ett slut på okonstitionell övervakning.",
