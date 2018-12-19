@@ -2,6 +2,55 @@
   {
     "categories": [
       {
+        "name": "Web Services",
+        "subcategories": [
+          "VPN"
+        ]
+      }
+    ],
+    "description": "No-log WireGuard VPN provider.",
+    "development_stage": "released",
+    "logo": "mullvad.svg",
+    "name": "Mullvad",
+    "protocols": [],
+    "slug": "mullvad",
+    "source_url": "https://github.com/mullvad",
+    "url": "https://mullvad.net"
+  },
+  {
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "VPN"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "VPN"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "VPN"
+        ]
+      }
+    ],
+    "description": "LEAP platform client.",
+    "development_stage": "experimental",
+    "license_url": "https://0xacab.org/leap/bitmask-dev/blob/master/LICENSE",
+    "logo": "bitmask.svg",
+    "name": "Bitmask",
+    "protocols": [],
+    "slug": "bitmask",
+    "source_url": "https://0xacab.org/leap/bitmask-dev",
+    "url": "https://bitmask.net"
+  },
+  {
+    "categories": [
+      {
         "name": "Servers",
         "subcategories": [
           "Instant Messaging"
@@ -2430,68 +2479,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "VPN"
-        ]
-      }
-    ],
-    "description": "OpenVPN client for Android.",
-    "development_stage": "released",
-    "license_url": "https://github.com/schwabe/ics-openvpn/blob/master/doc/LICENSE.txt",
-    "logo": "openvpn-for-android.svg",
-    "name": "OpenVPN for Android",
-    "protocols": [],
-    "slug": "openvpn-for-android",
-    "source_url": "https://github.com/schwabe/ics-openvpn",
-    "url": "https://github.com/schwabe/ics-openvpn"
-  },
-  {
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "VPN"
-        ]
-      }
-    ],
-    "description": "Free software VPN client.",
-    "development_stage": "released",
-    "license_url": "https://github.com/OpenVPN/openvpn/blob/master/COPYING",
-    "logo": "openvpn.svg",
-    "name": "OpenVPN",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS"
-    ],
-    "slug": "openvpn",
-    "source_url": "https://github.com/OpenVPN",
-    "tos_url": "",
-    "url": "http://openvpn.net/index.php/open-source.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Firmware"
@@ -3408,29 +3395,6 @@
   {
     "categories": [
       {
-        "name": "macOS",
-        "subcategories": [
-          "VPN"
-        ]
-      }
-    ],
-    "description": "OpenVPN GUI for macOS.",
-    "development_stage": "released",
-    "license_url": "https://github.com/Tunnelblick/Tunnelblick/blob/master/tunnelblick/COPYING",
-    "logo": "tunnelblick.svg",
-    "name": "Tunnelblick",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "tunnelblick",
-    "source_url": "https://github.com/Tunnelblick/Tunnelblick",
-    "tos_url": "",
-    "url": "https://tunnelblick.net/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
         "name": "BSD",
         "subcategories": [
           "Web Browser Addons"
@@ -3719,7 +3683,14 @@
         "subcategories": [
           "VPN"
         ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "VPN"
+        ]
       }
+
     ],
     "description": "Fast, modern, secure VPN tunnel.",
     "development_stage": "experimental",

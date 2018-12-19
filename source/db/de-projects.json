@@ -302,12 +302,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenStreetMap"
   },
   {
-    "description": "Freier VPN-Client-Software.",
-    "slug": "openvpn",
-    "url": "http://openvpn.net/index.php/open-source.html",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenVPN"
-  },
-  {
     "description": "A GNU/Linux distribution for embedded devices.",
     "slug": "openwrt",
     "url": "https://openwrt.org/",
@@ -446,12 +440,6 @@
     "slug": "tox",
     "url": "https://tox.chat",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)"
-  },
-  {
-    "description": "Tunnelblick is a free, open source graphic user interface for OpenVPN on macOS. It provides easy control of OpenVPN client and/or server connections.",
-    "slug": "tunnelblick",
-    "url": "https://tunnelblick.net/",
-    "wikipedia_url": ""
   },
   {
     "description": "An efficient blocker for Firefox and Chromium. Fast and lean.",
