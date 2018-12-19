@@ -1475,46 +1475,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      }
-    ],
-    "description": "Encrypted text, voice, and  video messaging for multiple platforms.",
-    "development_stage": "released",
-    "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
-    "logo": "jitsi.svg",
-    "name": "Jitsi",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "OTR",
-      "SIP",
-      "XMPP",
-      "ZRTP"
-    ],
-    "slug": "jitsi",
-    "source_url": "https://github.com/jitsi",
-    "tos_url": "",
-    "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "Email"
