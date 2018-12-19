@@ -197,13 +197,6 @@ exports.projects-rejected =
         subcategories: ["Social Networks", "Video & Voice"]
     ]
 
-  * logo: "google-analytics.svg"
-    name: "Google Analytics"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Web Analytics"]
-    ]
-
   * logo: "google-authenticator.svg"
     name: 'Google Authenticator'
     categories: [
