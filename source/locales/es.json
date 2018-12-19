@@ -159,7 +159,6 @@
   "communication-protocols-notes": "--",
   "cryptocoins": "Lista de monedas criptográficas digitales alternativas.",
   "disk-encryption-notes": "<p>2014-05-28: TrueCrypt actualmente tiene problemas de seguridad y no es recomendable.<p><p>Si tú estás usando GNU/Linux, <strong>dm-crypt</strong> con <strong>LUKS</strong> es la opción recomendada.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>tiene una guía</a> para <strong>dm-crypt</strong> con <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>tiene otra guía</a> para <strong>dm-crypt</strong> con <strong>LUKS</strong> que también es útil con Parabola GNU/Linux.</p>",
-  "dns-notes": "<p>Google Public DNS registra permanentemente tu ISP e información de localización para su análisis. Tu dirección ip-también es guardada por 24 horas.</p><p><strong>OpenNIC</strong> no ha adoptado una política oficial en lo que respecta a privacidad de consultas a registros y anonimicidad. Más información <a href='https://wiki.opennic.org/opennic:tier2'>aquí</a>. <i>(inglés)</i></p>",
   "editor's choice": "recomendado",
   "eff-quote-1": "<strong>VIGILANCIA MASIVA EXPUESTA</strong>",
   "eff-quote-2": "Reportes recientes de <em>The Guardian<em> y <em>The Washington Post<em> confirman programas secretos de espionaje en registros telefónicos y actividad de Internet. Es momento de una explicación completa de los programas secretos de espionaje de los Estados Unidos de América—y un fin a la vigilancia anticonstitucional.",

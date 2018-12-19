@@ -159,7 +159,6 @@
   "communication-protocols-notes": "--",
   "cryptocoins": "代替の暗号化デジタル通貨の一覧。",
   "disk-encryption-notes": "<p>2014-05-28: TrueCrypt は現在セキュリティ上の問題があり、推奨されていません。<p><p>GNU/Linux を実行している場合、 <strong>dm-crypt</strong> と <strong>LUKS</strong> は推奨される暗号化オプションです。</p><p>Gentoo GNU/Linux は <strong>dm-crypt</strong> と <strong>LUKS</strong> の <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>ガイドをメンテナンスしています</a>。</p><p>Arch GNU/Linux は <strong>dm-crypt</strong> と <strong>LUKS</strong> への <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>ガイドをメンテナンスしています</a>。 Parabola GNU/Linux でも使用できます。</p><p>Slackware Linux は <strong>dm-crypt</strong> と <strong>LUKS</strong> への <a href='http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT'>ガイドをメンテナンスしています</a>。</p><p>この文脈で <strong>透過性</strong> とは、(<strong>dm-crypt</strong> のような) 暗号化ツールによってすべてのプログラムに等しく提供されるため、個々のプログラムが独自のデータの暗号化を管理する必要はないことを意味します。 <a href='https://en.wikipedia.org/wiki/Transparency_%28human%E2%80%93computer_interaction%29'>これに関する詳細は Wikipedia</a> で。</p>",
-  "dns-notes": "<p>Google Public DNS は解析のために ISP とロケーション情報を恒久的に記録します。 あなたのIPアドレスも 24 時間保存されます。</p><p><strong>OpenNIC</strong> は、ログクエリのプライバシー/匿名化に関する公式のポリシーを採用していません。 詳細な情報は <a href='https://wiki.opennic.org/opennic:tier2'>ここ</a>。</p>",
   "editor's choice": "編集者のおすすめ",
   "eff-quote-1": "<strong>大規模な監視の暴露</strong>",
   "eff-quote-2": "Guardian とワシントンポストによる最近の報告では、電話の記録とインターネット活動に関する秘密スパイ計画を確認しています。 アメリカの秘密スパイ計画の完全な説明と、違憲な監視の終わりの時です。",

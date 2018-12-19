@@ -160,7 +160,6 @@
   "communication-protocols-notes": "--",
   "cryptocoins": "其他加密数字货币的列表",
   "disk-encryption-notes": "<p>2014年05月28日：TrueCrypt 存在安全问题而不再被推荐。<p><p>如果你的系统是 GNU/Linux，启用 <strong>LUKS</strong> 的 <strong>dm-crypt</strong> 会是一个不错的替代选择。</p><p>Gentoo GNU/Linux 提供来<a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>一份指南</a>告诉你怎么使用启用 <strong>LUKS</strong> 的 <strong>dm-crypt</strong>。</p><p>Arch GNU/Linux 也提供了<a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>类似的指南</a>。这对 Parabola GNU/Linux 也适用。</p>",
-  "dns-notes": "<p>Google Public DNS 会永久记录你的因特网服务提供商和位置信息用于分析。你的 IP 地址也会被储存 24 小时。</p><p><strong>OpenNIC</strong> 并未通过关于记录查询的隐私性与匿名性的任何官方的政策文件。更多信息参见<a href='https://wiki.opennic.org/opennic:tier2'>这里</a>。</p>",
   "editor's choice": "编辑推荐",
   "eff-quote-1": "<strong>大量监控已曝光</strong>",
   "eff-quote-2": "最近卫报和华盛顿邮报的报道证实了政府对电话和互联网活动进行监视的秘密。是时候清算美国政府的监视举动，并终结这个违宪行为了！",

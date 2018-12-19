@@ -159,7 +159,6 @@
   "communication-protocols-notes": "--",
   "cryptocoins": "Lista alternativnih šifrovanih digitalnih valuta.",
   "disk-encryption-notes": "<p>2014-05-28: TrueCrypt currently has security issues and is not recommended.<p><p>If you’re running GNU/Linux, <strong>dm-crypt</strong> with <strong>LUKS</strong> is the recommended encryption option.</p><p>Gentoo GNU/Linux <a href='https://wiki.gentoo.org/wiki/DM-Crypt_LUKS'>maintains a guide</a> for <strong>dm-crypt</strong> with <strong>LUKS</strong>.</p><p>Arch GNU/Linux <a href='https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS'>maintains a guide</a> to <strong>dm-crypt</strong> with <strong>LUKS</strong>. Also useable for Parabola GNU/Linux.</p>",
-  "dns-notes": "<p>Google-ov javni DNS trajno čuva informaciju o Vašem ISP-u i lokaciji za analizu. Vaša ip-adresa se čuva 24 sata.</p><p><strong>OpenNIC</strong> nema službenu polisu koja se tiče privatnosti/anonimizacije. Više informacija <a href='https://wiki.opennic.org/opennic:tier2'>ovde</a>.</p>",
   "editor's choice": "po odluci urednika",
   "eff-quote-1": "<strong>MASOVNI NADZOR OTKRIVEN</strong>",
   "eff-quote-2": "Nedavni izvori Gardijana i Vašington Posta potvrđuju tajni program za špijunažu telefona i internet aktivnosti.",

@@ -2425,37 +2425,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "DNS"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "DNS"
-        ]
-      }
-    ],
-    "description": "Open, democratic, and anti-censorship DNS provider.",
-    "development_stage": "released",
-    "license_url": "",
-    "logo": "opennic.svg",
-    "name": "OpenNIC",
-    "notes": "OpenNIC has not adopted an official policy concerning log query privacy/anonymization. More information [here](https://wiki.opennic.org/opennic:tier2).",
-    "privacy_url": "https://wiki.opennic.org/opennic:tier2",
-    "protocols": [
-      "DNS"
-    ],
-    "slug": "opennic",
-    "source_url": "https://wiki.opennic.org/opennic:srvzone",
-    "tos_url": "",
-    "url": "https://www.opennic.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/OpenNIC"
-  },
-  {
-    "categories": [
-      {
         "name": "Web Services",
         "subcategories": [
           "World Maps"
