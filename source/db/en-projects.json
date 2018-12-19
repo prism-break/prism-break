@@ -1706,41 +1706,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "World Maps"
-        ]
-      }
-    ],
-    "description": "Free virtual globe and world atlas.",
-    "development_stage": "released",
-    "license_url": "https://projects.kde.org/projects/kde/kdeedu/marble/repository/revisions/master/entry/LICENSE.txt",
-    "logo": "marble.svg",
-    "name": "Marble",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "marble",
-    "source_url": "https://projects.kde.org/projects/kde/kdeedu/marble/repository",
-    "tos_url": "",
-    "url": "http://marble.kde.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_%28software%29"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Social Networks"
