@@ -280,13 +280,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Реализация на C++ высокопроизводительной системы навигации для поиска кратчайших путей в дорожных сетях. Лицензирована под пермиссивной 2-пунктовой лицензией BSD. OSRM поддерживает Linux, FreeBSD, Windows и Mac.",
-    "notes": "OSRM должен быть установлен и запущен локально на вашем компьютере, чтобы избежать потенциальных утечек незашифрованных данных с онлайн сервисов.",
-    "slug": "open-source-routing-machine",
-    "url": "http://project-osrm.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
-  },
-  {
     "description": "Безопасная операционная система BSD.",
     "slug": "openbsd",
     "url": "http://openbsd.org/",

@@ -278,13 +278,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "La Open Source Routing Machine (OSRM) è un’implementazione in C++ di un motore per mappe ad alte prestazioni per trovare i percorsi più brevi nelle reti stradali. Dotata di una licenza permissiva con doppia clausola BSD, OSRM è un servizio di rete libero. OSRM supporta Linux, FreeBSD, Windows e Mac.",
-    "notes": "OSRM dovrebbe essere installato e usato localmente sul tuo PC per evitare possibili fughe di dati dalla versione online del servizio in chiaro.",
-    "slug": "open-source-routing-machine",
-    "url": "http://project-osrm.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
-  },
-  {
     "description": "Un sistema operativo BSD sicuro.",
     "slug": "openbsd",
     "url": "http://openbsd.org/",

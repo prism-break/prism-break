@@ -277,13 +277,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Open Source Routing Machine tai OSRM on C++ implementaatio suorituskykyisestä reititysmoottorista lyhimmille reiteille tieverkoissa. Lisensoitu 'permissive 2-clause BSD license'. OSRM on vapaa verkkopalvelu, joka tukee Linux, FreeBSD, Windows, ja Mac alustoja.",
-    "notes": "OSRM pitäisi asentaa ja suorittaa paikallisesti tietokoneella, jotta vältytään tiedon vuotamiselta salaamattomaan verkkopalveluun.",
-    "slug": "open-source-routing-machine",
-    "url": "http://project-osrm.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
-  },
-  {
     "description": "Turvallinen BSD-käyttöjärjestelmä.",
     "slug": "openbsd",
     "url": "http://openbsd.org/",

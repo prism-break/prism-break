@@ -2333,53 +2333,6 @@
       {
         "name": "BSD",
         "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "World Maps"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "World Maps"
-        ]
-      }
-    ],
-    "description": "C++ implementation of a high-performance routing engine for shortest paths in road networks. Licensed under the permissive 2-clause BSD license, OSRM is a free network service. OSRM supports Linux, FreeBSD, Windows, and Mac platform.",
-    "development_stage": "released",
-    "license_url": "https://github.com/DennisOSRM/Project-OSRM/blob/master/LICENCE.TXT",
-    "logo": "osrm.svg",
-    "name": "Open Source Routing Machine",
-    "notes": "OSRM should be installed and run locally on your PC to avoid potential data leaks from the unencrypted online service.",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "open-source-routing-machine",
-    "source_url": "https://github.com/DennisOSRM/Project-OSRM",
-    "tos_url": "",
-    "url": "http://project-osrm.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
-  },
-  {
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
           "Operating Systems"
         ]
       },
@@ -3659,7 +3612,6 @@
           "VPN"
         ]
       }
-
     ],
     "description": "Fast, modern, secure VPN tunnel.",
     "development_stage": "experimental",

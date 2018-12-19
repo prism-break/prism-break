@@ -277,13 +277,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "OSRM 是一个高性能的最短路径导航引擎的 C++ 实现，是使用 permissive 2-clause BSD license 协议发布的自由网络服务。OSRM 支持 Linux、FreeBSD、Windows 和 Mac 平台。",
-    "notes": "OSRM 应该被安装在你的本地计算机，以避免未加密的网络泄漏您的信息。",
-    "slug": "open-source-routing-machine",
-    "url": "http://project-osrm.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Open_Source_Routing_Machine"
-  },
-  {
     "description": "安全的 BSD 操作系统。安全得近乎偏执。",
     "slug": "openbsd",
     "url": "http://openbsd.org/",
