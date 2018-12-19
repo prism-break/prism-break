@@ -4,12 +4,6 @@
     "notes": "Whonix è progettato per essere eseguito all’interno di un pacchetto di virtualizzazione come [VirtualBox](https://www.virtualbox.org/). VirtualBox può essere installato su Windows, Linux, macOS e Solaris. Quindi se sarai obbligato ad usare Windows o macOS per qualsiasi ragione, potrai installare VirtualBox e usare Whonix per aumentare la tua privacy e sicurezza."
   },
   {
-    "description": "Implementazione PBX con supporto VoIP/SIP.",
-    "slug": "asterisk",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://it.wikipedia.org/wiki/Asterisk_PBX"
-  },
-  {
     "description": "Servizio di messaggistica P2P criptato e decentralizzato, basato sulla tecnologia Bitcoin.",
     "notes": "Bitmessage è una promettente alternativa all’email, ma non è ancora stato revisionato da professionisti di sicurezza. Usare a proprio rischio. Se decidi di provare Bitmessage, assicurati di generare un ID completamente casuale per ridurre notevolmente la possibilitè di collisioni tra ID.",
     "slug": "bitmessage",
@@ -131,12 +125,6 @@
     "wikipedia_url": "https://it.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "Software softswitch multipiattaforma con supporto VoIP/SIP.",
-    "slug": "freeswitch",
-    "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH"
-  },
-  {
     "description": "Un’iniziativa non commerciale di origine popolare per supportare reti radio libere in tutto il mondo.",
     "slug": "freifunk",
     "url": "http://wiki.freifunk.net/Kategorie:English",
@@ -197,22 +185,10 @@
     "wikipedia_url": "https://it.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "Chat e videoconferenze cifrate, multipiattaforma.",
-    "slug": "jitsi",
-    "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi"
-  },
-  {
     "description": "Applicazione email per dispositivi Android con supporto PGP integrato.",
     "slug": "k-9-mail",
     "url": "https://github.com/k9mail/k-9",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
-  },
-  {
-    "description": "Server VoIP/SIP open source.",
-    "slug": "kamailio",
-    "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": ""
   },
   {
     "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
@@ -225,13 +201,6 @@
     "slug": "librecmc",
     "url": "https://librecmc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
-  },
-  {
-    "description": "Client per VoIP e videoconferenze cifrate multipiattaforma.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
   },
   {
     "description": "Strumento di cifratura OpenPGP per webmail.",

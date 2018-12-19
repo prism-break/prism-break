@@ -3,12 +3,6 @@
     "description": "S.O. amigable para máquinas virtuales, basado en Debian y Tor, enfocado en la anonimidad, privacidad y seguridad."
   },
   {
-    "description": "Implementación de PBX con soporte VoIP/SIP.",
-    "slug": "asterisk",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
-  },
-  {
     "description": "Servicio de mensajería cifrada y descentralizada basada en tecnología bitcoin.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
@@ -130,12 +124,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "Conmutador virtual multiplataforma con soporte para VoIP/SIP.",
-    "slug": "freeswitch",
-    "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH"
-  },
-  {
     "description": "Iniciativa no comercial comunitaria para apoyar redes radiofónicas libres en todo el mundo.",
     "slug": "freifunk",
     "url": "http://wiki.freifunk.net/Kategorie:English",
@@ -196,22 +184,10 @@
     "wikipedia_url": "https://es.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "Conversaciones cifradas de texto, audio y video para múltiples plataformas.",
-    "slug": "jitsi",
-    "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi"
-  },
-  {
     "description": "Aplicación para Android con soporte de PGP integrado.",
     "slug": "k-9-mail",
     "url": "https://github.com/k9mail/k-9",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
-  },
-  {
-    "description": "Servidor de VoIP/SIP libre y de código abierto.",
-    "slug": "kamailio",
-    "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": ""
   },
   {
     "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
@@ -224,13 +200,6 @@
     "slug": "librecmc",
     "url": "https://librecmc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
-  },
-  {
-    "description": "Telefonía en línea (VoIP) cifrada, con soporte para audio y video.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
   },
   {
     "description": "Cifrado OpenPGP para servicios webmail.",

@@ -60,11 +60,6 @@
     "wikipedia_url": "https://fi.wikipedia.org/wiki/S/MIME"
   },
   {
-    "description": "The Session Initiation Protocol (SIP) on viestintäprotokolla jota käytetään IP-puhelinyteyksien luontiin Internetissä.",
-    "slug": "sip",
-    "wikipedia_url": "https://fi.wikipedia.org/wiki/SIP"
-  },
-  {
     "description": "Transport Layer Security (TLS), aiemmin tunnettu nimellä Secure Sockets Layer (SSL), on salausprotokolla, jolla voidaan suojata Internet-sovellusten tietoliikenne IP-verkkojen yli. Se on nykyisin yksi tavallisimpia tapoja suojata tietoliikennettä. Tavallisin TLS:n käyttötapa on suojata WWW-sivujen siirtoa HTTPS-protokollalla. Uusin TLS-versio 1.2 (korvaa vanhemmat SSL-versiot) määritellään standardissa RFC 5246.",
     "slug": "ssl-tls",
     "wikipedia_url": "https://fi.wikipedia.org/wiki/TLS"

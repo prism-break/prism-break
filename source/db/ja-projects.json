@@ -1,11 +1,5 @@
 [
   {
-    "description": "PBX implementation with VoIP/SIP support.",
-    "slug": "asterisk",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
-  },
-  {
     "description": "Encrypted, decentralized P2P messaging service based on Bitcoin technology.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
@@ -127,12 +121,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "Cross-platform soft switch software with VoIP/SIP support.",
-    "slug": "freeswitch",
-    "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH"
-  },
-  {
     "description": "A non-commercial open grassroots initiative to support free radio networks around the world.",
     "slug": "freifunk",
     "url": "http://wiki.freifunk.net/Kategorie:English",
@@ -193,22 +181,10 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "暗号化されたテキストおよびビデオチャット。",
-    "slug": "jitsi",
-    "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi"
-  },
-  {
     "description": "Open source email app for Android with PGP support.",
     "slug": "k-9-mail",
     "url": "https://github.com/k9mail/k-9",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
-  },
-  {
-    "description": "Open source VoIP/SIP server.",
-    "slug": "kamailio",
-    "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": ""
   },
   {
     "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
@@ -221,13 +197,6 @@
     "slug": "librecmc",
     "url": "https://librecmc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
-  },
-  {
-    "description": "暗号化されたボイスおよびビデオクライアント。",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
   },
   {
     "description": "ウェブメール向けのOpenPGPによる暗号化。",

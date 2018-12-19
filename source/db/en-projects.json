@@ -303,67 +303,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "description": "PBX implementation with SIP support.",
-    "development_stage": "released",
-    "license_url": "http://svnview.digium.com/svn/asterisk/trunk/LICENSE?view=markup",
-    "logo": "asterisk.svg",
-    "name": "Asterisk",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SIP"
-    ],
-    "slug": "asterisk",
-    "source_url": "http://www.asterisk.org/downloads/source-code",
-    "tos_url": "",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
-  },
-  {
-    "categories": [
-      {
         "name": "GNU/Linux",
         "subcategories": [
           "Email"
@@ -1147,67 +1086,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "description": "Cross-platform soft switch software with SIP support.",
-    "development_stage": "released",
-    "license_url": "http://fisheye.freeswitch.org/browse/freeswitch.git/docs/COPYING?hb=true",
-    "logo": "freeswitch.png",
-    "name": "FreeSWITCH",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SIP"
-    ],
-    "slug": "freeswitch",
-    "source_url": "http://fisheye.freeswitch.org/browse/freeswitch.git",
-    "tos_url": "",
-    "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Mesh Networks"
@@ -1597,46 +1475,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      }
-    ],
-    "description": "Encrypted text, voice, and  video messaging for multiple platforms.",
-    "development_stage": "released",
-    "license_url": "https://github.com/jitsi/jitsi/blob/master/LICENSE",
-    "logo": "jitsi.svg",
-    "name": "Jitsi",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "OTR",
-      "SIP",
-      "XMPP",
-      "ZRTP"
-    ],
-    "slug": "jitsi",
-    "source_url": "https://github.com/jitsi",
-    "tos_url": "",
-    "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "Email"
@@ -1660,68 +1498,6 @@
     "tos_url": "",
     "url": "https://github.com/k9mail/k-9",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "SIP Servers"
-        ]
-      }
-    ],
-    "description": "Open source SIP server.",
-    "development_stage": "released",
-    "license_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=blob;f=COPYING;h=5d1f230d079d446cf5c15d1664c31ed2550bcac6;hb=HEAD",
-    "logo": "kamailio.svg",
-    "name": "Kamailio",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS"
-    ],
-    "slug": "kamailio",
-    "source_url": "http://git.sip-router.org/cgi-bin/gitweb.cgi?p=kamailio;a=tree",
-    "tos_url": "",
-    "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": ""
   },
   {
     "categories": [
@@ -1830,63 +1606,6 @@
     "tos_url": "",
     "url": "https://librecmc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Video & Voice"
-        ]
-      }
-    ],
-    "description": "Encrypted voice and video client for multiple platforms.",
-    "development_stage": "released",
-    "license_url": "https://en.wikipedia.org/wiki/Linphone#cite_note-4",
-    "logo": "linphone.svg",
-    "name": "Linphone",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "privacy_url": "",
-    "protocols": [
-      "SIP",
-      "SSL/TLS",
-      "ZRTP"
-    ],
-    "slug": "linphone",
-    "source_url": "https://www.linphone.org/eng/download/git.html",
-    "tos_url": "",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
   },
   {
     "categories": [
@@ -3193,43 +2912,37 @@
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Instant Messaging"
         ]
       },
       {
         "name": "iOS",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Instant Messaging"
         ]
       },
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Instant Messaging"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Instant Messaging"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Instant Messaging"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
+          "Instant Messaging"
         ]
       }
     ],

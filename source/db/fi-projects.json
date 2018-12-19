@@ -4,12 +4,6 @@
     "notes": "Whonix on suunniteltu toimimaan virtuaalikoneena, ohjelmassa kuten [VirtualBox](https://www.virtualbox.org/). VirtualBox on mahdollista asentaa Windows, Linux, macOS, and Solaris käyttöjärjestelmiin. Tämä tarkoittaa, että jos joudut jostain syystä käyttämään Windowsia tai macOS:ää, voit asentaa VirtualBoxin ja käyttää sitä vahvistaaksesi yksityisyyttäsi ja turvallisuuttasi. Huomaa, että järjestelmän tietoturva ja yksityisyys voivat riippua hypervisorin isäntäkäyttöjärjestelmästä."
   },
   {
-    "description": "PBX implementaatio VoIP/SIP tuella.",
-    "slug": "asterisk",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Asterisk_%28PBX%29"
-  },
-  {
     "description": "Salattu, ja hajautettu P2P viestintäpalvelu, jonka teknologia pohjautuu Bitcoiniin.",
     "notes": "Bitmessage on lupaava vaihtoehto sähköpostille, mutta tietoturva-alan asiantuntijat eivät ole vielä auditoineet sitä. Käytä ohjelmaa omalla vastuulla. Jos päätät kokeilla Bitmessagea, varmista että luot täysin satunnaisen ID:n välttääksesi ID-tunnusten yhteentörmäyksen.",
     "slug": "bitmessage",
@@ -131,12 +125,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "Monialustainen kytkinohjelmisto VoIP/SIP tuella.",
-    "slug": "freeswitch",
-    "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/FreeSWITCH"
-  },
-  {
     "description": "Epäkaupallinen ruohonjuuriliike joka pyrkii tukemaan avoimia radioverkkoja ympäri maailmaa.",
     "slug": "freifunk",
     "url": "http://wiki.freifunk.net/Kategorie:English",
@@ -197,22 +185,10 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "OTR ja ZRTP protokollilla päästä päähän salatut viesti-, ääni- ja videokeskustelut.",
-    "slug": "jitsi",
-    "url": "https://jitsi.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Jitsi"
-  },
-  {
     "description": "Avoimen lähdekoodin sähköpostisovellus Androidille, PGP-tuella.",
     "slug": "k-9-mail",
     "url": "https://github.com/k9mail/k-9",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
-  },
-  {
-    "description": "Avoimen lähdekoodin VoIP/SIP-palvelin.",
-    "slug": "kamailio",
-    "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": ""
   },
   {
     "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
@@ -225,13 +201,6 @@
     "slug": "librecmc",
     "url": "https://librecmc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
-  },
-  {
-    "description": "Salatut ääni- ja videokeskustelut.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linphone"
   },
   {
     "description": "OpenPGP-salaus verkkoselaimella käytettävälle sähköpostille.",

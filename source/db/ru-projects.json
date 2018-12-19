@@ -5,12 +5,6 @@
     "wikipedia_url": "https://ru.wikipedia.org/wiki/Whonix"
   },
   {
-    "description": "Реализация АТС с поддержкой VoIP/SIP.",
-    "slug": "asterisk",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Asterisk"
-  },
-  {
     "description": "Децентрализованный P2P сервис передачи зашифрованных сообщений, основанный на технологии Bitcoin.",
     "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
     "slug": "bitmessage",
@@ -132,12 +126,6 @@
     "wikipedia_url": "https://ru.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "Кросс-платформенный программный коммутатор с поддержкой VoIP/SIP.",
-    "slug": "freeswitch",
-    "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/FreeSWITCH"
-  },
-  {
     "description": "Некоммерческая инициатива, направленная на поддержку независимых радио сетей по всему миру.",
     "slug": "freifunk",
     "url": "http://wiki.freifunk.net/Kategorie:English",
@@ -198,22 +186,10 @@
     "wikipedia_url": "https://ru.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "Кроссплатформенный клиент текстового и видеочата с поддержкой шифрования.",
-    "slug": "jitsi",
-    "url": "https://jitsi.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Jitsi"
-  },
-  {
     "description": "Приложение для Android устройств со встроенной поддержкой PGP.",
     "slug": "k-9-mail",
     "url": "https://github.com/k9mail/k-9",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
-  },
-  {
-    "description": "VoIP/SIP сервер с открытым исходным кодом.",
-    "slug": "kamailio",
-    "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": ""
   },
   {
     "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
@@ -226,13 +202,6 @@
     "slug": "librecmc",
     "url": "https://librecmc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
-  },
-  {
-    "description": "Кроссплатформенный клиент текстового и видеочата с поддержкой шифрования.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/Linphone"
   },
   {
     "description": "OpenPGP шифрование для популярных сервисов веб-почты.",

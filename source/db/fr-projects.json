@@ -3,12 +3,6 @@
     "description": "Système d'exploitation (OS) utilisant Tor et mettant l'accent sur l'anonymat et la sécurité. Des images pour machine virtuelle sont disponibles."
   },
   {
-    "description": "Implémentation PBX supportant VoIP/SIP.",
-    "slug": "asterisk",
-    "url": "http://www.asterisk.org/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Asterisk_%28logiciel%29"
-  },
-  {
     "description": "Le service de messagerie P2P décentralisé et chiffré basé sur la technologie Bitcoin.",
     "notes": "Bitmessage est une alternative au courrier électronique prometteuse, mais il n'a pas été audité par des professionels en sécurité. A utiliser à vos risques et périls. Si vous décidez d'essayer Bitmessage, soyez sûre de générer un ID complètement aléatoire afin de grandement réduire le risque de collision des ID.",
     "slug": "bitmessage",
@@ -130,12 +124,6 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/FreedomBox"
   },
   {
-    "description": "Logiciel de commutation logicielle multi-plateforme supportant VoIP/SIP.",
-    "slug": "freeswitch",
-    "url": "https://www.freeswitch.org/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/FreeSWITCH"
-  },
-  {
     "description": "Initiative non commerciale et donc la base est ouverte pour supporter les réseaux sans fils gratuit dans le monde.",
     "slug": "freifunk",
     "url": "http://wiki.freifunk.net/Kategorie:English",
@@ -196,22 +184,10 @@
     "wikipedia_url": "https://fr.wikipedia.org/wiki/I2P"
   },
   {
-    "description": "Chiffrement des discussions texte et vidéo.",
-    "slug": "jitsi",
-    "url": "https://jitsi.org/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Jitsi"
-  },
-  {
     "description": "Application email libre pour Android avec support PGP.",
     "slug": "k-9-mail",
     "url": "https://github.com/k9mail/k-9",
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
-  },
-  {
-    "description": "Serveur VoIP/SIP open-source.",
-    "slug": "kamailio",
-    "url": "http://www.kamailio.org/w/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Kamailio"
   },
   {
     "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
@@ -224,13 +200,6 @@
     "slug": "librecmc",
     "url": "https://librecmc.org/",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/LibreCMC"
-  },
-  {
-    "description": "Client vidéo et audio chiffré.",
-    "notes": "Encryption is only supported for voice and video, but not for instant messaging.",
-    "slug": "linphone",
-    "url": "https://www.linphone.org/",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Linphone"
   },
   {
     "description": "Chiffrement OpenPGP pour webmail.",
