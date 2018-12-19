@@ -3,12 +3,6 @@
     "description": "Форсирующая использование Tor операционная система, стремящаяся к анонимности, приватности и безопасности. Предлагает так-же готовые к использованию образы для виртуальных машин."
   },
   {
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "slug": "android-password-store",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
-    "wikipedia_url": ""
-  },
-  {
     "description": "PBX implementacija sa podrškom za VoIP/SIP.",
     "slug": "asterisk",
     "url": "http://www.asterisk.org/",
@@ -370,12 +364,6 @@
     "slug": "osmand",
     "url": "http://osmand.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd"
-  },
-  {
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "slug": "password-store",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
   },
   {
     "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",

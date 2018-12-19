@@ -305,31 +305,6 @@
       {
         "name": "Android",
         "subcategories": [
-          "Password Managers"
-        ]
-      }
-    ],
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "development_stage": "released",
-    "license_url": "https://github.com/zeapo/Android-Password-Store/blob/master/LICENSE.txt",
-    "logo": "android-password-store.svg",
-    "name": "Password Store",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "slug": "android-password-store",
-    "source_url": "https://github.com/zeapo/Android-Password-Store",
-    "tos_url": "",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
           "SIP Servers"
         ]
       },
@@ -1794,7 +1769,7 @@
         ]
       }
     ],
-    "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
+    "description": "KeePass manager for desktop.",
     "development_stage": "released",
     "license_url": "https://github.com/keepassxreboot/keepassxc/blob/master/COPYING",
     "logo": "keepassxc.svg",
@@ -2939,43 +2914,6 @@
     "tos_url": "",
     "url": "https://osmand.net",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd"
-  },
-  {
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Password Managers"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Password Managers"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Password Managers"
-        ]
-      }
-    ],
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "development_stage": "released",
-    "license_url": "https://git.zx2c4.com/password-store/tree/COPYING",
-    "logo": "",
-    "name": "pass",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "GPG"
-    ],
-    "slug": "password-store",
-    "source_url": "https://git.zx2c4.com/password-store/",
-    "tos_url": "",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
   },
   {
     "categories": [

@@ -4,12 +4,6 @@
     "notes": "Whonix 被设计用来运行在虚拟化环境下，例如 [VirtualBox](https://www.virtualbox.org/)。VirtualBox 可以安装在 Windows, Linux, macOS 和 Solaris 等操作系统上。这意味着如果你不得不使用 Windows 或 macOS，你可以用 VirtualBox 和 Whonix 来增强你的隐私和安全。"
   },
   {
-    "description": " Android application compatible with ZX2C4's Pass command line application.",
-    "slug": "android-password-store",
-    "url": "https://github.com/zeapo/Android-Password-Store/blob/master/README.md",
-    "wikipedia_url": ""
-  },
-  {
     "description": "开源的分组交换机（PBX）系统，支持 VoIP/SIP 通讯。另有中文化衍生品 freeiris。",
     "slug": "asterisk",
     "url": "http://www.asterisk.org/",
@@ -374,12 +368,6 @@
     "slug": "osmand",
     "url": "http://osmand.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd"
-  },
-  {
-    "description": "Simple password manager using gpg and ordinary unix directories.",
-    "slug": "password-store",
-    "url": "https://www.passwordstore.org/",
-    "wikipedia_url": ""
   },
   {
     "description": "这是一个跟踪屏蔽器，它会试着了解是谁在监视你，并屏蔽这些广告和跟踪器。",
