@@ -2,6 +2,26 @@
   {
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "description": "Peer-to-peer messaging app.",
+    "development_stage": "released",
+    "license_url": "https://code.briarproject.org/briar/briar/blob/master/LICENSE.txt",
+    "logo": "briar.svg",
+    "name": "Briar",
+    "notes": "",
+    "protocols": [],
+    "slug": "briar",
+    "source_url": "https://code.briarproject.org/briar/briar",
+    "url": "https://briarproject.org"
+  },
+  {
+    "categories": [
+      {
         "name": "Web Services",
         "subcategories": [
           "VPN"
