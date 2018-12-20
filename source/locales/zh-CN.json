@@ -176,7 +176,6 @@
   "fsf-definition-title": "*本网站使用 <strong>自由软件基金会</strong> 的自由软件定义",
   "fsf-quote": "/“自由软件/”意味着软件尊重用户的自由和社区。粗略地说，<strong>用户有运行、拷贝、分发、学习、修改和改善软件的自由。</strong>有了这些自由，用户（包括单独的和协作的）可以控制程序和程序为他们做的事情。",
   "iOS and WP": "iOS 系统和 Windows Phone 系统",
-  "instant-messaging-notes": "<p>“Off-the-Record Messaging 协议，常常缩写为 OTR，是一种强大的即时通讯加密协议。OTR 使用 AES 对称密钥算法，Diffie-Hellman 密钥交换，以及SHA-1散列函数的组合。除了身份验证和加密，OTR提供完全正向保密和延展性加密。</p><p>这个协议的主要目的是为谈话参与者提供/“不可抵赖的/”（不可伪造的）、保密的即时通讯。就好像现实中的私下密谈，或者新闻学中的/“无记录/”一样。”</p><p>— 维基百科<a href='https://en.wikipedia.org/wiki/Off-the-Record_Messaging'>（英文）</a></p>",
   "invite only": "需要邀请",
   "irc-notes": "--",
   "mail-servers-notes": "<p>这里一份关于/“初学者如何搭建自己的邮件服务器/”的指南：<a href='http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/'>“NSA-proof your e-mail in 2 hours”</a>。</p><p><strong>Kolab</strong>整合 Roundcube 到它的 Web 客户端，并提供桌面客户端。最近的版本还配备了文件云把它变成个人信息管理的完整解决方案。</p><blockquote><p><strong>什么是 MTA？</strong></p><p>“在因特网的信息处理服务（message handling services,MHS）中，报文传送代理（message transfer agent）或者说 mail transfer agent(MTA)。MTA 和邮件中继一样，是信息在计算机之间传递的程序，使用的是服务器-客户端的应用程序架构。MTA 同时实现了一个简单的邮件传递协议中的客户端（发送）和服务端（接收）的功能。</p><p>术语/“邮件服务器/”，/“邮件交换器/”，和/“MX主机/”也可以指执行MTA功能的计算机。域名系统（Domain Name System,DNS）通过邮件交换器（mail exchanger,MX）资源记录了那些提供 MTA 服务的计算机。”</p><footer>— <cite>维基百科（<a href='https://en.wikipedia.org/wiki/Message_transfer_agent'>英文</a>）</cite></footer></blockquote>",
