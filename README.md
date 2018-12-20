@@ -78,9 +78,3 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
 ### Need more details on how to submit a project or a translation?
 
 Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for more detail into the process.
-
-## License
-
-GPLv3.
-
-See [`LICENSE.md`](LICENSE.md).
