@@ -14,30 +14,29 @@ Join us [at #prism-break on Freenode][#prism-break]! Feel free to ask any questi
 
 ## Project Inclusion Guidelines
 
- - **Only F/OSS software is allowed to be featured on PRISM Break.**
+- **Only F/OSS software is allowed to be featured on PRISM Break.**
 
 PRISM Break follows [the GNU/FSF definition of Free Software](https://www.gnu.org/philosophy/free-sw.html) and prefers software licensed under [a compatible license](https://www.gnu.org/licenses/license-list.html) but may allow other [OSI reviewed licenses](https://opensource.org/licenses). The only exception is when free software offers no viable alternative to proprietary software. "Web Search" is the only category with this exception currently.
 
- - **Quality over quantity.**
+- **Quality over quantity.**
 
 PRISM Break strives to promote the best open source applications. Ease of use, stability, and performance matter. This is the first time many people are looking to leave their proprietary walled gardens. Let's make it a good experience for them. If you're writing a privacy-minded FOSS app, please finish it before asking PRISM Break to promote it.
 
- - **The software must have a strong security focus.**
+- **The software must have a strong security focus.**
 
 This can vary case-to-case, but generally here are the attributes we look for:
 
- ** Can keep up with security events
- ** Understand security and take it seriously (this is very broad, but can range from "don't invent your own crypto" to "think about and design against metadata leaks")
- ** Offers security advantages that other projects don't
+  - Can keep up with security events
+  - Understand security and take it seriously (this is very broad, but can range from "don't invent your own crypto" to "think about and design against metadata leaks")
+  - Offers security advantages that other projects don't
 
- - **Before suggesting software, please first search this repository to see if your request has already been made.**
+- **Before suggesting software, please first search this repository to see if your request has already been made.**
 
 If it has been rejected, you'll learn why. If the issue hasn't been addressed, add a comment as to why it deserves inclusion. If the software has been improved significantly since the initial rejection, feel free to suggest it again.
 
- - **Pull requests are prioritized over issues.**
+- **Pull requests are prioritized over issues.**
 
 I will respond to them quicker and they will get an answer faster.
-
 
 ## Project Submission (quick version)
 
