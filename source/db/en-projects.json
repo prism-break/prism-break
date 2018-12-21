@@ -8,6 +8,29 @@
         ]
       }
     ],
+    "description": "Secure messenger for Android.",
+    "development_stage": "released",
+    "license_url": "https://github.com/signalapp/Signal-Android/blob/master/LICENSE",
+    "logo": "signal.svg",
+    "name": "Signal",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [],
+    "slug": "signal",
+    "source_url": "https://github.com/signalapp/Signal-Android",
+    "tos_url": "",
+    "url": "https://signal.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Signal_(software)"
+  },
+  {
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
     "description": "Peer-to-peer messaging app.",
     "development_stage": "released",
     "license_url": "https://code.briarproject.org/briar/briar/blob/master/LICENSE.txt",
