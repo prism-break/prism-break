@@ -2,98 +2,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "description": "Secure messenger for Android.",
-    "development_stage": "released",
-    "license_url": "https://github.com/signalapp/Signal-Android/blob/master/LICENSE",
-    "logo": "signal.svg",
-    "name": "Signal",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "signal",
-    "source_url": "https://github.com/signalapp/Signal-Android",
-    "tos_url": "",
-    "url": "https://signal.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Signal_(software)"
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "description": "Peer-to-peer messaging app.",
-    "development_stage": "released",
-    "license_url": "https://code.briarproject.org/briar/briar/blob/master/LICENSE.txt",
-    "logo": "briar.svg",
-    "name": "Briar",
-    "notes": "",
-    "protocols": [],
-    "slug": "briar",
-    "source_url": "https://code.briarproject.org/briar/briar",
-    "url": "https://briarproject.org"
-  },
-  {
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "VPN"
-        ]
-      }
-    ],
-    "description": "No-log WireGuard VPN provider.",
-    "development_stage": "released",
-    "logo": "mullvad.svg",
-    "name": "Mullvad",
-    "protocols": [],
-    "slug": "mullvad",
-    "source_url": "https://github.com/mullvad",
-    "url": "https://mullvad.net"
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "VPN"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "VPN"
-        ]
-      }
-    ],
-    "description": "LEAP platform client.",
-    "development_stage": "experimental",
-    "license_url": "https://0xacab.org/leap/bitmask-dev/blob/master/LICENSE",
-    "logo": "bitmask.svg",
-    "name": "Bitmask",
-    "protocols": [],
-    "slug": "bitmask",
-    "source_url": "https://0xacab.org/leap/bitmask-dev",
-    "url": "https://bitmask.net"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Instant Messaging"
@@ -108,6 +16,29 @@
     "slug": "aenigma",
     "source_url": "https://github.com/openspace42/aenigma",
     "url": "https://github.com/openspace42/aenigma"
+  },
+  {
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Authentication"
+        ]
+      }
+    ],
+    "description": "Two-factor authenticator for Android.",
+    "development_stage": "released",
+    "license_url": "https://github.com/andOTP/andOTP/blob/master/LICENSE.txt",
+    "logo": "andotp.svg",
+    "name": "andOTP",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [],
+    "slug": "andotp",
+    "source_url": "https://github.com/andOTP/andOTP",
+    "tos_url": "",
+    "url": "https://github.com/andOTP/andOTP",
+    "wikipedia_url": ""
   },
   {
     "categories": [
@@ -149,248 +80,33 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "description": "Localhost tunneling service.",
-    "license_url": "https://github.com/pagekite/PyPagekite/blob/main/COPYING",
-    "logo": "pagekite.svg",
-    "name": "PageKite",
-    "protocols": [],
-    "slug": "pagekite",
-    "source_url": "https://github.com/pagekite",
-    "url": "https://pagekite.net"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "Compressing, deduplicating backup tool.",
-    "development_stage": "released",
-    "logo": "borgbackup.svg",
-    "name": "Borg",
-    "notes": "Offsite backups require SFTP. Data is encrypted and authenticated on the client unless explicitly disabled. Prefer encryption modes that use BLAKE2 for authentication, such as <code>repokey-blake2</code>.",
-    "protocols": [],
-    "slug": "borgbackup",
-    "url": "https://www.borgbackup.org"
-  },
-  {
-    "categories": [
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "Unlimited S3-backed Tahoe-LAFS grid.",
-    "development_stage": "experimental",
-    "license_url": "",
-    "logo": "least-authority-s4.svg",
-    "name": "Least Authority S4",
-    "notes": "See <a href='/en/projects/tahoe-lafs'>Tahoe-LAFS security notes</a>.",
-    "protocols": [],
-    "slug": "least-authority-s4.svg",
-    "source_url": "",
-    "url": "https://leastauthority.com/how-it-works"
-  },
-  {
-    "categories": [
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "User-friendly sync with Tahoe-LAFS grids.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/gridsync/gridsync/blob/master/LICENSE",
-    "logo": "gridsync.svg",
-    "name": "Gridsync",
-    "notes": "Data is encrypted and authenticated on the client. Works over Tor.",
-    "protocols": [],
-    "slug": "gridsync",
-    "source_url": "https://github.com/gridsync/gridsync",
-    "url": "https://github.com/gridsync/gridsync"
-  },
-  {
-    "categories": [
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "Decentralized cloud storage.",
-    "development_stage": "experimental",
-    "license_url": "https://gitlab.com/NebulousLabs/Sia/blob/master/LICENSE",
-    "logo": "sia.svg",
-    "name": "Sia",
-    "notes": "Data is always encrypted on the client.",
-    "protocols": [],
-    "slug": "sia",
-    "source_url": "https://gitlab.com/NebulousLabs/Sia",
-    "url": "https://www.sia.tech"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
-          "News"
+          "VPN"
         ]
       },
       {
-        "name": "Servers",
+        "name": "GNU/Linux",
         "subcategories": [
-          "News"
+          "VPN"
         ]
       },
       {
-        "name": "Web Services",
+        "name": "macOS",
         "subcategories": [
-          "News"
+          "VPN"
         ]
       }
     ],
-    "description": "RSS feed reader.",
-    "license_url": "",
-    "logo": "tt-rss.svg",
-    "name": "Tiny Tiny RSS",
+    "description": "LEAP platform client.",
+    "development_stage": "experimental",
+    "license_url": "https://0xacab.org/leap/bitmask-dev/blob/master/LICENSE",
+    "logo": "bitmask.svg",
+    "name": "Bitmask",
     "protocols": [],
-    "slug": "tt-rss",
-    "source_url": "https://git.tt-rss.org/fox",
-    "url": "https://tt-rss.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tiny_Tiny_RSS"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Collaboration"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Collaboration"
-        ]
-      }
-    ],
-    "description": "Web application that helps groups of people to make decisions together.",
-    "license_url": "https://github.com/loomio/loomio/blob/master/LICENSE.txt",
-    "logo": "loomio.svg",
-    "name": "Loomio",
-    "protocols": [],
-    "slug": "loomio",
-    "source_url": "https://github.com/loomio/loomio",
-    "url": "https://www.loomio.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Loomio"
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Authentication"
-        ]
-      }
-    ],
-    "description": "Two-factor authenticator for Android.",
-    "development_stage": "released",
-    "license_url": "https://github.com/andOTP/andOTP/blob/master/LICENSE.txt",
-    "logo": "andotp.svg",
-    "name": "andOTP",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "andotp",
-    "source_url": "https://github.com/andOTP/andOTP",
-    "tos_url": "",
-    "url": "https://github.com/andOTP/andOTP",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Authentication"
-        ]
-      }
-    ],
-    "description": "Two-factor authenticator for iOS.",
-    "development_stage": "released",
-    "license_url": "https://github.com/calleerlandsson/Tofu/blob/master/LICENSE.txt",
-    "logo": "tofu.svg",
-    "name": "Tofu",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "tofu",
-    "source_url": "https://github.com/calleerlandsson/Tofu",
-    "tos_url": "",
-    "url": "https://tofuauth.com",
-    "wikipedia_url": ""
+    "slug": "bitmask",
+    "source_url": "https://0xacab.org/leap/bitmask-dev",
+    "url": "https://bitmask.net"
   },
   {
     "categories": [
@@ -434,6 +150,62 @@
     "tos_url": "",
     "url": "https://bitmessage.org/wiki/Main_Page",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "description": "Compressing, deduplicating backup tool.",
+    "development_stage": "released",
+    "logo": "borgbackup.svg",
+    "name": "Borg",
+    "notes": "Offsite backups require SFTP. Data is encrypted and authenticated on the client unless explicitly disabled. Prefer encryption modes that use BLAKE2 for authentication, such as <code>repokey-blake2</code>.",
+    "protocols": [],
+    "slug": "borgbackup",
+    "url": "https://www.borgbackup.org"
+  },
+  {
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "description": "Peer-to-peer messaging app.",
+    "development_stage": "released",
+    "license_url": "https://code.briarproject.org/briar/briar/blob/master/LICENSE.txt",
+    "logo": "briar.svg",
+    "name": "Briar",
+    "notes": "",
+    "protocols": [],
+    "slug": "briar",
+    "source_url": "https://code.briarproject.org/briar/briar",
+    "url": "https://briarproject.org"
   },
   {
     "categories": [
@@ -1110,6 +882,27 @@
   {
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      }
+    ],
+    "description": "Firefox for Android without trackers.",
+    "development_stage": "released",
+    "license_url": "https://www.mozilla.org/MPL/",
+    "logo": "fennec.png",
+    "name": "Fennec F-Droid",
+    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
+    "protocols": [],
+    "slug": "fennec",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
+    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
+    "url": "https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/"
+  },
+  {
+    "categories": [
+      {
         "name": "BSD",
         "subcategories": [
           "Operating Systems"
@@ -1338,6 +1131,29 @@
         ]
       }
     ],
+    "description": "Painless GitHub-like Git forge.",
+    "development_stage": "released",
+    "license_url": "https://github.com/go-gitea/gitea/blob/master/LICENSE",
+    "logo": "gitea.svg",
+    "name": "Gitea",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [],
+    "slug": "gitea",
+    "source_url": "https://github.com/go-gitea/gitea",
+    "tos_url": "",
+    "url": "http://gitea.io",
+    "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Collaboration"
+        ]
+      }
+    ],
     "description": "Complete Git forge suite.",
     "development_stage": "released",
     "license_url": "https://raw.github.com/gitlabhq/gitlabhq/master/LICENSE",
@@ -1355,25 +1171,34 @@
   {
     "categories": [
       {
-        "name": "Servers",
+        "name": "macOS",
         "subcategories": [
-          "Collaboration"
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
         ]
       }
     ],
-    "description": "Painless GitHub-like Git forge.",
-    "development_stage": "released",
-    "license_url": "https://github.com/go-gitea/gitea/blob/master/LICENSE",
-    "logo": "gitea.svg",
-    "name": "Gitea",
-    "notes": "",
-    "privacy_url": "",
+    "description": "User-friendly sync with Tahoe-LAFS grids.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/gridsync/gridsync/blob/master/LICENSE",
+    "logo": "gridsync.svg",
+    "name": "Gridsync",
+    "notes": "Data is encrypted and authenticated on the client. Works over Tor.",
     "protocols": [],
-    "slug": "gitea",
-    "source_url": "https://github.com/go-gitea/gitea",
-    "tos_url": "",
-    "url": "http://gitea.io",
-    "wikipedia_url": ""
+    "slug": "gridsync",
+    "source_url": "https://github.com/gridsync/gridsync",
+    "url": "https://github.com/gridsync/gridsync"
   },
   {
     "categories": [
@@ -1569,6 +1394,51 @@
       {
         "name": "Android",
         "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      }
+    ],
+    "description": "Distributed video chat application.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/savoirfairelinux/ring-project/blob/master/COPYING",
+    "logo": "jami.svg",
+    "name": "Jami",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [],
+    "slug": "jami",
+    "source_url": "https://github.com/savoirfairelinux/ring-project",
+    "tos_url": "",
+    "url": "https://jami.net",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ring_(software)"
+  },
+  {
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
           "Email"
         ]
       }
@@ -1679,6 +1549,26 @@
   {
     "categories": [
       {
+        "name": "Web Services",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "description": "Unlimited S3-backed Tahoe-LAFS grid.",
+    "development_stage": "experimental",
+    "license_url": "",
+    "logo": "least-authority-s4.svg",
+    "name": "Least Authority S4",
+    "notes": "See <a href='/en/projects/tahoe-lafs'>Tahoe-LAFS security notes</a>.",
+    "protocols": [],
+    "slug": "least-authority-s4.svg",
+    "source_url": "",
+    "url": "https://leastauthority.com/how-it-works"
+  },
+  {
+    "categories": [
+      {
         "name": "Routers",
         "subcategories": [
           "Firmware"
@@ -1698,6 +1588,60 @@
     "tos_url": "",
     "url": "https://librecmc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Collaboration"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Collaboration"
+        ]
+      }
+    ],
+    "description": "Web application that helps groups of people to make decisions together.",
+    "license_url": "https://github.com/loomio/loomio/blob/master/LICENSE.txt",
+    "logo": "loomio.svg",
+    "name": "Loomio",
+    "protocols": [],
+    "slug": "loomio",
+    "source_url": "https://github.com/loomio/loomio",
+    "url": "https://www.loomio.org/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Loomio"
+  },
+  {
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Email"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Email"
+        ]
+      }
+    ],
+    "description": "User-friendly, secure-by-default email client.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/mailpile/Mailpile/blob/master/COPYING.md",
+    "logo": "mailpile.svg",
+    "name": "Mailpile",
+    "protocols": [
+      "GPG",
+      "Tor"
+    ],
+    "slug": "mailpile",
+    "source_url": "https://github.com/mailpile/Mailpile",
+    "url": "https://www.mailpile.is/",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mailpile"
   },
   {
     "categories": [
@@ -1782,61 +1726,6 @@
   {
     "categories": [
       {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "description": "Federated image sharing.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/pixelfed/pixelfed/blob/dev/LICENSE",
-    "logo": "pixelfed.svg",
-    "name": "PixelFed",
-    "protocols": [
-      "ActivityPub"
-    ],
-    "slug": "pixelfed",
-    "source_url": "https://github.com/pixelfed/pixelfed",
-    "url": "https://pixelfed.org"
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      },
-      {
-        "name": "Web Services",
-        "subcategories": [
-          "Media Publishing"
-        ]
-      }
-    ],
-    "description": "Federated video hosting.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE",
-    "logo": "peertube.svg",
-    "name": "PeerTube",
-    "protocols": [
-      "ActivityPub"
-    ],
-    "slug": "peertube",
-    "source_url": "https://github.com/Chocobozzz/PeerTube",
-    "url": "https://joinpeertube.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/PeerTube"
-  },
-  {
-    "categories": [
-      {
         "name": "Android",
         "subcategories": [
           "Finance"
@@ -1916,27 +1805,6 @@
     "tos_url": "",
     "url": "https://movim.eu/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Movim"
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
-          "Web Browsers"
-        ]
-      }
-    ],
-    "description": "Firefox for Android without trackers.",
-    "development_stage": "released",
-    "license_url": "https://www.mozilla.org/MPL/",
-    "logo": "fennec.png",
-    "name": "Fennec F-Droid",
-    "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
-    "protocols": [],
-    "slug": "fennec",
-    "source_url": "https://developer.mozilla.org/en-US/docs/Viewing_and_searching_Mozilla_source_code_online",
-    "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
-    "url": "https://f-droid.org/en/packages/org.mozilla.fennec_fdroid/"
   },
   {
     "categories": [
@@ -2033,6 +1901,24 @@
     "tos_url": "https://www.mozilla.org/en-US/about/legal.html",
     "url": "https://www.mozilla.org/en-US/thunderbird/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird"
+  },
+  {
+    "categories": [
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "VPN"
+        ]
+      }
+    ],
+    "description": "No-log WireGuard VPN provider.",
+    "development_stage": "released",
+    "logo": "mullvad.svg",
+    "name": "Mullvad",
+    "protocols": [],
+    "slug": "mullvad",
+    "source_url": "https://github.com/mullvad",
+    "url": "https://mullvad.net"
   },
   {
     "categories": [
@@ -2304,6 +2190,45 @@
     "wikipedia_url": ""
   },
   {
+    "categories": [
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Sharing"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "File Sharing"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Sharing"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "File Sharing"
+        ]
+      }
+    ],
+    "description": "Anonymous file transfer via Tor.",
+    "development_stage": "released",
+    "license_url": "https://github.com/micahflee/onionshare/blob/develop/LICENSE",
+    "logo": "onionshare.svg",
+    "name": "OnionShare",
+    "protocols": [
+      "Tor"
+    ],
+    "slug": "onionshare",
+    "source_url": "https://github.com/micahflee/onionshare",
+    "url": "https://onionshare.org"
+  },
+  {
     "audit": {
       "author": "Cure53",
       "date": "2015-08-01",
@@ -2504,6 +2429,85 @@
     "tos_url": "",
     "url": "https://osmand.net",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "description": "Localhost tunneling service.",
+    "license_url": "https://github.com/pagekite/PyPagekite/blob/main/COPYING",
+    "logo": "pagekite.svg",
+    "name": "PageKite",
+    "protocols": [],
+    "slug": "pagekite",
+    "source_url": "https://github.com/pagekite",
+    "url": "https://pagekite.net"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "description": "Federated video hosting.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/Chocobozzz/PeerTube/blob/develop/LICENSE",
+    "logo": "peertube.svg",
+    "name": "PeerTube",
+    "protocols": [
+      "ActivityPub"
+    ],
+    "slug": "peertube",
+    "source_url": "https://github.com/Chocobozzz/PeerTube",
+    "url": "https://joinpeertube.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/PeerTube"
+  },
+  {
+    "categories": [
+      {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "description": "Federated image sharing.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/pixelfed/pixelfed/blob/dev/LICENSE",
+    "logo": "pixelfed.svg",
+    "name": "PixelFed",
+    "protocols": [
+      "ActivityPub"
+    ],
+    "slug": "pixelfed",
+    "source_url": "https://github.com/pixelfed/pixelfed",
+    "url": "https://pixelfed.org"
   },
   {
     "categories": [
@@ -2734,51 +2738,6 @@
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging",
-          "Video & Voice"
-        ]
-      }
-    ],
-    "description": "Distributed video chat application.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/savoirfairelinux/ring-project/blob/master/COPYING",
-    "logo": "jami.svg",
-    "name": "Jami",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "jami",
-    "source_url": "https://github.com/savoirfairelinux/ring-project",
-    "tos_url": "",
-    "url": "https://jami.net",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ring_(software)"
-  },
-  {
-    "categories": [
-      {
-        "name": "Android",
-        "subcategories": [
           "Instant Messaging"
         ]
       },
@@ -2921,6 +2880,61 @@
     "tos_url": "",
     "url": "https://github.com/shaarli/Shaarli/",
     "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
+        "name": "macOS",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      }
+    ],
+    "description": "Decentralized cloud storage.",
+    "development_stage": "experimental",
+    "license_url": "https://gitlab.com/NebulousLabs/Sia/blob/master/LICENSE",
+    "logo": "sia.svg",
+    "name": "Sia",
+    "notes": "Data is always encrypted on the client.",
+    "protocols": [],
+    "slug": "sia",
+    "source_url": "https://gitlab.com/NebulousLabs/Sia",
+    "url": "https://www.sia.tech"
+  },
+  {
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "description": "Secure messenger for Android.",
+    "development_stage": "released",
+    "license_url": "https://github.com/signalapp/Signal-Android/blob/master/LICENSE",
+    "logo": "signal.svg",
+    "name": "Signal",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [],
+    "slug": "signal",
+    "source_url": "https://github.com/signalapp/Signal-Android",
+    "tos_url": "",
+    "url": "https://signal.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Signal_(software)"
   },
   {
     "categories": [
@@ -3123,6 +3137,29 @@
   {
     "categories": [
       {
+        "name": "iOS",
+        "subcategories": [
+          "Authentication"
+        ]
+      }
+    ],
+    "description": "Two-factor authenticator for iOS.",
+    "development_stage": "released",
+    "license_url": "https://github.com/calleerlandsson/Tofu/blob/master/LICENSE.txt",
+    "logo": "tofu.svg",
+    "name": "Tofu",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [],
+    "slug": "tofu",
+    "source_url": "https://github.com/calleerlandsson/Tofu",
+    "tos_url": "",
+    "url": "https://tofuauth.com",
+    "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
         "name": "BSD",
         "subcategories": [
           "Anonymizing Networks"
@@ -3321,6 +3358,37 @@
   {
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "News"
+        ]
+      },
+      {
+        "name": "Servers",
+        "subcategories": [
+          "News"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "News"
+        ]
+      }
+    ],
+    "description": "RSS feed reader.",
+    "license_url": "",
+    "logo": "tt-rss.svg",
+    "name": "Tiny Tiny RSS",
+    "protocols": [],
+    "slug": "tt-rss",
+    "source_url": "https://git.tt-rss.org/fox",
+    "url": "https://tt-rss.org",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tiny_Tiny_RSS"
+  },
+  {
+    "categories": [
+      {
         "name": "BSD",
         "subcategories": [
           "Web Browser Addons"
@@ -3390,45 +3458,6 @@
         "subcategories": [
           "File Sharing"
         ]
-      }
-    ],
-    "description": "Anonymous file transfer via Tor.",
-    "development_stage": "released",
-    "license_url": "https://github.com/micahflee/onionshare/blob/develop/LICENSE",
-    "logo": "onionshare.svg",
-    "name": "OnionShare",
-    "protocols": [
-      "Tor"
-    ],
-    "slug": "onionshare",
-    "source_url": "https://github.com/micahflee/onionshare",
-    "url": "https://onionshare.org"
-  },
-  {
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Sharing"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "File Sharing"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Sharing"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Sharing"
-        ]
       },
       {
         "name": "Servers",
@@ -3453,6 +3482,25 @@
     "tos_url": "",
     "url": "https://github.com/Upload/Up1/blob/master/README.md",
     "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Disk Encryption"
+        ]
+      }
+    ],
+    "description": "Deniable disk encryption.",
+    "development_stage": "released",
+    "license_url": "https://www.veracrypt.fr/code/VeraCrypt/tree/License.txt",
+    "logo": "veracrypt.svg",
+    "name": "VeraCrypt",
+    "protocols": [],
+    "slug": "veracrypt",
+    "source_url": "https://www.veracrypt.fr/code/",
+    "url": "https://www.veracrypt.fr"
   },
   {
     "categories": [
@@ -3630,25 +3678,6 @@
   {
     "categories": [
       {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "description": "Deniable disk encryption.",
-    "development_stage": "released",
-    "license_url": "https://www.veracrypt.fr/code/VeraCrypt/tree/License.txt",
-    "logo": "veracrypt.svg",
-    "name": "VeraCrypt",
-    "protocols": [],
-    "slug": "veracrypt",
-    "source_url": "https://www.veracrypt.fr/code/",
-    "url": "https://www.veracrypt.fr"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Media Publishing"
@@ -3670,34 +3699,5 @@
     "tos_url": "",
     "url": "https://wordpress.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress"
-  },
-  {
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Email"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email"
-        ]
-      }
-    ],
-    "description": "User-friendly, secure-by-default email client.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/mailpile/Mailpile/blob/master/COPYING.md",
-    "logo": "mailpile.svg",
-    "name": "Mailpile",
-    "protocols": [
-      "GPG",
-      "Tor"
-    ],
-    "slug": "mailpile",
-    "source_url": "https://github.com/mailpile/Mailpile",
-    "url": "https://www.mailpile.is/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mailpile"
   }
 ]
