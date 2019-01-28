@@ -1,5 +1,7 @@
 # PRISM Break
-
+[![Backers on Open Collective](https://opencollective.com/prism-break/backers/badge.svg)](#backers)
+ [![Sponsors on Open Collective](https://opencollective.com/prism-break/sponsors/badge.svg)](#sponsors) 
+ 
 Welcome to the PRISM Break project. Here's a quick overview of the code. JSON containing all of the project data is filtered through [LiveScript](https://livescript.net/) and then compiled to plain HTML with [Jade](https://pugjs.org/) templates. Stylesheets are managed with [Stylus](http://stylus-lang.com/), a CSS preprocessor.
 
 The prism-break build process relies on several npm packages. Make sure to have [node.js](https://nodejs.org/) installed on your system if you want to contribute to the code.
@@ -77,3 +79,33 @@ At this point, feel free to commit the changes and submit a pull request. Steps 
 ### Need more details on how to submit a project or a translation?
 
 Read [`CONTRIBUTING.md`](CONTRIBUTING.md) for more detail into the process.
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/prism-break/prism-break/graphs/contributors"><img src="https://opencollective.com/prism-break/contributors.svg?width=890&button=false" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/prism-break#backer)]
+
+<a href="https://opencollective.com/prism-break#backers" target="_blank"><img src="https://opencollective.com/prism-break/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/prism-break#sponsor)]
+
+<a href="https://opencollective.com/prism-break/sponsor/0/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/1/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/2/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/3/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/4/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/5/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/6/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/7/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/8/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/prism-break/sponsor/9/website" target="_blank"><img src="https://opencollective.com/prism-break/sponsor/9/avatar.svg"></a>
+
+
