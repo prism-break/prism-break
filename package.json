@@ -8,13 +8,22 @@
     "mkdirp": "0.5.1",
     "moment": "2.22.2",
     "nib": "1.1.2",
+    "opencollective-postinstall": "^2.0.1",
     "prelude-ls": "1.1.2",
     "pug": "2.0.3",
-    "stylus": "0.54.5"
+    "stylus": "0.54.5",
+    "opencollective": "^1.0.3"
   },
   "devDependencies": {
     "jsonlint2": "^1.7.0"
   },
   "license": "GPL-3.0",
-  "repository": "gitlab:prism-break/prism-break"
+  "repository": "gitlab:prism-break/prism-break",
+  "collective": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/prism-break"
+  },
+  "scripts": {
+    "postinstall": "opencollective-postinstall"
+  }
 }
