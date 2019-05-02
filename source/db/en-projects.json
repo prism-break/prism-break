@@ -2924,9 +2924,15 @@
         "subcategories": [
           "Instant Messaging"
         ]
+      },
+      {
+        "name": "iOS",
+        "subcategories": [
+          "Instant Messaging"
+        ]
       }
     ],
-    "description": "Secure messenger for Android.",
+    "description": "Secure messenger for Android and iOS.",
     "development_stage": "released",
     "license_url": "https://github.com/signalapp/Signal-Android/blob/master/LICENSE",
     "logo": "signal.svg",
