@@ -3247,7 +3247,7 @@
     "description": "Encrypted, anonymous web browsing powered by the Tor network.",
     "development_stage": "released",
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
-    "logo": "tor-browser.png",
+    "logo": "tor-browser.svg",
     "name": "Tor Browser",
     "notes": "Using Tor Browser to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
