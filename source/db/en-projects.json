@@ -2019,6 +2019,31 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Enterprise Suite"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Enterprise Suite"
+        ]
+      }
+    ],
+    "description": "Sandboxed platform for self-hosting web apps.",
+    "development_stage": "released",
+    "license_url": "https://github.com/sandstorm-io/sandstorm/blob/master/LICENSE",
+    "logo": "sandstorm.svg",
+    "name": "Sandstorm",
+    "protocols": [],
+    "slug": "sandstorm",
+    "source_url": "https://github.com/sandstorm-io/sandstorm",
+    "url": "https://sandstorm.io"
+  },
+  {
+    "categories": [
+      {
         "name": "GNU/Linux",
         "subcategories": [
           "Enterprise Suite"
