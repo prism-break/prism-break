@@ -3198,6 +3198,12 @@
   {
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Web Browsers"
+        ]
+      },
+      {
         "name": "BSD",
         "subcategories": [
           "Web Browsers"
@@ -3234,7 +3240,7 @@
       "Tor"
     ],
     "slug": "tor-browser",
-    "source_url": "https://gitweb.torproject.org/tor.git",
+    "source_url": "https://gitweb.torproject.org/tor-browser.git",
     "tos_url": "",
     "url": "https://www.torproject.org/projects/torbrowser.html.en",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tor_Browser"
