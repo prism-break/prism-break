@@ -326,12 +326,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS"
   },
   {
-    "description": "基于 LineageOS 的，完全免费的 Android 版本",
-    "slug": "replicant",
-    "url": "http://replicant.us/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29"
-  },
-  {
     "description": "安全的 P2P 通讯平台，提供即时通讯，论坛，网络电话，文件共享等功能。",
     "notes": "Note that RetroShare has not been thoroughly audited by security professionals for possible security issues.\n\nFor those of you without a server, RetroShare is probably the easiest way to start your own encrypted social network.",
     "slug": "retroshare",

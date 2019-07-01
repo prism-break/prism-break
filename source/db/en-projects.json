@@ -2642,35 +2642,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Operating Systems (Mobile)"
-        ]
-      }
-    ],
-    "description": "Fully free Android distribution based on LineageOS.",
-    "development_stage": "released",
-    "license_url": "https://git.replicant.us/replicant/manifest/blob/replicant-6.0-dev/README.mkdn",
-    "logo": "replicant.svg",
-    "name": "Replicant",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "replicant",
-    "source_url": "https://git.replicant.us/replicant",
-    "tos_url": "",
-    "url": "https://replicant.us/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29"
-  },
-  {
-    "categories": [
-      {
         "name": "BSD",
         "subcategories": [
           "Instant Messaging",

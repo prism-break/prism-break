@@ -327,12 +327,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Qubes_OS"
   },
   {
-    "description": "Distribuzione Android completamente libera basata su LineageOS.",
-    "slug": "replicant",
-    "url": "http://replicant.us/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Replicant_%28operating_system%29"
-  },
-  {
     "description": "Piattaforma di comunicazione P2P sicura per chat, forum, VoIP, condivisione di file e altro.",
     "notes": "Da notare che RetroShare non è stato controllato da esperti di sicurezza per eventuali problemi di sicurezza.\n\nPer chi non ha un server, RetroShare è probabilmente il mezzo più semplice per creare il tuo social network criptato.",
     "slug": "retroshare",
