@@ -117,15 +117,6 @@ exports.projects-rejected =
         subcategories: ['Authentication']
     ]
 
-  * logo: "blackberry.svg"
-    name: "BlackBerry 10"
-    categories: [
-      * name: "Android"
-        subcategories: ["Operating Systems (Mobile)"]
-      * name: "iOS"
-        subcategories: ["Operating Systems (Mobile)"]
-    ]
-
   * logo: "discord.svg"
     name: "Discord"
     categories: [
