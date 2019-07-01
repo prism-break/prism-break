@@ -2490,6 +2490,33 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      },
+      {
+        "name": "Web Services",
+        "subcategories": [
+          "Media Publishing"
+        ]
+      }
+    ],
+    "description": "Federated blog platform.",
+    "development_stage": "experimental",
+    "license_url": "https://github.com/writeas/writefreely/blob/develop/LICENSE",
+    "logo": "writefreely.svg",
+    "name": "WriteFreely",
+    "protocols": [
+      "ActivityPub"
+    ],
+    "slug": "writefreely",
+    "source_url": "https://github.com/writeas/writefreely",
+    "url": "https://writefreely.org"
+  },
+  {
+    "categories": [
+      {
         "name": "Android",
         "subcategories": [
           "Web Browser Addons"
