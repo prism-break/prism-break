@@ -854,3 +854,10 @@ exports.projects-rejected =
       * name: "Windows"
         subcategories: ["VPN"]
     ]
+
+  * logo: "medium.svg"
+    name: "Medium"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Media Publishing"]
+    ]
