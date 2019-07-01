@@ -312,13 +312,6 @@ exports.projects-rejected =
         subcategories: ["App Store"]
     ]
 
-  * logo: "google-plus.svg"
-    name: "Google+"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Social Networks"]
-    ]
-
   * logo: "google.svg"
     name: "Google Public DNS"
     categories: [
