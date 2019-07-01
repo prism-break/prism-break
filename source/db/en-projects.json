@@ -3560,33 +3560,6 @@
       {
         "name": "Servers",
         "subcategories": [
-          "Enterprise Suite"
-        ]
-      }
-    ],
-    "description": "The most comprehensive and integrated Free / Libre / Open Source software suite ever developed.",
-    "development_stage": "released",
-    "license_url": "http://wikisuite.org/License",
-    "logo": "wikisuite.svg",
-    "name": "WikiSuite",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [
-      "XMPP",
-      "CardDAV",
-      "SIP"
-    ],
-    "slug": "wikisuite",
-    "source_url": "http://wikisuite.org/Source",
-    "tos_url": "",
-    "url": "http://wikisuite.org/",
-    "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
-        "name": "Servers",
-        "subcategories": [
           "VPN"
         ]
       },
