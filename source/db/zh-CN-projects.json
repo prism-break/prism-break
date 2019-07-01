@@ -440,12 +440,5 @@
     "slug": "wikisuite",
     "url": "http://wikisuite.org/",
     "wikipedia_url": ""
-  },
-  {
-    "description": "自行架设的网站发布平台。",
-    "notes": "WordPress 的默认情况下不加密您的任何数据。\n\n在其中使用头像会激活 Gravatar，这将发送您的电子邮件地址 gravatar.com。头像默认激活，并在/“设置>讨论>头像/”可以被关闭。\n\n默认主题强制访问者下载 Google 字体，建议切换到一个完全自架设的主题。你也可以安装[禁用 Google 字体](http://wordpress.org/plugins/disable-google-fonts/)的插件来修复此问题。",
-    "slug": "wordpress",
-    "url": "https://wordpress.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress"
   }
 ]

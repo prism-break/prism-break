@@ -443,12 +443,5 @@
     "slug": "wikisuite",
     "url": "http://wikisuite.org/",
     "wikipedia_url": ""
-  },
-  {
-    "description": "Программное обеспечение для ведения блога.",
-    "notes": "WordPress не шифрует ваши данные по умолчанию.\n\nИспользование аватар в WordPress включит Gravatar, который отправит ваш адрес электронной почты на gravatar.com. Аватары включены по умолчанию и могут быть отключены в меню  “Параметры > Обсуждение > Аватары”.\n\nСтандартная тема WordPress заставит ваших пользователей скачивать шрифты с серверов Google. Подумайте о переходе на тему без внешних запросов. Или вы можете установить плагин [Disable Google Fonts](http://wordpress.org/plugins/disable-google-fonts/) для устранения этой уязвимости.",
-    "slug": "wordpress",
-    "url": "https://ru.wordpress.org/",
-    "wikipedia_url": "https://ru.wikipedia.org/wiki/WordPress"
   }
 ]

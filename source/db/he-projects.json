@@ -435,12 +435,5 @@
     "slug": "wikisuite",
     "url": "http://wikisuite.org/",
     "wikipedia_url": ""
-  },
-  {
-    "description": "פלטפורמת הפצת אתרים באחסון עצמאי.",
-    "notes": "WordPress does not encrypt any of your data by default.\n\nUsing avatars in WordPress will activate Gravatar, which which will send your email address to gravatar.com. Avatars are activated by default and can be turned off under “Settings > Discussion > Avatars”.\n\nThe default WordPress themes force your visitors to download Google Fonts. Consider switching to a completely self-hosted theme. You can also install the plugin <a href='http://wordpress.org/plugins/disable-google-fonts/'>“Disable Google Fonts”</a> to remove this vulnerability.",
-    "slug": "wordpress",
-    "url": "https://wordpress.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/WordPress"
   }
 ]
