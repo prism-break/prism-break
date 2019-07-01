@@ -410,13 +410,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Vapaa ja avointa lähdekoodia oleva, peer-to-peer, salattu pikaviestiohjelma joka tukee videopuheluita. Projektin tavoitteena on tarjota turvallinen ja helppokäyttöinen viestintämenetelmä kaikille.",
-    "notes": "Tox on uusi, rakenteilla oleva viestintäjärjestelmä. Se on rakennettu hyvin tunnetun salauskirjaston ympärille jolla on paljon potentiaalia, mutta tietoturva-alan asiantuntijat eivät ole vielä auditoineet sitä. Käytä ohjelmaa omalla vastuullasi. Jos päätät kokeilla Tox:ia, muista jättää kehittäjille palautetta.\n\nTox:illa ei ole vielä virallista graafista käyttöliittymää (GUI), mutta kehittäjätiimi suosittelee [lukuisia](https://wiki.tox.chat/Binaries).",
-    "slug": "tox",
-    "url": "https://tox.chat",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)"
-  },
-  {
     "description": "An efficient blocker for Firefox and Chromium. Fast and lean.",
     "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",

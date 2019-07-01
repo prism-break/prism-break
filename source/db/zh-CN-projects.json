@@ -410,13 +410,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "免费、开源、点对点的加密即时通讯、视频聊天软件。该项目的目标是为大家提供安全且便利的沟通。",
-    "notes": "TOX是一个正在建设中的全新的加密通讯系统，它基于一些众所周知的加密库，具有很大的潜力，但尚未通过专业的安全审核。使用请自担风险。\n\nTox 目前还没有一个官方的 GUI，但开发团队推荐了[一些备选方案](https://wiki.tox.chat/Binaries)。",
-    "slug": "tox",
-    "url": "https://tox.chat",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)"
-  },
-  {
     "description": "Firefox 和 Chromium 浏览器中的一个有效的拦截插件，快速、有效、轻便。",
     "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",

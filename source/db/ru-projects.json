@@ -413,13 +413,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Free and open-source, peer-to-peer, encrypted instant messaging and video calling software. The stated goal of the project is to provide secure yet easily accessible communication for everyone.",
-    "notes": "Tox is a new encrypted communications system in the making. It is built upon a well known encryption library and has great potential, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Tox, be sure to leave them feedback.\n\nTox does not yet have an official GUI but [several are recommended by the development team](https://wiki.tox.chat/Binaries).",
-    "slug": "tox",
-    "url": "https://tox.chat",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tox_(software)"
-  },
-  {
     "description": "An efficient blocker for Firefox and Chromium. Fast and lean.",
     "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",
