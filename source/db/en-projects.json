@@ -2972,7 +2972,7 @@
     "license_url": "https://github.com/syncthing/syncthing/blob/master/LICENSE",
     "logo": "syncthing.svg",
     "name": "Syncthing",
-    "notes": "Peer-to-peer. Data is encrypted in transit (with forward secrecy), but not at rest. Do not use on devices you have no physical control over, such as virtual private servers. Although having an always-online node is convenient, doing so exposes your data to third parties. Instead, use Syncthing to sync files (like photos) directly between your devices.",
+    "notes": "Peer-to-peer. Data is encrypted in transit (with forward secrecy), but not at rest. Do not use on devices you have no physical control over, such as virtual private servers. Although having an always-online node is convenient, doing so exposes your data to third parties. Instead, use Syncthing to sync files (like photos) directly between your devices. Another thing to note is that Syncthing uses centralized discovery servers, so operators of these servers will know how many devices are running Syncthing at your IP address.",
     "protocols": [
       "SSL/TLS"
     ],
