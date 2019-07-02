@@ -1347,33 +1347,29 @@
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "macOS",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       },
       {
         "name": "Windows",
         "subcategories": [
-          "Instant Messaging",
           "Video & Voice"
         ]
       }
     ],
-    "description": "Decentralized video chat application.",
+    "description": "Decentralized audio/video call app.",
     "development_stage": "experimental",
     "license_url": "https://github.com/savoirfairelinux/ring-project/blob/master/COPYING",
     "logo": "jami.svg",
