@@ -669,7 +669,7 @@ exports.projects-rejected =
     ]
 
   * logo: "yandex.svg"
-    name: "Yandex Search"
+    name: "Yandex"
     categories: [
       * name: "Web Services"
         subcategories: ["Web Search"]
