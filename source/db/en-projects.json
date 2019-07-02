@@ -2894,11 +2894,31 @@
       {
         "name": "Android",
         "subcategories": [
-          "Instant Messaging"
+          "Instant Messaging",
+          "Video & Voice"
         ]
       },
       {
         "name": "iOS",
+        "subcategories": [
+          "Instant Messaging",
+          "Video & Voice"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "Windows",
         "subcategories": [
           "Instant Messaging"
         ]
