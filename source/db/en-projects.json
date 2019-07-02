@@ -615,37 +615,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo"
   },
   {
-    "audit": {
-      "author": "Taylor Hornby",
-      "date": "2014-01-22",
-      "description": "eCryptfs appears to have a better crypto design than EncFS, but there are some red flags indicating that it was not designed by a cryptographer, and has not received enough security review. It should be safe to use, but more auditing would be a good idea.",
-      "development_stage": "released",
-      "rating": "0",
-      "url": "https://defuse.ca/audits/ecryptfs.htm"
-    },
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "description": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
-    "development_stage": "released",
-    "license_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/COPYING",
-    "logo": "ecryptfs.svg",
-    "name": "eCryptfs",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "ecryptfs",
-    "source_url": "https://git.kernel.org/cgit/linux/kernel/git/tyhicks/ecryptfs.git/tree/",
-    "tos_url": "",
-    "url": "https://ecryptfs.org",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
-  },
-  {
     "categories": [
       {
         "name": "BSD",

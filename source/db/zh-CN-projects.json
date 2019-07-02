@@ -74,12 +74,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo"
   },
   {
-    "description": "GNU/Linux 平台下的可移植的企业级加密文件存储系统。",
-    "slug": "ecryptfs",
-    "url": "http://ecryptfs.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
-  },
-  {
     "description": "雷鸟（Thunderbird）和冰鼬鼠（Icedove）上的一个 OpenPGP 加密插件。",
     "notes": "[这里有一份 Security In A Box 提供的指南](https://securityinabox.org/en/guide/thunderbird/linux/) ，指导你用 Mozilla Thunderbird、GNU Privacy Guard （GPG）和 Enigmail 加密自己的邮件。你也可以阅读自由软件基金会的[电子邮件加密指南](https://emailselfdefense.fsf.org)来了解如何加密你的电子邮件内容。",
     "slug": "enigmail",

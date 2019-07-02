@@ -74,12 +74,6 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/DuckDuckGo"
   },
   {
-    "description": "POSIX-compliant enterprise cryptographic stacked filesystem for GNU/Linux.",
-    "slug": "ecryptfs",
-    "url": "http://ecryptfs.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/ECryptfs"
-  },
-  {
     "description": "Ein OpenPGP-Add-on für Thunderbird/Icedove.",
     "notes": "[Hier findest du eine Anleitung](https://securityinabox.org/en/guide/thunderbird/linux/) von Security In A Box für die Verschlüsselung deiner E-Mail mit Mozilla Thunderbird, GNU Privacy Guard (GPG) und Enigmail. Also read the [Email Self-Defense guide](https://emailselfdefense.fsf.org) by the Free Software Foundation to learn how to encrypt your email messages.",
     "slug": "enigmail",
