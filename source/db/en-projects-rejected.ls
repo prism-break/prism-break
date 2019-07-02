@@ -47,32 +47,6 @@ exports.projects-rejected =
         subcategories: ["Productivity"]
     ]
 
-  * logo: "apple-mail.png"
-    name: "Apple Mail"
-    categories: [
-      * name: "iOS"
-        subcategories: ["Email"]
-      * name: "macOS"
-        subcategories: ["Email"]
-    ]
-
-  * logo: "em-client.svg"
-    name: "eM Client"
-    categories: [
-      * name: "macOS"
-        subcategories: ["Email"]
-      * name: "Windows"
-        subcategories: ["Email"]
-
-    ]
-
-  * logo: "the-bat.svg"
-    name: "The Bat!"
-    categories: [
-      * name: "Windows"
-        subcategories: ["Email"]
-    ]
-
   * logo: "apple-maps.svg"
     name: "Apple Maps"
     categories: [
