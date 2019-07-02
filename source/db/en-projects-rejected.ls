@@ -691,6 +691,21 @@ exports.projects-rejected =
         subcategories: ["Web Browsers"]
     ]
 
+  * logo: "yandex-disk.svg"
+    name: "Yandex.Disk"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["File Storage & Sync"]
+      * name: "Android"
+        subcategories: ["File Storage & Sync"]
+      * name: "iOS"
+        subcategories: ["File Storage & Sync"]
+      * name: "macOS"
+        subcategories: ["File Storage & Sync"]
+      * name: "Windows"
+        subcategories: ["File Storage & Sync"]
+    ]
+
   * logo: "teamspeak.svg"
     name: "TeamSpeak"
     categories: [
