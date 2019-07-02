@@ -3,13 +3,6 @@
     "description": "Форсирующая использование Tor операционная система, стремящаяся к анонимности, приватности и безопасности. Предлагает так-же готовые к использованию образы для виртуальных машин."
   },
   {
-    "description": "Šifrovani, decentralizovan email server.",
-    "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
-    "slug": "bitmessage",
-    "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage"
-  },
-  {
     "description": "Enterprise klasa računarske platforme sa stopostotnom binarnom kompatibilnosti sa RHEL-om.",
     "slug": "centos",
     "url": "https://www.centos.org/",

@@ -111,49 +111,6 @@
   {
     "categories": [
       {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Email"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Email"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Email"
-        ]
-      }
-    ],
-    "description": "Decentralized messaging application.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/Bitmessage/PyBitmessage/blob/master/LICENSE",
-    "logo": "bitmessage.svg",
-    "name": "Bitmessage",
-    "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
-    "privacy_url": "",
-    "protocols": [
-      "Tor"
-    ],
-    "slug": "bitmessage",
-    "source_url": "https://github.com/Bitmessage/PyBitmessage",
-    "tos_url": "",
-    "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "File Storage & Sync"
@@ -2573,7 +2530,6 @@
     "tos_url": "",
     "url": "https://dino.im"
   },
-
   {
     "categories": [
       {

@@ -4,13 +4,6 @@
     "notes": "Whonix 被设计用来运行在虚拟化环境下，例如 [VirtualBox](https://www.virtualbox.org/)。VirtualBox 可以安装在 Windows, Linux, macOS 和 Solaris 等操作系统上。这意味着如果你不得不使用 Windows 或 macOS，你可以用 VirtualBox 和 Whonix 来增强你的隐私和安全。"
   },
   {
-    "description": "比特信：加密、去中心化的 P2P 交流工具，基于比特币技术。",
-    "notes": "比特信是一个很有前途的 Email 的替代品，但是还没有安全专家对其进行完整的代码审计。使用时需自担风险。如果你决定使用比特信，请确保生成一个完全随机的 ID，以避免 ID 碰撞。",
-    "slug": "bitmessage",
-    "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage"
-  },
-  {
     "description": "企业级的计算平台，与 REHL（红帽）兼容。",
     "slug": "centos",
     "url": "https://www.centos.org/",

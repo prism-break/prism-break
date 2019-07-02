@@ -4,13 +4,6 @@
     "notes": "Whonix on suunniteltu toimimaan virtuaalikoneena, ohjelmassa kuten [VirtualBox](https://www.virtualbox.org/). VirtualBox on mahdollista asentaa Windows, Linux, macOS, and Solaris käyttöjärjestelmiin. Tämä tarkoittaa, että jos joudut jostain syystä käyttämään Windowsia tai macOS:ää, voit asentaa VirtualBoxin ja käyttää sitä vahvistaaksesi yksityisyyttäsi ja turvallisuuttasi. Huomaa, että järjestelmän tietoturva ja yksityisyys voivat riippua hypervisorin isäntäkäyttöjärjestelmästä."
   },
   {
-    "description": "Salattu, ja hajautettu P2P viestintäpalvelu, jonka teknologia pohjautuu Bitcoiniin.",
-    "notes": "Bitmessage on lupaava vaihtoehto sähköpostille, mutta tietoturva-alan asiantuntijat eivät ole vielä auditoineet sitä. Käytä ohjelmaa omalla vastuulla. Jos päätät kokeilla Bitmessagea, varmista että luot täysin satunnaisen ID:n välttääksesi ID-tunnusten yhteentörmäyksen.",
-    "slug": "bitmessage",
-    "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage"
-  },
-  {
     "description": "Yritysluokan tietojenkäsittelyalusta, jonka binäärit sopivat 100% RHEL:in kanssa.",
     "slug": "centos",
     "url": "https://www.centos.org/",

@@ -3,13 +3,6 @@
     "description": "Système d'exploitation (OS) utilisant Tor et mettant l'accent sur l'anonymat et la sécurité. Des images pour machine virtuelle sont disponibles."
   },
   {
-    "description": "Le service de messagerie P2P décentralisé et chiffré basé sur la technologie Bitcoin.",
-    "notes": "Bitmessage est une alternative au courrier électronique prometteuse, mais il n'a pas été audité par des professionels en sécurité. A utiliser à vos risques et périls. Si vous décidez d'essayer Bitmessage, soyez sûre de générer un ID complètement aléatoire afin de grandement réduire le risque de collision des ID.",
-    "slug": "bitmessage",
-    "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Bitmessage"
-  },
-  {
     "description": "Plate-forme informatique entreprise compatible avec RHEL.",
     "slug": "centos",
     "url": "https://www.centos.org/",

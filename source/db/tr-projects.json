@@ -3,13 +3,6 @@
     "description": "VM-dostu Debian ve Tor tabanlı anonimlik, gizlilik ve güvenlik odaklı İS."
   },
   {
-    "description": "Bitcoin teknolojisi tabanlı şifreli, merkezsiz P2P mesajlaşma servisi.",
-    "notes": "Bitmessage is a promising alternative to email, but it has not yet been audited by security professionals. Use at your own risk. If you decide to try out Bitmessage, make sure to generate a completely random ID to greatly reduce the probability of ID collisions.",
-    "slug": "bitmessage",
-    "url": "https://bitmessage.org/wiki/Main_Page",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitmessage"
-  },
-  {
     "description": "Enterprise class computing platform with 100% binary compatbility with RHEL.",
     "slug": "centos",
     "url": "https://www.centos.org/",
