@@ -533,8 +533,8 @@ exports.projects-rejected =
         subcategories: ["Media Publishing"]
     ]
 
-  * logo: "yahoo.svg"
-    name: "Yahoo! Mail"
+  * logo: "yahoo-mail.svg"
+    name: "Yahoo Mail"
     categories: [
       * name: "Web Services"
         subcategories: ["Email"]
