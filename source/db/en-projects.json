@@ -3325,6 +3325,52 @@
         ]
       }
     ],
+    "description": "Identity isolation for Firefox.",
+    "development_stage": "released",
+    "license_url": "https://github.com/mozilla/multi-account-containers/blob/master/LICENSE.txt",
+    "logo": "multi-account-containers.svg",
+    "name": "Multi-Account Containers",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [],
+    "slug": "multi-account-containers",
+    "source_url": "https://github.com/mozilla/multi-account-containers",
+    "tos_url": "",
+    "url": "https://addons.mozilla.org/firefox/addon/multi-account-containers/"
+  },
+  {
+    "categories": [
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Android",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      }
+    ],
     "description": "An efficient blocker for Firefox and Chromium. Fast and lean.",
     "development_stage": "released",
     "license_url": "https://github.com/gorhill/uBlock/blob/master/LICENSE.txt",
