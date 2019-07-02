@@ -1023,47 +1023,6 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "description": "XMPP client for desktop.",
-    "development_stage": "released",
-    "license_url": "https://trac.gajim.org/browser/COPYING",
-    "logo": "gajim.svg",
-    "name": "Gajim",
-    "notes": "Gajim also stores your passwords in plaintext. You can avoid this by installing gnome-keyring and python-gnome2-desktop on GNOME or kwalletcli for Kwallet on KDE.",
-    "privacy_url": "",
-    "protocols": [
-      "GPG",
-      "OMEMO",
-      "OTR",
-      "SSL/TLS",
-      "XMPP"
-    ],
-    "slug": "gajim",
-    "source_url": "https://gajim.org/dev.php",
-    "tos_url": "",
-    "url": "http://gajim.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Gajim"
-  },
-  {
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
           "Disk Encryption"
         ]
       }
