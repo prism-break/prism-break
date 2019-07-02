@@ -748,7 +748,7 @@ exports.projects-rejected =
         subcategories: ["Enterprise Suite"]
     ]
 
-  * logo: "icq.png"
+  * logo: "icq.svg"
     name: "ICQ"
     categories: [
       * name: "Web Services"
