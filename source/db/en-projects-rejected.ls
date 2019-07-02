@@ -6,15 +6,6 @@ exports.projects-rejected =
         subcategories: ["Media Publishing"]
     ]
 
-  * logo: "apple-facetime.svg"
-    name: "FaceTime"
-    categories: [
-      * name: "iOS"
-        subcategories: ["Video & Voice"]
-      * name: "macOS"
-        subcategories: ["Video & Voice"]
-    ]
-
   * logo: "apple-filevault.png"
     name: "FileVault"
     categories: [
@@ -54,15 +45,6 @@ exports.projects-rejected =
         subcategories: ["World Maps"]
       * name: "macOS"
         subcategories: ["World Maps"]
-    ]
-
-  * logo: "apple-imessage.svg"
-    name: "iMessage"
-    categories: [
-      * name: "iOS"
-        subcategories: ["Instant Messaging"]
-      * name: "macOS"
-        subcategories: ["Instant Messaging"]
     ]
 
   * logo: "apple-macos.svg"
@@ -535,17 +517,6 @@ exports.projects-rejected =
         subcategories: ["VPN"]
       * name: "Windows"
         subcategories: ["VPN"]
-    ]
-
-  * logo: "whatsapp.svg"
-    name: "WhatsApp"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Instant Messaging"]
-      * name: "Android"
-        subcategories: ["Instant Messaging"]
-      * name: "iOS"
-        subcategories: ["Instant Messaging"]
     ]
 
   * logo: "yahoo-flickr.svg"
