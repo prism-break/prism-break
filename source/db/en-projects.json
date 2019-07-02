@@ -1569,29 +1569,6 @@
   {
     "categories": [
       {
-        "name": "Routers",
-        "subcategories": [
-          "Firmware"
-        ]
-      }
-    ],
-    "description": "A GNU/Linux-libre distribution for embedded devices.",
-    "development_stage": "released",
-    "license_url": "https://librecmc.org/librecmc/artifact/dfac199a7539a404",
-    "logo": "librecmc.svg",
-    "name": "libreCMC",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "librecmc",
-    "source_url": "https://librecmc.org/librecmc/dir?ci=5e69e4fd8b5aa721&name=trunk",
-    "tos_url": "",
-    "url": "https://librecmc.org/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/LibreCMC"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Collaboration"
