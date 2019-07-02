@@ -2550,6 +2550,37 @@
   {
     "categories": [
       {
+        "name": "BSD",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Instant Messaging"
+        ]
+      }
+    ],
+    "description": "Modern XMPP client for GNOME.",
+    "development_stage": "released",
+    "license_url": "https://github.com/dino/dino/blob/master/LICENSE",
+    "logo": "dino.svg",
+    "name": "Dino",
+    "notes": "",
+    "privacy_url": "",
+    "protocols": [
+      "XMPP"
+    ],
+    "slug": "dino",
+    "source_url": "https://github.com/dino/dino",
+    "tos_url": "",
+    "url": "https://dino.im"
+  },
+
+  {
+    "categories": [
+      {
         "name": "Servers",
         "subcategories": [
           "Social Networks"
