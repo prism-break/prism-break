@@ -1302,6 +1302,27 @@
   {
     "categories": [
       {
+        "name": "Servers",
+        "subcategories": [
+          "Email"
+        ]
+      }
+    ],
+    "description": "Email server installer and manager.",
+    "development_stage": "released",
+    "license_url": "https://github.com/mail-in-a-box/mailinabox/blob/master/LICENSE",
+    "logo": "mailinabox.svg",
+    "name": "Mail-in-a-Box",
+    "notes": "",
+    "protocols": [],
+    "slug": "iredmail",
+    "source_url": "https://github.com/mail-in-a-box/mailinabox",
+    "url": "https://mailinabox.email",
+    "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
         "name": "Android",
         "subcategories": [
           "Video & Voice"
