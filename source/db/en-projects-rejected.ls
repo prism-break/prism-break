@@ -662,13 +662,6 @@ exports.projects-rejected =
     ]
 
   * logo: "yandex.svg"
-    name: "Yandex.Mail"
-    categories: [
-      * name: "Web Services"
-        subcategories: ["Email"]
-    ]
-
-  * logo: "yandex.svg"
     name: "Yandex"
     categories: [
       * name: "Web Services"
@@ -704,6 +697,13 @@ exports.projects-rejected =
         subcategories: ["File Storage & Sync"]
       * name: "Windows"
         subcategories: ["File Storage & Sync"]
+    ]
+
+  * logo: "yandex-mail.svg"
+    name: "Yandex.Mail"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Email"]
     ]
 
   * logo: "teamspeak.svg"
