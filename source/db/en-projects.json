@@ -2608,62 +2608,6 @@
   {
     "categories": [
       {
-        "name": "Android",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "iOS",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "macOS",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Instant Messaging"
-        ]
-      }
-    ],
-    "description": "Matrix client designed for group chat.",
-    "development_stage": "released",
-    "license_url": "https://github.com/vector-im/vector-web/blob/master/LICENSE",
-    "logo": "riot.svg",
-    "name": "Riot",
-    "notes": "End-to-end encryption is in beta on Web as of Nov 5th 2016, with other platforms following week of Nov 14th",
-    "privacy_url": "",
-    "protocols": [
-      "SSL/TLS",
-      "Matrix"
-    ],
-    "slug": "riot",
-    "source_url": "https://github.com/vector-im",
-    "tos_url": "",
-    "url": "https://riot.im/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Matrix_(communication_protocol)"
-  },
-  {
-    "categories": [
-      {
         "name": "Web Services",
         "subcategories": [
           "Email",
