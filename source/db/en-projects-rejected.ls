@@ -439,17 +439,6 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging", "Social Networks"]
     ]
 
-  * logo: "symantec.svg"
-    name: "Symantec Drive Encryption"
-    categories: [
-      * name: "GNU/Linux"
-        subcategories: ["Disk Encryption"]
-      * name: "macOS"
-        subcategories: ["Disk Encryption"]
-      * name: "Windows"
-        subcategories: ["Disk Encryption"]
-    ]
-
   * logo: "trillian.svg"
     name: "Trillian"
     categories: [
