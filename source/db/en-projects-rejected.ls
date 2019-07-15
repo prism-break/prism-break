@@ -6,13 +6,6 @@ exports.projects-rejected =
         subcategories: ["Media Publishing"]
     ]
 
-  * logo: "apple-filevault.png"
-    name: "FileVault"
-    categories: [
-      * name: "macOS"
-        subcategories: ["Disk Encryption"]
-    ]
-
   * logo: "apple-icloud.svg"
     name: "iCloud"
     categories: [
