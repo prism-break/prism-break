@@ -335,13 +335,6 @@ exports.projects-rejected =
         subcategories: ["World Maps"]
     ]
 
-  * logo: "ms-bitlocker.png"
-    name: "BitLocker"
-    categories: [
-      * name: "Windows"
-        subcategories: ["Disk Encryption"]
-    ]
-
   * logo: "ms-exchange.svg"
     name: "Microsoft Exchange"
     categories: [
