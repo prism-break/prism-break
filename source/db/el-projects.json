@@ -31,13 +31,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "A convenience and ease-of-use layer for use on top of dm-crypt.",
-    "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\nSlackware Linux also maintains [a guide](http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
-    "slug": "cryptsetup",
-    "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt"
-  },
-  {
     "description": "Δημοφιλής 'ηθική' διανομή GNU/Linux.",
     "slug": "debian",
     "url": "http://debian.org",

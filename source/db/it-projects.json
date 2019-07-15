@@ -35,13 +35,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "LUKS è un layer conveniente e semplice da usare con dm-crypt.",
-    "notes": "Gentoo ha [una guida](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) per dm-crypt con LUKS.\n\nAnche Arch Linux mantiene [una guida](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) per dm-crypt con LUKS.\n\ndm-crypt è disponibile per DragonFly BSD.",
-    "slug": "cryptsetup",
-    "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt"
-  },
-  {
     "description": "Distribuzione GNU/Linux famosa per il suo contratto sociale.",
     "slug": "debian",
     "url": "http://debian.org",

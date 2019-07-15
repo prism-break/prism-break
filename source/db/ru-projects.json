@@ -36,13 +36,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Удобные и простые в использовании утилиты, работающие поверх dm-crypt.",
-    "notes": "Gentoo Wiki [содержит инструкцию](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) по использованию dm-crypt с LUKS. \n\nArch Wiki тоже [содержит инструкцию](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) по использованию dm-crypt с LUKS. \n\nСообщество Slackware Linux [предоставляет инструкцию](http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT) по использованию dm-crypt с LUKS. \n\ndm-crypt также доступен для DragonFly BSD.",
-    "slug": "cryptsetup",
-    "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt"
-  },
-  {
     "description": "Популярный GNU/Linux дистрибутив.",
     "slug": "debian",
     "url": "https://www.debian.org/index.ru.html",
