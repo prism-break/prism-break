@@ -949,29 +949,6 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "description": "Disk encryption subsystem included in the FreeBSD operating system.",
-    "development_stage": "released",
-    "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
-    "logo": "",
-    "name": "geli",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "geli",
-    "source_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
-    "tos_url": "",
-    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29"
-  },
-  {
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
           "File Storage & Sync"
         ]
       },
