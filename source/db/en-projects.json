@@ -433,6 +433,51 @@
   {
     "categories": [
       {
+        "name": "Android",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "BSD",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "GNU/Linux",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "macOS",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      },
+      {
+        "name": "Windows",
+        "subcategories": [
+          "Web Browser Addons"
+        ]
+      }
+    ],
+    "description": "Per-tab identity isolation for Firefox.",
+    "development_stage": "released",
+    "license_url": "https://github.com/stoically/temporary-containers/blob/master/LICENSE",
+    "logo": "temporary-containers.svg",
+    "name": "Temporary Containers",
+    "protocols": [],
+    "slug": "temporary-containers",
+    "source_url": "https://github.com/stoically/temporary-containers",
+    "tos_url": "",
+    "url": "https://addons.mozilla.org/firefox/addon/temporary-containers/",
+    "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
         "name": "Servers",
         "subcategories": [
           "Social Networks"
@@ -3139,7 +3184,7 @@
         ]
       }
     ],
-    "description": "Identity isolation for Firefox.",
+    "description": "Manual identity isolation for Firefox.",
     "development_stage": "released",
     "license_url": "https://github.com/mozilla/multi-account-containers/blob/master/LICENSE.txt",
     "logo": "multi-account-containers.svg",
