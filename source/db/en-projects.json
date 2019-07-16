@@ -393,35 +393,6 @@
       {
         "name": "GNU/Linux",
         "subcategories": [
-          "Disk Encryption"
-        ]
-      },
-      {
-        "name": "Servers",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "description": "A convenience and ease-of-use layer for use on top of dm-crypt.",
-    "development_stage": "released",
-    "license_url": "https://gitlab.com/cryptsetup/cryptsetup/blob/master/COPYING",
-    "logo": "luks.png",
-    "name": "LUKS",
-    "notes": "Gentoo maintains [a guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) for dm-crypt with LUKS.\n\nArch Linux also maintains [a guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) to dm-crypt with LUKS.\n\nSlackware Linux also maintains [a guide](http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT) to dm-crypt with LUKS.\n\ndm-crypt is available for DragonFly BSD.",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "cryptsetup",
-    "source_url": "https://gitlab.com/cryptsetup/cryptsetup/tree/master",
-    "tos_url": "",
-    "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup"
-  },
-  {
-    "categories": [
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
           "Operating Systems"
         ]
       },
@@ -943,29 +914,6 @@
     "tos_url": "",
     "url": "http://friendica.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica"
-  },
-  {
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "description": "Disk encryption subsystem included in the FreeBSD operating system.",
-    "development_stage": "released",
-    "license_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
-    "logo": "",
-    "name": "geli",
-    "notes": "",
-    "privacy_url": "",
-    "protocols": [],
-    "slug": "geli",
-    "source_url": "http://svnweb.freebsd.org/base/head/etc/rc.d/geli?view=markup&pathrev=239595",
-    "tos_url": "",
-    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29"
   },
   {
     "categories": [
@@ -3347,25 +3295,6 @@
     "tos_url": "",
     "url": "https://github.com/Upload/Up1/blob/master/README.md",
     "wikipedia_url": ""
-  },
-  {
-    "categories": [
-      {
-        "name": "Windows",
-        "subcategories": [
-          "Disk Encryption"
-        ]
-      }
-    ],
-    "description": "Deniable disk encryption.",
-    "development_stage": "released",
-    "license_url": "https://www.veracrypt.fr/code/VeraCrypt/tree/License.txt",
-    "logo": "veracrypt.svg",
-    "name": "VeraCrypt",
-    "protocols": [],
-    "slug": "veracrypt",
-    "source_url": "https://www.veracrypt.fr/code/",
-    "url": "https://www.veracrypt.fr"
   },
   {
     "categories": [

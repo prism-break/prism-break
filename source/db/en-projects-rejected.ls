@@ -6,13 +6,6 @@ exports.projects-rejected =
         subcategories: ["Media Publishing"]
     ]
 
-  * logo: "apple-filevault.png"
-    name: "FileVault"
-    categories: [
-      * name: "macOS"
-        subcategories: ["Disk Encryption"]
-    ]
-
   * logo: "apple-icloud.svg"
     name: "iCloud"
     categories: [
@@ -335,13 +328,6 @@ exports.projects-rejected =
         subcategories: ["World Maps"]
     ]
 
-  * logo: "ms-bitlocker.png"
-    name: "BitLocker"
-    categories: [
-      * name: "Windows"
-        subcategories: ["Disk Encryption"]
-    ]
-
   * logo: "ms-exchange.svg"
     name: "Microsoft Exchange"
     categories: [
@@ -451,17 +437,6 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging", "Social Networks"]
       * name: "iOS"
         subcategories: ["Instant Messaging", "Social Networks"]
-    ]
-
-  * logo: "symantec.svg"
-    name: "Symantec Drive Encryption"
-    categories: [
-      * name: "GNU/Linux"
-        subcategories: ["Disk Encryption"]
-      * name: "macOS"
-        subcategories: ["Disk Encryption"]
-      * name: "Windows"
-        subcategories: ["Disk Encryption"]
     ]
 
   * logo: "trillian.svg"

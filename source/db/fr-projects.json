@@ -34,13 +34,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Une couche pratique et facile à utiliser au dessus de dm-crypt.",
-    "notes": "Gentoo maintient [un guide](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) pour dm-crypt avec LUKS.\n\nArch Linux maintient également [un guide](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) pour dm-crypt avec LUKS.\n\nSlackware Linux maintient également [un guide](http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT) pour dm-crypt avec LUKS.\n\ndm-crypt est disponible pour DragonFly BSD.",
-    "slug": "cryptsetup",
-    "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Dm-crypt"
-  },
-  {
     "description": "Distribution GNU/Linux populaire et éthique.",
     "slug": "debian",
     "url": "https://www.debian.org/index.fr.html",
@@ -121,12 +114,6 @@
     "slug": "friendica",
     "url": "http://friendica.com/",
     "wikipedia_url": "https://fr.wikipedia.org/wiki/Friendica"
-  },
-  {
-    "description": "Sous-système de chiffrement de disque inclus dans le système d'exploitation FreeBSD.",
-    "slug": "geli",
-    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
-    "wikipedia_url": "https://fr.wikipedia.org/wiki/Geli"
   },
   {
     "description": "Synchronise les dossiers dans chacun des disques de vos ordinateurs.",

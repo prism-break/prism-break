@@ -35,13 +35,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Ein bequem und einfach zu bedienende Erweiterung von dmcrypt.",
-    "notes": "Gentoo pflegt [eine Anleitung](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) zu dm-crypt mit LUKS.\n\nArch Linux pflegt [eine solche Anleitung](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) ebenso.\n\ndm-crypt ist auch für [DragonFly BSD](https://prism-break.org/de/projects/dragonfly-bsd/) verfügbar.",
-    "slug": "cryptsetup",
-    "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt"
-  },
-  {
     "description": "Populäre, ethische GNU/Linux-Distribution.",
     "slug": "debian",
     "url": "http://debian.org",
@@ -122,12 +115,6 @@
     "slug": "friendica",
     "url": "http://friendica.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica"
-  },
-  {
-    "description": "Ein Sub-System zur Festplattenverschlüsselungs unter FreeBSD.",
-    "slug": "geli",
-    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29"
   },
   {
     "description": "Synchronisiert Ordner auf allen Laufwerken Deines Computers.",

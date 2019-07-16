@@ -35,13 +35,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "LUKS 是 dm-crypt 加密程序的一个简单易用的用户接口层。",
-    "notes": "Gentoo GNU/Linux 有一个[关于 dm-crypt 和 LUKS 的指南](https://wiki.gentoo.org/wiki/DM-Cry). \n\n Arch GNU/Linux 有一个[关于 dm-crypt 和 LUKS 的指南](https://wiki.archlinux.org/index.php/Dm-cryptKS) 对 Parabola GNU/Linux 也适用。\n\n dm-crypt 在 DragonFly BSD 系统上也适用。",
-    "slug": "cryptsetup",
-    "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt"
-  },
-  {
     "description": "流行的，作风正派的 GNU/Linux 发行版。",
     "slug": "debian",
     "url": "http://debian.org",
@@ -122,12 +115,6 @@
     "slug": "friendica",
     "url": "http://friendica.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica"
-  },
-  {
-    "description": "FreeBSD 操作系统上的磁盘加密子系统。",
-    "slug": "geli",
-    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29"
   },
   {
     "description": "同步计算机上的文件夹。",

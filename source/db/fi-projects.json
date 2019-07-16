@@ -35,13 +35,6 @@
     "wikipedia_url": ""
   },
   {
-    "description": "LUKS on mukavuutta ja helppokäyttöisyyttä tarjoava kerros dm-crypt salaukselle.",
-    "notes": "Gentoo hallinnoi [opasta](https://wiki.gentoo.org/wiki/DM-Crypt_LUKS) dm-crypt:ille LUKS:illa.\n\nArch Linux myös hallinnoi [opasta](https://wiki.archlinux.org/index.php/Dm-crypt_with_LUKS) dm-crypt:ille LUKS:illa.\n\ndm-crypt on saatabilla myös DragonFly BSD:lle.",
-    "slug": "cryptsetup",
-    "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Dm-crypt"
-  },
-  {
     "description": "Erittäin suosittu ja eettinen GNU/Linux-jakelu.",
     "slug": "debian",
     "url": "http://debian.org",
@@ -122,12 +115,6 @@
     "slug": "friendica",
     "url": "http://friendica.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica"
-  },
-  {
-    "description": "FreeBSD:n levysalausjärjestelmä.",
-    "slug": "geli",
-    "url": "http://www.freebsd.org/cgi/man.cgi?query=geli&sektion=8",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Geli_%28software%29"
   },
   {
     "description": "Synkronoi tiedostot ja kansiot tietokoneiden ja verkkolevyjen välillä.",
