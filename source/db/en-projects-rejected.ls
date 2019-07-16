@@ -485,15 +485,6 @@ exports.projects-rejected =
         subcategories: ["Media Publishing"]
     ]
 
-  * logo: "viscosity.png"
-    name: "Viscosity"
-    categories: [
-      * name: "macOS"
-        subcategories: ["VPN"]
-      * name: "Windows"
-        subcategories: ["VPN"]
-    ]
-
   * logo: "yahoo-flickr.svg"
     name: "Flickr"
     categories: [
