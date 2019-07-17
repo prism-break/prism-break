@@ -137,15 +137,6 @@ exports.projects-rejected =
         subcategories: ["Social Networks", "Video & Voice"]
     ]
 
-  * logo: "google-authenticator.svg"
-    name: 'Google Authenticator'
-    categories: [
-      * name: "Android"
-        subcategories: ['Authentication']
-      * name: "iOS"
-        subcategories: ['Authentication']
-    ]
-
   * logo: "google-chrome.svg"
     name: "Google Chrome"
     protocols: ["SSL/TLS"]
