@@ -647,6 +647,12 @@
         ]
       },
       {
+        "name": "iOS",
+        "subcategories": [
+          "File Storage & Sync"
+        ]
+      },
+      {
         "name": "Servers",
         "subcategories": [
           "File Storage & Sync"
@@ -665,12 +671,12 @@
         ]
       }
     ],
-    "description": "Journaled calendar and contacts sync.",
+    "description": "Encrypted calendar, contacts and tasks sync.",
     "development_stage": "released",
     "license_url": "https://github.com/etesync/android/blob/master/LICENSE",
     "logo": "etesync.svg",
     "name": "EteSync",
-    "notes": "Data is encrypted and authenticated on the client. Integration into existing software is done via local CalDAV/CardDAV proxy. Changes to calendars and contacts (including deletion) are stored in journal and can be reverted by the user indefinitely.",
+    "notes": "Data is encrypted and authenticated on the client (end-to-end). On the desktop, it integrates with existing software using a local CalDAV/CardDAV proxy. Changes to calendars and contacts (including deletion) are stored in journal and can be reverted by the user indefinitely.",
     "privacy_url": "https://www.etesync.com/tos/#privacy",
     "protocols": [
       "SSL/TLS"
