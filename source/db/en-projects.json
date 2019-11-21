@@ -2436,7 +2436,10 @@
     "notes": "",
     "privacy_url": "",
     "protocols": [
-      "XMPP"
+      "XMPP",
+      "OMEMO",
+      "GPG",
+      "SSL/TLS"
     ],
     "slug": "dino",
     "source_url": "https://github.com/dino/dino",
