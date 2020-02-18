@@ -1415,35 +1415,6 @@
       {
         "name": "BSD",
         "subcategories": [
-          "Email"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "Email"
-        ]
-      }
-    ],
-    "description": "User-friendly, secure-by-default email client.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/mailpile/Mailpile/blob/master/COPYING.md",
-    "logo": "mailpile.svg",
-    "name": "Mailpile",
-    "protocols": [
-      "GPG",
-      "Tor"
-    ],
-    "slug": "mailpile",
-    "source_url": "https://github.com/mailpile/Mailpile",
-    "url": "https://www.mailpile.is/",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mailpile"
-  },
-  {
-    "categories": [
-      {
-        "name": "BSD",
-        "subcategories": [
           "Email Addons",
           "Web Browser Addons"
         ]
