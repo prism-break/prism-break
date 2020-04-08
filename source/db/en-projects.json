@@ -1368,26 +1368,6 @@
   {
     "categories": [
       {
-        "name": "Web Services",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "Unlimited S3-backed Tahoe-LAFS grid.",
-    "development_stage": "experimental",
-    "license_url": "",
-    "logo": "least-authority-s4.svg",
-    "name": "Least Authority S4",
-    "notes": "See <a href='/en/projects/tahoe-lafs'>Tahoe-LAFS security notes</a>.",
-    "protocols": [],
-    "slug": "least-authority-s4.svg",
-    "source_url": "",
-    "url": "https://leastauthority.com/how-it-works"
-  },
-  {
-    "categories": [
-      {
         "name": "Servers",
         "subcategories": [
           "Collaboration"
