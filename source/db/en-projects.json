@@ -2583,38 +2583,6 @@
         ]
       }
     ],
-    "description": "Client-side encryption for cloud storage.",
-    "development_stage": "released",
-    "license_url": "https://github.com/cryptomator/cryptomator/blob/master/LICENSE.txt",
-    "logo": "cryptomator.svg",
-    "name": "Cryptomator",
-    "notes": "Data is always encrypted on the client.",
-    "protocols": [],
-    "slug": "cryptomator",
-    "source_url": "https://github.com/cryptomator/cryptomator",
-    "url": "https://cryptomator.org"
-  },
-  {
-    "categories": [
-      {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
     "description": "Decentralized cloud storage.",
     "development_stage": "experimental",
     "license_url": "https://gitlab.com/NebulousLabs/Sia/blob/master/LICENSE",
