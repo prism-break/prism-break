@@ -1002,38 +1002,6 @@
   {
     "categories": [
       {
-        "name": "macOS",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "Windows",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      },
-      {
-        "name": "GNU/Linux",
-        "subcategories": [
-          "File Storage & Sync"
-        ]
-      }
-    ],
-    "description": "User-friendly sync with Tahoe-LAFS grids.",
-    "development_stage": "experimental",
-    "license_url": "https://github.com/gridsync/gridsync/blob/master/LICENSE",
-    "logo": "gridsync.svg",
-    "name": "Gridsync",
-    "notes": "Data is encrypted and authenticated on the client. Works over Tor.",
-    "protocols": [],
-    "slug": "gridsync",
-    "source_url": "https://github.com/gridsync/gridsync",
-    "url": "https://github.com/gridsync/gridsync"
-  },
-  {
-    "categories": [
-      {
         "name": "Routers",
         "subcategories": [
           "Mesh Networks"
