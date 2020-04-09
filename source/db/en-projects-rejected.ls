@@ -430,21 +430,6 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging", "Social Networks"]
     ]
 
-  * logo: "trillian.svg"
-    name: "Trillian"
-    categories: [
-      * name: "Android"
-        subcategories: ["Instant Messaging"]
-      * name: "iOS"
-        subcategories: ["Instant Messaging"]
-      * name: "GNU/Linux"
-        subcategories: ["Instant Messaging"]
-      * name: "macOS"
-        subcategories: ["Instant Messaging"]
-      * name: "Windows"
-        subcategories: ["Instant Messaging"]
-    ]
-
   * logo: "twitter.svg"
     name: "Twitter"
     categories: [
