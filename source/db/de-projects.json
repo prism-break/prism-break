@@ -4,13 +4,13 @@
     "notes": "Whonix ist dafür vorgesehen, in einer virtuellen Maschine wie z.V. [VirtualBox](https://www.virtualbox.org/) zu laufen. VirtualBox kann auf Windows, Linux, macOS, und Solaris installiert werden. Solltest du also aus welchen Gründen auch immer auf Windows oder macOS angewiesen sein, kannst du innerhalb einer VirtualBox mit Whonix trotzdem mehr Privatssphäre und Sicherheit genießen."
   },
   {
-    "description": "Computerplatform für Unternehmen mit 100%iger Binärkompatbilität mit RHEL.",
+    "description": "Computerplattform für Unternehmen mit vollständiger Binärkompatbilität mit RHEL.",
     "slug": "centos",
     "url": "https://www.centos.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/CentOS"
   },
   {
-    "description": "OMEMO or OTR encrypted IM for iOS.",
+    "description": "Sicherer iOS Instant Messenger mit OMEMO oder OTR Verschlüsselung.",
     "slug": "chatsecure",
     "url": "https://chatsecure.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Guardian_Project_(software)#ChatSecure"
@@ -111,7 +111,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Freifunk"
   },
   {
-    "description": "Privatsphärerespektierendes, verteiltes, vereinigtes soziales Netzwerk.",
+    "description": "Ein die Privatsphäre respektierendes, verteiltes, vereinigtes soziales Netzwerk.",
     "slug": "friendica",
     "url": "http://friendica.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Friendica"
@@ -123,7 +123,7 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Self hosted git server.",
+    "description": "Selbst gehosteter Git Server.",
     "slug": "gitlab",
     "url": "https://about.gitlab.com/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/GitLab"
@@ -141,7 +141,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/HTTPS_Everywhere"
   },
   {
-    "description": "Hubzilla is a powerful platform for creating interconnected websites (hubs) featuring a decentralized identity, communications, and permissions framework built using common webserver technology.",
+    "description": "Hubzilla ist eine leistungsfähige Plattform für das Erstellen von Webseiten. Das dezentrale Identitäts-, Kommunikations- und Berechtigungskonzept basiert auf weitverbreiteter Webserver-Technologie.",
     "slug": "hubzilla",
     "url": "http://hubzilla.org/",
     "wikipedia_url": ""
@@ -159,7 +159,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/K-9_Mail"
   },
   {
-    "description": "Application for people with extremely high demands on secure personal data management. Saves many different types of information such as usernames, passwords, urls, attachments and comments in one single database.",
+    "description": "Anwendung für Leute mit extrem hohen Sicherheitsanforderungen an persönliche Datenverwaltung wie Nutzernamen, Passwörter, URLs, Anhänge und Kommentare in einer einzigen Datenbank.",
     "slug": "keepassxc",
     "url": "https://keepassxc.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/KeePassXC"
@@ -171,7 +171,7 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Monero is a secure, private, untraceable P2P currency.",
+    "description": "Monero ist eine sichere, private, anonyme P2P-Kryptowährung.",
     "notes": "Please note that new, digital currencies may be volatile. Complete loss of your investment is possible for a number of reasons (software errors or attacks, identity theft, etc.). Be prepared!",
     "slug": "monero",
     "url": "https://getmonero.org",
@@ -244,13 +244,13 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenStreetMap"
   },
   {
-    "description": "A GNU/Linux distribution for embedded devices.",
+    "description": "Eine GNU/Linux-Distribution für eingebettete Systeme.",
     "slug": "openwrt",
     "url": "https://openwrt.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/OpenWrt"
   },
   {
-    "description": "Die Features und Funktionalitäten für Android.",
+    "description": "Die Features und Funktionalitäten von Tor für Android.",
     "slug": "orbot",
     "url": "https://guardianproject.info/apps/orbot/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Orbot"
@@ -262,8 +262,8 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/OsmAnd"
   },
   {
-    "description": "Tracking blocker that tries to learn who is spying on you and then blocks these ads and invisible trackers.",
-    "notes": "Privacy Badger may be less effective than a classic blacklist based solution such as uBlock or Disconnect. Advertisers can automatically unblock themselves by claiming not to track you.",
+    "description": "Mitlernender Tracking Blocker, der Werbung und Tracker von Dritten blockiert.",
+    "notes": "Privacy Badger kann weniger effektiv sein als eine klassische Blacklist-basierte Lösung wie uBlock oder Disconnect. Werbeanbieter können automatisch wieder zugelassen werden, wenn sie nachweislich keine Nutzer tracken.",
     "slug": "privacy-badger",
     "url": "https://www.eff.org/privacybadger",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Privacy_Badger"
@@ -294,7 +294,7 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/RetroShare"
   },
   {
-    "description": "Ring is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.",
+    "description": "Ring ist eine verteilte Plattform für sichere Sprach-, Video- und Chatkommunikation, die keine zentralisierten Server benötigt und die Macht der Privatsphäre in die Hand der Nutzer legt.",
     "slug": "ring",
     "url": "https://ring.cx/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ring_(software)"
@@ -307,7 +307,7 @@
     "wikipedia_url": ""
   },
   {
-    "description": "The personal, minimalist, super-fast, no-database delicious clone.",
+    "description": "Der persönliche, minimale, super-schnelle Bookmarking Service ohne Datenbank.",
     "slug": "shaarli",
     "url": "https://github.com/shaarli/Shaarli/",
     "wikipedia_url": ""
@@ -319,8 +319,8 @@
     "wikipedia_url": ""
   },
   {
-    "description": "Continuous decentralized file synchronization.",
-    "notes": "Syncthing is a self-hosted file sharing platform, so none of your data is ever stored anywhere other than on your computers. There is no central server that might be compromised, legally or illegally. All communication is secured using TLS. The encryption used includes perfect forward secrecy to prevent any eavesdropper from gaining access to your data. Every node is identified by a strong cryptographic certificate. Only nodes you have explicitly allowed can connect to your cluster.",
+    "description": "Fortlaufende, dezentrale Dateisynchronisation.",
+    "notes": "Syncthing ist eine selbst-gehostete Plattform zum Dateiaustausch, bei der zu keiner Zeit Daten außerhalb deines Computers gespeichert werden. Es gibt keine zentralen Server, die kompromittiert werden könnten. Jegliche Kommunikation wird durch TLS mit PFS (Perfect Forward Secrecy) abgesichert, um Zugriff Dritter auf deine Daten zu unterbinden. Jeder Knoten wird durch ein starkes Zertifikat identifiziert. Nur ausgewählte Knoten können auf den Cluster verbinden.",
     "slug": "syncthing",
     "url": "https://syncthing.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Syncthing"
@@ -338,7 +338,7 @@
     "wikipedia_url": "https://de.wikipedia.org/wiki/The_Amnesic_Incognito_Live_System"
   },
   {
-    "description": "Freie VPN Lösung, die Tunnelung und Verschlüsselung verwendet, um ein sicheres privates Netzwerk zu erstellen, welches ohne zentralen Server auskommt.",
+    "description": "Freie VPN-Lösung, die Tunnel und Verschlüsselung verwendet, um ein sicheres privates Netzwerk zu erstellen, welches ohne zentralen Server auskommt.",
     "slug": "tinc",
     "url": "http://tinc-vpn.org/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tinc_%28protocol%29"
@@ -364,13 +364,13 @@
     "wikipedia_url": ""
   },
   {
-    "description": "An efficient blocker for Firefox and Chromium. Fast and lean.",
+    "description": "Ein effizienter Blocker für Firefox und Chromium. Schnell und sparsam.",
     "slug": "ublock-origin",
     "url": "https://github.com/gorhill/uBlock",
     "wikipedia_url": "https://en.wikipedia.org/wiki/UBlock#uBlock_Origin"
   },
   {
-    "description": "Client-side encrypted image host web server.",
+    "description": "Client-seitig verschlüsselter Bilder-Webserver.",
     "notes": "Up1 is a simple host that client-side encrypts images, text, and other data, and stores them, with the server knowing nothing about the contents. It has the ability to view images, text with syntax highlighting, short videos, and arbitrary binaries as downloadables.",
     "slug": "up1",
     "url": "https://github.com/Upload/Up1/blob/master/README.md",
