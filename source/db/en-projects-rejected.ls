@@ -693,6 +693,19 @@ exports.projects-rejected =
         subcategories: ["Instant Messaging"]
     ]
 
+  * logo: "whatsapp.svg"
+    name: "WhatsApp Messenger"
+    categories: [
+      * name: "Web Services"
+        subcategories: ["Instant Messaging"]
+      * name: "Android"
+        subcategories: ["Instant Messaging"]
+      * name: "iOS"
+        subcategories: ["Instant Messaging"]
+      * name: "Windows"
+        subcategories: ["Instant Messaging"]
+    ]
+
   * logo: "mirc.svg"
     name: "mIRC"
     categories: [
