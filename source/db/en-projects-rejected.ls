@@ -694,7 +694,7 @@ exports.projects-rejected =
     ]
 
   * logo: "telegram.svg"
-    name: "Telgram Messenger"
+    name: "Telgram"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
@@ -707,7 +707,7 @@ exports.projects-rejected =
     ]
 
   * logo: "whatsapp.svg"
-    name: "WhatsApp Messenger"
+    name: "WhatsApp"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
