@@ -694,7 +694,7 @@ exports.projects-rejected =
     ]
 
   * logo: "telegram.svg"
-    name: "Telgram"
+    name: "Telegram"
     categories: [
       * name: "Web Services"
         subcategories: ["Instant Messaging"]
