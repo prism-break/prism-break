@@ -45,6 +45,29 @@
       {
         "name": "Android",
         "subcategories": [
+          "Authentication"
+        ]
+      }
+    ],
+    "description": "A free, secure and open source app for Android to manage your 2-step verification tokens.",
+    "development_stage": "released",
+    "license_url": "https://github.com/beemdevelopment/Aegis/blob/master/LICENSE",
+    "logo": "aegis.png",
+    "name": "Aegis Authenticator",
+    "notes": "",
+    "privacy_url": "https://getaegis.app/aegis/privacy.html",
+    "protocols": [],
+    "slug": "aegis",
+    "source_url": "https://github.com/beemdevelopment/Aegis",
+    "tos_url": "",
+    "url": "https://getaegis.app/",
+    "wikipedia_url": ""
+  },
+  {
+    "categories": [
+      {
+        "name": "Android",
+        "subcategories": [
           "Finance"
         ]
       },
