@@ -1,8 +1,8 @@
-If you want to contribute and have any questions whatsoever, join us
-[at #prism-break on Freenode][#freenode]. It's a great place to get help. Don't
+If you want to contribute and have any questions whatsoever, join us via IRC in
+[#prism-break on libera.chat][#prism-break]. It's a great place to get help. Don't
 ask to ask, just send your question and someone will get back to you soon.
 
-[#freenode]: https://webchat.freenode.net/?channels=prism-break
+[#prism-break]: https://web.libera.chat/#prism-break
 
 ## Help wanted
 
