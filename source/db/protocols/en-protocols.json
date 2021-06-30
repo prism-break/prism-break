@@ -53,7 +53,7 @@
         "name": "Encryption"
       }
     ],
-    "description": "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.",
+    "description": "GNU Privacy Guard (GnuPG or GPG) is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis’ Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems.",
     "full_name": "GNU Privacy Guard",
     "name": "GPG",
     "slug": "gpg",
@@ -101,7 +101,7 @@
         "name": "Encryption"
       }
     ],
-    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm 'to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline'. The name 'OMEMO' is a recursive acronym for 'OMEMO Multi-End Message and Object Encryption'. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
+    "description": "OMEMO is an extension to the Extensible Messaging and Presence Protocol (XMPP/Jabber) for multi-client end-to-end encryption developed by Andreas Straub. According to Straub, OMEMO uses the Double Ratchet Algorithm “to provide multi-end to multi-end encryption, allowing messages to be synchronized securely across multiple clients, even if some of them are offline”. The name ‘OMEMO’ is a recursive acronym for “OMEMO Multi-End Message and Object Encryption”. It is an open standard based on the Double Ratchet Algorithm and the Personal Eventing Protocol (PEP, XEP-0163). OMEMO offers future and forward secrecy and deniability with message synchronization and offline delivery.",
     "full_name": "OMEMO Multi-End Message and Object Encryption",
     "name": "OMEMO",
     "slug": "omemo",
@@ -125,7 +125,7 @@
         "name": "Syndication"
       }
     ],
-    "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called “feed”, “web feed”, or “channel”) includes full or summarized text, and metadata, like publishing date and author's name.",
+    "description": "RSS (Rich Site Summary); originally RDF Site Summary; often dubbed Really Simple Syndication, uses a family of standard web feed formats to publish frequently updated information: blog entries, news headlines, audio, video. An RSS document (called “feed”, “web feed”, or “channel”) includes full or summarized text, and metadata, like publishing date and author’s name.",
     "full_name": "Rich Site Summary",
     "name": "RSS",
     "slug": "rss",
@@ -161,7 +161,7 @@
         "name": "Anonymity"
       }
     ],
-    "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "Tor (previously TOR, an acronym for The Onion Router) is a free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user’s location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
     "full_name": "The Onion Router",
     "name": "Tor",
     "slug": "tor",
@@ -209,7 +209,7 @@
         "name": "Encryption"
       }
     ],
-    "description": "ZRTP (composed of Z and Real-time Transport Protocol) is a cryptographic key-agreement protocol to negotiate the keys for encryption between two end points in a Voice over Internet Protocol (VoIP) phone telephony call based on the Real-time Transport Protocol. It uses Diffie–Hellman key exchange and the Secure Real-time Transport Protocol (SRTP) for encryption. ZRTP was developed by Phil Zimmermann, with help from Bryce Wilcox-O'Hearn, Colin Plumb, Jon Callas and Alan Johnston and was submitted to the Internet Engineering Task Force (IETF) by Phil Zimmermann, Jon Callas and Alan Johnston on March 5, 2006 and published on April 11, 2011 as RFC 6189.",
+    "description": "ZRTP (composed of Z and Real-time Transport Protocol) is a cryptographic key-agreement protocol to negotiate the keys for encryption between two end points in a Voice over Internet Protocol (VoIP) phone telephony call based on the Real-time Transport Protocol. It uses Diffie–Hellman key exchange and the Secure Real-time Transport Protocol (SRTP) for encryption. ZRTP was developed by Phil Zimmermann, with help from Bryce Wilcox-O’Hearn, Colin Plumb, Jon Callas and Alan Johnston and was submitted to the Internet Engineering Task Force (IETF) by Phil Zimmermann, Jon Callas and Alan Johnston on March 5, 2006 and published on April 11, 2011 as RFC 6189.",
     "full_name": "Z Real-time Transport Protocol",
     "name": "ZRTP",
     "slug": "zrtp",

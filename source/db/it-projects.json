@@ -210,7 +210,7 @@
   },
   {
     "description": "Abilita JavaScript, Java e Flash solo per i siti fidati.",
-    "notes": "Installa **NoScript** e attiva ‘Disabilita gli script globalmente’ per incrementare la sicurezza del tuo browser prevenendo gli attacchi 0day in JavaScript. Questa è un’opzione drastica dato che molti siti non saranno mostrati correttamente visto che dipendono molto da JavaScript.\n\nNoScript offre una lista fidata che puoi usare per abilitare JavaScript specificamente per i siti di cui ti fidi, ma ciò è considerato [controproducente per la tua anonimitè](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) se usi NoScript con il **Tor Browser Bundle**.",
+    "notes": "Installa **NoScript** e attiva ‘Disabilita gli script globalmente’ per incrementare la sicurezza del tuo browser prevenendo gli attacchi 0-day in JavaScript. Questa è un’opzione drastica dato che molti siti non saranno mostrati correttamente visto che dipendono molto da JavaScript.\n\nNoScript offre una lista fidata che puoi usare per abilitare JavaScript specificamente per i siti di cui ti fidi, ma ciò è considerato [controproducente per la tua anonimitè](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) se usi NoScript con il **Tor Browser Bundle**.",
     "slug": "noscript",
     "url": "http://noscript.net/",
     "wikipedia_url": "https://en.wikipedia.org/wiki/NoScript"

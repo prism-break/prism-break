@@ -322,7 +322,7 @@
     "license_url": "https://github.com/siacs/Conversations/blob/development/LICENSE",
     "logo": "conversations.svg",
     "name": "Conversations",
-    "notes": "Conversations' one native code dependency on iNPUTmice is [discussed here](https://github.com/nylira/prism-break/issues/1659#issuecomment-269921269).",
+    "notes": "Conversations’ one native code dependency on iNPUTmice is [discussed here](https://github.com/nylira/prism-break/issues/1659#issuecomment-269921269).",
     "protocols": [
       "XMPP",
       "OMEMO",
@@ -1582,7 +1582,7 @@
     "license_url": "https://www.mozilla.org/MPL/",
     "logo": "mozilla-firefox.svg",
     "name": "Firefox",
-    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo for anonymous web searches.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don't want Mozilla to send reported URL hashes to Google.",
+    "notes": "Firefox does not hide your IP address from third-parties by default. If you want to anonymize your IP, consider using Tor Browser instead.\n\nFirefox sends searches through Google by default. Consider changing it to DuckDuckGo for anonymous web searches.\n\nConsidering unchecking “Block reported attack sites” and “Block reported web forgeries” in Tools -> Options -> Security (Windows & GNU/Linux) or Preferences -> Security (macOS) if you don’t want Mozilla to send reported URL hashes to Google.",
     "privacy_url": "https://www.mozilla.org/en-US/privacy/policies/websites/",
     "protocols": [
       "SSL/TLS"
@@ -1829,7 +1829,7 @@
     "license_url": "https://github.com/nextcloud/server/blob/master/COPYING-README",
     "logo": "nextcloud.svg",
     "name": "Nextcloud",
-    "notes": "Nextcloud provides a file sync & share solution that respects your privacy and is fully open source. Sync clients are available for all major platforms. Nextcloud comes with a rich ecosystem of apps including Contacts, Calendar, Video calls, Mail, Newsreader and much more.\n\nNextcloud originated as a fork of ownCloud. It is preferred because ownCloud has an \"open core\" product model and lacks some security features Nextcloud has.",
+    "notes": "Nextcloud provides a file sync & share solution that respects your privacy and is fully open source. Sync clients are available for all major platforms. Nextcloud comes with a rich ecosystem of apps including Contacts, Calendar, Video calls, Mail, Newsreader and much more.\n\nNextcloud originated as a fork of ownCloud. It is preferred because ownCloud has an “open core” product model and lacks some security features Nextcloud has.",
     "privacy_url": "",
     "protocols": [
       "CalDAV",
@@ -1884,7 +1884,7 @@
     "license_url": "https://github.com/hackademix/noscript",
     "logo": "noscript.svg",
     "name": "NoScript",
-    "notes": "Install **NoScript** and enable ‘Forbid scripts globally’ to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you're using NoScript with **Tor Browser**.",
+    "notes": "Install **NoScript** and enable ‘Forbid scripts globally’ to improve the security of your browser by preventing 0-day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you’re using NoScript with **Tor Browser**.",
     "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "protocols": [],
     "slug": "noscript",
@@ -2511,7 +2511,7 @@
     "license_url": "",
     "logo": "riseup.svg",
     "name": "Riseup",
-    "notes": "Riseup's services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
+    "notes": "Riseup’s services may also be accessed via their Tor Hidden Service addresses. A list is [available here](https://www.riseup.net/en/tor#riseups-tor-hidden-services).",
     "onion_url": "http://nzh3fv6jc6jskki3.onion",
     "privacy_url": "https://help.riseup.net/en/privacy-policy",
     "protocols": [
@@ -2922,7 +2922,7 @@
         ]
       }
     ],
-    "description": "Free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user's location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
+    "description": "Free software for enabling online anonymity. Tor directs Internet traffic through a free, worldwide, volunteer network consisting of more than four thousand relays to conceal a user’s location or usage from anyone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including “visits to Web sites, online posts, instant messages, and other communication forms”, back to the user and is intended to protect the personal privacy of users, as well as their freedom and ability to conduct confidential business by keeping their internet activities from being monitored.",
     "development_stage": "released",
     "license_url": "https://gitweb.torproject.org/tor.git/blob/HEAD:/LICENSE",
     "logo": "tor.svg",
@@ -2977,7 +2977,7 @@
     "license_url": "https://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=LICENSE",
     "logo": "tor-browser.svg",
     "name": "Tor Browser",
-    "notes": "Using Tor Browser to sign into websites that contain your real ID is counterproductive, and may trip the site's fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
+    "notes": "Using Tor Browser to sign into websites that contain your real ID is counterproductive, and may trip the site’s fraud protection. Make sure to check for HTTPS before signing in to a website through Tor.\n\nSigning into HTTP websites can result in your ID being captured by a Tor exit node.",
     "privacy_url": "https://www.torproject.org/about/overview.html.en",
     "protocols": [
       "SSL/TLS",
@@ -3285,7 +3285,7 @@
     "license_url": "https://github.com/Whonix/Whonix/blob/master/GPLv3",
     "logo": "whonix.svg",
     "name": "Whonix",
-    "notes": "Whonix is designed to be run inside of a virtualization package like [VirtualBox](https://www.virtualbox.org/). VirtualBox can be installed on Windows, Linux, macOS, and Solaris. This means that if you're stuck using Windows or macOS for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.",
+    "notes": "Whonix is designed to be run inside of a virtualization package like [VirtualBox](https://www.virtualbox.org/). VirtualBox can be installed on Windows, Linux, macOS, and Solaris. This means that if you’re stuck using Windows or macOS for whatever reason, you can install VirtualBox and use Whonix to increase your privacy and security.",
     "onion_url": "http://kkkkkkkkkk63ava6.onion",
     "privacy_url": "",
     "protocols": [
