@@ -1861,7 +1861,7 @@
     "license_url": "https://github.com/hackademix/noscript",
     "logo": "noscript.svg",
     "name": "NoScript",
-    "notes": "Install **NoScript** and enable ‘Forbid scripts globally’ to improve the security of your browser by preventing 0day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you’re using NoScript with **Tor Browser**.",
+    "notes": "Install **NoScript** and enable ‘Forbid scripts globally’ to improve the security of your browser by preventing 0-day JavaScript attacks. This is a drastic option as it will render many websites unusable as they rely heavily on JavaScript.\n\nNoScript offers a whitelist you can use to selectively enable JavaScript for sites you trust, but this is considered [especially bad for your anonymity](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) if you’re using NoScript with **Tor Browser**.",
     "privacy_url": "https://addons.mozilla.org/firefox/addon/noscript/privacy/",
     "protocols": [],
     "slug": "noscript",
