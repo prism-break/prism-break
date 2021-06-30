@@ -58,12 +58,12 @@ exports.projects-rejected =
     ]
 
   * logo: "authy.svg"
-    name: 'Authy'
+    name: "Authy"
     categories: [
       * name: "Android"
-        subcategories: ['Authentication']
+        subcategories: ["Authentication"]
       * name: "iOS"
-        subcategories: ['Authentication']
+        subcategories: ["Authentication"]
     ]
 
   * logo: "discord.svg"
