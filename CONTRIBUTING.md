@@ -1,9 +1,9 @@
 If you want to contribute and have any questions whatsoever, join us via IRC in
-[#prism-break on libera.chat][#prism-break] or via Matrix in
+[#prismbreak on libera.chat][#prismbreak] or via Matrix in
 [#prism-break:matrix.org][matrix]. It's a great place to get help. Don't
 ask to ask, just send your question and someone will get back to you soon.
 
-[#prism-break]: https://web.libera.chat/#prism-break
+[#prismbreak]: https://web.libera.chat/#prismbreak
 [matrix]: https://app.element.io/#/room/#prism-break:matrix.org
 
 ## Help wanted
