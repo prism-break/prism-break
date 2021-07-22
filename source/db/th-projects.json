@@ -1,17 +1,7 @@
 [
   {
-    "slug": "aenigma",
-    "url": "https://github.com/openspace42/aenigma"
-  },
-  {
-    "slug": "andotp"
-  },
-  {
     "description": "แลกเปลี่ยน Bitcoin แบบกระจายศูนย์กลาง",
     "slug": "bisq"
-  },
-  {
-    "slug": "bitmask"
   },
   {
     "description": "การบีบอัด เครื่องมือสำรองข้อมูลที่ซ้ำซ้อน",
@@ -19,40 +9,13 @@
     "slug": "borgbackup"
   },
   {
-    "slug": "briar"
-  },
-  {
-    "slug": "centos"
-  },
-  {
-    "slug": "chatsecure"
-  },
-  {
     "description": "โปรโตคอลเครือข่าย ระบบกฎดิจิทัลสำหรับการแลกเปลี่ยนข้อความระหว่างคอมพิวเตอร์ “แทนที่จะปล่อยให้คอมพิวเตอร์เครื่องอื่นเชื่อมต่อกับคุณผ่านที่อยู่ IP ที่ใช้ร่วมกันซึ่งทุกคนสามารถใช้ได้ cjdns จะอนุญาตให้คอมพิวเตอร์คุยกันหลังจากที่พวกเขายืนยันซึ่งกันและกันด้วยการเข้ารหัสเท่านั้น",
     "slug": "cjdns"
-  },
-  {
-    "slug": "conversations"
-  },
-  {
-    "slug": "cryptpad"
-  },
-  {
-    "slug": "debian"
   },
   {
     "description": "ปกป้องคุณจากการติดตามผ่านการรับเนื้อหาแบบ“ ฟรี” แบบรวมศูนย์ ช่วยป้องกันไม่ให้คำขอจำนวนมากเข้าถึงเครือข่ายเช่นไลบรารีที่โฮสต์ของ Google และให้บริการไฟล์ในเครื่องเพื่อป้องกันไม่ให้ไซต์เสียหาย เติมเต็มตัวบล็อกเนื้อหาปกติ",
     "notes": "- ปกป้องความเป็นส่วนตัวโดยการหลีกเลี่ยงเครือข่ายส่งขนาดใหญ่ที่อ้างว่าให้บริการฟรี \n-เติมเต็มตัวปิดกั้นปกติเช่น uBlock Origin, Privacy Badger และอื่นๆ\n-ทำงานแบบไม่จำเจ ไม่จำเป็นต้องมีการกำหนดค่าก่อนหน้านี้มาแต่ต้น\n\n Decentraleyes ป้องกันไม่ให้เว็บไซต์จำนวนมากส่งคำขอประเภทนี้ให้คุณ ท้ายที่สุดคุณสามารถสร้างคำขอบล็อก Decentraleyes สำหรับทรัพยากร CDN ที่หายไปได้เช่นกัน",
     "slug": "decentraleyes"
-  },
-  {
-    "slug": "temporary-containers"
-  },
-  {
-    "slug": "diaspora"
-  },
-  {
-    "slug": "dnscrypt-proxy"
   },
   {
     "description": "เครื่องมือค้นหาที่เป็นอิสระจากการถูกติดตาม",
@@ -74,18 +37,6 @@
     "slug": "ethercalc"
   },
   {
-    "slug": "f-droid"
-  },
-  {
-    "slug": "fedora"
-  },
-  {
-    "slug": "fennec"
-  },
-  {
-    "slug": "freebsd"
-  },
-  {
     "description": "การปกป้องความเป็นส่วนตัวบนเซิร์ฟเวอร์ปลั๊กราคาถูกเพื่อให้ทุกคนมีความเป็นส่วนตัว",
     "slug": "freedombox"
   },
@@ -94,17 +45,8 @@
     "slug": "freifunk"
   },
   {
-    "slug": "friendica"
-  },
-  {
     "notes": "อ่านเพิ่มเติม<a href='https://git-annex.branchable.com/encryption/'>encryption on git-annex wiki</a> MAC อัลกอริทึมเริ่มต้นเป็น SHA-1 ซึ่งไม่ปลอดภัย: ตรวจสอบให้แน่ใจว่าผ่าน <code>mac=HMACSHA512</code> เมือเริ่มต้นใหม่ทางไกล",
     "slug": "git-annex"
-  },
-  {
-    "slug": "gitea"
-  },
-  {
-    "slug": "gitlab"
   },
   {
     "description": "เครือข่ายไร้สายที่เปิดกว้าง เป็นกลาง และฟรี สำหรับทุกคน",
@@ -117,18 +59,6 @@
   {
     "description": "แพลตฟอร์มสำหรับการสร้างเว็บไซต์ที่เชื่อมต่อกัน",
     "slug": "hubzilla"
-  },
-  {
-    "slug": "i2p"
-  },
-  {
-    "slug": "mailinabox"
-  },
-  {
-    "slug": "jami"
-  },
-  {
-    "slug": "k-9-mail"
   },
   {
     "description": "ตัวจัดการ KeePass สำหรับ Android.",
@@ -146,9 +76,6 @@
   {
     "description": "เว็บแอปพลิเคชันที่ช่วยให้กลุ่มคนตัดสินใจร่วมกัน",
     "slug": "loomio"
-  },
-  {
-    "slug": "mailvelope"
   },
   {
     "description": "เครือข่ายสังคม microblogging แบบรวมศูนย์",
@@ -174,15 +101,6 @@
     "slug": "mozilla-thunderbird"
   },
   {
-    "slug": "mullvad"
-  },
-  {
-    "slug": "mumble"
-  },
-  {
-    "slug": "namecoin"
-  },
-  {
     "description": "Sandboxed เป็นแพลตฟอร์มสำหรับ self-hosting web apps.",
     "slug": "sandstorm"
   },
@@ -195,126 +113,6 @@
     "description": "เปิดใช้งาน JavaScript, Java และ Flash สำหรับไซต์ที่คุณเชื่อถือเท่านั้น",
     "notes": "ติดตั้ง ** NoScript ** และเปิดใช้งาน 'ห้ามใช้สคริปต์ทั่วโลก' เพื่อปรับปรุงความปลอดภัยของเบราว์เซอร์ของคุณโดยป้องกันการโจมตี 0 วัน JavaScript นี่เป็นตัวเลือกที่รุนแรงเนื่องจากจะทำให้เว็บไซต์จำนวนมากไม่สามารถใช้งานได้เนื่องจากต้องพึ่งพา JavaScript เป็นอย่างมาก\n\nNoScript เสนอรายการที่อนุญาตพิเศษที่คุณสามารถใช้เพื่อเลือกเปิดใช้งานบนเว็บไซต์ที่เป็น JavaScript ที่คุณเชื่อถือได้ แต่จะถือว่า [ไม่ดีอย่างยิ่งสำหรับการไม่เปิดเผยตัวตนของคุณ](https://www.torproject.org/docs/faq.html.en#TBBJavaScriptEnabled) หากคุณใช้ NoScript กับ ** Tor Browser **",
     "slug": "noscript"
-  },
-  {
-    "slug": "nsupdate-info"
-  },
-  {
-    "slug": "onion-browser"
-  },
-  {
-    "slug": "onionshare"
-  },
-  {
-    "slug": "open-keychain"
-  },
-  {
-    "slug": "openbsd"
-  },
-  {
-    "slug": "openstreetmap"
-  },
-  {
-    "slug": "openwrt"
-  },
-  {
-    "slug": "orbot"
-  },
-  {
-    "slug": "osmand"
-  },
-  {
-    "slug": "pagekite"
-  },
-  {
-    "slug": "peertube"
-  },
-  {
-    "slug": "pixelfed"
-  },
-  {
-    "slug": "writefreely"
-  },
-  {
-    "slug": "privacy-badger"
-  },
-  {
-    "slug": "psi"
-  },
-  {
-    "slug": "dino"
-  },
-  {
-    "slug": "pumpio"
-  },
-  {
-    "slug": "qubes"
-  },
-  {
-    "slug": "retroshare"
-  },
-  {
-    "slug": "riseup"
-  },
-  {
-    "slug": "searx"
-  },
-  {
-    "slug": "shaarli"
-  },
-  {
-    "slug": "sia"
-  },
-  {
-    "slug": "signal"
-  },
-  {
-    "slug": "silence"
-  },
-  {
-    "slug": "syncthing"
-  },
-  {
-    "slug": "tahoe-lafs"
-  },
-  {
-    "slug": "tails"
-  },
-  {
-    "slug": "tinc"
-  },
-  {
-    "slug": "tofu"
-  },
-  {
-    "slug": "tor"
-  },
-  {
-    "slug": "tor-browser"
-  },
-  {
-    "slug": "torbirdy"
-  },
-  {
-    "slug": "tt-rss"
-  },
-  {
-    "slug": "multi-account-containers"
-  },
-  {
-    "slug": "ublock-origin"
-  },
-  {
-    "slug": "up1"
-  },
-  {
-    "slug": "wallabag"
-  },
-  {
-    "slug": "whonix"
-  },
-  {
-    "slug": "wireguard"
   }
 ]
 
